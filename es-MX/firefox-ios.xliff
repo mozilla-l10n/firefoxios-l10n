@@ -50,9 +50,8 @@
         <source>Could not connect to Firefox Accounts.</source>
         <note>Settings</note>
       </trans-unit>
-      <trans-unit id="Default">
-        <source>Default</source>
-        <note>Search Settings</note>
+      <trans-unit id="Default Search Engine">
+        <source>Default Search Engine</source>
       </trans-unit>
       <trans-unit id="Disconnect">
         <source>Disconnect</source>
@@ -101,9 +100,9 @@
         <target>OK</target>
         <note>OK button</note>
       </trans-unit>
-      <trans-unit id="Providers">
-        <source>Providers</source>
-        <note>Search Settings</note>
+      <trans-unit id="Quick-search Engines">
+        <source>Quick-search Engines</source>
+        <note>Title for quick-search engines settings section.</note>
       </trans-unit>
       <trans-unit id="Reader">
         <source>Reader</source>
@@ -120,11 +119,10 @@
       </trans-unit>
       <trans-unit id="Search">
         <source>Search</source>
-        <note>Settings</note>
       </trans-unit>
-      <trans-unit id="Search Default">
-        <source>Search Default</source>
-        <note>Settings</note>
+      <trans-unit id="Search Settings">
+        <source>Search Settings</source>
+        <note>Title for search settings section.</note>
       </trans-unit>
       <trans-unit id="Search or enter address">
         <source>Search or enter address</source>
@@ -138,21 +136,23 @@
       </trans-unit>
       <trans-unit id="Settings">
         <source>Settings</source>
-        <note>Settings</note>
       </trans-unit>
       <trans-unit id="Show Tabs">
         <source>Show Tabs</source>
         <target>Mostrar pestañas</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Show search suggestions">
+        <source>Show search suggestions</source>
+        <note>Label for show search suggestions setting.</note>
+      </trans-unit>
       <trans-unit id="Sign in">
         <source>Sign in</source>
         <target>Ingresar</target>
-        <note>Settings</note>
       </trans-unit>
-      <trans-unit id="Tabs">
-        <source>Tabs</source>
-        <note>Panel accessibility label</note>
+      <trans-unit id="Tabs Tray">
+        <source>Tabs Tray</source>
+        <note>Accessibility label for the Tabs Tray view.</note>
       </trans-unit>
       <trans-unit id="Today">
         <source>Today</source>
@@ -210,14 +210,6 @@
         <source>%@ search</source>
         <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
       </trans-unit>
-      <trans-unit id="Add to Bookmarks">
-        <source>Add to Bookmarks</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Add to Reading List">
-        <source>Add to Reading List</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
       <trans-unit id="Bookmarks">
         <source>Bookmarks</source>
         <note>Panel accessibility label</note>
@@ -245,18 +237,6 @@
       <trans-unit id="Recent Bookmarks">
         <source>Recent Bookmarks</source>
         <note>Header for bookmarks list</note>
-      </trans-unit>
-      <trans-unit id="Send To Device">
-        <source>Send To Device</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Send to ">
-        <source>Send to </source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Tabs">
-        <source>Tabs</source>
-        <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Today">
         <source>Today</source>
@@ -291,6 +271,21 @@
       </trans-unit>
     </body>
   </file>
+  <file original="Extensions/SendTo/Localizable.strings" source-language="en" datatype="plaintext" target-language="es-MX">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.1.1" build-num="6A2008a"/>
+    </header>
+    <body>
+      <trans-unit id="Send To Device">
+        <source>Send To Device</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Send to ">
+        <source>Send to </source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="es-MX">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.1.1" build-num="6A2008a"/>
@@ -307,6 +302,21 @@
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
         <target>1.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Extensions/ShareTo/Localizable.strings" source-language="en" datatype="plaintext" target-language="es-MX">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.1.1" build-num="6A2008a"/>
+    </header>
+    <body>
+      <trans-unit id="Add to Bookmarks">
+        <source>Add to Bookmarks</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Add to Reading List">
+        <source>Add to Reading List</source>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>
   </file>
