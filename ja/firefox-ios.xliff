@@ -1,192 +1,401 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Client/Info.plist" source-language="en" target-language="ja" datatype="plaintext">
+  <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="ja">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.1.1" build-num="6A2008a"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" approved="yes">
-        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source> <target state="translated">$(MOZ_BUNDLE_DISPLAY_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleName" approved="yes">
-        <source>$(PRODUCT_NAME)</source> <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
-        <source>1.0</source> <target state="translated">1.0</target></trans-unit>
+      <trans-unit id="CFBundleDisplayName">
+        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
-  <file original="Client/Localizable.strings" source-language="en" datatype="plaintext">
+  <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="ja">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.1.1" build-num="6A2008a"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
-      <trans-unit id="%@ search" approved="yes">
-        <source>%@ search</source> <target state="translated">%@ 検索</target><note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
+      <trans-unit id="%@ search">
+        <source>%@ search</source>
+        <target>%@ 検索</target>
+        <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
       </trans-unit>
-      <trans-unit id="Add to Bookmarks" approved="yes">
-        <source>Add to Bookmarks</source> <target state="translated">ブックマークに追加</target><note>No comment provided by engineer.</note>
+      <trans-unit id="Address and Search">
+        <source>Address and Search</source>
+        <target>アドレスと検索</target>
+        <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
       </trans-unit>
-      <trans-unit id="Add to Reading List" approved="yes">
-        <source>Add to Reading List</source> <target state="translated">リーディングリストに追加</target><note>No comment provided by engineer.</note>
+      <trans-unit id="Back">
+        <source>Back</source>
+        <target>戻る</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Address and Search" approved="yes">
-        <source>Address and Search</source> <target state="translated">アドレスと検索</target><note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
+      <trans-unit id="Bookmarks">
+        <source>Bookmarks</source>
+        <target>ブックマーク</target>
+        <note>Panel accessibility label</note>
       </trans-unit>
-      <trans-unit id="Back" approved="yes">
-        <source>Back</source> <target state="translated">戻る</target><note>No comment provided by engineer.</note>
+      <trans-unit id="Cancel">
+        <source>Cancel</source>
+        <target>キャンセル</target>
       </trans-unit>
-      <trans-unit id="Bookmarks" approved="yes">
-        <source>Bookmarks</source> <target state="translated">ブックマーク</target><note>Panel accessibility label</note>
+      <trans-unit id="Could not connect to Firefox Accounts.">
+        <source>Could not connect to Firefox Accounts.</source>
+        <target>Firefox アカウントに接続できませんでした。</target>
+        <note>Settings</note>
       </trans-unit>
-      <trans-unit id="Cancel" approved="yes">
-        <source>Cancel</source> <target state="translated">キャンセル</target></trans-unit>
-      <trans-unit id="Could not connect to Firefox Accounts." approved="yes">
-        <source>Could not connect to Firefox Accounts.</source> <target state="translated">Firefox アカウントに接続できませんでした。</target><note>Settings</note>
+      <trans-unit id="Default Search Engine">
+        <source>Default Search Engine</source>
+        <target>デフォルト検索エンジン</target>
       </trans-unit>
-      <trans-unit id="Default Search Engine" approved="yes">
-        <source>Default Search Engine</source> <target state="translated">デフォルト検索エンジン</target></trans-unit>
-      <trans-unit id="Disconnect" approved="yes">
-        <source>Disconnect</source> <target state="translated">切断</target><note>Settings</note>
+      <trans-unit id="Disconnect">
+        <source>Disconnect</source>
+        <target>切断</target>
+        <note>Settings</note>
       </trans-unit>
-      <trans-unit id="Disconnect Firefox Account?" approved="yes">
-        <source>Disconnect Firefox Account?</source> <target state="translated">Firefox アカウントを切断しますか？</target><note>Settings</note>
+      <trans-unit id="Disconnect Firefox Account?">
+        <source>Disconnect Firefox Account?</source>
+        <target>Firefox アカウントを切断しますか？</target>
+        <note>Settings</note>
       </trans-unit>
-      <trans-unit id="Done" approved="yes">
-        <source>Done</source> <target state="translated">完了</target><note>Settings</note>
+      <trans-unit id="Done">
+        <source>Done</source>
+        <target>完了</target>
+        <note>Settings</note>
       </trans-unit>
-      <trans-unit id="Double tap and hold to open history" approved="yes">
-        <source>Double tap and hold to open history</source> <target state="translated">ダブルタップして長押しで履歴を開きます</target><note>No comment provided by engineer.</note>
+      <trans-unit id="Double tap and hold to open history">
+        <source>Double tap and hold to open history</source>
+        <target>ダブルタップして長押しで履歴を開きます</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Enter your password to connect." approved="yes">
-        <source>Enter your password to connect.</source> <target state="translated">接続のためパスワードを入力してください。</target><note>Settings</note>
+      <trans-unit id="Enter your password to connect.">
+        <source>Enter your password to connect.</source>
+        <target>接続のためパスワードを入力してください。</target>
+        <note>Settings</note>
       </trans-unit>
-      <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device." approved="yes">
-        <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source> <target state="translated">Firefox はあなたのアカウントとの同期を中止しますが、この端末上のブラウズ履歴は削除されません。</target><note>Settings</note>
+      <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.">
+        <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
+        <target>Firefox はあなたのアカウントとの同期を中止しますが、この端末上のブラウズ履歴は削除されません。</target>
+        <note>Settings</note>
       </trans-unit>
-      <trans-unit id="Forward" approved="yes">
-        <source>Forward</source> <target state="translated">進む</target><note>No comment provided by engineer.</note>
+      <trans-unit id="Forward">
+        <source>Forward</source>
+        <target>進む</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="History" approved="yes">
-        <source>History</source> <target state="translated">履歴</target><note>Panel accessibility label</note>
+      <trans-unit id="History">
+        <source>History</source>
+        <target>履歴</target>
+        <note>Panel accessibility label</note>
       </trans-unit>
-      <trans-unit id="Last month" approved="yes">
-        <source>Last month</source> <target state="translated">先月</target><note>No comment provided by engineer.</note>
+      <trans-unit id="Last month">
+        <source>Last month</source>
+        <target>先月</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Last week" approved="yes">
-        <source>Last week</source> <target state="translated">先週</target><note>No comment provided by engineer.</note>
+      <trans-unit id="Last week">
+        <source>Last week</source>
+        <target>先週</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="OK" approved="yes">
-        <source>OK</source> <target state="translated">OK</target><note>OK button</note>
+      <trans-unit id="OK">
+        <source>OK</source>
+        <target>OK</target>
+        <note>OK button</note>
       </trans-unit>
-      <trans-unit id="Quick-search Engines" approved="yes">
-        <source>Quick-search Engines</source> <target state="translated">クイック検索エンジン</target><note>Title for quick-search engines settings section.</note>
+      <trans-unit id="Quick-search Engines">
+        <source>Quick-search Engines</source>
+        <target>クイック検索エンジン</target>
+        <note>Title for quick-search engines settings section.</note>
       </trans-unit>
-      <trans-unit id="Reader" approved="yes">
-        <source>Reader</source> <target state="translated">リーダー</target><note>Browser function that presents simplified version of the page with bigger text.</note>
+      <trans-unit id="Reader">
+        <source>Reader</source>
+        <target>リーダー</target>
+        <note>Browser function that presents simplified version of the page with bigger text.</note>
       </trans-unit>
-      <trans-unit id="Reading list" approved="yes">
-        <source>Reading list</source> <target state="translated">リーディングリスト</target><note>Panel accessibility label</note>
+      <trans-unit id="Reading list">
+        <source>Reading list</source>
+        <target>リーディングリスト</target>
+        <note>Panel accessibility label</note>
       </trans-unit>
-      <trans-unit id="Recent Bookmarks" approved="yes">
-        <source>Recent Bookmarks</source> <target state="translated">最近のブックマーク</target><note>Header for bookmarks list</note>
+      <trans-unit id="Recent Bookmarks">
+        <source>Recent Bookmarks</source>
+        <target>最近のブックマーク</target>
+        <note>Header for bookmarks list</note>
       </trans-unit>
-      <trans-unit id="Search" approved="yes">
-        <source>Search</source> <target state="translated">検索</target></trans-unit>
-      <trans-unit id="Search Settings" approved="yes">
-        <source>Search Settings</source> <target state="translated">検索設定</target><note>Title for search settings section.</note>
+      <trans-unit id="Search">
+        <source>Search</source>
+        <target>検索</target>
       </trans-unit>
-      <trans-unit id="Search or enter address" approved="yes">
-        <source>Search or enter address</source> <target state="translated">検索語またはアドレスを入力</target><note>The text shown in the URL bar on about:home</note>
+      <trans-unit id="Search Settings">
+        <source>Search Settings</source>
+        <target>検索設定</target>
+        <note>Title for search settings section.</note>
       </trans-unit>
-      <trans-unit id="Secure connection" approved="yes">
-        <source>Secure connection</source> <target state="translated">安全な接続</target><note>No comment provided by engineer.</note>
+      <trans-unit id="Search or enter address">
+        <source>Search or enter address</source>
+        <target>検索語またはアドレスを入力</target>
+        <note>The text shown in the URL bar on about:home</note>
       </trans-unit>
-      <trans-unit id="Send To Device" approved="yes">
-        <source>Send To Device</source> <target state="translated">端末に送信</target><note>No comment provided by engineer.</note>
+      <trans-unit id="Secure connection">
+        <source>Secure connection</source>
+        <target>安全な接続</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Send to " approved="yes">
-        <source>Send to</source> <target state="translated">送信先</target><note>No comment provided by engineer.</note>
+      <trans-unit id="Settings">
+        <source>Settings</source>
+        <target>設定</target>
       </trans-unit>
-      <trans-unit id="Settings" approved="yes">
-        <source>Settings</source> <target state="translated">設定</target></trans-unit>
-      <trans-unit id="Show Tabs" approved="yes">
-        <source>Show Tabs</source> <target state="translated">タブを表示</target><note>No comment provided by engineer.</note>
+      <trans-unit id="Show Tabs">
+        <source>Show Tabs</source>
+        <target>タブを表示</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Show search suggestions" approved="yes">
-        <source>Show search suggestions</source> <target state="translated">検索候補を表示</target><note>Label for show search suggestions setting.</note>
+      <trans-unit id="Show search suggestions">
+        <source>Show search suggestions</source>
+        <target>検索候補を表示</target>
+        <note>Label for show search suggestions setting.</note>
       </trans-unit>
-      <trans-unit id="Sign in" approved="yes">
-        <source>Sign in</source> <target state="translated">サインイン</target></trans-unit>
+      <trans-unit id="Sign in">
+        <source>Sign in</source>
+        <target>サインイン</target>
+      </trans-unit>
       <trans-unit id="Tabs Tray">
-        <source>Tabs Tray</source> <target state="needs-review-translation">タブトレイ</target><note>Accessibility label for the Tabs Tray view.</note>
+        <source>Tabs Tray</source>
+        <target>タブトレイ</target>
+        <note>Accessibility label for the Tabs Tray view.</note>
       </trans-unit>
-      <trans-unit id="Today" approved="yes">
-        <source>Today</source> <target state="translated">今日</target><note>No comment provided by engineer.</note>
+      <trans-unit id="Today">
+        <source>Today</source>
+        <target>今日</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Top sites">
-        <source>Top sites</source> <target state="needs-review-translation">トップサイト</target><note>Panel accessibility label</note>
+        <source>Top sites</source>
+        <target>トップサイト</target>
+        <note>Panel accessibility label</note>
       </trans-unit>
-      <trans-unit id="URL" approved="yes">
-        <source>URL</source> <target state="translated">URL</target><note>Accessibility label</note>
+      <trans-unit id="URL">
+        <source>URL</source>
+        <target>URL</target>
+        <note>Accessibility label</note>
       </trans-unit>
-      <trans-unit id="Upgrade Firefox to connect." approved="yes">
-        <source>Upgrade Firefox to connect.</source> <target state="translated">接続するには Firefox をアップグレードしてください。</target><note>Settings</note>
+      <trans-unit id="Upgrade Firefox to connect.">
+        <source>Upgrade Firefox to connect.</source>
+        <target>接続するには Firefox をアップグレードしてください。</target>
+        <note>Settings</note>
       </trans-unit>
-      <trans-unit id="Verify your email address." approved="yes">
-        <source>Verify your email address.</source> <target state="translated">メールアドレスを確認してください。</target><note>Settings</note>
+      <trans-unit id="Verify your email address.">
+        <source>Verify your email address.</source>
+        <target>メールアドレスを確認してください。</target>
+        <note>Settings</note>
       </trans-unit>
-      <trans-unit id="Web content" approved="yes">
-        <source>Web content</source> <target state="translated">Web コンテンツ</target><note>Accessibility label for the main web content view</note>
+      <trans-unit id="Web content">
+        <source>Web content</source>
+        <target>Web コンテンツ</target>
+        <note>Accessibility label for the main web content view</note>
       </trans-unit>
-      <trans-unit id="Yesterday" approved="yes">
-        <source>Yesterday</source> <target state="translated">昨日</target><note>No comment provided by engineer.</note>
+      <trans-unit id="Yesterday">
+        <source>Yesterday</source>
+        <target>昨日</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext">
+  <file original="Client/search.strings" source-language="en" datatype="plaintext" target-language="ja">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.1.1" build-num="6A2008a"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
-        <source>$(PRODUCT_NAME)</source> <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
-        <source>1.0</source> <target state="translated">1.0</target></trans-unit>
+      <trans-unit id="No">
+        <source>No</source>
+        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+      </trans-unit>
+      <trans-unit id="Turn on search suggestions?">
+        <source>Turn on search suggestions?</source>
+        <note>Prompt shown before enabling provider search queries</note>
+      </trans-unit>
+      <trans-unit id="Yes">
+        <source>Yes</source>
+        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+      </trans-unit>
     </body>
   </file>
-  <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext">
+  <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="ja">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.1.1" build-num="6A2008a"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" approved="yes">
-        <source>Send To</source> <target state="translated">送信先</target></trans-unit>
-      <trans-unit id="CFBundleName" approved="yes">
-        <source>$(PRODUCT_NAME)</source> <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
-        <source>1.0</source> <target state="translated">1.0</target></trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext">
+  <file original="ClientTests/Localizable.strings" source-language="en" datatype="plaintext" target-language="ja">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.1.1" build-num="6A2008a"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" approved="yes">
-        <source>Share To</source> <target state="translated">共有先</target></trans-unit>
-      <trans-unit id="CFBundleName" approved="yes">
-        <source>$(PRODUCT_NAME)</source> <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
-        <source>1.0</source> <target state="translated">1.0</target></trans-unit>
+      <trans-unit id="%@ search">
+        <source>%@ search</source>
+        <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks">
+        <source>Bookmarks</source>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Could not connect to Firefox Accounts.">
+        <source>Could not connect to Firefox Accounts.</source>
+        <note>Settings</note>
+      </trans-unit>
+      <trans-unit id="History">
+        <source>History</source>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Last month">
+        <source>Last month</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Last week">
+        <source>Last week</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Reading list">
+        <source>Reading list</source>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Recent Bookmarks">
+        <source>Recent Bookmarks</source>
+        <note>Header for bookmarks list</note>
+      </trans-unit>
+      <trans-unit id="Today">
+        <source>Today</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Top sites">
+        <source>Top sites</source>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Yesterday">
+        <source>Yesterday</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
     </body>
   </file>
-  <file original="UITests/Info.plist" source-language="en" datatype="plaintext">
+  <file original="ClientTests/search.strings" source-language="en" datatype="plaintext" target-language="ja">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.1.1" build-num="6A2008a"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
-        <source>$(PRODUCT_NAME)</source> <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
-        <source>1.0</source> <target state="translated">1.0</target></trans-unit>
+      <trans-unit id="No">
+        <source>No</source>
+        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+      </trans-unit>
+      <trans-unit id="Turn on search suggestions?">
+        <source>Turn on search suggestions?</source>
+        <note>Prompt shown before enabling provider search queries</note>
+      </trans-unit>
+      <trans-unit id="Yes">
+        <source>Yes</source>
+        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="ja">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>Send To</source>
+        <target>送信先</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+        <target>1.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Extensions/SendTo/Localizable.strings" source-language="en" datatype="plaintext" target-language="ja">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="Send To Device">
+        <source>Send To Device</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Send to ">
+        <source>Send to </source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="ja">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>Share To</source>
+        <target>共有先</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+        <target>1.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Extensions/ShareTo/Localizable.strings" source-language="en" datatype="plaintext" target-language="ja">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="Add to Bookmarks">
+        <source>Add to Bookmarks</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Add to Reading List">
+        <source>Add to Reading List</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="UITests/Info.plist" source-language="en" datatype="plaintext" target-language="ja">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
