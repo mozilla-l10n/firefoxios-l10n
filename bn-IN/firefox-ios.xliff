@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Client/Info.plist" source-language="en" target-language="bn-IN" datatype="plaintext">
+  <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="bn-IN">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.1.1" build-num="6A2008a"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -19,25 +19,15 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Localizable.strings" source-language="en" target-language="bn-IN" datatype="plaintext">
+  <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="bn-IN">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.1.1" build-num="6A2008a"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
       <trans-unit id="%@ search">
         <source>%@ search</source>
         <target>%@ খোঁজো</target>
         <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
-      </trans-unit>
-      <trans-unit id="Add to Bookmarks">
-        <source>Add to Bookmarks</source>
-        <target>বুকমার্কে যোগ করুন</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Add to Reading List">
-        <source>Add to Reading List</source>
-        <target>পঠন তালিকা যোগ করুন</target>
-        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Address and Search">
         <source>Address and Search</source>
@@ -143,8 +133,8 @@
         <note>Header for bookmarks list</note>
       </trans-unit>
       <trans-unit id="Search">
-       <source>Search</source>
-       <target>অনুসন্ধান </target>
+        <source>Search</source>
+        <target>অনুসন্ধান </target>
       </trans-unit>
       <trans-unit id="Search Settings">
         <source>Search Settings</source>
@@ -159,16 +149,6 @@
       <trans-unit id="Secure connection">
         <source>Secure connection</source>
         <target>সুরক্ষিত সংযোগ</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Send To Device">
-        <source>Send To Device</source>
-        <target>ডিভাইসে প্রেরন করুন</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Send to ">
-        <source>Send to </source>
-        <target>প্রেরন</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Settings">
@@ -231,9 +211,28 @@
       </trans-unit>
     </body>
   </file>
-  <file original="ClientTests/Info.plist" source-language="en" target-language="bn-IN" datatype="plaintext">
+  <file original="Client/search.strings" source-language="en" datatype="plaintext" target-language="bn-IN">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.1.1" build-num="6A2008a"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="No">
+        <source>No</source>
+        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+      </trans-unit>
+      <trans-unit id="Turn on search suggestions?">
+        <source>Turn on search suggestions?</source>
+        <note>Prompt shown before enabling provider search queries</note>
+      </trans-unit>
+      <trans-unit id="Yes">
+        <source>Yes</source>
+        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="bn-IN">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -246,9 +245,79 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/SendTo/Info.plist" source-language="en" target-language="bn-IN" datatype="plaintext">
+  <file original="ClientTests/Localizable.strings" source-language="en" datatype="plaintext" target-language="bn-IN">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.1.1" build-num="6A2008a"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="%@ search">
+        <source>%@ search</source>
+        <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks">
+        <source>Bookmarks</source>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Could not connect to Firefox Accounts.">
+        <source>Could not connect to Firefox Accounts.</source>
+        <note>Settings</note>
+      </trans-unit>
+      <trans-unit id="History">
+        <source>History</source>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Last month">
+        <source>Last month</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Last week">
+        <source>Last week</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Reading list">
+        <source>Reading list</source>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Recent Bookmarks">
+        <source>Recent Bookmarks</source>
+        <note>Header for bookmarks list</note>
+      </trans-unit>
+      <trans-unit id="Today">
+        <source>Today</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Top sites">
+        <source>Top sites</source>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Yesterday">
+        <source>Yesterday</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ClientTests/search.strings" source-language="en" datatype="plaintext" target-language="bn-IN">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="No">
+        <source>No</source>
+        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+      </trans-unit>
+      <trans-unit id="Turn on search suggestions?">
+        <source>Turn on search suggestions?</source>
+        <note>Prompt shown before enabling provider search queries</note>
+      </trans-unit>
+      <trans-unit id="Yes">
+        <source>Yes</source>
+        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="bn-IN">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -265,9 +334,24 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/Info.plist" source-language="en" target-language="bn-IN" datatype="plaintext">
+  <file original="Extensions/SendTo/Localizable.strings" source-language="en" datatype="plaintext" target-language="bn-IN">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.1.1" build-num="6A2008a"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="Send To Device">
+        <source>Send To Device</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Send to ">
+        <source>Send to </source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="bn-IN">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -284,9 +368,24 @@
       </trans-unit>
     </body>
   </file>
-  <file original="UITests/Info.plist" source-language="en" target-language="bn-IN" datatype="plaintext">
+  <file original="Extensions/ShareTo/Localizable.strings" source-language="en" datatype="plaintext" target-language="bn-IN">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.1.1" build-num="6A2008a"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="Add to Bookmarks">
+        <source>Add to Bookmarks</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Add to Reading List">
+        <source>Add to Reading List</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="UITests/Info.plist" source-language="en" datatype="plaintext" target-language="bn-IN">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
