@@ -1,378 +1,30 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="bn-IN">
+  <file original="Client/Info.plist" source-language="en" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName">
+      <trans-unit id="CFBundleDisplayName" approved="no">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleName">
+      <target state="needs-translation">$(MOZ_BUNDLE_DISPLAY_NAME)</target></trans-unit>
+      <trans-unit id="CFBundleName" approved="no">
         <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
+      <target state="needs-translation">$(PRODUCT_NAME)</target></trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="no">
         <source>1.0</source>
-        <target>1.0</target>
-      </trans-unit>
+      <target state="needs-translation">1.0</target></trans-unit>
     </body>
   </file>
-  <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="bn-IN">
+  <file original="Client/Localizable.strings" source-language="en" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
-      <trans-unit id="%@ search">
+      <trans-unit id="%@ search" approved="no">
         <source>%@ search</source>
-        <target>%@ খোঁজো</target>
-        <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
-      </trans-unit>
-      <trans-unit id="Address and Search">
-        <source>Address and Search</source>
-        <target>ঠিকানা এবং অনুসন্ধান</target>
-        <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
-      </trans-unit>
-      <trans-unit id="Back">
-        <source>Back</source>
-        <target>পিছনে</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Bookmarks">
-        <source>Bookmarks</source>
-        <target>বুকমার্কগুলি</target>
-        <note>Panel accessibility label</note>
-      </trans-unit>
-      <trans-unit id="Cancel">
-        <source>Cancel</source>
-        <target>বাতিল</target>
-      </trans-unit>
-      <trans-unit id="Could not connect to Firefox Accounts.">
-        <source>Could not connect to Firefox Accounts.</source>
-        <target>Firefox অ্যাকাউন্টে সংযোগ করতে পারেনি।</target>
-        <note>Settings</note>
-      </trans-unit>
-      <trans-unit id="Default Search Engine">
-        <source>Default Search Engine</source>
-        <target>ডিফল্ট অনুসন্ধান ইঞ্জিন</target>
-      </trans-unit>
-      <trans-unit id="Disconnect">
-        <source>Disconnect</source>
-        <target>সংযোগ বিচ্ছিন্ন করুন</target>
-        <note>Settings</note>
-      </trans-unit>
-      <trans-unit id="Disconnect Firefox Account?">
-        <source>Disconnect Firefox Account?</source>
-        <target>Firefox অ্যাকাউন্টের সংযোগ বিচ্ছিন্ন করুন?</target>
-        <note>Settings</note>
-      </trans-unit>
-      <trans-unit id="Done">
-        <source>Done</source>
-        <target>সম্পন্ন হয়েছে</target>
-        <note>Settings</note>
-      </trans-unit>
-      <trans-unit id="Double tap and hold to open history">
-        <source>Double tap and hold to open history</source>
-        <target>ডাবল ট্যাপ এবং হোল্ড করুন পূর্ববর্তী তথ্য খুলতে</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Enter your password to connect.">
-        <source>Enter your password to connect.</source>
-        <target>সংযোগ করার জন্য আপনার পাসওয়ার্ড দিন।</target>
-        <note>Settings</note>
-      </trans-unit>
-      <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.">
-        <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
-        <target>Firefox আপনার অ্যাকাউন্টের সাথে সিঙ্ক করবে, কিন্তু এই ডিভাইসের আপনার ব্রাউজিং কোন  ডেটা মুছে ফেলা হবে না।</target>
-        <note>Settings</note>
-      </trans-unit>
-      <trans-unit id="Forward">
-        <source>Forward</source>
-        <target>এগিয়ে</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="History">
-        <source>History</source>
-        <target>পূর্ববর্তী তথ্য</target>
-        <note>Panel accessibility label</note>
-      </trans-unit>
-      <trans-unit id="Last month">
-        <source>Last month</source>
-        <target>গত মাস</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Last week">
-        <source>Last week</source>
-        <target>গত সপ্তাহে</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="OK">
-        <source>OK</source>
-        <target>ঠিক আছে</target>
-        <note>OK button</note>
-      </trans-unit>
-      <trans-unit id="Quick-search Engines">
-        <source>Quick-search Engines</source>
-        <target>দ্রুত সন্ধান ইঞ্জিন</target>
-        <note>Title for quick-search engines settings section.</note>
-      </trans-unit>
-      <trans-unit id="Reader">
-        <source>Reader</source>
-        <target>পাঠক</target>
-        <note>Browser function that presents simplified version of the page with bigger text.</note>
-      </trans-unit>
-      <trans-unit id="Reading list">
-        <source>Reading list</source>
-        <target>তালিকাভুক্ত পঠন</target>
-        <note>Panel accessibility label</note>
-      </trans-unit>
-      <trans-unit id="Recent Bookmarks">
-        <source>Recent Bookmarks</source>
-        <target>সাম্প্রতিক বুকমার্ক</target>
-        <note>Header for bookmarks list</note>
-      </trans-unit>
-      <trans-unit id="Search">
-        <source>Search</source>
-        <target>অনুসন্ধান </target>
-      </trans-unit>
-      <trans-unit id="Search Settings">
-        <source>Search Settings</source>
-        <target>অনুসন্ধান বৈশিষ্ট্য</target>
-        <note>Title for search settings section.</note>
-      </trans-unit>
-      <trans-unit id="Search or enter address">
-        <source>Search or enter address</source>
-        <target>অনুসন্ধান বা ঠিকানা লিখুন</target>
-        <note>The text shown in the URL bar on about:home</note>
-      </trans-unit>
-      <trans-unit id="Secure connection">
-        <source>Secure connection</source>
-        <target>সুরক্ষিত সংযোগ</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Settings">
-        <source>Settings</source>
-        <target>বৈশিষ্ট্য</target>
-      </trans-unit>
-      <trans-unit id="Show Tabs">
-        <source>Show Tabs</source>
-        <target>ট্যাবগুলি দেখান </target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Show search suggestions">
-        <source>Show search suggestions</source>
-        <target>অনুসন্ধান পরামর্শ দেখান</target>
-        <note>Label for show search suggestions setting.</note>
-      </trans-unit>
-      <trans-unit id="Sign in">
-        <source>Sign in</source>
-        <target>সাইন ইন</target>
-      </trans-unit>
-      <trans-unit id="Tabs Tray">
-        <source>Tabs Tray</source>
-        <target>ট্যাবগুলির ট্রে</target>
-        <note>Accessibility label for the Tabs Tray view.</note>
-      </trans-unit>
-      <trans-unit id="Today">
-        <source>Today</source>
-        <target>আজ</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Top sites">
-        <source>Top sites</source>
-        <target>শীর্ষ সাইটগুলি</target>
-        <note>Panel accessibility label</note>
-      </trans-unit>
-      <trans-unit id="URL">
-        <source>URL</source>
-        <target>URL</target>
-        <note>Accessibility label</note>
-      </trans-unit>
-      <trans-unit id="Upgrade Firefox to connect.">
-        <source>Upgrade Firefox to connect.</source>
-        <target>সংযোগ স্থাপন করতে ফায়ারফক্স আপগ্রেড করুন।</target>
-        <note>Settings</note>
-      </trans-unit>
-      <trans-unit id="Verify your email address.">
-        <source>Verify your email address.</source>
-        <target>আপনার ইমেল যাচাই করুন।</target>
-        <note>Settings</note>
-      </trans-unit>
-      <trans-unit id="Web content">
-        <source>Web content</source>
-        <target>ওয়েব সম্পর্কিত বিষয়বস্তু</target>
-        <note>Accessibility label for the main web content view</note>
-      </trans-unit>
-      <trans-unit id="Yesterday">
-        <source>Yesterday</source>
-        <target>গতকাল</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Client/search.strings" source-language="en" datatype="plaintext" target-language="bn-IN">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
-    </header>
-    <body>
-      <trans-unit id="No">
-        <source>No</source>
-        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
-      </trans-unit>
-      <trans-unit id="Turn on search suggestions?">
-        <source>Turn on search suggestions?</source>
-        <note>Prompt shown before enabling provider search queries</note>
-      </trans-unit>
-      <trans-unit id="Yes">
-        <source>Yes</source>
-        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="bn-IN">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
-        <target>1.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="ClientTests/Localizable.strings" source-language="en" datatype="plaintext" target-language="bn-IN">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
-    </header>
-    <body>
-      <trans-unit id="%@ search">
-        <source>%@ search</source>
-        <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
-      </trans-unit>
-      <trans-unit id="Bookmarks">
-        <source>Bookmarks</source>
-        <note>Panel accessibility label</note>
-      </trans-unit>
-      <trans-unit id="Could not connect to Firefox Accounts.">
-        <source>Could not connect to Firefox Accounts.</source>
-        <note>Settings</note>
-      </trans-unit>
-      <trans-unit id="History">
-        <source>History</source>
-        <note>Panel accessibility label</note>
-      </trans-unit>
-      <trans-unit id="Last month">
-        <source>Last month</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Last week">
-        <source>Last week</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Reading list">
-        <source>Reading list</source>
-        <note>Panel accessibility label</note>
-      </trans-unit>
-      <trans-unit id="Recent Bookmarks">
-        <source>Recent Bookmarks</source>
-        <note>Header for bookmarks list</note>
-      </trans-unit>
-      <trans-unit id="Today">
-        <source>Today</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Top sites">
-        <source>Top sites</source>
-        <note>Panel accessibility label</note>
-      </trans-unit>
-      <trans-unit id="Yesterday">
-        <source>Yesterday</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="ClientTests/search.strings" source-language="en" datatype="plaintext" target-language="bn-IN">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
-    </header>
-    <body>
-      <trans-unit id="No">
-        <source>No</source>
-        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
-      </trans-unit>
-      <trans-unit id="Turn on search suggestions?">
-        <source>Turn on search suggestions?</source>
-        <note>Prompt shown before enabling provider search queries</note>
-      </trans-unit>
-      <trans-unit id="Yes">
-        <source>Yes</source>
-        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="bn-IN">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleDisplayName">
-        <source>Send To</source>
-        <target>প্রেরন করুন</target>
-      </trans-unit>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
-        <target>1.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Extensions/SendTo/Localizable.strings" source-language="en" datatype="plaintext" target-language="bn-IN">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
-    </header>
-    <body>
-      <trans-unit id="Send To Device">
-        <source>Send To Device</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Send to ">
-        <source>Send to </source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="bn-IN">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleDisplayName">
-        <source>Share To</source>
-        <target>শেয়ার করুন</target>
-      </trans-unit>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
-        <target>1.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Extensions/ShareTo/Localizable.strings" source-language="en" datatype="plaintext" target-language="bn-IN">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
-    </header>
-    <body>
+        <target state="needs-translation">%@ খোঁজো</target><note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
+      <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note></trans-unit>
       <trans-unit id="Add to Bookmarks">
         <source>Add to Bookmarks</source>
         <note>No comment provided by engineer.</note>
@@ -381,21 +33,234 @@
         <source>Add to Reading List</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Address and Search" approved="no">
+        <source>Address and Search</source>
+        <target state="needs-translation">ঠিকানা এবং অনুসন্ধান</target><note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
+      <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note></trans-unit>
+      <trans-unit id="Back" approved="no">
+        <source>Back</source>
+        <target state="needs-translation">পিছনে</target><note>No comment provided by engineer.</note>
+      <note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Bookmarks" approved="no">
+        <source>Bookmarks</source>
+        <target state="needs-translation">বুকমার্কগুলি</target><note>Panel accessibility label</note>
+      <note>Panel accessibility label</note></trans-unit>
+      <trans-unit id="Cancel" approved="no">
+        <source>Cancel</source>
+      <target state="needs-translation">বাতিল</target></trans-unit>
+      <trans-unit id="Could not connect to Firefox Accounts." approved="no">
+        <source>Could not connect to Firefox Accounts.</source>
+        <target state="needs-translation">Firefox অ্যাকাউন্টে সংযোগ করতে পারেনি।</target><note>Settings</note>
+      <note>Settings</note></trans-unit>
+      <trans-unit id="Default Search Engine" approved="no">
+        <source>Default Search Engine</source>
+      <target state="needs-translation">ডিফল্ট অনুসন্ধান ইঞ্জিন</target></trans-unit>
+      <trans-unit id="Disconnect" approved="no">
+        <source>Disconnect</source>
+        <target state="needs-translation">সংযোগ বিচ্ছিন্ন করুন</target><note>Settings</note>
+      <note>Settings</note></trans-unit>
+      <trans-unit id="Disconnect Firefox Account?" approved="no">
+        <source>Disconnect Firefox Account?</source>
+        <target state="needs-translation">Firefox অ্যাকাউন্টের সংযোগ বিচ্ছিন্ন করুন?</target><note>Settings</note>
+      <note>Settings</note></trans-unit>
+      <trans-unit id="Done" approved="no">
+        <source>Done</source>
+        <target state="needs-translation">সম্পন্ন হয়েছে</target><note>Settings</note>
+      <note>Settings</note></trans-unit>
+      <trans-unit id="Double tap and hold to open history" approved="no">
+        <source>Double tap and hold to open history</source>
+        <target state="needs-translation">ডাবল ট্যাপ এবং হোল্ড করুন পূর্ববর্তী তথ্য খুলতে</target><note>No comment provided by engineer.</note>
+      <note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Enter your password to connect." approved="no">
+        <source>Enter your password to connect.</source>
+        <target state="needs-translation">সংযোগ করার জন্য আপনার পাসওয়ার্ড দিন।</target><note>Settings</note>
+      <note>Settings</note></trans-unit>
+      <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device." approved="no">
+        <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
+        <target state="needs-translation">Firefox আপনার অ্যাকাউন্টের সাথে সিঙ্ক করবে, কিন্তু এই ডিভাইসের আপনার ব্রাউজিং কোন ডেটা মুছে ফেলা হবে না।</target><note>Settings</note>
+      <note>Settings</note></trans-unit>
+      <trans-unit id="Forward" approved="no">
+        <source>Forward</source>
+        <target state="needs-translation">এগিয়ে</target><note>No comment provided by engineer.</note>
+      <note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="History" approved="no">
+        <source>History</source>
+        <target state="needs-translation">পূর্ববর্তী তথ্য</target><note>Panel accessibility label</note>
+      <note>Panel accessibility label</note></trans-unit>
+      <trans-unit id="Last month" approved="no">
+        <source>Last month</source>
+        <target state="needs-translation">গত মাস</target><note>No comment provided by engineer.</note>
+      <note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Last week" approved="no">
+        <source>Last week</source>
+        <target state="needs-translation">গত সপ্তাহে</target><note>No comment provided by engineer.</note>
+      <note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="OK" approved="no">
+        <source>OK</source>
+        <target state="needs-translation">ঠিক আছে</target><note>OK button</note>
+      <note>OK button</note></trans-unit>
+      <trans-unit id="Quick-search Engines" approved="no">
+        <source>Quick-search Engines</source>
+        <target state="needs-translation">দ্রুত সন্ধান ইঞ্জিন</target><note>Title for quick-search engines settings section.</note>
+      <note>Title for quick-search engines settings section.</note></trans-unit>
+      <trans-unit id="Reader" approved="no">
+        <source>Reader</source>
+        <target state="needs-translation">পাঠক</target><note>Browser function that presents simplified version of the page with bigger text.</note>
+      <note>Browser function that presents simplified version of the page with bigger text.</note></trans-unit>
+      <trans-unit id="Reading list" approved="no">
+        <source>Reading list</source>
+        <target state="needs-translation">তালিকাভুক্ত পঠন</target><note>Panel accessibility label</note>
+      <note>Panel accessibility label</note></trans-unit>
+      <trans-unit id="Recent Bookmarks" approved="no">
+        <source>Recent Bookmarks</source>
+        <target state="needs-translation">সাম্প্রতিক বুকমার্ক</target><note>Header for bookmarks list</note>
+      <note>Header for bookmarks list</note></trans-unit>
+      <trans-unit id="Search" approved="no">
+        <source>Search</source>
+      <target state="needs-translation">অনুসন্ধান</target></trans-unit>
+      <trans-unit id="Search Settings" approved="no">
+        <source>Search Settings</source>
+        <target state="needs-translation">অনুসন্ধান বৈশিষ্ট্য</target><note>Title for search settings section.</note>
+      <note>Title for search settings section.</note></trans-unit>
+      <trans-unit id="Search or enter address" approved="no">
+        <source>Search or enter address</source>
+        <target state="needs-translation">অনুসন্ধান বা ঠিকানা লিখুন</target><note>The text shown in the URL bar on about:home</note>
+      <note>The text shown in the URL bar on about:home</note></trans-unit>
+      <trans-unit id="Secure connection" approved="no">
+        <source>Secure connection</source>
+        <target state="needs-translation">সুরক্ষিত সংযোগ</target><note>No comment provided by engineer.</note>
+      <note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Send To Device">
+        <source>Send To Device</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Send to ">
+        <source>Send to </source>
+        <note>No comment provided by engineer.</note>
+      <alt-trans xml:space="preserve" origin="fish"><source>Send To</source><target>প্রেরন করুন</target></alt-trans></trans-unit>
+      <trans-unit id="Settings" approved="no">
+        <source>Settings</source>
+      <target state="needs-translation">বৈশিষ্ট্য</target></trans-unit>
+      <trans-unit id="Show Tabs" approved="no">
+        <source>Show Tabs</source>
+        <target state="needs-translation">ট্যাবগুলি দেখান</target><note>No comment provided by engineer.</note>
+      <note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Show search suggestions" approved="no">
+        <source>Show search suggestions</source>
+        <target state="needs-translation">অনুসন্ধান পরামর্শ দেখান</target><note>Label for show search suggestions setting.</note>
+      <note>Label for show search suggestions setting.</note></trans-unit>
+      <trans-unit id="Sign in" approved="no">
+        <source>Sign in</source>
+      <target state="needs-translation">সাইন ইন</target></trans-unit>
+      <trans-unit id="Tabs Tray" approved="no">
+        <source>Tabs Tray</source>
+        <target state="needs-translation">ট্যাবগুলির ট্রে</target><note>Accessibility label for the Tabs Tray view.</note>
+      <note>Accessibility label for the Tabs Tray view.</note></trans-unit>
+      <trans-unit id="Today" approved="no">
+        <source>Today</source>
+        <target state="needs-translation">আজ</target><note>No comment provided by engineer.</note>
+      <note>No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="Top sites" approved="no">
+        <source>Top sites</source>
+        <target state="needs-translation">শীর্ষ সাইটগুলি</target><note>Panel accessibility label</note>
+      <note>Panel accessibility label</note></trans-unit>
+      <trans-unit id="URL" approved="no">
+        <source>URL</source>
+        <target state="needs-translation">URL</target><note>Accessibility label</note>
+      <note>Accessibility label</note></trans-unit>
+      <trans-unit id="Upgrade Firefox to connect." approved="no">
+        <source>Upgrade Firefox to connect.</source>
+        <target state="needs-translation">সংযোগ স্থাপন করতে ফায়ারফক্স আপগ্রেড করুন।</target><note>Settings</note>
+      <note>Settings</note></trans-unit>
+      <trans-unit id="Verify your email address." approved="no">
+        <source>Verify your email address.</source>
+        <target state="needs-translation">আপনার ইমেল যাচাই করুন।</target><note>Settings</note>
+      <note>Settings</note></trans-unit>
+      <trans-unit id="Web content" approved="no">
+        <source>Web content</source>
+        <target state="needs-translation">ওয়েব সম্পর্কিত বিষয়বস্তু</target><note>Accessibility label for the main web content view</note>
+      <note>Accessibility label for the main web content view</note></trans-unit>
+      <trans-unit id="Yesterday" approved="no">
+        <source>Yesterday</source>
+        <target state="needs-translation">গতকাল</target><note>No comment provided by engineer.</note>
+      <note>No comment provided by engineer.</note></trans-unit>
     </body>
   </file>
-  <file original="UITests/Info.plist" source-language="en" datatype="plaintext" target-language="bn-IN">
+  <file original="Client/search.strings" source-language="en" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName">
+      <trans-unit id="No">
+        <source>No</source>
+        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+      </trans-unit>
+      <trans-unit id="Turn on search suggestions?">
+        <source>Turn on search suggestions?</source>
+        <note>Prompt shown before enabling provider search queries</note>
+      </trans-unit>
+      <trans-unit id="Yes">
+        <source>Yes</source>
+        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" approved="no">
         <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
+      <target state="needs-translation">$(PRODUCT_NAME)</target></trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="no">
         <source>1.0</source>
-        <target>1.0</target>
-      </trans-unit>
+      <target state="needs-translation">1.0</target></trans-unit>
+    </body>
+  </file>
+  <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" approved="no">
+        <source>Send To</source>
+      <target state="needs-translation">প্রেরন করুন</target></trans-unit>
+      <trans-unit id="CFBundleName" approved="no">
+        <source>$(PRODUCT_NAME)</source>
+      <target state="needs-translation">$(PRODUCT_NAME)</target></trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="no">
+        <source>1.0</source>
+      <target state="needs-translation">1.0</target></trans-unit>
+    </body>
+  </file>
+  <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" approved="no">
+        <source>Share To</source>
+      <target state="needs-translation">শেয়ার করুন</target></trans-unit>
+      <trans-unit id="CFBundleName" approved="no">
+        <source>$(PRODUCT_NAME)</source>
+      <target state="needs-translation">$(PRODUCT_NAME)</target></trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="no">
+        <source>1.0</source>
+      <target state="needs-translation">1.0</target></trans-unit>
+    </body>
+  </file>
+  <file original="UITests/Info.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" approved="no">
+        <source>$(PRODUCT_NAME)</source>
+      <target state="needs-translation">$(PRODUCT_NAME)</target></trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="no">
+        <source>1.0</source>
+      <target state="needs-translation">1.0</target></trans-unit>
     </body>
   </file>
 </xliff>
