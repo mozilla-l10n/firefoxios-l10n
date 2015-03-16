@@ -7,12 +7,15 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
@@ -23,72 +26,90 @@
     <body>
       <trans-unit id="%@ search">
         <source>%@ search</source>
+        <target>Търсене с %@</target>
         <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
       </trans-unit>
       <trans-unit id="Address and Search">
         <source>Address and Search</source>
+        <target>Адреси и търсене</target>
         <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
       </trans-unit>
       <trans-unit id="Back">
         <source>Back</source>
+        <target>Назад</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Bookmarks">
         <source>Bookmarks</source>
+        <target>Отметки</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
+        <target>Отказ</target>
       </trans-unit>
       <trans-unit id="Could not connect to Firefox Accounts.">
         <source>Could not connect to Firefox Accounts.</source>
+        <target>Няма връзка с Firefox Accounts.</target>
         <note>Settings</note>
       </trans-unit>
       <trans-unit id="Default Search Engine">
         <source>Default Search Engine</source>
+        <target>Стандартна търсеща машина</target>
       </trans-unit>
       <trans-unit id="Disconnect">
         <source>Disconnect</source>
+        <target>Развързване</target>
         <note>Settings</note>
       </trans-unit>
       <trans-unit id="Disconnect Firefox Account?">
         <source>Disconnect Firefox Account?</source>
+        <target>Развързване от Firefox Account?</target>
         <note>Settings</note>
       </trans-unit>
       <trans-unit id="Done">
         <source>Done</source>
+        <target>Готово</target>
         <note>Settings</note>
       </trans-unit>
       <trans-unit id="Double tap and hold to open history">
         <source>Double tap and hold to open history</source>
+        <target>Докоснете два пъти и задръжте, за да отворите историята</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Enter your password to connect.">
         <source>Enter your password to connect.</source>
+        <target>Въведете паролата си, за да се свържете.</target>
         <note>Settings</note>
       </trans-unit>
       <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.">
         <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
+        <target>Firefox ще спре синхронизацията с вашия профил, но няма да изтрива данни за сърфирането от това устройство.</target>
         <note>Settings</note>
       </trans-unit>
       <trans-unit id="Forward">
         <source>Forward</source>
+        <target>Напред</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="History">
         <source>History</source>
+        <target>История</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Last month">
         <source>Last month</source>
+        <target>Миналия месец</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Last week">
         <source>Last week</source>
+        <target>Миналата седмица</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
+        <target>Добре</target>
         <note>OK button</note>
       </trans-unit>
       <trans-unit id="Quick-search Engines">
@@ -97,75 +118,94 @@
       </trans-unit>
       <trans-unit id="Reader">
         <source>Reader</source>
+        <target>Четец</target>
         <note>Browser function that presents simplified version of the page with bigger text.</note>
       </trans-unit>
       <trans-unit id="Reading list">
         <source>Reading list</source>
+        <target>Четива</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Recent Bookmarks">
         <source>Recent Bookmarks</source>
+        <target>Последни отметки</target>
         <note>Header for bookmarks list</note>
       </trans-unit>
       <trans-unit id="Search">
         <source>Search</source>
+        <target>Търсене</target>
       </trans-unit>
       <trans-unit id="Search Settings">
         <source>Search Settings</source>
+        <target>Настройки на търсене</target>
         <note>Title for search settings section.</note>
       </trans-unit>
       <trans-unit id="Search or enter address">
         <source>Search or enter address</source>
+        <target>Търсене или въведжане адрес</target>
         <note>The text shown in the URL bar on about:home</note>
       </trans-unit>
       <trans-unit id="Secure connection">
         <source>Secure connection</source>
+        <target>Защитена връзка</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Settings">
         <source>Settings</source>
+        <target>Настройки</target>
       </trans-unit>
       <trans-unit id="Show Tabs">
         <source>Show Tabs</source>
+        <target>Показване на подпрозорци</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Show search suggestions">
         <source>Show search suggestions</source>
+        <target>Показване на подсказки</target>
         <note>Label for show search suggestions setting.</note>
       </trans-unit>
       <trans-unit id="Sign in">
         <source>Sign in</source>
+        <target>Вписване</target>
       </trans-unit>
       <trans-unit id="Tabs Tray">
         <source>Tabs Tray</source>
+        <target>Лента с подпрозорци</target>
         <note>Accessibility label for the Tabs Tray view.</note>
       </trans-unit>
       <trans-unit id="Today">
         <source>Today</source>
+        <target>Днес</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Top sites">
         <source>Top sites</source>
+        <target>Най-посещавани</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="URL">
         <source>URL</source>
+        <target>URL</target>
         <note>Accessibility label</note>
       </trans-unit>
       <trans-unit id="Upgrade Firefox to connect.">
         <source>Upgrade Firefox to connect.</source>
+        <target>За да се свържете обновете Firefox.</target>
         <note>Settings</note>
       </trans-unit>
       <trans-unit id="Verify your email address.">
         <source>Verify your email address.</source>
+        <target>Потвърдете своя адрес на ел. поща.</target>
         <note>Settings</note>
       </trans-unit>
       <trans-unit id="Web content">
         <source>Web content</source>
+        <target>Съдържание от Мрежата</target>
         <note>Accessibility label for the main web content view</note>
       </trans-unit>
       <trans-unit id="Yesterday">
         <source>Yesterday</source>
+        <target>Вчера</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>
@@ -177,14 +217,17 @@
     <body>
       <trans-unit id="No">
         <source>No</source>
+        <target>Не</target>
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
       </trans-unit>
       <trans-unit id="Turn on search suggestions?">
         <source>Turn on search suggestions?</source>
+        <target>Показване подсказки при търсене?</target>
         <note>Prompt shown before enabling provider search queries</note>
       </trans-unit>
       <trans-unit id="Yes">
         <source>Yes</source>
+        <target>Да</target>
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
       </trans-unit>
     </body>
@@ -196,9 +239,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
@@ -209,46 +254,57 @@
     <body>
       <trans-unit id="%@ search">
         <source>%@ search</source>
+        <target>Търсене с %@</target>
         <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
       </trans-unit>
       <trans-unit id="Bookmarks">
         <source>Bookmarks</source>
+        <target>Отметки</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Could not connect to Firefox Accounts.">
         <source>Could not connect to Firefox Accounts.</source>
+        <target>Няма връзка с Firefox Accounts.</target>
         <note>Settings</note>
       </trans-unit>
       <trans-unit id="History">
         <source>History</source>
+        <target>История</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Last month">
         <source>Last month</source>
+        <target>Миналия месец</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Last week">
         <source>Last week</source>
+        <target>Миналата седмица</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Reading list">
         <source>Reading list</source>
+        <target>Четива</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Recent Bookmarks">
         <source>Recent Bookmarks</source>
+        <target>Последни отметки</target>
         <note>Header for bookmarks list</note>
       </trans-unit>
       <trans-unit id="Today">
         <source>Today</source>
+        <target>Днес</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Top sites">
         <source>Top sites</source>
+        <target>Най-посещавани</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Yesterday">
         <source>Yesterday</source>
+        <target>Вчера</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>
@@ -260,14 +316,17 @@
     <body>
       <trans-unit id="No">
         <source>No</source>
+        <target>Не</target>
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
       </trans-unit>
       <trans-unit id="Turn on search suggestions?">
         <source>Turn on search suggestions?</source>
+        <target>Показване подсказки при търсене?</target>
         <note>Prompt shown before enabling provider search queries</note>
       </trans-unit>
       <trans-unit id="Yes">
         <source>Yes</source>
+        <target>Да</target>
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
       </trans-unit>
     </body>
@@ -279,12 +338,15 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>Send To</source>
+        <target>Изпращане на</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
@@ -295,10 +357,12 @@
     <body>
       <trans-unit id="Send To Device">
         <source>Send To Device</source>
+        <target>Изпращане до устройство</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Send to ">
         <source>Send to </source>
+        <target>Изпращане до </target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>
@@ -310,12 +374,15 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>Share To</source>
+        <target>Споделяне с</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
@@ -326,10 +393,12 @@
     <body>
       <trans-unit id="Add to Bookmarks">
         <source>Add to Bookmarks</source>
+        <target>Добавяне в Отметки</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Add to Reading List">
         <source>Add to Reading List</source>
+        <target>Добавяне в Четива</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>
@@ -341,9 +410,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
