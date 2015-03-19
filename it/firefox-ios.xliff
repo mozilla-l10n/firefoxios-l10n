@@ -120,7 +120,11 @@
       <trans-unit id="OK">
         <source>OK</source>
         <target>OK</target>
-        <note>OK button</note>
+      </trans-unit>
+      <trans-unit id="Opening %@">
+        <source>Opening %@</source>
+        <target>Apertura %@</target>
+        <note>Opening an external URL</note>
       </trans-unit>
       <trans-unit id="Quick-search Engines">
         <source>Quick-search Engines</source>
@@ -193,6 +197,11 @@
         <source>Tabs Tray</source>
         <target>Area delle schede</target>
         <note>Accessibility label for the Tabs Tray view.</note>
+      </trans-unit>
+      <trans-unit id="This will open in another application">
+        <source>This will open in another application</source>
+        <target>Verrà aperto in un’altra applicazione</target>
+        <note>Opening an external app</note>
       </trans-unit>
       <trans-unit id="Today">
         <source>Today</source>
@@ -391,23 +400,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/SendTo/Localizable.strings" source-language="en" datatype="plaintext" target-language="it">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
-    </header>
-    <body>
-      <trans-unit id="Send To Device">
-        <source>Send To Device</source>
-        <target>Invia a dispositivo</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Send to ">
-        <source>Send to </source>
-        <target>Invia a </target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="it">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
@@ -440,6 +432,16 @@
       <trans-unit id="Add to Reading List">
         <source>Add to Reading List</source>
         <target>Aggiungi a Elenco lettura</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Send To Device">
+        <source>Send To Device</source>
+        <target>Invia a dispositivo</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Send to ">
+        <source>Send to </source>
+        <target>Invia a </target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>
