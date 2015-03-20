@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+        <target>1.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+        <target>1.0</target>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
@@ -7,12 +37,15 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
@@ -24,149 +57,246 @@
       <trans-unit id="%@ search">
         <source>%@ search</source>
         <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
+        <target>Wyszukaj z %@</target>
+      </trans-unit>
+      <trans-unit id="About">
+        <source>About</source>
+        <note>Title for about section.</note>
+        <target>O …</target>
+      </trans-unit>
+      <trans-unit id="Add to Bookmarks">
+        <source>Add to Bookmarks</source>
+        <note>No comment provided by engineer.</note>
+        <target>Dodaj do zakładek</target>
+      </trans-unit>
+      <trans-unit id="Add to Reading List">
+        <source>Add to Reading List</source>
+        <note>No comment provided by engineer.</note>
+        <target>Dodaj do czytelni</target>
       </trans-unit>
       <trans-unit id="Address and Search">
         <source>Address and Search</source>
         <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
+        <target>Pasek adresu i wyszukiwania</target>
       </trans-unit>
       <trans-unit id="Back">
         <source>Back</source>
         <note>No comment provided by engineer.</note>
+        <target>Przejdź do poprzedniej strony</target>
       </trans-unit>
       <trans-unit id="Bookmarks">
         <source>Bookmarks</source>
         <note>Panel accessibility label</note>
+        <target>Zakładki</target>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
+        <target>Anuluj</target>
       </trans-unit>
       <trans-unit id="Could not connect to Firefox Accounts.">
         <source>Could not connect to Firefox Accounts.</source>
         <note>Settings</note>
+        <target>Nie można było połączyć się z kontem Firefoksa</target>
       </trans-unit>
       <trans-unit id="Default Search Engine">
         <source>Default Search Engine</source>
+        <target>Domyślna wyszukiwarka</target>
       </trans-unit>
       <trans-unit id="Disconnect">
         <source>Disconnect</source>
         <note>Settings</note>
+        <target>Odłącz</target>
       </trans-unit>
       <trans-unit id="Disconnect Firefox Account?">
         <source>Disconnect Firefox Account?</source>
         <note>Settings</note>
+        <target>Odołączyć konto Firefoksa?</target>
       </trans-unit>
       <trans-unit id="Done">
         <source>Done</source>
         <note>Settings</note>
+        <target>Gotowe</target>
       </trans-unit>
       <trans-unit id="Double tap and hold to open history">
         <source>Double tap and hold to open history</source>
         <note>No comment provided by engineer.</note>
+        <target>Stuknij dwukrotnie i przytrzymaj, aby otworzyć historię</target>
       </trans-unit>
       <trans-unit id="Enter your password to connect.">
         <source>Enter your password to connect.</source>
         <note>Settings</note>
+        <target>Wprowadź hasło, aby połączyć</target>
       </trans-unit>
       <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.">
         <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
         <note>Settings</note>
+        <target>Firefox zaprzestanie synchronizacji z Twoim kontem ale nie usunie żadnych danych przeglądania z tego urządzenia.</target>
       </trans-unit>
       <trans-unit id="Forward">
         <source>Forward</source>
         <note>No comment provided by engineer.</note>
+        <target>Przejdź do następnej strony</target>
       </trans-unit>
       <trans-unit id="History">
         <source>History</source>
         <note>Panel accessibility label</note>
+        <target>Historia</target>
       </trans-unit>
       <trans-unit id="Last month">
         <source>Last month</source>
         <note>No comment provided by engineer.</note>
+        <target>Ostatni miesiąc</target>
       </trans-unit>
       <trans-unit id="Last week">
         <source>Last week</source>
         <note>No comment provided by engineer.</note>
+        <target>Ostatnie 7 dni</target>
+      </trans-unit>
+      <trans-unit id="Mark as Read">
+        <source>Mark as Read</source>
+        <note>Title for the button that marks a reading list item as read</note>
+        <target>Oznacz jako przeczytaną</target>
+      </trans-unit>
+      <trans-unit id="Mark as Unread">
+        <source>Mark as Unread</source>
+        <note>Title for the button that marks a reading list item as unread</note>
+        <target>Oznacz jako nieczytaną</target>
       </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
-        <note>OK button</note>
+        <target>OK</target>
+      </trans-unit>
+      <trans-unit id="Opening %@">
+        <source>Opening %@</source>
+        <note>Opening an external URL</note>
+        <target>Otwieranie %@</target>
       </trans-unit>
       <trans-unit id="Quick-search Engines">
         <source>Quick-search Engines</source>
         <note>Title for quick-search engines settings section.</note>
+        <target>Szybkie wyszukiwanie</target>
       </trans-unit>
       <trans-unit id="Reader">
         <source>Reader</source>
         <note>Browser function that presents simplified version of the page with bigger text.</note>
+        <target>Poprawiona czytelność</target>
       </trans-unit>
       <trans-unit id="Reading list">
         <source>Reading list</source>
         <note>Panel accessibility label</note>
+        <target>Czytelnia</target>
       </trans-unit>
       <trans-unit id="Recent Bookmarks">
         <source>Recent Bookmarks</source>
         <note>Header for bookmarks list</note>
+        <target>Ostatnio dodane</target>
+      </trans-unit>
+      <trans-unit id="Remove">
+        <source>Remove</source>
+        <note>Title for the button that removes a reading list item</note>
+        <target>Usuń</target>
       </trans-unit>
       <trans-unit id="Search">
         <source>Search</source>
+        <target>Szukaj</target>
       </trans-unit>
       <trans-unit id="Search Settings">
         <source>Search Settings</source>
         <note>Title for search settings section.</note>
+        <target>Ustawienia wyszukiwania</target>
       </trans-unit>
       <trans-unit id="Search or enter address">
         <source>Search or enter address</source>
         <note>The text shown in the URL bar on about:home</note>
+        <target>Wprowadź adres lub wyszukaj</target>
       </trans-unit>
       <trans-unit id="Secure connection">
         <source>Secure connection</source>
         <note>No comment provided by engineer.</note>
+        <target>Bezpieczne połączenie</target>
+      </trans-unit>
+      <trans-unit id="Send To Device">
+        <source>Send To Device</source>
+        <note>No comment provided by engineer.</note>
+        <target>Wyślij na urządzenie</target>
+      </trans-unit>
+      <trans-unit id="Send to ">
+        <source>Send to </source>
+        <note>No comment provided by engineer.</note>
+        <target>Wyślij do </target>
       </trans-unit>
       <trans-unit id="Settings">
         <source>Settings</source>
+        <target>Ustawienia</target>
+      </trans-unit>
+      <trans-unit id="Share">
+        <source>Share</source>
+        <note>No comment provided by engineer.</note>
+        <target>Udostępnij</target>
       </trans-unit>
       <trans-unit id="Show Tabs">
         <source>Show Tabs</source>
         <note>No comment provided by engineer.</note>
+        <target>Wyświetl karty</target>
       </trans-unit>
       <trans-unit id="Show search suggestions">
         <source>Show search suggestions</source>
         <note>Label for show search suggestions setting.</note>
+        <target>Podpowiedzi wyszukiwania</target>
       </trans-unit>
       <trans-unit id="Sign in">
         <source>Sign in</source>
+        <target>Zaloguj się</target>
+      </trans-unit>
+      <trans-unit id="Synced tabs">
+        <source>Synced tabs</source>
+        <note>Panel accessibility label</note>
+        <target>Synchronizowane karty</target>
       </trans-unit>
       <trans-unit id="Tabs Tray">
         <source>Tabs Tray</source>
         <note>Accessibility label for the Tabs Tray view.</note>
+        <target>Pasek kart</target>
+      </trans-unit>
+      <trans-unit id="This will open in another application">
+        <source>This will open in another application</source>
+        <note>Opening an external app</note>
+        <target>Otworzy inną aplikację</target>
       </trans-unit>
       <trans-unit id="Today">
         <source>Today</source>
         <note>No comment provided by engineer.</note>
+        <target>Dzisiaj</target>
       </trans-unit>
       <trans-unit id="Top sites">
         <source>Top sites</source>
         <note>Panel accessibility label</note>
+        <target>Popularne</target>
       </trans-unit>
       <trans-unit id="URL">
         <source>URL</source>
         <note>Accessibility label</note>
+        <target>Adres URL</target>
       </trans-unit>
       <trans-unit id="Upgrade Firefox to connect.">
         <source>Upgrade Firefox to connect.</source>
         <note>Settings</note>
+        <target>Uaktualnij Firefoksa, aby połączyć.</target>
       </trans-unit>
       <trans-unit id="Verify your email address.">
         <source>Verify your email address.</source>
         <note>Settings</note>
+        <target>Zweryfikuj swój adres e-mail</target>
       </trans-unit>
       <trans-unit id="Web content">
         <source>Web content</source>
         <note>Accessibility label for the main web content view</note>
+        <target>Treść WWW</target>
       </trans-unit>
       <trans-unit id="Yesterday">
         <source>Yesterday</source>
         <note>No comment provided by engineer.</note>
+        <target>Wczoraj</target>
       </trans-unit>
     </body>
   </file>
@@ -178,14 +308,17 @@
       <trans-unit id="No">
         <source>No</source>
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+        <target>Nie</target>
       </trans-unit>
       <trans-unit id="Turn on search suggestions?">
         <source>Turn on search suggestions?</source>
         <note>Prompt shown before enabling provider search queries</note>
+        <target>Włączyć podpowiedzi wyszukiwania?</target>
       </trans-unit>
       <trans-unit id="Yes">
         <source>Yes</source>
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+        <target>Tak</target>
       </trans-unit>
     </body>
   </file>
@@ -196,79 +329,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="ClientTests/Localizable.strings" source-language="en" datatype="plaintext" target-language="pl">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
-    </header>
-    <body>
-      <trans-unit id="%@ search">
-        <source>%@ search</source>
-        <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
-      </trans-unit>
-      <trans-unit id="Bookmarks">
-        <source>Bookmarks</source>
-        <note>Panel accessibility label</note>
-      </trans-unit>
-      <trans-unit id="Could not connect to Firefox Accounts.">
-        <source>Could not connect to Firefox Accounts.</source>
-        <note>Settings</note>
-      </trans-unit>
-      <trans-unit id="History">
-        <source>History</source>
-        <note>Panel accessibility label</note>
-      </trans-unit>
-      <trans-unit id="Last month">
-        <source>Last month</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Last week">
-        <source>Last week</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Reading list">
-        <source>Reading list</source>
-        <note>Panel accessibility label</note>
-      </trans-unit>
-      <trans-unit id="Recent Bookmarks">
-        <source>Recent Bookmarks</source>
-        <note>Header for bookmarks list</note>
-      </trans-unit>
-      <trans-unit id="Today">
-        <source>Today</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Top sites">
-        <source>Top sites</source>
-        <note>Panel accessibility label</note>
-      </trans-unit>
-      <trans-unit id="Yesterday">
-        <source>Yesterday</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="ClientTests/search.strings" source-language="en" datatype="plaintext" target-language="pl">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
-    </header>
-    <body>
-      <trans-unit id="No">
-        <source>No</source>
-        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
-      </trans-unit>
-      <trans-unit id="Turn on search suggestions?">
-        <source>Turn on search suggestions?</source>
-        <note>Prompt shown before enabling provider search queries</note>
-      </trans-unit>
-      <trans-unit id="Yes">
-        <source>Yes</source>
-        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
@@ -279,27 +344,15 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>Send To</source>
+        <target>Wyślij do</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Extensions/SendTo/Localizable.strings" source-language="en" datatype="plaintext" target-language="pl">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
-    </header>
-    <body>
-      <trans-unit id="Send To Device">
-        <source>Send To Device</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Send to ">
-        <source>Send to </source>
-        <note>No comment provided by engineer.</note>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
@@ -310,27 +363,30 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>Share To</source>
+        <target>Udostępnij</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/Localizable.strings" source-language="en" datatype="plaintext" target-language="pl">
+  <file original="StorageTests/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
-      <trans-unit id="Add to Bookmarks">
-        <source>Add to Bookmarks</source>
-        <note>No comment provided by engineer.</note>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="Add to Reading List">
-        <source>Add to Reading List</source>
-        <note>No comment provided by engineer.</note>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
@@ -341,9 +397,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
