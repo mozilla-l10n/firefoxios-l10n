@@ -7,9 +7,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
@@ -20,9 +22,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
@@ -57,6 +61,7 @@
       </trans-unit>
       <trans-unit id="About">
         <source>About</source>
+        <target>關於</target>
         <note>Title for about section.</note>
       </trans-unit>
       <trans-unit id="Address and Search">
@@ -139,10 +144,12 @@
       </trans-unit>
       <trans-unit id="Mark as Read">
         <source>Mark as Read</source>
+        <target>標示為已讀</target>
         <note>Title for the button that marks a reading list item as read</note>
       </trans-unit>
       <trans-unit id="Mark as Unread">
         <source>Mark as Unread</source>
+        <target>標示為未讀</target>
         <note>Title for the button that marks a reading list item as unread</note>
       </trans-unit>
       <trans-unit id="OK">
@@ -151,6 +158,7 @@
       </trans-unit>
       <trans-unit id="Opening %@">
         <source>Opening %@</source>
+        <target>正在開啟 %@</target>
         <note>Opening an external URL</note>
       </trans-unit>
       <trans-unit id="Quick-search Engines">
@@ -175,6 +183,7 @@
       </trans-unit>
       <trans-unit id="Remove">
         <source>Remove</source>
+        <target>移除</target>
         <note>Title for the button that removes a reading list item</note>
       </trans-unit>
       <trans-unit id="Search">
@@ -202,6 +211,7 @@
       </trans-unit>
       <trans-unit id="Share">
         <source>Share</source>
+        <target>分享</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Show Tabs">
@@ -220,6 +230,7 @@
       </trans-unit>
       <trans-unit id="Synced tabs">
         <source>Synced tabs</source>
+        <target>已同步的分頁</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Tabs Tray">
@@ -229,6 +240,7 @@
       </trans-unit>
       <trans-unit id="This will open in another application">
         <source>This will open in another application</source>
+        <target>將會用其他應用程式開啟</target>
         <note>Opening an external app</note>
       </trans-unit>
       <trans-unit id="Today">
@@ -312,66 +324,82 @@
     <body>
       <trans-unit id="%@ search">
         <source>%@ search</source>
+        <target>%@ 搜尋</target>
         <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
       </trans-unit>
       <trans-unit id="Bookmarks">
         <source>Bookmarks</source>
+        <target>書籤</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Could not connect to Firefox Accounts.">
         <source>Could not connect to Firefox Accounts.</source>
+        <target>無法連線至 Firefox 帳號。</target>
         <note>Settings</note>
       </trans-unit>
       <trans-unit id="History">
         <source>History</source>
+        <target>紀錄</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Last month">
         <source>Last month</source>
+        <target>上個月</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Last week">
         <source>Last week</source>
+        <target>上週</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Mark as Read">
         <source>Mark as Read</source>
+        <target>標示為已讀</target>
         <note>Title for the button that marks a reading list item as read</note>
       </trans-unit>
       <trans-unit id="Mark as Unread">
         <source>Mark as Unread</source>
+        <target>標示為未讀</target>
         <note>Title for the button that marks a reading list item as unread</note>
       </trans-unit>
       <trans-unit id="Reading list">
         <source>Reading list</source>
+        <target>閱讀清單</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Recent Bookmarks">
         <source>Recent Bookmarks</source>
+        <target>最近的書籤</target>
         <note>Header for bookmarks list</note>
       </trans-unit>
       <trans-unit id="Remove">
         <source>Remove</source>
+        <target>移除</target>
         <note>Title for the button that removes a reading list item</note>
       </trans-unit>
       <trans-unit id="Synced tabs">
         <source>Synced tabs</source>
+        <target>已同步的分頁</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Today">
         <source>Today</source>
+        <target>今天</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Top sites">
         <source>Top sites</source>
+        <target>最常瀏覽的網站</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Web content">
         <source>Web content</source>
+        <target>網頁內容</target>
         <note>Accessibility label for the main web content view</note>
       </trans-unit>
       <trans-unit id="Yesterday">
         <source>Yesterday</source>
+        <target>昨天</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>
@@ -383,14 +411,17 @@
     <body>
       <trans-unit id="No">
         <source>No</source>
+        <target>不要</target>
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
       </trans-unit>
       <trans-unit id="Turn on search suggestions?">
         <source>Turn on search suggestions?</source>
+        <target>要開啟搜尋建議嗎？</target>
         <note>Prompt shown before enabling provider search queries</note>
       </trans-unit>
       <trans-unit id="Yes">
         <source>Yes</source>
+        <target>好</target>
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
       </trans-unit>
     </body>
@@ -421,10 +452,12 @@
     <body>
       <trans-unit id="Send To Device">
         <source>Send To Device</source>
+        <target>傳送到裝置</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Send to ">
         <source>Send to </source>
+        <target>傳送到</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>
@@ -455,10 +488,12 @@
     <body>
       <trans-unit id="Add to Bookmarks">
         <source>Add to Bookmarks</source>
+        <target>新增至書籤</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Add to Reading List">
         <source>Add to Reading List</source>
+        <target>新增至閱讀清單</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>
@@ -470,9 +505,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
