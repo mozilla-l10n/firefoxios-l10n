@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="ga-IE">
     <header>
@@ -7,10 +7,10 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <alt-trans xml:space="preserve" origin="fish"><source>$(PRODUCT_NAME)</source><target>$(PRODUCT_NAME)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <alt-trans xml:space="preserve" origin="fish"><source>1.0</source><target>1.0</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="ga-IE">
@@ -20,10 +20,10 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <alt-trans xml:space="preserve" origin="fish"><source>$(PRODUCT_NAME)</source><target>$(PRODUCT_NAME)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <alt-trans xml:space="preserve" origin="fish"><source>1.0</source><target>1.0</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="ga-IE">
@@ -31,15 +31,18 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" approved="yes">
+      <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-      <target state="translated">$(MOZ_BUNDLE_DISPLAY_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleName" approved="yes">
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">1.0</target></trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="ga-IE">
@@ -47,84 +50,93 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
-      <trans-unit id="%@ search" approved="yes">
+      <trans-unit id="%@ search">
         <source>%@ search</source>
-        <target state="translated">Cuardach %@</target><note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
-      <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note></trans-unit>
+        <target>Cuardach %@</target>
+        <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
+      </trans-unit>
       <trans-unit id="About">
         <source>About</source>
         <note>Title for about section.</note>
       </trans-unit>
-      <trans-unit id="Add to Bookmarks" approved="yes">
-        <source>Add to Bookmarks</source>
-        <target state="translated">Cruthaigh Leabharmharc</target><note>No comment provided by engineer.</note>
-      <note>No comment provided by engineer.</note></trans-unit>
-      <trans-unit id="Add to Reading List" approved="yes">
-        <source>Add to Reading List</source>
-        <target state="translated">Le Léamh Ar Ball</target><note>No comment provided by engineer.</note>
-      <note>No comment provided by engineer.</note></trans-unit>
-      <trans-unit id="Address and Search" approved="yes">
+      <trans-unit id="Address and Search">
         <source>Address and Search</source>
-        <target state="translated">Seoladh agus Cuardach</target><note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
-      <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note></trans-unit>
-      <trans-unit id="Back" approved="yes">
+        <target>Seoladh agus Cuardach</target>
+        <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
+      </trans-unit>
+      <trans-unit id="Back">
         <source>Back</source>
-        <target state="translated">Siar</target><note>No comment provided by engineer.</note>
-      <note>No comment provided by engineer.</note></trans-unit>
-      <trans-unit id="Bookmarks" approved="yes">
+        <target>Siar</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks">
         <source>Bookmarks</source>
-        <target state="translated">Leabharmharcanna</target><note>Panel accessibility label</note>
-      <note>Panel accessibility label</note></trans-unit>
-      <trans-unit id="Cancel" approved="yes">
+        <target>Leabharmharcanna</target>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Cancel">
         <source>Cancel</source>
-      <target state="translated">Cealaigh</target></trans-unit>
-      <trans-unit id="Could not connect to Firefox Accounts." approved="yes">
+        <target>Cealaigh</target>
+      </trans-unit>
+      <trans-unit id="Could not connect to Firefox Accounts.">
         <source>Could not connect to Firefox Accounts.</source>
-        <target state="translated">Níorbh fhéidir ceangal a bhunú le Cuntais Firefox.</target><note>Settings</note>
-      <note>Settings</note></trans-unit>
-      <trans-unit id="Default Search Engine" approved="yes">
+        <target>Níorbh fhéidir ceangal a bhunú le Cuntais Firefox.</target>
+        <note>Settings</note>
+      </trans-unit>
+      <trans-unit id="Default Search Engine">
         <source>Default Search Engine</source>
-      <target state="translated">Inneall Cuardaigh Réamhshocraithe</target></trans-unit>
-      <trans-unit id="Disconnect" approved="yes">
+        <target>Inneall Cuardaigh Réamhshocraithe</target>
+      </trans-unit>
+      <trans-unit id="Disconnect">
         <source>Disconnect</source>
-        <target state="translated">Dícheangail</target><note>Settings</note>
-      <note>Settings</note></trans-unit>
-      <trans-unit id="Disconnect Firefox Account?" approved="yes">
+        <target>Dícheangail</target>
+        <note>Settings</note>
+      </trans-unit>
+      <trans-unit id="Disconnect Firefox Account?">
         <source>Disconnect Firefox Account?</source>
-        <target state="translated">Dícheangail do Chuntas Firefox?</target><note>Settings</note>
-      <note>Settings</note></trans-unit>
-      <trans-unit id="Done" approved="yes">
+        <target>Dícheangail do Chuntas Firefox?</target>
+        <note>Settings</note>
+      </trans-unit>
+      <trans-unit id="Done">
         <source>Done</source>
-        <target state="translated">Déanta</target><note>Settings</note>
-      <note>Settings</note></trans-unit>
-      <trans-unit id="Double tap and hold to open history" approved="yes">
+        <target>Déanta</target>
+        <note>Settings</note>
+      </trans-unit>
+      <trans-unit id="Double tap and hold to open history">
         <source>Double tap and hold to open history</source>
-        <target state="translated">Tapáil faoi dhó agus coinnigh síos é chun an stair a oscailt</target><note>No comment provided by engineer.</note>
-      <note>No comment provided by engineer.</note></trans-unit>
-      <trans-unit id="Enter your password to connect." approved="yes">
+        <target>Tapáil faoi dhó agus coinnigh síos é chun an stair a oscailt</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Enter your password to connect.">
         <source>Enter your password to connect.</source>
-        <target state="translated">Cuir isteach d'fhocal faire le ceangal.</target><note>Settings</note>
-      <note>Settings</note></trans-unit>
-      <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device." approved="yes">
+        <target>Cuir isteach d'fhocal faire le ceangal.</target>
+        <note>Settings</note>
+      </trans-unit>
+      <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.">
         <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
-        <target state="translated">Stopfaidh Firefox sioncrónú le do chuntas, ach ní scriosfaimid aon sonraí brabhsála ar an ngléas seo.</target><note>Settings</note>
-      <note>Settings</note></trans-unit>
-      <trans-unit id="Forward" approved="yes">
+        <target>Stopfaidh Firefox sioncrónú le do chuntas, ach ní scriosfaimid aon sonraí brabhsála ar an ngléas seo.</target>
+        <note>Settings</note>
+      </trans-unit>
+      <trans-unit id="Forward">
         <source>Forward</source>
-        <target state="translated">Ar Aghaidh</target><note>No comment provided by engineer.</note>
-      <note>No comment provided by engineer.</note></trans-unit>
-      <trans-unit id="History" approved="yes">
+        <target>Ar Aghaidh</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="History">
         <source>History</source>
-        <target state="translated">Stair</target><note>Panel accessibility label</note>
-      <note>Panel accessibility label</note></trans-unit>
-      <trans-unit id="Last month" approved="yes">
+        <target>Stair</target>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Last month">
         <source>Last month</source>
-        <target state="translated">An mhí seo caite</target><note>No comment provided by engineer.</note>
-      <note>No comment provided by engineer.</note></trans-unit>
-      <trans-unit id="Last week" approved="yes">
+        <target>An mhí seo caite</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Last week">
         <source>Last week</source>
-        <target state="translated">An tseachtain seo caite</target><note>No comment provided by engineer.</note>
-      <note>No comment provided by engineer.</note></trans-unit>
+        <target>An tseachtain seo caite</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Mark as Read">
         <source>Mark as Read</source>
         <note>Title for the button that marks a reading list item as read</note>
@@ -133,114 +145,127 @@
         <source>Mark as Unread</source>
         <note>Title for the button that marks a reading list item as unread</note>
       </trans-unit>
-      <trans-unit id="OK" approved="yes">
+      <trans-unit id="OK">
         <source>OK</source>
-      <target state="translated">OK</target><note>OK button</note></trans-unit>
+        <target>OK</target>
+      </trans-unit>
       <trans-unit id="Opening %@">
         <source>Opening %@</source>
         <note>Opening an external URL</note>
       </trans-unit>
-      <trans-unit id="Quick-search Engines" approved="yes">
+      <trans-unit id="Quick-search Engines">
         <source>Quick-search Engines</source>
-        <target state="translated">Innill Mhearchuardaigh</target><note>Title for quick-search engines settings section.</note>
-      <note>Title for quick-search engines settings section.</note></trans-unit>
-      <trans-unit id="Reader" approved="yes">
+        <target>Innill Mhearchuardaigh</target>
+        <note>Title for quick-search engines settings section.</note>
+      </trans-unit>
+      <trans-unit id="Reader">
         <source>Reader</source>
-        <target state="translated">Léitheoir</target><note>Browser function that presents simplified version of the page with bigger text.</note>
-      <note>Browser function that presents simplified version of the page with bigger text.</note></trans-unit>
-      <trans-unit id="Reading list" approved="yes">
+        <target>Léitheoir</target>
+        <note>Browser function that presents simplified version of the page with bigger text.</note>
+      </trans-unit>
+      <trans-unit id="Reading list">
         <source>Reading list</source>
-        <target state="translated">Liosta Léitheoireachta</target><note>Panel accessibility label</note>
-      <note>Panel accessibility label</note></trans-unit>
-      <trans-unit id="Recent Bookmarks" approved="yes">
+        <target>Liosta Léitheoireachta</target>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Recent Bookmarks">
         <source>Recent Bookmarks</source>
-        <target state="translated">Na Leabharmharcanna Is Déanaí</target><note>Header for bookmarks list</note>
-      <note>Header for bookmarks list</note></trans-unit>
+        <target>Na Leabharmharcanna Is Déanaí</target>
+        <note>Header for bookmarks list</note>
+      </trans-unit>
       <trans-unit id="Remove">
         <source>Remove</source>
         <note>Title for the button that removes a reading list item</note>
       </trans-unit>
-      <trans-unit id="Search" approved="yes">
+      <trans-unit id="Search">
         <source>Search</source>
-      <target state="translated">Cuardach</target></trans-unit>
-      <trans-unit id="Search Settings" approved="yes">
+        <target>Cuardach</target>
+      </trans-unit>
+      <trans-unit id="Search Settings">
         <source>Search Settings</source>
-        <target state="translated">Socruithe Cuardaigh</target><note>Title for search settings section.</note>
-      <note>Title for search settings section.</note></trans-unit>
-      <trans-unit id="Search or enter address" approved="yes">
+        <target>Socruithe Cuardaigh</target>
+        <note>Title for search settings section.</note>
+      </trans-unit>
+      <trans-unit id="Search or enter address">
         <source>Search or enter address</source>
-        <target state="translated">Cuardach nó seoladh Gréasáin</target><note>The text shown in the URL bar on about:home</note>
-      <note>The text shown in the URL bar on about:home</note></trans-unit>
-      <trans-unit id="Secure connection" approved="yes">
+        <target>Cuardach nó seoladh Gréasáin</target>
+        <note>The text shown in the URL bar on about:home</note>
+      </trans-unit>
+      <trans-unit id="Secure connection">
         <source>Secure connection</source>
-        <target state="translated">Ceangal slán</target><note>No comment provided by engineer.</note>
-      <note>No comment provided by engineer.</note></trans-unit>
-      <trans-unit id="Send To Device" approved="yes">
-        <source>Send To Device</source>
-        <target state="translated">Seol chuig Gléas</target><note>No comment provided by engineer.</note>
-      <note>No comment provided by engineer.</note></trans-unit>
-      <trans-unit id="Send to " approved="yes">
-        <source>Send to </source>
-        <target state="translated">Seol chuig</target><note>No comment provided by engineer.</note>
-      <note>No comment provided by engineer.</note></trans-unit>
-      <trans-unit id="Settings" approved="yes">
+        <target>Ceangal slán</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Settings">
         <source>Settings</source>
-      <target state="translated">Socruithe</target></trans-unit>
+        <target>Socruithe</target>
+      </trans-unit>
       <trans-unit id="Share">
         <source>Share</source>
         <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Show Tabs" approved="yes">
+      <trans-unit id="Show Tabs">
         <source>Show Tabs</source>
-        <target state="translated">Taispeáin Cluaisíní</target><note>No comment provided by engineer.</note>
-      <note>No comment provided by engineer.</note></trans-unit>
-      <trans-unit id="Show search suggestions" approved="yes">
+        <target>Taispeáin Cluaisíní</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Show search suggestions">
         <source>Show search suggestions</source>
-        <target state="translated">Taispeáin moltaí cuardaigh</target><note>Label for show search suggestions setting.</note>
-      <note>Label for show search suggestions setting.</note></trans-unit>
-      <trans-unit id="Sign in" approved="yes">
+        <target>Taispeáin moltaí cuardaigh</target>
+        <note>Label for show search suggestions setting.</note>
+      </trans-unit>
+      <trans-unit id="Sign in">
         <source>Sign in</source>
-      <target state="translated">Logáil isteach</target></trans-unit>
+        <target>Logáil isteach</target>
+      </trans-unit>
       <trans-unit id="Synced tabs">
         <source>Synced tabs</source>
         <note>Panel accessibility label</note>
       </trans-unit>
-      <trans-unit id="Tabs Tray" approved="yes">
+      <trans-unit id="Tabs Tray">
         <source>Tabs Tray</source>
-        <target state="translated">Tráidire na gCluaisíní</target><note>Accessibility label for the Tabs Tray view.</note>
-      <note>Accessibility label for the Tabs Tray view.</note></trans-unit>
+        <target>Tráidire na gCluaisíní</target>
+        <note>Accessibility label for the Tabs Tray view.</note>
+      </trans-unit>
       <trans-unit id="This will open in another application">
         <source>This will open in another application</source>
         <note>Opening an external app</note>
       </trans-unit>
-      <trans-unit id="Today" approved="yes">
+      <trans-unit id="Today">
         <source>Today</source>
-        <target state="translated">Inniu</target><note>No comment provided by engineer.</note>
-      <note>No comment provided by engineer.</note></trans-unit>
-      <trans-unit id="Top sites" approved="yes">
+        <target>Inniu</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Top sites">
         <source>Top sites</source>
-        <target state="translated">Barrshuímh</target><note>Panel accessibility label</note>
-      <note>Panel accessibility label</note></trans-unit>
-      <trans-unit id="URL" approved="yes">
+        <target>Barrshuímh</target>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="URL">
         <source>URL</source>
-        <target state="translated">URL</target><note>Accessibility label</note>
-      <note>Accessibility label</note></trans-unit>
-      <trans-unit id="Upgrade Firefox to connect." approved="yes">
+        <target>URL</target>
+        <note>Accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Upgrade Firefox to connect.">
         <source>Upgrade Firefox to connect.</source>
-        <target state="translated">Is gá Firefox a nuashonrú le ceangal.</target><note>Settings</note>
-      <note>Settings</note></trans-unit>
-      <trans-unit id="Verify your email address." approved="yes">
+        <target>Is gá Firefox a nuashonrú le ceangal.</target>
+        <note>Settings</note>
+      </trans-unit>
+      <trans-unit id="Verify your email address.">
         <source>Verify your email address.</source>
-        <target state="translated">Deimhnigh do sheoladh ríomhphoist.</target><note>Settings</note>
-      <note>Settings</note></trans-unit>
-      <trans-unit id="Web content" approved="yes">
+        <target>Deimhnigh do sheoladh ríomhphoist.</target>
+        <note>Settings</note>
+      </trans-unit>
+      <trans-unit id="Web content">
         <source>Web content</source>
-        <target state="translated">Ábhar Gréasáin</target><note>Accessibility label for the main web content view</note>
-      <note>Accessibility label for the main web content view</note></trans-unit>
-      <trans-unit id="Yesterday" approved="yes">
+        <target>Ábhar Gréasáin</target>
+        <note>Accessibility label for the main web content view</note>
+      </trans-unit>
+      <trans-unit id="Yesterday">
         <source>Yesterday</source>
-        <target state="translated">Inné</target><note>No comment provided by engineer.</note>
-      <note>No comment provided by engineer.</note></trans-unit>
+        <target>Inné</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/search.strings" source-language="en" datatype="plaintext" target-language="ga-IE">
@@ -248,18 +273,21 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
-      <trans-unit id="No" approved="yes">
+      <trans-unit id="No">
         <source>No</source>
-        <target state="translated">Níl</target><note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
-      <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note></trans-unit>
-      <trans-unit id="Turn on search suggestions?" approved="yes">
+        <target>Níl</target>
+        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+      </trans-unit>
+      <trans-unit id="Turn on search suggestions?">
         <source>Turn on search suggestions?</source>
-        <target state="translated">An bhfuil fonn ort moltaí cuardaigh a fháil?</target><note>Prompt shown before enabling provider search queries</note>
-      <note>Prompt shown before enabling provider search queries</note></trans-unit>
-      <trans-unit id="Yes" approved="yes">
+        <target>An bhfuil fonn ort moltaí cuardaigh a fháil?</target>
+        <note>Prompt shown before enabling provider search queries</note>
+      </trans-unit>
+      <trans-unit id="Yes">
         <source>Yes</source>
-        <target state="translated">Tá</target><note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
-      <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note></trans-unit>
+        <target>Tá</target>
+        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="ga-IE">
@@ -267,12 +295,104 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">1.0</target></trans-unit>
+        <target>1.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ClientTests/Localizable.strings" source-language="en" datatype="plaintext" target-language="ga-IE">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="%@ search">
+        <source>%@ search</source>
+        <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks">
+        <source>Bookmarks</source>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Could not connect to Firefox Accounts.">
+        <source>Could not connect to Firefox Accounts.</source>
+        <note>Settings</note>
+      </trans-unit>
+      <trans-unit id="History">
+        <source>History</source>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Last month">
+        <source>Last month</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Last week">
+        <source>Last week</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Mark as Read">
+        <source>Mark as Read</source>
+        <note>Title for the button that marks a reading list item as read</note>
+      </trans-unit>
+      <trans-unit id="Mark as Unread">
+        <source>Mark as Unread</source>
+        <note>Title for the button that marks a reading list item as unread</note>
+      </trans-unit>
+      <trans-unit id="Reading list">
+        <source>Reading list</source>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Recent Bookmarks">
+        <source>Recent Bookmarks</source>
+        <note>Header for bookmarks list</note>
+      </trans-unit>
+      <trans-unit id="Remove">
+        <source>Remove</source>
+        <note>Title for the button that removes a reading list item</note>
+      </trans-unit>
+      <trans-unit id="Synced tabs">
+        <source>Synced tabs</source>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Today">
+        <source>Today</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Top sites">
+        <source>Top sites</source>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Web content">
+        <source>Web content</source>
+        <note>Accessibility label for the main web content view</note>
+      </trans-unit>
+      <trans-unit id="Yesterday">
+        <source>Yesterday</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ClientTests/search.strings" source-language="en" datatype="plaintext" target-language="ga-IE">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="No">
+        <source>No</source>
+        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+      </trans-unit>
+      <trans-unit id="Turn on search suggestions?">
+        <source>Turn on search suggestions?</source>
+        <note>Prompt shown before enabling provider search queries</note>
+      </trans-unit>
+      <trans-unit id="Yes">
+        <source>Yes</source>
+        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="ga-IE">
@@ -280,15 +400,33 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" approved="yes">
+      <trans-unit id="CFBundleDisplayName">
         <source>Send To</source>
-      <target state="translated">Seol Chuig</target></trans-unit>
-      <trans-unit id="CFBundleName" approved="yes">
+        <target>Seol Chuig</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">1.0</target></trans-unit>
+        <target>1.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Extensions/SendTo/Localizable.strings" source-language="en" datatype="plaintext" target-language="ga-IE">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="Send To Device">
+        <source>Send To Device</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Send to ">
+        <source>Send to </source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="ga-IE">
@@ -296,15 +434,33 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" approved="yes">
+      <trans-unit id="CFBundleDisplayName">
         <source>Share To</source>
-      <target state="translated">Comhroinn Le</target></trans-unit>
-      <trans-unit id="CFBundleName" approved="yes">
+        <target>Comhroinn Le</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">1.0</target></trans-unit>
+        <target>1.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Extensions/ShareTo/Localizable.strings" source-language="en" datatype="plaintext" target-language="ga-IE">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="Add to Bookmarks">
+        <source>Add to Bookmarks</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Add to Reading List">
+        <source>Add to Reading List</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="StorageTests/Info.plist" source-language="en" datatype="plaintext" target-language="ga-IE">
@@ -314,10 +470,10 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <alt-trans xml:space="preserve" origin="fish"><source>$(PRODUCT_NAME)</source><target>$(PRODUCT_NAME)</target></alt-trans></trans-unit>
+      </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <alt-trans xml:space="preserve" origin="fish"><source>1.0</source><target>1.0</target></alt-trans></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="UITests/Info.plist" source-language="en" datatype="plaintext" target-language="ga-IE">
@@ -325,12 +481,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">1.0</target></trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

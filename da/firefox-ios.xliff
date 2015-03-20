@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="da-DK">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="da-DK">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="da-DK">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
@@ -28,6 +54,10 @@
         <source>%@ search</source>
         <target>%@-søgning</target>
         <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
+      </trans-unit>
+      <trans-unit id="About">
+        <source>About</source>
+        <note>Title for about section.</note>
       </trans-unit>
       <trans-unit id="Address and Search">
         <source>Address and Search</source>
@@ -107,10 +137,21 @@
         <target>Seneste uge</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="Mark as Read">
+        <source>Mark as Read</source>
+        <note>Title for the button that marks a reading list item as read</note>
+      </trans-unit>
+      <trans-unit id="Mark as Unread">
+        <source>Mark as Unread</source>
+        <note>Title for the button that marks a reading list item as unread</note>
+      </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
         <target>OK</target>
-        <note>OK button</note>
+      </trans-unit>
+      <trans-unit id="Opening %@">
+        <source>Opening %@</source>
+        <note>Opening an external URL</note>
       </trans-unit>
       <trans-unit id="Quick-search Engines">
         <source>Quick-search Engines</source>
@@ -131,6 +172,10 @@
         <source>Recent Bookmarks</source>
         <target>Senest bogmærket</target>
         <note>Header for bookmarks list</note>
+      </trans-unit>
+      <trans-unit id="Remove">
+        <source>Remove</source>
+        <note>Title for the button that removes a reading list item</note>
       </trans-unit>
       <trans-unit id="Search">
         <source>Search</source>
@@ -155,6 +200,10 @@
         <source>Settings</source>
         <target>Indstillinger</target>
       </trans-unit>
+      <trans-unit id="Share">
+        <source>Share</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Show Tabs">
         <source>Show Tabs</source>
         <target>Vis faneblade</target>
@@ -169,10 +218,18 @@
         <source>Sign in</source>
         <target>Log ind</target>
       </trans-unit>
+      <trans-unit id="Synced tabs">
+        <source>Synced tabs</source>
+        <note>Panel accessibility label</note>
+      </trans-unit>
       <trans-unit id="Tabs Tray">
         <source>Tabs Tray</source>
         <target>Fanebladsbakke</target>
         <note>Accessibility label for the Tabs Tray view.</note>
+      </trans-unit>
+      <trans-unit id="This will open in another application">
+        <source>This will open in another application</source>
+        <note>Opening an external app</note>
       </trans-unit>
       <trans-unit id="Today">
         <source>Today</source>
@@ -218,17 +275,17 @@
     <body>
       <trans-unit id="No">
         <source>No</source>
-		<target>Nej</target>
+        <target>Nej</target>
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
       </trans-unit>
       <trans-unit id="Turn on search suggestions?">
         <source>Turn on search suggestions?</source>
-		<target>Slå søgeforslag til?</target>
+        <target>Slå søgeforslag til?</target>
         <note>Prompt shown before enabling provider search queries</note>
       </trans-unit>
       <trans-unit id="Yes">
         <source>Yes</source>
-		<target>Ja</target>
+        <target>Ja</target>
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
       </trans-unit>
     </body>
@@ -255,57 +312,77 @@
     <body>
       <trans-unit id="%@ search">
         <source>%@ search</source>
-		<target>%@-søgning</target>
+        <target>%@-søgning</target>
         <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
       </trans-unit>
       <trans-unit id="Bookmarks">
         <source>Bookmarks</source>
-		<target>Bogmærker</target>
+        <target>Bogmærker</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Could not connect to Firefox Accounts.">
         <source>Could not connect to Firefox Accounts.</source>
-		<target>Kunne ikke forbinde til Firefox-konti.</target>
+        <target>Kunne ikke forbinde til Firefox-konti.</target>
         <note>Settings</note>
       </trans-unit>
       <trans-unit id="History">
         <source>History</source>
-		<target>Historik</target>
+        <target>Historik</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Last month">
         <source>Last month</source>
-		<target>Seneste måned</target>
+        <target>Seneste måned</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Last week">
         <source>Last week</source>
-		<target>Seneste uge</target>
+        <target>Seneste uge</target>
         <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Mark as Read">
+        <source>Mark as Read</source>
+        <note>Title for the button that marks a reading list item as read</note>
+      </trans-unit>
+      <trans-unit id="Mark as Unread">
+        <source>Mark as Unread</source>
+        <note>Title for the button that marks a reading list item as unread</note>
       </trans-unit>
       <trans-unit id="Reading list">
         <source>Reading list</source>
-		<target>Læseliste</target>
+        <target>Læseliste</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Recent Bookmarks">
         <source>Recent Bookmarks</source>
-		<target>Senest bogmærket</target>
+        <target>Senest bogmærket</target>
         <note>Header for bookmarks list</note>
+      </trans-unit>
+      <trans-unit id="Remove">
+        <source>Remove</source>
+        <note>Title for the button that removes a reading list item</note>
+      </trans-unit>
+      <trans-unit id="Synced tabs">
+        <source>Synced tabs</source>
+        <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Today">
         <source>Today</source>
-		<target>I dag</target>
+        <target>I dag</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Top sites">
         <source>Top sites</source>
-		<target>Mest besøgte websider</target>
+        <target>Mest besøgte websider</target>
         <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Web content">
+        <source>Web content</source>
+        <note>Accessibility label for the main web content view</note>
       </trans-unit>
       <trans-unit id="Yesterday">
         <source>Yesterday</source>
-		<target>I går</target>
+        <target>I går</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>
@@ -317,17 +394,17 @@
     <body>
       <trans-unit id="No">
         <source>No</source>
-		<target>Nej</target>
+        <target>Nej</target>
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
       </trans-unit>
       <trans-unit id="Turn on search suggestions?">
         <source>Turn on search suggestions?</source>
-		<target>Slå søgeforslag til?</target>
+        <target>Slå søgeforslag til?</target>
         <note>Prompt shown before enabling provider search queries</note>
       </trans-unit>
       <trans-unit id="Yes">
         <source>Yes</source>
-		<target>Ja</target>
+        <target>Ja</target>
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
       </trans-unit>
     </body>
@@ -358,12 +435,12 @@
     <body>
       <trans-unit id="Send To Device">
         <source>Send To Device</source>
-		<target>Send til enhed</target>
+        <target>Send til enhed</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Send to ">
         <source>Send to </source>
-		<target>Send til </target>
+        <target>Send til </target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>
@@ -394,13 +471,26 @@
     <body>
       <trans-unit id="Add to Bookmarks">
         <source>Add to Bookmarks</source>
-		<target>Føj til bogmærker</target>
+        <target>Føj til bogmærker</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Add to Reading List">
         <source>Add to Reading List</source>
-		<target>Føj til læseliste</target>
+        <target>Føj til læseliste</target>
         <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="StorageTests/Info.plist" source-language="en" datatype="plaintext" target-language="da-DK">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
       </trans-unit>
     </body>
   </file>
