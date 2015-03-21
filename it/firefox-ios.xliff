@@ -72,7 +72,7 @@
       <trans-unit id="Back">
         <source>Back</source>
         <target>Indietro</target>
-        <note>No comment provided by engineer.</note>
+        <note>Accessibility Label for the browser toolbar Back button</note>
       </trans-unit>
       <trans-unit id="Bookmarks">
         <source>Bookmarks</source>
@@ -86,7 +86,7 @@
       <trans-unit id="Could not connect to Firefox Accounts.">
         <source>Could not connect to Firefox Accounts.</source>
         <target>Impossibile connettersi a Firefox Account.</target>
-        <note>Settings</note>
+        <note>Error message that is shown in settings when there was a problem connecting to Firefox Accounts</note>
       </trans-unit>
       <trans-unit id="Default Search Engine">
         <source>Default Search Engine</source>
@@ -95,17 +95,16 @@
       <trans-unit id="Disconnect">
         <source>Disconnect</source>
         <target>Disconnetti</target>
-        <note>Settings</note>
       </trans-unit>
       <trans-unit id="Disconnect Firefox Account?">
         <source>Disconnect Firefox Account?</source>
         <target>Disconnettersi da Firefox Account?</target>
-        <note>Settings</note>
+        <note>Title of the 'disconnect firefox account' alert</note>
       </trans-unit>
       <trans-unit id="Done">
         <source>Done</source>
         <target>Fine</target>
-        <note>Settings</note>
+        <note>Done button on left side of the Settings view controller title bar</note>
       </trans-unit>
       <trans-unit id="Double tap and hold to open history">
         <source>Double tap and hold to open history</source>
@@ -115,17 +114,17 @@
       <trans-unit id="Enter your password to connect.">
         <source>Enter your password to connect.</source>
         <target>Inserire la password per connettersi.</target>
-        <note>Settings</note>
+        <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.">
         <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
         <target>Verrà interrotta la sincronizzazione con l’account, ma non verrà eliminata alcuna informazione relativa alla navigazione da questo dispositivo.</target>
-        <note>Settings</note>
+        <note>Text of the 'disconnect firefox account' alert</note>
       </trans-unit>
       <trans-unit id="Forward">
         <source>Forward</source>
         <target>Avanti</target>
-        <note>No comment provided by engineer.</note>
+        <note>Accessibility Label for the browser toolbar Forward button</note>
       </trans-unit>
       <trans-unit id="History">
         <source>History</source>
@@ -135,12 +134,12 @@
       <trans-unit id="Last month">
         <source>Last month</source>
         <target>Ultimo mese</target>
-        <note>No comment provided by engineer.</note>
+        <note>History tableview section header</note>
       </trans-unit>
       <trans-unit id="Last week">
         <source>Last week</source>
         <target>Ultima settimana</target>
-        <note>No comment provided by engineer.</note>
+        <note>History tableview section header</note>
       </trans-unit>
       <trans-unit id="Mark as Read">
         <source>Mark as Read</source>
@@ -203,7 +202,7 @@
       <trans-unit id="Secure connection">
         <source>Secure connection</source>
         <target>Connessione sicura</target>
-        <note>No comment provided by engineer.</note>
+        <note>Accessibility label for the lock icon, which is only present if the connection is secure</note>
       </trans-unit>
       <trans-unit id="Settings">
         <source>Settings</source>
@@ -212,12 +211,11 @@
       <trans-unit id="Share">
         <source>Share</source>
         <target>Condividi</target>
-        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Show Tabs">
         <source>Show Tabs</source>
         <target>Visualizza schede</target>
-        <note>No comment provided by engineer.</note>
+        <note>Accessibility label for the tabs button in the (top) browser toolbar</note>
       </trans-unit>
       <trans-unit id="Show search suggestions">
         <source>Show search suggestions</source>
@@ -246,7 +244,7 @@
       <trans-unit id="Today">
         <source>Today</source>
         <target>Oggi</target>
-        <note>No comment provided by engineer.</note>
+        <note>History tableview section header</note>
       </trans-unit>
       <trans-unit id="Top sites">
         <source>Top sites</source>
@@ -256,17 +254,22 @@
       <trans-unit id="URL">
         <source>URL</source>
         <target>URL</target>
-        <note>Accessibility label</note>
+        <note>Accessibility label for the URL location label</note>
       </trans-unit>
       <trans-unit id="Upgrade Firefox to connect.">
         <source>Upgrade Firefox to connect.</source>
         <target>Aggiorna Firefox per effettuare la connessione.</target>
-        <note>Settings</note>
+        <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="Verify your email address.">
         <source>Verify your email address.</source>
         <target>Verifica l’indirizzo email.</target>
-        <note>Settings</note>
+        <note>Text message in the settings table view</note>
+      </trans-unit>
+      <trans-unit id="Version %@ (%@)">
+        <source>Version %1$@ (%2$@)</source>
+        <target>Versione %1$@ (%2$@)</target>
+        <note>Table row in settings that contains the application version and build</note>
       </trans-unit>
       <trans-unit id="Web content">
         <source>Web content</source>
@@ -276,7 +279,7 @@
       <trans-unit id="Yesterday">
         <source>Yesterday</source>
         <target>Ieri</target>
-        <note>No comment provided by engineer.</note>
+        <note>History tableview section header</note>
       </trans-unit>
     </body>
   </file>
@@ -324,7 +327,6 @@
     <body>
       <trans-unit id="%@ search">
         <source>%@ search</source>
-        <target>Ricerca %@</target>
         <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
       </trans-unit>
       <trans-unit id="Bookmarks">
@@ -335,7 +337,7 @@
       <trans-unit id="Could not connect to Firefox Accounts.">
         <source>Could not connect to Firefox Accounts.</source>
         <target>Impossibile connettersi a Firefox Account.</target>
-        <note>Settings</note>
+        <note>Error message that is shown in settings when there was a problem connecting to Firefox Accounts</note>
       </trans-unit>
       <trans-unit id="History">
         <source>History</source>
@@ -345,12 +347,12 @@
       <trans-unit id="Last month">
         <source>Last month</source>
         <target>Ultimo mese</target>
-        <note>No comment provided by engineer.</note>
+        <note>History tableview section header</note>
       </trans-unit>
       <trans-unit id="Last week">
         <source>Last week</source>
         <target>Ultima settimana</target>
-        <note>No comment provided by engineer.</note>
+        <note>History tableview section header</note>
       </trans-unit>
       <trans-unit id="Mark as Read">
         <source>Mark as Read</source>
@@ -385,7 +387,7 @@
       <trans-unit id="Today">
         <source>Today</source>
         <target>Oggi</target>
-        <note>No comment provided by engineer.</note>
+        <note>History tableview section header</note>
       </trans-unit>
       <trans-unit id="Top sites">
         <source>Top sites</source>
@@ -400,7 +402,7 @@
       <trans-unit id="Yesterday">
         <source>Yesterday</source>
         <target>Ieri</target>
-        <note>No comment provided by engineer.</note>
+        <note>History tableview section header</note>
       </trans-unit>
     </body>
   </file>
@@ -453,12 +455,12 @@
       <trans-unit id="Send To Device">
         <source>Send To Device</source>
         <target>Invia a dispositivo</target>
-        <note>No comment provided by engineer.</note>
+        <note>Title of the dialog that allows you to send a tab to a different device</note>
       </trans-unit>
-      <trans-unit id="Send to ">
-        <source>Send to </source>
-        <target>Invia a </target>
-        <note>No comment provided by engineer.</note>
+      <trans-unit id="Send to %@">
+        <source>Send to %@</source>
+        <target>Invia a %@</target>
+        <note>Text in a table view row that lets the user pick a device to which to send a tab to</note>
       </trans-unit>
     </body>
   </file>
@@ -489,16 +491,45 @@
       <trans-unit id="Add to Bookmarks">
         <source>Add to Bookmarks</source>
         <target>Aggiungi ai segnalibri</target>
-        <note>No comment provided by engineer.</note>
+        <note>On/off toggle to select adding this url to your bookmarks</note>
       </trans-unit>
       <trans-unit id="Add to Reading List">
         <source>Add to Reading List</source>
-        <target>Aggiungi a Elenco lettura</target>
-        <note>No comment provided by engineer.</note>
+        <note>On/off toggle to select adding this url to your reading list</note>
       </trans-unit>
     </body>
   </file>
   <file original="StorageTests/Info.plist" source-language="en" datatype="plaintext" target-language="it">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+        <target>1.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Sync/Info.plist" source-language="en" datatype="plaintext" target-language="it">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+        <target>1.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="SyncTests/Info.plist" source-language="en" datatype="plaintext" target-language="it">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
     </header>
