@@ -64,16 +64,6 @@
         <target>Informazioni</target>
         <note>Title for about section.</note>
       </trans-unit>
-      <trans-unit id="Add to Bookmarks">
-        <source>Add to Bookmarks</source>
-        <target>Aggiungi ai segnalibri</target>
-        <note>On/off toggle to select adding this url to your bookmarks</note>
-      </trans-unit>
-      <trans-unit id="Add to Reading List">
-        <source>Add to Reading List</source>
-        <target>Aggiungi a Elenco lettura</target>
-        <note>On/off toggle to select adding this url to your reading list</note>
-      </trans-unit>
       <trans-unit id="Address and Search">
         <source>Address and Search</source>
         <target>Indirizzo e ricerca</target>
@@ -224,16 +214,6 @@
         <target>Connessione sicura</target>
         <note>Accessibility label for the lock icon, which is only present if the connection is secure</note>
       </trans-unit>
-      <trans-unit id="Send To Device">
-        <source>Send To Device</source>
-        <target>Invia a dispositivo</target>
-        <note>Title of the dialog that allows you to send a tab to a different device</note>
-      </trans-unit>
-      <trans-unit id="Send to %@">
-        <source>Send to %@</source>
-        <target>Invia a %@</target>
-        <note>Text in a table view row that lets the user pick a device to which to send a tab to</note>
-      </trans-unit>
       <trans-unit id="Settings">
         <source>Settings</source>
         <target>Impostazioni</target>
@@ -350,6 +330,115 @@
       </trans-unit>
     </body>
   </file>
+  <file original="ClientTests/Localizable.strings" source-language="en" datatype="plaintext" target-language="it">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="%@ search">
+        <source>%@ search</source>
+        <target>Ricerca %@</target>
+        <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks">
+        <source>Bookmarks</source>
+        <target>Segnalibri</target>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Could not connect to Firefox Accounts.">
+        <source>Could not connect to Firefox Accounts.</source>
+        <target>Impossibile connettersi a Firefox Account.</target>
+        <note>Error message that is shown in settings when there was a problem connecting to Firefox Accounts</note>
+      </trans-unit>
+      <trans-unit id="History">
+        <source>History</source>
+        <target>Cronologia</target>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Last month">
+        <source>Last month</source>
+        <target>Ultimo mese</target>
+        <note>History tableview section header</note>
+      </trans-unit>
+      <trans-unit id="Last week">
+        <source>Last week</source>
+        <target>Ultima settimana</target>
+        <note>History tableview section header</note>
+      </trans-unit>
+      <trans-unit id="Mark as Read">
+        <source>Mark as Read</source>
+        <target>Segna come letto</target>
+        <note>Title for the button that marks a reading list item as read</note>
+      </trans-unit>
+      <trans-unit id="Mark as Unread">
+        <source>Mark as Unread</source>
+        <target>Segna come non letto</target>
+        <note>Title for the button that marks a reading list item as unread</note>
+      </trans-unit>
+      <trans-unit id="Reading list">
+        <source>Reading list</source>
+        <target>Elenco lettura</target>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Recent Bookmarks">
+        <source>Recent Bookmarks</source>
+        <target>Segnalibri recenti</target>
+        <note>Header for bookmarks list</note>
+      </trans-unit>
+      <trans-unit id="Remove">
+        <source>Remove</source>
+        <target>Elimina</target>
+        <note>Title for the button that removes a reading list item</note>
+      </trans-unit>
+      <trans-unit id="Synced tabs">
+        <source>Synced tabs</source>
+        <target>Schede sincronizzate</target>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Today">
+        <source>Today</source>
+        <target>Oggi</target>
+        <note>History tableview section header</note>
+      </trans-unit>
+      <trans-unit id="Top sites">
+        <source>Top sites</source>
+        <target>Siti principali</target>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Web content">
+        <source>Web content</source>
+        <target>Contenuti web</target>
+        <note>Accessibility label for the main web content view</note>
+      </trans-unit>
+      <trans-unit id="Yesterday">
+        <source>Yesterday</source>
+        <target>Ieri</target>
+        <note>History tableview section header</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ClientTests/search.strings" source-language="en" datatype="plaintext" target-language="it">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="No">
+        <source>No</source>
+        <target>No</target>
+        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+      </trans-unit>
+      <trans-unit id="Turn on search suggestions?">
+        <source>Turn on search suggestions?</source>
+        <target>Attivare i suggerimenti di ricerca?</target>
+        <note>Prompt shown before enabling provider search queries</note>
+      </trans-unit>
+      <trans-unit id="Yes">
+        <source>Yes</source>
+        <target>Sì</target>
+        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="it">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
@@ -369,6 +458,23 @@
       </trans-unit>
     </body>
   </file>
+  <file original="Extensions/SendTo/Localizable.strings" source-language="en" datatype="plaintext" target-language="it">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="Send To Device">
+        <source>Send To Device</source>
+        <target>Invia a dispositivo</target>
+        <note>Title of the dialog that allows you to send a tab to a different device</note>
+      </trans-unit>
+      <trans-unit id="Send to %@">
+        <source>Send to %@</source>
+        <target>Invia a %@</target>
+        <note>Text in a table view row that lets the user pick a device to which to send a tab to</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="it">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
@@ -385,6 +491,23 @@
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
         <target>1.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Extensions/ShareTo/Localizable.strings" source-language="en" datatype="plaintext" target-language="it">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+    </header>
+    <body>
+      <trans-unit id="Add to Bookmarks">
+        <source>Add to Bookmarks</source>
+        <target>Aggiungi ai segnalibri</target>
+        <note>On/off toggle to select adding this url to your bookmarks</note>
+      </trans-unit>
+      <trans-unit id="Add to Reading List">
+        <source>Add to Reading List</source>
+        <target>Aggiungi a Elenco lettura</target>
+        <note>On/off toggle to select adding this url to your reading list</note>
       </trans-unit>
     </body>
   </file>
