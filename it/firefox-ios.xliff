@@ -63,6 +63,21 @@
         <target>Ricerca %@</target>
         <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
       </trans-unit>
+      <trans-unit id="+">
+        <source>+</source>
+        <target>+</target>
+        <note>Button for larger reader font size. Keep this extremely short! This is shown in the reader ode toolbar.</note>
+      </trans-unit>
+      <trans-unit id="-">
+        <source>-</source>
+        <target>-</target>
+        <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader ode toolbar.</note>
+      </trans-unit>
+      <trans-unit id="Aa">
+        <source>Aa</source>
+        <target>Aa</target>
+        <note>Button for reader mode font size. Keep this extremely short! This is shown in the reader ode toolbar.</note>
+      </trans-unit>
       <trans-unit id="About">
         <source>About</source>
         <target>Informazioni</target>
@@ -107,6 +122,16 @@
         <source>Cancel</source>
         <target>Annulla</target>
       </trans-unit>
+      <trans-unit id="Copy">
+        <source>Copy</source>
+        <target>Copia</target>
+        <note>Context menu option</note>
+      </trans-unit>
+      <trans-unit id="Copy Image URL">
+        <source>Copy Image URL</source>
+        <target>Copia indirizzo immagine</target>
+        <note>Context menu option</note>
+      </trans-unit>
       <trans-unit id="Could not connect to Firefox Accounts.">
         <source>Could not connect to Firefox Accounts.</source>
         <target>Impossibile connettersi a Firefox Account.</target>
@@ -130,16 +155,16 @@
         <target>Disconnettersi da Firefox Account?</target>
         <note>Title of the 'disconnect firefox account' alert</note>
       </trans-unit>
-      <trans-unit id="Do you want to save the password for {username} on {hostname}?">
-        <source>Do you want to save the password for {username} on {hostname}?</source>
-        <target>Salvare la password per {username} su {hostname}?</target>
-        <note>No comment provided by engineer.</note>
+      <trans-unit id="Do you want to save the password for %@ on %@?">
+        <source>Do you want to save the password for %1$@ on %2$@?</source>
+        <target>Salvare la password per %1$@ su %2$@?</target>
+        <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
-      <trans-unit id="Do you want to update the password for {username} on {hostname}?">
-        <source>Do you want to update the password for {username} on {hostname}?</source>
-        <target>Aggiornare la password salvata per {username} su {hostname}?</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
+      <trans-unit id="Do you want to update the password for %@ on %@?">
+        <source>Do you want to update the password for %1$@ on %2$@?</source>
+        <target>Aggiornare la password salvata per %1$@ su %2$@?</target>
+        <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
+       </trans-unit>
       <trans-unit id="Done">
         <source>Done</source>
         <target>Fine</target>
@@ -175,6 +200,11 @@
         <target>Ultimo mese</target>
         <note>History tableview section header</note>
       </trans-unit>
+      <trans-unit id="Last synced: %@">
+        <source>Last synced: %@</source>
+        <target>Ultima sincronizzazione: %@</target>
+        <note>Remote tabs last synced time</note>
+      </trans-unit>
       <trans-unit id="Last week">
         <source>Last week</source>
         <target>Ultima settimana</target>
@@ -195,9 +225,39 @@
         <target>Segna come non letto</target>
         <note>Title for the button that marks a reading list item as unread</note>
       </trans-unit>
+      <trans-unit id="Missing error">
+        <source>Missing error</source>
+        <target>Codice di errore non disponibile</target>
+        <note>Error for a missing remote error number</note>
+      </trans-unit>
+      <trans-unit id="Missing message">
+        <source>Missing message</source>
+        <target>Messaggio di errore non disponibile</target>
+        <note>Error for a missing remote error message</note>
+      </trans-unit>
+      <trans-unit id="New version available">
+        <source>New version available</source>
+        <target>Nuova versione disponibile</target>
+        <note>Prompt title for application update</note>
+      </trans-unit>
+      <trans-unit id="Not Now">
+        <source>Not Now</source>
+        <target>Non adesso</target>
+        <note>Label for button to cancel application update prompt</note>
+      </trans-unit>
+      <trans-unit id="Not now">
+        <source>Not now</source>
+        <target>Non adesso</target>
+        <note>Button to not save the user's password</note>
+      </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
         <target>OK</target>
+      </trans-unit>
+      <trans-unit id="Open In New Tab">
+        <source>Open In New Tab</source>
+        <target>Apri in una nuova scheda</target>
+        <note>Context menu option</note>
       </trans-unit>
       <trans-unit id="Opening %@">
         <source>Opening %@</source>
@@ -243,6 +303,16 @@
         <source>Sans-serif</source>
         <target>Senza grazie</target>
         <note>Font type setting in the reading view settings</note>
+      </trans-unit>
+      <trans-unit id="Save">
+        <source>Save</source>
+        <target>Salva</target>
+        <note>Button to save the user's password</note>
+      </trans-unit>
+      <trans-unit id="Save Image">
+        <source>Save Image</source>
+        <target>Salva immagine</target>
+        <note>Context menu option</note>
       </trans-unit>
       <trans-unit id="Search">
         <source>Search</source>
@@ -335,6 +405,16 @@
         <target>Tocca per interrompere il caricamento della pagina</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
+      <trans-unit id="There is a new version available of Firefox Aurora. Tap OK to go to the download age.">
+        <source>There is a new version available of Firefox Aurora. Tap OK to go to the download page.</ource>
+        <target>È disponibile una nuova versione di Firefox Aurora. Tocca OK per andare alla pagina di download.</target>
+        <note>Prompt message for application update</note>
+      </trans-unit>
+      <trans-unit id="There was an error converting the page">
+        <source>There was an error converting the page</source>
+        <target>Si è verificato un errore durante la conversione della pagina</target>
+        <note>Error displayed when reader mode cannot be enabled</note>
+      </trans-unit>
       <trans-unit id="This will open in another application">
         <source>This will open in another application</source>
         <target>Verrà aperto in un’altra applicazione</target>
@@ -354,6 +434,11 @@
         <source>URL</source>
         <target>URL</target>
         <note>Accessibility label for the URL location label</note>
+      </trans-unit>
+      <trans-unit id="Update">
+        <source>Update</source>
+        <target>Aggiorna</target>
+        <note>Button to update the user's password</note>
       </trans-unit>
       <trans-unit id="Upgrade Firefox to connect.">
         <source>Upgrade Firefox to connect.</source>
