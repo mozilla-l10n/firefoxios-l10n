@@ -395,15 +395,15 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleDisplayName">
-        <source>Share To</source>
-        <target>Udostępnij</target>
-      </trans-unit>
+ <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
+  <header>
+   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+  </header>
+  <body>
+   <trans-unit id="CFBundleDisplayName">
+    <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
+    <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+   </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
