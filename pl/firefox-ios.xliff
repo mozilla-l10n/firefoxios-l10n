@@ -63,6 +63,21 @@
         <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
         <target>Wyszukaj z %@</target>
       </trans-unit>
+   <trans-unit id="+">
+    <source>+</source>
+    <note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+    <target>+</target>
+   </trans-unit>
+   <trans-unit id="-">
+    <source>-</source>
+    <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+    <target>-</target>
+   </trans-unit>
+   <trans-unit id="Aa">
+    <source>Aa</source>
+    <note>Button for reader mode font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+    <target>Aa</target>
+   </trans-unit>
       <trans-unit id="About">
         <source>About</source>
         <note>Title for about section.</note>
@@ -107,6 +122,16 @@
         <source>Cancel</source>
         <target>Anuluj</target>
       </trans-unit>
+   <trans-unit id="Copy">
+    <source>Copy</source>
+    <note>Context menu option</note>
+    <target>Kopiuj</target>
+   </trans-unit>
+   <trans-unit id="Copy Image URL">
+    <source>Copy Image URL</source>
+    <note>Context menu option</note>
+    <target>Kopiuj adres obrazka</target>
+   </trans-unit>
       <trans-unit id="Could not connect to Firefox Accounts.">
         <source>Could not connect to Firefox Accounts.</source>
         <note>Settings</note>
@@ -131,6 +156,16 @@
         <note>Settings</note>
         <target>Odołączyć konto Firefoksa?</target>
       </trans-unit>
+   <trans-unit id="Do you want to save the password for %@ on %@?">
+    <source>Do you want to save the password for %1$@ on %2$@?</source>
+    <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
+    <target>Czy zachować hasło użytkownika „%1$S” dla %2$S?</target>
+   </trans-unit>
+   <trans-unit id="Do you want to update the password for %@ on %@?">
+    <source>Do you want to update the password for %1$@ on %2$@?</source>
+    <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
+    <target>Czy uaktualnić hasło użytkownika „%1$S” dla %2$S?</target>
+   </trans-unit>
       <trans-unit id="Done">
         <source>Done</source>
         <note>Settings</note>
@@ -166,6 +201,11 @@
         <note>No comment provided by engineer.</note>
         <target>Ostatni miesiąc</target>
       </trans-unit>
+   <trans-unit id="Last synced: %@">
+    <source>Last synced: %@</source>
+    <note>Remote tabs last synced time</note>
+    <target>Ostatnia synchronizacja: %@</target>
+   </trans-unit>
       <trans-unit id="Last week">
         <source>Last week</source>
         <note>No comment provided by engineer.</note>
@@ -186,10 +226,40 @@
         <note>Title for the button that marks a reading list item as unread</note>
         <target>Oznacz jako nieczytaną</target>
       </trans-unit>
+   <trans-unit id="Missing error">
+    <source>Missing error</source>
+    <note>Error for a missing remote error number</note>
+    <target>Błąd brakującego numeru błędu</target>
+   </trans-unit>
+   <trans-unit id="Missing message">
+    <source>Missing message</source>
+    <note>Error for a missing remote error message</note>
+    <target>Błąd brakującej treści błędu</target>
+   </trans-unit>
+   <trans-unit id="New version available">
+    <source>New version available</source>
+    <note>Prompt title for application update</note>
+    <target>Dostępna jest nowa wersja</target>
+   </trans-unit>
+   <trans-unit id="Not Now">
+    <source>Not Now</source>
+    <note>Label for button to cancel application update prompt</note>
+    <target>Nie teraz</target>
+   </trans-unit>
+   <trans-unit id="Not now">
+    <source>Not now</source>
+    <note>Button to not save the user's password</note>
+    <target>Nie teraz</target>
+   </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
         <target>OK</target>
       </trans-unit>
+   <trans-unit id="Open In New Tab">
+    <source>Open In New Tab</source>
+    <note>Context menu option</note>
+    <target>Otwórz w nowej karcie</target>
+   </trans-unit>
       <trans-unit id="Opening %@">
         <source>Opening %@</source>
         <note>Opening an external URL</note>
@@ -234,6 +304,16 @@
     <source>Sans-serif</source>
     <note>Font type setting in the reading view settings</note>
     <target>Bezszeryfowa</target>
+   </trans-unit>
+   <trans-unit id="Save">
+    <source>Save</source>
+    <note>Button to save the user's password</note>
+    <target>Zachowaj</target>
+   </trans-unit>
+   <trans-unit id="Save Image">
+    <source>Save Image</source>
+    <note>Context menu option</note>
+    <target>Zapisz obrazek</target>
    </trans-unit>
       <trans-unit id="Search">
         <source>Search</source>
@@ -327,6 +407,16 @@
     <note>No comment provided by engineer.</note>
     <target>Stuknij, aby zatrzymać wczytywanie strony</target>
    </trans-unit>
+   <trans-unit id="There is a new version available of Firefox Aurora. Tap OK to go to the download page.">
+    <source>There is a new version available of Firefox Aurora. Tap OK to go to the download page.</source>
+    <note>Prompt message for application update</note>
+    <target>Dostępna jest nowa wersja Firefoksa Aurora. Stuknij OK, aby przejść do strony pobierania.</target>
+   </trans-unit>
+   <trans-unit id="There was an error converting the page">
+    <source>There was an error converting the page</source>
+    <note>Error displayed when reader mode cannot be enabled</note>
+    <target>Wystąpił błąd przekształcania strony</target>
+   </trans-unit>
       <trans-unit id="This will open in another application">
         <source>This will open in another application</source>
         <note>Opening an external app</note>
@@ -347,6 +437,11 @@
         <note>Accessibility label</note>
         <target>Adres URL</target>
       </trans-unit>
+   <trans-unit id="Update">
+    <source>Update</source>
+    <note>Button to update the user's password</note>
+    <target>Aktualizuj</target>
+   </trans-unit>
       <trans-unit id="Upgrade Firefox to connect.">
         <source>Upgrade Firefox to connect.</source>
         <note>Settings</note>
