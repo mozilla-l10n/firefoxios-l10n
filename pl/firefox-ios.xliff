@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
-    </header>
-    <body>
+<xliff version="1.2"
+       xmlns="urn:oasis:names:tc:xliff:document:1.2"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+ <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
+  <header>
+   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+  </header>
+  <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
@@ -14,12 +17,12 @@
         <target>1.0</target>
       </trans-unit>
     </body>
-  </file>
-  <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
-    </header>
-    <body>
+ </file>
+ <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
+  <header>
+   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+  </header>
+  <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
@@ -29,12 +32,12 @@
         <target>1.0</target>
       </trans-unit>
     </body>
-  </file>
-  <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
-    </header>
-    <body>
+ </file>
+ <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
+  <header>
+   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+  </header>
+  <body>
       <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
         <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
@@ -53,11 +56,11 @@
    </trans-unit>
   </body>
  </file>
-  <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="pl">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
-    </header>
-    <body>
+ <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="pl">
+  <header>
+   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+  </header>
+   <body>
       <trans-unit id="%@ search">
         <source>%@ search</source>
         <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
@@ -101,7 +104,7 @@
       <trans-unit id="Address and Search">
         <source>Address and Search</source>
         <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
-        <target>Pasek adresu i wyszukiwania</target>
+        <target>Pasek adresu i wyszukiwania</target>
       </trans-unit>
       <trans-unit id="Back">
         <source>Back</source>
@@ -118,14 +121,24 @@
         <note>Panel accessibility label</note>
         <target>Zakładki</target>
       </trans-unit>
-      <trans-unit id="Cancel">
-        <source>Cancel</source>
-        <target>Anuluj</target>
-      </trans-unit>
+   <trans-unit id="Cancel">
+    <source>Cancel</source>
+    <note>Alert Cancel Button
+          Button label to cancel entering a URL or search query
+          Cancel alert view
+          Cancel button
+          Cancel button in the 'disconnect firefox account' alert</note>
+    <target>Anuluj</target>
+   </trans-unit>
    <trans-unit id="Copy">
     <source>Copy</source>
     <note>Context menu option</note>
     <target>Kopiuj</target>
+   </trans-unit>
+   <trans-unit id="Copy Address">
+    <source>Copy Address</source>
+    <note>Copy the URL from the location bar</note>
+    <target>Kopiuj adres odnośnika</target>
    </trans-unit>
    <trans-unit id="Copy Image URL">
     <source>Copy Image URL</source>
@@ -142,15 +155,19 @@
     <note>Dark theme setting in Reading View settings</note>
     <target>Ciemny</target>
    </trans-unit>
-      <trans-unit id="Default Search Engine">
-        <source>Default Search Engine</source>
-        <target>Domyślna wyszukiwarka</target>
-      </trans-unit>
-      <trans-unit id="Disconnect">
-        <source>Disconnect</source>
-        <note>Settings</note>
-        <target>Odłącz</target>
-      </trans-unit>
+   <trans-unit id="Default Search Engine">
+    <source>Default Search Engine</source>
+    <note>Accessibility label for default search engine setting.
+          Title for default search engine picker.
+          Title for default search engine settings section.</note>
+    <target>Domyślna wyszukiwarka</target>
+   </trans-unit>
+   <trans-unit id="Disconnect">
+    <source>Disconnect</source>
+    <note>Button in settings screen to disconnect from your account
+          Disconnect button in the 'disconnect firefox account' alert</note>
+    <target>Wyloguj</target>
+   </trans-unit>
       <trans-unit id="Disconnect Firefox Account?">
         <source>Disconnect Firefox Account?</source>
         <note>Settings</note>
@@ -174,7 +191,7 @@
       <trans-unit id="Double tap and hold to open history">
         <source>Double tap and hold to open history</source>
         <note>No comment provided by engineer.</note>
-        <target>Stuknij dwukrotnie i przytrzymaj, aby otworzyć historię</target>
+        <target>Stuknij dwukrotnie i przytrzymaj, aby otworzyć historię</target>
       </trans-unit>
       <trans-unit id="Enter your password to connect.">
         <source>Enter your password to connect.</source>
@@ -251,10 +268,13 @@
     <note>Button to not save the user's password</note>
     <target>Nie teraz</target>
    </trans-unit>
-      <trans-unit id="OK">
-        <source>OK</source>
-        <target>OK</target>
-      </trans-unit>
+   <trans-unit id="OK">
+    <source>OK</source>
+    <note>Alert OK Button
+          Label for OK button in the application update prompt
+          OK button</note>
+    <target>OK</target>
+   </trans-unit>
    <trans-unit id="Open In New Tab">
     <source>Open In New Tab</source>
     <note>Context menu option</note>
@@ -265,6 +285,16 @@
         <note>Opening an external URL</note>
         <target>Otwieranie %@</target>
       </trans-unit>
+   <trans-unit id="Paste">
+    <source>Paste</source>
+    <note>Paste the URL into the location bar</note>
+    <target>Wklej</target>
+   </trans-unit>
+   <trans-unit id="Paste &amp; Go">
+    <source>Paste &amp; Go</source>
+    <note>Paste the URL into the location bar and visit</note>
+    <target>Wklej i przejdź</target>
+   </trans-unit>
       <trans-unit id="Quick-search Engines">
         <source>Quick-search Engines</source>
         <note>Title for quick-search engines settings section.</note>
@@ -315,10 +345,12 @@
     <note>Context menu option</note>
     <target>Zapisz obrazek</target>
    </trans-unit>
-      <trans-unit id="Search">
-        <source>Search</source>
-        <target>Szukaj</target>
-      </trans-unit>
+   <trans-unit id="Search">
+    <source>Search</source>
+    <note>Navigation title for search settings.
+          Table row in settings to go to the Search settings</note>
+    <target>Wyszukiwanie</target>
+   </trans-unit>
       <trans-unit id="Search Settings">
         <source>Search Settings</source>
         <note>Title for search settings section.</note>
@@ -354,29 +386,34 @@
     <note>Font type setting in the reading view settings</note>
     <target>Szeryfowa</target>
    </trans-unit>
-      <trans-unit id="Settings">
-        <source>Settings</source>
-        <target>Ustawienia</target>
-      </trans-unit>
+   <trans-unit id="Settings">
+    <source>Settings</source>
+    <note>Accessibility label for the Settings button in the Tab Tray.
+          Settings</note>
+    <target>Ustawienia</target>
+   </trans-unit>
       <trans-unit id="Share">
         <source>Share</source>
     <note>Accessibility Label for the browser toolbar Share button</note>
         <target>Udostępnij</target>
       </trans-unit>
-      <trans-unit id="Show Tabs">
-        <source>Show Tabs</source>
-        <note>No comment provided by engineer.</note>
-        <target>Wyświetl karty</target>
-      </trans-unit>
+   <trans-unit id="Show Tabs">
+    <source>Show Tabs</source>
+    <note>Accessibility label for the tabs button in the (top) browser toolbar
+          Accessibility Label for the urlbar tabs button</note>
+    <target>Wyświetl karty</target>
+   </trans-unit>
       <trans-unit id="Show search suggestions">
         <source>Show search suggestions</source>
         <note>Label for show search suggestions setting.</note>
         <target>Podpowiedzi wyszukiwania</target>
       </trans-unit>
-      <trans-unit id="Sign in">
-        <source>Sign in</source>
-        <target>Zaloguj się</target>
-      </trans-unit>
+   <trans-unit id="Sign in">
+    <source>Sign in</source>
+    <note>Button that leads to Sign in section of the Settings sheet.
+          Text message / button in the settings table view</note>
+    <target>Zaloguj się</target>
+   </trans-unit>
    <trans-unit id="Stop">
     <source>Stop</source>
     <note>Accessibility Label for the browser toolbar Stop button</note>
@@ -462,13 +499,13 @@
         <note>No comment provided by engineer.</note>
         <target>Wczoraj</target>
       </trans-unit>
-    </body>
-  </file>
-  <file original="Client/search.strings" source-language="en" datatype="plaintext" target-language="pl">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
-    </header>
-    <body>
+  </body>
+ </file>
+ <file original="Client/search.strings" source-language="en" datatype="plaintext" target-language="pl">
+  <header>
+   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+  </header>
+  <body>
       <trans-unit id="No">
         <source>No</source>
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
@@ -484,89 +521,89 @@
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
         <target>Tak</target>
       </trans-unit>
-    </body>
-  </file>
-  <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
-        <target>1.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleDisplayName">
-        <source>Send To</source>
-        <target>Wyślij do</target>
-      </trans-unit>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
-        <target>1.0</target>
-      </trans-unit>
-    </body>
-  </file>
+  </body>
+ </file>
+ <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
+  <header>
+   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+  </header>
+  <body>
+   <trans-unit id="CFBundleName">
+    <source>$(PRODUCT_NAME)</source>
+    <target>$(PRODUCT_NAME)</target>
+   </trans-unit>
+   <trans-unit id="CFBundleShortVersionString">
+    <source>1.0</source>
+    <target>1.0</target>
+   </trans-unit>
+  </body>
+ </file>
+ <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
+  <header>
+   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+  </header>
+  <body>
+   <trans-unit id="CFBundleDisplayName">
+    <source>Send To</source>
+    <target>Wyślij do</target>
+   </trans-unit>
+   <trans-unit id="CFBundleName">
+    <source>$(PRODUCT_NAME)</source>
+    <target>$(PRODUCT_NAME)</target>
+   </trans-unit>
+   <trans-unit id="CFBundleShortVersionString">
+    <source>1.0</source>
+    <target>1.0</target>
+   </trans-unit>
+  </body>
+ </file>
  <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
   <header>
-   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
+   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
   </header>
   <body>
    <trans-unit id="CFBundleDisplayName">
     <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
     <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
    </trans-unit>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
-        <target>1.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="StorageTests/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
-        <target>1.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="UITests/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.2" build-num="6C131e"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
-        <target>1.0</target>
-      </trans-unit>
-    </body>
-  </file>
+   <trans-unit id="CFBundleName">
+    <source>$(PRODUCT_NAME)</source>
+    <target>$(PRODUCT_NAME)</target>
+   </trans-unit>
+   <trans-unit id="CFBundleShortVersionString">
+    <source>1.0</source>
+    <target>1.0</target>
+   </trans-unit>
+  </body>
+ </file>
+ <file original="StorageTests/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
+  <header>
+   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+  </header>
+  <body>
+   <trans-unit id="CFBundleName">
+    <source>$(PRODUCT_NAME)</source>
+    <target>$(PRODUCT_NAME)</target>
+   </trans-unit>
+   <trans-unit id="CFBundleShortVersionString">
+    <source>1.0</source>
+    <target>1.0</target>
+   </trans-unit>
+  </body>
+ </file>
+ <file original="UITests/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
+  <header>
+   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+  </header>
+  <body>
+   <trans-unit id="CFBundleName">
+    <source>$(PRODUCT_NAME)</source>
+    <target>$(PRODUCT_NAME)</target>
+   </trans-unit>
+   <trans-unit id="CFBundleShortVersionString">
+    <source>1.0</source>
+    <target>1.0</target>
+   </trans-unit>
+  </body>
+ </file>
 </xliff>
