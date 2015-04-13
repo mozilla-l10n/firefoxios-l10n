@@ -86,21 +86,6 @@
         <note>Title for about section.</note>
         <target>O …</target>
       </trans-unit>
-   <trans-unit id="Add">
-    <source>Add</source>
-    <note>Add button in the share dialog</note>
-    <target>Dodaj</target>
-   </trans-unit>
-      <trans-unit id="Add to Bookmarks">
-        <source>Add to Bookmarks</source>
-        <note>No comment provided by engineer.</note>
-        <target>Dodaj do zakładek</target>
-      </trans-unit>
-      <trans-unit id="Add to Reading List">
-        <source>Add to Reading List</source>
-        <note>No comment provided by engineer.</note>
-        <target>Dodaj do czytelni</target>
-      </trans-unit>
       <trans-unit id="Address and Search">
         <source>Address and Search</source>
         <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
@@ -366,11 +351,6 @@
         <note>No comment provided by engineer.</note>
         <target>Bezpieczne połączenie</target>
       </trans-unit>
-      <trans-unit id="Send To Device">
-        <source>Send To Device</source>
-        <note>No comment provided by engineer.</note>
-        <target>Wyślij na urządzenie</target>
-      </trans-unit>
       <trans-unit id="Send to ">
         <source>Send to </source>
         <note>No comment provided by engineer.</note>
@@ -557,6 +537,23 @@
    </trans-unit>
   </body>
  </file>
+ <file original="Extensions/SendTo/SendTo.strings" source-language="en" datatype="plaintext" target-language="pl">
+  <header>
+   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+  </header>
+  <body>
+   <trans-unit id="Send To Device">
+    <source>Send To Device</source>
+    <note>Title of the dialog that allows you to send a tab to a different device</note>
+    <target>Wyślij na urządzenie</target>
+   </trans-unit>
+   <trans-unit id="Send to %@">
+    <source>Send to %@</source>
+    <note>Text in a table view row that lets the user pick a device to which to send a tab to</note>
+    <target>Wyślij do „%@”</target>
+   </trans-unit>
+  </body>
+ </file>
  <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
   <header>
    <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
@@ -573,6 +570,28 @@
    <trans-unit id="CFBundleShortVersionString">
     <source>1.0</source>
     <target>1.0</target>
+   </trans-unit>
+  </body>
+ </file>
+ <file original="Extensions/ShareTo/ShareTo.strings" source-language="en" datatype="plaintext" target-language="pl">
+  <header>
+   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+  </header>
+  <body>
+   <trans-unit id="Add">
+    <source>Add</source>
+    <note>Add button in the share dialog</note>
+    <target>Dodaj</target>
+   </trans-unit>
+   <trans-unit id="Add to Bookmarks">
+    <source>Add to Bookmarks</source>
+    <note>No comment provided by engineer.</note>
+    <target>Dodaj do zakładek</target>
+   </trans-unit>
+   <trans-unit id="Add to Reading List">
+    <source>Add to Reading List</source>
+    <note>No comment provided by engineer.</note>
+    <target>Dodaj do czytelni</target>
    </trans-unit>
   </body>
  </file>
