@@ -91,11 +91,11 @@
         <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
         <target>Pasek adresu i wyszukiwania</target>
       </trans-unit>
-      <trans-unit id="Back">
-        <source>Back</source>
-        <note>No comment provided by engineer.</note>
-        <target>Przejdź do poprzedniej strony</target>
-      </trans-unit>
+   <trans-unit id="Back">
+    <source>Back</source>
+    <note>Accessibility Label for the browser toolbar Back button</note>
+    <target>Przejdź do poprzedniej strony</target>
+   </trans-unit>
    <trans-unit id="Bookmark">
     <source>Bookmark</source>
     <note>Accessibility Label for the browser toolbar Bookmark button</note>
@@ -130,11 +130,11 @@
     <note>Context menu option</note>
     <target>Kopiuj adres obrazka</target>
    </trans-unit>
-      <trans-unit id="Could not connect to Firefox Accounts.">
-        <source>Could not connect to Firefox Accounts.</source>
-        <note>Settings</note>
-        <target>Nie można było połączyć się z kontem Firefoksa</target>
-      </trans-unit>
+   <trans-unit id="Could not connect to Firefox Accounts.">
+    <source>Could not connect to Firefox Accounts.</source>
+    <note>Error message that is shown in settings when there was a problem connecting to Firefox Accounts</note>
+    <target>Nie można było połączyć się z kontem Firefoksa</target>
+   </trans-unit>
    <trans-unit id="Dark">
     <source>Dark</source>
     <note>Dark theme setting in Reading View settings</note>
@@ -153,11 +153,11 @@
           Disconnect button in the 'disconnect firefox account' alert</note>
     <target>Wyloguj</target>
    </trans-unit>
-      <trans-unit id="Disconnect Firefox Account?">
-        <source>Disconnect Firefox Account?</source>
-        <note>Settings</note>
-        <target>Odołączyć konto Firefoksa?</target>
-      </trans-unit>
+   <trans-unit id="Disconnect Firefox Account?">
+    <source>Disconnect Firefox Account?</source>
+    <note>Title of the 'disconnect firefox account' alert</note>
+    <target>Odołączyć konto Firefoksa?</target>
+   </trans-unit>
    <trans-unit id="Do you want to save the password for %@ on %@?">
     <source>Do you want to save the password for %1$@ on %2$@?</source>
     <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
@@ -168,51 +168,51 @@
     <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
     <target>Czy uaktualnić hasło użytkownika „%1$S” dla %2$S?</target>
    </trans-unit>
-      <trans-unit id="Done">
-        <source>Done</source>
-        <note>Settings</note>
-        <target>Gotowe</target>
-      </trans-unit>
+   <trans-unit id="Done">
+    <source>Done</source>
+    <note>Done button on left side of the Settings view controller title bar</note>
+    <target>Gotowe</target>
+   </trans-unit>
       <trans-unit id="Double tap and hold to open history">
         <source>Double tap and hold to open history</source>
         <note>No comment provided by engineer.</note>
         <target>Stuknij dwukrotnie i przytrzymaj, aby otworzyć historię</target>
       </trans-unit>
-      <trans-unit id="Enter your password to connect.">
-        <source>Enter your password to connect.</source>
-        <note>Settings</note>
-        <target>Wprowadź hasło, aby połączyć</target>
-      </trans-unit>
-      <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.">
-        <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
-        <note>Settings</note>
-        <target>Firefox zaprzestanie synchronizacji z Twoim kontem ale nie usunie żadnych danych przeglądania z tego urządzenia.</target>
-      </trans-unit>
-      <trans-unit id="Forward">
-        <source>Forward</source>
-        <note>No comment provided by engineer.</note>
-        <target>Przejdź do następnej strony</target>
-      </trans-unit>
+   <trans-unit id="Enter your password to connect.">
+    <source>Enter your password to connect.</source>
+    <note>Text message in the settings table view</note>
+    <target>Wprowadź hasło, aby połączyć</target>
+   </trans-unit>
+   <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.">
+    <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
+    <note>Text of the 'disconnect firefox account' alert</note>
+    <target>Firefox zaprzestanie synchronizacji z Twoim kontem ale nie usunie żadnych danych przeglądania z tego urządzenia.</target>
+   </trans-unit>
+   <trans-unit id="Forward">
+    <source>Forward</source>
+    <note>Accessibility Label for the browser toolbar Forward button</note>
+    <target>Przejdź do następnej strony</target>
+   </trans-unit>
       <trans-unit id="History">
         <source>History</source>
         <note>Panel accessibility label</note>
         <target>Historia</target>
       </trans-unit>
-      <trans-unit id="Last month">
-        <source>Last month</source>
-        <note>No comment provided by engineer.</note>
-        <target>Ostatni miesiąc</target>
-      </trans-unit>
+   <trans-unit id="Last month">
+    <source>Last month</source>
+    <note>History tableview section header</note>
+    <target>Ostatni miesiąc</target>
+   </trans-unit>
    <trans-unit id="Last synced: %@">
     <source>Last synced: %@</source>
     <note>Remote tabs last synced time</note>
     <target>Ostatnia synchronizacja: %@</target>
    </trans-unit>
-      <trans-unit id="Last week">
-        <source>Last week</source>
-        <note>No comment provided by engineer.</note>
-        <target>Ostatnie 7 dni</target>
-      </trans-unit>
+   <trans-unit id="Last week">
+    <source>Last week</source>
+    <note>History tableview section header</note>
+    <target>Ostatnie 7 dni</target>
+   </trans-unit>
    <trans-unit id="Light">
     <source>Light</source>
     <note>Light theme setting in Reading View settings</note>
@@ -346,16 +346,11 @@
         <note>The text shown in the URL bar on about:home</note>
         <target>Wprowadź adres lub wyszukaj</target>
       </trans-unit>
-      <trans-unit id="Secure connection">
-        <source>Secure connection</source>
-        <note>No comment provided by engineer.</note>
-        <target>Bezpieczne połączenie</target>
-      </trans-unit>
-      <trans-unit id="Send to ">
-        <source>Send to </source>
-        <note>No comment provided by engineer.</note>
-        <target>Wyślij do </target>
-      </trans-unit>
+   <trans-unit id="Secure connection">
+    <source>Secure connection</source>
+    <note>Accessibility label for the lock icon, which is only present if the connection is secure</note>
+    <target>Bezpieczne połączenie</target>
+   </trans-unit>
    <trans-unit id="Sepia">
     <source>Sepia</source>
     <note>Sepia theme setting in Reading View settings</note>
@@ -439,46 +434,51 @@
         <note>Opening an external app</note>
         <target>Otworzy inną aplikację</target>
       </trans-unit>
-      <trans-unit id="Today">
-        <source>Today</source>
-        <note>No comment provided by engineer.</note>
-        <target>Dzisiaj</target>
-      </trans-unit>
+   <trans-unit id="Today">
+    <source>Today</source>
+    <note>History tableview section header</note>
+    <target>Dzisiaj</target>
+   </trans-unit>
       <trans-unit id="Top sites">
         <source>Top sites</source>
         <note>Panel accessibility label</note>
         <target>Popularne</target>
       </trans-unit>
-      <trans-unit id="URL">
-        <source>URL</source>
-        <note>Accessibility label</note>
-        <target>Adres URL</target>
-      </trans-unit>
+   <trans-unit id="URL">
+    <source>URL</source>
+    <note>Accessibility label for the URL location label</note>
+    <target>Adres URL</target>
+   </trans-unit>
    <trans-unit id="Update">
     <source>Update</source>
     <note>Button to update the user's password</note>
     <target>Aktualizuj</target>
    </trans-unit>
-      <trans-unit id="Upgrade Firefox to connect.">
-        <source>Upgrade Firefox to connect.</source>
-        <note>Settings</note>
-        <target>Uaktualnij Firefoksa, aby połączyć.</target>
-      </trans-unit>
-      <trans-unit id="Verify your email address.">
-        <source>Verify your email address.</source>
-        <note>Settings</note>
-        <target>Zweryfikuj swój adres e-mail</target>
-      </trans-unit>
+   <trans-unit id="Upgrade Firefox to connect.">
+    <source>Upgrade Firefox to connect.</source>
+    <note>Text message in the settings table view</note>
+    <target>Uaktualnij Firefoksa, aby połączyć.</target>
+   </trans-unit>
+   <trans-unit id="Verify your email address.">
+    <source>Verify your email address.</source>
+    <note>Text message in the settings table view</note>
+    <target>Zweryfikuj swój adres e-mail</target>
+   </trans-unit>
+   <trans-unit id="Version %@ (%@)">
+    <source>Version %1$@ (%2$@)</source>
+    <target>Wersja %1$@ (%2$@)</target>
+    <note>Table row in settings that contains the application version and build</note>
+   </trans-unit>
       <trans-unit id="Web content">
         <source>Web content</source>
         <note>Accessibility label for the main web content view</note>
         <target>Treść WWW</target>
       </trans-unit>
-      <trans-unit id="Yesterday">
-        <source>Yesterday</source>
-        <note>No comment provided by engineer.</note>
-        <target>Wczoraj</target>
-      </trans-unit>
+   <trans-unit id="Yesterday">
+    <source>Yesterday</source>
+    <note>History tableview section header</note>
+    <target>Wczoraj</target>
+   </trans-unit>
   </body>
  </file>
  <file original="Client/search.strings" source-language="en" datatype="plaintext" target-language="pl">
@@ -585,17 +585,47 @@
    </trans-unit>
    <trans-unit id="Add to Bookmarks">
     <source>Add to Bookmarks</source>
-    <note>No comment provided by engineer.</note>
+    <note>On/off toggle to select adding this url to your bookmarks</note>
     <target>Dodaj do zakładek</target>
    </trans-unit>
    <trans-unit id="Add to Reading List">
     <source>Add to Reading List</source>
-    <note>No comment provided by engineer.</note>
+    <note>On/off toggle to select adding this url to your reading list</note>
     <target>Dodaj do czytelni</target>
    </trans-unit>
   </body>
  </file>
  <file original="StorageTests/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
+  <header>
+   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+  </header>
+  <body>
+   <trans-unit id="CFBundleName">
+    <source>$(PRODUCT_NAME)</source>
+    <target>$(PRODUCT_NAME)</target>
+   </trans-unit>
+   <trans-unit id="CFBundleShortVersionString">
+    <source>1.0</source>
+    <target>1.0</target>
+   </trans-unit>
+  </body>
+ </file>
+ <file original="Sync/Info.plist" source-language="en" datatype="plaintext" target-language="en">
+  <header>
+   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+  </header>
+  <body>
+   <trans-unit id="CFBundleName">
+    <source>$(PRODUCT_NAME)</source>
+    <target>$(PRODUCT_NAME)</target>
+   </trans-unit>
+   <trans-unit id="CFBundleShortVersionString">
+    <source>1.0</source>
+    <target>1.0</target>
+   </trans-unit>
+  </body>
+ </file>
+ <file original="SyncTests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
   <header>
    <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
   </header>
