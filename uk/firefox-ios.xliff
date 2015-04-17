@@ -7,10 +7,10 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      </trans-unit>
+        <target>$(PRODUCT_NAME)</target></trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      </trans-unit>
+        <target>1.0</target></trans-unit>
     </body>
   </file>
   <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="uk">
@@ -20,10 +20,10 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      </trans-unit>
+        <target>$(PRODUCT_NAME)</target></trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      </trans-unit>
+        <target>1.0</target></trans-unit>
     </body>
   </file>
   <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="uk">
@@ -33,16 +33,16 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-      </trans-unit>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target></trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      </trans-unit>
+        <target>$(PRODUCT_NAME)</target></trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      </trans-unit>
+        <target>1.0</target></trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Websites you visit may request your location.</source>
-      <target>Відвідувані вами сайти можуть запитувати ваше розташування.</target></trans-unit>
+        <target>Відвідувані вами сайти можуть запитувати ваше розташування.</target></trans-unit>
     </body>
   </file>
   <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="uk">
@@ -53,39 +53,39 @@
       <trans-unit id="%@ search">
         <source>%@ search</source>
         <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
-      <target>Пошук %@</target></trans-unit>
+        <target>Пошук %@</target></trans-unit>
       <trans-unit id="+">
         <source>+</source>
         <note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
-      </trans-unit>
+        <target>+</target></trans-unit>
       <trans-unit id="-">
         <source>-</source>
         <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
-      </trans-unit>
+        <target>-</target></trans-unit>
       <trans-unit id="Aa">
         <source>Aa</source>
         <note>Button for reader mode font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
-      </trans-unit>
+        <target>Aa</target></trans-unit>
       <trans-unit id="About">
         <source>About</source>
         <note>Title for about section.</note>
-      <target>Про</target></trans-unit>
+        <target>Про</target></trans-unit>
       <trans-unit id="Address and Search">
         <source>Address and Search</source>
         <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
-      <target>Адреса і пошук</target></trans-unit>
+        <target>Адреса і пошук</target></trans-unit>
       <trans-unit id="Back">
         <source>Back</source>
         <note>Accessibility Label for the browser toolbar Back button</note>
-      <target>Назад</target></trans-unit>
+        <target>Назад</target></trans-unit>
       <trans-unit id="Bookmark">
         <source>Bookmark</source>
         <note>Accessibility Label for the browser toolbar Bookmark button</note>
-      <target>Закладка</target></trans-unit>
+        <target>Закладка</target></trans-unit>
       <trans-unit id="Bookmarks">
         <source>Bookmarks</source>
         <note>Panel accessibility label</note>
-      <target>Закладки</target></trans-unit>
+        <target>Закладки</target></trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
         <note>Alert Cancel Button
@@ -93,303 +93,300 @@
    Cancel alert view
    Cancel button
    Cancel button in the 'disconnect firefox account' alert</note>
-      <target>Скасувати</target></trans-unit>
+        <target>Скасувати</target></trans-unit>
       <trans-unit id="Copy">
         <source>Copy</source>
         <note>Context menu option</note>
-      <target>Копіювати</target></trans-unit>
+        <target>Копіювати</target></trans-unit>
       <trans-unit id="Copy Address">
         <source>Copy Address</source>
         <note>Copy the URL from the location bar</note>
-      <target>Копіювати адресу</target></trans-unit>
+        <target>Копіювати адресу</target></trans-unit>
       <trans-unit id="Copy Image URL">
         <source>Copy Image URL</source>
         <note>Context menu option</note>
-      <target>Копіювати URL зображення</target></trans-unit>
+        <target>Копіювати URL зображення</target></trans-unit>
       <trans-unit id="Could not connect to Firefox Accounts.">
         <source>Could not connect to Firefox Accounts.</source>
         <note>Error message that is shown in settings when there was a problem connecting to Firefox Accounts</note>
-      <target>Не вдалося з'єднатися з обліковими записами Firefox.</target></trans-unit>
+        <target>Не вдалося з'єднатися з обліковими записами Firefox.</target></trans-unit>
       <trans-unit id="Dark">
         <source>Dark</source>
         <note>Dark theme setting in Reading View settings</note>
-      <target>Темна</target></trans-unit>
+        <target>Темна</target></trans-unit>
       <trans-unit id="Default Search Engine">
         <source>Default Search Engine</source>
-		<target>Типовий засіб пошуку</target>
-        <note>Accessibility label for default search engine setting.
+		<note>Accessibility label for default search engine setting.
    Title for default search engine picker.
    Title for default search engine settings section.</note>
-      </trans-unit>
+        <target>Типовий засіб пошуку</target></trans-unit>
       <trans-unit id="Disconnect">
         <source>Disconnect</source>
-		<target>Від'єднати</target>
-        <note>Button in settings screen to disconnect from your account
+		<note>Button in settings screen to disconnect from your account
    Disconnect button in the 'disconnect firefox account' alert</note>
-      </trans-unit>
+        <target>Від'єднати</target></trans-unit>
       <trans-unit id="Disconnect Firefox Account?">
         <source>Disconnect Firefox Account?</source>
-		<target>Від'єднати обліковий запис Firefox?</target>
-        <note>Title of the 'disconnect firefox account' alert</note>
-      </trans-unit>
+		<note>Title of the 'disconnect firefox account' alert</note>
+        <target>Від'єднати обліковий запис Firefox?</target></trans-unit>
       <trans-unit id="Do you want to save the password for %@ on %@?">
         <source>Do you want to save the password for %1$@ on %2$@?</source>
         <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
-      <target>Ви хочете зберегти пароль для %1$@ на %2$@?</target></trans-unit>
+        <target>Ви хочете зберегти пароль для %1$@ на %2$@?</target></trans-unit>
       <trans-unit id="Do you want to update the password for %@ on %@?">
         <source>Do you want to update the password for %1$@ on %2$@?</source>
         <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
-      <target>Ви хочете оновити пароль для %1$@ на %2$@?</target></trans-unit>
+        <target>Ви хочете оновити пароль для %1$@ на %2$@?</target></trans-unit>
       <trans-unit id="Done">
         <source>Done</source>
         <note>Done button on left side of the Settings view controller title bar</note>
-      <target>Готово</target></trans-unit>
+        <target>Готово</target></trans-unit>
       <trans-unit id="Double tap and hold to open history">
         <source>Double tap and hold to open history</source>
         <note>No comment provided by engineer.</note>
-      <target>Подвійний дотик і затримка для відкриття історії</target></trans-unit>
+        <target>Подвійний дотик і затримка для відкриття історії</target></trans-unit>
       <trans-unit id="Enter your password to connect.">
         <source>Enter your password to connect.</source>
         <note>Text message in the settings table view</note>
-      <target>Введіть свій пароль, щоб з'єднатися</target></trans-unit>
+        <target>Введіть свій пароль, щоб з'єднатися.</target></trans-unit>
       <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.">
         <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
         <note>Text of the 'disconnect firefox account' alert</note>
-      <target>Firefox припинить синхронізацію з вашим обліковим записом, але не вилучить жодних даних перегляду на цьому пристрої.</target></trans-unit>
+        <target>Firefox припинить синхронізацію з вашим обліковим записом, але не вилучить жодних даних перегляду на цьому пристрої.</target></trans-unit>
       <trans-unit id="Forward">
         <source>Forward</source>
         <note>Accessibility Label for the browser toolbar Forward button</note>
-      </trans-unit>
+        <target>Вперед</target></trans-unit>
       <trans-unit id="History">
         <source>History</source>
         <note>Panel accessibility label</note>
-      <target>Історія</target></trans-unit>
+        <target>Історія</target></trans-unit>
       <trans-unit id="Last month">
         <source>Last month</source>
         <note>History tableview section header</note>
-      <target>Останній місяць</target></trans-unit>
+        <target>Останній місяць</target></trans-unit>
       <trans-unit id="Last synced: %@">
         <source>Last synced: %@</source>
         <note>Remote tabs last synced time</note>
-      <target>Востаннє синхронізовано:</target></trans-unit>
+        <target>Востаннє синхронізовано: %@</target></trans-unit>
       <trans-unit id="Last week">
         <source>Last week</source>
         <note>History tableview section header</note>
-      <target>Останній тиждень</target></trans-unit>
+        <target>Останній тиждень</target></trans-unit>
       <trans-unit id="Light">
         <source>Light</source>
         <note>Light theme setting in Reading View settings</note>
-      <target>Світла</target></trans-unit>
+        <target>Світла</target></trans-unit>
       <trans-unit id="Mark as Read">
         <source>Mark as Read</source>
         <note>Title for the button that marks a reading list item as read</note>
-      <target>Позначити, як прочитане</target></trans-unit>
+        <target>Позначити, як прочитане</target></trans-unit>
       <trans-unit id="Mark as Unread">
         <source>Mark as Unread</source>
         <note>Title for the button that marks a reading list item as unread</note>
-      <target>Позначити, як непрочитане</target></trans-unit>
+        <target>Позначити, як непрочитане</target></trans-unit>
       <trans-unit id="Missing error">
         <source>Missing error</source>
         <note>Error for a missing remote error number</note>
-      </trans-unit>
+        <target>Відсутня помилка</target></trans-unit>
       <trans-unit id="Missing message">
         <source>Missing message</source>
         <note>Error for a missing remote error message</note>
-      </trans-unit>
+        <target>Відсутнє повідомлення</target></trans-unit>
       <trans-unit id="New version available">
         <source>New version available</source>
         <note>Prompt title for application update</note>
-      <target>Доступна нова версія</target></trans-unit>
+        <target>Доступна нова версія</target></trans-unit>
       <trans-unit id="Not Now">
         <source>Not Now</source>
         <note>Label for button to cancel application update prompt</note>
-      <target>Не зараз</target></trans-unit>
+        <target>Не зараз</target></trans-unit>
       <trans-unit id="Not now">
         <source>Not now</source>
         <note>Button to not save the user's password</note>
-      <target>Не зараз</target></trans-unit>
+        <target>Не зараз</target></trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
         <note>Alert OK Button
    Label for OK button in the application update prompt
    OK button</note>
-      </trans-unit>
+        <target>OK</target></trans-unit>
       <trans-unit id="Open In New Tab">
         <source>Open In New Tab</source>
         <note>Context menu option</note>
-      <target>Відкрити у новій вкладці</target></trans-unit>
+        <target>Відкрити у новій вкладці</target></trans-unit>
       <trans-unit id="Opening %@">
         <source>Opening %@</source>
         <note>Opening an external URL</note>
-      <target>Відкриваю %@</target></trans-unit>
+        <target>Відкриваю %@</target></trans-unit>
       <trans-unit id="Paste">
         <source>Paste</source>
         <note>Paste the URL into the location bar</note>
-      <target>Вставити</target></trans-unit>
+        <target>Вставити</target></trans-unit>
       <trans-unit id="Paste &amp; Go">
         <source>Paste &amp; Go</source>
         <note>Paste the URL into the location bar and visit</note>
-      <target>Вставити і перейти</target></trans-unit>
+        <target>Вставити і перейти</target></trans-unit>
       <trans-unit id="Quick-search Engines">
         <source>Quick-search Engines</source>
         <note>Title for quick-search engines settings section.</note>
-      <target>Швидкі засоби пошуку</target></trans-unit>
+        <target>Швидкі засоби пошуку</target></trans-unit>
       <trans-unit id="Reader">
         <source>Reader</source>
         <note>Browser function that presents simplified version of the page with bigger text.</note>
-      <target>Читач</target></trans-unit>
+        <target>Читач</target></trans-unit>
       <trans-unit id="Reader Mode">
         <source>Reader Mode</source>
         <note>Accessibility label for the reader mode button</note>
-      <target>Режим читача</target></trans-unit>
+        <target>Режим читача</target></trans-unit>
       <trans-unit id="Reading list">
         <source>Reading list</source>
         <note>Panel accessibility label</note>
-      <target>Список читання</target></trans-unit>
+        <target>Список читання</target></trans-unit>
       <trans-unit id="Recent Bookmarks">
         <source>Recent Bookmarks</source>
         <note>Header for bookmarks list</note>
-      <target>Недавні закладки</target></trans-unit>
+        <target>Недавні закладки</target></trans-unit>
       <trans-unit id="Reload">
         <source>Reload</source>
         <note>Accessibility Label for the browser toolbar Reload button</note>
-      <target>Перезавантажити</target></trans-unit>
+        <target>Перезавантажити</target></trans-unit>
       <trans-unit id="Remove">
         <source>Remove</source>
         <note>Title for the button that removes a reading list item</note>
-      <target>Вилучити</target></trans-unit>
+        <target>Вилучити</target></trans-unit>
       <trans-unit id="Sans-serif">
         <source>Sans-serif</source>
         <note>Font type setting in the reading view settings</note>
-      </trans-unit>
+        <target>Без зарубок</target></trans-unit>
       <trans-unit id="Save">
         <source>Save</source>
         <note>Button to save the user's password</note>
-      <target>Зберегти</target></trans-unit>
+        <target>Зберегти</target></trans-unit>
       <trans-unit id="Save Image">
         <source>Save Image</source>
         <note>Context menu option</note>
-      <target>Зберегти зображення</target></trans-unit>
+        <target>Зберегти зображення</target></trans-unit>
       <trans-unit id="Search">
         <source>Search</source>
         <note>Navigation title for search settings.
    Table row in settings to go to the Search settings</note>
-      <target>Пошук</target></trans-unit>
+        <target>Пошук</target></trans-unit>
       <trans-unit id="Search Settings">
         <source>Search Settings</source>
         <note>Title for search settings section.</note>
-      <target>Налаштування пошуку</target></trans-unit>
+        <target>Налаштування пошуку</target></trans-unit>
       <trans-unit id="Search or enter address">
         <source>Search or enter address</source>
         <note>The text shown in the URL bar on about:home</note>
-      <target>Введіть запит чи адресу</target></trans-unit>
+        <target>Введіть запит чи адресу</target></trans-unit>
       <trans-unit id="Secure connection">
         <source>Secure connection</source>
         <note>Accessibility label for the lock icon, which is only present if the connection is secure</note>
-      <target>Безпечне з'єднання</target></trans-unit>
+        <target>Безпечне з'єднання</target></trans-unit>
       <trans-unit id="Sepia">
         <source>Sepia</source>
         <note>Sepia theme setting in Reading View settings</note>
-      <target>Сепія</target></trans-unit>
+        <target>Сепія</target></trans-unit>
       <trans-unit id="Serif">
         <source>Serif</source>
         <note>Font type setting in the reading view settings</note>
-      </trans-unit>
+        <target>Із зарубками</target></trans-unit>
       <trans-unit id="Settings">
         <source>Settings</source>
         <note>Accessibility label for the Settings button in the Tab Tray.
    Settings</note>
-      <target>Налаштування</target></trans-unit>
+        <target>Налаштування</target></trans-unit>
       <trans-unit id="Share">
         <source>Share</source>
         <note>Accessibility Label for the browser toolbar Share button</note>
-      </trans-unit>
+        <target>Поділитися</target></trans-unit>
       <trans-unit id="Show Tabs">
         <source>Show Tabs</source>
         <note>Accessibility label for the tabs button in the (top) browser toolbar
    Accessibility Label for the urlbar tabs button</note>
-      <target>Показати вкладки</target></trans-unit>
+        <target>Показати вкладки</target></trans-unit>
       <trans-unit id="Show search suggestions">
         <source>Show search suggestions</source>
         <note>Label for show search suggestions setting.</note>
-      <target>Показувати пошукові пропозиції</target></trans-unit>
+        <target>Показувати пошукові пропозиції</target></trans-unit>
       <trans-unit id="Sign in">
         <source>Sign in</source>
         <note>Button that leads to Sign in section of the Settings sheet.
    Text message / button in the settings table view</note>
-      <target>Увійти</target></trans-unit>
+        <target>Увійти</target></trans-unit>
       <trans-unit id="Stop">
         <source>Stop</source>
         <note>Accessibility Label for the browser toolbar Stop button</note>
-      <target>Стоп</target></trans-unit>
+        <target>Стоп</target></trans-unit>
       <trans-unit id="Synced tabs">
         <source>Synced tabs</source>
         <note>Panel accessibility label</note>
-      <target>Синхронізовані вкладки</target></trans-unit>
+        <target>Синхронізовані вкладки</target></trans-unit>
       <trans-unit id="Tabs Tray">
         <source>Tabs Tray</source>
         <note>Accessibility label for the Tabs Tray view.</note>
-      </trans-unit>
+        <target>Лоток вкладок</target></trans-unit>
       <trans-unit id="Tap to reload page">
         <source>Tap to reload page</source>
         <note>No comment provided by engineer.</note>
-      <target>Торкнутися, щоб оновити сторінку</target></trans-unit>
+        <target>Торкнутися, щоб оновити сторінку</target></trans-unit>
       <trans-unit id="Tap to reload the page">
         <source>Tap to reload the page</source>
         <note>No comment provided by engineer.</note>
-      <target>Торкніться, щоб оновити сторінку</target></trans-unit>
+        <target>Торкніться, щоб оновити сторінку</target></trans-unit>
       <trans-unit id="Tap to stop loading the page">
         <source>Tap to stop loading the page</source>
         <note>No comment provided by engineer.</note>
-      <target>Торкніться, щоб зупинити завантаження сторінки</target></trans-unit>
+        <target>Торкніться, щоб зупинити завантаження сторінки</target></trans-unit>
       <trans-unit id="There is a new version available of Firefox Aurora. Tap OK to go to the download page.">
         <source>There is a new version available of Firefox Aurora. Tap OK to go to the download page.</source>
         <note>Prompt message for application update</note>
-      <target>Доступна нова версія Firefox Aurora. Натисніть OK для переходу на сторінку завантаження.</target></trans-unit>
+        <target>Доступна нова версія Firefox Aurora. Натисніть OK для переходу на сторінку завантаження.</target></trans-unit>
       <trans-unit id="There was an error converting the page">
         <source>There was an error converting the page</source>
         <note>Error displayed when reader mode cannot be enabled</note>
-      <target>При конвертуванні сторінки сталася помилка</target></trans-unit>
+        <target>При конвертуванні сторінки сталася помилка</target></trans-unit>
       <trans-unit id="This will open in another application">
         <source>This will open in another application</source>
         <note>Opening an external app</note>
-      <target>Це буде відкрито в іншій програмі</target></trans-unit>
+        <target>Це буде відкрито в іншій програмі</target></trans-unit>
       <trans-unit id="Today">
         <source>Today</source>
         <note>History tableview section header</note>
-      <target>Сьогодні</target></trans-unit>
+        <target>Сьогодні</target></trans-unit>
       <trans-unit id="Top sites">
         <source>Top sites</source>
         <note>Panel accessibility label</note>
-      <target>Популярні сайти</target></trans-unit>
+        <target>Популярні сайти</target></trans-unit>
       <trans-unit id="URL">
         <source>URL</source>
         <note>Accessibility label for the URL location label</note>
-      <target>URL</target></trans-unit>
+        <target>URL</target></trans-unit>
       <trans-unit id="Update">
         <source>Update</source>
         <note>Button to update the user's password</note>
-      <target>Оновити</target></trans-unit>
+        <target>Оновити</target></trans-unit>
       <trans-unit id="Upgrade Firefox to connect.">
         <source>Upgrade Firefox to connect.</source>
         <note>Text message in the settings table view</note>
-      <target>Оновіть Firefox, щоб з'єднатись.</target></trans-unit>
+        <target>Оновіть Firefox, щоб з'єднатись.</target></trans-unit>
       <trans-unit id="Verify your email address.">
         <source>Verify your email address.</source>
         <note>Text message in the settings table view</note>
-      <target>Підтвердіть свою адресу ел. пошти.</target></trans-unit>
+        <target>Підтвердіть свою адресу ел. пошти.</target></trans-unit>
       <trans-unit id="Version %@ (%@)">
         <source>Version %1$@ (%2$@)</source>
         <note>Table row in settings that contains the application version and build</note>
-      <target>Версія %1$@ (%2$@)</target></trans-unit>
+        <target>Версія %1$@ (%2$@)</target></trans-unit>
       <trans-unit id="Web content">
         <source>Web content</source>
         <note>Accessibility label for the main web content view</note>
-      <target>Веб-вміст</target></trans-unit>
+        <target>Веб-вміст</target></trans-unit>
       <trans-unit id="Yesterday">
         <source>Yesterday</source>
         <note>History tableview section header</note>
-      <target>Вчора</target></trans-unit>
+        <target>Вчора</target></trans-unit>
     </body>
   </file>
   <file original="Client/search.strings" source-language="en" datatype="plaintext" target-language="uk">
@@ -400,15 +397,15 @@
       <trans-unit id="No">
         <source>No</source>
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
-      <target>Ні</target></trans-unit>
+        <target>Ні</target></trans-unit>
       <trans-unit id="Turn on search suggestions?">
         <source>Turn on search suggestions?</source>
         <note>Prompt shown before enabling provider search queries</note>
-      <target>Увімкнути пошукові пропозиції?</target></trans-unit>
+        <target>Увімкнути пошукові пропозиції?</target></trans-unit>
       <trans-unit id="Yes">
         <source>Yes</source>
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
-      <target>Так</target></trans-unit>
+        <target>Так</target></trans-unit>
     </body>
   </file>
   <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="uk">
@@ -418,10 +415,10 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      </trans-unit>
+        <target>$(PRODUCT_NAME)</target></trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      </trans-unit>
+        <target>1.0</target></trans-unit>
     </body>
   </file>
   <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="uk">
@@ -431,13 +428,13 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>Send To</source>
-      <target>Відправити на</target></trans-unit>
+        <target>Відправити на</target></trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      </trans-unit>
+        <target>$(PRODUCT_NAME)</target></trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      </trans-unit>
+        <target>1.0</target></trans-unit>
     </body>
   </file>
   <file original="Extensions/SendTo/SendTo.strings" source-language="en" datatype="plaintext" target-language="uk">
@@ -448,11 +445,11 @@
       <trans-unit id="Send To Device">
         <source>Send To Device</source>
         <note>Title of the dialog that allows you to send a tab to a different device</note>
-      <target>Відправити на пристрій</target></trans-unit>
+        <target>Відправити на пристрій</target></trans-unit>
       <trans-unit id="Send to %@">
         <source>Send to %@</source>
         <note>Text in a table view row that lets the user pick a device to which to send a tab to</note>
-      <target>Відправити на %@</target></trans-unit>
+        <target>Відправити на %@</target></trans-unit>
     </body>
   </file>
   <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="uk">
@@ -462,13 +459,13 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-      </trans-unit>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target></trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      </trans-unit>
+        <target>$(PRODUCT_NAME)</target></trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      </trans-unit>
+        <target>1.0</target></trans-unit>
     </body>
   </file>
   <file original="Extensions/ShareTo/ShareTo.strings" source-language="en" datatype="plaintext" target-language="uk">
@@ -479,15 +476,15 @@
       <trans-unit id="Add">
         <source>Add</source>
         <note>Add button in the share dialog</note>
-      <target>Додати</target></trans-unit>
+        <target>Додати</target></trans-unit>
       <trans-unit id="Add to Bookmarks">
         <source>Add to Bookmarks</source>
         <note>On/off toggle to select adding this url to your bookmarks</note>
-      <target>Додати в закладки</target></trans-unit>
+        <target>Додати в закладки</target></trans-unit>
       <trans-unit id="Add to Reading List">
         <source>Add to Reading List</source>
         <note>On/off toggle to select adding this url to your reading list</note>
-      <target>Додати в список читання</target></trans-unit>
+        <target>Додати в список читання</target></trans-unit>
     </body>
   </file>
   <file original="StorageTests/Info.plist" source-language="en" datatype="plaintext" target-language="uk">
@@ -497,10 +494,10 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      </trans-unit>
+        <target>$(PRODUCT_NAME)</target></trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      </trans-unit>
+        <target>1.0</target></trans-unit>
     </body>
   </file>
   <file original="Sync/Info.plist" source-language="en" datatype="plaintext" target-language="uk">
@@ -510,10 +507,10 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      </trans-unit>
+        <target>$(PRODUCT_NAME)</target></trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      </trans-unit>
+        <target>1.0</target></trans-unit>
     </body>
   </file>
   <file original="SyncTests/Info.plist" source-language="en" datatype="plaintext" target-language="uk">
@@ -523,10 +520,10 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      </trans-unit>
+        <target>$(PRODUCT_NAME)</target></trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      </trans-unit>
+        <target>1.0</target></trans-unit>
     </body>
   </file>
   <file original="UITests/Info.plist" source-language="en" datatype="plaintext" target-language="uk">
@@ -536,10 +533,10 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      </trans-unit>
+        <target>$(PRODUCT_NAME)</target></trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      </trans-unit>
+        <target>1.0</target></trans-unit>
     </body>
   </file>
 </xliff>
