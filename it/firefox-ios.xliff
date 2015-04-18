@@ -73,6 +73,16 @@
         <target>-</target>
         <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       </trans-unit>
+      <trans-unit id="A username and password are being requested by %@.">
+        <source>A username and password are being requested by %@.</source>
+        <target>Sono stati richiesti un nome utente e una password da %@.</target>
+        <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
+      </trans-unit>
+      <trans-unit id="A username and password are being requested by %@. The site says: %@">
+        <source>A username and password are being requested by %1$@. The site says: %2$@</source>
+        <target>Sono stati richiesti un nome utente e una password da %1$@. Il sito riporta: %2$@</target>
+        <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm tring</note>
+      </trans-unit>
       <trans-unit id="Aa">
         <source>Aa</source>
         <target>Aa</target>
@@ -81,12 +91,17 @@
       <trans-unit id="About">
         <source>About</source>
         <target>Informazioni</target>
-        <note>Title for about section.</note>
+        <note>About settings section title</note>
       </trans-unit>
       <trans-unit id="Address and Search">
         <source>Address and Search</source>
         <target>Indirizzo e ricerca</target>
         <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
+      </trans-unit>
+      <trans-unit id="Authentication required">
+        <source>Authentication required</source>
+        <target>Autenticazione richiesta</target>
+        <note>Authentication prompt title</note>
       </trans-unit>
       <trans-unit id="Back">
         <source>Back</source>
@@ -107,6 +122,7 @@
         <source>Cancel</source>
         <target>Annulla</target>
         <note>Alert Cancel Button
+   Authentication prompt cancel button
    Button label to cancel entering a URL or search query
    Cancel alert view
    Cancel button
@@ -215,6 +231,11 @@
         <target>Chiaro</target>
         <note>Light theme setting in Reading View settings</note>
       </trans-unit>
+      <trans-unit id="Login">
+        <source>Login</source>
+        <target>Accedi</target>
+        <note>Authentication prompt login button</note>
+      </trans-unit>
       <trans-unit id="Mark as Read">
         <source>Mark as Read</source>
         <target>Segna come letto</target>
@@ -266,6 +287,11 @@
         <source>Opening %@</source>
         <target>Apertura %@</target>
         <note>Opening an external URL</note>
+      </trans-unit>
+      <trans-unit id="Password">
+        <source>Password</source>
+        <target>Password</target>
+        <note>Password textbox in Authentication prompt</note>
       </trans-unit>
       <trans-unit id="Paste">
         <source>Paste</source>
@@ -331,12 +357,12 @@
         <source>Search</source>
         <target>Ricerca</target>
         <note>Navigation title for search settings.
-   Table row in settings to go to the Search settings</note>
+   Open search section of settings</note>
       </trans-unit>
       <trans-unit id="Search Settings">
         <source>Search Settings</source>
         <target>Impostazioni ricerca</target>
-        <note>Title for search settings section.</note>
+        <note>Search settings section title</note>
       </trans-unit>
       <trans-unit id="Search or enter address">
         <source>Search or enter address</source>
@@ -456,6 +482,11 @@
         <target>Aggiorna Firefox per effettuare la connessione.</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
+      <trans-unit id="Username">
+        <source>Username</source>
+        <target>Nome utente</target>
+        <note>Username textbox in Authentication prompt</note>
+      </trans-unit>
       <trans-unit id="Verify your email address.">
         <source>Verify your email address.</source>
         <target>Verifica l’indirizzo email.</target>
@@ -464,12 +495,13 @@
       <trans-unit id="Version %@ (%@)">
         <source>Version %1$@ (%2$@)</source>
         <target>Versione %1$@ (%2$@)</target>
-        <note>Table row in settings that contains the application version and build</note>
+        <note>Version number of Firefox shown in settings</note>
       </trans-unit>
       <trans-unit id="Web content">
         <source>Web content</source>
         <target>Contenuti web</target>
-        <note>Accessibility label for the main web content view</note>
+        <note>Accessibility label for the main web content view
+   Accessibility label for the web view</note>
       </trans-unit>
       <trans-unit id="Yesterday">
         <source>Yesterday</source>
