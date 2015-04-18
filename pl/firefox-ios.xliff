@@ -76,6 +76,16 @@
     <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
     <target>-</target>
    </trans-unit>
+   <trans-unit id="A username and password are being requested by %@.">
+    <source>A username and password are being requested by %@.</source>
+    <target>Witryna %@ prosi o podanie nazwy użytkownika i hasła.</target>
+    <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
+   </trans-unit>
+   <trans-unit id="A username and password are being requested by %@. The site says: %@">
+    <source>A username and password are being requested by %1$@. The site says: %2$@</source>
+    <target>Witryna %1$@ prosi o podanie nazwy użytkownika i hasła. Komunikat witryny: %2$@</target>
+    <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
+   </trans-unit>
    <trans-unit id="Aa">
     <source>Aa</source>
     <note>Button for reader mode font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
@@ -91,6 +101,11 @@
         <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
         <target>Pasek adresu i wyszukiwania</target>
       </trans-unit>
+   <trans-unit id="Authentication required">
+    <source>Authentication required</source>
+    <target>Podaj nazwę użytkownika i hasło</target>
+    <note>Authentication prompt title</note>
+   </trans-unit>
    <trans-unit id="Back">
     <source>Back</source>
     <note>Accessibility Label for the browser toolbar Back button</note>
@@ -108,12 +123,13 @@
       </trans-unit>
    <trans-unit id="Cancel">
     <source>Cancel</source>
+    <target>Anuluj</target>
     <note>Alert Cancel Button
+          Authentication prompt cancel button
           Button label to cancel entering a URL or search query
           Cancel alert view
           Cancel button
           Cancel button in the 'disconnect firefox account' alert</note>
-    <target>Anuluj</target>
    </trans-unit>
    <trans-unit id="Copy">
     <source>Copy</source>
@@ -218,6 +234,11 @@
     <note>Light theme setting in Reading View settings</note>
     <target>Jasny</target>
    </trans-unit>
+   <trans-unit id="Login">
+    <source>Login</source>
+    <target>Zaloguj</target>
+    <note>Authentication prompt login button</note>
+   </trans-unit>
       <trans-unit id="Mark as Read">
         <source>Mark as Read</source>
         <note>Title for the button that marks a reading list item as read</note>
@@ -270,6 +291,11 @@
         <note>Opening an external URL</note>
         <target>Otwieranie %@</target>
       </trans-unit>
+   <trans-unit id="Password">
+    <source>Password</source>
+    <target>Hasło</target>
+    <note>Password textbox in Authentication prompt</note>
+   </trans-unit>
    <trans-unit id="Paste">
     <source>Paste</source>
     <note>Paste the URL into the location bar</note>
@@ -459,6 +485,11 @@
     <note>Text message in the settings table view</note>
     <target>Uaktualnij Firefoksa, aby połączyć.</target>
    </trans-unit>
+   <trans-unit id="Username">
+    <source>Username</source>
+    <target>Nazwa użytkownika</target>
+    <note>Username textbox in Authentication prompt</note>
+   </trans-unit>
    <trans-unit id="Verify your email address.">
     <source>Verify your email address.</source>
     <note>Text message in the settings table view</note>
@@ -469,11 +500,12 @@
     <target>Wersja %1$@ (%2$@)</target>
     <note>Version number of Firefox shown in settings</note>
    </trans-unit>
-      <trans-unit id="Web content">
-        <source>Web content</source>
-        <note>Accessibility label for the main web content view</note>
-        <target>Treść WWW</target>
-      </trans-unit>
+   <trans-unit id="Web content">
+    <source>Web content</source>
+    <target>Treść WWW</target>
+    <note>Accessibility label for the main web content view
+          Accessibility label for the web view</note>
+   </trans-unit>
    <trans-unit id="Yesterday">
     <source>Yesterday</source>
     <note>History tableview section header</note>
