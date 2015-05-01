@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="en">
+  <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="nn_NO">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
       <trans-unit id="CFBundleName" approved="yes">
@@ -17,7 +17,7 @@
   </file>
   <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
       <trans-unit id="CFBundleName" approved="yes">
@@ -30,36 +30,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/ClearPrivateData.strings" source-language="en" datatype="plaintext" target-language="en">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
-    </header>
-    <body>
-      <trans-unit id="Are you sure you want all of your data? This will also close all open tabs." approved="no">
-        <source>Are you sure you want all of your data? This will also close all open tabs.</source>
-        <target state="needs-translation">Are you sure you want all of your data? This will also close all open tabs.</target>
-        <note>Message shown in the dialog when clearing everything</note>
-      <note>Message shown in the dialog when clearing everything</note></trans-unit>
-      <trans-unit id="Cancel" approved="no">
-        <source>Cancel</source>
-        <target state="needs-translation">Cancel</target>
-        <note>Cancel string in the clear private data dialog</note>
-      <note>Cancel string in the clear private data dialog</note></trans-unit>
-      <trans-unit id="Clear" approved="no">
-        <source>Clear</source>
-        <target state="needs-translation">Clear</target>
-        <note>Clicking this button will cause us to clear your private data</note>
-      <note>Clicking this button will cause us to clear your private data</note></trans-unit>
-      <trans-unit id="Clear Everything" approved="no">
-        <source>Clear Everything</source>
-        <target state="needs-translation">Clear Everything</target>
-        <note>Clear everything title</note>
-      <note>Clear everything title</note></trans-unit>
-    </body>
-  </file>
   <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" approved="yes">
@@ -76,711 +49,606 @@
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription" approved="yes">
         <source>Websites you visit may request your location.</source>
-        <target state="translated">Websites you visit may request your location.</target>
+        <target state="translated">Nettsider du vitjar kan be om plasseringa di.</target>
       </trans-unit>
     </body>
   </file>
   <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
-      <trans-unit id="%@ search" approved="no">
+      <trans-unit id="%@ search">
         <source>%@ search</source>
-        <target state="needs-translation">%@ search</target>
+        <target>%@ søk</target>
         <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
-      <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note></trans-unit>
-      <trans-unit id="+" approved="no">
+      </trans-unit>
+      <trans-unit id="+">
         <source>+</source>
-        <target state="needs-translation">+</target>
+        <target>+</target>
         <note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
-      <note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note></trans-unit>
-      <trans-unit id="-" approved="no">
+      </trans-unit>
+      <trans-unit id="-">
         <source>-</source>
-        <target state="needs-translation">-</target>
+        <target>-</target>
         <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
-      <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note></trans-unit>
-      <trans-unit id="A username and password are being requested by %@." approved="no">
-        <source>A username and password are being requested by %@.</source>
-        <target state="needs-translation">A username and password are being requested by %@.</target>
-        <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
-      <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note></trans-unit>
-      <trans-unit id="A username and password are being requested by %@. The site says: %@" approved="no">
-        <source>A username and password are being requested by %1$@. The site says: %2$@</source>
-        <target state="needs-translation">A username and password are being requested by %1$@. The site says: %2$@</target>
-        <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
-      <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note></trans-unit>
-      <trans-unit id="Aa" approved="no">
+      </trans-unit>
+      <trans-unit id="Aa">
         <source>Aa</source>
-        <target state="needs-translation">Aa</target>
+        <target>Aa</target>
         <note>Button for reader mode font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
-      <note>Button for reader mode font size. Keep this extremely short! This is shown in the reader mode toolbar.</note></trans-unit>
-      <trans-unit id="About" approved="no">
+      </trans-unit>
+      <trans-unit id="About">
         <source>About</source>
-        <target state="needs-translation">About</target>
-        <note>About settings section title</note>
-      <note>About settings section title
-Title for about section.</note></trans-unit>
-      <trans-unit id="Add Tab" approved="no">
-        <source>Add Tab</source>
-        <target state="needs-translation">Add Tab</target>
-        <note>Accessibility label for the Add Tab button in the Tab Tray.</note>
-      <note>Accessibility label for the Add Tab button in the Tab Tray.</note></trans-unit>
-      <trans-unit id="Address and Search" approved="no">
+        <target>Om</target>
+        <note>Title for about section.</note>
+      </trans-unit>
+      <trans-unit id="Address and Search">
         <source>Address and Search</source>
-        <target state="needs-translation">Address and Search</target>
+        <target>Adresse og søk</target>
         <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
-      <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note></trans-unit>
-      <trans-unit id="Authentication required" approved="no">
-        <source>Authentication required</source>
-        <target state="needs-translation">Authentication required</target>
-        <note>Authentication prompt title</note>
-      <note>Authentication prompt title</note></trans-unit>
-      <trans-unit id="Back" approved="no">
+      </trans-unit>
+      <trans-unit id="Back">
         <source>Back</source>
-        <target state="needs-translation">Back</target>
+        <target>Tilbake</target>
         <note>Accessibility Label for the browser toolbar Back button</note>
-      <note>Accessibility Label for the browser toolbar Back button</note></trans-unit>
-      <trans-unit id="Bookmark" approved="no">
+      </trans-unit>
+      <trans-unit id="Bookmark">
         <source>Bookmark</source>
-        <target state="needs-translation">Bookmark</target>
+        <target>Bokmerke</target>
         <note>Accessibility Label for the browser toolbar Bookmark button</note>
-      <note>Accessibility Label for the browser toolbar Bookmark button</note></trans-unit>
-      <trans-unit id="Bookmarks" approved="no">
+      </trans-unit>
+      <trans-unit id="Bookmarks">
         <source>Bookmarks</source>
-        <target state="needs-translation">Bookmarks</target>
+        <target>Bokmerke</target>
         <note>Panel accessibility label</note>
-      <note>Panel accessibility label</note></trans-unit>
-      <trans-unit id="Call" approved="no">
-        <source>Call</source>
-        <target state="needs-translation">Call</target>
-        <note>Alert Call Button</note>
-      <note>Alert Call Button</note></trans-unit>
-      <trans-unit id="Cancel" approved="no">
+      </trans-unit>
+      <trans-unit id="Cancel">
         <source>Cancel</source>
-        <target state="needs-translation">Cancel</target>
+        <target>Avbryt</target>
         <note>Alert Cancel Button
-   Authentication prompt cancel button
    Button label to cancel entering a URL or search query
    Cancel alert view
    Cancel button
    Cancel button in the 'disconnect firefox account' alert</note>
-      <note>Alert Cancel Button Authentication prompt cancel button Button label to cancel entering a URL or search query Cancel alert view Cancel button Cancel button in the 'disconnect firefox account' alert
-Alert Cancel Button Button label to cancel entering a URL or search query Cancel alert view Cancel button Cancel button in the 'disconnect firefox account' alert</note></trans-unit>
-      <trans-unit id="Clear private data" approved="no">
-        <source>Clear private data</source>
-        <target state="needs-translation">Clear private data</target>
-        <note>Clear private data setting</note>
-      <note>Clear private data setting</note></trans-unit>
-      <trans-unit id="Close" approved="no">
-        <source>Close</source>
-        <target state="needs-translation">Close</target>
-        <note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
-      <note>Accessibility label for action denoting closing a tab in tab list (tray)</note></trans-unit>
-      <trans-unit id="Copy Address" approved="no">
+      </trans-unit>
+      <trans-unit id="Copy">
+        <source>Copy</source>
+        <target>Kopier</target>
+        <note>Context menu option</note>
+      </trans-unit>
+      <trans-unit id="Copy Address">
         <source>Copy Address</source>
-        <target state="needs-translation">Copy Address</target>
+        <target>Kopier adresse</target>
         <note>Copy the URL from the location bar</note>
-      <note>Copy the URL from the location bar</note></trans-unit>
-      <trans-unit id="Could not connect to Firefox Accounts." approved="no">
+      </trans-unit>
+      <trans-unit id="Copy Image URL">
+        <source>Copy Image URL</source>
+        <target>Kopier bilde-URL</target>
+        <note>Context menu option</note>
+      </trans-unit>
+      <trans-unit id="Could not connect to Firefox Accounts.">
         <source>Could not connect to Firefox Accounts.</source>
-        <target state="needs-translation">Could not connect to Firefox Accounts.</target>
+        <target>Kunne ikkje kopla til Firefox-kontoar.</target>
         <note>Error message that is shown in settings when there was a problem connecting to Firefox Accounts</note>
-      <note>Error message that is shown in settings when there was a problem connecting to Firefox Accounts</note></trans-unit>
-      <trans-unit id="Dark" approved="no">
+      </trans-unit>
+      <trans-unit id="Dark">
         <source>Dark</source>
-        <target state="needs-translation">Dark</target>
+        <target>Mørk</target>
         <note>Dark theme setting in Reading View settings</note>
-      <note>Dark theme setting in Reading View settings</note></trans-unit>
-      <trans-unit id="Debug: forget Sync auth state" approved="no">
-        <source>Debug: forget Sync auth state</source>
-        <target state="needs-translation">Debug: forget Sync auth state</target>
-        <note>Debug option</note>
-      <note>Debug option</note></trans-unit>
-      <trans-unit id="Debug: require password" approved="no">
-        <source>Debug: require password</source>
-        <target state="needs-translation">Debug: require password</target>
-        <note>Debug option</note>
-      <note>Debug option</note></trans-unit>
-      <trans-unit id="Debug: require upgrade" approved="no">
-        <source>Debug: require upgrade</source>
-        <target state="needs-translation">Debug: require upgrade</target>
-        <note>Debug option</note>
-      <note>Debug option</note></trans-unit>
-      <trans-unit id="Default Search Engine" approved="no">
+      </trans-unit>
+      <trans-unit id="Default Search Engine">
         <source>Default Search Engine</source>
-        <target state="needs-translation">Default Search Engine</target>
+        <target>Standard søkjemotor</target>
         <note>Accessibility label for default search engine setting.
    Title for default search engine picker.
    Title for default search engine settings section.</note>
-      <note>Accessibility label for default search engine setting. Title for default search engine picker. Title for default search engine settings section.</note></trans-unit>
-      <trans-unit id="Disconnect" approved="no">
+      </trans-unit>
+      <trans-unit id="Disconnect">
         <source>Disconnect</source>
-        <target state="needs-translation">Disconnect</target>
+        <target>Kopla frå</target>
         <note>Button in settings screen to disconnect from your account
    Disconnect button in the 'disconnect firefox account' alert</note>
-      <note>Button in settings screen to disconnect from your account Disconnect button in the 'disconnect firefox account' alert</note></trans-unit>
-      <trans-unit id="Disconnect Firefox Account?" approved="no">
+      </trans-unit>
+      <trans-unit id="Disconnect Firefox Account?">
         <source>Disconnect Firefox Account?</source>
-        <target state="needs-translation">Disconnect Firefox Account?</target>
+        <target>Kopla frå Firefox-konto?</target>
         <note>Title of the 'disconnect firefox account' alert</note>
-      <note>Title of the 'disconnect firefox account' alert</note></trans-unit>
-      <trans-unit id="Do you want to save the password for %@ on %@?" approved="no">
+      </trans-unit>
+      <trans-unit id="Do you want to save the password for %@ on %@?">
         <source>Do you want to save the password for %1$@ on %2$@?</source>
-        <target state="needs-translation">Do you want to save the password for %1$@ on %2$@?</target>
+        <target>Vil du lagra passordet for %1$@ på %2$@?</target>
         <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
-      <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note></trans-unit>
-      <trans-unit id="Do you want to update the password for %@ on %@?" approved="no">
+      </trans-unit>
+      <trans-unit id="Do you want to update the password for %@ on %@?">
         <source>Do you want to update the password for %1$@ on %2$@?</source>
-        <target state="needs-translation">Do you want to update the password for %1$@ on %2$@?</target>
+        <target>Do you want to update the password for %1$@ on %2$@?</target>
         <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
-      <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note></trans-unit>
-      <trans-unit id="Done" approved="no">
+      </trans-unit>
+      <trans-unit id="Done">
         <source>Done</source>
-        <target state="needs-translation">Done</target>
+        <target>Ferdig</target>
         <note>Done button on left side of the Settings view controller title bar</note>
-      <note>Done button on left side of the Settings view controller title bar</note></trans-unit>
-      <trans-unit id="Double tap and hold to open history" approved="no">
+      </trans-unit>
+      <trans-unit id="Double tap and hold to open history">
         <source>Double tap and hold to open history</source>
-        <target state="needs-translation">Double tap and hold to open history</target>
+        <target>Dobbeltrykk for å opna historikk</target>
         <note>No comment provided by engineer.</note>
-      <note>No comment provided by engineer.</note></trans-unit>
-      <trans-unit id="Enter your password to connect." approved="no">
+      </trans-unit>
+      <trans-unit id="Enter your password to connect.">
         <source>Enter your password to connect.</source>
-        <target state="needs-translation">Enter your password to connect.</target>
+        <target>Gje opp passord for å kopla til.</target>
         <note>Text message in the settings table view</note>
-      <note>Text message in the settings table view</note></trans-unit>
-      <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device." approved="no">
+      </trans-unit>
+      <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.">
         <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
-        <target state="needs-translation">Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</target>
+        <target>Firefox vil stoppa synkronisering med kontoen din no, men vil ikkje sletta nokon av nettleserdataa dine på denne eininga.</target>
         <note>Text of the 'disconnect firefox account' alert</note>
-      <note>Text of the 'disconnect firefox account' alert</note></trans-unit>
-      <trans-unit id="Forward" approved="no">
+      </trans-unit>
+      <trans-unit id="Forward">
         <source>Forward</source>
-        <target state="needs-translation">Forward</target>
+        <target>Framover</target>
         <note>Accessibility Label for the browser toolbar Forward button</note>
-      <note>Accessibility Label for the browser toolbar Forward button</note></trans-unit>
-      <trans-unit id="History" approved="no">
+      </trans-unit>
+      <trans-unit id="History">
         <source>History</source>
-        <target state="needs-translation">History</target>
+        <target>Historikk</target>
         <note>Panel accessibility label</note>
-      <note>Panel accessibility label</note></trans-unit>
-      <trans-unit id="Last month" approved="no">
+      </trans-unit>
+      <trans-unit id="Last month">
         <source>Last month</source>
-        <target state="needs-translation">Last month</target>
+        <target>Sist månad</target>
         <note>History tableview section header</note>
-      <note>History tableview section header</note></trans-unit>
-      <trans-unit id="Last synced: %@" approved="no">
+      </trans-unit>
+      <trans-unit id="Last synced: %@">
         <source>Last synced: %@</source>
-        <target state="needs-translation">Last synced: %@</target>
+        <target>Siste synkronisering: %@</target>
         <note>Remote tabs last synced time</note>
-      <note>Remote tabs last synced time</note></trans-unit>
-      <trans-unit id="Last week" approved="no">
+      </trans-unit>
+      <trans-unit id="Last week">
         <source>Last week</source>
-        <target state="needs-translation">Last week</target>
+        <target>Sist veke</target>
         <note>History tableview section header</note>
-      <note>History tableview section header</note></trans-unit>
-      <trans-unit id="Light" approved="no">
+      </trans-unit>
+      <trans-unit id="Light">
         <source>Light</source>
-        <target state="needs-translation">Light</target>
+        <target>Ljos</target>
         <note>Light theme setting in Reading View settings</note>
-      <note>Light theme setting in Reading View settings</note></trans-unit>
-      <trans-unit id="Login" approved="no">
-        <source>Login</source>
-        <target state="needs-translation">Login</target>
-        <note>Authentication prompt login button</note>
-      <note>Authentication prompt login button</note></trans-unit>
-      <trans-unit id="Mark as Read" approved="no">
+      </trans-unit>
+      <trans-unit id="Mark as Read">
         <source>Mark as Read</source>
-        <target state="needs-translation">Mark as Read</target>
+        <target>Marker som lesen</target>
         <note>Title for the button that marks a reading list item as read</note>
-      <note>Title for the button that marks a reading list item as read</note></trans-unit>
-      <trans-unit id="Mark as Unread" approved="no">
+      </trans-unit>
+      <trans-unit id="Mark as Unread">
         <source>Mark as Unread</source>
-        <target state="needs-translation">Mark as Unread</target>
+        <target>Merk som ulesen</target>
         <note>Title for the button that marks a reading list item as unread</note>
-      <note>Title for the button that marks a reading list item as unread</note></trans-unit>
-      <trans-unit id="Missing error" approved="no">
+      </trans-unit>
+      <trans-unit id="Missing error">
         <source>Missing error</source>
-        <target state="needs-translation">Missing error</target>
+        <target>Manglande feil</target>
         <note>Error for a missing remote error number</note>
-      <note>Error for a missing remote error number</note></trans-unit>
-      <trans-unit id="Missing message" approved="no">
+      </trans-unit>
+      <trans-unit id="Missing message">
         <source>Missing message</source>
-        <target state="needs-translation">Missing message</target>
+        <target>Manglande melding</target>
         <note>Error for a missing remote error message</note>
-      <note>Error for a missing remote error message</note></trans-unit>
-      <trans-unit id="New version available" approved="no">
+      </trans-unit>
+      <trans-unit id="New version available">
         <source>New version available</source>
-        <target state="needs-translation">New version available</target>
+        <target>Ny versjon tilgjengeleg</target>
         <note>Prompt title for application update</note>
-      <note>Prompt title for application update</note></trans-unit>
-      <trans-unit id="Not Now" approved="no">
+      </trans-unit>
+      <trans-unit id="Not Now">
         <source>Not Now</source>
-        <target state="needs-translation">Not Now</target>
+        <target>Ikkje no</target>
         <note>Label for button to cancel application update prompt</note>
-      <note>Label for button to cancel application update prompt</note></trans-unit>
-      <trans-unit id="Not now" approved="no">
+      </trans-unit>
+      <trans-unit id="Not now">
         <source>Not now</source>
-        <target state="needs-translation">Not now</target>
+        <target>Ikkje no</target>
         <note>Button to not save the user's password</note>
-      <note>Button to not save the user's password</note></trans-unit>
-      <trans-unit id="OK" approved="no">
+      </trans-unit>
+      <trans-unit id="OK">
         <source>OK</source>
-        <target state="needs-translation">OK</target>
+        <target>OK</target>
         <note>Alert OK Button
    Label for OK button in the application update prompt
    OK button</note>
-      <note>Alert OK Button Label for OK button in the application update prompt OK button</note></trans-unit>
-      <trans-unit id="Opening %@" approved="no">
+      </trans-unit>
+      <trans-unit id="Open In New Tab">
+        <source>Open In New Tab</source>
+        <target>Opna i ny fane</target>
+        <note>Context menu option</note>
+      </trans-unit>
+      <trans-unit id="Opening %@">
         <source>Opening %@</source>
-        <target state="needs-translation">Opening %@</target>
+        <target>Opnar %@</target>
         <note>Opening an external URL</note>
-      <note>Opening an external URL</note></trans-unit>
-      <trans-unit id="Password" approved="no">
-        <source>Password</source>
-        <target state="needs-translation">Password</target>
-        <note>Password textbox in Authentication prompt</note>
-      <note>Password textbox in Authentication prompt</note></trans-unit>
-      <trans-unit id="Paste" approved="no">
+      </trans-unit>
+      <trans-unit id="Paste">
         <source>Paste</source>
-        <target state="needs-translation">Paste</target>
+        <target>Lim inn</target>
         <note>Paste the URL into the location bar</note>
-      <note>Paste the URL into the location bar</note></trans-unit>
-      <trans-unit id="Paste &amp; Go" approved="no">
+      </trans-unit>
+      <trans-unit id="Paste &amp; Go">
         <source>Paste &amp; Go</source>
-        <target state="needs-translation">Paste &amp; Go</target>
+        <target>Lim inn og opna</target>
         <note>Paste the URL into the location bar and visit</note>
-      <note>Paste the URL into the location bar and visit</note></trans-unit>
-      <trans-unit id="Privacy" approved="no">
-        <source>Privacy</source>
-        <target state="needs-translation">Privacy</target>
-        <note>Privacy section title</note>
-      <note>Privacy section title</note></trans-unit>
-      <trans-unit id="Quick-search Engines" approved="no">
+      </trans-unit>
+      <trans-unit id="Quick-search Engines">
         <source>Quick-search Engines</source>
-        <target state="needs-translation">Quick-search Engines</target>
+        <target>Hurtigsøkjemotorar</target>
         <note>Title for quick-search engines settings section.</note>
-      <note>Title for quick-search engines settings section.</note></trans-unit>
-      <trans-unit id="Reader" approved="no">
+      </trans-unit>
+      <trans-unit id="Reader">
         <source>Reader</source>
-        <target state="needs-translation">Reader</target>
+        <target>Lesar</target>
         <note>Browser function that presents simplified version of the page with bigger text.</note>
-      <note>Browser function that presents simplified version of the page with bigger text.</note></trans-unit>
-      <trans-unit id="Reader Mode" approved="no">
+      </trans-unit>
+      <trans-unit id="Reader Mode">
         <source>Reader Mode</source>
-        <target state="needs-translation">Reader Mode</target>
+        <target>Lesemodus</target>
         <note>Accessibility label for the reader mode button</note>
-      <note>Accessibility label for the reader mode button</note></trans-unit>
-      <trans-unit id="Reading list" approved="no">
+      </trans-unit>
+      <trans-unit id="Reading list">
         <source>Reading list</source>
-        <target state="needs-translation">Reading list</target>
+        <target>Leseliste</target>
         <note>Panel accessibility label</note>
-      <note>Panel accessibility label</note></trans-unit>
-      <trans-unit id="Recent Bookmarks" approved="no">
+      </trans-unit>
+      <trans-unit id="Recent Bookmarks">
         <source>Recent Bookmarks</source>
-        <target state="needs-translation">Recent Bookmarks</target>
+        <target>Siste bokmerke</target>
         <note>Header for bookmarks list</note>
-      <note>Header for bookmarks list</note></trans-unit>
-      <trans-unit id="Reload" approved="no">
+      </trans-unit>
+      <trans-unit id="Reload">
         <source>Reload</source>
-        <target state="needs-translation">Reload</target>
+        <target>Last på nytt</target>
         <note>Accessibility Label for the browser toolbar Reload button</note>
-      <note>Accessibility Label for the browser toolbar Reload button</note></trans-unit>
-      <trans-unit id="Remove" approved="no">
+      </trans-unit>
+      <trans-unit id="Remove">
         <source>Remove</source>
-        <target state="needs-translation">Remove</target>
+        <target>Fjern</target>
         <note>Title for the button that removes a reading list item</note>
-      <note>Title for the button that removes a reading list item</note></trans-unit>
-      <trans-unit id="Sans-serif" approved="no">
+      </trans-unit>
+      <trans-unit id="Sans-serif">
         <source>Sans-serif</source>
-        <target state="needs-translation">Sans-serif</target>
+        <target>Sans-serif</target>
         <note>Font type setting in the reading view settings</note>
-      <note>Font type setting in the reading view settings</note></trans-unit>
-      <trans-unit id="Save" approved="no">
+      </trans-unit>
+      <trans-unit id="Save">
         <source>Save</source>
-        <target state="needs-translation">Save</target>
+        <target>Lagra</target>
         <note>Button to save the user's password</note>
-      <note>Button to save the user's password</note></trans-unit>
-      <trans-unit id="Search" approved="no">
+      </trans-unit>
+      <trans-unit id="Save Image">
+        <source>Save Image</source>
+        <target>Lagre bilete</target>
+        <note>Context menu option</note>
+      </trans-unit>
+      <trans-unit id="Search">
         <source>Search</source>
-        <target state="needs-translation">Search</target>
+        <target>Søk</target>
         <note>Navigation title for search settings.
-   Open search section of settings</note>
-      <note>Navigation title for search settings. Open search section of settings
-Navigation title for search settings. Table row in settings to go to the Search settings</note></trans-unit>
-      <trans-unit id="Search Settings" approved="no">
+   Table row in settings to go to the Search settings</note>
+      </trans-unit>
+      <trans-unit id="Search Settings">
         <source>Search Settings</source>
-        <target state="needs-translation">Search Settings</target>
-        <note>Search settings section title</note>
-      <note>Search settings section title
-Title for search settings section.</note></trans-unit>
-      <trans-unit id="Search or enter address" approved="no">
+        <target>Søkjeinnstillingar</target>
+        <note>Title for search settings section.</note>
+      </trans-unit>
+      <trans-unit id="Search or enter address">
         <source>Search or enter address</source>
-        <target state="needs-translation">Search or enter address</target>
+        <target>Søk, eller spesifiser ei adresse</target>
         <note>The text shown in the URL bar on about:home</note>
-      <note>The text shown in the URL bar on about:home</note></trans-unit>
-      <trans-unit id="Secure connection" approved="no">
+      </trans-unit>
+      <trans-unit id="Secure connection">
         <source>Secure connection</source>
-        <target state="needs-translation">Secure connection</target>
+        <target>Trygg tilkopling</target>
         <note>Accessibility label for the lock icon, which is only present if the connection is secure</note>
-      <note>Accessibility label for the lock icon, which is only present if the connection is secure</note></trans-unit>
-      <trans-unit id="Sepia" approved="no">
+      </trans-unit>
+      <trans-unit id="Sepia">
         <source>Sepia</source>
-        <target state="needs-translation">Sepia</target>
+        <target>Sepia</target>
         <note>Sepia theme setting in Reading View settings</note>
-      <note>Sepia theme setting in Reading View settings</note></trans-unit>
-      <trans-unit id="Serif" approved="no">
+      </trans-unit>
+      <trans-unit id="Serif">
         <source>Serif</source>
-        <target state="needs-translation">Serif</target>
+        <target>Serif</target>
         <note>Font type setting in the reading view settings</note>
-      <note>Font type setting in the reading view settings</note></trans-unit>
-      <trans-unit id="Settings" approved="no">
+      </trans-unit>
+      <trans-unit id="Settings">
         <source>Settings</source>
-        <target state="needs-translation">Settings</target>
+        <target>Innstillingar</target>
         <note>Accessibility label for the Settings button in the Tab Tray.
    Settings</note>
-      <note>Accessibility label for the Settings button in the Tab Tray. Settings</note></trans-unit>
-      <trans-unit id="Share" approved="no">
+      </trans-unit>
+      <trans-unit id="Share">
         <source>Share</source>
-        <target state="needs-translation">Share</target>
+        <target>Del</target>
         <note>Accessibility Label for the browser toolbar Share button</note>
-      <note>Accessibility Label for the browser toolbar Share button</note></trans-unit>
-      <trans-unit id="Show Tabs" approved="no">
+      </trans-unit>
+      <trans-unit id="Show Tabs">
         <source>Show Tabs</source>
-        <target state="needs-translation">Show Tabs</target>
+        <target>Vis faner</target>
         <note>Accessibility label for the tabs button in the (top) browser toolbar
    Accessibility Label for the urlbar tabs button</note>
-      <note>Accessibility label for the tabs button in the (top) browser toolbar Accessibility Label for the urlbar tabs button</note></trans-unit>
-      <trans-unit id="Show search suggestions" approved="no">
+      </trans-unit>
+      <trans-unit id="Show search suggestions">
         <source>Show search suggestions</source>
-        <target state="needs-translation">Show search suggestions</target>
+        <target>Vis søkjeforslag</target>
         <note>Label for show search suggestions setting.</note>
-      <note>Label for show search suggestions setting.</note></trans-unit>
-      <trans-unit id="Sign in" approved="no">
+      </trans-unit>
+      <trans-unit id="Sign in">
         <source>Sign in</source>
-        <target state="needs-translation">Sign in</target>
+        <target>Logg inn</target>
         <note>Button that leads to Sign in section of the Settings sheet.
    Text message / button in the settings table view</note>
-      <note>Button that leads to Sign in section of the Settings sheet. Text message / button in the settings table view</note></trans-unit>
-      <trans-unit id="Stop" approved="no">
+      </trans-unit>
+      <trans-unit id="Stop">
         <source>Stop</source>
-        <target state="needs-translation">Stop</target>
+        <target>Stopp</target>
         <note>Accessibility Label for the browser toolbar Stop button</note>
-      <note>Accessibility Label for the browser toolbar Stop button</note></trans-unit>
-      <trans-unit id="Synced tabs" approved="no">
+      </trans-unit>
+      <trans-unit id="Synced tabs">
         <source>Synced tabs</source>
-        <target state="needs-translation">Synced tabs</target>
+        <target>Synkroniserte faner</target>
         <note>Panel accessibility label</note>
-      <note>Panel accessibility label</note></trans-unit>
-      <trans-unit id="Tabs Tray" approved="no">
+      </trans-unit>
+      <trans-unit id="Tabs Tray">
         <source>Tabs Tray</source>
-        <target state="needs-translation">Tabs Tray</target>
+        <target>Fanerad</target>
         <note>Accessibility label for the Tabs Tray view.</note>
-      <note>Accessibility label for the Tabs Tray view.</note></trans-unit>
-      <trans-unit id="Tap to reload page" approved="no">
+      </trans-unit>
+      <trans-unit id="Tap to reload page">
         <source>Tap to reload page</source>
-        <target state="needs-translation">Tap to reload page</target>
+        <target>Trykk for å laste om sida</target>
         <note>No comment provided by engineer.</note>
-      <note>No comment provided by engineer.</note></trans-unit>
-      <trans-unit id="Tap to reload the page" approved="no">
+      </trans-unit>
+      <trans-unit id="Tap to reload the page">
         <source>Tap to reload the page</source>
-        <target state="needs-translation">Tap to reload the page</target>
+        <target>Trykk for å laste om sida</target>
         <note>No comment provided by engineer.</note>
-      <note>No comment provided by engineer.</note></trans-unit>
-      <trans-unit id="Tap to stop loading the page" approved="no">
+      </trans-unit>
+      <trans-unit id="Tap to stop loading the page">
         <source>Tap to stop loading the page</source>
-        <target state="needs-translation">Tap to stop loading the page</target>
+        <target>Trykk for å stoppe innlastinga av sida</target>
         <note>No comment provided by engineer.</note>
-      <note>No comment provided by engineer.</note></trans-unit>
-      <trans-unit id="There is a new version available of Firefox Aurora. Tap OK to go to the download page." approved="no">
+      </trans-unit>
+      <trans-unit id="There is a new version available of Firefox Aurora. Tap OK to go to the download page.">
         <source>There is a new version available of Firefox Aurora. Tap OK to go to the download page.</source>
-        <target state="needs-translation">There is a new version available of Firefox Aurora. Tap OK to go to the download page.</target>
+        <target>Det finst ein ny versjon av Firefox Aurora. Trykk OK for å gå til nedlastingssida.</target>
         <note>Prompt message for application update</note>
-      <note>Prompt message for application update</note></trans-unit>
-      <trans-unit id="There was an error converting the page" approved="no">
+      </trans-unit>
+      <trans-unit id="There was an error converting the page">
         <source>There was an error converting the page</source>
-        <target state="needs-translation">There was an error converting the page</target>
+        <target>Det oppstod en feil under konvertering av sida</target>
         <note>Error displayed when reader mode cannot be enabled</note>
-      <note>Error displayed when reader mode cannot be enabled</note></trans-unit>
-      <trans-unit id="This will open in another application" approved="no">
+      </trans-unit>
+      <trans-unit id="This will open in another application">
         <source>This will open in another application</source>
-        <target state="needs-translation">This will open in another application</target>
+        <target>Dette vil opna i ein annan app</target>
         <note>Opening an external app</note>
-      <note>Opening an external app</note></trans-unit>
-      <trans-unit id="Today" approved="no">
+      </trans-unit>
+      <trans-unit id="Today">
         <source>Today</source>
-        <target state="needs-translation">Today</target>
+        <target>I dag</target>
         <note>History tableview section header</note>
-      <note>History tableview section header</note></trans-unit>
-      <trans-unit id="Top sites" approved="no">
+      </trans-unit>
+      <trans-unit id="Top sites">
         <source>Top sites</source>
-        <target state="needs-translation">Top sites</target>
+        <target>Populære nettsider</target>
         <note>Panel accessibility label</note>
-      <note>Panel accessibility label</note></trans-unit>
-      <trans-unit id="Update" approved="no">
+      </trans-unit>
+      <trans-unit id="URL">
+        <source>URL</source>
+        <target>URL</target>
+        <note>Accessibility label for the URL location label</note>
+      </trans-unit>
+      <trans-unit id="Update">
         <source>Update</source>
-        <target state="needs-translation">Update</target>
+        <target>Oppdater</target>
         <note>Button to update the user's password</note>
-      <note>Button to update the user's password</note></trans-unit>
-      <trans-unit id="Upgrade Firefox to connect." approved="no">
+      </trans-unit>
+      <trans-unit id="Upgrade Firefox to connect.">
         <source>Upgrade Firefox to connect.</source>
-        <target state="needs-translation">Upgrade Firefox to connect.</target>
+        <target>Oppgrader Firefox for å kopla til.</target>
         <note>Text message in the settings table view</note>
-      <note>Text message in the settings table view</note></trans-unit>
-      <trans-unit id="Username" approved="no">
-        <source>Username</source>
-        <target state="needs-translation">Username</target>
-        <note>Username textbox in Authentication prompt</note>
-      <note>Username textbox in Authentication prompt</note></trans-unit>
-      <trans-unit id="Verify your email address." approved="no">
+      </trans-unit>
+      <trans-unit id="Verify your email address.">
         <source>Verify your email address.</source>
-        <target state="needs-translation">Verify your email address.</target>
+        <target>Stadfest e-postadressa di.</target>
         <note>Text message in the settings table view</note>
-      <note>Text message in the settings table view</note></trans-unit>
-      <trans-unit id="Version %@ (%@)" approved="no">
+      </trans-unit>
+      <trans-unit id="Version %@ (%@)">
         <source>Version %1$@ (%2$@)</source>
-        <target state="needs-translation">Version %1$@ (%2$@)</target>
-        <note>Version number of Firefox shown in settings</note>
-      <note>Version number of Firefox shown in settings
-Table row in settings that contains the application version and build</note></trans-unit>
-      <trans-unit id="Web content" approved="no">
+        <target>Versjon %1$@ (%2$@)</target>
+        <note>Table row in settings that contains the application version and build</note>
+      </trans-unit>
+      <trans-unit id="Web content">
         <source>Web content</source>
-        <target state="needs-translation">Web content</target>
-        <note>Accessibility label for the main web content view
-   Accessibility label for the web view</note>
-      <note>Accessibility label for the main web content view Accessibility label for the web view
-Accessibility label for the main web content view</note></trans-unit>
-      <trans-unit id="Yesterday" approved="no">
+        <target>Nettinnhald</target>
+        <note>Accessibility label for the main web content view</note>
+      </trans-unit>
+      <trans-unit id="Yesterday">
         <source>Yesterday</source>
-        <target state="needs-translation">Yesterday</target>
+        <target>I går</target>
         <note>History tableview section header</note>
-      <note>History tableview section header</note></trans-unit>
-      <trans-unit id="read" approved="no">
-        <source>read</source>
-        <target state="needs-translation">read</target>
-        <note>Accessibility label for read article in reading list. It's a past participle - functions as an adjective.</note>
-      <note>Accessibility label for read article in reading list. It's a past participle - functions as an adjective.</note></trans-unit>
-      <trans-unit id="unread" approved="no">
-        <source>unread</source>
-        <target state="needs-translation">unread</target>
-        <note>Accessibility label for unread article in reading list. It's a past participle - functions as an adjective.</note>
-      <note>Accessibility label for unread article in reading list. It's a past participle - functions as an adjective.</note></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/search.strings" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
-      <trans-unit id="No" approved="no">
+      <trans-unit id="No">
         <source>No</source>
-        <target state="needs-translation">No</target>
+        <target>Nei</target>
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
-      <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note></trans-unit>
-      <trans-unit id="Turn on search suggestions?" approved="no">
+      </trans-unit>
+      <trans-unit id="Turn on search suggestions?">
         <source>Turn on search suggestions?</source>
-        <target state="needs-translation">Turn on search suggestions?</target>
+        <target>Slå på søkjeforslag?</target>
         <note>Prompt shown before enabling provider search queries</note>
-      <note>Prompt shown before enabling provider search queries</note></trans-unit>
-      <trans-unit id="Yes" approved="no">
+      </trans-unit>
+      <trans-unit id="Yes">
         <source>Yes</source>
-        <target state="needs-translation">Yes</target>
+        <target>Ja</target>
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
-      <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="no">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target state="needs-translation">$(PRODUCT_NAME)</target>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="no">
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target state="needs-translation">1.0</target>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
   <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" approved="no">
+      <trans-unit id="CFBundleDisplayName">
         <source>Send To</source>
-        <target state="needs-translation">Send To</target>
+        <target>Send til</target>
       </trans-unit>
-      <trans-unit id="CFBundleName" approved="no">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target state="needs-translation">$(PRODUCT_NAME)</target>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="no">
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target state="needs-translation">1.0</target>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
   <file original="Extensions/SendTo/SendTo.strings" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
-      <trans-unit id="Send To Device" approved="no">
+      <trans-unit id="Send To Device">
         <source>Send To Device</source>
-        <target state="needs-translation">Send To Device</target>
+        <target>Send til eining</target>
         <note>Title of the dialog that allows you to send a tab to a different device</note>
-      <note>Title of the dialog that allows you to send a tab to a different device</note></trans-unit>
-      <trans-unit id="Send to %@" approved="no">
+      </trans-unit>
+      <trans-unit id="Send to %@">
         <source>Send to %@</source>
-        <target state="needs-translation">Send to %@</target>
+        <target>Send til %@</target>
         <note>Text in a table view row that lets the user pick a device to which to send a tab to</note>
-      <note>Text in a table view row that lets the user pick a device to which to send a tab to</note></trans-unit>
+      </trans-unit>
     </body>
   </file>
   <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" approved="no">
+      <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-        <target state="needs-translation">$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleName" approved="no">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target state="needs-translation">$(PRODUCT_NAME)</target>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="no">
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target state="needs-translation">1.0</target>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
   <file original="Extensions/ShareTo/ShareTo.strings" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
-      <trans-unit id="Add" approved="no">
+      <trans-unit id="Add">
         <source>Add</source>
-        <target state="needs-translation">Add</target>
+        <target>Legg til</target>
         <note>Add button in the share dialog</note>
-      <note>Add button in the share dialog</note></trans-unit>
-      <trans-unit id="Add to Bookmarks" approved="no">
+      </trans-unit>
+      <trans-unit id="Add to Bookmarks">
         <source>Add to Bookmarks</source>
-        <target state="needs-translation">Add to Bookmarks</target>
+        <target>Legg til som bokmerke</target>
         <note>On/off toggle to select adding this url to your bookmarks</note>
-      <note>On/off toggle to select adding this url to your bookmarks</note></trans-unit>
-      <trans-unit id="Add to Reading List" approved="no">
+      </trans-unit>
+      <trans-unit id="Add to Reading List">
         <source>Add to Reading List</source>
-        <target state="needs-translation">Add to Reading List</target>
+        <target>Legg til i leselista</target>
         <note>On/off toggle to select adding this url to your reading list</note>
-      <note>On/off toggle to select adding this url to your reading list</note></trans-unit>
-    </body>
-  </file>
-  <file original="ReadingList/Info.plist" source-language="en" datatype="plaintext" target-language="en">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName" approved="no">
-        <source>$(PRODUCT_NAME)</source>
-        <target state="needs-translation">$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="no">
-        <source>1.0</source>
-        <target state="needs-translation">1.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="ReadingListTests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName" approved="no">
-        <source>$(PRODUCT_NAME)</source>
-        <target state="needs-translation">$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="no">
-        <source>1.0</source>
-        <target state="needs-translation">1.0</target>
       </trans-unit>
     </body>
   </file>
   <file original="StorageTests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="no">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target state="needs-translation">$(PRODUCT_NAME)</target>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="no">
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target state="needs-translation">1.0</target>
+        <target>1.0</target>
       </trans-unit>
-    </body>
-  </file>
-  <file original="Sync.strings" source-language="en" datatype="plaintext" target-language="en">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
-    </header>
-    <body>
-      <trans-unit id="%@ on %@" approved="no">
-        <source>%1$@ on %2$@</source>
-        <target state="needs-translation">%1$@ on %2$@</target>
-        <note>A brief descriptive name for this app on this device, used for Send Tab and Synced Tabs. The first argument is the app name. The second argument is the device name.</note>
-      <note>A brief descriptive name for this app on this device, used for Send Tab and Synced Tabs. The first argument is the app name. The second argument is the device name.</note></trans-unit>
     </body>
   </file>
   <file original="Sync/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="no">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target state="needs-translation">$(PRODUCT_NAME)</target>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="no">
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target state="needs-translation">1.0</target>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
   <file original="SyncTests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="no">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target state="needs-translation">$(PRODUCT_NAME)</target>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="no">
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target state="needs-translation">1.0</target>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
   <file original="UITests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="no">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target state="needs-translation">$(PRODUCT_NAME)</target>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="no">
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target state="needs-translation">1.0</target>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
