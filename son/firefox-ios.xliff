@@ -1,651 +1,798 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="son">
+  <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleName" approved="yes">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
+        <target state="translated">$(PRODUCT_NAME)</target>
+      </trans-unit>
       <trans-unit id="CFBundleShortVersionString" approved="yes">
         <source>1.0</source>
-      <target state="translated">1.0</target></trans-unit>
+        <target state="translated">1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleName" approved="yes">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
+        <target state="translated">$(PRODUCT_NAME)</target>
+      </trans-unit>
       <trans-unit id="CFBundleShortVersionString" approved="yes">
         <source>1.0</source>
-      <target state="translated">1.0</target></trans-unit>
+        <target state="translated">1.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Client/ClearPrivateData.strings" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+    </header>
+    <body>
+      <trans-unit id="Are you sure you want all of your data? This will also close all open tabs.">
+        <source>Are you sure you want all of your data? This will also close all open tabs.</source>
+        <target>Are you sure you want all of your data? This will also close all open tabs.</target>
+        <note>Message shown in the dialog when clearing everything</note>
+      </trans-unit>
+      <trans-unit id="Cancel">
+        <source>Cancel</source>
+        <target>Cancel</target>
+        <note>Cancel string in the clear private data dialog</note>
+      <alt-trans xml:space="preserve" origin="fish"><source>Cancel</source><target>Naŋ</target></alt-trans></trans-unit>
+      <trans-unit id="Clear">
+        <source>Clear</source>
+        <target>Clear</target>
+        <note>Clicking this button will cause us to clear your private data</note>
+      </trans-unit>
+      <trans-unit id="Clear Everything">
+        <source>Clear Everything</source>
+        <target>Clear Everything</target>
+        <note>Clear everything title</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" approved="yes">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-
-      <target state="translated">$(MOZ_BUNDLE_DISPLAY_NAME)</target></trans-unit>
+        <target state="translated">$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+      </trans-unit>
       <trans-unit id="CFBundleName" approved="yes">
         <source>$(PRODUCT_NAME)</source>
-
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
+        <target state="translated">$(PRODUCT_NAME)</target>
+      </trans-unit>
       <trans-unit id="CFBundleShortVersionString" approved="yes">
         <source>1.0</source>
-
-      <target state="translated">1.0</target></trans-unit>
+        <target state="translated">1.0</target>
+      </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription" approved="yes">
         <source>Websites you visit may request your location.</source>
-
-      <target state="translated">Interneti nungey kaŋ war g'i naari ga hin ka war gorodogoo hãa.</target></trans-unit>
+        <target state="translated">Websites you visit may request your location.</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="%@ search" approved="yes">
         <source>%@ search</source>
-
-        <target state="translated">%@ ceeci</target><note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
+        <target state="translated">%@ search</target>
+        <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
       <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note></trans-unit>
       <trans-unit id="+" approved="yes">
         <source>+</source>
-
-        <target state="translated">+</target><note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
-      </trans-unit>
+        <target state="translated">+</target>
+        <note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+      <note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note></trans-unit>
       <trans-unit id="-" approved="yes">
         <source>-</source>
-
-        <target state="translated">-</target><note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+        <target state="translated">-</target>
+        <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+      <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note></trans-unit>
+      <trans-unit id="A username and password are being requested by %@.">
+        <source>A username and password are being requested by %@.</source>
+        <target>A username and password are being requested by %@.</target>
+        <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
+      </trans-unit>
+      <trans-unit id="A username and password are being requested by %@. The site says: %@">
+        <source>A username and password are being requested by %1$@. The site says: %2$@</source>
+        <target>A username and password are being requested by %1$@. The site says: %2$@</target>
+        <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
       </trans-unit>
       <trans-unit id="Aa" approved="yes">
         <source>Aa</source>
-
-        <target state="translated">Aa</target><note>Button for reader mode font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
-      </trans-unit>
+        <target state="translated">Aa</target>
+        <note>Button for reader mode font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+      <note>Button for reader mode font size. Keep this extremely short! This is shown in the reader mode toolbar.</note></trans-unit>
       <trans-unit id="About" approved="yes">
         <source>About</source>
-
-        <target state="translated">Fahami</target><note>Title for about section.</note>
+        <target state="translated">About</target>
+        <note>About settings section title</note>
       <note>Title for about section.</note></trans-unit>
+      <trans-unit id="Add Tab">
+        <source>Add Tab</source>
+        <target>Add Tab</target>
+        <note>Accessibility label for the Add Tab button in the Tab Tray.</note>
+      </trans-unit>
       <trans-unit id="Address and Search" approved="yes">
         <source>Address and Search</source>
-
-        <target state="translated">Aderesu nda ceeciyan</target><note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
+        <target state="translated">Address and Search</target>
+        <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
       <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note></trans-unit>
+      <trans-unit id="Authentication required">
+        <source>Authentication required</source>
+        <target>Authentication required</target>
+        <note>Authentication prompt title</note>
+      </trans-unit>
       <trans-unit id="Back" approved="yes">
         <source>Back</source>
-
-        <target state="translated">Banda</target><note>Accessibility Label for the browser toolbar Back button</note>
-      <note>No comment provided by engineer.</note></trans-unit>
+        <target state="translated">Back</target>
+        <note>Accessibility Label for the browser toolbar Back button</note>
+      <note>Accessibility Label for the browser toolbar Back button
+No comment provided by engineer.</note></trans-unit>
       <trans-unit id="Bookmark" approved="yes">
         <source>Bookmark</source>
-
-        <target state="translated">Doo-šilbay</target><note>Accessibility Label for the browser toolbar Bookmark button</note>
-      <alt-trans xml:space="preserve" origin="fish"><source>Bookmarks</source><target>Doo-šilbawey</target></alt-trans></trans-unit>
+        <target state="translated">Bookmark</target>
+        <note>Accessibility Label for the browser toolbar Bookmark button</note>
+      <note>Accessibility Label for the browser toolbar Bookmark button</note></trans-unit>
       <trans-unit id="Bookmarks" approved="yes">
         <source>Bookmarks</source>
-
-        <target state="translated">Doo-šilbawey</target><note>Panel accessibility label</note>
+        <target state="translated">Bookmarks</target>
+        <note>Panel accessibility label</note>
       <note>Panel accessibility label</note></trans-unit>
+      <trans-unit id="Call">
+        <source>Call</source>
+        <target>Call</target>
+        <note>Alert Call Button</note>
+      </trans-unit>
       <trans-unit id="Cancel" approved="yes">
         <source>Cancel</source>
-
-        <target state="translated">Naŋ</target><note>Alert Cancel Button
+        <target state="translated">Cancel</target>
+        <note>Alert Cancel Button
+   Authentication prompt cancel button
    Button label to cancel entering a URL or search query
    Cancel alert view
    Cancel button
    Cancel button in the 'disconnect firefox account' alert</note>
+      <note>Alert Cancel Button Button label to cancel entering a URL or search query Cancel alert view Cancel button Cancel button in the 'disconnect firefox account' alert</note></trans-unit>
+      <trans-unit id="Clear private data">
+        <source>Clear private data</source>
+        <target>Clear private data</target>
+        <note>Clear private data setting</note>
       </trans-unit>
-      <trans-unit id="Copy" approved="yes">
-        <source>Copy</source>
-
-        <target state="translated">Berandi</target><note>Context menu option</note>
+      <trans-unit id="Close">
+        <source>Close</source>
+        <target>Close</target>
+        <note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
       </trans-unit>
       <trans-unit id="Copy Address" approved="yes">
         <source>Copy Address</source>
-
-        <target state="translated">Aderesu berandi</target><note>Copy the URL from the location bar</note>
-      </trans-unit>
-      <trans-unit id="Copy Image URL" approved="yes">
-        <source>Copy Image URL</source>
-
-        <target state="translated">URL bii berandi</target><note>Context menu option</note>
-      </trans-unit>
+        <target state="translated">Copy Address</target>
+        <note>Copy the URL from the location bar</note>
+      <note>Copy the URL from the location bar</note></trans-unit>
       <trans-unit id="Could not connect to Firefox Accounts." approved="yes">
         <source>Could not connect to Firefox Accounts.</source>
-
-        <target state="translated">Mana hin ka duu Firefox kontey.</target><note>Error message that is shown in settings when there was a problem connecting to Firefox Accounts</note>
-      <note>Settings</note></trans-unit>
+        <target state="translated">Could not connect to Firefox Accounts.</target>
+        <note>Error message that is shown in settings when there was a problem connecting to Firefox Accounts</note>
+      <note>Error message that is shown in settings when there was a problem connecting to Firefox Accounts
+Settings</note></trans-unit>
       <trans-unit id="Dark" approved="yes">
         <source>Dark</source>
-
-        <target state="translated">Kubay</target><note>Dark theme setting in Reading View settings</note>
+        <target state="translated">Dark</target>
+        <note>Dark theme setting in Reading View settings</note>
+      <note>Dark theme setting in Reading View settings</note></trans-unit>
+      <trans-unit id="Debug: forget Sync auth state">
+        <source>Debug: forget Sync auth state</source>
+        <target>Debug: forget Sync auth state</target>
+        <note>Debug option</note>
+      </trans-unit>
+      <trans-unit id="Debug: require password">
+        <source>Debug: require password</source>
+        <target>Debug: require password</target>
+        <note>Debug option</note>
+      </trans-unit>
+      <trans-unit id="Debug: require upgrade">
+        <source>Debug: require upgrade</source>
+        <target>Debug: require upgrade</target>
+        <note>Debug option</note>
       </trans-unit>
       <trans-unit id="Default Search Engine" approved="yes">
         <source>Default Search Engine</source>
-
-        <target state="translated">Tilasu ceecijinay</target><note>Accessibility label for default search engine setting.
+        <target state="translated">Default Search Engine</target>
+        <note>Accessibility label for default search engine setting.
    Title for default search engine picker.
    Title for default search engine settings section.</note>
-      </trans-unit>
+      <note>Accessibility label for default search engine setting. Title for default search engine picker. Title for default search engine settings section.</note></trans-unit>
       <trans-unit id="Disconnect" approved="yes">
         <source>Disconnect</source>
-
-        <target state="translated">Dunbu</target><note>Button in settings screen to disconnect from your account
+        <target state="translated">Disconnect</target>
+        <note>Button in settings screen to disconnect from your account
    Disconnect button in the 'disconnect firefox account' alert</note>
-      <note>Settings</note></trans-unit>
+      <note>Button in settings screen to disconnect from your account Disconnect button in the 'disconnect firefox account' alert
+Settings</note></trans-unit>
       <trans-unit id="Disconnect Firefox Account?" approved="yes">
         <source>Disconnect Firefox Account?</source>
-
-        <target state="translated">Firefox kontoo dunbu wala?</target><note>Title of the 'disconnect firefox account' alert</note>
-      <note>Settings</note></trans-unit>
+        <target state="translated">Disconnect Firefox Account?</target>
+        <note>Title of the 'disconnect firefox account' alert</note>
+      <note>Title of the 'disconnect firefox account' alert
+Settings</note></trans-unit>
       <trans-unit id="Do you want to save the password for %@ on %@?" approved="yes">
         <source>Do you want to save the password for %1$@ on %2$@?</source>
-
-        <target state="translated">War ga boona ka šennikufal gaabu %1$@ se %2$@ ga?</target><note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
-      </trans-unit>
+        <target state="translated">Do you want to save the password for %1$@ on %2$@?</target>
+        <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
+      <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note></trans-unit>
       <trans-unit id="Do you want to update the password for %@ on %@?" approved="yes">
         <source>Do you want to update the password for %1$@ on %2$@?</source>
-
-        <target state="translated">War ga boona ka šennikufal taagandi %1$@ se %2$@ ga?</target><note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
-      </trans-unit>
+        <target state="translated">Do you want to update the password for %1$@ on %2$@?</target>
+        <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
+      <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note></trans-unit>
       <trans-unit id="Done" approved="yes">
         <source>Done</source>
-
-        <target state="translated">A ben</target><note>Done button on left side of the Settings view controller title bar</note>
-      <note>Settings</note></trans-unit>
+        <target state="translated">Done</target>
+        <note>Done button on left side of the Settings view controller title bar</note>
+      <note>Done button on left side of the Settings view controller title bar
+Settings</note></trans-unit>
       <trans-unit id="Double tap and hold to open history" approved="yes">
         <source>Double tap and hold to open history</source>
-
-        <target state="translated">Karkar nd'a gaabu ka taarikoo feeri</target><note>No comment provided by engineer.</note>
+        <target state="translated">Double tap and hold to open history</target>
+        <note>No comment provided by engineer.</note>
       <note>No comment provided by engineer.</note></trans-unit>
       <trans-unit id="Enter your password to connect." approved="yes">
         <source>Enter your password to connect.</source>
-
-        <target state="translated">War šennikufaloo dam ka ciya.</target><note>Text message in the settings table view</note>
-      <note>Settings</note></trans-unit>
+        <target state="translated">Enter your password to connect.</target>
+        <note>Text message in the settings table view</note>
+      <note>Text message in the settings table view
+Settings</note></trans-unit>
       <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device." approved="yes">
         <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
-
-        <target state="translated">Firefox ši war kontoo hangandi koyne, amm'a ši war ceeciyan taariki bayhaya kul tuusu jinaa woo ga.</target><note>Text of the 'disconnect firefox account' alert</note>
-      <note>Settings</note></trans-unit>
+        <target state="translated">Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</target>
+        <note>Text of the 'disconnect firefox account' alert</note>
+      <note>Text of the 'disconnect firefox account' alert
+Settings</note></trans-unit>
       <trans-unit id="Forward" approved="yes">
         <source>Forward</source>
-
-        <target state="translated">Jine</target><note>Accessibility Label for the browser toolbar Forward button</note>
-      <note>No comment provided by engineer.</note></trans-unit>
+        <target state="translated">Forward</target>
+        <note>Accessibility Label for the browser toolbar Forward button</note>
+      <note>Accessibility Label for the browser toolbar Forward button
+No comment provided by engineer.</note></trans-unit>
       <trans-unit id="History" approved="yes">
         <source>History</source>
-
-        <target state="translated">Taariki</target><note>Panel accessibility label</note>
+        <target state="translated">History</target>
+        <note>Panel accessibility label</note>
       <note>Panel accessibility label</note></trans-unit>
       <trans-unit id="Last month" approved="yes">
         <source>Last month</source>
-
-        <target state="translated">Handu koraa</target><note>History tableview section header</note>
-      <note>No comment provided by engineer.</note></trans-unit>
+        <target state="translated">Last month</target>
+        <note>History tableview section header</note>
+      <note>History tableview section header
+No comment provided by engineer.</note></trans-unit>
       <trans-unit id="Last synced: %@" approved="yes">
         <source>Last synced: %@</source>
-
-        <target state="translated">Hangandiyan koraa: %@</target><note>Remote tabs last synced time</note>
-      </trans-unit>
+        <target state="translated">Last synced: %@</target>
+        <note>Remote tabs last synced time</note>
+      <note>Remote tabs last synced time</note></trans-unit>
       <trans-unit id="Last week" approved="yes">
         <source>Last week</source>
-
-        <target state="translated">Jirbiyye koraa</target><note>History tableview section header</note>
-      <note>No comment provided by engineer.</note></trans-unit>
+        <target state="translated">Last week</target>
+        <note>History tableview section header</note>
+      <note>History tableview section header
+No comment provided by engineer.</note></trans-unit>
       <trans-unit id="Light" approved="yes">
         <source>Light</source>
-
-        <target state="translated">Gaayay</target><note>Light theme setting in Reading View settings</note>
+        <target state="translated">Light</target>
+        <note>Light theme setting in Reading View settings</note>
+      <note>Light theme setting in Reading View settings</note></trans-unit>
+      <trans-unit id="Login">
+        <source>Login</source>
+        <target>Login</target>
+        <note>Authentication prompt login button</note>
       </trans-unit>
       <trans-unit id="Mark as Read" approved="yes">
         <source>Mark as Read</source>
-
-        <target state="translated">Šilbay sand'a cawandi</target><note>Title for the button that marks a reading list item as read</note>
+        <target state="translated">Mark as Read</target>
+        <note>Title for the button that marks a reading list item as read</note>
       <note>Title for the button that marks a reading list item as read</note></trans-unit>
       <trans-unit id="Mark as Unread" approved="yes">
         <source>Mark as Unread</source>
-         
-        <target state="translated">Šilbay sand'a mana cawandi</target><note>Title for the button that marks a reading list item as unread</note>
+        <target state="translated">Mark as Unread</target>
+        <note>Title for the button that marks a reading list item as unread</note>
       <note>Title for the button that marks a reading list item as unread</note></trans-unit>
       <trans-unit id="Missing error" approved="yes">
         <source>Missing error</source>
-
-        <target state="translated">Firka kumante</target><note>Error for a missing remote error number</note>
-      </trans-unit>
+        <target state="translated">Missing error</target>
+        <note>Error for a missing remote error number</note>
+      <note>Error for a missing remote error number</note></trans-unit>
       <trans-unit id="Missing message" approved="yes">
         <source>Missing message</source>
-
-        <target state="translated">Alhabar kumante</target><note>Error for a missing remote error message</note>
-      </trans-unit>
+        <target state="translated">Missing message</target>
+        <note>Error for a missing remote error message</note>
+      <note>Error for a missing remote error message</note></trans-unit>
       <trans-unit id="New version available" approved="yes">
         <source>New version available</source>
-
-        <target state="translated">Dumi taaga ga bara</target><note>Prompt title for application update</note>
-      </trans-unit>
+        <target state="translated">New version available</target>
+        <note>Prompt title for application update</note>
+      <note>Prompt title for application update</note></trans-unit>
       <trans-unit id="Not Now" approved="yes">
         <source>Not Now</source>
-
-        <target state="translated">Manti sohõ</target><note>Label for button to cancel application update prompt</note>
-      </trans-unit>
+        <target state="translated">Not Now</target>
+        <note>Label for button to cancel application update prompt</note>
+      <note>Label for button to cancel application update prompt</note></trans-unit>
       <trans-unit id="Not now" approved="yes">
         <source>Not now</source>
-
-        <target state="translated">Manti sohõ</target><note>Button to not save the user's password</note>
-      </trans-unit>
+        <target state="translated">Not now</target>
+        <note>Button to not save the user's password</note>
+      <note>Button to not save the user's password</note></trans-unit>
       <trans-unit id="OK" approved="yes">
         <source>OK</source>
-
-        <target state="translated">Ayyo</target><note>Alert OK Button
+        <target state="translated">OK</target>
+        <note>Alert OK Button
    Label for OK button in the application update prompt
    OK button</note>
-      </trans-unit>
-      <trans-unit id="Open In New Tab" approved="yes">
-        <source>Open In New Tab</source>
-
-        <target state="translated">Feeri nor loku taaga ra</target><note>Context menu option</note>
-      </trans-unit>
+      <note>Alert OK Button Label for OK button in the application update prompt OK button</note></trans-unit>
       <trans-unit id="Opening %@" approved="yes">
         <source>Opening %@</source>
-
-        <target state="translated">Goo ma %S@ feeri</target><note>Opening an external URL</note>
+        <target state="translated">Opening %@</target>
+        <note>Opening an external URL</note>
       <note>Opening an external URL</note></trans-unit>
+      <trans-unit id="Password">
+        <source>Password</source>
+        <target>Password</target>
+        <note>Password textbox in Authentication prompt</note>
+      </trans-unit>
       <trans-unit id="Paste" approved="yes">
         <source>Paste</source>
-
-        <target state="translated">Dobu</target><note>Paste the URL into the location bar</note>
-      </trans-unit>
+        <target state="translated">Paste</target>
+        <note>Paste the URL into the location bar</note>
+      <note>Paste the URL into the location bar</note></trans-unit>
       <trans-unit id="Paste &amp; Go" approved="yes">
         <source>Paste &amp; Go</source>
-
-        <target state="translated">Dobu &amp; Koy</target><note>Paste the URL into the location bar and visit</note>
+        <target state="translated">Paste &amp; Go</target>
+        <note>Paste the URL into the location bar and visit</note>
+      <note>Paste the URL into the location bar and visit</note></trans-unit>
+      <trans-unit id="Privacy">
+        <source>Privacy</source>
+        <target>Privacy</target>
+        <note>Privacy section title</note>
       </trans-unit>
       <trans-unit id="Quick-search Engines" approved="yes">
         <source>Quick-search Engines</source>
-
-        <target state="translated">Ceecijinay cahãntey</target><note>Title for quick-search engines settings section.</note>
+        <target state="translated">Quick-search Engines</target>
+        <note>Title for quick-search engines settings section.</note>
       <note>Title for quick-search engines settings section.</note></trans-unit>
       <trans-unit id="Reader" approved="yes">
         <source>Reader</source>
-
-        <target state="translated">Cawkaw</target><note>Browser function that presents simplified version of the page with bigger text.</note>
+        <target state="translated">Reader</target>
+        <note>Browser function that presents simplified version of the page with bigger text.</note>
       <note>Browser function that presents simplified version of the page with bigger text.</note></trans-unit>
       <trans-unit id="Reader Mode" approved="yes">
         <source>Reader Mode</source>
-
-        <target state="translated">Cawkaw alhaali</target><note>Accessibility label for the reader mode button</note>
-      </trans-unit>
+        <target state="translated">Reader Mode</target>
+        <note>Accessibility label for the reader mode button</note>
+      <note>Accessibility label for the reader mode button</note></trans-unit>
       <trans-unit id="Reading list" approved="yes">
         <source>Reading list</source>
-
-        <target state="translated">Caw maašeede</target><note>Panel accessibility label</note>
+        <target state="translated">Reading list</target>
+        <note>Panel accessibility label</note>
       <note>Panel accessibility label</note></trans-unit>
       <trans-unit id="Recent Bookmarks" approved="yes">
         <source>Recent Bookmarks</source>
-
-        <target state="translated">Doo-šilbay kokorantey</target><note>Header for bookmarks list</note>
+        <target state="translated">Recent Bookmarks</target>
+        <note>Header for bookmarks list</note>
       <note>Header for bookmarks list</note></trans-unit>
       <trans-unit id="Reload" approved="yes">
         <source>Reload</source>
-
-        <target state="translated">Dam taaga</target><note>Accessibility Label for the browser toolbar Reload button</note>
-      </trans-unit>
+        <target state="translated">Reload</target>
+        <note>Accessibility Label for the browser toolbar Reload button</note>
+      <note>Accessibility Label for the browser toolbar Reload button</note></trans-unit>
       <trans-unit id="Remove" approved="yes">
         <source>Remove</source>
-
-        <target state="translated">Kaa</target><note>Title for the button that removes a reading list item</note>
+        <target state="translated">Remove</target>
+        <note>Title for the button that removes a reading list item</note>
       <note>Title for the button that removes a reading list item</note></trans-unit>
       <trans-unit id="Sans-serif" approved="yes">
         <source>Sans-serif</source>
-
-        <target state="translated">Šigira šerrante</target><note>Font type setting in the reading view settings</note>
-      </trans-unit>
+        <target state="translated">Sans-serif</target>
+        <note>Font type setting in the reading view settings</note>
+      <note>Font type setting in the reading view settings</note></trans-unit>
       <trans-unit id="Save" approved="yes">
         <source>Save</source>
-
-        <target state="translated">Gaabu</target><note>Button to save the user's password</note>
-      </trans-unit>
-      <trans-unit id="Save Image" approved="yes">
-        <source>Save Image</source>
-
-        <target state="translated">Biyoo gaabu</target><note>Context menu option</note>
-      </trans-unit>
+        <target state="translated">Save</target>
+        <note>Button to save the user's password</note>
+      <note>Button to save the user's password</note></trans-unit>
       <trans-unit id="Search" approved="yes">
         <source>Search</source>
-
-        <target state="translated">Ceeci</target><note>Navigation title for search settings.
-   Table row in settings to go to the Search settings</note>
-      </trans-unit>
+        <target state="translated">Search</target>
+        <note>Navigation title for search settings.
+   Open search section of settings</note>
+      <note>Navigation title for search settings. Table row in settings to go to the Search settings</note></trans-unit>
       <trans-unit id="Search Settings" approved="yes">
         <source>Search Settings</source>
-
-        <target state="translated">Ceeciyan kayandiyaney</target><note>Title for search settings section.</note>
+        <target state="translated">Search Settings</target>
+        <note>Search settings section title</note>
       <note>Title for search settings section.</note></trans-unit>
       <trans-unit id="Search or enter address" approved="yes">
         <source>Search or enter address</source>
-
-        <target state="translated">Ceeci wala aderesu dam</target><note>The text shown in the URL bar on about:home</note>
+        <target state="translated">Search or enter address</target>
+        <note>The text shown in the URL bar on about:home</note>
       <note>The text shown in the URL bar on about:home</note></trans-unit>
       <trans-unit id="Secure connection" approved="yes">
         <source>Secure connection</source>
-
-        <target state="translated">Ciyari saajante</target><note>Accessibility label for the lock icon, which is only present if the connection is secure</note>
-      <note>No comment provided by engineer.</note></trans-unit>
+        <target state="translated">Secure connection</target>
+        <note>Accessibility label for the lock icon, which is only present if the connection is secure</note>
+      <note>Accessibility label for the lock icon, which is only present if the connection is secure
+No comment provided by engineer.</note></trans-unit>
       <trans-unit id="Sepia" approved="yes">
         <source>Sepia</source>
-
-        <target state="translated">Bokkaaray</target><note>Sepia theme setting in Reading View settings</note>
-      </trans-unit>
+        <target state="translated">Sepia</target>
+        <note>Sepia theme setting in Reading View settings</note>
+      <note>Sepia theme setting in Reading View settings</note></trans-unit>
       <trans-unit id="Serif" approved="yes">
         <source>Serif</source>
-
-        <target state="translated">Delbu šigira</target><note>Font type setting in the reading view settings</note>
-      </trans-unit>
+        <target state="translated">Serif</target>
+        <note>Font type setting in the reading view settings</note>
+      <note>Font type setting in the reading view settings</note></trans-unit>
       <trans-unit id="Settings" approved="yes">
         <source>Settings</source>
-
-        <target state="translated">Kayandiyaney</target><note>Accessibility label for the Settings button in the Tab Tray.
+        <target state="translated">Settings</target>
+        <note>Accessibility label for the Settings button in the Tab Tray.
    Settings</note>
-      </trans-unit>
+      <note>Accessibility label for the Settings button in the Tab Tray. Settings</note></trans-unit>
       <trans-unit id="Share" approved="yes">
         <source>Share</source>
-
-        <target state="translated">Žemna</target><note>Accessibility Label for the browser toolbar Share button</note>
-      <note>No comment provided by engineer.</note></trans-unit>
+        <target state="translated">Share</target>
+        <note>Accessibility Label for the browser toolbar Share button</note>
+      <note>Accessibility Label for the browser toolbar Share button
+No comment provided by engineer.</note></trans-unit>
       <trans-unit id="Show Tabs" approved="yes">
         <source>Show Tabs</source>
-
-        <target state="translated">Nor lokey cebe</target><note>Accessibility label for the tabs button in the (top) browser toolbar
+        <target state="translated">Show Tabs</target>
+        <note>Accessibility label for the tabs button in the (top) browser toolbar
    Accessibility Label for the urlbar tabs button</note>
-      <note>No comment provided by engineer.</note></trans-unit>
+      <note>Accessibility label for the tabs button in the (top) browser toolbar Accessibility Label for the urlbar tabs button
+No comment provided by engineer.</note></trans-unit>
       <trans-unit id="Show search suggestions" approved="yes">
         <source>Show search suggestions</source>
-
-        <target state="translated">Ceeci honnandiyaney cebe</target><note>Label for show search suggestions setting.</note>
+        <target state="translated">Show search suggestions</target>
+        <note>Label for show search suggestions setting.</note>
       <note>Label for show search suggestions setting.</note></trans-unit>
       <trans-unit id="Sign in" approved="yes">
         <source>Sign in</source>
-
-        <target state="translated">Huru</target><note>Button that leads to Sign in section of the Settings sheet.
+        <target state="translated">Sign in</target>
+        <note>Button that leads to Sign in section of the Settings sheet.
    Text message / button in the settings table view</note>
-      </trans-unit>
+      <note>Button that leads to Sign in section of the Settings sheet. Text message / button in the settings table view</note></trans-unit>
       <trans-unit id="Stop" approved="yes">
         <source>Stop</source>
-
-        <target state="translated">Kayandi</target><note>Accessibility Label for the browser toolbar Stop button</note>
-      </trans-unit>
+        <target state="translated">Stop</target>
+        <note>Accessibility Label for the browser toolbar Stop button</note>
+      <note>Accessibility Label for the browser toolbar Stop button</note></trans-unit>
       <trans-unit id="Synced tabs" approved="yes">
         <source>Synced tabs</source>
-
-        <target state="translated">Nor loku hangantey</target><note>Panel accessibility label</note>
+        <target state="translated">Synced tabs</target>
+        <note>Panel accessibility label</note>
       <note>Panel accessibility label</note></trans-unit>
       <trans-unit id="Tabs Tray" approved="yes">
         <source>Tabs Tray</source>
-
-        <target state="translated">Nor loku daari</target><note>Accessibility label for the Tabs Tray view.</note>
+        <target state="translated">Tabs Tray</target>
+        <note>Accessibility label for the Tabs Tray view.</note>
       <note>Accessibility label for the Tabs Tray view.</note></trans-unit>
       <trans-unit id="Tap to reload page" approved="yes">
         <source>Tap to reload page</source>
-
-        <target state="translated">Karkar ka moɲoo dam taaga</target><note>No comment provided by engineer.</note>
-      </trans-unit>
+        <target state="translated">Tap to reload page</target>
+        <note>No comment provided by engineer.</note>
+      <note>No comment provided by engineer.</note></trans-unit>
       <trans-unit id="Tap to reload the page" approved="yes">
         <source>Tap to reload the page</source>
-
-        <target state="translated">Karkar ka moɲoo dam taaga</target><note>No comment provided by engineer.</note>
-      </trans-unit>
+        <target state="translated">Tap to reload the page</target>
+        <note>No comment provided by engineer.</note>
+      <note>No comment provided by engineer.</note></trans-unit>
       <trans-unit id="Tap to stop loading the page" approved="yes">
         <source>Tap to stop loading the page</source>
-
-        <target state="translated">Karkar ka moo zumandiyan kayandi</target><note>No comment provided by engineer.</note>
-      </trans-unit>
+        <target state="translated">Tap to stop loading the page</target>
+        <note>No comment provided by engineer.</note>
+      <note>No comment provided by engineer.</note></trans-unit>
       <trans-unit id="There is a new version available of Firefox Aurora. Tap OK to go to the download page." approved="yes">
         <source>There is a new version available of Firefox Aurora. Tap OK to go to the download page.</source>
-
-        <target state="translated">Firefox Aurora dumi taaga ga bara. Ayyo naagu ka koy zumandiyan moɲoo ga. </target><note>Prompt message for application update</note>
-      </trans-unit>
+        <target state="translated">There is a new version available of Firefox Aurora. Tap OK to go to the download page.</target>
+        <note>Prompt message for application update</note>
+      <note>Prompt message for application update</note></trans-unit>
       <trans-unit id="There was an error converting the page" approved="yes">
         <source>There was an error converting the page</source>
-
-        <target state="translated">Firka foo bangay moɲoo barmayyanoo ra</target><note>Error displayed when reader mode cannot be enabled</note>
-      </trans-unit>
+        <target state="translated">There was an error converting the page</target>
+        <note>Error displayed when reader mode cannot be enabled</note>
+      <note>Error displayed when reader mode cannot be enabled</note></trans-unit>
       <trans-unit id="This will open in another application" approved="yes">
         <source>This will open in another application</source>
-
-        <target state="translated">Woo ga porogaram tana foo feeri</target><note>Opening an external app</note>
+        <target state="translated">This will open in another application</target>
+        <note>Opening an external app</note>
       <note>Opening an external app</note></trans-unit>
       <trans-unit id="Today" approved="yes">
         <source>Today</source>
-
-        <target state="translated">Hõ</target><note>History tableview section header</note>
-      <note>No comment provided by engineer.</note></trans-unit>
+        <target state="translated">Today</target>
+        <note>History tableview section header</note>
+      <note>History tableview section header
+No comment provided by engineer.</note></trans-unit>
       <trans-unit id="Top sites" approved="yes">
         <source>Top sites</source>
-
-        <target state="translated">Nungu kaasey</target><note>Panel accessibility label</note>
+        <target state="translated">Top sites</target>
+        <note>Panel accessibility label</note>
       <note>Panel accessibility label</note></trans-unit>
-      <trans-unit id="URL" approved="yes">
-        <source>URL</source>
-
-        <target state="translated">URL</target><note>Accessibility label for the URL location label</note>
-      <note>Accessibility label</note></trans-unit>
       <trans-unit id="Update" approved="yes">
         <source>Update</source>
-
-        <target state="translated">Taagandi</target><note>Button to update the user's password</note>
-      </trans-unit>
+        <target state="translated">Update</target>
+        <note>Button to update the user's password</note>
+      <note>Button to update the user's password</note></trans-unit>
       <trans-unit id="Upgrade Firefox to connect." approved="yes">
         <source>Upgrade Firefox to connect.</source>
-
-        <target state="translated">Firefox taagandi ka ciya.</target><note>Text message in the settings table view</note>
-      <note>Settings</note></trans-unit>
+        <target state="translated">Upgrade Firefox to connect.</target>
+        <note>Text message in the settings table view</note>
+      <note>Text message in the settings table view
+Settings</note></trans-unit>
+      <trans-unit id="Username">
+        <source>Username</source>
+        <target>Username</target>
+        <note>Username textbox in Authentication prompt</note>
+      </trans-unit>
       <trans-unit id="Verify your email address." approved="yes">
         <source>Verify your email address.</source>
-
-        <target state="translated">War bataga aderesoo koroši.</target><note>Text message in the settings table view</note>
-      <note>Settings</note></trans-unit>
+        <target state="translated">Verify your email address.</target>
+        <note>Text message in the settings table view</note>
+      <note>Text message in the settings table view
+Settings</note></trans-unit>
       <trans-unit id="Version %@ (%@)" approved="yes">
         <source>Version %1$@ (%2$@)</source>
-
-        <target state="translated">Dumi ti %1 $@ (%2$@)</target><note>Table row in settings that contains the application version and build</note>
-      </trans-unit>
+        <target state="translated">Version %1$@ (%2$@)</target>
+        <note>Version number of Firefox shown in settings</note>
+      <note>Table row in settings that contains the application version and build</note></trans-unit>
       <trans-unit id="Web content" approved="yes">
         <source>Web content</source>
-
-        <target state="translated">Interneti gundekuna</target><note>Accessibility label for the main web content view</note>
+        <target state="translated">Web content</target>
+        <note>Accessibility label for the main web content view
+   Accessibility label for the web view</note>
       <note>Accessibility label for the main web content view</note></trans-unit>
       <trans-unit id="Yesterday" approved="yes">
         <source>Yesterday</source>
-
-        <target state="translated">Bi</target><note>History tableview section header</note>
-      <note>No comment provided by engineer.</note></trans-unit>
+        <target state="translated">Yesterday</target>
+        <note>History tableview section header</note>
+      <note>History tableview section header
+No comment provided by engineer.</note></trans-unit>
+      <trans-unit id="read">
+        <source>read</source>
+        <target>read</target>
+        <note>Accessibility label for read article in reading list. It's a past participle - functions as an adjective.</note>
+      </trans-unit>
+      <trans-unit id="unread">
+        <source>unread</source>
+        <target>unread</target>
+        <note>Accessibility label for unread article in reading list. It's a past participle - functions as an adjective.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/search.strings" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="No" approved="yes">
         <source>No</source>
-
-        <target state="translated">Kalaa</target><note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+        <target state="translated">No</target>
+        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
       <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note></trans-unit>
       <trans-unit id="Turn on search suggestions?" approved="yes">
         <source>Turn on search suggestions?</source>
-
-        <target state="translated">Ceeci honnandiyaney tunandi?</target><note>Prompt shown before enabling provider search queries</note>
+        <target state="translated">Turn on search suggestions?</target>
+        <note>Prompt shown before enabling provider search queries</note>
       <note>Prompt shown before enabling provider search queries</note></trans-unit>
       <trans-unit id="Yes" approved="yes">
         <source>Yes</source>
-
-        <target state="translated">Ayyo</target><note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+        <target state="translated">Yes</target>
+        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
       <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note></trans-unit>
     </body>
   </file>
   <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleName" approved="yes">
         <source>$(PRODUCT_NAME)</source>
-
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
+        <target state="translated">$(PRODUCT_NAME)</target>
+      </trans-unit>
       <trans-unit id="CFBundleShortVersionString" approved="yes">
         <source>1.0</source>
-
-      <target state="translated">1.0</target></trans-unit>
+        <target state="translated">1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" approved="yes">
         <source>Send To</source>
-
-      <target state="translated">Sanba doo</target></trans-unit>
+        <target state="translated">Send To</target>
+      </trans-unit>
       <trans-unit id="CFBundleName" approved="yes">
         <source>$(PRODUCT_NAME)</source>
-
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
+        <target state="translated">$(PRODUCT_NAME)</target>
+      </trans-unit>
       <trans-unit id="CFBundleShortVersionString" approved="yes">
         <source>1.0</source>
-
-      <target state="translated">1.0</target></trans-unit>
+        <target state="translated">1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Extensions/SendTo/SendTo.strings" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="Send To Device" approved="yes">
         <source>Send To Device</source>
-
-        <target state="translated">Sanba jinaa do</target><note>Title of the dialog that allows you to send a tab to a different device</note>
-      <alt-trans xml:space="preserve" origin="fish"><source>Send To Device</source><target>Sanba jinaa do</target></alt-trans></trans-unit>
+        <target state="translated">Send To Device</target>
+        <note>Title of the dialog that allows you to send a tab to a different device</note>
+      <note>Title of the dialog that allows you to send a tab to a different device</note></trans-unit>
       <trans-unit id="Send to %@" approved="yes">
         <source>Send to %@</source>
-
-        <target state="translated">Sanba %@ do</target><note>Text in a table view row that lets the user pick a device to which to send a tab to</note>
-      </trans-unit>
+        <target state="translated">Send to %@</target>
+        <note>Text in a table view row that lets the user pick a device to which to send a tab to</note>
+      <note>Text in a table view row that lets the user pick a device to which to send a tab to</note></trans-unit>
     </body>
   </file>
   <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" approved="yes">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-
-      <target state="translated">$(MOZ_BUNDLE_DISPLAY_NAME)</target></trans-unit>
+        <target state="translated">$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+      </trans-unit>
       <trans-unit id="CFBundleName" approved="yes">
         <source>$(PRODUCT_NAME)</source>
-
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
+        <target state="translated">$(PRODUCT_NAME)</target>
+      </trans-unit>
       <trans-unit id="CFBundleShortVersionString" approved="yes">
         <source>1.0</source>
-
-      <target state="translated">1.0</target></trans-unit>
+        <target state="translated">1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Extensions/ShareTo/ShareTo.strings" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="Add" approved="yes">
         <source>Add</source>
-
-        <target state="translated">Tonton</target><note>Add button in the share dialog</note>
-      </trans-unit>
+        <target state="translated">Add</target>
+        <note>Add button in the share dialog</note>
+      <note>Add button in the share dialog</note></trans-unit>
       <trans-unit id="Add to Bookmarks" approved="yes">
         <source>Add to Bookmarks</source>
-
-        <target state="translated">Tonton doo-šilbawey ga</target><note>On/off toggle to select adding this url to your bookmarks</note>
-      <alt-trans xml:space="preserve" origin="fish"><source>Add to Bookmarks</source><target>Tonton doo-šilbawey ga</target></alt-trans></trans-unit>
+        <target state="translated">Add to Bookmarks</target>
+        <note>On/off toggle to select adding this url to your bookmarks</note>
+      <note>On/off toggle to select adding this url to your bookmarks</note></trans-unit>
       <trans-unit id="Add to Reading List" approved="yes">
         <source>Add to Reading List</source>
-
-        <target state="translated">Tonton caw maašeedaa ga</target><note>On/off toggle to select adding this url to your reading list</note>
-      <alt-trans xml:space="preserve" origin="fish"><source>Add to Reading List</source><target>Tonton caw maašeedaa ga</target></alt-trans></trans-unit>
+        <target state="translated">Add to Reading List</target>
+        <note>On/off toggle to select adding this url to your reading list</note>
+      <note>On/off toggle to select adding this url to your reading list</note></trans-unit>
+    </body>
+  </file>
+  <file original="ReadingList/Info.plist" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      <alt-trans xml:space="preserve" origin="fish"><source>$(PRODUCT_NAME)</source><target>$(PRODUCT_NAME)</target></alt-trans></trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+        <target>1.0</target>
+      <alt-trans xml:space="preserve" origin="fish"><source>1.0</source><target>1.0</target></alt-trans></trans-unit>
+    </body>
+  </file>
+  <file original="ReadingListTests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      <alt-trans xml:space="preserve" origin="fish"><source>$(PRODUCT_NAME)</source><target>$(PRODUCT_NAME)</target></alt-trans></trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+        <target>1.0</target>
+      <alt-trans xml:space="preserve" origin="fish"><source>1.0</source><target>1.0</target></alt-trans></trans-unit>
     </body>
   </file>
   <file original="StorageTests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleName" approved="yes">
         <source>$(PRODUCT_NAME)</source>
-
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
+        <target state="translated">$(PRODUCT_NAME)</target>
+      </trans-unit>
       <trans-unit id="CFBundleShortVersionString" approved="yes">
         <source>1.0</source>
-
-      <target state="translated">1.0</target></trans-unit>
+        <target state="translated">1.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Sync.strings" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+    </header>
+    <body>
+      <trans-unit id="%@ on %@">
+        <source>%1$@ on %2$@</source>
+        <target>%1$@ on %2$@</target>
+        <note>A brief descriptive name for this app on this device, used for Send Tab and Synced Tabs. The first argument is the app name. The second argument is the device name.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Sync/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleName" approved="yes">
         <source>$(PRODUCT_NAME)</source>
-
-      <target state="translated">$(PRODUCT_NAME)</target><alt-trans xml:space="preserve" origin="fish"><source>$(PRODUCT_NAME)</source><target>$(PRODUCT_NAME)</target></alt-trans></trans-unit>
+        <target state="translated">$(PRODUCT_NAME)</target>
+      </trans-unit>
       <trans-unit id="CFBundleShortVersionString" approved="yes">
         <source>1.0</source>
-
-      <target state="translated">1.0</target><alt-trans xml:space="preserve" origin="fish"><source>1.0</source><target>1.0</target></alt-trans></trans-unit>
+        <target state="translated">1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="SyncTests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleName" approved="yes">
         <source>$(PRODUCT_NAME)</source>
-
-      <target state="translated">$(PRODUCT_NAME)</target><alt-trans xml:space="preserve" origin="fish"><source>$(PRODUCT_NAME)</source><target>$(PRODUCT_NAME)</target></alt-trans></trans-unit>
+        <target state="translated">$(PRODUCT_NAME)</target>
+      </trans-unit>
       <trans-unit id="CFBundleShortVersionString" approved="yes">
         <source>1.0</source>
-
-      <target state="translated">1.0</target><alt-trans xml:space="preserve" origin="fish"><source>1.0</source><target>1.0</target></alt-trans></trans-unit>
+        <target state="translated">1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="UITests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleName" approved="yes">
         <source>$(PRODUCT_NAME)</source>
-
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
+        <target state="translated">$(PRODUCT_NAME)</target>
+      </trans-unit>
       <trans-unit id="CFBundleShortVersionString" approved="yes">
         <source>1.0</source>
-
-      <target state="translated">1.0</target></trans-unit>
+        <target state="translated">1.0</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
