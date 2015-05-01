@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="en">
+  <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="nb_NO">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
       <trans-unit id="CFBundleName" approved="yes">
@@ -17,7 +17,7 @@
   </file>
   <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
       <trans-unit id="CFBundleName" approved="yes">
@@ -30,36 +30,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/ClearPrivateData.strings" source-language="en" datatype="plaintext" target-language="en">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
-    </header>
-    <body>
-      <trans-unit id="Are you sure you want all of your data? This will also close all open tabs." approved="no">
-        <source>Are you sure you want all of your data? This will also close all open tabs.</source>
-        <target state="needs-translation">Are you sure you want all of your data? This will also close all open tabs.</target>
-        <note>Message shown in the dialog when clearing everything</note>
-      <note>Message shown in the dialog when clearing everything</note></trans-unit>
-      <trans-unit id="Cancel" approved="no">
-        <source>Cancel</source>
-        <target state="needs-translation">Cancel</target>
-        <note>Cancel string in the clear private data dialog</note>
-      <note>Cancel string in the clear private data dialog</note></trans-unit>
-      <trans-unit id="Clear" approved="no">
-        <source>Clear</source>
-        <target state="needs-translation">Clear</target>
-        <note>Clicking this button will cause us to clear your private data</note>
-      <note>Clicking this button will cause us to clear your private data</note></trans-unit>
-      <trans-unit id="Clear Everything" approved="no">
-        <source>Clear Everything</source>
-        <target state="needs-translation">Clear Everything</target>
-        <note>Clear everything title</note>
-      <note>Clear everything title</note></trans-unit>
-    </body>
-  </file>
   <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" approved="yes">
@@ -82,7 +55,7 @@
   </file>
   <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
       <trans-unit id="%@ search" approved="yes">
@@ -100,16 +73,6 @@
         <target state="translated">-</target>
         <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note></trans-unit>
-      <trans-unit id="A username and password are being requested by %@." approved="no">
-        <source>A username and password are being requested by %@.</source>
-        <target state="needs-translation">A username and password are being requested by %@.</target>
-        <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
-      <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note></trans-unit>
-      <trans-unit id="A username and password are being requested by %@. The site says: %@" approved="no">
-        <source>A username and password are being requested by %1$@. The site says: %2$@</source>
-        <target state="needs-translation">A username and password are being requested by %1$@. The site says: %2$@</target>
-        <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
-      <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note></trans-unit>
       <trans-unit id="Aa" approved="yes">
         <source>Aa</source>
         <target state="translated">Aa</target>
@@ -118,24 +81,13 @@
       <trans-unit id="About" approved="yes">
         <source>About</source>
         <target state="translated">About</target>
-        <note>About settings section title</note>
-      <note>About settings section title
-Title for about section.</note></trans-unit>
-      <trans-unit id="Add Tab" approved="no">
-        <source>Add Tab</source>
-        <target state="needs-translation">Add Tab</target>
-        <note>Accessibility label for the Add Tab button in the Tab Tray.</note>
-      <note>Accessibility label for the Add Tab button in the Tab Tray.</note></trans-unit>
+        <note>Title for about section.</note>
+      <note>Title for about section.</note></trans-unit>
       <trans-unit id="Address and Search" approved="yes">
         <source>Address and Search</source>
         <target state="translated">Address and Search</target>
         <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
       <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note></trans-unit>
-      <trans-unit id="Authentication required" approved="no">
-        <source>Authentication required</source>
-        <target state="needs-translation">Authentication required</target>
-        <note>Authentication prompt title</note>
-      <note>Authentication prompt title</note></trans-unit>
       <trans-unit id="Back" approved="yes">
         <source>Back</source>
         <target state="translated">Back</target>
@@ -151,37 +103,30 @@ Title for about section.</note></trans-unit>
         <target state="translated">Bookmarks</target>
         <note>Panel accessibility label</note>
       <note>Panel accessibility label</note></trans-unit>
-      <trans-unit id="Call" approved="no">
-        <source>Call</source>
-        <target state="needs-translation">Call</target>
-        <note>Alert Call Button</note>
-      <note>Alert Call Button</note></trans-unit>
       <trans-unit id="Cancel" approved="yes">
         <source>Cancel</source>
         <target state="translated">Cancel</target>
         <note>Alert Cancel Button
-   Authentication prompt cancel button
    Button label to cancel entering a URL or search query
    Cancel alert view
    Cancel button
    Cancel button in the 'disconnect firefox account' alert</note>
-      <note>Alert Cancel Button Authentication prompt cancel button Button label to cancel entering a URL or search query Cancel alert view Cancel button Cancel button in the 'disconnect firefox account' alert
-Alert Cancel Button Button label to cancel entering a URL or search query Cancel alert view Cancel button Cancel button in the 'disconnect firefox account' alert</note></trans-unit>
-      <trans-unit id="Clear private data" approved="no">
-        <source>Clear private data</source>
-        <target state="needs-translation">Clear private data</target>
-        <note>Clear private data setting</note>
-      <note>Clear private data setting</note></trans-unit>
-      <trans-unit id="Close" approved="no">
-        <source>Close</source>
-        <target state="needs-translation">Close</target>
-        <note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
-      <note>Accessibility label for action denoting closing a tab in tab list (tray)</note></trans-unit>
+      <note>Alert Cancel Button Button label to cancel entering a URL or search query Cancel alert view Cancel button Cancel button in the 'disconnect firefox account' alert</note></trans-unit>
+      <trans-unit id="Copy" approved="yes">
+        <source>Copy</source>
+        <target state="translated">Copy</target>
+        <note>Context menu option</note>
+      <note>Context menu option</note></trans-unit>
       <trans-unit id="Copy Address" approved="yes">
         <source>Copy Address</source>
         <target state="translated">Copy Address</target>
         <note>Copy the URL from the location bar</note>
       <note>Copy the URL from the location bar</note></trans-unit>
+      <trans-unit id="Copy Image URL" approved="yes">
+        <source>Copy Image URL</source>
+        <target state="translated">Copy Image URL</target>
+        <note>Context menu option</note>
+      <note>Context menu option</note></trans-unit>
       <trans-unit id="Could not connect to Firefox Accounts." approved="yes">
         <source>Could not connect to Firefox Accounts.</source>
         <target state="translated">Could not connect to Firefox Accounts.</target>
@@ -192,21 +137,6 @@ Alert Cancel Button Button label to cancel entering a URL or search query Cancel
         <target state="translated">Dark</target>
         <note>Dark theme setting in Reading View settings</note>
       <note>Dark theme setting in Reading View settings</note></trans-unit>
-      <trans-unit id="Debug: forget Sync auth state" approved="no">
-        <source>Debug: forget Sync auth state</source>
-        <target state="needs-translation">Debug: forget Sync auth state</target>
-        <note>Debug option</note>
-      <note>Debug option</note></trans-unit>
-      <trans-unit id="Debug: require password" approved="no">
-        <source>Debug: require password</source>
-        <target state="needs-translation">Debug: require password</target>
-        <note>Debug option</note>
-      <note>Debug option</note></trans-unit>
-      <trans-unit id="Debug: require upgrade" approved="no">
-        <source>Debug: require upgrade</source>
-        <target state="needs-translation">Debug: require upgrade</target>
-        <note>Debug option</note>
-      <note>Debug option</note></trans-unit>
       <trans-unit id="Default Search Engine" approved="yes">
         <source>Default Search Engine</source>
         <target state="translated">Default Search Engine</target>
@@ -285,12 +215,7 @@ Alert Cancel Button Button label to cancel entering a URL or search query Cancel
         <target state="translated">Light</target>
         <note>Light theme setting in Reading View settings</note>
       <note>Light theme setting in Reading View settings
-Light theme setting in Reading View settings Light theme setting in Reading View settings Lys eller lyst?</note></trans-unit>
-      <trans-unit id="Login" approved="no">
-        <source>Login</source>
-        <target state="needs-translation">Login</target>
-        <note>Authentication prompt login button</note>
-      <note>Authentication prompt login button</note></trans-unit>
+Lys eller lyst?</note></trans-unit>
       <trans-unit id="Mark as Read" approved="yes">
         <source>Mark as Read</source>
         <target state="translated">Mark as Read</target>
@@ -306,7 +231,7 @@ Light theme setting in Reading View settings Light theme setting in Reading View
         <target state="translated">Missing error</target>
         <note>Error for a missing remote error number</note>
       <note>Error for a missing remote error number
-Error for a missing remote error number Error for a missing remote error number Må finne ut om det er feilmelding som mangler?</note></trans-unit>
+Må finne ut om det er feilmelding som mangler?</note></trans-unit>
       <trans-unit id="Missing message" approved="yes">
         <source>Missing message</source>
         <target state="translated">Missing message</target>
@@ -334,16 +259,16 @@ Error for a missing remote error number Error for a missing remote error number 
    Label for OK button in the application update prompt
    OK button</note>
       <note>Alert OK Button Label for OK button in the application update prompt OK button</note></trans-unit>
+      <trans-unit id="Open In New Tab" approved="yes">
+        <source>Open In New Tab</source>
+        <target state="translated">Open In New Tab</target>
+        <note>Context menu option</note>
+      <note>Context menu option</note></trans-unit>
       <trans-unit id="Opening %@" approved="yes">
         <source>Opening %@</source>
         <target state="translated">Opening %@</target>
         <note>Opening an external URL</note>
       <note>Opening an external URL</note></trans-unit>
-      <trans-unit id="Password" approved="no">
-        <source>Password</source>
-        <target state="needs-translation">Password</target>
-        <note>Password textbox in Authentication prompt</note>
-      <note>Password textbox in Authentication prompt</note></trans-unit>
       <trans-unit id="Paste" approved="yes">
         <source>Paste</source>
         <target state="translated">Paste</target>
@@ -354,11 +279,6 @@ Error for a missing remote error number Error for a missing remote error number 
         <target state="translated">Paste &amp; Go</target>
         <note>Paste the URL into the location bar and visit</note>
       <note>Paste the URL into the location bar and visit</note></trans-unit>
-      <trans-unit id="Privacy" approved="no">
-        <source>Privacy</source>
-        <target state="needs-translation">Privacy</target>
-        <note>Privacy section title</note>
-      <note>Privacy section title</note></trans-unit>
       <trans-unit id="Quick-search Engines" approved="yes">
         <source>Quick-search Engines</source>
         <target state="translated">Quick-search Engines</target>
@@ -404,19 +324,22 @@ Error for a missing remote error number Error for a missing remote error number 
         <target state="translated">Save</target>
         <note>Button to save the user's password</note>
       <note>Button to save the user's password</note></trans-unit>
+      <trans-unit id="Save Image" approved="yes">
+        <source>Save Image</source>
+        <target state="translated">Save Image</target>
+        <note>Context menu option</note>
+      <note>Context menu option</note></trans-unit>
       <trans-unit id="Search" approved="yes">
         <source>Search</source>
         <target state="translated">Search</target>
         <note>Navigation title for search settings.
-   Open search section of settings</note>
-      <note>Navigation title for search settings. Open search section of settings
-Navigation title for search settings. Table row in settings to go to the Search settings</note></trans-unit>
+   Table row in settings to go to the Search settings</note>
+      <note>Navigation title for search settings. Table row in settings to go to the Search settings</note></trans-unit>
       <trans-unit id="Search Settings" approved="yes">
         <source>Search Settings</source>
         <target state="translated">Search Settings</target>
-        <note>Search settings section title</note>
-      <note>Search settings section title
-Title for search settings section.</note></trans-unit>
+        <note>Title for search settings section.</note>
+      <note>Title for search settings section.</note></trans-unit>
       <trans-unit id="Search or enter address" approved="yes">
         <source>Search or enter address</source>
         <target state="translated">Search or enter address</target>
@@ -520,6 +443,11 @@ Title for search settings section.</note></trans-unit>
         <target state="translated">Top sites</target>
         <note>Panel accessibility label</note>
       <note>Panel accessibility label</note></trans-unit>
+      <trans-unit id="URL" approved="yes">
+        <source>URL</source>
+        <target state="translated">URL</target>
+        <note>Accessibility label for the URL location label</note>
+      <note>Accessibility label for the URL location label</note></trans-unit>
       <trans-unit id="Update" approved="yes">
         <source>Update</source>
         <target state="translated">Update</target>
@@ -530,11 +458,6 @@ Title for search settings section.</note></trans-unit>
         <target state="translated">Upgrade Firefox to connect.</target>
         <note>Text message in the settings table view</note>
       <note>Text message in the settings table view</note></trans-unit>
-      <trans-unit id="Username" approved="no">
-        <source>Username</source>
-        <target state="needs-translation">Username</target>
-        <note>Username textbox in Authentication prompt</note>
-      <note>Username textbox in Authentication prompt</note></trans-unit>
       <trans-unit id="Verify your email address." approved="yes">
         <source>Verify your email address.</source>
         <target state="translated">Verify your email address.</target>
@@ -543,36 +466,23 @@ Title for search settings section.</note></trans-unit>
       <trans-unit id="Version %@ (%@)" approved="yes">
         <source>Version %1$@ (%2$@)</source>
         <target state="translated">Version %1$@ (%2$@)</target>
-        <note>Version number of Firefox shown in settings</note>
-      <note>Version number of Firefox shown in settings
-Table row in settings that contains the application version and build</note></trans-unit>
+        <note>Table row in settings that contains the application version and build</note>
+      <note>Table row in settings that contains the application version and build</note></trans-unit>
       <trans-unit id="Web content" approved="yes">
         <source>Web content</source>
         <target state="translated">Web content</target>
-        <note>Accessibility label for the main web content view
-   Accessibility label for the web view</note>
-      <note>Accessibility label for the main web content view Accessibility label for the web view
-Accessibility label for the main web content view</note></trans-unit>
+        <note>Accessibility label for the main web content view</note>
+      <note>Accessibility label for the main web content view</note></trans-unit>
       <trans-unit id="Yesterday" approved="yes">
         <source>Yesterday</source>
         <target state="translated">Yesterday</target>
         <note>History tableview section header</note>
       <note>History tableview section header</note></trans-unit>
-      <trans-unit id="read" approved="no">
-        <source>read</source>
-        <target state="needs-translation">read</target>
-        <note>Accessibility label for read article in reading list. It's a past participle - functions as an adjective.</note>
-      <note>Accessibility label for read article in reading list. It's a past participle - functions as an adjective.</note></trans-unit>
-      <trans-unit id="unread" approved="no">
-        <source>unread</source>
-        <target state="needs-translation">unread</target>
-        <note>Accessibility label for unread article in reading list. It's a past participle - functions as an adjective.</note>
-      <note>Accessibility label for unread article in reading list. It's a past participle - functions as an adjective.</note></trans-unit>
     </body>
   </file>
   <file original="Client/search.strings" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
       <trans-unit id="No" approved="yes">
@@ -594,7 +504,7 @@ Accessibility label for the main web content view</note></trans-unit>
   </file>
   <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
       <trans-unit id="CFBundleName" approved="yes">
@@ -609,7 +519,7 @@ Accessibility label for the main web content view</note></trans-unit>
   </file>
   <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" approved="yes">
@@ -628,7 +538,7 @@ Accessibility label for the main web content view</note></trans-unit>
   </file>
   <file original="Extensions/SendTo/SendTo.strings" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
       <trans-unit id="Send To Device" approved="yes">
@@ -645,7 +555,7 @@ Accessibility label for the main web content view</note></trans-unit>
   </file>
   <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" approved="yes">
@@ -664,7 +574,7 @@ Accessibility label for the main web content view</note></trans-unit>
   </file>
   <file original="Extensions/ShareTo/ShareTo.strings" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
       <trans-unit id="Add" approved="yes">
@@ -684,39 +594,9 @@ Accessibility label for the main web content view</note></trans-unit>
       <note>On/off toggle to select adding this url to your reading list</note></trans-unit>
     </body>
   </file>
-  <file original="ReadingList/Info.plist" source-language="en" datatype="plaintext" target-language="en">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName" approved="no">
-        <source>$(PRODUCT_NAME)</source>
-        <target state="needs-translation">$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="no">
-        <source>1.0</source>
-        <target state="needs-translation">1.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="ReadingListTests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName" approved="no">
-        <source>$(PRODUCT_NAME)</source>
-        <target state="needs-translation">$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="no">
-        <source>1.0</source>
-        <target state="needs-translation">1.0</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="StorageTests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
       <trans-unit id="CFBundleName" approved="yes">
@@ -729,21 +609,9 @@ Accessibility label for the main web content view</note></trans-unit>
       </trans-unit>
     </body>
   </file>
-  <file original="Sync.strings" source-language="en" datatype="plaintext" target-language="en">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
-    </header>
-    <body>
-      <trans-unit id="%@ on %@" approved="no">
-        <source>%1$@ on %2$@</source>
-        <target state="needs-translation">%1$@ on %2$@</target>
-        <note>A brief descriptive name for this app on this device, used for Send Tab and Synced Tabs. The first argument is the app name. The second argument is the device name.</note>
-      <note>A brief descriptive name for this app on this device, used for Send Tab and Synced Tabs. The first argument is the app name. The second argument is the device name.</note></trans-unit>
-    </body>
-  </file>
   <file original="Sync/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
       <trans-unit id="CFBundleName" approved="yes">
@@ -758,7 +626,7 @@ Accessibility label for the main web content view</note></trans-unit>
   </file>
   <file original="SyncTests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
       <trans-unit id="CFBundleName" approved="yes">
@@ -773,7 +641,7 @@ Accessibility label for the main web content view</note></trans-unit>
   </file>
   <file original="UITests/Info.plist" source-language="en" datatype="plaintext" target-language="en">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
     </header>
     <body>
       <trans-unit id="CFBundleName" approved="yes">
