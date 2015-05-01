@@ -2,7 +2,7 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="bg">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -17,7 +17,7 @@
   </file>
   <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="bg">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -30,9 +30,32 @@
       </trans-unit>
     </body>
   </file>
+  <file original="Client/ClearPrivateData.strings" source-language="en" datatype="plaintext" target-language="bg">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+    </header>
+    <body>
+      <trans-unit id="Are you sure you want all of your data? This will also close all open tabs.">
+        <source>Are you sure you want all of your data? This will also close all open tabs.</source>
+        <note>Message shown in the dialog when clearing everything</note>
+      </trans-unit>
+      <trans-unit id="Cancel">
+        <source>Cancel</source>
+        <note>Cancel string in the clear private data dialog</note>
+      </trans-unit>
+      <trans-unit id="Clear">
+        <source>Clear</source>
+        <note>Clicking this button will cause us to clear your private data</note>
+      </trans-unit>
+      <trans-unit id="Clear Everything">
+        <source>Clear Everything</source>
+        <note>Clear everything title</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="bg">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -54,7 +77,7 @@
   </file>
   <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="bg">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="%@ search">
@@ -70,6 +93,14 @@
         <source>-</source>
         <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       </trans-unit>
+      <trans-unit id="A username and password are being requested by %@.">
+        <source>A username and password are being requested by %@.</source>
+        <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
+      </trans-unit>
+      <trans-unit id="A username and password are being requested by %@. The site says: %@">
+        <source>A username and password are being requested by %1$@. The site says: %2$@</source>
+        <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
+      </trans-unit>
       <trans-unit id="Aa">
         <source>Aa</source>
         <note>Button for reader mode font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
@@ -77,12 +108,20 @@
       <trans-unit id="About">
         <source>About</source>
         <target>Относно</target>
-        <note>Title for about section.</note>
+        <note>About settings section title</note>
+      </trans-unit>
+      <trans-unit id="Add Tab">
+        <source>Add Tab</source>
+        <note>Accessibility label for the Add Tab button in the Tab Tray.</note>
       </trans-unit>
       <trans-unit id="Address and Search">
         <source>Address and Search</source>
         <target>Адреси и търсене</target>
         <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
+      </trans-unit>
+      <trans-unit id="Authentication required">
+        <source>Authentication required</source>
+        <note>Authentication prompt title</note>
       </trans-unit>
       <trans-unit id="Back">
         <source>Back</source>
@@ -98,26 +137,31 @@
         <target>Отметки</target>
         <note>Panel accessibility label</note>
       </trans-unit>
+      <trans-unit id="Call">
+        <source>Call</source>
+        <note>Alert Call Button</note>
+      </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
         <target>Отказ</target>
         <note>Alert Cancel Button
+   Authentication prompt cancel button
    Button label to cancel entering a URL or search query
    Cancel alert view
    Cancel button
    Cancel button in the 'disconnect firefox account' alert</note>
       </trans-unit>
-      <trans-unit id="Copy">
-        <source>Copy</source>
-        <note>Context menu option</note>
+      <trans-unit id="Clear private data">
+        <source>Clear private data</source>
+        <note>Clear private data setting</note>
+      </trans-unit>
+      <trans-unit id="Close">
+        <source>Close</source>
+        <note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
       </trans-unit>
       <trans-unit id="Copy Address">
         <source>Copy Address</source>
         <note>Copy the URL from the location bar</note>
-      </trans-unit>
-      <trans-unit id="Copy Image URL">
-        <source>Copy Image URL</source>
-        <note>Context menu option</note>
       </trans-unit>
       <trans-unit id="Could not connect to Firefox Accounts.">
         <source>Could not connect to Firefox Accounts.</source>
@@ -127,6 +171,18 @@
       <trans-unit id="Dark">
         <source>Dark</source>
         <note>Dark theme setting in Reading View settings</note>
+      </trans-unit>
+      <trans-unit id="Debug: forget Sync auth state">
+        <source>Debug: forget Sync auth state</source>
+        <note>Debug option</note>
+      </trans-unit>
+      <trans-unit id="Debug: require password">
+        <source>Debug: require password</source>
+        <note>Debug option</note>
+      </trans-unit>
+      <trans-unit id="Debug: require upgrade">
+        <source>Debug: require upgrade</source>
+        <note>Debug option</note>
       </trans-unit>
       <trans-unit id="Default Search Engine">
         <source>Default Search Engine</source>
@@ -202,6 +258,10 @@
         <source>Light</source>
         <note>Light theme setting in Reading View settings</note>
       </trans-unit>
+      <trans-unit id="Login">
+        <source>Login</source>
+        <note>Authentication prompt login button</note>
+      </trans-unit>
       <trans-unit id="Mark as Read">
         <source>Mark as Read</source>
         <target>Отбелязване като прочетено</target>
@@ -239,14 +299,14 @@
    Label for OK button in the application update prompt
    OK button</note>
       </trans-unit>
-      <trans-unit id="Open In New Tab">
-        <source>Open In New Tab</source>
-        <note>Context menu option</note>
-      </trans-unit>
       <trans-unit id="Opening %@">
         <source>Opening %@</source>
         <target>Отваряне %@</target>
         <note>Opening an external URL</note>
+      </trans-unit>
+      <trans-unit id="Password">
+        <source>Password</source>
+        <note>Password textbox in Authentication prompt</note>
       </trans-unit>
       <trans-unit id="Paste">
         <source>Paste</source>
@@ -255,6 +315,10 @@
       <trans-unit id="Paste &amp; Go">
         <source>Paste &amp; Go</source>
         <note>Paste the URL into the location bar and visit</note>
+      </trans-unit>
+      <trans-unit id="Privacy">
+        <source>Privacy</source>
+        <note>Privacy section title</note>
       </trans-unit>
       <trans-unit id="Quick-search Engines">
         <source>Quick-search Engines</source>
@@ -297,20 +361,16 @@
         <source>Save</source>
         <note>Button to save the user's password</note>
       </trans-unit>
-      <trans-unit id="Save Image">
-        <source>Save Image</source>
-        <note>Context menu option</note>
-      </trans-unit>
       <trans-unit id="Search">
         <source>Search</source>
         <target>Търсене</target>
         <note>Navigation title for search settings.
-   Table row in settings to go to the Search settings</note>
+   Open search section of settings</note>
       </trans-unit>
       <trans-unit id="Search Settings">
         <source>Search Settings</source>
         <target>Настройки на търсене</target>
-        <note>Title for search settings section.</note>
+        <note>Search settings section title</note>
       </trans-unit>
       <trans-unit id="Search or enter address">
         <source>Search or enter address</source>
@@ -407,11 +467,6 @@
         <target>Най-посещавани</target>
         <note>Panel accessibility label</note>
       </trans-unit>
-      <trans-unit id="URL">
-        <source>URL</source>
-        <target>URL</target>
-        <note>Accessibility label for the URL location label</note>
-      </trans-unit>
       <trans-unit id="Update">
         <source>Update</source>
         <note>Button to update the user's password</note>
@@ -421,6 +476,10 @@
         <target>За да се свържете обновете Firefox.</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
+      <trans-unit id="Username">
+        <source>Username</source>
+        <note>Username textbox in Authentication prompt</note>
+      </trans-unit>
       <trans-unit id="Verify your email address.">
         <source>Verify your email address.</source>
         <target>Потвърдете своя адрес на ел. поща.</target>
@@ -428,23 +487,32 @@
       </trans-unit>
       <trans-unit id="Version %@ (%@)">
         <source>Version %1$@ (%2$@)</source>
-        <note>Table row in settings that contains the application version and build</note>
+        <note>Version number of Firefox shown in settings</note>
       </trans-unit>
       <trans-unit id="Web content">
         <source>Web content</source>
         <target>Съдържание от Мрежата</target>
-        <note>Accessibility label for the main web content view</note>
+        <note>Accessibility label for the main web content view
+   Accessibility label for the web view</note>
       </trans-unit>
       <trans-unit id="Yesterday">
         <source>Yesterday</source>
         <target>Вчера</target>
         <note>History tableview section header</note>
       </trans-unit>
+      <trans-unit id="read">
+        <source>read</source>
+        <note>Accessibility label for read article in reading list. It's a past participle - functions as an adjective.</note>
+      </trans-unit>
+      <trans-unit id="unread">
+        <source>unread</source>
+        <note>Accessibility label for unread article in reading list. It's a past participle - functions as an adjective.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/search.strings" source-language="en" datatype="plaintext" target-language="bg">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="No">
@@ -466,7 +534,7 @@
   </file>
   <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="bg">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -481,7 +549,7 @@
   </file>
   <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="bg">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -500,7 +568,7 @@
   </file>
   <file original="Extensions/SendTo/SendTo.strings" source-language="en" datatype="plaintext" target-language="bg">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="Send To Device">
@@ -515,7 +583,7 @@
   </file>
   <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="bg">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -534,7 +602,7 @@
   </file>
   <file original="Extensions/ShareTo/ShareTo.strings" source-language="en" datatype="plaintext" target-language="bg">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="Add">
@@ -551,9 +619,35 @@
       </trans-unit>
     </body>
   </file>
+  <file original="ReadingList/Info.plist" source-language="en" datatype="plaintext" target-language="bg">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ReadingListTests/Info.plist" source-language="en" datatype="plaintext" target-language="bg">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
   <file original="StorageTests/Info.plist" source-language="en" datatype="plaintext" target-language="bg">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -566,9 +660,20 @@
       </trans-unit>
     </body>
   </file>
+  <file original="Sync.strings" source-language="en" datatype="plaintext" target-language="bg">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+    </header>
+    <body>
+      <trans-unit id="%@ on %@">
+        <source>%1$@ on %2$@</source>
+        <note>A brief descriptive name for this app on this device, used for Send Tab and Synced Tabs. The first argument is the app name. The second argument is the device name.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Sync/Info.plist" source-language="en" datatype="plaintext" target-language="bg">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -581,7 +686,7 @@
   </file>
   <file original="SyncTests/Info.plist" source-language="en" datatype="plaintext" target-language="bg">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -594,7 +699,7 @@
   </file>
   <file original="UITests/Info.plist" source-language="en" datatype="plaintext" target-language="bg">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
