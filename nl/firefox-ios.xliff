@@ -37,18 +37,22 @@
     <body>
       <trans-unit id="Are you sure you want all of your data? This will also close all open tabs.">
         <source>Are you sure you want all of your data? This will also close all open tabs.</source>
+        <target>Weet u zeker dat u al uw gegevens wilt wissen? Hierdoor worden ook alle open tabbladen gesloten.</target>
         <note>Message shown in the dialog when clearing everything</note>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
+        <target>Annuleren</target>
         <note>Cancel string in the clear private data dialog</note>
       </trans-unit>
       <trans-unit id="Clear">
         <source>Clear</source>
+        <target>Wissen</target>
         <note>Clicking this button will cause us to clear your private data</note>
       </trans-unit>
       <trans-unit id="Clear Everything">
         <source>Clear Everything</source>
+        <target>Alles wissen</target>
         <note>Clear everything title</note>
       </trans-unit>
     </body>
@@ -98,10 +102,12 @@
       </trans-unit>
       <trans-unit id="A username and password are being requested by %@.">
         <source>A username and password are being requested by %@.</source>
+        <target>%@ vraagt om een gebruikersnaam en wachtwoord.</target>
         <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
       </trans-unit>
       <trans-unit id="A username and password are being requested by %@. The site says: %@">
         <source>A username and password are being requested by %1$@. The site says: %2$@</source>
+        <target>%1$@ vraagt om een gebruikersnaam en wachtwoord. De website meldt: %2$@</target>
         <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
       </trans-unit>
       <trans-unit id="Aa">
@@ -116,6 +122,7 @@
       </trans-unit>
       <trans-unit id="Add Tab">
         <source>Add Tab</source>
+        <target>Tabblad toevoegen</target>
         <note>Accessibility label for the Add Tab button in the Tab Tray.</note>
       </trans-unit>
       <trans-unit id="Address and Search">
@@ -125,6 +132,7 @@
       </trans-unit>
       <trans-unit id="Authentication required">
         <source>Authentication required</source>
+        <target>Authenticatie vereist</target>
         <note>Authentication prompt title</note>
       </trans-unit>
       <trans-unit id="Back">
@@ -144,6 +152,7 @@
       </trans-unit>
       <trans-unit id="Call">
         <source>Call</source>
+        <target>Bellen</target>
         <note>Alert Call Button</note>
       </trans-unit>
       <trans-unit id="Cancel">
@@ -158,10 +167,12 @@
       </trans-unit>
       <trans-unit id="Clear private data">
         <source>Clear private data</source>
+        <target>Privégegevens wissen</target>
         <note>Clear private data setting</note>
       </trans-unit>
       <trans-unit id="Close">
         <source>Close</source>
+        <target>Sluiten</target>
         <note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
       </trans-unit>
       <trans-unit id="Copy Address">
@@ -181,14 +192,17 @@
       </trans-unit>
       <trans-unit id="Debug: forget Sync auth state">
         <source>Debug: forget Sync auth state</source>
+        <target>Debug: Sync-authenticatiestatus vergeten</target>
         <note>Debug option</note>
       </trans-unit>
       <trans-unit id="Debug: require password">
         <source>Debug: require password</source>
+        <target>Debug: wachtwoord vereisen</target>
         <note>Debug option</note>
       </trans-unit>
       <trans-unit id="Debug: require upgrade">
         <source>Debug: require upgrade</source>
+        <target>Debug: upgrade vereisen</target>
         <note>Debug option</note>
       </trans-unit>
       <trans-unit id="Default Search Engine">
@@ -271,6 +285,7 @@
       </trans-unit>
       <trans-unit id="Login">
         <source>Login</source>
+        <target>Aanmelden</target>
         <note>Authentication prompt login button</note>
       </trans-unit>
       <trans-unit id="Mark as Read">
@@ -322,6 +337,7 @@
       </trans-unit>
       <trans-unit id="Password">
         <source>Password</source>
+        <target>Wachtwoord</target>
         <note>Password textbox in Authentication prompt</note>
       </trans-unit>
       <trans-unit id="Paste">
@@ -336,6 +352,7 @@
       </trans-unit>
       <trans-unit id="Privacy">
         <source>Privacy</source>
+        <target>Privacy</target>
         <note>Privacy section title</note>
       </trans-unit>
       <trans-unit id="Quick-search Engines">
@@ -509,6 +526,7 @@
       </trans-unit>
       <trans-unit id="Username">
         <source>Username</source>
+        <target>Gebruikersnaam</target>
         <note>Username textbox in Authentication prompt</note>
       </trans-unit>
       <trans-unit id="Verify your email address.">
@@ -534,10 +552,12 @@
       </trans-unit>
       <trans-unit id="read">
         <source>read</source>
+        <target>gelezen</target>
         <note>Accessibility label for read article in reading list. It's a past participle - functions as an adjective.</note>
       </trans-unit>
       <trans-unit id="unread">
         <source>unread</source>
+        <target>ongelezen</target>
         <note>Accessibility label for unread article in reading list. It's a past participle - functions as an adjective.</note>
       </trans-unit>
     </body>
@@ -663,9 +683,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
@@ -676,9 +698,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
@@ -704,6 +728,7 @@
     <body>
       <trans-unit id="%@ on %@">
         <source>%1$@ on %2$@</source>
+        <target>%1$@ op %2$@</target>
         <note>A brief descriptive name for this app on this device, used for Send Tab and Synced Tabs. The first argument is the app name. The second argument is the device name.</note>
       </trans-unit>
     </body>
