@@ -35,21 +35,21 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
     <body>
-      <trans-unit id="Are you sure you want all of your data? This will also close all open tabs.">
-        <source>Are you sure you want all of your data? This will also close all open tabs.</source>
-        <note>Message shown in the dialog when clearing everything</note>
+      <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs.">
+        <source>Are you sure you want to clear all of your data? This will also close all open tabs.</source>
+        <note>Message shown in the dialog prompting users if they want to clear everything</note>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
-        <note>Cancel string in the clear private data dialog</note>
+        <note>Used as a button label in the dialog to cancel clear private data dialog</note>
       </trans-unit>
       <trans-unit id="Clear">
         <source>Clear</source>
-        <note>Clicking this button will cause us to clear your private data</note>
+        <note>Used as a button label in the dialog to Clear private data dialog</note>
       </trans-unit>
       <trans-unit id="Clear Everything">
         <source>Clear Everything</source>
-        <note>Clear everything title</note>
+        <note>Title of the Clear private data dialog.</note>
       </trans-unit>
     </body>
   </file>
@@ -118,6 +118,10 @@
         <source>Add Tab</source>
         <note>Accessibility label for the Add Tab button in the Tab Tray.</note>
       </trans-unit>
+      <trans-unit id="Add to Reading List">
+        <source>Add to Reading List</source>
+        <note>Name for button adding current article to reading list in reader mode</note>
+      </trans-unit>
       <trans-unit id="Address and Search">
         <source>Address and Search</source>
         <target>Adress och sökfunktion</target>
@@ -142,6 +146,10 @@
         <target>Bokmärken</target>
         <note>Panel accessibility label</note>
       </trans-unit>
+      <trans-unit id="Brightness">
+        <source>Brightness</source>
+        <note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note>
+      </trans-unit>
       <trans-unit id="Call">
         <source>Call</source>
         <note>Alert Call Button</note>
@@ -156,9 +164,17 @@
    Cancel button
    Cancel button in the 'disconnect firefox account' alert</note>
       </trans-unit>
+      <trans-unit id="Changes color theme.">
+        <source>Changes color theme.</source>
+        <note>Accessibility hint for the color theme setting buttons in reader mode display settings</note>
+      </trans-unit>
+      <trans-unit id="Changes font type.">
+        <source>Changes font type.</source>
+        <note>Accessibility hint for the font type buttons in reader mode display settings</note>
+      </trans-unit>
       <trans-unit id="Clear private data">
         <source>Clear private data</source>
-        <note>Clear private data setting</note>
+        <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
       </trans-unit>
       <trans-unit id="Close">
         <source>Close</source>
@@ -191,6 +207,10 @@
         <source>Debug: require upgrade</source>
         <note>Debug option</note>
       </trans-unit>
+      <trans-unit id="Decrease text size">
+        <source>Decrease text size</source>
+        <note>Accessibility label for button decreasing font size in display settings of reader mode</note>
+      </trans-unit>
       <trans-unit id="Default Search Engine">
         <source>Default Search Engine</source>
         <target>Standard sökmotor</target>
@@ -208,6 +228,10 @@
         <source>Disconnect Firefox Account?</source>
         <target>Koppla bort Firefox Konto?</target>
         <note>Title of the 'disconnect firefox account' alert</note>
+      </trans-unit>
+      <trans-unit id="Display Settings">
+        <source>Display Settings</source>
+        <note>Name for display settings button in reader mode. Display in the meaning of presentation, not monitor.</note>
       </trans-unit>
       <trans-unit id="Do you want to save the password for %@ on %@?">
         <source>Do you want to save the password for %1$@ on %2$@?</source>
@@ -249,6 +273,10 @@
         <target>Historik</target>
         <note>Panel accessibility label</note>
       </trans-unit>
+      <trans-unit id="Increase text size">
+        <source>Increase text size</source>
+        <note>Accessibility label for button increasing font size in display settings of reader mode</note>
+      </trans-unit>
       <trans-unit id="Last month">
         <source>Last month</source>
         <target>Förra månaden</target>
@@ -276,12 +304,14 @@
       <trans-unit id="Mark as Read">
         <source>Mark as Read</source>
         <target>Markera som läst</target>
-        <note>Title for the button that marks a reading list item as read</note>
+        <note>Name for Mark as read button in reader mode
+   Title for the button that marks a reading list item as read</note>
       </trans-unit>
       <trans-unit id="Mark as Unread">
         <source>Mark as Unread</source>
         <target>Markera som oläst</target>
-        <note>Title for the button that marks a reading list item as unread</note>
+        <note>Name for Mark as unread button in reader mode
+   Title for the button that marks a reading list item as unread</note>
       </trans-unit>
       <trans-unit id="Missing error">
         <source>Missing error</source>
@@ -373,6 +403,10 @@
         <target>Ta bort</target>
         <note>Title for the button that removes a reading list item</note>
       </trans-unit>
+      <trans-unit id="Remove from Reading List">
+        <source>Remove from Reading List</source>
+        <note>Name for button removing current article from reading list in reader mode</note>
+      </trans-unit>
       <trans-unit id="Sans-serif">
         <source>Sans-serif</source>
         <target>Sans serif</target>
@@ -428,8 +462,11 @@
       <trans-unit id="Show Tabs">
         <source>Show Tabs</source>
         <target>Visa flikar</target>
-        <note>Accessibility label for the tabs button in the (top) browser toolbar
-   Accessibility Label for the urlbar tabs button</note>
+        <note>Accessibility Label for the tabs button in the browser toolbar</note>
+      </trans-unit>
+      <trans-unit id="Show introduction again">
+        <source>Show introduction again</source>
+        <note>Show the on-boarding screen again from the settings</note>
       </trans-unit>
       <trans-unit id="Show search suggestions">
         <source>Show search suggestions</source>
@@ -446,6 +483,10 @@
         <source>Stop</source>
         <target>Stoppa</target>
         <note>Accessibility Label for the browser toolbar Stop button</note>
+      </trans-unit>
+      <trans-unit id="Support">
+        <source>Support</source>
+        <note>Support section title</note>
       </trans-unit>
       <trans-unit id="Synced tabs">
         <source>Synced tabs</source>
@@ -531,6 +572,14 @@
         <source>Yesterday</source>
         <target>Igår</target>
         <note>History tableview section header</note>
+      </trans-unit>
+      <trans-unit id="computer">
+        <source>computer</source>
+        <note>Accessibility label for Desktop Computer (PC) image in remote tabs list</note>
+      </trans-unit>
+      <trans-unit id="mobile device">
+        <source>mobile device</source>
+        <note>Accessibility label for Mobile Device image in remote tabs list</note>
       </trans-unit>
       <trans-unit id="read">
         <source>read</source>
@@ -682,7 +731,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="StorageTests/Info.plist" source-language="en" datatype="plaintext" target-language="sv">
+  <file original="Shared/Supporting Files/Info.plist" source-language="en" datatype="plaintext" target-language="sv">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
@@ -697,7 +746,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Sync.strings" source-language="en" datatype="plaintext" target-language="sv">
+  <file original="Shared/Supporting Files/Shared.strings" source-language="en" datatype="plaintext" target-language="sv">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
     </header>
@@ -705,6 +754,21 @@
       <trans-unit id="%@ on %@">
         <source>%1$@ on %2$@</source>
         <note>A brief descriptive name for this app on this device, used for Send Tab and Synced Tabs. The first argument is the app name. The second argument is the device name.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/Info.plist" source-language="en" datatype="plaintext" target-language="sv">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
