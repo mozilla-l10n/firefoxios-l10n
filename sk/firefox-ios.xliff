@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="sk">
+<?xml version="1.0" encoding="utf-8"?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file datatype="plaintext" original="Account/Info.plist" source-language="en" target-language="sk">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool build-num="6D1002" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -15,9 +14,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="sk">
+  <file datatype="plaintext" original="AccountTests/Info.plist" source-language="en" target-language="sk">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool build-num="6D1002" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -30,32 +29,32 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/ClearPrivateData.strings" source-language="en" datatype="plaintext" target-language="sk">
+  <file datatype="plaintext" original="Client/ClearPrivateData.strings" source-language="en" target-language="sk">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool build-num="6D1002" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1"/>
     </header>
     <body>
       <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs.">
-        <source>Are you sure you want to clear all of your data? This will also close all open tabs.</source>
+        <source>Are you sure you want to clear all of your data? This will also close all open tabs.</source><target state="translated">Naozaj chcete vymazať všetky svoje údaje? Týmto zatvoríte aj všetky otvorené karty.</target>
         <note>Message shown in the dialog prompting users if they want to clear everything</note>
       </trans-unit>
       <trans-unit id="Cancel">
-        <source>Cancel</source>
+        <source>Cancel</source><target state="translated">Zrušiť</target>
         <note>Used as a button label in the dialog to cancel clear private data dialog</note>
       </trans-unit>
       <trans-unit id="Clear">
-        <source>Clear</source>
+        <source>Clear</source><target state="translated">Vymazať</target>
         <note>Used as a button label in the dialog to Clear private data dialog</note>
       </trans-unit>
       <trans-unit id="Clear Everything">
-        <source>Clear Everything</source>
+        <source>Clear Everything</source><target state="translated">Vymazať všetko</target>
         <note>Title of the Clear private data dialog.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="sk">
+  <file datatype="plaintext" original="Client/Info.plist" source-language="en" target-language="sk">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool build-num="6D1002" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -76,9 +75,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="sk">
+  <file datatype="plaintext" original="Client/Localizable.strings" source-language="en" target-language="sk">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool build-num="6D1002" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1"/>
     </header>
     <body>
       <trans-unit id="%@ search">
@@ -97,11 +96,11 @@
         <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       </trans-unit>
       <trans-unit id="A username and password are being requested by %@.">
-        <source>A username and password are being requested by %@.</source>
+        <source>A username and password are being requested by %@.</source><target state="translated">%@ vyžaduje zadanie používateľského mena a hesla.</target>
         <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
       </trans-unit>
       <trans-unit id="A username and password are being requested by %@. The site says: %@">
-        <source>A username and password are being requested by %1$@. The site says: %2$@</source>
+        <source>A username and password are being requested by %1$@. The site says: %2$@</source><target state="translated">%1$@ vyžaduje zadanie používateľského mena a hesla. Stránka hovorí: %2$@</target>
         <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
       </trans-unit>
       <trans-unit id="Aa">
@@ -115,11 +114,11 @@
         <note>About settings section title</note>
       </trans-unit>
       <trans-unit id="Add Tab">
-        <source>Add Tab</source>
+        <source>Add Tab</source><target state="translated">Pridať kartu</target>
         <note>Accessibility label for the Add Tab button in the Tab Tray.</note>
       </trans-unit>
       <trans-unit id="Add to Reading List">
-        <source>Add to Reading List</source>
+        <source>Add to Reading List</source><target state="translated">Pridať do Zoznamu na prečítanie</target>
         <note>Name for button adding current article to reading list in reader mode</note>
       </trans-unit>
       <trans-unit id="Address and Search">
@@ -128,7 +127,7 @@
         <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
       </trans-unit>
       <trans-unit id="Authentication required">
-        <source>Authentication required</source>
+        <source>Authentication required</source><target state="translated">Vyžadované overenie</target>
         <note>Authentication prompt title</note>
       </trans-unit>
       <trans-unit id="Back">
@@ -147,11 +146,11 @@
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Brightness">
-        <source>Brightness</source>
+        <source>Brightness</source><target state="translated">Jas</target>
         <note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note>
       </trans-unit>
       <trans-unit id="Call">
-        <source>Call</source>
+        <source>Call</source><target state="translated">Hovor</target>
         <note>Alert Call Button</note>
       </trans-unit>
       <trans-unit id="Cancel">
@@ -165,19 +164,19 @@
    Cancel button in the 'disconnect firefox account' alert</note>
       </trans-unit>
       <trans-unit id="Changes color theme.">
-        <source>Changes color theme.</source>
+        <source>Changes color theme.</source><target state="translated">Zmení farebnú tému</target>
         <note>Accessibility hint for the color theme setting buttons in reader mode display settings</note>
       </trans-unit>
       <trans-unit id="Changes font type.">
-        <source>Changes font type.</source>
+        <source>Changes font type.</source><target state="translated">Zmení typ písma</target>
         <note>Accessibility hint for the font type buttons in reader mode display settings</note>
       </trans-unit>
       <trans-unit id="Clear private data">
-        <source>Clear private data</source>
+        <source>Clear private data</source><target state="translated">Vymazať súkromné údaje</target>
         <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
       </trans-unit>
       <trans-unit id="Close">
-        <source>Close</source>
+        <source>Close</source><target state="translated">Zavrieť</target>
         <note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
       </trans-unit>
       <trans-unit id="Copy Address">
@@ -196,19 +195,19 @@
         <note>Dark theme setting in Reading View settings</note>
       </trans-unit>
       <trans-unit id="Debug: forget Sync auth state">
-        <source>Debug: forget Sync auth state</source>
+        <source>Debug: forget Sync auth state</source><target state="translated">Ladenie: zahodiť overenie pre Sync</target>
         <note>Debug option</note>
       </trans-unit>
       <trans-unit id="Debug: require password">
-        <source>Debug: require password</source>
+        <source>Debug: require password</source><target state="translated">Ladenie: vyžiadať heslo</target>
         <note>Debug option</note>
       </trans-unit>
       <trans-unit id="Debug: require upgrade">
-        <source>Debug: require upgrade</source>
+        <source>Debug: require upgrade</source><target state="translated">Ladenie: vyžiadať aktualizáciu</target>
         <note>Debug option</note>
       </trans-unit>
       <trans-unit id="Decrease text size">
-        <source>Decrease text size</source>
+        <source>Decrease text size</source><target state="translated">Zmeniť veľkosť textu</target>
         <note>Accessibility label for button decreasing font size in display settings of reader mode</note>
       </trans-unit>
       <trans-unit id="Default Search Engine">
@@ -230,7 +229,7 @@
         <note>Title of the 'disconnect firefox account' alert</note>
       </trans-unit>
       <trans-unit id="Display Settings">
-        <source>Display Settings</source>
+        <source>Display Settings</source><target state="translated">Nastavenie zobrazenia</target>
         <note>Name for display settings button in reader mode. Display in the meaning of presentation, not monitor.</note>
       </trans-unit>
       <trans-unit id="Do you want to save the password for %@ on %@?">
@@ -274,7 +273,7 @@
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Increase text size">
-        <source>Increase text size</source>
+        <source>Increase text size</source><target state="translated">Zväčšiť veľkosť textu</target>
         <note>Accessibility label for button increasing font size in display settings of reader mode</note>
       </trans-unit>
       <trans-unit id="Last month">
@@ -298,7 +297,7 @@
         <note>Light theme setting in Reading View settings</note>
       </trans-unit>
       <trans-unit id="Login">
-        <source>Login</source>
+        <source>Login</source><target state="translated">Prihlásiť</target>
         <note>Authentication prompt login button</note>
       </trans-unit>
       <trans-unit id="Mark as Read">
@@ -351,7 +350,7 @@
         <note>Opening an external URL</note>
       </trans-unit>
       <trans-unit id="Password">
-        <source>Password</source>
+        <source>Password</source><target state="translated">Heslo</target>
         <note>Password textbox in Authentication prompt</note>
       </trans-unit>
       <trans-unit id="Paste">
@@ -365,7 +364,7 @@
         <note>Paste the URL into the location bar and visit</note>
       </trans-unit>
       <trans-unit id="Privacy">
-        <source>Privacy</source>
+        <source>Privacy</source><target state="translated">Súkromie</target>
         <note>Privacy section title</note>
       </trans-unit>
       <trans-unit id="Quick-search Engines">
@@ -404,7 +403,7 @@
         <note>Title for the button that removes a reading list item</note>
       </trans-unit>
       <trans-unit id="Remove from Reading List">
-        <source>Remove from Reading List</source>
+        <source>Remove from Reading List</source><target state="translated">Odstrániť zo Zoznamu na prečítanie</target>
         <note>Name for button removing current article from reading list in reader mode</note>
       </trans-unit>
       <trans-unit id="Sans-serif">
@@ -465,7 +464,7 @@
         <note>Accessibility Label for the tabs button in the browser toolbar</note>
       </trans-unit>
       <trans-unit id="Show introduction again">
-        <source>Show introduction again</source>
+        <source>Show introduction again</source><target state="translated">Opäť zobraziť úvod</target>
         <note>Show the on-boarding screen again from the settings</note>
       </trans-unit>
       <trans-unit id="Show search suggestions">
@@ -485,7 +484,7 @@
         <note>Accessibility Label for the browser toolbar Stop button</note>
       </trans-unit>
       <trans-unit id="Support">
-        <source>Support</source>
+        <source>Support</source><target state="translated">Podpora</target>
         <note>Support section title</note>
       </trans-unit>
       <trans-unit id="Synced tabs">
@@ -549,7 +548,7 @@
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="Username">
-        <source>Username</source>
+        <source>Username</source><target state="translated">Používateľské meno</target>
         <note>Username textbox in Authentication prompt</note>
       </trans-unit>
       <trans-unit id="Verify your email address.">
@@ -574,26 +573,26 @@
         <note>History tableview section header</note>
       </trans-unit>
       <trans-unit id="computer">
-        <source>computer</source>
+        <source>computer</source><target state="translated">počítač</target>
         <note>Accessibility label for Desktop Computer (PC) image in remote tabs list</note>
       </trans-unit>
       <trans-unit id="mobile device">
-        <source>mobile device</source>
+        <source>mobile device</source><target state="translated">mobilné zariadenie</target>
         <note>Accessibility label for Mobile Device image in remote tabs list</note>
       </trans-unit>
       <trans-unit id="read">
-        <source>read</source>
+        <source>read</source><target state="translated">prečítané</target>
         <note>Accessibility label for read article in reading list. It's a past participle - functions as an adjective.</note>
       </trans-unit>
       <trans-unit id="unread">
-        <source>unread</source>
+        <source>unread</source><target state="translated">neprečítané</target>
         <note>Accessibility label for unread article in reading list. It's a past participle - functions as an adjective.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/search.strings" source-language="en" datatype="plaintext" target-language="sk">
+  <file datatype="plaintext" original="Client/search.strings" source-language="en" target-language="sk">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool build-num="6D1002" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1"/>
     </header>
     <body>
       <trans-unit id="No">
@@ -613,9 +612,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="sk">
+  <file datatype="plaintext" original="ClientTests/Info.plist" source-language="en" target-language="sk">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool build-num="6D1002" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -628,9 +627,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="sk">
+  <file datatype="plaintext" original="Extensions/SendTo/Info.plist" source-language="en" target-language="sk">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool build-num="6D1002" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -647,9 +646,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/SendTo/SendTo.strings" source-language="en" datatype="plaintext" target-language="sk">
+  <file datatype="plaintext" original="Extensions/SendTo/SendTo.strings" source-language="en" target-language="sk">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool build-num="6D1002" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1"/>
     </header>
     <body>
       <trans-unit id="Send To Device">
@@ -664,9 +663,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="sk">
+  <file datatype="plaintext" original="Extensions/ShareTo/Info.plist" source-language="en" target-language="sk">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool build-num="6D1002" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -683,9 +682,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/ShareTo.strings" source-language="en" datatype="plaintext" target-language="sk">
+  <file datatype="plaintext" original="Extensions/ShareTo/ShareTo.strings" source-language="en" target-language="sk">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool build-num="6D1002" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1"/>
     </header>
     <body>
       <trans-unit id="Add">
@@ -705,9 +704,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="ReadingList/Info.plist" source-language="en" datatype="plaintext" target-language="sk">
+  <file datatype="plaintext" original="ReadingList/Info.plist" source-language="en" target-language="sk">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool build-num="6D1002" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -720,9 +719,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="ReadingListTests/Info.plist" source-language="en" datatype="plaintext" target-language="sk">
+  <file datatype="plaintext" original="ReadingListTests/Info.plist" source-language="en" target-language="sk">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool build-num="6D1002" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -735,9 +734,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/Info.plist" source-language="en" datatype="plaintext" target-language="sk">
+  <file datatype="plaintext" original="Shared/Supporting Files/Info.plist" source-language="en" target-language="sk">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool build-num="6D1002" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -750,20 +749,20 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/Shared.strings" source-language="en" datatype="plaintext" target-language="sk">
+  <file datatype="plaintext" original="Shared/Supporting Files/Shared.strings" source-language="en" target-language="sk">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool build-num="6D1002" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1"/>
     </header>
     <body>
       <trans-unit id="%@ on %@">
-        <source>%1$@ on %2$@</source>
+        <source>%1$@ on %2$@</source><target state="translated">%1$@ na %2$@</target>
         <note>A brief descriptive name for this app on this device, used for Send Tab and Synced Tabs. The first argument is the app name. The second argument is the device name.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="StorageTests/Info.plist" source-language="en" datatype="plaintext" target-language="sk">
+  <file datatype="plaintext" original="StorageTests/Info.plist" source-language="en" target-language="sk">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool build-num="6D1002" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -776,9 +775,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Sync/Info.plist" source-language="en" datatype="plaintext" target-language="sk">
+  <file datatype="plaintext" original="Sync/Info.plist" source-language="en" target-language="sk">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool build-num="6D1002" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -791,9 +790,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="SyncTests/Info.plist" source-language="en" datatype="plaintext" target-language="sk">
+  <file datatype="plaintext" original="SyncTests/Info.plist" source-language="en" target-language="sk">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool build-num="6D1002" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -806,9 +805,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="UITests/Info.plist" source-language="en" datatype="plaintext" target-language="sk">
+  <file datatype="plaintext" original="UITests/Info.plist" source-language="en" target-language="sk">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool build-num="6D1002" tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -822,4 +821,3 @@
     </body>
   </file>
 </xliff>
-
