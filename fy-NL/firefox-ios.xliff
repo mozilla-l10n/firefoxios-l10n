@@ -2,7 +2,7 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="fy-NL">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -17,7 +17,7 @@
   </file>
   <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="fy-NL">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -30,14 +30,25 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/ClearPrivateData.strings" source-language="en" datatype="plaintext" target-language="fy-NL">
+  <file original="Client/BookmarkPanel.strings" source-language="en" datatype="plaintext" target-language="fy-NL">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
-      <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs.">
-        <source>Are you sure you want to clear all of your data? This will also close all open tabs.</source>
-        <target>Binne jo wis dat jo al jo gegevens wiskje wolle? Dit sil ek alle iepen ljepblêden slute.</target>
+      <trans-unit id="Delete">
+        <source>Delete</source>
+        <note>Action button for deleting bookmarks in the bookmarks panel.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Client/ClearPrivateData.strings" source-language="en" datatype="plaintext" target-language="fy-NL">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
+    </header>
+    <body>
+      <trans-unit id="Are you sure you want to clear all of your data? \n This will also close all open tabs.">
+        <source>Are you sure you want to clear all of your data? 
+ This will also close all open tabs.</source>
         <note>Message shown in the dialog prompting users if they want to clear everything</note>
       </trans-unit>
       <trans-unit id="Cancel">
@@ -57,9 +68,31 @@
       </trans-unit>
     </body>
   </file>
+  <file original="Client/ErrorPages.strings" source-language="en" datatype="plaintext" target-language="fy-NL">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
+    </header>
+    <body>
+      <trans-unit id="Try again">
+        <source>Try again</source>
+        <note>Shown in error pages on a button that will try to load the page again</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Client/HistoryPanel.strings" source-language="en" datatype="plaintext" target-language="fy-NL">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
+    </header>
+    <body>
+      <trans-unit id="Remove">
+        <source>Remove</source>
+        <note>Action button for deleting history entries in the history panel.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="fy-NL">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -80,16 +113,38 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="fy-NL">
+  <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="fy-NL">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
-      <trans-unit id="%@ search">
-        <source>%@ search</source>
-        <target>Sykje mei %@</target>
-        <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
+      <trans-unit id="Browse the web with multiple tabs just like you’re used to.">
+        <source>Browse the web with multiple tabs just like you’re used to.</source>
+        <note>Do not translate yet.</note>
       </trans-unit>
+      <trans-unit id="Connect to Firefox Accounts anywhere you want.">
+        <source>Connect to Firefox Accounts anywhere you want.</source>
+        <note>Do not translate yet.</note>
+      </trans-unit>
+      <trans-unit id="Personalize your Firefox just the way you’d like in the Settings area.">
+        <source>Personalize your Firefox just the way you’d like in the Settings area.</source>
+        <note>Do not translate yet.</note>
+      </trans-unit>
+      <trans-unit id="Sign in to Firefox">
+        <source>Sign in to Firefox</source>
+        <note>Do not translate yet</note>
+      </trans-unit>
+      <trans-unit id="Start Browsing">
+        <source>Start Browsing</source>
+        <note>Do not translate yet</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="fy-NL">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
+    </header>
+    <body>
       <trans-unit id="+">
         <source>+</source>
         <target>+</target>
@@ -200,10 +255,22 @@
         <target>Adres kopiearje</target>
         <note>Copy the URL from the location bar</note>
       </trans-unit>
+      <trans-unit id="Copy Image">
+        <source>Copy Image</source>
+        <note>Context menu item for copying an image to the clipboard</note>
+      </trans-unit>
+      <trans-unit id="Copy Link">
+        <source>Copy Link</source>
+        <note>Context menu item for copying a link URL to the clipboard</note>
+      </trans-unit>
       <trans-unit id="Could not connect to Firefox Accounts.">
         <source>Could not connect to Firefox Accounts.</source>
         <target>Koe gjin ferbining meitsje mei Firefox Accounts .</target>
         <note>Error message that is shown in settings when there was a problem connecting to Firefox Accounts</note>
+      </trans-unit>
+      <trans-unit id="Customize">
+        <source>Customize</source>
+        <note>Customize section title in settings</note>
       </trans-unit>
       <trans-unit id="Dark">
         <source>Dark</source>
@@ -367,6 +434,10 @@
    Label for OK button in the application update prompt
    OK button</note>
       </trans-unit>
+      <trans-unit id="Open In New Tab">
+        <source>Open In New Tab</source>
+        <note>Context menu item for opening a link in a new tab</note>
+      </trans-unit>
       <trans-unit id="Opening %@">
         <source>Opening %@</source>
         <target>%@ iepenje</target>
@@ -391,6 +462,10 @@
         <source>Privacy</source>
         <target>Privacy</target>
         <note>Privacy section title</note>
+      </trans-unit>
+      <trans-unit id="Pull to Sync">
+        <source>Pull to Sync</source>
+        <note>The pull-to-refresh string for syncing in the history panel.</note>
       </trans-unit>
       <trans-unit id="Quick-search Engines">
         <source>Quick-search Engines</source>
@@ -442,6 +517,10 @@
         <target>Bewarje</target>
         <note>Button to save the user's password</note>
       </trans-unit>
+      <trans-unit id="Save Image">
+        <source>Save Image</source>
+        <note>Context menu item for saving an image</note>
+      </trans-unit>
       <trans-unit id="Search">
         <source>Search</source>
         <target>Sykje</target>
@@ -487,7 +566,8 @@
       <trans-unit id="Show Tabs">
         <source>Show Tabs</source>
         <target>Ljepblêden toane</target>
-        <note>Accessibility Label for the tabs button in the browser toolbar</note>
+        <note>Accessibility label for the tabs button in the (top) browser toolbar
+   Accessibility Label for the tabs button in the browser toolbar</note>
       </trans-unit>
       <trans-unit id="Show introduction again">
         <source>Show introduction again</source>
@@ -575,6 +655,10 @@
         <target>Fernij Firefox om ferbining te meitsjen.</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
+      <trans-unit id="Use Compact Tabs">
+        <source>Use Compact Tabs</source>
+        <note>Setting to enable compact tabs in the tab overview</note>
+      </trans-unit>
       <trans-unit id="Username">
         <source>Username</source>
         <target>Brûkersnamme</target>
@@ -593,8 +677,7 @@
       <trans-unit id="Web content">
         <source>Web content</source>
         <target>Webynhâld</target>
-        <note>Accessibility label for the main web content view
-   Accessibility label for the web view</note>
+        <note>Accessibility label for the main web content view</note>
       </trans-unit>
       <trans-unit id="Yesterday">
         <source>Yesterday</source>
@@ -623,31 +706,32 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/search.strings" source-language="en" datatype="plaintext" target-language="fy-NL">
+  <file original="Client/Search.strings" source-language="en" datatype="plaintext" target-language="fy-NL">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
+      <trans-unit id="%@ search">
+        <source>%@ search</source>
+        <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
+      </trans-unit>
       <trans-unit id="No">
         <source>No</source>
-        <target>Nee</target>
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
       </trans-unit>
       <trans-unit id="Turn on search suggestions?">
         <source>Turn on search suggestions?</source>
-        <target>Sykfoarstellen oansette?</target>
         <note>Prompt shown before enabling provider search queries</note>
       </trans-unit>
       <trans-unit id="Yes">
         <source>Yes</source>
-        <target>Ja</target>
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
       </trans-unit>
     </body>
   </file>
   <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="fy-NL">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -662,11 +746,11 @@
   </file>
   <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="fy-NL">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
-        <source>Send To</source>
+        <source>Send Tab</source>
         <target>Ferstjoere nei</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
@@ -681,24 +765,46 @@
   </file>
   <file original="Extensions/SendTo/SendTo.strings" source-language="en" datatype="plaintext" target-language="fy-NL">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
-      <trans-unit id="Send To Device">
-        <source>Send To Device</source>
-        <target>Ferstjoere nei apparaat</target>
+      <trans-unit id="&lt;Show me how&gt; to connect my other Firefox-enabled devices. This needs proper copy. Do not translate.">
+        <source>&lt;Show me how&gt; to connect my other Firefox-enabled devices. This needs proper copy. Do not translate.</source>
+        <note>The part between brackets is highlighted in styled text as if it is a link.</note>
+      </trans-unit>
+      <trans-unit id="&lt;Show me how&gt; to login to my Firefox Account.  This needs proper copy. Do not translate.">
+        <source>&lt;Show me how&gt; to login to my Firefox Account.  This needs proper copy. Do not translate.</source>
+        <note>The part between brackets is highlighted in styled text as if it is a link.</note>
+      </trans-unit>
+      <trans-unit id="Available devices:">
+        <source>Available devices:</source>
+        <note>Header for the list of devices table</note>
+      </trans-unit>
+      <trans-unit id="Close">
+        <source>Close</source>
+        <note>Close button in top navigation bar</note>
+      </trans-unit>
+      <trans-unit id="Send">
+        <source>Send</source>
+        <note>Navigation bar button to Send the current page to a device</note>
+      </trans-unit>
+      <trans-unit id="Send Tab">
+        <source>Send Tab</source>
         <note>Title of the dialog that allows you to send a tab to a different device</note>
       </trans-unit>
-      <trans-unit id="Send to %@">
-        <source>Send to %@</source>
-        <target>Ferstjoere nei %@</target>
-        <note>Text in a table view row that lets the user pick a device to which to send a tab to</note>
+      <trans-unit id="You are not logged in to your Firefox Account. This needs proper copy. Do not translate.">
+        <source>You are not logged in to your Firefox Account. This needs proper copy. Do not translate.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="You currently don’t have any other devices currently connected to Firefox Sync. This needs proper copy. Do not translate.">
+        <source>You currently don’t have any other devices currently connected to Firefox Sync. This needs proper copy. Do not translate.</source>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>
   </file>
   <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="fy-NL">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -717,7 +823,7 @@
   </file>
   <file original="Extensions/ShareTo/ShareTo.strings" source-language="en" datatype="plaintext" target-language="fy-NL">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
       <trans-unit id="Add">
@@ -739,7 +845,7 @@
   </file>
   <file original="ReadingList/Info.plist" source-language="en" datatype="plaintext" target-language="fy-NL">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -754,7 +860,7 @@
   </file>
   <file original="ReadingListTests/Info.plist" source-language="en" datatype="plaintext" target-language="fy-NL">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -769,7 +875,7 @@
   </file>
   <file original="Shared/Supporting Files/Info.plist" source-language="en" datatype="plaintext" target-language="fy-NL">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -784,7 +890,7 @@
   </file>
   <file original="Shared/Supporting Files/Shared.strings" source-language="en" datatype="plaintext" target-language="fy-NL">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
       <trans-unit id="%@ on %@">
@@ -794,9 +900,36 @@
       </trans-unit>
     </body>
   </file>
+  <file original="Storage.strings" source-language="en" datatype="plaintext" target-language="fy-NL">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
+    </header>
+    <body>
+      <trans-unit id="Bookmarks Menu">
+        <source>Bookmarks Menu</source>
+        <note>The name of the folder that contains desktop bookmarks in the menu. This should match bookmarks.folder.menu.label on Android.</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks Toolbar">
+        <source>Bookmarks Toolbar</source>
+        <note>The name of the folder that contains desktop bookmarks in the toolbar. This should match bookmarks.folder.toolbar.label on Android.</note>
+      </trans-unit>
+      <trans-unit id="Mobile Bookmarks">
+        <source>Mobile Bookmarks</source>
+        <note>The title of the folder that contains mobile bookmarks. This should match bookmarks.folder.mobile.label on Android.</note>
+      </trans-unit>
+      <trans-unit id="Unsorted Bookmarks">
+        <source>Unsorted Bookmarks</source>
+        <note>The name of the folder that contains unsorted desktop bookmarks. This should match bookmarks.folder.unfiled.label on Android.</note>
+      </trans-unit>
+      <trans-unit id="Untitled">
+        <source>Untitled</source>
+        <note>The default name for bookmark folders without titles.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="StorageTests/Info.plist" source-language="en" datatype="plaintext" target-language="fy-NL">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -811,7 +944,7 @@
   </file>
   <file original="Sync/Info.plist" source-language="en" datatype="plaintext" target-language="fy-NL">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -826,7 +959,7 @@
   </file>
   <file original="SyncTests/Info.plist" source-language="en" datatype="plaintext" target-language="fy-NL">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -841,7 +974,7 @@
   </file>
   <file original="UITests/Info.plist" source-language="en" datatype="plaintext" target-language="fy-NL">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
