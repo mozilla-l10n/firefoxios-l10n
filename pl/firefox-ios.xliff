@@ -74,6 +74,18 @@
    </trans-unit>
   </body>
  </file>
+ <file original="Client/ErrorPages.strings" source-language="en" datatype="plaintext" target-language="pl">
+  <header>
+   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
+  </header>
+  <body>
+   <trans-unit id="Try again">
+    <source>Try again</source>
+    <target>Spróbuj ponownie</target>
+    <note>Shown in error pages on a button that will try to load the page again</note>
+   </trans-unit>
+  </body>
+ </file>
  <file original="Client/HistoryPanel.strings" source-language="en" datatype="plaintext" target-language="pl">
   <header>
    <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
@@ -146,11 +158,6 @@
    <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
   </header>
    <body>
-      <trans-unit id="%@ search">
-        <source>%@ search</source>
-        <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
-        <target>Wyszukaj z %@</target>
-      </trans-unit>
    <trans-unit id="+">
     <source>+</source>
     <note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
@@ -719,23 +726,16 @@
    </trans-unit>
   </body>
  </file>
- <file original="Client/errorPages.strings" source-language="en" datatype="plaintext" target-language="pl">
+ <file original="Client/Search.strings" source-language="en" datatype="plaintext" target-language="pl">
   <header>
    <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
   </header>
   <body>
-   <trans-unit id="Try again">
-    <source>Try again</source>
-    <target>Spróbuj ponownie</target>
-    <note>Shown in error pages on a button that will try to load the page again</note>
+   <trans-unit id="%@ search">
+    <source>%@ search</source>
+    <target>Wyszukaj z %@</target>
+    <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
    </trans-unit>
-  </body>
- </file>
- <file original="Client/search.strings" source-language="en" datatype="plaintext" target-language="pl">
-  <header>
-   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
-  </header>
-  <body>
       <trans-unit id="No">
         <source>No</source>
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
