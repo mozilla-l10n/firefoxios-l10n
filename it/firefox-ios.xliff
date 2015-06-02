@@ -71,6 +71,18 @@
       </trans-unit>
     </body>
   </file>
+  <file original="Client/ErrorPages.strings" source-language="en" datatype="plaintext" target-anguage="it">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
+    </header>
+    <body>
+      <trans-unit id="Try again">
+        <source>Try again</source>
+        <target>Riprova</target>
+        <note>Shown in error pages on a button that will try to load the page again</note>
+      </trans-unit>
+    </body>
+  </file>  
   <file original="Client/HistoryPanel.strings" source-language="en" datatype="plaintext" target-language="it">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
@@ -114,22 +126,22 @@
       <trans-unit id="Browse the web with multiple tabs just like you’re used to.">
         <source>Browse the web with multiple tabs just like you’re used to.</source>
         <target>Naviga sul Web utilizzando più schede come sei già abituato a fare.</target>
-        <note>No comment provided by engineer.</note>
+        <note>Do not translate yet.</note>
       </trans-unit>
       <trans-unit id="Connect to Firefox Accounts anywhere you want.">
         <source>Connect to Firefox Accounts anywhere you want.</source>
         <target>Rimani connesso a Firefox Account ovunque ti trovi.</target>
-        <note>No comment provided by engineer.</note>
+        <note>Do not translate yet.</note>
       </trans-unit>
       <trans-unit id="Personalize your Firefox just the way you’d like in the Settings area.">
         <source>Personalize your Firefox just the way you’d like in the Settings area.</source>
         <target>Personalizza Firefox esattamente come desideri nelle Impostazioni.</target>
-        <note>No comment provided by engineer.</note>
+        <note>Do not translate yet.</note>
       </trans-unit>
       <trans-unit id="Sign in to Firefox">
         <source>Sign in to Firefox</source>
         <target>Accedi a Firefox</target>
-        <note>No comment provided by engineer.</note>
+        <note>Do not translate yet.</note>
       </trans-unit>
       <trans-unit id="Start Browsing">
         <source>Start Browsing</source>
@@ -143,11 +155,6 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
-      <trans-unit id="%@ search">
-        <source>%@ search</source>
-        <target>Ricerca %@</target>
-        <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
-      </trans-unit>
       <trans-unit id="+">
         <source>+</source>
         <target>+</target>
@@ -716,23 +723,16 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/errorPages.strings" source-language="en" datatype="plaintext" target-language="it">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
-    </header>
-    <body>
-      <trans-unit id="Try again">
-        <source>Try again</source>
-        <target>Riprova</target>
-        <note>Shown in error pages on a button that will try to load the page again</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="Client/search.strings" source-language="en" datatype="plaintext" target-language="it">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
+      <trans-unit id="%@ search">
+        <source>%@ search</source>
+        <target>Ricerca %@</target>
+        <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
+      </trans-unit>        
       <trans-unit id="No">
         <source>No</source>
         <target>No</target>
@@ -797,7 +797,6 @@
       <trans-unit id="&lt;Show me how&gt; to login to my Firefox Account.  This needs proper copy. Do not translate.">
         <source>&lt;Show me how&gt; to login to my Firefox Account.  This needs proper copy. Do not translate.</source>
         <target>&lt;Mostra&gt; come accedere all’account Firefox.</target>
-        <target></target>
         <note>The part between brackets is highlighted in styled text as if it is a link.</note>
       </trans-unit>
       <trans-unit id="Available devices:">
