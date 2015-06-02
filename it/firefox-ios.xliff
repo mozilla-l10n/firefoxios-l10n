@@ -771,8 +771,8 @@
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
-        <source>Send To</source>
-        <target>Invia a</target>
+        <source>Send Tab</source>
+        <target>Invia scheda</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
@@ -789,15 +789,46 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
-      <trans-unit id="Send To Device">
-        <source>Send To Device</source>
-        <target>Invia a dispositivo</target>
+      <trans-unit id="&lt;Show me how&gt; to connect my other Firefox-enabled devices. This needs proper copy. Do not translate.">
+        <source>&lt;Show me how&gt; to connect my other Firefox-enabled devices. This needs proper copy. Do not translate.</source>
+        <target>&lt;Mostra&gt; come connettere altri dispositivi compatibili con Firefox.</target>
+        <note>The part between brackets is highlighted in styled text as if it is a link.</note>
+      </trans-unit>
+      <trans-unit id="&lt;Show me how&gt; to login to my Firefox Account.  This needs proper copy. Do not translate.">
+        <source>&lt;Show me how&gt; to login to my Firefox Account.  This needs proper copy. Do not translate.</source>
+        <target>&lt;Mostra&gt; come accedere all’account Firefox.</target>
+        <target></target>
+        <note>The part between brackets is highlighted in styled text as if it is a link.</note>
+      </trans-unit>
+      <trans-unit id="Available devices:">
+        <source>Available devices:</source>
+        <target>Dispositivi disponibili.</target>
+        <note>Header for the list of devices table</note>
+      </trans-unit>
+      <trans-unit id="Close">
+        <source>Close</source>
+        <target>Chiudi</target>
+        <note>Close button in top navigation bar</note>
+      </trans-unit>
+      <trans-unit id="Send">
+        <source>Send</source>
+        <target>Invia</target>
+        <note>Navigation bar button to Send the current page to a device</note>
+      </trans-unit>
+      <trans-unit id="Send Tab">
+        <source>Send Tab</source>
+        <target>Invia scheda</target>
         <note>Title of the dialog that allows you to send a tab to a different device</note>
       </trans-unit>
-      <trans-unit id="Send to %@">
-        <source>Send to %@</source>
-        <target>Invia a %@</target>
-        <note>Text in a table view row that lets the user pick a device to which to send a tab to</note>
+      <trans-unit id="You are not logged in to your Firefox Account. This needs proper copy. Do not translate.">
+        <source>You are not logged in to your Firefox Account. This needs proper copy. Do not translate.</source>
+        <target>Accesso a Firefox Account non effettuato.</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="You currently don’t have any other devices currently connected to Firefox Sync. This needs proper copy. Do not translate.">
+        <source>You currently don’t have any other devices currently connected to Firefox Sync. This needs proper copy. Do not translate.</source>
+        <target>Al momento non risultano altri dispositivi connessi a Firefox Sync.</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>
   </file>
