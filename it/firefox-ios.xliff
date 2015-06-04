@@ -391,7 +391,7 @@
       <trans-unit id="Last synced: %@">
         <source>Last synced: %@</source>
         <target>Ultima sincronizzazione: %@</target>
-        <note>Remote tabs last synced time</note>
+        <note>Remote tabs last synced time. Argument is the relative date string.</note>
       </trans-unit>
       <trans-unit id="Last week">
         <source>Last week</source>
@@ -721,20 +721,50 @@
         <target>computer</target>
         <note>Accessibility label for Desktop Computer (PC) image in remote tabs list</note>
       </trans-unit>
+      <trans-unit id="just now">
+        <source>just now</source>
+        <target>adesso</target>
+        <note>Relative time for a tab that was visited within the last few moments.</note>
+      </trans-unit>
       <trans-unit id="mobile device">
         <source>mobile device</source>
         <target>dispositivo mobile</target>
         <note>Accessibility label for Mobile Device image in remote tabs list</note>
+      </trans-unit>
+      <trans-unit id="more than a month ago">
+        <source>more than a month ago</source>
+        <target>più di un mese fa</target>
+        <note>Relative date for dates older than a month and less than two months.</note>
+      </trans-unit>
+      <trans-unit id="more than a week ago">
+        <source>more than a week ago</source>
+        <target>più di una settimana fa</target>
+        <note>Description for a date more than a week ago, but less than a month ago.</note>
       </trans-unit>
       <trans-unit id="read">
         <source>read</source>
         <target>letto</target>
         <note>Accessibility label for read article in reading list. It's a past participle - functions as an adjective.</note>
       </trans-unit>
+      <trans-unit id="this week">
+        <source>this week</source>
+        <target>questa settimana</target>
+        <note>Relative date for date in past week.</note>
+      </trans-unit>
+      <trans-unit id="today at %@">
+        <source>today at %@</source>
+        <target>oggi alle %@</target>
+        <note>Relative date for date older than a minute.</note>
+      </trans-unit>
       <trans-unit id="unread">
         <source>unread</source>
         <target>non letto</target>
         <note>Accessibility label for unread article in reading list. It's a past participle - functions as an adjective.</note>
+      </trans-unit>
+      <trans-unit id="yesterday">
+        <source>yesterday</source>
+        <target>ieri</target>
+        <note>Relative date for yesterday.</note>
       </trans-unit>
     </body>
   </file>
