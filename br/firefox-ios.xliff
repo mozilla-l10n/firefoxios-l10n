@@ -73,6 +73,10 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
+      <trans-unit id="Open in Safari">
+        <source>Open in Safari</source>
+        <note>Shown in error pages for files that can't be shown and need to be downloaded.</note>
+      </trans-unit>
       <trans-unit id="Try again">
         <source>Try again</source>
         <note>Shown in error pages on a button that will try to load the page again</note>
@@ -118,16 +122,24 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.2" build-num="6D2105"/>
     </header>
     <body>
-      <trans-unit id="Browse the web with multiple tabs just like you’re used to.">
-        <source>Browse the web with multiple tabs just like you’re used to.</source>
+      <trans-unit id="Browse multiple Web pages at the same time with tabs.">
+        <source>Browse multiple Web pages at the same time with tabs.</source>
         <note>Do not translate yet.</note>
       </trans-unit>
-      <trans-unit id="Connect to Firefox Accounts anywhere you want.">
-        <source>Connect to Firefox Accounts anywhere you want.</source>
+      <trans-unit id="Connect Firefox everywhere you use it.">
+        <source>Connect Firefox everywhere you use it.</source>
         <note>Do not translate yet.</note>
       </trans-unit>
-      <trans-unit id="Personalize your Firefox just the way you’d like in the Settings area.">
-        <source>Personalize your Firefox just the way you’d like in the Settings area.</source>
+      <trans-unit id="Customize">
+        <source>Customize</source>
+        <note>Do not translate yet.</note>
+      </trans-unit>
+      <trans-unit id="Organize">
+        <source>Organize</source>
+        <note>Do not translate yet.</note>
+      </trans-unit>
+      <trans-unit id="Personalize your Firefox just the way you like in Settings.">
+        <source>Personalize your Firefox just the way you like in Settings.</source>
         <note>Do not translate yet.</note>
       </trans-unit>
       <trans-unit id="Sign in to Firefox">
@@ -185,6 +197,10 @@
         <target>Ouzhpennañ d'ar roll lennadurioù</target>
         <note>Name for button adding current article to reading list in reader mode</note>
       </trans-unit>
+      <trans-unit id="Add to your Reading List by tapping the icon in the Reader View controls.">
+        <source>Add to your Reading List by tapping the icon in the Reader View controls.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Address and Search">
         <source>Address and Search</source>
         <target>Chomlec'h ha Klask</target>
@@ -199,6 +215,10 @@
         <source>Back</source>
         <target>Distro</target>
         <note>Accessibility Label for the browser toolbar Back button</note>
+      </trans-unit>
+      <trans-unit id="Block pop-up windows">
+        <source>Block pop-up windows</source>
+        <note>Block pop-up windows setting</note>
       </trans-unit>
       <trans-unit id="Bookmark">
         <source>Bookmark</source>
@@ -268,6 +288,10 @@
         <target>N'haller ket kennaskañ da Kontoù Firefox.</target>
         <note>Error message that is shown in settings when there was a problem connecting to Firefox Accounts</note>
       </trans-unit>
+      <trans-unit id="Create an account">
+        <source>Create an account</source>
+        <note>See http://mzl.la/1Qtkf0j</note>
+      </trans-unit>
       <trans-unit id="Customize">
         <source>Customize</source>
         <note>Customize section title in settings</note>
@@ -325,15 +349,24 @@
         <target>Fellout a ra deoc'h enrollañ ar ger-tremen evit %1$@ war %2$@?</target>
         <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
+      <trans-unit id="Do you want to save the password on %@?">
+        <source>Do you want to save the password on %@?</source>
+        <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
+      </trans-unit>
       <trans-unit id="Do you want to update the password for %@ on %@?">
         <source>Do you want to update the password for %1$@ on %2$@?</source>
         <target>Fellout a ra deoc'h hizivaat ar ger-tremen evit %1$@ war %2$@?</target>
         <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
+      <trans-unit id="Do you want to update the password on %@?">
+        <source>Do you want to update the password on %@?</source>
+        <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
+      </trans-unit>
       <trans-unit id="Done">
         <source>Done</source>
         <target>Graet</target>
-        <note>Done button on left side of the Settings view controller title bar</note>
+        <note>Done button on left side of the Settings view controller title bar
+   Done editing button</note>
       </trans-unit>
       <trans-unit id="Double tap and hold to open history">
         <source>Double tap and hold to open history</source>
@@ -355,6 +388,10 @@
         <target>War-lerc'h</target>
         <note>Accessibility Label for the browser toolbar Forward button</note>
       </trans-unit>
+      <trans-unit id="General">
+        <source>General</source>
+        <note>General settings section title</note>
+      </trans-unit>
       <trans-unit id="History">
         <source>History</source>
         <target>Roll istor</target>
@@ -373,7 +410,7 @@
       <trans-unit id="Last synced: %@">
         <source>Last synced: %@</source>
         <target>Goubredet en diwezh: %@</target>
-        <note>Remote tabs last synced time</note>
+        <note>Remote tabs last synced time. Argument is the relative date string.</note>
       </trans-unit>
       <trans-unit id="Last week">
         <source>Last week</source>
@@ -385,10 +422,9 @@
         <target>Gouloù</target>
         <note>Light theme setting in Reading View settings</note>
       </trans-unit>
-      <trans-unit id="Login">
-        <source>Login</source>
-        <target>Lugañ</target>
-        <note>Authentication prompt login button</note>
+      <trans-unit id="Log in">
+        <source>Log in</source>
+        <note>Authentication prompt log in button</note>
       </trans-unit>
       <trans-unit id="Mark as Read">
         <source>Mark as Read</source>
@@ -437,6 +473,10 @@
       <trans-unit id="Open In New Tab">
         <source>Open In New Tab</source>
         <note>Context menu item for opening a link in a new tab</note>
+      </trans-unit>
+      <trans-unit id="Open articles in reading view by tapping the icon when it appears in the title bar.">
+        <source>Open articles in reading view by tapping the icon when it appears in the title bar.</source>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
       <trans-unit id="Opening %@">
         <source>Opening %@</source>
@@ -537,6 +577,10 @@
         <target>Klask pe enlakaat ur chomlec'h</target>
         <note>The text shown in the URL bar on about:home</note>
       </trans-unit>
+      <trans-unit id="Searches for the suggestion">
+        <source>Searches for the suggestion</source>
+        <note>Accessibility hint describing the action performed when a search suggestion is clicked</note>
+      </trans-unit>
       <trans-unit id="Secure connection">
         <source>Secure connection</source>
         <target>Kennask diarvar</target>
@@ -583,6 +627,7 @@
         <source>Sign in</source>
         <target>Kevreañ</target>
         <note>Button that leads to Sign in section of the Settings sheet.
+   See http://mzl.la/1Qtkf0j
    Text message / button in the settings table view</note>
       </trans-unit>
       <trans-unit id="Stop">
@@ -594,6 +639,10 @@
         <source>Support</source>
         <target>Skor</target>
         <note>Support section title</note>
+      </trans-unit>
+      <trans-unit id="Sync your tabs, bookmarks, passwords and more.">
+        <source>Sync your tabs, bookmarks, passwords and more.</source>
+        <note>See http://mzl.la/1Qtkf0j</note>
       </trans-unit>
       <trans-unit id="Synced tabs">
         <source>Synced tabs</source>
@@ -679,6 +728,14 @@
         <target>Endalc'had web</target>
         <note>Accessibility label for the main web content view</note>
       </trans-unit>
+      <trans-unit id="Welcome to Sync">
+        <source>Welcome to Sync</source>
+        <note>See http://mzl.la/1Qtkf0j</note>
+      </trans-unit>
+      <trans-unit id="Welcome to your Reading List">
+        <source>Welcome to your Reading List</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Yesterday">
         <source>Yesterday</source>
         <target>Derc'h</target>
@@ -689,20 +746,44 @@
         <target>urzhiataer</target>
         <note>Accessibility label for Desktop Computer (PC) image in remote tabs list</note>
       </trans-unit>
+      <trans-unit id="just now">
+        <source>just now</source>
+        <note>Relative time for a tab that was visited within the last few moments.</note>
+      </trans-unit>
       <trans-unit id="mobile device">
         <source>mobile device</source>
         <target>trevnad hezoug</target>
         <note>Accessibility label for Mobile Device image in remote tabs list</note>
+      </trans-unit>
+      <trans-unit id="more than a month ago">
+        <source>more than a month ago</source>
+        <note>Relative date for dates older than a month and less than two months.</note>
+      </trans-unit>
+      <trans-unit id="more than a week ago">
+        <source>more than a week ago</source>
+        <note>Description for a date more than a week ago, but less than a month ago.</note>
       </trans-unit>
       <trans-unit id="read">
         <source>read</source>
         <target>lennet</target>
         <note>Accessibility label for read article in reading list. It's a past participle - functions as an adjective.</note>
       </trans-unit>
+      <trans-unit id="this week">
+        <source>this week</source>
+        <note>Relative date for date in past week.</note>
+      </trans-unit>
+      <trans-unit id="today at %@">
+        <source>today at %@</source>
+        <note>Relative date for date older than a minute.</note>
+      </trans-unit>
       <trans-unit id="unread">
         <source>unread</source>
         <target>anlennet</target>
         <note>Accessibility label for unread article in reading list. It's a past participle - functions as an adjective.</note>
+      </trans-unit>
+      <trans-unit id="yesterday">
+        <source>yesterday</source>
+        <note>Relative date for yesterday.</note>
       </trans-unit>
     </body>
   </file>
