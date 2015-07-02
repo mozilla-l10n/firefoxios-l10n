@@ -446,7 +446,7 @@
         <source>Log Out?</source>
         <target>Disconnettersi?</target>
         <note>Title of the 'log out firefox account' alert</note>
-      </trans-unit>      
+      </trans-unit>
       <trans-unit id="Log in">
         <source>Log in</source>
         <target>Accedi</target>
@@ -506,10 +506,10 @@
         <target>Apri in una nuova scheda</target>
         <note>Context menu item for opening a link in a new tab</note>
       </trans-unit>
-      <trans-unit id="Open articles in reading view by tapping the icon when it appears in the title bar.">
-        <source>Open articles in reading view by tapping the icon when it appears in the title bar.</source>
+      <trans-unit id="Open articles in Reader View by tapping the book icon when it appears in the title bar.">
+        <source>Open articles in Reader View by tapping the book icon when it appears in the title bar.</source>
         <target>Apri articoli in Modalità lettura toccando l’icona quando appare nella barra del titolo.</target>
-        <note>No comment provided by engineer.</note>
+        <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
       <trans-unit id="Opening %@">
         <source>Opening %@</source>
@@ -596,6 +596,11 @@
         <target>Salva immagine</target>
         <note>Context menu item for saving an image</note>
       </trans-unit>
+      <trans-unit id="Save pages to your Reading List by tapping the book plus icon in the Reader View controls.">
+        <source>Save pages to your Reading List by tapping the book plus icon in the Reader View controls.</source>
+        <target>Salva pagine in Elenco lettura toccando l’icona con il libro e il simbolo + nei controlli della Modalità lettura.</target>
+        <note>See http://mzl.la/1LXbDOL</note>
+      </trans-unit>
       <trans-unit id="Search">
         <source>Search</source>
         <target>Ricerca</target>
@@ -649,9 +654,9 @@
         <note>Accessibility label for the tabs button in the (top) browser toolbar
    Accessibility Label for the tabs button in the browser toolbar</note>
       </trans-unit>
-      <trans-unit id="Show introduction again">
-        <source>Show introduction again</source>
-        <target>Visualizza nuovamente l’introduzione</target>
+      <trans-unit id="Show Tour">
+        <source>Show Tour</source>
+        <target>Visualizza il tour iniziale</target>
         <note>Show the on-boarding screen again from the settings</note>
       </trans-unit>
       <trans-unit id="Show search suggestions">
@@ -694,7 +699,7 @@
       <trans-unit id="Tap to reload page">
         <source>Tap to reload page</source>
         <target>Tocca per ricaricare la pagina</target>
-        <note>No comment provided by engineer.</note>
+        <note>Accessibility hint for the browser toolbar Reload button</note>
       </trans-unit>
       <trans-unit id="Tap to reload the page">
         <source>Tap to reload the page</source>
@@ -710,6 +715,11 @@
         <source>There is a new version available of Firefox Aurora. Tap OK to go to the download page.</source>
         <target>È disponibile una nuova versione di Firefox Aurora. Tocca OK per andare alla pagina di download.</target>
         <note>Prompt message for application update</note>
+      </trans-unit>
+      <trans-unit id="There was a problem accessing tabs from your other devices. Try again in a few moments.">
+        <source>There was a problem accessing tabs from your other devices. Try again in a few moments.</source>
+        <target>Si è verificato un problema durante l’accesso alle schede dell’altro dispositivo. Riprovare più tardi.</target>
+        <note>Error message in the remote tabs panel</note>
       </trans-unit>
       <trans-unit id="There was an error converting the page">
         <source>There was an error converting the page</source>
@@ -779,7 +789,7 @@
       <trans-unit id="Welcome to your Reading List">
         <source>Welcome to your Reading List</source>
         <target>Benvenuto in Elenco lettura</target>
-        <note>No comment provided by engineer.</note>
+        <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
       <trans-unit id="Yesterday">
         <source>Yesterday</source>
@@ -835,6 +845,16 @@
         <source>yesterday</source>
         <target>ieri</target>
         <note>Relative date for yesterday.</note>
+      </trans-unit>
+      <trans-unit id="You don't have any other devices connected to this Firefox Account available to sync.">
+        <source>You don't have any other devices connected to this Firefox Account available to sync.</source>
+        <target>Non risulta alcun dispositivo disponibile per la sincronizzazione tra quelli connessi a Firefox Account.</target>
+        <note>Error message in the remote tabs panel</note>
+      </trans-unit>
+      <trans-unit id="You don't have any tabs open in Firefox on your other devices.">
+        <source>You don't have any tabs open in Firefox on your other devices.</source>
+        <target>Non risulta alcuna scheda aperta in Firefox nell’altro dispositivo.</target>
+        <note>Error message in the remote tabs panel</note>
       </trans-unit>
     </body>
   </file>
@@ -909,11 +929,6 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="&lt;Show me how&gt; to connect my other Firefox-enabled devices. This needs proper copy. Do not translate.">
-        <source>&lt;Show me how&gt; to connect my other Firefox-enabled devices. This needs proper copy. Do not translate.</source>
-        <target>&lt;Mostra&gt; come connettere altri dispositivi compatibili con Firefox.</target>
-        <note>The part between brackets is highlighted in styled text as if it is a link.</note>
-      </trans-unit>
       <trans-unit id="&lt;Show me how&gt; to login to my Firefox Account.  This needs proper copy. Do not translate.">
         <source>&lt;Show me how&gt; to login to my Firefox Account.  This needs proper copy. Do not translate.</source>
         <target>&lt;Mostra&gt; come accedere all’account Firefox.</target>
