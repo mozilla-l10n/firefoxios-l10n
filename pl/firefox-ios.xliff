@@ -482,6 +482,11 @@
     <note>Prompt title for application update</note>
     <target>Dostępna jest nowa wersja</target>
    </trans-unit>
+   <trans-unit id="No tabs">
+    <source>No tabs</source>
+    <target>Brak kart</target>
+    <note>Message spoken by VoiceOver to indicate that there are no tabs in the Tabs Tray</note>
+   </trans-unit>
    <trans-unit id="Not Now">
     <source>Not Now</source>
     <note>Label for button to cancel application update prompt</note>
@@ -684,6 +689,16 @@
         <note>Panel accessibility label</note>
         <target>Synchronizowane karty</target>
       </trans-unit>
+   <trans-unit id="Tab %@ of %@">
+    <source>Tab %1$@ of %2$@</source>
+    <target>Karta numer %1$@ na %2$@ kart</target>
+    <note>Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray, along with the total number of tabs. E.g. \"Tab 2 of 5\" says that tab 2 is visible (and is the only visible tab), out of 5 tabs total.</note>
+   </trans-unit>
+   <trans-unit id="Tabs %@ to %@ of %@">
+    <source>Tabs %1$@ to %2$@ of %3$@</source>
+    <target>Karty numer %1$@ do %2$@ na %3$@ kart</target>
+    <note>Message spoken by VoiceOver saying the range of tabs that are currently visible in Tabs Tray, along with the total number of tabs. E.g. \"Tabs 8 to 10 of 15\" says tabs 8, 9 and 10 are visible, out of 15 tabs total.</note>
+   </trans-unit>
       <trans-unit id="Tabs Tray">
         <source>Tabs Tray</source>
         <note>Accessibility label for the Tabs Tray view.</note>
