@@ -278,6 +278,11 @@
         <target>Chiudi</target>
         <note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
       </trans-unit>
+      <trans-unit id="Closing tab">
+        <source>Closing tab</source>
+        <target>Chiusura scheda in corso</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Copy Address">
         <source>Copy Address</source>
         <target>Copia indirizzo</target>
@@ -421,6 +426,11 @@
         <target>Ultima settimana</target>
         <note>History tableview section header</note>
       </trans-unit>
+      <trans-unit id="Licenses">
+        <source>Licenses</source>
+        <target>Licenze</target>
+        <note>Settings item that opens a tab containing the licenses. See http://mzl.la/1NSAWCG</note>
+      </trans-unit>
       <trans-unit id="Light">
         <source>Light</source>
         <target>Chiaro</target>
@@ -473,6 +483,11 @@
         <source>New version available</source>
         <target>Nuova versione disponibile</target>
         <note>Prompt title for application update</note>
+      </trans-unit>
+      <trans-unit id="No tabs">
+        <source>No tabs</source>
+        <target>Nessuna scheda</target>
+        <note>Message spoken by VoiceOver to indicate that there are no tabs in the Tabs Tray</note>
       </trans-unit>
       <trans-unit id="Not Now">
         <source>Not Now</source>
@@ -666,6 +681,11 @@
         <target>Supporto</target>
         <note>Support section title</note>
       </trans-unit>
+      <trans-unit id="Swipe right or left with three fingers to close the tab.">
+        <source>Swipe right or left with three fingers to close the tab.</source>
+        <target>Scorri verso destra o sinistra con tre dita per chiudere la scheda.</target>
+        <note>Accessibility hint for tab tray's displayed tab.</note>
+      </trans-unit>
       <trans-unit id="Sync your tabs, bookmarks, passwords and more.">
         <source>Sync your tabs, bookmarks, passwords and more.</source>
         <target>Sincronizza schede, segnalibri, password e altro ancora.</target>
@@ -675,6 +695,16 @@
         <source>Synced tabs</source>
         <target>Schede sincronizzate</target>
         <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Tab %@ of %@">
+        <source>Tab %1$@ of %2$@</source>
+        <target>Scheda %1$@ di %2$@</target>
+        <note>Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray, along with the total number of tabs. E.g. \"Tab 2 of 5\" says that tab 2 is visible (and is the only visible tab), out of 5 tabs total.</note>
+      </trans-unit>
+      <trans-unit id="Tabs %@ to %@ of %@">
+        <source>Tabs %1$@ to %2$@ of %3$@</source>
+        <target>Schede da %1$@ a %2$@ di %3$@</target>
+        <note>Message spoken by VoiceOver saying the range of tabs that are currently visible in Tabs Tray, along with the total number of tabs. E.g. \"Tabs 8 to 10 of 15\" says tabs 8, 9 and 10 are visible, out of 15 tabs total.</note>
       </trans-unit>
       <trans-unit id="Tabs Tray">
         <source>Tabs Tray</source>
@@ -689,7 +719,7 @@
       <trans-unit id="Tap to stop loading the page">
         <source>Tap to stop loading the page</source>
         <target>Tocca per interrompere il caricamento della pagina</target>
-        <note>No comment provided by engineer.</note>
+        <note>Accessibility hint for the browser toolbar Stop button</note>
       </trans-unit>
       <trans-unit id="There is a new version available of Firefox Aurora. Tap OK to go to the download page.">
         <source>There is a new version available of Firefox Aurora. Tap OK to go to the download page.</source>
@@ -720,6 +750,11 @@
         <source>Top sites</source>
         <target>Siti principali</target>
         <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="URL bar">
+        <source>URL bar</source>
+        <target>Barra degli indirizzi</target>
+        <note>Accessibility label for the URL bar</note>
       </trans-unit>
       <trans-unit id="Update">
         <source>Update</source>
