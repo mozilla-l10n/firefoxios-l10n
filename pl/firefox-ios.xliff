@@ -211,6 +211,11 @@
     <target>Dodaj do Czytelni</target>
     <note>Add URL to the reading list - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
    </trans-unit>
+   <trans-unit id="Added page to Reading List">
+    <source>Added page to Reading List</source>
+    <target>Dodano do Czytelni</target>
+    <note>Accessibility message e.g. spoken by VoiceOver after the current page gets added to the Reading List using the Reader View button, e.g. by long-pressing it or by its accessibility custom action.</note>
+   </trans-unit>
       <trans-unit id="Address and Search">
         <source>Address and Search</source>
         <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
@@ -300,6 +305,16 @@
     <source>Copy Link</source>
     <target>Kopiuj adres odnośnika</target>
     <note>Context menu item for copying a link URL to the clipboard</note>
+   </trans-unit>
+   <trans-unit id="Could not add page to Reading List. Maybe it's already there?">
+    <source>Could not add page to Reading List. Maybe it's already there?</source>
+    <target>Nie można było dodać strony do Czytelni. Może została dodana już wcześniej?</target>
+    <note>Accessibility message e.g. spoken by VoiceOver after the user wanted to add current page to the Reading List and this was not done, likely because it already was in the Reading List, but perhaps also because of real failures.</note>
+   </trans-unit>
+   <trans-unit id="Could not add page to Reading list">
+    <source>Could not add page to Reading list</source>
+    <target>Nie można było dodać strony do Czytelni.</target>
+    <note>Accessibility message e.g. spoken by VoiceOver after adding current webpage to the Reading List failed.</note>
    </trans-unit>
    <trans-unit id="Could not connect to Firefox Accounts.">
     <source>Could not connect to Firefox Accounts.</source>
