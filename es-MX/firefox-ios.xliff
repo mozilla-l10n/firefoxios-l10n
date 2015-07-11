@@ -201,6 +201,10 @@
         <target>Agregar a la lista de lectura</target>
         <note>Add URL to the reading list - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
       </trans-unit>
+      <trans-unit id="Added page to Reading List">
+        <source>Added page to Reading List</source>
+        <note>Accessibility message e.g. spoken by VoiceOver after the current page gets added to the Reading List using the Reader View button, e.g. by long-pressing it or by its accessibility custom action.</note>
+      </trans-unit>
       <trans-unit id="Address and Search">
         <source>Address and Search</source>
         <target>Búsqueda y dirección</target>
@@ -269,6 +273,10 @@
         <target>Cerrar</target>
         <note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
       </trans-unit>
+      <trans-unit id="Closing tab">
+        <source>Closing tab</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
       <trans-unit id="Copy Address">
         <source>Copy Address</source>
         <target>Copiar dirección</target>
@@ -283,6 +291,14 @@
         <source>Copy Link</source>
         <target>Copiar enlace</target>
         <note>Context menu item for copying a link URL to the clipboard</note>
+      </trans-unit>
+      <trans-unit id="Could not add page to Reading List. Maybe it's already there?">
+        <source>Could not add page to Reading List. Maybe it's already there?</source>
+        <note>Accessibility message e.g. spoken by VoiceOver after the user wanted to add current page to the Reading List and this was not done, likely because it already was in the Reading List, but perhaps also because of real failures.</note>
+      </trans-unit>
+      <trans-unit id="Could not add page to Reading list">
+        <source>Could not add page to Reading list</source>
+        <note>Accessibility message e.g. spoken by VoiceOver after adding current webpage to the Reading List failed.</note>
       </trans-unit>
       <trans-unit id="Could not connect to Firefox Accounts.">
         <source>Could not connect to Firefox Accounts.</source>
@@ -369,6 +385,10 @@
         <target>Firefox detendrá la sincronización con tu cuenta, pero no eliminará nada en tu historial de navegación en este dispositivo.</target>
         <note>Text of the 'log out firefox account' alert</note>
       </trans-unit>
+      <trans-unit id="Firefox would like to access your Photos">
+        <source>Firefox would like to access your Photos</source>
+        <note>See http://mzl.la/1G7uHo7</note>
+      </trans-unit>
       <trans-unit id="Forward">
         <source>Forward</source>
         <target>Adelante</target>
@@ -407,6 +427,10 @@
         <target>Última semana</target>
         <note>History tableview section header</note>
       </trans-unit>
+      <trans-unit id="Licenses">
+        <source>Licenses</source>
+        <note>Settings item that opens a tab containing the licenses. See http://mzl.la/1NSAWCG</note>
+      </trans-unit>
       <trans-unit id="Light">
         <source>Light</source>
         <target>Claro</target>
@@ -424,6 +448,10 @@
       <trans-unit id="Log in">
         <source>Log in</source>
         <note>Authentication prompt log in button</note>
+      </trans-unit>
+      <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?">
+        <source>Looks like Firefox crashed previously. Would you like to restore your tabs?</source>
+        <note>Restore Tabs Prompt Description</note>
       </trans-unit>
       <trans-unit id="Mark as Read">
         <source>Mark as Read</source>
@@ -456,6 +484,14 @@
         <target>Nueva versión disponible</target>
         <note>Prompt title for application update</note>
       </trans-unit>
+      <trans-unit id="No">
+        <source>No</source>
+        <note>Restore Tabs Negative Action</note>
+      </trans-unit>
+      <trans-unit id="No tabs">
+        <source>No tabs</source>
+        <note>Message spoken by VoiceOver to indicate that there are no tabs in the Tabs Tray</note>
+      </trans-unit>
       <trans-unit id="Not Now">
         <source>Not Now</source>
         <target>Ahora no</target>
@@ -473,10 +509,18 @@
    Label for OK button in the application update prompt
    OK button</note>
       </trans-unit>
+      <trans-unit id="Okay">
+        <source>Okay</source>
+        <note>Restore Tabs Affirmative Action</note>
+      </trans-unit>
       <trans-unit id="Open In New Tab">
         <source>Open In New Tab</source>
         <target>Abrir en una pestaña nueva</target>
         <note>Context menu item for opening a link in a new tab</note>
+      </trans-unit>
+      <trans-unit id="Open Settings">
+        <source>Open Settings</source>
+        <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Open articles in Reader View by tapping the book icon when it appears in the title bar.">
         <source>Open articles in Reader View by tapping the book icon when it appears in the title bar.</source>
@@ -517,15 +561,9 @@
         <target>Motores de búsqueda rápida.</target>
         <note>Title for quick-search engines settings section.</note>
       </trans-unit>
-      <trans-unit id="Reader">
-        <source>Reader</source>
-        <target>Lector</target>
-        <note>Browser function that presents simplified version of the page with bigger text.</note>
-      </trans-unit>
-      <trans-unit id="Reader Mode">
-        <source>Reader Mode</source>
-        <target>Modo de lector</target>
-        <note>Accessibility label for the reader mode button</note>
+      <trans-unit id="Reader View">
+        <source>Reader View</source>
+        <note>Accessibility label for the Reader View button</note>
       </trans-unit>
       <trans-unit id="Reading list">
         <source>Reading list</source>
@@ -644,6 +682,10 @@
         <target>Soporte</target>
         <note>Support section title</note>
       </trans-unit>
+      <trans-unit id="Swipe right or left with three fingers to close the tab.">
+        <source>Swipe right or left with three fingers to close the tab.</source>
+        <note>Accessibility hint for tab tray's displayed tab.</note>
+      </trans-unit>
       <trans-unit id="Sync your tabs, bookmarks, passwords and more.">
         <source>Sync your tabs, bookmarks, passwords and more.</source>
         <note>See http://mzl.la/1Qtkf0j</note>
@@ -652,6 +694,14 @@
         <source>Synced tabs</source>
         <target>Pestañas sincronizadas</target>
         <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Tab %@ of %@">
+        <source>Tab %1$@ of %2$@</source>
+        <note>Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray, along with the total number of tabs. E.g. \"Tab 2 of 5\" says that tab 2 is visible (and is the only visible tab), out of 5 tabs total.</note>
+      </trans-unit>
+      <trans-unit id="Tabs %@ to %@ of %@">
+        <source>Tabs %1$@ to %2$@ of %3$@</source>
+        <note>Message spoken by VoiceOver saying the range of tabs that are currently visible in Tabs Tray, along with the total number of tabs. E.g. \"Tabs 8 to 10 of 15\" says tabs 8, 9 and 10 are visible, out of 15 tabs total.</note>
       </trans-unit>
       <trans-unit id="Tabs Tray">
         <source>Tabs Tray</source>
@@ -666,7 +716,7 @@
       <trans-unit id="Tap to stop loading the page">
         <source>Tap to stop loading the page</source>
         <target>Tocar para detener la carda de la página</target>
-        <note>No comment provided by engineer.</note>
+        <note>Accessibility hint for the browser toolbar Stop button</note>
       </trans-unit>
       <trans-unit id="There is a new version available of Firefox Aurora. Tap OK to go to the download page.">
         <source>There is a new version available of Firefox Aurora. Tap OK to go to the download page.</source>
@@ -682,6 +732,10 @@
         <target>Hubo un error al convertir la página.</target>
         <note>Error displayed when reader mode cannot be enabled</note>
       </trans-unit>
+      <trans-unit id="This allows you to save the image to your Camera Roll.">
+        <source>This allows you to save the image to your Camera Roll.</source>
+        <note>See http://mzl.la/1G7uHo7</note>
+      </trans-unit>
       <trans-unit id="This will open in another application">
         <source>This will open in another application</source>
         <target>Esto se abrirá en otra aplicación</target>
@@ -696,6 +750,10 @@
         <source>Top sites</source>
         <target>Sitios frecuentes.</target>
         <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="URL bar">
+        <source>URL bar</source>
+        <note>Accessibility label for the URL bar</note>
       </trans-unit>
       <trans-unit id="Update">
         <source>Update</source>
@@ -743,6 +801,10 @@
       <trans-unit id="Welcome to your Reading List">
         <source>Welcome to your Reading List</source>
         <note>See http://mzl.la/1LXbDOL</note>
+      </trans-unit>
+      <trans-unit id="Well, this is embarrassing.">
+        <source>Well, this is embarrassing.</source>
+        <note>Restore Tabs Prompt Title</note>
       </trans-unit>
       <trans-unit id="Yesterday">
         <source>Yesterday</source>
