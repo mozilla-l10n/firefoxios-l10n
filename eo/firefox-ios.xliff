@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Account/Info.plist" source-language="en" datatype="plaintext">
+  <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -13,7 +13,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext">
+  <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -26,7 +26,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/BookmarkPanel.strings" source-language="en" datatype="plaintext">
+  <file original="Client/BookmarkPanel.strings" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -37,7 +37,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/ClearPrivateData.strings" source-language="en" datatype="plaintext">
+  <file original="Client/ClearPrivateData.strings" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -60,7 +60,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/ErrorPages.strings" source-language="en" datatype="plaintext">
+  <file original="Client/ErrorPages.strings" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -75,7 +75,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/HistoryPanel.strings" source-language="en" datatype="plaintext">
+  <file original="Client/HistoryPanel.strings" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -86,7 +86,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Info.plist" source-language="en" datatype="plaintext">
+  <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -105,7 +105,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Intro.strings" source-language="en" datatype="plaintext">
+  <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -121,6 +121,14 @@
       <trans-unit id="Customize">
         <source>Customize</source>
         <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Firefox and the cloud">
+        <source>Firefox and the cloud</source>
+        <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Introductory slide %@ of %@">
+        <source>Introductory slide %1$@ of %2$@</source>
+        <note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note>
       </trans-unit>
       <trans-unit id="Organize">
         <source>Organize</source>
@@ -138,9 +146,17 @@
         <source>Start Browsing</source>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
+      <trans-unit id="The Settings button is at the beginning of the Tabs Tray.">
+        <source>The Settings button is at the beginning of the Tabs Tray.</source>
+        <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs.">
+        <source>The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs.</source>
+        <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
     </body>
   </file>
-  <file original="Client/Localizable.strings" source-language="en" datatype="plaintext">
+  <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -412,6 +428,10 @@
         <source>Missing message</source>
         <note>Error for a missing remote error message</note>
       </trans-unit>
+      <trans-unit id="Navigation Toolbar">
+        <source>Navigation Toolbar</source>
+        <note>Accessibility label for the navigation toolbar displayed at the bottom of the screen.</note>
+      </trans-unit>
       <trans-unit id="New tab: %@: %@">
         <source>New tab: %1$@: %2$@</source>
         <note>New tab [title] [url]</note>
@@ -461,6 +481,10 @@
       <trans-unit id="Opening %@">
         <source>Opening %@</source>
         <note>Opening an external URL</note>
+      </trans-unit>
+      <trans-unit id="Panel Chooser">
+        <source>Panel Chooser</source>
+        <note>Accessibility label for the Home panel's top toolbar containing list of the home panels (top sites, bookmarsk, history, remote tabs, reading list).</note>
       </trans-unit>
       <trans-unit id="Password">
         <source>Password</source>
@@ -611,14 +635,6 @@
         <source>Tabs Tray</source>
         <note>Accessibility label for the Tabs Tray view.</note>
       </trans-unit>
-      <trans-unit id="Tap to reload the page">
-        <source>Tap to reload the page</source>
-        <note>Accessibility hint for the browser toolbar Reload button</note>
-      </trans-unit>
-      <trans-unit id="Tap to stop loading the page">
-        <source>Tap to stop loading the page</source>
-        <note>Accessibility hint for the browser toolbar Stop button</note>
-      </trans-unit>
       <trans-unit id="There is a new version available of Firefox Aurora. Tap OK to go to the download page.">
         <source>There is a new version available of Firefox Aurora. Tap OK to go to the download page.</source>
         <note>Prompt message for application update</note>
@@ -749,7 +765,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Search.strings" source-language="en" datatype="plaintext">
+  <file original="Client/Search.strings" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -766,6 +782,10 @@
         <source>Search Settings</source>
         <note>Label for search settings button.</note>
       </trans-unit>
+      <trans-unit id="Search suggestions from %@">
+        <source>Search suggestions from %@</source>
+        <note>Accessibility label for image of default search engine displayed left to the actual search suggestions from the engine. The parameter substituted for \"%@\" is the name of the search engine. E.g.: Search suggestions from Google</note>
+      </trans-unit>
       <trans-unit id="Turn on search suggestions?">
         <source>Turn on search suggestions?</source>
         <note>Prompt shown before enabling provider search queries</note>
@@ -776,7 +796,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext">
+  <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -789,7 +809,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext">
+  <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -805,7 +825,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/SendTo/SendTo.strings" source-language="en" datatype="plaintext">
+  <file original="Extensions/SendTo/SendTo.strings" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -840,7 +860,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext">
+  <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -856,7 +876,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/ShareTo.strings" source-language="en" datatype="plaintext">
+  <file original="Extensions/ShareTo/ShareTo.strings" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -875,7 +895,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ViewLater/Info.plist" source-language="en" datatype="plaintext">
+  <file original="Extensions/ViewLater/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -891,7 +911,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="ReadingList/Info.plist" source-language="en" datatype="plaintext">
+  <file original="ReadingList/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -904,7 +924,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="ReadingListTests/Info.plist" source-language="en" datatype="plaintext">
+  <file original="ReadingListTests/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -917,7 +937,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/Info.plist" source-language="en" datatype="plaintext">
+  <file original="Shared/Supporting Files/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -930,7 +950,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/Shared.strings" source-language="en" datatype="plaintext">
+  <file original="Shared/Supporting Files/Shared.strings" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -941,7 +961,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="SharedTests/Info.plist" source-language="en" datatype="plaintext">
+  <file original="SharedTests/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -954,7 +974,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Storage.strings" source-language="en" datatype="plaintext">
+  <file original="Storage.strings" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -981,7 +1001,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="StorageTests/Info.plist" source-language="en" datatype="plaintext">
+  <file original="StorageTests/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -994,7 +1014,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Sync/Info.plist" source-language="en" datatype="plaintext">
+  <file original="Sync/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -1007,7 +1027,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="SyncTests/Info.plist" source-language="en" datatype="plaintext">
+  <file original="SyncTests/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
@@ -1020,7 +1040,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="UITests/Info.plist" source-language="en" datatype="plaintext">
+  <file original="UITests/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
