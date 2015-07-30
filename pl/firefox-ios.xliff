@@ -106,18 +106,18 @@
    <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
   </header>
   <body>
-      <trans-unit id="CFBundleDisplayName">
-        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
-        <target>1.0</target>
-      </trans-unit>
+   <trans-unit id="CFBundleDisplayName">
+    <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
+    <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+   </trans-unit>
+   <trans-unit id="CFBundleName">
+    <source>$(MOZ_PRODUCT_NAME)</source>
+    <target>$(MOZ_PRODUCT_NAME)</target>
+   </trans-unit>
+   <trans-unit id="CFBundleShortVersionString">
+    <source>$(MOZ_VERSION)</source>
+    <target>$(MOZ_VERSION)</target>
+   </trans-unit>
    <trans-unit id="NSLocationWhenInUseUsageDescription">
     <source>Websites you visit may request your location.</source>
     <target>Odwiedzane strony mogą żądać informacji o położeniu.</target>
