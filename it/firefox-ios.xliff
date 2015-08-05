@@ -108,12 +108,12 @@
         <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
+        <source>$(MOZ_PRODUCT_NAME)</source>
+        <target>$(MOZ_PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
-        <target>1.0</target>
+        <source>$(MOZ_VERSION)</source>
+        <target>$(MOZ_VERSION)</target>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Websites you visit may request your location.</source>
@@ -476,6 +476,16 @@
         <target>Chiaro</target>
         <note>Light theme setting in Reading View settings</note>
       </trans-unit>
+      <trans-unit id="Load original page">
+        <source>Load original page</source>
+        <target>Carica pagina originale</target>
+        <note>Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
+      </trans-unit>
+      <trans-unit id="Loading content...">
+        <source>Loading content...</source>
+        <target>Caricamento contenuti…</target>
+        <note>Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app.</note>
+      </trans-unit>
       <trans-unit id="Log Out">
         <source>Log Out</source>
         <target>Disconnetti</target>
@@ -586,6 +596,11 @@
         <target>Apertura %@</target>
         <note>Opening an external URL</note>
       </trans-unit>
+      <trans-unit id="Pages you have visited recently will show up here.">
+        <source>Pages you have visited recently will show up here.</source>
+        <target>In questa sezione verranno visualizzate le pagine visitate di recente.</target>
+        <note>See http://bit.ly/1I7Do4b</note>
+      </trans-unit>
       <trans-unit id="Panel Chooser">
         <source>Panel Chooser</source>
         <target>Selettore pannelli</target>
@@ -692,6 +707,11 @@
         <target>Connessione sicura</target>
         <note>Accessibility label for the lock icon, which is only present if the connection is secure</note>
       </trans-unit>
+      <trans-unit id="Send Crash Reports">
+        <source>Send Crash Reports</source>
+        <target>Invia segnalazioni di arresto</target>
+        <note>Setting to enable the sending of crash reports</note>
+      </trans-unit>
       <trans-unit id="Sepia">
         <source>Sepia</source>
         <target>Seppia</target>
@@ -751,6 +771,11 @@
         <target>Scorri verso destra o sinistra con tre dita per chiudere la scheda.</target>
         <note>Accessibility hint for tab tray's displayed tab.</note>
       </trans-unit>
+      <trans-unit id="Sync Now">
+        <source>Sync Now</source>
+        <target>Sincronizza adesso</target>
+        <note>Sync Firefox Account</note>
+      </trans-unit>
       <trans-unit id="Sync your tabs, bookmarks, passwords and more.">
         <source>Sync your tabs, bookmarks, passwords and more.</source>
         <target>Sincronizza schede, segnalibri, password e altro ancora.</target>
@@ -760,6 +785,11 @@
         <source>Synced tabs</source>
         <target>Schede sincronizzate</target>
         <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Syncing...">
+        <source>Syncing...</source>
+        <target>Sincronizzazione</target>
+        <note>Syncing Firefox Account</note>
       </trans-unit>
       <trans-unit id="Tab %@ of %@">
         <source>Tab %1$@ of %2$@</source>
@@ -775,6 +805,11 @@
         <source>Tabs Tray</source>
         <target>Barra delle schede</target>
         <note>Accessibility label for the Tabs Tray view.</note>
+      </trans-unit>
+      <trans-unit id="The page could not be displayed in Reading View.">
+        <source>The page could not be displayed in Reading View.</source>
+        <target>Impossibile visualizzare la pagina in Modalità lettura.</target>
+        <note>Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
       <trans-unit id="There is a new version available of Firefox Aurora. Tap OK to go to the download page.">
         <source>There is a new version available of Firefox Aurora. Tap OK to go to the download page.</source>
