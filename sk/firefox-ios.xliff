@@ -107,11 +107,11 @@
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(MOZ_PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
+        <target>$(MOZ_PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>$(MOZ_VERSION)</source>
-        <target>1.0</target>
+        <target>$(MOZ_VERSION)</target>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Websites you visit may request your location.</source>
@@ -963,7 +963,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>$(MOZ_VERSION)</source>
-        <target>1.0</target>
+        <target>$(MOZ_VERSION)</target>
       </trans-unit>
     </body>
   </file>
@@ -1021,7 +1021,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>$(MOZ_VERSION)</source>
-        <target>1.0</target>
+        <target>$(MOZ_VERSION)</target>
       </trans-unit>
     </body>
   </file>
