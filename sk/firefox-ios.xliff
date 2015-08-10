@@ -106,11 +106,11 @@
         <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
+        <source>$(MOZ_PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
+        <source>$(MOZ_VERSION)</source>
         <target>1.0</target>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
@@ -314,10 +314,9 @@
         <source>Could not add page to Reading list</source>
         <note>Accessibility message e.g. spoken by VoiceOver after adding current webpage to the Reading List failed.</note>
       </trans-unit>
-      <trans-unit id="Could not connect to Firefox Accounts.">
-        <source>Could not connect to Firefox Accounts.</source>
-        <target>Nebolo možné pripojiť sa k účtu Firefox Account.</target>
-        <note>Error message that is shown in settings when there was a problem connecting to Firefox Accounts</note>
+      <trans-unit id="Could not load page.">
+        <source>Could not load page.</source>
+        <note>Error message that is shown in settings when there was a problem loading</note>
       </trans-unit>
       <trans-unit id="Create an account">
         <source>Create an account</source>
@@ -450,6 +449,14 @@
         <target>Svetlá</target>
         <note>Light theme setting in Reading View settings</note>
       </trans-unit>
+      <trans-unit id="Load original page">
+        <source>Load original page</source>
+        <note>Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
+      </trans-unit>
+      <trans-unit id="Loading content…">
+        <source>Loading content…</source>
+        <note>Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app.</note>
+      </trans-unit>
       <trans-unit id="Log Out">
         <source>Log Out</source>
         <note>Button in settings screen to disconnect from your account
@@ -549,6 +556,10 @@
         <target>Otvára sa %@</target>
         <note>Opening an external URL</note>
       </trans-unit>
+      <trans-unit id="Pages you have visited recently will show up here.">
+        <source>Pages you have visited recently will show up here.</source>
+        <note>See http://bit.ly/1I7Do4b</note>
+      </trans-unit>
       <trans-unit id="Panel Chooser">
         <source>Panel Chooser</source>
         <note>Accessibility label for the Home panel's top toolbar containing list of the home panels (top sites, bookmarsk, history, remote tabs, reading list).</note>
@@ -573,9 +584,9 @@
         <target>Súkromie</target>
         <note>Privacy section title</note>
       </trans-unit>
-      <trans-unit id="Pull to Sync">
-        <source>Pull to Sync</source>
-        <note>The pull-to-refresh string for syncing in the history panel.</note>
+      <trans-unit id="Privacy Policy">
+        <source>Privacy Policy</source>
+        <note>Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/</note>
       </trans-unit>
       <trans-unit id="Quick-search Engines">
         <source>Quick-search Engines</source>
@@ -590,11 +601,6 @@
         <source>Reading list</source>
         <target>Zoznam na prečítanie</target>
         <note>Panel accessibility label</note>
-      </trans-unit>
-      <trans-unit id="Recent Bookmarks">
-        <source>Recent Bookmarks</source>
-        <target>Najnovšie záložky</target>
-        <note>Header for bookmarks list</note>
       </trans-unit>
       <trans-unit id="Reload">
         <source>Reload</source>
@@ -649,6 +655,14 @@
         <source>Secure connection</source>
         <target>Bezpečné pripojenie</target>
         <note>Accessibility label for the lock icon, which is only present if the connection is secure</note>
+      </trans-unit>
+      <trans-unit id="Send Crash Reports">
+        <source>Send Crash Reports</source>
+        <note>Setting to enable the sending of crash reports</note>
+      </trans-unit>
+      <trans-unit id="Send Feedback">
+        <source>Send Feedback</source>
+        <note>Show an input.mozilla.org page where people can submit feedback</note>
       </trans-unit>
       <trans-unit id="Sepia">
         <source>Sepia</source>
@@ -707,6 +721,10 @@
         <source>Swipe right or left with three fingers to close the tab.</source>
         <note>Accessibility hint for tab tray's displayed tab.</note>
       </trans-unit>
+      <trans-unit id="Sync Now">
+        <source>Sync Now</source>
+        <note>Sync Firefox Account</note>
+      </trans-unit>
       <trans-unit id="Sync your tabs, bookmarks, passwords and more.">
         <source>Sync your tabs, bookmarks, passwords and more.</source>
         <note>See http://mzl.la/1Qtkf0j</note>
@@ -715,6 +733,10 @@
         <source>Synced tabs</source>
         <target>Synchronizované karty</target>
         <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Syncing…">
+        <source>Syncing…</source>
+        <note>Syncing Firefox Account</note>
       </trans-unit>
       <trans-unit id="Tab %@ of %@">
         <source>Tab %1$@ of %2$@</source>
@@ -728,6 +750,10 @@
         <source>Tabs Tray</source>
         <target>Tray kariet</target>
         <note>Accessibility label for the Tabs Tray view.</note>
+      </trans-unit>
+      <trans-unit id="The page could not be displayed in Reader View.">
+        <source>The page could not be displayed in Reader View.</source>
+        <note>Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
       <trans-unit id="There is a new version available of Firefox Aurora. Tap OK to go to the download page.">
         <source>There is a new version available of Firefox Aurora. Tap OK to go to the download page.</source>
@@ -761,10 +787,6 @@
         <source>Top sites</source>
         <target>Top stránky</target>
         <note>Panel accessibility label</note>
-      </trans-unit>
-      <trans-unit id="URL bar">
-        <source>URL bar</source>
-        <note>Accessibility label for the URL bar</note>
       </trans-unit>
       <trans-unit id="Update">
         <source>Update</source>
@@ -940,7 +962,7 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
+        <source>$(MOZ_VERSION)</source>
         <target>1.0</target>
       </trans-unit>
     </body>
@@ -998,7 +1020,7 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
+        <source>$(MOZ_VERSION)</source>
         <target>1.0</target>
       </trans-unit>
     </body>
@@ -1037,7 +1059,7 @@
         <source>$(PRODUCT_NAME)</source>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
+        <source>$(MOZ_VERSION)</source>
       </trans-unit>
     </body>
   </file>

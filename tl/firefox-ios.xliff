@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="tl">
     <header>
@@ -95,10 +95,10 @@
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
       </trans-unit>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
+        <source>$(MOZ_PRODUCT_NAME)</source>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
+        <source>$(MOZ_VERSION)</source>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Websites you visit may request your location.</source>
@@ -165,10 +165,11 @@
         <source>+</source>
         <note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       </trans-unit>
-      <trans-unit id="-" approved="no">
+      <trans-unit id="-">
         <source>-</source>
-        <target state="needs-translation">-</target><note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
-      <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note></trans-unit>
+        <target>-</target>
+        <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+      </trans-unit>
       <trans-unit id="A username and password are being requested by %@.">
         <source>A username and password are being requested by %@.</source>
         <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
@@ -278,9 +279,9 @@
         <source>Could not add page to Reading list</source>
         <note>Accessibility message e.g. spoken by VoiceOver after adding current webpage to the Reading List failed.</note>
       </trans-unit>
-      <trans-unit id="Could not connect to Firefox Accounts.">
-        <source>Could not connect to Firefox Accounts.</source>
-        <note>Error message that is shown in settings when there was a problem connecting to Firefox Accounts</note>
+      <trans-unit id="Could not load page.">
+        <source>Could not load page.</source>
+        <note>Error message that is shown in settings when there was a problem loading</note>
       </trans-unit>
       <trans-unit id="Create an account">
         <source>Create an account</source>
@@ -393,6 +394,14 @@
         <source>Light</source>
         <note>Light theme setting in Reading View settings</note>
       </trans-unit>
+      <trans-unit id="Load original page">
+        <source>Load original page</source>
+        <note>Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
+      </trans-unit>
+      <trans-unit id="Loading content…">
+        <source>Loading content…</source>
+        <note>Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app.</note>
+      </trans-unit>
       <trans-unit id="Log Out">
         <source>Log Out</source>
         <note>Button in settings screen to disconnect from your account
@@ -482,6 +491,10 @@
         <source>Opening %@</source>
         <note>Opening an external URL</note>
       </trans-unit>
+      <trans-unit id="Pages you have visited recently will show up here.">
+        <source>Pages you have visited recently will show up here.</source>
+        <note>See http://bit.ly/1I7Do4b</note>
+      </trans-unit>
       <trans-unit id="Panel Chooser">
         <source>Panel Chooser</source>
         <note>Accessibility label for the Home panel's top toolbar containing list of the home panels (top sites, bookmarsk, history, remote tabs, reading list).</note>
@@ -502,9 +515,9 @@
         <source>Privacy</source>
         <note>Privacy section title</note>
       </trans-unit>
-      <trans-unit id="Pull to Sync">
-        <source>Pull to Sync</source>
-        <note>The pull-to-refresh string for syncing in the history panel.</note>
+      <trans-unit id="Privacy Policy">
+        <source>Privacy Policy</source>
+        <note>Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/</note>
       </trans-unit>
       <trans-unit id="Quick-search Engines">
         <source>Quick-search Engines</source>
@@ -517,10 +530,6 @@
       <trans-unit id="Reading list">
         <source>Reading list</source>
         <note>Panel accessibility label</note>
-      </trans-unit>
-      <trans-unit id="Recent Bookmarks">
-        <source>Recent Bookmarks</source>
-        <note>Header for bookmarks list</note>
       </trans-unit>
       <trans-unit id="Reload">
         <source>Reload</source>
@@ -566,6 +575,14 @@
       <trans-unit id="Secure connection">
         <source>Secure connection</source>
         <note>Accessibility label for the lock icon, which is only present if the connection is secure</note>
+      </trans-unit>
+      <trans-unit id="Send Crash Reports">
+        <source>Send Crash Reports</source>
+        <note>Setting to enable the sending of crash reports</note>
+      </trans-unit>
+      <trans-unit id="Send Feedback">
+        <source>Send Feedback</source>
+        <note>Show an input.mozilla.org page where people can submit feedback</note>
       </trans-unit>
       <trans-unit id="Sepia">
         <source>Sepia</source>
@@ -615,6 +632,10 @@
         <source>Swipe right or left with three fingers to close the tab.</source>
         <note>Accessibility hint for tab tray's displayed tab.</note>
       </trans-unit>
+      <trans-unit id="Sync Now">
+        <source>Sync Now</source>
+        <note>Sync Firefox Account</note>
+      </trans-unit>
       <trans-unit id="Sync your tabs, bookmarks, passwords and more.">
         <source>Sync your tabs, bookmarks, passwords and more.</source>
         <note>See http://mzl.la/1Qtkf0j</note>
@@ -622,6 +643,10 @@
       <trans-unit id="Synced tabs">
         <source>Synced tabs</source>
         <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Syncing…">
+        <source>Syncing…</source>
+        <note>Syncing Firefox Account</note>
       </trans-unit>
       <trans-unit id="Tab %@ of %@">
         <source>Tab %1$@ of %2$@</source>
@@ -634,6 +659,10 @@
       <trans-unit id="Tabs Tray">
         <source>Tabs Tray</source>
         <note>Accessibility label for the Tabs Tray view.</note>
+      </trans-unit>
+      <trans-unit id="The page could not be displayed in Reader View.">
+        <source>The page could not be displayed in Reader View.</source>
+        <note>Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
       <trans-unit id="There is a new version available of Firefox Aurora. Tap OK to go to the download page.">
         <source>There is a new version available of Firefox Aurora. Tap OK to go to the download page.</source>
@@ -662,10 +691,6 @@
       <trans-unit id="Top sites">
         <source>Top sites</source>
         <note>Panel accessibility label</note>
-      </trans-unit>
-      <trans-unit id="URL bar">
-        <source>URL bar</source>
-        <note>Accessibility label for the URL bar</note>
       </trans-unit>
       <trans-unit id="Update">
         <source>Update</source>
@@ -821,7 +846,7 @@
         <source>$(PRODUCT_NAME)</source>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
+        <source>$(MOZ_VERSION)</source>
       </trans-unit>
     </body>
   </file>
@@ -872,7 +897,7 @@
         <source>$(PRODUCT_NAME)</source>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
+        <source>$(MOZ_VERSION)</source>
       </trans-unit>
     </body>
   </file>
@@ -907,7 +932,7 @@
         <source>$(PRODUCT_NAME)</source>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
+        <source>$(MOZ_VERSION)</source>
       </trans-unit>
     </body>
   </file>
@@ -1054,3 +1079,4 @@
     </body>
   </file>
 </xliff>
+

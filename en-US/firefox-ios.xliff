@@ -108,12 +108,12 @@
         <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
+        <source>$(MOZ_PRODUCT_NAME)</source>
+        <target>$(MOZ_PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
-        <target>1.0</target>
+        <source>$(MOZ_VERSION)</source>
+        <target>$(MOZ_VERSION)</target>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Websites you visit may request your location.</source>
@@ -333,10 +333,10 @@
         <target>Could not add page to Reading list</target>
         <note>Accessibility message e.g. spoken by VoiceOver after adding current webpage to the Reading List failed.</note>
       </trans-unit>
-      <trans-unit id="Could not connect to Firefox Accounts.">
-        <source>Could not connect to Firefox Accounts.</source>
-        <target>Could not connect to Firefox Accounts.</target>
-        <note>Error message that is shown in settings when there was a problem connecting to Firefox Accounts</note>
+      <trans-unit id="Could not load page.">
+        <source>Could not load page.</source>
+        <target>Could not load page.</target>
+        <note>Error message that is shown in settings when there was a problem loading</note>
       </trans-unit>
       <trans-unit id="Create an account">
         <source>Create an account</source>
@@ -476,6 +476,16 @@
         <target>Light</target>
         <note>Light theme setting in Reading View settings</note>
       </trans-unit>
+      <trans-unit id="Load original page">
+        <source>Load original page</source>
+        <target>Load original page</target>
+        <note>Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
+      </trans-unit>
+      <trans-unit id="Loading content…">
+        <source>Loading content…</source>
+        <target>Loading content…</target>
+        <note>Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app.</note>
+      </trans-unit>
       <trans-unit id="Log Out">
         <source>Log Out</source>
         <target>Log Out</target>
@@ -586,6 +596,11 @@
         <target>Opening %@</target>
         <note>Opening an external URL</note>
       </trans-unit>
+      <trans-unit id="Pages you have visited recently will show up here.">
+        <source>Pages you have visited recently will show up here.</source>
+        <target>Pages you have visited recently will show up here.</target>
+        <note>See http://bit.ly/1I7Do4b</note>
+      </trans-unit>
       <trans-unit id="Panel Chooser">
         <source>Panel Chooser</source>
         <target>Panel Chooser</target>
@@ -611,10 +626,10 @@
         <target>Privacy</target>
         <note>Privacy section title</note>
       </trans-unit>
-      <trans-unit id="Pull to Sync">
-        <source>Pull to Sync</source>
-        <target>Pull to Sync</target>
-        <note>The pull-to-refresh string for syncing in the history panel.</note>
+      <trans-unit id="Privacy Policy">
+        <source>Privacy Policy</source>
+        <target>Privacy Policy</target>
+        <note>Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/</note>
       </trans-unit>
       <trans-unit id="Quick-search Engines">
         <source>Quick-search Engines</source>
@@ -630,11 +645,6 @@
         <source>Reading list</source>
         <target>Reading list</target>
         <note>Panel accessibility label</note>
-      </trans-unit>
-      <trans-unit id="Recent Bookmarks">
-        <source>Recent Bookmarks</source>
-        <target>Recent Bookmarks</target>
-        <note>Header for bookmarks list</note>
       </trans-unit>
       <trans-unit id="Reload">
         <source>Reload</source>
@@ -691,6 +701,16 @@
         <source>Secure connection</source>
         <target>Secure connection</target>
         <note>Accessibility label for the lock icon, which is only present if the connection is secure</note>
+      </trans-unit>
+      <trans-unit id="Send Crash Reports">
+        <source>Send Crash Reports</source>
+        <target>Send Crash Reports</target>
+        <note>Setting to enable the sending of crash reports</note>
+      </trans-unit>
+      <trans-unit id="Send Feedback">
+        <source>Send Feedback</source>
+        <target>Send Feedback</target>
+        <note>Show an input.mozilla.org page where people can submit feedback</note>
       </trans-unit>
       <trans-unit id="Sepia">
         <source>Sepia</source>
@@ -751,6 +771,11 @@
         <target>Swipe right or left with three fingers to close the tab.</target>
         <note>Accessibility hint for tab tray's displayed tab.</note>
       </trans-unit>
+      <trans-unit id="Sync Now">
+        <source>Sync Now</source>
+        <target>Sync Now</target>
+        <note>Sync Firefox Account</note>
+      </trans-unit>
       <trans-unit id="Sync your tabs, bookmarks, passwords and more.">
         <source>Sync your tabs, bookmarks, passwords and more.</source>
         <target>Sync your tabs, bookmarks, passwords and more.</target>
@@ -760,6 +785,11 @@
         <source>Synced tabs</source>
         <target>Synced tabs</target>
         <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Syncing…">
+        <source>Syncing…</source>
+        <target>Syncing…</target>
+        <note>Syncing Firefox Account</note>
       </trans-unit>
       <trans-unit id="Tab %@ of %@">
         <source>Tab %1$@ of %2$@</source>
@@ -775,6 +805,11 @@
         <source>Tabs Tray</source>
         <target>Tabs Tray</target>
         <note>Accessibility label for the Tabs Tray view.</note>
+      </trans-unit>
+      <trans-unit id="The page could not be displayed in Reader View.">
+        <source>The page could not be displayed in Reader View.</source>
+        <target>The page could not be displayed in Reader View.</target>
+        <note>Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
       <trans-unit id="There is a new version available of Firefox Aurora. Tap OK to go to the download page.">
         <source>There is a new version available of Firefox Aurora. Tap OK to go to the download page.</source>
@@ -810,11 +845,6 @@
         <source>Top sites</source>
         <target>Top sites</target>
         <note>Panel accessibility label</note>
-      </trans-unit>
-      <trans-unit id="URL bar">
-        <source>URL bar</source>
-        <target>URL bar</target>
-        <note>Accessibility label for the URL bar</note>
       </trans-unit>
       <trans-unit id="Update">
         <source>Update</source>
@@ -1004,8 +1034,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
-        <target>1.0</target>
+        <source>$(MOZ_VERSION)</source>
+        <target>$(MOZ_VERSION)</target>
       </trans-unit>
     </body>
   </file>
@@ -1065,8 +1095,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
-        <target>1.0</target>
+        <source>$(MOZ_VERSION)</source>
+        <target>$(MOZ_VERSION)</target>
       </trans-unit>
     </body>
   </file>
@@ -1106,8 +1136,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
-        <target>1.0</target>
+        <source>$(MOZ_VERSION)</source>
+        <target>$(MOZ_VERSION)</target>
       </trans-unit>
     </body>
   </file>
