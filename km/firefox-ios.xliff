@@ -1,16 +1,18 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="km">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">1.0</target></trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="km">
@@ -18,12 +20,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">1.0</target></trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/BookmarkPanel.strings" source-language="en" datatype="plaintext" target-language="km">
@@ -31,10 +35,11 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="Delete" approved="yes">
+      <trans-unit id="Delete">
         <source>Delete</source>
-        <target state="translated">លុប</target><note>Action button for deleting bookmarks in the bookmarks panel.</note>
-      <note>Action button for deleting bookmarks in the bookmarks panel.</note></trans-unit>
+        <target>លុប</target>
+        <note>Action button for deleting bookmarks in the bookmarks panel.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/ClearPrivateData.strings" source-language="en" datatype="plaintext" target-language="km">
@@ -42,22 +47,26 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs." approved="yes">
+      <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs.">
         <source>Are you sure you want to clear all of your data? This will also close all open tabs.</source>
-        <target state="translated">តើ​អ្នក​ពិត​ជា​ចង់​សម្អាត​ទិន្នន័យ​របស់​អ្នក​ទាំងអស់​មែន​ទេ? វា​នឹង​បិទ​ផ្ទាំង​ដែល​បើក​ទាំងអស់​ផង​ដែរ។</target><note>Message shown in the dialog prompting users if they want to clear everything</note>
-      <note>Message shown in the dialog prompting users if they want to clear everything</note></trans-unit>
-      <trans-unit id="Cancel" approved="yes">
+        <target>តើ​អ្នក​ពិត​ជា​ចង់​សម្អាត​ទិន្នន័យ​របស់​អ្នក​ទាំងអស់​មែន​ទេ? វា​នឹង​បិទ​ផ្ទាំង​ដែល​បើក​ទាំងអស់​ផង​ដែរ។</target>
+        <note>Message shown in the dialog prompting users if they want to clear everything</note>
+      </trans-unit>
+      <trans-unit id="Cancel">
         <source>Cancel</source>
-        <target state="translated">បោះបង់ចោល</target><note>Used as a button label in the dialog to cancel clear private data dialog</note>
-      <note>Used as a button label in the dialog to cancel clear private data dialog</note></trans-unit>
-      <trans-unit id="Clear" approved="yes">
+        <target>បោះបង់ចោល</target>
+        <note>Used as a button label in the dialog to cancel clear private data dialog</note>
+      </trans-unit>
+      <trans-unit id="Clear">
         <source>Clear</source>
-        <target state="translated">សម្អាត</target><note>Used as a button label in the dialog to Clear private data dialog</note>
-      <note>Used as a button label in the dialog to Clear private data dialog</note></trans-unit>
-      <trans-unit id="Clear Everything" approved="yes">
+        <target>សម្អាត</target>
+        <note>Used as a button label in the dialog to Clear private data dialog</note>
+      </trans-unit>
+      <trans-unit id="Clear Everything">
         <source>Clear Everything</source>
-        <target state="translated">សម្អាត​អ្វី​គ្រប់យ៉ាង</target><note>Title of the Clear private data dialog.</note>
-      <note>Title of the Clear private data dialog.</note></trans-unit>
+        <target>សម្អាត​អ្វី​គ្រប់យ៉ាង</target>
+        <note>Title of the Clear private data dialog.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/ErrorPages.strings" source-language="en" datatype="plaintext" target-language="km">
@@ -65,14 +74,16 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="Open in Safari" approved="yes">
+      <trans-unit id="Open in Safari">
         <source>Open in Safari</source>
-        <target state="translated">បើក​នៅ​ក្នុង​កម្មវិធី Safari</target><note>Shown in error pages for files that can't be shown and need to be downloaded.</note>
-      <note>Shown in error pages for files that can't be shown and need to be downloaded.</note></trans-unit>
-      <trans-unit id="Try again" approved="yes">
+        <target>បើក​នៅ​ក្នុង​កម្មវិធី Safari</target>
+        <note>Shown in error pages for files that can't be shown and need to be downloaded.</note>
+      </trans-unit>
+      <trans-unit id="Try again">
         <source>Try again</source>
-        <target state="translated">ព្យាយាម​ម្ដងទៀត</target><note>Shown in error pages on a button that will try to load the page again</note>
-      <note>Shown in error pages on a button that will try to load the page again</note></trans-unit>
+        <target>ព្យាយាម​ម្ដងទៀត</target>
+        <note>Shown in error pages on a button that will try to load the page again</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/HistoryPanel.strings" source-language="en" datatype="plaintext" target-language="km">
@@ -80,10 +91,11 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="Remove" approved="yes">
+      <trans-unit id="Remove">
         <source>Remove</source>
-        <target state="translated">លុប​ចេញ</target><note>Action button for deleting history entries in the history panel.</note>
-      <note>Action button for deleting history entries in the history panel.</note></trans-unit>
+        <target>លុប​ចេញ</target>
+        <note>Action button for deleting history entries in the history panel.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="km">
@@ -91,18 +103,22 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" approved="yes">
+      <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-      <target state="translated">$(MOZ_BUNDLE_DISPLAY_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleName" approved="yes">
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
         <source>$(MOZ_PRODUCT_NAME)</source>
-      <target state="translated">$(MOZ_PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(MOZ_PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>$(MOZ_VERSION)</source>
-      <target state="translated">$(MOZ_VERSION)</target></trans-unit>
-      <trans-unit id="NSLocationWhenInUseUsageDescription" approved="yes">
+        <target>$(MOZ_VERSION)</target>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Websites you visit may request your location.</source>
-      <target state="translated">វិបសាយ​ដែល​អ្នក​ចូល​មើល​អាច​ស្នើ​សុំ​ទីតាំង​របស់​អ្នក។</target></trans-unit>
+        <target>វិបសាយ​ដែល​អ្នក​ចូល​មើល​អាច​ស្នើ​សុំ​ទីតាំង​របស់​អ្នក។</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="km">
@@ -110,50 +126,61 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="Browse multiple Web pages at the same time with tabs." approved="yes">
+      <trans-unit id="Browse multiple Web pages at the same time with tabs.">
         <source>Browse multiple Web pages at the same time with tabs.</source>
-        <target state="translated">រក​មើល​ទំព័រ​បណ្ដាញ​ច្រើន​​នៅ​ពេល​ជាមួយ​គ្នា​ដោយ​ប្រើ​ផ្ទាំង។</target><note>See http://mzl.la/1T8gxwo</note>
-      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Connect Firefox everywhere you use it." approved="yes">
+        <target>រក​មើល​ទំព័រ​បណ្ដាញ​ច្រើន​​នៅ​ពេល​ជាមួយ​គ្នា​ដោយ​ប្រើ​ផ្ទាំង។</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Connect Firefox everywhere you use it.">
         <source>Connect Firefox everywhere you use it.</source>
-        <target state="translated">ភ្ជាប់ Firefox គ្រប់​កន្លែង​ដែល​អ្នក​​ប្រើ​វា។</target><note>See http://mzl.la/1T8gxwo</note>
-      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Customize" approved="yes">
+        <target>ភ្ជាប់ Firefox គ្រប់​កន្លែង​ដែល​អ្នក​​ប្រើ​វា។</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Customize">
         <source>Customize</source>
-        <target state="translated">ប្ដូរ​តាម​បំណង</target><note>See http://mzl.la/1T8gxwo</note>
-      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Firefox and the cloud" approved="yes">
+        <target>ប្ដូរ​តាម​បំណង</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Firefox and the cloud">
         <source>Firefox and the cloud</source>
-        <target state="translated">Firefox និង​ពពក</target><note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
-      <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Introductory slide %@ of %@" approved="yes">
+        <target>Firefox និង​ពពក</target>
+        <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Introductory slide %@ of %@">
         <source>Introductory slide %1$@ of %2$@</source>
-        <target state="translated">ស្លាយ​ណែនាំ %1$@ of %2$@</target><note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note>
-      <note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note></trans-unit>
-      <trans-unit id="Organize" approved="yes">
+        <target>ស្លាយ​ណែនាំ %1$@ of %2$@</target>
+        <note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note>
+      </trans-unit>
+      <trans-unit id="Organize">
         <source>Organize</source>
-        <target state="translated">រៀបចំ</target><note>See http://mzl.la/1T8gxwo</note>
-      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Personalize your Firefox just the way you like in Settings." approved="yes">
+        <target>រៀបចំ</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Personalize your Firefox just the way you like in Settings.">
         <source>Personalize your Firefox just the way you like in Settings.</source>
-        <target state="translated">ប្ដូរ​លក្ខណៈ Firefox ផ្ទាល់ខ្លួន​​តាម​មធ្យោបាយ​ដែល​អ្នក​ចូល​ចិត្ត​នៅ​ក្នុង​ការ​កំណត់។</target><note>See http://mzl.la/1T8gxwo</note>
-      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Sign in to Firefox" approved="yes">
+        <target>ប្ដូរ​លក្ខណៈ Firefox ផ្ទាល់ខ្លួន​​តាម​មធ្យោបាយ​ដែល​អ្នក​ចូល​ចិត្ត​នៅ​ក្នុង​ការ​កំណត់។</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Sign in to Firefox">
         <source>Sign in to Firefox</source>
-        <target state="translated">ចូល​ទៅ Firefox</target><note>See http://mzl.la/1T8gxwo</note>
-      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Start Browsing" approved="yes">
+        <target>ចូល​ទៅ Firefox</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Start Browsing">
         <source>Start Browsing</source>
-        <target state="translated">ចាប់ផ្ដើម​រក​មើល</target><note>See http://mzl.la/1T8gxwo</note>
-      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="The Settings button is at the beginning of the Tabs Tray." approved="yes">
+        <target>ចាប់ផ្ដើម​រក​មើល</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="The Settings button is at the beginning of the Tabs Tray.">
         <source>The Settings button is at the beginning of the Tabs Tray.</source>
-        <target state="translated">ប៊ូតុង​ការ​កំណត់​គឺ​ស្ថិត​នៅ​​បន្ទះ​​ផ្ទាំង​ចាប់ផ្ដើម។</target><note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
-      <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs." approved="yes">
+        <target>ប៊ូតុង​ការ​កំណត់​គឺ​ស្ថិត​នៅ​​បន្ទះ​​ផ្ទាំង​ចាប់ផ្ដើម។</target>
+        <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs.">
         <source>The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs.</source>
-        <target state="translated">ប៊ូតុង​បង្ហាញ​ផ្ទាំង​គឺ​នៅ​បន្ទាប់​ប្រឡោះ​អត្ថបទ​ស្វែងរក និង​អាសយដ្ឋាន និង​បង្ហាញ​ចំនួន​​ផ្ទាំង​ដែល​បើក​បច្ចុប្បន្ន។</target><note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
-      <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note></trans-unit>
+        <target>ប៊ូតុង​បង្ហាញ​ផ្ទាំង​គឺ​នៅ​បន្ទាប់​ប្រឡោះ​អត្ថបទ​ស្វែងរក និង​អាសយដ្ឋាន និង​បង្ហាញ​ចំនួន​​ផ្ទាំង​ដែល​បើក​បច្ចុប្បន្ន។</target>
+        <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="km">
@@ -161,631 +188,783 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="+" approved="yes">
+      <trans-unit id="+">
         <source>+</source>
-        <target state="translated">+</target><note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
-      <note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note></trans-unit>
-      <trans-unit id="-" approved="yes">
+        <target>+</target>
+        <note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+      </trans-unit>
+      <trans-unit id="-">
         <source>-</source>
-        <target state="translated">-</target><note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
-      <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note></trans-unit>
-      <trans-unit id="A username and password are being requested by %@." approved="yes">
+        <target>-</target>
+        <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+      </trans-unit>
+      <trans-unit id="A username and password are being requested by %@.">
         <source>A username and password are being requested by %@.</source>
-        <target state="translated">ឈ្មោះ​អ្នក​ប្រើ និង​ពាក្យ​សម្ងាត់​​បាន​កំពុង​ស្នើ​ដោយ %@ ។</target><note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
-      <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note></trans-unit>
-      <trans-unit id="A username and password are being requested by %@. The site says: %@" approved="yes">
+        <target>ឈ្មោះ​អ្នក​ប្រើ និង​ពាក្យ​សម្ងាត់​​បាន​កំពុង​ស្នើ​ដោយ %@ ។</target>
+        <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
+      </trans-unit>
+      <trans-unit id="A username and password are being requested by %@. The site says: %@">
         <source>A username and password are being requested by %1$@. The site says: %2$@</source>
-        <target state="translated">ឈ្មោះ​អ្នក​ប្រើ និង​ពាក្យ​សម្ងាត់​កំពុង​ត្រូវ​បាន​ស្នើ​ដោយ %1$@ ។ តំបន់បណ្ដាញ​​ប្រាប់​ថា៖ %2$@</target><note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
-      <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note></trans-unit>
-      <trans-unit id="Aa" approved="yes">
+        <target>ឈ្មោះ​អ្នក​ប្រើ និង​ពាក្យ​សម្ងាត់​កំពុង​ត្រូវ​បាន​ស្នើ​ដោយ %1$@ ។ តំបន់បណ្ដាញ​​ប្រាប់​ថា៖ %2$@</target>
+        <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
+      </trans-unit>
+      <trans-unit id="Aa">
         <source>Aa</source>
-        <target state="translated">Aa</target><note>Button for reader mode font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
-      <note>Button for reader mode font size. Keep this extremely short! This is shown in the reader mode toolbar.</note></trans-unit>
-      <trans-unit id="About" approved="yes">
+        <target>Aa</target>
+        <note>Button for reader mode font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+      </trans-unit>
+      <trans-unit id="About">
         <source>About</source>
-        <target state="translated">អំពី</target><note>About settings section title</note>
-      <note>About settings section title</note></trans-unit>
-      <trans-unit id="Add Tab" approved="yes">
+        <target>អំពី</target>
+        <note>About settings section title</note>
+      </trans-unit>
+      <trans-unit id="Add Tab">
         <source>Add Tab</source>
-        <target state="translated">បន្ថែម​ផ្ទាំង</target><note>Accessibility label for the Add Tab button in the Tab Tray.</note>
-      <note>Accessibility label for the Add Tab button in the Tab Tray.</note></trans-unit>
-      <trans-unit id="Add to Reading List" approved="yes">
+        <target>បន្ថែម​ផ្ទាំង</target>
+        <note>Accessibility label for the Add Tab button in the Tab Tray.</note>
+      </trans-unit>
+      <trans-unit id="Add to Reading List">
         <source>Add to Reading List</source>
-        <target state="translated">បន្ថែម​ទៅ​បញ្ជី​អាន</target><note>Add URL to the reading list - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
-      <note>Add URL to the reading list - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note></trans-unit>
-      <trans-unit id="Added page to Reading List" approved="yes">
+        <target>បន្ថែម​ទៅ​បញ្ជី​អាន</target>
+        <note>Add URL to the reading list - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
+      </trans-unit>
+      <trans-unit id="Added page to Reading List">
         <source>Added page to Reading List</source>
-        <target state="translated">បាន​បន្ថែម​ទំព័រ​ទៅ​បញ្ជី​អាន</target><note>Accessibility message e.g. spoken by VoiceOver after the current page gets added to the Reading List using the Reader View button, e.g. by long-pressing it or by its accessibility custom action.</note>
-      <note>Accessibility message e.g. spoken by VoiceOver after the current page gets added to the Reading List using the Reader View button, e.g. by long-pressing it or by its accessibility custom action.</note></trans-unit>
-      <trans-unit id="Address and Search" approved="yes">
+        <target>បាន​បន្ថែម​ទំព័រ​ទៅ​បញ្ជី​អាន</target>
+        <note>Accessibility message e.g. spoken by VoiceOver after the current page gets added to the Reading List using the Reader View button, e.g. by long-pressing it or by its accessibility custom action.</note>
+      </trans-unit>
+      <trans-unit id="Address and Search">
         <source>Address and Search</source>
-        <target state="translated">អាសយដ្ឋាន និង​ស្វែងរក</target><note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
-      <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note></trans-unit>
-      <trans-unit id="Authentication required" approved="yes">
+        <target>អាសយដ្ឋាន និង​ស្វែងរក</target>
+        <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
+      </trans-unit>
+      <trans-unit id="Authentication required">
         <source>Authentication required</source>
-        <target state="translated">ទាមទារ​​ការ​ផ្ដល់​សិទ្ធិ​អនុញ្ញាត</target><note>Authentication prompt title</note>
-      <note>Authentication prompt title</note></trans-unit>
-      <trans-unit id="Back" approved="yes">
+        <target>ទាមទារ​​ការ​ផ្ដល់​សិទ្ធិ​អនុញ្ញាត</target>
+        <note>Authentication prompt title</note>
+      </trans-unit>
+      <trans-unit id="Back">
         <source>Back</source>
-        <target state="translated">ថយក្រោយ</target><note>Accessibility Label for the browser toolbar Back button</note>
-      <note>Accessibility Label for the browser toolbar Back button</note></trans-unit>
-      <trans-unit id="Block Pop-up Windows" approved="yes">
+        <target>ថយក្រោយ</target>
+        <note>Accessibility Label for the browser toolbar Back button</note>
+      </trans-unit>
+      <trans-unit id="Block Pop-up Windows">
         <source>Block Pop-up Windows</source>
-        <target state="translated">ទប់ស្កាត់​បង្អួច​ដែល​លេចឡើង</target><note>Block pop-up windows setting</note>
-      <note>Block pop-up windows setting</note></trans-unit>
-      <trans-unit id="Bookmark" approved="yes">
+        <target>ទប់ស្កាត់​បង្អួច​ដែល​លេចឡើង</target>
+        <note>Block pop-up windows setting</note>
+      </trans-unit>
+      <trans-unit id="Bookmark">
         <source>Bookmark</source>
-        <target state="translated">ចំណាំ</target><note>Bookmark a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
-      <note>Bookmark a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note></trans-unit>
-      <trans-unit id="Bookmarks" approved="yes">
+        <target>ចំណាំ</target>
+        <note>Bookmark a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks">
         <source>Bookmarks</source>
-        <target state="translated">ចំណាំ</target><note>Panel accessibility label</note>
-      <note>Panel accessibility label</note></trans-unit>
-      <trans-unit id="Brightness" approved="yes">
+        <target>ចំណាំ</target>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Brightness">
         <source>Brightness</source>
-        <target state="translated">ពន្លឺ</target><note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note>
-      <note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note></trans-unit>
-      <trans-unit id="Call" approved="yes">
+        <target>ពន្លឺ</target>
+        <note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note>
+      </trans-unit>
+      <trans-unit id="Call">
         <source>Call</source>
-        <target state="translated">ហៅ</target><note>Alert Call Button</note>
-      <note>Alert Call Button</note></trans-unit>
-      <trans-unit id="Cancel" approved="yes">
+        <target>ហៅ</target>
+        <note>Alert Call Button</note>
+      </trans-unit>
+      <trans-unit id="Cancel">
         <source>Cancel</source>
-        <target state="translated">បោះបង់ចោល</target><note>Alert Cancel Button
+        <target>បោះបង់ចោល</target>
+        <note>Alert Cancel Button
    Authentication prompt cancel button
    Button label to cancel entering a URL or search query
    Cancel alert view
    Cancel button
    Cancel button in the 'log out firefox account' alert</note>
-      <note>Alert Cancel Button Authentication prompt cancel button Button label to cancel entering a URL or search query Cancel alert view Cancel button Cancel button in the 'log out firefox account' alert</note></trans-unit>
-      <trans-unit id="Changes color theme." approved="yes">
+      </trans-unit>
+      <trans-unit id="Changes color theme.">
         <source>Changes color theme.</source>
-        <target state="translated">ប្ដូរ​ពណ៌​រូបរាង។</target><note>Accessibility hint for the color theme setting buttons in reader mode display settings</note>
-      <note>Accessibility hint for the color theme setting buttons in reader mode display settings</note></trans-unit>
-      <trans-unit id="Changes font type." approved="yes">
+        <target>ប្ដូរ​ពណ៌​រូបរាង។</target>
+        <note>Accessibility hint for the color theme setting buttons in reader mode display settings</note>
+      </trans-unit>
+      <trans-unit id="Changes font type.">
         <source>Changes font type.</source>
-        <target state="translated">ប្ដូរ​ប្រភេទ​ពុម្ព​អក្សរ។</target><note>Accessibility hint for the font type buttons in reader mode display settings</note>
-      <note>Accessibility hint for the font type buttons in reader mode display settings</note></trans-unit>
-      <trans-unit id="Clear Private Data" approved="yes">
+        <target>ប្ដូរ​ប្រភេទ​ពុម្ព​អក្សរ។</target>
+        <note>Accessibility hint for the font type buttons in reader mode display settings</note>
+      </trans-unit>
+      <trans-unit id="Clear Private Data">
         <source>Clear Private Data</source>
-        <target state="translated">សម្អាត​ទិន្នន័យ​ឯកជន</target><note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
-      <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note></trans-unit>
-      <trans-unit id="Close" approved="yes">
+        <target>សម្អាត​ទិន្នន័យ​ឯកជន</target>
+        <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
+      </trans-unit>
+      <trans-unit id="Close">
         <source>Close</source>
-        <target state="translated">បិទ</target><note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
-      <note>Accessibility label for action denoting closing a tab in tab list (tray)</note></trans-unit>
-      <trans-unit id="Closing tab" approved="yes">
+        <target>បិទ</target>
+        <note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
+      </trans-unit>
+      <trans-unit id="Closing tab">
         <source>Closing tab</source>
-        <target state="translated">បិទ​ផ្ទាំង</target><note>No comment provided by engineer.</note>
-      <note>No comment provided by engineer.</note></trans-unit>
-      <trans-unit id="Copy Address" approved="yes">
+        <target>បិទ​ផ្ទាំង</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Copy Address">
         <source>Copy Address</source>
-        <target state="translated">ចម្លង​អាសយដ្ឋាន</target><note>Copy the URL from the location bar</note>
-      <note>Copy the URL from the location bar</note></trans-unit>
-      <trans-unit id="Copy Image" approved="yes">
+        <target>ចម្លង​អាសយដ្ឋាន</target>
+        <note>Copy the URL from the location bar</note>
+      </trans-unit>
+      <trans-unit id="Copy Image">
         <source>Copy Image</source>
-        <target state="translated">ចម្លង​រូបភាព</target><note>Context menu item for copying an image to the clipboard</note>
-      <note>Context menu item for copying an image to the clipboard</note></trans-unit>
-      <trans-unit id="Copy Link" approved="yes">
+        <target>ចម្លង​រូបភាព</target>
+        <note>Context menu item for copying an image to the clipboard</note>
+      </trans-unit>
+      <trans-unit id="Copy Link">
         <source>Copy Link</source>
-        <target state="translated">ចម្លង​តំណ</target><note>Context menu item for copying a link URL to the clipboard</note>
-      <note>Context menu item for copying a link URL to the clipboard</note></trans-unit>
-      <trans-unit id="Could not add page to Reading List. Maybe it's already there?" approved="yes">
+        <target>ចម្លង​តំណ</target>
+        <note>Context menu item for copying a link URL to the clipboard</note>
+      </trans-unit>
+      <trans-unit id="Could not add page to Reading List. Maybe it's already there?">
         <source>Could not add page to Reading List. Maybe it's already there?</source>
-        <target state="translated">មិន​អាច​បន្ថែម​ទំព័រ​ទៅ​បញ្ជី​អាន​បានទេ។ ប្រហែល​វា​មាន​នៅ​ទីនោះ​រួច​ហើយ?</target><note>Accessibility message e.g. spoken by VoiceOver after the user wanted to add current page to the Reading List and this was not done, likely because it already was in the Reading List, but perhaps also because of real failures.</note>
-      <note>Accessibility message e.g. spoken by VoiceOver after the user wanted to add current page to the Reading List and this was not done, likely because it already was in the Reading List, but perhaps also because of real failures.</note></trans-unit>
-      <trans-unit id="Could not add page to Reading list" approved="yes">
+        <target>មិន​អាច​បន្ថែម​ទំព័រ​ទៅ​បញ្ជី​អាន​បានទេ។ ប្រហែល​វា​មាន​នៅ​ទីនោះ​រួច​ហើយ?</target>
+        <note>Accessibility message e.g. spoken by VoiceOver after the user wanted to add current page to the Reading List and this was not done, likely because it already was in the Reading List, but perhaps also because of real failures.</note>
+      </trans-unit>
+      <trans-unit id="Could not add page to Reading list">
         <source>Could not add page to Reading list</source>
-        <target state="translated">មិន​អាច​បន្ថែម​ទំព័រ​ទៅ​បញ្ជី​អាន​បាន​ទេ</target><note>Accessibility message e.g. spoken by VoiceOver after adding current webpage to the Reading List failed.</note>
-      <note>Accessibility message e.g. spoken by VoiceOver after adding current webpage to the Reading List failed.</note></trans-unit>
-      <trans-unit id="Could not load page." approved="yes">
+        <target>មិន​អាច​បន្ថែម​ទំព័រ​ទៅ​បញ្ជី​អាន​បាន​ទេ</target>
+        <note>Accessibility message e.g. spoken by VoiceOver after adding current webpage to the Reading List failed.</note>
+      </trans-unit>
+      <trans-unit id="Could not load page.">
         <source>Could not load page.</source>
-        <target state="translated">មិន​អាច​ផ្ទុក​ទំព័រ​បាន​ទេ។</target><note>Error message that is shown in settings when there was a problem loading</note>
-      <note>Error message that is shown in settings when there was a problem loading</note></trans-unit>
-      <trans-unit id="Create an account" approved="yes">
+        <target>មិន​អាច​ផ្ទុក​ទំព័រ​បាន​ទេ។</target>
+        <note>Error message that is shown in settings when there was a problem loading</note>
+      </trans-unit>
+      <trans-unit id="Create an account">
         <source>Create an account</source>
-        <target state="translated">បង្កើត​គណនី</target><note>See http://mzl.la/1Qtkf0j</note>
-      <note>See http://mzl.la/1Qtkf0j</note></trans-unit>
-      <trans-unit id="Dark" approved="yes">
+        <target>បង្កើត​គណនី</target>
+        <note>See http://mzl.la/1Qtkf0j</note>
+      </trans-unit>
+      <trans-unit id="Dark">
         <source>Dark</source>
-        <target state="translated">ងងឹត</target><note>Dark theme setting in Reading View settings</note>
-      <note>Dark theme setting in Reading View settings</note></trans-unit>
-      <trans-unit id="Debug: forget Sync auth state" approved="yes">
+        <target>ងងឹត</target>
+        <note>Dark theme setting in Reading View settings</note>
+      </trans-unit>
+      <trans-unit id="Debug: forget Sync auth state">
         <source>Debug: forget Sync auth state</source>
-        <target state="translated">កែ​កំហុស៖ បំភ្លេច​​សភាព​​អនុញ្ញាត​​ធ្វើ​សមកាលកម្ម</target><note>Debug option</note>
-      <note>Debug option</note></trans-unit>
-      <trans-unit id="Debug: require password" approved="yes">
+        <target>កែ​កំហុស៖ បំភ្លេច​​សភាព​​អនុញ្ញាត​​ធ្វើ​សមកាលកម្ម</target>
+        <note>Debug option</note>
+      </trans-unit>
+      <trans-unit id="Debug: require password">
         <source>Debug: require password</source>
-        <target state="translated">កែ​កំហុស៖ ទាមទារ​ពាក្យ​សម្ងាត់</target><note>Debug option</note>
-      <note>Debug option</note></trans-unit>
-      <trans-unit id="Debug: require upgrade" approved="yes">
+        <target>កែ​កំហុស៖ ទាមទារ​ពាក្យ​សម្ងាត់</target>
+        <note>Debug option</note>
+      </trans-unit>
+      <trans-unit id="Debug: require upgrade">
         <source>Debug: require upgrade</source>
-        <target state="translated">កែ​កំហុស៖ ទាមទារ​ដំឡើង​កំណែ</target><note>Debug option</note>
-      <note>Debug option</note></trans-unit>
-      <trans-unit id="Decrease text size" approved="yes">
+        <target>កែ​កំហុស៖ ទាមទារ​ដំឡើង​កំណែ</target>
+        <note>Debug option</note>
+      </trans-unit>
+      <trans-unit id="Decrease text size">
         <source>Decrease text size</source>
-        <target state="translated">បន្ថយ​ទំហំ​អត្ថបទ</target><note>Accessibility label for button decreasing font size in display settings of reader mode</note>
-      <note>Accessibility label for button decreasing font size in display settings of reader mode</note></trans-unit>
-      <trans-unit id="Default Search Engine" approved="yes">
+        <target>បន្ថយ​ទំហំ​អត្ថបទ</target>
+        <note>Accessibility label for button decreasing font size in display settings of reader mode</note>
+      </trans-unit>
+      <trans-unit id="Default Search Engine">
         <source>Default Search Engine</source>
-        <target state="translated">ម៉ាស៊ីន​ស្វែងរក​លំនាំដើម</target><note>Accessibility label for default search engine setting.
+        <target>ម៉ាស៊ីន​ស្វែងរក​លំនាំដើម</target>
+        <note>Accessibility label for default search engine setting.
    Title for default search engine picker.
    Title for default search engine settings section.</note>
-      <note>Accessibility label for default search engine setting. Title for default search engine picker. Title for default search engine settings section.</note></trans-unit>
-      <trans-unit id="Display Settings" approved="yes">
+      </trans-unit>
+      <trans-unit id="Display Settings">
         <source>Display Settings</source>
-        <target state="translated">ការ​កំណត់​បង្ហាញ</target><note>Name for display settings button in reader mode. Display in the meaning of presentation, not monitor.</note>
-      <note>Name for display settings button in reader mode. Display in the meaning of presentation, not monitor.</note></trans-unit>
-      <trans-unit id="Do you want to save the password for %@ on %@?" approved="yes">
+        <target>ការ​កំណត់​បង្ហាញ</target>
+        <note>Name for display settings button in reader mode. Display in the meaning of presentation, not monitor.</note>
+      </trans-unit>
+      <trans-unit id="Do you want to save the password for %@ on %@?">
         <source>Do you want to save the password for %1$@ on %2$@?</source>
-        <target state="translated">តើ​អ្នក​ចង់​រក្សាទុក​ពាក្យ​សម្ងាត់​សម្រាប់ %1$@ នៅ​លើ %2$@ ដែរ​ ឬ​ទេ?</target><note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
-      <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note></trans-unit>
-      <trans-unit id="Do you want to save the password on %@?" approved="yes">
+        <target>តើ​អ្នក​ចង់​រក្សាទុក​ពាក្យ​សម្ងាត់​សម្រាប់ %1$@ នៅ​លើ %2$@ ដែរ​ ឬ​ទេ?</target>
+        <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
+      </trans-unit>
+      <trans-unit id="Do you want to save the password on %@?">
         <source>Do you want to save the password on %@?</source>
-        <target state="translated">តើ​អ្នក​ចង់​រក្សាទុក​ពាក្យ​សម្ងាត់​នៅ​លើ​ %@ ដែរ ឬ​ទេ?</target><note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
-      <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note></trans-unit>
-      <trans-unit id="Do you want to update the password for %@ on %@?" approved="yes">
+        <target>តើ​អ្នក​ចង់​រក្សាទុក​ពាក្យ​សម្ងាត់​នៅ​លើ​ %@ ដែរ ឬ​ទេ?</target>
+        <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
+      </trans-unit>
+      <trans-unit id="Do you want to update the password for %@ on %@?">
         <source>Do you want to update the password for %1$@ on %2$@?</source>
-        <target state="translated">តើ​អ្នក​ចង់​ធ្វើ​បច្ចុប្បន្នភាព​ពាក្យ​សម្ងាត់​សម្រាប់ %1$@ នៅ​លើ %2$@ ដែរ ឬ​ទេ?</target><note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
-      <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note></trans-unit>
-      <trans-unit id="Do you want to update the password on %@?" approved="yes">
+        <target>តើ​អ្នក​ចង់​ធ្វើ​បច្ចុប្បន្នភាព​ពាក្យ​សម្ងាត់​សម្រាប់ %1$@ នៅ​លើ %2$@ ដែរ ឬ​ទេ?</target>
+        <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
+      </trans-unit>
+      <trans-unit id="Do you want to update the password on %@?">
         <source>Do you want to update the password on %@?</source>
-        <target state="translated">តើ​អ្នក​ចង់​ធ្វើ​បច្ចុប្បន្នភាព​ពាក្យ​សម្ងាត់​នៅ​លើ %@ ដែរ​ ឬ​ទេ?</target><note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
-      <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note></trans-unit>
-      <trans-unit id="Done" approved="yes">
+        <target>តើ​អ្នក​ចង់​ធ្វើ​បច្ចុប្បន្នភាព​ពាក្យ​សម្ងាត់​នៅ​លើ %@ ដែរ​ ឬ​ទេ?</target>
+        <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
+      </trans-unit>
+      <trans-unit id="Done">
         <source>Done</source>
-        <target state="translated">ធ្វើ​រួច</target><note>Done button on left side of the Settings view controller title bar
+        <target>ធ្វើ​រួច</target>
+        <note>Done button on left side of the Settings view controller title bar
    Done editing button</note>
-      <note>Done button on left side of the Settings view controller title bar Done editing button</note></trans-unit>
-      <trans-unit id="Double tap and hold to open history" approved="yes">
+      </trans-unit>
+      <trans-unit id="Double tap and hold to open history">
         <source>Double tap and hold to open history</source>
-        <target state="translated">ប៉ះ​ទ្វេ​ដង​ឲ្យ​ជាប់​ដើម្បី​បើក​ប្រវត្តិ</target><note>No comment provided by engineer.</note>
-      <note>No comment provided by engineer.</note></trans-unit>
-      <trans-unit id="Enter your password to connect." approved="yes">
+        <target>ប៉ះ​ទ្វេ​ដង​ឲ្យ​ជាប់​ដើម្បី​បើក​ប្រវត្តិ</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Enter your password to connect.">
         <source>Enter your password to connect.</source>
-        <target state="translated">បញ្ចូល​ពាក្យ​សម្ងាត់​របស់​អ្នក​ដើម្បី​តភ្ជាប់។</target><note>Text message in the settings table view</note>
-      <note>Text message in the settings table view</note></trans-unit>
-      <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device." approved="yes">
+        <target>បញ្ចូល​ពាក្យ​សម្ងាត់​របស់​អ្នក​ដើម្បី​តភ្ជាប់។</target>
+        <note>Text message in the settings table view</note>
+      </trans-unit>
+      <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.">
         <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
-        <target state="translated">Firefox នឹង​ឈប់​ធ្វើ​សមកាលកម្ម​ជាមួយ​គណនី​របស់​អ្នក ប៉ុន្តែ​នឹង​មិន​លុប​ទិន្នន័យ​​ដែល​រក​មើល​​របស់​អ្នក​ណា​មួយ​​នៅ​លើ​ឧបករណ៍​នេះ​ទេ។</target><note>Text of the 'log out firefox account' alert</note>
-      <note>Text of the 'log out firefox account' alert</note></trans-unit>
-      <trans-unit id="Firefox would like to access your Photos" approved="yes">
+        <target>Firefox នឹង​ឈប់​ធ្វើ​សមកាលកម្ម​ជាមួយ​គណនី​របស់​អ្នក ប៉ុន្តែ​នឹង​មិន​លុប​ទិន្នន័យ​​ដែល​រក​មើល​​របស់​អ្នក​ណា​មួយ​​នៅ​លើ​ឧបករណ៍​នេះ​ទេ។</target>
+        <note>Text of the 'log out firefox account' alert</note>
+      </trans-unit>
+      <trans-unit id="Firefox would like to access your Photos">
         <source>Firefox would like to access your Photos</source>
-        <target state="translated">Firefox ចង់​ចូល​​​ប្រើ​រូបថត​របស់​អ្នក</target><note>See http://mzl.la/1G7uHo7</note>
-      <note>See http://mzl.la/1G7uHo7</note></trans-unit>
-      <trans-unit id="Forward" approved="yes">
+        <target>Firefox ចង់​ចូល​​​ប្រើ​រូបថត​របស់​អ្នក</target>
+        <note>See http://mzl.la/1G7uHo7</note>
+      </trans-unit>
+      <trans-unit id="Forward">
         <source>Forward</source>
-        <target state="translated">បញ្ជូន​បន្ត</target><note>Accessibility Label for the browser toolbar Forward button</note>
-      <note>Accessibility Label for the browser toolbar Forward button</note></trans-unit>
-      <trans-unit id="General" approved="yes">
+        <target>បញ្ជូន​បន្ត</target>
+        <note>Accessibility Label for the browser toolbar Forward button</note>
+      </trans-unit>
+      <trans-unit id="General">
         <source>General</source>
-        <target state="translated">ទូទៅ</target><note>General settings section title</note>
-      <note>General settings section title</note></trans-unit>
-      <trans-unit id="Help" approved="yes">
+        <target>ទូទៅ</target>
+        <note>General settings section title</note>
+      </trans-unit>
+      <trans-unit id="Help">
         <source>Help</source>
-        <target state="translated">ជំនួយ</target><note>Show the SUMO support page from the Support section in the settings. see http://mzl.la/1dmM8tZ</note>
-      <note>Show the SUMO support page from the Support section in the settings. see http://mzl.la/1dmM8tZ</note></trans-unit>
-      <trans-unit id="History" approved="yes">
+        <target>ជំនួយ</target>
+        <note>Show the SUMO support page from the Support section in the settings. see http://mzl.la/1dmM8tZ</note>
+      </trans-unit>
+      <trans-unit id="History">
         <source>History</source>
-        <target state="translated">ប្រវត្តិ</target><note>Panel accessibility label</note>
-      <note>Panel accessibility label</note></trans-unit>
-      <trans-unit id="Increase text size" approved="yes">
+        <target>ប្រវត្តិ</target>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Increase text size">
         <source>Increase text size</source>
-        <target state="translated">បង្កើន​ទំហំ​អត្ថបទ</target><note>Accessibility label for button increasing font size in display settings of reader mode</note>
-      <note>Accessibility label for button increasing font size in display settings of reader mode</note></trans-unit>
-      <trans-unit id="Last month" approved="yes">
+        <target>បង្កើន​ទំហំ​អត្ថបទ</target>
+        <note>Accessibility label for button increasing font size in display settings of reader mode</note>
+      </trans-unit>
+      <trans-unit id="Last month">
         <source>Last month</source>
-        <target state="translated">ខែ​មុន</target><note>History tableview section header</note>
-      <note>History tableview section header</note></trans-unit>
-      <trans-unit id="Last synced: %@" approved="yes">
+        <target>ខែ​មុន</target>
+        <note>History tableview section header</note>
+      </trans-unit>
+      <trans-unit id="Last synced: %@">
         <source>Last synced: %@</source>
-        <target state="translated">បាន​ធ្វើ​សមកាល​កម្ម​ចុងក្រោយ៖ %@</target><note>Remote tabs last synced time. Argument is the relative date string.</note>
-      <note>Remote tabs last synced time. Argument is the relative date string.</note></trans-unit>
-      <trans-unit id="Last week" approved="yes">
+        <target>បាន​ធ្វើ​សមកាល​កម្ម​ចុងក្រោយ៖ %@</target>
+        <note>Remote tabs last synced time. Argument is the relative date string.</note>
+      </trans-unit>
+      <trans-unit id="Last week">
         <source>Last week</source>
-        <target state="translated">សប្ដាហ៍​មុន</target><note>History tableview section header</note>
-      <note>History tableview section header</note></trans-unit>
-      <trans-unit id="Licenses" approved="yes">
+        <target>សប្ដាហ៍​មុន</target>
+        <note>History tableview section header</note>
+      </trans-unit>
+      <trans-unit id="Licenses">
         <source>Licenses</source>
-        <target state="translated">អាជ្ញាប័ណ្ណ</target><note>Settings item that opens a tab containing the licenses. See http://mzl.la/1NSAWCG</note>
-      <note>Settings item that opens a tab containing the licenses. See http://mzl.la/1NSAWCG</note></trans-unit>
-      <trans-unit id="Light" approved="yes">
+        <target>អាជ្ញាប័ណ្ណ</target>
+        <note>Settings item that opens a tab containing the licenses. See http://mzl.la/1NSAWCG</note>
+      </trans-unit>
+      <trans-unit id="Light">
         <source>Light</source>
-        <target state="translated">ភ្លឺ</target><note>Light theme setting in Reading View settings</note>
-      <note>Light theme setting in Reading View settings</note></trans-unit>
-      <trans-unit id="Load original page" approved="yes">
+        <target>ភ្លឺ</target>
+        <note>Light theme setting in Reading View settings</note>
+      </trans-unit>
+      <trans-unit id="Load original page">
         <source>Load original page</source>
-        <target state="translated">ផ្ទុក​ទំព័រ​ដើម</target><note>Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
-      <note>Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note></trans-unit>
-      <trans-unit id="Loading content…" approved="yes">
+        <target>ផ្ទុក​ទំព័រ​ដើម</target>
+        <note>Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
+      </trans-unit>
+      <trans-unit id="Loading content…">
         <source>Loading content…</source>
-        <target state="translated">កំពុង​ផ្ទុក​មាតិកា...</target><note>Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app.</note>
-      <note>Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app.</note></trans-unit>
-      <trans-unit id="Log Out" approved="yes">
+        <target>កំពុង​ផ្ទុក​មាតិកា...</target>
+        <note>Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app.</note>
+      </trans-unit>
+      <trans-unit id="Log Out">
         <source>Log Out</source>
-        <target state="translated">ចេញ</target><note>Button in settings screen to disconnect from your account
+        <target>ចេញ</target>
+        <note>Button in settings screen to disconnect from your account
    Disconnect button in the 'log out firefox account' alert</note>
-      <note>Button in settings screen to disconnect from your account Disconnect button in the 'log out firefox account' alert</note></trans-unit>
-      <trans-unit id="Log Out?" approved="yes">
+      </trans-unit>
+      <trans-unit id="Log Out?">
         <source>Log Out?</source>
-        <target state="translated">ចេញ?</target><note>Title of the 'log out firefox account' alert</note>
-      <note>Title of the 'log out firefox account' alert</note></trans-unit>
-      <trans-unit id="Log in" approved="yes">
+        <target>ចេញ?</target>
+        <note>Title of the 'log out firefox account' alert</note>
+      </trans-unit>
+      <trans-unit id="Log in">
         <source>Log in</source>
-        <target state="translated">ចូល</target><note>Authentication prompt log in button</note>
-      <note>Authentication prompt log in button</note></trans-unit>
-      <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?" approved="yes">
+        <target>ចូល</target>
+        <note>Authentication prompt log in button</note>
+      </trans-unit>
+      <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?">
         <source>Looks like Firefox crashed previously. Would you like to restore your tabs?</source>
-        <target state="translated">Firefox ដូចជា​បាន​គាំង​កាល​ពី​មុន។ តើ​អ្នក​ចង់​ស្ដារ​ផ្ទាំង​របស់​អ្នក​មែន​ទេ?</target><note>Restore Tabs Prompt Description</note>
-      <note>Restore Tabs Prompt Description</note></trans-unit>
-      <trans-unit id="Mark as Read" approved="yes">
+        <target>Firefox ដូចជា​បាន​គាំង​កាល​ពី​មុន។ តើ​អ្នក​ចង់​ស្ដារ​ផ្ទាំង​របស់​អ្នក​មែន​ទេ?</target>
+        <note>Restore Tabs Prompt Description</note>
+      </trans-unit>
+      <trans-unit id="Mark as Read">
         <source>Mark as Read</source>
-        <target state="translated">សម្គាល់​ថា​អាន</target><note>Name for Mark as read button in reader mode
+        <target>សម្គាល់​ថា​អាន</target>
+        <note>Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read</note>
-      <note>Name for Mark as read button in reader mode Title for the button that marks a reading list item as read</note></trans-unit>
-      <trans-unit id="Mark as Unread" approved="yes">
+      </trans-unit>
+      <trans-unit id="Mark as Unread">
         <source>Mark as Unread</source>
-        <target state="translated">សម្គាល់​ថា​មិន​ទាន់​អាន</target><note>Name for Mark as unread button in reader mode
+        <target>សម្គាល់​ថា​មិន​ទាន់​អាន</target>
+        <note>Name for Mark as unread button in reader mode
    Title for the button that marks a reading list item as unread</note>
-      <note>Name for Mark as unread button in reader mode Title for the button that marks a reading list item as unread</note></trans-unit>
-      <trans-unit id="Missing error" approved="yes">
+      </trans-unit>
+      <trans-unit id="Missing error">
         <source>Missing error</source>
-        <target state="translated">កំហុស​ដែល​បាត់</target><note>Error for a missing remote error number</note>
-      <note>Error for a missing remote error number</note></trans-unit>
-      <trans-unit id="Missing message" approved="yes">
+        <target>កំហុស​ដែល​បាត់</target>
+        <note>Error for a missing remote error number</note>
+      </trans-unit>
+      <trans-unit id="Missing message">
         <source>Missing message</source>
-        <target state="translated">សារ​ដែល​បាត់</target><note>Error for a missing remote error message</note>
-      <note>Error for a missing remote error message</note></trans-unit>
-      <trans-unit id="Navigation Toolbar" approved="yes">
+        <target>សារ​ដែល​បាត់</target>
+        <note>Error for a missing remote error message</note>
+      </trans-unit>
+      <trans-unit id="Navigation Toolbar">
         <source>Navigation Toolbar</source>
-        <target state="translated">របារ​ឧបករណ៍​រុករក​</target><note>Accessibility label for the navigation toolbar displayed at the bottom of the screen.</note>
-      <note>Accessibility label for the navigation toolbar displayed at the bottom of the screen.</note></trans-unit>
-      <trans-unit id="New tab: %@: %@" approved="yes">
+        <target>របារ​ឧបករណ៍​រុករក​</target>
+        <note>Accessibility label for the navigation toolbar displayed at the bottom of the screen.</note>
+      </trans-unit>
+      <trans-unit id="New tab: %@: %@">
         <source>New tab: %1$@: %2$@</source>
-        <target state="translated">ផ្ទាំង​ថ្មី៖ %1$@: %2$@</target><note>New tab [title] [url]</note>
-      <note>New tab [title] [url]</note></trans-unit>
-      <trans-unit id="New version available" approved="yes">
+        <target>ផ្ទាំង​ថ្មី៖ %1$@: %2$@</target>
+        <note>New tab [title] [url]</note>
+      </trans-unit>
+      <trans-unit id="New version available">
         <source>New version available</source>
-        <target state="translated">មាន​កំណែ​ថ្មី</target><note>Prompt title for application update</note>
-      <note>Prompt title for application update</note></trans-unit>
-      <trans-unit id="No" approved="yes">
+        <target>មាន​កំណែ​ថ្មី</target>
+        <note>Prompt title for application update</note>
+      </trans-unit>
+      <trans-unit id="No">
         <source>No</source>
-        <target state="translated">ទេ</target><note>Restore Tabs Negative Action</note>
-      <note>Restore Tabs Negative Action</note></trans-unit>
-      <trans-unit id="No tabs" approved="yes">
+        <target>ទេ</target>
+        <note>Restore Tabs Negative Action</note>
+      </trans-unit>
+      <trans-unit id="No tabs">
         <source>No tabs</source>
-        <target state="translated">គ្មាន​ផ្ទាំង</target><note>Message spoken by VoiceOver to indicate that there are no tabs in the Tabs Tray</note>
-      <note>Message spoken by VoiceOver to indicate that there are no tabs in the Tabs Tray</note></trans-unit>
-      <trans-unit id="Not Now" approved="yes">
+        <target>គ្មាន​ផ្ទាំង</target>
+        <note>Message spoken by VoiceOver to indicate that there are no tabs in the Tabs Tray</note>
+      </trans-unit>
+      <trans-unit id="Not Now">
         <source>Not Now</source>
-        <target state="translated">មិន​មែន​ឥឡូវ</target><note>Label for button to cancel application update prompt</note>
-      <note>Label for button to cancel application update prompt</note></trans-unit>
-      <trans-unit id="Not now" approved="yes">
+        <target>មិន​មែន​ឥឡូវ</target>
+        <note>Label for button to cancel application update prompt</note>
+      </trans-unit>
+      <trans-unit id="Not now">
         <source>Not now</source>
-        <target state="translated">មិន​មែន​ឥឡូវ</target><note>Button to not save the user's password</note>
-      <note>Button to not save the user's password</note></trans-unit>
-      <trans-unit id="OK" approved="yes">
+        <target>មិន​មែន​ឥឡូវ</target>
+        <note>Button to not save the user's password</note>
+      </trans-unit>
+      <trans-unit id="OK">
         <source>OK</source>
-        <target state="translated">យល់ព្រម</target><note>Alert OK Button
+        <target>យល់ព្រម</target>
+        <note>Alert OK Button
    Label for OK button in the application update prompt
    OK button</note>
-      <note>Alert OK Button Label for OK button in the application update prompt OK button</note></trans-unit>
-      <trans-unit id="Okay" approved="yes">
+      </trans-unit>
+      <trans-unit id="Okay">
         <source>Okay</source>
-        <target state="translated">យល់ព្រម</target><note>Restore Tabs Affirmative Action</note>
-      <note>Restore Tabs Affirmative Action</note></trans-unit>
-      <trans-unit id="Open In New Tab" approved="yes">
+        <target>យល់ព្រម</target>
+        <note>Restore Tabs Affirmative Action</note>
+      </trans-unit>
+      <trans-unit id="Open In New Tab">
         <source>Open In New Tab</source>
-        <target state="translated">បើក​នៅ​ក្នុង​ផ្ទាំង​ថ្មី</target><note>Context menu item for opening a link in a new tab</note>
-      <note>Context menu item for opening a link in a new tab</note></trans-unit>
-      <trans-unit id="Open Settings" approved="yes">
+        <target>បើក​នៅ​ក្នុង​ផ្ទាំង​ថ្មី</target>
+        <note>Context menu item for opening a link in a new tab</note>
+      </trans-unit>
+      <trans-unit id="Open Settings">
         <source>Open Settings</source>
-        <target state="translated">បើក​ការ​កំណត់</target><note>See http://mzl.la/1G7uHo7</note>
-      <note>See http://mzl.la/1G7uHo7</note></trans-unit>
-      <trans-unit id="Open articles in Reader View by tapping the book icon when it appears in the title bar." approved="yes">
+        <target>បើក​ការ​កំណត់</target>
+        <note>See http://mzl.la/1G7uHo7</note>
+      </trans-unit>
+      <trans-unit id="Open articles in Reader View by tapping the book icon when it appears in the title bar.">
         <source>Open articles in Reader View by tapping the book icon when it appears in the title bar.</source>
-        <target state="translated">បើក​អត្ថបទ​នៅ​ក្នុង​​ទិដ្ឋភាព​អ្នក​អាន​ដោយ​ប៉ះ​រូបតំណាង​សៀវភៅ​នៅ​ពេល​វា​បង្ហាញ​នៅ​ក្នុង​របារ​ចំណងជើង។</target><note>See http://mzl.la/1LXbDOL</note>
-      <note>See http://mzl.la/1LXbDOL</note></trans-unit>
-      <trans-unit id="Opening %@" approved="yes">
+        <target>បើក​អត្ថបទ​នៅ​ក្នុង​​ទិដ្ឋភាព​អ្នក​អាន​ដោយ​ប៉ះ​រូបតំណាង​សៀវភៅ​នៅ​ពេល​វា​បង្ហាញ​នៅ​ក្នុង​របារ​ចំណងជើង។</target>
+        <note>See http://mzl.la/1LXbDOL</note>
+      </trans-unit>
+      <trans-unit id="Opening %@">
         <source>Opening %@</source>
-        <target state="translated">កំពុង​បើក %@</target><note>Opening an external URL</note>
-      <note>Opening an external URL</note></trans-unit>
-      <trans-unit id="Pages you have visited recently will show up here." approved="yes">
+        <target>កំពុង​បើក %@</target>
+        <note>Opening an external URL</note>
+      </trans-unit>
+      <trans-unit id="Pages you have visited recently will show up here.">
         <source>Pages you have visited recently will show up here.</source>
-        <target state="translated">ទំព័រ​ដែល​អ្នក​បាន​ចូល​មើល​ថ្មីៗ​នឹង​បង្ហាញ​នៅ​ទីនេះ។</target><note>See http://bit.ly/1I7Do4b</note>
-      <note>See http://bit.ly/1I7Do4b</note></trans-unit>
-      <trans-unit id="Panel Chooser" approved="yes">
+        <target>ទំព័រ​ដែល​អ្នក​បាន​ចូល​មើល​ថ្មីៗ​នឹង​បង្ហាញ​នៅ​ទីនេះ។</target>
+        <note>See http://bit.ly/1I7Do4b</note>
+      </trans-unit>
+      <trans-unit id="Panel Chooser">
         <source>Panel Chooser</source>
-        <target state="translated">កម្មវិធី​ជ្រើស​ស្លាបព្រិល</target><note>Accessibility label for the Home panel's top toolbar containing list of the home panels (top sites, bookmarsk, history, remote tabs, reading list).</note>
-      <note>Accessibility label for the Home panel's top toolbar containing list of the home panels (top sites, bookmarsk, history, remote tabs, reading list).</note></trans-unit>
-      <trans-unit id="Password" approved="yes">
+        <target>កម្មវិធី​ជ្រើស​ស្លាបព្រិល</target>
+        <note>Accessibility label for the Home panel's top toolbar containing list of the home panels (top sites, bookmarsk, history, remote tabs, reading list).</note>
+      </trans-unit>
+      <trans-unit id="Password">
         <source>Password</source>
-        <target state="translated">ពាក្យ​សម្ងាត់</target><note>Password textbox in Authentication prompt</note>
-      <note>Password textbox in Authentication prompt</note></trans-unit>
-      <trans-unit id="Paste" approved="yes">
+        <target>ពាក្យ​សម្ងាត់</target>
+        <note>Password textbox in Authentication prompt</note>
+      </trans-unit>
+      <trans-unit id="Paste">
         <source>Paste</source>
-        <target state="translated">បិទ​ភ្ជាប់</target><note>Paste the URL into the location bar</note>
-      <note>Paste the URL into the location bar</note></trans-unit>
-      <trans-unit id="Paste &amp; Go" approved="yes">
+        <target>បិទ​ភ្ជាប់</target>
+        <note>Paste the URL into the location bar</note>
+      </trans-unit>
+      <trans-unit id="Paste &amp; Go">
         <source>Paste &amp; Go</source>
-        <target state="translated">បិទ​ភ្ជាប់ &amp; ទៅ</target><note>Paste the URL into the location bar and visit</note>
-      <note>Paste the URL into the location bar and visit</note></trans-unit>
-      <trans-unit id="Privacy" approved="yes">
+        <target>បិទ​ភ្ជាប់ &amp; ទៅ</target>
+        <note>Paste the URL into the location bar and visit</note>
+      </trans-unit>
+      <trans-unit id="Privacy">
         <source>Privacy</source>
-        <target state="translated">ភាព​ឯកជន</target><note>Privacy section title</note>
-      <note>Privacy section title</note></trans-unit>
-      <trans-unit id="Privacy Policy" approved="yes">
+        <target>ភាព​ឯកជន</target>
+        <note>Privacy section title</note>
+      </trans-unit>
+      <trans-unit id="Privacy Policy">
         <source>Privacy Policy</source>
-        <target state="translated">គោលនយោបាយ​ឯកជន</target><note>Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/</note>
-      <note>Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/</note></trans-unit>
-      <trans-unit id="Quick-search Engines" approved="yes">
+        <target>គោលនយោបាយ​ឯកជន</target>
+        <note>Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/</note>
+      </trans-unit>
+      <trans-unit id="Quick-search Engines">
         <source>Quick-search Engines</source>
-        <target state="translated">ម៉ាស៊ីន​ស្វែងរក​រហ័ស</target><note>Title for quick-search engines settings section.</note>
-      <note>Title for quick-search engines settings section.</note></trans-unit>
-      <trans-unit id="Reader View" approved="yes">
+        <target>ម៉ាស៊ីន​ស្វែងរក​រហ័ស</target>
+        <note>Title for quick-search engines settings section.</note>
+      </trans-unit>
+      <trans-unit id="Reader View">
         <source>Reader View</source>
-        <target state="translated">ទិដ្ឋភាព​អ្នក​មើល</target><note>Accessibility label for the Reader View button</note>
-      <note>Accessibility label for the Reader View button</note></trans-unit>
-      <trans-unit id="Reading list" approved="yes">
+        <target>ទិដ្ឋភាព​អ្នក​មើល</target>
+        <note>Accessibility label for the Reader View button</note>
+      </trans-unit>
+      <trans-unit id="Reading list">
         <source>Reading list</source>
-        <target state="translated">បញ្ជី​អាន</target><note>Panel accessibility label</note>
-      <note>Panel accessibility label</note></trans-unit>
-      <trans-unit id="Reload" approved="yes">
+        <target>បញ្ជី​អាន</target>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Reload">
         <source>Reload</source>
-        <target state="translated">ផ្ទុក​ឡើងវិញ</target><note>Accessibility Label for the browser toolbar Reload button</note>
-      <note>Accessibility Label for the browser toolbar Reload button</note></trans-unit>
-      <trans-unit id="Remove" approved="yes">
+        <target>ផ្ទុក​ឡើងវិញ</target>
+        <note>Accessibility Label for the browser toolbar Reload button</note>
+      </trans-unit>
+      <trans-unit id="Remove">
         <source>Remove</source>
-        <target state="translated">លុប​ចេញ</target><note>Title for the button that removes a reading list item</note>
-      <note>Title for the button that removes a reading list item</note></trans-unit>
-      <trans-unit id="Remove from Reading List" approved="yes">
+        <target>លុប​ចេញ</target>
+        <note>Title for the button that removes a reading list item</note>
+      </trans-unit>
+      <trans-unit id="Remove from Reading List">
         <source>Remove from Reading List</source>
-        <target state="translated">លុប​ចេញពី​បញ្ជី​អាន</target><note>Name for button removing current article from reading list in reader mode</note>
-      <note>Name for button removing current article from reading list in reader mode</note></trans-unit>
-      <trans-unit id="Sans-serif" approved="yes">
+        <target>លុប​ចេញពី​បញ្ជី​អាន</target>
+        <note>Name for button removing current article from reading list in reader mode</note>
+      </trans-unit>
+      <trans-unit id="Sans-serif">
         <source>Sans-serif</source>
-        <target state="translated">Sans-serif</target><note>Font type setting in the reading view settings</note>
-      <note>Font type setting in the reading view settings</note></trans-unit>
-      <trans-unit id="Save" approved="yes">
+        <target>Sans-serif</target>
+        <note>Font type setting in the reading view settings</note>
+      </trans-unit>
+      <trans-unit id="Save">
         <source>Save</source>
-        <target state="translated">រក្សាទុក</target><note>Button to save the user's password</note>
-      <note>Button to save the user's password</note></trans-unit>
-      <trans-unit id="Save Image" approved="yes">
+        <target>រក្សាទុក</target>
+        <note>Button to save the user's password</note>
+      </trans-unit>
+      <trans-unit id="Save Image">
         <source>Save Image</source>
-        <target state="translated">រក្សាទុក​រូបភាព</target><note>Context menu item for saving an image</note>
-      <note>Context menu item for saving an image</note></trans-unit>
-      <trans-unit id="Save pages to your Reading List by tapping the book plus icon in the Reader View controls." approved="yes">
+        <target>រក្សាទុក​រូបភាព</target>
+        <note>Context menu item for saving an image</note>
+      </trans-unit>
+      <trans-unit id="Save pages to your Reading List by tapping the book plus icon in the Reader View controls.">
         <source>Save pages to your Reading List by tapping the book plus icon in the Reader View controls.</source>
-        <target state="translated">រក្សាទុក​ទំព័រ​​ទៅ​បញ្ជី​អាន​របស់​អ្នក​ដោយ​ប៉ះ​រូបតំណាងបូក​សៀវភៅ​នៅ​ក្នុង​ការ​គ្រប់គ្រង​ទិដ្ឋភាព​​អ្នក​អាន។</target><note>See http://mzl.la/1LXbDOL</note>
-      <note>See http://mzl.la/1LXbDOL</note></trans-unit>
-      <trans-unit id="Search" approved="yes">
+        <target>រក្សាទុក​ទំព័រ​​ទៅ​បញ្ជី​អាន​របស់​អ្នក​ដោយ​ប៉ះ​រូបតំណាងបូក​សៀវភៅ​នៅ​ក្នុង​ការ​គ្រប់គ្រង​ទិដ្ឋភាព​​អ្នក​អាន។</target>
+        <note>See http://mzl.la/1LXbDOL</note>
+      </trans-unit>
+      <trans-unit id="Search">
         <source>Search</source>
-        <target state="translated">ស្វែងរក</target><note>Navigation title for search settings.
+        <target>ស្វែងរក</target>
+        <note>Navigation title for search settings.
    Open search section of settings</note>
-      <note>Navigation title for search settings. Open search section of settings</note></trans-unit>
-      <trans-unit id="Search or enter address" approved="yes">
+      </trans-unit>
+      <trans-unit id="Search or enter address">
         <source>Search or enter address</source>
-        <target state="translated">ស្វែងរក ឬ​បញ្ចូល​អាសយដ្ឋាន</target><note>The text shown in the URL bar on about:home</note>
-      <note>The text shown in the URL bar on about:home</note></trans-unit>
-      <trans-unit id="Searches for the suggestion" approved="yes">
+        <target>ស្វែងរក ឬ​បញ្ចូល​អាសយដ្ឋាន</target>
+        <note>The text shown in the URL bar on about:home</note>
+      </trans-unit>
+      <trans-unit id="Searches for the suggestion">
         <source>Searches for the suggestion</source>
-        <target state="translated">ស្វែងរក​ការ​ស្នើ</target><note>Accessibility hint describing the action performed when a search suggestion is clicked</note>
-      <note>Accessibility hint describing the action performed when a search suggestion is clicked</note></trans-unit>
-      <trans-unit id="Secure connection" approved="yes">
+        <target>ស្វែងរក​ការ​ស្នើ</target>
+        <note>Accessibility hint describing the action performed when a search suggestion is clicked</note>
+      </trans-unit>
+      <trans-unit id="Secure connection">
         <source>Secure connection</source>
-        <target state="translated">ការ​តភ្ជាប់​សុវត្ថិភាព</target><note>Accessibility label for the lock icon, which is only present if the connection is secure</note>
-      <note>Accessibility label for the lock icon, which is only present if the connection is secure</note></trans-unit>
-      <trans-unit id="Send Crash Reports" approved="yes">
+        <target>ការ​តភ្ជាប់​សុវត្ថិភាព</target>
+        <note>Accessibility label for the lock icon, which is only present if the connection is secure</note>
+      </trans-unit>
+      <trans-unit id="Send Crash Reports">
         <source>Send Crash Reports</source>
-        <target state="translated">ផ្ញើ​របាយការណ៍​ជាប់​គាំង</target><note>Setting to enable the sending of crash reports</note>
-      <note>Setting to enable the sending of crash reports</note></trans-unit>
-      <trans-unit id="Send Feedback" approved="yes">
+        <target>ផ្ញើ​របាយការណ៍​ជាប់​គាំង</target>
+        <note>Setting to enable the sending of crash reports</note>
+      </trans-unit>
+      <trans-unit id="Send Feedback">
         <source>Send Feedback</source>
-        <target state="translated">ផ្ញើ​មតិត្រឡប់</target><note>Show an input.mozilla.org page where people can submit feedback</note>
-      <note>Show an input.mozilla.org page where people can submit feedback</note></trans-unit>
-      <trans-unit id="Sepia" approved="yes">
+        <target>ផ្ញើ​មតិត្រឡប់</target>
+        <note>Show an input.mozilla.org page where people can submit feedback</note>
+      </trans-unit>
+      <trans-unit id="Sepia">
         <source>Sepia</source>
-        <target state="translated">Sepia</target><note>Sepia theme setting in Reading View settings</note>
-      <note>Sepia theme setting in Reading View settings</note></trans-unit>
-      <trans-unit id="Serif" approved="yes">
+        <target>Sepia</target>
+        <note>Sepia theme setting in Reading View settings</note>
+      </trans-unit>
+      <trans-unit id="Serif">
         <source>Serif</source>
-        <target state="translated">Serif</target><note>Font type setting in the reading view settings</note>
-      <note>Font type setting in the reading view settings</note></trans-unit>
-      <trans-unit id="Settings" approved="yes">
+        <target>Serif</target>
+        <note>Font type setting in the reading view settings</note>
+      </trans-unit>
+      <trans-unit id="Settings">
         <source>Settings</source>
-        <target state="translated">ការ​កំណត់</target><note>Accessibility label for the Settings button in the Tab Tray.
+        <target>ការ​កំណត់</target>
+        <note>Accessibility label for the Settings button in the Tab Tray.
    Settings</note>
-      <note>Accessibility label for the Settings button in the Tab Tray. Settings</note></trans-unit>
-      <trans-unit id="Share" approved="yes">
+      </trans-unit>
+      <trans-unit id="Share">
         <source>Share</source>
-        <target state="translated">ចែករំលែក</target><note>Accessibility Label for the browser toolbar Share button</note>
-      <note>Accessibility Label for the browser toolbar Share button</note></trans-unit>
-      <trans-unit id="Show Tabs" approved="yes">
+        <target>ចែករំលែក</target>
+        <note>Accessibility Label for the browser toolbar Share button</note>
+      </trans-unit>
+      <trans-unit id="Show Tabs">
         <source>Show Tabs</source>
-        <target state="translated">បង្ហាញ​ផ្ទាំង</target><note>Accessibility label for the tabs button in the (top) browser toolbar
+        <target>បង្ហាញ​ផ្ទាំង</target>
+        <note>Accessibility label for the tabs button in the (top) browser toolbar
    Accessibility Label for the tabs button in the browser toolbar</note>
-      <note>Accessibility label for the tabs button in the (top) browser toolbar Accessibility Label for the tabs button in the browser toolbar</note></trans-unit>
-      <trans-unit id="Show Tour" approved="yes">
+      </trans-unit>
+      <trans-unit id="Show Tour">
         <source>Show Tour</source>
-        <target state="translated">បង្ហាញ​ការ​មើល​សាក</target><note>Show the on-boarding screen again from the settings</note>
-      <note>Show the on-boarding screen again from the settings</note></trans-unit>
-      <trans-unit id="Show search suggestions" approved="yes">
+        <target>បង្ហាញ​ការ​មើល​សាក</target>
+        <note>Show the on-boarding screen again from the settings</note>
+      </trans-unit>
+      <trans-unit id="Show search suggestions">
         <source>Show search suggestions</source>
-        <target state="translated">បង្ហាញ​ការ​ស្នើ​ស្វែងរក</target><note>Label for show search suggestions setting.</note>
-      <note>Label for show search suggestions setting.</note></trans-unit>
-      <trans-unit id="Sign in" approved="yes">
+        <target>បង្ហាញ​ការ​ស្នើ​ស្វែងរក</target>
+        <note>Label for show search suggestions setting.</note>
+      </trans-unit>
+      <trans-unit id="Sign in">
         <source>Sign in</source>
-        <target state="translated">ចូល</target><note>Button that leads to Sign in section of the Settings sheet.
+        <target>ចូល</target>
+        <note>Button that leads to Sign in section of the Settings sheet.
    See http://mzl.la/1Qtkf0j
    Text message / button in the settings table view</note>
-      <note>Button that leads to Sign in section of the Settings sheet. See http://mzl.la/1Qtkf0j Text message / button in the settings table view</note></trans-unit>
-      <trans-unit id="Stop" approved="yes">
+      </trans-unit>
+      <trans-unit id="Stop">
         <source>Stop</source>
-        <target state="translated">ឈប់</target><note>Accessibility Label for the browser toolbar Stop button</note>
-      <note>Accessibility Label for the browser toolbar Stop button</note></trans-unit>
-      <trans-unit id="Support" approved="yes">
+        <target>ឈប់</target>
+        <note>Accessibility Label for the browser toolbar Stop button</note>
+      </trans-unit>
+      <trans-unit id="Support">
         <source>Support</source>
-        <target state="translated">ជួយគាំទ្រ</target><note>Support section title</note>
-      <note>Support section title</note></trans-unit>
-      <trans-unit id="Swipe right or left with three fingers to close the tab." approved="yes">
+        <target>ជួយគាំទ្រ</target>
+        <note>Support section title</note>
+      </trans-unit>
+      <trans-unit id="Swipe right or left with three fingers to close the tab.">
         <source>Swipe right or left with three fingers to close the tab.</source>
-        <target state="translated">អូស​ម្រាម​ដៃ​បី​​ទៅ​ស្ដាំ ឬ​ឆ្វេង​​ដើម្បី​បិទ​ផ្ទាំង។</target><note>Accessibility hint for tab tray's displayed tab.</note>
+        <target>អូស​ម្រាម​ដៃ​បី​​ទៅ​ស្ដាំ ឬ​ឆ្វេង​​ដើម្បី​បិទ​ផ្ទាំង។</target>
+        <note>Accessibility hint for tab tray's displayed tab.</note>
       </trans-unit>
-      <trans-unit id="Sync Now" approved="yes">
+      <trans-unit id="Sync Now">
         <source>Sync Now</source>
-        <target state="translated">ធ្វើ​សមកាលកម្ម​ឥឡូវ</target><note>Sync Firefox Account</note>
+        <target>ធ្វើ​សមកាលកម្ម​ឥឡូវ</target>
+        <note>Sync Firefox Account</note>
       </trans-unit>
-      <trans-unit id="Sync your tabs, bookmarks, passwords and more." approved="yes">
+      <trans-unit id="Sync your tabs, bookmarks, passwords and more.">
         <source>Sync your tabs, bookmarks, passwords and more.</source>
-        <target state="translated">ធ្វើ​សមកាលកម្ម​ផ្ទាំង ចំណាំ ពាក្យ​សម្ងាត់​របស់​អ្នក និង​អ្វី​​ច្រើន​ទៀត។</target><note>See http://mzl.la/1Qtkf0j</note>
+        <target>ធ្វើ​សមកាលកម្ម​ផ្ទាំង ចំណាំ ពាក្យ​សម្ងាត់​របស់​អ្នក និង​អ្វី​​ច្រើន​ទៀត។</target>
+        <note>See http://mzl.la/1Qtkf0j</note>
       </trans-unit>
-      <trans-unit id="Synced tabs" approved="yes">
+      <trans-unit id="Synced tabs">
         <source>Synced tabs</source>
-        <target state="translated">ផ្ទាំង​បាន​ធ្វើ​សមកាលកម្ម</target><note>Panel accessibility label</note>
+        <target>ផ្ទាំង​បាន​ធ្វើ​សមកាលកម្ម</target>
+        <note>Panel accessibility label</note>
       </trans-unit>
-      <trans-unit id="Syncing…" approved="yes">
+      <trans-unit id="Syncing…">
         <source>Syncing…</source>
-        <target state="translated">កំពុង​ធ្វើ​សមកាលកម្ម...</target><note>Syncing Firefox Account</note>
+        <target>កំពុង​ធ្វើ​សមកាលកម្ម...</target>
+        <note>Syncing Firefox Account</note>
       </trans-unit>
-      <trans-unit id="Tab %@ of %@" approved="yes">
+      <trans-unit id="Tab %@ of %@">
         <source>Tab %1$@ of %2$@</source>
-        <target state="translated">ផ្ទាំង %1$@ នៃ %2$@</target><note>Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray, along with the total number of tabs. E.g. \"Tab 2 of 5\" says that tab 2 is visible (and is the only visible tab), out of 5 tabs total.</note>
+        <target>ផ្ទាំង %1$@ នៃ %2$@</target>
+        <note>Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray, along with the total number of tabs. E.g. \"Tab 2 of 5\" says that tab 2 is visible (and is the only visible tab), out of 5 tabs total.</note>
       </trans-unit>
-      <trans-unit id="Tabs %@ to %@ of %@" approved="yes">
+      <trans-unit id="Tabs %@ to %@ of %@">
         <source>Tabs %1$@ to %2$@ of %3$@</source>
-        <target state="translated">ផ្ទាំង %1$@ ដល់ %2$@ នៃ %3$@</target><note>Message spoken by VoiceOver saying the range of tabs that are currently visible in Tabs Tray, along with the total number of tabs. E.g. \"Tabs 8 to 10 of 15\" says tabs 8, 9 and 10 are visible, out of 15 tabs total.</note>
+        <target>ផ្ទាំង %1$@ ដល់ %2$@ នៃ %3$@</target>
+        <note>Message spoken by VoiceOver saying the range of tabs that are currently visible in Tabs Tray, along with the total number of tabs. E.g. \"Tabs 8 to 10 of 15\" says tabs 8, 9 and 10 are visible, out of 15 tabs total.</note>
       </trans-unit>
-      <trans-unit id="Tabs Tray" approved="yes">
+      <trans-unit id="Tabs Tray">
         <source>Tabs Tray</source>
-        <target state="translated">បន្ទះ​ផ្ទាំង</target><note>Accessibility label for the Tabs Tray view.</note>
+        <target>បន្ទះ​ផ្ទាំង</target>
+        <note>Accessibility label for the Tabs Tray view.</note>
       </trans-unit>
-      <trans-unit id="The page could not be displayed in Reader View." approved="yes">
+      <trans-unit id="The page could not be displayed in Reader View.">
         <source>The page could not be displayed in Reader View.</source>
-        <target state="translated">មិន​អាច​បង្ហាញ​ទំព័រ​នៅ​ក្នុង​ទិដ្ឋភាព​អ្នក​អាន​បាន​ទេ។</target><note>Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
+        <target>មិន​អាច​បង្ហាញ​ទំព័រ​នៅ​ក្នុង​ទិដ្ឋភាព​អ្នក​អាន​បាន​ទេ។</target>
+        <note>Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
-      <trans-unit id="There is a new version available of Firefox Aurora. Tap OK to go to the download page." approved="yes">
+      <trans-unit id="There is a new version available of Firefox Aurora. Tap OK to go to the download page.">
         <source>There is a new version available of Firefox Aurora. Tap OK to go to the download page.</source>
-        <target state="translated">មាន​កំណែ Firefox Aurora ថ្មី។ សូម​ប៉ះ​យល់ព្រម​ដើម្បី​ទៅ​កាន់​ទំព័រ​ទាញ​យក។</target><note>Prompt message for application update</note>
+        <target>មាន​កំណែ Firefox Aurora ថ្មី។ សូម​ប៉ះ​យល់ព្រម​ដើម្បី​ទៅ​កាន់​ទំព័រ​ទាញ​យក។</target>
+        <note>Prompt message for application update</note>
       </trans-unit>
-      <trans-unit id="There was a problem accessing tabs from your other devices. Try again in a few moments." approved="yes">
+      <trans-unit id="There was a problem accessing tabs from your other devices. Try again in a few moments.">
         <source>There was a problem accessing tabs from your other devices. Try again in a few moments.</source>
-        <target state="translated">មាន​បញ្ហា​ក្នុង​ការ​ចូល​ទៅ​ផ្ទាំង​ពី​ឧបករណ៍​ផ្សេង​របស់​អ្នក។ សូម​ព្យាយាម​ម្ដង​ទៀត​នៅ​ប៉ុន្មាន​នាទី​ទៀត។</target><note>Error message in the remote tabs panel</note>
+        <target>មាន​បញ្ហា​ក្នុង​ការ​ចូល​ទៅ​ផ្ទាំង​ពី​ឧបករណ៍​ផ្សេង​របស់​អ្នក។ សូម​ព្យាយាម​ម្ដង​ទៀត​នៅ​ប៉ុន្មាន​នាទី​ទៀត។</target>
+        <note>Error message in the remote tabs panel</note>
       </trans-unit>
-      <trans-unit id="There was an error converting the page" approved="yes">
+      <trans-unit id="There was an error converting the page">
         <source>There was an error converting the page</source>
-        <target state="translated">មាន​បញ្ហា​ក្នុង​ការ​បម្លែង​ទំព័រ</target><note>Error displayed when reader mode cannot be enabled</note>
+        <target>មាន​បញ្ហា​ក្នុង​ការ​បម្លែង​ទំព័រ</target>
+        <note>Error displayed when reader mode cannot be enabled</note>
       </trans-unit>
-      <trans-unit id="This allows you to save the image to your Camera Roll." approved="yes">
+      <trans-unit id="This allows you to save the image to your Camera Roll.">
         <source>This allows you to save the image to your Camera Roll.</source>
-        <target state="translated">នេះ​អាច​ឲ្យ​អ្នក​រក្សាតុក​រូបភាព​ទៅ​បញ្ជី​កាមេរ៉ា​របស់​អ្នក​បាន។</target><note>See http://mzl.la/1G7uHo7</note>
+        <target>នេះ​អាច​ឲ្យ​អ្នក​រក្សាតុក​រូបភាព​ទៅ​បញ្ជី​កាមេរ៉ា​របស់​អ្នក​បាន។</target>
+        <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
-      <trans-unit id="This will open in another application" approved="yes">
+      <trans-unit id="This will open in another application">
         <source>This will open in another application</source>
-        <target state="translated">វា​នឹង​បើក​នៅ​ក្នុង​កម្មវិធី​​ផ្សេង</target><note>Opening an external app</note>
+        <target>វា​នឹង​បើក​នៅ​ក្នុង​កម្មវិធី​​ផ្សេង</target>
+        <note>Opening an external app</note>
       </trans-unit>
-      <trans-unit id="Today" approved="yes">
+      <trans-unit id="Today">
         <source>Today</source>
-        <target state="translated">ថ្ងៃ​នេះ</target><note>History tableview section header</note>
+        <target>ថ្ងៃ​នេះ</target>
+        <note>History tableview section header</note>
       </trans-unit>
-      <trans-unit id="Top sites" approved="yes">
+      <trans-unit id="Top sites">
         <source>Top sites</source>
-        <target state="translated">តំបន់បណ្ដាញ​ពេញ​និយម​បំផុត</target><note>Panel accessibility label</note>
+        <target>តំបន់បណ្ដាញ​ពេញ​និយម​បំផុត</target>
+        <note>Panel accessibility label</note>
       </trans-unit>
-      <trans-unit id="Update" approved="yes">
+      <trans-unit id="Update">
         <source>Update</source>
-        <target state="translated">ធ្វើ​បច្ចុប្បន្នភាព</target><note>Button to update the user's password</note>
+        <target>ធ្វើ​បច្ចុប្បន្នភាព</target>
+        <note>Button to update the user's password</note>
       </trans-unit>
-      <trans-unit id="Upgrade Firefox to connect." approved="yes">
+      <trans-unit id="Upgrade Firefox to connect.">
         <source>Upgrade Firefox to connect.</source>
-        <target state="translated">ដំឡើង​កំណែ Firefox ដើម្បី​ភ្ជាប់។</target><note>Text message in the settings table view</note>
+        <target>ដំឡើង​កំណែ Firefox ដើម្បី​ភ្ជាប់។</target>
+        <note>Text message in the settings table view</note>
       </trans-unit>
-      <trans-unit id="Use Compact Tabs" approved="yes">
+      <trans-unit id="Use Compact Tabs">
         <source>Use Compact Tabs</source>
-        <target state="translated">ប្រើ​ផ្ទាំង​ដែល​​​តូច​ចង្អៀត</target><note>Setting to enable compact tabs in the tab overview</note>
+        <target>ប្រើ​ផ្ទាំង​ដែល​​​តូច​ចង្អៀត</target>
+        <note>Setting to enable compact tabs in the tab overview</note>
       </trans-unit>
-      <trans-unit id="Username" approved="yes">
+      <trans-unit id="Username">
         <source>Username</source>
-        <target state="translated">ឈ្មោះ​អ្នក​ប្រើ</target><note>Username textbox in Authentication prompt</note>
+        <target>ឈ្មោះ​អ្នក​ប្រើ</target>
+        <note>Username textbox in Authentication prompt</note>
       </trans-unit>
-      <trans-unit id="Verify your email address." approved="yes">
+      <trans-unit id="Verify your email address.">
         <source>Verify your email address.</source>
-        <target state="translated">បញ្ជាក់​អាសយដ្ឋាន​អ៊ីមែល​របស់​អ្នក។</target><note>Text message in the settings table view</note>
+        <target>បញ្ជាក់​អាសយដ្ឋាន​អ៊ីមែល​របស់​អ្នក។</target>
+        <note>Text message in the settings table view</note>
       </trans-unit>
-      <trans-unit id="Version %@ (%@)" approved="yes">
+      <trans-unit id="Version %@ (%@)">
         <source>Version %1$@ (%2$@)</source>
-        <target state="translated">កំណែ %1$@ (%2$@)</target><note>Version number of Firefox shown in settings</note>
+        <target>កំណែ %1$@ (%2$@)</target>
+        <note>Version number of Firefox shown in settings</note>
       </trans-unit>
-      <trans-unit id="View" approved="yes">
+      <trans-unit id="View">
         <source>View</source>
-        <target state="translated">មើល</target><note>View a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
+        <target>មើល</target>
+        <note>View a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
       </trans-unit>
-      <trans-unit id="Web content" approved="yes">
+      <trans-unit id="Web content">
         <source>Web content</source>
-        <target state="translated">មាតិកា​បណ្ដាញ</target><note>Accessibility label for the main web content view</note>
+        <target>មាតិកា​បណ្ដាញ</target>
+        <note>Accessibility label for the main web content view</note>
       </trans-unit>
-      <trans-unit id="Welcome to Sync" approved="yes">
+      <trans-unit id="Welcome to Sync">
         <source>Welcome to Sync</source>
-        <target state="translated">សូម​ស្វាគមន៍​​មក​កាន់​ការ​ធ្វើ​សមកាលកម្ម</target><note>See http://mzl.la/1Qtkf0j</note>
+        <target>សូម​ស្វាគមន៍​​មក​កាន់​ការ​ធ្វើ​សមកាលកម្ម</target>
+        <note>See http://mzl.la/1Qtkf0j</note>
       </trans-unit>
-      <trans-unit id="Welcome to your Reading List" approved="yes">
+      <trans-unit id="Welcome to your Reading List">
         <source>Welcome to your Reading List</source>
-        <target state="translated">សូម​ស្វាគមន៍​មក​កាន់​បញ្ជី​អាន​របស់​អ្នក</target><note>See http://mzl.la/1LXbDOL</note>
+        <target>សូម​ស្វាគមន៍​មក​កាន់​បញ្ជី​អាន​របស់​អ្នក</target>
+        <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
-      <trans-unit id="Well, this is embarrassing." approved="yes">
+      <trans-unit id="Well, this is embarrassing.">
         <source>Well, this is embarrassing.</source>
-        <target state="translated">នេះ​ពិតជា​ខ្មាស​គេ​មែន។</target><note>Restore Tabs Prompt Title</note>
+        <target>នេះ​ពិតជា​ខ្មាស​គេ​មែន។</target>
+        <note>Restore Tabs Prompt Title</note>
       </trans-unit>
-      <trans-unit id="Yesterday" approved="yes">
+      <trans-unit id="Yesterday">
         <source>Yesterday</source>
-        <target state="translated">ម្សិលមិញ</target><note>History tableview section header</note>
+        <target>ម្សិលមិញ</target>
+        <note>History tableview section header</note>
       </trans-unit>
-      <trans-unit id="You don't have any other devices connected to this Firefox Account available to sync." approved="yes">
+      <trans-unit id="You don't have any other devices connected to this Firefox Account available to sync.">
         <source>You don't have any other devices connected to this Firefox Account available to sync.</source>
-        <target state="translated">អ្នក​មិន​មាន​ឧបករណ៍​ផ្សេង​ណា​មួយ​បាន​ភ្ជាប់​ទៅ​គណនី Firefox ដែល​អាច​ប្រើ​​ដើម្បី​ធ្វើ​សមកាលកម្ម​​បាន​ទេ។</target><note>Error message in the remote tabs panel</note>
+        <target>អ្នក​មិន​មាន​ឧបករណ៍​ផ្សេង​ណា​មួយ​បាន​ភ្ជាប់​ទៅ​គណនី Firefox ដែល​អាច​ប្រើ​​ដើម្បី​ធ្វើ​សមកាលកម្ម​​បាន​ទេ។</target>
+        <note>Error message in the remote tabs panel</note>
       </trans-unit>
-      <trans-unit id="You don't have any tabs open in Firefox on your other devices." approved="yes">
+      <trans-unit id="You don't have any tabs open in Firefox on your other devices.">
         <source>You don't have any tabs open in Firefox on your other devices.</source>
-        <target state="translated">អ្នក​មិន​មាន​ផ្ទាំង​ណា​មួយ​បើក​ក្នុង Firefox លើ​ឧបករណ៍​ផ្សេង​របស់​អ្នក​ទេ។</target><note>Error message in the remote tabs panel</note>
+        <target>អ្នក​មិន​មាន​ផ្ទាំង​ណា​មួយ​បើក​ក្នុង Firefox លើ​ឧបករណ៍​ផ្សេង​របស់​អ្នក​ទេ។</target>
+        <note>Error message in the remote tabs panel</note>
       </trans-unit>
-      <trans-unit id="computer" approved="yes">
+      <trans-unit id="computer">
         <source>computer</source>
-        <target state="translated">កុំព្យូទ័រ</target><note>Accessibility label for Desktop Computer (PC) image in remote tabs list</note>
+        <target>កុំព្យូទ័រ</target>
+        <note>Accessibility label for Desktop Computer (PC) image in remote tabs list</note>
       </trans-unit>
-      <trans-unit id="just now" approved="yes">
+      <trans-unit id="just now">
         <source>just now</source>
-        <target state="translated">អម្បាញ់មិញ​នេះ</target><note>Relative time for a tab that was visited within the last few moments.</note>
+        <target>អម្បាញ់មិញ​នេះ</target>
+        <note>Relative time for a tab that was visited within the last few moments.</note>
       </trans-unit>
-      <trans-unit id="mobile device" approved="yes">
+      <trans-unit id="mobile device">
         <source>mobile device</source>
-        <target state="translated">ឧបករណ៍​ចល័ត</target><note>Accessibility label for Mobile Device image in remote tabs list</note>
+        <target>ឧបករណ៍​ចល័ត</target>
+        <note>Accessibility label for Mobile Device image in remote tabs list</note>
       </trans-unit>
-      <trans-unit id="more than a month ago" approved="yes">
+      <trans-unit id="more than a month ago">
         <source>more than a month ago</source>
-        <target state="translated">ជាង​មួយ​ខែ​មុន</target><note>Relative date for dates older than a month and less than two months.</note>
+        <target>ជាង​មួយ​ខែ​មុន</target>
+        <note>Relative date for dates older than a month and less than two months.</note>
       </trans-unit>
-      <trans-unit id="more than a week ago" approved="yes">
+      <trans-unit id="more than a week ago">
         <source>more than a week ago</source>
-        <target state="translated">ជាង​មួយ​សប្ដាហ៍​មុន</target><note>Description for a date more than a week ago, but less than a month ago.</note>
+        <target>ជាង​មួយ​សប្ដាហ៍​មុន</target>
+        <note>Description for a date more than a week ago, but less than a month ago.</note>
       </trans-unit>
-      <trans-unit id="read" approved="yes">
+      <trans-unit id="read">
         <source>read</source>
-        <target state="translated">អាន</target><note>Accessibility label for read article in reading list. It's a past participle - functions as an adjective.</note>
+        <target>អាន</target>
+        <note>Accessibility label for read article in reading list. It's a past participle - functions as an adjective.</note>
       </trans-unit>
-      <trans-unit id="this week" approved="yes">
+      <trans-unit id="this week">
         <source>this week</source>
-        <target state="translated">សប្ដាហ៍​នេះ</target><note>Relative date for date in past week.</note>
+        <target>សប្ដាហ៍​នេះ</target>
+        <note>Relative date for date in past week.</note>
       </trans-unit>
-      <trans-unit id="today at %@" approved="yes">
+      <trans-unit id="today at %@">
         <source>today at %@</source>
-        <target state="translated">ថ្ងៃ​នេះ​នៅ %@</target><note>Relative date for date older than a minute.</note>
+        <target>ថ្ងៃ​នេះ​នៅ %@</target>
+        <note>Relative date for date older than a minute.</note>
       </trans-unit>
-      <trans-unit id="unread" approved="yes">
+      <trans-unit id="unread">
         <source>unread</source>
-        <target state="translated">មិន​ទាន់​អាន</target><note>Accessibility label for unread article in reading list. It's a past participle - functions as an adjective.</note>
+        <target>មិន​ទាន់​អាន</target>
+        <note>Accessibility label for unread article in reading list. It's a past participle - functions as an adjective.</note>
       </trans-unit>
-      <trans-unit id="yesterday" approved="yes">
+      <trans-unit id="yesterday">
         <source>yesterday</source>
-        <target state="translated">ម្សិលមិញ</target><note>Relative date for yesterday.</note>
+        <target>ម្សិលមិញ</target>
+        <note>Relative date for yesterday.</note>
       </trans-unit>
     </body>
   </file>
@@ -794,29 +973,35 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="%@ search" approved="yes">
+      <trans-unit id="%@ search">
         <source>%@ search</source>
-        <target state="translated">%@ ស្វែងរក</target><note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
+        <target>%@ ស្វែងរក</target>
+        <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
       </trans-unit>
-      <trans-unit id="No" approved="yes">
+      <trans-unit id="No">
         <source>No</source>
-        <target state="translated">ទេ</target><note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+        <target>ទេ</target>
+        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
       </trans-unit>
-      <trans-unit id="Search Settings" approved="yes">
+      <trans-unit id="Search Settings">
         <source>Search Settings</source>
-        <target state="translated">ការ​កំណត់​ស្វែងរក</target><note>Label for search settings button.</note>
+        <target>ការ​កំណត់​ស្វែងរក</target>
+        <note>Label for search settings button.</note>
       </trans-unit>
-      <trans-unit id="Search suggestions from %@" approved="yes">
+      <trans-unit id="Search suggestions from %@">
         <source>Search suggestions from %@</source>
-        <target state="translated">ការ​ស្នើ​ស្វែងរក​ពី %@</target><note>Accessibility label for image of default search engine displayed left to the actual search suggestions from the engine. The parameter substituted for \"%@\" is the name of the search engine. E.g.: Search suggestions from Google</note>
+        <target>ការ​ស្នើ​ស្វែងរក​ពី %@</target>
+        <note>Accessibility label for image of default search engine displayed left to the actual search suggestions from the engine. The parameter substituted for \"%@\" is the name of the search engine. E.g.: Search suggestions from Google</note>
       </trans-unit>
-      <trans-unit id="Turn on search suggestions?" approved="yes">
+      <trans-unit id="Turn on search suggestions?">
         <source>Turn on search suggestions?</source>
-        <target state="translated">បើក​ការ​ស្នើ​ស្វែងរក​​មែន​ទេ?</target><note>Prompt shown before enabling provider search queries</note>
+        <target>បើក​ការ​ស្នើ​ស្វែងរក​​មែន​ទេ?</target>
+        <note>Prompt shown before enabling provider search queries</note>
       </trans-unit>
-      <trans-unit id="Yes" approved="yes">
+      <trans-unit id="Yes">
         <source>Yes</source>
-        <target state="translated">បាទ/ចាស</target><note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+        <target>បាទ/ចាស</target>
+        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
       </trans-unit>
     </body>
   </file>
@@ -825,12 +1010,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">1.0</target></trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="km">
@@ -838,15 +1025,18 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" approved="yes">
+      <trans-unit id="CFBundleDisplayName">
         <source>Send Tab</source>
-      <target state="translated">ផ្ទាំង​ផ្ញើ</target></trans-unit>
-      <trans-unit id="CFBundleName" approved="yes">
+        <target>ផ្ទាំង​ផ្ញើ</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>$(MOZ_VERSION)</source>
-      <target state="translated">$(MOZ_VERSION)</target></trans-unit>
+        <target>$(MOZ_VERSION)</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Extensions/SendTo/SendTo.strings" source-language="en" datatype="plaintext" target-language="km">
@@ -854,33 +1044,40 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="Available devices:" approved="yes">
+      <trans-unit id="Available devices:">
         <source>Available devices:</source>
-        <target state="translated">ឧបករណ៍​​ដែល​មាន៖</target><note>Header for the list of devices table</note>
+        <target>ឧបករណ៍​​ដែល​មាន៖</target>
+        <note>Header for the list of devices table</note>
       </trans-unit>
-      <trans-unit id="Close" approved="yes">
+      <trans-unit id="Close">
         <source>Close</source>
-        <target state="translated">បិទ</target><note>Close button in top navigation bar</note>
+        <target>បិទ</target>
+        <note>Close button in top navigation bar</note>
       </trans-unit>
-      <trans-unit id="Please open Firefox, go to Settings and sign in to continue." approved="yes">
+      <trans-unit id="Please open Firefox, go to Settings and sign in to continue.">
         <source>Please open Firefox, go to Settings and sign in to continue.</source>
-        <target state="translated">សូម​បើក​កម្មវិធី Firefox រួច​ទៅ​កាន់​ការ​កំណត់ និង​ចូល​ដើម្បី​បន្ត។</target><note>See http://mzl.la/1ISlXnU</note>
+        <target>សូម​បើក​កម្មវិធី Firefox រួច​ទៅ​កាន់​ការ​កំណត់ និង​ចូល​ដើម្បី​បន្ត។</target>
+        <note>See http://mzl.la/1ISlXnU</note>
       </trans-unit>
-      <trans-unit id="Send" approved="yes">
+      <trans-unit id="Send">
         <source>Send</source>
-        <target state="translated">ផ្ញើ</target><note>Navigation bar button to Send the current page to a device</note>
+        <target>ផ្ញើ</target>
+        <note>Navigation bar button to Send the current page to a device</note>
       </trans-unit>
-      <trans-unit id="Send Tab" approved="yes">
+      <trans-unit id="Send Tab">
         <source>Send Tab</source>
-        <target state="translated">ផ្ទាំង​ផ្ញើ</target><note>Title of the dialog that allows you to send a tab to a different device</note>
+        <target>ផ្ទាំង​ផ្ញើ</target>
+        <note>Title of the dialog that allows you to send a tab to a different device</note>
       </trans-unit>
-      <trans-unit id="You are not signed in to your Firefox Account." approved="yes">
+      <trans-unit id="You are not signed in to your Firefox Account.">
         <source>You are not signed in to your Firefox Account.</source>
-        <target state="translated">អ្នក​មិន​បាន​ចូល​ទៅ​គណនី Firefox របស់​អ្នក​ទេ។</target><note>See http://mzl.la/1ISlXnU</note>
+        <target>អ្នក​មិន​បាន​ចូល​ទៅ​គណនី Firefox របស់​អ្នក​ទេ។</target>
+        <note>See http://mzl.la/1ISlXnU</note>
       </trans-unit>
-      <trans-unit id="You don't have any other devices connected to this Firefox Account available to sync." approved="yes">
+      <trans-unit id="You don't have any other devices connected to this Firefox Account available to sync.">
         <source>You don't have any other devices connected to this Firefox Account available to sync.</source>
-        <target state="translated">អ្នក​មិន​មាន​ឧបករណ៍​ផ្សេង​ណា​មួយ​បាន​ភ្ជាប់​ទៅ​គណនី Firefox ដែល​អាច​ប្រើ​​ដើម្បី​ធ្វើ​សមកាលកម្ម​​បាន​ទេ។</target><note>Error message shown in the remote tabs panel</note>
+        <target>អ្នក​មិន​មាន​ឧបករណ៍​ផ្សេង​ណា​មួយ​បាន​ភ្ជាប់​ទៅ​គណនី Firefox ដែល​អាច​ប្រើ​​ដើម្បី​ធ្វើ​សមកាលកម្ម​​បាន​ទេ។</target>
+        <note>Error message shown in the remote tabs panel</note>
       </trans-unit>
     </body>
   </file>
@@ -889,15 +1086,18 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" approved="yes">
+      <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-      <target state="translated">$(MOZ_BUNDLE_DISPLAY_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleName" approved="yes">
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>$(MOZ_VERSION)</source>
-      <target state="translated">$(MOZ_VERSION)</target></trans-unit>
+        <target>$(MOZ_VERSION)</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Extensions/ShareTo/ShareTo.strings" source-language="en" datatype="plaintext" target-language="km">
@@ -905,17 +1105,20 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="Add" approved="yes">
+      <trans-unit id="Add">
         <source>Add</source>
-        <target state="translated">បន្ថែម</target><note>Add button in the share dialog</note>
+        <target>បន្ថែម</target>
+        <note>Add button in the share dialog</note>
       </trans-unit>
-      <trans-unit id="Add to Bookmarks" approved="yes">
+      <trans-unit id="Add to Bookmarks">
         <source>Add to Bookmarks</source>
-        <target state="translated">បន្ថែម​ទៅ​ចំណាំ</target><note>On/off toggle to select adding this url to your bookmarks</note>
+        <target>បន្ថែម​ទៅ​ចំណាំ</target>
+        <note>On/off toggle to select adding this url to your bookmarks</note>
       </trans-unit>
-      <trans-unit id="Add to Reading List" approved="yes">
+      <trans-unit id="Add to Reading List">
         <source>Add to Reading List</source>
-        <target state="translated">បន្ថែម​ទៅ​បញ្ជី​អាន</target><note>On/off toggle to select adding this url to your reading list</note>
+        <target>បន្ថែម​ទៅ​បញ្ជី​អាន</target>
+        <note>On/off toggle to select adding this url to your reading list</note>
       </trans-unit>
     </body>
   </file>
@@ -924,15 +1127,18 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" approved="yes">
+      <trans-unit id="CFBundleDisplayName">
         <source>View Later</source>
-      <target state="translated">មើល​ពេល​ក្រោយ</target></trans-unit>
-      <trans-unit id="CFBundleName" approved="yes">
+        <target>មើល​ពេល​ក្រោយ</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>$(MOZ_VERSION)</source>
-      <target state="translated">$(MOZ_VERSION)</target></trans-unit>
+        <target>$(MOZ_VERSION)</target>
+      </trans-unit>
     </body>
   </file>
   <file original="ReadingList/Info.plist" source-language="en" datatype="plaintext" target-language="km">
@@ -940,12 +1146,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">1.0</target></trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="ReadingListTests/Info.plist" source-language="en" datatype="plaintext" target-language="km">
@@ -953,12 +1161,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">1.0</target></trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Shared/Supporting Files/Info.plist" source-language="en" datatype="plaintext" target-language="km">
@@ -966,12 +1176,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">1.0</target></trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Shared/Supporting Files/Shared.strings" source-language="en" datatype="plaintext" target-language="km">
@@ -979,9 +1191,10 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="%@ on %@" approved="yes">
+      <trans-unit id="%@ on %@">
         <source>%1$@ on %2$@</source>
-        <target state="translated">%1$@ លើ %2$@</target><note>A brief descriptive name for this app on this device, used for Send Tab and Synced Tabs. The first argument is the app name. The second argument is the device name.</note>
+        <target>%1$@ លើ %2$@</target>
+        <note>A brief descriptive name for this app on this device, used for Send Tab and Synced Tabs. The first argument is the app name. The second argument is the device name.</note>
       </trans-unit>
     </body>
   </file>
@@ -990,12 +1203,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">1.0</target></trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Storage.strings" source-language="en" datatype="plaintext" target-language="km">
@@ -1003,25 +1218,30 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="Bookmarks Menu" approved="yes">
+      <trans-unit id="Bookmarks Menu">
         <source>Bookmarks Menu</source>
-        <target state="translated">ម៉ឺនុយ​ចំណាំ</target><note>The name of the folder that contains desktop bookmarks in the menu. This should match bookmarks.folder.menu.label on Android.</note>
+        <target>ម៉ឺនុយ​ចំណាំ</target>
+        <note>The name of the folder that contains desktop bookmarks in the menu. This should match bookmarks.folder.menu.label on Android.</note>
       </trans-unit>
-      <trans-unit id="Bookmarks Toolbar" approved="yes">
+      <trans-unit id="Bookmarks Toolbar">
         <source>Bookmarks Toolbar</source>
-        <target state="translated">របារ​ឧបករណ៍​ចំណាំ</target><note>The name of the folder that contains desktop bookmarks in the toolbar. This should match bookmarks.folder.toolbar.label on Android.</note>
+        <target>របារ​ឧបករណ៍​ចំណាំ</target>
+        <note>The name of the folder that contains desktop bookmarks in the toolbar. This should match bookmarks.folder.toolbar.label on Android.</note>
       </trans-unit>
-      <trans-unit id="Mobile Bookmarks" approved="yes">
+      <trans-unit id="Mobile Bookmarks">
         <source>Mobile Bookmarks</source>
-        <target state="translated">ចំណាំ​ចល័ត</target><note>The title of the folder that contains mobile bookmarks. This should match bookmarks.folder.mobile.label on Android.</note>
+        <target>ចំណាំ​ចល័ត</target>
+        <note>The title of the folder that contains mobile bookmarks. This should match bookmarks.folder.mobile.label on Android.</note>
       </trans-unit>
-      <trans-unit id="Unsorted Bookmarks" approved="yes">
+      <trans-unit id="Unsorted Bookmarks">
         <source>Unsorted Bookmarks</source>
-        <target state="translated">ចំណាំ​ដែល​មិន​បាន​តម្រៀប</target><note>The name of the folder that contains unsorted desktop bookmarks. This should match bookmarks.folder.unfiled.label on Android.</note>
+        <target>ចំណាំ​ដែល​មិន​បាន​តម្រៀប</target>
+        <note>The name of the folder that contains unsorted desktop bookmarks. This should match bookmarks.folder.unfiled.label on Android.</note>
       </trans-unit>
-      <trans-unit id="Untitled" approved="yes">
+      <trans-unit id="Untitled">
         <source>Untitled</source>
-        <target state="translated">គ្មាន​ចំណងជើង</target><note>The default name for bookmark folders without titles.</note>
+        <target>គ្មាន​ចំណងជើង</target>
+        <note>The default name for bookmark folders without titles.</note>
       </trans-unit>
     </body>
   </file>
@@ -1030,12 +1250,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">1.0</target></trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Sync/Info.plist" source-language="en" datatype="plaintext" target-language="km">
@@ -1043,12 +1265,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">1.0</target></trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="SyncTests/Info.plist" source-language="en" datatype="plaintext" target-language="km">
@@ -1056,12 +1280,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">1.0</target></trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="UITests/Info.plist" source-language="en" datatype="plaintext" target-language="km">
@@ -1069,12 +1295,15 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">1.0</target></trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
+

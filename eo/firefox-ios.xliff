@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
@@ -6,7 +6,9 @@
     </header>
     <body>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source> <target>$(PRODUCT_NAME)</target> </trans-unit>
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
         <target>1.0</target>
@@ -23,7 +25,9 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source> <target>1.0</target> </trans-unit>
+        <source>1.0</source>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/BookmarkPanel.strings" source-language="en" datatype="plaintext" target-language="eo">
@@ -295,7 +299,9 @@
         <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
       </trans-unit>
       <trans-unit id="Close">
-        <source>Close</source> <target>Fermi</target> <note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
+        <source>Close</source>
+        <target>Fermi</target>
+        <note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
       </trans-unit>
       <trans-unit id="Closing tab">
         <source>Closing tab</source>
@@ -323,10 +329,14 @@
         <note>Accessibility message e.g. spoken by VoiceOver after the user wanted to add current page to the Reading List and this was not done, likely because it already was in the Reading List, but perhaps also because of real failures.</note>
       </trans-unit>
       <trans-unit id="Could not add page to Reading list">
-        <source>Could not add page to Reading list</source> <target>Ne eblis aldoni paĝon al legolisto</target> <note>Accessibility message e.g. spoken by VoiceOver after adding current webpage to the Reading List failed.</note>
+        <source>Could not add page to Reading list</source>
+        <target>Ne eblis aldoni paĝon al legolisto</target>
+        <note>Accessibility message e.g. spoken by VoiceOver after adding current webpage to the Reading List failed.</note>
       </trans-unit>
-      <trans-unit id="Could not load page." approved="yes">
-        <source>Could not load page.</source> <target state="translated">Ne eblis ŝargi paĝon.</target><note>Error message that is shown in settings when there was a problem loading</note>
+      <trans-unit id="Could not load page.">
+        <source>Could not load page.</source>
+        <target>Ne eblis ŝargi paĝon.</target>
+        <note>Error message that is shown in settings when there was a problem loading</note>
       </trans-unit>
       <trans-unit id="Create an account">
         <source>Create an account</source>
@@ -466,11 +476,15 @@
         <target>Luma</target>
         <note>Light theme setting in Reading View settings</note>
       </trans-unit>
-      <trans-unit id="Load original page" approved="yes">
-        <source>Load original page</source> <target state="translated">Ŝargi originalan paĝon</target><note>Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
+      <trans-unit id="Load original page">
+        <source>Load original page</source>
+        <target>Ŝargi originalan paĝon</target>
+        <note>Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
-      <trans-unit id="Loading content…" approved="yes">
-        <source>Loading content…</source> <target state="translated">Enhavo ŝargata…</target><note>Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app.</note>
+      <trans-unit id="Loading content…">
+        <source>Loading content…</source>
+        <target>Enhavo ŝargata…</target>
+        <note>Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
       <trans-unit id="Log Out">
         <source>Log Out</source>
@@ -582,8 +596,10 @@
         <target>%@ malfermata</target>
         <note>Opening an external URL</note>
       </trans-unit>
-      <trans-unit id="Pages you have visited recently will show up here." approved="yes">
-        <source>Pages you have visited recently will show up here.</source> <target state="translated">Ĵuse vizititaj paĝoj aperos ĉi tie.</target><note>See http://bit.ly/1I7Do4b</note>
+      <trans-unit id="Pages you have visited recently will show up here.">
+        <source>Pages you have visited recently will show up here.</source>
+        <target>Ĵuse vizititaj paĝoj aperos ĉi tie.</target>
+        <note>See http://bit.ly/1I7Do4b</note>
       </trans-unit>
       <trans-unit id="Panel Chooser">
         <source>Panel Chooser</source>
@@ -610,8 +626,10 @@
         <target>Privateco</target>
         <note>Privacy section title</note>
       </trans-unit>
-      <trans-unit id="Privacy Policy" approved="yes">
-        <source>Privacy Policy</source> <target state="translated">Politiko pri privateco</target><note>Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/</note>
+      <trans-unit id="Privacy Policy">
+        <source>Privacy Policy</source>
+        <target>Politiko pri privateco</target>
+        <note>Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/</note>
       </trans-unit>
       <trans-unit id="Quick-search Engines">
         <source>Quick-search Engines</source>
@@ -684,11 +702,15 @@
         <target>Sekura konekto</target>
         <note>Accessibility label for the lock icon, which is only present if the connection is secure</note>
       </trans-unit>
-      <trans-unit id="Send Crash Reports" approved="yes">
-        <source>Send Crash Reports</source> <target state="translated">Sendi raportojn pri paneoj</target><note>Setting to enable the sending of crash reports</note>
+      <trans-unit id="Send Crash Reports">
+        <source>Send Crash Reports</source>
+        <target>Sendi raportojn pri paneoj</target>
+        <note>Setting to enable the sending of crash reports</note>
       </trans-unit>
-      <trans-unit id="Send Feedback" approved="yes">
-        <source>Send Feedback</source> <target state="translated">Sendi komentojn</target><note>Show an input.mozilla.org page where people can submit feedback</note>
+      <trans-unit id="Send Feedback">
+        <source>Send Feedback</source>
+        <target>Sendi komentojn</target>
+        <note>Show an input.mozilla.org page where people can submit feedback</note>
       </trans-unit>
       <trans-unit id="Sepia">
         <source>Sepia</source>
@@ -749,8 +771,10 @@
         <target>Glitigu dekstren aŭ maldekstren per tri fingroj por fermi la langeton.</target>
         <note>Accessibility hint for tab tray's displayed tab.</note>
       </trans-unit>
-      <trans-unit id="Sync Now" approved="yes">
-        <source>Sync Now</source> <target state="translated">Speguli nun</target><note>Sync Firefox Account</note>
+      <trans-unit id="Sync Now">
+        <source>Sync Now</source>
+        <target>Speguli nun</target>
+        <note>Sync Firefox Account</note>
       </trans-unit>
       <trans-unit id="Sync your tabs, bookmarks, passwords and more.">
         <source>Sync your tabs, bookmarks, passwords and more.</source>
@@ -762,8 +786,10 @@
         <target>Spegulitaj langetoj</target>
         <note>Panel accessibility label</note>
       </trans-unit>
-      <trans-unit id="Syncing…" approved="yes">
-        <source>Syncing…</source> <target state="translated">Spegulado…</target><note>Syncing Firefox Account</note>
+      <trans-unit id="Syncing…">
+        <source>Syncing…</source>
+        <target>Spegulado…</target>
+        <note>Syncing Firefox Account</note>
       </trans-unit>
       <trans-unit id="Tab %@ of %@">
         <source>Tab %1$@ of %2$@</source>
@@ -780,8 +806,10 @@
         <target>Pleto de langetoj</target>
         <note>Accessibility label for the Tabs Tray view.</note>
       </trans-unit>
-      <trans-unit id="The page could not be displayed in Reader View." approved="yes">
-        <source>The page could not be displayed in Reader View.</source> <target state="translated">Tiu ĉi paĝo ne povis esti montrita en legila vido.</target><note>Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
+      <trans-unit id="The page could not be displayed in Reader View.">
+        <source>The page could not be displayed in Reader View.</source>
+        <target>Tiu ĉi paĝo ne povis esti montrita en legila vido.</target>
+        <note>Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
       <trans-unit id="There is a new version available of Firefox Aurora. Tap OK to go to the download page.">
         <source>There is a new version available of Firefox Aurora. Tap OK to go to the download page.</source>
@@ -1278,3 +1306,4 @@
     </body>
   </file>
 </xliff>
+

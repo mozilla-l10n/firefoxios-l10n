@@ -1,16 +1,18 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="my">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">၁.၀</target></trans-unit>
+        <target>၁.၀</target>
+      </trans-unit>
     </body>
   </file>
   <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="my">
@@ -18,12 +20,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">၁.၀</target></trans-unit>
+        <target>၁.၀</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/BookmarkPanel.strings" source-language="en" datatype="plaintext" target-language="my">
@@ -31,9 +35,10 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="Delete" approved="yes">
+      <trans-unit id="Delete">
         <source>Delete</source>
-        <target state="translated">ဖျက်ပါ</target><note>Action button for deleting bookmarks in the bookmarks panel.</note>
+        <target>ဖျက်ပါ</target>
+        <note>Action button for deleting bookmarks in the bookmarks panel.</note>
       </trans-unit>
     </body>
   </file>
@@ -42,21 +47,25 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs." approved="yes">
+      <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs.">
         <source>Are you sure you want to clear all of your data? This will also close all open tabs.</source>
-        <target state="translated">သင့်အချက်အလက်အားလုံးကို ရှင်းပစ်မည်မှာ သေချာပြီလား? ဖွင့်ထားသော တဗ်အားလုံးကိုပိတ်ပစ်မည် ဖြစ်သည်။</target><note>Message shown in the dialog prompting users if they want to clear everything</note>
+        <target>သင့်အချက်အလက်အားလုံးကို ရှင်းပစ်မည်မှာ သေချာပြီလား? ဖွင့်ထားသော တဗ်အားလုံးကိုပိတ်ပစ်မည် ဖြစ်သည်။</target>
+        <note>Message shown in the dialog prompting users if they want to clear everything</note>
       </trans-unit>
-      <trans-unit id="Cancel" approved="yes">
+      <trans-unit id="Cancel">
         <source>Cancel</source>
-        <target state="translated">ပိတ်လိုက်ပါ</target><note>Used as a button label in the dialog to cancel clear private data dialog</note>
+        <target>ပိတ်လိုက်ပါ</target>
+        <note>Used as a button label in the dialog to cancel clear private data dialog</note>
       </trans-unit>
-      <trans-unit id="Clear" approved="yes">
+      <trans-unit id="Clear">
         <source>Clear</source>
-        <target state="translated">ရှင်းလင်းပါ</target><note>Used as a button label in the dialog to Clear private data dialog</note>
+        <target>ရှင်းလင်းပါ</target>
+        <note>Used as a button label in the dialog to Clear private data dialog</note>
       </trans-unit>
-      <trans-unit id="Clear Everything" approved="yes">
+      <trans-unit id="Clear Everything">
         <source>Clear Everything</source>
-        <target state="translated">အားလုံးကိုရှင်းပစ်ပါ</target><note>Title of the Clear private data dialog.</note>
+        <target>အားလုံးကိုရှင်းပစ်ပါ</target>
+        <note>Title of the Clear private data dialog.</note>
       </trans-unit>
     </body>
   </file>
@@ -65,13 +74,15 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="Open in Safari" approved="yes">
+      <trans-unit id="Open in Safari">
         <source>Open in Safari</source>
-        <target state="translated">ဆာဖာရီတွင် ဖွင့်ပါ</target><note>Shown in error pages for files that can't be shown and need to be downloaded.</note>
+        <target>ဆာဖာရီတွင် ဖွင့်ပါ</target>
+        <note>Shown in error pages for files that can't be shown and need to be downloaded.</note>
       </trans-unit>
-      <trans-unit id="Try again" approved="yes">
+      <trans-unit id="Try again">
         <source>Try again</source>
-        <target state="translated">ထပ်ကြိုးစားကြည့်ပါ</target><note>Shown in error pages on a button that will try to load the page again</note>
+        <target>ထပ်ကြိုးစားကြည့်ပါ</target>
+        <note>Shown in error pages on a button that will try to load the page again</note>
       </trans-unit>
     </body>
   </file>
@@ -80,9 +91,10 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="Remove" approved="yes">
+      <trans-unit id="Remove">
         <source>Remove</source>
-        <target state="translated">ဖယ်ရှား</target><note>Action button for deleting history entries in the history panel.</note>
+        <target>ဖယ်ရှား</target>
+        <note>Action button for deleting history entries in the history panel.</note>
       </trans-unit>
     </body>
   </file>
@@ -91,18 +103,22 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" approved="yes">
+      <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-      <target state="translated">$(MOZ_BUNDLE_DISPLAY_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleName" approved="yes">
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
         <source>$(MOZ_PRODUCT_NAME)</source>
-      <target state="translated">$(MOZ_PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(MOZ_PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>$(MOZ_VERSION)</source>
-      <target state="translated">$(MOZ_VERSION)</target></trans-unit>
-      <trans-unit id="NSLocationWhenInUseUsageDescription" approved="yes">
+        <target>$(MOZ_VERSION)</target>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Websites you visit may request your location.</source>
-      <target state="translated">သင်သွားလည်သော ဝတ်ဆိုဒ်မှ သင့်တည်နေရာကို သိချင်ကောင်းသိမ်ချင်လိမ့်မည်</target></trans-unit>
+        <target>သင်သွားလည်သော ဝတ်ဆိုဒ်မှ သင့်တည်နေရာကို သိချင်ကောင်းသိမ်ချင်လိမ့်မည်</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="my">
@@ -110,49 +126,60 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="Browse multiple Web pages at the same time with tabs." approved="yes">
+      <trans-unit id="Browse multiple Web pages at the same time with tabs.">
         <source>Browse multiple Web pages at the same time with tabs.</source>
-        <target state="translated">ဝတ်ဆိုဒ်စာမျက်နှာများအား တစ်ချိန်တည်းတွင် တပ်ဗ်များသုံးပြီး ကြည့်မည်</target><note>See http://mzl.la/1T8gxwo</note>
+        <target>ဝတ်ဆိုဒ်စာမျက်နှာများအား တစ်ချိန်တည်းတွင် တပ်ဗ်များသုံးပြီး ကြည့်မည်</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Connect Firefox everywhere you use it." approved="yes">
+      <trans-unit id="Connect Firefox everywhere you use it.">
         <source>Connect Firefox everywhere you use it.</source>
-        <target state="translated">မီးမြေခွေးအား သင်သုံးစွဲသည့်နေရာတိုင်းတွင် ချိတ်ဆက်ထားမည်</target><note>See http://mzl.la/1T8gxwo</note>
+        <target>မီးမြေခွေးအား သင်သုံးစွဲသည့်နေရာတိုင်းတွင် ချိတ်ဆက်ထားမည်</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Customize" approved="yes">
+      <trans-unit id="Customize">
         <source>Customize</source>
-        <target state="translated">ပြုပြင်မည်</target><note>See http://mzl.la/1T8gxwo</note>
+        <target>ပြုပြင်မည်</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Firefox and the cloud" approved="yes">
+      <trans-unit id="Firefox and the cloud">
         <source>Firefox and the cloud</source>
-        <target state="translated">မီးမြေခွေး နှင့် ကလောက်</target><note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+        <target>မီးမြေခွေး နှင့် ကလောက်</target>
+        <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Introductory slide %@ of %@" approved="yes">
+      <trans-unit id="Introductory slide %@ of %@">
         <source>Introductory slide %1$@ of %2$@</source>
-        <target state="translated">မိတ်ဆက် %1$@ ရှိ %2$@</target><note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note>
+        <target>မိတ်ဆက် %1$@ ရှိ %2$@</target>
+        <note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note>
       </trans-unit>
-      <trans-unit id="Organize" approved="yes">
+      <trans-unit id="Organize">
         <source>Organize</source>
-        <target state="translated">ဖွဲ့စည်းပါ</target><note>See http://mzl.la/1T8gxwo</note>
+        <target>ဖွဲ့စည်းပါ</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Personalize your Firefox just the way you like in Settings." approved="yes">
+      <trans-unit id="Personalize your Firefox just the way you like in Settings.">
         <source>Personalize your Firefox just the way you like in Settings.</source>
-        <target state="translated">သင့်မီးမြေခွေးအား စိတ်ကြိုက် အပြင်အဆင်တွင် ပြုပြင်ပါ</target><note>See http://mzl.la/1T8gxwo</note>
+        <target>သင့်မီးမြေခွေးအား စိတ်ကြိုက် အပြင်အဆင်တွင် ပြုပြင်ပါ</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Sign in to Firefox" approved="yes">
+      <trans-unit id="Sign in to Firefox">
         <source>Sign in to Firefox</source>
-        <target state="translated">မီးမြေခွေးအကောင့်သို့ ဝင်ရောက်ပါ</target><note>See http://mzl.la/1T8gxwo</note>
+        <target>မီးမြေခွေးအကောင့်သို့ ဝင်ရောက်ပါ</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Start Browsing" approved="yes">
+      <trans-unit id="Start Browsing">
         <source>Start Browsing</source>
-        <target state="translated">စတင် သုံးစွဲမည်</target><note>See http://mzl.la/1T8gxwo</note>
+        <target>စတင် သုံးစွဲမည်</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="The Settings button is at the beginning of the Tabs Tray." approved="yes">
+      <trans-unit id="The Settings button is at the beginning of the Tabs Tray.">
         <source>The Settings button is at the beginning of the Tabs Tray.</source>
-        <target state="translated">အပြင်အဆင် ခလုပ် သည် တပ်ဗ်များအစတွင်ရှိသည်</target><note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+        <target>အပြင်အဆင် ခလုပ် သည် တပ်ဗ်များအစတွင်ရှိသည်</target>
+        <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs." approved="yes">
+      <trans-unit id="The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs.">
         <source>The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs.</source>
-        <target state="translated">တဗ်ပြ ခလုပ်သည် ရှာဖွေခြင်း နှင့် လိပ်စာရိုက်ထည့်ဘား ဘေးတွင်ရှိပြီး လက်တလောဖွင့်ထားသော တပ်ဗ်အရေအတွက်ကို ပြသည်။</target><note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+        <target>တဗ်ပြ ခလုပ်သည် ရှာဖွေခြင်း နှင့် လိပ်စာရိုက်ထည့်ဘား ဘေးတွင်ရှိပြီး လက်တလောဖွင့်ထားသော တပ်ဗ်အရေအတွက်ကို ပြသည်။</target>
+        <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
       </trans-unit>
     </body>
   </file>
@@ -161,65 +188,80 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
     </header>
     <body>
-      <trans-unit id="+" approved="yes">
+      <trans-unit id="+">
         <source>+</source>
-        <target state="translated">+</target><note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+        <target>+</target>
+        <note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       </trans-unit>
-      <trans-unit id="-" approved="yes">
+      <trans-unit id="-">
         <source>-</source>
-        <target state="translated">-</target><note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
-      <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note></trans-unit>
-      <trans-unit id="A username and password are being requested by %@." approved="yes">
+        <target>-</target>
+        <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+      </trans-unit>
+      <trans-unit id="A username and password are being requested by %@.">
         <source>A username and password are being requested by %@.</source>
-        <target state="translated">%@ မှ သုံးဆွဲသူ အမည် နှင့် လျှို့ဝှက်စကားလုံး အားတောင်းခံနေသည်</target><note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
+        <target>%@ မှ သုံးဆွဲသူ အမည် နှင့် လျှို့ဝှက်စကားလုံး အားတောင်းခံနေသည်</target>
+        <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
       </trans-unit>
-      <trans-unit id="A username and password are being requested by %@. The site says: %@" approved="yes">
+      <trans-unit id="A username and password are being requested by %@. The site says: %@">
         <source>A username and password are being requested by %1$@. The site says: %2$@</source>
-        <target state="translated">%1$@ မှ သုံးစွဲသူ နှင့် လျှို့ဝှက်စကားလုံး တောင်းခံနေသည်။ ဆိုဒ်မှ %2$@</target><note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
+        <target>%1$@ မှ သုံးစွဲသူ နှင့် လျှို့ဝှက်စကားလုံး တောင်းခံနေသည်။ ဆိုဒ်မှ %2$@</target>
+        <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
       </trans-unit>
-      <trans-unit id="Aa" approved="yes">
+      <trans-unit id="Aa">
         <source>Aa</source>
-        <target state="translated">ကခ</target><note>Button for reader mode font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+        <target>ကခ</target>
+        <note>Button for reader mode font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       </trans-unit>
-      <trans-unit id="About" approved="yes">
+      <trans-unit id="About">
         <source>About</source>
-        <target state="translated">အကြောင်း</target><note>About settings section title</note>
+        <target>အကြောင်း</target>
+        <note>About settings section title</note>
       </trans-unit>
-      <trans-unit id="Add Tab" approved="yes">
+      <trans-unit id="Add Tab">
         <source>Add Tab</source>
-        <target state="translated">တပ်ဗ်တစ်ခုဖွင့်</target><note>Accessibility label for the Add Tab button in the Tab Tray.</note>
+        <target>တပ်ဗ်တစ်ခုဖွင့်</target>
+        <note>Accessibility label for the Add Tab button in the Tab Tray.</note>
       </trans-unit>
-      <trans-unit id="Add to Reading List" approved="yes">
+      <trans-unit id="Add to Reading List">
         <source>Add to Reading List</source>
-        <target state="translated">စာဖတ်စာရင်းသို့ ထည့်ပေးပါ</target><note>Add URL to the reading list - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
+        <target>စာဖတ်စာရင်းသို့ ထည့်ပေးပါ</target>
+        <note>Add URL to the reading list - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
       </trans-unit>
-      <trans-unit id="Added page to Reading List" approved="yes">
+      <trans-unit id="Added page to Reading List">
         <source>Added page to Reading List</source>
-        <target state="translated">သင့်စာဖတ်စာရင်းသို့ စာမျက်နှာအားထည့်ပြီး</target><note>Accessibility message e.g. spoken by VoiceOver after the current page gets added to the Reading List using the Reader View button, e.g. by long-pressing it or by its accessibility custom action.</note>
+        <target>သင့်စာဖတ်စာရင်းသို့ စာမျက်နှာအားထည့်ပြီး</target>
+        <note>Accessibility message e.g. spoken by VoiceOver after the current page gets added to the Reading List using the Reader View button, e.g. by long-pressing it or by its accessibility custom action.</note>
       </trans-unit>
-      <trans-unit id="Address and Search" approved="yes">
+      <trans-unit id="Address and Search">
         <source>Address and Search</source>
-        <target state="translated">လိပ်စာ နှင့် ရှာဖွေရေး</target><note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
+        <target>လိပ်စာ နှင့် ရှာဖွေရေး</target>
+        <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
       </trans-unit>
-      <trans-unit id="Authentication required" approved="yes">
+      <trans-unit id="Authentication required">
         <source>Authentication required</source>
-        <target state="translated">စစ်ဆေးခြင်း လိုအပ်သည်</target><note>Authentication prompt title</note>
+        <target>စစ်ဆေးခြင်း လိုအပ်သည်</target>
+        <note>Authentication prompt title</note>
       </trans-unit>
-      <trans-unit id="Back" approved="yes">
+      <trans-unit id="Back">
         <source>Back</source>
-        <target state="translated">ရှေ့သို့</target><note>Accessibility Label for the browser toolbar Back button</note>
+        <target>ရှေ့သို့</target>
+        <note>Accessibility Label for the browser toolbar Back button</note>
       </trans-unit>
-      <trans-unit id="Block Pop-up Windows" approved="yes">
+      <trans-unit id="Block Pop-up Windows">
         <source>Block Pop-up Windows</source>
-        <target state="translated">ပွင့်ထွက်ဝင်းဒိုးများကိုပိတ်ဆို့ပါ</target><note>Block pop-up windows setting</note>
+        <target>ပွင့်ထွက်ဝင်းဒိုးများကိုပိတ်ဆို့ပါ</target>
+        <note>Block pop-up windows setting</note>
       </trans-unit>
-      <trans-unit id="Bookmark" approved="yes">
+      <trans-unit id="Bookmark">
         <source>Bookmark</source>
-        <target state="translated">မှတ်သားချက်</target><note>Bookmark a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
+        <target>မှတ်သားချက်</target>
+        <note>Bookmark a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
       </trans-unit>
-      <trans-unit id="Bookmarks" approved="yes">
+      <trans-unit id="Bookmarks">
         <source>Bookmarks</source>
-        <target state="translated">စာအမှတ်များ</target><note>Panel accessibility label</note>
+        <target>စာအမှတ်များ</target>
+        <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Brightness">
         <source>Brightness</source>
@@ -1078,3 +1120,4 @@
     </body>
   </file>
 </xliff>
+
