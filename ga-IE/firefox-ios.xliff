@@ -2,7 +2,7 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -17,7 +17,7 @@
   </file>
   <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -32,7 +32,7 @@
   </file>
   <file original="Client/BookmarkPanel.strings" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="Delete">
@@ -44,7 +44,7 @@
   </file>
   <file original="Client/ClearPrivateData.strings" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs.">
@@ -71,7 +71,7 @@
   </file>
   <file original="Client/ErrorPages.strings" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="Open in Safari">
@@ -88,7 +88,7 @@
   </file>
   <file original="Client/HistoryPanel.strings" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="Remove">
@@ -100,7 +100,7 @@
   </file>
   <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -123,7 +123,7 @@
   </file>
   <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="Browse multiple Web pages at the same time with tabs.">
@@ -185,7 +185,7 @@
   </file>
   <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="+">
@@ -217,6 +217,10 @@
         <source>About</source>
         <target>Maidir Leis</target>
         <note>About settings section title</note>
+      </trans-unit>
+      <trans-unit id="Add Private Tab">
+        <source>Add Private Tab</source>
+        <note>Accessibility labe for the Add Private Tab button in the Tab Tray.</note>
       </trans-unit>
       <trans-unit id="Add Tab">
         <source>Add Tab</source>
@@ -268,6 +272,14 @@
         <target>Gile</target>
         <note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note>
       </trans-unit>
+      <trans-unit id="Browsing History">
+        <source>Browsing History</source>
+        <note>Settings item for clearing browsing history</note>
+      </trans-unit>
+      <trans-unit id="Cache">
+        <source>Cache</source>
+        <note>Settings item for clearing the cache</note>
+      </trans-unit>
       <trans-unit id="Call">
         <source>Call</source>
         <target>Glao</target>
@@ -276,12 +288,7 @@
       <trans-unit id="Cancel">
         <source>Cancel</source>
         <target>Cealaigh</target>
-        <note>Alert Cancel Button
-   Authentication prompt cancel button
-   Button label to cancel entering a URL or search query
-   Cancel alert view
-   Cancel button
-   Cancel button in the 'log out firefox account' alert</note>
+        <note>Cancel button title in share dialog</note>
       </trans-unit>
       <trans-unit id="Changes color theme.">
         <source>Changes color theme.</source>
@@ -296,7 +303,9 @@
       <trans-unit id="Clear Private Data">
         <source>Clear Private Data</source>
         <target>Glan Sonraí Príobháideacha</target>
-        <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
+        <note>Button in settings that clears private data for the selected items.
+   Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.
+   Navigation title for clearing private data.</note>
       </trans-unit>
       <trans-unit id="Close">
         <source>Close</source>
@@ -307,6 +316,10 @@
         <source>Closing tab</source>
         <target>Cluaisín á dhúnadh</target>
         <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Cookies">
+        <source>Cookies</source>
+        <note>Settings item for clearing cookies</note>
       </trans-unit>
       <trans-unit id="Copy Address">
         <source>Copy Address</source>
@@ -403,7 +416,9 @@
       <trans-unit id="Done">
         <source>Done</source>
         <target>Déanta</target>
-        <note>Done button on left side of the Settings view controller title bar
+        <note>Done button label for search settings table
+   Done button label on back forward list screen
+   Done button on left side of the Settings view controller title bar
    Done editing button</note>
       </trans-unit>
       <trans-unit id="Double tap and hold to open history">
@@ -451,6 +466,10 @@
         <target>Cló níos mó</target>
         <note>Accessibility label for button increasing font size in display settings of reader mode</note>
       </trans-unit>
+      <trans-unit id="Intro Tour Carousel">
+        <source>Intro Tour Carousel</source>
+        <note>Accessibility label for the introduction tour carousel</note>
+      </trans-unit>
       <trans-unit id="Last month">
         <source>Last month</source>
         <target>An mhí seo caite</target>
@@ -459,7 +478,8 @@
       <trans-unit id="Last synced: %@">
         <source>Last synced: %@</source>
         <target>Sioncrónú is déanaí: %@</target>
-        <note>Remote tabs last synced time. Argument is the relative date string.</note>
+        <note>Last synced time label beside Sync Now setting option. Argument is the relative date string.
+   Remote tabs last synced time. Argument is the relative date string.</note>
       </trans-unit>
       <trans-unit id="Last week">
         <source>Last week</source>
@@ -571,6 +591,10 @@
    Label for OK button in the application update prompt
    OK button</note>
       </trans-unit>
+      <trans-unit id="Offline Website Data">
+        <source>Offline Website Data</source>
+        <note>Settings item for clearing website data</note>
+      </trans-unit>
       <trans-unit id="Okay">
         <source>Okay</source>
         <target>Tá</target>
@@ -661,6 +685,10 @@
         <target>Bain den Liosta Léitheoireachta</target>
         <note>Name for button removing current article from reading list in reader mode</note>
       </trans-unit>
+      <trans-unit id="Remove page">
+        <source>Remove page</source>
+        <note>Button shown in editing mode to remove this site from the top sites panel.</note>
+      </trans-unit>
       <trans-unit id="Sans-serif">
         <source>Sans-serif</source>
         <target>Sans-serif</target>
@@ -680,6 +708,10 @@
         <source>Save pages to your Reading List by tapping the book plus icon in the Reader View controls.</source>
         <target>Tapáil an deilbhín leabhair leis an gcomhartha móide sna rialtáin Amharc Léitheoireachta le leathanach a chur ar do Liosta Léitheoireachta.</target>
         <note>See http://mzl.la/1LXbDOL</note>
+      </trans-unit>
+      <trans-unit id="Saved Logins">
+        <source>Saved Logins</source>
+        <note>Settings item for clearing passwords and login data</note>
       </trans-unit>
       <trans-unit id="Search">
         <source>Search</source>
@@ -916,6 +948,10 @@
         <target>Níl aon chluaisíní oscailte agat i bhFirefox ar do ghléasanna eile.</target>
         <note>Error message in the remote tabs panel</note>
       </trans-unit>
+      <trans-unit id="Your Rights">
+        <source>Your Rights</source>
+        <note>Your Rights settings section title</note>
+      </trans-unit>
       <trans-unit id="computer">
         <source>computer</source>
         <target>ríomhaire</target>
@@ -970,7 +1006,7 @@
   </file>
   <file original="Client/Search.strings" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="%@ search">
@@ -1007,7 +1043,7 @@
   </file>
   <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -1022,7 +1058,7 @@
   </file>
   <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -1041,7 +1077,7 @@
   </file>
   <file original="Extensions/SendTo/SendTo.strings" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="Available devices:">
@@ -1083,7 +1119,7 @@
   </file>
   <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -1102,7 +1138,7 @@
   </file>
   <file original="Extensions/ShareTo/ShareTo.strings" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="Add">
@@ -1124,7 +1160,7 @@
   </file>
   <file original="Extensions/ViewLater/Info.plist" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -1143,7 +1179,7 @@
   </file>
   <file original="ReadingList/Info.plist" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -1158,7 +1194,7 @@
   </file>
   <file original="ReadingListTests/Info.plist" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -1173,7 +1209,7 @@
   </file>
   <file original="Shared/Supporting Files/Info.plist" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -1188,7 +1224,7 @@
   </file>
   <file original="Shared/Supporting Files/Shared.strings" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="%@ on %@">
@@ -1200,7 +1236,7 @@
   </file>
   <file original="SharedTests/Info.plist" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -1215,7 +1251,7 @@
   </file>
   <file original="Storage.strings" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="Bookmarks Menu">
@@ -1241,13 +1277,14 @@
       <trans-unit id="Untitled">
         <source>Untitled</source>
         <target>Gan Teideal</target>
-        <note>The default name for bookmark folders without titles.</note>
+        <note>The default name for bookmark folders without titles.
+   The default name for bookmark nodes without titles.</note>
       </trans-unit>
     </body>
   </file>
   <file original="StorageTests/Info.plist" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -1262,7 +1299,7 @@
   </file>
   <file original="Sync/Info.plist" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -1277,7 +1314,7 @@
   </file>
   <file original="SyncTests/Info.plist" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -1292,7 +1329,7 @@
   </file>
   <file original="UITests/Info.plist" source-language="en" datatype="plaintext" target-language="ga">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.4" build-num="6E35b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
