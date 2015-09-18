@@ -57,6 +57,16 @@
         <target>Eliminare tutti i dati? Verranno anche chiuse tutte le schede aperte.</target>
         <note>Message shown in the dialog prompting users if they want to clear everything</note>
       </trans-unit>
+      <trans-unit id="Browsing History">
+        <source>Browsing History</source>
+        <target>Cronologia di navigazione</target>
+        <note>Settings item for clearing browsing history</note>
+      </trans-unit>
+      <trans-unit id="Cache">
+        <source>Cache</source>
+        <target>Cache</target>
+        <note>Settings item for clearing the cache</note>
+      </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
         <target>Annulla</target>
@@ -71,6 +81,27 @@
         <source>Clear Everything</source>
         <target>Eliminazione dati</target>
         <note>Title of the Clear private data dialog.</note>
+      </trans-unit>
+      <trans-unit id="Clear Private Data">
+        <source>Clear Private Data</source>
+        <target>Elimina dati personali</target>
+        <note>Button in settings that clears private data for the selected items.
+   Navigation title in settings.</note>
+      </trans-unit>
+      <trans-unit id="Cookies">
+        <source>Cookies</source>
+        <target>Cookie</target>
+        <note>Settings item for clearing cookies</note>
+      </trans-unit>
+      <trans-unit id="Offline Website Data">
+        <source>Offline Website Data</source>
+        <target>Dati non in linea dei siti web</target>
+        <note>Settings item for clearing website data</note>
+      </trans-unit>
+      <trans-unit id="Saved Logins">
+        <source>Saved Logins</source>
+        <target>Accessi salvati</target>
+        <note>Settings item for clearing passwords and login data</note>
       </trans-unit>
     </body>
   </file>
@@ -136,6 +167,11 @@
         <target>Apri più pagine web contemporaneamente grazie alle schede.</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
+      <trans-unit id="Choose">
+        <source>Choose</source>
+        <target>Scegli</target>
+        <note>See http://mzl.la/1if9ODp</note>
+      </trans-unit>
       <trans-unit id="Connect Firefox everywhere you use it.">
         <source>Connect Firefox everywhere you use it.</source>
         <target>Rimani connesso a Firefox ovunque lo utilizzi.</target>
@@ -144,6 +180,11 @@
       <trans-unit id="Customize">
         <source>Customize</source>
         <target>Personalizza</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Easily switch between open pages with tabs.">
+        <source>Easily switch between open pages with tabs.</source>
+        <target>Passa facilmente da una pagina aperta all’altra grazie alle schede.</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="Firefox and the cloud">
@@ -166,6 +207,16 @@
         <target>Personalizza Firefox esattamente come desideri nelle impostazioni.</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
+      <trans-unit id="Personalize things like your default search engine in Settings.">
+        <source>Personalize things like your default search engine in Settings.</source>
+        <target>Personalizza la tua configurazione, come ad esempio il motore di ricerca predefinito, nelle impostazioni.</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Share">
+        <source>Share</source>
+        <target>Condividi</target>
+        <note>See http://mzl.la/1if9ODp</note>
+      </trans-unit>
       <trans-unit id="Sign in to Firefox">
         <source>Sign in to Firefox</source>
         <target>Accedi a Firefox</target>
@@ -176,6 +227,16 @@
         <target>Inizia a navigare</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
+      <trans-unit id="Sync Your Devices.">
+        <source>Sync Your Devices.</source>
+        <target>Sincronizza i tuoi dispositivi</target>
+        <note>ee http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Tap, hold and move the Firefox icon into your dock for easy access.">
+        <source>Tap, hold and move the Firefox icon into your dock for easy access.</source>
+        <target>Tocca l’icona di Firefox, tieni premuto e trascinala sul dock per un accesso più rapido.</target>
+        <note>See http://mzl.la/1if9ODp</note>
+      </trans-unit>
       <trans-unit id="The Settings button is at the beginning of the Tabs Tray.">
         <source>The Settings button is at the beginning of the Tabs Tray.</source>
         <target>Il pulsante impostazioni si trova all’inizio della barra delle schede.</target>
@@ -185,6 +246,11 @@
         <source>The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs.</source>
         <target>Il pulsante Visualizza schede si trova vicino al campo di testo utilizzato per inserire indirizzi ed effettuare ricerche e visualizza il numero di schede attualmente aperte.</target>
         <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Use the share sheet to send links from other apps to Firefox.">
+        <source>Use the share sheet to send links from other apps to Firefox.</source>
+        <target>Utilizza la condivisione per inviare link a Firefox da altre app.</target>
+        <note>See http://mzl.la/1if9ODp</note>
       </trans-unit>
     </body>
   </file>
@@ -311,9 +377,7 @@
       <trans-unit id="Clear Private Data">
         <source>Clear Private Data</source>
         <target>Elimina dati personali</target>
-        <note>Button in settings that clears private data for the selected items.
-   Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.
-   Navigation title for clearing private data.</note>
+        <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
       </trans-unit>
       <trans-unit id="Close">
         <source>Close</source>
@@ -716,6 +780,11 @@
         <target>Salva immagine</target>
         <note>Context menu item for saving an image</note>
       </trans-unit>
+      <trans-unit id="Save Logins">
+        <source>Save Logins</source>
+        <target>Salva accessi</target>
+        <note>Setting to enable the built-in password manager</note>
+      </trans-unit>
       <trans-unit id="Save pages to your Reading List by tapping the book plus icon in the Reader View controls.">
         <source>Save pages to your Reading List by tapping the book plus icon in the Reader View controls.</source>
         <target>Salva pagine in Elenco lettura toccando l’icona con il libro e il simbolo + nei controlli della Modalità lettura.</target>
@@ -807,8 +876,7 @@
       <trans-unit id="Sign in">
         <source>Sign in</source>
         <target>Accedi</target>
-        <note>Button that leads to Sign in section of the Settings sheet.
-   See http://mzl.la/1Qtkf0j</note>
+        <note>See http://mzl.la/1Qtkf0j</note>
       </trans-unit>
       <trans-unit id="Stop">
         <source>Stop</source>
