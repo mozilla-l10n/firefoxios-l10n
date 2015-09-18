@@ -60,6 +60,16 @@
     <target>Czy na pewno usunąć wszystkie dane? Wszystkie otwarte karty zostaną również zamknięte.</target>
     <note>Message shown in the dialog prompting users if they want to clear everything</note>
    </trans-unit>
+   <trans-unit id="Browsing History">
+    <source>Browsing History</source>
+    <target>Historia przeglądania</target>
+    <note>Settings item for clearing browsing history</note>
+   </trans-unit>
+    <trans-unit id="Cache">
+    <source>Cache</source>
+    <target>Pamięć podręczna</target>
+    <note>Settings item for clearing the cache</note>
+   </trans-unit>
    <trans-unit id="Cancel">
     <source>Cancel</source>
     <target>Anuluj</target>
@@ -74,6 +84,27 @@
     <source>Clear Everything</source>
     <target>Usuwanie danych</target>
     <note>Title of the Clear private data dialog.</note>
+   </trans-unit>
+   <trans-unit id="Clear Private Data">
+    <source>Clear Private Data</source>
+    <target>Wyczyść dane prywatne</target>
+    <note>Button in settings that clears private data for the selected items.
+          Navigation title for clearing private data.</note>
+   </trans-unit>
+   <trans-unit id="Cookies">
+    <source>Cookies</source>
+    <target>Ciasteczka</target>
+    <note>Settings item for clearing cookies</note>
+   </trans-unit>
+   <trans-unit id="Offline Website Data">
+    <source>Offline Website Data</source>
+    <target>Dane witryn trybu offline</target>
+    <note>Settings item for clearing website data</note>
+   </trans-unit>
+   <trans-unit id="Saved Logins">
+    <source>Saved Logins</source>
+    <target>Zachowane dane logowania</target>
+    <note>Settings item for clearing passwords and login data</note>
    </trans-unit>
   </body>
  </file>
@@ -301,16 +332,6 @@
     <target>Jasność</target>
     <note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note>
    </trans-unit>
-   <trans-unit id="Browsing History">
-    <source>Browsing History</source>
-    <target>Historia przeglądania</target>
-    <note>Settings item for clearing browsing history</note>
-   </trans-unit>
-    <trans-unit id="Cache">
-    <source>Cache</source>
-    <target>Pamięć podręczna</target>
-    <note>Settings item for clearing the cache</note>
-   </trans-unit>
    <trans-unit id="Call">
     <source>Call</source>
     <target>Połącz</target>
@@ -334,9 +355,7 @@
    <trans-unit id="Clear Private Data">
     <source>Clear Private Data</source>
     <target>Wyczyść dane prywatne</target>
-    <note>Button in settings that clears private data for the selected items.
-          Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.
-          Navigation title for clearing private data.</note>
+    <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
    </trans-unit>
    <trans-unit id="Close">
     <source>Close</source>
@@ -347,11 +366,6 @@
     <source>Closing tab</source>
     <target>Zamykanie karty</target>
     <note>No comment provided by engineer.</note>
-   </trans-unit>
-   <trans-unit id="Cookies">
-    <source>Cookies</source>
-    <target>Ciasteczka</target>
-    <note>Settings item for clearing cookies</note>
    </trans-unit>
    <trans-unit id="Copy Address">
     <source>Copy Address</source>
@@ -624,11 +638,6 @@
           OK button</note>
     <target>OK</target>
    </trans-unit>
-   <trans-unit id="Offline Website Data">
-    <source>Offline Website Data</source>
-    <target>Dane witryn trybu offline</target>
-    <note>Settings item for clearing website data</note>
-   </trans-unit>
    <trans-unit id="Okay">
     <source>Okay</source>
     <target>Przywróć</target>
@@ -748,11 +757,6 @@
     <source>Save pages to your Reading List by tapping the book plus icon in the Reader View controls.</source>
     <target>Zapisuj strony w Czytelni stukając ikonę książki w widoku poprawionej czytelności.</target>
     <note>See http://mzl.la/1LXbDOL</note>
-   </trans-unit>
-   <trans-unit id="Saved Logins">
-    <source>Saved Logins</source>
-    <target>Zachowane dane logowania</target>
-    <note>Settings item for clearing passwords and login data</note>
    </trans-unit>
    <trans-unit id="Search">
     <source>Search</source>
