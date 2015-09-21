@@ -1,174 +1,258 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">1.0</target></trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">1.0</target></trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/BookmarkPanel.strings" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Delete" approved="yes">
+      <trans-unit id="Delete">
         <source>Delete</source>
-        <target state="translated">Padam</target><note>Action button for deleting bookmarks in the bookmarks panel.</note>
-      <note>Action button for deleting bookmarks in the bookmarks panel.</note></trans-unit>
+        <target>Padam</target>
+        <note>Action button for deleting bookmarks in the bookmarks panel.</note>
+      </trans-unit>
+      <trans-unit id="Desktop Bookmarks">
+        <source>Desktop Bookmarks</source>
+        <note>The folder name for the virtual folder that contains all desktop bookmarks.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/ClearPrivateData.strings" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs." approved="yes">
+      <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs.">
         <source>Are you sure you want to clear all of your data? This will also close all open tabs.</source>
-        <target state="translated">Adakah anda pasti anda mahu mengosongkan semua data anda? Ini juga akan menutup semua tab yanag terbuka.</target><note>Message shown in the dialog prompting users if they want to clear everything</note>
-      <note>Message shown in the dialog prompting users if they want to clear everything</note></trans-unit>
-      <trans-unit id="Cancel" approved="yes">
+        <target>Adakah anda pasti anda mahu mengosongkan semua data anda? Ini juga akan menutup semua tab yanag terbuka.</target>
+        <note>Message shown in the dialog prompting users if they want to clear everything</note>
+      </trans-unit>
+      <trans-unit id="Browsing History">
+        <source>Browsing History</source>
+        <note>Settings item for clearing browsing history</note>
+      </trans-unit>
+      <trans-unit id="Cache">
+        <source>Cache</source>
+        <note>Settings item for clearing the cache</note>
+      </trans-unit>
+      <trans-unit id="Cancel">
         <source>Cancel</source>
-        <target state="translated">Batal</target><note>Used as a button label in the dialog to cancel clear private data dialog</note>
-      <note>Used as a button label in the dialog to cancel clear private data dialog</note></trans-unit>
-      <trans-unit id="Clear" approved="yes">
+        <target>Batal</target>
+        <note>Used as a button label in the dialog to cancel clear private data dialog</note>
+      </trans-unit>
+      <trans-unit id="Clear">
         <source>Clear</source>
-        <target state="translated">Bersih</target><note>Used as a button label in the dialog to Clear private data dialog</note>
-      <note>Used as a button label in the dialog to Clear private data dialog</note></trans-unit>
-      <trans-unit id="Clear Everything" approved="yes">
+        <target>Bersih</target>
+        <note>Used as a button label in the dialog to Clear private data dialog</note>
+      </trans-unit>
+      <trans-unit id="Clear Everything">
         <source>Clear Everything</source>
-        <target state="translated">Bersihkan Kesemuanya</target><note>Title of the Clear private data dialog.</note>
-      <note>Title of the Clear private data dialog.</note></trans-unit>
+        <target>Bersihkan Kesemuanya</target>
+        <note>Title of the Clear private data dialog.</note>
+      </trans-unit>
+      <trans-unit id="Clear Private Data">
+        <source>Clear Private Data</source>
+        <note>Button in settings that clears private data for the selected items.
+   Navigation title in settings.</note>
+      </trans-unit>
+      <trans-unit id="Cookies">
+        <source>Cookies</source>
+        <note>Settings item for clearing cookies</note>
+      </trans-unit>
+      <trans-unit id="Offline Website Data">
+        <source>Offline Website Data</source>
+        <note>Settings item for clearing website data</note>
+      </trans-unit>
+      <trans-unit id="Saved Logins">
+        <source>Saved Logins</source>
+        <note>Settings item for clearing passwords and login data</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/ErrorPages.strings" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Open in Safari" approved="yes">
+      <trans-unit id="Open in Safari">
         <source>Open in Safari</source>
-        <target state="translated">Buka dalam Safari</target><note>Shown in error pages for files that can't be shown and need to be downloaded.</note>
-      <note>Shown in error pages for files that can't be shown and need to be downloaded.</note></trans-unit>
-      <trans-unit id="Try again" approved="yes">
+        <target>Buka dalam Safari</target>
+        <note>Shown in error pages for files that can't be shown and need to be downloaded.</note>
+      </trans-unit>
+      <trans-unit id="Try again">
         <source>Try again</source>
-        <target state="translated">Cuba lagi</target><note>Shown in error pages on a button that will try to load the page again</note>
-      <note>Shown in error pages on a button that will try to load the page again</note></trans-unit>
+        <target>Cuba lagi</target>
+        <note>Shown in error pages on a button that will try to load the page again</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/HistoryPanel.strings" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Remove" approved="yes">
+      <trans-unit id="Remove">
         <source>Remove</source>
-        <target state="translated">Keluarkan</target><note>Action button for deleting history entries in the history panel.</note>
-      <note>Action button for deleting history entries in the history panel.</note></trans-unit>
+        <target>Keluarkan</target>
+        <note>Action button for deleting history entries in the history panel.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" approved="yes">
+      <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-      <target state="translated">$(MOZ_BUNDLE_DISPLAY_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleName" approved="yes">
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
         <source>$(MOZ_PRODUCT_NAME)</source>
-      <target state="translated">$(MOZ_PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(MOZ_PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>$(MOZ_VERSION)</source>
-      <target state="translated">$(MOZ_VERSION)</target></trans-unit>
-      <trans-unit id="NSLocationWhenInUseUsageDescription" approved="yes">
+        <target>$(MOZ_VERSION)</target>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Websites you visit may request your location.</source>
-      <target state="translated">Laman web yang anda lawati mungkin meminta lokasi anda.</target></trans-unit>
+        <target>Laman web yang anda lawati mungkin meminta lokasi anda.</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Browse multiple Web pages at the same time with tabs." approved="yes">
+      <trans-unit id="Browse multiple Web pages at the same time with tabs.">
         <source>Browse multiple Web pages at the same time with tabs.</source>
-        <target state="translated">Menyemak imbas halaman Web pada masa yang sama dengan tab.</target><note>See http://mzl.la/1T8gxwo</note>
-      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Connect Firefox everywhere you use it." approved="yes">
+        <target>Menyemak imbas halaman Web pada masa yang sama dengan tab.</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Choose">
+        <source>Choose</source>
+        <note>See http://mzl.la/1if9ODp</note>
+      </trans-unit>
+      <trans-unit id="Connect Firefox everywhere you use it.">
         <source>Connect Firefox everywhere you use it.</source>
-        <target state="translated">Sambung Firefox mana-mana anda menggunakannya.</target><note>See http://mzl.la/1T8gxwo</note>
-      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Customize" approved="yes">
+        <target>Sambung Firefox mana-mana anda menggunakannya.</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Customize">
         <source>Customize</source>
-        <target state="translated">Penyesuaian</target><note>See http://mzl.la/1T8gxwo</note>
-      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Firefox and the cloud" approved="yes">
+        <target>Penyesuaian</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Easily switch between open pages with tabs.">
+        <source>Easily switch between open pages with tabs.</source>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Firefox and the cloud">
         <source>Firefox and the cloud</source>
-        <target state="translated">Firefox dan awan</target><note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
-      <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Introductory slide %@ of %@" approved="yes">
+        <target>Firefox dan awan</target>
+        <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Introductory slide %@ of %@">
         <source>Introductory slide %1$@ of %2$@</source>
-        <target state="translated">Slaid pengenalan %1$@ daripada %2$@</target><note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note>
-      <note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note></trans-unit>
-      <trans-unit id="Organize" approved="yes">
+        <target>Slaid pengenalan %1$@ daripada %2$@</target>
+        <note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note>
+      </trans-unit>
+      <trans-unit id="Organize">
         <source>Organize</source>
-        <target state="translated">Uruskan</target><note>See http://mzl.la/1T8gxwo</note>
-      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Personalize your Firefox just the way you like in Settings." approved="yes">
+        <target>Uruskan</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Personalize your Firefox just the way you like in Settings.">
         <source>Personalize your Firefox just the way you like in Settings.</source>
-        <target state="translated">Peribadikan Firefox anda seperti yang anda suka dalam Tetapan.</target><note>See http://mzl.la/1T8gxwo</note>
-      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Sign in to Firefox" approved="yes">
+        <target>Peribadikan Firefox anda seperti yang anda suka dalam Tetapan.</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Personalize your default search engine and more in Settings.">
+        <source>Personalize your default search engine and more in Settings.</source>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Share">
+        <source>Share</source>
+        <note>See http://mzl.la/1if9ODp</note>
+      </trans-unit>
+      <trans-unit id="Sign in to Firefox">
         <source>Sign in to Firefox</source>
-        <target state="translated">Daftar masuk ke Firefox</target><note>See http://mzl.la/1T8gxwo</note>
-      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Start Browsing" approved="yes">
+        <target>Daftar masuk ke Firefox</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Start Browsing">
         <source>Start Browsing</source>
-        <target state="translated">Mulakan Pelayaran</target><note>See http://mzl.la/1T8gxwo</note>
-      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="The Settings button is at the beginning of the Tabs Tray." approved="yes">
+        <target>Mulakan Pelayaran</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Sync Your Devices.">
+        <source>Sync Your Devices.</source>
+        <note>ee http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Tap, hold and move the Firefox icon into your dock for easy access.">
+        <source>Tap, hold and move the Firefox icon into your dock for easy access.</source>
+        <note>See http://mzl.la/1if9ODp</note>
+      </trans-unit>
+      <trans-unit id="The Settings button is at the beginning of the Tabs Tray.">
         <source>The Settings button is at the beginning of the Tabs Tray.</source>
-        <target state="translated">Butang Tetapan pada permulaan Tab Tray.</target><note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+        <target>Butang Tetapan pada permulaan Tab Tray.</target>
+        <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs.">
         <source>The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs.</source>
         <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
       </trans-unit>
+      <trans-unit id="Use the share sheet to send links from other apps to Firefox.">
+        <source>Use the share sheet to send links from other apps to Firefox.</source>
+        <note>See http://mzl.la/1if9ODp</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
       <trans-unit id="+">
         <source>+</source>
         <note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       </trans-unit>
-      <trans-unit id="-" approved="no">
+      <trans-unit id="-">
         <source>-</source>
-        <target state="needs-translation">-</target><note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
-      <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note></trans-unit>
+        <target>-</target>
+        <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+      </trans-unit>
       <trans-unit id="A username and password are being requested by %@.">
         <source>A username and password are being requested by %@.</source>
         <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
@@ -185,10 +269,6 @@
         <source>About</source>
         <note>About settings section title</note>
       </trans-unit>
-      <trans-unit id="Add Private Tab">
-        <source>Add Private Tab</source>
-        <note>Accessibility labe for the Add Private Tab button in the Tab Tray.</note>
-      </trans-unit>
       <trans-unit id="Add Tab">
         <source>Add Tab</source>
         <note>Accessibility label for the Add Tab button in the Tab Tray.</note>
@@ -204,6 +284,10 @@
       <trans-unit id="Address and Search">
         <source>Address and Search</source>
         <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
+      </trans-unit>
+      <trans-unit id="Always Send">
+        <source>Always Send</source>
+        <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
       </trans-unit>
       <trans-unit id="Authentication required">
         <source>Authentication required</source>
@@ -229,14 +313,6 @@
         <source>Brightness</source>
         <note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note>
       </trans-unit>
-      <trans-unit id="Browsing History">
-        <source>Browsing History</source>
-        <note>Settings item for clearing browsing history</note>
-      </trans-unit>
-      <trans-unit id="Cache">
-        <source>Cache</source>
-        <note>Settings item for clearing the cache</note>
-      </trans-unit>
       <trans-unit id="Call">
         <source>Call</source>
         <note>Alert Call Button</note>
@@ -255,9 +331,7 @@
       </trans-unit>
       <trans-unit id="Clear Private Data">
         <source>Clear Private Data</source>
-        <note>Button in settings that clears private data for the selected items.
-   Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.
-   Navigation title for clearing private data.</note>
+        <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
       </trans-unit>
       <trans-unit id="Close">
         <source>Close</source>
@@ -266,10 +340,6 @@
       <trans-unit id="Closing tab">
         <source>Closing tab</source>
         <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Cookies">
-        <source>Cookies</source>
-        <note>Settings item for clearing cookies</note>
       </trans-unit>
       <trans-unit id="Copy Address">
         <source>Copy Address</source>
@@ -325,6 +395,10 @@
    Title for default search engine picker.
    Title for default search engine settings section.</note>
       </trans-unit>
+      <trans-unit id="Disable additional page dialogs">
+        <source>Disable additional page dialogs</source>
+        <note>Pending feature; currently unused string! Checkbox label shown after multiple alerts are shown</note>
+      </trans-unit>
       <trans-unit id="Display Settings">
         <source>Display Settings</source>
         <note>Name for display settings button in reader mode. Display in the meaning of presentation, not monitor.</note>
@@ -345,6 +419,10 @@
         <source>Do you want to update the password on %@?</source>
         <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
       </trans-unit>
+      <trans-unit id="Don't Send">
+        <source>Don't Send</source>
+        <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
+      </trans-unit>
       <trans-unit id="Done">
         <source>Done</source>
         <note>Done button label for search settings table
@@ -359,6 +437,10 @@
       <trans-unit id="Enter your password to connect.">
         <source>Enter your password to connect.</source>
         <note>Text message in the settings table view</note>
+      </trans-unit>
+      <trans-unit id="Firefox Help and Support">
+        <source>Firefox Help and Support</source>
+        <note>Tile title for App Help</note>
       </trans-unit>
       <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.">
         <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
@@ -375,6 +457,18 @@
       <trans-unit id="General">
         <source>General</source>
         <note>General settings section title</note>
+      </trans-unit>
+      <trans-unit id="Get your open tabs, bookmarks, and passwords from your other devices.">
+        <source>Get your open tabs, bookmarks, and passwords from your other devices.</source>
+        <note>A re-worded offer about Sync that emphasizes one-way data transfer, not syncing.</note>
+      </trans-unit>
+      <trans-unit id="Go">
+        <source>Go</source>
+        <note>Pending feature; currently unused string! Button to browse to URL on the clipboard when browser is opened</note>
+      </trans-unit>
+      <trans-unit id="Go to copied URL?">
+        <source>Go to copied URL?</source>
+        <note>Pending feature; currently unused string! Prompt message shown when browser is opened with URL on the clipboard</note>
       </trans-unit>
       <trans-unit id="Help">
         <source>Help</source>
@@ -460,6 +554,10 @@
         <source>Navigation Toolbar</source>
         <note>Accessibility label for the navigation toolbar displayed at the bottom of the screen.</note>
       </trans-unit>
+      <trans-unit id="Never Send">
+        <source>Never Send</source>
+        <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
+      </trans-unit>
       <trans-unit id="New tab: %@: %@">
         <source>New tab: %1$@: %2$@</source>
         <note>New tab [title] [url]</note>
@@ -490,13 +588,13 @@
    Label for OK button in the application update prompt
    OK button</note>
       </trans-unit>
-      <trans-unit id="Offline Website Data">
-        <source>Offline Website Data</source>
-        <note>Settings item for clearing website data</note>
-      </trans-unit>
       <trans-unit id="Okay">
         <source>Okay</source>
         <note>Restore Tabs Affirmative Action</note>
+      </trans-unit>
+      <trans-unit id="Oops! Firefox crashed">
+        <source>Oops! Firefox crashed</source>
+        <note>Pending feature; currently unused string! Title for prompt displayed to user after the app crashes</note>
       </trans-unit>
       <trans-unit id="Open In New Tab">
         <source>Open In New Tab</source>
@@ -570,6 +668,14 @@
         <source>Remove page</source>
         <note>Button shown in editing mode to remove this site from the top sites panel.</note>
       </trans-unit>
+      <trans-unit id="Request Desktop Site">
+        <source>Request Desktop Site</source>
+        <note>Pending feature; currently unused string! Tooltip label triggered by long pressing the refresh button.</note>
+      </trans-unit>
+      <trans-unit id="Request Mobile Site">
+        <source>Request Mobile Site</source>
+        <note>Pending feature; currently unused string! Tooltip label triggered by long pressing the refresh button a second time.</note>
+      </trans-unit>
       <trans-unit id="Sans-serif">
         <source>Sans-serif</source>
         <note>Font type setting in the reading view settings</note>
@@ -582,13 +688,13 @@
         <source>Save Image</source>
         <note>Context menu item for saving an image</note>
       </trans-unit>
+      <trans-unit id="Save Logins">
+        <source>Save Logins</source>
+        <note>Setting to enable the built-in password manager</note>
+      </trans-unit>
       <trans-unit id="Save pages to your Reading List by tapping the book plus icon in the Reader View controls.">
         <source>Save pages to your Reading List by tapping the book plus icon in the Reader View controls.</source>
         <note>See http://mzl.la/1LXbDOL</note>
-      </trans-unit>
-      <trans-unit id="Saved Logins">
-        <source>Saved Logins</source>
-        <note>Settings item for clearing passwords and login data</note>
       </trans-unit>
       <trans-unit id="Search">
         <source>Search</source>
@@ -615,6 +721,14 @@
         <source>Send Feedback</source>
         <note>Show an input.mozilla.org page where people can submit feedback</note>
       </trans-unit>
+      <trans-unit id="Send Report">
+        <source>Send Report</source>
+        <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
+      </trans-unit>
+      <trans-unit id="Send a crash report so Mozilla can fix the problem?">
+        <source>Send a crash report so Mozilla can fix the problem?</source>
+        <note>Pending feature; currently unused string! Message displayed in the crash dialog above the buttons used to select when sending reports</note>
+      </trans-unit>
       <trans-unit id="Sepia">
         <source>Sepia</source>
         <note>Sepia theme setting in Reading View settings</note>
@@ -632,6 +746,10 @@
         <source>Share</source>
         <note>Accessibility Label for the browser toolbar Share button</note>
       </trans-unit>
+      <trans-unit id="Show Search Suggestions">
+        <source>Show Search Suggestions</source>
+        <note>Label for show search suggestions setting.</note>
+      </trans-unit>
       <trans-unit id="Show Tabs">
         <source>Show Tabs</source>
         <note>Accessibility label for the tabs button in the (top) browser toolbar
@@ -645,11 +763,13 @@
         <source>Show search suggestions</source>
         <note>Label for show search suggestions setting.</note>
       </trans-unit>
+      <trans-unit id="Sign In">
+        <source>Sign In</source>
+        <note>Text message / button in the settings table view</note>
+      </trans-unit>
       <trans-unit id="Sign in">
         <source>Sign in</source>
-        <note>Button that leads to Sign in section of the Settings sheet.
-   See http://mzl.la/1Qtkf0j
-   Text message / button in the settings table view</note>
+        <note>Text message / button in the settings table view</note>
       </trans-unit>
       <trans-unit id="Stop">
         <source>Stop</source>
@@ -671,6 +791,10 @@
         <source>Sync your tabs, bookmarks, passwords and more.</source>
         <note>See http://mzl.la/1Qtkf0j</note>
       </trans-unit>
+      <trans-unit id="Sync your tabs, passwords and more.">
+        <source>Sync your tabs, passwords and more.</source>
+        <note>See http://mzl.la/1Qtkf0j</note>
+      </trans-unit>
       <trans-unit id="Synced tabs">
         <source>Synced tabs</source>
         <note>Panel accessibility label</note>
@@ -690,6 +814,10 @@
       <trans-unit id="Tabs Tray">
         <source>Tabs Tray</source>
         <note>Accessibility label for the Tabs Tray view.</note>
+      </trans-unit>
+      <trans-unit id="The Mozilla Project">
+        <source>The Mozilla Project</source>
+        <note>Tile title for Mozilla</note>
       </trans-unit>
       <trans-unit id="The page could not be displayed in Reader View.">
         <source>The page could not be displayed in Reader View.</source>
@@ -825,9 +953,44 @@
       </trans-unit>
     </body>
   </file>
+  <file original="Client/PrivateBrowsing.strings" source-language="en" datatype="plaintext" target-language="ms">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
+    </header>
+    <body>
+      <trans-unit id="Firefox won't remember any of your history or cookies, but new bookmarks will be saved.">
+        <source>Firefox won't remember any of your history or cookies, but new bookmarks will be saved.</source>
+        <note>Description text displayed when there are no open tabs while in private mode</note>
+      </trans-unit>
+      <trans-unit id="Learn More">
+        <source>Learn More</source>
+        <note>Text button displayed when there are no tabs open while in private mode</note>
+      </trans-unit>
+      <trans-unit id="Off">
+        <source>Off</source>
+        <note>Toggled OFF accessibility value</note>
+      </trans-unit>
+      <trans-unit id="On">
+        <source>On</source>
+        <note>Toggled ON accessibility value</note>
+      </trans-unit>
+      <trans-unit id="Private Browsing">
+        <source>Private Browsing</source>
+        <note>Title displayed for when there are no open tabs while in private mode</note>
+      </trans-unit>
+      <trans-unit id="Private Mode">
+        <source>Private Mode</source>
+        <note>Accessibility label for toggling on/off private mode</note>
+      </trans-unit>
+      <trans-unit id="Turns private mode on or off">
+        <source>Turns private mode on or off</source>
+        <note>Accessiblity hint for toggling on/off private mode</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Client/Search.strings" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
       <trans-unit id="%@ search">
@@ -858,7 +1021,7 @@
   </file>
   <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -871,7 +1034,7 @@
   </file>
   <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -887,7 +1050,7 @@
   </file>
   <file original="Extensions/SendTo/SendTo.strings" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
       <trans-unit id="Available devices:">
@@ -922,7 +1085,7 @@
   </file>
   <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -938,7 +1101,7 @@
   </file>
   <file original="Extensions/ShareTo/ShareTo.strings" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
       <trans-unit id="Add">
@@ -957,7 +1120,7 @@
   </file>
   <file original="Extensions/ViewLater/Info.plist" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -973,7 +1136,7 @@
   </file>
   <file original="ReadingList/Info.plist" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -986,7 +1149,7 @@
   </file>
   <file original="ReadingListTests/Info.plist" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -999,7 +1162,7 @@
   </file>
   <file original="Shared/Supporting Files/Info.plist" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -1012,7 +1175,7 @@
   </file>
   <file original="Shared/Supporting Files/Shared.strings" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
       <trans-unit id="%@ on %@">
@@ -1023,7 +1186,7 @@
   </file>
   <file original="SharedTests/Info.plist" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -1036,7 +1199,7 @@
   </file>
   <file original="Storage.strings" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
       <trans-unit id="Bookmarks Menu">
@@ -1064,7 +1227,7 @@
   </file>
   <file original="StorageTests/Info.plist" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -1077,7 +1240,7 @@
   </file>
   <file original="Sync/Info.plist" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -1090,7 +1253,7 @@
   </file>
   <file original="SyncTests/Info.plist" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -1103,7 +1266,7 @@
   </file>
   <file original="UITests/Info.plist" source-language="en" datatype="plaintext" target-language="ms">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A218"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
@@ -1115,3 +1278,4 @@
     </body>
   </file>
 </xliff>
+
