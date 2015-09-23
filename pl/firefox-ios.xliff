@@ -1153,6 +1153,11 @@
    <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
   </header>
   <body>
+   <trans-unit id="Close Private Tabs">
+    <source>Close Private Tabs</source>
+    <target>Zamykanie prywatnych kart</target>
+    <note>Setting for closing private tabs</note>
+   </trans-unit>
    <trans-unit id="Firefox won't remember any of your history or cookies, but new bookmarks will be saved.">
     <source>Firefox won't remember any of your history or cookies, but new bookmarks will be saved.</source>
     <target>Firefox nie zachowa historii przeglądania ani ciasteczek (dodane zakładki zostaną zachowane)</target>
@@ -1168,10 +1173,20 @@
      <target>Więcej informacji</target>
      <note>Text button displayed when there are no tabs open while in private mode</note>
    </trans-unit>
+   <trans-unit id="Manually">
+    <source>Manually</source>
+    <target>Ręcznie</target>
+    <note>Manual option</note>
+   </trans-unit>
    <trans-unit id="On">
     <source>On</source>
     <target>Włączone</target>
     <note>Toggled ON accessibility value</note>
+   </trans-unit>
+   <trans-unit id="Open In New Private Tab">
+    <source>Open In New Private Tab</source>
+    <target>Otwórz w trybie prywatnym</target>
+    <note>Context menu option for opening a link in a new private tab</note>
    </trans-unit>
    <trans-unit id="Private Browsing">
     <source>Private Browsing</source>
@@ -1187,6 +1202,11 @@
     <source>Turns private mode on or off</source>
     <target>Przełącza tryb prywatny</target>
     <note>Accessiblity hint for toggling on/off private mode</note>
+   </trans-unit>
+   <trans-unit id="When Leaving Private Browsing">
+    <source>When Leaving Private Browsing</source>
+    <target>(podczas opuszczania trybu prywatnego)</target>
+    <note>Will be displayed in Settings under 'Close Private Tabs'</note>
    </trans-unit>
   </body>
  </file>
