@@ -34,11 +34,11 @@
       <trans-unit id="Delete" approved="yes">
         <source>Delete</source>
         <target state="translated">ລຶບ</target><note>Action button for deleting bookmarks in the bookmarks panel.</note>
-      </trans-unit>
+      <note>Action button for deleting bookmarks in the bookmarks panel.</note></trans-unit>
       <trans-unit id="Desktop Bookmarks" approved="yes">
         <source>Desktop Bookmarks</source>
         <target state="translated">ບຸກມາກ Desktop</target><note>The folder name for the virtual folder that contains all desktop bookmarks.</note>
-      </trans-unit>
+      <note>The folder name for the virtual folder that contains all desktop bookmarks.</note></trans-unit>
     </body>
   </file>
   <file original="Client/ClearPrivateData.strings" source-language="en" datatype="plaintext" target-language="lo">
@@ -49,44 +49,44 @@
       <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs." approved="yes">
         <source>Are you sure you want to clear all of your data? This will also close all open tabs.</source>
         <target state="translated">ທ່ານຫມັ້ນໃຈແລ້ວບໍ່ວ່າທ່ານຕ້ອງການຈະເຄີຍຂໍ້ມູນທຸກຢ່າງຂອງທ່ານ? ເຊິງມັນຈະປິດທຸກແທັບທີ່ທ່ານເປີດຢູ່.</target><note>Message shown in the dialog prompting users if they want to clear everything</note>
-      </trans-unit>
+      <note>Message shown in the dialog prompting users if they want to clear everything</note></trans-unit>
       <trans-unit id="Browsing History" approved="yes">
         <source>Browsing History</source>
         <target state="translated">ປະຫວັດການຄົ້ນຫາ</target><note>Settings item for clearing browsing history</note>
-      </trans-unit>
+      <note>Settings item for clearing browsing history</note></trans-unit>
       <trans-unit id="Cache" approved="yes">
         <source>Cache</source>
         <target state="translated">Cache</target><note>Settings item for clearing the cache</note>
-      </trans-unit>
+      <note>Settings item for clearing the cache</note></trans-unit>
       <trans-unit id="Cancel" approved="yes">
         <source>Cancel</source>
         <target state="translated">ຍົກເລີກ</target><note>Used as a button label in the dialog to cancel clear private data dialog</note>
-      </trans-unit>
+      <note>Used as a button label in the dialog to cancel clear private data dialog</note></trans-unit>
       <trans-unit id="Clear" approved="yes">
         <source>Clear</source>
         <target state="translated">ລົບລ້າງ</target><note>Used as a button label in the dialog to Clear private data dialog</note>
-      </trans-unit>
+      <note>Used as a button label in the dialog to Clear private data dialog</note></trans-unit>
       <trans-unit id="Clear Everything" approved="yes">
         <source>Clear Everything</source>
         <target state="translated">ລົບລ້າງທຸກສິ່ງທຸກຢ່າງ</target><note>Title of the Clear private data dialog.</note>
-      </trans-unit>
+      <note>Title of the Clear private data dialog.</note></trans-unit>
       <trans-unit id="Clear Private Data" approved="yes">
         <source>Clear Private Data</source>
         <target state="translated">ລົບລ້າງຂໍ້ມູນສ່ວນຕົວ</target><note>Button in settings that clears private data for the selected items.
    Navigation title in settings.</note>
-      </trans-unit>
+      <note>Button in settings that clears private data for the selected items. Navigation title in settings.</note></trans-unit>
       <trans-unit id="Cookies" approved="yes">
         <source>Cookies</source>
         <target state="translated">Cookies</target><note>Settings item for clearing cookies</note>
-      </trans-unit>
+      <note>Settings item for clearing cookies</note></trans-unit>
       <trans-unit id="Offline Website Data" approved="yes">
         <source>Offline Website Data</source>
         <target state="translated">ຂໍ້ມູນ Offline ຂອງເວັບໃຊ້</target><note>Settings item for clearing website data</note>
-      </trans-unit>
+      <note>Settings item for clearing website data</note></trans-unit>
       <trans-unit id="Saved Logins" approved="yes">
         <source>Saved Logins</source>
         <target state="translated">ບັກທຶກການລັອກອິນໄວ້</target><note>Settings item for clearing passwords and login data</note>
-      </trans-unit>
+      <note>Settings item for clearing passwords and login data</note></trans-unit>
     </body>
   </file>
   <file original="Client/ErrorPages.strings" source-language="en" datatype="plaintext" target-language="lo">
@@ -97,11 +97,11 @@
       <trans-unit id="Open in Safari" approved="yes">
         <source>Open in Safari</source>
         <target state="translated">ເປີດໃນ Safari</target><note>Shown in error pages for files that can't be shown and need to be downloaded.</note>
-      </trans-unit>
+      <note>Shown in error pages for files that can't be shown and need to be downloaded.</note></trans-unit>
       <trans-unit id="Try again" approved="yes">
         <source>Try again</source>
         <target state="translated">ຫລອງໃຫມ່ອີກຄັ້ງ</target><note>Shown in error pages on a button that will try to load the page again</note>
-      </trans-unit>
+      <note>Shown in error pages on a button that will try to load the page again</note></trans-unit>
     </body>
   </file>
   <file original="Client/HistoryPanel.strings" source-language="en" datatype="plaintext" target-language="lo">
@@ -111,8 +111,8 @@
     <body>
       <trans-unit id="Remove" approved="yes">
         <source>Remove</source>
-        <target state="translated">ລົບ</target><note>Action button for deleting history entries in the history panel.</note>
-      </trans-unit>
+        <target state="translated">ລຶບ</target><note>Action button for deleting history entries in the history panel.</note>
+      <note>Action button for deleting history entries in the history panel.</note></trans-unit>
     </body>
   </file>
   <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="lo">
@@ -120,18 +120,18 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName">
+      <trans-unit id="CFBundleDisplayName" approved="yes">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-      </trans-unit>
-      <trans-unit id="CFBundleName">
+      <target state="translated">$(MOZ_BUNDLE_DISPLAY_NAME)</target></trans-unit>
+      <trans-unit id="CFBundleName" approved="yes">
         <source>$(MOZ_PRODUCT_NAME)</source>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
+      <target state="translated">$(MOZ_PRODUCT_NAME)</target></trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="yes">
         <source>$(MOZ_VERSION)</source>
-      </trans-unit>
-      <trans-unit id="NSLocationWhenInUseUsageDescription">
+      <target state="translated">$(MOZ_VERSION)</target></trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription" approved="yes">
         <source>Websites you visit may request your location.</source>
-      </trans-unit>
+      <target state="translated">ເວັບໄຊທີ່ທ່ານເຂົ້າໄປອາດຈະຕ້ອງການຕຳແຫນ່ງທີຢູ່ຂອງທ່ານ</target></trans-unit>
     </body>
   </file>
   <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="lo">
@@ -139,21 +139,21 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Browse multiple Web pages at the same time with tabs.">
+      <trans-unit id="Browse multiple Web pages at the same time with tabs." approved="yes">
         <source>Browse multiple Web pages at the same time with tabs.</source>
-        <note>See http://mzl.la/1T8gxwo</note>
+        <target state="translated">ເຂົ້າໄປທ່ອງຫລາຍໆເວັບພ້ອມກັນໂດຍການໃຊ້ແທັບ.</target><note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Choose">
+      <trans-unit id="Choose" approved="yes">
         <source>Choose</source>
-        <note>See http://mzl.la/1if9ODp</note>
+        <target state="translated">ເລືອກ</target><note>See http://mzl.la/1if9ODp</note>
       </trans-unit>
-      <trans-unit id="Connect Firefox everywhere you use it.">
+      <trans-unit id="Connect Firefox everywhere you use it." approved="yes">
         <source>Connect Firefox everywhere you use it.</source>
-        <note>See http://mzl.la/1T8gxwo</note>
+        <target state="translated">ເຊື່ອມຕໍ Firefox ທຸກໆບ່ອນທີ່ທ່ານໃຊ້ມັນ.</target><note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Customize">
+      <trans-unit id="Customize" approved="yes">
         <source>Customize</source>
-        <note>See http://mzl.la/1T8gxwo</note>
+        <target state="translated">ປັບແຕ່ງ</target><note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="Easily switch between open pages with tabs.">
         <source>Easily switch between open pages with tabs.</source>
