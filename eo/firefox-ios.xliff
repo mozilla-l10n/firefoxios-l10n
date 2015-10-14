@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
@@ -6,7 +6,9 @@
     </header>
     <body>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source> <target>$(PRODUCT_NAME)</target> </trans-unit>
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
         <target>1.0</target>
@@ -38,8 +40,10 @@
         <target>Forigi</target>
         <note>Action button for deleting bookmarks in the bookmarks panel.</note>
       </trans-unit>
-      <trans-unit id="Desktop Bookmarks" approved="yes">
-        <source>Desktop Bookmarks</source> <target state="translated">Labortablaj legosignoj</target><note>The folder name for the virtual folder that contains all desktop bookmarks.</note>
+      <trans-unit id="Desktop Bookmarks">
+        <source>Desktop Bookmarks</source>
+        <target>Labortablaj legosignoj</target>
+        <note>The folder name for the virtual folder that contains all desktop bookmarks.</note>
       </trans-unit>
     </body>
   </file>
@@ -49,13 +53,19 @@
     </header>
     <body>
       <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs.">
-        <source>Are you sure you want to clear all of your data? This will also close all open tabs.</source> <target>Ĉu vi certe volas viŝi ĉiujn viajn datumojn? Tiu ago ankaŭ fermos ĉiujn malfermitajn foliojn.</target> <note>Message shown in the dialog prompting users if they want to clear everything</note>
+        <source>Are you sure you want to clear all of your data? This will also close all open tabs.</source>
+        <target>Ĉu vi certe volas viŝi ĉiujn viajn datumojn? Tiu ago ankaŭ fermos ĉiujn malfermitajn foliojn.</target>
+        <note>Message shown in the dialog prompting users if they want to clear everything</note>
       </trans-unit>
-      <trans-unit id="Browsing History" approved="yes">
-        <source>Browsing History</source> <target state="translated">Historio de retumo</target><note>Settings item for clearing browsing history</note>
+      <trans-unit id="Browsing History">
+        <source>Browsing History</source>
+        <target>Historio de retumo</target>
+        <note>Settings item for clearing browsing history</note>
       </trans-unit>
-      <trans-unit id="Cache" approved="yes">
-        <source>Cache</source> <target state="translated">Staplo</target><note>Settings item for clearing the cache</note>
+      <trans-unit id="Cache">
+        <source>Cache</source>
+        <target>Staplo</target>
+        <note>Settings item for clearing the cache</note>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
@@ -63,25 +73,35 @@
         <note>Used as a button label in the dialog to cancel clear private data dialog</note>
       </trans-unit>
       <trans-unit id="Clear">
-        <source>Clear</source> <target>Viŝi</target> <note>Used as a button label in the dialog to Clear private data dialog</note>
+        <source>Clear</source>
+        <target>Viŝi</target>
+        <note>Used as a button label in the dialog to Clear private data dialog</note>
       </trans-unit>
       <trans-unit id="Clear Everything">
         <source>Clear Everything</source>
         <target>Viŝi ĉion</target>
         <note>Title of the Clear private data dialog.</note>
       </trans-unit>
-      <trans-unit id="Clear Private Data" approved="yes">
-        <source>Clear Private Data</source> <target state="translated">Viŝi privatajn datumojn</target><note>Button in settings that clears private data for the selected items.
+      <trans-unit id="Clear Private Data">
+        <source>Clear Private Data</source>
+        <target>Viŝi privatajn datumojn</target>
+        <note>Button in settings that clears private data for the selected items.
    Navigation title in settings.</note>
       </trans-unit>
-      <trans-unit id="Cookies" approved="yes">
-        <source>Cookies</source> <target state="translated">Kuketojn</target><note>Settings item for clearing cookies</note>
+      <trans-unit id="Cookies">
+        <source>Cookies</source>
+        <target>Kuketojn</target>
+        <note>Settings item for clearing cookies</note>
       </trans-unit>
-      <trans-unit id="Offline Website Data" approved="yes">
-        <source>Offline Website Data</source> <target state="translated">Malkonektitaj datumoj de retejoj </target><note>Settings item for clearing website data</note>
+      <trans-unit id="Offline Website Data">
+        <source>Offline Website Data</source>
+        <target>Malkonektitaj datumoj de retejoj </target>
+        <note>Settings item for clearing website data</note>
       </trans-unit>
-      <trans-unit id="Saved Logins" approved="yes">
-        <source>Saved Logins</source> <target state="translated">Konservitaj akreditiloj</target><note>Settings item for clearing passwords and login data</note>
+      <trans-unit id="Saved Logins">
+        <source>Saved Logins</source>
+        <target>Konservitaj akreditiloj</target>
+        <note>Settings item for clearing passwords and login data</note>
       </trans-unit>
     </body>
   </file>
@@ -147,17 +167,25 @@
         <target>Retumi en pluraj retpaĝoj samtempe, per langetoj.</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Choose" approved="yes">
-        <source>Choose</source> <target state="translated">Elekti</target><note>See http://mzl.la/1if9ODp</note>
+      <trans-unit id="Choose">
+        <source>Choose</source>
+        <target>Elekti</target>
+        <note>See http://mzl.la/1if9ODp</note>
       </trans-unit>
       <trans-unit id="Connect Firefox everywhere you use it.">
-        <source>Connect Firefox everywhere you use it.</source> <target>Konekti Firefox kie ajn vi ĝin uzas.</target> <note>See http://mzl.la/1T8gxwo</note>
+        <source>Connect Firefox everywhere you use it.</source>
+        <target>Konekti Firefox kie ajn vi ĝin uzas.</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="Customize">
-        <source>Customize</source> <target>Personecigi</target> <note>See http://mzl.la/1T8gxwo</note>
+        <source>Customize</source>
+        <target>Personecigi</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Easily switch between open pages with tabs." approved="yes">
-        <source>Easily switch between open pages with tabs.</source> <target state="translated">Per langetoj, facile ŝanĝi inter malfermitaj paĝoj.</target><note>See http://mzl.la/1T8gxwo</note>
+      <trans-unit id="Easily switch between open pages with tabs.">
+        <source>Easily switch between open pages with tabs.</source>
+        <target>Per langetoj, facile ŝanĝi inter malfermitaj paĝoj.</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="Firefox and the cloud">
         <source>Firefox and the cloud</source>
@@ -179,11 +207,15 @@
         <target>Personecigi vian Firefox ekzakte kiel vi volas, en Agordoj</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Personalize your default search engine and more in Settings." approved="yes">
-        <source>Personalize your default search engine and more in Settings.</source> <target state="translated">Personecigi vian norman serĉilon kaj aliajn aferojn en Agordoj.</target><note>See http://mzl.la/1T8gxwo</note>
+      <trans-unit id="Personalize your default search engine and more in Settings.">
+        <source>Personalize your default search engine and more in Settings.</source>
+        <target>Personecigi vian norman serĉilon kaj aliajn aferojn en Agordoj.</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Share" approved="yes">
-        <source>Share</source> <target state="translated">Dividi</target><note>See http://mzl.la/1if9ODp</note>
+      <trans-unit id="Share">
+        <source>Share</source>
+        <target>Dividi</target>
+        <note>See http://mzl.la/1if9ODp</note>
       </trans-unit>
       <trans-unit id="Sign in to Firefox">
         <source>Sign in to Firefox</source>
@@ -195,11 +227,15 @@
         <target>Komenci retumi</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Sync Your Devices." approved="yes">
-        <source>Sync Your Devices.</source> <target state="translated">Speguli viajn aparatojn.</target><note>ee http://mzl.la/1T8gxwo</note>
+      <trans-unit id="Sync Your Devices.">
+        <source>Sync Your Devices.</source>
+        <target>Speguli viajn aparatojn.</target>
+        <note>ee http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Tap, hold and move the Firefox icon into your dock for easy access." approved="yes">
-        <source>Tap, hold and move the Firefox icon into your dock for easy access.</source> <target state="translated">Tuŝetu, premu kaj movu la emblemon de Firefox al via doko por facile aliri ĝin.</target><note>See http://mzl.la/1if9ODp</note>
+      <trans-unit id="Tap, hold and move the Firefox icon into your dock for easy access.">
+        <source>Tap, hold and move the Firefox icon into your dock for easy access.</source>
+        <target>Tuŝetu, premu kaj movu la emblemon de Firefox al via doko por facile aliri ĝin.</target>
+        <note>See http://mzl.la/1if9ODp</note>
       </trans-unit>
       <trans-unit id="The Settings button is at the beginning of the Tabs Tray.">
         <source>The Settings button is at the beginning of the Tabs Tray.</source>
@@ -211,8 +247,10 @@
         <target>La butono por montri langetojn estas apud la adresa kaj serĉa teksta kampo, kaj ĝi montras la nunan nombron de malfermitaj langetoj</target>
         <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Use the share sheet to send links from other apps to Firefox." approved="yes">
-        <source>Use the share sheet to send links from other apps to Firefox.</source> <target state="translated">Uzi la dividan folion por sendi ligilojn el aliaj programoj al Firefox.</target><note>See http://mzl.la/1if9ODp</note>
+      <trans-unit id="Use the share sheet to send links from other apps to Firefox.">
+        <source>Use the share sheet to send links from other apps to Firefox.</source>
+        <target>Uzi la dividan folion por sendi ligilojn el aliaj programoj al Firefox.</target>
+        <note>See http://mzl.la/1if9ODp</note>
       </trans-unit>
     </body>
   </file>
@@ -271,8 +309,10 @@
         <target>Adreso kaj serĉo</target>
         <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
       </trans-unit>
-      <trans-unit id="Always Send" approved="yes">
-        <source>Always Send</source> <target state="translated">Ĉiam sendi</target><note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
+      <trans-unit id="Always Send">
+        <source>Always Send</source>
+        <target>Ĉiam sendi</target>
+        <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
       </trans-unit>
       <trans-unit id="Authentication required">
         <source>Authentication required</source>
@@ -406,8 +446,10 @@
    Title for default search engine picker.
    Title for default search engine settings section.</note>
       </trans-unit>
-      <trans-unit id="Disable additional page dialogs" approved="yes">
-        <source>Disable additional page dialogs</source> <target state="translated">Malaktivigi aldonajn paĝajn dialogojn</target><note>Pending feature; currently unused string! Checkbox label shown after multiple alerts are shown</note>
+      <trans-unit id="Disable additional page dialogs">
+        <source>Disable additional page dialogs</source>
+        <target>Malaktivigi aldonajn paĝajn dialogojn</target>
+        <note>Pending feature; currently unused string! Checkbox label shown after multiple alerts are shown</note>
       </trans-unit>
       <trans-unit id="Display Settings">
         <source>Display Settings</source>
@@ -434,8 +476,10 @@
         <target>Ĉu vi volas ĝisdatigi la pasvorton ĉe %@?</target>
         <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
       </trans-unit>
-      <trans-unit id="Don't Send" approved="yes">
-        <source>Don't Send</source> <target state="translated">Ne sendi</target><note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
+      <trans-unit id="Don't Send">
+        <source>Don't Send</source>
+        <target>Ne sendi</target>
+        <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
       </trans-unit>
       <trans-unit id="Done">
         <source>Done</source>
@@ -455,11 +499,15 @@
         <target>Tajpu vian pasvorton por konekti.</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
-      <trans-unit id="Firefox Help and Support" approved="yes">
-        <source>Firefox Help and Support</source> <target state="translated">Helpo kaj subteno de Firefox</target><note>Tile title for App Help</note>
+      <trans-unit id="Firefox Help and Support">
+        <source>Firefox Help and Support</source>
+        <target>Helpo kaj subteno de Firefox</target>
+        <note>Tile title for App Help</note>
       </trans-unit>
       <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.">
-        <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source> <target>Firefox ne plu spegulos vian konton, sed ĝi ne forigos iun ajn el viaj retumaj datumoj en tiu ĉi aparato.</target> <note>Text of the 'log out firefox account' alert</note>
+        <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
+        <target>Firefox ne plu spegulos vian konton, sed ĝi ne forigos iun ajn el viaj retumaj datumoj en tiu ĉi aparato.</target>
+        <note>Text of the 'log out firefox account' alert</note>
       </trans-unit>
       <trans-unit id="Firefox would like to access your Photos">
         <source>Firefox would like to access your Photos</source>
@@ -476,14 +524,20 @@
         <target>Ĝeneralaj</target>
         <note>General settings section title</note>
       </trans-unit>
-      <trans-unit id="Get your open tabs, bookmarks, and passwords from your other devices." approved="yes">
-        <source>Get your open tabs, bookmarks, and passwords from your other devices.</source> <target state="translated">Ricevi viajn malfermitajn langetojn, legosignojn kaj pasvortojn el viaj aliaj aparatoj.</target><note>A re-worded offer about Sync that emphasizes one-way data transfer, not syncing.</note>
+      <trans-unit id="Get your open tabs, bookmarks, and passwords from your other devices.">
+        <source>Get your open tabs, bookmarks, and passwords from your other devices.</source>
+        <target>Ricevi viajn malfermitajn langetojn, legosignojn kaj pasvortojn el viaj aliaj aparatoj.</target>
+        <note>A re-worded offer about Sync that emphasizes one-way data transfer, not syncing.</note>
       </trans-unit>
-      <trans-unit id="Go" approved="yes">
-        <source>Go</source> <target state="translated">Iri</target><note>Pending feature; currently unused string! Button to browse to URL on the clipboard when browser is opened</note>
+      <trans-unit id="Go">
+        <source>Go</source>
+        <target>Iri</target>
+        <note>Pending feature; currently unused string! Button to browse to URL on the clipboard when browser is opened</note>
       </trans-unit>
-      <trans-unit id="Go to copied URL?" approved="yes">
-        <source>Go to copied URL?</source> <target state="translated">Ĉu iri al la kopiita URL?</target><note>Pending feature; currently unused string! Prompt message shown when browser is opened with URL on the clipboard</note>
+      <trans-unit id="Go to copied URL?">
+        <source>Go to copied URL?</source>
+        <target>Ĉu iri al la kopiita URL?</target>
+        <note>Pending feature; currently unused string! Prompt message shown when browser is opened with URL on the clipboard</note>
       </trans-unit>
       <trans-unit id="Help">
         <source>Help</source>
@@ -500,8 +554,10 @@
         <target>Grandigi tekston</target>
         <note>Accessibility label for button increasing font size in display settings of reader mode</note>
       </trans-unit>
-      <trans-unit id="Intro Tour Carousel" approved="yes">
-        <source>Intro Tour Carousel</source> <target state="translated">Prezento de Carousel</target><note>Accessibility label for the introduction tour carousel</note>
+      <trans-unit id="Intro Tour Carousel">
+        <source>Intro Tour Carousel</source>
+        <target>Prezento de Carousel</target>
+        <note>Accessibility label for the introduction tour carousel</note>
       </trans-unit>
       <trans-unit id="Last month">
         <source>Last month</source>
@@ -587,8 +643,10 @@
         <target>Retuma ilaro</target>
         <note>Accessibility label for the navigation toolbar displayed at the bottom of the screen.</note>
       </trans-unit>
-      <trans-unit id="Never Send" approved="yes">
-        <source>Never Send</source> <target state="translated">Neniam sendi</target><note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
+      <trans-unit id="Never Send">
+        <source>Never Send</source>
+        <target>Neniam sendi</target>
+        <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
       </trans-unit>
       <trans-unit id="New tab: %@: %@">
         <source>New tab: %1$@: %2$@</source>
@@ -632,8 +690,10 @@
         <target>Bone</target>
         <note>Restore Tabs Affirmative Action</note>
       </trans-unit>
-      <trans-unit id="Oops! Firefox crashed" approved="yes">
-        <source>Oops! Firefox crashed</source> <target state="translated">Fuŝ! Firefox paneis</target><note>Pending feature; currently unused string! Title for prompt displayed to user after the app crashes</note>
+      <trans-unit id="Oops! Firefox crashed">
+        <source>Oops! Firefox crashed</source>
+        <target>Fuŝ! Firefox paneis</target>
+        <note>Pending feature; currently unused string! Title for prompt displayed to user after the app crashes</note>
       </trans-unit>
       <trans-unit id="Open In New Tab">
         <source>Open In New Tab</source>
@@ -650,8 +710,10 @@
         <target>Malfermi artikolojn en legila vido per tuŝeto sur la emblemo de libro, kiam ĝi aperas en la titolstrio.</target>
         <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
-      <trans-unit id="Open in…" approved="yes">
-        <source>Open in…</source> <target state="translated">Malfermi per…</target><note>String indicating that the file can be opened in another application on the device</note>
+      <trans-unit id="Open in…">
+        <source>Open in…</source>
+        <target>Malfermi per…</target>
+        <note>String indicating that the file can be opened in another application on the device</note>
       </trans-unit>
       <trans-unit id="Opening %@">
         <source>Opening %@</source>
@@ -723,14 +785,20 @@
         <target>Forigi el legolisto</target>
         <note>Name for button removing current article from reading list in reader mode</note>
       </trans-unit>
-      <trans-unit id="Remove page" approved="yes">
-        <source>Remove page</source> <target state="translated">Forigi paĝon</target><note>Button shown in editing mode to remove this site from the top sites panel.</note>
+      <trans-unit id="Remove page">
+        <source>Remove page</source>
+        <target>Forigi paĝon</target>
+        <note>Button shown in editing mode to remove this site from the top sites panel.</note>
       </trans-unit>
-      <trans-unit id="Request Desktop Site" approved="yes">
-        <source>Request Desktop Site</source> <target state="translated">Peti retejon por komputiloj</target><note>Pending feature; currently unused string! Tooltip label triggered by long pressing the refresh button.</note>
+      <trans-unit id="Request Desktop Site">
+        <source>Request Desktop Site</source>
+        <target>Peti retejon por komputiloj</target>
+        <note>Pending feature; currently unused string! Tooltip label triggered by long pressing the refresh button.</note>
       </trans-unit>
-      <trans-unit id="Request Mobile Site" approved="yes">
-        <source>Request Mobile Site</source> <target state="translated">Peti retejon por porteblaĵoj</target><note>Pending feature; currently unused string! Tooltip label triggered by long pressing the refresh button a second time.</note>
+      <trans-unit id="Request Mobile Site">
+        <source>Request Mobile Site</source>
+        <target>Peti retejon por porteblaĵoj</target>
+        <note>Pending feature; currently unused string! Tooltip label triggered by long pressing the refresh button a second time.</note>
       </trans-unit>
       <trans-unit id="Sans-serif">
         <source>Sans-serif</source>
@@ -747,11 +815,15 @@
         <target>Konservi bildon</target>
         <note>Context menu item for saving an image</note>
       </trans-unit>
-      <trans-unit id="Save Logins" approved="yes">
-        <source>Save Logins</source> <target state="translated">Konservi akreditilojn</target><note>Setting to enable the built-in password manager</note>
+      <trans-unit id="Save Logins">
+        <source>Save Logins</source>
+        <target>Konservi akreditilojn</target>
+        <note>Setting to enable the built-in password manager</note>
       </trans-unit>
       <trans-unit id="Save pages to your Reading List by tapping the book plus icon in the Reader View controls.">
-        <source>Save pages to your Reading List by tapping the book plus icon in the Reader View controls.</source> <target>Konservu paĝojn en via legolisto per tuŝo de la emblemo kun libro kaj plussigno en la regiloj de legila vido.</target> <note>See http://mzl.la/1LXbDOL</note>
+        <source>Save pages to your Reading List by tapping the book plus icon in the Reader View controls.</source>
+        <target>Konservu paĝojn en via legolisto per tuŝo de la emblemo kun libro kaj plussigno en la regiloj de legila vido.</target>
+        <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
       <trans-unit id="Search">
         <source>Search</source>
@@ -784,11 +856,15 @@
         <target>Sendi komentojn</target>
         <note>Show an input.mozilla.org page where people can submit feedback</note>
       </trans-unit>
-      <trans-unit id="Send Report" approved="yes">
-        <source>Send Report</source> <target state="translated">Sendi raporton</target><note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
+      <trans-unit id="Send Report">
+        <source>Send Report</source>
+        <target>Sendi raporton</target>
+        <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
       </trans-unit>
-      <trans-unit id="Send a crash report so Mozilla can fix the problem?" approved="yes">
-        <source>Send a crash report so Mozilla can fix the problem?</source> <target state="translated">Ĉu sendi raporton pri paneo, tiel ke Mozilla povas solvi la problemon?</target><note>Pending feature; currently unused string! Message displayed in the crash dialog above the buttons used to select when sending reports</note>
+      <trans-unit id="Send a crash report so Mozilla can fix the problem?">
+        <source>Send a crash report so Mozilla can fix the problem?</source>
+        <target>Ĉu sendi raporton pri paneo, tiel ke Mozilla povas solvi la problemon?</target>
+        <note>Pending feature; currently unused string! Message displayed in the crash dialog above the buttons used to select when sending reports</note>
       </trans-unit>
       <trans-unit id="Sepia">
         <source>Sepia</source>
@@ -811,8 +887,10 @@
         <target>Dividi</target>
         <note>Accessibility Label for the browser toolbar Share button</note>
       </trans-unit>
-      <trans-unit id="Show Search Suggestions" approved="yes">
-        <source>Show Search Suggestions</source> <target state="translated">Montri sugestojn de serĉilo</target><note>Label for show search suggestions setting.</note>
+      <trans-unit id="Show Search Suggestions">
+        <source>Show Search Suggestions</source>
+        <target>Montri sugestojn de serĉilo</target>
+        <note>Label for show search suggestions setting.</note>
       </trans-unit>
       <trans-unit id="Show Tabs">
         <source>Show Tabs</source>
@@ -830,11 +908,15 @@
         <target>Montri sugestojn de serĉilo</target>
         <note>Label for show search suggestions setting.</note>
       </trans-unit>
-      <trans-unit id="Sign In" approved="yes">
-        <source>Sign In</source> <target state="translated">Komenci seancon</target><note>Text message / button in the settings table view</note>
+      <trans-unit id="Sign In">
+        <source>Sign In</source>
+        <target>Komenci seancon</target>
+        <note>Text message / button in the settings table view</note>
       </trans-unit>
       <trans-unit id="Sign in">
-        <source>Sign in</source> <target>Komenci seancon</target> <note>Text message / button in the settings table view</note>
+        <source>Sign in</source>
+        <target>Komenci seancon</target>
+        <note>Text message / button in the settings table view</note>
       </trans-unit>
       <trans-unit id="Stop">
         <source>Stop</source>
@@ -861,8 +943,10 @@
         <target>Speguli viajn langetojn, legosignojn, pasvortojn kaj pli.</target>
         <note>See http://mzl.la/1Qtkf0j</note>
       </trans-unit>
-      <trans-unit id="Sync your tabs, passwords and more." approved="yes">
-        <source>Sync your tabs, passwords and more.</source> <target state="translated">Speguli viajn langetojn, pasvortojn, kaj pli.</target><note>See http://mzl.la/1Qtkf0j</note>
+      <trans-unit id="Sync your tabs, passwords and more.">
+        <source>Sync your tabs, passwords and more.</source>
+        <target>Speguli viajn langetojn, pasvortojn, kaj pli.</target>
+        <note>See http://mzl.la/1Qtkf0j</note>
       </trans-unit>
       <trans-unit id="Synced tabs">
         <source>Synced tabs</source>
@@ -889,8 +973,10 @@
         <target>Pleto de langetoj</target>
         <note>Accessibility label for the Tabs Tray view.</note>
       </trans-unit>
-      <trans-unit id="The Mozilla Project" approved="yes">
-        <source>The Mozilla Project</source> <target state="translated">La projekto Mozilla</target><note>Tile title for Mozilla</note>
+      <trans-unit id="The Mozilla Project">
+        <source>The Mozilla Project</source>
+        <target>La projekto Mozilla</target>
+        <note>Tile title for Mozilla</note>
       </trans-unit>
       <trans-unit id="The page could not be displayed in Reader View.">
         <source>The page could not be displayed in Reader View.</source>
@@ -1002,8 +1088,10 @@
         <target>Vi ne havas langetojn malfermitajn en Firefox en viaj aliaj aparatoj.</target>
         <note>Error message in the remote tabs panel</note>
       </trans-unit>
-      <trans-unit id="Your Rights" approved="yes">
-        <source>Your Rights</source> <target state="translated">Viaj rajtoj</target><note>Your Rights settings section title</note>
+      <trans-unit id="Your Rights">
+        <source>Your Rights</source>
+        <target>Viaj rajtoj</target>
+        <note>Your Rights settings section title</note>
       </trans-unit>
       <trans-unit id="computer">
         <source>computer</source>
@@ -1062,35 +1150,55 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Close Private Tabs" approved="yes">
-        <source>Close Private Tabs</source> <target state="translated">Fermi privatajn langetojn</target><note>Setting for closing private tabs</note>
+      <trans-unit id="Close Private Tabs">
+        <source>Close Private Tabs</source>
+        <target>Fermi privatajn langetojn</target>
+        <note>Setting for closing private tabs</note>
       </trans-unit>
-      <trans-unit id="Firefox won't remember any of your history or cookies, but new bookmarks will be saved." approved="yes">
-        <source>Firefox won't remember any of your history or cookies, but new bookmarks will be saved.</source> <target state="translated">Firefox ne memoros vian historion aŭ kuketojn, sed novaj legosignoj estos konservitaj.</target><note>Description text displayed when there are no open tabs while in private mode</note>
+      <trans-unit id="Firefox won't remember any of your history or cookies, but new bookmarks will be saved.">
+        <source>Firefox won't remember any of your history or cookies, but new bookmarks will be saved.</source>
+        <target>Firefox ne memoros vian historion aŭ kuketojn, sed novaj legosignoj estos konservitaj.</target>
+        <note>Description text displayed when there are no open tabs while in private mode</note>
       </trans-unit>
-      <trans-unit id="Learn More" approved="yes">
-        <source>Learn More</source> <target state="translated">Pli da informo</target><note>Text button displayed when there are no tabs open while in private mode</note>
+      <trans-unit id="Learn More">
+        <source>Learn More</source>
+        <target>Pli da informo</target>
+        <note>Text button displayed when there are no tabs open while in private mode</note>
       </trans-unit>
-      <trans-unit id="Off" approved="yes">
-        <source>Off</source> <target state="translated">Malŝaltita</target><note>Toggled OFF accessibility value</note>
+      <trans-unit id="Off">
+        <source>Off</source>
+        <target>Malŝaltita</target>
+        <note>Toggled OFF accessibility value</note>
       </trans-unit>
-      <trans-unit id="On" approved="yes">
-        <source>On</source> <target state="translated">Ŝaltita</target><note>Toggled ON accessibility value</note>
+      <trans-unit id="On">
+        <source>On</source>
+        <target>Ŝaltita</target>
+        <note>Toggled ON accessibility value</note>
       </trans-unit>
-      <trans-unit id="Open In New Private Tab" approved="yes">
-        <source>Open In New Private Tab</source> <target state="translated">Malfermi en nova privata langeto</target><note>Context menu option for opening a link in a new private tab</note>
+      <trans-unit id="Open In New Private Tab">
+        <source>Open In New Private Tab</source>
+        <target>Malfermi en nova privata langeto</target>
+        <note>Context menu option for opening a link in a new private tab</note>
       </trans-unit>
-      <trans-unit id="Private Browsing" approved="yes">
-        <source>Private Browsing</source> <target state="translated">Privata retumo</target><note>Title displayed for when there are no open tabs while in private mode</note>
+      <trans-unit id="Private Browsing">
+        <source>Private Browsing</source>
+        <target>Privata retumo</target>
+        <note>Title displayed for when there are no open tabs while in private mode</note>
       </trans-unit>
-      <trans-unit id="Private Mode" approved="yes">
-        <source>Private Mode</source> <target state="translated">Privata reĝimo</target><note>Accessibility label for toggling on/off private mode</note>
+      <trans-unit id="Private Mode">
+        <source>Private Mode</source>
+        <target>Privata reĝimo</target>
+        <note>Accessibility label for toggling on/off private mode</note>
       </trans-unit>
-      <trans-unit id="Turns private mode on or off" approved="yes">
-        <source>Turns private mode on or off</source> <target state="translated">Ŝalti kaj malŝalti la privatan reĝimon</target><note>Accessiblity hint for toggling on/off private mode</note>
+      <trans-unit id="Turns private mode on or off">
+        <source>Turns private mode on or off</source>
+        <target>Ŝalti kaj malŝalti la privatan reĝimon</target>
+        <note>Accessiblity hint for toggling on/off private mode</note>
       </trans-unit>
-      <trans-unit id="When Leaving Private Browsing" approved="yes">
-        <source>When Leaving Private Browsing</source> <target state="translated">Post forlaso de la privata retumo</target><note>Will be displayed in Settings under 'Close Private Tabs'</note>
+      <trans-unit id="When Leaving Private Browsing">
+        <source>When Leaving Private Browsing</source>
+        <target>Post forlaso de la privata retumo</target>
+        <note>Will be displayed in Settings under 'Close Private Tabs'</note>
       </trans-unit>
     </body>
   </file>
@@ -1433,3 +1541,4 @@
     </body>
   </file>
 </xliff>
+
