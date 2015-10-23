@@ -163,9 +163,9 @@
         <source>Firefox and the cloud</source>
         <target state="translated">Firefox және бұлт</target><note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
       <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Introductory slide %@ of %@">
+      <trans-unit id="Introductory slide %@ of %@" approved="yes">
         <source>Introductory slide %1$@ of %2$@</source>
-        <note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note>
+        <target state="translated">Кіріспе слайды %1$@, барлығы %2$@ слайд</target><note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note>
       </trans-unit>
       <trans-unit id="Organize" approved="yes">
         <source>Organize</source>
@@ -193,7 +193,7 @@
       <note>See http://mzl.la/1T8gxwo</note></trans-unit>
       <trans-unit id="Sync Your Devices.">
         <source>Sync Your Devices.</source>
-        <note>ee http://mzl.la/1T8gxwo</note>
+        <target>Кұрылғыдарыңыздың синхрондаңыз</target><note>ee http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="Tap, hold and move the Firefox icon into your dock for easy access.">
         <source>Tap, hold and move the Firefox icon into your dock for easy access.</source>
@@ -257,7 +257,7 @@
       <trans-unit id="Address and Search" approved="yes">
         <source>Address and Search</source>
         <target state="translated">Адрес және іздеу</target><note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
-      </trans-unit>
+      <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note></trans-unit>
       <trans-unit id="Always Send" approved="yes">
         <source>Always Send</source>
         <target state="translated">Әрқашан жіберу</target><note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
@@ -286,10 +286,10 @@
         <source>Brightness</source>
         <target state="translated">Жарықтылығы</target><note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note>
       <note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note></trans-unit>
-      <trans-unit id="Call">
+      <trans-unit id="Call" approved="yes">
         <source>Call</source>
-        <target>Қоңырау шалу</target><note>Alert Call Button</note>
-      </trans-unit>
+        <target state="translated">Қоңырау шалу</target><note>Alert Call Button</note>
+      <note>Alert Call Button</note></trans-unit>
       <trans-unit id="Cancel" approved="yes">
         <source>Cancel</source>
         <target state="translated">Бас тарту</target><note>Cancel button title in share dialog</note>
@@ -297,11 +297,11 @@
       <trans-unit id="Changes color theme." approved="yes">
         <source>Changes color theme.</source>
         <target state="translated">Түстер схемасын өзгертеді.</target><note>Accessibility hint for the color theme setting buttons in reader mode display settings</note>
-      </trans-unit>
+      <note>Accessibility hint for the color theme setting buttons in reader mode display settings</note></trans-unit>
       <trans-unit id="Changes font type." approved="yes">
         <source>Changes font type.</source>
         <target state="translated">Қаріп түрін өзгертеді.</target><note>Accessibility hint for the font type buttons in reader mode display settings</note>
-      </trans-unit>
+      <note>Accessibility hint for the font type buttons in reader mode display settings</note></trans-unit>
       <trans-unit id="Clear Private Data" approved="yes">
         <source>Clear Private Data</source>
         <target state="translated">Жеке деректерді өшіру</target><note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
@@ -313,7 +313,7 @@
       <trans-unit id="Closing tab" approved="yes">
         <source>Closing tab</source>
         <target state="translated">Бетті жабу</target><note>No comment provided by engineer.</note>
-      </trans-unit>
+      <note>No comment provided by engineer.</note></trans-unit>
       <trans-unit id="Copy Address" approved="yes">
         <source>Copy Address</source>
         <target state="translated">Адресін көшіру</target><note>Copy the URL from the location bar</note>
@@ -328,11 +328,11 @@
       <note>Context menu item for copying a link URL to the clipboard</note></trans-unit>
       <trans-unit id="Could not add page to Reading List. Maybe it's already there?">
         <source>Could not add page to Reading List. Maybe it's already there?</source>
-        <note>Accessibility message e.g. spoken by VoiceOver after the user wanted to add current page to the Reading List and this was not done, likely because it already was in the Reading List, but perhaps also because of real failures.</note>
+        <target>Парақты оқу тізіміне қосу мүмкін емес. Бәлкім, ол сонда бар ма?</target><note>Accessibility message e.g. spoken by VoiceOver after the user wanted to add current page to the Reading List and this was not done, likely because it already was in the Reading List, but perhaps also because of real failures.</note>
       </trans-unit>
       <trans-unit id="Could not add page to Reading list">
         <source>Could not add page to Reading list</source>
-        <note>Accessibility message e.g. spoken by VoiceOver after adding current webpage to the Reading List failed.</note>
+        <target>Парақты оқу тізіміне қосу мүмкін емес</target><note>Accessibility message e.g. spoken by VoiceOver after adding current webpage to the Reading List failed.</note>
       </trans-unit>
       <trans-unit id="Could not load page." approved="yes">
         <source>Could not load page.</source>
@@ -352,15 +352,15 @@
       </trans-unit>
       <trans-unit id="Debug: require password">
         <source>Debug: require password</source>
-        <note>Debug option</note>
+        <target>Жөндеу: пароль керек</target><note>Debug option</note>
       </trans-unit>
       <trans-unit id="Debug: require upgrade">
         <source>Debug: require upgrade</source>
-        <note>Debug option</note>
+        <target>Жөндеу: жаңарту керек</target><note>Debug option</note>
       </trans-unit>
       <trans-unit id="Decrease text size">
         <source>Decrease text size</source>
-        <note>Accessibility label for button decreasing font size in display settings of reader mode</note>
+        <target>Мәтін өлшемін кішірейту</target><note>Accessibility label for button decreasing font size in display settings of reader mode</note>
       </trans-unit>
       <trans-unit id="Default Search Engine" approved="yes">
         <source>Default Search Engine</source>
@@ -374,7 +374,7 @@
       </trans-unit>
       <trans-unit id="Display Settings">
         <source>Display Settings</source>
-        <note>Name for display settings button in reader mode. Display in the meaning of presentation, not monitor.</note>
+        <target>Баптауларын көрсету</target><note>Name for display settings button in reader mode. Display in the meaning of presentation, not monitor.</note>
       </trans-unit>
       <trans-unit id="Do you want to save the password for %@ on %@?" approved="yes">
         <source>Do you want to save the password for %1$@ on %2$@?</source>
@@ -386,11 +386,11 @@
       <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note></trans-unit>
       <trans-unit id="Do you want to update the password for %@ on %@?">
         <source>Do you want to update the password for %1$@ on %2$@?</source>
-        <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
+        <target>%1$@ үшін %2$@ жеріндегі парольді жаңартуды қалайсыз ба?</target><note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="Do you want to update the password on %@?">
         <source>Do you want to update the password on %@?</source>
-        <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
+        <target>%@ үшін парольді жаңартуды қалайсыз ба?</target><note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="Don't Send" approved="yes">
         <source>Don't Send</source>
@@ -441,7 +441,7 @@
       <note>Pending feature; currently unused string! Button to browse to URL on the clipboard when browser is opened</note></trans-unit>
       <trans-unit id="Go to copied URL?">
         <source>Go to copied URL?</source>
-        <note>Pending feature; currently unused string! Prompt message shown when browser is opened with URL on the clipboard</note>
+        <target>Көшірілген URL-ге аусыңыз ба?</target><note>Pending feature; currently unused string! Prompt message shown when browser is opened with URL on the clipboard</note>
       </trans-unit>
       <trans-unit id="Help" approved="yes">
         <source>Help</source>
@@ -453,7 +453,7 @@
       <note>Panel accessibility label</note></trans-unit>
       <trans-unit id="Increase text size">
         <source>Increase text size</source>
-        <note>Accessibility label for button increasing font size in display settings of reader mode</note>
+        <target>Мәтін өлшемін үлкейту</target><note>Accessibility label for button increasing font size in display settings of reader mode</note>
       </trans-unit>
       <trans-unit id="Intro Tour Carousel">
         <source>Intro Tour Carousel</source>
@@ -482,11 +482,11 @@
       <note>Light theme setting in Reading View settings</note></trans-unit>
       <trans-unit id="Load original page">
         <source>Load original page</source>
-        <note>Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
+        <target>Бастапқы парақты жүктеу</target><note>Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
       <trans-unit id="Loading content…">
         <source>Loading content…</source>
-        <note>Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app.</note>
+        <target>Құрамасын жүктеу…</target><note>Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
       <trans-unit id="Log Out" approved="yes">
         <source>Log Out</source>
@@ -517,11 +517,11 @@
       <note>Name for Mark as unread button in reader mode Title for the button that marks a reading list item as unread</note></trans-unit>
       <trans-unit id="Missing error">
         <source>Missing error</source>
-        <note>Error for a missing remote error number</note>
+        <target>Қате жоқ</target><note>Error for a missing remote error number</note>
       </trans-unit>
       <trans-unit id="Missing message">
         <source>Missing message</source>
-        <note>Error for a missing remote error message</note>
+        <target>Хабарлама жоқ</target><note>Error for a missing remote error message</note>
       </trans-unit>
       <trans-unit id="Navigation Toolbar" approved="yes">
         <source>Navigation Toolbar</source>
@@ -567,7 +567,7 @@
       <note>Restore Tabs Affirmative Action</note></trans-unit>
       <trans-unit id="Oops! Firefox crashed">
         <source>Oops! Firefox crashed</source>
-        <note>Pending feature; currently unused string! Title for prompt displayed to user after the app crashes</note>
+        <target>Қате! Firefox ақаулыққан</target><note>Pending feature; currently unused string! Title for prompt displayed to user after the app crashes</note>
       </trans-unit>
       <trans-unit id="Open In New Tab" approved="yes">
         <source>Open In New Tab</source>
@@ -575,7 +575,7 @@
       <note>Context menu item for opening a link in a new tab</note></trans-unit>
       <trans-unit id="Open Settings">
         <source>Open Settings</source>
-        <note>See http://mzl.la/1G7uHo7</note>
+        <target>Баптаулары ашу</target><note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Open articles in Reader View by tapping the book icon when it appears in the title bar.">
         <source>Open articles in Reader View by tapping the book icon when it appears in the title bar.</source>
@@ -667,7 +667,7 @@
       <note>Context menu item for saving an image</note></trans-unit>
       <trans-unit id="Save Logins">
         <source>Save Logins</source>
-        <note>Setting to enable the built-in password manager</note>
+        <target>Логинін сақтау</target><note>Setting to enable the built-in password manager</note>
       </trans-unit>
       <trans-unit id="Save pages to your Reading List by tapping the book plus icon in the Reader View controls.">
         <source>Save pages to your Reading List by tapping the book plus icon in the Reader View controls.</source>
@@ -729,12 +729,12 @@
       <note>Label for show search suggestions setting.</note></trans-unit>
       <trans-unit id="Show Tabs">
         <source>Show Tabs</source>
-        <note>Accessibility label for the tabs button in the (top) browser toolbar
+        <target>Беттелердің көрсету</target><note>Accessibility label for the tabs button in the (top) browser toolbar
    Accessibility Label for the tabs button in the browser toolbar</note>
       </trans-unit>
       <trans-unit id="Show Tour">
         <source>Show Tour</source>
-        <note>Show the on-boarding screen again from the settings</note>
+        <target>Шолуның көрсету</target><note>Show the on-boarding screen again from the settings</note>
       </trans-unit>
       <trans-unit id="Show search suggestions" approved="yes">
         <source>Show search suggestions</source>
@@ -902,11 +902,11 @@
       <note>Accessibility label for Mobile Device image in remote tabs list</note></trans-unit>
       <trans-unit id="more than a month ago">
         <source>more than a month ago</source>
-        <note>Relative date for dates older than a month and less than two months.</note>
+        <target>Бір айдан көп уақыт бұрын</target><note>Relative date for dates older than a month and less than two months.</note>
       </trans-unit>
       <trans-unit id="more than a week ago">
         <source>more than a week ago</source>
-        <note>Description for a date more than a week ago, but less than a month ago.</note>
+        <target>Бір аптадан көп уақыт бұрын</target><note>Description for a date more than a week ago, but less than a month ago.</note>
       </trans-unit>
       <trans-unit id="read" approved="yes">
         <source>read</source>
@@ -969,7 +969,7 @@
       <note>Accessibility label for toggling on/off private mode</note></trans-unit>
       <trans-unit id="Turns private mode on or off">
         <source>Turns private mode on or off</source>
-        <note>Accessiblity hint for toggling on/off private mode</note>
+        <target>Жекелік режимін қосады немесе өшіреді.</target><note>Accessiblity hint for toggling on/off private mode</note>
       </trans-unit>
       <trans-unit id="When Leaving Private Browsing">
         <source>When Leaving Private Browsing</source>
@@ -1042,9 +1042,9 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Available devices:">
+      <trans-unit id="Available devices:" approved="yes">
         <source>Available devices:</source>
-        <note>Header for the list of devices table</note>
+        <target state="translated">Қолжетерлік құрылғылар:</target><note>Header for the list of devices table</note>
       </trans-unit>
       <trans-unit id="Close" approved="yes">
         <source>Close</source>
