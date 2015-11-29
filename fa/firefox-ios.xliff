@@ -97,7 +97,7 @@
       <trans-unit id="Open in Safari" approved="yes">
         <source>Open in Safari</source>
         <target state="translated">باز کردن در سافاری</target><note>Shown in error pages for files that can't be shown and need to be downloaded.</note>
-      </trans-unit>
+      <note>Shown in error pages for files that can't be shown and need to be downloaded.</note></trans-unit>
       <trans-unit id="Try again" approved="yes">
         <source>Try again</source>
         <target state="translated">تلاش مجدد</target><note>Shown in error pages on a button that will try to load the page again</note>
@@ -112,7 +112,7 @@
       <trans-unit id="Remove" approved="yes">
         <source>Remove</source>
         <target state="translated">حذف</target><note>Action button for deleting history entries in the history panel.</note>
-      </trans-unit>
+      <note>Action button for deleting history entries in the history panel.</note></trans-unit>
     </body>
   </file>
   <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="fa">
@@ -120,15 +120,15 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName">
+      <trans-unit id="CFBundleDisplayName" approved="yes">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-      </trans-unit>
-      <trans-unit id="CFBundleName">
+      <target state="translated">$(MOZ_BUNDLE_DISPLAY_NAME)</target></trans-unit>
+      <trans-unit id="CFBundleName" approved="yes">
         <source>$(MOZ_PRODUCT_NAME)</source>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
+      <target state="translated">$(MOZ_PRODUCT_NAME)</target></trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="yes">
         <source>$(MOZ_VERSION)</source>
-      </trans-unit>
+      <target state="translated">$(MOZ_VERSION)</target></trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription" approved="yes">
         <source>Websites you visit may request your location.</source>
       <target state="translated">وب سایت‌هایی که شما بازدید میکنید ممکن است مکان شما را درخواست کنند.</target></trans-unit>
@@ -142,35 +142,35 @@
       <trans-unit id="Browse multiple Web pages at the same time with tabs." approved="yes">
         <source>Browse multiple Web pages at the same time with tabs.</source>
         <target state="translated">با زبانه‌ها چندین صفحه‌ی وب را در یک زمان مرور کنید.</target><note>See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
+      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
       <trans-unit id="Choose" approved="yes">
         <source>Choose</source>
         <target state="translated">انتخاب</target><note>See http://mzl.la/1if9ODp</note>
-      </trans-unit>
+      <note>See http://mzl.la/1if9ODp</note></trans-unit>
       <trans-unit id="Connect Firefox everywhere you use it." approved="yes">
         <source>Connect Firefox everywhere you use it.</source>
         <target state="translated">به فایرفاکس متصل شوید هر جا که از آن استفاده می‌کنید.</target><note>See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
+      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
       <trans-unit id="Customize" approved="yes">
         <source>Customize</source>
         <target state="translated">سفارشی‌سازی</target><note>See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
+      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
       <trans-unit id="Easily switch between open pages with tabs." approved="yes">
         <source>Easily switch between open pages with tabs.</source>
         <target state="translated">با زبانه‌ها به آسانی بین صفحات وب باز جابجا شوید.</target><note>See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
+      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
       <trans-unit id="Firefox and the cloud" approved="yes">
         <source>Firefox and the cloud</source>
         <target state="translated">فایرفاکس و ابر</target><note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
-      <trans-unit id="Introductory slide %@ of %@">
+      <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note></trans-unit>
+      <trans-unit id="Introductory slide %@ of %@" approved="yes">
         <source>Introductory slide %1$@ of %2$@</source>
-        <note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note>
+        <target state="translated">اسلاید مقدماتی %1$@ از %2$@</target><note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note>
       </trans-unit>
       <trans-unit id="Organize" approved="yes">
         <source>Organize</source>
         <target state="translated">سازمان‌دهی</target><note>See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
+      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
       <trans-unit id="Personalize your Firefox just the way you like in Settings.">
         <source>Personalize your Firefox just the way you like in Settings.</source>
         <note>See http://mzl.la/1T8gxwo</note>
@@ -182,23 +182,23 @@
       <trans-unit id="Share" approved="yes">
         <source>Share</source>
         <target state="translated">اشتراک‌گذاری</target><note>See http://mzl.la/1if9ODp</note>
-      </trans-unit>
+      <note>See http://mzl.la/1if9ODp</note></trans-unit>
       <trans-unit id="Sign in to Firefox" approved="yes">
         <source>Sign in to Firefox</source>
         <target state="translated">ورود به فایرفاکس</target><note>See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
+      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
       <trans-unit id="Start Browsing" approved="yes">
         <source>Start Browsing</source>
         <target state="translated">شروع وب‌گردی</target><note>See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
+      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
       <trans-unit id="Sync Your Devices." approved="yes">
         <source>Sync Your Devices.</source>
         <target state="translated">همگام‌سازی دستگاه‌های شما.</target><note>ee http://mzl.la/1T8gxwo</note>
-      </trans-unit>
+      <note>ee http://mzl.la/1T8gxwo</note></trans-unit>
       <trans-unit id="Tap, hold and move the Firefox icon into your dock for easy access." approved="yes">
         <source>Tap, hold and move the Firefox icon into your dock for easy access.</source>
         <target state="translated">برای دسترسی آسان آیکن فایرفاکس را تپ کنید، نگه دارید و به داک خودتان منتقل کنید.</target><note>See http://mzl.la/1if9ODp</note>
-      </trans-unit>
+      <note>See http://mzl.la/1if9ODp</note></trans-unit>
       <trans-unit id="The Settings button is at the beginning of the Tabs Tray.">
         <source>The Settings button is at the beginning of the Tabs Tray.</source>
         <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
@@ -206,7 +206,7 @@
       <trans-unit id="The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs." approved="yes">
         <source>The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs.</source>
         <target state="translated">دکمه نمایش زبانه‌ها کنار فیلد متنی جستجو و آدرس است و تعداد زبانه‌های باز جاری را نمایش می‌دهد.</target><note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
+      <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note></trans-unit>
       <trans-unit id="Use the share sheet to send links from other apps to Firefox.">
         <source>Use the share sheet to send links from other apps to Firefox.</source>
         <note>See http://mzl.la/1if9ODp</note>
@@ -229,11 +229,11 @@
       <trans-unit id="A username and password are being requested by %@." approved="yes">
         <source>A username and password are being requested by %@.</source>
         <target state="translated">یک نام کاربری و گذرواژه توسط %@ درخواست شده است.</target><note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
-      </trans-unit>
+      <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note></trans-unit>
       <trans-unit id="A username and password are being requested by %@. The site says: %@" approved="yes">
         <source>A username and password are being requested by %1$@. The site says: %2$@</source>
         <target state="translated">یک نام کاربری و گذرواژه توسط %1$@ درخواست شده است. سایت می‌گوید: %2$@</target><note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
-      </trans-unit>
+      <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note></trans-unit>
       <trans-unit id="Aa">
         <source>Aa</source>
         <note>Button for reader mode font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
@@ -241,59 +241,59 @@
       <trans-unit id="About" approved="yes">
         <source>About</source>
         <target state="translated">درباره</target><note>About settings section title</note>
-      </trans-unit>
+      <note>About settings section title</note></trans-unit>
       <trans-unit id="Add Tab" approved="yes">
         <source>Add Tab</source>
         <target state="translated">افزودن زبانه</target><note>Accessibility label for the Add Tab button in the Tab Tray.</note>
-      </trans-unit>
+      <note>Accessibility label for the Add Tab button in the Tab Tray.</note></trans-unit>
       <trans-unit id="Add to Reading List" approved="yes">
         <source>Add to Reading List</source>
         <target state="translated">افزودن به فهرست مطالعه</target><note>Add URL to the reading list - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
-      </trans-unit>
+      <note>Add URL to the reading list - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note></trans-unit>
       <trans-unit id="Added page to Reading List" approved="yes">
         <source>Added page to Reading List</source>
         <target state="translated">صفحه افزوده شده به فهرست مطالعه.</target><note>Accessibility message e.g. spoken by VoiceOver after the current page gets added to the Reading List using the Reader View button, e.g. by long-pressing it or by its accessibility custom action.</note>
-      </trans-unit>
+      <note>Accessibility message e.g. spoken by VoiceOver after the current page gets added to the Reading List using the Reader View button, e.g. by long-pressing it or by its accessibility custom action.</note></trans-unit>
       <trans-unit id="Address and Search" approved="yes">
         <source>Address and Search</source>
         <target state="translated">آدرس و جستجو</target><note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
-      </trans-unit>
+      <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note></trans-unit>
       <trans-unit id="Always Send" approved="yes">
         <source>Always Send</source>
         <target state="translated">همیشه ارسال شود</target><note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
-      </trans-unit>
+      <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note></trans-unit>
       <trans-unit id="Authentication required" approved="yes">
         <source>Authentication required</source>
         <target state="translated">تأیید هویت لازم است</target><note>Authentication prompt title</note>
-      </trans-unit>
+      <note>Authentication prompt title</note></trans-unit>
       <trans-unit id="Back" approved="yes">
         <source>Back</source>
         <target state="translated">بازگشت</target><note>Accessibility Label for the browser toolbar Back button</note>
-      </trans-unit>
+      <note>Accessibility Label for the browser toolbar Back button</note></trans-unit>
       <trans-unit id="Block Pop-up Windows" approved="yes">
         <source>Block Pop-up Windows</source>
         <target state="translated">مسدود کردن پنجره‌های بازشو</target><note>Block pop-up windows setting</note>
-      </trans-unit>
+      <note>Block pop-up windows setting</note></trans-unit>
       <trans-unit id="Bookmark" approved="yes">
         <source>Bookmark</source>
         <target state="translated">نشانک</target><note>Bookmark a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
-      </trans-unit>
+      <note>Bookmark a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note></trans-unit>
       <trans-unit id="Bookmarks" approved="yes">
         <source>Bookmarks</source>
         <target state="translated">نشانک‌ها</target><note>Panel accessibility label</note>
-      </trans-unit>
+      <note>Panel accessibility label</note></trans-unit>
       <trans-unit id="Brightness" approved="yes">
         <source>Brightness</source>
         <target state="translated">روشنایی</target><note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note>
-      </trans-unit>
+      <note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note></trans-unit>
       <trans-unit id="Call" approved="yes">
         <source>Call</source>
         <target state="translated">تماس</target><note>Alert Call Button</note>
-      </trans-unit>
+      <note>Alert Call Button</note></trans-unit>
       <trans-unit id="Cancel" approved="yes">
         <source>Cancel</source>
         <target state="translated">لغو</target><note>Cancel button title in share dialog</note>
-      </trans-unit>
+      <note>Cancel button title in share dialog</note></trans-unit>
       <trans-unit id="Changes color theme.">
         <source>Changes color theme.</source>
         <note>Accessibility hint for the color theme setting buttons in reader mode display settings</note>
@@ -301,19 +301,19 @@
       <trans-unit id="Changes font type." approved="yes">
         <source>Changes font type.</source>
         <target state="translated">تغییر نوع فونت</target><note>Accessibility hint for the font type buttons in reader mode display settings</note>
-      </trans-unit>
+      <note>Accessibility hint for the font type buttons in reader mode display settings</note></trans-unit>
       <trans-unit id="Clear Private Data" approved="yes">
         <source>Clear Private Data</source>
         <target state="translated">پاک‌سازی اطلاعات خصوصی</target><note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
-      </trans-unit>
+      <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note></trans-unit>
       <trans-unit id="Close" approved="yes">
         <source>Close</source>
         <target state="translated">بستن</target><note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
-      </trans-unit>
+      <note>Accessibility label for action denoting closing a tab in tab list (tray)</note></trans-unit>
       <trans-unit id="Closing tab" approved="yes">
         <source>Closing tab</source>
         <target state="translated">درحال بستن زبانه</target><note>No comment provided by engineer.</note>
-      </trans-unit>
+      <note>No comment provided by engineer.</note></trans-unit>
       <trans-unit id="Copy Address">
         <source>Copy Address</source>
         <note>Copy the URL from the location bar</note>
