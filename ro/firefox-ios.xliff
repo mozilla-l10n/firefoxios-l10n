@@ -1,16 +1,18 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="ro">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target state="translated">$(PRODUCT_NAME)</target> </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target state="translated">1.0</target> </trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="ro">
@@ -18,12 +20,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target state="translated">$(PRODUCT_NAME)</target> </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target state="translated">1.0</target> </trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/BookmarkPanel.strings" source-language="en" datatype="plaintext" target-language="ro">
@@ -31,13 +35,15 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Delete" approved="yes">
+      <trans-unit id="Delete">
         <source>Delete</source>
-        <target state="translated">Șterge</target> <note>Action button for deleting bookmarks in the bookmarks panel.</note>
+        <target>Șterge</target>
+        <note>Action button for deleting bookmarks in the bookmarks panel.</note>
       </trans-unit>
-      <trans-unit id="Desktop Bookmarks" approved="yes">
+      <trans-unit id="Desktop Bookmarks">
         <source>Desktop Bookmarks</source>
-        <target state="translated">Semne de carte de pe desktop</target> <note>The folder name for the virtual folder that contains all desktop bookmarks.</note>
+        <target>Semne de carte de pe desktop</target>
+        <note>The folder name for the virtual folder that contains all desktop bookmarks.</note>
       </trans-unit>
     </body>
   </file>
@@ -46,46 +52,56 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs." approved="yes">
+      <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs.">
         <source>Are you sure you want to clear all of your data? This will also close all open tabs.</source>
-        <target state="translated">Sigur dorești să cureți toate datele tale? Acest lucru va închide și toate filele deschise.</target> <note>Message shown in the dialog prompting users if they want to clear everything</note>
+        <target>Sigur dorești să cureți toate datele tale? Acest lucru va închide și toate filele deschise.</target>
+        <note>Message shown in the dialog prompting users if they want to clear everything</note>
       </trans-unit>
-      <trans-unit id="Browsing History" approved="yes">
+      <trans-unit id="Browsing History">
         <source>Browsing History</source>
-        <target state="translated">Istoric de navigare</target> <note>Settings item for clearing browsing history</note>
+        <target>Istoric de navigare</target>
+        <note>Settings item for clearing browsing history</note>
       </trans-unit>
-      <trans-unit id="Cache" approved="yes">
+      <trans-unit id="Cache">
         <source>Cache</source>
-        <target state="translated">Cache</target> <note>Settings item for clearing the cache</note>
+        <target>Cache</target>
+        <note>Settings item for clearing the cache</note>
       </trans-unit>
-      <trans-unit id="Cancel" approved="yes">
+      <trans-unit id="Cancel">
         <source>Cancel</source>
-        <target state="translated">Renunță</target> <note>Used as a button label in the dialog to cancel clear private data dialog</note>
+        <target>Renunță</target>
+        <note>Used as a button label in the dialog to cancel clear private data dialog</note>
       </trans-unit>
-      <trans-unit id="Clear" approved="yes">
+      <trans-unit id="Clear">
         <source>Clear</source>
-        <target state="translated">Curăță</target> <note>Used as a button label in the dialog to Clear private data dialog</note>
+        <target>Curăță</target>
+        <note>Used as a button label in the dialog to Clear private data dialog</note>
       </trans-unit>
-      <trans-unit id="Clear Everything" approved="yes">
+      <trans-unit id="Clear Everything">
         <source>Clear Everything</source>
-        <target state="translated">Curăță totul</target> <note>Title of the Clear private data dialog.</note>
+        <target>Curăță totul</target>
+        <note>Title of the Clear private data dialog.</note>
       </trans-unit>
-      <trans-unit id="Clear Private Data" approved="yes">
+      <trans-unit id="Clear Private Data">
         <source>Clear Private Data</source>
-        <target state="translated">Curăță datele private</target> <note>Button in settings that clears private data for the selected items.
+        <target>Curăță datele private</target>
+        <note>Button in settings that clears private data for the selected items.
    Navigation title in settings.</note>
       </trans-unit>
-      <trans-unit id="Cookies" approved="yes">
+      <trans-unit id="Cookies">
         <source>Cookies</source>
-        <target state="translated">Cookie-uri</target> <note>Settings item for clearing cookies</note>
+        <target>Cookie-uri</target>
+        <note>Settings item for clearing cookies</note>
       </trans-unit>
-      <trans-unit id="Offline Website Data" approved="yes">
+      <trans-unit id="Offline Website Data">
         <source>Offline Website Data</source>
-        <target state="translated">Date offline ale site-urilor web</target> <note>Settings item for clearing website data</note>
+        <target>Date offline ale site-urilor web</target>
+        <note>Settings item for clearing website data</note>
       </trans-unit>
-      <trans-unit id="Saved Logins" approved="yes">
+      <trans-unit id="Saved Logins">
         <source>Saved Logins</source>
-        <target state="translated">Autentificări salvate</target> <note>Settings item for clearing passwords and login data</note>
+        <target>Autentificări salvate</target>
+        <note>Settings item for clearing passwords and login data</note>
       </trans-unit>
     </body>
   </file>
@@ -94,13 +110,15 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Open in Safari" approved="yes">
+      <trans-unit id="Open in Safari">
         <source>Open in Safari</source>
-        <target state="translated">Deschide în Safari</target> <note>Shown in error pages for files that can't be shown and need to be downloaded.</note>
+        <target>Deschide în Safari</target>
+        <note>Shown in error pages for files that can't be shown and need to be downloaded.</note>
       </trans-unit>
-      <trans-unit id="Try again" approved="yes">
+      <trans-unit id="Try again">
         <source>Try again</source>
-        <target state="translated">Încearcă din nou</target> <note>Shown in error pages on a button that will try to load the page again</note>
+        <target>Încearcă din nou</target>
+        <note>Shown in error pages on a button that will try to load the page again</note>
       </trans-unit>
     </body>
   </file>
@@ -109,9 +127,10 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Remove" approved="yes">
+      <trans-unit id="Remove">
         <source>Remove</source>
-        <target state="translated">Elimină</target> <note>Action button for deleting history entries in the history panel.</note>
+        <target>Elimină</target>
+        <note>Action button for deleting history entries in the history panel.</note>
       </trans-unit>
     </body>
   </file>
@@ -120,18 +139,22 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" approved="yes">
+      <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-        <target state="translated">$(MOZ_BUNDLE_DISPLAY_NAME)</target> </trans-unit>
-      <trans-unit id="CFBundleName" approved="yes">
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
         <source>$(MOZ_PRODUCT_NAME)</source>
-        <target state="translated">$(MOZ_PRODUCT_NAME)</target> </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(MOZ_PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>$(MOZ_VERSION)</source>
-        <target state="translated">$(MOZ_VERSION)</target> </trans-unit>
-      <trans-unit id="NSLocationWhenInUseUsageDescription" approved="yes">
+        <target>$(MOZ_VERSION)</target>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Websites you visit may request your location.</source>
-        <target state="translated">Site-urile web pe care le vizitezi ar putea să-ți solicite locația.</target> </trans-unit>
+        <target>Site-urile web pe care le vizitezi ar putea să-ți solicite locația.</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="ro">
@@ -139,77 +162,95 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Browse multiple Web pages at the same time with tabs." approved="yes">
+      <trans-unit id="Browse multiple Web pages at the same time with tabs.">
         <source>Browse multiple Web pages at the same time with tabs.</source>
-        <target state="translated">Navighează pagini web diferite în același timp cu ajutorul filelor.</target> <note>See http://mzl.la/1T8gxwo</note>
+        <target>Navighează pagini web diferite în același timp cu ajutorul filelor.</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Choose" approved="yes">
+      <trans-unit id="Choose">
         <source>Choose</source>
-        <target state="translated">Alege</target> <note>See http://mzl.la/1if9ODp</note>
+        <target>Alege</target>
+        <note>See http://mzl.la/1if9ODp</note>
       </trans-unit>
-      <trans-unit id="Connect Firefox everywhere you use it." approved="yes">
+      <trans-unit id="Connect Firefox everywhere you use it.">
         <source>Connect Firefox everywhere you use it.</source>
-        <target state="translated">Conectează Firefox oriunde îl folosești.</target> <note>See http://mzl.la/1T8gxwo</note>
+        <target>Conectează Firefox oriunde îl folosești.</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Customize" approved="yes">
+      <trans-unit id="Customize">
         <source>Customize</source>
-        <target state="translated">Particularizează</target> <note>See http://mzl.la/1T8gxwo</note>
+        <target>Particularizează</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Easily switch between open pages with tabs." approved="yes">
+      <trans-unit id="Easily switch between open pages with tabs.">
         <source>Easily switch between open pages with tabs.</source>
-        <target state="translated">Comută cu ușurință între paginile deschise folosind filele.</target> <note>See http://mzl.la/1T8gxwo</note>
+        <target>Comută cu ușurință între paginile deschise folosind filele.</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Firefox and the cloud" approved="yes">
+      <trans-unit id="Firefox and the cloud">
         <source>Firefox and the cloud</source>
-        <target state="translated">Firefox și cloud-ul</target> <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+        <target>Firefox și cloud-ul</target>
+        <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Introductory slide %@ of %@" approved="yes">
+      <trans-unit id="Introductory slide %@ of %@">
         <source>Introductory slide %1$@ of %2$@</source>
-        <target state="translated">Diapozitiv introductiv %1$@ din %2$@</target> <note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note>
+        <target>Diapozitiv introductiv %1$@ din %2$@</target>
+        <note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note>
       </trans-unit>
-      <trans-unit id="Organize" approved="yes">
+      <trans-unit id="Organize">
         <source>Organize</source>
-        <target state="translated">Organizează</target> <note>See http://mzl.la/1T8gxwo</note>
+        <target>Organizează</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Personalize your Firefox just the way you like in Settings." approved="yes">
+      <trans-unit id="Personalize your Firefox just the way you like in Settings.">
         <source>Personalize your Firefox just the way you like in Settings.</source>
-        <target state="translated">Personalizează Firefox-ul tău așa cum îți place din Setări.</target> <note>See http://mzl.la/1T8gxwo</note>
+        <target>Personalizează Firefox-ul tău așa cum îți place din Setări.</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Personalize your default search engine and more in Settings." approved="yes">
+      <trans-unit id="Personalize your default search engine and more in Settings.">
         <source>Personalize your default search engine and more in Settings.</source>
-        <target state="translated">Personalizează motorul de căutare implicit și mai multe din Setări.</target> <note>See http://mzl.la/1T8gxwo</note>
+        <target>Personalizează motorul de căutare implicit și mai multe din Setări.</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Share" approved="yes">
+      <trans-unit id="Share">
         <source>Share</source>
-        <target state="translated">Partajează</target> <note>See http://mzl.la/1if9ODp</note>
+        <target>Partajează</target>
+        <note>See http://mzl.la/1if9ODp</note>
       </trans-unit>
-      <trans-unit id="Sign in to Firefox" approved="yes">
+      <trans-unit id="Sign in to Firefox">
         <source>Sign in to Firefox</source>
-        <target state="translated">Autentifică-te în Firefox</target> <note>See http://mzl.la/1T8gxwo</note>
+        <target>Autentifică-te în Firefox</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Start Browsing" approved="yes">
+      <trans-unit id="Start Browsing">
         <source>Start Browsing</source>
-        <target state="translated">Începe să navighezi</target> <note>See http://mzl.la/1T8gxwo</note>
+        <target>Începe să navighezi</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Sync Your Devices." approved="yes">
+      <trans-unit id="Sync Your Devices.">
         <source>Sync Your Devices.</source>
-        <target state="translated">Sincronizează dispozitivele.</target> <note>ee http://mzl.la/1T8gxwo</note>
+        <target>Sincronizează dispozitivele.</target>
+        <note>ee http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Tap, hold and move the Firefox icon into your dock for easy access." approved="yes">
+      <trans-unit id="Tap, hold and move the Firefox icon into your dock for easy access.">
         <source>Tap, hold and move the Firefox icon into your dock for easy access.</source>
-        <target state="translated">Atinge, ține și mută iconița Firefox în dock pentru acces facil.</target> <note>See http://mzl.la/1if9ODp</note>
+        <target>Atinge, ține și mută iconița Firefox în dock pentru acces facil.</target>
+        <note>See http://mzl.la/1if9ODp</note>
       </trans-unit>
-      <trans-unit id="The Settings button is at the beginning of the Tabs Tray." approved="yes">
+      <trans-unit id="The Settings button is at the beginning of the Tabs Tray.">
         <source>The Settings button is at the beginning of the Tabs Tray.</source>
-        <target state="translated">Butonul Setări se află la începutul casetei cu file.</target> <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+        <target>Butonul Setări se află la începutul casetei cu file.</target>
+        <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs." approved="yes">
+      <trans-unit id="The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs.">
         <source>The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs.</source>
-        <target state="translated">Butonul „Arată filele” este lângă casetele de adrese și căutare și afișează numărul actual de file deschise.</target> <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+        <target>Butonul „Arată filele” este lângă casetele de adrese și căutare și afișează numărul actual de file deschise.</target>
+        <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Use the share sheet to send links from other apps to Firefox." approved="yes">
+      <trans-unit id="Use the share sheet to send links from other apps to Firefox.">
         <source>Use the share sheet to send links from other apps to Firefox.</source>
-        <target state="translated">Folosește share sheet pentru a trimite linkuri din alte aplicații în Firefox.</target> <note>See http://mzl.la/1if9ODp</note>
+        <target>Folosește share sheet pentru a trimite linkuri din alte aplicații în Firefox.</target>
+        <note>See http://mzl.la/1if9ODp</note>
       </trans-unit>
     </body>
   </file>
@@ -218,715 +259,889 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="+" approved="yes">
+      <trans-unit id="+">
         <source>+</source>
-        <target state="translated">+</target> <note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+        <target>+</target>
+        <note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       </trans-unit>
-      <trans-unit id="-" approved="yes">
+      <trans-unit id="-">
         <source>-</source>
-        <target state="translated">-</target> <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+        <target>-</target>
+        <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       </trans-unit>
-      <trans-unit id="A username and password are being requested by %@." approved="yes">
+      <trans-unit id="A username and password are being requested by %@.">
         <source>A username and password are being requested by %@.</source>
-        <target state="translated">Un nume de utilizator și parolă sunt solicitate de %@.</target> <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
+        <target>Un nume de utilizator și parolă sunt solicitate de %@.</target>
+        <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
       </trans-unit>
-      <trans-unit id="A username and password are being requested by %@. The site says: %@" approved="yes">
+      <trans-unit id="A username and password are being requested by %@. The site says: %@">
         <source>A username and password are being requested by %1$@. The site says: %2$@</source>
-        <target state="translated">Un nume de utilizator și parolă sunt solicitate de %1$@. Site-ul spune: %2$@</target> <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
+        <target>Un nume de utilizator și parolă sunt solicitate de %1$@. Site-ul spune: %2$@</target>
+        <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
       </trans-unit>
-      <trans-unit id="Aa" approved="yes">
+      <trans-unit id="Aa">
         <source>Aa</source>
-        <target state="translated">Aa</target> <note>Button for reader mode font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+        <target>Aa</target>
+        <note>Button for reader mode font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       </trans-unit>
-      <trans-unit id="About" approved="yes">
+      <trans-unit id="About">
         <source>About</source>
-        <target state="translated">Despre</target> <note>About settings section title</note>
+        <target>Despre</target>
+        <note>About settings section title</note>
       </trans-unit>
-      <trans-unit id="Add Tab" approved="yes">
+      <trans-unit id="Add Tab">
         <source>Add Tab</source>
-        <target state="translated">Adaugă filă</target> <note>Accessibility label for the Add Tab button in the Tab Tray.</note>
+        <target>Adaugă filă</target>
+        <note>Accessibility label for the Add Tab button in the Tab Tray.</note>
       </trans-unit>
-      <trans-unit id="Add to Reading List" approved="yes">
+      <trans-unit id="Add to Reading List">
         <source>Add to Reading List</source>
-        <target state="translated">Adaugă la lista de citit</target> <note>Add URL to the reading list - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
+        <target>Adaugă la lista de citit</target>
+        <note>Add URL to the reading list - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
       </trans-unit>
-      <trans-unit id="Added page to Reading List" approved="yes">
+      <trans-unit id="Added page to Reading List">
         <source>Added page to Reading List</source>
-        <target state="translated">Pagină adăugată la lista de citit</target> <note>Accessibility message e.g. spoken by VoiceOver after the current page gets added to the Reading List using the Reader View button, e.g. by long-pressing it or by its accessibility custom action.</note>
+        <target>Pagină adăugată la lista de citit</target>
+        <note>Accessibility message e.g. spoken by VoiceOver after the current page gets added to the Reading List using the Reader View button, e.g. by long-pressing it or by its accessibility custom action.</note>
       </trans-unit>
-      <trans-unit id="Address and Search" approved="yes">
+      <trans-unit id="Address and Search">
         <source>Address and Search</source>
-        <target state="translated">Adresă și căutare</target> <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
+        <target>Adresă și căutare</target>
+        <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
       </trans-unit>
-      <trans-unit id="Always Send" approved="yes">
+      <trans-unit id="Always Send">
         <source>Always Send</source>
-        <target state="translated">Trimite mereu</target> <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
+        <target>Trimite mereu</target>
+        <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
       </trans-unit>
-      <trans-unit id="Authentication required" approved="yes">
+      <trans-unit id="Authentication required">
         <source>Authentication required</source>
-        <target state="translated">Autentificare necesară</target> <note>Authentication prompt title</note>
+        <target>Autentificare necesară</target>
+        <note>Authentication prompt title</note>
       </trans-unit>
-      <trans-unit id="Back" approved="yes">
+      <trans-unit id="Back">
         <source>Back</source>
-        <target state="translated">Înapoi</target> <note>Accessibility Label for the browser toolbar Back button</note>
+        <target>Înapoi</target>
+        <note>Accessibility Label for the browser toolbar Back button</note>
       </trans-unit>
-      <trans-unit id="Block Pop-up Windows" approved="yes">
+      <trans-unit id="Block Pop-up Windows">
         <source>Block Pop-up Windows</source>
-        <target state="translated">Blochează ferestre pop-up</target> <note>Block pop-up windows setting</note>
+        <target>Blochează ferestre pop-up</target>
+        <note>Block pop-up windows setting</note>
       </trans-unit>
-      <trans-unit id="Bookmark" approved="yes">
+      <trans-unit id="Bookmark">
         <source>Bookmark</source>
-        <target state="translated">Marchează</target> <note>Bookmark a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
+        <target>Marchează</target>
+        <note>Bookmark a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
       </trans-unit>
-      <trans-unit id="Bookmarks" approved="yes">
+      <trans-unit id="Bookmarks">
         <source>Bookmarks</source>
-        <target state="translated">Semne de carte</target> <note>Panel accessibility label</note>
+        <target>Semne de carte</target>
+        <note>Panel accessibility label</note>
       </trans-unit>
-      <trans-unit id="Brightness" approved="yes">
+      <trans-unit id="Brightness">
         <source>Brightness</source>
-        <target state="translated">Luminozitate</target> <note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note>
+        <target>Luminozitate</target>
+        <note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note>
       </trans-unit>
-      <trans-unit id="Call" approved="yes">
+      <trans-unit id="Call">
         <source>Call</source>
-        <target state="translated">Apel</target> <note>Alert Call Button</note>
+        <target>Apel</target>
+        <note>Alert Call Button</note>
       </trans-unit>
-      <trans-unit id="Cancel" approved="yes">
+      <trans-unit id="Cancel">
         <source>Cancel</source>
-        <target state="translated">Anulează</target> <note>Cancel button title in share dialog</note>
+        <target>Anulează</target>
+        <note>Cancel button title in share dialog</note>
       </trans-unit>
-      <trans-unit id="Changes color theme." approved="yes">
+      <trans-unit id="Changes color theme.">
         <source>Changes color theme.</source>
-        <target state="translated">Schimbă culoarea temei.</target> <note>Accessibility hint for the color theme setting buttons in reader mode display settings</note>
+        <target>Schimbă culoarea temei.</target>
+        <note>Accessibility hint for the color theme setting buttons in reader mode display settings</note>
       </trans-unit>
-      <trans-unit id="Changes font type." approved="yes">
+      <trans-unit id="Changes font type.">
         <source>Changes font type.</source>
-        <target state="translated">Schimbă tipul fontului.</target> <note>Accessibility hint for the font type buttons in reader mode display settings</note>
+        <target>Schimbă tipul fontului.</target>
+        <note>Accessibility hint for the font type buttons in reader mode display settings</note>
       </trans-unit>
-      <trans-unit id="Clear Private Data" approved="yes">
+      <trans-unit id="Clear Private Data">
         <source>Clear Private Data</source>
-        <target state="translated">Curăță datele private</target> <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
+        <target>Curăță datele private</target>
+        <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
       </trans-unit>
-      <trans-unit id="Close" approved="yes">
+      <trans-unit id="Close">
         <source>Close</source>
-        <target state="translated">Închide</target> <note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
+        <target>Închide</target>
+        <note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
       </trans-unit>
-      <trans-unit id="Closing tab" approved="yes">
+      <trans-unit id="Closing tab">
         <source>Closing tab</source>
-        <target state="translated">Se închide fila</target> <note>No comment provided by engineer.</note>
+        <target>Se închide fila</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Copy Address" approved="yes">
+      <trans-unit id="Copy Address">
         <source>Copy Address</source>
-        <target state="translated">Copiază adresa</target> <note>Copy the URL from the location bar</note>
+        <target>Copiază adresa</target>
+        <note>Copy the URL from the location bar</note>
       </trans-unit>
-      <trans-unit id="Copy Image" approved="yes">
+      <trans-unit id="Copy Image">
         <source>Copy Image</source>
-        <target state="translated">Copiază imaginea</target> <note>Context menu item for copying an image to the clipboard</note>
+        <target>Copiază imaginea</target>
+        <note>Context menu item for copying an image to the clipboard</note>
       </trans-unit>
-      <trans-unit id="Copy Link" approved="yes">
+      <trans-unit id="Copy Link">
         <source>Copy Link</source>
-        <target state="translated">Copiază linkul</target> <note>Context menu item for copying a link URL to the clipboard</note>
+        <target>Copiază linkul</target>
+        <note>Context menu item for copying a link URL to the clipboard</note>
       </trans-unit>
-      <trans-unit id="Could not add page to Reading List. Maybe it's already there?" approved="yes">
+      <trans-unit id="Could not add page to Reading List. Maybe it's already there?">
         <source>Could not add page to Reading List. Maybe it's already there?</source>
-        <target state="translated">Nu s-a putut adăuga pagina la lista de citit. Poate e deja acolo?</target> <note>Accessibility message e.g. spoken by VoiceOver after the user wanted to add current page to the Reading List and this was not done, likely because it already was in the Reading List, but perhaps also because of real failures.</note>
+        <target>Nu s-a putut adăuga pagina la lista de citit. Poate e deja acolo?</target>
+        <note>Accessibility message e.g. spoken by VoiceOver after the user wanted to add current page to the Reading List and this was not done, likely because it already was in the Reading List, but perhaps also because of real failures.</note>
       </trans-unit>
-      <trans-unit id="Could not add page to Reading list" approved="yes">
+      <trans-unit id="Could not add page to Reading list">
         <source>Could not add page to Reading list</source>
-        <target state="translated">Nu s-a putut adăuga pagina la lista de citit</target> <note>Accessibility message e.g. spoken by VoiceOver after adding current webpage to the Reading List failed.</note>
+        <target>Nu s-a putut adăuga pagina la lista de citit</target>
+        <note>Accessibility message e.g. spoken by VoiceOver after adding current webpage to the Reading List failed.</note>
       </trans-unit>
-      <trans-unit id="Could not load page." approved="yes">
+      <trans-unit id="Could not load page.">
         <source>Could not load page.</source>
-        <target state="translated">Nu s-a putut încărca pagina.</target> <note>Error message that is shown in settings when there was a problem loading</note>
+        <target>Nu s-a putut încărca pagina.</target>
+        <note>Error message that is shown in settings when there was a problem loading</note>
       </trans-unit>
-      <trans-unit id="Create an account" approved="yes">
+      <trans-unit id="Create an account">
         <source>Create an account</source>
-        <target state="translated">Creează un cont</target> <note>See http://mzl.la/1Qtkf0j</note>
+        <target>Creează un cont</target>
+        <note>See http://mzl.la/1Qtkf0j</note>
       </trans-unit>
-      <trans-unit id="Dark" approved="yes">
+      <trans-unit id="Dark">
         <source>Dark</source>
-        <target state="translated">Întunecat</target> <note>Dark theme setting in Reading View settings</note>
+        <target>Întunecat</target>
+        <note>Dark theme setting in Reading View settings</note>
       </trans-unit>
-      <trans-unit id="Debug: forget Sync auth state" approved="yes">
+      <trans-unit id="Debug: forget Sync auth state">
         <source>Debug: forget Sync auth state</source>
-        <target state="translated">Depanare: uită starea de autentificare pentru Sincronizare</target> <note>Debug option</note>
+        <target>Depanare: uită starea de autentificare pentru Sincronizare</target>
+        <note>Debug option</note>
       </trans-unit>
-      <trans-unit id="Debug: require password" approved="yes">
+      <trans-unit id="Debug: require password">
         <source>Debug: require password</source>
-        <target state="translated">Depanare: solicită parolă</target> <note>Debug option</note>
+        <target>Depanare: solicită parolă</target>
+        <note>Debug option</note>
       </trans-unit>
-      <trans-unit id="Debug: require upgrade" approved="yes">
+      <trans-unit id="Debug: require upgrade">
         <source>Debug: require upgrade</source>
-        <target state="translated">Depanare: solicită upgrade</target> <note>Debug option</note>
+        <target>Depanare: solicită upgrade</target>
+        <note>Debug option</note>
       </trans-unit>
-      <trans-unit id="Decrease text size" approved="yes">
+      <trans-unit id="Decrease text size">
         <source>Decrease text size</source>
-        <target state="translated">Micșorează mărimea textului</target> <note>Accessibility label for button decreasing font size in display settings of reader mode</note>
+        <target>Micșorează mărimea textului</target>
+        <note>Accessibility label for button decreasing font size in display settings of reader mode</note>
       </trans-unit>
-      <trans-unit id="Default Search Engine" approved="yes">
+      <trans-unit id="Default Search Engine">
         <source>Default Search Engine</source>
-        <target state="translated">Motor de căutare implicit</target> <note>Accessibility label for default search engine setting.
+        <target>Motor de căutare implicit</target>
+        <note>Accessibility label for default search engine setting.
    Title for default search engine picker.
    Title for default search engine settings section.</note>
       </trans-unit>
-      <trans-unit id="Disable additional page dialogs" approved="yes">
+      <trans-unit id="Disable additional page dialogs">
         <source>Disable additional page dialogs</source>
-        <target state="translated">Dezactivează dialogurile adiționale pentru pagină</target> <note>Pending feature; currently unused string! Checkbox label shown after multiple alerts are shown</note>
+        <target>Dezactivează dialogurile adiționale pentru pagină</target>
+        <note>Pending feature; currently unused string! Checkbox label shown after multiple alerts are shown</note>
       </trans-unit>
-      <trans-unit id="Display Settings" approved="yes">
+      <trans-unit id="Display Settings">
         <source>Display Settings</source>
-        <target state="translated">Setări de afișare</target> <note>Name for display settings button in reader mode. Display in the meaning of presentation, not monitor.</note>
+        <target>Setări de afișare</target>
+        <note>Name for display settings button in reader mode. Display in the meaning of presentation, not monitor.</note>
       </trans-unit>
-      <trans-unit id="Do you want to save the password for %@ on %@?" approved="yes">
+      <trans-unit id="Do you want to save the password for %@ on %@?">
         <source>Do you want to save the password for %1$@ on %2$@?</source>
-        <target state="translated">Dorești să salvezi parola pentru %1$@ pe %2$@?</target> <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
+        <target>Dorești să salvezi parola pentru %1$@ pe %2$@?</target>
+        <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
-      <trans-unit id="Do you want to save the password on %@?" approved="yes">
+      <trans-unit id="Do you want to save the password on %@?">
         <source>Do you want to save the password on %@?</source>
-        <target state="translated">Dorești să salvezi parola pe %@?</target> <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
+        <target>Dorești să salvezi parola pe %@?</target>
+        <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
-      <trans-unit id="Do you want to update the password for %@ on %@?" approved="yes">
+      <trans-unit id="Do you want to update the password for %@ on %@?">
         <source>Do you want to update the password for %1$@ on %2$@?</source>
-        <target state="translated">Dorești să actualizezi parola pentru %1$@ pe %2$@?</target> <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
+        <target>Dorești să actualizezi parola pentru %1$@ pe %2$@?</target>
+        <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
-      <trans-unit id="Do you want to update the password on %@?" approved="yes">
+      <trans-unit id="Do you want to update the password on %@?">
         <source>Do you want to update the password on %@?</source>
-        <target state="translated">Dorești să actualizezi parola pe %@?</target> <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
+        <target>Dorești să actualizezi parola pe %@?</target>
+        <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
       </trans-unit>
-      <trans-unit id="Don't Send" approved="yes">
+      <trans-unit id="Don't Send">
         <source>Don't Send</source>
-        <target state="translated">Nu trimite</target> <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
+        <target>Nu trimite</target>
+        <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
       </trans-unit>
-      <trans-unit id="Done" approved="yes">
+      <trans-unit id="Done">
         <source>Done</source>
-        <target state="translated">Gata</target> <note>Done button label for search settings table
+        <target>Gata</target>
+        <note>Done button label for search settings table
    Done button label on back forward list screen
    Done button on left side of the Settings view controller title bar
    Done editing button</note>
       </trans-unit>
-      <trans-unit id="Double tap and hold to open history" approved="yes">
+      <trans-unit id="Double tap and hold to open history">
         <source>Double tap and hold to open history</source>
-        <target state="translated">Atinge de două ori și ține apăsat pentru a deschide istoricul</target> <note>No comment provided by engineer.</note>
+        <target>Atinge de două ori și ține apăsat pentru a deschide istoricul</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Enter your password to connect." approved="yes">
+      <trans-unit id="Enter your password to connect.">
         <source>Enter your password to connect.</source>
-        <target state="translated">Introdu parola pentru a te conecta.</target> <note>Text message in the settings table view</note>
+        <target>Introdu parola pentru a te conecta.</target>
+        <note>Text message in the settings table view</note>
       </trans-unit>
-      <trans-unit id="Firefox Help and Support" approved="yes">
+      <trans-unit id="Firefox Help and Support">
         <source>Firefox Help and Support</source>
-        <target state="translated">Ajutor și suport Firefox</target> <note>Tile title for App Help</note>
+        <target>Ajutor și suport Firefox</target>
+        <note>Tile title for App Help</note>
       </trans-unit>
-      <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device." approved="yes">
+      <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.">
         <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
-        <target state="translated">Firefox va opri sincronizarea cu contul tău, dar nu va șterge niciuna din datele de navigare de pe acest dispozitiv.</target> <note>Text of the 'log out firefox account' alert</note>
+        <target>Firefox va opri sincronizarea cu contul tău, dar nu va șterge niciuna din datele de navigare de pe acest dispozitiv.</target>
+        <note>Text of the 'log out firefox account' alert</note>
       </trans-unit>
-      <trans-unit id="Firefox would like to access your Photos" approved="yes">
+      <trans-unit id="Firefox would like to access your Photos">
         <source>Firefox would like to access your Photos</source>
-        <target state="translated">Firefox dorește să acceseze pozele tale</target> <note>See http://mzl.la/1G7uHo7</note>
+        <target>Firefox dorește să acceseze pozele tale</target>
+        <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
-      <trans-unit id="Forward" approved="yes">
+      <trans-unit id="Forward">
         <source>Forward</source>
-        <target state="translated">Înainte</target> <note>Accessibility Label for the browser toolbar Forward button</note>
+        <target>Înainte</target>
+        <note>Accessibility Label for the browser toolbar Forward button</note>
       </trans-unit>
-      <trans-unit id="General" approved="yes">
+      <trans-unit id="General">
         <source>General</source>
-        <target state="translated">General</target> <note>General settings section title</note>
+        <target>General</target>
+        <note>General settings section title</note>
       </trans-unit>
-      <trans-unit id="Get your open tabs, bookmarks, and passwords from your other devices." approved="yes">
+      <trans-unit id="Get your open tabs, bookmarks, and passwords from your other devices.">
         <source>Get your open tabs, bookmarks, and passwords from your other devices.</source>
-        <target state="translated">Obține filele deschise, semnele de carte și parolele de pe celelalte dispozitive.</target> <note>A re-worded offer about Sync that emphasizes one-way data transfer, not syncing.</note>
+        <target>Obține filele deschise, semnele de carte și parolele de pe celelalte dispozitive.</target>
+        <note>A re-worded offer about Sync that emphasizes one-way data transfer, not syncing.</note>
       </trans-unit>
-      <trans-unit id="Go" approved="yes">
+      <trans-unit id="Go">
         <source>Go</source>
-        <target state="translated">Accesează</target> <note>Pending feature; currently unused string! Button to browse to URL on the clipboard when browser is opened</note>
+        <target>Accesează</target>
+        <note>Pending feature; currently unused string! Button to browse to URL on the clipboard when browser is opened</note>
       </trans-unit>
-      <trans-unit id="Go to copied URL?" approved="yes">
+      <trans-unit id="Go to copied URL?">
         <source>Go to copied URL?</source>
-        <target state="translated">Accesezi URL-ul copiat?</target> <note>Pending feature; currently unused string! Prompt message shown when browser is opened with URL on the clipboard</note>
+        <target>Accesezi URL-ul copiat?</target>
+        <note>Pending feature; currently unused string! Prompt message shown when browser is opened with URL on the clipboard</note>
       </trans-unit>
-      <trans-unit id="Help" approved="yes">
+      <trans-unit id="Help">
         <source>Help</source>
-        <target state="translated">Ajutor</target> <note>Show the SUMO support page from the Support section in the settings. see http://mzl.la/1dmM8tZ</note>
+        <target>Ajutor</target>
+        <note>Show the SUMO support page from the Support section in the settings. see http://mzl.la/1dmM8tZ</note>
       </trans-unit>
-      <trans-unit id="History" approved="yes">
+      <trans-unit id="History">
         <source>History</source>
-        <target state="translated">Istoric</target> <note>Panel accessibility label</note>
+        <target>Istoric</target>
+        <note>Panel accessibility label</note>
       </trans-unit>
-      <trans-unit id="Increase text size" approved="yes">
+      <trans-unit id="Increase text size">
         <source>Increase text size</source>
-        <target state="translated">Mărește mărimea textului</target> <note>Accessibility label for button increasing font size in display settings of reader mode</note>
+        <target>Mărește mărimea textului</target>
+        <note>Accessibility label for button increasing font size in display settings of reader mode</note>
       </trans-unit>
-      <trans-unit id="Intro Tour Carousel" approved="yes">
+      <trans-unit id="Intro Tour Carousel">
         <source>Intro Tour Carousel</source>
-        <target state="translated">Tur de introducere Carousel</target> <note>Accessibility label for the introduction tour carousel</note>
+        <target>Tur de introducere Carousel</target>
+        <note>Accessibility label for the introduction tour carousel</note>
       </trans-unit>
-      <trans-unit id="Last month" approved="yes">
+      <trans-unit id="Last month">
         <source>Last month</source>
-        <target state="translated">Luna trecută</target> <note>History tableview section header</note>
+        <target>Luna trecută</target>
+        <note>History tableview section header</note>
       </trans-unit>
-      <trans-unit id="Last synced: %@" approved="yes">
+      <trans-unit id="Last synced: %@">
         <source>Last synced: %@</source>
-        <target state="translated">Ultima sincronizare: %@</target> <note>Last synced time label beside Sync Now setting option. Argument is the relative date string.
+        <target>Ultima sincronizare: %@</target>
+        <note>Last synced time label beside Sync Now setting option. Argument is the relative date string.
    Remote tabs last synced time. Argument is the relative date string.</note>
       </trans-unit>
-      <trans-unit id="Last week" approved="yes">
+      <trans-unit id="Last week">
         <source>Last week</source>
-        <target state="translated">Săptămâna trecută</target> <note>History tableview section header</note>
+        <target>Săptămâna trecută</target>
+        <note>History tableview section header</note>
       </trans-unit>
-      <trans-unit id="Licenses" approved="yes">
+      <trans-unit id="Licenses">
         <source>Licenses</source>
-        <target state="translated">Licențe</target> <note>Settings item that opens a tab containing the licenses. See http://mzl.la/1NSAWCG</note>
+        <target>Licențe</target>
+        <note>Settings item that opens a tab containing the licenses. See http://mzl.la/1NSAWCG</note>
       </trans-unit>
-      <trans-unit id="Light" approved="yes">
+      <trans-unit id="Light">
         <source>Light</source>
-        <target state="translated">Luminos</target> <note>Light theme setting in Reading View settings</note>
+        <target>Luminos</target>
+        <note>Light theme setting in Reading View settings</note>
       </trans-unit>
-      <trans-unit id="Load original page" approved="yes">
+      <trans-unit id="Load original page">
         <source>Load original page</source>
-        <target state="translated">Încarcă pagina originală</target> <note>Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
+        <target>Încarcă pagina originală</target>
+        <note>Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
-      <trans-unit id="Loading content…" approved="yes">
+      <trans-unit id="Loading content…">
         <source>Loading content…</source>
-        <target state="translated">Se încarcă conținut…</target> <note>Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app.</note>
+        <target>Se încarcă conținut…</target>
+        <note>Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
-      <trans-unit id="Log Out" approved="yes">
+      <trans-unit id="Log Out">
         <source>Log Out</source>
-        <target state="translated">Deconectare</target> <note>Button in settings screen to disconnect from your account
+        <target>Deconectare</target>
+        <note>Button in settings screen to disconnect from your account
    Disconnect button in the 'log out firefox account' alert</note>
       </trans-unit>
-      <trans-unit id="Log Out?" approved="yes">
+      <trans-unit id="Log Out?">
         <source>Log Out?</source>
-        <target state="translated">Te deconectezi?</target> <note>Title of the 'log out firefox account' alert</note>
+        <target>Te deconectezi?</target>
+        <note>Title of the 'log out firefox account' alert</note>
       </trans-unit>
-      <trans-unit id="Log in" approved="yes">
+      <trans-unit id="Log in">
         <source>Log in</source>
-        <target state="translated">Autentificare</target> <note>Authentication prompt log in button</note>
+        <target>Autentificare</target>
+        <note>Authentication prompt log in button</note>
       </trans-unit>
-      <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?" approved="yes">
+      <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?">
         <source>Looks like Firefox crashed previously. Would you like to restore your tabs?</source>
-        <target state="translated">Se pare că Firefox s-a închis neașteptat anterior. Dorești să îți restaurezi filele?</target> <note>Restore Tabs Prompt Description</note>
+        <target>Se pare că Firefox s-a închis neașteptat anterior. Dorești să îți restaurezi filele?</target>
+        <note>Restore Tabs Prompt Description</note>
       </trans-unit>
-      <trans-unit id="Mark as Read" approved="yes">
+      <trans-unit id="Mark as Read">
         <source>Mark as Read</source>
-        <target state="translated">Marchează ca citit</target> <note>Name for Mark as read button in reader mode
+        <target>Marchează ca citit</target>
+        <note>Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read</note>
       </trans-unit>
-      <trans-unit id="Mark as Unread" approved="yes">
+      <trans-unit id="Mark as Unread">
         <source>Mark as Unread</source>
-        <target state="translated">Marchează ca necitit</target> <note>Name for Mark as unread button in reader mode
+        <target>Marchează ca necitit</target>
+        <note>Name for Mark as unread button in reader mode
    Title for the button that marks a reading list item as unread</note>
       </trans-unit>
-      <trans-unit id="Missing error" approved="yes">
+      <trans-unit id="Missing error">
         <source>Missing error</source>
-        <target state="translated">Eroare lipsă</target> <note>Error for a missing remote error number</note>
+        <target>Eroare lipsă</target>
+        <note>Error for a missing remote error number</note>
       </trans-unit>
-      <trans-unit id="Missing message" approved="yes">
+      <trans-unit id="Missing message">
         <source>Missing message</source>
-        <target state="translated">Mesaj lipsă</target> <note>Error for a missing remote error message</note>
+        <target>Mesaj lipsă</target>
+        <note>Error for a missing remote error message</note>
       </trans-unit>
-      <trans-unit id="Navigation Toolbar" approved="yes">
+      <trans-unit id="Navigation Toolbar">
         <source>Navigation Toolbar</source>
-        <target state="translated">Bară de navigare</target> <note>Accessibility label for the navigation toolbar displayed at the bottom of the screen.</note>
+        <target>Bară de navigare</target>
+        <note>Accessibility label for the navigation toolbar displayed at the bottom of the screen.</note>
       </trans-unit>
-      <trans-unit id="Never Send" approved="yes">
+      <trans-unit id="Never Send">
         <source>Never Send</source>
-        <target state="translated">Nu trimite niciodată</target> <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
+        <target>Nu trimite niciodată</target>
+        <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
       </trans-unit>
-      <trans-unit id="New tab: %@: %@" approved="yes">
+      <trans-unit id="New tab: %@: %@">
         <source>New tab: %1$@: %2$@</source>
-        <target state="translated">Filă nouă: %1$@: %2$@</target> <note>New tab [title] [url]</note>
+        <target>Filă nouă: %1$@: %2$@</target>
+        <note>New tab [title] [url]</note>
       </trans-unit>
-      <trans-unit id="New version available" approved="yes">
+      <trans-unit id="New version available">
         <source>New version available</source>
-        <target state="translated">Versiune nouă disponibilă</target> <note>Prompt title for application update</note>
+        <target>Versiune nouă disponibilă</target>
+        <note>Prompt title for application update</note>
       </trans-unit>
-      <trans-unit id="No" approved="yes">
+      <trans-unit id="No">
         <source>No</source>
-        <target state="translated">Nu</target> <note>Restore Tabs Negative Action</note>
+        <target>Nu</target>
+        <note>Restore Tabs Negative Action</note>
       </trans-unit>
-      <trans-unit id="No tabs" approved="yes">
+      <trans-unit id="No tabs">
         <source>No tabs</source>
-        <target state="translated">Nicio filă</target> <note>Message spoken by VoiceOver to indicate that there are no tabs in the Tabs Tray</note>
+        <target>Nicio filă</target>
+        <note>Message spoken by VoiceOver to indicate that there are no tabs in the Tabs Tray</note>
       </trans-unit>
-      <trans-unit id="Not Now" approved="yes">
+      <trans-unit id="Not Now">
         <source>Not Now</source>
-        <target state="translated">Nu acum</target> <note>Label for button to cancel application update prompt</note>
+        <target>Nu acum</target>
+        <note>Label for button to cancel application update prompt</note>
       </trans-unit>
-      <trans-unit id="Not now" approved="yes">
+      <trans-unit id="Not now">
         <source>Not now</source>
-        <target state="translated">Nu acum</target> <note>Button to not save the user's password</note>
+        <target>Nu acum</target>
+        <note>Button to not save the user's password</note>
       </trans-unit>
-      <trans-unit id="OK" approved="yes">
+      <trans-unit id="OK">
         <source>OK</source>
-        <target state="translated">Ok</target> <note>Alert OK Button
+        <target>Ok</target>
+        <note>Alert OK Button
    Label for OK button in the application update prompt
    OK button</note>
       </trans-unit>
-      <trans-unit id="Okay" approved="yes">
+      <trans-unit id="Okay">
         <source>Okay</source>
-        <target state="translated">Ok</target> <note>Restore Tabs Affirmative Action</note>
+        <target>Ok</target>
+        <note>Restore Tabs Affirmative Action</note>
       </trans-unit>
-      <trans-unit id="Oops! Firefox crashed" approved="yes">
+      <trans-unit id="Oops! Firefox crashed">
         <source>Oops! Firefox crashed</source>
-        <target state="translated">Ups! Firefox s-a închis neașteptat</target> <note>Pending feature; currently unused string! Title for prompt displayed to user after the app crashes</note>
+        <target>Ups! Firefox s-a închis neașteptat</target>
+        <note>Pending feature; currently unused string! Title for prompt displayed to user after the app crashes</note>
       </trans-unit>
-      <trans-unit id="Open In New Tab" approved="yes">
+      <trans-unit id="Open In New Tab">
         <source>Open In New Tab</source>
-        <target state="translated">Deschide într-o filă nouă</target> <note>Context menu item for opening a link in a new tab</note>
+        <target>Deschide într-o filă nouă</target>
+        <note>Context menu item for opening a link in a new tab</note>
       </trans-unit>
-      <trans-unit id="Open Settings" approved="yes">
+      <trans-unit id="Open Settings">
         <source>Open Settings</source>
-        <target state="translated">Deschide Setări</target> <note>See http://mzl.la/1G7uHo7</note>
+        <target>Deschide Setări</target>
+        <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
-      <trans-unit id="Open articles in Reader View by tapping the book icon when it appears in the title bar." approved="yes">
+      <trans-unit id="Open articles in Reader View by tapping the book icon when it appears in the title bar.">
         <source>Open articles in Reader View by tapping the book icon when it appears in the title bar.</source>
-        <target state="translated">Deschide articole în modul lectură atingând iconița carte când aceasta apare în bara de titlu.</target> <note>See http://mzl.la/1LXbDOL</note>
+        <target>Deschide articole în modul lectură atingând iconița carte când aceasta apare în bara de titlu.</target>
+        <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
-      <trans-unit id="Open in…" approved="yes">
+      <trans-unit id="Open in…">
         <source>Open in…</source>
-        <target state="translated">Deschide în…</target> <note>String indicating that the file can be opened in another application on the device</note>
+        <target>Deschide în…</target>
+        <note>String indicating that the file can be opened in another application on the device</note>
       </trans-unit>
-      <trans-unit id="Opening %@" approved="yes">
+      <trans-unit id="Opening %@">
         <source>Opening %@</source>
-        <target state="translated">Se deschide %@</target> <note>Opening an external URL</note>
+        <target>Se deschide %@</target>
+        <note>Opening an external URL</note>
       </trans-unit>
-      <trans-unit id="Pages you have visited recently will show up here." approved="yes">
+      <trans-unit id="Pages you have visited recently will show up here.">
         <source>Pages you have visited recently will show up here.</source>
-        <target state="translated">Paginile pe care le-ai vizitat recent vor apărea aici.</target> <note>See http://bit.ly/1I7Do4b</note>
+        <target>Paginile pe care le-ai vizitat recent vor apărea aici.</target>
+        <note>See http://bit.ly/1I7Do4b</note>
       </trans-unit>
-      <trans-unit id="Panel Chooser" approved="yes">
+      <trans-unit id="Panel Chooser">
         <source>Panel Chooser</source>
-        <target state="translated">Selector de panouri</target> <note>Accessibility label for the Home panel's top toolbar containing list of the home panels (top sites, bookmarsk, history, remote tabs, reading list).</note>
+        <target>Selector de panouri</target>
+        <note>Accessibility label for the Home panel's top toolbar containing list of the home panels (top sites, bookmarsk, history, remote tabs, reading list).</note>
       </trans-unit>
-      <trans-unit id="Password" approved="yes">
+      <trans-unit id="Password">
         <source>Password</source>
-        <target state="translated">Parolă</target> <note>Password textbox in Authentication prompt</note>
+        <target>Parolă</target>
+        <note>Password textbox in Authentication prompt</note>
       </trans-unit>
-      <trans-unit id="Paste" approved="yes">
+      <trans-unit id="Paste">
         <source>Paste</source>
-        <target state="translated">Lipește</target> <note>Paste the URL into the location bar</note>
+        <target>Lipește</target>
+        <note>Paste the URL into the location bar</note>
       </trans-unit>
-      <trans-unit id="Paste &amp; Go" approved="yes">
+      <trans-unit id="Paste &amp; Go">
         <source>Paste &amp; Go</source>
-        <target state="translated">Lipește și accesează</target> <note>Paste the URL into the location bar and visit</note>
+        <target>Lipește și accesează</target>
+        <note>Paste the URL into the location bar and visit</note>
       </trans-unit>
-      <trans-unit id="Privacy" approved="yes">
+      <trans-unit id="Privacy">
         <source>Privacy</source>
-        <target state="translated">Confidențialitate</target> <note>Privacy section title</note>
+        <target>Confidențialitate</target>
+        <note>Privacy section title</note>
       </trans-unit>
-      <trans-unit id="Privacy Policy" approved="yes">
+      <trans-unit id="Privacy Policy">
         <source>Privacy Policy</source>
-        <target state="translated">Politică de confidențialitate</target> <note>Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/</note>
+        <target>Politică de confidențialitate</target>
+        <note>Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/</note>
       </trans-unit>
-      <trans-unit id="Quick-search Engines" approved="yes">
+      <trans-unit id="Quick-search Engines">
         <source>Quick-search Engines</source>
-        <target state="translated">Motoare de căutare rapidă</target> <note>Title for quick-search engines settings section.</note>
+        <target>Motoare de căutare rapidă</target>
+        <note>Title for quick-search engines settings section.</note>
       </trans-unit>
-      <trans-unit id="Reader View" approved="yes">
+      <trans-unit id="Reader View">
         <source>Reader View</source>
-        <target state="translated">Mod citire</target> <note>Accessibility label for the Reader View button</note>
+        <target>Mod citire</target>
+        <note>Accessibility label for the Reader View button</note>
       </trans-unit>
-      <trans-unit id="Reading list" approved="yes">
+      <trans-unit id="Reading list">
         <source>Reading list</source>
-        <target state="translated">Listă de citit</target> <note>Panel accessibility label</note>
+        <target>Listă de citit</target>
+        <note>Panel accessibility label</note>
       </trans-unit>
-      <trans-unit id="Reload" approved="yes">
+      <trans-unit id="Reload">
         <source>Reload</source>
-        <target state="translated">Reîncarcă</target> <note>Accessibility Label for the browser toolbar Reload button</note>
+        <target>Reîncarcă</target>
+        <note>Accessibility Label for the browser toolbar Reload button</note>
       </trans-unit>
-      <trans-unit id="Remove" approved="yes">
+      <trans-unit id="Remove">
         <source>Remove</source>
-        <target state="translated">Elimină</target> <note>Title for the button that removes a reading list item</note>
+        <target>Elimină</target>
+        <note>Title for the button that removes a reading list item</note>
       </trans-unit>
-      <trans-unit id="Remove from Reading List" approved="yes">
+      <trans-unit id="Remove from Reading List">
         <source>Remove from Reading List</source>
-        <target state="translated">Elimină din lista de citit</target> <note>Name for button removing current article from reading list in reader mode</note>
+        <target>Elimină din lista de citit</target>
+        <note>Name for button removing current article from reading list in reader mode</note>
       </trans-unit>
-      <trans-unit id="Remove page" approved="yes">
+      <trans-unit id="Remove page">
         <source>Remove page</source>
-        <target state="translated">Elimină pagina</target> <note>Button shown in editing mode to remove this site from the top sites panel.</note>
+        <target>Elimină pagina</target>
+        <note>Button shown in editing mode to remove this site from the top sites panel.</note>
       </trans-unit>
-      <trans-unit id="Request Desktop Site" approved="yes">
+      <trans-unit id="Request Desktop Site">
         <source>Request Desktop Site</source>
-        <target state="translated">Cere versiune de desktop</target> <note>Pending feature; currently unused string! Tooltip label triggered by long pressing the refresh button.</note>
+        <target>Cere versiune de desktop</target>
+        <note>Pending feature; currently unused string! Tooltip label triggered by long pressing the refresh button.</note>
       </trans-unit>
-      <trans-unit id="Request Mobile Site" approved="yes">
+      <trans-unit id="Request Mobile Site">
         <source>Request Mobile Site</source>
-        <target state="translated">Cere versiune de mobil</target> <note>Pending feature; currently unused string! Tooltip label triggered by long pressing the refresh button a second time.</note>
+        <target>Cere versiune de mobil</target>
+        <note>Pending feature; currently unused string! Tooltip label triggered by long pressing the refresh button a second time.</note>
       </trans-unit>
-      <trans-unit id="Sans-serif" approved="yes">
+      <trans-unit id="Sans-serif">
         <source>Sans-serif</source>
-        <target state="translated">Sans-serif</target> <note>Font type setting in the reading view settings</note>
+        <target>Sans-serif</target>
+        <note>Font type setting in the reading view settings</note>
       </trans-unit>
-      <trans-unit id="Save" approved="yes">
+      <trans-unit id="Save">
         <source>Save</source>
-        <target state="translated">Salvează</target> <note>Button to save the user's password</note>
+        <target>Salvează</target>
+        <note>Button to save the user's password</note>
       </trans-unit>
-      <trans-unit id="Save Image" approved="yes">
+      <trans-unit id="Save Image">
         <source>Save Image</source>
-        <target state="translated">Salvează imaginea</target> <note>Context menu item for saving an image</note>
+        <target>Salvează imaginea</target>
+        <note>Context menu item for saving an image</note>
       </trans-unit>
-      <trans-unit id="Save Logins" approved="yes">
+      <trans-unit id="Save Logins">
         <source>Save Logins</source>
-        <target state="translated">Salvează autentificările</target> <note>Setting to enable the built-in password manager</note>
+        <target>Salvează autentificările</target>
+        <note>Setting to enable the built-in password manager</note>
       </trans-unit>
-      <trans-unit id="Save pages to your Reading List by tapping the book plus icon in the Reader View controls." approved="yes">
+      <trans-unit id="Save pages to your Reading List by tapping the book plus icon in the Reader View controls.">
         <source>Save pages to your Reading List by tapping the book plus icon in the Reader View controls.</source>
-        <target state="translated">Salvează paginile din lista de citit atingând iconița carte cu plus din controalele modului lectură.</target> <note>See http://mzl.la/1LXbDOL</note>
+        <target>Salvează paginile din lista de citit atingând iconița carte cu plus din controalele modului lectură.</target>
+        <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
-      <trans-unit id="Search" approved="yes">
+      <trans-unit id="Search">
         <source>Search</source>
-        <target state="translated">Căutare</target> <note>Navigation title for search settings.
+        <target>Căutare</target>
+        <note>Navigation title for search settings.
    Open search section of settings</note>
       </trans-unit>
-      <trans-unit id="Search or enter address" approved="yes">
+      <trans-unit id="Search or enter address">
         <source>Search or enter address</source>
-        <target state="translated">Caută sau introdu adresa</target> <note>The text shown in the URL bar on about:home</note>
+        <target>Caută sau introdu adresa</target>
+        <note>The text shown in the URL bar on about:home</note>
       </trans-unit>
-      <trans-unit id="Searches for the suggestion" approved="yes">
+      <trans-unit id="Searches for the suggestion">
         <source>Searches for the suggestion</source>
-        <target state="translated">Caută sugestii</target> <note>Accessibility hint describing the action performed when a search suggestion is clicked</note>
+        <target>Caută sugestii</target>
+        <note>Accessibility hint describing the action performed when a search suggestion is clicked</note>
       </trans-unit>
-      <trans-unit id="Secure connection" approved="yes">
+      <trans-unit id="Secure connection">
         <source>Secure connection</source>
-        <target state="translated">Conexiune securizată</target> <note>Accessibility label for the lock icon, which is only present if the connection is secure</note>
+        <target>Conexiune securizată</target>
+        <note>Accessibility label for the lock icon, which is only present if the connection is secure</note>
       </trans-unit>
-      <trans-unit id="Send Crash Reports" approved="yes">
+      <trans-unit id="Send Crash Reports">
         <source>Send Crash Reports</source>
-        <target state="translated">Trimite rapoarte de defecțiuni</target> <note>Setting to enable the sending of crash reports</note>
+        <target>Trimite rapoarte de defecțiuni</target>
+        <note>Setting to enable the sending of crash reports</note>
       </trans-unit>
-      <trans-unit id="Send Feedback" approved="yes">
+      <trans-unit id="Send Feedback">
         <source>Send Feedback</source>
-        <target state="translated">Trimite feedback</target> <note>Show an input.mozilla.org page where people can submit feedback</note>
+        <target>Trimite feedback</target>
+        <note>Show an input.mozilla.org page where people can submit feedback</note>
       </trans-unit>
-      <trans-unit id="Send Report" approved="yes">
+      <trans-unit id="Send Report">
         <source>Send Report</source>
-        <target state="translated">Trimite raport</target> <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
+        <target>Trimite raport</target>
+        <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
       </trans-unit>
-      <trans-unit id="Send a crash report so Mozilla can fix the problem?" approved="yes">
+      <trans-unit id="Send a crash report so Mozilla can fix the problem?">
         <source>Send a crash report so Mozilla can fix the problem?</source>
-        <target state="translated">Trimiți un raport de defecțiune astfel încât Mozilla să poată remedia problema?</target> <note>Pending feature; currently unused string! Message displayed in the crash dialog above the buttons used to select when sending reports</note>
+        <target>Trimiți un raport de defecțiune astfel încât Mozilla să poată remedia problema?</target>
+        <note>Pending feature; currently unused string! Message displayed in the crash dialog above the buttons used to select when sending reports</note>
       </trans-unit>
-      <trans-unit id="Sepia" approved="yes">
+      <trans-unit id="Sepia">
         <source>Sepia</source>
-        <target state="translated">Sepia</target> <note>Sepia theme setting in Reading View settings</note>
+        <target>Sepia</target>
+        <note>Sepia theme setting in Reading View settings</note>
       </trans-unit>
-      <trans-unit id="Serif" approved="yes">
+      <trans-unit id="Serif">
         <source>Serif</source>
-        <target state="translated">Serif</target> <note>Font type setting in the reading view settings</note>
+        <target>Serif</target>
+        <note>Font type setting in the reading view settings</note>
       </trans-unit>
-      <trans-unit id="Settings" approved="yes">
+      <trans-unit id="Settings">
         <source>Settings</source>
-        <target state="translated">Setări</target> <note>Accessibility label for the Settings button in the Tab Tray.
+        <target>Setări</target>
+        <note>Accessibility label for the Settings button in the Tab Tray.
    Settings</note>
       </trans-unit>
-      <trans-unit id="Share" approved="yes">
+      <trans-unit id="Share">
         <source>Share</source>
-        <target state="translated">Împărtășește</target> <note>Accessibility Label for the browser toolbar Share button</note>
+        <target>Împărtășește</target>
+        <note>Accessibility Label for the browser toolbar Share button</note>
       </trans-unit>
-      <trans-unit id="Show Search Suggestions" approved="yes">
+      <trans-unit id="Show Search Suggestions">
         <source>Show Search Suggestions</source>
-        <target state="translated">Arată sugestii de căutare</target> <note>Label for show search suggestions setting.</note>
+        <target>Arată sugestii de căutare</target>
+        <note>Label for show search suggestions setting.</note>
       </trans-unit>
-      <trans-unit id="Show Tabs" approved="yes">
+      <trans-unit id="Show Tabs">
         <source>Show Tabs</source>
-        <target state="translated">Arată filele</target> <note>Accessibility label for the tabs button in the (top) browser toolbar
+        <target>Arată filele</target>
+        <note>Accessibility label for the tabs button in the (top) browser toolbar
    Accessibility Label for the tabs button in the browser toolbar</note>
       </trans-unit>
-      <trans-unit id="Show Tour" approved="yes">
+      <trans-unit id="Show Tour">
         <source>Show Tour</source>
-        <target state="translated">Arată turul</target> <note>Show the on-boarding screen again from the settings</note>
+        <target>Arată turul</target>
+        <note>Show the on-boarding screen again from the settings</note>
       </trans-unit>
-      <trans-unit id="Show search suggestions" approved="yes">
+      <trans-unit id="Show search suggestions">
         <source>Show search suggestions</source>
-        <target state="translated">Arată sugestii de căutare</target> <note>Label for show search suggestions setting.</note>
+        <target>Arată sugestii de căutare</target>
+        <note>Label for show search suggestions setting.</note>
       </trans-unit>
-      <trans-unit id="Sign In" approved="yes">
+      <trans-unit id="Sign In">
         <source>Sign In</source>
-        <target state="translated">Autentificare</target> <note>Text message / button in the settings table view</note>
+        <target>Autentificare</target>
+        <note>Text message / button in the settings table view</note>
       </trans-unit>
-      <trans-unit id="Sign in" approved="yes">
+      <trans-unit id="Sign in">
         <source>Sign in</source>
-        <target state="translated">Autentificare</target> <note>Text message / button in the settings table view</note>
+        <target>Autentificare</target>
+        <note>Text message / button in the settings table view</note>
       </trans-unit>
-      <trans-unit id="Stop" approved="yes">
+      <trans-unit id="Stop">
         <source>Stop</source>
-        <target state="translated">Oprește</target> <note>Accessibility Label for the browser toolbar Stop button</note>
+        <target>Oprește</target>
+        <note>Accessibility Label for the browser toolbar Stop button</note>
       </trans-unit>
-      <trans-unit id="Support" approved="yes">
+      <trans-unit id="Support">
         <source>Support</source>
-        <target state="translated">Suport</target> <note>Support section title</note>
+        <target>Suport</target>
+        <note>Support section title</note>
       </trans-unit>
-      <trans-unit id="Swipe right or left with three fingers to close the tab." approved="yes">
+      <trans-unit id="Swipe right or left with three fingers to close the tab.">
         <source>Swipe right or left with three fingers to close the tab.</source>
-        <target state="translated">Glisează spre dreapta sau stânga cu trei degete pentru a închide fila.</target> <note>Accessibility hint for tab tray's displayed tab.</note>
+        <target>Glisează spre dreapta sau stânga cu trei degete pentru a închide fila.</target>
+        <note>Accessibility hint for tab tray's displayed tab.</note>
       </trans-unit>
-      <trans-unit id="Sync Now" approved="yes">
+      <trans-unit id="Sync Now">
         <source>Sync Now</source>
-        <target state="translated">Sincronizează acum</target> <note>Sync Firefox Account</note>
+        <target>Sincronizează acum</target>
+        <note>Sync Firefox Account</note>
       </trans-unit>
-      <trans-unit id="Sync your tabs, bookmarks, passwords and more." approved="yes">
+      <trans-unit id="Sync your tabs, bookmarks, passwords and more.">
         <source>Sync your tabs, bookmarks, passwords and more.</source>
-        <target state="translated">Sincronizează filele, semnele de carte, parolele și multe altele.</target> <note>See http://mzl.la/1Qtkf0j</note>
+        <target>Sincronizează filele, semnele de carte, parolele și multe altele.</target>
+        <note>See http://mzl.la/1Qtkf0j</note>
       </trans-unit>
-      <trans-unit id="Sync your tabs, passwords and more." approved="yes">
+      <trans-unit id="Sync your tabs, passwords and more.">
         <source>Sync your tabs, passwords and more.</source>
-        <target state="translated">Sincronizează filele, parolele și multe altele.</target> <note>See http://mzl.la/1Qtkf0j</note>
+        <target>Sincronizează filele, parolele și multe altele.</target>
+        <note>See http://mzl.la/1Qtkf0j</note>
       </trans-unit>
-      <trans-unit id="Synced tabs" approved="yes">
+      <trans-unit id="Synced tabs">
         <source>Synced tabs</source>
-        <target state="translated">File sincronizate</target> <note>Panel accessibility label</note>
+        <target>File sincronizate</target>
+        <note>Panel accessibility label</note>
       </trans-unit>
-      <trans-unit id="Syncing…" approved="yes">
+      <trans-unit id="Syncing…">
         <source>Syncing…</source>
-        <target state="translated">Se sincronizează…</target> <note>Syncing Firefox Account</note>
+        <target>Se sincronizează…</target>
+        <note>Syncing Firefox Account</note>
       </trans-unit>
-      <trans-unit id="Tab %@ of %@" approved="yes">
+      <trans-unit id="Tab %@ of %@">
         <source>Tab %1$@ of %2$@</source>
-        <target state="translated">Fila %1$@ din %2$@</target> <note>Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray, along with the total number of tabs. E.g. \"Tab 2 of 5\" says that tab 2 is visible (and is the only visible tab), out of 5 tabs total.</note>
+        <target>Fila %1$@ din %2$@</target>
+        <note>Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray, along with the total number of tabs. E.g. \"Tab 2 of 5\" says that tab 2 is visible (and is the only visible tab), out of 5 tabs total.</note>
       </trans-unit>
-      <trans-unit id="Tabs %@ to %@ of %@" approved="yes">
+      <trans-unit id="Tabs %@ to %@ of %@">
         <source>Tabs %1$@ to %2$@ of %3$@</source>
-        <target state="translated">Filele %1$@ până la %2$@ din %3$@</target> <note>Message spoken by VoiceOver saying the range of tabs that are currently visible in Tabs Tray, along with the total number of tabs. E.g. \"Tabs 8 to 10 of 15\" says tabs 8, 9 and 10 are visible, out of 15 tabs total.</note>
+        <target>Filele %1$@ până la %2$@ din %3$@</target>
+        <note>Message spoken by VoiceOver saying the range of tabs that are currently visible in Tabs Tray, along with the total number of tabs. E.g. \"Tabs 8 to 10 of 15\" says tabs 8, 9 and 10 are visible, out of 15 tabs total.</note>
       </trans-unit>
-      <trans-unit id="Tabs Tray" approved="yes">
+      <trans-unit id="Tabs Tray">
         <source>Tabs Tray</source>
-        <target state="translated">Bara cu file</target> <note>Accessibility label for the Tabs Tray view.</note>
+        <target>Bara cu file</target>
+        <note>Accessibility label for the Tabs Tray view.</note>
       </trans-unit>
-      <trans-unit id="The Mozilla Project" approved="yes">
+      <trans-unit id="The Mozilla Project">
         <source>The Mozilla Project</source>
-        <target state="translated">Proiectul Mozilla</target> <note>Tile title for Mozilla</note>
+        <target>Proiectul Mozilla</target>
+        <note>Tile title for Mozilla</note>
       </trans-unit>
-      <trans-unit id="The page could not be displayed in Reader View." approved="yes">
+      <trans-unit id="The page could not be displayed in Reader View.">
         <source>The page could not be displayed in Reader View.</source>
-        <target state="translated">Pagina nu a putut fi afișată în modul lectură.</target> <note>Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
+        <target>Pagina nu a putut fi afișată în modul lectură.</target>
+        <note>Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
-      <trans-unit id="There is a new version available of Firefox Aurora. Tap OK to go to the download page." approved="yes">
+      <trans-unit id="There is a new version available of Firefox Aurora. Tap OK to go to the download page.">
         <source>There is a new version available of Firefox Aurora. Tap OK to go to the download page.</source>
-        <target state="translated">Există o versiune nouă disponibilă de Firefox Aurora. Atinge pe Ok pentru a merge la pagina de descărcare.</target> <note>Prompt message for application update</note>
+        <target>Există o versiune nouă disponibilă de Firefox Aurora. Atinge pe Ok pentru a merge la pagina de descărcare.</target>
+        <note>Prompt message for application update</note>
       </trans-unit>
-      <trans-unit id="There was a problem accessing tabs from your other devices. Try again in a few moments." approved="yes">
+      <trans-unit id="There was a problem accessing tabs from your other devices. Try again in a few moments.">
         <source>There was a problem accessing tabs from your other devices. Try again in a few moments.</source>
-        <target state="translated">A apărut o problemă la accesarea filelor de pe celelalte dispozitive ale tale. Încearcă din nou în câteva momente.</target> <note>Error message in the remote tabs panel</note>
+        <target>A apărut o problemă la accesarea filelor de pe celelalte dispozitive ale tale. Încearcă din nou în câteva momente.</target>
+        <note>Error message in the remote tabs panel</note>
       </trans-unit>
-      <trans-unit id="There was an error converting the page" approved="yes">
+      <trans-unit id="There was an error converting the page">
         <source>There was an error converting the page</source>
-        <target state="translated">A apărut o problemă la convertirea paginii</target> <note>Error displayed when reader mode cannot be enabled</note>
+        <target>A apărut o problemă la convertirea paginii</target>
+        <note>Error displayed when reader mode cannot be enabled</note>
       </trans-unit>
-      <trans-unit id="This allows you to save the image to your Camera Roll." approved="yes">
+      <trans-unit id="This allows you to save the image to your Camera Roll.">
         <source>This allows you to save the image to your Camera Roll.</source>
-        <target state="translated">Aceasta îți permite să salvezi imaginea pe Camera Roll.</target> <note>See http://mzl.la/1G7uHo7</note>
+        <target>Aceasta îți permite să salvezi imaginea pe Camera Roll.</target>
+        <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
-      <trans-unit id="This will open in another application" approved="yes">
+      <trans-unit id="This will open in another application">
         <source>This will open in another application</source>
-        <target state="translated">Aceasta se va deschide cu o altă aplicație</target> <note>Opening an external app</note>
+        <target>Aceasta se va deschide cu o altă aplicație</target>
+        <note>Opening an external app</note>
       </trans-unit>
-      <trans-unit id="Today" approved="yes">
+      <trans-unit id="Today">
         <source>Today</source>
-        <target state="translated">Azi</target> <note>History tableview section header</note>
+        <target>Azi</target>
+        <note>History tableview section header</note>
       </trans-unit>
-      <trans-unit id="Top sites" approved="yes">
+      <trans-unit id="Top sites">
         <source>Top sites</source>
-        <target state="translated">Site-uri de top</target> <note>Panel accessibility label</note>
+        <target>Site-uri de top</target>
+        <note>Panel accessibility label</note>
       </trans-unit>
-      <trans-unit id="Update" approved="yes">
+      <trans-unit id="Update">
         <source>Update</source>
-        <target state="translated">Actualizează</target> <note>Button to update the user's password</note>
+        <target>Actualizează</target>
+        <note>Button to update the user's password</note>
       </trans-unit>
-      <trans-unit id="Upgrade Firefox to connect." approved="yes">
+      <trans-unit id="Upgrade Firefox to connect.">
         <source>Upgrade Firefox to connect.</source>
-        <target state="translated">Actualizează Firefox pentru a te conecta.</target> <note>Text message in the settings table view</note>
+        <target>Actualizează Firefox pentru a te conecta.</target>
+        <note>Text message in the settings table view</note>
       </trans-unit>
-      <trans-unit id="Use Compact Tabs" approved="yes">
+      <trans-unit id="Use Compact Tabs">
         <source>Use Compact Tabs</source>
-        <target state="translated">Utilizează file compacte</target> <note>Setting to enable compact tabs in the tab overview</note>
+        <target>Utilizează file compacte</target>
+        <note>Setting to enable compact tabs in the tab overview</note>
       </trans-unit>
-      <trans-unit id="Username" approved="yes">
+      <trans-unit id="Username">
         <source>Username</source>
-        <target state="translated">Nume de utilizator</target> <note>Username textbox in Authentication prompt</note>
+        <target>Nume de utilizator</target>
+        <note>Username textbox in Authentication prompt</note>
       </trans-unit>
-      <trans-unit id="Verify your email address." approved="yes">
+      <trans-unit id="Verify your email address.">
         <source>Verify your email address.</source>
-        <target state="translated">Verifică-ți adresa de e-mail.</target> <note>Text message in the settings table view</note>
+        <target>Verifică-ți adresa de e-mail.</target>
+        <note>Text message in the settings table view</note>
       </trans-unit>
-      <trans-unit id="Version %@ (%@)" approved="yes">
+      <trans-unit id="Version %@ (%@)">
         <source>Version %1$@ (%2$@)</source>
-        <target state="translated">Versiune %1$@ (%2$@)</target> <note>Version number of Firefox shown in settings</note>
+        <target>Versiune %1$@ (%2$@)</target>
+        <note>Version number of Firefox shown in settings</note>
       </trans-unit>
-      <trans-unit id="View" approved="yes">
+      <trans-unit id="View">
         <source>View</source>
-        <target state="translated">Vezi</target> <note>View a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
+        <target>Vezi</target>
+        <note>View a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
       </trans-unit>
-      <trans-unit id="Web content" approved="yes">
+      <trans-unit id="Web content">
         <source>Web content</source>
-        <target state="translated">Conținut web</target> <note>Accessibility label for the main web content view</note>
+        <target>Conținut web</target>
+        <note>Accessibility label for the main web content view</note>
       </trans-unit>
-      <trans-unit id="Welcome to Sync" approved="yes">
+      <trans-unit id="Welcome to Sync">
         <source>Welcome to Sync</source>
-        <target state="translated">Bun venit la Sincronizare</target> <note>See http://mzl.la/1Qtkf0j</note>
+        <target>Bun venit la Sincronizare</target>
+        <note>See http://mzl.la/1Qtkf0j</note>
       </trans-unit>
-      <trans-unit id="Welcome to your Reading List" approved="yes">
+      <trans-unit id="Welcome to your Reading List">
         <source>Welcome to your Reading List</source>
-        <target state="translated">Bun venit la lista de citit</target> <note>See http://mzl.la/1LXbDOL</note>
+        <target>Bun venit la lista de citit</target>
+        <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
-      <trans-unit id="Well, this is embarrassing." approved="yes">
+      <trans-unit id="Well, this is embarrassing.">
         <source>Well, this is embarrassing.</source>
-        <target state="translated">Ei, asta e jenant.</target> <note>Restore Tabs Prompt Title</note>
+        <target>Ei, asta e jenant.</target>
+        <note>Restore Tabs Prompt Title</note>
       </trans-unit>
-      <trans-unit id="Yesterday" approved="yes">
+      <trans-unit id="Yesterday">
         <source>Yesterday</source>
-        <target state="translated">Ieri</target> <note>History tableview section header</note>
+        <target>Ieri</target>
+        <note>History tableview section header</note>
       </trans-unit>
-      <trans-unit id="You don't have any other devices connected to this Firefox Account available to sync." approved="yes">
+      <trans-unit id="You don't have any other devices connected to this Firefox Account available to sync.">
         <source>You don't have any other devices connected to this Firefox Account available to sync.</source>
-        <target state="translated">Nu ai alte dispozitive conectate la acest cont Firefox disponibile pentru sincronizare.</target> <note>Error message in the remote tabs panel</note>
+        <target>Nu ai alte dispozitive conectate la acest cont Firefox disponibile pentru sincronizare.</target>
+        <note>Error message in the remote tabs panel</note>
       </trans-unit>
-      <trans-unit id="You don't have any tabs open in Firefox on your other devices." approved="yes">
+      <trans-unit id="You don't have any tabs open in Firefox on your other devices.">
         <source>You don't have any tabs open in Firefox on your other devices.</source>
-        <target state="translated">Nu ai nicio filă deschisă în Firefox pe celelalte dispozitive ale tale.</target> <note>Error message in the remote tabs panel</note>
+        <target>Nu ai nicio filă deschisă în Firefox pe celelalte dispozitive ale tale.</target>
+        <note>Error message in the remote tabs panel</note>
       </trans-unit>
-      <trans-unit id="Your Rights" approved="yes">
+      <trans-unit id="Your Rights">
         <source>Your Rights</source>
-        <target state="translated">Drepturile tale</target> <note>Your Rights settings section title</note>
+        <target>Drepturile tale</target>
+        <note>Your Rights settings section title</note>
       </trans-unit>
-      <trans-unit id="computer" approved="yes">
+      <trans-unit id="computer">
         <source>computer</source>
-        <target state="translated">calculator</target> <note>Accessibility label for Desktop Computer (PC) image in remote tabs list</note>
+        <target>calculator</target>
+        <note>Accessibility label for Desktop Computer (PC) image in remote tabs list</note>
       </trans-unit>
-      <trans-unit id="just now" approved="yes">
+      <trans-unit id="just now">
         <source>just now</source>
-        <target state="translated">chiar acum</target> <note>Relative time for a tab that was visited within the last few moments.</note>
+        <target>chiar acum</target>
+        <note>Relative time for a tab that was visited within the last few moments.</note>
       </trans-unit>
-      <trans-unit id="mobile device" approved="yes">
+      <trans-unit id="mobile device">
         <source>mobile device</source>
-        <target state="translated">dispozitiv mobil</target> <note>Accessibility label for Mobile Device image in remote tabs list</note>
+        <target>dispozitiv mobil</target>
+        <note>Accessibility label for Mobile Device image in remote tabs list</note>
       </trans-unit>
-      <trans-unit id="more than a month ago" approved="yes">
+      <trans-unit id="more than a month ago">
         <source>more than a month ago</source>
-        <target state="translated">cu mai mult de o lună în urmă</target> <note>Relative date for dates older than a month and less than two months.</note>
+        <target>cu mai mult de o lună în urmă</target>
+        <note>Relative date for dates older than a month and less than two months.</note>
       </trans-unit>
-      <trans-unit id="more than a week ago" approved="yes">
+      <trans-unit id="more than a week ago">
         <source>more than a week ago</source>
-        <target state="translated">cu mai mult de o săptămână în urmă</target> <note>Description for a date more than a week ago, but less than a month ago.</note>
+        <target>cu mai mult de o săptămână în urmă</target>
+        <note>Description for a date more than a week ago, but less than a month ago.</note>
       </trans-unit>
-      <trans-unit id="read" approved="yes">
+      <trans-unit id="read">
         <source>read</source>
-        <target state="translated">citit</target> <note>Accessibility label for read article in reading list. It's a past participle - functions as an adjective.</note>
+        <target>citit</target>
+        <note>Accessibility label for read article in reading list. It's a past participle - functions as an adjective.</note>
       </trans-unit>
-      <trans-unit id="this week" approved="yes">
+      <trans-unit id="this week">
         <source>this week</source>
-        <target state="translated">această săptămână</target> <note>Relative date for date in past week.</note>
+        <target>această săptămână</target>
+        <note>Relative date for date in past week.</note>
       </trans-unit>
-      <trans-unit id="today at %@" approved="yes">
+      <trans-unit id="today at %@">
         <source>today at %@</source>
-        <target state="translated">azi la %@</target> <note>Relative date for date older than a minute.</note>
+        <target>azi la %@</target>
+        <note>Relative date for date older than a minute.</note>
       </trans-unit>
-      <trans-unit id="unread" approved="yes">
+      <trans-unit id="unread">
         <source>unread</source>
-        <target state="translated">necitit</target> <note>Accessibility label for unread article in reading list. It's a past participle - functions as an adjective.</note>
+        <target>necitit</target>
+        <note>Accessibility label for unread article in reading list. It's a past participle - functions as an adjective.</note>
       </trans-unit>
-      <trans-unit id="yesterday" approved="yes">
+      <trans-unit id="yesterday">
         <source>yesterday</source>
-        <target state="translated">ieri</target> <note>Relative date for yesterday.</note>
+        <target>ieri</target>
+        <note>Relative date for yesterday.</note>
       </trans-unit>
     </body>
   </file>
@@ -935,45 +1150,55 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Close Private Tabs" approved="yes">
+      <trans-unit id="Close Private Tabs">
         <source>Close Private Tabs</source>
-        <target state="translated">Închide filele private</target> <note>Setting for closing private tabs</note>
+        <target>Închide filele private</target>
+        <note>Setting for closing private tabs</note>
       </trans-unit>
-      <trans-unit id="Firefox won't remember any of your history or cookies, but new bookmarks will be saved." approved="yes">
+      <trans-unit id="Firefox won't remember any of your history or cookies, but new bookmarks will be saved.">
         <source>Firefox won't remember any of your history or cookies, but new bookmarks will be saved.</source>
-        <target state="translated">Firefox nu va memora niciun istoric sau cookie, însă noile semne de carte vor fi salvate.</target> <note>Description text displayed when there are no open tabs while in private mode</note>
+        <target>Firefox nu va memora niciun istoric sau cookie, însă noile semne de carte vor fi salvate.</target>
+        <note>Description text displayed when there are no open tabs while in private mode</note>
       </trans-unit>
-      <trans-unit id="Learn More" approved="yes">
+      <trans-unit id="Learn More">
         <source>Learn More</source>
-        <target state="translated">Află mai multe</target> <note>Text button displayed when there are no tabs open while in private mode</note>
+        <target>Află mai multe</target>
+        <note>Text button displayed when there are no tabs open while in private mode</note>
       </trans-unit>
-      <trans-unit id="Off" approved="yes">
+      <trans-unit id="Off">
         <source>Off</source>
-        <target state="translated">Dezactivată</target> <note>Toggled OFF accessibility value</note>
+        <target>Dezactivată</target>
+        <note>Toggled OFF accessibility value</note>
       </trans-unit>
-      <trans-unit id="On" approved="yes">
+      <trans-unit id="On">
         <source>On</source>
-        <target state="translated">Activată</target> <note>Toggled ON accessibility value</note>
+        <target>Activată</target>
+        <note>Toggled ON accessibility value</note>
       </trans-unit>
-      <trans-unit id="Open In New Private Tab" approved="yes">
+      <trans-unit id="Open In New Private Tab">
         <source>Open In New Private Tab</source>
-        <target state="translated">Deschide în filă privată nouă</target> <note>Context menu option for opening a link in a new private tab</note>
+        <target>Deschide în filă privată nouă</target>
+        <note>Context menu option for opening a link in a new private tab</note>
       </trans-unit>
-      <trans-unit id="Private Browsing" approved="yes">
+      <trans-unit id="Private Browsing">
         <source>Private Browsing</source>
-        <target state="translated">Navigare privată</target> <note>Title displayed for when there are no open tabs while in private mode</note>
+        <target>Navigare privată</target>
+        <note>Title displayed for when there are no open tabs while in private mode</note>
       </trans-unit>
-      <trans-unit id="Private Mode" approved="yes">
+      <trans-unit id="Private Mode">
         <source>Private Mode</source>
-        <target state="translated">Mod privat</target> <note>Accessibility label for toggling on/off private mode</note>
+        <target>Mod privat</target>
+        <note>Accessibility label for toggling on/off private mode</note>
       </trans-unit>
-      <trans-unit id="Turns private mode on or off" approved="yes">
+      <trans-unit id="Turns private mode on or off">
         <source>Turns private mode on or off</source>
-        <target state="translated">Activează sau dezactivează modul privat</target> <note>Accessiblity hint for toggling on/off private mode</note>
+        <target>Activează sau dezactivează modul privat</target>
+        <note>Accessiblity hint for toggling on/off private mode</note>
       </trans-unit>
-      <trans-unit id="When Leaving Private Browsing" approved="yes">
+      <trans-unit id="When Leaving Private Browsing">
         <source>When Leaving Private Browsing</source>
-        <target state="translated">Când părăsești navigarea privată</target> <note>Will be displayed in Settings under 'Close Private Tabs'</note>
+        <target>Când părăsești navigarea privată</target>
+        <note>Will be displayed in Settings under 'Close Private Tabs'</note>
       </trans-unit>
     </body>
   </file>
@@ -982,29 +1207,35 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="%@ search" approved="yes">
+      <trans-unit id="%@ search">
         <source>%@ search</source>
-        <target state="translated">Căutare %@</target> <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
+        <target>Căutare %@</target>
+        <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
       </trans-unit>
-      <trans-unit id="No" approved="yes">
+      <trans-unit id="No">
         <source>No</source>
-        <target state="translated">Nu</target> <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+        <target>Nu</target>
+        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
       </trans-unit>
-      <trans-unit id="Search Settings" approved="yes">
+      <trans-unit id="Search Settings">
         <source>Search Settings</source>
-        <target state="translated">Setări de căutare</target> <note>Label for search settings button.</note>
+        <target>Setări de căutare</target>
+        <note>Label for search settings button.</note>
       </trans-unit>
-      <trans-unit id="Search suggestions from %@" approved="yes">
+      <trans-unit id="Search suggestions from %@">
         <source>Search suggestions from %@</source>
-        <target state="translated">Sugestii de căutare de la %@</target> <note>Accessibility label for image of default search engine displayed left to the actual search suggestions from the engine. The parameter substituted for \"%@\" is the name of the search engine. E.g.: Search suggestions from Google</note>
+        <target>Sugestii de căutare de la %@</target>
+        <note>Accessibility label for image of default search engine displayed left to the actual search suggestions from the engine. The parameter substituted for \"%@\" is the name of the search engine. E.g.: Search suggestions from Google</note>
       </trans-unit>
-      <trans-unit id="Turn on search suggestions?" approved="yes">
+      <trans-unit id="Turn on search suggestions?">
         <source>Turn on search suggestions?</source>
-        <target state="translated">Pornești sugestiile de căutare?</target> <note>Prompt shown before enabling provider search queries</note>
+        <target>Pornești sugestiile de căutare?</target>
+        <note>Prompt shown before enabling provider search queries</note>
       </trans-unit>
-      <trans-unit id="Yes" approved="yes">
+      <trans-unit id="Yes">
         <source>Yes</source>
-        <target state="translated">Da</target> <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
+        <target>Da</target>
+        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
       </trans-unit>
     </body>
   </file>
@@ -1013,12 +1244,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target state="translated">$(PRODUCT_NAME)</target> </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target state="translated">1.0</target> </trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="ro">
@@ -1026,15 +1259,18 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" approved="yes">
+      <trans-unit id="CFBundleDisplayName">
         <source>Send Tab</source>
-        <target state="translated">Trimite fila</target> </trans-unit>
-      <trans-unit id="CFBundleName" approved="yes">
+        <target>Trimite fila</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target state="translated">$(PRODUCT_NAME)</target> </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>$(MOZ_VERSION)</source>
-        <target state="translated">$(MOZ_VERSION)</target> </trans-unit>
+        <target>$(MOZ_VERSION)</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Extensions/SendTo/SendTo.strings" source-language="en" datatype="plaintext" target-language="ro">
@@ -1042,33 +1278,40 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Available devices:" approved="yes">
+      <trans-unit id="Available devices:">
         <source>Available devices:</source>
-        <target state="translated">Dispozitive disponibile:</target> <note>Header for the list of devices table</note>
+        <target>Dispozitive disponibile:</target>
+        <note>Header for the list of devices table</note>
       </trans-unit>
-      <trans-unit id="Close" approved="yes">
+      <trans-unit id="Close">
         <source>Close</source>
-        <target state="translated">Închide</target> <note>Close button in top navigation bar</note>
+        <target>Închide</target>
+        <note>Close button in top navigation bar</note>
       </trans-unit>
-      <trans-unit id="Please open Firefox, go to Settings and sign in to continue." approved="yes">
+      <trans-unit id="Please open Firefox, go to Settings and sign in to continue.">
         <source>Please open Firefox, go to Settings and sign in to continue.</source>
-        <target state="translated">Te rugăm să deschizi Firefox, să mergi la Setări și să te autentifici pentru a continua.</target> <note>See http://mzl.la/1ISlXnU</note>
+        <target>Te rugăm să deschizi Firefox, să mergi la Setări și să te autentifici pentru a continua.</target>
+        <note>See http://mzl.la/1ISlXnU</note>
       </trans-unit>
-      <trans-unit id="Send" approved="yes">
+      <trans-unit id="Send">
         <source>Send</source>
-        <target state="translated">Trimite</target> <note>Navigation bar button to Send the current page to a device</note>
+        <target>Trimite</target>
+        <note>Navigation bar button to Send the current page to a device</note>
       </trans-unit>
-      <trans-unit id="Send Tab" approved="yes">
+      <trans-unit id="Send Tab">
         <source>Send Tab</source>
-        <target state="translated">Trimite fila</target> <note>Title of the dialog that allows you to send a tab to a different device</note>
+        <target>Trimite fila</target>
+        <note>Title of the dialog that allows you to send a tab to a different device</note>
       </trans-unit>
-      <trans-unit id="You are not signed in to your Firefox Account." approved="yes">
+      <trans-unit id="You are not signed in to your Firefox Account.">
         <source>You are not signed in to your Firefox Account.</source>
-        <target state="translated">Nu ești autentificat în contul Firefox.</target> <note>See http://mzl.la/1ISlXnU</note>
+        <target>Nu ești autentificat în contul Firefox.</target>
+        <note>See http://mzl.la/1ISlXnU</note>
       </trans-unit>
-      <trans-unit id="You don't have any other devices connected to this Firefox Account available to sync." approved="yes">
+      <trans-unit id="You don't have any other devices connected to this Firefox Account available to sync.">
         <source>You don't have any other devices connected to this Firefox Account available to sync.</source>
-        <target state="translated">Nu ai alte dispozitive conectate la acest cont Firefox disponibile pentru sincronizare.</target> <note>Error message shown in the remote tabs panel</note>
+        <target>Nu ai alte dispozitive conectate la acest cont Firefox disponibile pentru sincronizare.</target>
+        <note>Error message shown in the remote tabs panel</note>
       </trans-unit>
     </body>
   </file>
@@ -1077,15 +1320,18 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" approved="yes">
+      <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-        <target state="translated">$(MOZ_BUNDLE_DISPLAY_NAME)</target> </trans-unit>
-      <trans-unit id="CFBundleName" approved="yes">
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target state="translated">$(PRODUCT_NAME)</target> </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>$(MOZ_VERSION)</source>
-        <target state="translated">$(MOZ_VERSION)</target> </trans-unit>
+        <target>$(MOZ_VERSION)</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Extensions/ShareTo/ShareTo.strings" source-language="en" datatype="plaintext" target-language="ro">
@@ -1093,17 +1339,20 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Add" approved="yes">
+      <trans-unit id="Add">
         <source>Add</source>
-        <target state="translated">Adaugă</target> <note>Add button in the share dialog</note>
+        <target>Adaugă</target>
+        <note>Add button in the share dialog</note>
       </trans-unit>
-      <trans-unit id="Add to Bookmarks" approved="yes">
+      <trans-unit id="Add to Bookmarks">
         <source>Add to Bookmarks</source>
-        <target state="translated">Adaugă la semne de carte</target> <note>On/off toggle to select adding this url to your bookmarks</note>
+        <target>Adaugă la semne de carte</target>
+        <note>On/off toggle to select adding this url to your bookmarks</note>
       </trans-unit>
-      <trans-unit id="Add to Reading List" approved="yes">
+      <trans-unit id="Add to Reading List">
         <source>Add to Reading List</source>
-        <target state="translated">Adaugă la lista de citit</target> <note>On/off toggle to select adding this url to your reading list</note>
+        <target>Adaugă la lista de citit</target>
+        <note>On/off toggle to select adding this url to your reading list</note>
       </trans-unit>
     </body>
   </file>
@@ -1112,15 +1361,18 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" approved="yes">
+      <trans-unit id="CFBundleDisplayName">
         <source>View Later</source>
-        <target state="translated">Vezi mai târziu</target> </trans-unit>
-      <trans-unit id="CFBundleName" approved="yes">
+        <target>Vezi mai târziu</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target state="translated">$(PRODUCT_NAME)</target> </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>$(MOZ_VERSION)</source>
-        <target state="translated">$(MOZ_VERSION)</target> </trans-unit>
+        <target>$(MOZ_VERSION)</target>
+      </trans-unit>
     </body>
   </file>
   <file original="ReadingList/Info.plist" source-language="en" datatype="plaintext" target-language="ro">
@@ -1128,12 +1380,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target state="translated">$(PRODUCT_NAME)</target> </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target state="translated">1.0</target> </trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="ReadingListTests/Info.plist" source-language="en" datatype="plaintext" target-language="ro">
@@ -1141,12 +1395,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target state="translated">$(PRODUCT_NAME)</target> </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target state="translated">1.0</target> </trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Shared/Supporting Files/Info.plist" source-language="en" datatype="plaintext" target-language="ro">
@@ -1154,12 +1410,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target state="translated">$(PRODUCT_NAME)</target> </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target state="translated">1.0</target> </trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Shared/Supporting Files/Shared.strings" source-language="en" datatype="plaintext" target-language="ro">
@@ -1167,9 +1425,10 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="%@ on %@" approved="yes">
+      <trans-unit id="%@ on %@">
         <source>%1$@ on %2$@</source>
-        <target state="translated">%1$@ pe %2$@</target> <note>A brief descriptive name for this app on this device, used for Send Tab and Synced Tabs. The first argument is the app name. The second argument is the device name.</note>
+        <target>%1$@ pe %2$@</target>
+        <note>A brief descriptive name for this app on this device, used for Send Tab and Synced Tabs. The first argument is the app name. The second argument is the device name.</note>
       </trans-unit>
     </body>
   </file>
@@ -1178,12 +1437,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target state="translated">$(PRODUCT_NAME)</target> </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target state="translated">1.0</target> </trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Storage.strings" source-language="en" datatype="plaintext" target-language="ro">
@@ -1191,25 +1452,30 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Bookmarks Menu" approved="yes">
+      <trans-unit id="Bookmarks Menu">
         <source>Bookmarks Menu</source>
-        <target state="translated">Meniul „Semne de carte”</target> <note>The name of the folder that contains desktop bookmarks in the menu. This should match bookmarks.folder.menu.label on Android.</note>
+        <target>Meniul „Semne de carte”</target>
+        <note>The name of the folder that contains desktop bookmarks in the menu. This should match bookmarks.folder.menu.label on Android.</note>
       </trans-unit>
-      <trans-unit id="Bookmarks Toolbar" approved="yes">
+      <trans-unit id="Bookmarks Toolbar">
         <source>Bookmarks Toolbar</source>
-        <target state="translated">Bara pentru semne de carte</target> <note>The name of the folder that contains desktop bookmarks in the toolbar. This should match bookmarks.folder.toolbar.label on Android.</note>
+        <target>Bara pentru semne de carte</target>
+        <note>The name of the folder that contains desktop bookmarks in the toolbar. This should match bookmarks.folder.toolbar.label on Android.</note>
       </trans-unit>
-      <trans-unit id="Mobile Bookmarks" approved="yes">
+      <trans-unit id="Mobile Bookmarks">
         <source>Mobile Bookmarks</source>
-        <target state="translated">Semne de carte mobile</target> <note>The title of the folder that contains mobile bookmarks. This should match bookmarks.folder.mobile.label on Android.</note>
+        <target>Semne de carte mobile</target>
+        <note>The title of the folder that contains mobile bookmarks. This should match bookmarks.folder.mobile.label on Android.</note>
       </trans-unit>
-      <trans-unit id="Unsorted Bookmarks" approved="yes">
+      <trans-unit id="Unsorted Bookmarks">
         <source>Unsorted Bookmarks</source>
-        <target state="translated">Semne de carte nesortate</target> <note>The name of the folder that contains unsorted desktop bookmarks. This should match bookmarks.folder.unfiled.label on Android.</note>
+        <target>Semne de carte nesortate</target>
+        <note>The name of the folder that contains unsorted desktop bookmarks. This should match bookmarks.folder.unfiled.label on Android.</note>
       </trans-unit>
-      <trans-unit id="Untitled" approved="yes">
+      <trans-unit id="Untitled">
         <source>Untitled</source>
-        <target state="translated">Fără titlu</target> <note>The default name for bookmark folders without titles.
+        <target>Fără titlu</target>
+        <note>The default name for bookmark folders without titles.
    The default name for bookmark nodes without titles.</note>
       </trans-unit>
     </body>
@@ -1219,12 +1485,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target state="translated">$(PRODUCT_NAME)</target> </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target state="translated">1.0</target> </trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Sync/Info.plist" source-language="en" datatype="plaintext" target-language="ro">
@@ -1232,12 +1500,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target state="translated">$(PRODUCT_NAME)</target> </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target state="translated">1.0</target> </trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="SyncTests/Info.plist" source-language="en" datatype="plaintext" target-language="ro">
@@ -1245,12 +1515,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target state="translated">$(PRODUCT_NAME)</target> </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target state="translated">1.0</target> </trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="UITests/Info.plist" source-language="en" datatype="plaintext" target-language="ro">
@@ -1258,12 +1530,15 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target state="translated">$(PRODUCT_NAME)</target> </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target state="translated">1.0</target> </trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
+

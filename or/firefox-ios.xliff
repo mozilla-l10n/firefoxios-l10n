@@ -1,16 +1,18 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="or">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">1.0</target></trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="or">
@@ -18,12 +20,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">1.0</target></trans-unit>
+        <target>1.0</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/BookmarkPanel.strings" source-language="en" datatype="plaintext" target-language="or">
@@ -31,13 +35,15 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Delete" approved="yes">
+      <trans-unit id="Delete">
         <source>Delete</source>
-        <target state="translated">ଲିଭାନ୍ତୁ</target><note>Action button for deleting bookmarks in the bookmarks panel.</note>
+        <target>ଲିଭାନ୍ତୁ</target>
+        <note>Action button for deleting bookmarks in the bookmarks panel.</note>
       </trans-unit>
-      <trans-unit id="Desktop Bookmarks" approved="yes">
+      <trans-unit id="Desktop Bookmarks">
         <source>Desktop Bookmarks</source>
-        <target state="translated">ଡେସ୍କଟପ ବୁକମାର୍କସବୁ</target><note>The folder name for the virtual folder that contains all desktop bookmarks.</note>
+        <target>ଡେସ୍କଟପ ବୁକମାର୍କସବୁ</target>
+        <note>The folder name for the virtual folder that contains all desktop bookmarks.</note>
       </trans-unit>
     </body>
   </file>
@@ -46,46 +52,56 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs." approved="yes">
+      <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs.">
         <source>Are you sure you want to clear all of your data? This will also close all open tabs.</source>
-        <target state="translated">ଆପଣ ନିଜର ସବୁଯାକ ଡାଟା ଉଡ଼ାଇଦେବାକୁ ଚାହାନ୍ତି? ଏଭଳି କଲେ ଟ୍ୟାବସବୁ ମଧ୍ୟ ବନ୍ଦ ହୋଇଯିବ ।</target><note>Message shown in the dialog prompting users if they want to clear everything</note>
+        <target>ଆପଣ ନିଜର ସବୁଯାକ ଡାଟା ଉଡ଼ାଇଦେବାକୁ ଚାହାନ୍ତି? ଏଭଳି କଲେ ଟ୍ୟାବସବୁ ମଧ୍ୟ ବନ୍ଦ ହୋଇଯିବ ।</target>
+        <note>Message shown in the dialog prompting users if they want to clear everything</note>
       </trans-unit>
-      <trans-unit id="Browsing History" approved="yes">
+      <trans-unit id="Browsing History">
         <source>Browsing History</source>
-        <target state="translated">ବ୍ରାଉଜିଂ ଇତିହାସ</target><note>Settings item for clearing browsing history</note>
+        <target>ବ୍ରାଉଜିଂ ଇତିହାସ</target>
+        <note>Settings item for clearing browsing history</note>
       </trans-unit>
-      <trans-unit id="Cache" approved="yes">
+      <trans-unit id="Cache">
         <source>Cache</source>
-        <target state="translated">ଅସ୍ଥାୟୀ ମେମୋରି</target><note>Settings item for clearing the cache</note>
+        <target>ଅସ୍ଥାୟୀ ମେମୋରି</target>
+        <note>Settings item for clearing the cache</note>
       </trans-unit>
-      <trans-unit id="Cancel" approved="yes">
+      <trans-unit id="Cancel">
         <source>Cancel</source>
-        <target state="translated">ନାକଚ</target><note>Used as a button label in the dialog to cancel clear private data dialog</note>
+        <target>ନାକଚ</target>
+        <note>Used as a button label in the dialog to cancel clear private data dialog</note>
       </trans-unit>
-      <trans-unit id="Clear" approved="yes">
+      <trans-unit id="Clear">
         <source>Clear</source>
-        <target state="translated">ସଫାକରିବେ</target><note>Used as a button label in the dialog to Clear private data dialog</note>
+        <target>ସଫାକରିବେ</target>
+        <note>Used as a button label in the dialog to Clear private data dialog</note>
       </trans-unit>
-      <trans-unit id="Clear Everything" approved="yes">
+      <trans-unit id="Clear Everything">
         <source>Clear Everything</source>
-        <target state="translated">ସବୁ ସଫାକରିବେ</target><note>Title of the Clear private data dialog.</note>
+        <target>ସବୁ ସଫାକରିବେ</target>
+        <note>Title of the Clear private data dialog.</note>
       </trans-unit>
-      <trans-unit id="Clear Private Data" approved="yes">
+      <trans-unit id="Clear Private Data">
         <source>Clear Private Data</source>
-        <target state="translated">ବ୍ୟକ୍ତିଗତ ତଥ୍ୟ</target><note>Button in settings that clears private data for the selected items.
+        <target>ବ୍ୟକ୍ତିଗତ ତଥ୍ୟ</target>
+        <note>Button in settings that clears private data for the selected items.
    Navigation title in settings.</note>
       </trans-unit>
-      <trans-unit id="Cookies" approved="yes">
+      <trans-unit id="Cookies">
         <source>Cookies</source>
-        <target state="translated">କୁକି</target><note>Settings item for clearing cookies</note>
+        <target>କୁକି</target>
+        <note>Settings item for clearing cookies</note>
       </trans-unit>
-      <trans-unit id="Offline Website Data" approved="yes">
+      <trans-unit id="Offline Website Data">
         <source>Offline Website Data</source>
-        <target state="translated">ଅଫଲାଇନ ୱେବସାଇଟ ତଥ୍ୟ</target><note>Settings item for clearing website data</note>
+        <target>ଅଫଲାଇନ ୱେବସାଇଟ ତଥ୍ୟ</target>
+        <note>Settings item for clearing website data</note>
       </trans-unit>
-      <trans-unit id="Saved Logins" approved="yes">
+      <trans-unit id="Saved Logins">
         <source>Saved Logins</source>
-        <target state="translated">ସାଇତା ଲଗ ଇନ</target><note>Settings item for clearing passwords and login data</note>
+        <target>ସାଇତା ଲଗ ଇନ</target>
+        <note>Settings item for clearing passwords and login data</note>
       </trans-unit>
     </body>
   </file>
@@ -94,13 +110,15 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Open in Safari" approved="yes">
+      <trans-unit id="Open in Safari">
         <source>Open in Safari</source>
-        <target state="translated">ସଫାରିରେ ଖୋଲନ୍ତୁ</target><note>Shown in error pages for files that can't be shown and need to be downloaded.</note>
+        <target>ସଫାରିରେ ଖୋଲନ୍ତୁ</target>
+        <note>Shown in error pages for files that can't be shown and need to be downloaded.</note>
       </trans-unit>
-      <trans-unit id="Try again" approved="yes">
+      <trans-unit id="Try again">
         <source>Try again</source>
-        <target state="translated">ଆଉଥରେ ଚେଷ୍ଟାକରନ୍ତୁ</target><note>Shown in error pages on a button that will try to load the page again</note>
+        <target>ଆଉଥରେ ଚେଷ୍ଟାକରନ୍ତୁ</target>
+        <note>Shown in error pages on a button that will try to load the page again</note>
       </trans-unit>
     </body>
   </file>
@@ -109,9 +127,10 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Remove" approved="yes">
+      <trans-unit id="Remove">
         <source>Remove</source>
-        <target state="translated">କାଢ଼ନ୍ତୁ</target><note>Action button for deleting history entries in the history panel.</note>
+        <target>କାଢ଼ନ୍ତୁ</target>
+        <note>Action button for deleting history entries in the history panel.</note>
       </trans-unit>
     </body>
   </file>
@@ -120,18 +139,22 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" approved="yes">
+      <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-      <target state="translated">$(MOZ_BUNDLE_DISPLAY_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleName" approved="yes">
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
         <source>$(MOZ_PRODUCT_NAME)</source>
-      <target state="translated">$(MOZ_PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(MOZ_PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>$(MOZ_VERSION)</source>
-      <target state="translated">$(MOZ_VERSION)</target></trans-unit>
-      <trans-unit id="NSLocationWhenInUseUsageDescription" approved="yes">
+        <target>$(MOZ_VERSION)</target>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Websites you visit may request your location.</source>
-      <target state="translated">ଆପଣ ଦେଖୁଥିବା ୱେବସାଇଟସବୁ ଆପଣଙ୍କ ଅବସ୍ଥିତି ମାଗିପାରନ୍ତି ।</target></trans-unit>
+        <target>ଆପଣ ଦେଖୁଥିବା ୱେବସାଇଟସବୁ ଆପଣଙ୍କ ଅବସ୍ଥିତି ମାଗିପାରନ୍ତି ।</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="or">
@@ -139,77 +162,95 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Browse multiple Web pages at the same time with tabs." approved="yes">
+      <trans-unit id="Browse multiple Web pages at the same time with tabs.">
         <source>Browse multiple Web pages at the same time with tabs.</source>
-        <target state="translated">ଟ୍ୟାବ ବ୍ୟବହାର କରି ଏକାଧିକ ୱେବ ପୃଷ୍ଠା ଏକାସଙ୍ଗେ ଦେଖନ୍ତୁ ।</target><note>See http://mzl.la/1T8gxwo</note>
+        <target>ଟ୍ୟାବ ବ୍ୟବହାର କରି ଏକାଧିକ ୱେବ ପୃଷ୍ଠା ଏକାସଙ୍ଗେ ଦେଖନ୍ତୁ ।</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Choose" approved="yes">
+      <trans-unit id="Choose">
         <source>Choose</source>
-        <target state="translated">ବାଛନ୍ତୁ</target><note>See http://mzl.la/1if9ODp</note>
+        <target>ବାଛନ୍ତୁ</target>
+        <note>See http://mzl.la/1if9ODp</note>
       </trans-unit>
-      <trans-unit id="Connect Firefox everywhere you use it." approved="yes">
+      <trans-unit id="Connect Firefox everywhere you use it.">
         <source>Connect Firefox everywhere you use it.</source>
-        <target state="translated">Firefox ଯେଉଁଠି ହେଉ ଦେଖିବା ମାତ୍ରେ ବ୍ୟହାର କରନ୍ତୁ ।</target><note>See http://mzl.la/1T8gxwo</note>
+        <target>Firefox ଯେଉଁଠି ହେଉ ଦେଖିବା ମାତ୍ରେ ବ୍ୟହାର କରନ୍ତୁ ।</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Customize" approved="yes">
+      <trans-unit id="Customize">
         <source>Customize</source>
-        <target state="translated">ଇଚ୍ଛା ମୁତାବକ ବ୍ୟବହାର କରନ୍ତୁ</target><note>See http://mzl.la/1T8gxwo</note>
+        <target>ଇଚ୍ଛା ମୁତାବକ ବ୍ୟବହାର କରନ୍ତୁ</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Easily switch between open pages with tabs." approved="yes">
+      <trans-unit id="Easily switch between open pages with tabs.">
         <source>Easily switch between open pages with tabs.</source>
-        <target state="translated">ଟ୍ୟାବ ବ୍ୟବହାର କରି ପୃଷ୍ଠାରୁ ପୃଷ୍ଠାକୁ ଯାଆନ୍ତୁ ।</target><note>See http://mzl.la/1T8gxwo</note>
+        <target>ଟ୍ୟାବ ବ୍ୟବହାର କରି ପୃଷ୍ଠାରୁ ପୃଷ୍ଠାକୁ ଯାଆନ୍ତୁ ।</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Firefox and the cloud" approved="yes">
+      <trans-unit id="Firefox and the cloud">
         <source>Firefox and the cloud</source>
-        <target state="translated">Firefox ଓ କ୍ଲାଉଡ଼</target><note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+        <target>Firefox ଓ କ୍ଲାଉଡ଼</target>
+        <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Introductory slide %@ of %@" approved="yes">
+      <trans-unit id="Introductory slide %@ of %@">
         <source>Introductory slide %1$@ of %2$@</source>
-        <target state="translated">%2$@ ର %1$@ ତମ ପ୍ରାରମ୍ଭିକ ସ୍ଲାଇଡ଼</target><note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note>
+        <target>%2$@ ର %1$@ ତମ ପ୍ରାରମ୍ଭିକ ସ୍ଲାଇଡ଼</target>
+        <note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note>
       </trans-unit>
-      <trans-unit id="Organize" approved="yes">
+      <trans-unit id="Organize">
         <source>Organize</source>
-        <target state="translated">ସଜାନ୍ତୁ</target><note>See http://mzl.la/1T8gxwo</note>
+        <target>ସଜାନ୍ତୁ</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Personalize your Firefox just the way you like in Settings." approved="yes">
+      <trans-unit id="Personalize your Firefox just the way you like in Settings.">
         <source>Personalize your Firefox just the way you like in Settings.</source>
-        <target state="translated">ସଜାଣିରେ ନିଜ ପସନ୍ଦ ମୁତାବକ ନିଜ Firefoxକୁ ସଜାନ୍ତୁ ।</target><note>See http://mzl.la/1T8gxwo</note>
+        <target>ସଜାଣିରେ ନିଜ ପସନ୍ଦ ମୁତାବକ ନିଜ Firefoxକୁ ସଜାନ୍ତୁ ।</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Personalize your default search engine and more in Settings." approved="yes">
+      <trans-unit id="Personalize your default search engine and more in Settings.">
         <source>Personalize your default search engine and more in Settings.</source>
-        <target state="translated">ସଜାଣିରେ ନିଜ ନିୟମିତ ସର୍ଚ ଇଞ୍ଜିନ ଓ ବାକି ଅନେକ ଜିନିଷ ପସନ୍ଦ ମୁତାବକ ସଜାନ୍ତୁ ।</target><note>See http://mzl.la/1T8gxwo</note>
+        <target>ସଜାଣିରେ ନିଜ ନିୟମିତ ସର୍ଚ ଇଞ୍ଜିନ ଓ ବାକି ଅନେକ ଜିନିଷ ପସନ୍ଦ ମୁତାବକ ସଜାନ୍ତୁ ।</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Share" approved="yes">
+      <trans-unit id="Share">
         <source>Share</source>
-        <target state="translated">ବିତରଣ</target><note>See http://mzl.la/1if9ODp</note>
+        <target>ବିତରଣ</target>
+        <note>See http://mzl.la/1if9ODp</note>
       </trans-unit>
-      <trans-unit id="Sign in to Firefox" approved="yes">
+      <trans-unit id="Sign in to Firefox">
         <source>Sign in to Firefox</source>
-        <target state="translated">Firefoxରେ ସାଇନ ଇନ କରନ୍ତୁ</target><note>See http://mzl.la/1T8gxwo</note>
+        <target>Firefoxରେ ସାଇନ ଇନ କରନ୍ତୁ</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Start Browsing" approved="yes">
+      <trans-unit id="Start Browsing">
         <source>Start Browsing</source>
-        <target state="translated">ବ୍ରାଉଜିଂ ଆରମ୍ଭ କରନ୍ତୁ</target><note>See http://mzl.la/1T8gxwo</note>
+        <target>ବ୍ରାଉଜିଂ ଆରମ୍ଭ କରନ୍ତୁ</target>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Sync Your Devices." approved="yes">
+      <trans-unit id="Sync Your Devices.">
         <source>Sync Your Devices.</source>
-        <target state="translated">ନିଜ ଡିଭାଇସ ସିଙ୍କ କରନ୍ତୁ ।</target><note>ee http://mzl.la/1T8gxwo</note>
+        <target>ନିଜ ଡିଭାଇସ ସିଙ୍କ କରନ୍ତୁ ।</target>
+        <note>ee http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Tap, hold and move the Firefox icon into your dock for easy access." approved="yes">
+      <trans-unit id="Tap, hold and move the Firefox icon into your dock for easy access.">
         <source>Tap, hold and move the Firefox icon into your dock for easy access.</source>
-        <target state="translated">ଛୁଅନ୍ତୁ, କିଛି ସମୟ ଧରିରଖି Firefox ଆଇକନଟିକୁ ନିଜ ଡକକୁ ଘୁଞ୍ଚାଇଦେଲେ ସହଜରେ ବ୍ୟବହାର କରିପାରିବେ ।</target><note>See http://mzl.la/1if9ODp</note>
+        <target>ଛୁଅନ୍ତୁ, କିଛି ସମୟ ଧରିରଖି Firefox ଆଇକନଟିକୁ ନିଜ ଡକକୁ ଘୁଞ୍ଚାଇଦେଲେ ସହଜରେ ବ୍ୟବହାର କରିପାରିବେ ।</target>
+        <note>See http://mzl.la/1if9ODp</note>
       </trans-unit>
-      <trans-unit id="The Settings button is at the beginning of the Tabs Tray." approved="yes">
+      <trans-unit id="The Settings button is at the beginning of the Tabs Tray.">
         <source>The Settings button is at the beginning of the Tabs Tray.</source>
-        <target state="translated">ଟ୍ୟାବ ପଟିରେ ସବା ଆରମ୍ଭରେ ଥିବା Settings ବଟନ ରହିଛି ।</target><note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+        <target>ଟ୍ୟାବ ପଟିରେ ସବା ଆରମ୍ଭରେ ଥିବା Settings ବଟନ ରହିଛି ।</target>
+        <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs." approved="yes">
+      <trans-unit id="The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs.">
         <source>The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs.</source>
-        <target state="translated">Address ଓ Search ଘର ପାଖେ ଥିବା Show Tabs ବଟନଟି ଏବେ ଖୋଲାଥିବା ଟ୍ୟାବଗୁଡ଼ିକର ସଂଖ୍ୟା ଦେଖାଇଥାଏ ।</target><note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+        <target>Address ଓ Search ଘର ପାଖେ ଥିବା Show Tabs ବଟନଟି ଏବେ ଖୋଲାଥିବା ଟ୍ୟାବଗୁଡ଼ିକର ସଂଖ୍ୟା ଦେଖାଇଥାଏ ।</target>
+        <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Use the share sheet to send links from other apps to Firefox." approved="yes">
+      <trans-unit id="Use the share sheet to send links from other apps to Firefox.">
         <source>Use the share sheet to send links from other apps to Firefox.</source>
-        <target state="translated">ସେଆର ପୃଷ୍ଠା ବ୍ୟବହାର କରି ଅନ୍ୟ ଆପରୁ Firefoxକୁ ଲିଙ୍କ ପଠାନ୍ତୁ ।</target><note>See http://mzl.la/1if9ODp</note>
+        <target>ସେଆର ପୃଷ୍ଠା ବ୍ୟବହାର କରି ଅନ୍ୟ ଆପରୁ Firefoxକୁ ଲିଙ୍କ ପଠାନ୍ତୁ ।</target>
+        <note>See http://mzl.la/1if9ODp</note>
       </trans-unit>
     </body>
   </file>
@@ -218,121 +259,150 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="+" approved="yes">
+      <trans-unit id="+">
         <source>+</source>
-        <target state="translated">+</target><note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+        <target>+</target>
+        <note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       </trans-unit>
-      <trans-unit id="-" approved="yes">
+      <trans-unit id="-">
         <source>-</source>
-        <target state="translated">-</target><note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+        <target>-</target>
+        <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       </trans-unit>
-      <trans-unit id="A username and password are being requested by %@." approved="yes">
+      <trans-unit id="A username and password are being requested by %@.">
         <source>A username and password are being requested by %@.</source>
-        <target state="translated">%@ଙ୍କ ଦ୍ୱାରା ଏକ ଇଉଜରନାମ ଓ ପାସୱାର୍ଡ଼ ବ୍ୟବହାର ହେଉଛି ।</target><note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
+        <target>%@ଙ୍କ ଦ୍ୱାରା ଏକ ଇଉଜରନାମ ଓ ପାସୱାର୍ଡ଼ ବ୍ୟବହାର ହେଉଛି ।</target>
+        <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
       </trans-unit>
-      <trans-unit id="A username and password are being requested by %@. The site says: %@" approved="yes">
+      <trans-unit id="A username and password are being requested by %@. The site says: %@">
         <source>A username and password are being requested by %1$@. The site says: %2$@</source>
-        <target state="translated">%1$@ଙ୍କ ଦେଇ ଏକ ଇଉଜରନାମ ଓ ପାସୱାର୍ଡ଼ ଅନୁରୋଧ କରାଯାଇଛି । ସାଇଟରେ ଲେଖାଯାଇଛି: %2$@</target><note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
+        <target>%1$@ଙ୍କ ଦେଇ ଏକ ଇଉଜରନାମ ଓ ପାସୱାର୍ଡ଼ ଅନୁରୋଧ କରାଯାଇଛି । ସାଇଟରେ ଲେଖାଯାଇଛି: %2$@</target>
+        <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
       </trans-unit>
-      <trans-unit id="Aa" approved="yes">
+      <trans-unit id="Aa">
         <source>Aa</source>
-        <target state="translated">Aa</target><note>Button for reader mode font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+        <target>Aa</target>
+        <note>Button for reader mode font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       </trans-unit>
-      <trans-unit id="About" approved="yes">
+      <trans-unit id="About">
         <source>About</source>
-        <target state="translated">ବାବଦରେ</target><note>About settings section title</note>
+        <target>ବାବଦରେ</target>
+        <note>About settings section title</note>
       </trans-unit>
-      <trans-unit id="Add Tab" approved="yes">
+      <trans-unit id="Add Tab">
         <source>Add Tab</source>
-        <target state="translated">ଟ୍ୟାବ ଯୋଡ଼ନ୍ତୁ</target><note>Accessibility label for the Add Tab button in the Tab Tray.</note>
+        <target>ଟ୍ୟାବ ଯୋଡ଼ନ୍ତୁ</target>
+        <note>Accessibility label for the Add Tab button in the Tab Tray.</note>
       </trans-unit>
-      <trans-unit id="Add to Reading List" approved="yes">
+      <trans-unit id="Add to Reading List">
         <source>Add to Reading List</source>
-        <target state="translated">ରିଡିଂ ଲିଷ୍ଟରେ ଯୋଡ଼ନ୍ତୁ</target><note>Add URL to the reading list - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
+        <target>ରିଡିଂ ଲିଷ୍ଟରେ ଯୋଡ଼ନ୍ତୁ</target>
+        <note>Add URL to the reading list - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
       </trans-unit>
-      <trans-unit id="Added page to Reading List" approved="yes">
+      <trans-unit id="Added page to Reading List">
         <source>Added page to Reading List</source>
-        <target state="translated">ରିଡ଼ିଂ ଲିଷ୍ଟରେ ପୃଷ୍ଠାଟି ଯୋଡ଼ାଗଲା</target><note>Accessibility message e.g. spoken by VoiceOver after the current page gets added to the Reading List using the Reader View button, e.g. by long-pressing it or by its accessibility custom action.</note>
+        <target>ରିଡ଼ିଂ ଲିଷ୍ଟରେ ପୃଷ୍ଠାଟି ଯୋଡ଼ାଗଲା</target>
+        <note>Accessibility message e.g. spoken by VoiceOver after the current page gets added to the Reading List using the Reader View button, e.g. by long-pressing it or by its accessibility custom action.</note>
       </trans-unit>
-      <trans-unit id="Address and Search" approved="yes">
+      <trans-unit id="Address and Search">
         <source>Address and Search</source>
-        <target state="translated">ଆଡ୍ରେସ ଓ ସର୍ଚ</target><note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
+        <target>ଆଡ୍ରେସ ଓ ସର୍ଚ</target>
+        <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
       </trans-unit>
-      <trans-unit id="Always Send" approved="yes">
+      <trans-unit id="Always Send">
         <source>Always Send</source>
-        <target state="translated">ସବୁବେଳେ ପଠାନ୍ତୁ</target><note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
+        <target>ସବୁବେଳେ ପଠାନ୍ତୁ</target>
+        <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
       </trans-unit>
-      <trans-unit id="Authentication required" approved="yes">
+      <trans-unit id="Authentication required">
         <source>Authentication required</source>
-        <target state="translated">ଅନୁମତି ଲୋଡ଼ା</target><note>Authentication prompt title</note>
+        <target>ଅନୁମତି ଲୋଡ଼ା</target>
+        <note>Authentication prompt title</note>
       </trans-unit>
-      <trans-unit id="Back" approved="yes">
+      <trans-unit id="Back">
         <source>Back</source>
-        <target state="translated">ପଛକୁ</target><note>Accessibility Label for the browser toolbar Back button</note>
+        <target>ପଛକୁ</target>
+        <note>Accessibility Label for the browser toolbar Back button</note>
       </trans-unit>
-      <trans-unit id="Block Pop-up Windows" approved="yes">
+      <trans-unit id="Block Pop-up Windows">
         <source>Block Pop-up Windows</source>
-        <target state="translated">ପପ-ଅପ ଉଇଣ୍ଡୋ ଅଟକାନ୍ତୁ</target><note>Block pop-up windows setting</note>
+        <target>ପପ-ଅପ ଉଇଣ୍ଡୋ ଅଟକାନ୍ତୁ</target>
+        <note>Block pop-up windows setting</note>
       </trans-unit>
-      <trans-unit id="Bookmark" approved="yes">
+      <trans-unit id="Bookmark">
         <source>Bookmark</source>
-        <target state="translated">ବୁକମାର୍କ</target><note>Bookmark a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
+        <target>ବୁକମାର୍କ</target>
+        <note>Bookmark a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
       </trans-unit>
-      <trans-unit id="Bookmarks" approved="yes">
+      <trans-unit id="Bookmarks">
         <source>Bookmarks</source>
-        <target state="translated">ବୁକମାର୍କଗୁଡ଼ିକ</target><note>Panel accessibility label</note>
+        <target>ବୁକମାର୍କଗୁଡ଼ିକ</target>
+        <note>Panel accessibility label</note>
       </trans-unit>
-      <trans-unit id="Brightness" approved="yes">
+      <trans-unit id="Brightness">
         <source>Brightness</source>
-        <target state="translated">ଉଜ୍ଜଳତା</target><note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note>
+        <target>ଉଜ୍ଜଳତା</target>
+        <note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note>
       </trans-unit>
-      <trans-unit id="Call" approved="yes">
+      <trans-unit id="Call">
         <source>Call</source>
-        <target state="translated">କଲ</target><note>Alert Call Button</note>
+        <target>କଲ</target>
+        <note>Alert Call Button</note>
       </trans-unit>
-      <trans-unit id="Cancel" approved="yes">
+      <trans-unit id="Cancel">
         <source>Cancel</source>
-        <target state="translated">ନାକଚ</target><note>Cancel button title in share dialog</note>
+        <target>ନାକଚ</target>
+        <note>Cancel button title in share dialog</note>
       </trans-unit>
-      <trans-unit id="Changes color theme." approved="yes">
+      <trans-unit id="Changes color theme.">
         <source>Changes color theme.</source>
-        <target state="translated">ରଙ୍ଗ ଥିମ ବଦଳାନ୍ତୁ ।</target><note>Accessibility hint for the color theme setting buttons in reader mode display settings</note>
+        <target>ରଙ୍ଗ ଥିମ ବଦଳାନ୍ତୁ ।</target>
+        <note>Accessibility hint for the color theme setting buttons in reader mode display settings</note>
       </trans-unit>
-      <trans-unit id="Changes font type." approved="yes">
+      <trans-unit id="Changes font type.">
         <source>Changes font type.</source>
-        <target state="translated">ଫଣ୍ଟ ପ୍ରକାର ବଦଳାଏ ।</target><note>Accessibility hint for the font type buttons in reader mode display settings</note>
+        <target>ଫଣ୍ଟ ପ୍ରକାର ବଦଳାଏ ।</target>
+        <note>Accessibility hint for the font type buttons in reader mode display settings</note>
       </trans-unit>
-      <trans-unit id="Clear Private Data" approved="yes">
+      <trans-unit id="Clear Private Data">
         <source>Clear Private Data</source>
-        <target state="translated">ପ୍ରାଇଭେଟ ଡାଟା ସଫାକରନ୍ତୁ</target><note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
+        <target>ପ୍ରାଇଭେଟ ଡାଟା ସଫାକରନ୍ତୁ</target>
+        <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
       </trans-unit>
-      <trans-unit id="Close" approved="yes">
+      <trans-unit id="Close">
         <source>Close</source>
-        <target state="translated">ବନ୍ଦ</target><note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
+        <target>ବନ୍ଦ</target>
+        <note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
       </trans-unit>
-      <trans-unit id="Closing tab" approved="yes">
+      <trans-unit id="Closing tab">
         <source>Closing tab</source>
-        <target state="translated">ବନ୍ଦକରିବା ଟ୍ୟାବ</target><note>No comment provided by engineer.</note>
+        <target>ବନ୍ଦକରିବା ଟ୍ୟାବ</target>
+        <note>No comment provided by engineer.</note>
       </trans-unit>
-      <trans-unit id="Copy Address" approved="yes">
+      <trans-unit id="Copy Address">
         <source>Copy Address</source>
-        <target state="translated">ଠିକଣା କପି</target><note>Copy the URL from the location bar</note>
+        <target>ଠିକଣା କପି</target>
+        <note>Copy the URL from the location bar</note>
       </trans-unit>
-      <trans-unit id="Copy Image" approved="yes">
+      <trans-unit id="Copy Image">
         <source>Copy Image</source>
-        <target state="translated">ଛବି କପିକରନ୍ତୁ</target><note>Context menu item for copying an image to the clipboard</note>
+        <target>ଛବି କପିକରନ୍ତୁ</target>
+        <note>Context menu item for copying an image to the clipboard</note>
       </trans-unit>
-      <trans-unit id="Copy Link" approved="yes">
+      <trans-unit id="Copy Link">
         <source>Copy Link</source>
-        <target state="translated">ଲିଙ୍କ କପିକରନ୍ତୁ</target><note>Context menu item for copying a link URL to the clipboard</note>
+        <target>ଲିଙ୍କ କପିକରନ୍ତୁ</target>
+        <note>Context menu item for copying a link URL to the clipboard</note>
       </trans-unit>
-      <trans-unit id="Could not add page to Reading List. Maybe it's already there?" approved="yes">
+      <trans-unit id="Could not add page to Reading List. Maybe it's already there?">
         <source>Could not add page to Reading List. Maybe it's already there?</source>
-        <target state="translated">ରିଡ଼ିଂ ଲିଷ୍ଟରେ ପୃଷ୍ଠା ଯୋଡ଼ା ଯାଇପାରିଲା ନାହିଁ । ଏହା ଆଗରୁ ଅଛି କି?</target><note>Accessibility message e.g. spoken by VoiceOver after the user wanted to add current page to the Reading List and this was not done, likely because it already was in the Reading List, but perhaps also because of real failures.</note>
+        <target>ରିଡ଼ିଂ ଲିଷ୍ଟରେ ପୃଷ୍ଠା ଯୋଡ଼ା ଯାଇପାରିଲା ନାହିଁ । ଏହା ଆଗରୁ ଅଛି କି?</target>
+        <note>Accessibility message e.g. spoken by VoiceOver after the user wanted to add current page to the Reading List and this was not done, likely because it already was in the Reading List, but perhaps also because of real failures.</note>
       </trans-unit>
-      <trans-unit id="Could not add page to Reading list" approved="yes">
+      <trans-unit id="Could not add page to Reading list">
         <source>Could not add page to Reading list</source>
-        <target state="translated">ରିଡ଼ିଂ ଲିଷ୍ଟରେ ପୃଷ୍ଟି ଯୋଡ଼ାଯାଇପାରିଲା ନାହିଁ</target><note>Accessibility message e.g. spoken by VoiceOver after adding current webpage to the Reading List failed.</note>
+        <target>ରିଡ଼ିଂ ଲିଷ୍ଟରେ ପୃଷ୍ଟି ଯୋଡ଼ାଯାଇପାରିଲା ନାହିଁ</target>
+        <note>Accessibility message e.g. spoken by VoiceOver after adding current webpage to the Reading List failed.</note>
       </trans-unit>
       <trans-unit id="Could not load page.">
         <source>Could not load page.</source>
@@ -1267,3 +1337,4 @@
     </body>
   </file>
 </xliff>
+

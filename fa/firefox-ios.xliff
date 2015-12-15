@@ -1,16 +1,18 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="fa">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">۱.۰</target></trans-unit>
+        <target>۱.۰</target>
+      </trans-unit>
     </body>
   </file>
   <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="fa">
@@ -18,12 +20,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-      <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-      <target state="translated">۱.۰</target></trans-unit>
+        <target>۱.۰</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/BookmarkPanel.strings" source-language="en" datatype="plaintext" target-language="fa">
@@ -31,14 +35,16 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Delete" approved="yes">
+      <trans-unit id="Delete">
         <source>Delete</source>
-        <target state="translated">حذف</target><note>Action button for deleting bookmarks in the bookmarks panel.</note>
-      <note>Action button for deleting bookmarks in the bookmarks panel.</note></trans-unit>
-      <trans-unit id="Desktop Bookmarks" approved="yes">
+        <target>حذف</target>
+        <note>Action button for deleting bookmarks in the bookmarks panel.</note>
+      </trans-unit>
+      <trans-unit id="Desktop Bookmarks">
         <source>Desktop Bookmarks</source>
-        <target state="translated">نشانک‌های رایانه رومیزی</target><note>The folder name for the virtual folder that contains all desktop bookmarks.</note>
-      <note>The folder name for the virtual folder that contains all desktop bookmarks.</note></trans-unit>
+        <target>نشانک‌های رایانه رومیزی</target>
+        <note>The folder name for the virtual folder that contains all desktop bookmarks.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/ClearPrivateData.strings" source-language="en" datatype="plaintext" target-language="fa">
@@ -46,47 +52,57 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs." approved="yes">
+      <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs.">
         <source>Are you sure you want to clear all of your data? This will also close all open tabs.</source>
-        <target state="translated">آیا مطمئنید که می‌خواهید تمام اطلاعات را پاک کنید؟ این باعث بسته شدن همه زبانه‌های باز شما می‌شود.</target><note>Message shown in the dialog prompting users if they want to clear everything</note>
-      <note>Message shown in the dialog prompting users if they want to clear everything</note></trans-unit>
-      <trans-unit id="Browsing History" approved="yes">
+        <target>آیا مطمئنید که می‌خواهید تمام اطلاعات را پاک کنید؟ این باعث بسته شدن همه زبانه‌های باز شما می‌شود.</target>
+        <note>Message shown in the dialog prompting users if they want to clear everything</note>
+      </trans-unit>
+      <trans-unit id="Browsing History">
         <source>Browsing History</source>
-        <target state="translated">تاریخچه مرور</target><note>Settings item for clearing browsing history</note>
-      <note>Settings item for clearing browsing history</note></trans-unit>
-      <trans-unit id="Cache" approved="yes">
+        <target>تاریخچه مرور</target>
+        <note>Settings item for clearing browsing history</note>
+      </trans-unit>
+      <trans-unit id="Cache">
         <source>Cache</source>
-        <target state="translated">حافظه نهان</target><note>Settings item for clearing the cache</note>
-      <note>Settings item for clearing the cache</note></trans-unit>
-      <trans-unit id="Cancel" approved="yes">
+        <target>حافظه نهان</target>
+        <note>Settings item for clearing the cache</note>
+      </trans-unit>
+      <trans-unit id="Cancel">
         <source>Cancel</source>
-        <target state="translated">لغو</target><note>Used as a button label in the dialog to cancel clear private data dialog</note>
-      <note>Used as a button label in the dialog to cancel clear private data dialog</note></trans-unit>
-      <trans-unit id="Clear" approved="yes">
+        <target>لغو</target>
+        <note>Used as a button label in the dialog to cancel clear private data dialog</note>
+      </trans-unit>
+      <trans-unit id="Clear">
         <source>Clear</source>
-        <target state="translated">پاک کردن</target><note>Used as a button label in the dialog to Clear private data dialog</note>
-      <note>Used as a button label in the dialog to Clear private data dialog</note></trans-unit>
-      <trans-unit id="Clear Everything" approved="yes">
+        <target>پاک کردن</target>
+        <note>Used as a button label in the dialog to Clear private data dialog</note>
+      </trans-unit>
+      <trans-unit id="Clear Everything">
         <source>Clear Everything</source>
-        <target state="translated">پاک‌کردن همه چیز</target><note>Title of the Clear private data dialog.</note>
-      <note>Title of the Clear private data dialog.</note></trans-unit>
-      <trans-unit id="Clear Private Data" approved="yes">
+        <target>پاک‌کردن همه چیز</target>
+        <note>Title of the Clear private data dialog.</note>
+      </trans-unit>
+      <trans-unit id="Clear Private Data">
         <source>Clear Private Data</source>
-        <target state="translated">پاک‌سازی اطلاعات خصوصی</target><note>Button in settings that clears private data for the selected items.
+        <target>پاک‌سازی اطلاعات خصوصی</target>
+        <note>Button in settings that clears private data for the selected items.
    Navigation title in settings.</note>
-      <note>Button in settings that clears private data for the selected items. Navigation title in settings.</note></trans-unit>
-      <trans-unit id="Cookies" approved="yes">
+      </trans-unit>
+      <trans-unit id="Cookies">
         <source>Cookies</source>
-        <target state="translated">کوکی‌ها</target><note>Settings item for clearing cookies</note>
-      <note>Settings item for clearing cookies</note></trans-unit>
-      <trans-unit id="Offline Website Data" approved="yes">
+        <target>کوکی‌ها</target>
+        <note>Settings item for clearing cookies</note>
+      </trans-unit>
+      <trans-unit id="Offline Website Data">
         <source>Offline Website Data</source>
-        <target state="translated">اطلاعات آفلاین پایگا‌ه‌ اینترنتی</target><note>Settings item for clearing website data</note>
-      <note>Settings item for clearing website data</note></trans-unit>
-      <trans-unit id="Saved Logins" approved="yes">
+        <target>اطلاعات آفلاین پایگا‌ه‌ اینترنتی</target>
+        <note>Settings item for clearing website data</note>
+      </trans-unit>
+      <trans-unit id="Saved Logins">
         <source>Saved Logins</source>
-        <target state="translated">ورودهای ذخیره شده</target><note>Settings item for clearing passwords and login data</note>
-      <note>Settings item for clearing passwords and login data</note></trans-unit>
+        <target>ورودهای ذخیره شده</target>
+        <note>Settings item for clearing passwords and login data</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/ErrorPages.strings" source-language="en" datatype="plaintext" target-language="fa">
@@ -94,14 +110,16 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Open in Safari" approved="yes">
+      <trans-unit id="Open in Safari">
         <source>Open in Safari</source>
-        <target state="translated">باز کردن در سافاری</target><note>Shown in error pages for files that can't be shown and need to be downloaded.</note>
-      <note>Shown in error pages for files that can't be shown and need to be downloaded.</note></trans-unit>
-      <trans-unit id="Try again" approved="yes">
+        <target>باز کردن در سافاری</target>
+        <note>Shown in error pages for files that can't be shown and need to be downloaded.</note>
+      </trans-unit>
+      <trans-unit id="Try again">
         <source>Try again</source>
-        <target state="translated">تلاش مجدد</target><note>Shown in error pages on a button that will try to load the page again</note>
-      <note>Shown in error pages on a button that will try to load the page again</note></trans-unit>
+        <target>تلاش مجدد</target>
+        <note>Shown in error pages on a button that will try to load the page again</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/HistoryPanel.strings" source-language="en" datatype="plaintext" target-language="fa">
@@ -109,10 +127,11 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Remove" approved="yes">
+      <trans-unit id="Remove">
         <source>Remove</source>
-        <target state="translated">حذف</target><note>Action button for deleting history entries in the history panel.</note>
-      <note>Action button for deleting history entries in the history panel.</note></trans-unit>
+        <target>حذف</target>
+        <note>Action button for deleting history entries in the history panel.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="fa">
@@ -120,18 +139,22 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" approved="yes">
+      <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-      <target state="translated">$(MOZ_BUNDLE_DISPLAY_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleName" approved="yes">
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
         <source>$(MOZ_PRODUCT_NAME)</source>
-      <target state="translated">$(MOZ_PRODUCT_NAME)</target></trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <target>$(MOZ_PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
         <source>$(MOZ_VERSION)</source>
-      <target state="translated">$(MOZ_VERSION)</target></trans-unit>
-      <trans-unit id="NSLocationWhenInUseUsageDescription" approved="yes">
+        <target>$(MOZ_VERSION)</target>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Websites you visit may request your location.</source>
-      <target state="translated">وب سایت‌هایی که شما بازدید میکنید ممکن است مکان شما را درخواست کنند.</target></trans-unit>
+        <target>وب سایت‌هایی که شما بازدید میکنید ممکن است مکان شما را درخواست کنند.</target>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="fa">
@@ -139,38 +162,46 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="Browse multiple Web pages at the same time with tabs." approved="yes">
+      <trans-unit id="Browse multiple Web pages at the same time with tabs.">
         <source>Browse multiple Web pages at the same time with tabs.</source>
-        <target state="translated">با زبانه‌ها چندین صفحه‌ی وب را در یک زمان مرور کنید.</target><note>See http://mzl.la/1T8gxwo</note>
-      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Choose" approved="yes">
+        <target>با زبانه‌ها چندین صفحه‌ی وب را در یک زمان مرور کنید.</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Choose">
         <source>Choose</source>
-        <target state="translated">انتخاب</target><note>See http://mzl.la/1if9ODp</note>
-      <note>See http://mzl.la/1if9ODp</note></trans-unit>
-      <trans-unit id="Connect Firefox everywhere you use it." approved="yes">
+        <target>انتخاب</target>
+        <note>See http://mzl.la/1if9ODp</note>
+      </trans-unit>
+      <trans-unit id="Connect Firefox everywhere you use it.">
         <source>Connect Firefox everywhere you use it.</source>
-        <target state="translated">به فایرفاکس متصل شوید هر جا که از آن استفاده می‌کنید.</target><note>See http://mzl.la/1T8gxwo</note>
-      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Customize" approved="yes">
+        <target>به فایرفاکس متصل شوید هر جا که از آن استفاده می‌کنید.</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Customize">
         <source>Customize</source>
-        <target state="translated">سفارشی‌سازی</target><note>See http://mzl.la/1T8gxwo</note>
-      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Easily switch between open pages with tabs." approved="yes">
+        <target>سفارشی‌سازی</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Easily switch between open pages with tabs.">
         <source>Easily switch between open pages with tabs.</source>
-        <target state="translated">با زبانه‌ها به آسانی بین صفحات وب باز جابجا شوید.</target><note>See http://mzl.la/1T8gxwo</note>
-      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Firefox and the cloud" approved="yes">
+        <target>با زبانه‌ها به آسانی بین صفحات وب باز جابجا شوید.</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Firefox and the cloud">
         <source>Firefox and the cloud</source>
-        <target state="translated">فایرفاکس و ابر</target><note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
-      <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Introductory slide %@ of %@" approved="yes">
+        <target>فایرفاکس و ابر</target>
+        <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Introductory slide %@ of %@">
         <source>Introductory slide %1$@ of %2$@</source>
-        <target state="translated">اسلاید مقدماتی %1$@ از %2$@</target><note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note>
-      <note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note></trans-unit>
-      <trans-unit id="Organize" approved="yes">
+        <target>اسلاید مقدماتی %1$@ از %2$@</target>
+        <note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note>
+      </trans-unit>
+      <trans-unit id="Organize">
         <source>Organize</source>
-        <target state="translated">سازمان‌دهی</target><note>See http://mzl.la/1T8gxwo</note>
-      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
+        <target>سازمان‌دهی</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
       <trans-unit id="Personalize your Firefox just the way you like in Settings.">
         <source>Personalize your Firefox just the way you like in Settings.</source>
         <note>See http://mzl.la/1T8gxwo</note>
@@ -179,34 +210,40 @@
         <source>Personalize your default search engine and more in Settings.</source>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Share" approved="yes">
+      <trans-unit id="Share">
         <source>Share</source>
-        <target state="translated">اشتراک‌گذاری</target><note>See http://mzl.la/1if9ODp</note>
-      <note>See http://mzl.la/1if9ODp</note></trans-unit>
-      <trans-unit id="Sign in to Firefox" approved="yes">
+        <target>اشتراک‌گذاری</target>
+        <note>See http://mzl.la/1if9ODp</note>
+      </trans-unit>
+      <trans-unit id="Sign in to Firefox">
         <source>Sign in to Firefox</source>
-        <target state="translated">ورود به فایرفاکس</target><note>See http://mzl.la/1T8gxwo</note>
-      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Start Browsing" approved="yes">
+        <target>ورود به فایرفاکس</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Start Browsing">
         <source>Start Browsing</source>
-        <target state="translated">شروع وب‌گردی</target><note>See http://mzl.la/1T8gxwo</note>
-      <note>See http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Sync Your Devices." approved="yes">
+        <target>شروع وب‌گردی</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Sync Your Devices.">
         <source>Sync Your Devices.</source>
-        <target state="translated">همگام‌سازی دستگاه‌های شما.</target><note>ee http://mzl.la/1T8gxwo</note>
-      <note>ee http://mzl.la/1T8gxwo</note></trans-unit>
-      <trans-unit id="Tap, hold and move the Firefox icon into your dock for easy access." approved="yes">
+        <target>همگام‌سازی دستگاه‌های شما.</target>
+        <note>ee http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Tap, hold and move the Firefox icon into your dock for easy access.">
         <source>Tap, hold and move the Firefox icon into your dock for easy access.</source>
-        <target state="translated">برای دسترسی آسان آیکن فایرفاکس را تپ کنید، نگه دارید و به داک خودتان منتقل کنید.</target><note>See http://mzl.la/1if9ODp</note>
-      <note>See http://mzl.la/1if9ODp</note></trans-unit>
+        <target>برای دسترسی آسان آیکن فایرفاکس را تپ کنید، نگه دارید و به داک خودتان منتقل کنید.</target>
+        <note>See http://mzl.la/1if9ODp</note>
+      </trans-unit>
       <trans-unit id="The Settings button is at the beginning of the Tabs Tray.">
         <source>The Settings button is at the beginning of the Tabs Tray.</source>
         <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs." approved="yes">
+      <trans-unit id="The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs.">
         <source>The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs.</source>
-        <target state="translated">دکمه نمایش زبانه‌ها کنار فیلد متنی جستجو و آدرس است و تعداد زبانه‌های باز جاری را نمایش می‌دهد.</target><note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
-      <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note></trans-unit>
+        <target>دکمه نمایش زبانه‌ها کنار فیلد متنی جستجو و آدرس است و تعداد زبانه‌های باز جاری را نمایش می‌دهد.</target>
+        <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
       <trans-unit id="Use the share sheet to send links from other apps to Firefox.">
         <source>Use the share sheet to send links from other apps to Firefox.</source>
         <note>See http://mzl.la/1if9ODp</note>
@@ -218,113 +255,139 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
     </header>
     <body>
-      <trans-unit id="+" approved="yes">
+      <trans-unit id="+">
         <source>+</source>
-        <target state="translated">+</target><note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+        <target>+</target>
+        <note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       </trans-unit>
-      <trans-unit id="-" approved="yes">
+      <trans-unit id="-">
         <source>-</source>
-        <target state="translated">-</target><note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
-      <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note></trans-unit>
-      <trans-unit id="A username and password are being requested by %@." approved="yes">
-        <source>A username and password are being requested by %@.</source>
-        <target state="translated">یک نام کاربری و گذرواژه توسط %@ درخواست شده است.</target><note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
-      <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note></trans-unit>
-      <trans-unit id="A username and password are being requested by %@. The site says: %@" approved="yes">
-        <source>A username and password are being requested by %1$@. The site says: %2$@</source>
-        <target state="translated">یک نام کاربری و گذرواژه توسط %1$@ درخواست شده است. سایت می‌گوید: %2$@</target><note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
-      <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note></trans-unit>
-      <trans-unit id="Aa" approved="yes">
-        <source>Aa</source>
-        <target state="translated">Aa</target><note>Button for reader mode font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+        <target>-</target>
+        <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       </trans-unit>
-      <trans-unit id="About" approved="yes">
+      <trans-unit id="A username and password are being requested by %@.">
+        <source>A username and password are being requested by %@.</source>
+        <target>یک نام کاربری و گذرواژه توسط %@ درخواست شده است.</target>
+        <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
+      </trans-unit>
+      <trans-unit id="A username and password are being requested by %@. The site says: %@">
+        <source>A username and password are being requested by %1$@. The site says: %2$@</source>
+        <target>یک نام کاربری و گذرواژه توسط %1$@ درخواست شده است. سایت می‌گوید: %2$@</target>
+        <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
+      </trans-unit>
+      <trans-unit id="Aa">
+        <source>Aa</source>
+        <target>Aa</target>
+        <note>Button for reader mode font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
+      </trans-unit>
+      <trans-unit id="About">
         <source>About</source>
-        <target state="translated">درباره</target><note>About settings section title</note>
-      <note>About settings section title</note></trans-unit>
-      <trans-unit id="Add Tab" approved="yes">
+        <target>درباره</target>
+        <note>About settings section title</note>
+      </trans-unit>
+      <trans-unit id="Add Tab">
         <source>Add Tab</source>
-        <target state="translated">افزودن زبانه</target><note>Accessibility label for the Add Tab button in the Tab Tray.</note>
-      <note>Accessibility label for the Add Tab button in the Tab Tray.</note></trans-unit>
-      <trans-unit id="Add to Reading List" approved="yes">
+        <target>افزودن زبانه</target>
+        <note>Accessibility label for the Add Tab button in the Tab Tray.</note>
+      </trans-unit>
+      <trans-unit id="Add to Reading List">
         <source>Add to Reading List</source>
-        <target state="translated">افزودن به فهرست مطالعه</target><note>Add URL to the reading list - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
-      <note>Add URL to the reading list - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note></trans-unit>
-      <trans-unit id="Added page to Reading List" approved="yes">
+        <target>افزودن به فهرست مطالعه</target>
+        <note>Add URL to the reading list - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
+      </trans-unit>
+      <trans-unit id="Added page to Reading List">
         <source>Added page to Reading List</source>
-        <target state="translated">صفحه افزوده شده به فهرست مطالعه.</target><note>Accessibility message e.g. spoken by VoiceOver after the current page gets added to the Reading List using the Reader View button, e.g. by long-pressing it or by its accessibility custom action.</note>
-      <note>Accessibility message e.g. spoken by VoiceOver after the current page gets added to the Reading List using the Reader View button, e.g. by long-pressing it or by its accessibility custom action.</note></trans-unit>
-      <trans-unit id="Address and Search" approved="yes">
+        <target>صفحه افزوده شده به فهرست مطالعه.</target>
+        <note>Accessibility message e.g. spoken by VoiceOver after the current page gets added to the Reading List using the Reader View button, e.g. by long-pressing it or by its accessibility custom action.</note>
+      </trans-unit>
+      <trans-unit id="Address and Search">
         <source>Address and Search</source>
-        <target state="translated">آدرس و جستجو</target><note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
-      <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note></trans-unit>
-      <trans-unit id="Always Send" approved="yes">
+        <target>آدرس و جستجو</target>
+        <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
+      </trans-unit>
+      <trans-unit id="Always Send">
         <source>Always Send</source>
-        <target state="translated">همیشه ارسال شود</target><note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
-      <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note></trans-unit>
-      <trans-unit id="Authentication required" approved="yes">
+        <target>همیشه ارسال شود</target>
+        <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
+      </trans-unit>
+      <trans-unit id="Authentication required">
         <source>Authentication required</source>
-        <target state="translated">تأیید هویت لازم است</target><note>Authentication prompt title</note>
-      <note>Authentication prompt title</note></trans-unit>
-      <trans-unit id="Back" approved="yes">
+        <target>تأیید هویت لازم است</target>
+        <note>Authentication prompt title</note>
+      </trans-unit>
+      <trans-unit id="Back">
         <source>Back</source>
-        <target state="translated">بازگشت</target><note>Accessibility Label for the browser toolbar Back button</note>
-      <note>Accessibility Label for the browser toolbar Back button</note></trans-unit>
-      <trans-unit id="Block Pop-up Windows" approved="yes">
+        <target>بازگشت</target>
+        <note>Accessibility Label for the browser toolbar Back button</note>
+      </trans-unit>
+      <trans-unit id="Block Pop-up Windows">
         <source>Block Pop-up Windows</source>
-        <target state="translated">مسدود کردن پنجره‌های بازشو</target><note>Block pop-up windows setting</note>
-      <note>Block pop-up windows setting</note></trans-unit>
-      <trans-unit id="Bookmark" approved="yes">
+        <target>مسدود کردن پنجره‌های بازشو</target>
+        <note>Block pop-up windows setting</note>
+      </trans-unit>
+      <trans-unit id="Bookmark">
         <source>Bookmark</source>
-        <target state="translated">نشانک</target><note>Bookmark a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
-      <note>Bookmark a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note></trans-unit>
-      <trans-unit id="Bookmarks" approved="yes">
+        <target>نشانک</target>
+        <note>Bookmark a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks">
         <source>Bookmarks</source>
-        <target state="translated">نشانک‌ها</target><note>Panel accessibility label</note>
-      <note>Panel accessibility label</note></trans-unit>
-      <trans-unit id="Brightness" approved="yes">
+        <target>نشانک‌ها</target>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Brightness">
         <source>Brightness</source>
-        <target state="translated">روشنایی</target><note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note>
-      <note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note></trans-unit>
-      <trans-unit id="Call" approved="yes">
+        <target>روشنایی</target>
+        <note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note>
+      </trans-unit>
+      <trans-unit id="Call">
         <source>Call</source>
-        <target state="translated">تماس</target><note>Alert Call Button</note>
-      <note>Alert Call Button</note></trans-unit>
-      <trans-unit id="Cancel" approved="yes">
+        <target>تماس</target>
+        <note>Alert Call Button</note>
+      </trans-unit>
+      <trans-unit id="Cancel">
         <source>Cancel</source>
-        <target state="translated">لغو</target><note>Cancel button title in share dialog</note>
-      <note>Cancel button title in share dialog</note></trans-unit>
+        <target>لغو</target>
+        <note>Cancel button title in share dialog</note>
+      </trans-unit>
       <trans-unit id="Changes color theme.">
         <source>Changes color theme.</source>
         <note>Accessibility hint for the color theme setting buttons in reader mode display settings</note>
       </trans-unit>
-      <trans-unit id="Changes font type." approved="yes">
+      <trans-unit id="Changes font type.">
         <source>Changes font type.</source>
-        <target state="translated">تغییر نوع فونت</target><note>Accessibility hint for the font type buttons in reader mode display settings</note>
-      <note>Accessibility hint for the font type buttons in reader mode display settings</note></trans-unit>
-      <trans-unit id="Clear Private Data" approved="yes">
+        <target>تغییر نوع فونت</target>
+        <note>Accessibility hint for the font type buttons in reader mode display settings</note>
+      </trans-unit>
+      <trans-unit id="Clear Private Data">
         <source>Clear Private Data</source>
-        <target state="translated">پاک‌سازی اطلاعات خصوصی</target><note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
-      <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note></trans-unit>
-      <trans-unit id="Close" approved="yes">
+        <target>پاک‌سازی اطلاعات خصوصی</target>
+        <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
+      </trans-unit>
+      <trans-unit id="Close">
         <source>Close</source>
-        <target state="translated">بستن</target><note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
-      <note>Accessibility label for action denoting closing a tab in tab list (tray)</note></trans-unit>
-      <trans-unit id="Closing tab" approved="yes">
+        <target>بستن</target>
+        <note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
+      </trans-unit>
+      <trans-unit id="Closing tab">
         <source>Closing tab</source>
-        <target state="translated">درحال بستن زبانه</target><note>No comment provided by engineer.</note>
-      <note>No comment provided by engineer.</note></trans-unit>
-      <trans-unit id="Copy Address" approved="yes">
+        <target>درحال بستن زبانه</target>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Copy Address">
         <source>Copy Address</source>
-        <target state="translated">رونوشت از نشانی</target><note>Copy the URL from the location bar</note>
+        <target>رونوشت از نشانی</target>
+        <note>Copy the URL from the location bar</note>
       </trans-unit>
-      <trans-unit id="Copy Image" approved="yes">
+      <trans-unit id="Copy Image">
         <source>Copy Image</source>
-        <target state="translated">رونوشت تصویر</target><note>Context menu item for copying an image to the clipboard</note>
+        <target>رونوشت تصویر</target>
+        <note>Context menu item for copying an image to the clipboard</note>
       </trans-unit>
-      <trans-unit id="Copy Link" approved="yes">
+      <trans-unit id="Copy Link">
         <source>Copy Link</source>
-        <target state="translated">رونوشت پیوند</target><note>Context menu item for copying a link URL to the clipboard</note>
+        <target>رونوشت پیوند</target>
+        <note>Context menu item for copying a link URL to the clipboard</note>
       </trans-unit>
       <trans-unit id="Could not add page to Reading List. Maybe it's already there?">
         <source>Could not add page to Reading List. Maybe it's already there?</source>
@@ -435,172 +498,208 @@
         <source>Get your open tabs, bookmarks, and passwords from your other devices.</source>
         <note>A re-worded offer about Sync that emphasizes one-way data transfer, not syncing.</note>
       </trans-unit>
-      <trans-unit id="Go" approved="yes">
+      <trans-unit id="Go">
         <source>Go</source>
-        <target state="translated">برو</target><note>Pending feature; currently unused string! Button to browse to URL on the clipboard when browser is opened</note>
-      <note>Pending feature; currently unused string! Button to browse to URL on the clipboard when browser is opened</note></trans-unit>
-      <trans-unit id="Go to copied URL?" approved="yes">
+        <target>برو</target>
+        <note>Pending feature; currently unused string! Button to browse to URL on the clipboard when browser is opened</note>
+      </trans-unit>
+      <trans-unit id="Go to copied URL?">
         <source>Go to copied URL?</source>
-        <target state="translated">برو به URL کپی‌شده؟</target><note>Pending feature; currently unused string! Prompt message shown when browser is opened with URL on the clipboard</note>
-      <note>Pending feature; currently unused string! Prompt message shown when browser is opened with URL on the clipboard</note></trans-unit>
-      <trans-unit id="Help" approved="yes">
+        <target>برو به URL کپی‌شده؟</target>
+        <note>Pending feature; currently unused string! Prompt message shown when browser is opened with URL on the clipboard</note>
+      </trans-unit>
+      <trans-unit id="Help">
         <source>Help</source>
-        <target state="translated">راهنما</target><note>Show the SUMO support page from the Support section in the settings. see http://mzl.la/1dmM8tZ</note>
-      <note>Show the SUMO support page from the Support section in the settings. see http://mzl.la/1dmM8tZ</note></trans-unit>
-      <trans-unit id="History" approved="yes">
+        <target>راهنما</target>
+        <note>Show the SUMO support page from the Support section in the settings. see http://mzl.la/1dmM8tZ</note>
+      </trans-unit>
+      <trans-unit id="History">
         <source>History</source>
-        <target state="translated">تاریخچه</target><note>Panel accessibility label</note>
-      <note>Panel accessibility label</note></trans-unit>
-      <trans-unit id="Increase text size" approved="yes">
+        <target>تاریخچه</target>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Increase text size">
         <source>Increase text size</source>
-        <target state="translated">افزایش اندازه متن</target><note>Accessibility label for button increasing font size in display settings of reader mode</note>
-      <note>Accessibility label for button increasing font size in display settings of reader mode</note></trans-unit>
+        <target>افزایش اندازه متن</target>
+        <note>Accessibility label for button increasing font size in display settings of reader mode</note>
+      </trans-unit>
       <trans-unit id="Intro Tour Carousel">
         <source>Intro Tour Carousel</source>
         <note>Accessibility label for the introduction tour carousel</note>
       </trans-unit>
-      <trans-unit id="Last month" approved="yes">
+      <trans-unit id="Last month">
         <source>Last month</source>
-        <target state="translated">ماه گذشته</target><note>History tableview section header</note>
-      <note>History tableview section header</note></trans-unit>
-      <trans-unit id="Last synced: %@" approved="yes">
+        <target>ماه گذشته</target>
+        <note>History tableview section header</note>
+      </trans-unit>
+      <trans-unit id="Last synced: %@">
         <source>Last synced: %@</source>
-        <target state="translated">آخرین همگام سازی:%@</target><note>Last synced time label beside Sync Now setting option. Argument is the relative date string.
+        <target>آخرین همگام سازی:%@</target>
+        <note>Last synced time label beside Sync Now setting option. Argument is the relative date string.
    Remote tabs last synced time. Argument is the relative date string.</note>
-      <note>Last synced time label beside Sync Now setting option. Argument is the relative date string. Remote tabs last synced time. Argument is the relative date string.</note></trans-unit>
-      <trans-unit id="Last week" approved="yes">
+      </trans-unit>
+      <trans-unit id="Last week">
         <source>Last week</source>
-        <target state="translated">هفته گذشته</target><note>History tableview section header</note>
-      <note>History tableview section header</note></trans-unit>
-      <trans-unit id="Licenses" approved="yes">
+        <target>هفته گذشته</target>
+        <note>History tableview section header</note>
+      </trans-unit>
+      <trans-unit id="Licenses">
         <source>Licenses</source>
-        <target state="translated">مجوز</target><note>Settings item that opens a tab containing the licenses. See http://mzl.la/1NSAWCG</note>
-      <note>Settings item that opens a tab containing the licenses. See http://mzl.la/1NSAWCG</note></trans-unit>
-      <trans-unit id="Light" approved="yes">
+        <target>مجوز</target>
+        <note>Settings item that opens a tab containing the licenses. See http://mzl.la/1NSAWCG</note>
+      </trans-unit>
+      <trans-unit id="Light">
         <source>Light</source>
-        <target state="translated">نور</target><note>Light theme setting in Reading View settings</note>
-      <note>Light theme setting in Reading View settings</note></trans-unit>
-      <trans-unit id="Load original page" approved="yes">
+        <target>نور</target>
+        <note>Light theme setting in Reading View settings</note>
+      </trans-unit>
+      <trans-unit id="Load original page">
         <source>Load original page</source>
-        <target state="translated">بارگذاری صفحه اصلی</target><note>Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
-      <note>Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note></trans-unit>
-      <trans-unit id="Loading content…" approved="yes">
+        <target>بارگذاری صفحه اصلی</target>
+        <note>Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
+      </trans-unit>
+      <trans-unit id="Loading content…">
         <source>Loading content…</source>
-        <target state="translated">بارگذاری محتوا…</target><note>Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app.</note>
-      <note>Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app.</note></trans-unit>
-      <trans-unit id="Log Out" approved="yes">
+        <target>بارگذاری محتوا…</target>
+        <note>Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app.</note>
+      </trans-unit>
+      <trans-unit id="Log Out">
         <source>Log Out</source>
-        <target state="translated">خروج از سیستم</target><note>Button in settings screen to disconnect from your account
+        <target>خروج از سیستم</target>
+        <note>Button in settings screen to disconnect from your account
    Disconnect button in the 'log out firefox account' alert</note>
-      <note>Button in settings screen to disconnect from your account Disconnect button in the 'log out firefox account' alert</note></trans-unit>
-      <trans-unit id="Log Out?" approved="yes">
+      </trans-unit>
+      <trans-unit id="Log Out?">
         <source>Log Out?</source>
-        <target state="translated">از سیستم خارج شود؟</target><note>Title of the 'log out firefox account' alert</note>
-      <note>Title of the 'log out firefox account' alert</note></trans-unit>
-      <trans-unit id="Log in" approved="yes">
+        <target>از سیستم خارج شود؟</target>
+        <note>Title of the 'log out firefox account' alert</note>
+      </trans-unit>
+      <trans-unit id="Log in">
         <source>Log in</source>
-        <target state="translated">وارد‌ شدن</target><note>Authentication prompt log in button</note>
-      <note>Authentication prompt log in button</note></trans-unit>
-      <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?" approved="yes">
+        <target>وارد‌ شدن</target>
+        <note>Authentication prompt log in button</note>
+      </trans-unit>
+      <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?">
         <source>Looks like Firefox crashed previously. Would you like to restore your tabs?</source>
-        <target state="translated">به نظر می‌رسید فایرفاکس قبلا دچار خرابی شده است. مایل هستید زبانه‌های خود را بازیابی کنید؟</target><note>Restore Tabs Prompt Description</note>
-      <note>Restore Tabs Prompt Description</note></trans-unit>
-      <trans-unit id="Mark as Read" approved="yes">
+        <target>به نظر می‌رسید فایرفاکس قبلا دچار خرابی شده است. مایل هستید زبانه‌های خود را بازیابی کنید؟</target>
+        <note>Restore Tabs Prompt Description</note>
+      </trans-unit>
+      <trans-unit id="Mark as Read">
         <source>Mark as Read</source>
-        <target state="translated">علامت گذاری به عنوان خوانده شده</target><note>Name for Mark as read button in reader mode
+        <target>علامت گذاری به عنوان خوانده شده</target>
+        <note>Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read</note>
-      <note>Name for Mark as read button in reader mode Title for the button that marks a reading list item as read</note></trans-unit>
-      <trans-unit id="Mark as Unread" approved="yes">
+      </trans-unit>
+      <trans-unit id="Mark as Unread">
         <source>Mark as Unread</source>
-        <target state="translated">علامت‌گذاری به عنوان خوانده نشده</target><note>Name for Mark as unread button in reader mode
+        <target>علامت‌گذاری به عنوان خوانده نشده</target>
+        <note>Name for Mark as unread button in reader mode
    Title for the button that marks a reading list item as unread</note>
-      <note>Name for Mark as unread button in reader mode Title for the button that marks a reading list item as unread</note></trans-unit>
+      </trans-unit>
       <trans-unit id="Missing error">
         <source>Missing error</source>
         <note>Error for a missing remote error number</note>
       </trans-unit>
-      <trans-unit id="Missing message" approved="yes">
+      <trans-unit id="Missing message">
         <source>Missing message</source>
-        <target state="translated">پیام ازدست رفته</target><note>Error for a missing remote error message</note>
-      <note>Error for a missing remote error message</note></trans-unit>
-      <trans-unit id="Navigation Toolbar" approved="yes">
+        <target>پیام ازدست رفته</target>
+        <note>Error for a missing remote error message</note>
+      </trans-unit>
+      <trans-unit id="Navigation Toolbar">
         <source>Navigation Toolbar</source>
-        <target state="translated">نوار ابزار راهبری</target><note>Accessibility label for the navigation toolbar displayed at the bottom of the screen.</note>
-      <note>Accessibility label for the navigation toolbar displayed at the bottom of the screen.</note></trans-unit>
-      <trans-unit id="Never Send" approved="yes">
+        <target>نوار ابزار راهبری</target>
+        <note>Accessibility label for the navigation toolbar displayed at the bottom of the screen.</note>
+      </trans-unit>
+      <trans-unit id="Never Send">
         <source>Never Send</source>
-        <target state="translated">هیچ‌وقت ارسال نشود</target><note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
-      <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note></trans-unit>
-      <trans-unit id="New tab: %@: %@" approved="yes">
+        <target>هیچ‌وقت ارسال نشود</target>
+        <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
+      </trans-unit>
+      <trans-unit id="New tab: %@: %@">
         <source>New tab: %1$@: %2$@</source>
-        <target state="translated">زبانه جدید: %1$@: %2$@</target><note>New tab [title] [url]</note>
-      <note>New tab [title] [url]</note></trans-unit>
-      <trans-unit id="New version available" approved="yes">
+        <target>زبانه جدید: %1$@: %2$@</target>
+        <note>New tab [title] [url]</note>
+      </trans-unit>
+      <trans-unit id="New version available">
         <source>New version available</source>
-        <target state="translated">نسخه جدید در دسترس است</target><note>Prompt title for application update</note>
-      <note>Prompt title for application update</note></trans-unit>
-      <trans-unit id="No" approved="yes">
+        <target>نسخه جدید در دسترس است</target>
+        <note>Prompt title for application update</note>
+      </trans-unit>
+      <trans-unit id="No">
         <source>No</source>
-        <target state="translated">خیر</target><note>Restore Tabs Negative Action</note>
-      <note>Restore Tabs Negative Action</note></trans-unit>
-      <trans-unit id="No tabs" approved="yes">
+        <target>خیر</target>
+        <note>Restore Tabs Negative Action</note>
+      </trans-unit>
+      <trans-unit id="No tabs">
         <source>No tabs</source>
-        <target state="translated">بدون زبانه‌ها</target><note>Message spoken by VoiceOver to indicate that there are no tabs in the Tabs Tray</note>
-      <note>Message spoken by VoiceOver to indicate that there are no tabs in the Tabs Tray</note></trans-unit>
-      <trans-unit id="Not Now" approved="yes">
+        <target>بدون زبانه‌ها</target>
+        <note>Message spoken by VoiceOver to indicate that there are no tabs in the Tabs Tray</note>
+      </trans-unit>
+      <trans-unit id="Not Now">
         <source>Not Now</source>
-        <target state="translated">درحال حاضر نه</target><note>Label for button to cancel application update prompt</note>
-      <note>Label for button to cancel application update prompt</note></trans-unit>
-      <trans-unit id="Not now" approved="yes">
+        <target>درحال حاضر نه</target>
+        <note>Label for button to cancel application update prompt</note>
+      </trans-unit>
+      <trans-unit id="Not now">
         <source>Not now</source>
-        <target state="translated">در حال حاضر نه</target><note>Button to not save the user's password</note>
-      <note>Button to not save the user's password</note></trans-unit>
-      <trans-unit id="OK" approved="yes">
+        <target>در حال حاضر نه</target>
+        <note>Button to not save the user's password</note>
+      </trans-unit>
+      <trans-unit id="OK">
         <source>OK</source>
-        <target state="translated">تایید</target><note>Alert OK Button
+        <target>تایید</target>
+        <note>Alert OK Button
    Label for OK button in the application update prompt
    OK button</note>
-      <note>Alert OK Button Label for OK button in the application update prompt OK button</note></trans-unit>
-      <trans-unit id="Okay" approved="yes">
+      </trans-unit>
+      <trans-unit id="Okay">
         <source>Okay</source>
-        <target state="translated">تایید</target><note>Restore Tabs Affirmative Action</note>
-      <note>Restore Tabs Affirmative Action</note></trans-unit>
-      <trans-unit id="Oops! Firefox crashed" approved="yes">
+        <target>تایید</target>
+        <note>Restore Tabs Affirmative Action</note>
+      </trans-unit>
+      <trans-unit id="Oops! Firefox crashed">
         <source>Oops! Firefox crashed</source>
-        <target state="translated">اوخ! فایرفاکس دچارخرابی شد</target><note>Pending feature; currently unused string! Title for prompt displayed to user after the app crashes</note>
-      <note>Pending feature; currently unused string! Title for prompt displayed to user after the app crashes</note></trans-unit>
-      <trans-unit id="Open In New Tab" approved="yes">
+        <target>اوخ! فایرفاکس دچارخرابی شد</target>
+        <note>Pending feature; currently unused string! Title for prompt displayed to user after the app crashes</note>
+      </trans-unit>
+      <trans-unit id="Open In New Tab">
         <source>Open In New Tab</source>
-        <target state="translated">بازکردن در زبانه جدید</target><note>Context menu item for opening a link in a new tab</note>
-      <note>Context menu item for opening a link in a new tab</note></trans-unit>
-      <trans-unit id="Open Settings" approved="yes">
+        <target>بازکردن در زبانه جدید</target>
+        <note>Context menu item for opening a link in a new tab</note>
+      </trans-unit>
+      <trans-unit id="Open Settings">
         <source>Open Settings</source>
-        <target state="translated">باز‌کردن تنظیمات</target><note>See http://mzl.la/1G7uHo7</note>
-      <note>See http://mzl.la/1G7uHo7</note></trans-unit>
+        <target>باز‌کردن تنظیمات</target>
+        <note>See http://mzl.la/1G7uHo7</note>
+      </trans-unit>
       <trans-unit id="Open articles in Reader View by tapping the book icon when it appears in the title bar.">
         <source>Open articles in Reader View by tapping the book icon when it appears in the title bar.</source>
         <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
-      <trans-unit id="Open in…" approved="yes">
+      <trans-unit id="Open in…">
         <source>Open in…</source>
-        <target state="translated">با کردن در…</target><note>String indicating that the file can be opened in another application on the device</note>
-      <note>String indicating that the file can be opened in another application on the device</note></trans-unit>
-      <trans-unit id="Opening %@" approved="yes">
+        <target>با کردن در…</target>
+        <note>String indicating that the file can be opened in another application on the device</note>
+      </trans-unit>
+      <trans-unit id="Opening %@">
         <source>Opening %@</source>
-        <target state="translated">درحال بازکردن %@</target><note>Opening an external URL</note>
-      <note>Opening an external URL</note></trans-unit>
-      <trans-unit id="Pages you have visited recently will show up here." approved="yes">
+        <target>درحال بازکردن %@</target>
+        <note>Opening an external URL</note>
+      </trans-unit>
+      <trans-unit id="Pages you have visited recently will show up here.">
         <source>Pages you have visited recently will show up here.</source>
-        <target state="translated">صفحه‌های که شما اخیرا بازدید کرده در اینجا نمایش داده خواهد شد.</target><note>See http://bit.ly/1I7Do4b</note>
-      <note>See http://bit.ly/1I7Do4b</note></trans-unit>
+        <target>صفحه‌های که شما اخیرا بازدید کرده در اینجا نمایش داده خواهد شد.</target>
+        <note>See http://bit.ly/1I7Do4b</note>
+      </trans-unit>
       <trans-unit id="Panel Chooser">
         <source>Panel Chooser</source>
         <note>Accessibility label for the Home panel's top toolbar containing list of the home panels (top sites, bookmarsk, history, remote tabs, reading list).</note>
       </trans-unit>
-      <trans-unit id="Password" approved="yes">
+      <trans-unit id="Password">
         <source>Password</source>
-        <target state="translated">گذرواژه</target><note>Password textbox in Authentication prompt</note>
-      <note>Password textbox in Authentication prompt</note></trans-unit>
+        <target>گذرواژه</target>
+        <note>Password textbox in Authentication prompt</note>
+      </trans-unit>
       <trans-unit id="Paste">
         <source>Paste</source>
         <note>Paste the URL into the location bar</note>
@@ -609,103 +708,126 @@
         <source>Paste &amp; Go</source>
         <note>Paste the URL into the location bar and visit</note>
       </trans-unit>
-      <trans-unit id="Privacy" approved="yes">
+      <trans-unit id="Privacy">
         <source>Privacy</source>
-        <target state="translated">حریم خصوصی</target><note>Privacy section title</note>
-      <note>Privacy section title</note></trans-unit>
-      <trans-unit id="Privacy Policy" approved="yes">
+        <target>حریم خصوصی</target>
+        <note>Privacy section title</note>
+      </trans-unit>
+      <trans-unit id="Privacy Policy">
         <source>Privacy Policy</source>
-        <target state="translated">سیاست حفظ حریم خصوصی</target><note>Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/</note>
-      <note>Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/</note></trans-unit>
-      <trans-unit id="Quick-search Engines" approved="yes">
+        <target>سیاست حفظ حریم خصوصی</target>
+        <note>Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/</note>
+      </trans-unit>
+      <trans-unit id="Quick-search Engines">
         <source>Quick-search Engines</source>
-        <target state="translated">موتور‌های جست‌و‌جو سریع</target><note>Title for quick-search engines settings section.</note>
-      <note>Title for quick-search engines settings section.</note></trans-unit>
-      <trans-unit id="Reader View" approved="yes">
+        <target>موتور‌های جست‌و‌جو سریع</target>
+        <note>Title for quick-search engines settings section.</note>
+      </trans-unit>
+      <trans-unit id="Reader View">
         <source>Reader View</source>
-        <target state="translated">نمای مطالعه</target><note>Accessibility label for the Reader View button</note>
-      <note>Accessibility label for the Reader View button</note></trans-unit>
-      <trans-unit id="Reading list" approved="yes">
+        <target>نمای مطالعه</target>
+        <note>Accessibility label for the Reader View button</note>
+      </trans-unit>
+      <trans-unit id="Reading list">
         <source>Reading list</source>
-        <target state="translated">فهرست خواندن</target><note>Panel accessibility label</note>
-      <note>Panel accessibility label</note></trans-unit>
-      <trans-unit id="Reload" approved="yes">
+        <target>فهرست خواندن</target>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Reload">
         <source>Reload</source>
-        <target state="translated">بارگیری مجدد</target><note>Accessibility Label for the browser toolbar Reload button</note>
-      <note>Accessibility Label for the browser toolbar Reload button</note></trans-unit>
-      <trans-unit id="Remove" approved="yes">
+        <target>بارگیری مجدد</target>
+        <note>Accessibility Label for the browser toolbar Reload button</note>
+      </trans-unit>
+      <trans-unit id="Remove">
         <source>Remove</source>
-        <target state="translated">حذف</target><note>Title for the button that removes a reading list item</note>
-      <note>Title for the button that removes a reading list item</note></trans-unit>
-      <trans-unit id="Remove from Reading List" approved="yes">
+        <target>حذف</target>
+        <note>Title for the button that removes a reading list item</note>
+      </trans-unit>
+      <trans-unit id="Remove from Reading List">
         <source>Remove from Reading List</source>
-        <target state="translated">حذف از فهرست مطالعه</target><note>Name for button removing current article from reading list in reader mode</note>
-      <note>Name for button removing current article from reading list in reader mode</note></trans-unit>
-      <trans-unit id="Remove page" approved="yes">
+        <target>حذف از فهرست مطالعه</target>
+        <note>Name for button removing current article from reading list in reader mode</note>
+      </trans-unit>
+      <trans-unit id="Remove page">
         <source>Remove page</source>
-        <target state="translated">حذف صفحه</target><note>Button shown in editing mode to remove this site from the top sites panel.</note>
-      <note>Button shown in editing mode to remove this site from the top sites panel.</note></trans-unit>
-      <trans-unit id="Request Desktop Site" approved="yes">
+        <target>حذف صفحه</target>
+        <note>Button shown in editing mode to remove this site from the top sites panel.</note>
+      </trans-unit>
+      <trans-unit id="Request Desktop Site">
         <source>Request Desktop Site</source>
-        <target state="translated">درخواست نسخه رومیزی پایگاه</target><note>Pending feature; currently unused string! Tooltip label triggered by long pressing the refresh button.</note>
-      <note>Pending feature; currently unused string! Tooltip label triggered by long pressing the refresh button.</note></trans-unit>
-      <trans-unit id="Request Mobile Site" approved="yes">
+        <target>درخواست نسخه رومیزی پایگاه</target>
+        <note>Pending feature; currently unused string! Tooltip label triggered by long pressing the refresh button.</note>
+      </trans-unit>
+      <trans-unit id="Request Mobile Site">
         <source>Request Mobile Site</source>
-        <target state="translated">درخواست نسخه تلفن‌همراه</target><note>Pending feature; currently unused string! Tooltip label triggered by long pressing the refresh button a second time.</note>
-      <note>Pending feature; currently unused string! Tooltip label triggered by long pressing the refresh button a second time.</note></trans-unit>
-      <trans-unit id="Sans-serif" approved="yes">
+        <target>درخواست نسخه تلفن‌همراه</target>
+        <note>Pending feature; currently unused string! Tooltip label triggered by long pressing the refresh button a second time.</note>
+      </trans-unit>
+      <trans-unit id="Sans-serif">
         <source>Sans-serif</source>
-        <target state="translated">Sans-serif</target><note>Font type setting in the reading view settings</note>
-      <note>Font type setting in the reading view settings</note></trans-unit>
-      <trans-unit id="Save" approved="yes">
+        <target>Sans-serif</target>
+        <note>Font type setting in the reading view settings</note>
+      </trans-unit>
+      <trans-unit id="Save">
         <source>Save</source>
-        <target state="translated">ذخیره</target><note>Button to save the user's password</note>
-      <note>Button to save the user's password</note></trans-unit>
-      <trans-unit id="Save Image" approved="yes">
+        <target>ذخیره</target>
+        <note>Button to save the user's password</note>
+      </trans-unit>
+      <trans-unit id="Save Image">
         <source>Save Image</source>
-        <target state="translated">ذخیره تصویر</target><note>Context menu item for saving an image</note>
-      <note>Context menu item for saving an image</note></trans-unit>
-      <trans-unit id="Save Logins" approved="yes">
+        <target>ذخیره تصویر</target>
+        <note>Context menu item for saving an image</note>
+      </trans-unit>
+      <trans-unit id="Save Logins">
         <source>Save Logins</source>
-        <target state="translated">ورودهای ذخیره شده</target><note>Setting to enable the built-in password manager</note>
-      <note>Setting to enable the built-in password manager</note></trans-unit>
+        <target>ورودهای ذخیره شده</target>
+        <note>Setting to enable the built-in password manager</note>
+      </trans-unit>
       <trans-unit id="Save pages to your Reading List by tapping the book plus icon in the Reader View controls.">
         <source>Save pages to your Reading List by tapping the book plus icon in the Reader View controls.</source>
         <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
-      <trans-unit id="Search" approved="yes">
+      <trans-unit id="Search">
         <source>Search</source>
-        <target state="translated">جست و جو</target><note>Navigation title for search settings.
+        <target>جست و جو</target>
+        <note>Navigation title for search settings.
    Open search section of settings</note>
-      <note>Navigation title for search settings. Open search section of settings</note></trans-unit>
-      <trans-unit id="Search or enter address" approved="yes">
+      </trans-unit>
+      <trans-unit id="Search or enter address">
         <source>Search or enter address</source>
-        <target state="translated">جست‌وجو یا ورود نشانی</target><note>The text shown in the URL bar on about:home</note>
-      <note>The text shown in the URL bar on about:home</note></trans-unit>
-      <trans-unit id="Searches for the suggestion" approved="yes">
+        <target>جست‌وجو یا ورود نشانی</target>
+        <note>The text shown in the URL bar on about:home</note>
+      </trans-unit>
+      <trans-unit id="Searches for the suggestion">
         <source>Searches for the suggestion</source>
-        <target state="translated">جست‌جو‌هایی برای پیشنهادات</target><note>Accessibility hint describing the action performed when a search suggestion is clicked</note>
-      <note>Accessibility hint describing the action performed when a search suggestion is clicked</note></trans-unit>
-      <trans-unit id="Secure connection" approved="yes">
+        <target>جست‌جو‌هایی برای پیشنهادات</target>
+        <note>Accessibility hint describing the action performed when a search suggestion is clicked</note>
+      </trans-unit>
+      <trans-unit id="Secure connection">
         <source>Secure connection</source>
-        <target state="translated">اتصال امن</target><note>Accessibility label for the lock icon, which is only present if the connection is secure</note>
-      <note>Accessibility label for the lock icon, which is only present if the connection is secure</note></trans-unit>
-      <trans-unit id="Send Crash Reports" approved="yes">
+        <target>اتصال امن</target>
+        <note>Accessibility label for the lock icon, which is only present if the connection is secure</note>
+      </trans-unit>
+      <trans-unit id="Send Crash Reports">
         <source>Send Crash Reports</source>
-        <target state="translated">ارسال گزارش‌های خرابی</target><note>Setting to enable the sending of crash reports</note>
-      <note>Setting to enable the sending of crash reports</note></trans-unit>
-      <trans-unit id="Send Feedback" approved="yes">
+        <target>ارسال گزارش‌های خرابی</target>
+        <note>Setting to enable the sending of crash reports</note>
+      </trans-unit>
+      <trans-unit id="Send Feedback">
         <source>Send Feedback</source>
-        <target state="translated">ارسال بازخورد</target><note>Show an input.mozilla.org page where people can submit feedback</note>
-      <note>Show an input.mozilla.org page where people can submit feedback</note></trans-unit>
-      <trans-unit id="Send Report" approved="yes">
+        <target>ارسال بازخورد</target>
+        <note>Show an input.mozilla.org page where people can submit feedback</note>
+      </trans-unit>
+      <trans-unit id="Send Report">
         <source>Send Report</source>
-        <target state="translated">ارسال گزارش</target><note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
-      <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note></trans-unit>
-      <trans-unit id="Send a crash report so Mozilla can fix the problem?" approved="yes">
+        <target>ارسال گزارش</target>
+        <note>Pending feature; currently unused string! Used as a button label for crash dialog prompt</note>
+      </trans-unit>
+      <trans-unit id="Send a crash report so Mozilla can fix the problem?">
         <source>Send a crash report so Mozilla can fix the problem?</source>
-        <target state="translated">اطلاعات خرابی‌ها برای حل کردن مشکل به موزیلا ارسال شود؟</target><note>Pending feature; currently unused string! Message displayed in the crash dialog above the buttons used to select when sending reports</note>
-      <note>Pending feature; currently unused string! Message displayed in the crash dialog above the buttons used to select when sending reports</note></trans-unit>
+        <target>اطلاعات خرابی‌ها برای حل کردن مشکل به موزیلا ارسال شود؟</target>
+        <note>Pending feature; currently unused string! Message displayed in the crash dialog above the buttons used to select when sending reports</note>
+      </trans-unit>
       <trans-unit id="Sepia">
         <source>Sepia</source>
         <note>Sepia theme setting in Reading View settings</note>
@@ -714,92 +836,111 @@
         <source>Serif</source>
         <note>Font type setting in the reading view settings</note>
       </trans-unit>
-      <trans-unit id="Settings" approved="yes">
+      <trans-unit id="Settings">
         <source>Settings</source>
-        <target state="translated">تنظیمات</target><note>Accessibility label for the Settings button in the Tab Tray.
+        <target>تنظیمات</target>
+        <note>Accessibility label for the Settings button in the Tab Tray.
    Settings</note>
-      <note>Accessibility label for the Settings button in the Tab Tray. Settings</note></trans-unit>
-      <trans-unit id="Share" approved="yes">
+      </trans-unit>
+      <trans-unit id="Share">
         <source>Share</source>
-        <target state="translated">اشتراک‌گذاری</target><note>Accessibility Label for the browser toolbar Share button</note>
-      <note>Accessibility Label for the browser toolbar Share button</note></trans-unit>
-      <trans-unit id="Show Search Suggestions" approved="yes">
+        <target>اشتراک‌گذاری</target>
+        <note>Accessibility Label for the browser toolbar Share button</note>
+      </trans-unit>
+      <trans-unit id="Show Search Suggestions">
         <source>Show Search Suggestions</source>
-        <target state="translated">نمایش پیشنهادات جست‌و‌جو</target><note>Label for show search suggestions setting.</note>
-      <note>Label for show search suggestions setting.</note></trans-unit>
-      <trans-unit id="Show Tabs" approved="yes">
+        <target>نمایش پیشنهادات جست‌و‌جو</target>
+        <note>Label for show search suggestions setting.</note>
+      </trans-unit>
+      <trans-unit id="Show Tabs">
         <source>Show Tabs</source>
-        <target state="translated">نمایش زبانه‌ها</target><note>Accessibility label for the tabs button in the (top) browser toolbar
+        <target>نمایش زبانه‌ها</target>
+        <note>Accessibility label for the tabs button in the (top) browser toolbar
    Accessibility Label for the tabs button in the browser toolbar</note>
-      <note>Accessibility label for the tabs button in the (top) browser toolbar Accessibility Label for the tabs button in the browser toolbar</note></trans-unit>
+      </trans-unit>
       <trans-unit id="Show Tour">
         <source>Show Tour</source>
         <note>Show the on-boarding screen again from the settings</note>
       </trans-unit>
-      <trans-unit id="Show search suggestions" approved="yes">
+      <trans-unit id="Show search suggestions">
         <source>Show search suggestions</source>
-        <target state="translated">نمایش پیشنهادهای جست‌وجو</target><note>Label for show search suggestions setting.</note>
-      <note>Label for show search suggestions setting.</note></trans-unit>
-      <trans-unit id="Sign In" approved="yes">
+        <target>نمایش پیشنهادهای جست‌وجو</target>
+        <note>Label for show search suggestions setting.</note>
+      </trans-unit>
+      <trans-unit id="Sign In">
         <source>Sign In</source>
-        <target state="translated">ورود</target><note>Text message / button in the settings table view</note>
-      <note>Text message / button in the settings table view</note></trans-unit>
-      <trans-unit id="Sign in" approved="yes">
+        <target>ورود</target>
+        <note>Text message / button in the settings table view</note>
+      </trans-unit>
+      <trans-unit id="Sign in">
         <source>Sign in</source>
-        <target state="translated">ورود</target><note>Text message / button in the settings table view</note>
-      <note>Text message / button in the settings table view</note></trans-unit>
-      <trans-unit id="Stop" approved="yes">
+        <target>ورود</target>
+        <note>Text message / button in the settings table view</note>
+      </trans-unit>
+      <trans-unit id="Stop">
         <source>Stop</source>
-        <target state="translated">توقف</target><note>Accessibility Label for the browser toolbar Stop button</note>
-      <note>Accessibility Label for the browser toolbar Stop button</note></trans-unit>
-      <trans-unit id="Support" approved="yes">
+        <target>توقف</target>
+        <note>Accessibility Label for the browser toolbar Stop button</note>
+      </trans-unit>
+      <trans-unit id="Support">
         <source>Support</source>
-        <target state="translated">پشتیبانی</target><note>Support section title</note>
-      <note>Support section title</note></trans-unit>
-      <trans-unit id="Swipe right or left with three fingers to close the tab." approved="yes">
+        <target>پشتیبانی</target>
+        <note>Support section title</note>
+      </trans-unit>
+      <trans-unit id="Swipe right or left with three fingers to close the tab.">
         <source>Swipe right or left with three fingers to close the tab.</source>
-        <target state="translated">برای بستن زبانه سه انگشت را به سمت راست یا چپ بکشید.</target><note>Accessibility hint for tab tray's displayed tab.</note>
-      <note>Accessibility hint for tab tray's displayed tab.</note></trans-unit>
-      <trans-unit id="Sync Now" approved="yes">
+        <target>برای بستن زبانه سه انگشت را به سمت راست یا چپ بکشید.</target>
+        <note>Accessibility hint for tab tray's displayed tab.</note>
+      </trans-unit>
+      <trans-unit id="Sync Now">
         <source>Sync Now</source>
-        <target state="translated">هم‌اکنون همگام‌سازی شود</target><note>Sync Firefox Account</note>
-      <note>Sync Firefox Account</note></trans-unit>
-      <trans-unit id="Sync your tabs, bookmarks, passwords and more." approved="yes">
+        <target>هم‌اکنون همگام‌سازی شود</target>
+        <note>Sync Firefox Account</note>
+      </trans-unit>
+      <trans-unit id="Sync your tabs, bookmarks, passwords and more.">
         <source>Sync your tabs, bookmarks, passwords and more.</source>
-        <target state="translated">زبانه‌ها ،نشانک‌ها،گذرواژه‌ها و موارد بیشتر خود را همگام‌سازی کنید.</target><note>See http://mzl.la/1Qtkf0j</note>
-      <note>See http://mzl.la/1Qtkf0j</note></trans-unit>
-      <trans-unit id="Sync your tabs, passwords and more." approved="yes">
+        <target>زبانه‌ها ،نشانک‌ها،گذرواژه‌ها و موارد بیشتر خود را همگام‌سازی کنید.</target>
+        <note>See http://mzl.la/1Qtkf0j</note>
+      </trans-unit>
+      <trans-unit id="Sync your tabs, passwords and more.">
         <source>Sync your tabs, passwords and more.</source>
-        <target state="translated">همگام‌سازی زبانه‌ها، گذرواژه‌ها و بیشتر.</target><note>See http://mzl.la/1Qtkf0j</note>
-      <note>See http://mzl.la/1Qtkf0j</note></trans-unit>
-      <trans-unit id="Synced tabs" approved="yes">
+        <target>همگام‌سازی زبانه‌ها، گذرواژه‌ها و بیشتر.</target>
+        <note>See http://mzl.la/1Qtkf0j</note>
+      </trans-unit>
+      <trans-unit id="Synced tabs">
         <source>Synced tabs</source>
-        <target state="translated">زبانه‌های همگام‌سازی شده</target><note>Panel accessibility label</note>
-      <note>Panel accessibility label</note></trans-unit>
-      <trans-unit id="Syncing…" approved="yes">
+        <target>زبانه‌های همگام‌سازی شده</target>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Syncing…">
         <source>Syncing…</source>
-        <target state="translated">درحال همگام‌سازی…</target><note>Syncing Firefox Account</note>
-      <note>Syncing Firefox Account</note></trans-unit>
-      <trans-unit id="Tab %@ of %@" approved="yes">
+        <target>درحال همگام‌سازی…</target>
+        <note>Syncing Firefox Account</note>
+      </trans-unit>
+      <trans-unit id="Tab %@ of %@">
         <source>Tab %1$@ of %2$@</source>
-        <target state="translated">زبانه %1$@ of %2$@</target><note>Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray, along with the total number of tabs. E.g. \"Tab 2 of 5\" says that tab 2 is visible (and is the only visible tab), out of 5 tabs total.</note>
-      <note>Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray, along with the total number of tabs. E.g. \"Tab 2 of 5\" says that tab 2 is visible (and is the only visible tab), out of 5 tabs total.</note></trans-unit>
-      <trans-unit id="Tabs %@ to %@ of %@" approved="yes">
+        <target>زبانه %1$@ of %2$@</target>
+        <note>Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray, along with the total number of tabs. E.g. \"Tab 2 of 5\" says that tab 2 is visible (and is the only visible tab), out of 5 tabs total.</note>
+      </trans-unit>
+      <trans-unit id="Tabs %@ to %@ of %@">
         <source>Tabs %1$@ to %2$@ of %3$@</source>
-        <target state="translated">زبانه‌های %1$@ to %2$@ of %3$@</target><note>Message spoken by VoiceOver saying the range of tabs that are currently visible in Tabs Tray, along with the total number of tabs. E.g. \"Tabs 8 to 10 of 15\" says tabs 8, 9 and 10 are visible, out of 15 tabs total.</note>
-      <note>Message spoken by VoiceOver saying the range of tabs that are currently visible in Tabs Tray, along with the total number of tabs. E.g. \"Tabs 8 to 10 of 15\" says tabs 8, 9 and 10 are visible, out of 15 tabs total.</note></trans-unit>
+        <target>زبانه‌های %1$@ to %2$@ of %3$@</target>
+        <note>Message spoken by VoiceOver saying the range of tabs that are currently visible in Tabs Tray, along with the total number of tabs. E.g. \"Tabs 8 to 10 of 15\" says tabs 8, 9 and 10 are visible, out of 15 tabs total.</note>
+      </trans-unit>
       <trans-unit id="Tabs Tray">
         <source>Tabs Tray</source>
         <note>Accessibility label for the Tabs Tray view.</note>
       </trans-unit>
-      <trans-unit id="The Mozilla Project" approved="yes">
+      <trans-unit id="The Mozilla Project">
         <source>The Mozilla Project</source>
-        <target state="translated">پروژه موزیلا</target><note>Tile title for Mozilla</note>
-      <note>Tile title for Mozilla</note></trans-unit>
-      <trans-unit id="The page could not be displayed in Reader View." approved="yes">
+        <target>پروژه موزیلا</target>
+        <note>Tile title for Mozilla</note>
+      </trans-unit>
+      <trans-unit id="The page could not be displayed in Reader View.">
         <source>The page could not be displayed in Reader View.</source>
-        <target state="translated">امکان نمایش این صفحه در نمای مطالعه وجود ندارد.</target><note>Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
-      <note>Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note></trans-unit>
+        <target>امکان نمایش این صفحه در نمای مطالعه وجود ندارد.</target>
+        <note>Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
+      </trans-unit>
       <trans-unit id="There is a new version available of Firefox Aurora. Tap OK to go to the download page.">
         <source>There is a new version available of Firefox Aurora. Tap OK to go to the download page.</source>
         <note>Prompt message for application update</note>
@@ -808,74 +949,88 @@
         <source>There was a problem accessing tabs from your other devices. Try again in a few moments.</source>
         <note>Error message in the remote tabs panel</note>
       </trans-unit>
-      <trans-unit id="There was an error converting the page" approved="yes">
+      <trans-unit id="There was an error converting the page">
         <source>There was an error converting the page</source>
-        <target state="translated">خطایی در هنگام تبدیل این صفحه رخ داده است</target><note>Error displayed when reader mode cannot be enabled</note>
-      <note>Error displayed when reader mode cannot be enabled</note></trans-unit>
+        <target>خطایی در هنگام تبدیل این صفحه رخ داده است</target>
+        <note>Error displayed when reader mode cannot be enabled</note>
+      </trans-unit>
       <trans-unit id="This allows you to save the image to your Camera Roll.">
         <source>This allows you to save the image to your Camera Roll.</source>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
-      <trans-unit id="This will open in another application" approved="yes">
+      <trans-unit id="This will open in another application">
         <source>This will open in another application</source>
-        <target state="translated">این در برنامه‌ی دیگری باز است</target><note>Opening an external app</note>
-      <note>Opening an external app</note></trans-unit>
-      <trans-unit id="Today" approved="yes">
+        <target>این در برنامه‌ی دیگری باز است</target>
+        <note>Opening an external app</note>
+      </trans-unit>
+      <trans-unit id="Today">
         <source>Today</source>
-        <target state="translated">امروز</target><note>History tableview section header</note>
-      <note>History tableview section header</note></trans-unit>
-      <trans-unit id="Top sites" approved="yes">
+        <target>امروز</target>
+        <note>History tableview section header</note>
+      </trans-unit>
+      <trans-unit id="Top sites">
         <source>Top sites</source>
-        <target state="translated">پایگاه‌های برتر</target><note>Panel accessibility label</note>
-      <note>Panel accessibility label</note></trans-unit>
-      <trans-unit id="Update" approved="yes">
+        <target>پایگاه‌های برتر</target>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="Update">
         <source>Update</source>
-        <target state="translated">بروزرسانی</target><note>Button to update the user's password</note>
-      <note>Button to update the user's password</note></trans-unit>
-      <trans-unit id="Upgrade Firefox to connect." approved="yes">
+        <target>بروزرسانی</target>
+        <note>Button to update the user's password</note>
+      </trans-unit>
+      <trans-unit id="Upgrade Firefox to connect.">
         <source>Upgrade Firefox to connect.</source>
-        <target state="translated">بروزرسانی فایرفاکس برای اتصال.</target><note>Text message in the settings table view</note>
-      <note>Text message in the settings table view</note></trans-unit>
+        <target>بروزرسانی فایرفاکس برای اتصال.</target>
+        <note>Text message in the settings table view</note>
+      </trans-unit>
       <trans-unit id="Use Compact Tabs">
         <source>Use Compact Tabs</source>
         <note>Setting to enable compact tabs in the tab overview</note>
       </trans-unit>
-      <trans-unit id="Username" approved="yes">
+      <trans-unit id="Username">
         <source>Username</source>
-        <target state="translated">نام‌کاربری</target><note>Username textbox in Authentication prompt</note>
-      <note>Username textbox in Authentication prompt</note></trans-unit>
-      <trans-unit id="Verify your email address." approved="yes">
+        <target>نام‌کاربری</target>
+        <note>Username textbox in Authentication prompt</note>
+      </trans-unit>
+      <trans-unit id="Verify your email address.">
         <source>Verify your email address.</source>
-        <target state="translated">تایید آدرس پست‌الکترونیکی.</target><note>Text message in the settings table view</note>
-      <note>Text message in the settings table view</note></trans-unit>
-      <trans-unit id="Version %@ (%@)" approved="yes">
+        <target>تایید آدرس پست‌الکترونیکی.</target>
+        <note>Text message in the settings table view</note>
+      </trans-unit>
+      <trans-unit id="Version %@ (%@)">
         <source>Version %1$@ (%2$@)</source>
-        <target state="translated">نسخه %1$@ (%2$@)</target><note>Version number of Firefox shown in settings</note>
-      <note>Version number of Firefox shown in settings</note></trans-unit>
-      <trans-unit id="View" approved="yes">
+        <target>نسخه %1$@ (%2$@)</target>
+        <note>Version number of Firefox shown in settings</note>
+      </trans-unit>
+      <trans-unit id="View">
         <source>View</source>
-        <target state="translated">نما</target><note>View a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
-      <note>View a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note></trans-unit>
-      <trans-unit id="Web content" approved="yes">
+        <target>نما</target>
+        <note>View a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
+      </trans-unit>
+      <trans-unit id="Web content">
         <source>Web content</source>
-        <target state="translated">محتوا وب</target><note>Accessibility label for the main web content view</note>
-      <note>Accessibility label for the main web content view</note></trans-unit>
-      <trans-unit id="Welcome to Sync" approved="yes">
+        <target>محتوا وب</target>
+        <note>Accessibility label for the main web content view</note>
+      </trans-unit>
+      <trans-unit id="Welcome to Sync">
         <source>Welcome to Sync</source>
-        <target state="translated">به همگام‌سازی خوش آمدید</target><note>See http://mzl.la/1Qtkf0j</note>
-      <note>See http://mzl.la/1Qtkf0j</note></trans-unit>
-      <trans-unit id="Welcome to your Reading List" approved="yes">
+        <target>به همگام‌سازی خوش آمدید</target>
+        <note>See http://mzl.la/1Qtkf0j</note>
+      </trans-unit>
+      <trans-unit id="Welcome to your Reading List">
         <source>Welcome to your Reading List</source>
-        <target state="translated">به نمای خواندن خوش‌ آمدید</target><note>See http://mzl.la/1LXbDOL</note>
-      <note>See http://mzl.la/1LXbDOL</note></trans-unit>
+        <target>به نمای خواندن خوش‌ آمدید</target>
+        <note>See http://mzl.la/1LXbDOL</note>
+      </trans-unit>
       <trans-unit id="Well, this is embarrassing.">
         <source>Well, this is embarrassing.</source>
         <note>Restore Tabs Prompt Title</note>
       </trans-unit>
-      <trans-unit id="Yesterday" approved="yes">
+      <trans-unit id="Yesterday">
         <source>Yesterday</source>
-        <target state="translated">دیروز</target><note>History tableview section header</note>
-      <note>History tableview section header</note></trans-unit>
+        <target>دیروز</target>
+        <note>History tableview section header</note>
+      </trans-unit>
       <trans-unit id="You don't have any other devices connected to this Firefox Account available to sync.">
         <source>You don't have any other devices connected to this Firefox Account available to sync.</source>
         <note>Error message in the remote tabs panel</note>
@@ -884,50 +1039,61 @@
         <source>You don't have any tabs open in Firefox on your other devices.</source>
         <note>Error message in the remote tabs panel</note>
       </trans-unit>
-      <trans-unit id="Your Rights" approved="yes">
+      <trans-unit id="Your Rights">
         <source>Your Rights</source>
-        <target state="translated">حقوق شما</target><note>Your Rights settings section title</note>
-      <note>Your Rights settings section title</note></trans-unit>
-      <trans-unit id="computer" approved="yes">
+        <target>حقوق شما</target>
+        <note>Your Rights settings section title</note>
+      </trans-unit>
+      <trans-unit id="computer">
         <source>computer</source>
-        <target state="translated">رایانه</target><note>Accessibility label for Desktop Computer (PC) image in remote tabs list</note>
-      <note>Accessibility label for Desktop Computer (PC) image in remote tabs list</note></trans-unit>
-      <trans-unit id="just now" approved="yes">
+        <target>رایانه</target>
+        <note>Accessibility label for Desktop Computer (PC) image in remote tabs list</note>
+      </trans-unit>
+      <trans-unit id="just now">
         <source>just now</source>
-        <target state="translated">هم‌اکنون</target><note>Relative time for a tab that was visited within the last few moments.</note>
-      <note>Relative time for a tab that was visited within the last few moments.</note></trans-unit>
-      <trans-unit id="mobile device" approved="yes">
+        <target>هم‌اکنون</target>
+        <note>Relative time for a tab that was visited within the last few moments.</note>
+      </trans-unit>
+      <trans-unit id="mobile device">
         <source>mobile device</source>
-        <target state="translated">دستگاه همراه</target><note>Accessibility label for Mobile Device image in remote tabs list</note>
-      <note>Accessibility label for Mobile Device image in remote tabs list</note></trans-unit>
-      <trans-unit id="more than a month ago" approved="yes">
+        <target>دستگاه همراه</target>
+        <note>Accessibility label for Mobile Device image in remote tabs list</note>
+      </trans-unit>
+      <trans-unit id="more than a month ago">
         <source>more than a month ago</source>
-        <target state="translated">بیش از یک ماه</target><note>Relative date for dates older than a month and less than two months.</note>
-      <note>Relative date for dates older than a month and less than two months.</note></trans-unit>
-      <trans-unit id="more than a week ago" approved="yes">
+        <target>بیش از یک ماه</target>
+        <note>Relative date for dates older than a month and less than two months.</note>
+      </trans-unit>
+      <trans-unit id="more than a week ago">
         <source>more than a week ago</source>
-        <target state="translated">بیش از چند هفته قبل</target><note>Description for a date more than a week ago, but less than a month ago.</note>
-      <note>Description for a date more than a week ago, but less than a month ago.</note></trans-unit>
-      <trans-unit id="read" approved="yes">
+        <target>بیش از چند هفته قبل</target>
+        <note>Description for a date more than a week ago, but less than a month ago.</note>
+      </trans-unit>
+      <trans-unit id="read">
         <source>read</source>
-        <target state="translated">خواندن</target><note>Accessibility label for read article in reading list. It's a past participle - functions as an adjective.</note>
-      <note>Accessibility label for read article in reading list. It's a past participle - functions as an adjective.</note></trans-unit>
-      <trans-unit id="this week" approved="yes">
+        <target>خواندن</target>
+        <note>Accessibility label for read article in reading list. It's a past participle - functions as an adjective.</note>
+      </trans-unit>
+      <trans-unit id="this week">
         <source>this week</source>
-        <target state="translated">این هفته</target><note>Relative date for date in past week.</note>
-      <note>Relative date for date in past week.</note></trans-unit>
-      <trans-unit id="today at %@" approved="yes">
+        <target>این هفته</target>
+        <note>Relative date for date in past week.</note>
+      </trans-unit>
+      <trans-unit id="today at %@">
         <source>today at %@</source>
-        <target state="translated">امروز در %@</target><note>Relative date for date older than a minute.</note>
-      <note>Relative date for date older than a minute.</note></trans-unit>
-      <trans-unit id="unread" approved="yes">
+        <target>امروز در %@</target>
+        <note>Relative date for date older than a minute.</note>
+      </trans-unit>
+      <trans-unit id="unread">
         <source>unread</source>
-        <target state="translated">خوانده‌ نشده</target><note>Accessibility label for unread article in reading list. It's a past participle - functions as an adjective.</note>
-      <note>Accessibility label for unread article in reading list. It's a past participle - functions as an adjective.</note></trans-unit>
-      <trans-unit id="yesterday" approved="yes">
+        <target>خوانده‌ نشده</target>
+        <note>Accessibility label for unread article in reading list. It's a past participle - functions as an adjective.</note>
+      </trans-unit>
+      <trans-unit id="yesterday">
         <source>yesterday</source>
-        <target state="translated">دیروز</target><note>Relative date for yesterday.</note>
-      <note>Relative date for yesterday.</note></trans-unit>
+        <target>دیروز</target>
+        <note>Relative date for yesterday.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/PrivateBrowsing.strings" source-language="en" datatype="plaintext" target-language="fa">
@@ -1267,3 +1433,4 @@
     </body>
   </file>
 </xliff>
+
