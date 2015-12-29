@@ -381,12 +381,12 @@
    </trans-unit>
    <trans-unit id="Personalize your Firefox just the way you like in Settings.">
     <source>Personalize your Firefox just the way you like in Settings.</source>
-    <target>Dostosuj Firefoksa do własnych upodobań poprzez Ustawienia</target>
+    <target>Dostosuj Firefoksa do własnych upodobań poprzez ustawienia</target>
     <note>See http://mzl.la/1T8gxwo</note>
    </trans-unit>
    <trans-unit id="Personalize your default search engine and more in Settings.">
     <source>Personalize your default search engine and more in Settings.</source>
-    <target>Dostosuj domyślną wyszukiwarkę i inne rzeczy poprzez Ustawienia</target>
+    <target>Dostosuj domyślną wyszukiwarkę i inne rzeczy poprzez ustawienia</target>
     <note>See http://mzl.la/1T8gxwo</note>
    </trans-unit>
    <trans-unit id="Share">
@@ -416,7 +416,7 @@
    </trans-unit>
    <trans-unit id="The Settings button is at the beginning of the Tabs Tray.">
     <source>The Settings button is at the beginning of the Tabs Tray.</source>
-    <target>Przycisk Ustawień znajduje się w lewym górnym rogu widoku otwartych kart.</target>
+    <target>Przycisk ustawień znajduje się w lewym górnym rogu widoku otwartych kart.</target>
     <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
    </trans-unit>
    <trans-unit id="The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs.">
@@ -543,14 +543,19 @@
     <target>Otwórz nową kartę</target>
     <note>Accessibility label for the Add Tab button in the Tab Tray.</note>
    </trans-unit>
+   <trans-unit id="Add to Bookmarks">
+    <source>Add to Bookmarks</source>
+    <target>Dodaj do zakładek</target>
+    <note>Label for preview action on Tab Tray Tab to add current tab to Bookmarks</note>
+   </trans-unit>
    <trans-unit id="Add to Reading List">
     <source>Add to Reading List</source>
-    <target>Dodaj do Czytelni</target>
+    <target>Dodaj do czytelni</target>
     <note>Add URL to the reading list - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
    </trans-unit>
    <trans-unit id="Added page to Reading List">
     <source>Added page to Reading List</source>
-    <target>Dodano do Czytelni</target>
+    <target>Dodano do czytelni</target>
     <note>Accessibility message e.g. spoken by VoiceOver after the current page gets added to the Reading List using the Reader View button, e.g. by long-pressing it or by its accessibility custom action.</note>
    </trans-unit>
       <trans-unit id="Address and Search">
@@ -630,6 +635,11 @@
     <target>Zamknij</target>
     <note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
    </trans-unit>
+   <trans-unit id="Close Tab">
+    <source>Close Tab</source>
+    <target>Zamknij kartę</target>
+    <note>Label for preview action on Tab Tray Tab to close the current tab</note>
+   </trans-unit>
    <trans-unit id="Closing tab">
     <source>Closing tab</source>
     <target>Zamykanie karty</target>
@@ -650,14 +660,19 @@
     <target>Kopiuj adres odnośnika</target>
     <note>Context menu item for copying a link URL to the clipboard</note>
    </trans-unit>
+   <trans-unit id="Copy URL">
+    <source>Copy URL</source>
+    <target>Kopiuj adres URL</target>
+    <note>Label for preview action on Tab Tray Tab to copy the URL of the current tab to clipboard</note>
+   </trans-unit>
    <trans-unit id="Could not add page to Reading List. Maybe it's already there?">
     <source>Could not add page to Reading List. Maybe it's already there?</source>
-    <target>Nie można było dodać strony do Czytelni. Może została dodana już wcześniej?</target>
+    <target>Nie można było dodać strony do czytelni. Może została dodana już wcześniej?</target>
     <note>Accessibility message e.g. spoken by VoiceOver after the user wanted to add current page to the Reading List and this was not done, likely because it already was in the Reading List, but perhaps also because of real failures.</note>
    </trans-unit>
    <trans-unit id="Could not add page to Reading list">
     <source>Could not add page to Reading list</source>
-    <target>Nie można było dodać strony do Czytelni.</target>
+    <target>Nie można było dodać strony do czytelni.</target>
     <note>Accessibility message e.g. spoken by VoiceOver after adding current webpage to the Reading List failed.</note>
    </trans-unit>
    <trans-unit id="Could not load page.">
@@ -968,7 +983,7 @@
    </trans-unit>
    <trans-unit id="Open Settings">
     <source>Open Settings</source>
-    <target>Otwórz Ustawienia</target>
+    <target>Otwórz ustawienia</target>
     <note>See http://mzl.la/1G7uHo7</note>
    </trans-unit>
    <trans-unit id="Open articles in Reader View by tapping the book icon when it appears in the title bar.">
@@ -1048,7 +1063,7 @@
       </trans-unit>
    <trans-unit id="Remove from Reading List">
     <source>Remove from Reading List</source>
-    <target>Usuń z Czytelni</target>
+    <target>Usuń z czytelni</target>
     <note>Name for button removing current article from reading list in reader mode</note>
    </trans-unit>
    <trans-unit id="Remove page">
@@ -1083,7 +1098,7 @@
    </trans-unit>
    <trans-unit id="Save pages to your Reading List by tapping the book plus icon in the Reader View controls.">
     <source>Save pages to your Reading List by tapping the book plus icon in the Reader View controls.</source>
-    <target>Zapisuj strony w Czytelni stukając ikonę książki w widoku poprawionej czytelności.</target>
+    <target>Zapisuj strony w czytelni stukając ikonę książki w widoku poprawionej czytelności.</target>
     <note>See http://mzl.la/1LXbDOL</note>
    </trans-unit>
    <trans-unit id="Search">
@@ -1126,6 +1141,11 @@
     <source>Send a crash report so Mozilla can fix the problem?</source>
     <target>Czy wysłać raport z awarii, aby ułatwić Mozilli naprawę problemu?</target>
     <note>Message displayed in the crash dialog above the buttons used to select when sending reports</note>
+   </trans-unit>
+   <trans-unit id="Send to Device">
+    <source>Send to Device</source>
+    <target>Send to Device</target>
+    <note>No comment provided by engineer.</note>
    </trans-unit>
    <trans-unit id="Sepia">
     <source>Sepia</source>
@@ -1326,7 +1346,7 @@
    </trans-unit>
    <trans-unit id="Welcome to your Reading List">
     <source>Welcome to your Reading List</source>
-    <target>Witaj w Czytelni</target>
+    <target>Witaj w czytelni</target>
     <note>See http://mzl.la/1LXbDOL</note>
    </trans-unit>
    <trans-unit id="Well, this is embarrassing.">
@@ -1602,6 +1622,48 @@
       </trans-unit>
   </body>
  </file>
+ <file original="Client/SendTo.strings" source-language="en" datatype="plaintext" target-language="pl">
+  <header>
+   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2" build-num="7C68"/>
+  </header>
+  <body>
+   <trans-unit id="Available devices:">
+    <source>Available devices:</source>
+    <target>Dostępne urządzenia:</target>
+    <note>Header for the list of devices table</note>
+   </trans-unit>
+   <trans-unit id="Close">
+    <source>Close</source>
+    <target>Zamknij</target>
+    <note>Close button in top navigation bar</note>
+   </trans-unit>
+   <trans-unit id="Please open Firefox, go to Settings and sign in to continue.">
+    <source>Please open Firefox, go to Settings and sign in to continue.</source>
+    <target>Proszę otworzyć Firefoksa, przejść do ustawień i zalogować się, aby kontynuować.</target>
+    <note>See http://mzl.la/1ISlXnU</note>
+   </trans-unit>
+   <trans-unit id="Send">
+    <source>Send</source>
+    <target>Wyślij</target>
+    <note>Navigation bar button to Send the current page to a device</note>
+   </trans-unit>
+   <trans-unit id="Send Tab">
+    <source>Send Tab</source>
+    <target>Wyślij odnośnik do</target>
+    <note>Title of the dialog that allows you to send a tab to a different device</note>
+   </trans-unit>
+   <trans-unit id="You are not signed in to your Firefox Account.">
+    <source>You are not signed in to your Firefox Account.</source>
+    <target>Zaloguj się do konta Firefoksa</target>
+    <note>See http://mzl.la/1ISlXnU</note>
+   </trans-unit>
+   <trans-unit id="You don't have any other devices connected to this Firefox Account available to sync.">
+    <source>You don't have any other devices connected to this Firefox Account available to sync.</source>
+    <target>Brak innych urządzeń połączonych z tym kontem Firefoksa dostępnych do synchronizacji.</target>
+    <note>Error message shown in the remote tabs panel</note>
+   </trans-unit>
+  </body>
+ </file>
  <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="pl">
   <header>
    <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
@@ -1648,48 +1710,6 @@
    <trans-unit id="CFBundleShortVersionString">
     <source>$(MOZ_VERSION)</source>
     <target>$(MOZ_VERSION)</target>
-   </trans-unit>
-  </body>
- </file>
- <file original="Extensions/SendTo/SendTo.strings" source-language="en" datatype="plaintext" target-language="pl">
-  <header>
-   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3" build-num="6D570"/>
-  </header>
-  <body>
-   <trans-unit id="Available devices:">
-    <source>Available devices:</source>
-    <target>Dostępne urządzenia:</target>
-    <note>Header for the list of devices table</note>
-   </trans-unit>
-    <trans-unit id="Close">
-    <source>Close</source>
-    <target>Zamknij</target>
-    <note>Close button in top navigation bar</note>
-   </trans-unit>
-   <trans-unit id="Please open Firefox, go to Settings and sign in to continue.">
-    <source>Please open Firefox, go to Settings and sign in to continue.</source>
-    <target>Proszę otworzyć Firefoksa, przejść do Ustawień i zalogować się, aby kontynuować.</target>
-    <note>See http://mzl.la/1ISlXnU</note>
-   </trans-unit>
-   <trans-unit id="Send">
-    <source>Send</source>
-    <target>Wyślij</target>
-    <note>Navigation bar button to Send the current page to a device</note>
-   </trans-unit>
-   <trans-unit id="Send Tab">
-    <source>Send Tab</source>
-    <target>Wyślij odnośnik do</target>
-    <note>Title of the dialog that allows you to send a tab to a different device</note>
-   </trans-unit>
-   <trans-unit id="You are not signed in to your Firefox Account.">
-    <source>You are not signed in to your Firefox Account.</source>
-    <target>Zaloguj się do konta Firefoksa</target>
-    <note>See http://mzl.la/1ISlXnU</note>
-   </trans-unit>
-   <trans-unit id="You don't have any other devices connected to this Firefox Account available to sync.">
-    <source>You don't have any other devices connected to this Firefox Account available to sync.</source>
-    <target>Brak innych urządzeń połączonych z tym kontem Firefoksa dostępnych do synchronizacji.</target>
-    <note>Error message shown in the remote tabs panel</note>
    </trans-unit>
   </body>
  </file>
