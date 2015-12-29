@@ -33,6 +33,53 @@
       </trans-unit>
     </body>
  </file>
+ <file original="Client/3DTouchActions.strings" source-language="en" datatype="plaintext" target-language="en">
+  <header>
+   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2" build-num="7C68"/>
+  </header>
+  <body>
+   <trans-unit id="Add to Bookmarks">
+    <source>Add to Bookmarks</source>
+    <target>Dodaj do zakładek</target>
+    <note>Label for preview action on Tab Tray Tab to add current tab to Bookmarks</note>
+   </trans-unit>
+   <trans-unit id="Add to Reading List">
+    <source>Add to Reading List</source>
+    <target>Dodaj do czytelni</target>
+    <note>Label for preview action on Tab Tray Tab to add current tab to Reading List</note>
+   </trans-unit>
+   <trans-unit id="Close Tab">
+    <source>Close Tab</source>
+    <target>Zamknij kartę</target>
+    <note>Label for preview action on Tab Tray Tab to close the current tab</note>
+   </trans-unit>
+   <trans-unit id="Copy URL">
+    <source>Copy URL</source>
+    <target>Kopiuj adres URL</target>
+    <note>Label for preview action on Tab Tray Tab to copy the URL of the current tab to clipboard</note>
+   </trans-unit>
+   <trans-unit id="Open Last Bookmark">
+    <source>Open Last Bookmark</source>
+    <target>Otwórz ostatnią zakładkę</target>
+    <note>String describing the action of opening the last added bookmark from the home screen Quick Actions via 3D Touch</note>
+   </trans-unit>
+   <trans-unit id="Open Last Tab">
+    <source>Open Last Tab</source>
+    <target>Otwórz ostatnią kartę</target>
+    <note>String describing the action of opening the last tab sent to Firefox from the home screen Quick Actions via 3D Touch</note>
+   </trans-unit>
+   <trans-unit id="Preview of (tab.webView?.accessibilityLabel)">
+    <source>Preview of (tab.webView?.accessibilityLabel)</source>
+    <target>Podgląd (tab.webView?.accessibilityLabel)</target>
+    <note>Accessibility Label for preview in Tab Tray of current tab</note>
+   </trans-unit>
+   <trans-unit id="Send to Device">
+    <source>Send to Device</source>
+    <target>Wyślij odnośnik do</target>
+    <note>Label for preview action on Tab Tray Tab to send the current tab to another device</note>
+   </trans-unit>
+  </body>
+ </file>
  <file original="Client/AuthenticationManager.strings" source-language="en" datatype="plaintext" target-language="pl">
   <header>
    <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2" build-num="7C68"/>
@@ -543,11 +590,6 @@
     <target>Otwórz nową kartę</target>
     <note>Accessibility label for the Add Tab button in the Tab Tray.</note>
    </trans-unit>
-   <trans-unit id="Add to Bookmarks">
-    <source>Add to Bookmarks</source>
-    <target>Dodaj do zakładek</target>
-    <note>Label for preview action on Tab Tray Tab to add current tab to Bookmarks</note>
-   </trans-unit>
    <trans-unit id="Add to Reading List">
     <source>Add to Reading List</source>
     <target>Dodaj do czytelni</target>
@@ -635,11 +677,6 @@
     <target>Zamknij</target>
     <note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
    </trans-unit>
-   <trans-unit id="Close Tab">
-    <source>Close Tab</source>
-    <target>Zamknij kartę</target>
-    <note>Label for preview action on Tab Tray Tab to close the current tab</note>
-   </trans-unit>
    <trans-unit id="Closing tab">
     <source>Closing tab</source>
     <target>Zamykanie karty</target>
@@ -659,11 +696,6 @@
     <source>Copy Link</source>
     <target>Kopiuj adres odnośnika</target>
     <note>Context menu item for copying a link URL to the clipboard</note>
-   </trans-unit>
-   <trans-unit id="Copy URL">
-    <source>Copy URL</source>
-    <target>Kopiuj adres URL</target>
-    <note>Label for preview action on Tab Tray Tab to copy the URL of the current tab to clipboard</note>
    </trans-unit>
    <trans-unit id="Could not add page to Reading List. Maybe it's already there?">
     <source>Could not add page to Reading List. Maybe it's already there?</source>
@@ -971,16 +1003,6 @@
     <target>Otwórz w nowej karcie</target>
     <note>Context menu item for opening a link in a new tab</note>
    </trans-unit>
-   <trans-unit id="Open Last Bookmark">
-    <source>Open Last Bookmark</source>
-    <target>Otwórz ostatnią zakładkę</target>
-    <note>String describing the action of opening the last added bookmark from the home screen Quick Actions via 3D Touch</note>
-   </trans-unit>
-   <trans-unit id="Open Last Tab">
-    <source>Open Last Tab</source>
-    <target>Otwórz ostatnią kartę</target>
-    <note>String describing the action of opening the last tab sent to Firefox from the home screen Quick Actions via 3D Touch</note>
-   </trans-unit>
    <trans-unit id="Open Settings">
     <source>Open Settings</source>
     <target>Otwórz ustawienia</target>
@@ -1025,11 +1047,6 @@
     <source>Paste &amp; Go</source>
     <note>Paste the URL into the location bar and visit</note>
     <target>Wklej i przejdź</target>
-   </trans-unit>
-   <trans-unit id="Preview of (tab.webView?.accessibilityLabel)">
-    <source>Preview of (tab.webView?.accessibilityLabel)</source>
-    <target>Podgląd (tab.webView?.accessibilityLabel)</target>
-    <note>Accessibility Label for preview in Tab Tray of current tab</note>
    </trans-unit>
    <trans-unit id="Privacy">
     <source>Privacy</source>
@@ -1146,11 +1163,6 @@
     <source>Send a crash report so Mozilla can fix the problem?</source>
     <target>Czy wysłać raport z awarii, aby ułatwić Mozilli naprawę problemu?</target>
     <note>Message displayed in the crash dialog above the buttons used to select when sending reports</note>
-   </trans-unit>
-   <trans-unit id="Send to Device">
-    <source>Send to Device</source>
-    <target>Wyślij odnośnik do</target>
-    <note>Label for preview action on Tab Tray Tab to send the current tab to another device</note>
    </trans-unit>
    <trans-unit id="Sepia">
     <source>Sepia</source>
