@@ -140,10 +140,35 @@
     <target>Natychmiast</target>
     <note>'Immediately' interval item for selecting when to require passcode</note>
    </trans-unit>
+   <trans-unit id="Incorrect passcode. Try again (Attempts remaining: %d).">
+    <source>Incorrect passcode. Try again (Attempts remaining: %d).</source>
+    <target>Nieprawidłowy kod. Spróbuj ponownie (posotałe próby: %d)</target>
+    <note>Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app with attempts remaining</note>
+   </trans-unit>
+   <trans-unit id="Incorrect passcode. Try again.">
+    <source>Incorrect passcode. Try again.</source>
+    <target>Nieprawidłowy kod. Spróbuj ponownie.</target>
+    <note>Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app</note>
+   </trans-unit>
+   <trans-unit id="Maximum attempts reached. Please try again in an hour.">
+    <source>Maximum attempts reached. Please try again in an hour.</source>
+    <target>Osiągnięto maksymalną ilość prób. Proszę spróbować ponownie za godzinę.</target>
+    <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
+   </trans-unit>
+   <trans-unit id="New passcode must be different than existing code.">
+    <source>New passcode must be different than existing code.</source>
+    <target>Nowy kod musi się różnić od istniejącego.</target>
+    <note>Error message displayed when user tries to enter the same passcode as their existing code when changing it.</note>
+   </trans-unit>
    <trans-unit id="Passcode">
     <source>Passcode</source>
     <target>Kod blokady</target>
     <note>List section title for passcode settings</note>
+   </trans-unit>
+   <trans-unit id="Passcodes didn't match. Try again.">
+    <source>Passcodes didn't match. Try again.</source>
+    <target>Wprowadzone kody nie są takie same. Spróbuj ponownie.</target>
+    <note>Error message displayed to user when their confirming passcode doesn't match the first code.</note>
    </trans-unit>
    <trans-unit id="Re-enter passcode">
     <source>Re-enter passcode</source>
