@@ -286,10 +286,20 @@
     <target>Historia przeglądania zostanie usunięta ze wszystkich połączonych urządzeń. Tej operacji nie można cofnąć.</target>
     <note>Description of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
    </trans-unit>
+   <trans-unit id="OK">
+    <source>OK</source>
+    <target>OK</target>
+    <note>The confirmation button that clears history even when Sync is connected.</note>
+   </trans-unit>
    <trans-unit id="Remove history from your Firefox Account?">
     <source>Remove history from your Firefox Account?</source>
     <target>Usuwanie historii z konta Firefoksa</target>
     <note>Title of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
+   </trans-unit>
+   <trans-unit id="This action will clear all of your private data, including history from your synced devices. It cannot be undone.">
+    <source>This action will clear all of your private data, including history from your synced devices.</source>
+    <target>Wszystkie dane prywatne zostaną usuniętę, łącznie z historią przeglądania na synchronizowanych urządzeniach.</target>
+    <note>Description of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
    </trans-unit>
   </body>
  </file>
@@ -348,6 +358,28 @@
     <source>Saved Logins</source>
     <target>Zachowane dane logowania</target>
     <note>Settings item for clearing passwords and login data</note>
+   </trans-unit>
+  </body>
+ </file>
+ <file original="Client/ClearPrivateDataConfirm.strings" source-language="en" datatype="plaintext" target-language="pl">
+  <header>
+   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
+  </header>
+  <body>
+   <trans-unit id="Cancel">
+    <source>Cancel</source>
+    <target>Anuluj</target>
+    <note>The cancel button when confirming clear private data.</note>
+   </trans-unit>
+   <trans-unit id="OK">
+    <source>OK</source>
+    <target>OK</target>
+    <note>The button that clears private data.</note>
+   </trans-unit>
+   <trans-unit id="This action will clear all of your private data. It cannot be undone.">
+    <source>This action will clear all of your private data. It cannot be undone.</source>
+    <target>Wszystkie dane prywatne zostaną usuniętę. Tej operacji nie można cofnąć.</target>
+    <note>Description of the confirmation dialog shown when a user tries to clear their private data.</note>
    </trans-unit>
   </body>
  </file>
