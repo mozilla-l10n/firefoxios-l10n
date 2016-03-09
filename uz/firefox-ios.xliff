@@ -112,8 +112,9 @@
         <target state="translated">Parolni o‘zgartirish</target>
         <note from="developer">Title for screen when changing your passcode</note>
       </trans-unit>
-      <trans-unit id="Enter Passcode">
+      <trans-unit id="Enter Passcode" approved="yes">
         <source>Enter Passcode</source>
+        <target state="translated">Parolni kiriting</target>
         <note from="developer">Screen title for entering a passcode</note>
       </trans-unit>
       <trans-unit id="Enter a new passcode">
@@ -125,8 +126,9 @@
         <target state="translated">Parolni kiritish</target>
         <note from="developer">Title above input for entering a passcode</note>
       </trans-unit>
-      <trans-unit id="Enter passcode">
+      <trans-unit id="Enter passcode" approved="yes">
         <source>Enter passcode</source>
+        <target state="translated">Parolni kiriting</target>
         <note from="developer">Title above input for entering passcode while removing/changing</note>
       </trans-unit>
       <trans-unit id="Immediately" approved="yes">
@@ -134,24 +136,29 @@
         <target state="translated">Tezda</target>
         <note from="developer">'Immediately' interval item for selecting when to require passcode</note>
       </trans-unit>
-      <trans-unit id="Incorrect passcode. Try again (Attempts remaining: %d).">
+      <trans-unit id="Incorrect passcode. Try again (Attempts remaining: %d)." approved="yes">
         <source>Incorrect passcode. Try again (Attempts remaining: %d).</source>
+        <target state="translated">Parol noto‘g‘ri. Qayta kiriting (yana %d marta kiritish mumkin).</target>
         <note from="developer">Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app with attempts remaining</note>
       </trans-unit>
-      <trans-unit id="Incorrect passcode. Try again.">
+      <trans-unit id="Incorrect passcode. Try again." approved="yes">
         <source>Incorrect passcode. Try again.</source>
+        <target state="translated">Parol noto‘g‘ri.Yana urinib ko‘ring.</target>
         <note from="developer">Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app</note>
       </trans-unit>
-      <trans-unit id="Maximum attempts reached. Please try again in an hour.">
+      <trans-unit id="Maximum attempts reached. Please try again in an hour." approved="yes">
         <source>Maximum attempts reached. Please try again in an hour.</source>
+        <target state="translated">Urinishlar soni nihoyasiga yetdi. Bir soatdan keyin yana urinib ko‘ring.</target>
         <note from="developer">Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
       </trans-unit>
-      <trans-unit id="Maximum attempts reached. Please try again later.">
+      <trans-unit id="Maximum attempts reached. Please try again later." approved="yes">
         <source>Maximum attempts reached. Please try again later.</source>
+        <target state="translated">Urinishlar soni nihoyasiga etdi.Keyinroq yana urinib ko‘ring</target>
         <note from="developer">Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
       </trans-unit>
-      <trans-unit id="New passcode must be different than existing code.">
+      <trans-unit id="New passcode must be different than existing code." approved="yes">
         <source>New passcode must be different than existing code.</source>
+        <target state="translated">Yangi parol oldingisidan farq qilishi kerak.</target>
         <note from="developer">Error message displayed when user tries to enter the same passcode as their existing code when changing it.</note>
       </trans-unit>
       <trans-unit id="Passcode" approved="yes">
@@ -159,8 +166,9 @@
         <target state="translated">Parol</target>
         <note from="developer">List section title for passcode settings</note>
       </trans-unit>
-      <trans-unit id="Passcodes didn't match. Try again.">
+      <trans-unit id="Passcodes didn't match. Try again." approved="yes">
         <source>Passcodes didn't match. Try again.</source>
+        <target state="translated">Parollar mos kelmadi. Yana urinib ko‘ring</target>
         <note from="developer">Error message displayed to user when their confirming passcode doesn't match the first code.</note>
       </trans-unit>
       <trans-unit id="Re-enter passcode" approved="yes">
@@ -198,8 +206,9 @@
         <target state="translated">Parolingizni o‘chirib qo‘yish</target>
         <note from="developer">Touch ID prompt subtitle when turning off passcode</note>
       </trans-unit>
-      <trans-unit id="Use Touch ID">
+      <trans-unit id="Use Touch ID" approved="yes">
         <source>Use Touch ID</source>
+        <target state="translated">Touch ID xizmatidan foydalaning</target>
         <note from="developer">List section title for when to use Touch ID</note>
       </trans-unit>
       <trans-unit id="Use your fingerprint to access Logins now." approved="yes">
@@ -236,20 +245,24 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
     </header>
     <body>
-      <trans-unit id="Are you sure you want to delete it and its contents?">
+      <trans-unit id="Are you sure you want to delete it and its contents?" approved="yes">
         <source>Are you sure you want to delete it and its contents?</source>
+        <target state="translated">U va uning ichidagi fayllarni oʻchirmoqchi ekanligingizga ishonchingiz komilmi?</target>
         <note from="developer">Main body of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
       </trans-unit>
-      <trans-unit id="Cancel">
+      <trans-unit id="Cancel" approved="yes">
         <source>Cancel</source>
+        <target state="translated">Bekor qilish</target>
         <note from="developer">Button label to cancel deletion when the user tried to delete a non-empty folder.</note>
       </trans-unit>
-      <trans-unit id="Delete">
+      <trans-unit id="Delete" approved="yes">
         <source>Delete</source>
+        <target state="translated">O‘chirish</target>
         <note from="developer">Button label for the button that deletes a folder and all of its children.</note>
       </trans-unit>
-      <trans-unit id="This folder isn't empty.">
+      <trans-unit id="This folder isn't empty." approved="yes">
         <source>This folder isn't empty.</source>
+        <target state="translated">Bu jild bo‘sh emas.</target>
         <note from="developer">Title of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
       </trans-unit>
     </body>
@@ -274,8 +287,9 @@
         <target state="translated">Barcha ulangan qurilmalardan tarix o‘chiriladi. Keyin tarixni tiklab bo‘lmaydi.</target>
         <note from="developer">Description of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
       </trans-unit>
-      <trans-unit id="OK">
+      <trans-unit id="OK" approved="yes">
         <source>OK</source>
+        <target state="translated">OK</target>
         <note from="developer">The confirmation button that clears history even when Sync is connected.</note>
       </trans-unit>
       <trans-unit id="Remove history from your Firefox Account?" approved="yes">
