@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
@@ -6,9 +6,7 @@
     </header>
     <body>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
+        <source>$(PRODUCT_NAME)</source> <target>$(PRODUCT_NAME)</target> </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
         <target>1.0</target>
@@ -108,60 +106,43 @@
         <note>'After 15 minutes' interval item for selecting when to require passcode</note>
       </trans-unit>
       <trans-unit id="Change Passcode">
-        <source>Change Passcode</source>
-        <target>Ŝanĝi paskodon</target>
-        <note>Title for screen when changing your passcode</note>
+        <source>Change Passcode</source> <target>Ŝanĝi paskodon</target> <note>Title for screen when changing your passcode</note>
       </trans-unit>
-      <trans-unit id="Enter Passcode">
-        <source>Enter Passcode</source>
-        <note>Screen title for entering a passcode</note>
+      <trans-unit id="Enter Passcode" approved="yes">
+        <source>Enter Passcode</source> <target state="translated">Tajpu la paskodon</target><note>Screen title for entering a passcode</note>
       </trans-unit>
-      <trans-unit id="Enter a new passcode">
-        <source>Enter a new passcode</source>
-        <note>Title for screen when updating your existin passcode</note>
+      <trans-unit id="Enter a new passcode" approved="yes">
+        <source>Enter a new passcode</source> <target state="translated">Tajpu novan paskodon</target><note>Title for screen when updating your existin passcode</note>
       </trans-unit>
       <trans-unit id="Enter a passcode">
-        <source>Enter a passcode</source>
-        <target>Tajpu paskodon</target>
-        <note>Title above input for entering a passcode</note>
+        <source>Enter a passcode</source> <target>Tajpu paskodon</target> <note>Title above input for entering a passcode</note>
       </trans-unit>
-      <trans-unit id="Enter passcode">
-        <source>Enter passcode</source>
-        <note>Title above input for entering passcode while removing/changing</note>
+      <trans-unit id="Enter passcode" approved="yes">
+        <source>Enter passcode</source> <target state="translated">Tajpu la paskodon</target><note>Title above input for entering passcode while removing/changing</note>
       </trans-unit>
       <trans-unit id="Immediately">
-        <source>Immediately</source>
-        <target>Tuj</target>
-        <note>'Immediately' interval item for selecting when to require passcode</note>
+        <source>Immediately</source> <target>Tuj</target> <note>'Immediately' interval item for selecting when to require passcode</note>
       </trans-unit>
-      <trans-unit id="Incorrect passcode. Try again (Attempts remaining: %d).">
-        <source>Incorrect passcode. Try again (Attempts remaining: %d).</source>
-        <note>Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app with attempts remaining</note>
+      <trans-unit id="Incorrect passcode. Try again (Attempts remaining: %d)." approved="yes">
+        <source>Incorrect passcode. Try again (Attempts remaining: %d).</source> <target state="translated">Malĝusta paskodo. Provu denove (restas %d klopodoj).</target><note>Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app with attempts remaining</note>
       </trans-unit>
-      <trans-unit id="Incorrect passcode. Try again.">
-        <source>Incorrect passcode. Try again.</source>
-        <note>Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app</note>
+      <trans-unit id="Incorrect passcode. Try again." approved="yes">
+        <source>Incorrect passcode. Try again.</source> <target state="translated">Malĝusta paskodo. Provu denove.</target><note>Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app</note>
       </trans-unit>
-      <trans-unit id="Maximum attempts reached. Please try again in an hour.">
-        <source>Maximum attempts reached. Please try again in an hour.</source>
-        <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
+      <trans-unit id="Maximum attempts reached. Please try again in an hour." approved="yes">
+        <source>Maximum attempts reached. Please try again in an hour.</source> <target state="translated">Maksimuma nombro de klopodoj atingita. Bonvolu provi denove post horo.</target><note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
       </trans-unit>
-      <trans-unit id="Maximum attempts reached. Please try again later.">
-        <source>Maximum attempts reached. Please try again later.</source>
-        <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
+      <trans-unit id="Maximum attempts reached. Please try again later." approved="yes">
+        <source>Maximum attempts reached. Please try again later.</source> <target state="translated">Maksimuma nombro de klopodoj atingita. Bonvolu provi denove poste.</target><note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
       </trans-unit>
-      <trans-unit id="New passcode must be different than existing code.">
-        <source>New passcode must be different than existing code.</source>
-        <note>Error message displayed when user tries to enter the same passcode as their existing code when changing it.</note>
+      <trans-unit id="New passcode must be different than existing code." approved="yes">
+        <source>New passcode must be different than existing code.</source> <target state="translated">Nova paskodo devas estis malsama ol la ekzistanta kodo.</target><note>Error message displayed when user tries to enter the same passcode as their existing code when changing it.</note>
       </trans-unit>
       <trans-unit id="Passcode">
-        <source>Passcode</source>
-        <target>Paskodo</target>
-        <note>List section title for passcode settings</note>
+        <source>Passcode</source> <target>Paskodo</target> <note>List section title for passcode settings</note>
       </trans-unit>
-      <trans-unit id="Passcodes didn't match. Try again.">
-        <source>Passcodes didn't match. Try again.</source>
-        <note>Error message displayed to user when their confirming passcode doesn't match the first code.</note>
+      <trans-unit id="Passcodes didn't match. Try again." approved="yes">
+        <source>Passcodes didn't match. Try again.</source> <target state="translated">Paskodoj ne kongruas. Provu denove.</target><note>Error message displayed to user when their confirming passcode doesn't match the first code.</note>
       </trans-unit>
       <trans-unit id="Re-enter passcode">
         <source>Re-enter passcode</source>
@@ -198,14 +179,11 @@
         <target>Malŝalti vian paskodon.</target>
         <note>Touch ID prompt subtitle when turning off passcode</note>
       </trans-unit>
-      <trans-unit id="Use Touch ID">
-        <source>Use Touch ID</source>
-        <note>List section title for when to use Touch ID</note>
+      <trans-unit id="Use Touch ID" approved="yes">
+        <source>Use Touch ID</source> <target state="translated">Uzi Touch ID</target><note>List section title for when to use Touch ID</note>
       </trans-unit>
       <trans-unit id="Use your fingerprint to access Logins now.">
-        <source>Use your fingerprint to access Logins now.</source>
-        <target>Uzi vian fingrospuron por aliri la kreditilojn nun.</target>
-        <note>Touch ID prompt subtitle when accessing logins</note>
+        <source>Use your fingerprint to access Logins now.</source> <target>Uzi vian fingrospuron por aliri la kreditilojn nun.</target> <note>Touch ID prompt subtitle when accessing logins</note>
       </trans-unit>
       <trans-unit id="Use your fingerprint to access Private Browsing now.">
         <source>Use your fingerprint to access Private Browsing now.</source>
@@ -236,21 +214,17 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
     </header>
     <body>
-      <trans-unit id="Are you sure you want to delete it and its contents?">
-        <source>Are you sure you want to delete it and its contents?</source>
-        <note>Main body of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
+      <trans-unit id="Are you sure you want to delete it and its contents?" approved="yes">
+        <source>Are you sure you want to delete it and its contents?</source> <target state="translated">Ĉu vi certe volas forigi ĝin kaj ĝian enhavon?</target><note>Main body of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
       </trans-unit>
-      <trans-unit id="Cancel">
-        <source>Cancel</source>
-        <note>Button label to cancel deletion when the user tried to delete a non-empty folder.</note>
+      <trans-unit id="Cancel" approved="yes">
+        <source>Cancel</source> <target state="translated">Nuligi</target><note>Button label to cancel deletion when the user tried to delete a non-empty folder.</note>
       </trans-unit>
-      <trans-unit id="Delete">
-        <source>Delete</source>
-        <note>Button label for the button that deletes a folder and all of its children.</note>
+      <trans-unit id="Delete" approved="yes">
+        <source>Delete</source> <target state="translated">Forigi</target><note>Button label for the button that deletes a folder and all of its children.</note>
       </trans-unit>
-      <trans-unit id="This folder isn't empty.">
-        <source>This folder isn't empty.</source>
-        <note>Title of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
+      <trans-unit id="This folder isn't empty." approved="yes">
+        <source>This folder isn't empty.</source> <target state="translated">Tiu ĉi dosierujo ne estas malplena.</target><note>Title of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
       </trans-unit>
     </body>
   </file>
@@ -260,32 +234,24 @@
     </header>
     <body>
       <trans-unit id="Cancel">
-        <source>Cancel</source>
-        <target>Nuligi</target>
-        <note>The cancel button when confirming clear history.</note>
+        <source>Cancel</source> <target>Nuligi</target> <note>The cancel button when confirming clear history.</note>
       </trans-unit>
       <trans-unit id="Clear">
-        <source>Clear</source>
-        <target>Viŝi</target>
-        <note>The button that clears history even when Sync is connected.</note>
+        <source>Clear</source> <target>Viŝi</target> <note>The button that clears history even when Sync is connected.</note>
       </trans-unit>
       <trans-unit id="History will be removed from all your connected devices. This cannot be undone.">
         <source>History will be removed from all your connected devices. This cannot be undone.</source>
         <target>La historio estos forigita el ĉiuj viaj konektitaj aparatoj. Tio ĉi ne estas malfarebla.</target>
         <note>Description of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
       </trans-unit>
-      <trans-unit id="OK">
-        <source>OK</source>
-        <note>The confirmation button that clears history even when Sync is connected.</note>
+      <trans-unit id="OK" approved="yes">
+        <source>OK</source> <target state="translated">Akcepti</target><note>The confirmation button that clears history even when Sync is connected.</note>
       </trans-unit>
       <trans-unit id="Remove history from your Firefox Account?">
-        <source>Remove history from your Firefox Account?</source>
-        <target>Ĉu forigi historion el via konto de Firefox?</target>
-        <note>Title of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
+        <source>Remove history from your Firefox Account?</source> <target>Ĉu forigi historion el via konto de Firefox?</target> <note>Title of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
       </trans-unit>
-      <trans-unit id="This action will clear all of your private data, including history from your synced devices.">
-        <source>This action will clear all of your private data, including history from your synced devices.</source>
-        <note>Description of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
+      <trans-unit id="This action will clear all of your private data, including history from your synced devices." approved="yes">
+        <source>This action will clear all of your private data, including history from your synced devices.</source> <target state="translated">Tiu ĉi ago viŝos ĉiujn viajn privatajn datumojn, kiuj inkluzivas historion el viaj spegulitaj aparatoj.</target><note>Description of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
       </trans-unit>
     </body>
   </file>
@@ -352,17 +318,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
     </header>
     <body>
-      <trans-unit id="Cancel">
-        <source>Cancel</source>
-        <note>The cancel button when confirming clear private data.</note>
+      <trans-unit id="Cancel" approved="yes">
+        <source>Cancel</source> <target state="translated">Nuligi</target><note>The cancel button when confirming clear private data.</note>
       </trans-unit>
-      <trans-unit id="OK">
-        <source>OK</source>
-        <note>The button that clears private data.</note>
+      <trans-unit id="OK" approved="yes">
+        <source>OK</source> <target state="translated">Akcepti</target><note>The button that clears private data.</note>
       </trans-unit>
-      <trans-unit id="This action will clear all of your private data. It cannot be undone.">
-        <source>This action will clear all of your private data. It cannot be undone.</source>
-        <note>Description of the confirmation dialog shown when a user tries to clear their private data.</note>
+      <trans-unit id="This action will clear all of your private data. It cannot be undone." approved="yes">
+        <source>This action will clear all of your private data. It cannot be undone.</source> <target state="translated">Tiu ĉi ago viŝos ĉiujn viajn privatajn datumojn. Ĝi ne estas malfarebla.</target><note>Description of the confirmation dialog shown when a user tries to clear their private data.</note>
       </trans-unit>
     </body>
   </file>
@@ -372,9 +335,7 @@
     </header>
     <body>
       <trans-unit id="Open in Safari">
-        <source>Open in Safari</source>
-        <target>Malfermi en Safari</target>
-        <note>Shown in error pages for files that can't be shown and need to be downloaded.</note>
+        <source>Open in Safari</source> <target>Malfermi en Safari</target> <note>Shown in error pages for files that can't be shown and need to be downloaded.</note>
       </trans-unit>
       <trans-unit id="Try again">
         <source>Try again</source>
@@ -523,9 +484,8 @@
         <target>Komenci retumi</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Sync your Devices.">
-        <source>Sync your Devices.</source>
-        <note>See http://mzl.la/1if9ODp</note>
+      <trans-unit id="Sync your Devices." approved="yes">
+        <source>Sync your Devices.</source> <target state="translated">Speguli viajn aparatojn.</target><note>See http://mzl.la/1if9ODp</note>
       </trans-unit>
       <trans-unit id="Tap, hold and move the Firefox icon into your dock for easy access.">
         <source>Tap, hold and move the Firefox icon into your dock for easy access.</source>
@@ -676,9 +636,8 @@
         <target>Adreso kaj serĉo</target>
         <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
       </trans-unit>
-      <trans-unit id="Allow Third-Party Keyboards">
-        <source>Allow Third-Party Keyboards</source>
-        <note>Setting to enable third-party keyboards</note>
+      <trans-unit id="Allow Third-Party Keyboards" approved="yes">
+        <source>Allow Third-Party Keyboards</source> <target state="translated">Permesi klavarojn de aliaj</target><note>Setting to enable third-party keyboards</note>
       </trans-unit>
       <trans-unit id="Always Send">
         <source>Always Send</source>
@@ -686,8 +645,7 @@
         <note>Used as a button label for crash dialog prompt</note>
       </trans-unit>
       <trans-unit id="Amazon">
-        <source>Amazon</source>
-        <note>Tile title for Amazon</note>
+        <source>Amazon</source> <target></target><note>Tile title for Amazon</note>
       </trans-unit>
       <trans-unit id="Authentication required">
         <source>Authentication required</source>
@@ -714,9 +672,8 @@
         <target>Legosignoj</target>
         <note>Panel accessibility label</note>
       </trans-unit>
-      <trans-unit id="Bookmarks you save will show up here.">
-        <source>Bookmarks you save will show up here.</source>
-        <note>Status label for the empty Bookmarks state.</note>
+      <trans-unit id="Bookmarks you save will show up here." approved="yes">
+        <source>Bookmarks you save will show up here.</source> <target state="translated">Konservitaj legosignoj aperos ĉi tie.</target><note>Status label for the empty Bookmarks state.</note>
       </trans-unit>
       <trans-unit id="Brightness">
         <source>Brightness</source>
@@ -889,14 +846,11 @@
         <source>Facebook</source>
         <note>Tile title for Facebook</note>
       </trans-unit>
-      <trans-unit id="Firefox needs to reopen for this change to take effect.">
-        <source>Firefox needs to reopen for this change to take effect.</source>
-        <note>Setting value prop to enable third-party keyboards</note>
+      <trans-unit id="Firefox needs to reopen for this change to take effect." approved="yes">
+        <source>Firefox needs to reopen for this change to take effect.</source> <target state="translated">Firefox devas esti malfermita de nove por ke tiu ĉi ŝanĝo ekefiku.</target><note>Setting value prop to enable third-party keyboards</note>
       </trans-unit>
       <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.">
-        <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
-        <target>Firefox ne plu spegulos vian konton, sed ĝi ne forigos iun ajn el viaj retumaj datumoj en tiu ĉi aparato.</target>
-        <note>Text of the 'log out firefox account' alert</note>
+        <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source> <target>Firefox ne plu spegulos vian konton, sed ĝi ne forigos iun ajn el viaj retumaj datumoj en tiu ĉi aparato.</target> <note>Text of the 'log out firefox account' alert</note>
       </trans-unit>
       <trans-unit id="Firefox would like to access your Photos">
         <source>Firefox would like to access your Photos</source>
@@ -1294,28 +1248,20 @@
         <note>Show the on-boarding screen again from the settings</note>
       </trans-unit>
       <trans-unit id="Show search suggestions">
-        <source>Show search suggestions</source>
-        <target>Montri sugestojn de serĉilo</target>
-        <note>Label for show search suggestions setting.</note>
+        <source>Show search suggestions</source> <target>Montri sugestojn de serĉilo</target> <note>Label for show search suggestions setting.</note>
       </trans-unit>
-      <trans-unit id="Sign In to Firefox">
-        <source>Sign In to Firefox</source>
-        <note>Text message / button in the settings table view</note>
+      <trans-unit id="Sign In to Firefox" approved="yes">
+        <source>Sign In to Firefox</source> <target state="translated">Komenci seancon en Firefox</target><note>Text message / button in the settings table view</note>
       </trans-unit>
       <trans-unit id="Sign in">
-        <source>Sign in</source>
-        <target>Komenci seancon</target>
-        <note>See http://mzl.la/1Qtkf0j
+        <source>Sign in</source> <target>Komenci seancon</target> <note>See http://mzl.la/1Qtkf0j
    Text message / button in the settings table view</note>
       </trans-unit>
-      <trans-unit id="Sign in to get your tabs, bookmarks, and passwords from your other devices.">
-        <source>Sign in to get your tabs, bookmarks, and passwords from your other devices.</source>
-        <note>Clarify value prop under Sign In to Firefox in Settings.</note>
+      <trans-unit id="Sign in to get your tabs, bookmarks, and passwords from your other devices." approved="yes">
+        <source>Sign in to get your tabs, bookmarks, and passwords from your other devices.</source> <target state="translated">Komenci seancon por ricevi viajn langetojn, legosignojn kaj pasvortojn el viaj aliaj aparatoj.</target><note>Clarify value prop under Sign In to Firefox in Settings.</note>
       </trans-unit>
       <trans-unit id="Stop">
-        <source>Stop</source>
-        <target>Haltigi</target>
-        <note>Accessibility Label for the browser toolbar Stop button</note>
+        <source>Stop</source> <target>Haltigi</target> <note>Accessibility Label for the browser toolbar Stop button</note>
       </trans-unit>
       <trans-unit id="Support">
         <source>Support</source>
@@ -1338,9 +1284,7 @@
         <note>Sync tabs, bookmarks, passwords empty state instructions.</note>
       </trans-unit>
       <trans-unit id="Sync your tabs, passwords and more.">
-        <source>Sync your tabs, passwords and more.</source>
-        <target>Speguli viajn langetojn, pasvortojn, kaj pli.</target>
-        <note>Sync tabs and passwords empty state instructions.</note>
+        <source>Sync your tabs, passwords and more.</source> <target>Speguli viajn langetojn, pasvortojn, kaj pli.</target> <note>Sync tabs and passwords empty state instructions.</note>
       </trans-unit>
       <trans-unit id="Synced tabs">
         <source>Synced tabs</source>
@@ -1466,14 +1410,11 @@
         <target>Nu, tio estas hontiga</target>
         <note>Restore Tabs Prompt Title</note>
       </trans-unit>
-      <trans-unit id="Wikipedia">
-        <source>Wikipedia</source>
-        <note>Tile title for Wikipedia</note>
+      <trans-unit id="Wikipedia" approved="yes">
+        <source>Wikipedia</source> <target state="translated">Vikipedio</target><note>Tile title for Wikipedia</note>
       </trans-unit>
       <trans-unit id="Yes">
-        <source>Yes</source>
-        <target>Jes</target>
-        <note>Button to save the user's password</note>
+        <source>Yes</source> <target>Jes</target> <note>Button to save the user's password</note>
       </trans-unit>
       <trans-unit id="Yesterday">
         <source>Yesterday</source>
@@ -1530,9 +1471,7 @@
         <note>Accessibility label for read article in reading list. It's a past participle - functions as an adjective.</note>
       </trans-unit>
       <trans-unit id="this week">
-        <source>this week</source>
-        <target>ĉi semajne</target>
-        <note>Relative date for date in past week.</note>
+        <source>this week</source> <target>ĉi semajne</target> <note>Relative date for date in past week.</note>
       </trans-unit>
       <trans-unit id="today at %@">
         <source>today at %@</source>
@@ -1561,14 +1500,11 @@
         <target>Ĉu vi certas?</target>
         <note>Prompt title when deleting logins</note>
       </trans-unit>
-      <trans-unit id="Cancel">
-        <source>Cancel</source>
-        <note>Prompt option for cancelling out of deletion</note>
+      <trans-unit id="Cancel" approved="yes">
+        <source>Cancel</source> <target state="translated">Nuligi</target><note>Prompt option for cancelling out of deletion</note>
       </trans-unit>
       <trans-unit id="Clear Search">
-        <source>Clear Search</source>
-        <target>Viŝi serĉon</target>
-        <note>Accessibility message e.g. spoken by VoiceOver after the user taps the close button in the search field to clear the search and exit search mode</note>
+        <source>Clear Search</source> <target>Viŝi serĉon</target> <note>Accessibility message e.g. spoken by VoiceOver after the user taps the close button in the search field to clear the search and exit search mode</note>
       </trans-unit>
       <trans-unit id="Copy">
         <source>Copy</source>
@@ -2090,4 +2026,3 @@
     </body>
   </file>
 </xliff>
-
