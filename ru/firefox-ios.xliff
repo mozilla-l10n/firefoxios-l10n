@@ -9,9 +9,9 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+      <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target state="translated">4.0.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -24,9 +24,9 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+      <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target state="translated">4.0.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -222,12 +222,14 @@
         <target>Для доступа к Приватному просмотру теперь используйте отпечаток.</target>
         <note>Touch ID prompt subtitle when accessing private browsing</note>
       </trans-unit>
-      <trans-unit id="touchid.disable.reason.label">
+      <trans-unit id="touchid.disable.reason.label" approved="yes">
         <source>Use your fingerprint to disable Touch ID.</source>
+        <target state="translated">Используйте отпечаток для отключения Touch ID.</target>
         <note>Touch ID prompt subtitle when disabling Touch ID</note>
       </trans-unit>
-      <trans-unit id="touchid.require.passcode.reason.label">
+      <trans-unit id="touchid.require.passcode.reason.label" approved="yes">
         <source>Use your fingerprint to access configuring your required passcode interval.</source>
+        <target state="translated">Используйте отпечаток, чтобы настроить требуемый интервал запроса кода.</target>
         <note>Touch ID prompt subtitle when accessing  the require passcode setting</note>
       </trans-unit>
     </body>
@@ -462,9 +464,9 @@
         <source>$(MOZ_PRODUCT_NAME)</source>
         <target>$(MOZ_PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+      <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target state="translated">4.0.0</target>
+        <target>4.0.0</target>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription" approved="yes">
         <source>Websites you visit may request your location.</source>
@@ -916,37 +918,44 @@
         <target>Введите пароль для подключения.</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
-      <trans-unit id="ErrorPages.Advanced.Button">
+      <trans-unit id="ErrorPages.Advanced.Button" approved="yes">
         <source>Advanced</source>
+        <target state="translated">Дополнительно</target>
         <note>Label for button to perform advanced actions on the error page</note>
       </trans-unit>
-      <trans-unit id="ErrorPages.AdvancedWarning1.Text">
+      <trans-unit id="ErrorPages.AdvancedWarning1.Text" approved="yes">
         <source>Warning: we can't confirm your connection to this website is secure.</source>
+        <target state="translated">Предупреждение: мы не можем подтвердить, что ваше соединение с этим сайтом является безопасным.</target>
         <note>Warning text when clicking the Advanced button on error pages</note>
       </trans-unit>
-      <trans-unit id="ErrorPages.AdvancedWarning2.Text">
+      <trans-unit id="ErrorPages.AdvancedWarning2.Text" approved="yes">
         <source>It may be a misconfiguration or tampering by an attacker. Proceed if you accept the potential risk.</source>
+        <target state="translated">Это может быть из-за неправильной настройки или атаки злоумышленника. Вы можете продолжить, если принимаете на себя потенциальный риск.</target>
         <note>Additional warning text when clicking the Advanced button on error pages</note>
       </trans-unit>
-      <trans-unit id="ErrorPages.CertWarning.Description">
+      <trans-unit id="ErrorPages.CertWarning.Description" approved="yes">
         <source>The owner of %@ has configured their website improperly. To protect your information from being stolen, Firefox has not connected to this website.</source>
+        <target state="translated">Владелец %@ неправильно настроил свой веб-сайт. Чтобы защитить вашу информацию от кражи, Firefox не соединился с этим веб-сайтом.</target>
         <note>Warning text on the certificate error page</note>
       </trans-unit>
-      <trans-unit id="ErrorPages.CertWarning.Title">
+      <trans-unit id="ErrorPages.CertWarning.Title" approved="yes">
         <source>Your connection is not private</source>
+        <target state="translated">Ваше соединение не защищено</target>
         <note>Title on the certificate error page</note>
       </trans-unit>
-      <trans-unit id="ErrorPages.GoBack.Button">
+      <trans-unit id="ErrorPages.GoBack.Button" approved="yes">
         <source>Go Back</source>
+        <target state="translated">Назад</target>
         <note>Label for button to go back from the error page</note>
       </trans-unit>
-      <trans-unit id="ErrorPages.VisitOnce.Button">
+      <trans-unit id="ErrorPages.VisitOnce.Button" approved="yes">
         <source>Visit site anyway</source>
+        <target state="translated">Всё равно открыть сайт</target>
         <note>Button label to temporarily continue to the site from the certificate error page</note>
       </trans-unit>
       <trans-unit id="Facebook" approved="yes">
         <source>Facebook</source>
-        <target>Facebook</target>
+        <target>Фейсбук</target>
         <note>Tile title for Facebook</note>
       </trans-unit>
       <trans-unit id="Firefox needs to reopen for this change to take effect." approved="yes">
@@ -1097,13 +1106,14 @@
         <target>Панель навигации</target>
         <note>Accessibility label for the navigation toolbar displayed at the bottom of the screen.</note>
       </trans-unit>
-      <trans-unit id="New Private Tab">
+      <trans-unit id="New Private Tab" approved="yes">
         <source>New Private Tab</source>
+        <target state="translated">Новая приватная вкладка</target>
         <note>New Private Tab button label</note>
       </trans-unit>
-      <trans-unit id="New Tab" approved="yes">
+      <trans-unit id="New Tab">
         <source>New Tab</source>
-        <target state="translated">Новая вкладка</target>
+        <target>Новая вкладка</target>
         <note>New Tab button label</note>
       </trans-unit>
       <trans-unit id="New tab: %@: %@" approved="yes">
@@ -1162,8 +1172,9 @@
         <target>Открыть Параметры</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
-      <trans-unit id="Open URL from Clipboard">
+      <trans-unit id="Open URL from Clipboard" approved="yes">
         <source>Open URL from Clipboard</source>
+        <target state="translated">Открыть URL из буфера обмена</target>
         <note>Open URL from clipboard label</note>
       </trans-unit>
       <trans-unit id="Open articles in Reader View by tapping the book icon when it appears in the title bar." approved="yes">
@@ -1324,9 +1335,9 @@
         <target>Отправить сообщение о падении, чтобы Mozilla могла устранить эту проблему?</target>
         <note>Message displayed in the crash dialog above the buttons used to select when sending reports</note>
       </trans-unit>
-      <trans-unit id="SendTo.Cancel.Button" approved="yes">
+      <trans-unit id="SendTo.Cancel.Button">
         <source>Cancel</source>
-        <target state="translated">Отмена</target>
+        <target>Отмена</target>
         <note>Button title for cancelling SendTo screen</note>
       </trans-unit>
       <trans-unit id="Sepia" approved="yes">
@@ -1345,19 +1356,19 @@
         <note>Accessibility label for the Settings button in the Tab Tray.
    Settings</note>
       </trans-unit>
-      <trans-unit id="Settings.ClearPrivateData.Clear.Button" approved="yes">
+      <trans-unit id="Settings.ClearPrivateData.Clear.Button">
         <source>Clear Private Data</source>
-        <target state="translated">Удалить личные данные</target>
+        <target>Удалить личные данные</target>
         <note>Button in settings that clears private data for the selected items.</note>
       </trans-unit>
-      <trans-unit id="Settings.ClearPrivateData.SectionName" approved="yes">
+      <trans-unit id="Settings.ClearPrivateData.SectionName">
         <source>Clear Private Data</source>
-        <target state="translated">Удаление личных данных</target>
+        <target>Удаление личных данных</target>
         <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
       </trans-unit>
-      <trans-unit id="Settings.ClearPrivateData.Title" approved="yes">
+      <trans-unit id="Settings.ClearPrivateData.Title">
         <source>Clear Private Data</source>
-        <target state="translated">Удаление личных данных</target>
+        <target>Удаление личных данных</target>
         <note>Title displayed in header of the setting panel.</note>
       </trans-unit>
       <trans-unit id="Share" approved="yes">
@@ -1370,9 +1381,9 @@
         <target>Поделиться ссылкой</target>
         <note>Context menu item for sharing a link URL</note>
       </trans-unit>
-      <trans-unit id="ShareTo.Cancel.Button" approved="yes">
+      <trans-unit id="ShareTo.Cancel.Button">
         <source>Cancel</source>
-        <target state="translated">Отмена</target>
+        <target>Отмена</target>
         <note>Button title for cancelling Share screen</note>
       </trans-unit>
       <trans-unit id="Show Search Suggestions" approved="yes">
@@ -1507,17 +1518,19 @@
         <target>Топ сайтов</target>
         <note>Panel accessibility label</note>
       </trans-unit>
-      <trans-unit id="TopSites.EmptyState.Description">
+      <trans-unit id="TopSites.EmptyState.Description" approved="yes">
         <source>Your most visited sites will show up here.</source>
+        <target state="translated">Наиболее посещаемые вами сайты отобразятся здесь.</target>
         <note>Description label for the empty Top Sites state.</note>
       </trans-unit>
-      <trans-unit id="TopSites.EmptyState.Title">
+      <trans-unit id="TopSites.EmptyState.Title" approved="yes">
         <source>Welcome to Top Sites</source>
+        <target state="translated">Добро пожаловать в Топ сайтов</target>
         <note>The title for the empty Top Sites state</note>
       </trans-unit>
       <trans-unit id="Twitter" approved="yes">
         <source>Twitter</source>
-        <target>Twitter</target>
+        <target>Твиттер</target>
         <note>Tile title for Twitter</note>
       </trans-unit>
       <trans-unit id="Update" approved="yes">
@@ -1936,9 +1949,9 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+      <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target state="translated">4.0.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -1955,9 +1968,9 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+      <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target state="translated">4.0.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -1974,9 +1987,9 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+      <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target state="translated">4.0.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2007,17 +2020,17 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" approved="yes">
+      <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-        <target state="translated">$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleName" approved="yes">
+      <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
-        <target state="translated">$(PRODUCT_NAME)</target>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+      <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
-        <target state="translated">1.0</target>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2034,9 +2047,9 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+      <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target state="translated">4.0.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2049,9 +2062,9 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+      <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target state="translated">4.0.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2064,9 +2077,9 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+      <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target state="translated">4.0.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2079,9 +2092,9 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+      <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target state="translated">4.0.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2094,9 +2107,9 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+      <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target state="translated">4.0.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2121,9 +2134,9 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+      <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target state="translated">4.0.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2169,9 +2182,9 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+      <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target state="translated">4.0.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2184,9 +2197,9 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+      <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target state="translated">4.0.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2199,9 +2212,9 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+      <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target state="translated">4.0.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2214,9 +2227,9 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString" approved="yes">
+      <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target state="translated">4.0.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
