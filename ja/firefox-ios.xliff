@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="ja">
     <header>
@@ -875,26 +875,6 @@
         <target>ディスプレイ設定</target>
         <note>Name for display settings button in reader mode. Display in the meaning of presentation, not monitor.</note>
       </trans-unit>
-      <trans-unit id="Do you want to save the password for %@ on %@?">
-        <source>Do you want to save the password for %1$@ on %2$@?</source>
-        <target>%2$@ サイトの %1$@ のパスワードを保存しますか？</target>
-        <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
-      </trans-unit>
-      <trans-unit id="Do you want to save the password on %@?">
-        <source>Do you want to save the password on %@?</source>
-        <target>%@? のパスワードを保存しますか？</target>
-        <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
-      </trans-unit>
-      <trans-unit id="Do you want to update the password for %@ on %@?">
-        <source>Do you want to update the password for %1$@ on %2$@?</source>
-        <target>%2$@ サイトの %1$@ のパスワードを更新しますか？</target>
-        <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
-      </trans-unit>
-      <trans-unit id="Do you want to update the password on %@?">
-        <source>Do you want to update the password on %@?</source>
-        <target>%@? のパスワードを更新しますか？</target>
-        <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
-      </trans-unit>
       <trans-unit id="Don't Send">
         <source>Don't Send</source>
         <target>送信しない</target>
@@ -1068,6 +1048,34 @@
         <target>ログイン情報</target>
         <note>Label used as an item in Settings. When touched, the user will be navigated to the Logins/Password manager.</note>
       </trans-unit>
+      <trans-unit id="LoginsHelper.DontSave.Button">
+        <source>Don’t Save</source>
+        <note>Button to not save the user's password</note>
+      </trans-unit>
+      <trans-unit id="LoginsHelper.PromptSaveLogin.Title">
+        <source>Save login %1$@ for %2$@?</source>
+        <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
+      </trans-unit>
+      <trans-unit id="LoginsHelper.PromptSavePassword.Title">
+        <source>Save password for %@?</source>
+        <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
+      </trans-unit>
+      <trans-unit id="LoginsHelper.PromptUpdateLogin.Title">
+        <source>Update login for %1$@ on %2$@?</source>
+        <note>Prompt for updating a login. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
+      </trans-unit>
+      <trans-unit id="LoginsHelper.PromptUpdatePassword.Title">
+        <source>Update password for %@?</source>
+        <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
+      </trans-unit>
+      <trans-unit id="LoginsHelper.SaveLogin.Button">
+        <source>Save Login</source>
+        <note>Button to save the user's password</note>
+      </trans-unit>
+      <trans-unit id="LoginsHelper.Update.Button">
+        <source>Update</source>
+        <note>Button to update the user's password</note>
+      </trans-unit>
       <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?">
         <source>Looks like Firefox crashed previously. Would you like to restore your tabs?</source>
         <target>Firefox は予期せず終了しました。タブを復元しますか？</target>
@@ -1100,16 +1108,6 @@
         <target>ナビゲーションツールバー</target>
         <note>Accessibility label for the navigation toolbar displayed at the bottom of the screen.</note>
       </trans-unit>
-      <trans-unit id="New Private Tab">
-        <source>New Private Tab</source>
-        <target>新規プライベートタブ</target>
-        <note>New Private Tab button label</note>
-      </trans-unit>
-      <trans-unit id="New Tab">
-        <source>New Tab</source>
-        <target>新規タブ</target>
-        <note>New Tab button label</note>
-      </trans-unit>
       <trans-unit id="New tab: %@: %@">
         <source>New tab: %1$@: %2$@</source>
         <target>新規タブ: %1$@: %2$@</target>
@@ -1134,11 +1132,6 @@
         <source>Not Now</source>
         <target>後で</target>
         <note>Label for button to cancel application update prompt</note>
-      </trans-unit>
-      <trans-unit id="Not now">
-        <source>Not now</source>
-        <target>後で</target>
-        <note>Button to not save the user's password</note>
       </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
@@ -1165,11 +1158,6 @@
         <source>Open Settings</source>
         <target>設定を開く</target>
         <note>See http://mzl.la/1G7uHo7</note>
-      </trans-unit>
-      <trans-unit id="Open URL from Clipboard">
-        <source>Open URL from Clipboard</source>
-        <target>クリップボードから URL を開く</target>
-        <note>Open URL from clipboard label</note>
       </trans-unit>
       <trans-unit id="Open articles in Reader View by tapping the book icon when it appears in the title bar.">
         <source>Open articles in Reader View by tapping the book icon when it appears in the title bar.</source>
@@ -1526,11 +1514,6 @@
         <target>Twitter</target>
         <note>Tile title for Twitter</note>
       </trans-unit>
-      <trans-unit id="Update">
-        <source>Update</source>
-        <target>更新</target>
-        <note>Button to update the user's password</note>
-      </trans-unit>
       <trans-unit id="Upgrade Firefox to connect.">
         <source>Upgrade Firefox to connect.</source>
         <target>接続するには Firefox をアップグレードしてください。</target>
@@ -1585,11 +1568,6 @@
         <source>Wikipedia</source>
         <target>Wikipedia</target>
         <note>Tile title for Wikipedia</note>
-      </trans-unit>
-      <trans-unit id="Yes">
-        <source>Yes</source>
-        <target>はい</target>
-        <note>Button to save the user's password</note>
       </trans-unit>
       <trans-unit id="Yesterday">
         <source>Yesterday</source>
@@ -2022,8 +2000,26 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
-        <target>1.0</target>
+        <source>4.0.0</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Extensions/Today/Today.strings" source-language="en" datatype="plaintext" target-language="ja">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
+    </header>
+    <body>
+      <trans-unit id="TodayWidget.GoToCopiedLinkLabel">
+        <source>Go to copied link</source>
+        <note>Go to link on clipboard</note>
+      </trans-unit>
+      <trans-unit id="TodayWidget.NewPrivateTabButtonLabel">
+        <source>New Private Tab</source>
+        <note>New Private Tab button label</note>
+      </trans-unit>
+      <trans-unit id="TodayWidget.NewTabButtonLabel">
+        <source>New Tab</source>
+        <note>New Tab button label</note>
       </trans-unit>
     </body>
   </file>
