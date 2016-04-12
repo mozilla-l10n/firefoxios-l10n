@@ -870,6 +870,22 @@
         <target>Attēlošanās iestatījumi</target>
         <note>Name for display settings button in reader mode. Display in the meaning of presentation, not monitor.</note>
       </trans-unit>
+      <trans-unit id="Do you want to save the password for %@ on %@?">
+        <source>Do you want to save the password for %1$@ on %2$@?</source>
+        <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
+      </trans-unit>
+      <trans-unit id="Do you want to save the password on %@?">
+        <source>Do you want to save the password on %@?</source>
+        <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
+      </trans-unit>
+      <trans-unit id="Do you want to update the password for %@ on %@?">
+        <source>Do you want to update the password for %1$@ on %2$@?</source>
+        <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
+      </trans-unit>
+      <trans-unit id="Do you want to update the password on %@?">
+        <source>Do you want to update the password on %@?</source>
+        <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
+      </trans-unit>
       <trans-unit id="Don't Send">
         <source>Don't Send</source>
         <target>Nesūtīt</target>
@@ -1126,6 +1142,10 @@
         <source>Not Now</source>
         <target>Ne tagad</target>
         <note>Label for button to cancel application update prompt</note>
+      </trans-unit>
+      <trans-unit id="Not now">
+        <source>Not now</source>
+        <note>Button to not save the user's password</note>
       </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
@@ -1502,6 +1522,10 @@
         <target>Twitter</target>
         <note>Tile title for Twitter</note>
       </trans-unit>
+      <trans-unit id="Update">
+        <source>Update</source>
+        <note>Button to update the user's password</note>
+      </trans-unit>
       <trans-unit id="Upgrade Firefox to connect.">
         <source>Upgrade Firefox to connect.</source>
         <target>Atjauniniet Firefox lai pieslēgtos.</target>
@@ -1556,6 +1580,10 @@
         <source>Wikipedia</source>
         <target>Wikipedia</target>
         <note>Tile title for Wikipedia</note>
+      </trans-unit>
+      <trans-unit id="Yes">
+        <source>Yes</source>
+        <note>Button to save the user's password</note>
       </trans-unit>
       <trans-unit id="Yesterday">
         <source>Yesterday</source>
