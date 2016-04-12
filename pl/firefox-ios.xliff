@@ -878,26 +878,6 @@
     <target>Ustawienia wyświetlania</target>
     <note>Name for display settings button in reader mode. Display in the meaning of presentation, not monitor.</note>
    </trans-unit>
-   <trans-unit id="Do you want to save the password for %@ on %@?">
-    <source>Do you want to save the password for %1$@ on %2$@?</source>
-    <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
-    <target>Czy zachować hasło użytkownika „%1$@” dla %2$@?</target>
-   </trans-unit>
-   <trans-unit id="Do you want to save the password on %@?">
-    <source>Do you want to save the password on %@?</source>
-    <target>Czy zachować hasło dla %@?</target>
-    <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
-   </trans-unit>
-   <trans-unit id="Do you want to update the password for %@ on %@?">
-    <source>Do you want to update the password for %1$@ on %2$@?</source>
-    <target>Czy uaktualnić hasło użytkownika „%1$@” dla %2$@?</target>
-    <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
-   </trans-unit>
-   <trans-unit id="Do you want to update the password on %@?">
-    <source>Do you want to update the password on %@?</source>
-    <target>Czy uaktualnić hasło dla %@?</target>
-    <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
-   </trans-unit>
    <trans-unit id="Don't Send">
     <source>Don't Send</source>
     <target>Nie wysyłaj</target>
@@ -1077,6 +1057,41 @@
     <target>Dane logowania</target>
     <note>Label used as an item in Settings. When touched, the user will be navigated to the Logins/Password manager.</note>
    </trans-unit>
+   <trans-unit id="LoginsHelper.DontSave.Button">
+    <source>Don’t Save</source>
+    <target>Nie zachowuj</target>
+    <note>Button to not save the user's password</note>
+   </trans-unit>
+   <trans-unit id="LoginsHelper.PromptSaveLogin.Title">
+    <source>Save login %1$@ for %2$@?</source>
+    <target>Czy zachować hasło użytkownika „%1$@” dla %2$@?</target>
+    <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
+   </trans-unit>
+   <trans-unit id="LoginsHelper.PromptSavePassword.Title">
+    <source>Save password for %@?</source>
+    <target>Czy zachować hasło dla %@?</target>
+    <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
+   </trans-unit>
+   <trans-unit id="LoginsHelper.PromptUpdateLogin.Title">
+    <source>Update login for %1$@ on %2$@?</source>
+    <target>Czy uaktualnić hasło użytkownika „%1$@” dla %2$@?</target>
+    <note>Prompt for updating a login. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
+   </trans-unit>
+   <trans-unit id="LoginsHelper.PromptUpdatePassword.Title">
+    <source>Update password for %@?</source>
+    <target>Czy uaktualnić hasło dla %@?</target>
+    <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
+   </trans-unit>
+   <trans-unit id="LoginsHelper.SaveLogin.Button">
+    <source>Save Login</source>
+    <target>Zachowaj hasło</target>
+    <note>Button to save the user's password</note>
+   </trans-unit>
+   <trans-unit id="LoginsHelper.Update.Button">
+    <source>Update</source>
+    <target>Uaktualnij</target>
+    <note>Button to update the user's password</note>
+   </trans-unit>
    <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?">
     <source>Looks like Firefox crashed previously. Would you like to restore your tabs?</source>
     <target>Wygląda na to, że Firefox uległ poprzednio awarii. Czy przywrócić karty?</target>
@@ -1142,11 +1157,6 @@
    <trans-unit id="Not Now">
     <source>Not Now</source>
     <note>Label for button to cancel application update prompt</note>
-    <target>Nie teraz</target>
-   </trans-unit>
-   <trans-unit id="Not now">
-    <source>Not now</source>
-    <note>Button to not save the user's password</note>
     <target>Nie teraz</target>
    </trans-unit>
    <trans-unit id="OK">
@@ -1536,11 +1546,6 @@
     <target>Twitter</target>
     <note>Tile title for Twitter</note>
    </trans-unit>
-   <trans-unit id="Update">
-    <source>Update</source>
-    <note>Button to update the user's password</note>
-    <target>Aktualizuj</target>
-   </trans-unit>
    <trans-unit id="Upgrade Firefox to connect.">
     <source>Upgrade Firefox to connect.</source>
     <note>Text message in the settings table view</note>
@@ -1595,11 +1600,6 @@
     <source>Wikipedia</source>
     <target>Wikipedia</target>
     <note>Tile title for Wikipedia</note>
-   </trans-unit>
-   <trans-unit id="Yes">
-    <source>Yes</source>
-    <target>Tak</target>
-    <note>Button to save the user's password</note>
    </trans-unit>
    <trans-unit id="Yesterday">
     <source>Yesterday</source>
