@@ -878,6 +878,26 @@
     <target>Ustawienia wyświetlania</target>
     <note>Name for display settings button in reader mode. Display in the meaning of presentation, not monitor.</note>
    </trans-unit>
+   <trans-unit id="Do you want to save the password for %@ on %@?">
+    <source>Do you want to save the password for %1$@ on %2$@?</source>
+    <target>Czy zachować hasło użytkownika „%1$@” dla %2$@?</target>
+    <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
+   </trans-unit>
+   <trans-unit id="Do you want to save the password on %@?">
+    <source>Do you want to save the password on %@?</source>
+    <target>Czy zachować hasło dla %@?</target>
+    <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
+   </trans-unit>
+   <trans-unit id="Do you want to update the password for %@ on %@?">
+    <source>Do you want to update the password for %1$@ on %2$@?</source>
+    <target>Czy uaktualnić hasło użytkownika „%1$@” dla %2$@?</target>
+    <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
+   </trans-unit>
+   <trans-unit id="Do you want to update the password on %@?">
+    <source>Do you want to update the password on %@?</source>
+    <target>Czy uaktualnić hasło dla %@?</target>
+    <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
+   </trans-unit>
    <trans-unit id="Don't Send">
     <source>Don't Send</source>
     <target>Nie wysyłaj</target>
@@ -1148,6 +1168,11 @@
     <source>Not Now</source>
     <note>Label for button to cancel application update prompt</note>
     <target>Nie teraz</target>
+   </trans-unit>
+   <trans-unit id="Not now">
+    <source>Not now</source>
+    <target>Nie teraz</target>
+    <note>Button to not save the user's password</note>
    </trans-unit>
    <trans-unit id="OK">
     <source>OK</source>
@@ -1531,6 +1556,11 @@
     <target>Twitter</target>
     <note>Tile title for Twitter</note>
    </trans-unit>
+   <trans-unit id="Update">
+    <source>Update</source>
+    <target>Uaktualnij</target>
+    <note>Button to update the user's password</note>
+   </trans-unit>
    <trans-unit id="Upgrade Firefox to connect.">
     <source>Upgrade Firefox to connect.</source>
     <note>Text message in the settings table view</note>
@@ -1585,6 +1615,11 @@
     <source>Wikipedia</source>
     <target>Wikipedia</target>
     <note>Tile title for Wikipedia</note>
+   </trans-unit>
+   <trans-unit id="Yes">
+    <source>Yes</source>
+    <target>Tak</target>
+    <note>Button to save the user's password</note>
    </trans-unit>
    <trans-unit id="Yesterday">
     <source>Yesterday</source>
