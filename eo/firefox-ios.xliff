@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
@@ -6,12 +6,9 @@
     </header>
     <body>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>4.0.0</source>
-      </trans-unit>
+        <source>$(PRODUCT_NAME)</source> <target>$(PRODUCT_NAME)</target> </trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <source>4.0.0</source> <target state="translated">4.0.0</target></trans-unit>
     </body>
   </file>
   <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
@@ -20,12 +17,9 @@
     </header>
     <body>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>4.0.0</source>
-      </trans-unit>
+        <source>$(PRODUCT_NAME)</source> <target>$(PRODUCT_NAME)</target> </trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <source>4.0.0</source> <target state="translated">4.0.0</target></trans-unit>
     </body>
   </file>
   <file original="Client/3DTouchActions.strings" source-language="en" datatype="plaintext" target-language="eo">
@@ -34,9 +28,7 @@
     </header>
     <body>
       <trans-unit id="Add to Bookmarks">
-        <source>Add to Bookmarks</source>
-        <target>Aldoni al legosignoj</target>
-        <note>Label for preview action on Tab Tray Tab to add current tab to Bookmarks</note>
+        <source>Add to Bookmarks</source> <target>Aldoni al legosignoj</target> <note>Label for preview action on Tab Tray Tab to add current tab to Bookmarks</note>
       </trans-unit>
       <trans-unit id="Add to Reading List">
         <source>Add to Reading List</source>
@@ -54,9 +46,7 @@
         <note>Label for preview action on Tab Tray Tab to copy the URL of the current tab to clipboard</note>
       </trans-unit>
       <trans-unit id="Open Last Bookmark">
-        <source>Open Last Bookmark</source>
-        <target>Malfermi lastan legosignon</target>
-        <note>String describing the action of opening the last added bookmark from the home screen Quick Actions via 3D Touch</note>
+        <source>Open Last Bookmark</source> <target>Malfermi lastan legosignon</target> <note>String describing the action of opening the last added bookmark from the home screen Quick Actions via 3D Touch</note>
       </trans-unit>
       <trans-unit id="Open Last Tab">
         <source>Open Last Tab</source>
@@ -220,13 +210,11 @@
         <target>Uzi vian fingrospuron por aliri privatan retumon nun.</target>
         <note>Touch ID prompt subtitle when accessing private browsing</note>
       </trans-unit>
-      <trans-unit id="touchid.disable.reason.label">
-        <source>Use your fingerprint to disable Touch ID.</source>
-        <note>Touch ID prompt subtitle when disabling Touch ID</note>
+      <trans-unit id="touchid.disable.reason.label" approved="yes">
+        <source>Use your fingerprint to disable Touch ID.</source> <target state="translated">Uzi vian fingrospuron por malaktivigi Touch ID.</target><note>Touch ID prompt subtitle when disabling Touch ID</note>
       </trans-unit>
       <trans-unit id="touchid.require.passcode.reason.label">
-        <source>Use your fingerprint to access configuring your required passcode interval.</source>
-        <note>Touch ID prompt subtitle when accessing  the require passcode setting</note>
+        <source>Use your fingerprint to access configuring your required passcode interval.</source> <target></target><note>Touch ID prompt subtitle when accessing  the require passcode setting</note>
       </trans-unit>
     </body>
   </file>
@@ -253,9 +241,7 @@
     </header>
     <body>
       <trans-unit id="Are you sure you want to delete it and its contents?">
-        <source>Are you sure you want to delete it and its contents?</source>
-        <target>Ĉu vi certe volas forigi ĝin kaj ĝian enhavon?</target>
-        <note>Main body of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
+        <source>Are you sure you want to delete it and its contents?</source> <target>Ĉu vi certe volas forigi ĝin kaj ĝian enhavon?</target> <note>Main body of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
@@ -460,13 +446,10 @@
         <source>$(MOZ_PRODUCT_NAME)</source>
         <target>$(MOZ_PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>4.0.0</source>
-      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <source>4.0.0</source> <target state="translated">4.0.0</target></trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
-        <source>Websites you visit may request your location.</source>
-        <target>Retejoj vizititaj de vi povas peti vian lokon.</target>
-      </trans-unit>
+        <source>Websites you visit may request your location.</source> <target>Retejoj vizititaj de vi povas peti vian lokon.</target> </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Private Tab</source>
         <target>Nova privata langeto</target>
@@ -711,10 +694,8 @@
         <target>Ĉiam sendi</target>
         <note>Used as a button label for crash dialog prompt</note>
       </trans-unit>
-      <trans-unit id="Amazon">
-        <source>Amazon</source>
-        <target/>
-        <note>Tile title for Amazon</note>
+      <trans-unit id="Amazon" approved="yes">
+        <source>Amazon</source> <target state="translated">Amazon</target> <note>Tile title for Amazon</note>
       </trans-unit>
       <trans-unit id="Authentication required">
         <source>Authentication required</source>
@@ -854,9 +835,7 @@
         <note>Accessibility label for button decreasing font size in display settings of reader mode</note>
       </trans-unit>
       <trans-unit id="Default Search Engine">
-        <source>Default Search Engine</source>
-        <target>Norma serĉilo</target>
-        <note>Accessibility label for default search engine setting.
+        <source>Default Search Engine</source> <target>Norma serĉilo</target> <note>Accessibility label for default search engine setting.
    Title for default search engine picker.
    Title for default search engine settings section.</note>
       </trans-unit>
@@ -870,21 +849,17 @@
         <target>Ekranaj agordoj</target>
         <note>Name for display settings button in reader mode. Display in the meaning of presentation, not monitor.</note>
       </trans-unit>
-      <trans-unit id="Do you want to save the password for %@ on %@?">
-        <source>Do you want to save the password for %1$@ on %2$@?</source>
-        <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
+      <trans-unit id="Do you want to save the password for %@ on %@?" approved="yes">
+        <source>Do you want to save the password for %1$@ on %2$@?</source> <target state="translated">Ĉu vi volas konservi la pasvorton por %1$@ ĉe %2$@?</target><note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
-      <trans-unit id="Do you want to save the password on %@?">
-        <source>Do you want to save the password on %@?</source>
-        <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
+      <trans-unit id="Do you want to save the password on %@?" approved="yes">
+        <source>Do you want to save the password on %@?</source> <target state="translated">Ĉu vi volas konservi la pasvorton ĉe %@?</target><note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
-      <trans-unit id="Do you want to update the password for %@ on %@?">
-        <source>Do you want to update the password for %1$@ on %2$@?</source>
-        <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
+      <trans-unit id="Do you want to update the password for %@ on %@?" approved="yes">
+        <source>Do you want to update the password for %1$@ on %2$@?</source> <target state="translated">Ĉu vi volas ĝisdatigi la pasvorton por %1$@ ĉe %2$@?</target><note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
-      <trans-unit id="Do you want to update the password on %@?">
-        <source>Do you want to update the password on %@?</source>
-        <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
+      <trans-unit id="Do you want to update the password on %@?" approved="yes">
+        <source>Do you want to update the password on %@?</source> <target state="translated">Ĉu vi volas ĝisdatigi la pasvorton ĉe %@?</target><note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="Don't Send">
         <source>Don't Send</source>
@@ -909,9 +884,8 @@
         <target>Tajpu vian pasvorton por konekti.</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
-      <trans-unit id="ErrorPages.Advanced.Button">
-        <source>Advanced</source>
-        <note>Label for button to perform advanced actions on the error page</note>
+      <trans-unit id="ErrorPages.Advanced.Button" approved="yes">
+        <source>Advanced</source> <target state="translated">Spertula</target><note>Label for button to perform advanced actions on the error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.AdvancedWarning1.Text">
         <source>Warning: we can't confirm your connection to this website is secure.</source>
@@ -925,17 +899,14 @@
         <source>The owner of %@ has configured their website improperly. To protect your information from being stolen, Firefox has not connected to this website.</source>
         <note>Warning text on the certificate error page</note>
       </trans-unit>
-      <trans-unit id="ErrorPages.CertWarning.Title">
-        <source>Your connection is not private</source>
-        <note>Title on the certificate error page</note>
+      <trans-unit id="ErrorPages.CertWarning.Title" approved="yes">
+        <source>Your connection is not private</source> <target state="translated">Via konekto ne estas privata</target><note>Title on the certificate error page</note>
       </trans-unit>
-      <trans-unit id="ErrorPages.GoBack.Button">
-        <source>Go Back</source>
-        <note>Label for button to go back from the error page</note>
+      <trans-unit id="ErrorPages.GoBack.Button" approved="yes">
+        <source>Go Back</source> <target state="translated">Reen</target><note>Label for button to go back from the error page</note>
       </trans-unit>
-      <trans-unit id="ErrorPages.VisitOnce.Button">
-        <source>Visit site anyway</source>
-        <note>Button label to temporarily continue to the site from the certificate error page</note>
+      <trans-unit id="ErrorPages.VisitOnce.Button" approved="yes">
+        <source>Visit site anyway</source> <target state="translated">Tamen viziti retejon</target><note>Button label to temporarily continue to the site from the certificate error page</note>
       </trans-unit>
       <trans-unit id="Facebook">
         <source>Facebook</source>
@@ -1058,33 +1029,26 @@
         <target>Akreditiloj</target>
         <note>Label used as an item in Settings. When touched, the user will be navigated to the Logins/Password manager.</note>
       </trans-unit>
-      <trans-unit id="LoginsHelper.DontSave.Button">
-        <source>Don’t Save</source>
-        <note>Button to not save the user's password</note>
+      <trans-unit id="LoginsHelper.DontSave.Button" approved="yes">
+        <source>Don’t Save</source> <target state="translated">Ne konservi</target><note>Button to not save the user's password</note>
       </trans-unit>
-      <trans-unit id="LoginsHelper.PromptSaveLogin.Title">
-        <source>Save login %1$@ for %2$@?</source>
-        <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
+      <trans-unit id="LoginsHelper.PromptSaveLogin.Title" approved="yes">
+        <source>Save login %1$@ for %2$@?</source> <target state="translated">Ĉu konservi akreditilon %1$@ por %2$@?</target><note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
-      <trans-unit id="LoginsHelper.PromptSavePassword.Title">
-        <source>Save password for %@?</source>
-        <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
+      <trans-unit id="LoginsHelper.PromptSavePassword.Title" approved="yes">
+        <source>Save password for %@?</source> <target state="translated">Ĉu konservi pasvorton por %@?</target><note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
-      <trans-unit id="LoginsHelper.PromptUpdateLogin.Title">
-        <source>Update login for %1$@ on %2$@?</source>
-        <note>Prompt for updating a login. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
+      <trans-unit id="LoginsHelper.PromptUpdateLogin.Title" approved="yes">
+        <source>Update login for %1$@ on %2$@?</source> <target state="translated">Ĉu ĝisdatigi akreditilon por %1$@ ĉe %2$@?</target><note>Prompt for updating a login. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
-      <trans-unit id="LoginsHelper.PromptUpdatePassword.Title">
-        <source>Update password for %@?</source>
-        <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
+      <trans-unit id="LoginsHelper.PromptUpdatePassword.Title" approved="yes">
+        <source>Update password for %@?</source> <target state="translated">Ĉu konservi pasvorton por %@?</target><note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
       </trans-unit>
-      <trans-unit id="LoginsHelper.SaveLogin.Button">
-        <source>Save Login</source>
-        <note>Button to save the user's password</note>
+      <trans-unit id="LoginsHelper.SaveLogin.Button" approved="yes">
+        <source>Save Login</source> <target state="translated">Konservi akreditilon</target><note>Button to save the user's password</note>
       </trans-unit>
-      <trans-unit id="LoginsHelper.Update.Button">
-        <source>Update</source>
-        <note>Button to update the user's password</note>
+      <trans-unit id="LoginsHelper.Update.Button" approved="yes">
+        <source>Update</source> <target state="translated">Ĝisdatigi</target><note>Button to update the user's password</note>
       </trans-unit>
       <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?">
         <source>Looks like Firefox crashed previously. Would you like to restore your tabs?</source>
@@ -1143,14 +1107,11 @@
         <target>Ne nun</target>
         <note>Label for button to cancel application update prompt</note>
       </trans-unit>
-      <trans-unit id="Not now">
-        <source>Not now</source>
-        <note>Button to not save the user's password</note>
+      <trans-unit id="Not now" approved="yes">
+        <source>Not now</source> <target state="translated">Ne nun</target><note>Button to not save the user's password</note>
       </trans-unit>
       <trans-unit id="OK">
-        <source>OK</source>
-        <target>Akcepti</target>
-        <note>Label for OK button in the application update prompt
+        <source>OK</source> <target>Akcepti</target> <note>Label for OK button in the application update prompt
    OK button</note>
       </trans-unit>
       <trans-unit id="Okay">
@@ -1331,9 +1292,8 @@
         <target>Ĉu sendi raporton pri paneo, tiel ke Mozilla povas solvi la problemon?</target>
         <note>Message displayed in the crash dialog above the buttons used to select when sending reports</note>
       </trans-unit>
-      <trans-unit id="SendTo.Cancel.Button">
-        <source>Cancel</source>
-        <note>Button title for cancelling SendTo screen</note>
+      <trans-unit id="SendTo.Cancel.Button" approved="yes">
+        <source>Cancel</source> <target state="translated">Nuligi</target><note>Button title for cancelling SendTo screen</note>
       </trans-unit>
       <trans-unit id="Sepia">
         <source>Sepia</source>
@@ -1351,17 +1311,14 @@
         <note>Accessibility label for the Settings button in the Tab Tray.
    Settings</note>
       </trans-unit>
-      <trans-unit id="Settings.ClearPrivateData.Clear.Button">
-        <source>Clear Private Data</source>
-        <note>Button in settings that clears private data for the selected items.</note>
+      <trans-unit id="Settings.ClearPrivateData.Clear.Button" approved="yes">
+        <source>Clear Private Data</source> <target state="translated">Viŝi privatajn datumojn</target><note>Button in settings that clears private data for the selected items.</note>
       </trans-unit>
-      <trans-unit id="Settings.ClearPrivateData.SectionName">
-        <source>Clear Private Data</source>
-        <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
+      <trans-unit id="Settings.ClearPrivateData.SectionName" approved="yes">
+        <source>Clear Private Data</source> <target state="translated">Viŝi privatajn datumojn</target><note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
       </trans-unit>
-      <trans-unit id="Settings.ClearPrivateData.Title">
-        <source>Clear Private Data</source>
-        <note>Title displayed in header of the setting panel.</note>
+      <trans-unit id="Settings.ClearPrivateData.Title" approved="yes">
+        <source>Clear Private Data</source> <target state="translated">Viŝi privatajn datumojn</target><note>Title displayed in header of the setting panel.</note>
       </trans-unit>
       <trans-unit id="Share">
         <source>Share</source>
@@ -1373,14 +1330,11 @@
         <target>Dividi ligilon</target>
         <note>Context menu item for sharing a link URL</note>
       </trans-unit>
-      <trans-unit id="ShareTo.Cancel.Button">
-        <source>Cancel</source>
-        <note>Button title for cancelling Share screen</note>
+      <trans-unit id="ShareTo.Cancel.Button" approved="yes">
+        <source>Cancel</source> <target state="translated">Nuligi</target><note>Button title for cancelling Share screen</note>
       </trans-unit>
       <trans-unit id="Show Search Suggestions">
-        <source>Show Search Suggestions</source>
-        <target>Montri sugestojn de serĉilo</target>
-        <note>Label for show search suggestions setting.</note>
+        <source>Show Search Suggestions</source> <target>Montri sugestojn de serĉilo</target> <note>Label for show search suggestions setting.</note>
       </trans-unit>
       <trans-unit id="Show Tabs">
         <source>Show Tabs</source>
@@ -1510,8 +1464,7 @@
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="TopSites.EmptyState.Description">
-        <source>Your most visited sites will show up here.</source>
-        <note>Description label for the empty Top Sites state.</note>
+        <source>Your most visited sites will show up here.</source> <target></target><note>Description label for the empty Top Sites state.</note>
       </trans-unit>
       <trans-unit id="TopSites.EmptyState.Title">
         <source>Welcome to Top Sites</source>
@@ -1522,9 +1475,8 @@
         <target>Twitter</target>
         <note>Tile title for Twitter</note>
       </trans-unit>
-      <trans-unit id="Update">
-        <source>Update</source>
-        <note>Button to update the user's password</note>
+      <trans-unit id="Update" approved="yes">
+        <source>Update</source> <target state="translated">Ĝisdatigi</target><note>Button to update the user's password</note>
       </trans-unit>
       <trans-unit id="Upgrade Firefox to connect.">
         <source>Upgrade Firefox to connect.</source>
@@ -1581,9 +1533,8 @@
         <target>Vikipedio</target>
         <note>Tile title for Wikipedia</note>
       </trans-unit>
-      <trans-unit id="Yes">
-        <source>Yes</source>
-        <note>Button to save the user's password</note>
+      <trans-unit id="Yes" approved="yes">
+        <source>Yes</source> <target state="translated">Jes</target><note>Button to save the user's password</note>
       </trans-unit>
       <trans-unit id="Yesterday">
         <source>Yesterday</source>
@@ -1936,9 +1887,8 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>4.0.0</source>
-      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <source>4.0.0</source> <target state="translated">4.0.0</target></trans-unit>
     </body>
   </file>
   <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
@@ -1954,9 +1904,8 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>4.0.0</source>
-      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <source>4.0.0</source> <target state="translated">4.0.0</target></trans-unit>
     </body>
   </file>
   <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
@@ -1965,16 +1914,11 @@
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
-        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
-      </trans-unit>
+        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source> <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target> </trans-unit>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>4.0.0</source>
-      </trans-unit>
+        <source>$(PRODUCT_NAME)</source> <target>$(PRODUCT_NAME)</target> </trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <source>4.0.0</source> <target state="translated">4.0.0</target></trans-unit>
     </body>
   </file>
   <file original="Extensions/ShareTo/ShareTo.strings" source-language="en" datatype="plaintext" target-language="eo">
@@ -1983,9 +1927,7 @@
     </header>
     <body>
       <trans-unit id="Add">
-        <source>Add</source>
-        <target>Aldoni</target>
-        <note>Add button in the share dialog</note>
+        <source>Add</source> <target>Aldoni</target> <note>Add button in the share dialog</note>
       </trans-unit>
       <trans-unit id="Add to Bookmarks">
         <source>Add to Bookmarks</source>
@@ -2004,15 +1946,12 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName">
-        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-      </trans-unit>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>4.0.0</source>
-      </trans-unit>
+      <trans-unit id="CFBundleDisplayName" approved="yes">
+        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source> <target state="translated">$(MOZ_BUNDLE_DISPLAY_NAME)</target></trans-unit>
+      <trans-unit id="CFBundleName" approved="yes">
+        <source>$(PRODUCT_NAME)</source> <target state="translated">$(PRODUCT_NAME)</target></trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <source>4.0.0</source> <target state="translated">4.0.0</target></trans-unit>
     </body>
   </file>
   <file original="Extensions/Today/Today.strings" source-language="en" datatype="plaintext" target-language="eo">
@@ -2020,17 +1959,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
     </header>
     <body>
-      <trans-unit id="TodayWidget.GoToCopiedLinkLabel">
-        <source>Go to copied link</source>
-        <note>Go to link on clipboard</note>
+      <trans-unit id="TodayWidget.GoToCopiedLinkLabel" approved="yes">
+        <source>Go to copied link</source> <target state="translated">Iri al kopiita ligilo</target><note>Go to link on clipboard</note>
       </trans-unit>
-      <trans-unit id="TodayWidget.NewPrivateTabButtonLabel">
-        <source>New Private Tab</source>
-        <note>New Private Tab button label</note>
+      <trans-unit id="TodayWidget.NewPrivateTabButtonLabel" approved="yes">
+        <source>New Private Tab</source> <target state="translated">Nova privata langeto</target><note>New Private Tab button label</note>
       </trans-unit>
-      <trans-unit id="TodayWidget.NewTabButtonLabel">
-        <source>New Tab</source>
-        <note>New Tab button label</note>
+      <trans-unit id="TodayWidget.NewTabButtonLabel" approved="yes">
+        <source>New Tab</source> <target state="translated">Nova langeto</target><note>New Tab button label</note>
       </trans-unit>
     </body>
   </file>
@@ -2040,16 +1976,13 @@
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
-        <source>View Later</source>
-        <target>Vidi poste</target>
-      </trans-unit>
+        <source>View Later</source> <target>Vidi poste</target> </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>4.0.0</source>
-      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <source>4.0.0</source> <target state="translated">4.0.0</target></trans-unit>
     </body>
   </file>
   <file original="NativeRefTests/Other/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
@@ -2058,12 +1991,9 @@
     </header>
     <body>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>4.0.0</source>
-      </trans-unit>
+        <source>$(PRODUCT_NAME)</source> <target>$(PRODUCT_NAME)</target> </trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <source>4.0.0</source> <target state="translated">4.0.0</target></trans-unit>
     </body>
   </file>
   <file original="ReadingList/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
@@ -2072,12 +2002,9 @@
     </header>
     <body>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>4.0.0</source>
-      </trans-unit>
+        <source>$(PRODUCT_NAME)</source> <target>$(PRODUCT_NAME)</target> </trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <source>4.0.0</source> <target state="translated">4.0.0</target></trans-unit>
     </body>
   </file>
   <file original="ReadingListTests/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
@@ -2086,12 +2013,9 @@
     </header>
     <body>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>4.0.0</source>
-      </trans-unit>
+        <source>$(PRODUCT_NAME)</source> <target>$(PRODUCT_NAME)</target> </trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <source>4.0.0</source> <target state="translated">4.0.0</target></trans-unit>
     </body>
   </file>
   <file original="Shared/Supporting Files/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
@@ -2100,12 +2024,9 @@
     </header>
     <body>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>4.0.0</source>
-      </trans-unit>
+        <source>$(PRODUCT_NAME)</source> <target>$(PRODUCT_NAME)</target> </trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <source>4.0.0</source> <target state="translated">4.0.0</target></trans-unit>
     </body>
   </file>
   <file original="Shared/Supporting Files/Shared.strings" source-language="en" datatype="plaintext" target-language="eo">
@@ -2114,9 +2035,7 @@
     </header>
     <body>
       <trans-unit id="%@ on %@">
-        <source>%1$@ on %2$@</source>
-        <target>%1$@ en %2$@</target>
-        <note>A brief descriptive name for this app on this device, used for Send Tab and Synced Tabs. The first argument is the app name. The second argument is the device name.</note>
+        <source>%1$@ on %2$@</source> <target>%1$@ en %2$@</target> <note>A brief descriptive name for this app on this device, used for Send Tab and Synced Tabs. The first argument is the app name. The second argument is the device name.</note>
       </trans-unit>
     </body>
   </file>
@@ -2126,12 +2045,9 @@
     </header>
     <body>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>4.0.0</source>
-      </trans-unit>
+        <source>$(PRODUCT_NAME)</source> <target>$(PRODUCT_NAME)</target> </trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <source>4.0.0</source> <target state="translated">4.0.0</target></trans-unit>
     </body>
   </file>
   <file original="Storage.strings" source-language="en" datatype="plaintext" target-language="eo">
@@ -2140,9 +2056,7 @@
     </header>
     <body>
       <trans-unit id="Bookmarks Menu">
-        <source>Bookmarks Menu</source>
-        <target>Menuo de legosignoj</target>
-        <note>The name of the folder that contains desktop bookmarks in the menu. This should match bookmarks.folder.menu.label on Android.</note>
+        <source>Bookmarks Menu</source> <target>Menuo de legosignoj</target> <note>The name of the folder that contains desktop bookmarks in the menu. This should match bookmarks.folder.menu.label on Android.</note>
       </trans-unit>
       <trans-unit id="Bookmarks Toolbar">
         <source>Bookmarks Toolbar</source>
@@ -2176,9 +2090,8 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>4.0.0</source>
-      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <source>4.0.0</source> <target state="translated">4.0.0</target></trans-unit>
     </body>
   </file>
   <file original="Sync/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
@@ -2187,12 +2100,9 @@
     </header>
     <body>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>4.0.0</source>
-      </trans-unit>
+        <source>$(PRODUCT_NAME)</source> <target>$(PRODUCT_NAME)</target> </trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <source>4.0.0</source> <target state="translated">4.0.0</target></trans-unit>
     </body>
   </file>
   <file original="SyncTests/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
@@ -2201,12 +2111,9 @@
     </header>
     <body>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>4.0.0</source>
-      </trans-unit>
+        <source>$(PRODUCT_NAME)</source> <target>$(PRODUCT_NAME)</target> </trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <source>4.0.0</source> <target state="translated">4.0.0</target></trans-unit>
     </body>
   </file>
   <file original="UITests/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
@@ -2215,13 +2122,9 @@
     </header>
     <body>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>4.0.0</source>
-      </trans-unit>
+        <source>$(PRODUCT_NAME)</source> <target>$(PRODUCT_NAME)</target> </trans-unit>
+      <trans-unit id="CFBundleShortVersionString" approved="yes">
+        <source>4.0.0</source> <target state="translated">4.0.0</target></trans-unit>
     </body>
   </file>
 </xliff>
-
