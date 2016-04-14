@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="az">
     <header>
@@ -11,6 +11,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -25,6 +26,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -222,6 +224,7 @@
       </trans-unit>
       <trans-unit id="touchid.disable.reason.label">
         <source>Use your fingerprint to disable Touch ID.</source>
+        <target>Touch ID-ni söndürmək üçün barmağınızı istifadə edin.</target>
         <note>Touch ID prompt subtitle when disabling Touch ID</note>
       </trans-unit>
       <trans-unit id="touchid.require.passcode.reason.label">
@@ -462,6 +465,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
+        <target>4.0.0</target>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Websites you visit may request your location.</source>
@@ -872,18 +876,22 @@
       </trans-unit>
       <trans-unit id="Do you want to save the password for %@ on %@?">
         <source>Do you want to save the password for %1$@ on %2$@?</source>
+        <target>%2$@ saytındakı %1$@ üçün parolu yadda saxlamaq istərdiniz?</target>
         <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="Do you want to save the password on %@?">
         <source>Do you want to save the password on %@?</source>
+        <target>%@ saytındakı parolu yadda saxlamaq istərdiniz?</target>
         <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="Do you want to update the password for %@ on %@?">
         <source>Do you want to update the password for %1$@ on %2$@?</source>
+        <target>%2$@ saytındakı %1$@ üçün parolu yeniləmək istərdiniz?</target>
         <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="Do you want to update the password on %@?">
         <source>Do you want to update the password on %@?</source>
+        <target>%@ saytındakı parolu yeniləmək istərdiniz?</target>
         <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="Don't Send">
@@ -911,10 +919,12 @@
       </trans-unit>
       <trans-unit id="ErrorPages.Advanced.Button">
         <source>Advanced</source>
+        <target>Təkmilləşdirilmiş</target>
         <note>Label for button to perform advanced actions on the error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.AdvancedWarning1.Text">
         <source>Warning: we can't confirm your connection to this website is secure.</source>
+        <target>Diqqət: bu sayta olan bağlantınızın təhlükəsiz olduğunu təsdiqləyə bilmirik.</target>
         <note>Warning text when clicking the Advanced button on error pages</note>
       </trans-unit>
       <trans-unit id="ErrorPages.AdvancedWarning2.Text">
@@ -923,18 +933,22 @@
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Description">
         <source>The owner of %@ has configured their website improperly. To protect your information from being stolen, Firefox has not connected to this website.</source>
+        <target>%@ saytının sahibi saytı səhv konfiqurasiya edib. Məlumatlarınızı oğurlanmaqdan qorumaq üçün Firefox bu sayta qoşulmadı.</target>
         <note>Warning text on the certificate error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Title">
         <source>Your connection is not private</source>
+        <target>Bağlantınız məxfi deyil</target>
         <note>Title on the certificate error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.GoBack.Button">
         <source>Go Back</source>
+        <target>Geri Get</target>
         <note>Label for button to go back from the error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.VisitOnce.Button">
         <source>Visit site anyway</source>
+        <target>Yenə də saytı ziyarət et</target>
         <note>Button label to temporarily continue to the site from the certificate error page</note>
       </trans-unit>
       <trans-unit id="Facebook">
@@ -1060,30 +1074,37 @@
       </trans-unit>
       <trans-unit id="LoginsHelper.DontSave.Button">
         <source>Don’t Save</source>
+        <target>Yadda Saxlama</target>
         <note>Button to not save the user's password</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSaveLogin.Title">
         <source>Save login %1$@ for %2$@?</source>
+        <target>%2$@ üçün %1$@ daxil olması yadda saxlansın?</target>
         <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSavePassword.Title">
         <source>Save password for %@?</source>
+        <target>%@ üçün parol yadda qalsın?</target>
         <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title">
         <source>Update login for %1$@ on %2$@?</source>
+        <target>%2$@ üçün %1$@ daxil olması yenilənsin?</target>
         <note>Prompt for updating a login. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdatePassword.Title">
         <source>Update password for %@?</source>
+        <target>%@ üçün parol yenilənsin?</target>
         <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.SaveLogin.Button">
         <source>Save Login</source>
+        <target>Daxil olmanı yadda saxla</target>
         <note>Button to save the user's password</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.Update.Button">
         <source>Update</source>
+        <target>Yenilə</target>
         <note>Button to update the user's password</note>
       </trans-unit>
       <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?">
@@ -1145,6 +1166,7 @@
       </trans-unit>
       <trans-unit id="Not now">
         <source>Not now</source>
+        <target>İndi deyil</target>
         <note>Button to not save the user's password</note>
       </trans-unit>
       <trans-unit id="OK">
@@ -1333,6 +1355,7 @@
       </trans-unit>
       <trans-unit id="SendTo.Cancel.Button">
         <source>Cancel</source>
+        <target>Ləğv et</target>
         <note>Button title for cancelling SendTo screen</note>
       </trans-unit>
       <trans-unit id="Sepia">
@@ -1353,14 +1376,17 @@
       </trans-unit>
       <trans-unit id="Settings.ClearPrivateData.Clear.Button">
         <source>Clear Private Data</source>
+        <target>Məxfi Məlumatları Təmizlə</target>
         <note>Button in settings that clears private data for the selected items.</note>
       </trans-unit>
       <trans-unit id="Settings.ClearPrivateData.SectionName">
         <source>Clear Private Data</source>
+        <target>Məxfi Məlumatları Təmizlə</target>
         <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
       </trans-unit>
       <trans-unit id="Settings.ClearPrivateData.Title">
         <source>Clear Private Data</source>
+        <target>Məxfi Məlumatları Təmizlə</target>
         <note>Title displayed in header of the setting panel.</note>
       </trans-unit>
       <trans-unit id="Share">
@@ -1375,6 +1401,7 @@
       </trans-unit>
       <trans-unit id="ShareTo.Cancel.Button">
         <source>Cancel</source>
+        <target>Ləğv et</target>
         <note>Button title for cancelling Share screen</note>
       </trans-unit>
       <trans-unit id="Show Search Suggestions">
@@ -1511,10 +1538,12 @@
       </trans-unit>
       <trans-unit id="TopSites.EmptyState.Description">
         <source>Your most visited sites will show up here.</source>
+        <target>Ən çox ziyarət edilən saytlar burada göstəriləcəklər.</target>
         <note>Description label for the empty Top Sites state.</note>
       </trans-unit>
       <trans-unit id="TopSites.EmptyState.Title">
         <source>Welcome to Top Sites</source>
+        <target>Üst Saytlara Xoş Gəldiniz</target>
         <note>The title for the empty Top Sites state</note>
       </trans-unit>
       <trans-unit id="Twitter">
@@ -1524,6 +1553,7 @@
       </trans-unit>
       <trans-unit id="Update">
         <source>Update</source>
+        <target>Yenilə</target>
         <note>Button to update the user's password</note>
       </trans-unit>
       <trans-unit id="Upgrade Firefox to connect.">
@@ -1583,6 +1613,7 @@
       </trans-unit>
       <trans-unit id="Yes">
         <source>Yes</source>
+        <target>Bəli</target>
         <note>Button to save the user's password</note>
       </trans-unit>
       <trans-unit id="Yesterday">
@@ -1938,6 +1969,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -1956,6 +1988,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -1974,6 +2007,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2006,12 +2040,15 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2022,14 +2059,17 @@
     <body>
       <trans-unit id="TodayWidget.GoToCopiedLinkLabel">
         <source>Go to copied link</source>
+        <target>Köçürülmüş keçidə get</target>
         <note>Go to link on clipboard</note>
       </trans-unit>
       <trans-unit id="TodayWidget.NewPrivateTabButtonLabel">
         <source>New Private Tab</source>
+        <target>Yeni Məxfi Vərəq</target>
         <note>New Private Tab button label</note>
       </trans-unit>
       <trans-unit id="TodayWidget.NewTabButtonLabel">
         <source>New Tab</source>
+        <target>Yeni Vərəq</target>
         <note>New Tab button label</note>
       </trans-unit>
     </body>
@@ -2049,6 +2089,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2063,6 +2104,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2077,6 +2119,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2091,6 +2134,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2105,6 +2149,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2131,6 +2176,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2178,6 +2224,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2192,6 +2239,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2206,6 +2254,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2220,6 +2269,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
