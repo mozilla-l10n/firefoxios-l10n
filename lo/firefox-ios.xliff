@@ -224,10 +224,12 @@
       </trans-unit>
       <trans-unit id="touchid.disable.reason.label">
         <source>Use your fingerprint to disable Touch ID.</source>
+        <target>ໃຊ້ລາຍນີ້ວມືຂອງທ່ານເພື່ອປິດໃຊ້ງານ Touch ID.</target>
         <note>Touch ID prompt subtitle when disabling Touch ID</note>
       </trans-unit>
       <trans-unit id="touchid.require.passcode.reason.label">
         <source>Use your fingerprint to access configuring your required passcode interval.</source>
+        <target>ໃຊ້ລາຍນີ້ວມືຂອງທ່ານເພື່ອເຂົ້າເຖິງການກຳນົດຄ່າຊ່ວງເວລາທີ່ຕ້ອງການ Passcode ຂອງທ່ານ.</target>
         <note>Touch ID prompt subtitle when accessing  the require passcode setting</note>
       </trans-unit>
     </body>
@@ -464,7 +466,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>$(MOZ_VERSION)</target>
+        <target>4.0.0</target>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Websites you visit may request your location.</source>
@@ -918,30 +920,37 @@
       </trans-unit>
       <trans-unit id="ErrorPages.Advanced.Button">
         <source>Advanced</source>
+        <target>ຂັ້ນສູງ</target>
         <note>Label for button to perform advanced actions on the error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.AdvancedWarning1.Text">
         <source>Warning: we can't confirm your connection to this website is secure.</source>
+        <target>ຄຳເຕືອນ: ພວກເຮົາບໍ່ສາມາດຍືນຍັນໄດ້ວ່າການເຊື່ອມຕໍ່ຂອງທ່ານໄປຫາເວັບໄຊຕ໌ນີ້ມີຄວາມປອດໄພບໍ່.</target>
         <note>Warning text when clicking the Advanced button on error pages</note>
       </trans-unit>
       <trans-unit id="ErrorPages.AdvancedWarning2.Text">
         <source>It may be a misconfiguration or tampering by an attacker. Proceed if you accept the potential risk.</source>
+        <target>ມັນອາດຈະເກີດມາຈາກການຕັ້ງຄ່າຜິດພາດ ຫລື ເປັນການດັດແປງໂດຍນັກເຈາະຂໍ້ມູນ. ດຳເນີນການຕໍ່ໄປຖ້າຫາກວ່າທ່ານຍອມຮັບຄວາມສ່ຽງທີ່ອາດເກີດຂື້ນນີ້ໄດ້.</target>
         <note>Additional warning text when clicking the Advanced button on error pages</note>
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Description">
         <source>The owner of %@ has configured their website improperly. To protect your information from being stolen, Firefox has not connected to this website.</source>
+        <target>ເຈົ້າຂອງ %@ ໄດ້ຕັ້ງຄ່າເວັບໄຊຕ໌ຂອງພວກເຂົາບໍ່ເຫມາະສົມ. ເພື່ອເປັນການປົກປ້ອງຂໍ້ມູນຂອງທ່ານຈາກການຖືກໂຈລະກຳ, Firefox ຈຶ່ງໄດ້ຕັດການເຊື່ອມຕໍ່ໄປຫາເວັບໄຊຕ໌ນີ້.</target>
         <note>Warning text on the certificate error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Title">
         <source>Your connection is not private</source>
+        <target>ການເຊື່ອມຕໍ່ຂອງທ່ານບໍ່ເປັນສ່ວນຕົວ</target>
         <note>Title on the certificate error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.GoBack.Button">
         <source>Go Back</source>
+        <target>ຍ້ອນກັບ</target>
         <note>Label for button to go back from the error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.VisitOnce.Button">
         <source>Visit site anyway</source>
+        <target>ເຂົ້າໄປເບິງເວັບໄຊຕ໌ຕໍ່ໄປ</target>
         <note>Button label to temporarily continue to the site from the certificate error page</note>
       </trans-unit>
       <trans-unit id="Facebook">
@@ -1067,30 +1076,37 @@
       </trans-unit>
       <trans-unit id="LoginsHelper.DontSave.Button">
         <source>Don’t Save</source>
+        <target>ບໍ່ບັນທຶກ</target>
         <note>Button to not save the user's password</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSaveLogin.Title">
         <source>Save login %1$@ for %2$@?</source>
+        <target>ບັນທຶກການເຂົ້າສູ່ລະບົບ %1$@ for %2$@ ຫລືບໍ່?</target>
         <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSavePassword.Title">
         <source>Save password for %@?</source>
+        <target>ບັນທຶກລະຫັດຜ່ານສຳລັບ %@ ຫລືບໍ່?</target>
         <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title">
         <source>Update login for %1$@ on %2$@?</source>
+        <target>ອັບເດດການເຂົ້າສູ່ລະບົບສຳລັບ %1$@ ໃນ %2$@ ຫລືບໍ່?</target>
         <note>Prompt for updating a login. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdatePassword.Title">
         <source>Update password for %@?</source>
+        <target>ອັບເດດລະຫັດຜ່ານສຳລັບ %@ ຫລືບໍ່?</target>
         <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.SaveLogin.Button">
         <source>Save Login</source>
+        <target>ບັກທຶກການເຂົ້າສູ່ລະບົບ</target>
         <note>Button to save the user's password</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.Update.Button">
         <source>Update</source>
+        <target>ອັບເດດ</target>
         <note>Button to update the user's password</note>
       </trans-unit>
       <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?">
@@ -1341,6 +1357,7 @@
       </trans-unit>
       <trans-unit id="SendTo.Cancel.Button">
         <source>Cancel</source>
+        <target>ຍົກເລີກ</target>
         <note>Button title for cancelling SendTo screen</note>
       </trans-unit>
       <trans-unit id="Sepia">
@@ -1361,14 +1378,17 @@
       </trans-unit>
       <trans-unit id="Settings.ClearPrivateData.Clear.Button">
         <source>Clear Private Data</source>
+        <target>ລົບລ້າງຂໍ້ມູນສ່ວນຕົວ</target>
         <note>Button in settings that clears private data for the selected items.</note>
       </trans-unit>
       <trans-unit id="Settings.ClearPrivateData.SectionName">
         <source>Clear Private Data</source>
+        <target>ລົບລ້າງຂໍ້ມູນສ່ວນຕົວ</target>
         <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
       </trans-unit>
       <trans-unit id="Settings.ClearPrivateData.Title">
         <source>Clear Private Data</source>
+        <target>ລົບລ້າງຂໍ້ມູນສ່ວນຕົວ</target>
         <note>Title displayed in header of the setting panel.</note>
       </trans-unit>
       <trans-unit id="Share">
@@ -1383,6 +1403,7 @@
       </trans-unit>
       <trans-unit id="ShareTo.Cancel.Button">
         <source>Cancel</source>
+        <target>ຍົກເລີກ</target>
         <note>Button title for cancelling Share screen</note>
       </trans-unit>
       <trans-unit id="Show Search Suggestions">
@@ -1519,10 +1540,12 @@
       </trans-unit>
       <trans-unit id="TopSites.EmptyState.Description">
         <source>Your most visited sites will show up here.</source>
+        <target>ເວັບໄຊຕ໌ທີ່ທ່ານມັກເຂົ້າໄປເບິງຕະລອດຈະສະແດງຂື້ນຢູ່ນີ້.</target>
         <note>Description label for the empty Top Sites state.</note>
       </trans-unit>
       <trans-unit id="TopSites.EmptyState.Title">
         <source>Welcome to Top Sites</source>
+        <target>ຍິນດີຕ້ອນຮັບສູ່ເວັບໄຊຕ໌ຍອດນິຍົມ</target>
         <note>The title for the empty Top Sites state</note>
       </trans-unit>
       <trans-unit id="Twitter">
@@ -1948,7 +1971,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>1.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -1967,7 +1990,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>$(MOZ_VERSION)</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -1986,7 +2009,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>$(MOZ_VERSION)</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2019,12 +2042,15 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2035,14 +2061,17 @@
     <body>
       <trans-unit id="TodayWidget.GoToCopiedLinkLabel">
         <source>Go to copied link</source>
+        <target>ເຂົ້າໄປສຳນເນົາລີ້ງ</target>
         <note>Go to link on clipboard</note>
       </trans-unit>
       <trans-unit id="TodayWidget.NewPrivateTabButtonLabel">
         <source>New Private Tab</source>
+        <target>ແທັບສ່ວນຕົວໃຫມ່</target>
         <note>New Private Tab button label</note>
       </trans-unit>
       <trans-unit id="TodayWidget.NewTabButtonLabel">
         <source>New Tab</source>
+        <target>ແທັບໃຫມ່</target>
         <note>New Tab button label</note>
       </trans-unit>
     </body>
@@ -2062,7 +2091,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>$(MOZ_VERSION)</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2077,7 +2106,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>1.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2092,7 +2121,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>1.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2107,7 +2136,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>1.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2122,7 +2151,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>1.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2149,7 +2178,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>1.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2197,7 +2226,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>1.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2212,7 +2241,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>1.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2227,7 +2256,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>1.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2242,7 +2271,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>1.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
