@@ -930,10 +930,12 @@
       </trans-unit>
       <trans-unit id="ErrorPages.AdvancedWarning2.Text">
         <source>It may be a misconfiguration or tampering by an attacker. Proceed if you accept the potential risk.</source>
+        <target>Maaari ito ay isang maling pag-configure o pakikialam ng isang nang-aatake. Magpatuloy kung tatanggapin mo ang mga potensyal na panganib.</target>
         <note>Additional warning text when clicking the Advanced button on error pages</note>
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Description">
         <source>The owner of %@ has configured their website improperly. To protect your information from being stolen, Firefox has not connected to this website.</source>
+        <target>Ang may-ari ng %@ ay maling nai-configure ang kanilang website. Upang maprotektahan and iyong impormasyon at hindi manakaw, Hindi kumonekta ang Firefox sa website.</target>
         <note>Warning text on the certificate error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Title">
@@ -948,6 +950,7 @@
       </trans-unit>
       <trans-unit id="ErrorPages.VisitOnce.Button">
         <source>Visit site anyway</source>
+        <target>Bisitahin pa rin ang site</target>
         <note>Button label to temporarily continue to the site from the certificate error page</note>
       </trans-unit>
       <trans-unit id="Facebook">
@@ -1078,18 +1081,22 @@
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSaveLogin.Title">
         <source>Save login %1$@ for %2$@?</source>
+        <target>I-save and login %1$@ para sa %2$@?</target>
         <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSavePassword.Title">
         <source>Save password for %@?</source>
+        <target>I-save and password para sa %@?</target>
         <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title">
         <source>Update login for %1$@ on %2$@?</source>
+        <target>I-update and login para sa %1$@ sa %2$@?</target>
         <note>Prompt for updating a login. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdatePassword.Title">
         <source>Update password for %@?</source>
+        <target>I-update ang password para sa %@?</target>
         <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.SaveLogin.Button">
@@ -1099,6 +1106,7 @@
       </trans-unit>
       <trans-unit id="LoginsHelper.Update.Button">
         <source>Update</source>
+        <target>I-update</target>
         <note>Button to update the user's password</note>
       </trans-unit>
       <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?">
@@ -1349,6 +1357,7 @@
       </trans-unit>
       <trans-unit id="SendTo.Cancel.Button">
         <source>Cancel</source>
+        <target>Ikansela</target>
         <note>Button title for cancelling SendTo screen</note>
       </trans-unit>
       <trans-unit id="Sepia">
@@ -1369,14 +1378,17 @@
       </trans-unit>
       <trans-unit id="Settings.ClearPrivateData.Clear.Button">
         <source>Clear Private Data</source>
+        <target>Burahin ang Private Data.</target>
         <note>Button in settings that clears private data for the selected items.</note>
       </trans-unit>
       <trans-unit id="Settings.ClearPrivateData.SectionName">
         <source>Clear Private Data</source>
+        <target>Burahin ang Private Data.</target>
         <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
       </trans-unit>
       <trans-unit id="Settings.ClearPrivateData.Title">
         <source>Clear Private Data</source>
+        <target>Burahin ang Private Data.</target>
         <note>Title displayed in header of the setting panel.</note>
       </trans-unit>
       <trans-unit id="Share">
@@ -1391,6 +1403,7 @@
       </trans-unit>
       <trans-unit id="ShareTo.Cancel.Button">
         <source>Cancel</source>
+        <target>Ikansela</target>
         <note>Button title for cancelling Share screen</note>
       </trans-unit>
       <trans-unit id="Show Search Suggestions">
@@ -1527,10 +1540,12 @@
       </trans-unit>
       <trans-unit id="TopSites.EmptyState.Description">
         <source>Your most visited sites will show up here.</source>
+        <target>Dito makikita ang laga mong binibisitang sites.</target>
         <note>Description label for the empty Top Sites state.</note>
       </trans-unit>
       <trans-unit id="TopSites.EmptyState.Title">
         <source>Welcome to Top Sites</source>
+        <target>Ito ang Top Sites</target>
         <note>The title for the empty Top Sites state</note>
       </trans-unit>
       <trans-unit id="Twitter">
@@ -1956,7 +1971,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>1.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -1975,7 +1990,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>$(MOZ_VERSION)</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -1994,7 +2009,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>$(MOZ_VERSION)</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2027,12 +2042,15 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2043,14 +2061,17 @@
     <body>
       <trans-unit id="TodayWidget.GoToCopiedLinkLabel">
         <source>Go to copied link</source>
+        <target>Pumunta sa kinopyang link</target>
         <note>Go to link on clipboard</note>
       </trans-unit>
       <trans-unit id="TodayWidget.NewPrivateTabButtonLabel">
         <source>New Private Tab</source>
+        <target>Bagong Private Tab</target>
         <note>New Private Tab button label</note>
       </trans-unit>
       <trans-unit id="TodayWidget.NewTabButtonLabel">
         <source>New Tab</source>
+        <target>Bagong Tab</target>
         <note>New Tab button label</note>
       </trans-unit>
     </body>
@@ -2070,7 +2091,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>$(MOZ_VERSION)</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2085,7 +2106,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>1.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2100,7 +2121,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>1.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2115,7 +2136,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>1.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2130,7 +2151,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>1.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2157,7 +2178,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>1.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2205,7 +2226,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>1.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2220,7 +2241,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>1.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2235,7 +2256,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>1.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2250,7 +2271,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>4.0.0</source>
-        <target>1.0</target>
+        <target>4.0.0</target>
       </trans-unit>
     </body>
   </file>
