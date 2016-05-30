@@ -1540,6 +1540,11 @@
     <target>Użyj domyślnej</target>
     <note>Button in settings to use the default home page. If no default is set, then this button isn't shown.</note>
    </trans-unit>
+   <trans-unit id="Settings.TroubleShootSync.Title">
+    <source>Troubleshoot</source>
+    <target>Pomoc</target>
+    <note>Title of link to help page to find out how to solve Sync issues</note>
+   </trans-unit>
       <trans-unit id="Share">
         <source>Share</source>
     <note>Accessibility Label for the tab toolbar Share button</note>
@@ -1636,6 +1641,51 @@
     <source>Syncing…</source>
     <target>Synchronizowanie…</target>
     <note>Message displayed when the user's account is syncing with ellipsis at the end</note>
+   </trans-unit>
+   <trans-unit id="SyncState.Bookmark.Title">
+    <source>Bookmarks</source>
+    <target>zakładek</target>
+    <note>The Bookmark sync component, used in SyncState.Partial.Title</note>
+   </trans-unit>
+   <trans-unit id="SyncState.Clients.Title">
+    <source>Remote Clients</source>
+    <target>zdalnych klientów</target>
+    <note>The Remote Clients sync component, used in SyncState.Partial.Title</note>
+   </trans-unit>
+   <trans-unit id="SyncState.Failed.Title">
+    <source>Syncing has failed</source>
+    <target>Nieudana synchronizacja</target>
+    <note>Title for Sync status message when synchronization failed to complete</note>
+   </trans-unit>
+   <trans-unit id="SyncState.History.Title">
+    <source>History</source>
+    <target>historii</target>
+    <note>The History sync component, used in SyncState.Partial.Title</note>
+   </trans-unit>
+   <trans-unit id="SyncState.Logins.Title">
+    <source>Logins</source>
+    <target>danych logowania</target>
+    <note>The Logins sync component, used in SyncState.Partial.Title</note>
+   </trans-unit>
+   <trans-unit id="SyncState.NotStarted.Title">
+    <source>Sync is unavailable</source>
+    <target>Synchronizacja niedostępna</target>
+    <note>Title for Sync status message when Sync failed to start.</note>
+   </trans-unit>
+   <trans-unit id="SyncState.Offline.Title">
+    <source>Sync is offline</source>
+    <target>Poza siecią</target>
+    <note>Title for Sync status message when Sync failed due to being offline</note>
+   </trans-unit>
+   <trans-unit id="SyncState.Partial.Title">
+    <source>Sync is experiencing issues syncing %@</source>
+    <target>Wystąpiły problemy podczas synchronizowania %@.</target>
+    <note>Title for Sync status message when a component of Sync failed to complete, where %@ represents the name of the component, i.e. Sync is experiencing issues syncing Bookmarks</note>
+   </trans-unit>
+   <trans-unit id="SyncState.Tabs.Title">
+    <source>Tabs</source>
+    <target>kart</target>
+    <note>The Tabs sync component, used in SyncState.Partial.Title</note>
    </trans-unit>
    <trans-unit id="Tab %@ of %@">
     <source>Tab %1$@ of %2$@</source>
