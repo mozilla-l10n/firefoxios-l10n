@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
@@ -6,7 +6,9 @@
     </header>
     <body>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source> <target>$(PRODUCT_NAME)</target> </trans-unit>
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>5.0</source>
         <target>5.0</target>
@@ -66,7 +68,7 @@
       <trans-unit id="Preview of %@">
         <source>Preview of %@</source>
         <target>Antaŭvido de %2@</target>
-        <note>Accessibility Label for preview in Tab Tray of current tab</note>
+        <note>Accessibility label, associated to the 3D Touch action on the current tab in the tab tray, used to display a larger preview of the tab.</note>
       </trans-unit>
       <trans-unit id="Send to Device">
         <source>Send to Device</source>
@@ -108,27 +110,27 @@
       <trans-unit id="Change Passcode">
         <source>Change Passcode</source>
         <target>Ŝanĝi paskodon</target>
-        <note>Title for screen when changing your passcode</note>
+        <note>Label used as a setting item and title of the following screen to change the current passcode</note>
       </trans-unit>
       <trans-unit id="Enter Passcode">
         <source>Enter Passcode</source>
         <target>Tajpu la paskodon</target>
-        <note>Screen title for entering a passcode</note>
+        <note>Title of the dialog used to request the passcode</note>
       </trans-unit>
       <trans-unit id="Enter a new passcode">
         <source>Enter a new passcode</source>
         <target>Tajpu novan paskodon</target>
-        <note>Title for screen when updating your existin passcode</note>
+        <note>Text displayed above the input field when changing the existing passcode</note>
       </trans-unit>
       <trans-unit id="Enter a passcode">
         <source>Enter a passcode</source>
         <target>Tajpu paskodon</target>
-        <note>Title above input for entering a passcode</note>
+        <note>Text displayed above the input field when entering a new passcode</note>
       </trans-unit>
       <trans-unit id="Enter passcode">
         <source>Enter passcode</source>
         <target>Tajpu la paskodon</target>
-        <note>Title above input for entering passcode while removing/changing</note>
+        <note>Text displayed above the input field when changing the existing passcode</note>
       </trans-unit>
       <trans-unit id="Immediately">
         <source>Immediately</source>
@@ -163,7 +165,7 @@
       <trans-unit id="Passcode">
         <source>Passcode</source>
         <target>Paskodo</target>
-        <note>List section title for passcode settings</note>
+        <note>Label for the Passcode item in Settings</note>
       </trans-unit>
       <trans-unit id="Passcodes didn't match. Try again.">
         <source>Passcodes didn't match. Try again.</source>
@@ -173,32 +175,32 @@
       <trans-unit id="Re-enter passcode">
         <source>Re-enter passcode</source>
         <target>Retajpu paskodon</target>
-        <note>Title for re-entering a passcode</note>
+        <note>Text displayed above the input field when confirming a passcode</note>
       </trans-unit>
       <trans-unit id="Require Passcode">
         <source>Require Passcode</source>
         <target>Postuli paskodon</target>
-        <note>Title for setting to require a passcode</note>
+        <note>Text displayed in the 'Interval' section, followed by the current interval setting, e.g. 'Immediately'</note>
       </trans-unit>
       <trans-unit id="Set Passcode">
         <source>Set Passcode</source>
         <target>Difini paskodon</target>
-        <note>Screen title for Set Passcode</note>
+        <note>Title of the dialog used to set a passcode</note>
       </trans-unit>
       <trans-unit id="Touch ID &amp; Passcode">
         <source>Touch ID &amp; Passcode</source>
         <target>Touch ID kaj paskodo</target>
-        <note>Title for Touch ID/Passcode settings option</note>
+        <note>Label for the Touch ID/Passcode item in Settings</note>
       </trans-unit>
       <trans-unit id="Turn Passcode Off">
         <source>Turn Passcode Off</source>
         <target>Malŝalti paskodon</target>
-        <note>Title for setting to turn off passcode</note>
+        <note>Label used as a setting item to turn off passcode</note>
       </trans-unit>
       <trans-unit id="Turn Passcode On">
         <source>Turn Passcode On</source>
         <target>Ŝalti paskodon</target>
-        <note>Title for setting to turn on passcode</note>
+        <note>Label used as a setting item to turn on passcode</note>
       </trans-unit>
       <trans-unit id="Turn off your passcode.">
         <source>Turn off your passcode.</source>
@@ -228,7 +230,7 @@
       <trans-unit id="touchid.require.passcode.reason.label">
         <source>Use your fingerprint to access configuring your required passcode interval.</source>
         <target>Uzi vian fingrospuron por povi agordi la intervalon inter petoj de paskodo.</target>
-        <note>Touch ID prompt subtitle when accessing  the require passcode setting</note>
+        <note>Touch ID prompt subtitle when accessing the require passcode setting</note>
       </trans-unit>
     </body>
   </file>
@@ -494,7 +496,7 @@
       <trans-unit id="Choose">
         <source>Choose</source>
         <target>Elekti</target>
-        <note>See http://mzl.la/1if9ODp</note>
+        <note>Title for one of the panels in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Connect Firefox everywhere you use it.">
         <source>Connect Firefox everywhere you use it.</source>
@@ -504,17 +506,17 @@
       <trans-unit id="Customize">
         <source>Customize</source>
         <target>Personecigi</target>
-        <note>See http://mzl.la/1T8gxwo</note>
+        <note>Title for one of the panels in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Easily switch between open pages with tabs.">
         <source>Easily switch between open pages with tabs.</source>
         <target>Per langetoj, facile ŝanĝi inter malfermitaj paĝoj.</target>
-        <note>See http://mzl.la/1if9ODp</note>
+        <note>Description for the 'Organize' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Firefox and the cloud">
         <source>Firefox and the cloud</source>
         <target>Firefox kaj la nubo</target>
-        <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+        <note>Accessibility label for the image displayed in the 'Sync' panel of the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Introductory slide %@ of %@">
         <source>Introductory slide %1$@ of %2$@</source>
@@ -524,7 +526,7 @@
       <trans-unit id="Organize">
         <source>Organize</source>
         <target>Organizi</target>
-        <note>See http://mzl.la/1T8gxwo</note>
+        <note>Title for one of the panels in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Personalize your Firefox just the way you like in Settings.">
         <source>Personalize your Firefox just the way you like in Settings.</source>
@@ -534,12 +536,12 @@
       <trans-unit id="Personalize your default search engine and more in Settings.">
         <source>Personalize your default search engine and more in Settings.</source>
         <target>Personecigi vian norman serĉilon kaj aliajn aferojn en Agordoj.</target>
-        <note>See http://mzl.la/1if9ODp</note>
+        <note>Description for the 'Customize' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Share">
         <source>Share</source>
         <target>Dividi</target>
-        <note>See http://mzl.la/1if9ODp</note>
+        <note>Title for one of the panels in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Sign in to Firefox">
         <source>Sign in to Firefox</source>
@@ -554,27 +556,27 @@
       <trans-unit id="Sync your Devices.">
         <source>Sync your Devices.</source>
         <target>Speguli viajn aparatojn.</target>
-        <note>See http://mzl.la/1if9ODp</note>
+        <note>Title for one of the panels in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Tap, hold and move the Firefox icon into your dock for easy access.">
         <source>Tap, hold and move the Firefox icon into your dock for easy access.</source>
         <target>Tuŝetu, premu kaj movu la emblemon de Firefox al via doko por facile aliri ĝin.</target>
-        <note>See http://mzl.la/1if9ODp</note>
+        <note>Description for the 'Choose' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="The Settings button is at the beginning of the Tabs Tray.">
         <source>The Settings button is at the beginning of the Tabs Tray.</source>
         <target>La butono por agordi estas je la komenco de la pleto de langetoj</target>
-        <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+        <note>Accessibility label for the Settings button in the tab tray.</note>
       </trans-unit>
       <trans-unit id="The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs.">
         <source>The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs.</source>
         <target>La butono por montri langetojn estas apud la adresa kaj serĉa teksta kampo, kaj ĝi montras la nunan nombron de malfermitaj langetoj</target>
-        <note>Accessibility label for an image. See http://mzl.la/1T8gxwo</note>
+        <note>Accessibility label for the UI element used to display the number of open tabs, and open the tab tray.</note>
       </trans-unit>
       <trans-unit id="Use the share sheet to send links from other apps to Firefox.">
         <source>Use the share sheet to send links from other apps to Firefox.</source>
         <target>Uzi la dividan folion por sendi ligilojn el aliaj programoj al Firefox.</target>
-        <note>See http://mzl.la/1if9ODp</note>
+        <note>Description for the 'Share' panel in the First Run tour.</note>
       </trans-unit>
     </body>
   </file>
@@ -728,7 +730,7 @@
       <trans-unit id="Back">
         <source>Back</source>
         <target>Reen</target>
-        <note>Accessibility Label for the tab toolbar Back button</note>
+        <note>Accessibility label for the Back button in the tab toolbar.</note>
       </trans-unit>
       <trans-unit id="Block Pop-up Windows">
         <source>Block Pop-up Windows</source>
@@ -750,29 +752,45 @@
         <target>Konservitaj legosignoj aperos ĉi tie.</target>
         <note>Status label for the empty Bookmarks state.</note>
       </trans-unit>
-      <trans-unit id="Bookmarks.Folder.Label" approved="yes">
-        <source>Folder</source> <target state="translated">Dosierujo</target><note>The label to show the location of the folder where the bookmark is located</note>
+      <trans-unit id="Bookmarks.Folder.Label">
+        <source>Folder</source>
+        <target>Dosierujo</target>
+        <note>The label to show the location of the folder where the bookmark is located</note>
       </trans-unit>
-      <trans-unit id="Bookmarks.FolderLocation.Label" approved="yes">
-        <source>Location</source> <target state="translated">Loko</target><note>The label for the location of the new folder</note>
+      <trans-unit id="Bookmarks.FolderLocation.Label">
+        <source>Location</source>
+        <target>Loko</target>
+        <note>The label for the location of the new folder</note>
       </trans-unit>
-      <trans-unit id="Bookmarks.FolderName.Label" approved="yes">
-        <source>Folder Name</source> <target state="translated">Nomo de dosierujo</target><note>The label for the title of the new folder</note>
+      <trans-unit id="Bookmarks.FolderName.Label">
+        <source>Folder Name</source>
+        <target>Nomo de dosierujo</target>
+        <note>The label for the title of the new folder</note>
       </trans-unit>
-      <trans-unit id="Bookmarks.NewFolder.Label" approved="yes">
-        <source>New Folder</source> <target state="translated">Nova dosierujo</target><note>The button to create a new folder</note>
+      <trans-unit id="Bookmarks.NewFolder.Label">
+        <source>New Folder</source>
+        <target>Nova dosierujo</target>
+        <note>The button to create a new folder</note>
       </trans-unit>
-      <trans-unit id="Bookmarks.Title.Label" approved="yes">
-        <source>Title</source> <target state="translated">Titolo</target><note>The label for the title of a bookmark</note>
+      <trans-unit id="Bookmarks.Title.Label">
+        <source>Title</source>
+        <target>Titolo</target>
+        <note>The label for the title of a bookmark</note>
       </trans-unit>
-      <trans-unit id="Bookmarks.URL.Label" approved="yes">
-        <source>URL</source> <target state="translated">Retadreso</target><note>The label for the URL of a bookmark</note>
+      <trans-unit id="Bookmarks.URL.Label">
+        <source>URL</source>
+        <target>Retadreso</target>
+        <note>The label for the URL of a bookmark</note>
       </trans-unit>
       <trans-unit id="Brightness">
-        <source>Brightness</source> <target>Brileco</target> <note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note>
+        <source>Brightness</source>
+        <target>Brileco</target>
+        <note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note>
       </trans-unit>
       <trans-unit id="Call">
-        <source>Call</source> <target>Voki</target> <note>Alert Call Button</note>
+        <source>Call</source>
+        <target>Voki</target>
+        <note>Alert Call Button</note>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
@@ -809,7 +827,7 @@
       <trans-unit id="Closing tab">
         <source>Closing tab</source>
         <target>Langeto fermata</target>
-        <note>No comment provided by engineer.</note>
+        <note>Accessibility label (used by assistive technology) notifying the user that the tab is being closed.</note>
       </trans-unit>
       <trans-unit id="Copy Address">
         <source>Copy Address</source>
@@ -923,10 +941,12 @@
       <trans-unit id="Double tap and hold to open history">
         <source>Double tap and hold to open history</source>
         <target>Duoble tuŝetu kaj premu por malfermi historion</target>
-        <note>No comment provided by engineer.</note>
+        <note>Accessibility hint, associated to the Back button in the tab toolbar, used by assistive technology to describe the result of a double tap.</note>
       </trans-unit>
-      <trans-unit id="Downloads.Error.Message" approved="yes">
-        <source>Downloads aren't supported in Firefox yet.</source> <target state="translated">Elŝutoj ne estas ankoraŭ subtenataj en Firefox</target><note>The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle.</note>
+      <trans-unit id="Downloads.Error.Message">
+        <source>Downloads aren't supported in Firefox yet.</source>
+        <target>Elŝutoj ne estas ankoraŭ subtenataj en Firefox</target>
+        <note>The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle.</note>
       </trans-unit>
       <trans-unit id="Enter your password to connect.">
         <source>Enter your password to connect.</source>
@@ -953,8 +973,10 @@
         <target>La posedanto de %@ malĝuste agordis sian retejon. Por protekti vian informon de ŝtelo, Firefox ne konektiĝis al tiu ĉi retejo.</target>
         <note>Warning text on the certificate error page</note>
       </trans-unit>
-      <trans-unit id="ErrorPages.CertWarning.Title" approved="yes">
-        <source>This Connection is Untrusted</source> <target state="translated">Tiu ĉi konekto ne estas fidata</target><note>Title on the certificate error page</note>
+      <trans-unit id="ErrorPages.CertWarning.Title">
+        <source>This Connection is Untrusted</source>
+        <target>Tiu ĉi konekto ne estas fidata</target>
+        <note>Title on the certificate error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.GoBack.Button">
         <source>Go Back</source>
@@ -999,7 +1021,7 @@
       <trans-unit id="Get your open tabs, bookmarks, and passwords from your other devices.">
         <source>Get your open tabs, bookmarks, and passwords from your other devices.</source>
         <target>Ricevi viajn malfermitajn langetojn, legosignojn kaj pasvortojn el viaj aliaj aparatoj.</target>
-        <note>A re-worded offer about Sync that emphasizes one-way data transfer, not syncing.</note>
+        <note>A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing.</note>
       </trans-unit>
       <trans-unit id="Go">
         <source>Go</source>
@@ -1021,74 +1043,120 @@
         <target>Historio</target>
         <note>Panel accessibility label</note>
       </trans-unit>
-      <trans-unit id="HistoryPanel.EmptyState.Title" approved="yes">
-        <source>Websites you've visited recently will show up here.</source> <target state="translated">Ĵuse vizititaj retejoj aperos ĉi tie.</target><note>Title for the History Panel empty state.</note>
+      <trans-unit id="HistoryPanel.EmptyState.Title">
+        <source>Websites you've visited recently will show up here.</source>
+        <target>Ĵuse vizititaj retejoj aperos ĉi tie.</target>
+        <note>Title for the History Panel empty state.</note>
       </trans-unit>
-      <trans-unit id="HistoryPanel.EmptySyncedTabsNullState.Description" approved="yes">
-        <source>Your tabs from other devices show up here.</source> <target state="translated">Viaj langetoj el aliaj aparatoj aperos ĉi tie.</target><note>Description for the empty synced tabs null state in the History Panel</note>
+      <trans-unit id="HistoryPanel.EmptySyncedTabsNullState.Description">
+        <source>Your tabs from other devices show up here.</source>
+        <target>Viaj langetoj el aliaj aparatoj aperos ĉi tie.</target>
+        <note>Description for the empty synced tabs null state in the History Panel</note>
       </trans-unit>
-      <trans-unit id="HistoryPanel.EmptySyncedTabsState.Description" approved="yes">
-        <source>Sign in to view open tabs on your other devices.</source> <target state="translated">Komencu seancon por vidi malfermitajn langetojn en viaj aliaj aparatoj.</target><note>Description for the empty synced tabs state in the History Panel</note>
+      <trans-unit id="HistoryPanel.EmptySyncedTabsState.Description">
+        <source>Sign in to view open tabs on your other devices.</source>
+        <target>Komencu seancon por vidi malfermitajn langetojn en viaj aliaj aparatoj.</target>
+        <note>Description for the empty synced tabs state in the History Panel</note>
       </trans-unit>
-      <trans-unit id="HistoryPanel.EmptySyncedTabsState.Title" approved="yes">
-        <source>Firefox Sync</source> <target state="translated">Spegulado de Firefox</target><note>Title for the empty synced tabs state in the History Panel</note>
+      <trans-unit id="HistoryPanel.EmptySyncedTabsState.Title">
+        <source>Firefox Sync</source>
+        <target>Spegulado de Firefox</target>
+        <note>Title for the empty synced tabs state in the History Panel</note>
       </trans-unit>
-      <trans-unit id="HistoryPanel.HistoryBackButton.Title" approved="yes">
-        <source>History</source> <target state="translated">Historio</target><note>Title for the Back to History button in the History Panel</note>
+      <trans-unit id="HistoryPanel.HistoryBackButton.Title">
+        <source>History</source>
+        <target>Historio</target>
+        <note>Title for the Back to History button in the History Panel</note>
       </trans-unit>
-      <trans-unit id="HistoryPanel.RecentlyClosedTabsButton.Title" approved="yes">
-        <source>Recently closed</source> <target state="translated">Ĵuse fermitaj</target><note>Title for the Recently Closed button in the History Panel</note>
+      <trans-unit id="HistoryPanel.RecentlyClosedTabsButton.Title">
+        <source>Recently closed</source>
+        <target>Ĵuse fermitaj</target>
+        <note>Title for the Recently Closed button in the History Panel</note>
       </trans-unit>
-      <trans-unit id="HistoryPanel.SyncedTabsCell.Description.Pluralized" approved="yes">
-        <source>%d device(s) connected</source> <target state="translated">%d konektitaj aparato(j)</target><note>Description that corresponds with a number of devices connected for the Synced Tabs Cell in the History Panel</note>
+      <trans-unit id="HistoryPanel.SyncedTabsCell.Description.Pluralized">
+        <source>%d device(s) connected</source>
+        <target>%d konektitaj aparato(j)</target>
+        <note>Description that corresponds with a number of devices connected for the Synced Tabs Cell in the History Panel</note>
       </trans-unit>
-      <trans-unit id="HistoryPanel.SyncedTabsCell.Title" approved="yes">
-        <source>Synced devices</source> <target state="translated">Spegulitaj aparatoj</target><note>Title for the Synced Tabs Cell in the History Panel</note>
+      <trans-unit id="HistoryPanel.SyncedTabsCell.Title">
+        <source>Synced devices</source>
+        <target>Spegulitaj aparatoj</target>
+        <note>Title for the Synced Tabs Cell in the History Panel</note>
       </trans-unit>
-      <trans-unit id="HomePage.Set.Dialog.Cancel" approved="yes">
-        <source>Cancel</source> <target state="translated">Nuligi</target><note>Button cancelling changes setting the home page for the first time.</note>
+      <trans-unit id="HomePage.Set.Dialog.Cancel">
+        <source>Cancel</source>
+        <target>Nuligi</target>
+        <note>Button cancelling changes setting the home page for the first time.</note>
       </trans-unit>
-      <trans-unit id="HomePage.Set.Dialog.Message" approved="yes">
-        <source>You can change this at any time in Settings</source> <target state="translated">Vi povas ŝanĝi tion ĉi iam ajn en Agordoj</target><note>Alert dialog body when the user opens the home page for the first time.</note>
+      <trans-unit id="HomePage.Set.Dialog.Message">
+        <source>You can change this at any time in Settings</source>
+        <target>Vi povas ŝanĝi tion ĉi iam ajn en Agordoj</target>
+        <note>Alert dialog body when the user opens the home page for the first time.</note>
       </trans-unit>
-      <trans-unit id="HomePage.Set.Dialog.OK" approved="yes">
-        <source>Set Homepage</source> <target state="translated">Difini hejmpaĝon</target><note>Button accepting changes setting the home page for the first time.</note>
+      <trans-unit id="HomePage.Set.Dialog.OK">
+        <source>Set Homepage</source>
+        <target>Difini hejmpaĝon</target>
+        <note>Button accepting changes setting the home page for the first time.</note>
       </trans-unit>
-      <trans-unit id="HomePage.Set.Dialog.Title" approved="yes">
-        <source>Do you want to use this web page as your home page?</source> <target state="translated">Ĉu vi volas uzi tiun ĉi paĝon kiel hejman?</target><note>Alert dialog title when the user opens the home page for the first time.</note>
+      <trans-unit id="HomePage.Set.Dialog.Title">
+        <source>Do you want to use this web page as your home page?</source>
+        <target>Ĉu vi volas uzi tiun ĉi paĝon kiel hejman?</target>
+        <note>Alert dialog title when the user opens the home page for the first time.</note>
       </trans-unit>
-      <trans-unit id="Hotkeys.Back.DiscoveryTitle" approved="yes">
-        <source>Back</source> <target state="translated">Reen</target><note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      <trans-unit id="Hotkeys.Back.DiscoveryTitle">
+        <source>Back</source>
+        <target>Reen</target>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
-      <trans-unit id="Hotkeys.CloseTab.DiscoveryTitle" approved="yes">
-        <source>Close Tab</source> <target state="translated">Fermi langeton</target><note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      <trans-unit id="Hotkeys.CloseTab.DiscoveryTitle">
+        <source>Close Tab</source>
+        <target>Fermi langeton</target>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
-      <trans-unit id="Hotkeys.Find.DiscoveryTitle" approved="yes">
-        <source>Find</source> <target state="translated">Serĉi</target><note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      <trans-unit id="Hotkeys.Find.DiscoveryTitle">
+        <source>Find</source>
+        <target>Serĉi</target>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
-      <trans-unit id="Hotkeys.Forward.DiscoveryTitle" approved="yes">
-        <source>Forward</source> <target state="translated">Antaŭen</target><note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      <trans-unit id="Hotkeys.Forward.DiscoveryTitle">
+        <source>Forward</source>
+        <target>Antaŭen</target>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
-      <trans-unit id="Hotkeys.NewPrivateTab.DiscoveryTitle" approved="yes">
-        <source>New Private Tab</source> <target state="translated">Nova privata langeto</target><note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      <trans-unit id="Hotkeys.NewPrivateTab.DiscoveryTitle">
+        <source>New Private Tab</source>
+        <target>Nova privata langeto</target>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
-      <trans-unit id="Hotkeys.NewTab.DiscoveryTitle" approved="yes">
-        <source>New Tab</source> <target state="translated">Nova langeto</target><note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      <trans-unit id="Hotkeys.NewTab.DiscoveryTitle">
+        <source>New Tab</source>
+        <target>Nova langeto</target>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
-      <trans-unit id="Hotkeys.Reload.DiscoveryTitle" approved="yes">
-        <source>Reload Page</source> <target state="translated">Reŝargi paĝon</target><note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      <trans-unit id="Hotkeys.Reload.DiscoveryTitle">
+        <source>Reload Page</source>
+        <target>Reŝargi paĝon</target>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
-      <trans-unit id="Hotkeys.SelectLocationBar.DiscoveryTitle" approved="yes">
-        <source>Select Location Bar</source> <target state="translated">Elekti adresstrion</target><note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      <trans-unit id="Hotkeys.SelectLocationBar.DiscoveryTitle">
+        <source>Select Location Bar</source>
+        <target>Elekti adresstrion</target>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
-      <trans-unit id="Hotkeys.ShowNextTab.DiscoveryTitle" approved="yes">
-        <source>Show Next Tab</source> <target state="translated">Montri venontan langeton</target><note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      <trans-unit id="Hotkeys.ShowNextTab.DiscoveryTitle">
+        <source>Show Next Tab</source>
+        <target>Montri venontan langeton</target>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
-      <trans-unit id="Hotkeys.ShowPreviousTab.DiscoveryTitle" approved="yes">
-        <source>Show Previous Tab</source> <target state="translated">Montri antaŭan langeton</target><note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      <trans-unit id="Hotkeys.ShowPreviousTab.DiscoveryTitle">
+        <source>Show Previous Tab</source>
+        <target>Montri antaŭan langeton</target>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Increase text size">
-        <source>Increase text size</source> <target>Grandigi tekston</target> <note>Accessibility label for button increasing font size in display settings of reader mode</note>
+        <source>Increase text size</source>
+        <target>Grandigi tekston</target>
+        <note>Accessibility label for button increasing font size in display settings of reader mode</note>
       </trans-unit>
       <trans-unit id="Intro Tour Carousel">
         <source>Intro Tour Carousel</source>
@@ -1166,11 +1234,15 @@
         <target>Ĉu konservi pasvorton por %@?</target>
         <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
-      <trans-unit id="LoginsHelper.PromptUpdateLogin.Title" approved="yes">
-        <source>Update login %1$@ for %2$@?</source> <target state="translated">Ĉu gisdatigi akreditilon %1$@ por %2$@?</target><note>Prompt for updating a login. The first parameter is the username for which the password will be updated for. The second parameter is the hostname of the site.</note>
+      <trans-unit id="LoginsHelper.PromptUpdateLogin.Title">
+        <source>Update login %1$@ for %2$@?</source>
+        <target>Ĉu gisdatigi akreditilon %1$@ por %2$@?</target>
+        <note>Prompt for updating a login. The first parameter is the username for which the password will be updated for. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdatePassword.Title">
-        <source>Update password for %@?</source> <target>Ĉu konservi pasvorton por %@?</target> <note>Prompt for updating a password with no username. The parameter is the hostname of the site.</note>
+        <source>Update password for %@?</source>
+        <target>Ĉu konservi pasvorton por %@?</target>
+        <note>Prompt for updating a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.SaveLogin.Button">
         <source>Save Login</source>
@@ -1330,11 +1402,15 @@
         <target>Legolisto</target>
         <note>Panel accessibility label</note>
       </trans-unit>
-      <trans-unit id="RecentlyClosedTabsPanel.Title" approved="yes">
-        <source>Recently Closed</source> <target state="translated">Ĵuse fermitaj</target><note>Title for the Recently Closed Tabs Panel</note>
+      <trans-unit id="RecentlyClosedTabsPanel.Title">
+        <source>Recently Closed</source>
+        <target>Ĵuse fermitaj</target>
+        <note>Title for the Recently Closed Tabs Panel</note>
       </trans-unit>
       <trans-unit id="Reload">
-        <source>Reload</source> <target>Reŝargi</target> <note>Accessibility Label for the tab toolbar Reload button</note>
+        <source>Reload</source>
+        <target>Reŝargi</target>
+        <note>Accessibility Label for the tab toolbar Reload button</note>
       </trans-unit>
       <trans-unit id="Remove">
         <source>Remove</source>
@@ -1394,35 +1470,55 @@
         <target>Serĉu aŭ tajpu adreson</target>
         <note>The text shown in the URL bar on about:home</note>
       </trans-unit>
-      <trans-unit id="Search.ThirdPartyEngines.AddMessage" approved="yes">
-        <source>The new search engine will appear in the quick search bar.</source> <target state="translated">La nova serĉilo aperos en la rapida serĉostrio.</target><note>The message that asks the user to Add the search provider explaining where the search engine will appear</note>
+      <trans-unit id="Search.ThirdPartyEngines.AddMessage">
+        <source>The new search engine will appear in the quick search bar.</source>
+        <target>La nova serĉilo aperos en la rapida serĉostrio.</target>
+        <note>The message that asks the user to Add the search provider explaining where the search engine will appear</note>
       </trans-unit>
-      <trans-unit id="Search.ThirdPartyEngines.AddSuccess" approved="yes">
-        <source>Added Search engine!</source> <target state="translated">Serĉilo aldonita!</target><note>The success message that appears after a user sucessfully adds a new search engine</note>
+      <trans-unit id="Search.ThirdPartyEngines.AddSuccess">
+        <source>Added Search engine!</source>
+        <target>Serĉilo aldonita!</target>
+        <note>The success message that appears after a user sucessfully adds a new search engine</note>
       </trans-unit>
-      <trans-unit id="Search.ThirdPartyEngines.AddTitle" approved="yes">
-        <source>Add Search Provider?</source> <target state="translated">Ĉu aldoni serĉprovizanton?</target><note>The title that asks the user to Add the search provider</note>
+      <trans-unit id="Search.ThirdPartyEngines.AddTitle">
+        <source>Add Search Provider?</source>
+        <target>Ĉu aldoni serĉprovizanton?</target>
+        <note>The title that asks the user to Add the search provider</note>
       </trans-unit>
-      <trans-unit id="Search.ThirdPartyEngines.Cancel" approved="yes">
-        <source>Cancel</source> <target state="translated">Nuligi</target><note>The cancel button if you do not want to add a search engine.</note>
+      <trans-unit id="Search.ThirdPartyEngines.Cancel">
+        <source>Cancel</source>
+        <target>Nuligi</target>
+        <note>The cancel button if you do not want to add a search engine.</note>
       </trans-unit>
-      <trans-unit id="Search.ThirdPartyEngines.FailedMessage" approved="yes">
-        <source>The search provider could not be added.</source> <target state="translated">Ne eblis aldoni la serĉprovizanton.</target><note>A title explaining that we failed to add a search engine</note>
+      <trans-unit id="Search.ThirdPartyEngines.FailedMessage">
+        <source>The search provider could not be added.</source>
+        <target>Ne eblis aldoni la serĉprovizanton.</target>
+        <note>A title explaining that we failed to add a search engine</note>
       </trans-unit>
-      <trans-unit id="Search.ThirdPartyEngines.FailedTitle" approved="yes">
-        <source>Failed</source> <target state="translated">Malsukcesa</target><note>A title explaining that we failed to add a search engine</note>
+      <trans-unit id="Search.ThirdPartyEngines.FailedTitle">
+        <source>Failed</source>
+        <target>Malsukcesa</target>
+        <note>A title explaining that we failed to add a search engine</note>
       </trans-unit>
-      <trans-unit id="Search.ThirdPartyEngines.OK" approved="yes">
-        <source>OK</source> <target state="translated">Akcepti</target><note>The confirmation button</note>
+      <trans-unit id="Search.ThirdPartyEngines.OK">
+        <source>OK</source>
+        <target>Akcepti</target>
+        <note>The confirmation button</note>
       </trans-unit>
       <trans-unit id="Searches for the suggestion">
-        <source>Searches for the suggestion</source> <target state="needs-translation">Serĉoj por sugestoj</target> <note>Accessibility hint describing the action performed when a search suggestion is clicked</note>
+        <source>Searches for the suggestion</source>
+        <target>Serĉoj por sugestoj</target>
+        <note>Accessibility hint describing the action performed when a search suggestion is clicked</note>
       </trans-unit>
       <trans-unit id="Secure connection">
-        <source>Secure connection</source> <target>Sekura konekto</target> <note>Accessibility label for the lock icon, which is only present if the connection is secure</note>
+        <source>Secure connection</source>
+        <target>Sekura konekto</target>
+        <note>Accessibility label for the lock icon, which is only present if the connection is secure</note>
       </trans-unit>
       <trans-unit id="Send Feedback">
-        <source>Send Feedback</source> <target>Sendi komentojn</target> <note>Show an input.mozilla.org page where people can submit feedback</note>
+        <source>Send Feedback</source>
+        <target>Sendi komentojn</target>
+        <note>Menu item in settings used to open input.mozilla.org where people can submit feedback</note>
       </trans-unit>
       <trans-unit id="Send Report">
         <source>Send Report</source>
@@ -1439,17 +1535,25 @@
         <target>Nuligi</target>
         <note>Button title for cancelling SendTo screen</note>
       </trans-unit>
-      <trans-unit id="SendTo.Error.Message" approved="yes">
-        <source>Only HTTP and HTTPS links can be shared.</source> <target state="translated">Nur ligiloj HTTP kaj HTTPS povas esti dividitaj.</target><note>Message in error prompt explaining why the URL is invalid.</note>
+      <trans-unit id="SendTo.Error.Message">
+        <source>Only HTTP and HTTPS links can be shared.</source>
+        <target>Nur ligiloj HTTP kaj HTTPS povas esti dividitaj.</target>
+        <note>Message in error prompt explaining why the URL is invalid.</note>
       </trans-unit>
-      <trans-unit id="SendTo.Error.OK.Button" approved="yes">
-        <source>OK</source> <target state="translated">Akcepti</target><note>OK button to dismiss the error prompt.</note>
+      <trans-unit id="SendTo.Error.OK.Button">
+        <source>OK</source>
+        <target>Akcepti</target>
+        <note>OK button to dismiss the error prompt.</note>
       </trans-unit>
-      <trans-unit id="SendTo.Error.Title" approved="yes">
-        <source>The link you are trying to share cannot be shared.</source> <target state="translated">La ligilon, kiun vi klopodas dividi, ne estas dividebla.</target><note>Title of error prompt displayed when an invalid URL is shared.</note>
+      <trans-unit id="SendTo.Error.Title">
+        <source>The link you are trying to share cannot be shared.</source>
+        <target>La ligilon, kiun vi klopodas dividi, ne estas dividebla.</target>
+        <note>Title of error prompt displayed when an invalid URL is shared.</note>
       </trans-unit>
       <trans-unit id="Sepia">
-        <source>Sepia</source> <target>Sepia</target> <note>Sepia theme setting in Reading View settings</note>
+        <source>Sepia</source>
+        <target>Sepia</target>
+        <note>Sepia theme setting in Reading View settings</note>
       </trans-unit>
       <trans-unit id="Serif">
         <source>Serif</source>
@@ -1477,47 +1581,75 @@
         <target>Viŝi privatajn datumojn</target>
         <note>Title displayed in header of the setting panel.</note>
       </trans-unit>
-      <trans-unit id="Settings.HomePage.Clear.Button" approved="yes">
-        <source>Clear</source> <target state="translated">Viŝi</target><note>Button in settings to clear the home page.</note>
+      <trans-unit id="Settings.HomePage.Clear.Button">
+        <source>Clear</source>
+        <target>Viŝi</target>
+        <note>Button in settings to clear the home page.</note>
       </trans-unit>
-      <trans-unit id="Settings.HomePage.SectionName" approved="yes">
-        <source>Homepage</source> <target state="translated">Hejmpaĝo</target><note>Label used as an item in Settings. When touched it will open a dialog to configure the home page and its uses.</note>
+      <trans-unit id="Settings.HomePage.SectionName">
+        <source>Homepage</source>
+        <target>Hejmpaĝo</target>
+        <note>Label used as an item in Settings. When touched it will open a dialog to configure the home page and its uses.</note>
       </trans-unit>
-      <trans-unit id="Settings.HomePage.Title" approved="yes">
-        <source>Homepage Settings</source> <target state="translated">Agordoj de hejmpaĝo</target><note>Title displayed in header of the setting panel.</note>
+      <trans-unit id="Settings.HomePage.Title">
+        <source>Homepage Settings</source>
+        <target>Agordoj de hejmpaĝo</target>
+        <note>Title displayed in header of the setting panel.</note>
       </trans-unit>
-      <trans-unit id="Settings.HomePage.UI.Toggle.Subtitle" approved="yes">
-        <source>Otherwise show in the toolbar</source> <target state="translated">Se ne, montri en la ilaro</target><note>Toggle setting to show home page button in menu, or on toolbar.</note>
+      <trans-unit id="Settings.HomePage.UI.Toggle.Subtitle">
+        <source>Otherwise show in the toolbar</source>
+        <target>Se ne, montri en la ilaro</target>
+        <note>Toggle setting to show home page button in menu, or on toolbar.</note>
       </trans-unit>
-      <trans-unit id="Settings.HomePage.UI.Toggle.Title" approved="yes">
-        <source>Show Homepage Icon In Menu</source> <target state="translated">Montri emblemon de hejmpaĝo en menuo</target><note>Toggle setting to show home page button in menu, or on toolbar.</note>
+      <trans-unit id="Settings.HomePage.UI.Toggle.Title">
+        <source>Show Homepage Icon In Menu</source>
+        <target>Montri emblemon de hejmpaĝo en menuo</target>
+        <note>Toggle setting to show home page button in menu, or on toolbar.</note>
       </trans-unit>
-      <trans-unit id="Settings.HomePage.URL.Placeholder" approved="yes">
-        <source>Enter a webpage</source> <target state="translated">Viziti retpaĝon</target><note>Placeholder text in the homepage setting when no homepage has been set.</note>
+      <trans-unit id="Settings.HomePage.URL.Placeholder">
+        <source>Enter a webpage</source>
+        <target>Viziti retpaĝon</target>
+        <note>Placeholder text in the homepage setting when no homepage has been set.</note>
       </trans-unit>
-      <trans-unit id="Settings.HomePage.URL.Title" approved="yes">
-        <source>Current Homepage</source> <target state="translated">Nuna hejmpaĝo</target><note>Title of the setting section containing the URL of the current home page.</note>
+      <trans-unit id="Settings.HomePage.URL.Title">
+        <source>Current Homepage</source>
+        <target>Nuna hejmpaĝo</target>
+        <note>Title of the setting section containing the URL of the current home page.</note>
       </trans-unit>
-      <trans-unit id="Settings.HomePage.UseCopiedLink.Button" approved="yes">
-        <source>Use Copied Link</source> <target state="translated">Uzi kopiitan ligilon</target><note>Button in settings to use the current link on the clipboard as home page.</note>
+      <trans-unit id="Settings.HomePage.UseCopiedLink.Button">
+        <source>Use Copied Link</source>
+        <target>Uzi kopiitan ligilon</target>
+        <note>Button in settings to use the current link on the clipboard as home page.</note>
       </trans-unit>
-      <trans-unit id="Settings.HomePage.UseCurrent.Button" approved="yes">
-        <source>Use Current Page</source> <target state="translated">Uzi nunan paĝon</target><note>Button in settings to use the current page as home page.</note>
+      <trans-unit id="Settings.HomePage.UseCurrent.Button">
+        <source>Use Current Page</source>
+        <target>Uzi nunan paĝon</target>
+        <note>Button in settings to use the current page as home page.</note>
       </trans-unit>
-      <trans-unit id="Settings.HomePage.UseDefault.Button" approved="yes">
-        <source>Use Default</source> <target state="translated">Uzi la normon</target><note>Button in settings to use the default home page. If no default is set, then this button isn't shown.</note>
+      <trans-unit id="Settings.HomePage.UseDefault.Button">
+        <source>Use Default</source>
+        <target>Uzi la normon</target>
+        <note>Button in settings to use the default home page. If no default is set, then this button isn't shown.</note>
       </trans-unit>
-      <trans-unit id="Settings.Search.Done.Button" approved="yes">
-        <source>Done</source> <target state="translated">Farita</target><note>Button displayed at the top of the search settings.</note>
+      <trans-unit id="Settings.Search.Done.Button">
+        <source>Done</source>
+        <target>Farita</target>
+        <note>Button displayed at the top of the search settings.</note>
       </trans-unit>
-      <trans-unit id="Settings.Search.Edit.Button" approved="yes">
-        <source>Edit</source> <target state="translated">Redakti</target><note>Button displayed at the top of the search settings.</note>
+      <trans-unit id="Settings.Search.Edit.Button">
+        <source>Edit</source>
+        <target>Redakti</target>
+        <note>Button displayed at the top of the search settings.</note>
       </trans-unit>
-      <trans-unit id="Settings.TroubleShootSync.Title" approved="yes">
-        <source>Troubleshoot</source> <target state="translated">Solvi problemojn</target><note>Title of link to help page to find out how to solve Sync issues</note>
+      <trans-unit id="Settings.TroubleShootSync.Title">
+        <source>Troubleshoot</source>
+        <target>Solvi problemojn</target>
+        <note>Title of link to help page to find out how to solve Sync issues</note>
       </trans-unit>
       <trans-unit id="Share">
-        <source>Share</source> <target>Dividi</target> <note>Accessibility Label for the tab toolbar Share button</note>
+        <source>Share</source>
+        <target>Dividi</target>
+        <note>Accessibility Label for the tab toolbar Share button</note>
       </trans-unit>
       <trans-unit id="Share Link">
         <source>Share Link</source>
@@ -1589,51 +1721,77 @@
       <trans-unit id="Sync your tabs, bookmarks, passwords and more.">
         <source>Sync your tabs, bookmarks, passwords and more.</source>
         <target>Speguli viajn langetojn, legosignojn, pasvortojn kaj pli.</target>
-        <note>Sync tabs, bookmarks, passwords empty state instructions.</note>
+        <note>Text displayed when the Sync home panel is empty, describing the features provided by Sync to invite the user to log in.</note>
       </trans-unit>
       <trans-unit id="Sync your tabs, passwords and more.">
         <source>Sync your tabs, passwords and more.</source>
         <target>Speguli viajn langetojn, pasvortojn, kaj pli.</target>
-        <note>Sync tabs and passwords empty state instructions.</note>
+        <note>Text displayed when the Sync home panel is empty, describing the features provided by Sync to invite the user to log in.</note>
       </trans-unit>
-      <trans-unit id="Sync.FirstTimeMessage.Label" approved="yes">
-        <source>Your first sync may take a while</source> <target state="translated">Via unua spegulado povas postuli iom da tempo</target><note>Message displayed when the user syncs for the first time</note>
+      <trans-unit id="Sync.FirstTimeMessage.Label">
+        <source>Your first sync may take a while</source>
+        <target>Via unua spegulado povas postuli iom da tempo</target>
+        <note>Message displayed when the user syncs for the first time</note>
       </trans-unit>
-      <trans-unit id="Sync.Syncing.Label" approved="yes">
-        <source>Syncing</source> <target state="translated">Spegulado</target><note>Message displayed when the user's account is syncing with no ellipsis</note>
+      <trans-unit id="Sync.Syncing.Label">
+        <source>Syncing</source>
+        <target>Spegulado</target>
+        <note>Message displayed when the user's account is syncing with no ellipsis</note>
       </trans-unit>
-      <trans-unit id="Sync.SyncingEllipsis.Label" approved="yes">
-        <source>Syncing…</source> <target state="translated">Spegulado…</target><note>Message displayed when the user's account is syncing with ellipsis at the end</note>
+      <trans-unit id="Sync.SyncingEllipsis.Label">
+        <source>Syncing…</source>
+        <target>Spegulado…</target>
+        <note>Message displayed when the user's account is syncing with ellipsis at the end</note>
       </trans-unit>
-      <trans-unit id="SyncState.Bookmark.Title" approved="yes">
-        <source>Bookmarks</source> <target state="translated">Legosignoj</target><note>The Bookmark sync component, used in SyncState.Partial.Title</note>
+      <trans-unit id="SyncState.Bookmark.Title">
+        <source>Bookmarks</source>
+        <target>Legosignoj</target>
+        <note>The Bookmark sync component, used in SyncState.Partial.Title</note>
       </trans-unit>
-      <trans-unit id="SyncState.Clients.Title" approved="yes">
-        <source>Remote Clients</source> <target state="translated">Foraj klientoj</target><note>The Remote Clients sync component, used in SyncState.Partial.Title</note>
+      <trans-unit id="SyncState.Clients.Title">
+        <source>Remote Clients</source>
+        <target>Foraj klientoj</target>
+        <note>The Remote Clients sync component, used in SyncState.Partial.Title</note>
       </trans-unit>
-      <trans-unit id="SyncState.Failed.Title" approved="yes">
-        <source>Syncing has failed</source> <target state="translated">Malsukcesa spegulado</target><note>Title for Sync status message when synchronization failed to complete</note>
+      <trans-unit id="SyncState.Failed.Title">
+        <source>Syncing has failed</source>
+        <target>Malsukcesa spegulado</target>
+        <note>Title for Sync status message when synchronization failed to complete</note>
       </trans-unit>
-      <trans-unit id="SyncState.History.Title" approved="yes">
-        <source>History</source> <target state="translated">Historio</target><note>The History sync component, used in SyncState.Partial.Title</note>
+      <trans-unit id="SyncState.History.Title">
+        <source>History</source>
+        <target>Historio</target>
+        <note>The History sync component, used in SyncState.Partial.Title</note>
       </trans-unit>
-      <trans-unit id="SyncState.Logins.Title" approved="yes">
-        <source>Logins</source> <target state="translated">Akreditiloj</target><note>The Logins sync component, used in SyncState.Partial.Title</note>
+      <trans-unit id="SyncState.Logins.Title">
+        <source>Logins</source>
+        <target>Akreditiloj</target>
+        <note>The Logins sync component, used in SyncState.Partial.Title</note>
       </trans-unit>
-      <trans-unit id="SyncState.NotStarted.Title" approved="yes">
-        <source>Sync is unavailable</source> <target state="translated">Spegulado ne disponeblas</target><note>Title for Sync status message when Sync failed to start.</note>
+      <trans-unit id="SyncState.NotStarted.Title">
+        <source>Sync is unavailable</source>
+        <target>Spegulado ne disponeblas</target>
+        <note>Title for Sync status message when Sync failed to start.</note>
       </trans-unit>
-      <trans-unit id="SyncState.Offline.Title" approved="yes">
-        <source>Sync is offline</source> <target state="translated">Spegulado ne estas konektita</target><note>Title for Sync status message when Sync failed due to being offline</note>
+      <trans-unit id="SyncState.Offline.Title">
+        <source>Sync is offline</source>
+        <target>Spegulado ne estas konektita</target>
+        <note>Title for Sync status message when Sync failed due to being offline</note>
       </trans-unit>
-      <trans-unit id="SyncState.Partial.Title" approved="yes">
-        <source>Sync is experiencing issues syncing %@</source> <target state="translated">Spegulado havas problemojn spegulante %@</target><note>Title for Sync status message when a component of Sync failed to complete, where %@ represents the name of the component, i.e. Sync is experiencing issues syncing Bookmarks</note>
+      <trans-unit id="SyncState.Partial.Title">
+        <source>Sync is experiencing issues syncing %@</source>
+        <target>Spegulado havas problemojn spegulante %@</target>
+        <note>Title for Sync status message when a component of Sync failed to complete, where %@ represents the name of the component, i.e. Sync is experiencing issues syncing Bookmarks</note>
       </trans-unit>
-      <trans-unit id="SyncState.Tabs.Title" approved="yes">
-        <source>Tabs</source> <target state="translated">Langetoj</target><note>The Tabs sync component, used in SyncState.Partial.Title</note>
+      <trans-unit id="SyncState.Tabs.Title">
+        <source>Tabs</source>
+        <target>Langetoj</target>
+        <note>The Tabs sync component, used in SyncState.Partial.Title</note>
       </trans-unit>
       <trans-unit id="Tab %@ of %@">
-        <source>Tab %1$@ of %2$@</source> <target>Langeto %1$@ el %2$@</target> <note>Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray, along with the total number of tabs. E.g. \"Tab 2 of 5\" says that tab 2 is visible (and is the only visible tab), out of 5 tabs total.</note>
+        <source>Tab %1$@ of %2$@</source>
+        <target>Langeto %1$@ el %2$@</target>
+        <note>Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray, along with the total number of tabs. E.g. \"Tab 2 of 5\" says that tab 2 is visible (and is the only visible tab), out of 5 tabs total.</note>
       </trans-unit>
       <trans-unit id="Tabs %@ to %@ of %@">
         <source>Tabs %1$@ to %2$@ of %3$@</source>
@@ -1645,14 +1803,20 @@
         <target>Pleto de langetoj</target>
         <note>Accessibility label for the Tabs Tray view.</note>
       </trans-unit>
-      <trans-unit id="Tabs.DeleteAllUndo.Button" approved="yes">
-        <source>Undo</source> <target state="translated">Malfari</target><note>The button to undo the delete all tabs</note>
+      <trans-unit id="Tabs.DeleteAllUndo.Button">
+        <source>Undo</source>
+        <target>Malfari</target>
+        <note>The button to undo the delete all tabs</note>
       </trans-unit>
-      <trans-unit id="Tabs.DeleteAllUndo.Title" approved="yes">
-        <source>%d tab(s) closed</source> <target state="translated">%d fermitaj langeto(j)</target><note>The label indicating that all the tabs were closed</note>
+      <trans-unit id="Tabs.DeleteAllUndo.Title">
+        <source>%d tab(s) closed</source>
+        <target>%d fermitaj langeto(j)</target>
+        <note>The label indicating that all the tabs were closed</note>
       </trans-unit>
       <trans-unit id="The page could not be displayed in Reader View.">
-        <source>The page could not be displayed in Reader View.</source> <target>Tiu ĉi paĝo ne povis esti montrita en legila vido.</target> <note>Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
+        <source>The page could not be displayed in Reader View.</source>
+        <target>Tiu ĉi paĝo ne povis esti montrita en legila vido.</target>
+        <note>Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
       <trans-unit id="There is a new version available of Firefox Aurora. Tap OK to go to the download page.">
         <source>There is a new version available of Firefox Aurora. Tap OK to go to the download page.</source>
@@ -1684,14 +1848,20 @@
         <target>Hodiaŭ</target>
         <note>History tableview section header</note>
       </trans-unit>
-      <trans-unit id="Toolbar.Menu.AccessibilityLabel" approved="yes">
-        <source>Menu</source> <target state="translated">Menuo</target><note>Accessibility Label for the toolbar Menu button</note>
+      <trans-unit id="Toolbar.Menu.AccessibilityLabel">
+        <source>Menu</source>
+        <target>Menuo</target>
+        <note>Accessibility label for the Menu button.</note>
       </trans-unit>
-      <trans-unit id="Toolbar.OpenHomePage.AccessibilityLabel" approved="yes">
-        <source>Homepage</source> <target state="translated">Hejmpaĝo</target><note>Accessibility Label for the tab toolbar Homepage button</note>
+      <trans-unit id="Toolbar.OpenHomePage.AccessibilityLabel">
+        <source>Homepage</source>
+        <target>Hejmpaĝo</target>
+        <note>Accessibility Label for the tab toolbar Homepage button</note>
       </trans-unit>
       <trans-unit id="Top sites">
-        <source>Top sites</source> <target>Plej vizititaj</target> <note>Panel accessibility label</note>
+        <source>Top sites</source>
+        <target>Plej vizititaj</target>
+        <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="TopSites.EmptyState.Description">
         <source>Your most visited sites will show up here.</source>
@@ -1703,11 +1873,15 @@
         <target>Bonvenon al la plej vizititaj retejoj</target>
         <note>The title for the empty Top Sites state</note>
       </trans-unit>
-      <trans-unit id="TopSites.RemovePage.Button" approved="yes">
-        <source>Remove page - %@</source> <target state="translated">Forigi paĝon - %@</target><note>Button shown in editing mode to remove this site from the top sites panel.</note>
+      <trans-unit id="TopSites.RemovePage.Button">
+        <source>Remove page - %@</source>
+        <target>Forigi paĝon - %@</target>
+        <note>Button shown in editing mode to remove this site from the top sites panel.</note>
       </trans-unit>
       <trans-unit id="Twitter">
-        <source>Twitter</source> <target>Twitter</target> <note>Tile title for Twitter</note>
+        <source>Twitter</source>
+        <target>Twitter</target>
+        <note>Tile title for Twitter</note>
       </trans-unit>
       <trans-unit id="Update">
         <source>Update</source>
@@ -1869,7 +2043,8 @@
       <trans-unit id="Delete">
         <source>Delete</source>
         <target>Forigi</target>
-        <note>Button in login detail screen that deletes the current login</note>
+        <note>Button in login detail screen that deletes the current login
+   Label for the button used to delete an existing login.</note>
       </trans-unit>
       <trans-unit id="Deselect All">
         <source>Deselect All</source>
@@ -1958,56 +2133,90 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3.1" build-num="7D1014"/>
     </header>
     <body>
-      <trans-unit id="Menu.AddBookmarkAction.Title" approved="yes">
-        <source>Add Bookmark</source> <target state="translated">Aldoni legosignon</target><note>String describing the action of adding the current site as a bookmark from the menu</note>
+      <trans-unit id="Menu.AddBookmarkAction.Title">
+        <source>Add Bookmark</source>
+        <target>Aldoni legosignon</target>
+        <note>Label for the button, displayed in the menu, used to create a bookmark for the current website.</note>
       </trans-unit>
-      <trans-unit id="Menu.CloseAllTabsAction.Title" approved="yes">
-        <source>Close All Tabs</source> <target state="translated">Fermi ĉiujn langetojn</target><note>String describing the action of closing all tabs in the tab tray at once from the menu</note>
+      <trans-unit id="Menu.CloseAllTabsAction.Title">
+        <source>Close All Tabs</source>
+        <target>Fermi ĉiujn langetojn</target>
+        <note>Label for the button, displayed in the menu, used to close all tabs currently open.</note>
       </trans-unit>
-      <trans-unit id="Menu.CloseMenu.AccessibilityLabel" approved="yes">
-        <source>Close Menu</source> <target state="translated">Fermi menuon</target><note>Accessibility label describing the button that closes the menu when open</note>
+      <trans-unit id="Menu.CloseMenu.AccessibilityLabel">
+        <source>Close Menu</source>
+        <target>Fermi menuon</target>
+        <note>Accessibility label describing the button that closes the menu when open</note>
       </trans-unit>
-      <trans-unit id="Menu.FindInPageAction.Title" approved="yes">
-        <source>Find In Page</source> <target state="translated">Serĉi en paĝo</target><note>String describing the action of opening the toolbar that allows users to search for items within a webpage from the menu</note>
+      <trans-unit id="Menu.FindInPageAction.Title">
+        <source>Find In Page</source>
+        <target>Serĉi en paĝo</target>
+        <note>Label for the button, displayed in the menu, used to open the toolbar to search for text within the current page.</note>
       </trans-unit>
-      <trans-unit id="Menu.NewPrivateTabAction.Title" approved="yes">
-        <source>New Private Tab</source> <target state="translated">Nova privata langeto</target><note>String describing the action of creating a new private tab from the menu</note>
+      <trans-unit id="Menu.NewPrivateTabAction.Title">
+        <source>New Private Tab</source>
+        <target>Nova privata langeto</target>
+        <note>Label for the button, displayed in the menu, used to open a new private tab.</note>
       </trans-unit>
-      <trans-unit id="Menu.NewTabAction.Title" approved="yes">
-        <source>New Tab</source> <target state="translated">Nova langeto</target><note>String describing the action of creating a new tab from the menu</note>
+      <trans-unit id="Menu.NewTabAction.Title">
+        <source>New Tab</source>
+        <target>Nova langeto</target>
+        <note>Label for the button, displayed in the menu, used to open a new tab</note>
       </trans-unit>
-      <trans-unit id="Menu.OpenBookmarksAction.AccessibilityLabel" approved="yes">
-        <source>Bookmarks</source> <target state="translated">Legosignoj</target><note>AccessibilityLabel describing the action of opening the bookmarks home panel from the menu</note>
+      <trans-unit id="Menu.OpenBookmarksAction.AccessibilityLabel">
+        <source>Bookmarks</source>
+        <target>Legosignoj</target>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Bbookmarks home panel.</note>
       </trans-unit>
-      <trans-unit id="Menu.OpenHistoryAction.AccessibilityLabel" approved="yes">
-        <source>History</source> <target state="translated">Historio</target><note>AccessibilityLabel describing the action of opening the history home panel from the menu</note>
+      <trans-unit id="Menu.OpenHistoryAction.AccessibilityLabel">
+        <source>History</source>
+        <target>Historio</target>
+        <note>Accessibility label for the button, displayed in the menu, used to open the History home panel.</note>
       </trans-unit>
-      <trans-unit id="Menu.OpenHomePageAction.Title" approved="yes">
-        <source>Home</source> <target state="translated">Hejmo</target><note>String describing the action of navigating to the homepage from the menu</note>
+      <trans-unit id="Menu.OpenHomePageAction.Title">
+        <source>Home</source>
+        <target>Hejmo</target>
+        <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
       </trans-unit>
-      <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel" approved="yes">
-        <source>Reading List</source> <target state="translated">Legolisto</target><note>AccessibilityLabel describing the action of opening the reading list home panel from the menu</note>
+      <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel">
+        <source>Reading List</source>
+        <target>Legolisto</target>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Reading list home panel.</note>
       </trans-unit>
-      <trans-unit id="Menu.OpenSettingsAction.Title" approved="yes">
-        <source>Settings</source> <target state="translated">Agordoj</target><note>String describing the action of opening the settings menu from the menu</note>
+      <trans-unit id="Menu.OpenSettingsAction.Title">
+        <source>Settings</source>
+        <target>Agordoj</target>
+        <note>Label for the button, displayed in the menu, used to open the Settings menu.</note>
       </trans-unit>
-      <trans-unit id="Menu.OpenTopSitesAction.AccessibilityLabel" approved="yes">
-        <source>Top Sites</source> <target state="translated">Plej vizititaj</target><note>AccessibilityLabel describing the action of opening the Top Sites home panel from the menu</note>
+      <trans-unit id="Menu.OpenTopSitesAction.AccessibilityLabel">
+        <source>Top Sites</source>
+        <target>Plej vizititaj</target>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Top Sites home panel.</note>
       </trans-unit>
-      <trans-unit id="Menu.RemoveBookmarkAction.Title" approved="yes">
-        <source>Remove Bookmark</source> <target state="translated">Forigi legosignon</target><note>String describing the action of remove the current site as a bookmark from the menu</note>
+      <trans-unit id="Menu.RemoveBookmarkAction.Title">
+        <source>Remove Bookmark</source>
+        <target>Forigi legosignon</target>
+        <note>Label for the button, displayed in the menu, used to delete an existing bookmark for the current website.</note>
       </trans-unit>
-      <trans-unit id="Menu.SendPageAction.Title" approved="yes">
-        <source>Send</source> <target state="translated">Sendi</target><note>String describing the action of invoking the share menu. On the menu</note>
+      <trans-unit id="Menu.SendPageAction.Title">
+        <source>Send</source>
+        <target>Sendi</target>
+        <note>Label for the button, displayed in the menu, used to open the share dialog.</note>
       </trans-unit>
-      <trans-unit id="Menu.SetHomePageAction.Title" approved="yes">
-        <source>Set Homepage</source> <target state="translated">Difini hejmpaĝon</target><note>String describing the action of setting the homepage if none is set. On the menu</note>
+      <trans-unit id="Menu.SetHomePageAction.Title">
+        <source>Set Homepage</source>
+        <target>Difini hejmpaĝon</target>
+        <note>Label for the button, displayed in the menu, used to set the homepage if none is currently set.</note>
       </trans-unit>
-      <trans-unit id="Menu.ViewDekstopSiteAction.Title" approved="yes">
-        <source>Request Desktop Site</source> <target state="translated">Peti skribotablan retejon</target><note>String describing the action of requesting a website switch from a mobile optimized view to a desktop view from the menu. The site may not have a desktop version so the request may be denied.</note>
+      <trans-unit id="Menu.ViewDekstopSiteAction.Title">
+        <source>Request Desktop Site</source>
+        <target>Peti skribotablan retejon</target>
+        <note>Label for the button, displayed in the menu, used to request the desktop version of the current website.</note>
       </trans-unit>
-      <trans-unit id="Menu.ViewMobileSiteAction.Title" approved="yes">
-        <source>Request Mobile Site</source> <target state="translated">Peti poŝaparatan retejon</target><note>String describing the action of request a website switch from a desktop view to a mobile optimized view from the menu. The site may not have a mobile version so the request may be denied.</note>
+      <trans-unit id="Menu.ViewMobileSiteAction.Title">
+        <source>Request Mobile Site</source>
+        <target>Peti poŝaparatan retejon</target>
+        <note>Label for the button, displayed in the menu, used to request the mobile version of the current website.</note>
       </trans-unit>
     </body>
   </file>
@@ -2017,7 +2226,9 @@
     </header>
     <body>
       <trans-unit id="Close Private Tabs">
-        <source>Close Private Tabs</source> <target>Fermi privatajn langetojn</target> <note>Setting for closing private tabs</note>
+        <source>Close Private Tabs</source>
+        <target>Fermi privatajn langetojn</target>
+        <note>Setting for closing private tabs</note>
       </trans-unit>
       <trans-unit id="Firefox won't remember any of your history or cookies, but new bookmarks will be saved.">
         <source>Firefox won't remember any of your history or cookies, but new bookmarks will be saved.</source>
@@ -2478,3 +2689,4 @@
     </body>
   </file>
 </xliff>
+
