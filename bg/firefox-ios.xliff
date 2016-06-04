@@ -975,6 +975,7 @@
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Title">
         <source>This Connection is Untrusted</source>
+        <target>Вашата връзка не е лична</target>
         <note>Title on the certificate error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.GoBack.Button">
@@ -1235,6 +1236,7 @@
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title">
         <source>Update login %1$@ for %2$@?</source>
+        <target>Обнови влизане за %1$@ на %2$@?</target>
         <note>Prompt for updating a login. The first parameter is the username for which the password will be updated for. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdatePassword.Title">
@@ -1480,6 +1482,7 @@
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.AddTitle">
         <source>Add Search Provider?</source>
+        <target>Прибавяне на търсеща машина?</target>
         <note>The title that asks the user to Add the search provider</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.Cancel">
@@ -1489,6 +1492,7 @@
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.FailedMessage">
         <source>The search provider could not be added.</source>
+        <target>Търсещата машина не може да бъде прибавена.</target>
         <note>A title explaining that we failed to add a search engine</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.FailedTitle">
@@ -1533,6 +1537,7 @@
       </trans-unit>
       <trans-unit id="SendTo.Error.Message">
         <source>Only HTTP and HTTPS links can be shared.</source>
+        <target>Само HTTP и HTTPS препратки могат да се споделят.</target>
         <note>Message in error prompt explaining why the URL is invalid.</note>
       </trans-unit>
       <trans-unit id="SendTo.Error.OK.Button">
@@ -1542,6 +1547,7 @@
       </trans-unit>
       <trans-unit id="SendTo.Error.Title">
         <source>The link you are trying to share cannot be shared.</source>
+        <target>Препратката не може да бъде споделяна.</target>
         <note>Title of error prompt displayed when an invalid URL is shared.</note>
       </trans-unit>
       <trans-unit id="Sepia">
@@ -1592,10 +1598,12 @@
       </trans-unit>
       <trans-unit id="Settings.HomePage.UI.Toggle.Subtitle">
         <source>Otherwise show in the toolbar</source>
+        <target>Покажи в навигацията</target>
         <note>Toggle setting to show home page button in menu, or on toolbar.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.UI.Toggle.Title">
         <source>Show Homepage Icon In Menu</source>
+        <target>Показване на входна страница в меню</target>
         <note>Toggle setting to show home page button in menu, or on toolbar.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.URL.Placeholder">
@@ -1605,18 +1613,22 @@
       </trans-unit>
       <trans-unit id="Settings.HomePage.URL.Title">
         <source>Current Homepage</source>
+        <target>Настояща входна страница</target>
         <note>Title of the setting section containing the URL of the current home page.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.UseCopiedLink.Button">
         <source>Use Copied Link</source>
+        <target>Използвай копирана препратка</target>
         <note>Button in settings to use the current link on the clipboard as home page.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.UseCurrent.Button">
         <source>Use Current Page</source>
+        <target>Изпозване на настояща страница</target>
         <note>Button in settings to use the current page as home page.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.UseDefault.Button">
         <source>Use Default</source>
+        <target>Използвай стандарта</target>
         <note>Button in settings to use the default home page. If no default is set, then this button isn't shown.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Done.Button">
@@ -1718,22 +1730,27 @@
       </trans-unit>
       <trans-unit id="Sync.FirstTimeMessage.Label">
         <source>Your first sync may take a while</source>
+        <target>Първия цикъл на синхронизиране може да отнеме известно време</target>
         <note>Message displayed when the user syncs for the first time</note>
       </trans-unit>
       <trans-unit id="Sync.Syncing.Label">
         <source>Syncing</source>
+        <target>Синхронизиране</target>
         <note>Message displayed when the user's account is syncing with no ellipsis</note>
       </trans-unit>
       <trans-unit id="Sync.SyncingEllipsis.Label">
         <source>Syncing…</source>
+        <target>Синхронизиране…</target>
         <note>Message displayed when the user's account is syncing with ellipsis at the end</note>
       </trans-unit>
       <trans-unit id="SyncState.Bookmark.Title">
         <source>Bookmarks</source>
+        <target>Отметки</target>
         <note>The Bookmark sync component, used in SyncState.Partial.Title</note>
       </trans-unit>
       <trans-unit id="SyncState.Clients.Title">
         <source>Remote Clients</source>
+        <target>Oтдалечени клиенти</target>
         <note>The Remote Clients sync component, used in SyncState.Partial.Title</note>
       </trans-unit>
       <trans-unit id="SyncState.Failed.Title">
@@ -1748,6 +1765,7 @@
       </trans-unit>
       <trans-unit id="SyncState.Logins.Title">
         <source>Logins</source>
+        <target>Входящи данни</target>
         <note>The Logins sync component, used in SyncState.Partial.Title</note>
       </trans-unit>
       <trans-unit id="SyncState.NotStarted.Title">
@@ -1762,6 +1780,7 @@
       </trans-unit>
       <trans-unit id="SyncState.Partial.Title">
         <source>Sync is experiencing issues syncing %@</source>
+        <target>Синхронизирането има проблем %@</target>
         <note>Title for Sync status message when a component of Sync failed to complete, where %@ represents the name of the component, i.e. Sync is experiencing issues syncing Bookmarks</note>
       </trans-unit>
       <trans-unit id="SyncState.Tabs.Title">
@@ -1786,11 +1805,12 @@
       </trans-unit>
       <trans-unit id="Tabs.DeleteAllUndo.Button">
         <source>Undo</source>
+        <target>Отмяна</target>
         <note>The button to undo the delete all tabs</note>
       </trans-unit>
       <trans-unit id="Tabs.DeleteAllUndo.Title">
         <source>%d tab(s) closed</source>
-        <target> %d подпрозорци затворени</target>
+        <target>%d подпрозорци затворени</target>
         <note>The label indicating that all the tabs were closed</note>
       </trans-unit>
       <trans-unit id="The page could not be displayed in Reader View.">
@@ -1835,6 +1855,7 @@
       </trans-unit>
       <trans-unit id="Toolbar.OpenHomePage.AccessibilityLabel">
         <source>Homepage</source>
+        <target>Входна страница</target>
         <note>Accessibility Label for the tab toolbar Homepage button</note>
       </trans-unit>
       <trans-unit id="Top sites">
@@ -1854,7 +1875,7 @@
       </trans-unit>
       <trans-unit id="TopSites.RemovePage.Button">
         <source>Remove page - %@</source>
-        <target>Премахване на страница - %@ </target>
+        <target>Премахване на страница - %@</target>
         <note>Button shown in editing mode to remove this site from the top sites panel.</note>
       </trans-unit>
       <trans-unit id="Twitter">
@@ -2144,26 +2165,32 @@
       </trans-unit>
       <trans-unit id="Menu.OpenBookmarksAction.AccessibilityLabel">
         <source>Bookmarks</source>
+        <target>Отметки</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the Bbookmarks home panel.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenHistoryAction.AccessibilityLabel">
         <source>History</source>
+        <target>История</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the History home panel.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenHomePageAction.Title">
         <source>Home</source>
+        <target>Входна страница</target>
         <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel">
         <source>Reading List</source>
+        <target>Списък за четене</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the Reading list home panel.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenSettingsAction.Title">
         <source>Settings</source>
+        <target>Настройки</target>
         <note>Label for the button, displayed in the menu, used to open the Settings menu.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenTopSitesAction.AccessibilityLabel">
         <source>Top Sites</source>
+        <target>Най-посещавани</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the Top Sites home panel.</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveBookmarkAction.Title">
@@ -2178,14 +2205,17 @@
       </trans-unit>
       <trans-unit id="Menu.SetHomePageAction.Title">
         <source>Set Homepage</source>
+        <target>Установяване на входна страница</target>
         <note>Label for the button, displayed in the menu, used to set the homepage if none is currently set.</note>
       </trans-unit>
       <trans-unit id="Menu.ViewDekstopSiteAction.Title">
         <source>Request Desktop Site</source>
+        <target>Искане на оригиналния сайт</target>
         <note>Label for the button, displayed in the menu, used to request the desktop version of the current website.</note>
       </trans-unit>
       <trans-unit id="Menu.ViewMobileSiteAction.Title">
         <source>Request Mobile Site</source>
+        <target>Искане на мобилния сайт</target>
         <note>Label for the button, displayed in the menu, used to request the mobile version of the current website.</note>
       </trans-unit>
     </body>
