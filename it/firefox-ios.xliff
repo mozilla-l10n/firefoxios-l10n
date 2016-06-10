@@ -700,17 +700,17 @@
       <trans-unit id="AddPass.Error.Dismiss">
         <source>OK</source>
         <target>OK</target>
-        <note>Button to dismiss the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Passbook.</note>
+        <note>Button to dismiss the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet.</note>
       </trans-unit>
       <trans-unit id="AddPass.Error.Message">
-        <source>An error occured while adding the pass to Passbook. Please try again later.</source>
-        <target>Si è verificato un errore durante l’aggiunta del biglietto a Passbook. Riprovare più tardi.</target>
-        <note>Text of the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Passbook.</note>
+        <source>An error occured while adding the pass to Wallet. Please try again later.</source>
+        <target>Si è verificato un errore durante l’aggiunta del biglietto a Wallet. Riprovare più tardi.</target>
+        <note>Text of the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet.</note>
       </trans-unit>
       <trans-unit id="AddPass.Error.Title">
         <source>Failed to Add Pass</source>
         <target>Errore aggiunta biglietto</target>
-        <note>Title of the 'Add Pass Failed' alert. See https://support.apple.com/HT204003 for context on Passbook.</note>
+        <note>Title of the 'Add Pass Failed' alert. See https://support.apple.com/HT204003 for context on Wallet.</note>
       </trans-unit>
       <trans-unit id="Added page to Reading List">
         <source>Added page to Reading List</source>
@@ -1668,10 +1668,25 @@
         <target>Visualizza una pagina vuota</target>
         <note>Option in settings to show a blank page when you open a new tab</note>
       </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.Bookmarks">
+        <source>Show your Bookmarks</source>
+        <target>Visualizza i segnalibri</target>
+        <note>Option in settings to show bookmarks when you open a new tab</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.History">
+        <source>Show your History</source>
+        <target>Visualizza la cronologia</target>
+        <note>Option in settings to show history when you open a new tab</note>
+      </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HomePage">
         <source>Show your Homepage</source>
         <target>Visualizza la pagina iniziale</target>
         <note>Option in settings to show your homepage when you open a new tab</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.ReadingList">
+        <source>Show your Reading List</source>
+        <target>Visualizza Elenco lettura</target>
+        <note>Option in settings to show reading list when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.TopSites">
         <source>Show your Top Sites</source>
@@ -2745,4 +2760,3 @@
     </body>
   </file>
 </xliff>
-
