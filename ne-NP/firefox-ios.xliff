@@ -683,6 +683,18 @@
         <target>पढ्ने सूचीमा थप्नुहोस्</target>
         <note>Add URL to the reading list - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
       </trans-unit>
+      <trans-unit id="AddPass.Error.Dismiss">
+        <source>OK</source>
+        <note>Button to dismiss the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Passbook.</note>
+      </trans-unit>
+      <trans-unit id="AddPass.Error.Message">
+        <source>An error occured while adding the pass to Passbook. Please try again later.</source>
+        <note>Text of the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Passbook.</note>
+      </trans-unit>
+      <trans-unit id="AddPass.Error.Title">
+        <source>Failed to Add Pass</source>
+        <note>Title of the 'Add Pass Failed' alert. See https://support.apple.com/HT204003 for context on Passbook.</note>
+      </trans-unit>
       <trans-unit id="Added page to Reading List">
         <source>Added page to Reading List</source>
         <target>पढ्ने सूचीमा थपियो</target>
@@ -772,14 +784,7 @@
       <trans-unit id="Cancel">
         <source>Cancel</source>
         <target>रद्द गर्नुहोस्</target>
-        <note>Action Sheet Cancel Button
-   Alert Cancel Button
-   Authentication prompt cancel button
-   Button label to cancel entering a URL or search query
-   Cancel alert view
-   Cancel button
-   Cancel button in the 'log out firefox account' alert
-   Cancel title from search engine picker</note>
+        <note>Label for Cancel button</note>
       </trans-unit>
       <trans-unit id="Changes color theme.">
         <source>Changes color theme.</source>
@@ -898,13 +903,28 @@
       <trans-unit id="Done">
         <source>Done</source>
         <target>पूरा भयो</target>
-        <note>Done button label on back forward list screen
-   Done button on left side of the Settings view controller title bar
+        <note>Done button on left side of the Settings view controller title bar
    Done editing button</note>
       </trans-unit>
       <trans-unit id="Double tap and hold to open history">
         <source>Double tap and hold to open history</source>
         <note>Accessibility hint, associated to the Back button in the tab toolbar, used by assistive technology to describe the result of a double tap.</note>
+      </trans-unit>
+      <trans-unit id="Downloads.Alert.Cancel">
+        <source>No</source>
+        <note>The label of the button the user will press to reject the option to open a file in another application</note>
+      </trans-unit>
+      <trans-unit id="Downloads.Alert.Confirm">
+        <source>Yes</source>
+        <note>The label of the button the user will press to be presented with a list of other apps to open a file in</note>
+      </trans-unit>
+      <trans-unit id="Downloads.Alert.Message">
+        <source>Firefox is unable to download or display this file. Would you like to open it in another app?</source>
+        <note>The message of the alert box asking the user if they want to use another app to open a file.</note>
+      </trans-unit>
+      <trans-unit id="Downloads.Alert.Title">
+        <source>Firefox Downloads</source>
+        <note>The title of the alert box asking the user if they want to use another app to open a file.</note>
       </trans-unit>
       <trans-unit id="Downloads.Error.Message">
         <source>Downloads aren't supported in Firefox yet.</source>
@@ -1474,11 +1494,11 @@
       </trans-unit>
       <trans-unit id="Settings.HomePage.UI.Toggle.Subtitle">
         <source>Otherwise show in the toolbar</source>
-        <note>Toggle setting to show home page button in menu, or on toolbar.</note>
+        <note>Label displayed under the 'Show Homepage Icon In Menu' option. It describes the effect of this setting when disabled.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.UI.Toggle.Title">
         <source>Show Homepage Icon In Menu</source>
-        <note>Toggle setting to show home page button in menu, or on toolbar.</note>
+        <note>Label used as an item in Settings. User can toggle this setting to show the home page button in menu, or on toolbar.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.URL.Placeholder">
         <source>Enter a webpage</source>
@@ -1499,6 +1519,30 @@
       <trans-unit id="Settings.HomePage.UseDefault.Button">
         <source>Use Default</source>
         <note>Button in settings to use the default home page. If no default is set, then this button isn't shown.</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Description">
+        <source>When you open a New Tab:</source>
+        <note>A description in settings of what the new tab choice means</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.BlankPage">
+        <source>Show a Blank Page</source>
+        <note>Option in settings to show a blank page when you open a new tab</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.HomePage">
+        <source>Show your Homepage</source>
+        <note>Option in settings to show your homepage when you open a new tab</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.TopSites">
+        <source>Show your Top Sites</source>
+        <note>Option in settings to show top sites when you open a new tab</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.SectionName">
+        <source>New Tab</source>
+        <note>Label used as an item in Settings. When touched it will open a dialog to configure the new tab behaviour.</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Title">
+        <source>New Tab Settings</source>
+        <note>Title displayed in header of the setting panel.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Done.Button">
         <source>Done</source>
@@ -1862,12 +1906,11 @@
       <trans-unit id="Delete">
         <source>Delete</source>
         <target>मेट्नुहोस्</target>
-        <note>Button in login detail screen that deletes the current login
-   Label for the button used to delete an existing login.</note>
+        <note>Label for the button used to delete the current login.</note>
       </trans-unit>
       <trans-unit id="Deselect All">
         <source>Deselect All</source>
-        <note>Title for deselecting all selected logins</note>
+        <note>Label for the button used to deselect all logins.</note>
       </trans-unit>
       <trans-unit id="Enter Search Mode">
         <source>Enter Search Mode</source>
@@ -1880,12 +1923,12 @@
       </trans-unit>
       <trans-unit id="Last modified %@">
         <source>Last modified %@</source>
-        <note>Footer label describing when the login was last modified with the timestamp as the parameter</note>
+        <note>Footer label describing when the current login was last modified with the timestamp as the parameter.</note>
       </trans-unit>
       <trans-unit id="Logins">
         <source>Logins</source>
         <target>लग-इनहरू</target>
-        <note>Title for Logins List View screen</note>
+        <note>Title for Logins List View screen.</note>
       </trans-unit>
       <trans-unit id="Logins will be permanently removed.">
         <source>Logins will be permanently removed.</source>
@@ -1897,7 +1940,7 @@
       </trans-unit>
       <trans-unit id="No logins found">
         <source>No logins found</source>
-        <note>Title displayed when no logins are found after searching</note>
+        <note>Label displayed when no logins are found after searching.</note>
       </trans-unit>
       <trans-unit id="Open &amp; Fill">
         <source>Open &amp; Fill</source>
@@ -1918,22 +1961,22 @@
       <trans-unit id="Select All">
         <source>Select All</source>
         <target>सबै चयन गर्नुहोस्</target>
-        <note>Title for selecting all logins</note>
+        <note>Label for the button used to select all logins.</note>
       </trans-unit>
       <trans-unit id="password">
         <source>password</source>
         <target>पासवर्ड</target>
-        <note>Title for password row in Login Detail View</note>
+        <note>Label displayed above the password row in Login Detail View.</note>
       </trans-unit>
       <trans-unit id="username">
         <source>username</source>
         <target>प्रयोगकर्ता नाम</target>
-        <note>Title for username row in Login Detail View</note>
+        <note>Label displayed above the username row in Login Detail View.</note>
       </trans-unit>
       <trans-unit id="website">
         <source>website</source>
         <target>वेबसाइट</target>
-        <note>Title for website row in Login Detail View</note>
+        <note>Label displayed above the website row in Login Detail View.</note>
       </trans-unit>
     </body>
   </file>
