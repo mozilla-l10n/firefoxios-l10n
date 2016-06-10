@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="ru">
     <header>
@@ -700,17 +700,16 @@
       <trans-unit id="AddPass.Error.Dismiss">
         <source>OK</source>
         <target>ОК</target>
-        <note>Button to dismiss the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Passbook.</note>
+        <note>Button to dismiss the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet.</note>
       </trans-unit>
       <trans-unit id="AddPass.Error.Message">
-        <source>An error occured while adding the pass to Passbook. Please try again later.</source>
-        <target>Произошла ошибка при добавлении пароля в Passbook. Пожалуйста, попробуйте снова.</target>
-        <note>Text of the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Passbook.</note>
+        <source>An error occured while adding the pass to Wallet. Please try again later.</source>
+        <note>Text of the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet.</note>
       </trans-unit>
       <trans-unit id="AddPass.Error.Title">
         <source>Failed to Add Pass</source>
         <target>Не удалось добавить пароль</target>
-        <note>Title of the 'Add Pass Failed' alert. See https://support.apple.com/HT204003 for context on Passbook.</note>
+        <note>Title of the 'Add Pass Failed' alert. See https://support.apple.com/HT204003 for context on Wallet.</note>
       </trans-unit>
       <trans-unit id="Added page to Reading List">
         <source>Added page to Reading List</source>
@@ -1298,6 +1297,30 @@
         <note>Name for Mark as unread button in reader mode
    Title for the button that marks a reading list item as unread</note>
       </trans-unit>
+      <trans-unit id="Menu.NightModeAction.Title">
+        <source>Night Mode</source>
+        <note>Label for the button, displayed in the menu, used to toggle night mode on or off</note>
+      </trans-unit>
+      <trans-unit id="Menu.NightModeTurnOffAction.Title">
+        <source>Night Mode Off</source>
+        <note>Label for the button, displayed in the menu, used to turn night mode off</note>
+      </trans-unit>
+      <trans-unit id="Menu.NightModeTurnOnAction.Title">
+        <source>Night Mode</source>
+        <note>Label for the button, displayed in the menu, used to turn night mode on</note>
+      </trans-unit>
+      <trans-unit id="Menu.NoImageModeAction.Title">
+        <source>No Image Mode</source>
+        <note>Label for the button, displayed in the menu, used to toggle no image mode on or off</note>
+      </trans-unit>
+      <trans-unit id="Menu.NoImageModeTurnOffAction.Title">
+        <source>Show Images</source>
+        <note>Label for the button, displayed in the menu, used to turn no image mode off</note>
+      </trans-unit>
+      <trans-unit id="Menu.NoImageModeTurnOnAction.Title">
+        <source>Hide Images</source>
+        <note>Label for the button, displayed in the menu, used to turn no image mode on</note>
+      </trans-unit>
       <trans-unit id="Missing error">
         <source>Missing error</source>
         <target>Отсутствует номер ошибки</target>
@@ -1668,10 +1691,22 @@
         <target>Показывать пустую страницу</target>
         <note>Option in settings to show a blank page when you open a new tab</note>
       </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.Bookmarks">
+        <source>Show your Bookmarks</source>
+        <note>Option in settings to show bookmarks when you open a new tab</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.History">
+        <source>Show your History</source>
+        <note>Option in settings to show history when you open a new tab</note>
+      </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HomePage">
         <source>Show your Homepage</source>
         <target>Показывать мою домашнюю страницу</target>
         <note>Option in settings to show your homepage when you open a new tab</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.ReadingList">
+        <source>Show your Reading List</source>
+        <note>Option in settings to show reading list when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.TopSites">
         <source>Show your Top Sites</source>
