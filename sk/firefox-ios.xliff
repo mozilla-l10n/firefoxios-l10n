@@ -704,10 +704,12 @@
       </trans-unit>
       <trans-unit id="AddPass.Error.Message">
         <source>An error occured while adding the pass to Wallet. Please try again later.</source>
+        <target>Pri pridávaní lístkov do aplikácie Wallet nastala chyba. Skúste to, prosím, neskôr.</target>
         <note>Text of the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet.</note>
       </trans-unit>
       <trans-unit id="AddPass.Error.Title">
         <source>Failed to Add Pass</source>
+        <target>Pridanie lístku zlyhalo</target>
         <note>Title of the 'Add Pass Failed' alert. See https://support.apple.com/HT204003 for context on Wallet.</note>
       </trans-unit>
       <trans-unit id="Added page to Reading List">
@@ -960,14 +962,17 @@
       </trans-unit>
       <trans-unit id="Downloads.Alert.Message">
         <source>Firefox is unable to download or display this file. Would you like to open it in another app?</source>
+        <target>Firefox nedokáže tento súbor prevziať alebo zobraziť. Chceli by ste ho otvoriť prostredníctvom inej aplikácie?</target>
         <note>The message of the alert box asking the user if they want to use another app to open a file.</note>
       </trans-unit>
       <trans-unit id="Downloads.Alert.Title">
         <source>Firefox Downloads</source>
+        <target>Prevzatie pomocou Firefoxu</target>
         <note>The title of the alert box asking the user if they want to use another app to open a file.</note>
       </trans-unit>
       <trans-unit id="Downloads.Error.Message">
         <source>Downloads aren't supported in Firefox yet.</source>
+        <target>Preberanie zatiaľ nie je vo Firefoxe podporované.</target>
         <note>The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle.</note>
       </trans-unit>
       <trans-unit id="Enter your password to connect.">
@@ -1067,6 +1072,7 @@
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptyState.Title">
         <source>Websites you've visited recently will show up here.</source>
+        <target>Tu sa zobrazia stránky, ktoré ste nedávno navštívili.</target>
         <note>Title for the History Panel empty state.</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsNullState.Description">
@@ -1076,6 +1082,7 @@
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsState.Description">
         <source>Sign in to view open tabs on your other devices.</source>
+        <target>Prihlásením sa zobrazíte otvorené karty na vašich ostatných zariadeniach.</target>
         <note>Description for the empty synced tabs state in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsState.Title">
@@ -1110,6 +1117,7 @@
       </trans-unit>
       <trans-unit id="HomePage.Set.Dialog.Message">
         <source>You can change this at any time in Settings</source>
+        <target>Toto môžete kedykoľvek zmeniť v Nastaveniach</target>
         <note>Alert dialog body when the user opens the home page for the first time.</note>
       </trans-unit>
       <trans-unit id="HomePage.Set.Dialog.OK">
@@ -1521,6 +1529,7 @@
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.AddMessage">
         <source>The new search engine will appear in the quick search bar.</source>
+        <target>Nový vyhľadávací modul sa objaví v paneli rýchleho vyhľadávania.</target>
         <note>The message that asks the user to Add the search provider explaining where the search engine will appear</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.AddSuccess">
@@ -1530,6 +1539,7 @@
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.AddTitle">
         <source>Add Search Provider?</source>
+        <target>Pridať poskytovateľa vyhľadávania?</target>
         <note>The title that asks the user to Add the search provider</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.Cancel">
@@ -1539,10 +1549,12 @@
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.FailedMessage">
         <source>The search provider could not be added.</source>
+        <target>Poskytovateľ vyhľadávania nemohol byť pridaný.</target>
         <note>A title explaining that we failed to add a search engine</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.FailedTitle">
         <source>Failed</source>
+        <target>Zlyhanie</target>
         <note>A title explaining that we failed to add a search engine</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.OK">
@@ -1582,6 +1594,7 @@
       </trans-unit>
       <trans-unit id="SendTo.Error.Message">
         <source>Only HTTP and HTTPS links can be shared.</source>
+        <target>Zdieľané môžu byť len odkazy typu HTTP a HTTPS.</target>
         <note>Message in error prompt explaining why the URL is invalid.</note>
       </trans-unit>
       <trans-unit id="SendTo.Error.OK.Button">
@@ -1591,6 +1604,7 @@
       </trans-unit>
       <trans-unit id="SendTo.Error.Title">
         <source>The link you are trying to share cannot be shared.</source>
+        <target>Odkaz, ktorý sa pokúšate zdieľať nemôže byť zdieľaný.</target>
         <note>Title of error prompt displayed when an invalid URL is shared.</note>
       </trans-unit>
       <trans-unit id="Sepia">
@@ -1641,6 +1655,7 @@
       </trans-unit>
       <trans-unit id="Settings.HomePage.UI.Toggle.Subtitle">
         <source>Otherwise show in the toolbar</source>
+        <target>Inak zobraziť v paneli s nástrojmi</target>
         <note>Label displayed under the 'Show Homepage Icon In Menu' option. It describes the effect of this setting when disabled.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.UI.Toggle.Title">
@@ -1655,46 +1670,57 @@
       </trans-unit>
       <trans-unit id="Settings.HomePage.URL.Title">
         <source>Current Homepage</source>
+        <target>Súčasná domovská stránka</target>
         <note>Title of the setting section containing the URL of the current home page.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.UseCopiedLink.Button">
         <source>Use Copied Link</source>
+        <target>Použiť skopírovaný odkaz</target>
         <note>Button in settings to use the current link on the clipboard as home page.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.UseCurrent.Button">
         <source>Use Current Page</source>
+        <target>Použiť aktuálnu stránku</target>
         <note>Button in settings to use the current page as home page.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.UseDefault.Button">
         <source>Use Default</source>
+        <target>Použiť predvolené</target>
         <note>Button in settings to use the default home page. If no default is set, then this button isn't shown.</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Description">
         <source>When you open a New Tab:</source>
+        <target>Po otvorení novej karty:</target>
         <note>A description in settings of what the new tab choice means</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.BlankPage">
         <source>Show a Blank Page</source>
+        <target>Zobraziť prázdnu stránku</target>
         <note>Option in settings to show a blank page when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.Bookmarks">
         <source>Show your Bookmarks</source>
+        <target>Zobraziť vaše záložky</target>
         <note>Option in settings to show bookmarks when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.History">
         <source>Show your History</source>
+        <target>Zobraziť vašu históriu</target>
         <note>Option in settings to show history when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HomePage">
         <source>Show your Homepage</source>
+        <target>Zobraziť vašu domovskú stránku</target>
         <note>Option in settings to show your homepage when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.ReadingList">
         <source>Show your Reading List</source>
+        <target>Zobraziť váš Zoznam na prečítanie</target>
         <note>Option in settings to show reading list when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.TopSites">
         <source>Show your Top Sites</source>
+        <target>Zobraziť vaše top stránky</target>
         <note>Option in settings to show top sites when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.SectionName">
@@ -1846,14 +1872,17 @@
       </trans-unit>
       <trans-unit id="SyncState.NotStarted.Title">
         <source>Sync is unavailable</source>
+        <target>Služba Sync nie je dostupná</target>
         <note>Title for Sync status message when Sync failed to start.</note>
       </trans-unit>
       <trans-unit id="SyncState.Offline.Title">
         <source>Sync is offline</source>
+        <target>Služba Sync je offline</target>
         <note>Title for Sync status message when Sync failed due to being offline</note>
       </trans-unit>
       <trans-unit id="SyncState.Partial.Title">
         <source>Sync is experiencing issues syncing %@</source>
+        <target>Služba Sync má problém synchronizovať %@</target>
         <note>Title for Sync status message when a component of Sync failed to complete, where %@ represents the name of the component, i.e. Sync is experiencing issues syncing Bookmarks</note>
       </trans-unit>
       <trans-unit id="SyncState.Tabs.Title">
