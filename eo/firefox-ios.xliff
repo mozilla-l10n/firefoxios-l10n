@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
@@ -6,9 +6,7 @@
     </header>
     <body>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
+        <source>$(PRODUCT_NAME)</source> <target>$(PRODUCT_NAME)</target> </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>5.0</source>
         <target>5.0</target>
@@ -697,22 +695,17 @@
         <target>Aldoni al legolisto</target>
         <note>Add URL to the reading list - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
       </trans-unit>
-      <trans-unit id="AddPass.Error.Dismiss">
-        <source>OK</source>
-        <note>Button to dismiss the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet.</note>
+      <trans-unit id="AddPass.Error.Dismiss" approved="yes">
+        <source>OK</source> <target state="translated">Akcepti</target><note>Button to dismiss the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet.</note>
       </trans-unit>
-      <trans-unit id="AddPass.Error.Message">
-        <source>An error occured while adding the pass to Wallet. Please try again later.</source>
-        <note>Text of the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet.</note>
+      <trans-unit id="AddPass.Error.Message" approved="yes">
+        <source>An error occured while adding the pass to Wallet. Please try again later.</source> <target state="translated">Eraro okazis dum aldono de la bileto al la monujo. Bonvolu klopodi denove poste.</target><note>Text of the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet.</note>
       </trans-unit>
-      <trans-unit id="AddPass.Error.Title">
-        <source>Failed to Add Pass</source>
-        <note>Title of the 'Add Pass Failed' alert. See https://support.apple.com/HT204003 for context on Wallet.</note>
+      <trans-unit id="AddPass.Error.Title" approved="yes">
+        <source>Failed to Add Pass</source> <target state="translated">Ne eblis aldoni la bileton</target><note>Title of the 'Add Pass Failed' alert. See https://support.apple.com/HT204003 for context on Wallet.</note>
       </trans-unit>
       <trans-unit id="Added page to Reading List">
-        <source>Added page to Reading List</source>
-        <target>Paĝo aldonita al la lego</target>
-        <note>Accessibility message e.g. spoken by VoiceOver after the current page gets added to the Reading List using the Reader View button, e.g. by long-pressing it or by its accessibility custom action.</note>
+        <source>Added page to Reading List</source> <target>Paĝo aldonita al la lego</target> <note>Accessibility message e.g. spoken by VoiceOver after the current page gets added to the Reading List using the Reader View button, e.g. by long-pressing it or by its accessibility custom action.</note>
       </trans-unit>
       <trans-unit id="Address and Search">
         <source>Address and Search</source>
@@ -720,9 +713,7 @@
         <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
       </trans-unit>
       <trans-unit id="Allow Third-Party Keyboards">
-        <source>Allow Third-Party Keyboards</source>
-        <target>Permesi klavarojn de aliaj</target>
-        <note>Setting to enable third-party keyboards</note>
+        <source>Allow Third-Party Keyboards</source> <target>Permesi klavarojn de aliaj</target> <note>Setting to enable third-party keyboards</note>
       </trans-unit>
       <trans-unit id="Always Send">
         <source>Always Send</source>
@@ -947,26 +938,20 @@
         <target>Duoble tuŝetu kaj premu por malfermi historion</target>
         <note>Accessibility hint, associated to the Back button in the tab toolbar, used by assistive technology to describe the result of a double tap.</note>
       </trans-unit>
-      <trans-unit id="Downloads.Alert.Cancel">
-        <source>No</source>
-        <note>The label of the button the user will press to reject the option to open a file in another application</note>
+      <trans-unit id="Downloads.Alert.Cancel" approved="yes">
+        <source>No</source> <target state="translated">Ne</target><note>The label of the button the user will press to reject the option to open a file in another application</note>
       </trans-unit>
-      <trans-unit id="Downloads.Alert.Confirm">
-        <source>Yes</source>
-        <note>The label of the button the user will press to be presented with a list of other apps to open a file in</note>
+      <trans-unit id="Downloads.Alert.Confirm" approved="yes">
+        <source>Yes</source> <target state="translated">Jes</target><note>The label of the button the user will press to be presented with a list of other apps to open a file in</note>
       </trans-unit>
-      <trans-unit id="Downloads.Alert.Message">
-        <source>Firefox is unable to download or display this file. Would you like to open it in another app?</source>
-        <note>The message of the alert box asking the user if they want to use another app to open a file.</note>
+      <trans-unit id="Downloads.Alert.Message" approved="yes">
+        <source>Firefox is unable to download or display this file. Would you like to open it in another app?</source> <target state="translated">Firefox ne povas elŝuti aŭ montri tiun ĉi dosieron. Ĉu vi ŝatus malfermi ĝin per alia programo?</target><note>The message of the alert box asking the user if they want to use another app to open a file.</note>
       </trans-unit>
-      <trans-unit id="Downloads.Alert.Title">
-        <source>Firefox Downloads</source>
-        <note>The title of the alert box asking the user if they want to use another app to open a file.</note>
+      <trans-unit id="Downloads.Alert.Title" approved="yes">
+        <source>Firefox Downloads</source> <target state="translated">Elŝutoj de Firefox</target><note>The title of the alert box asking the user if they want to use another app to open a file.</note>
       </trans-unit>
       <trans-unit id="Downloads.Error.Message">
-        <source>Downloads aren't supported in Firefox yet.</source>
-        <target>Elŝutoj ne estas ankoraŭ subtenataj en Firefox</target>
-        <note>The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle.</note>
+        <source>Downloads aren't supported in Firefox yet.</source> <target>Elŝutoj ne estas ankoraŭ subtenataj en Firefox</target> <note>The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle.</note>
       </trans-unit>
       <trans-unit id="Enter your password to connect.">
         <source>Enter your password to connect.</source>
@@ -1291,34 +1276,26 @@
         <note>Name for Mark as unread button in reader mode
    Title for the button that marks a reading list item as unread</note>
       </trans-unit>
-      <trans-unit id="Menu.NightModeAction.Title">
-        <source>Night Mode</source>
-        <note>Label for the button, displayed in the menu, used to toggle night mode on or off</note>
+      <trans-unit id="Menu.NightModeAction.Title" approved="yes">
+        <source>Night Mode</source> <target state="translated">Nokta reĝimo</target><note>Label for the button, displayed in the menu, used to toggle night mode on or off</note>
       </trans-unit>
-      <trans-unit id="Menu.NightModeTurnOffAction.Title">
-        <source>Night Mode Off</source>
-        <note>Label for the button, displayed in the menu, used to turn night mode off</note>
+      <trans-unit id="Menu.NightModeTurnOffAction.Title" approved="yes">
+        <source>Night Mode Off</source> <target state="translated">Nokta reĝimo malŝaltita</target><note>Label for the button, displayed in the menu, used to turn night mode off</note>
       </trans-unit>
-      <trans-unit id="Menu.NightModeTurnOnAction.Title">
-        <source>Night Mode</source>
-        <note>Label for the button, displayed in the menu, used to turn night mode on</note>
+      <trans-unit id="Menu.NightModeTurnOnAction.Title" approved="yes">
+        <source>Night Mode</source> <target state="translated">Nokta reĝimo</target><note>Label for the button, displayed in the menu, used to turn night mode on</note>
       </trans-unit>
-      <trans-unit id="Menu.NoImageModeAction.Title">
-        <source>No Image Mode</source>
-        <note>Label for the button, displayed in the menu, used to toggle no image mode on or off</note>
+      <trans-unit id="Menu.NoImageModeAction.Title" approved="yes">
+        <source>No Image Mode</source> <target state="translated">Neniu bilda reĝimo</target><note>Label for the button, displayed in the menu, used to toggle no image mode on or off</note>
       </trans-unit>
-      <trans-unit id="Menu.NoImageModeTurnOffAction.Title">
-        <source>Show Images</source>
-        <note>Label for the button, displayed in the menu, used to turn no image mode off</note>
+      <trans-unit id="Menu.NoImageModeTurnOffAction.Title" approved="yes">
+        <source>Show Images</source> <target state="translated">Montri bildojn</target><note>Label for the button, displayed in the menu, used to turn no image mode off</note>
       </trans-unit>
-      <trans-unit id="Menu.NoImageModeTurnOnAction.Title">
-        <source>Hide Images</source>
-        <note>Label for the button, displayed in the menu, used to turn no image mode on</note>
+      <trans-unit id="Menu.NoImageModeTurnOnAction.Title" approved="yes">
+        <source>Hide Images</source> <target state="translated">Kaŝi bildojn</target><note>Label for the button, displayed in the menu, used to turn no image mode on</note>
       </trans-unit>
       <trans-unit id="Missing error">
-        <source>Missing error</source>
-        <target>Eraro mankas</target>
-        <note>Error for a missing remote error number</note>
+        <source>Missing error</source> <target>Eraro mankas</target> <note>Error for a missing remote error number</note>
       </trans-unit>
       <trans-unit id="Missing message">
         <source>Missing message</source>
@@ -1675,46 +1652,35 @@
         <target>Uzi la normon</target>
         <note>Button in settings to use the default home page. If no default is set, then this button isn't shown.</note>
       </trans-unit>
-      <trans-unit id="Settings.NewTab.Description">
-        <source>When you open a New Tab:</source>
-        <note>A description in settings of what the new tab choice means</note>
+      <trans-unit id="Settings.NewTab.Description" approved="yes">
+        <source>When you open a New Tab:</source> <target state="translated">Kiam vi malfermas novan langeton:</target><note>A description in settings of what the new tab choice means</note>
       </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.BlankPage">
-        <source>Show a Blank Page</source>
-        <note>Option in settings to show a blank page when you open a new tab</note>
+      <trans-unit id="Settings.NewTab.Option.BlankPage" approved="yes">
+        <source>Show a Blank Page</source> <target state="translated">Montri malplenan paĝon</target><note>Option in settings to show a blank page when you open a new tab</note>
       </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.Bookmarks">
-        <source>Show your Bookmarks</source>
-        <note>Option in settings to show bookmarks when you open a new tab</note>
+      <trans-unit id="Settings.NewTab.Option.Bookmarks" approved="yes">
+        <source>Show your Bookmarks</source> <target state="translated">Montri viajn legosignojn</target><note>Option in settings to show bookmarks when you open a new tab</note>
       </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.History">
-        <source>Show your History</source>
-        <note>Option in settings to show history when you open a new tab</note>
+      <trans-unit id="Settings.NewTab.Option.History" approved="yes">
+        <source>Show your History</source> <target state="translated">Montri vian historion</target><note>Option in settings to show history when you open a new tab</note>
       </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.HomePage">
-        <source>Show your Homepage</source>
-        <note>Option in settings to show your homepage when you open a new tab</note>
+      <trans-unit id="Settings.NewTab.Option.HomePage" approved="yes">
+        <source>Show your Homepage</source> <target state="translated">Montri vian hejmpaĝon</target><note>Option in settings to show your homepage when you open a new tab</note>
       </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.ReadingList">
-        <source>Show your Reading List</source>
-        <note>Option in settings to show reading list when you open a new tab</note>
+      <trans-unit id="Settings.NewTab.Option.ReadingList" approved="yes">
+        <source>Show your Reading List</source> <target state="translated">Montri vian legoliston</target><note>Option in settings to show reading list when you open a new tab</note>
       </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.TopSites">
-        <source>Show your Top Sites</source>
-        <note>Option in settings to show top sites when you open a new tab</note>
+      <trans-unit id="Settings.NewTab.Option.TopSites" approved="yes">
+        <source>Show your Top Sites</source> <target state="translated">Montri viajn plej vizititajn retejojn</target><note>Option in settings to show top sites when you open a new tab</note>
       </trans-unit>
-      <trans-unit id="Settings.NewTab.SectionName">
-        <source>New Tab</source>
-        <note>Label used as an item in Settings. When touched it will open a dialog to configure the new tab behaviour.</note>
+      <trans-unit id="Settings.NewTab.SectionName" approved="yes">
+        <source>New Tab</source> <target state="translated">Nova langeto</target><note>Label used as an item in Settings. When touched it will open a dialog to configure the new tab behaviour.</note>
       </trans-unit>
-      <trans-unit id="Settings.NewTab.Title">
-        <source>New Tab Settings</source>
-        <note>Title displayed in header of the setting panel.</note>
+      <trans-unit id="Settings.NewTab.Title" approved="yes">
+        <source>New Tab Settings</source> <target state="translated">Agordoj de nova langeto</target><note>Title displayed in header of the setting panel.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Done.Button">
-        <source>Done</source>
-        <target>Farita</target>
-        <note>Button displayed at the top of the search settings.</note>
+        <source>Done</source> <target>Farita</target> <note>Button displayed at the top of the search settings.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Edit.Button">
         <source>Edit</source>
@@ -2768,4 +2734,3 @@
     </body>
   </file>
 </xliff>
-
