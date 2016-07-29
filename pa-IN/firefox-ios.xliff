@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="pa-IN">
     <header>
@@ -7,6 +7,7 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>5.0</source>
@@ -256,18 +257,22 @@
       </trans-unit>
       <trans-unit id="History will be removed from all your connected devices. This cannot be undone.">
         <source>History will be removed from all your connected devices. This cannot be undone.</source>
+        <target>ਇਤਿਹਾਸ ਨੂੰ ਤੁਹਾਡੀਆਂ ਸਾਰੀਆਂ ਕਨੈਕਟ ਕੀਤੀ ਡੀਵਾਈਸਾਂ ਤੋਂ ਹਟਾ ਦਿੱਤਾ ਜਾਵੇਗਾ। ਇਸ ਨੂੰ ਅਣਕੀਤਾ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।</target>
         <note>Description of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
       </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
+        <target>OK</target>
         <note>The confirmation button that clears history even when Sync is connected.</note>
       </trans-unit>
       <trans-unit id="Remove history from your Firefox Account?">
         <source>Remove history from your Firefox Account?</source>
+        <target>ਕੀ ਇਤਿਹਾਸ ਨੂੰ ਤੁਹਾਡੇ ਫਾਇਰਫਾਕਸ ਖਾਤੇ ਵਿੱਚੋਂ ਹਟਾਉਣਾ ਹੈ?</target>
         <note>Title of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
       </trans-unit>
       <trans-unit id="This action will clear all of your private data, including history from your synced devices.">
         <source>This action will clear all of your private data, including history from your synced devices.</source>
+        <target>ਇਹ ਕਾਰਵਾਈ ਤੁਹਾਡੀਆਂ ਸਿੰਕ ਕੀਤੀਆਂ ਡੀਵਾਈਸਾਂ ਤੋਂ ਇਤਿਹਾਸ ਸਮੇਤ, ਤੁਹਾਡੇ ਨਿੱਜੀ ਡੇਟਾ ਨੂੰ ਸਾਭ਼ ਕਰ ਦੇਵੇਗੀ।</target>
         <note>Description of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
       </trans-unit>
     </body>
@@ -279,43 +284,53 @@
     <body>
       <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs.">
         <source>Are you sure you want to clear all of your data? This will also close all open tabs.</source>
+        <target>ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਤੌਰ 'ਤੇ ਆਪਣੇ ਸਾਰੇ ਡੇਟਾ ਨੂੰ ਸਾਫ਼ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ? ਇਹ ਸਾਰੇ ਖੁੱਲ੍ਹੇ ਹੋਏ ਟੈਬਾਂ ਨੂੰ ਵੀ ਬੰਦ ਕਰ ਦੇਵੇਗਾ।</target>
         <note>Message shown in the dialog prompting users if they want to clear everything</note>
       </trans-unit>
       <trans-unit id="Browsing History">
         <source>Browsing History</source>
+        <target>ਬ੍ਰਾਊਜ਼ਿੰਗ ਇਤਿਹਾਸ</target>
         <note>Settings item for clearing browsing history</note>
       </trans-unit>
       <trans-unit id="Cache">
         <source>Cache</source>
+        <target>ਕੈਸ਼</target>
         <note>Settings item for clearing the cache</note>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
+        <target>ਰੱਦ ਕਰੋ</target>
         <note>Used as a button label in the dialog to cancel clear private data dialog</note>
       </trans-unit>
       <trans-unit id="Clear">
         <source>Clear</source>
+        <target>ਸਾਫ਼ ਕਰੋ</target>
         <note>Used as a button label in the dialog to Clear private data dialog</note>
       </trans-unit>
       <trans-unit id="Clear Everything">
         <source>Clear Everything</source>
+        <target>ਸਭ ਕੁਝ ਸਾਫ਼ ਕਰੋ</target>
         <note>Title of the Clear private data dialog.</note>
       </trans-unit>
       <trans-unit id="Clear Private Data">
         <source>Clear Private Data</source>
+        <target>ਨਿੱਜੀ ਡੇਟਾ ਨੂੰ ਸਾਫ਼ ਕਰੋ</target>
         <note>Button in settings that clears private data for the selected items.
    Navigation title in settings.</note>
       </trans-unit>
       <trans-unit id="Cookies">
         <source>Cookies</source>
+        <target>ਕੂਕੀਜ਼</target>
         <note>Settings item for clearing cookies</note>
       </trans-unit>
       <trans-unit id="Offline Website Data">
         <source>Offline Website Data</source>
+        <target>ਔਫਲਾਈ ਵੈੱਬਸਾਈਟ ਡੇਟਾ</target>
         <note>Settings item for clearing website data</note>
       </trans-unit>
       <trans-unit id="Saved Logins">
         <source>Saved Logins</source>
+        <target>ਸੰਭਾਲੇ ਹੋਏ ਲਾਗਇਨ</target>
         <note>Settings item for clearing passwords and login data</note>
       </trans-unit>
     </body>
@@ -327,14 +342,17 @@
     <body>
       <trans-unit id="Cancel">
         <source>Cancel</source>
+        <target>ਰੱਦ ਕਰੋ</target>
         <note>The cancel button when confirming clear private data.</note>
       </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
+        <target>OK</target>
         <note>The button that clears private data.</note>
       </trans-unit>
       <trans-unit id="This action will clear all of your private data. It cannot be undone.">
         <source>This action will clear all of your private data. It cannot be undone.</source>
+        <target>ਇਹ ਕਾਰਵਾਈ ਤੁਹਾਡੇ ਸਾਰੇ ਨਿੱਜੀ ਡੇਟਾ ਨੂੰ ਸਾਫ਼ ਕਰ ਦੇਵੇਗੀ। ਇਸ ਨੂੰ ਅਣਕੀਤਾ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।</target>
         <note>Description of the confirmation dialog shown when a user tries to clear their private data.</note>
       </trans-unit>
     </body>
@@ -346,10 +364,12 @@
     <body>
       <trans-unit id="Open in Safari">
         <source>Open in Safari</source>
+        <target>Safari ਵਿੱਚ ਖੋਲ੍ਹੋ</target>
         <note>Shown in error pages for files that can't be shown and need to be downloaded.</note>
       </trans-unit>
       <trans-unit id="Try again">
         <source>Try again</source>
+        <target>ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ</target>
         <note>Shown in error pages on a button that will try to load the page again</note>
       </trans-unit>
     </body>
@@ -361,19 +381,23 @@
     <body>
       <trans-unit id="Done">
         <source>Done</source>
+        <target>ਮੁਕੰਮਲ</target>
         <note>Done button in Find in Page Toolbar.</note>
       </trans-unit>
       <trans-unit id="Find in Page">
         <source>Find in Page</source>
+        <target>ਸਫ਼ੇ ਵਿੱਚ ਲੱਭੋ</target>
         <note>Share action title
    Text selection menu item</note>
       </trans-unit>
       <trans-unit id="Next in-page result">
         <source>Next in-page result</source>
+        <target>ਸਫ਼ੇ ਵਿਚਲਾ ਅਗਲਾ ਨਤੀਜਾ</target>
         <note>Accessibility label for next result button in Find in Page Toolbar.</note>
       </trans-unit>
       <trans-unit id="Previous in-page result">
         <source>Previous in-page result</source>
+        <target>ਸਫ਼ੇ ਵਿਚਲਾ ਪਿਛਲਾ ਨਤੀਜਾ</target>
         <note>Accessibility label for previous result button in Find in Page Toolbar.</note>
       </trans-unit>
     </body>
@@ -385,6 +409,7 @@
     <body>
       <trans-unit id="Remove">
         <source>Remove</source>
+        <target>ਹਟਾਓ</target>
         <note>Action button for deleting history entries in the history panel.</note>
       </trans-unit>
     </body>
@@ -396,21 +421,27 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(MOZ_PRODUCT_NAME)</source>
+        <target>$(MOZ_PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>5.0</source>
+        <target>5.0</target>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Websites you visit may request your location.</source>
+        <target>ਤੁਸੀਂ ਜਿਹਨਾਂ ਵੈੱਬਸਾਈਟਾਂ ਉੱਤੇ ਜਾਓਂਗੇ, ਉਹ ਤੁਹਾਡੇ ਟਿਕਾਣੇ ਦੀ ਬੇਨਤੀ ਕਰ ਸਕਦੀਆਂ ਹਨ।</target>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Private Tab</source>
+        <target>ਨਵਾਂ ਨਿੱਜੀ ਟੈਬ</target>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewTab">
         <source>New Tab</source>
+        <target>ਨਵਾਂ ਟੈਬ</target>
       </trans-unit>
     </body>
   </file>
@@ -421,26 +452,32 @@
     <body>
       <trans-unit id="Browse multiple Web pages at the same time with tabs.">
         <source>Browse multiple Web pages at the same time with tabs.</source>
+        <target>ਟੈਬਾਂ ਨਾਲ ਇੱਕੋਂ ਸਮੇਂ 'ਤੇ ਕਈ ਵੈੱਬ ਸਫ਼ਿਆਂ ਨੂੰ ਬ੍ਰਾਊਜ਼ ਕਰੋ।</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="Choose">
         <source>Choose</source>
+        <target>ਚੁਣੋ</target>
         <note>Title for one of the panels in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Connect Firefox everywhere you use it.">
         <source>Connect Firefox everywhere you use it.</source>
+        <target>ਫਾਇਰਫਾਕਸ ਨਾਲ ਕਨੈਕਟ ਕਰੋ ਹਰ ਥਾਂ ਇਸਨੂੰ ਵਰਤੋ।</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="Customize">
         <source>Customize</source>
+        <target>ਅਨੁਕੂਲਿਤ ਕਰੋ</target>
         <note>Title for one of the panels in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Easily switch between open pages with tabs.">
         <source>Easily switch between open pages with tabs.</source>
+        <target>ਟੈਬਾਂ ਨਾਲ ਖੁੱਲ੍ਹੇ ਹੋਏ ਸਫ਼ਿਆਂ ਵਿੱਚ ਆਸਾਨੀ ਨਾਲ ਸਵਿੱਚ ਕਰੋ।</target>
         <note>Description for the 'Organize' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Firefox and the cloud">
         <source>Firefox and the cloud</source>
+        <target>ਫਾਇਰਫਾਕਸ ਅਤੇ ਕਲਾਉਡ</target>
         <note>Accessibility label for the image displayed in the 'Sync' panel of the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Introductory slide %@ of %@">
