@@ -704,6 +704,7 @@
       </trans-unit>
       <trans-unit id="AddPass.Error.Message">
         <source>An error occured while adding the pass to Wallet. Please try again later.</source>
+        <target>ওয়ালেট এ পাস দেওয়ার সময় ভুল হয়েছে। অনুগ্রহ করে একটু পরে আবার চেষ্টা করুন।</target>
         <note>Text of the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet.</note>
       </trans-unit>
       <trans-unit id="AddPass.Error.Title">
@@ -991,6 +992,7 @@
       </trans-unit>
       <trans-unit id="ErrorPages.AdvancedWarning2.Text">
         <source>It may be a misconfiguration or tampering by an attacker. Proceed if you accept the potential risk.</source>
+        <target>ভুল কনফিগারেশন অথবা আক্রমণকারী দ্বারা গরমিল এর কারণে এটা হতে পারে। যদি আপনি সম্ভাব্য ঝুঁকি গ্রহণ করেন তাহলে এগিয়ে যান।</target>
         <note>Additional warning text when clicking the Advanced button on error pages</note>
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Description">
@@ -1099,6 +1101,7 @@
       </trans-unit>
       <trans-unit id="HistoryPanel.SyncedTabsCell.Description.Pluralized">
         <source>%d device(s) connected</source>
+        <target>%d ডিভাইস সংযুক্ত রয়েছে</target>
         <note>Description that corresponds with a number of devices connected for the Synced Tabs Cell in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.SyncedTabsCell.Title">
@@ -1249,6 +1252,7 @@
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSaveLogin.Title">
         <source>Save login %1$@ for %2$@?</source>
+        <target>%2$@ এর জন্য %1$@ লগইন সংরক্ষণ করা হবে?</target>
         <note>Prompt for saving a login. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSavePassword.Title">
@@ -1258,10 +1262,12 @@
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title">
         <source>Update login %1$@ for %2$@?</source>
+        <target>%2$@ এর জন্য %1$@ লগইন হালনাগাদ করা হবে?</target>
         <note>Prompt for updating a login. The first parameter is the username for which the password will be updated for. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdatePassword.Title">
         <source>Update password for %@?</source>
+        <target>%@ এর জন্য পাসওয়ার্ড হালনাগাদ করা হবে?</target>
         <note>Prompt for updating a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.SaveLogin.Button">
@@ -1520,14 +1526,17 @@
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.AddMessage">
         <source>The new search engine will appear in the quick search bar.</source>
+        <target>নতুন সার্চ ইঞ্জিনটি দ্রুত সার্চ বারে প্রদর্শিত হবে।</target>
         <note>The message that asks the user to Add the search provider explaining where the search engine will appear</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.AddSuccess">
         <source>Added Search engine!</source>
+        <target>সার্চ ইঞ্জিন যোগ করা হয়েছে!</target>
         <note>The success message that appears after a user sucessfully adds a new search engine</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.AddTitle">
         <source>Add Search Provider?</source>
+        <target>অনুসন্ধান সেবাদানকারী যোগ করবেন?</target>
         <note>The title that asks the user to Add the search provider</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.Cancel">
@@ -1537,6 +1546,7 @@
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.FailedMessage">
         <source>The search provider could not be added.</source>
+        <target>অনুসন্ধান সেবাদানকারী যোগ করা যাছে না।</target>
         <note>A title explaining that we failed to add a search engine</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.FailedTitle">
@@ -1701,6 +1711,7 @@
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.ReadingList">
         <source>Show your Reading List</source>
+        <target>আপনার পঠন তালিকা দেখান</target>
         <note>Option in settings to show reading list when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.TopSites">
@@ -1815,6 +1826,7 @@
       </trans-unit>
       <trans-unit id="Sync.FirstTimeMessage.Label">
         <source>Your first sync may take a while</source>
+        <target>আপনার প্রথম সিঙ্ক সময় নিতে পারে</target>
         <note>Message displayed when the user syncs for the first time</note>
       </trans-unit>
       <trans-unit id="Sync.Syncing.Label">
@@ -1893,6 +1905,7 @@
       </trans-unit>
       <trans-unit id="Tabs.DeleteAllUndo.Title">
         <source>%d tab(s) closed</source>
+        <target>%d ট্যাব বন্ধ করা হয়েছে</target>
         <note>The label indicating that all the tabs were closed</note>
       </trans-unit>
       <trans-unit id="The page could not be displayed in Reader View.">
@@ -1947,14 +1960,17 @@
       </trans-unit>
       <trans-unit id="TopSites.EmptyState.Description">
         <source>Your most visited sites will show up here.</source>
+        <target>এখানে আপনার সর্বাধিক ভিজিট করা সাইটগুলো দেখাবে।</target>
         <note>Description label for the empty Top Sites state.</note>
       </trans-unit>
       <trans-unit id="TopSites.EmptyState.Title">
         <source>Welcome to Top Sites</source>
+        <target>শীর্ষ সাইটগুলোতে স্বাগতম</target>
         <note>The title for the empty Top Sites state</note>
       </trans-unit>
       <trans-unit id="TopSites.RemovePage.Button">
         <source>Remove page - %@</source>
+        <target>%@ পাতাটি অপসারণ কর</target>
         <note>Button shown in editing mode to remove this site from the top sites panel.</note>
       </trans-unit>
       <trans-unit id="Twitter">
@@ -2292,6 +2308,7 @@
       </trans-unit>
       <trans-unit id="Menu.ViewMobileSiteAction.Title">
         <source>Request Mobile Site</source>
+        <target>মোবাইল সাইটের অনুরোধ</target>
         <note>Label for the button, displayed in the menu, used to request the mobile version of the current website.</note>
       </trans-unit>
     </body>
