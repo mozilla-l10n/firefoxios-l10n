@@ -37,7 +37,7 @@
     <body>
       <trans-unit id="Add to Bookmarks">
         <source>Add to Bookmarks</source>
-        <target>添加到书签</target>
+        <target>添加书签</target>
         <note>Label for preview action on Tab Tray Tab to add current tab to Bookmarks</note>
       </trans-unit>
       <trans-unit id="Add to Reading List">
@@ -149,12 +149,12 @@
       </trans-unit>
       <trans-unit id="Maximum attempts reached. Please try again in an hour.">
         <source>Maximum attempts reached. Please try again in an hour.</source>
-        <target>尝试已达到限制。请一小时后再试。</target>
+        <target>已达最大尝试次数。请一小时后再试。</target>
         <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
       </trans-unit>
       <trans-unit id="Maximum attempts reached. Please try again later.">
         <source>Maximum attempts reached. Please try again later.</source>
-        <target>尝试已达到限制。请稍后再试。</target>
+        <target>已达最大尝试次数。请稍后再试。</target>
         <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
       </trans-unit>
       <trans-unit id="New passcode must be different than existing code.">
@@ -839,7 +839,7 @@
       </trans-unit>
       <trans-unit id="Copy Address">
         <source>Copy Address</source>
-        <target>复制地址</target>
+        <target>复制网址</target>
         <note>Copy the URL from the location bar</note>
       </trans-unit>
       <trans-unit id="Copy Image">
@@ -854,7 +854,7 @@
       </trans-unit>
       <trans-unit id="Could not add page to Reading List. Maybe it's already there?">
         <source>Could not add page to Reading List. Maybe it's already there?</source>
-        <target>未能将页面添加到阅读列表。也许它已经存在？</target>
+        <target>未能将页面添加到阅读列表。也许已经添加到阅读列表了？</target>
         <note>Accessibility message e.g. spoken by VoiceOver after the user wanted to add current page to the Reading List and this was not done, likely because it already was in the Reading List, but perhaps also because of real failures.</note>
       </trans-unit>
       <trans-unit id="Could not add page to Reading list">
@@ -869,7 +869,7 @@
       </trans-unit>
       <trans-unit id="Create an account">
         <source>Create an account</source>
-        <target>创建一个账号</target>
+        <target>注册账号</target>
         <note>See http://mzl.la/1Qtkf0j</note>
       </trans-unit>
       <trans-unit id="Dark">
@@ -1047,7 +1047,7 @@
       </trans-unit>
       <trans-unit id="Get your open tabs, bookmarks, and passwords from your other devices.">
         <source>Get your open tabs, bookmarks, and passwords from your other devices.</source>
-        <target>在您的其他设备上找到您打开的标签页以及书签和密码。</target>
+        <target>在您的其他设备上查看您打开的标签页、书签和密码。</target>
         <note>A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing.</note>
       </trans-unit>
       <trans-unit id="Go">
@@ -1253,7 +1253,7 @@
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSaveLogin.Title">
         <source>Save login %1$@ for %2$@?</source>
-        <target>保存 %2$@ 上 %1$@ 的信息？</target>
+        <target>保存 %2$@ 上 %1$@ 的登录信息？</target>
         <note>Prompt for saving a login. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSavePassword.Title">
@@ -1401,7 +1401,7 @@
       </trans-unit>
       <trans-unit id="Open articles in Reader View by tapping the book icon when it appears in the title bar.">
         <source>Open articles in Reader View by tapping the book icon when it appears in the title bar.</source>
-        <target>在书本图标出现在标题栏时，轻按它可打开阅读模式阅读文章。</target>
+        <target>当书本图标出现在标题栏时，轻按它即可在阅读模式下阅读文章。</target>
         <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
       <trans-unit id="Open in…">
@@ -1446,7 +1446,7 @@
       </trans-unit>
       <trans-unit id="Quick-search Engines">
         <source>Quick-search Engines</source>
-        <target>快速搜索引擎</target>
+        <target>快捷搜索引擎</target>
         <note>Title for quick-search engines settings section.</note>
       </trans-unit>
       <trans-unit id="Reader View">
@@ -1513,7 +1513,7 @@
       </trans-unit>
       <trans-unit id="Save pages to your Reading List by tapping the book plus icon in the Reader View controls.">
         <source>Save pages to your Reading List by tapping the book plus icon in the Reader View controls.</source>
-        <target>轻按阅读模式中的书本图标，可将页面保存到您的阅读列表。</target>
+        <target>在阅读模式下轻按书本与加号图标，可将页面保存到您的阅读列表。</target>
         <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
       <trans-unit id="Search">
@@ -1529,7 +1529,7 @@
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.AddMessage">
         <source>The new search engine will appear in the quick search bar.</source>
-        <target>新的搜索引擎将在快速搜索栏中显示。</target>
+        <target>新的搜索引擎将在快捷搜索栏中显示。</target>
         <note>The message that asks the user to Add the search provider explaining where the search engine will appear</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.AddSuccess">
@@ -2333,7 +2333,7 @@
       </trans-unit>
       <trans-unit id="Firefox won't remember any of your history or cookies, but new bookmarks will be saved.">
         <source>Firefox won't remember any of your history or cookies, but new bookmarks will be saved.</source>
-        <target>Firefox 不会记住您的历史记录和 Cookie，不过新的书签将被保留。</target>
+        <target>Firefox 不会记住您的历史记录和 Cookie，但新的书签将被保留。</target>
         <note>Description text displayed when there are no open tabs while in private mode</note>
       </trans-unit>
       <trans-unit id="Learn More">
@@ -2353,7 +2353,7 @@
       </trans-unit>
       <trans-unit id="Open In New Private Tab">
         <source>Open In New Private Tab</source>
-        <target>在新隐私标签页打开</target>
+        <target>在新隐私标签页中打开</target>
         <note>Context menu option for opening a link in a new private tab</note>
       </trans-unit>
       <trans-unit id="Private Browsing">
@@ -2539,7 +2539,7 @@
       </trans-unit>
       <trans-unit id="Add to Bookmarks">
         <source>Add to Bookmarks</source>
-        <target>添加到书签</target>
+        <target>添加书签</target>
         <note>On/off toggle to select adding this url to your bookmarks</note>
       </trans-unit>
       <trans-unit id="Add to Reading List">
