@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="es-CL">
     <header>
@@ -555,10 +555,12 @@
     <body>
       <trans-unit id="+">
         <source>+</source>
+        <target>+</target>
         <note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       </trans-unit>
       <trans-unit id="-">
         <source>-</source>
+        <target>-</target>
         <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       </trans-unit>
       <trans-unit id="A username and password are being requested by %@.">
@@ -587,14 +589,17 @@
       </trans-unit>
       <trans-unit id="AddPass.Error.Dismiss">
         <source>OK</source>
+        <target>Aceptar</target>
         <note>Button to dismiss the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet.</note>
       </trans-unit>
       <trans-unit id="AddPass.Error.Message">
         <source>An error occured while adding the pass to Wallet. Please try again later.</source>
+        <target>Ocurrió un error al añadir el pase a Wallet. Por favor, vuelve a intentarlo más tarde.</target>
         <note>Text of the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet.</note>
       </trans-unit>
       <trans-unit id="AddPass.Error.Title">
         <source>Failed to Add Pass</source>
+        <target>Falló el añadir el pase</target>
         <note>Title of the 'Add Pass Failed' alert. See https://support.apple.com/HT204003 for context on Wallet.</note>
       </trans-unit>
       <trans-unit id="Added page to Reading List">
@@ -738,6 +743,7 @@
       </trans-unit>
       <trans-unit id="Dark">
         <source>Dark</source>
+        <target>Oscuro</target>
         <note>Dark theme setting in Reading View settings</note>
       </trans-unit>
       <trans-unit id="Debug: forget Sync auth state">
@@ -772,18 +778,22 @@
       </trans-unit>
       <trans-unit id="Do you want to save the password for %@ on %@?">
         <source>Do you want to save the password for %1$@ on %2$@?</source>
+        <target>¿Deseas guardar la contraseña de %1$@ en %2$@?</target>
         <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="Do you want to save the password on %@?">
         <source>Do you want to save the password on %@?</source>
+        <target>¿Deseas guardar la contraseña en %@?</target>
         <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="Do you want to update the password for %@ on %@?">
         <source>Do you want to update the password for %1$@ on %2$@?</source>
+        <target>¿Deseas cambiar la contraseña de %1$@ en %2$@?</target>
         <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="Do you want to update the password on %@?">
         <source>Do you want to update the password on %@?</source>
+        <target>¿Deseas cambiar la contraseña en %@?</target>
         <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="Don't Send">
@@ -811,14 +821,17 @@
       </trans-unit>
       <trans-unit id="Downloads.Alert.Message">
         <source>Firefox is unable to download or display this file. Would you like to open it in another app?</source>
+        <target>Firefox no pudo descargar o mostrar este archivo. ¿Quieres abrirlo en otra aplicación?</target>
         <note>The message of the alert box asking the user if they want to use another app to open a file.</note>
       </trans-unit>
       <trans-unit id="Downloads.Alert.Title">
         <source>Firefox Downloads</source>
+        <target>Descargas de Firefox</target>
         <note>The title of the alert box asking the user if they want to use another app to open a file.</note>
       </trans-unit>
       <trans-unit id="Downloads.Error.Message">
         <source>Downloads aren't supported in Firefox yet.</source>
+        <target>Las descargas no están soportadas en Firefox en este momento.</target>
         <note>The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle.</note>
       </trans-unit>
       <trans-unit id="Enter your password to connect.">
@@ -835,22 +848,27 @@
       </trans-unit>
       <trans-unit id="ErrorPages.AdvancedWarning2.Text">
         <source>It may be a misconfiguration or tampering by an attacker. Proceed if you accept the potential risk.</source>
+        <target>Puede ser una mala configuración o una modificación de atacante. Procede si aceptas el riesgo potencial.</target>
         <note>Additional warning text when clicking the Advanced button on error pages</note>
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Description">
         <source>The owner of %@ has configured their website improperly. To protect your information from being stolen, Firefox has not connected to this website.</source>
+        <target>El dueño de %@ ha configurado su sitio de forma inadecuada. Para proteger tu información de ser robada, Firefox no se ha conectado a este sitio.</target>
         <note>Warning text on the certificate error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Title">
         <source>This Connection is Untrusted</source>
+        <target>Esta conexión no es confiable</target>
         <note>Title on the certificate error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.GoBack.Button">
         <source>Go Back</source>
+        <target>Retroceder</target>
         <note>Label for button to go back from the error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.VisitOnce.Button">
         <source>Visit site anyway</source>
+        <target>Visite el sitio de todas formas</target>
         <note>Button label to temporarily continue to the site from the certificate error page</note>
       </trans-unit>
       <trans-unit id="Facebook">
@@ -899,14 +917,17 @@
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptyState.Title">
         <source>Websites you've visited recently will show up here.</source>
+        <target>Los sitios que visitaste recientemente serán mostrados aquí.</target>
         <note>Title for the History Panel empty state.</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsNullState.Description">
         <source>Your tabs from other devices show up here.</source>
+        <target>Tus pestañas de otros dispositivos se muestran aquí.</target>
         <note>Description for the empty synced tabs null state in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsState.Description">
         <source>Sign in to view open tabs on your other devices.</source>
+        <target>Conéctate para ver las pestañas abiertas en tus otros dispositivos.</target>
         <note>Description for the empty synced tabs state in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsState.Title">
@@ -926,6 +947,7 @@
       </trans-unit>
       <trans-unit id="HistoryPanel.SyncedTabsCell.Description.Pluralized">
         <source>%d device(s) connected</source>
+        <target>%d dispositivo(s) conectado(s)</target>
         <note>Description that corresponds with a number of devices connected for the Synced Tabs Cell in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.SyncedTabsCell.Title">
@@ -1063,14 +1085,17 @@
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSaveLogin.Title">
         <source>Save login %1$@ for %2$@?</source>
+        <target>¿Guardar conexión %1$@ para %2$@?</target>
         <note>Prompt for saving a login. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSavePassword.Title">
         <source>Save password for %@?</source>
+        <target>¿Guardar contraseña para %@?</target>
         <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title">
         <source>Update login %1$@ for %2$@?</source>
+        <target>¿Actualizar conexión %1$@ para %2$@?</target>
         <note>Prompt for updating a login. The first parameter is the username for which the password will be updated for. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdatePassword.Title">
