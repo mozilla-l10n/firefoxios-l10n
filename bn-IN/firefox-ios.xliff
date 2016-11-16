@@ -979,10 +979,12 @@
       </trans-unit>
       <trans-unit id="Do you want to update the password for %@ on %@?">
         <source>Do you want to update the password for %1$@ on %2$@?</source>
+        <target>আপনি কি  %1$@ এর পাসওয়ার্ডটা %2$@ তে আপডেট করতে চান?</target>
         <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="Do you want to update the password on %@?">
         <source>Do you want to update the password on %@?</source>
+        <target>আপনি কি পাসওয়ার্ডটা %@ আপডেট করতে চান?</target>
         <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="Don't Send">
@@ -1013,14 +1015,17 @@
       </trans-unit>
       <trans-unit id="Downloads.Alert.Message">
         <source>Firefox is unable to download or display this file. Would you like to open it in another app?</source>
+        <target>Firefox এই ফাইলটাকে ডাউনলোড করতে বা দেখাতে পারছে না। আপনি কি এটা কে অন্য অ্যাপ দিয়ে খুলতে চান?</target>
         <note>The message of the alert box asking the user if they want to use another app to open a file.</note>
       </trans-unit>
       <trans-unit id="Downloads.Alert.Title">
         <source>Firefox Downloads</source>
+        <target>Firefox এর ডাউনলোডসমূহ</target>
         <note>The title of the alert box asking the user if they want to use another app to open a file.</note>
       </trans-unit>
       <trans-unit id="Downloads.Error.Message">
         <source>Downloads aren't supported in Firefox yet.</source>
+        <target>Firefox এখনো ডাউনলোডসমূহকে সমর্থন করে না।</target>
         <note>The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle.</note>
       </trans-unit>
       <trans-unit id="Enter your password to connect.">
@@ -1040,22 +1045,27 @@
       </trans-unit>
       <trans-unit id="ErrorPages.AdvancedWarning2.Text">
         <source>It may be a misconfiguration or tampering by an attacker. Proceed if you accept the potential risk.</source>
+        <target>এটা কোন ভুল কনফিগারেশনের অথবা একটি আক্রমণকারী দ্বারা গরমিল হতে পারে। ঝুঁকি নিতে হলে এগিয়ে যান।</target>
         <note>Additional warning text when clicking the Advanced button on error pages</note>
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Description">
         <source>The owner of %@ has configured their website improperly. To protect your information from being stolen, Firefox has not connected to this website.</source>
+        <target>%@ টির মালিক ওয়েবসাইট টাকে অন্যায় ভাবে কনফিগার করেছেন। আপানার তথ্য চুরি হওয়া থেকে রক্ষা করতে, Firefox ওয়েবসাইট টির সাথে সংযোগ করেনি।</target>
         <note>Warning text on the certificate error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Title">
         <source>This Connection is Untrusted</source>
+        <target>এই সংযুক্তিটি বিশ্বাসযজ্ঞ নয়</target>
         <note>Title on the certificate error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.GoBack.Button">
         <source>Go Back</source>
+        <target>আগে যান</target>
         <note>Label for button to go back from the error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.VisitOnce.Button">
         <source>Visit site anyway</source>
+        <target>যেভাবে হোক সাইটটা দর্শন করুন</target>
         <note>Button label to temporarily continue to the site from the certificate error page</note>
       </trans-unit>
       <trans-unit id="Facebook">
@@ -1065,6 +1075,7 @@
       </trans-unit>
       <trans-unit id="Firefox needs to reopen for this change to take effect.">
         <source>Firefox needs to reopen for this change to take effect.</source>
+        <target>এই পরিবর্তনের ফল পাওার জন্য Firefox কে বন্ধ করে চালু করতে হবে।</target>
         <note>Setting value prop to enable third-party keyboards</note>
       </trans-unit>
       <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.">
@@ -1114,90 +1125,112 @@
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptyState.Title">
         <source>Websites you've visited recently will show up here.</source>
+        <target>যে ওয়েবসাইটগুলো আপনি সদ্য দর্শন করেছেন সেগুলি এখানে দেখাবে।</target>
         <note>Title for the History Panel empty state.</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsNullState.Description">
         <source>Your tabs from other devices show up here.</source>
+        <target>অন্য ডিভাইস থেকে ট্যাবগুলি এখানে দেখাবে।</target>
         <note>Description for the empty synced tabs null state in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsState.Description">
         <source>Sign in to view open tabs on your other devices.</source>
+        <target>আপনার ডিভাইসে খুলে রাখা ট্যাবগুলো দেখতে সাইন ইন করুন।</target>
         <note>Description for the empty synced tabs state in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsState.Title">
         <source>Firefox Sync</source>
+        <target>Firefox সিঙ্ক</target>
         <note>Title for the empty synced tabs state in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.HistoryBackButton.Title">
         <source>History</source>
+        <target>পূর্ববর্তী তথ্য</target>
         <note>Title for the Back to History button in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.RecentlyClosedTabsButton.Title">
         <source>Recently closed</source>
+        <target>সদ্য বন্ধ হয়েছে</target>
         <note>Title for the Recently Closed button in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.SyncedTabsCell.Description.Pluralized">
         <source>%d device(s) connected</source>
+        <target>%d টি ডিভাইস সংযুক্ত আছে</target>
         <note>Description that corresponds with a number of devices connected for the Synced Tabs Cell in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.SyncedTabsCell.Title">
         <source>Synced devices</source>
+        <target>সিঙ্ক করা ডিভাইসগুলি</target>
         <note>Title for the Synced Tabs Cell in the History Panel</note>
       </trans-unit>
       <trans-unit id="HomePage.Set.Dialog.Cancel">
         <source>Cancel</source>
+        <target>বাতিল করুন</target>
         <note>Button cancelling changes setting the home page for the first time.</note>
       </trans-unit>
       <trans-unit id="HomePage.Set.Dialog.Message">
         <source>You can change this at any time in Settings</source>
+        <target>আপনি যেকোনো সময় সেটিংসে গিয়ে পরিবর্তন করতে পারবেন</target>
         <note>Alert dialog body when the user opens the home page for the first time.</note>
       </trans-unit>
       <trans-unit id="HomePage.Set.Dialog.OK">
         <source>Set Homepage</source>
+        <target>হোমপেজ সেট করুন</target>
         <note>Button accepting changes setting the home page for the first time.</note>
       </trans-unit>
       <trans-unit id="HomePage.Set.Dialog.Title">
         <source>Do you want to use this web page as your home page?</source>
+        <target>এই ওয়েপেজকে আপনার হোমপেজ হিসাবে বানাবেন কি?</target>
         <note>Alert dialog title when the user opens the home page for the first time.</note>
       </trans-unit>
       <trans-unit id="Hotkeys.Back.DiscoveryTitle">
         <source>Back</source>
+        <target>আগে জান</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.CloseTab.DiscoveryTitle">
         <source>Close Tab</source>
+        <target>ট্যাব বন্ধ করুন</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.Find.DiscoveryTitle">
         <source>Find</source>
+        <target>খুঁজুন</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.Forward.DiscoveryTitle">
         <source>Forward</source>
+        <target>অগ্রবর্তী</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.NewPrivateTab.DiscoveryTitle">
         <source>New Private Tab</source>
+        <target>নতুন ব্যক্তিগত ট্যাব</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.NewTab.DiscoveryTitle">
         <source>New Tab</source>
+        <target>নতুন ট্যাব</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.Reload.DiscoveryTitle">
         <source>Reload Page</source>
+        <target>পেজ পুনরায় লোড করুন</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.SelectLocationBar.DiscoveryTitle">
         <source>Select Location Bar</source>
+        <target>লোকেশান বার নির্বাচন করুন</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.ShowNextTab.DiscoveryTitle">
         <source>Show Next Tab</source>
+        <target>পরবর্তী ট্যাব দেখান</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.ShowPreviousTab.DiscoveryTitle">
         <source>Show Previous Tab</source>
+        <target>পূর্ববর্তী ট্যাব দেখান</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Increase text size">
@@ -1263,22 +1296,27 @@
       </trans-unit>
       <trans-unit id="Logins">
         <source>Logins</source>
+        <target>লগইনগুলি</target>
         <note>Label used as an item in Settings. When touched, the user will be navigated to the Logins/Password manager.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.DontSave.Button">
         <source>Don’t Save</source>
+        <target>সেভ করবেন না</target>
         <note>Button to not save the user's password</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSaveLogin.Title">
         <source>Save login %1$@ for %2$@?</source>
+        <target>%2$@ জন্য লগইন %1$@ করুন?</target>
         <note>Prompt for saving a login. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSavePassword.Title">
         <source>Save password for %@?</source>
+        <target>%@ টার জন্য পাসওয়ার্ড সেভ করুন?</target>
         <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title">
         <source>Update login %1$@ for %2$@?</source>
+        <target>%2$@ জন্য লগইন %1$@ আপডেট করুন?</target>
         <note>Prompt for updating a login. The first parameter is the username for which the password will be updated for. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdatePassword.Title">
