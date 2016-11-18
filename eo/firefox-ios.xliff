@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
@@ -6,7 +6,9 @@
     </header>
     <body>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source> <target>$(PRODUCT_NAME)</target> </trans-unit>
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>6.0</source>
         <target>6.0</target>
@@ -467,16 +469,25 @@
         <source>6.0</source>
         <target>6.0</target>
       </trans-unit>
-      <trans-unit id="NSCameraUsageDescription" approved="yes">
-        <source>This lets you take and upload photos.</source> <target state="translated">Tio ĉi permesas al vi preni kaj alŝuti fotojn.</target></trans-unit>
+      <trans-unit id="NSCameraUsageDescription">
+        <source>This lets you take and upload photos.</source>
+        <target>Tio ĉi permesas al vi preni kaj alŝuti fotojn.</target>
+      </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Websites you visit may request your location.</source>
         <target>Retejoj vizititaj de vi povas peti vian lokon.</target>
       </trans-unit>
-      <trans-unit id="NSPhotoLibraryUsageDescription" approved="yes">
-        <source>This lets you save and upload photos.</source> <target state="translated">Tio ĉi permesas al vi konservi kaj alŝuti fotojn.</target></trans-unit>
+      <trans-unit id="NSMicrophoneUsageDescription">
+        <source>This lets you take and upload videos.</source>
+      </trans-unit>
+      <trans-unit id="NSPhotoLibraryUsageDescription">
+        <source>This lets you save and upload photos.</source>
+        <target>Tio ĉi permesas al vi konservi kaj alŝuti fotojn.</target>
+      </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
-        <source>New Private Tab</source> <target>Nova privata langeto</target> </trans-unit>
+        <source>New Private Tab</source>
+        <target>Nova privata langeto</target>
+      </trans-unit>
       <trans-unit id="ShortcutItemTitleNewTab">
         <source>New Tab</source>
         <target>Nova langeto</target>
@@ -677,17 +688,25 @@
         <target>%1$@ petas nomon de uzanto kaj pasvorton. La retejo diras: %2$@</target>
         <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
       </trans-unit>
-      <trans-unit id="AS.Cancel.Button" approved="yes">
-        <source>Cancel</source> <target state="translated">Nuligi</target><note>Button shown to cancel editing of top site.</note>
+      <trans-unit id="AS.Cancel.Button">
+        <source>Cancel</source>
+        <target>Nuligi</target>
+        <note>Button shown to cancel editing of top site.</note>
       </trans-unit>
-      <trans-unit id="AS.Delete.Button" approved="yes">
-        <source>Delete</source> <target state="translated">Forigi</target><note>Button shown in editing mode to remove this site from the top sites panel.</note>
+      <trans-unit id="AS.Delete.Button">
+        <source>Delete</source>
+        <target>Forigi</target>
+        <note>Button shown in editing mode to remove this site from the top sites panel.</note>
       </trans-unit>
-      <trans-unit id="AS.Highlights.SectionTitle" approved="yes">
-        <source>Highlights</source> <target state="translated">Elstaraj</target><note>Section title label for Highlights</note>
+      <trans-unit id="AS.Highlights.SectionTitle">
+        <source>Highlights</source>
+        <target>Elstaraj</target>
+        <note>Section title label for Highlights</note>
       </trans-unit>
-      <trans-unit id="AS.PageControl.Button" approved="yes">
-        <source>Next Page</source> <target state="translated">Venonta paĝo</target><note>The page control button that lets you switch between pages in top sites</note>
+      <trans-unit id="AS.PageControl.Button">
+        <source>Next Page</source>
+        <target>Venonta paĝo</target>
+        <note>The page control button that lets you switch between pages in top sites</note>
       </trans-unit>
       <trans-unit id="Aa">
         <source>Aa</source>
@@ -699,20 +718,30 @@
         <target>Pri</target>
         <note>About settings section title</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.ContextMenu.Bookmark" approved="yes">
-        <source>Bookmark</source> <target state="translated">Legosigno</target><note>The title for the Bookmark context menu action for Activity Stream</note>
+      <trans-unit id="ActivityStream.ContextMenu.Bookmark">
+        <source>Bookmark</source>
+        <target>Legosigno</target>
+        <note>The title for the Bookmark context menu action for Activity Stream</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.ContextMenu.DeleteFromHistory" approved="yes">
-        <source>Delete from History</source> <target state="translated">Forigi el historio</target><note>The title for the Delete from History context menu action for Activity Stream</note>
+      <trans-unit id="ActivityStream.ContextMenu.DeleteFromHistory">
+        <source>Delete from History</source>
+        <target>Forigi el historio</target>
+        <note>The title for the Delete from History context menu action for Activity Stream</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.ContextMenu.Dismiss" approved="yes">
-        <source>Dismiss</source> <target state="translated">Fermi</target><note>The title for the Dismiss context menu action for Activity Stream</note>
+      <trans-unit id="ActivityStream.ContextMenu.Dismiss">
+        <source>Dismiss</source>
+        <target>Fermi</target>
+        <note>The title for the Dismiss context menu action for Activity Stream</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.ContextMenu.RemoveBookmark" approved="yes">
-        <source>Remove Bookmark</source> <target state="translated">Forigi legosignon</target><note>The title for the Remove Bookmark context menu action for Activity Stream</note>
+      <trans-unit id="ActivityStream.ContextMenu.RemoveBookmark">
+        <source>Remove Bookmark</source>
+        <target>Forigi legosignon</target>
+        <note>The title for the Remove Bookmark context menu action for Activity Stream</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.ContextMenu.Share" approved="yes">
-        <source>Share</source> <target state="translated">Dividi</target><note>The title for the Share context menu action for Activity Stream</note>
+      <trans-unit id="ActivityStream.ContextMenu.Share">
+        <source>Share</source>
+        <target>Dividi</target>
+        <note>The title for the Share context menu action for Activity Stream</note>
       </trans-unit>
       <trans-unit id="Add Tab">
         <source>Add Tab</source>
@@ -1325,17 +1354,25 @@
         <note>Name for Mark as unread button in reader mode
    Title for the button that marks a reading list item as unread</note>
       </trans-unit>
-      <trans-unit id="Menu.NightModeTurnOffAction.Label" approved="yes">
-        <source>Night Mode Off</source> <target state="translated">Nokta reĝimo malŝaltita</target><note>Label for the button, displayed in the menu, used to turn night mode off. 'Off' is only displayed when the mode is on.</note>
+      <trans-unit id="Menu.NightModeTurnOffAction.Label">
+        <source>Night Mode Off</source>
+        <target>Nokta reĝimo malŝaltita</target>
+        <note>Label for the button, displayed in the menu, used to turn night mode off. 'Off' is only displayed when the mode is on.</note>
       </trans-unit>
-      <trans-unit id="Menu.NightModeTurnOnAction.Label" approved="yes">
-        <source>Night Mode</source> <target state="translated">Nokta reĝimo</target><note>Label for the button, displayed in the menu, used to turn night mode on. 'Turn On' is an indication of state, and thus redundant.</note>
+      <trans-unit id="Menu.NightModeTurnOnAction.Label">
+        <source>Night Mode</source>
+        <target>Nokta reĝimo</target>
+        <note>Label for the button, displayed in the menu, used to turn night mode on. 'Turn On' is an indication of state, and thus redundant.</note>
       </trans-unit>
-      <trans-unit id="Menu.NoImageModeTurnOffAction.Label" approved="yes">
-        <source>Show Images</source> <target state="translated">Montri bildojn</target><note>Label for the button, displayed in the menu, used to turn no image mode off.</note>
+      <trans-unit id="Menu.NoImageModeTurnOffAction.Label">
+        <source>Show Images</source>
+        <target>Montri bildojn</target>
+        <note>Label for the button, displayed in the menu, used to turn no image mode off.</note>
       </trans-unit>
-      <trans-unit id="Menu.NoImageModeTurnOnAction.Label" approved="yes">
-        <source>Hide Images</source> <target state="translated">Kaŝi bildojn</target><note>Label for the button, displayed in the menu, used to turn no image mode on.</note>
+      <trans-unit id="Menu.NoImageModeTurnOnAction.Label">
+        <source>Hide Images</source>
+        <target>Kaŝi bildojn</target>
+        <note>Label for the button, displayed in the menu, used to turn no image mode on.</note>
       </trans-unit>
       <trans-unit id="Missing error">
         <source>Missing error</source>
@@ -1352,8 +1389,10 @@
         <target>Retuma ilaro</target>
         <note>Accessibility label for the navigation toolbar displayed at the bottom of the screen.</note>
       </trans-unit>
-      <trans-unit id="New Tab" approved="yes">
-        <source>New Tab</source> <target state="translated">Nova langeto</target><note>Accessibility label for the New Tab button in the tab toolbar.</note>
+      <trans-unit id="New Tab">
+        <source>New Tab</source>
+        <target>Nova langeto</target>
+        <note>Accessibility label for the New Tab button in the tab toolbar.</note>
       </trans-unit>
       <trans-unit id="New tab: %@: %@">
         <source>New tab: %1$@: %2$@</source>
@@ -1411,22 +1450,30 @@
         <target>Malfermu artikolojn en legila vido per tuŝeto sur la emblemo de libro, kiam ĝi aperas en la titolstrio.</target>
         <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
-      <trans-unit id="Open in New Tab" approved="yes">
-        <source>Open in New Tab</source> <target state="translated">Malfermi en nova langeto</target><note>Context menu item for opening a link in a new tab</note>
+      <trans-unit id="Open in New Tab">
+        <source>Open in New Tab</source>
+        <target>Malfermi en nova langeto</target>
+        <note>Context menu item for opening a link in a new tab</note>
       </trans-unit>
       <trans-unit id="Open in…">
         <source>Open in…</source>
         <target>Malfermi per…</target>
         <note>String indicating that the file can be opened in another application on the device</note>
       </trans-unit>
-      <trans-unit id="OpenURL.Error.Message" approved="yes">
-        <source>Firefox cannot open the page because it has an invalid address.</source> <target state="translated">Firefox ne povas malfermi la paĝon ĉar ĝi havas nevalidan adreson.</target><note>The message displayed to a user when they try to open a URL that cannot be handled by Firefox, or any external app.</note>
+      <trans-unit id="OpenURL.Error.Message">
+        <source>Firefox cannot open the page because it has an invalid address.</source>
+        <target>Firefox ne povas malfermi la paĝon ĉar ĝi havas nevalidan adreson.</target>
+        <note>The message displayed to a user when they try to open a URL that cannot be handled by Firefox, or any external app.</note>
       </trans-unit>
-      <trans-unit id="OpenURL.Error.Title" approved="yes">
-        <source>Cannot Open Page</source> <target state="translated">Ne eblas malfermi la paĝon</target><note>Title of the message shown when the user attempts to navigate to an invalid link.</note>
+      <trans-unit id="OpenURL.Error.Title">
+        <source>Cannot Open Page</source>
+        <target>Ne eblas malfermi la paĝon</target>
+        <note>Title of the message shown when the user attempts to navigate to an invalid link.</note>
       </trans-unit>
       <trans-unit id="Opening %@">
-        <source>Opening %@</source> <target>%@ malfermata</target> <note>Opening an external URL</note>
+        <source>Opening %@</source>
+        <target>%@ malfermata</target>
+        <note>Opening an external URL</note>
       </trans-unit>
       <trans-unit id="Panel Chooser">
         <source>Panel Chooser</source>
@@ -1458,8 +1505,10 @@
         <target>Politiko pri privateco</target>
         <note>Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/</note>
       </trans-unit>
-      <trans-unit id="Quick-Search Engines" approved="yes">
-        <source>Quick-Search Engines</source> <target state="translated">Rapidaj serĉiloj</target><note>Title for quick-search engines settings section.</note>
+      <trans-unit id="Quick-Search Engines">
+        <source>Quick-Search Engines</source>
+        <target>Rapidaj serĉiloj</target>
+        <note>Title for quick-search engines settings section.</note>
       </trans-unit>
       <trans-unit id="Reader View">
         <source>Reader View</source>
@@ -1745,31 +1794,45 @@
         <target>Agordoj de nova langeto</target>
         <note>Title displayed in header of the setting panel.</note>
       </trans-unit>
-      <trans-unit id="Settings.OpenWith.PageTitle" approved="yes">
-        <source>Open mail links in</source> <target state="translated">Malfermi retpoŝtajn ligilojn per</target><note>Title for Open With Settings</note>
+      <trans-unit id="Settings.OpenWith.PageTitle">
+        <source>Open mail links in</source>
+        <target>Malfermi retpoŝtajn ligilojn per</target>
+        <note>Title for Open With Settings</note>
       </trans-unit>
-      <trans-unit id="Settings.OpenWith.SectionName" approved="yes">
-        <source>Open With</source> <target state="translated">Malfermi per</target><note>Label used as an item in Settings. When touched it will open a dialog to configure the open with (mail links) behaviour.</note>
+      <trans-unit id="Settings.OpenWith.SectionName">
+        <source>Open With</source>
+        <target>Malfermi per</target>
+        <note>Label used as an item in Settings. When touched it will open a dialog to configure the open with (mail links) behaviour.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Done.Button">
-        <source>Done</source> <target state="needs-translation">Farita</target> <note>Button displayed at the top of the search settings.</note>
+        <source>Done</source>
+        <target>Farita</target>
+        <note>Button displayed at the top of the search settings.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Edit.Button">
         <source>Edit</source>
         <target>Redakti</target>
         <note>Button displayed at the top of the search settings.</note>
       </trans-unit>
-      <trans-unit id="Settings.SignOut.Button" approved="yes">
-        <source>Sign Out</source> <target state="translated">Fini seancon</target><note>Button displayed at the bottom of settings page allowing users to Sign Out of FxA</note>
+      <trans-unit id="Settings.SignOut.Button">
+        <source>Sign Out</source>
+        <target>Fini seancon</target>
+        <note>Button displayed at the bottom of settings page allowing users to Sign Out of FxA</note>
       </trans-unit>
-      <trans-unit id="Settings.SignOut.DestructiveButton" approved="yes">
-        <source>Sign Out</source> <target state="translated">Fini seancon</target><note>Destructive action button in alert when user is prompted for signing out</note>
+      <trans-unit id="Settings.SignOut.DestructiveButton">
+        <source>Sign Out</source>
+        <target>Fini seancon</target>
+        <note>Destructive action button in alert when user is prompted for signing out</note>
       </trans-unit>
-      <trans-unit id="Settings.SignOut.Title" approved="yes">
-        <source>Sign Out?</source> <target state="translated">Ĉu fini seancon?</target><note>Title of the alert when prompting the user asking to sign out.</note>
+      <trans-unit id="Settings.SignOut.Title">
+        <source>Sign Out?</source>
+        <target>Ĉu fini seancon?</target>
+        <note>Title of the alert when prompting the user asking to sign out.</note>
       </trans-unit>
       <trans-unit id="Settings.TroubleShootSync.Title">
-        <source>Troubleshoot</source> <target>Solvi problemojn</target> <note>Title of link to help page to find out how to solve Sync issues</note>
+        <source>Troubleshoot</source>
+        <target>Solvi problemojn</target>
+        <note>Title of link to help page to find out how to solve Sync issues</note>
       </trans-unit>
       <trans-unit id="Share">
         <source>Share</source>
@@ -2374,11 +2437,15 @@
         <target>Ŝaltita</target>
         <note>Toggled ON accessibility value</note>
       </trans-unit>
-      <trans-unit id="Open in New Private Tab" approved="yes">
-        <source>Open in New Private Tab</source> <target state="translated">Malfermi en nova privata langeto</target><note>Context menu option for opening a link in a new private tab</note>
+      <trans-unit id="Open in New Private Tab">
+        <source>Open in New Private Tab</source>
+        <target>Malfermi en nova privata langeto</target>
+        <note>Context menu option for opening a link in a new private tab</note>
       </trans-unit>
       <trans-unit id="Private Browsing">
-        <source>Private Browsing</source> <target>Privata retumo</target> <note>Title displayed for when there are no open tabs while in private mode</note>
+        <source>Private Browsing</source>
+        <target>Privata retumo</target>
+        <note>Title displayed for when there are no open tabs while in private mode</note>
       </trans-unit>
       <trans-unit id="Private Mode">
         <source>Private Mode</source>
@@ -2839,3 +2906,4 @@
     </body>
   </file>
 </xliff>
+
