@@ -241,7 +241,7 @@
     <body>
       <trans-unit id="Delete">
         <source>Delete</source>
-        <target>Suprimeix</target>
+        <target>Elimina</target>
         <note>Action button for deleting bookmarks in the bookmarks panel.</note>
       </trans-unit>
       <trans-unit id="Desktop Bookmarks">
@@ -258,7 +258,7 @@
     <body>
       <trans-unit id="Are you sure you want to delete it and its contents?">
         <source>Are you sure you want to delete it and its contents?</source>
-        <target>Segur que voleu suprimir aquesta carpeta i el seu contingut?</target>
+        <target>Segur que voleu eliminar aquesta carpeta i el seu contingut?</target>
         <note>Main body of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
       </trans-unit>
       <trans-unit id="Cancel">
@@ -268,7 +268,7 @@
       </trans-unit>
       <trans-unit id="Delete">
         <source>Delete</source>
-        <target>Suprimeix</target>
+        <target>Elimina</target>
         <note>Button label for the button that deletes a folder and all of its children.</note>
       </trans-unit>
       <trans-unit id="This folder isn't empty.">
@@ -295,7 +295,7 @@
       </trans-unit>
       <trans-unit id="History will be removed from all your connected devices. This cannot be undone.">
         <source>History will be removed from all your connected devices. This cannot be undone.</source>
-        <target>L'historial es netejarà de tots els dispositius connectats. Aquesta acció no es pot desfer.</target>
+        <target>L'historial s'eliminarà de tots els dispositius connectats. Aquesta acció no es pot desfer.</target>
         <note>Description of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
       </trans-unit>
       <trans-unit id="OK">
@@ -696,7 +696,7 @@
       </trans-unit>
       <trans-unit id="AS.Delete.Button">
         <source>Delete</source>
-        <target>Suprimeix</target>
+        <target>Elimina</target>
         <note>Button shown in editing mode to remove this site from the top sites panel.</note>
       </trans-unit>
       <trans-unit id="AS.Highlights.SectionTitle">
@@ -726,7 +726,7 @@
       </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.DeleteFromHistory">
         <source>Delete from History</source>
-        <target>Suprimeix de l'historial</target>
+        <target>Elimina de l'historial</target>
         <note>The title for the Delete from History context menu action for Activity Stream</note>
       </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.Dismiss">
@@ -736,7 +736,7 @@
       </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.RemoveBookmark">
         <source>Remove Bookmark</source>
-        <target>Suprimeix l'adreça d'interès</target>
+        <target>Elimina l'adreça d'interès</target>
         <note>The title for the Remove Bookmark context menu action for Activity Stream</note>
       </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.Share">
@@ -936,14 +936,17 @@
       </trans-unit>
       <trans-unit id="Debug: forget Sync auth state">
         <source>Debug: forget Sync auth state</source>
+        <target>Depuració: oblida l'estat d'aut. del Sync</target>
         <note>Debug option</note>
       </trans-unit>
       <trans-unit id="Debug: require password">
         <source>Debug: require password</source>
+        <target>Depuració: requereix contrasenya</target>
         <note>Debug option</note>
       </trans-unit>
       <trans-unit id="Debug: require upgrade">
         <source>Debug: require upgrade</source>
+        <target>Depuració: requereix actualització</target>
         <note>Debug option</note>
       </trans-unit>
       <trans-unit id="Decrease text size">
@@ -960,6 +963,7 @@
       </trans-unit>
       <trans-unit id="Disable additional page dialogs">
         <source>Disable additional page dialogs</source>
+        <target>Desactiva els diàlegs de pàgina addicionals</target>
         <note>Pending feature; currently unused string! Checkbox label shown after multiple alerts are shown</note>
       </trans-unit>
       <trans-unit id="Display Settings">
@@ -1000,6 +1004,7 @@
       </trans-unit>
       <trans-unit id="Double tap and hold to open history">
         <source>Double tap and hold to open history</source>
+        <target>Feu doble toc i manteniu premut per obrir l'historial</target>
         <note>Accessibility hint, associated to the Back button in the tab toolbar, used by assistive technology to describe the result of a double tap.</note>
       </trans-unit>
       <trans-unit id="Downloads.Alert.Cancel">
@@ -1014,6 +1019,7 @@
       </trans-unit>
       <trans-unit id="Downloads.Alert.Message">
         <source>Firefox is unable to download or display this file. Would you like to open it in another app?</source>
+        <target>El Firefox no pot baixar ni mostrar aquest fitxer. Voleu obrir-lo en una altra aplicació?</target>
         <note>The message of the alert box asking the user if they want to use another app to open a file.</note>
       </trans-unit>
       <trans-unit id="Downloads.Alert.Title">
@@ -1023,6 +1029,7 @@
       </trans-unit>
       <trans-unit id="Downloads.Error.Message">
         <source>Downloads aren't supported in Firefox yet.</source>
+        <target>El Firefox encara no permet les baixades.</target>
         <note>The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle.</note>
       </trans-unit>
       <trans-unit id="Enter your password to connect.">
@@ -1152,6 +1159,7 @@
       </trans-unit>
       <trans-unit id="HistoryPanel.SyncedTabsCell.Description.Pluralized">
         <source>%d device(s) connected</source>
+        <target>%d dispositiu(s) connectat(s)</target>
         <note>Description that corresponds with a number of devices connected for the Synced Tabs Cell in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.SyncedTabsCell.Title">
@@ -1236,6 +1244,7 @@
       </trans-unit>
       <trans-unit id="Intro Tour Carousel">
         <source>Intro Tour Carousel</source>
+        <target>Visita guiada d'introducció</target>
         <note>Accessibility label for the introduction tour carousel</note>
       </trans-unit>
       <trans-unit id="Last month">
@@ -1301,22 +1310,27 @@
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSaveLogin.Title">
         <source>Save login %1$@ for %2$@?</source>
+        <target>Voleu desar l'inici de sessió %1$@ per a %2$@?</target>
         <note>Prompt for saving a login. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSavePassword.Title">
         <source>Save password for %@?</source>
+        <target>Voleu desar la contrasenya per a %@?</target>
         <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title">
         <source>Update login %1$@ for %2$@?</source>
+        <target>Voleu actualitzar l'inici de sessió %1$@ per a %2$@?</target>
         <note>Prompt for updating a login. The first parameter is the username for which the password will be updated for. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdatePassword.Title">
         <source>Update password for %@?</source>
+        <target>Voleu actualitzar la contrasenya per a %@?</target>
         <note>Prompt for updating a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.SaveLogin.Button">
         <source>Save Login</source>
+        <target>Desa l'inici de sessió</target>
         <note>Button to save the user's password</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.Update.Button">
@@ -1326,6 +1340,7 @@
       </trans-unit>
       <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?">
         <source>Looks like Firefox crashed previously. Would you like to restore your tabs?</source>
+        <target>Sembla que el Firefox va fallar anteriorment. Voleu restaurar les pestanyes?</target>
         <note>Restore Tabs Prompt Description</note>
       </trans-unit>
       <trans-unit id="Mark as Read">
@@ -1433,6 +1448,7 @@
       </trans-unit>
       <trans-unit id="Open articles in Reader View by tapping the book icon when it appears in the title bar.">
         <source>Open articles in Reader View by tapping the book icon when it appears in the title bar.</source>
+        <target>Obriu articles en la Vista de lectura tocant la icona de llibre quan aparegui en la barra de títol.</target>
         <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
       <trans-unit id="Open in New Tab">
@@ -1517,17 +1533,17 @@
       </trans-unit>
       <trans-unit id="Remove">
         <source>Remove</source>
-        <target>Suprimeix</target>
+        <target>Elimina</target>
         <note>Title for the button that removes a reading list item</note>
       </trans-unit>
       <trans-unit id="Remove from Reading List">
         <source>Remove from Reading List</source>
-        <target>Suprimeix de la llista de lectura</target>
+        <target>Elimina de la llista de lectura</target>
         <note>Name for button removing current article from reading list in reader mode</note>
       </trans-unit>
       <trans-unit id="Remove page">
         <source>Remove page</source>
-        <target>Suprimeix la pàgina</target>
+        <target>Elimina la pàgina</target>
         <note>Button shown in editing mode to remove this site from the top sites panel.</note>
       </trans-unit>
       <trans-unit id="Request Desktop Site">
@@ -1559,6 +1575,7 @@
       </trans-unit>
       <trans-unit id="Save pages to your Reading List by tapping the book plus icon in the Reader View controls.">
         <source>Save pages to your Reading List by tapping the book plus icon in the Reader View controls.</source>
+        <target>Deseu pàgines a la Llista de lectura tocant la icona de llibre amb signe de més en els controls de la Vista de lectura.</target>
         <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
       <trans-unit id="Search">
@@ -1700,6 +1717,7 @@
       </trans-unit>
       <trans-unit id="Settings.HomePage.UI.Toggle.Subtitle">
         <source>Otherwise show in the toolbar</source>
+        <target>Altrament, mostra-la en la barra d'eines</target>
         <note>Label displayed under the 'Show Homepage Icon In Menu' option. It describes the effect of this setting when disabled.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.UI.Toggle.Title">
@@ -1881,6 +1899,7 @@
       </trans-unit>
       <trans-unit id="Swipe right or left with three fingers to close the tab.">
         <source>Swipe right or left with three fingers to close the tab.</source>
+        <target>Feu lliscar el dit cap a l'esquerra o dreta amb tres dits per tancar la pestanya.</target>
         <note>Accessibility hint for tab tray's displayed tab.</note>
       </trans-unit>
       <trans-unit id="Sync Now">
@@ -1950,6 +1969,7 @@
       </trans-unit>
       <trans-unit id="SyncState.Partial.Title">
         <source>Sync is experiencing issues syncing %@</source>
+        <target>El Sync té problemes per sincronitzar: %@</target>
         <note>Title for Sync status message when a component of Sync failed to complete, where %@ represents the name of the component, i.e. Sync is experiencing issues syncing Bookmarks</note>
       </trans-unit>
       <trans-unit id="SyncState.Tabs.Title">
@@ -1959,14 +1979,17 @@
       </trans-unit>
       <trans-unit id="Tab %@ of %@">
         <source>Tab %1$@ of %2$@</source>
+        <target>Pestanya %1$@ de %2$@</target>
         <note>Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray, along with the total number of tabs. E.g. \"Tab 2 of 5\" says that tab 2 is visible (and is the only visible tab), out of 5 tabs total.</note>
       </trans-unit>
       <trans-unit id="Tabs %@ to %@ of %@">
         <source>Tabs %1$@ to %2$@ of %3$@</source>
+        <target>Pestanyes %1$@ a %2$@ de %3$@</target>
         <note>Message spoken by VoiceOver saying the range of tabs that are currently visible in Tabs Tray, along with the total number of tabs. E.g. \"Tabs 8 to 10 of 15\" says tabs 8, 9 and 10 are visible, out of 15 tabs total.</note>
       </trans-unit>
       <trans-unit id="Tabs Tray">
         <source>Tabs Tray</source>
+        <target>Safata de pestanyes</target>
         <note>Accessibility label for the Tabs Tray view.</note>
       </trans-unit>
       <trans-unit id="Tabs.DeleteAllUndo.Button">
@@ -1976,18 +1999,22 @@
       </trans-unit>
       <trans-unit id="Tabs.DeleteAllUndo.Title">
         <source>%d tab(s) closed</source>
+        <target>S'ha(n) tancat %d pestanya(es)</target>
         <note>The label indicating that all the tabs were closed</note>
       </trans-unit>
       <trans-unit id="The page could not be displayed in Reader View.">
         <source>The page could not be displayed in Reader View.</source>
+        <target>No s'ha pogut mostrar la pagina en la Vista de lectura.</target>
         <note>Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
       <trans-unit id="There is a new version available of Firefox Aurora. Tap OK to go to the download page.">
         <source>There is a new version available of Firefox Aurora. Tap OK to go to the download page.</source>
+        <target>Hi ha una versió nova disponible del Firefox Aurora. Toqueu D'acord per anar a la pàgina de baixada.</target>
         <note>Prompt message for application update</note>
       </trans-unit>
       <trans-unit id="There was a problem accessing tabs from your other devices. Try again in a few moments.">
         <source>There was a problem accessing tabs from your other devices. Try again in a few moments.</source>
+        <target>S'ha produït un problema en accedir a les pestanyes dels altres dispositius. Torneu-ho a provar d'aquí uns moments.</target>
         <note>Error message in the remote tabs panel</note>
       </trans-unit>
       <trans-unit id="There was an error converting the page">
@@ -1997,6 +2024,7 @@
       </trans-unit>
       <trans-unit id="This allows you to save the image to your Camera Roll.">
         <source>This allows you to save the image to your Camera Roll.</source>
+        <target>Això permet desar la imatge al vostre Rodet.</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="This will open in another application">
@@ -2026,14 +2054,17 @@
       </trans-unit>
       <trans-unit id="TopSites.EmptyState.Description">
         <source>Your most visited sites will show up here.</source>
+        <target>Aquí es mostren els llocs més visitats.</target>
         <note>Description label for the empty Top Sites state.</note>
       </trans-unit>
       <trans-unit id="TopSites.EmptyState.Title">
         <source>Welcome to Top Sites</source>
+        <target>Us donem la benvinguda als llocs destacats</target>
         <note>The title for the empty Top Sites state</note>
       </trans-unit>
       <trans-unit id="TopSites.RemovePage.Button">
         <source>Remove page - %@</source>
+        <target>Elimina la pàgina - %@</target>
         <note>Button shown in editing mode to remove this site from the top sites panel.</note>
       </trans-unit>
       <trans-unit id="Twitter">
@@ -2063,6 +2094,7 @@
       </trans-unit>
       <trans-unit id="Verify your email address.">
         <source>Verify your email address.</source>
+        <target>Verifiqueu l'adreça electrònica</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="Version %@ (%@)">
@@ -2197,7 +2229,7 @@
       </trans-unit>
       <trans-unit id="Delete">
         <source>Delete</source>
-        <target>Suprimeix</target>
+        <target>Elimina</target>
         <note>Label for the button used to delete the current login.</note>
       </trans-unit>
       <trans-unit id="Deselect All">
