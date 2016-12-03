@@ -258,7 +258,7 @@
     <body>
       <trans-unit id="Are you sure you want to delete it and its contents?">
         <source>Are you sure you want to delete it and its contents?</source>
-        <target>আপনি এটি এবং এটির কন্টেন্ট মুছে ফেলতে চান?</target>
+        <target>এই ফোল্ডার আর ভিতরের সবকিছু মুছে ফেলতে চাইছেন?</target>
         <note>Main body of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
       </trans-unit>
       <trans-unit id="Cancel">
@@ -322,7 +322,7 @@
     <body>
       <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs.">
         <source>Are you sure you want to clear all of your data? This will also close all open tabs.</source>
-        <target>আপনি কি সকল ডাটা মুছে ফেলতে চান? এটি সকল খোলা ট্যাবও বন্ধ করে দিবে।</target>
+        <target>আপনি কি নিশ্চিতভাবে সকল ডাটা মুছে ফেলতে চান? এটি সকল খোলা ট্যাবও বন্ধ করবে।</target>
         <note>Message shown in the dialog prompting users if they want to clear everything</note>
       </trans-unit>
       <trans-unit id="Browsing History">
@@ -390,7 +390,7 @@
       </trans-unit>
       <trans-unit id="This action will clear all of your private data. It cannot be undone.">
         <source>This action will clear all of your private data. It cannot be undone.</source>
-        <target>এই আক্সন্টি আপনার সকল ব্যক্তিগত তথ্য মুছে ফেলবে। এটিকে পূর্বাবস্থায় ফেরানো যাবে না</target>
+        <target>পদক্ষেপটি আপনার সকল ব্যক্তিগত তথ্য মুছে ফেলবে। এটিকে পূর্বাবস্থায় ফেরানো যাবে না।</target>
         <note>Description of the confirmation dialog shown when a user tries to clear their private data.</note>
       </trans-unit>
     </body>
@@ -402,7 +402,7 @@
     <body>
       <trans-unit id="Open in Safari">
         <source>Open in Safari</source>
-        <target>সাফারিতে অপেরা</target>
+        <target>Safari তে খুলুন</target>
         <note>Shown in error pages for files that can't be shown and need to be downloaded.</note>
       </trans-unit>
       <trans-unit id="Try again">
@@ -502,7 +502,7 @@
     <body>
       <trans-unit id="Browse multiple Web pages at the same time with tabs.">
         <source>Browse multiple Web pages at the same time with tabs.</source>
-        <target>একসাথে ট্যাবের সাহায্যে অনেকগুলো ওয়েবপেজ ব্রাউজ করুন</target>
+        <target>ট্যাবের সাহায্যে একই সময়ে একাধিক ওয়েবপেজ ব্রাউজ করুন।</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="Choose">
@@ -572,7 +572,7 @@
       </trans-unit>
       <trans-unit id="Tap, hold and move the Firefox icon into your dock for easy access.">
         <source>Tap, hold and move the Firefox icon into your dock for easy access.</source>
-        <target>সহজে অ্যাক্সেস করার জন্য Firefox আইকন ট্যাপ করুন,ধরে থাকুন এবং আপনার ডকে সরান</target>
+        <target>সহজে ব্যবহার করতে Firefox আইকন ট্যাপ করুন, ধরে থাকুন এবং আপনার ডকে সরান।</target>
         <note>Description for the 'Choose' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="The Settings button is at the beginning of the Tabs Tray.">
@@ -686,7 +686,7 @@
       </trans-unit>
       <trans-unit id="A username and password are being requested by %@. The site says: %@">
         <source>A username and password are being requested by %1$@. The site says: %2$@</source>
-        <target>%1$@ ব্যবহারকারীর নাম ও পাসওয়ার্ড চেয়েছে। সাইটটি জানিয়েছে : %2$@</target>
+        <target>%1$@ ব্যবহারকারীর নাম ও পাসওয়ার্ড চেয়েছে। সাইটটি জানিয়েছে: %2$@</target>
         <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
       </trans-unit>
       <trans-unit id="AS.Cancel.Button">
@@ -821,7 +821,7 @@
       </trans-unit>
       <trans-unit id="Bookmarks you save will show up here.">
         <source>Bookmarks you save will show up here.</source>
-        <target>আপনি যে বুকমার্কগুলো সংরক্ষন করেছেন তা এখানে দেখাবে</target>
+        <target>আপনি যে বুকমার্কগুলো সংরক্ষণ করেছেন তা এখানে দেখাবে।</target>
         <note>Status label for the empty Bookmarks state.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Folder.Label">
@@ -881,7 +881,7 @@
       </trans-unit>
       <trans-unit id="Clear Private Data">
         <source>Clear Private Data</source>
-        <target>ব্যাক্তিগত ডাটা মুছে ফেলা হবে</target>
+        <target>ব্যক্তিগত ডাটা মুছে ফেলুন</target>
         <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
       </trans-unit>
       <trans-unit id="Close">
@@ -1019,7 +1019,7 @@
       </trans-unit>
       <trans-unit id="Downloads.Alert.Message">
         <source>Firefox is unable to download or display this file. Would you like to open it in another app?</source>
-        <target>Firefox এই ফাইলটি ডাউনলোড বা দেখাতে পারছে না. আপনি কি অন্য অ্যাপ্লিকেশন এটি খুলতে চান?</target>
+        <target>Firefox এই ফাইলটি ডাউনলোড বা দেখাতে পারছে না। আপনি কি অন্য অ্যাপে এটি খুলতে চান?</target>
         <note>The message of the alert box asking the user if they want to use another app to open a file.</note>
       </trans-unit>
       <trans-unit id="Downloads.Alert.Title">
@@ -1074,7 +1074,7 @@
       </trans-unit>
       <trans-unit id="Facebook">
         <source>Facebook</source>
-        <target>ফেসবুক</target>
+        <target>Facebook</target>
         <note>Tile title for Facebook</note>
       </trans-unit>
       <trans-unit id="Firefox needs to reopen for this change to take effect.">
@@ -1377,12 +1377,12 @@
       </trans-unit>
       <trans-unit id="Missing error">
         <source>Missing error</source>
-        <target>হাড়িয়ে যাওয়া ত্রুটি</target>
+        <target>হারিয়ে যাওয়া ত্রুটি</target>
         <note>Error for a missing remote error number</note>
       </trans-unit>
       <trans-unit id="Missing message">
         <source>Missing message</source>
-        <target>হাড়িয়ে যাওয়া বার্তা</target>
+        <target>হারিয়ে যাওয়া বার্তা</target>
         <note>Error for a missing remote error message</note>
       </trans-unit>
       <trans-unit id="Navigation Toolbar">
