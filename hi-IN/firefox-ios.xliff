@@ -40,7 +40,7 @@
       </trans-unit>
       <trans-unit id="Add to Reading List">
         <source>Add to Reading List</source>
-        <target>पठन सूची में जोड़ें|</target>
+        <target>पठन सूची में जोड़ें</target>
         <note>Label for preview action on Tab Tray Tab to add current tab to Reading List</note>
       </trans-unit>
       <trans-unit id="Close Tab">
@@ -65,6 +65,7 @@
       </trans-unit>
       <trans-unit id="Preview of %@">
         <source>Preview of %@</source>
+        <target>%@ की झलक</target>
         <note>Accessibility label, associated to the 3D Touch action on the current tab in the tab tray, used to display a larger preview of the tab.</note>
       </trans-unit>
       <trans-unit id="Send to Device">
@@ -81,32 +82,32 @@
     <body>
       <trans-unit id="After 1 hour">
         <source>After 1 hour</source>
-        <target>1 घंटे बाद</target>
+        <target>1 घंटे के बाद</target>
         <note>'After 1 hour' interval item for selecting when to require passcode</note>
       </trans-unit>
       <trans-unit id="After 1 minute">
         <source>After 1 minute</source>
-        <target>1 मिनट बाद</target>
+        <target>1 मिनट के बाद</target>
         <note>'After 1 minute' interval item for selecting when to require passcode</note>
       </trans-unit>
       <trans-unit id="After 5 minutes">
         <source>After 5 minutes</source>
-        <target>5 मिनट बाद</target>
+        <target>5 मिनट के बाद</target>
         <note>'After 5 minutes' interval item for selecting when to require passcode</note>
       </trans-unit>
       <trans-unit id="After 10 minutes">
         <source>After 10 minutes</source>
-        <target>10 मिनट बाद</target>
+        <target>10 मिनट के बाद</target>
         <note>'After 10 minutes' interval item for selecting when to require passcode</note>
       </trans-unit>
       <trans-unit id="After 15 minutes">
         <source>After 15 minutes</source>
-        <target>15 मिनट बाद</target>
+        <target>15 मिनट के बाद</target>
         <note>'After 15 minutes' interval item for selecting when to require passcode</note>
       </trans-unit>
       <trans-unit id="Change Passcode">
         <source>Change Passcode</source>
-        <target>पासकोड बदलें</target>
+        <target>पासकोड परिवर्तन करें</target>
         <note>Label used as a setting item and title of the following screen to change the current passcode</note>
       </trans-unit>
       <trans-unit id="Enter Passcode">
@@ -136,6 +137,7 @@
       </trans-unit>
       <trans-unit id="Incorrect passcode. Try again (Attempts remaining: %d).">
         <source>Incorrect passcode. Try again (Attempts remaining: %d).</source>
+        <target>गलत पासकोड. दोबारा कोशिश करें (बाकि प्रयास: %d).</target>
         <note>Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app with attempts remaining</note>
       </trans-unit>
       <trans-unit id="Incorrect passcode. Try again.">
@@ -145,14 +147,17 @@
       </trans-unit>
       <trans-unit id="Maximum attempts reached. Please try again in an hour.">
         <source>Maximum attempts reached. Please try again in an hour.</source>
+        <target>ज्यादा से ज्यादा प्रयास हो चुके हैं. कृपया एक घंटे बाद दोबारा प्रयास करें.</target>
         <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
       </trans-unit>
       <trans-unit id="Maximum attempts reached. Please try again later.">
         <source>Maximum attempts reached. Please try again later.</source>
+        <target>ज्यादा से ज्यादा प्रयास हो चुके हैं. कृपया बादमे दोबारा प्रयास करें.</target>
         <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
       </trans-unit>
       <trans-unit id="New passcode must be different than existing code.">
         <source>New passcode must be different than existing code.</source>
+        <target>नया पासकोड मौजूद कोड से अलग होना चाहिए.</target>
         <note>Error message displayed when user tries to enter the same passcode as their existing code when changing it.</note>
       </trans-unit>
       <trans-unit id="Passcode">
@@ -176,6 +181,7 @@
       </trans-unit>
       <trans-unit id="Set Passcode">
         <source>Set Passcode</source>
+        <target>पासकोड सेट करें</target>
         <note>Title of the dialog used to set a passcode</note>
       </trans-unit>
       <trans-unit id="Touch ID &amp; Passcode">
@@ -184,14 +190,17 @@
       </trans-unit>
       <trans-unit id="Turn Passcode Off">
         <source>Turn Passcode Off</source>
+        <target>पासकोड असक्षम करें</target>
         <note>Label used as a setting item to turn off passcode</note>
       </trans-unit>
       <trans-unit id="Turn Passcode On">
         <source>Turn Passcode On</source>
+        <target>पासकोड सक्षम करें</target>
         <note>Label used as a setting item to turn on passcode</note>
       </trans-unit>
       <trans-unit id="Turn off your passcode.">
         <source>Turn off your passcode.</source>
+        <target>अपना पासकोड असक्षम करें.</target>
         <note>Touch ID prompt subtitle when turning off passcode</note>
       </trans-unit>
       <trans-unit id="Use Touch ID">
