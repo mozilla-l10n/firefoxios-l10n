@@ -2,7 +2,7 @@
 Localization for the Firefox for iOS project.
 
 The application code with build instructions can be found
-at <https://github.com/mozilla/firefox-ios>.
+at <https://github.com/mozilla-mobile/firefox-ios>.
 
 IRC channel: #mobile.
 
