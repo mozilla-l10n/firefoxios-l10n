@@ -139,22 +139,27 @@
       </trans-unit>
       <trans-unit id="Incorrect passcode. Try again (Attempts remaining: %d).">
         <source>Incorrect passcode. Try again (Attempts remaining: %d).</source>
+        <target>Εσφαλμένο συνθηματικό. Δοκιμάστε ξανά (Απομένουν %d προσπάθειες).</target>
         <note>Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app with attempts remaining</note>
       </trans-unit>
       <trans-unit id="Incorrect passcode. Try again.">
         <source>Incorrect passcode. Try again.</source>
+        <target>Εσφαλμένο συνθηματικό. Δοκιμάστε ξανά.</target>
         <note>Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app</note>
       </trans-unit>
       <trans-unit id="Maximum attempts reached. Please try again in an hour.">
         <source>Maximum attempts reached. Please try again in an hour.</source>
+        <target>Φτάσατε το μέγιστο αριθμό προσπαθειών. Παρακαλώ δοκιμάστε ξανά σε μια ώρα.</target>
         <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
       </trans-unit>
       <trans-unit id="Maximum attempts reached. Please try again later.">
         <source>Maximum attempts reached. Please try again later.</source>
+        <target>Φτάσατε το μέγιστο αριθμό προσπαθειών. Παρακαλώ δοκιμάστε ξανά αργότερα.</target>
         <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
       </trans-unit>
       <trans-unit id="New passcode must be different than existing code.">
         <source>New passcode must be different than existing code.</source>
+        <target>Το νέο συνθηματικό πρέπει να είναι διαφορετικό από το τρέχον.</target>
         <note>Error message displayed when user tries to enter the same passcode as their existing code when changing it.</note>
       </trans-unit>
       <trans-unit id="Passcode">
@@ -209,10 +214,12 @@
       </trans-unit>
       <trans-unit id="Use your fingerprint to access Logins now.">
         <source>Use your fingerprint to access Logins now.</source>
+        <target>Αποκτήστε πρόσβαση στις συνδέσεις με το αποτύπωμά σας.</target>
         <note>Touch ID prompt subtitle when accessing logins</note>
       </trans-unit>
       <trans-unit id="Use your fingerprint to access Private Browsing now.">
         <source>Use your fingerprint to access Private Browsing now.</source>
+        <target>Αποκτήστε πρόσβαση στην ιδιωτική περιήγηση με το αποτύπωμά σας.</target>
         <note>Touch ID prompt subtitle when accessing private browsing</note>
       </trans-unit>
       <trans-unit id="touchid.disable.reason.label">
@@ -222,6 +229,7 @@
       </trans-unit>
       <trans-unit id="touchid.require.passcode.reason.label">
         <source>Use your fingerprint to access configuring your required passcode interval.</source>
+        <target>Αποκτήστε πρόσβαση στη ρύθμιση του απαιτούμενου διαστήματος συνθηματικού με το αποτύπωμά σας.</target>
         <note>Touch ID prompt subtitle when accessing the require passcode setting</note>
       </trans-unit>
     </body>
@@ -302,6 +310,7 @@
       </trans-unit>
       <trans-unit id="This action will clear all of your private data, including history from your synced devices.">
         <source>This action will clear all of your private data, including history from your synced devices.</source>
+        <target>Αυτή η ενέργεια θα καθαρίσει όλα τα ιδιωτικά δεδομένα σας, καθώς και το ιστορικό από συγχρονισμένες συσκευές.</target>
         <note>Description of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
       </trans-unit>
     </body>
@@ -313,6 +322,7 @@
     <body>
       <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs.">
         <source>Are you sure you want to clear all of your data? This will also close all open tabs.</source>
+        <target>Θέλετε σίγουρα να καθαρίσετε όλα τα δεδομένα σας; Αυτό θα κλείσει όλες τις ανοικτές καρτέλες.</target>
         <note>Message shown in the dialog prompting users if they want to clear everything</note>
       </trans-unit>
       <trans-unit id="Browsing History">
@@ -465,6 +475,7 @@
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Websites you visit may request your location.</source>
+        <target>Οι ιστοσελίδες που επισκέπτεστε ίσως απαιτήσουν την τοποθεσία σας.</target>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
         <source>This lets you take and upload videos.</source>
@@ -1108,6 +1119,7 @@
       </trans-unit>
       <trans-unit id="HistoryPanel.SyncedTabsCell.Description.Pluralized">
         <source>%d device(s) connected</source>
+        <target>%d συνδεδεμένη(ες) συσκευή(ές)</target>
         <note>Description that corresponds with a number of devices connected for the Synced Tabs Cell in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.SyncedTabsCell.Title">
@@ -1132,6 +1144,7 @@
       </trans-unit>
       <trans-unit id="HomePage.Set.Dialog.Title">
         <source>Do you want to use this web page as your home page?</source>
+        <target>Θέλετε να χρησιμοποιήσετε αυτή την ιστοσελίδα ως αρχική σελίδα;</target>
         <note>Alert dialog title when the user opens the home page for the first time.</note>
       </trans-unit>
       <trans-unit id="Hotkeys.Back.DiscoveryTitle">
@@ -1266,6 +1279,7 @@
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title">
         <source>Update login %1$@ for %2$@?</source>
+        <target>Ενημέρωση σύνδεσης %1$@ για %2$@;</target>
         <note>Prompt for updating a login. The first parameter is the username for which the password will be updated for. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdatePassword.Title">
@@ -1515,6 +1529,7 @@
       </trans-unit>
       <trans-unit id="Search or enter address">
         <source>Search or enter address</source>
+        <target>Αναζήτηση ή εισαγωγή διεύθυνσης</target>
         <note>The text shown in the URL bar on about:home</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.AddMessage">
@@ -1523,10 +1538,12 @@
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.AddSuccess">
         <source>Added Search engine!</source>
+        <target>Προστέθηκε μηχανή αναζήτησης!</target>
         <note>The success message that appears after a user sucessfully adds a new search engine</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.AddTitle">
         <source>Add Search Provider?</source>
+        <target>Προσθήκη παρόχου αναζήτησης;</target>
         <note>The title that asks the user to Add the search provider</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.Cancel">
@@ -1536,6 +1553,7 @@
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.FailedMessage">
         <source>The search provider could not be added.</source>
+        <target>Δεν ήταν δυνατή η προσθήκη παρόχου αναζήτησης.</target>
         <note>A title explaining that we failed to add a search engine</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.FailedTitle">
@@ -1578,6 +1596,7 @@
       </trans-unit>
       <trans-unit id="SendTo.Error.Message">
         <source>Only HTTP and HTTPS links can be shared.</source>
+        <target>Μπορούν να κοινοποιηθούν μόνο σύνδεσμοι HTTP και HTTPS.</target>
         <note>Message in error prompt explaining why the URL is invalid.</note>
       </trans-unit>
       <trans-unit id="SendTo.Error.OK.Button">
@@ -1994,6 +2013,7 @@
       </trans-unit>
       <trans-unit id="Use Compact Tabs">
         <source>Use Compact Tabs</source>
+        <target>Χρήση μικρών καρτελών</target>
         <note>Setting to enable compact tabs in the tab overview</note>
       </trans-unit>
       <trans-unit id="Username">
@@ -2028,6 +2048,7 @@
       </trans-unit>
       <trans-unit id="Well, this is embarrassing.">
         <source>Well, this is embarrassing.</source>
+        <target>Αυτό είναι κάπως ντροπιαστικό.</target>
         <note>Restore Tabs Prompt Title</note>
       </trans-unit>
       <trans-unit id="Wikipedia">
