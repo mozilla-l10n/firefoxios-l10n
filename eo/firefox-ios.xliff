@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="eo">
     <header>
@@ -6,9 +6,7 @@
     </header>
     <body>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
+        <source>$(PRODUCT_NAME)</source> <target state="needs-translation">$(PRODUCT_NAME)</target> </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>7.0</source>
         <target>7.0</target>
@@ -71,9 +69,7 @@
         <note>Accessibility label, associated to the 3D Touch action on the current tab in the tab tray, used to display a larger preview of the tab.</note>
       </trans-unit>
       <trans-unit id="Send to Device">
-        <source>Send to Device</source>
-        <target>Sendi al aparato</target>
-        <note>Label for preview action on Tab Tray Tab to send the current tab to another device</note>
+        <source>Send to Device</source> <target>Sendi al aparato</target> <note>Label for preview action on Tab Tray Tab to send the current tab to another device</note>
       </trans-unit>
     </body>
   </file>
@@ -709,48 +705,37 @@
         <target>Forigi el historio</target>
         <note>The title for the Delete from History context menu action for Activity Stream</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.ContextMenu.OpenInNewPrivateTab">
-        <source>Open in New Private Tab</source>
-        <note>The title for the Open in New Private Tab context menu action for Activity Stream</note>
+      <trans-unit id="ActivityStream.ContextMenu.OpenInNewPrivateTab" approved="yes">
+        <source>Open in New Private Tab</source> <target state="translated">Malfermi en nova privata langeto</target><note>The title for the Open in New Private Tab context menu action for Activity Stream</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.ContextMenu.OpenInNewTab">
-        <source>Open in New Tab</source>
-        <note>The title for the Open in New Tab context menu action for Activity Stream</note>
+      <trans-unit id="ActivityStream.ContextMenu.OpenInNewTab" approved="yes">
+        <source>Open in New Tab</source> <target state="translated">Malfermi en nova langeto</target><note>The title for the Open in New Tab context menu action for Activity Stream</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.ContextMenu.Remove">
-        <source>Remove</source>
-        <note>The title for the Remove content from Activity Stream context menu item</note>
+      <trans-unit id="ActivityStream.ContextMenu.Remove" approved="yes">
+        <source>Remove</source> <target state="translated">Forigi</target><note>The title for the Remove content from Activity Stream context menu item</note>
       </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.RemoveBookmark">
-        <source>Remove Bookmark</source>
-        <target>Forigi legosignon</target>
-        <note>The title for the Remove Bookmark context menu action for Activity Stream</note>
+        <source>Remove Bookmark</source> <target>Forigi legosignon</target> <note>The title for the Remove Bookmark context menu action for Activity Stream</note>
       </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.Share">
         <source>Share</source>
         <target>Dividi</target>
         <note>The title for the Share context menu action for Activity Stream</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.HighlightIntro.Description">
-        <source>Firefox will place things here that you've discovered on the web so you can find your way back to the great articles, videos, bookmarks and other pages</source>
-        <note>The detailed text that explains what highlights are in AS.</note>
+      <trans-unit id="ActivityStream.HighlightIntro.Description" approved="yes">
+        <source>Firefox will place things here that you've discovered on the web so you can find your way back to the great articles, videos, bookmarks and other pages</source> <target state="translated">Firefox metos ĉi tien aferojn, kiujn vi malkovris en la reto, tiel ke vi povos facile retrovi bonegajn artikolojn, filmetojn, legosignojn kaj aliajn paĝojn</target><note>The detailed text that explains what highlights are in AS.</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.HighlightIntro.Title">
-        <source>Be on the Lookout</source>
-        <note>The title that appears for the introduction to highlights in AS.</note>
+      <trans-unit id="ActivityStream.HighlightIntro.Title" approved="yes">
+        <source>Be on the Lookout</source> <target state="translated">Estu atenta</target><note>The title that appears for the introduction to highlights in AS.</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.Highlights.SectionTitle">
-        <source>Highlights</source>
-        <note>Section title label for Highlights</note>
+      <trans-unit id="ActivityStream.Highlights.SectionTitle" approved="yes">
+        <source>Highlights</source> <target state="translated">Elstaraj</target><note>Section title label for Highlights</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.PageControl.Button">
-        <source>Next Page</source>
-        <note>The page control button that lets you switch between pages in top sites</note>
+      <trans-unit id="ActivityStream.PageControl.Button" approved="yes">
+        <source>Next Page</source> <target state="translated">Venonta paĝo</target><note>The page control button that lets you switch between pages in top sites</note>
       </trans-unit>
       <trans-unit id="Add Tab">
-        <source>Add Tab</source>
-        <target>Aldoni langeton</target>
-        <note>Accessibility label for the Add Tab button in the Tab Tray.</note>
+        <source>Add Tab</source> <target>Aldoni langeton</target> <note>Accessibility label for the Add Tab button in the Tab Tray.</note>
       </trans-unit>
       <trans-unit id="Add to Reading List">
         <source>Add to Reading List</source>
@@ -897,26 +882,20 @@
         <target>Langeto fermata</target>
         <note>Accessibility label (used by assistive technology) notifying the user that the tab is being closed.</note>
       </trans-unit>
-      <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.ButtonText">
-        <source>Switch</source>
-        <note>The button text in the Button Toast for switching to a fresh New Private Tab.</note>
+      <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.ButtonText" approved="yes">
+        <source>Switch</source> <target state="translated">Ŝanĝi</target><note>The button text in the Button Toast for switching to a fresh New Private Tab.</note>
       </trans-unit>
-      <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.LabelText">
-        <source>New Private Tab opened</source>
-        <note>The label text in the Button Toast for switching to a fresh New Private Tab.</note>
+      <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.LabelText" approved="yes">
+        <source>New Private Tab opened</source> <target state="translated">Nova privata langeto malfermita</target><note>The label text in the Button Toast for switching to a fresh New Private Tab.</note>
       </trans-unit>
-      <trans-unit id="ContextMenu.ButtonToast.NewTabOpened.ButtonText">
-        <source>Switch</source>
-        <note>The button text in the Button Toast for switching to a fresh New Tab.</note>
+      <trans-unit id="ContextMenu.ButtonToast.NewTabOpened.ButtonText" approved="yes">
+        <source>Switch</source> <target state="translated">Ŝanĝi</target><note>The button text in the Button Toast for switching to a fresh New Tab.</note>
       </trans-unit>
-      <trans-unit id="ContextMenu.ButtonToast.NewTabOpened.LabelText">
-        <source>New Tab opened</source>
-        <note>The label text in the Button Toast for switching to a fresh New Tab.</note>
+      <trans-unit id="ContextMenu.ButtonToast.NewTabOpened.LabelText" approved="yes">
+        <source>New Tab opened</source> <target state="translated">Nova langeto malfermita</target><note>The label text in the Button Toast for switching to a fresh New Tab.</note>
       </trans-unit>
       <trans-unit id="Copy Address">
-        <source>Copy Address</source>
-        <target>Kopii adreson</target>
-        <note>Copy the URL from the location bar</note>
+        <source>Copy Address</source> <target>Kopii adreson</target> <note>Copy the URL from the location bar</note>
       </trans-unit>
       <trans-unit id="Copy Image">
         <source>Copy Image</source>
@@ -1638,18 +1617,14 @@
         <target>Malsukcesa</target>
         <note>A title explaining that we failed to add a search engine</note>
       </trans-unit>
-      <trans-unit id="Search.ThirdPartyEngines.FormErrorMessage">
-        <source>Please fill all fields correctly.</source>
-        <note>A message explaining fault in custom search engine form.</note>
+      <trans-unit id="Search.ThirdPartyEngines.FormErrorMessage" approved="yes">
+        <source>Please fill all fields correctly.</source> <target state="translated">Bonvolu plenigi ĉiujn kampojn korekte.</target><note>A message explaining fault in custom search engine form.</note>
       </trans-unit>
-      <trans-unit id="Search.ThirdPartyEngines.FormErrorTitle">
-        <source>Failed</source>
-        <note>A title stating that we failed to add custom search engine.</note>
+      <trans-unit id="Search.ThirdPartyEngines.FormErrorTitle" approved="yes">
+        <source>Failed</source> <target state="translated">Malsukcesa</target><note>A title stating that we failed to add custom search engine.</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.OK">
-        <source>OK</source>
-        <target>Akcepti</target>
-        <note>The confirmation button</note>
+        <source>OK</source> <target>Akcepti</target> <note>The confirmation button</note>
       </trans-unit>
       <trans-unit id="Searches for the suggestion">
         <source>Searches for the suggestion</source>
@@ -1712,38 +1687,29 @@
         <note>Accessibility label for the Settings button in the Tab Tray.
    Settings</note>
       </trans-unit>
-      <trans-unit id="Settings.AddCustomEngine">
-        <source>Add Search Engine</source>
-        <note>The button text in Search Settings that opens the Custom Search Engine view.</note>
+      <trans-unit id="Settings.AddCustomEngine" approved="yes">
+        <source>Add Search Engine</source> <target state="translated">Aldoni serĉilon</target><note>The button text in Search Settings that opens the Custom Search Engine view.</note>
       </trans-unit>
-      <trans-unit id="Settings.AddCustomEngine.SaveButtonText">
-        <source>Save</source>
-        <note>The text on the Save button when saving a custom search engine</note>
+      <trans-unit id="Settings.AddCustomEngine.SaveButtonText" approved="yes">
+        <source>Save</source> <target state="translated">Konservi</target><note>The text on the Save button when saving a custom search engine</note>
       </trans-unit>
-      <trans-unit id="Settings.AddCustomEngine.Title">
-        <source>Add Search Engine</source>
-        <note>The title of the  Custom Search Engine view.</note>
+      <trans-unit id="Settings.AddCustomEngine.Title" approved="yes">
+        <source>Add Search Engine</source> <target state="translated">Aldoni serĉilon</target><note>The title of the  Custom Search Engine view.</note>
       </trans-unit>
-      <trans-unit id="Settings.AddCustomEngine.TitleLabel">
-        <source>Title</source>
-        <note>The title for the field which sets the title for a custom search engine.</note>
+      <trans-unit id="Settings.AddCustomEngine.TitleLabel" approved="yes">
+        <source>Title</source> <target state="translated">Titolo</target><note>The title for the field which sets the title for a custom search engine.</note>
       </trans-unit>
-      <trans-unit id="Settings.AddCustomEngine.TitlePlaceholder">
-        <source>Search Engine</source>
-        <note>The placeholder for Title Field when saving a custom search engine.</note>
+      <trans-unit id="Settings.AddCustomEngine.TitlePlaceholder" approved="yes">
+        <source>Search Engine</source> <target state="translated">Serĉilo</target><note>The placeholder for Title Field when saving a custom search engine.</note>
       </trans-unit>
-      <trans-unit id="Settings.AddCustomEngine.URLLabel">
-        <source>URL</source>
-        <note>The title for URL Field</note>
+      <trans-unit id="Settings.AddCustomEngine.URLLabel" approved="yes">
+        <source>URL</source> <target state="translated">Retadreso</target><note>The title for URL Field</note>
       </trans-unit>
-      <trans-unit id="Settings.AddCustomEngine.URLPlaceholder">
-        <source>URL (Replace Query with %s)</source>
-        <note>The placeholder for URL Field when saving a custom search engine</note>
+      <trans-unit id="Settings.AddCustomEngine.URLPlaceholder" approved="yes">
+        <source>URL (Replace Query with %s)</source> <target state="translated">Retadreso (anstataŭigi serĉo per %s)</target><note>The placeholder for URL Field when saving a custom search engine</note>
       </trans-unit>
       <trans-unit id="Settings.ClearPrivateData.Clear.Button">
-        <source>Clear Private Data</source>
-        <target>Viŝi privatajn datumojn</target>
-        <note>Button in settings that clears private data for the selected items.</note>
+        <source>Clear Private Data</source> <target>Viŝi privatajn datumojn</target> <note>Button in settings that clears private data for the selected items.</note>
       </trans-unit>
       <trans-unit id="Settings.ClearPrivateData.SectionName">
         <source>Clear Private Data</source>
@@ -2636,13 +2602,10 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2" build-num="8C38"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName">
-        <source>Send Tab</source>
-      </trans-unit>
+      <trans-unit id="CFBundleDisplayName" approved="yes">
+        <source>Send Tab</source> <target state="translated">Sendi langeton</target></trans-unit>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
+        <source>$(PRODUCT_NAME)</source> <target>$(PRODUCT_NAME)</target> </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>7.0</source>
         <target>7.0</target>
@@ -2736,13 +2699,10 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2" build-num="8C38"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName">
-        <source>View Later</source>
-      </trans-unit>
+      <trans-unit id="CFBundleDisplayName" approved="yes">
+        <source>View Later</source> <target state="translated">Vidi poste</target></trans-unit>
       <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
+        <source>$(PRODUCT_NAME)</source> <target>$(PRODUCT_NAME)</target> </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>7.0</source>
         <target>7.0</target>
@@ -2945,4 +2905,3 @@
     </body>
   </file>
 </xliff>
-
