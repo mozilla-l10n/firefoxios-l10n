@@ -765,7 +765,8 @@
    <trans-unit id="Add to Reading List">
     <source>Add to Reading List</source>
     <target>Dodaj do czytelni</target>
-    <note>Add URL to the reading list - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
+    <note>Accessibility label for action adding current page to reading list.
+          Name for button adding current article to reading list in reader mode</note>
    </trans-unit>
    <trans-unit id="AddPass.Error.Dismiss">
     <source>OK</source>
@@ -821,11 +822,6 @@
     <source>Block Pop-up Windows</source>
     <target>Blokowanie wyskakujących okien</target>
     <note>Block pop-up windows setting</note>
-   </trans-unit>
-   <trans-unit id="Bookmark">
-    <source>Bookmark</source>
-    <target>Dodaj zakładkę</target>
-    <note>Bookmark a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
    </trans-unit>
       <trans-unit id="Bookmarks">
         <source>Bookmarks</source>
@@ -1737,6 +1733,21 @@
     <target>Nie można udostępnić odnośnika</target>
     <note>Title of error prompt displayed when an invalid URL is shared.</note>
    </trans-unit>
+   <trans-unit id="SentTab.AddToReadingList">
+    <source>Add to Reading List</source>
+    <target>Dodaj do czytelni</target>
+    <note>Button title displayed in a notification when a sent tab has been received. Tapping on the button will add the page to the reading list.</note>
+   </trans-unit>
+   <trans-unit id="SentTab.BookmarkPage">
+    <source>Bookmark</source>
+    <target>Dodaj zakładkę</target>
+    <note>Button title displayed in a notification when a sent tab has been received. Tapping on the button will add the URL as a bookmark.</note>
+   </trans-unit>
+   <trans-unit id="SentTab.ViewPage">
+    <source>View</source>
+    <target>Pokaż</target>
+    <note>Button title displayed in a notification when a sent tab has been received. Tapping on the button will open the URL.</note>
+   </trans-unit>
    <trans-unit id="Sepia">
     <source>Sepia</source>
     <note>Sepia theme setting in Reading View settings</note>
@@ -2204,11 +2215,6 @@
     <source>Version %1$@ (%2$@)</source>
     <target>Wersja %1$@ (%2$@)</target>
     <note>Version number of Firefox shown in settings</note>
-   </trans-unit>
-   <trans-unit id="View">
-    <source>View</source>
-    <target>Pokaż</target>
-    <note>View a URL - https://bugzilla.mozilla.org/attachment.cgi?id=8624438, https://bug1157303.bugzilla.mozilla.org/attachment.cgi?id=8624440</note>
    </trans-unit>
    <trans-unit id="Web content">
     <source>Web content</source>
