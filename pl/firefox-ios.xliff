@@ -1776,7 +1776,27 @@
     <target>Dodaj zakładkę</target>
     <note>Button title displayed in a notification when a sent tab has been received. Tapping on the button will add the URL as a bookmark.</note>
    </trans-unit>
-   <trans-unit id="SentTab.ViewPage">
+   <trans-unit id="SentTab.NoTabArrivingNotification.body">
+    <source>Tap to begin</source>
+    <target>Stuknij, aby rozpocząć</target>
+    <note>Body of notification received after a spurious message from FxA has been received.</note>
+   </trans-unit>
+   <trans-unit id="SentTab.NoTabArrivingNotification.title">
+    <source>Firefox Sync</source>
+    <target>Firefox Sync</target>
+    <note>Title of notification received after a spurious message from FxA has been received.</note>
+   </trans-unit>
+   <trans-unit id="SentTab.TabArrivingNotificationWithDevice.title">
+    <source>Tab from %@</source>
+    <target>Karta od „%@”</target>
+    <note>Title of notification received after a tab has been sent from a named connected device. %@ is the name of the named device.</note>
+   </trans-unit>
+   <trans-unit id="SentTab.UnnamedTabArrivingNotification.title">
+    <source>Tab received</source>
+    <target>Przychodząca karta</target>
+    <note>Title of notification received after an unnamed tab has been sent from an unnamed connected device. This is likely to be displayed on the device lock screen.</note>
+   </trans-unit>
+   <trans-unit id="SentTab.ViewPage"><!-- TODO - Remove after 8.0 release -->
     <source>View</source>
     <target>Pokaż</target>
     <note>Button title displayed in a notification when a sent tab has been received. Tapping on the button will open the URL.</note>
@@ -1810,7 +1830,7 @@
    <trans-unit id="Settings.AddCustomEngine.Title">
     <source>Add Search Engine</source>
     <target>Dodawanie wyszukiwarki</target>
-    <note>The title of the  Custom Search Engine view.</note>
+    <note>The title of the Custom Search Engine view.</note>
    </trans-unit>
    <trans-unit id="Settings.AddCustomEngine.TitleLabel">
     <source>Title</source>
