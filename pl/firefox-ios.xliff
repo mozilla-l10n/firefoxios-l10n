@@ -1786,20 +1786,30 @@
     <target>Firefox Sync</target>
     <note>Title of notification received after a spurious message from FxA has been received.</note>
    </trans-unit>
-   <trans-unit id="SentTab.TabArrivingNotificationWithDevice.title">
-    <source>Tab from %@</source>
-    <target>Karta od „%@”</target>
-    <note>Title of notification received after a tab has been sent from a named connected device. %@ is the name of the named device.</note>
-   </trans-unit>
-   <trans-unit id="SentTab.UnnamedTabArrivingNotification.title">
-    <source>Tab received</source>
-    <target>Przychodząca karta</target>
-    <note>Title of notification received after an unnamed tab has been sent from an unnamed connected device. This is likely to be displayed on the device lock screen.</note>
-   </trans-unit>
-   <trans-unit id="SentTab.ViewPage"><!-- TODO - Remove after 8.0 release -->
+   <trans-unit id="SentTab.ViewPage">
     <source>View</source>
     <target>Pokaż</target>
     <note>Button title displayed in a notification when a sent tab has been received. Tapping on the button will open the URL.</note>
+   </trans-unit>
+   <trans-unit id="SentTab_TabArrivingNotification_NoDevice_body">
+    <source>New tab arrived from another device.</source>
+    <target>Przychodząca karta z innego urządzenia</target>
+    <note>Body of notification shown when the device is sent one or more tabs from an unnamed device.</note>
+   </trans-unit>
+   <trans-unit id="SentTab_TabArrivingNotification_NoDevice_title">
+    <source>Tab received</source>
+    <target>Przychodząca karta</target>
+    <note>Title of notification shown when the device is sent one or more tabs from an unnamed device.</note>
+   </trans-unit>
+   <trans-unit id="SentTab_TabArrivingNotification_WithDevice_body">
+    <source>New tab arrived in %@</source>
+    <target>Przychodząca karta w programie %@</target>
+    <note>Body of notification shown when the device is sent one or more tabs from the named device. %@ is the placeholder for the app name.</note>
+   </trans-unit>
+   <trans-unit id="SentTab_TabArrivingNotification_WithDevice_title">
+    <source>Tab received from %@</source>
+    <target>Przychodząca karta z programu %@</target>
+    <note>Title of notification shown when the device is sent one or more tabs from the named device. %@ is the placeholder for the device name. This device name will be localized by that device.</note>
    </trans-unit>
    <trans-unit id="Sepia">
     <source>Sepia</source>
