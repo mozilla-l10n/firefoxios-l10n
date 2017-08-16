@@ -11,7 +11,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>8.0</source>
-        <target>7.0</target>
+        <target>8.0</target>
       </trans-unit>
     </body>
   </file>
@@ -26,7 +26,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>8.0</source>
-        <target>7.0</target>
+        <target>8.0</target>
       </trans-unit>
     </body>
   </file>
@@ -459,7 +459,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>8.0</source>
-        <target>6.0</target>
+        <target>8.0</target>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you take and upload photos.</source>
@@ -488,27 +488,21 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
     <body>
+      <trans-unit id="A modern mobile browser from Mozilla, the non-profit committed to a free and open web.">
+        <source>A modern mobile browser from Mozilla, the non-profit committed to a free and open web.</source>
+        <note>Description for the 'Welcome' panel in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Browse like no one's watching">
+        <source>Browse like no one's watching</source>
+        <note>Title for one of the panels in the First Run tour.</note>
+      </trans-unit>
       <trans-unit id="Browse multiple Web pages at the same time with tabs.">
         <source>Browse multiple Web pages at the same time with tabs.</source>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Choose">
-        <source>Choose</source>
-        <target>ಆಯ್ಕೆ ಮಾಡು</target>
-        <note>Title for one of the panels in the First Run tour.</note>
-      </trans-unit>
       <trans-unit id="Connect Firefox everywhere you use it.">
         <source>Connect Firefox everywhere you use it.</source>
         <note>See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
-      <trans-unit id="Customize">
-        <source>Customize</source>
-        <target>ಅಗತ್ಯಾನುಗುಣಗೊಳಿಸು</target>
-        <note>Title for one of the panels in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Easily switch between open pages with tabs.">
-        <source>Easily switch between open pages with tabs.</source>
-        <note>Description for the 'Organize' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Firefox and the cloud">
         <source>Firefox and the cloud</source>
@@ -519,23 +513,17 @@
         <source>Introductory slide %1$@ of %2$@</source>
         <note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note>
       </trans-unit>
-      <trans-unit id="Organize">
-        <source>Organize</source>
-        <target>ವ್ವವಸ್ಥಿತಗೊಳಿಸು</target>
-        <note>Title for one of the panels in the First Run tour.</note>
-      </trans-unit>
       <trans-unit id="Personalize your Firefox just the way you like in Settings.">
         <source>Personalize your Firefox just the way you like in Settings.</source>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Personalize your default search engine and more in Settings.">
-        <source>Personalize your default search engine and more in Settings.</source>
-        <note>Description for the 'Customize' panel in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Share">
-        <source>Share</source>
-        <target>ಹಂಚು</target>
+      <trans-unit id="Pick up where you left off">
+        <source>Pick up where you left off</source>
         <note>Title for one of the panels in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Searching for something different? Choose another default search engine (or add your own) in Settings.">
+        <source>Searching for something different? Choose another default search engine (or add your own) in Settings.</source>
+        <note>Description for the 'Favorite Search Engine' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Sign in to Firefox">
         <source>Sign in to Firefox</source>
@@ -547,14 +535,13 @@
         <target>ವೀಕ್ಷಣೆಯನ್ನು ಪ್ರಾರಂಭಿಸಿ</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
-      <trans-unit id="Sync your Devices.">
-        <source>Sync your Devices.</source>
-        <target>ನಿಮ್ಮ ಸಾಧನಗಳನ್ನು ಸಿಂಕ್‌ಮಾಡಿ.</target>
-        <note>Title for one of the panels in the First Run tour.</note>
+      <trans-unit id="Tap the mask icon to slip into Private Browsing mode.">
+        <source>Tap the mask icon to slip into Private Browsing mode.</source>
+        <note>Description for the 'Private Browsing' panel in the First Run tour.</note>
       </trans-unit>
-      <trans-unit id="Tap, hold and move the Firefox icon into your dock for easy access.">
-        <source>Tap, hold and move the Firefox icon into your dock for easy access.</source>
-        <note>Description for the 'Choose' panel in the First Run tour.</note>
+      <trans-unit id="Thanks for choosing Firefox!">
+        <source>Thanks for choosing Firefox!</source>
+        <note>Title for one of the panels in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="The Settings button is at the beginning of the Tabs Tray.">
         <source>The Settings button is at the beginning of the Tabs Tray.</source>
@@ -564,9 +551,21 @@
         <source>The Show Tabs button is next to the Address and Search text field and displays the current number of open tabs.</source>
         <note>Accessibility label for the UI element used to display the number of open tabs, and open the tab tray.</note>
       </trans-unit>
-      <trans-unit id="Use the share sheet to send links from other apps to Firefox.">
-        <source>Use the share sheet to send links from other apps to Firefox.</source>
-        <note>Description for the 'Share' panel in the First Run tour.</note>
+      <trans-unit id="Use Sync to find the bookmarks, passwords, and other things you save to Firefox on all your devices.">
+        <source>Use Sync to find the bookmarks, passwords, and other things you save to Firefox on all your devices.</source>
+        <note>Description for the 'Sync' panel in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Use any email app - not just Mail - with Firefox.">
+        <source>Use any email app - not just Mail - with Firefox.</source>
+        <note>Description for the 'Mail' panel in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="You've got mail… options">
+        <source>You've got mail… options</source>
+        <note>Title for one of the panels in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Your search, your way">
+        <source>Your search, your way</source>
+        <note>Title for one of the panels in the First Run tour.</note>
       </trans-unit>
     </body>
   </file>
@@ -744,10 +743,6 @@
         <source>Address and Search</source>
         <target>‍ವಿಳಾಸ ಮತ್ತು ಹುಡುಕು</target>
         <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
-      </trans-unit>
-      <trans-unit id="Allow Third-Party Keyboards">
-        <source>Allow Third-Party Keyboards</source>
-        <note>Setting to enable third-party keyboards</note>
       </trans-unit>
       <trans-unit id="Always Send">
         <source>Always Send</source>
@@ -1048,14 +1043,14 @@
         <source>Visit site anyway</source>
         <note>Button label to temporarily continue to the site from the certificate error page</note>
       </trans-unit>
+      <trans-unit id="ExternalLink.ConfirmMessage">
+        <source>Open this link in the App Store app?</source>
+        <note>Question shown to user when tapping a link that opens the App Store app</note>
+      </trans-unit>
       <trans-unit id="Facebook">
         <source>Facebook</source>
         <target>ಫೇಸ್‌ಬುಕ್‌</target>
         <note>Tile title for Facebook</note>
-      </trans-unit>
-      <trans-unit id="Firefox needs to reopen for this change to take effect.">
-        <source>Firefox needs to reopen for this change to take effect.</source>
-        <note>Setting value prop to enable third-party keyboards</note>
       </trans-unit>
       <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.">
         <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
@@ -1074,6 +1069,78 @@
         <source>Forward</source>
         <target>ಮುಂದೆ</target>
         <note>Accessibility Label for the tab toolbar Forward button</note>
+      </trans-unit>
+      <trans-unit id="FxA.AccountVerificationDetails">
+        <source>Wrong email? Disconnect below to start over.</source>
+        <note>Label stating how to disconnect account</note>
+      </trans-unit>
+      <trans-unit id="FxA.AccountVerificationRequired">
+        <source>Account Verification Required</source>
+        <note>Label stating your account is not verified</note>
+      </trans-unit>
+      <trans-unit id="FxA.AccountVerificationRequiredSurface">
+        <source>You need to verify %@. Check your email for the verification link from Firefox.</source>
+        <note>Message explaining that user needs to check email for Firefox Account verfication link.</note>
+      </trans-unit>
+      <trans-unit id="FxA.FirefoxAccount">
+        <source>Firefox Account</source>
+        <note>Settings section title for Firefox Account</note>
+      </trans-unit>
+      <trans-unit id="FxA.ManageAccount">
+        <source>Manage Account</source>
+        <note>Button label to goto Firefox Account settings</note>
+      </trans-unit>
+      <trans-unit id="FxA.NoInternetConnection">
+        <source>No Internet Connection</source>
+        <note>Label when no internet is present</note>
+      </trans-unit>
+      <trans-unit id="FxA.ResendEmail">
+        <source>Resend Email</source>
+        <note>Button label to resend email</note>
+      </trans-unit>
+      <trans-unit id="FxA.SignIntoSync">
+        <source>Sign in to Sync</source>
+        <note>Button label to sign into Sync</note>
+      </trans-unit>
+      <trans-unit id="FxA.SyncExplain">
+        <source>Get your tabs, bookmarks, and passwords from your other devices.</source>
+        <note>Label explaining what sync does</note>
+      </trans-unit>
+      <trans-unit id="FxA.SyncNow">
+        <source>Sync Now</source>
+        <note>Button label to Sync your Firefox Account</note>
+      </trans-unit>
+      <trans-unit id="FxA.TakeYourWebWithYou">
+        <source>Take Your Web With You</source>
+        <note>Call to action for sign into sync button</note>
+      </trans-unit>
+      <trans-unit id="FxAPush_DeviceConnected_body">
+        <source>Firefox Sync has connected to %@</source>
+        <note>Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device.</note>
+      </trans-unit>
+      <trans-unit id="FxAPush_DeviceConnected_title">
+        <source>Sync Connected</source>
+        <note>Title of a notification displayed when another device has connected to FxA.</note>
+      </trans-unit>
+      <trans-unit id="FxAPush_DeviceDisconnected_ThisDevice_body">
+        <source>This device has been successfully disconnected from Firefox Sync.</source>
+        <note>Body of a notification displayed when this device has been disconnected from FxA by another device.</note>
+      </trans-unit>
+      <trans-unit id="FxAPush_DeviceDisconnected_ThisDevice_title">
+        <source>Sync Disconnected</source>
+        <note>Title of a notification displayed when this device has been disconnected by another device.</note>
+      </trans-unit>
+      <trans-unit id="FxAPush_DeviceDisconnected_UnknownDevice_body">
+        <source>A device has disconnected from Firefox Sync</source>
+        <note>Body of a notification displayed when unnamed device has been disconnected from FxA.</note>
+      </trans-unit>
+      <trans-unit id="FxAPush_DeviceDisconnected_body">
+        <source>Firefox Sync has disconnected %@</source>
+        <note>Body of a notification displayed when named device has been disconnected from FxA. %@ refers to the name of the disconnected device.</note>
+      </trans-unit>
+      <trans-unit id="FxAPush_DeviceDisconnected_title">
+        <source>Sync Disconnected</source>
+        <note>Title of a notification displayed when named device has been disconnected from FxA.</note>
       </trans-unit>
       <trans-unit id="General">
         <source>General</source>
@@ -1704,6 +1771,10 @@
         <target>Serif</target>
         <note>Font type setting in the reading view settings</note>
       </trans-unit>
+      <trans-unit id="Setting_OfferClipboardBar_status">
+        <source>When opening Firefox</source>
+        <note>Status text of setting to enable the Go to Copied URL feature</note>
+      </trans-unit>
       <trans-unit id="Settings">
         <source>Settings</source>
         <target>ಸಿದ್ಧತೆಗಳು</target>
@@ -1752,6 +1823,30 @@
         <source>Clear Private Data</source>
         <target>ಖಾಸಗಿ ದತ್ತಾಂಶವನ್ನು ಖಾಲಿಮಾಡು</target>
         <note>Title displayed in header of the setting panel.</note>
+      </trans-unit>
+      <trans-unit id="Settings.DNT.OptionAlwaysOn">
+        <source>Always</source>
+        <note>DNT Settings option for always on</note>
+      </trans-unit>
+      <trans-unit id="Settings.DNT.OptionOnWithTP">
+        <source>Only when using Tracking Protection</source>
+        <note>DNT Settings option for only turning on when Tracking Protection is also on</note>
+      </trans-unit>
+      <trans-unit id="Settings.DNT.Title">
+        <source>Send websites a “Do Not Track” signal that you don’t want to be tracked</source>
+        <note>DNT Settings title</note>
+      </trans-unit>
+      <trans-unit id="Settings.Disconnect.Button">
+        <source>Disconnect</source>
+        <note>Button displayed at the bottom of settings page allowing users to Disconnect from FxA</note>
+      </trans-unit>
+      <trans-unit id="Settings.Disconnect.DestructiveButton">
+        <source>Disconnect</source>
+        <note>Destructive action button in alert when user is prompted for disconnect</note>
+      </trans-unit>
+      <trans-unit id="Settings.Disconnect.Title">
+        <source>Disconnect?</source>
+        <note>Title of the alert when prompting the user asking to disconnect.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.Clear.Button">
         <source>Clear</source>
@@ -1856,25 +1951,66 @@
         <target>ತಿದ್ದಿ‍</target>
         <note>Button displayed at the top of the search settings.</note>
       </trans-unit>
-      <trans-unit id="Settings.SignOut.Button">
-        <source>Sign Out</source>
-        <target>ನಿರ್ಗಮಿಸು‍</target>
-        <note>Button displayed at the bottom of settings page allowing users to Sign Out of FxA</note>
+      <trans-unit id="Settings.TrackingProtection.BlockListsHeader">
+        <source>You can choose which list Firefox will use to block Web elements that may track your browsing activity.</source>
+        <note>Header description for tracking protection options section where Basic/Strict block list can be selected</note>
       </trans-unit>
-      <trans-unit id="Settings.SignOut.DestructiveButton">
-        <source>Sign Out</source>
-        <target>ನಿರ್ಗಮಿಸು‍</target>
-        <note>Destructive action button in alert when user is prompted for signing out</note>
+      <trans-unit id="Settings.TrackingProtection.BlockListsTitle">
+        <source>Block Lists</source>
+        <note>Title for tracking protection options section where Basic/Strict block list can be selected</note>
       </trans-unit>
-      <trans-unit id="Settings.SignOut.Title">
-        <source>Sign Out?</source>
-        <target>ನಿರ್ಗಮಿಸ ಬೇಕೆ?</target>
-        <note>Title of the alert when prompting the user asking to sign out.</note>
+      <trans-unit id="Settings.TrackingProtection.SectionName">
+        <source>Tracking Protection</source>
+        <note>Row in top-level of settings that gets tapped to show the tracking protection settings detail view.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtectionOption.BlockListBasic">
+        <source>Basic (Recommended)</source>
+        <note>Tracking protection settings option for using the basic blocklist.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtectionOption.BlockListBasicDescription">
+        <source>Allows some trackers so websites function properly.</source>
+        <note>Tracking protection settings option description for using the basic blocklist.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtectionOption.BlockListStrict">
+        <source>Strict</source>
+        <note>Tracking protection settings option for using the strict blocklist.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtectionOption.BlockListStrictDescription">
+        <source>Blocks known trackers. Some websites may not function properly.</source>
+        <note>Tracking protection settings option description for using the strict blocklist.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtectionOption.BlockListTypeFooter">
+        <source>You can choose which list Firefox will use to block Web elements that may track your browsing activity.</source>
+        <note>Description label shown at bottom of tracking protection options for which Block List to use</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtectionOption.EnabledStateFooterLabel">
+        <source>Tracking is the collection of your browsing data across multiple websites. Tracking can be used to build a profile and display content based on your browsing and personal information.</source>
+        <note>Description label shown on tracking protection options screen.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtectionOption.EnabledStateHeaderLabel">
+        <source>Use Tracking Protection to Block Known Trackers</source>
+        <note>Description label shown at the top of tracking protection options screen.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtectionOption.OffLabel">
+        <source>Never</source>
+        <note>Settings option to specify that Tracking Protection is always off.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtectionOption.OnInPrivateBrowsingLabel">
+        <source>Private Browsing Mode Only</source>
+        <note>Settings option to specify that Tracking Protection is on only in Private Browsing mode.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtectionOption.OnLabel">
+        <source>Always On</source>
+        <note>Settings option to specify that Tracking Protection is always on.</note>
       </trans-unit>
       <trans-unit id="Settings.TroubleShootSync.Title">
         <source>Troubleshoot</source>
         <target>ತೊಂದರೆನಿವಾರಣೆ‍</target>
         <note>Title of link to help page to find out how to solve Sync issues</note>
+      </trans-unit>
+      <trans-unit id="Settings_OfferClipboardBar_title">
+        <source>Offer to open copied links</source>
+        <note>Title of setting to enable the Go to Copied URL feature</note>
       </trans-unit>
       <trans-unit id="Share">
         <source>Share</source>
@@ -2539,7 +2675,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>8.0</source>
-        <target>6.0</target>
+        <target>8.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2549,13 +2685,16 @@
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
-        <source>NotificationService</source>
+        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2574,7 +2713,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>8.0</source>
-        <target>6.0</target>
+        <target>8.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2584,7 +2723,8 @@
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
-        <source>Share To</source>
+        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
@@ -2592,7 +2732,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>8.0</source>
-        <target>6.0</target>
+        <target>8.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2633,7 +2773,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>8.0</source>
-        <target>6.0</target>
+        <target>8.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2671,7 +2811,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>8.0</source>
-        <target>6.0</target>
+        <target>8.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2686,7 +2826,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>8.0</source>
-        <target>6.0</target>
+        <target>8.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2701,7 +2841,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>8.0</source>
-        <target>6.0</target>
+        <target>8.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2716,7 +2856,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>8.0</source>
-        <target>6.0</target>
+        <target>8.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2743,7 +2883,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>8.0</source>
-        <target>6.0</target>
+        <target>8.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2791,7 +2931,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>8.0</source>
-        <target>1.0</target>
+        <target>8.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2806,7 +2946,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>8.0</source>
-        <target>6.0</target>
+        <target>8.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2821,7 +2961,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>8.0</source>
-        <target>6.0</target>
+        <target>8.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2836,7 +2976,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>8.0</source>
-        <target>6.0</target>
+        <target>8.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2847,9 +2987,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2860,9 +3002,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>1.0</source>
+        <target>1.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2877,7 +3021,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>8.0</source>
-        <target>6.0</target>
+        <target>8.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2892,7 +3036,7 @@
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>8.0</source>
-        <target>6.0</target>
+        <target>8.0</target>
       </trans-unit>
     </body>
   </file>
