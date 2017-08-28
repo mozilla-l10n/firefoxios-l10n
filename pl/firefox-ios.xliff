@@ -503,6 +503,16 @@
    <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="6.3.1" build-num="6D1002"/>
   </header>
   <body>
+   <trans-unit id="A modern mobile browser from Mozilla, the non-profit committed to a free and open web.">
+    <source>A modern mobile browser from Mozilla, the non-profit committed to a free and open web.</source>
+    <target>Nowoczesna przeglądarka od Mozilli, organizacji non-profit oddanej wolnemu i otwartemu Internetowi</target>
+    <note>Description for the 'Welcome' panel in the First Run tour.</note>
+   </trans-unit>
+   <trans-unit id="Browse like no one's watching">
+    <source>Browse like no one's watching</source>
+    <target>Przeglądaj, jak gdyby nikt nie patrzył</target>
+    <note>Title for one of the panels in the First Run tour.</note>
+   </trans-unit>
    <trans-unit id="Browse multiple Web pages at the same time with tabs.">
     <source>Browse multiple Web pages at the same time with tabs.</source>
     <target>Dzięki kartom przeglądaj wiele stron jednocześnie</target>
@@ -533,16 +543,6 @@
     <target>Firefox w chmurach</target>
     <note>Accessibility label for the image displayed in the 'Sync' panel of the First Run tour.</note>
    </trans-unit>
-   <trans-unit id="Get stealthy">
-    <source>Get stealthy</source>
-    <target>Ukryj się</target>
-    <note>Title for one of the panels in the First Run tour.</note>
-   </trans-unit>
-   <trans-unit id="Have another mail application installed? Use it with Firefox.">
-    <source>Have another mail application installed? Use it with Firefox.</source>
-    <target>Masz zainstalowaną inną aplikację do poczty? Używaj jej z Firefoksem</target>
-    <note>Description for the 'Mail' panel in the First Run tour.</note>
-   </trans-unit>
    <trans-unit id="Introductory slide %@ of %@">
     <source>Introductory slide %1$@ of %2$@</source>
     <target>Wprowadzenie, strona %1$@ z %2$@</target>
@@ -567,11 +567,15 @@
     <source>Share</source>
     <target>Udostępnianie</target>
    </trans-unit>
-   <trans-unit id="Play favorites with \nyour search engine">
-    <source>Play favorites with 
-your search engine</source>
-    <target>Ulubione wyszukiwarki</target>
+   <trans-unit id="Pick up where you left off">
+    <source>Pick up where you left off</source>
+    <target>Kontynuuj przeglądanie</target>
     <note>Title for one of the panels in the First Run tour.</note>
+   </trans-unit>
+   <trans-unit id="Searching for something different? Choose another default search engine (or add your own) in Settings.">
+    <source>Searching for something different? Choose another default search engine (or add your own) in Settings.</source>
+    <target>Szukasz czegoś innego? Wybierz inną domyślną wyszukiwarkę (lub dodaj własną) w ustawieniach</target>
+    <note>Description for the 'Favorite Search Engine' panel in the First Run tour.</note>
    </trans-unit>
    <trans-unit id="Sign in to Firefox">
     <source>Sign in to Firefox</source>
@@ -583,18 +587,8 @@ your search engine</source>
     <target>Rozpocznij przeglądanie</target>
     <note>See http://mzl.la/1T8gxwo</note>
    </trans-unit>
-   <trans-unit id="Swipe to take a quick look at a few features we hope you'll enjoy.">
-    <source>Swipe to take a quick look at a few features we hope you'll enjoy.</source>
-    <target>Przeciągnij, by zobaczyć kilka funkcji, które mamy nadzieję będą ciekawe</target>
-    <note>Description for the 'Welcome' panel in the First Run tour.</note>
-   </trans-unit>
    <trans-unit id="Sync your Devices."><!-- TODO - Remove after next release -->
     <source>Sync your Devices.</source>
-    <target>Synchronizacja</target>
-    <note>Title for one of the panels in the First Run tour.</note>
-   </trans-unit>
-   <trans-unit id="Sync your devices">
-    <source>Sync your devices</source>
     <target>Synchronizacja</target>
     <note>Title for one of the panels in the First Run tour.</note>
    </trans-unit>
@@ -607,6 +601,11 @@ your search engine</source>
     <source>Tap the mask icon to slip into Private Browsing mode.</source>
     <target>Stuknij ikonę maski, by przejść do przeglądania prywatnego</target>
     <note>Description for the 'Private Browsing' panel in the First Run tour.</note>
+   </trans-unit>
+   <trans-unit id="Thanks for choosing Firefox!">
+    <source>Thanks for choosing Firefox!</source>
+    <target>Dziękujemy za wybranie Firefoksa!</target>
+    <note>Title for one of the panels in the First Run tour.</note>
    </trans-unit>
    <trans-unit id="The Settings button is at the beginning of the Tabs Tray.">
     <source>The Settings button is at the beginning of the Tabs Tray.</source>
@@ -623,19 +622,24 @@ your search engine</source>
     <target>Użyj menu udostępniania, aby otwierać odnośniki z innych aplikacji w Firefoksie</target>
     <note>Description for the 'Share' panel in the First Run tour.</note>
    </trans-unit>
-   <trans-unit id="There are a lot of search engines out there, so select your favorite one and find what you need.">
-    <source>There are a lot of search engines out there, so select your favorite one and find what you need.</source>
-    <target>Istnieje wiele wyszukiwarek, wybierz swoją ulubioną i wyszukuj czego potrzebujesz</target>
-    <note>Description for the 'Favorite Search Engine' panel in the First Run tour.</note>
+   <trans-unit id="Use Sync to find the bookmarks, passwords, and other things you save to Firefox on all your devices.">
+    <source>Use Sync to find the bookmarks, passwords, and other things you save to Firefox on all your devices.</source>
+    <target>Używaj synchronizacji, by odnajdywać zakładki, hasła i inne rzeczy zachowywane w Firefoksie na wszystkich swoich urządzeniach</target>
+    <note>Description for the 'Sync' panel in the First Run tour.</note>
    </trans-unit>
-   <trans-unit id="Welcome to Firefox!">
-    <source>Welcome to Firefox!</source>
-    <target>Witamy w Firefoksie!</target>
+   <trans-unit id="Use any email app - not just Mail - with Firefox.">
+    <source>Use any email app - not just Mail - with Firefox.</source>
+    <target>Używaj dowolnej aplikacji e-mail a nie tylko domyślnego Maila</target>
+    <note>Description for the 'Mail' panel in the First Run tour.</note>
+   </trans-unit>
+   <trans-unit id="You've got mail… options">
+    <source>You've got mail… options</source>
+    <target>Ustawienia poczty</target>
     <note>Title for one of the panels in the First Run tour.</note>
    </trans-unit>
-   <trans-unit id="You've got mail... options">
-    <source>You've got mail... options</source>
-    <target>Ustawienia poczty</target>
+   <trans-unit id="Your search, your way">
+    <source>Your search, your way</source>
+    <target>Wyszukuj po swojemu</target>
     <note>Title for one of the panels in the First Run tour.</note>
    </trans-unit>
   </body>
