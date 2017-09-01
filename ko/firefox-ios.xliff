@@ -1097,6 +1097,7 @@
       </trans-unit>
       <trans-unit id="ExternalLink.AppStore.ConfirmationTitle">
         <source>Open this link in the App Store app?</source>
+        <target>App Store 앱에서 링크를 여시겠습니까?</target>
         <note>Question shown to user when tapping a link that opens the App Store app</note>
       </trans-unit>
       <trans-unit id="Facebook">
@@ -1136,66 +1137,82 @@
       </trans-unit>
       <trans-unit id="FxA.AccountVerificationRequiredSurface">
         <source>You need to verify %@. Check your email for the verification link from Firefox.</source>
+        <target>%@ 계정을 확인해야 합니다. Firefox에서 이메일의 확인 링크를 확인하세요.</target>
         <note>Message explaining that user needs to check email for Firefox Account verfication link.</note>
       </trans-unit>
       <trans-unit id="FxA.FirefoxAccount">
         <source>Firefox Account</source>
+        <target>Firefox 계정</target>
         <note>Settings section title for Firefox Account</note>
       </trans-unit>
       <trans-unit id="FxA.ManageAccount">
         <source>Manage Account</source>
+        <target>계정 관리</target>
         <note>Button label to goto Firefox Account settings</note>
       </trans-unit>
       <trans-unit id="FxA.NoInternetConnection">
         <source>No Internet Connection</source>
+        <target>인터넷 연결 안됨</target>
         <note>Label when no internet is present</note>
       </trans-unit>
       <trans-unit id="FxA.ResendEmail">
         <source>Resend Email</source>
+        <target>이메일 재전송</target>
         <note>Button label to resend email</note>
       </trans-unit>
       <trans-unit id="FxA.SignIntoSync">
         <source>Sign in to Sync</source>
+        <target>Sync에 로그인</target>
         <note>Button label to sign into Sync</note>
       </trans-unit>
       <trans-unit id="FxA.SyncExplain">
         <source>Get your tabs, bookmarks, and passwords from your other devices.</source>
+        <target>다른 기기에서 열려있는 탭과 즐겨찾기, 비밀번호를 가져오세요.</target>
         <note>Label explaining what sync does</note>
       </trans-unit>
       <trans-unit id="FxA.SyncNow">
         <source>Sync Now</source>
+        <target>지금 동기화</target>
         <note>Button label to Sync your Firefox Account</note>
       </trans-unit>
       <trans-unit id="FxA.TakeYourWebWithYou">
         <source>Take Your Web With You</source>
+        <target>웹과 함께 하세요.</target>
         <note>Call to action for sign into sync button</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceConnected_body">
         <source>Firefox Sync has connected to %@</source>
+        <target>Firefox Sync가 %@와 연결됨</target>
         <note>Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device.</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceConnected_title">
         <source>Sync Connected</source>
+        <target>Sync 연결됨</target>
         <note>Title of a notification displayed when another device has connected to FxA.</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceDisconnected_ThisDevice_body">
         <source>This device has been successfully disconnected from Firefox Sync.</source>
+        <target>기기는 Firefox Sync와 연결이 끊어졌습니다.</target>
         <note>Body of a notification displayed when this device has been disconnected from FxA by another device.</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceDisconnected_ThisDevice_title">
         <source>Sync Disconnected</source>
+        <target>동기화 연결끊김</target>
         <note>Title of a notification displayed when this device has been disconnected by another device.</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceDisconnected_UnknownDevice_body">
         <source>A device has disconnected from Firefox Sync</source>
+        <target>기기가 Firefox Sync와 연결이 끊김</target>
         <note>Body of a notification displayed when unnamed device has been disconnected from FxA.</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceDisconnected_body">
         <source>%@ has been successfully disconnected.</source>
+        <target>%@가 성공적으로 연결이 해제되었습니다.</target>
         <note>Body of a notification displayed when named device has been disconnected from FxA. %@ refers to the name of the disconnected device.</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceDisconnected_title">
         <source>Sync Disconnected</source>
+        <target>동기화 연결끊김</target>
         <note>Title of a notification displayed when named device has been disconnected from FxA.</note>
       </trans-unit>
       <trans-unit id="General">
@@ -1942,26 +1959,32 @@
       </trans-unit>
       <trans-unit id="Settings.DNT.OptionAlwaysOn">
         <source>Always</source>
+        <target>항상</target>
         <note>DNT Settings option for always on</note>
       </trans-unit>
       <trans-unit id="Settings.DNT.OptionOnWithTP">
         <source>Only when using Tracking Protection</source>
+        <target>추적 방지 기능을 사용할 때만</target>
         <note>DNT Settings option for only turning on when Tracking Protection is also on</note>
       </trans-unit>
       <trans-unit id="Settings.DNT.Title">
         <source>Send websites a Do Not Track signal that you don’t want to be tracked</source>
+        <target>웹사이트에 방문자 추적 금지 신호를 보내서 추적을 원하지 않는다고 알림</target>
         <note>DNT Settings title</note>
       </trans-unit>
       <trans-unit id="Settings.Disconnect.Button">
         <source>Disconnect</source>
+        <target>연결 끊기</target>
         <note>Button displayed at the bottom of settings page allowing users to Disconnect from FxA</note>
       </trans-unit>
       <trans-unit id="Settings.Disconnect.DestructiveButton">
         <source>Disconnect</source>
+        <target>연결 끊기</target>
         <note>Destructive action button in alert when user is prompted for disconnect</note>
       </trans-unit>
       <trans-unit id="Settings.Disconnect.Title">
         <source>Disconnect?</source>
+        <target>연결을 끊으시겠습니까?</target>
         <note>Title of the alert when prompting the user asking to disconnect.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.Clear.Button">
@@ -2061,10 +2084,12 @@
       </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.Status">
         <source>When Opening Firefox</source>
+        <target>파이어 폭스를 열 때</target>
         <note>Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349</note>
       </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.Title">
         <source>Offer to Open Copied Links</source>
+        <target>복사된 링크를 열도록 제시</target>
         <note>Title of setting to enable the Go to Copied URL feature. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349</note>
       </trans-unit>
       <trans-unit id="Settings.OpenWith.PageTitle">
@@ -2089,54 +2114,67 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.BlockListsHeader">
         <source>You can choose which list Firefox will use to block Web elements that may track your browsing activity.</source>
+        <target>Firefox가 어느 목록을 사용해서 사용자의 브라우징 활동을 추적하는 웹 요소를 차단할지 선택할 수 있습니다.</target>
         <note>Header description for tracking protection options section where Basic/Strict block list can be selected</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.BlockListsTitle">
         <source>Block Lists</source>
+        <target>차단 목록</target>
         <note>Title for tracking protection options section where Basic/Strict block list can be selected</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.SectionName">
         <source>Tracking Protection</source>
+        <target>추적 방지</target>
         <note>Row in top-level of settings that gets tapped to show the tracking protection settings detail view.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.BlockListBasic">
         <source>Basic (Recommended)</source>
+        <target>기본 (권장)</target>
         <note>Tracking protection settings option for using the basic blocklist.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.BlockListBasicDescription">
         <source>Allows some trackers so websites function properly.</source>
+        <target>웹사이트가 잘 작동하도록 몇몇 추적을 허용합니다.</target>
         <note>Tracking protection settings option description for using the basic blocklist.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.BlockListStrict">
         <source>Strict</source>
+        <target>엄격히</target>
         <note>Tracking protection settings option for using the strict blocklist.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.BlockListStrictDescription">
         <source>Blocks known trackers. Some websites may not function properly.</source>
+        <target>알려진 추적을 차단합니다. 어떤 웹사이트는 제대로 작동하지 않을 수 있습니다.</target>
         <note>Tracking protection settings option description for using the strict blocklist.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.BlockListTypeFooter">
         <source>You can choose which list Firefox will use to block Web elements that may track your browsing activity.</source>
+        <target>Firefox가 어느 목록을 사용해서 사용자의 브라우징 활동을 추적하는 웹 요소를 차단할지 선택할 수 있습니다.</target>
         <note>Description label shown at bottom of tracking protection options for which Block List to use</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.EnabledStateFooterLabel">
         <source>Tracking is the collection of your browsing data across multiple websites. Tracking can be used to build a profile and display content based on your browsing and personal information.</source>
+        <target>추적이란 여러 웹사이트에 거쳐 사용자의 브라우징 데이터를 수집하는 것을 말합니다. 추적은 사용자의 브라우징 데이터와 개인정보를 이용해 사용자를 프로파일링하고 이를 기반으로 콘텐츠를 표시하는데 사용됩니다.</target>
         <note>Description label shown on tracking protection options screen.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.EnabledStateHeaderLabel">
         <source>Use Tracking Protection to Block Known Trackers</source>
+        <target>추적 방지를 사용해서 알려진 추적 기관 차단</target>
         <note>Description label shown at the top of tracking protection options screen.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.OffLabel">
         <source>Never</source>
+        <target>허용 안함</target>
         <note>Settings option to specify that Tracking Protection is always off.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.OnInPrivateBrowsingLabel">
         <source>Private Browsing Mode Only</source>
+        <target>비공개 브라우징 모드에서만</target>
         <note>Settings option to specify that Tracking Protection is on only in Private Browsing mode.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.OnLabel">
         <source>Always On</source>
+        <target>항상 켬</target>
         <note>Settings option to specify that Tracking Protection is always on.</note>
       </trans-unit>
       <trans-unit id="Settings.TroubleShootSync.Title">
