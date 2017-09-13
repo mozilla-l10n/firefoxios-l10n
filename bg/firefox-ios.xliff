@@ -199,7 +199,7 @@
       </trans-unit>
       <trans-unit id="Turn Passcode On">
         <source>Turn Passcode On</source>
-        <target>Включване парола</target>
+        <target>Защитаване с парола</target>
         <note>Label used as a setting item to turn on passcode</note>
       </trans-unit>
       <trans-unit id="Turn off your passcode.">
@@ -219,7 +219,7 @@
       </trans-unit>
       <trans-unit id="Use your fingerprint to access Private Browsing now.">
         <source>Use your fingerprint to access Private Browsing now.</source>
-        <target>Използвайте вашият пръстов отпечатък за достъп до Лично сърфиране сега.</target>
+        <target>Използвайте вашият пръстов отпечатък за достъп до поверителното разглеждане сега.</target>
         <note>Touch ID prompt subtitle when accessing private browsing</note>
       </trans-unit>
       <trans-unit id="touchid.disable.reason.label">
@@ -327,7 +327,7 @@
       </trans-unit>
       <trans-unit id="Browsing History">
         <source>Browsing History</source>
-        <target>История на сърфирането</target>
+        <target>История на разглеждането</target>
         <note>Settings item for clearing browsing history</note>
       </trans-unit>
       <trans-unit id="Cache">
@@ -483,6 +483,7 @@
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
         <source>This lets you save photos.</source>
+        <target>От тук може да запазвате снимки.</target>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
         <source>This lets you save and upload photos.</source>
@@ -509,7 +510,7 @@
     <body>
       <trans-unit id="Browse multiple Web pages at the same time with tabs.">
         <source>Browse multiple Web pages at the same time with tabs.</source>
-        <target>Разглеждайте няколко уебстраници едновременно, чрез раздели.</target>
+        <target>Разглеждайте няколко страници едновременно в раздели.</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="Connect Firefox everywhere you use it.">
@@ -519,14 +520,17 @@
       </trans-unit>
       <trans-unit id="Intro.Slides.Mail.Description">
         <source>Use any email app - not just Mail - with Firefox.</source>
+        <target>С Firefox използвате всяко приложение за поща, не само Mail.</target>
         <note>Description for the 'Mail' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Mail.Title">
         <source>You've got mail… options</source>
+        <target>Настройки на поща</target>
         <note>Title for the fourth panel 'Mail' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Private.Description">
         <source>Tap the mask icon to slip into Private Browsing mode.</source>
+        <target>Докоснете пиктограмата с маска, за да включите режима на поверително разглеждане.</target>
         <note>Description for the 'Private Browsing' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Private.Title">
@@ -536,6 +540,7 @@
       </trans-unit>
       <trans-unit id="Intro.Slides.Search.Description">
         <source>Searching for something different? Choose another default search engine (or add your own) in Settings.</source>
+        <target>Търсите нещо друго? Изберете друга стандартна търсеща машина (или добавете своя) в настройки.</target>
         <note>Description for the 'Favorite Search Engine' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Search.Title">
@@ -1059,7 +1064,7 @@
       </trans-unit>
       <trans-unit id="ErrorPages.AdvancedWarning1.Text">
         <source>Warning: we can't confirm your connection to this website is secure.</source>
-        <target>Предупреждение: не можем да потвърдим, че връзката ви до този уебсайт е сигурна.</target>
+        <target>Предупреждение: не можем да потвърдим, че връзката ви до тази страница е защитена.</target>
         <note>Warning text when clicking the Advanced button on error pages</note>
       </trans-unit>
       <trans-unit id="ErrorPages.AdvancedWarning2.Text">
@@ -1069,7 +1074,7 @@
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Description">
         <source>The owner of %@ has configured their website improperly. To protect your information from being stolen, Firefox has not connected to this website.</source>
-        <target>Собстреника на %@ е конфигурирал уебсайта погрешно. За да предпази информацията ви от кражба, Firefox не направи връзка до този сайт.</target>
+        <target>Собственикът на %@ е настроил страницата неправилно. За да ви защити от кражба на информация, Firefox отказа да направи връзката с тази страница.</target>
         <note>Warning text on the certificate error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Title">
@@ -1098,7 +1103,7 @@
       </trans-unit>
       <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.">
         <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
-        <target>Firefox ще спре синхронизацията с вашия профил, но няма да изтрива данни за сърфирането от устройството.</target>
+        <target>Firefox ще спре синхронизацията с вашия профил, но няма да изтрива данни от разглеждане от устройството.</target>
         <note>Text of the 'sign out firefox account' alert</note>
       </trans-unit>
       <trans-unit id="Firefox would like to access your Photos">
@@ -1231,7 +1236,7 @@
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptyState.Title">
         <source>Websites you've visited recently will show up here.</source>
-        <target>Скоро посетените страници се показват тук.</target>
+        <target>Последно посетените страници се показват тук.</target>
         <note>Title for the History Panel empty state.</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsNullState.Description">
@@ -1286,7 +1291,7 @@
       </trans-unit>
       <trans-unit id="HomePage.Set.Dialog.Title">
         <source>Do you want to use this web page as your home page?</source>
-        <target>Искате ли да използвате тази уеб страница като входна страница?</target>
+        <target>Искате ли да използвате тази страница като начална?</target>
         <note>Alert dialog title when the user opens the home page for the first time.</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.Bookmark">
@@ -1985,7 +1990,7 @@
       </trans-unit>
       <trans-unit id="Settings.HomePage.UI.Toggle.Subtitle">
         <source>Otherwise show in the toolbar</source>
-        <target>Покажи в навигацията</target>
+        <target>Иначе е видима в лентата с инструменти</target>
         <note>Label displayed under the 'Show Homepage Icon In Menu' option. It describes the effect of this setting when disabled.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.UI.Toggle.Title">
@@ -1995,7 +2000,7 @@
       </trans-unit>
       <trans-unit id="Settings.HomePage.URL.Placeholder">
         <source>Enter a webpage</source>
-        <target>Въвеждане на уебстраница</target>
+        <target>Въвеждане на страница</target>
         <note>Placeholder text in the homepage setting when no homepage has been set.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.URL.Title">
@@ -2005,7 +2010,7 @@
       </trans-unit>
       <trans-unit id="Settings.HomePage.UseCopiedLink.Button">
         <source>Use Copied Link</source>
-        <target>Използвай копирана препратка</target>
+        <target>Използване на копирана препратка</target>
         <note>Button in settings to use the current link on the clipboard as home page.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.UseCurrent.Button">
@@ -2015,7 +2020,7 @@
       </trans-unit>
       <trans-unit id="Settings.HomePage.UseDefault.Button">
         <source>Use Default</source>
-        <target>Използвай стандарта</target>
+        <target>Стандартна</target>
         <note>Button in settings to use the default home page. If no default is set, then this button isn't shown.</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Description">
@@ -2025,17 +2030,17 @@
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.BlankPage">
         <source>Show a Blank Page</source>
-        <target>Покажи празна страница</target>
+        <target>Показване на празна страница</target>
         <note>Option in settings to show a blank page when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.Bookmarks">
         <source>Show your Bookmarks</source>
-        <target>Покажи отметки</target>
+        <target>Показване на отметките</target>
         <note>Option in settings to show bookmarks when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.History">
         <source>Show your History</source>
-        <target>Покажи история</target>
+        <target>Показване на историята</target>
         <note>Option in settings to show history when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HomePage">
@@ -2045,12 +2050,12 @@
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.ReadingList">
         <source>Show your Reading List</source>
-        <target>Покажи списък за четене</target>
+        <target>Показване на списъка за четене</target>
         <note>Option in settings to show reading list when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.TopSites">
         <source>Show your Top Sites</source>
-        <target>Покажи най-посещавани</target>
+        <target>Показване на най-посещаваните</target>
         <note>Option in settings to show top sites when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.SectionName">
@@ -2060,7 +2065,7 @@
       </trans-unit>
       <trans-unit id="Settings.NewTab.Title">
         <source>New Tab Settings</source>
-        <target>Настройки за нов раздел</target>
+        <target>Настройки на нов раздел</target>
         <note>Title displayed in header of the setting panel.</note>
       </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.Status">
@@ -2168,7 +2173,7 @@
       </trans-unit>
       <trans-unit id="Show Search Suggestions">
         <source>Show Search Suggestions</source>
-        <target>Покажи предложения за търсене</target>
+        <target>Предложения при търсене</target>
         <note>Label for show search suggestions setting.</note>
       </trans-unit>
       <trans-unit id="Show Tabs">
@@ -2622,7 +2627,7 @@
       </trans-unit>
       <trans-unit id="website">
         <source>website</source>
-        <target>уебсайт</target>
+        <target>страница от интернет</target>
         <note>Label displayed above the website row in Login Detail View.</note>
       </trans-unit>
     </body>
@@ -2761,7 +2766,7 @@
       </trans-unit>
       <trans-unit id="Private Browsing">
         <source>Private Browsing</source>
-        <target>Лично сърфиране</target>
+        <target>Поверително разглеждане</target>
         <note>Title displayed for when there are no open tabs while in private mode</note>
       </trans-unit>
       <trans-unit id="Private Mode">
@@ -2776,7 +2781,7 @@
       </trans-unit>
       <trans-unit id="When Leaving Private Browsing">
         <source>When Leaving Private Browsing</source>
-        <target>Когато напускате лично сърфиране</target>
+        <target>Когато напускате поверително разглеждане</target>
         <note>Will be displayed in Settings under 'Close Private Tabs'</note>
       </trans-unit>
     </body>
