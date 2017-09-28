@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="ro">
     <header>
@@ -37,7 +37,7 @@
     <body>
       <trans-unit id="Add to Bookmarks">
         <source>Add to Bookmarks</source>
-        <target>Adaugă la semnele de carte</target>
+        <target>Adaugă la marcaje</target>
         <note>Label for preview action on Tab Tray Tab to add current tab to Bookmarks</note>
       </trans-unit>
       <trans-unit id="Add to Reading List">
@@ -57,7 +57,7 @@
       </trans-unit>
       <trans-unit id="Open Last Bookmark">
         <source>Open Last Bookmark</source>
-        <target>Deschide ultimul semn de carte</target>
+        <target>Deschide ultimul marcaj</target>
         <note>String describing the action of opening the last added bookmark from the home screen Quick Actions via 3D Touch</note>
       </trans-unit>
       <trans-unit id="Open Last Tab">
@@ -246,7 +246,7 @@
       </trans-unit>
       <trans-unit id="Desktop Bookmarks">
         <source>Desktop Bookmarks</source>
-        <target>Semne de carte de pe desktop</target>
+        <target>Marcaje de pe desktop</target>
         <note>The folder name for the virtual folder that contains all desktop bookmarks.</note>
       </trans-unit>
     </body>
@@ -447,6 +447,7 @@
     <body>
       <trans-unit id="Delete">
         <source>Delete</source>
+        <target>Șterge</target>
         <note>Action button for deleting history entries in the history panel.</note>
       </trans-unit>
     </body>
@@ -497,6 +498,7 @@
       </trans-unit>
       <trans-unit id="ShortcutItemTitleQRCode">
         <source>Scan QR Code</source>
+        <target>Scanează codul QR</target>
       </trans-unit>
     </body>
   </file>
@@ -541,6 +543,7 @@
       </trans-unit>
       <trans-unit id="Intro.Slides.Sync.Description">
         <source>Use Sync to find the bookmarks, passwords, and other things you save to Firefox on all your devices.</source>
+        <target>Folosește Sincronizare pentru a găsi pe toate dispozitivele tale marcajele, parolele şi celelalte lucruri pe care le salvezi în Firefox.</target>
         <note>Description for the 'Sync' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Sync.Title">
@@ -704,10 +707,12 @@
       </trans-unit>
       <trans-unit id="ActivityStream.Highlights.Bookmark">
         <source>Bookmarked</source>
+        <target>Marcat</target>
         <note>The description of a highlight if it is a site the user has bookmarked</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Highlights.SectionTitle">
         <source>Visit Again</source>
+        <target>Vizitează din nou</target>
         <note>Section title label for Visit again section</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Highlights.Visited">
@@ -787,12 +792,12 @@
       </trans-unit>
       <trans-unit id="Bookmarks">
         <source>Bookmarks</source>
-        <target>Semne de carte</target>
+        <target>Marcaje</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Bookmarks you save will show up here.">
         <source>Bookmarks you save will show up here.</source>
-        <target>Semnele de carte pe care le salvezi vor apărea aici.</target>
+        <target>Marcajele pe care le salvezi vor apărea aici.</target>
         <note>Status label for the empty Bookmarks state.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Folder.Label">
@@ -1079,6 +1084,7 @@
       </trans-unit>
       <trans-unit id="ExternalLink.AppStore.ConfirmationTitle">
         <source>Open this link in the App Store app?</source>
+        <target>Deschizi acest link în aplicaţia App Store?</target>
         <note>Question shown to user when tapping a link that opens the App Store app</note>
       </trans-unit>
       <trans-unit id="Facebook">
@@ -1120,6 +1126,7 @@
       </trans-unit>
       <trans-unit id="FxA.FirefoxAccount">
         <source>Firefox Account</source>
+        <target>Cont Firefox</target>
         <note>Settings section title for Firefox Account</note>
       </trans-unit>
       <trans-unit id="FxA.ManageAccount">
@@ -1140,14 +1147,17 @@
       </trans-unit>
       <trans-unit id="FxA.SyncExplain">
         <source>Get your tabs, bookmarks, and passwords from your other devices.</source>
+        <target>Obține filele, marcajele și parolele de pe celelalte dispozitive.</target>
         <note>Label explaining what sync does</note>
       </trans-unit>
       <trans-unit id="FxA.SyncNow">
         <source>Sync Now</source>
+        <target>Sincronizează acum</target>
         <note>Button label to Sync your Firefox Account</note>
       </trans-unit>
       <trans-unit id="FxA.TakeYourWebWithYou">
         <source>Take Your Web With You</source>
+        <target>Ia webul cu tine</target>
         <note>Call to action for sign into sync button</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceConnected_body">
@@ -1185,7 +1195,7 @@
       </trans-unit>
       <trans-unit id="Get your open tabs, bookmarks, and passwords from your other devices.">
         <source>Get your open tabs, bookmarks, and passwords from your other devices.</source>
-        <target>Obține filele deschise, semnele de carte și parolele de pe celelalte dispozitive.</target>
+        <target>Obține filele deschise, marcajele și parolele de pe celelalte dispozitive.</target>
         <note>A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing.</note>
       </trans-unit>
       <trans-unit id="Go">
@@ -1270,30 +1280,37 @@
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.Bookmark">
         <source>Bookmark</source>
+        <target>Marchează</target>
         <note>The title for the Bookmark context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.DeleteFromHistory">
         <source>Delete from History</source>
+        <target>Șterge din istoric</target>
         <note>The title for the Delete from History context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewPrivateTab">
         <source>Open in New Private Tab</source>
+        <target>Deschide într-o filă privată nouă</target>
         <note>The title for the Open in New Private Tab context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewTab">
         <source>Open in New Tab</source>
+        <target>Deschide într-o filă nouă</target>
         <note>The title for the Open in New Tab context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.Remove">
         <source>Remove</source>
+        <target>Elimină</target>
         <note>The title for the Remove context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.RemoveBookmark">
         <source>Remove Bookmark</source>
+        <target>Elimină marcajul</target>
         <note>The title for the Remove Bookmark context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.Share">
         <source>Share</source>
+        <target>Împărtășește</target>
         <note>The title for the Share context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="Hotkeys.Back.DiscoveryTitle">
@@ -1338,12 +1355,12 @@
       </trans-unit>
       <trans-unit id="Hotkeys.ShowNextTab.DiscoveryTitle">
         <source>Show Next Tab</source>
-        <target>Arată fila următoare</target>
+        <target>Afișează fila următoare</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.ShowPreviousTab.DiscoveryTitle">
         <source>Show Previous Tab</source>
-        <target>Arată fila anterioară</target>
+        <target>Afișează fila anterioară</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Increase text size">
@@ -1476,7 +1493,7 @@
       </trans-unit>
       <trans-unit id="Menu.NoImageModeTurnOffAction.Label">
         <source>Show Images</source>
-        <target>Arată imaginile</target>
+        <target>Afișează imaginile</target>
         <note>Label for the button, displayed in the menu, used to turn no image mode off.</note>
       </trans-unit>
       <trans-unit id="Menu.NoImageModeTurnOnAction.Label">
@@ -1806,7 +1823,7 @@
       </trans-unit>
       <trans-unit id="SentTab.BookmarkPage">
         <source>Bookmark</source>
-        <target>Însemnează</target>
+        <target>Marchează</target>
         <note>Button title displayed in a notification when a sent tab has been received. Tapping on the button will add the URL as a bookmark.</note>
       </trans-unit>
       <trans-unit id="SentTab.NoTabArrivingNotification.body">
@@ -1828,6 +1845,7 @@
       </trans-unit>
       <trans-unit id="SentTab_TabArrivingNotification_NoDevice_title">
         <source>Tab received</source>
+        <target>Filă primită</target>
         <note>Title of notification shown when the device is sent one or more tabs from an unnamed device.</note>
       </trans-unit>
       <trans-unit id="SentTab_TabArrivingNotification_WithDevice_body">
@@ -1945,12 +1963,12 @@
       </trans-unit>
       <trans-unit id="Settings.HomePage.UI.Toggle.Subtitle">
         <source>Otherwise show in the toolbar</source>
-        <target>În caz contrar arată în bara de unelte</target>
+        <target>În caz contrar afișează în bara de unelte</target>
         <note>Label displayed under the 'Show Homepage Icon In Menu' option. It describes the effect of this setting when disabled.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.UI.Toggle.Title">
         <source>Show Homepage Icon In Menu</source>
-        <target>Arată iconița paginii de start în meniu</target>
+        <target>Afișează iconița paginii de start în meniu</target>
         <note>Label used as an item in Settings. User can toggle this setting to show the home page button in menu, or on toolbar.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.URL.Placeholder">
@@ -1985,32 +2003,32 @@
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.BlankPage">
         <source>Show a Blank Page</source>
-        <target>Arată o pagină goală</target>
+        <target>Afișează o pagină goală</target>
         <note>Option in settings to show a blank page when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.Bookmarks">
         <source>Show your Bookmarks</source>
-        <target>Arată semnele de carte</target>
+        <target>Afișează marcajele</target>
         <note>Option in settings to show bookmarks when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.History">
         <source>Show your History</source>
-        <target>Arată istoricul</target>
+        <target>Afișează istoricul</target>
         <note>Option in settings to show history when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HomePage">
         <source>Show your Homepage</source>
-        <target>Arată pagina de start</target>
+        <target>Afișează pagina de start</target>
         <note>Option in settings to show your homepage when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.ReadingList">
         <source>Show your Reading List</source>
-        <target>Arată lista de citit</target>
+        <target>Afișează lista de citit</target>
         <note>Option in settings to show reading list when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.TopSites">
         <source>Show your Top Sites</source>
-        <target>Arată site-urile de top</target>
+        <target>Afișează site-urile de top</target>
         <note>Option in settings to show top sites when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.SectionName">
@@ -2061,6 +2079,7 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.SectionName">
         <source>Tracking Protection</source>
+        <target>Protecție față de urmărire</target>
         <note>Row in top-level of settings that gets tapped to show the tracking protection settings detail view.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.BlockListBasic">
@@ -2125,23 +2144,23 @@
       </trans-unit>
       <trans-unit id="Show Search Suggestions">
         <source>Show Search Suggestions</source>
-        <target>Arată sugestii de căutare</target>
+        <target>Afișează sugestii de căutare</target>
         <note>Label for show search suggestions setting.</note>
       </trans-unit>
       <trans-unit id="Show Tabs">
         <source>Show Tabs</source>
-        <target>Arată filele</target>
+        <target>Afișează filele</target>
         <note>Accessibility label for the tabs button in the (top) tab toolbar
    Accessibility Label for the tabs button in the tab toolbar</note>
       </trans-unit>
       <trans-unit id="Show Tour">
         <source>Show Tour</source>
-        <target>Arată turul</target>
+        <target>Afișează turul</target>
         <note>Show the on-boarding screen again from the settings</note>
       </trans-unit>
       <trans-unit id="Show search suggestions">
         <source>Show search suggestions</source>
-        <target>Arată sugestii de căutare</target>
+        <target>Afișează sugestii de căutare</target>
         <note>Label for show search suggestions setting.</note>
       </trans-unit>
       <trans-unit id="Sign In to Firefox">
@@ -2157,7 +2176,7 @@
       </trans-unit>
       <trans-unit id="Sign in to get your tabs, bookmarks, and passwords from your other devices.">
         <source>Sign in to get your tabs, bookmarks, and passwords from your other devices.</source>
-        <target>Autentifică-te pentru a obține filele, semnele de carte și parolele de pe celelalte dispozitive.</target>
+        <target>Autentifică-te pentru a obține filele, marcajele și parolele de pe celelalte dispozitive.</target>
         <note>Clarify value prop under Sign In to Firefox in Settings.</note>
       </trans-unit>
       <trans-unit id="Stop">
@@ -2182,7 +2201,7 @@
       </trans-unit>
       <trans-unit id="Sync your tabs, bookmarks, passwords and more.">
         <source>Sync your tabs, bookmarks, passwords and more.</source>
-        <target>Sincronizează filele, semnele de carte, parolele și multe altele.</target>
+        <target>Sincronizează filele, marcajele, parolele și multe altele.</target>
         <note>Text displayed when the Sync home panel is empty, describing the features provided by Sync to invite the user to log in.</note>
       </trans-unit>
       <trans-unit id="Sync your tabs, passwords and more.">
@@ -2207,7 +2226,7 @@
       </trans-unit>
       <trans-unit id="SyncState.Bookmark.Title">
         <source>Bookmarks</source>
-        <target>semnelor de carte</target>
+        <target>marcajelor</target>
         <note>The Bookmark sync component, used in SyncState.Partial.Title</note>
       </trans-unit>
       <trans-unit id="SyncState.Clients.Title">
@@ -2590,7 +2609,7 @@
     <body>
       <trans-unit id="Menu.AddBookmarkAction.Title">
         <source>Add Bookmark</source>
-        <target>Adaugă semn de carte</target>
+        <target>Adaugă marcaj</target>
         <note>Label for the button, displayed in the menu, used to create a bookmark for the current website.</note>
       </trans-unit>
       <trans-unit id="Menu.CloseAllTabsAction.Title">
@@ -2620,7 +2639,7 @@
       </trans-unit>
       <trans-unit id="Menu.OpenBookmarksAction.AccessibilityLabel">
         <source>Bookmarks</source>
-        <target>Semne de carte</target>
+        <target>Marcaje</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the Bbookmarks home panel.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenHistoryAction.AccessibilityLabel">
@@ -2650,7 +2669,7 @@
       </trans-unit>
       <trans-unit id="Menu.RemoveBookmarkAction.Title">
         <source>Remove Bookmark</source>
-        <target>Elimină semnul de carte</target>
+        <target>Elimină marcajul</target>
         <note>Label for the button, displayed in the menu, used to delete an existing bookmark for the current website.</note>
       </trans-unit>
       <trans-unit id="Menu.ScanQRCodeAction.Title">
@@ -2691,7 +2710,7 @@
       </trans-unit>
       <trans-unit id="Firefox won't remember any of your history or cookies, but new bookmarks will be saved.">
         <source>Firefox won't remember any of your history or cookies, but new bookmarks will be saved.</source>
-        <target>Firefox nu va reține istoricul sau cookie-urile, însă noile semne de carte vor fi salvate.</target>
+        <target>Firefox nu va reține istoricul sau cookie-urile, însă noile marcaje vor fi salvate.</target>
         <note>Description text displayed when there are no open tabs while in private mode</note>
       </trans-unit>
       <trans-unit id="Learn More">
@@ -2916,7 +2935,7 @@
       </trans-unit>
       <trans-unit id="Add to Bookmarks">
         <source>Add to Bookmarks</source>
-        <target>Adaugă la semne de carte</target>
+        <target>Adaugă la marcaje</target>
         <note>On/off toggle to select adding this url to your bookmarks</note>
       </trans-unit>
       <trans-unit id="Add to Reading List">
@@ -3065,22 +3084,22 @@
     <body>
       <trans-unit id="Bookmarks Menu">
         <source>Bookmarks Menu</source>
-        <target>Meniul „Semne de carte”</target>
+        <target>Meniul „Marcaje”</target>
         <note>The name of the folder that contains desktop bookmarks in the menu. This should match bookmarks.folder.menu.label on Android.</note>
       </trans-unit>
       <trans-unit id="Bookmarks Toolbar">
         <source>Bookmarks Toolbar</source>
-        <target>Bara pentru semne de carte</target>
+        <target>Bara pentru marcaje</target>
         <note>The name of the folder that contains desktop bookmarks in the toolbar. This should match bookmarks.folder.toolbar.label on Android.</note>
       </trans-unit>
       <trans-unit id="Mobile Bookmarks">
         <source>Mobile Bookmarks</source>
-        <target>Semne de carte mobile</target>
+        <target>Marcaje mobile</target>
         <note>The title of the folder that contains mobile bookmarks. This should match bookmarks.folder.mobile.label on Android.</note>
       </trans-unit>
       <trans-unit id="Unsorted Bookmarks">
         <source>Unsorted Bookmarks</source>
-        <target>Semne de carte nesortate</target>
+        <target>Marcaje nesortate</target>
         <note>The name of the folder that contains unsorted desktop bookmarks. This should match bookmarks.folder.unfiled.label on Android.</note>
       </trans-unit>
       <trans-unit id="Untitled">
