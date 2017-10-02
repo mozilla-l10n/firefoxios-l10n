@@ -1038,7 +1038,7 @@
     <target>Gotowe</target>
     <note>Done button on left side of the Settings view controller title bar</note>
    </trans-unit>
-   <trans-unit id="Double tap and hold to open history">
+   <trans-unit id="Double tap and hold to open history"><!-- TODO - Remove after next release -->
     <source>Double tap and hold to open history</source>
     <target>Stuknij dwukrotnie i przytrzymaj, aby otworzyć historię</target>
     <note>Accessibility hint, associated to the Back button in the tab toolbar, used by assistive technology to describe the result of a double tap.</note>
@@ -1646,6 +1646,11 @@
     <note>Paste the URL into the location bar and visit</note>
     <target>Wklej i przejdź</target>
    </trans-unit>
+   <trans-unit id="PhotonMenu.cancel">
+    <source>Cancel</source>
+    <target>Anuluj</target>
+    <note>Button for closing the menu action sheet</note>
+   </trans-unit>
    <trans-unit id="Please allow Firefox to access your device's camera in 'Settings' -&gt; 'Privacy' -&gt; 'Camera'.">
     <source>Please allow Firefox to access your device's camera in 'Settings' -&gt; 'Privacy' -&gt; 'Camera'.</source>
     <target>Zezwól Firefoksowi na dostęp do aparatu urządzenia w „Ustawienia” → „Prywatność” → „Aparat”.</target>
@@ -1921,9 +1926,8 @@
    </trans-unit>
    <trans-unit id="Settings">
     <source>Settings</source>
-    <note>Accessibility label for the Settings button in the Tab Tray.
-          Settings</note>
     <target>Ustawienia</target>
+    <note>Settings</note>
    </trans-unit>
    <trans-unit id="Settings.AddCustomEngine">
     <source>Add Search Engine</source>
@@ -2448,7 +2452,7 @@
     <target>Menu</target>
     <note>Accessibility label for the Menu button.</note>
    </trans-unit>
-   <trans-unit id="Toolbar.OpenHomePage.AccessibilityLabel">
+   <trans-unit id="Toolbar.OpenHomePage.AccessibilityLabel"><!-- TODO - Remove after next release -->
     <source>Homepage</source>
     <target>Strona domowa</target>
     <note>Accessibility Label for the tab toolbar Homepage button</note>
