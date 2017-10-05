@@ -1,38 +1,45 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="ia">
+  <file original="Account/Localizable.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
+      <trans-unit id="Missing error">
+        <source>Missing error</source>
+        <note>Error for a missing remote error number</note>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+      <trans-unit id="Missing message">
+        <source>Missing message</source>
+        <note>Error for a missing remote error message</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="BookmarkPanel.strings" source-language="en" datatype="plaintext" target-language="ia">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
+    </header>
+    <body>
+      <trans-unit id="Desktop Bookmarks">
+        <source>Desktop Bookmarks</source>
+        <note>The folder name for the virtual folder that contains all desktop bookmarks.</note>
       </trans-unit>
     </body>
   </file>
   <file original="Client/3DTouchActions.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="Add to Bookmarks">
@@ -79,7 +86,7 @@
   </file>
   <file original="Client/AuthenticationManager.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="After 1 hour">
@@ -162,8 +169,8 @@
         <target>Codice contrasigno</target>
         <note>Label for the Passcode item in Settings</note>
       </trans-unit>
-      <trans-unit id="Passcodes didn't match. Try again.">
-        <source>Passcodes didn't match. Try again.</source>
+      <trans-unit id="Passcodes didn’t match. Try again.">
+        <source>Passcodes didn’t match. Try again.</source>
         <note>Error message displayed to user when their confirming passcode doesn't match the first code.</note>
       </trans-unit>
       <trans-unit id="Re-enter passcode">
@@ -219,7 +226,7 @@
   </file>
   <file original="Client/BookmarkPanel.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="Delete">
@@ -227,16 +234,11 @@
         <target>Deler</target>
         <note>Action button for deleting bookmarks in the bookmarks panel.</note>
       </trans-unit>
-      <trans-unit id="Desktop Bookmarks">
-        <source>Desktop Bookmarks</source>
-        <target>Marcapaginas del scriptorio</target>
-        <note>The folder name for the virtual folder that contains all desktop bookmarks.</note>
-      </trans-unit>
     </body>
   </file>
   <file original="Client/BookmarkPanelDeleteConfirm.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="Are you sure you want to delete it and its contents?">
@@ -253,15 +255,15 @@
         <target>Deler</target>
         <note>Button label for the button that deletes a folder and all of its children.</note>
       </trans-unit>
-      <trans-unit id="This folder isn't empty.">
-        <source>This folder isn't empty.</source>
+      <trans-unit id="This folder isn’t empty.">
+        <source>This folder isn’t empty.</source>
         <note>Title of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
       </trans-unit>
     </body>
   </file>
   <file original="Client/ClearHistoryConfirm.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="Cancel">
@@ -295,7 +297,7 @@
   </file>
   <file original="Client/ClearPrivateData.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs.">
@@ -350,7 +352,7 @@
   </file>
   <file original="Client/ClearPrivateDataConfirm.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="Cancel">
@@ -371,7 +373,7 @@
   </file>
   <file original="Client/ErrorPages.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="Open in Safari">
@@ -387,7 +389,7 @@
   </file>
   <file original="Client/FindInPage.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="Done">
@@ -398,8 +400,7 @@
       <trans-unit id="Find in Page">
         <source>Find in Page</source>
         <target>Trovar in le pagina</target>
-        <note>Share action title
-   Text selection menu item</note>
+        <note>Text selection menu item</note>
       </trans-unit>
       <trans-unit id="Next in-page result">
         <source>Next in-page result</source>
@@ -413,7 +414,7 @@
   </file>
   <file original="Client/HistoryPanel.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="Delete">
@@ -425,7 +426,7 @@
   </file>
   <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -435,10 +436,6 @@
       <trans-unit id="CFBundleName">
         <source>$(MOZ_PRODUCT_NAME)</source>
         <target>$(MOZ_PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you take and upload photos.</source>
@@ -470,7 +467,7 @@
   </file>
   <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="Browse multiple Web pages at the same time with tabs.">
@@ -482,11 +479,11 @@
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Mail.Description">
-        <source>Use any email app - not just Mail - with Firefox.</source>
+        <source>Use any email app — not just Mail — with Firefox.</source>
         <note>Description for the 'Mail' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Mail.Title">
-        <source>You've got mail… options</source>
+        <source>You’ve got mail… options</source>
         <note>Title for the fourth panel 'Mail' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Private.Description">
@@ -542,7 +539,7 @@
   </file>
   <file original="Client/LightweightThemes.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="Allow Firefox to use my Photos">
@@ -607,7 +604,7 @@
   </file>
   <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="+">
@@ -637,47 +634,6 @@
         <source>About</source>
         <note>About settings section title</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.ContextMenu.PinTopsite">
-        <source>Pin to Top Sites</source>
-        <note>The title for the pinning a topsite action</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.ContextMenu.RemovePinTopsite">
-        <source>Remove Pinned Site</source>
-        <note>The title for removing a pinned topsite action</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.HighlightIntro.Description">
-        <source>Firefox will place things here that you've discovered on the web so you can find your way back to the great articles, videos, bookmarks and other pages</source>
-        <note>The detailed text that explains what highlights are in AS.</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.HighlightIntro.Title">
-        <source>Be on the Lookout</source>
-        <note>The title that appears for the introduction to highlights in AS.</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.Highlights.Bookmark">
-        <source>Bookmarked</source>
-        <target>Marcapaginas addite</target>
-        <note>The description of a highlight if it is a site the user has bookmarked</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.Highlights.SectionTitle">
-        <source>Visit Again</source>
-        <target>Visita de novo</target>
-        <note>Section title label for Visit again section</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.Highlights.Visited">
-        <source>Visited</source>
-        <target>Visitate</target>
-        <note>The description of a highlight if it is a site the user has visited</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.PageControl.Button">
-        <source>Next Page</source>
-        <target>Pagina sequente</target>
-        <note>The page control button that lets you switch between pages in top sites</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.TopSites.SectionTitle">
-        <source>Top Sites</source>
-        <target>Sitos popular</target>
-        <note>Section title label for Top Sites</note>
-      </trans-unit>
       <trans-unit id="Add Tab">
         <source>Add Tab</source>
         <note>Accessibility label for the Add Tab button in the Tab Tray.</note>
@@ -686,19 +642,6 @@
         <source>Add to Reading List</source>
         <note>Accessibility label for action adding current page to reading list.
    Name for button adding current article to reading list in reader mode</note>
-      </trans-unit>
-      <trans-unit id="AddPass.Error.Dismiss">
-        <source>OK</source>
-        <target>OK</target>
-        <note>Button to dismiss the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet.</note>
-      </trans-unit>
-      <trans-unit id="AddPass.Error.Message">
-        <source>An error occured while adding the pass to Wallet. Please try again later.</source>
-        <note>Text of the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet.</note>
-      </trans-unit>
-      <trans-unit id="AddPass.Error.Title">
-        <source>Failed to Add Pass</source>
-        <note>Title of the 'Add Pass Failed' alert. See https://support.apple.com/HT204003 for context on Wallet.</note>
       </trans-unit>
       <trans-unit id="Added page to Reading List">
         <source>Added page to Reading List</source>
@@ -711,11 +654,6 @@
       <trans-unit id="Always Send">
         <source>Always Send</source>
         <note>Used as a button label for crash dialog prompt</note>
-      </trans-unit>
-      <trans-unit id="Amazon">
-        <source>Amazon</source>
-        <target>Amazon</target>
-        <note>Tile title for Amazon</note>
       </trans-unit>
       <trans-unit id="Authentication required">
         <source>Authentication required</source>
@@ -739,45 +677,10 @@
         <source>Bookmarks you save will show up here.</source>
         <note>Status label for the empty Bookmarks state.</note>
       </trans-unit>
-      <trans-unit id="Bookmarks.Folder.Label">
-        <source>Folder</source>
-        <target>Plica</target>
-        <note>The label to show the location of the folder where the bookmark is located</note>
-      </trans-unit>
-      <trans-unit id="Bookmarks.FolderLocation.Label">
-        <source>Location</source>
-        <target>Position</target>
-        <note>The label for the location of the new folder</note>
-      </trans-unit>
-      <trans-unit id="Bookmarks.FolderName.Label">
-        <source>Folder Name</source>
-        <target>Nomine del plica</target>
-        <note>The label for the title of the new folder</note>
-      </trans-unit>
-      <trans-unit id="Bookmarks.NewFolder.Label">
-        <source>New Folder</source>
-        <target>Nove plica</target>
-        <note>The button to create a new folder</note>
-      </trans-unit>
-      <trans-unit id="Bookmarks.Title.Label">
-        <source>Title</source>
-        <target>Titulo</target>
-        <note>The label for the title of a bookmark</note>
-      </trans-unit>
-      <trans-unit id="Bookmarks.URL.Label">
-        <source>URL</source>
-        <target>URL</target>
-        <note>The label for the URL of a bookmark</note>
-      </trans-unit>
       <trans-unit id="Brightness">
         <source>Brightness</source>
         <target>Brillantia</target>
         <note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note>
-      </trans-unit>
-      <trans-unit id="Call">
-        <source>Call</source>
-        <target>Appellar</target>
-        <note>Alert Call Button</note>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
@@ -796,15 +699,6 @@
         <source>Clear Private Data</source>
         <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
       </trans-unit>
-      <trans-unit id="ClipboardToast.GoToCopiedLink.Button">
-        <source>Go</source>
-        <target>Vade</target>
-        <note>The button to open a new tab with the copied link</note>
-      </trans-unit>
-      <trans-unit id="ClipboardToast.GoToCopiedLink.Title">
-        <source>Go to copied link?</source>
-        <note>Message displayed when the user has a copied link on the clipboard</note>
-      </trans-unit>
       <trans-unit id="Close">
         <source>Close</source>
         <target>Clauder</target>
@@ -813,23 +707,6 @@
       <trans-unit id="Closing tab">
         <source>Closing tab</source>
         <note>Accessibility label (used by assistive technology) notifying the user that the tab is being closed.</note>
-      </trans-unit>
-      <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.ButtonText">
-        <source>Switch</source>
-        <target>Commutar</target>
-        <note>The button text in the Button Toast for switching to a fresh New Private Tab.</note>
-      </trans-unit>
-      <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.LabelText">
-        <source>New Private Tab opened</source>
-        <note>The label text in the Button Toast for switching to a fresh New Private Tab.</note>
-      </trans-unit>
-      <trans-unit id="ContextMenu.ButtonToast.NewTabOpened.ButtonText">
-        <source>Switch</source>
-        <note>The button text in the Button Toast for switching to a fresh New Tab.</note>
-      </trans-unit>
-      <trans-unit id="ContextMenu.ButtonToast.NewTabOpened.LabelText">
-        <source>New Tab opened</source>
-        <note>The label text in the Button Toast for switching to a fresh New Tab.</note>
       </trans-unit>
       <trans-unit id="Copy Address">
         <source>Copy Address</source>
@@ -844,8 +721,8 @@
         <target>Copiar le ligamine</target>
         <note>Context menu item for copying a link URL to the clipboard</note>
       </trans-unit>
-      <trans-unit id="Could not add page to Reading List. Maybe it's already there?">
-        <source>Could not add page to Reading List. Maybe it's already there?</source>
+      <trans-unit id="Could not add page to Reading List. Maybe it’s already there?">
+        <source>Could not add page to Reading List. Maybe it’s already there?</source>
         <note>Accessibility message e.g. spoken by VoiceOver after the user wanted to add current page to the Reading List and this was not done, likely because it already was in the Reading List, but perhaps also because of real failures.</note>
       </trans-unit>
       <trans-unit id="Could not add page to Reading list">
@@ -916,83 +793,18 @@
         <source>Do you want to update the password on %@?</source>
         <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
       </trans-unit>
-      <trans-unit id="Don't Send">
-        <source>Don't Send</source>
-        <note>Used as a button label for crash dialog prompt</note>
-      </trans-unit>
       <trans-unit id="Done">
         <source>Done</source>
         <target>Facite</target>
         <note>Done button on left side of the Settings view controller title bar</note>
       </trans-unit>
-      <trans-unit id="Double tap and hold to open history">
-        <source>Double tap and hold to open history</source>
-        <note>Accessibility hint, associated to the Back button in the tab toolbar, used by assistive technology to describe the result of a double tap.</note>
-      </trans-unit>
-      <trans-unit id="Downloads.Alert.Cancel">
-        <source>No</source>
-        <target>No</target>
-        <note>The label of the button the user will press to reject the option to open a file in another application</note>
-      </trans-unit>
-      <trans-unit id="Downloads.Alert.Confirm">
-        <source>Yes</source>
-        <target>Si</target>
-        <note>The label of the button the user will press to be presented with a list of other apps to open a file in</note>
-      </trans-unit>
-      <trans-unit id="Downloads.Alert.Message">
-        <source>Firefox is unable to download or display this file. Would you like to open it in another app?</source>
-        <note>The message of the alert box asking the user if they want to use another app to open a file.</note>
-      </trans-unit>
-      <trans-unit id="Downloads.Alert.Title">
-        <source>Firefox Downloads</source>
-        <note>The title of the alert box asking the user if they want to use another app to open a file.</note>
-      </trans-unit>
-      <trans-unit id="Downloads.Error.Message">
-        <source>Downloads aren't supported in Firefox yet.</source>
-        <note>The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle.</note>
+      <trans-unit id="Don’t Send">
+        <source>Don’t Send</source>
+        <note>Used as a button label for crash dialog prompt</note>
       </trans-unit>
       <trans-unit id="Enter your password to connect.">
         <source>Enter your password to connect.</source>
         <note>Text message in the settings table view</note>
-      </trans-unit>
-      <trans-unit id="ErrorPages.Advanced.Button">
-        <source>Advanced</source>
-        <target>Avantiate</target>
-        <note>Label for button to perform advanced actions on the error page</note>
-      </trans-unit>
-      <trans-unit id="ErrorPages.AdvancedWarning1.Text">
-        <source>Warning: we can't confirm your connection to this website is secure.</source>
-        <note>Warning text when clicking the Advanced button on error pages</note>
-      </trans-unit>
-      <trans-unit id="ErrorPages.AdvancedWarning2.Text">
-        <source>It may be a misconfiguration or tampering by an attacker. Proceed if you accept the potential risk.</source>
-        <note>Additional warning text when clicking the Advanced button on error pages</note>
-      </trans-unit>
-      <trans-unit id="ErrorPages.CertWarning.Description">
-        <source>The owner of %@ has configured their website improperly. To protect your information from being stolen, Firefox has not connected to this website.</source>
-        <note>Warning text on the certificate error page</note>
-      </trans-unit>
-      <trans-unit id="ErrorPages.CertWarning.Title">
-        <source>This Connection is Untrusted</source>
-        <note>Title on the certificate error page</note>
-      </trans-unit>
-      <trans-unit id="ErrorPages.GoBack.Button">
-        <source>Go Back</source>
-        <target>Vade retro</target>
-        <note>Label for button to go back from the error page</note>
-      </trans-unit>
-      <trans-unit id="ErrorPages.VisitOnce.Button">
-        <source>Visit site anyway</source>
-        <note>Button label to temporarily continue to the site from the certificate error page</note>
-      </trans-unit>
-      <trans-unit id="ExternalLink.AppStore.ConfirmationTitle">
-        <source>Open this link in the App Store app?</source>
-        <note>Question shown to user when tapping a link that opens the App Store app</note>
-      </trans-unit>
-      <trans-unit id="Facebook">
-        <source>Facebook</source>
-        <target>Facebook</target>
-        <note>Tile title for Facebook</note>
       </trans-unit>
       <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.">
         <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
@@ -1002,90 +814,10 @@
         <source>Firefox would like to access your Photos</source>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
-      <trans-unit id="Firefox.HomePage.Title">
-        <source>Firefox Home Page</source>
-        <note>Title for firefox about:home page in tab history list</note>
-      </trans-unit>
       <trans-unit id="Forward">
         <source>Forward</source>
         <target>Avante</target>
         <note>Accessibility Label for the tab toolbar Forward button</note>
-      </trans-unit>
-      <trans-unit id="FxA.AccountVerificationDetails">
-        <source>Wrong email? Disconnect below to start over.</source>
-        <note>Label stating how to disconnect account</note>
-      </trans-unit>
-      <trans-unit id="FxA.AccountVerificationRequired">
-        <source>Account Verification Required</source>
-        <note>Label stating your account is not verified</note>
-      </trans-unit>
-      <trans-unit id="FxA.AccountVerificationRequiredSurface">
-        <source>You need to verify %@. Check your email for the verification link from Firefox.</source>
-        <note>Message explaining that user needs to check email for Firefox Account verfication link.</note>
-      </trans-unit>
-      <trans-unit id="FxA.FirefoxAccount">
-        <source>Firefox Account</source>
-        <target>Conto Firefox</target>
-        <note>Settings section title for Firefox Account</note>
-      </trans-unit>
-      <trans-unit id="FxA.ManageAccount">
-        <source>Manage Account</source>
-        <target>Gerer le conto</target>
-        <note>Button label to goto Firefox Account settings</note>
-      </trans-unit>
-      <trans-unit id="FxA.NoInternetConnection">
-        <source>No Internet Connection</source>
-        <note>Label when no internet is present</note>
-      </trans-unit>
-      <trans-unit id="FxA.ResendEmail">
-        <source>Resend Email</source>
-        <note>Button label to resend email</note>
-      </trans-unit>
-      <trans-unit id="FxA.SignIntoSync">
-        <source>Sign in to Sync</source>
-        <note>Button label to sign into Sync</note>
-      </trans-unit>
-      <trans-unit id="FxA.SyncExplain">
-        <source>Get your tabs, bookmarks, and passwords from your other devices.</source>
-        <note>Label explaining what sync does</note>
-      </trans-unit>
-      <trans-unit id="FxA.SyncNow">
-        <source>Sync Now</source>
-        <target>Synchronisar ora</target>
-        <note>Button label to Sync your Firefox Account</note>
-      </trans-unit>
-      <trans-unit id="FxA.TakeYourWebWithYou">
-        <source>Take Your Web With You</source>
-        <note>Call to action for sign into sync button</note>
-      </trans-unit>
-      <trans-unit id="FxAPush_DeviceConnected_body">
-        <source>Firefox Sync has connected to %@</source>
-        <note>Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device.</note>
-      </trans-unit>
-      <trans-unit id="FxAPush_DeviceConnected_title">
-        <source>Sync Connected</source>
-        <note>Title of a notification displayed when another device has connected to FxA.</note>
-      </trans-unit>
-      <trans-unit id="FxAPush_DeviceDisconnected_ThisDevice_body">
-        <source>This device has been successfully disconnected from Firefox Sync.</source>
-        <note>Body of a notification displayed when this device has been disconnected from FxA by another device.</note>
-      </trans-unit>
-      <trans-unit id="FxAPush_DeviceDisconnected_ThisDevice_title">
-        <source>Sync Disconnected</source>
-        <target>Sync disconnectite</target>
-        <note>Title of a notification displayed when this device has been disconnected by another device.</note>
-      </trans-unit>
-      <trans-unit id="FxAPush_DeviceDisconnected_UnknownDevice_body">
-        <source>A device has disconnected from Firefox Sync</source>
-        <note>Body of a notification displayed when unnamed device has been disconnected from FxA.</note>
-      </trans-unit>
-      <trans-unit id="FxAPush_DeviceDisconnected_body">
-        <source>%@ has been successfully disconnected.</source>
-        <note>Body of a notification displayed when named device has been disconnected from FxA. %@ refers to the name of the disconnected device.</note>
-      </trans-unit>
-      <trans-unit id="FxAPush_DeviceDisconnected_title">
-        <source>Sync Disconnected</source>
-        <note>Title of a notification displayed when named device has been disconnected from FxA.</note>
       </trans-unit>
       <trans-unit id="General">
         <source>General</source>
@@ -1113,128 +845,6 @@
         <source>History</source>
         <target>Chronologia</target>
         <note>Panel accessibility label</note>
-      </trans-unit>
-      <trans-unit id="HistoryPanel.EmptyState.Title">
-        <source>Websites you've visited recently will show up here.</source>
-        <note>Title for the History Panel empty state.</note>
-      </trans-unit>
-      <trans-unit id="HistoryPanel.EmptySyncedTabsNullState.Description">
-        <source>Your tabs from other devices show up here.</source>
-        <note>Description for the empty synced tabs null state in the History Panel</note>
-      </trans-unit>
-      <trans-unit id="HistoryPanel.EmptySyncedTabsState.Description">
-        <source>Sign in to view open tabs on your other devices.</source>
-        <note>Description for the empty synced tabs state in the History Panel</note>
-      </trans-unit>
-      <trans-unit id="HistoryPanel.EmptySyncedTabsState.Title">
-        <source>Firefox Sync</source>
-        <note>Title for the empty synced tabs state in the History Panel</note>
-      </trans-unit>
-      <trans-unit id="HistoryPanel.HistoryBackButton.Title">
-        <source>History</source>
-        <target>Chronologia</target>
-        <note>Title for the Back to History button in the History Panel</note>
-      </trans-unit>
-      <trans-unit id="HistoryPanel.RecentlyClosedTabsButton.Title">
-        <source>Recently Closed</source>
-        <note>Title for the Recently Closed button in the History Panel</note>
-      </trans-unit>
-      <trans-unit id="HistoryPanel.SyncedTabsCell.Description.Pluralized">
-        <source>%d device(s) connected</source>
-        <note>Description that corresponds with a number of devices connected for the Synced Tabs Cell in the History Panel</note>
-      </trans-unit>
-      <trans-unit id="HistoryPanel.SyncedTabsCell.Title">
-        <source>Synced Devices</source>
-        <note>Title for the Synced Tabs Cell in the History Panel</note>
-      </trans-unit>
-      <trans-unit id="HomePage.Set.Dialog.Cancel">
-        <source>Cancel</source>
-        <target>Cancellar</target>
-        <note>Button cancelling changes setting the home page for the first time.</note>
-      </trans-unit>
-      <trans-unit id="HomePage.Set.Dialog.Message">
-        <source>You can change this at any time in Settings</source>
-        <note>Alert dialog body when the user opens the home page for the first time.</note>
-      </trans-unit>
-      <trans-unit id="HomePage.Set.Dialog.OK">
-        <source>Set Homepage</source>
-        <note>Button accepting changes setting the home page for the first time.</note>
-      </trans-unit>
-      <trans-unit id="HomePage.Set.Dialog.Title">
-        <source>Do you want to use this web page as your home page?</source>
-        <note>Alert dialog title when the user opens the home page for the first time.</note>
-      </trans-unit>
-      <trans-unit id="HomePanel.ContextMenu.Bookmark">
-        <source>Bookmark</source>
-        <target>Adder marcapaginas</target>
-        <note>The title for the Bookmark context menu action for sites in Home Panels</note>
-      </trans-unit>
-      <trans-unit id="HomePanel.ContextMenu.DeleteFromHistory">
-        <source>Delete from History</source>
-        <note>The title for the Delete from History context menu action for sites in Home Panels</note>
-      </trans-unit>
-      <trans-unit id="HomePanel.ContextMenu.OpenInNewPrivateTab">
-        <source>Open in New Private Tab</source>
-        <note>The title for the Open in New Private Tab context menu action for sites in Home Panels</note>
-      </trans-unit>
-      <trans-unit id="HomePanel.ContextMenu.OpenInNewTab">
-        <source>Open in New Tab</source>
-        <target>Aperir in un nove scheda</target>
-        <note>The title for the Open in New Tab context menu action for sites in Home Panels</note>
-      </trans-unit>
-      <trans-unit id="HomePanel.ContextMenu.Remove">
-        <source>Remove</source>
-        <target>Remover</target>
-        <note>The title for the Remove context menu action for sites in Home Panels</note>
-      </trans-unit>
-      <trans-unit id="HomePanel.ContextMenu.RemoveBookmark">
-        <source>Remove Bookmark</source>
-        <target>Remover le marcapagina</target>
-        <note>The title for the Remove Bookmark context menu action for sites in Home Panels</note>
-      </trans-unit>
-      <trans-unit id="HomePanel.ContextMenu.Share">
-        <source>Share</source>
-        <note>The title for the Share context menu action for sites in Home Panels</note>
-      </trans-unit>
-      <trans-unit id="Hotkeys.Back.DiscoveryTitle">
-        <source>Back</source>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
-      </trans-unit>
-      <trans-unit id="Hotkeys.CloseTab.DiscoveryTitle">
-        <source>Close Tab</source>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
-      </trans-unit>
-      <trans-unit id="Hotkeys.Find.DiscoveryTitle">
-        <source>Find</source>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
-      </trans-unit>
-      <trans-unit id="Hotkeys.Forward.DiscoveryTitle">
-        <source>Forward</source>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
-      </trans-unit>
-      <trans-unit id="Hotkeys.NewPrivateTab.DiscoveryTitle">
-        <source>New Private Tab</source>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
-      </trans-unit>
-      <trans-unit id="Hotkeys.NewTab.DiscoveryTitle">
-        <source>New Tab</source>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
-      </trans-unit>
-      <trans-unit id="Hotkeys.Reload.DiscoveryTitle">
-        <source>Reload Page</source>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
-      </trans-unit>
-      <trans-unit id="Hotkeys.SelectLocationBar.DiscoveryTitle">
-        <source>Select Location Bar</source>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
-      </trans-unit>
-      <trans-unit id="Hotkeys.ShowNextTab.DiscoveryTitle">
-        <source>Show Next Tab</source>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
-      </trans-unit>
-      <trans-unit id="Hotkeys.ShowPreviousTab.DiscoveryTitle">
-        <source>Show Previous Tab</source>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Increase text size">
         <source>Increase text size</source>
@@ -1273,17 +883,6 @@
         <source>Loading content…</source>
         <note>Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
-      <trans-unit id="Log Out">
-        <source>Log Out</source>
-        <target>Disconnecter se</target>
-        <note>Button in settings screen to disconnect from your account
-   Disconnect button in the 'log out firefox account' alert</note>
-      </trans-unit>
-      <trans-unit id="Log Out?">
-        <source>Log Out?</source>
-        <target>Disconnecter se?</target>
-        <note>Title of the 'log out firefox account' alert</note>
-      </trans-unit>
       <trans-unit id="Log in">
         <source>Log in</source>
         <target>Authenticar se</target>
@@ -1293,10 +892,6 @@
         <source>Logins</source>
         <target>Authenticationes</target>
         <note>Label used as an item in Settings. When touched, the user will be navigated to the Logins/Password manager.</note>
-      </trans-unit>
-      <trans-unit id="LoginsHelper.DontSave.Button">
-        <source>Don’t Save</source>
-        <note>Button to not save the user's password</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSaveLogin.Title">
         <source>Save login %1$@ for %2$@?</source>
@@ -1314,15 +909,6 @@
         <source>Update password for %@?</source>
         <note>Prompt for updating a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
-      <trans-unit id="LoginsHelper.SaveLogin.Button">
-        <source>Save Login</source>
-        <note>Button to save the user's password</note>
-      </trans-unit>
-      <trans-unit id="LoginsHelper.Update.Button">
-        <source>Update</source>
-        <target>Actualisar</target>
-        <note>Button to update the user's password</note>
-      </trans-unit>
       <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?">
         <source>Looks like Firefox crashed previously. Would you like to restore your tabs?</source>
         <note>Restore Tabs Prompt Description</note>
@@ -1336,30 +922,6 @@
         <source>Mark as Unread</source>
         <note>Name for Mark as unread button in reader mode
    Title for the button that marks a reading list item as unread</note>
-      </trans-unit>
-      <trans-unit id="Menu.NightModeTurnOffAction.Label">
-        <source>Night Mode Off</source>
-        <note>Label for the button, displayed in the menu, used to turn night mode off. 'Off' is only displayed when the mode is on.</note>
-      </trans-unit>
-      <trans-unit id="Menu.NightModeTurnOnAction.Label">
-        <source>Night Mode</source>
-        <note>Label for the button, displayed in the menu, used to turn night mode on. 'Turn On' is an indication of state, and thus redundant.</note>
-      </trans-unit>
-      <trans-unit id="Menu.NoImageModeTurnOffAction.Label">
-        <source>Show Images</source>
-        <note>Label for the button, displayed in the menu, used to turn no image mode off.</note>
-      </trans-unit>
-      <trans-unit id="Menu.NoImageModeTurnOnAction.Label">
-        <source>Hide Images</source>
-        <note>Label for the button, displayed in the menu, used to turn no image mode on.</note>
-      </trans-unit>
-      <trans-unit id="Missing error">
-        <source>Missing error</source>
-        <note>Error for a missing remote error number</note>
-      </trans-unit>
-      <trans-unit id="Missing message">
-        <source>Missing message</source>
-        <note>Error for a missing remote error message</note>
       </trans-unit>
       <trans-unit id="Navigation Toolbar">
         <source>Navigation Toolbar</source>
@@ -1414,17 +976,13 @@
         <source>Open in…</source>
         <note>String indicating that the file can be opened in another application on the device</note>
       </trans-unit>
-      <trans-unit id="OpenURL.Error.Message">
-        <source>Firefox cannot open the page because it has an invalid address.</source>
-        <note>The message displayed to a user when they try to open a URL that cannot be handled by Firefox, or any external app.</note>
-      </trans-unit>
-      <trans-unit id="OpenURL.Error.Title">
-        <source>Cannot Open Page</source>
-        <note>Title of the message shown when the user attempts to navigate to an invalid link.</note>
-      </trans-unit>
       <trans-unit id="Opening %@">
         <source>Opening %@</source>
         <note>Opening an external URL</note>
+      </trans-unit>
+      <trans-unit id="Page Options Menu">
+        <source>Page Options Menu</source>
+        <note>Accessibility label for the Page Options menu button</note>
       </trans-unit>
       <trans-unit id="Panel Chooser">
         <source>Panel Chooser</source>
@@ -1445,9 +1003,13 @@
         <target>Collar e ir</target>
         <note>Paste the URL into the location bar and visit</note>
       </trans-unit>
-      <trans-unit id="Please allow Firefox to access your device's camera in 'Settings' -&gt; 'Privacy' -&gt; 'Camera'.">
-        <source>Please allow Firefox to access your device's camera in 'Settings' -&gt; 'Privacy' -&gt; 'Camera'.</source>
+      <trans-unit id="Please allow Firefox to access your device’s camera in ‘Settings’ -&gt; ‘Privacy’ -&gt; ‘Camera’.">
+        <source>Please allow Firefox to access your device’s camera in ‘Settings’ -&gt; ‘Privacy’ -&gt; ‘Camera’.</source>
         <note>Text of the prompt user to setup the camera authorization.</note>
+      </trans-unit>
+      <trans-unit id="Please enter a custom account url before enabling.">
+        <source>Please enter a custom account url before enabling.</source>
+        <note>No custom service set.</note>
       </trans-unit>
       <trans-unit id="Privacy">
         <source>Privacy</source>
@@ -1466,17 +1028,9 @@
         <source>Reader View</source>
         <note>Accessibility label for the Reader View button</note>
       </trans-unit>
-      <trans-unit id="ReaderMode.Available.VoiceOverAnnouncement">
-        <source>Reader Mode available</source>
-        <note>Accessibility message e.g. spoken by VoiceOver when Reader Mode becomes available.</note>
-      </trans-unit>
       <trans-unit id="Reading list">
         <source>Reading list</source>
         <note>Panel accessibility label</note>
-      </trans-unit>
-      <trans-unit id="RecentlyClosedTabsPanel.Title">
-        <source>Recently Closed</source>
-        <note>Title for the Recently Closed Tabs Panel</note>
       </trans-unit>
       <trans-unit id="Reload">
         <source>Reload</source>
@@ -1494,17 +1048,11 @@
       </trans-unit>
       <trans-unit id="Request Desktop Site">
         <source>Request Desktop Site</source>
-        <note>Action Sheet Button for Requesting the Desktop Site
-   Share action title</note>
+        <note>Action Sheet Button for Requesting the Desktop Site</note>
       </trans-unit>
       <trans-unit id="Request Mobile Site">
         <source>Request Mobile Site</source>
-        <note>Action Sheet Button for Requesting the Mobile Site
-   Share action title</note>
-      </trans-unit>
-      <trans-unit id="Reset text size">
-        <source>Reset text size</source>
-        <note>Accessibility label for button resetting font size in display settings of reader mode</note>
+        <note>Action Sheet Button for Requesting the Mobile Site</note>
       </trans-unit>
       <trans-unit id="Sans-serif">
         <source>Sans-serif</source>
@@ -1522,14 +1070,6 @@
         <source>Save pages to your Reading List by tapping the book plus icon in the Reader View controls.</source>
         <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
-      <trans-unit id="ScanQRCode.Instructions.Label">
-        <source>Align QR code within frame to scan</source>
-        <note>Text for the instructions label, displayed in the QR scanner view</note>
-      </trans-unit>
-      <trans-unit id="ScanQRCode.View.Title">
-        <source>Scan QR Code</source>
-        <note>Title for the QR code scanner view.</note>
-      </trans-unit>
       <trans-unit id="Search">
         <source>Search</source>
         <target>Cercar</target>
@@ -1539,55 +1079,6 @@
       <trans-unit id="Search or enter address">
         <source>Search or enter address</source>
         <note>The text shown in the URL bar on about:home</note>
-      </trans-unit>
-      <trans-unit id="Search.ThirdPartyEngines.AddMessage">
-        <source>The new search engine will appear in the quick search bar.</source>
-        <note>The message that asks the user to Add the search provider explaining where the search engine will appear</note>
-      </trans-unit>
-      <trans-unit id="Search.ThirdPartyEngines.AddSuccess">
-        <source>Added Search engine!</source>
-        <note>The success message that appears after a user sucessfully adds a new search engine</note>
-      </trans-unit>
-      <trans-unit id="Search.ThirdPartyEngines.AddTitle">
-        <source>Add Search Provider?</source>
-        <note>The title that asks the user to Add the search provider</note>
-      </trans-unit>
-      <trans-unit id="Search.ThirdPartyEngines.Cancel">
-        <source>Cancel</source>
-        <target>Cancellar</target>
-        <note>The cancel button if you do not want to add a search engine.</note>
-      </trans-unit>
-      <trans-unit id="Search.ThirdPartyEngines.DuplicateErrorMessage">
-        <source>A search engine with this title or URL has already been added.</source>
-        <note>A message explaining fault in custom search engine form.</note>
-      </trans-unit>
-      <trans-unit id="Search.ThirdPartyEngines.DuplicateErrorTitle">
-        <source>Failed</source>
-        <target>Fallite</target>
-        <note>A title stating that we failed to add custom search engine.</note>
-      </trans-unit>
-      <trans-unit id="Search.ThirdPartyEngines.FailedMessage">
-        <source>The search provider could not be added.</source>
-        <note>A title explaining that we failed to add a search engine</note>
-      </trans-unit>
-      <trans-unit id="Search.ThirdPartyEngines.FailedTitle">
-        <source>Failed</source>
-        <target>Fallite</target>
-        <note>A title explaining that we failed to add a search engine</note>
-      </trans-unit>
-      <trans-unit id="Search.ThirdPartyEngines.FormErrorMessage">
-        <source>Please fill all fields correctly.</source>
-        <note>A message explaining fault in custom search engine form.</note>
-      </trans-unit>
-      <trans-unit id="Search.ThirdPartyEngines.FormErrorTitle">
-        <source>Failed</source>
-        <target>Fallite</target>
-        <note>A title stating that we failed to add custom search engine.</note>
-      </trans-unit>
-      <trans-unit id="Search.ThirdPartyEngines.OK">
-        <source>OK</source>
-        <target>OK</target>
-        <note>The confirmation button</note>
       </trans-unit>
       <trans-unit id="Searches for the suggestion">
         <source>Searches for the suggestion</source>
@@ -1609,63 +1100,6 @@
         <source>Send a crash report so Mozilla can fix the problem?</source>
         <note>Message displayed in the crash dialog above the buttons used to select when sending reports</note>
       </trans-unit>
-      <trans-unit id="SendTo.Cancel.Button">
-        <source>Cancel</source>
-        <target>Cancellar</target>
-        <note>Button title for cancelling SendTo screen</note>
-      </trans-unit>
-      <trans-unit id="SendTo.Error.Message">
-        <source>Only HTTP and HTTPS links can be shared.</source>
-        <note>Message in error prompt explaining why the URL is invalid.</note>
-      </trans-unit>
-      <trans-unit id="SendTo.Error.OK.Button">
-        <source>OK</source>
-        <target>OK</target>
-        <note>OK button to dismiss the error prompt.</note>
-      </trans-unit>
-      <trans-unit id="SendTo.Error.Title">
-        <source>The link you are trying to share cannot be shared.</source>
-        <note>Title of error prompt displayed when an invalid URL is shared.</note>
-      </trans-unit>
-      <trans-unit id="SentTab.AddToReadingList">
-        <source>Add to Reading List</source>
-        <note>Button title displayed in a notification when a sent tab has been received. Tapping on the button will add the page to the reading list.</note>
-      </trans-unit>
-      <trans-unit id="SentTab.BookmarkPage">
-        <source>Bookmark</source>
-        <target>Adder marcapaginas</target>
-        <note>Button title displayed in a notification when a sent tab has been received. Tapping on the button will add the URL as a bookmark.</note>
-      </trans-unit>
-      <trans-unit id="SentTab.NoTabArrivingNotification.body">
-        <source>Tap to begin</source>
-        <note>Body of notification received after a spurious message from FxA has been received.</note>
-      </trans-unit>
-      <trans-unit id="SentTab.NoTabArrivingNotification.title">
-        <source>Firefox Sync</source>
-        <note>Title of notification received after a spurious message from FxA has been received.</note>
-      </trans-unit>
-      <trans-unit id="SentTab.ViewPage">
-        <source>View</source>
-        <target>Vider</target>
-        <note>Button title displayed in a notification when a sent tab has been received. Tapping on the button will open the URL.</note>
-      </trans-unit>
-      <trans-unit id="SentTab_TabArrivingNotification_NoDevice_body">
-        <source>New tab arrived from another device.</source>
-        <note>Body of notification shown when the device is sent one or more tabs from an unnamed device.</note>
-      </trans-unit>
-      <trans-unit id="SentTab_TabArrivingNotification_NoDevice_title">
-        <source>Tab received</source>
-        <target>Scheda recipite</target>
-        <note>Title of notification shown when the device is sent one or more tabs from an unnamed device.</note>
-      </trans-unit>
-      <trans-unit id="SentTab_TabArrivingNotification_WithDevice_body">
-        <source>New tab arrived in %@</source>
-        <note>Body of notification shown when the device is sent one or more tabs from the named device. %@ is the placeholder for the app name.</note>
-      </trans-unit>
-      <trans-unit id="SentTab_TabArrivingNotification_WithDevice_title">
-        <source>Tab received from %@</source>
-        <note>Title of notification shown when the device is sent one or more tabs from the named device. %@ is the placeholder for the device name. This device name will be localized by that device.</note>
-      </trans-unit>
       <trans-unit id="Sepia">
         <source>Sepia</source>
         <target>Sepia</target>
@@ -1679,265 +1113,11 @@
       <trans-unit id="Settings">
         <source>Settings</source>
         <target>Parametros</target>
-        <note>Accessibility label for the Settings button in the Tab Tray.
-   Settings</note>
-      </trans-unit>
-      <trans-unit id="Settings.AddCustomEngine">
-        <source>Add Search Engine</source>
-        <target>Adder un motor de recerca</target>
-        <note>The button text in Search Settings that opens the Custom Search Engine view.</note>
-      </trans-unit>
-      <trans-unit id="Settings.AddCustomEngine.SaveButtonText">
-        <source>Save</source>
-        <target>Salvar</target>
-        <note>The text on the Save button when saving a custom search engine</note>
-      </trans-unit>
-      <trans-unit id="Settings.AddCustomEngine.Title">
-        <source>Add Search Engine</source>
-        <target>Adder un motor de recerca</target>
-        <note>The title of the  Custom Search Engine view.</note>
-      </trans-unit>
-      <trans-unit id="Settings.AddCustomEngine.TitleLabel">
-        <source>Title</source>
-        <note>The title for the field which sets the title for a custom search engine.</note>
-      </trans-unit>
-      <trans-unit id="Settings.AddCustomEngine.TitlePlaceholder">
-        <source>Search Engine</source>
-        <target>Motor de recerca</target>
-        <note>The placeholder for Title Field when saving a custom search engine.</note>
-      </trans-unit>
-      <trans-unit id="Settings.AddCustomEngine.URLLabel">
-        <source>URL</source>
-        <target>URL</target>
-        <note>The title for URL Field</note>
-      </trans-unit>
-      <trans-unit id="Settings.AddCustomEngine.URLPlaceholder">
-        <source>URL (Replace Query with %s)</source>
-        <note>The placeholder for URL Field when saving a custom search engine</note>
-      </trans-unit>
-      <trans-unit id="Settings.ClearPrivateData.Clear.Button">
-        <source>Clear Private Data</source>
-        <target>Clarar le datos private</target>
-        <note>Button in settings that clears private data for the selected items.</note>
-      </trans-unit>
-      <trans-unit id="Settings.ClearPrivateData.SectionName">
-        <source>Clear Private Data</source>
-        <target>Clarar le datos private</target>
-        <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
-      </trans-unit>
-      <trans-unit id="Settings.ClearPrivateData.Title">
-        <source>Clear Private Data</source>
-        <target>Clarar le datos private</target>
-        <note>Title displayed in header of the setting panel.</note>
-      </trans-unit>
-      <trans-unit id="Settings.DNT.OptionAlwaysOn">
-        <source>Always</source>
-        <target>Sempre</target>
-        <note>DNT Settings option for always on</note>
-      </trans-unit>
-      <trans-unit id="Settings.DNT.OptionOnWithTP">
-        <source>Only when using Tracking Protection</source>
-        <note>DNT Settings option for only turning on when Tracking Protection is also on</note>
-      </trans-unit>
-      <trans-unit id="Settings.DNT.Title">
-        <source>Send websites a Do Not Track signal that you don’t want to be tracked</source>
-        <note>DNT Settings title</note>
-      </trans-unit>
-      <trans-unit id="Settings.Disconnect.Button">
-        <source>Disconnect</source>
-        <target>Disconnecter se</target>
-        <note>Button displayed at the bottom of settings page allowing users to Disconnect from FxA</note>
-      </trans-unit>
-      <trans-unit id="Settings.Disconnect.DestructiveButton">
-        <source>Disconnect</source>
-        <target>Disconnecter se</target>
-        <note>Destructive action button in alert when user is prompted for disconnect</note>
-      </trans-unit>
-      <trans-unit id="Settings.Disconnect.Title">
-        <source>Disconnect?</source>
-        <target>Disconnecter se?</target>
-        <note>Title of the alert when prompting the user asking to disconnect.</note>
-      </trans-unit>
-      <trans-unit id="Settings.HomePage.Clear.Button">
-        <source>Clear</source>
-        <target>Clarar</target>
-        <note>Button in settings to clear the home page.</note>
-      </trans-unit>
-      <trans-unit id="Settings.HomePage.SectionName">
-        <source>Homepage</source>
-        <target>Pagina initial</target>
-        <note>Label used as an item in Settings. When touched it will open a dialog to configure the home page and its uses.</note>
-      </trans-unit>
-      <trans-unit id="Settings.HomePage.Title">
-        <source>Homepage Settings</source>
-        <note>Title displayed in header of the setting panel.</note>
-      </trans-unit>
-      <trans-unit id="Settings.HomePage.UI.Toggle.Subtitle">
-        <source>Otherwise show in the toolbar</source>
-        <note>Label displayed under the 'Show Homepage Icon In Menu' option. It describes the effect of this setting when disabled.</note>
-      </trans-unit>
-      <trans-unit id="Settings.HomePage.UI.Toggle.Title">
-        <source>Show Homepage Icon In Menu</source>
-        <note>Label used as an item in Settings. User can toggle this setting to show the home page button in menu, or on toolbar.</note>
-      </trans-unit>
-      <trans-unit id="Settings.HomePage.URL.Placeholder">
-        <source>Enter a webpage</source>
-        <note>Placeholder text in the homepage setting when no homepage has been set.</note>
-      </trans-unit>
-      <trans-unit id="Settings.HomePage.URL.Title">
-        <source>Current Homepage</source>
-        <note>Title of the setting section containing the URL of the current home page.</note>
-      </trans-unit>
-      <trans-unit id="Settings.HomePage.UseCopiedLink.Button">
-        <source>Use Copied Link</source>
-        <note>Button in settings to use the current link on the clipboard as home page.</note>
-      </trans-unit>
-      <trans-unit id="Settings.HomePage.UseCurrent.Button">
-        <source>Use Current Page</source>
-        <note>Button in settings to use the current page as home page.</note>
-      </trans-unit>
-      <trans-unit id="Settings.HomePage.UseDefault.Button">
-        <source>Use Default</source>
-        <note>Button in settings to use the default home page. If no default is set, then this button isn't shown.</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Description">
-        <source>When you open a New Tab:</source>
-        <note>A description in settings of what the new tab choice means</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.BlankPage">
-        <source>Show a Blank Page</source>
-        <note>Option in settings to show a blank page when you open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.Bookmarks">
-        <source>Show your Bookmarks</source>
-        <target>Monstrar tu marcapaginas</target>
-        <note>Option in settings to show bookmarks when you open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.History">
-        <source>Show your History</source>
-        <note>Option in settings to show history when you open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.HomePage">
-        <source>Show your Homepage</source>
-        <note>Option in settings to show your homepage when you open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.ReadingList">
-        <source>Show your Reading List</source>
-        <note>Option in settings to show reading list when you open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.TopSites">
-        <source>Show your Top Sites</source>
-        <note>Option in settings to show top sites when you open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.SectionName">
-        <source>New Tab</source>
-        <target>Nove scheda</target>
-        <note>Label used as an item in Settings. When touched it will open a dialog to configure the new tab behaviour.</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Title">
-        <source>New Tab Settings</source>
-        <note>Title displayed in header of the setting panel.</note>
-      </trans-unit>
-      <trans-unit id="Settings.OfferClipboardBar.Status">
-        <source>When Opening Firefox</source>
-        <note>Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349</note>
-      </trans-unit>
-      <trans-unit id="Settings.OfferClipboardBar.Title">
-        <source>Offer to Open Copied Links</source>
-        <note>Title of setting to enable the Go to Copied URL feature. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349</note>
-      </trans-unit>
-      <trans-unit id="Settings.OpenWith.PageTitle">
-        <source>Open mail links in</source>
-        <note>Title for Open With Settings</note>
-      </trans-unit>
-      <trans-unit id="Settings.OpenWith.SectionName">
-        <source>Open With</source>
-        <target>Aperir con</target>
-        <note>Label used as an item in Settings. When touched it will open a dialog to configure the open with (mail links) behaviour.</note>
-      </trans-unit>
-      <trans-unit id="Settings.Search.Done.Button">
-        <source>Done</source>
-        <target>Facite</target>
-        <note>Button displayed at the top of the search settings.</note>
-      </trans-unit>
-      <trans-unit id="Settings.Search.Edit.Button">
-        <source>Edit</source>
-        <target>Editar</target>
-        <note>Button displayed at the top of the search settings.</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtection.BlockListsHeader">
-        <source>You can choose which list Firefox will use to block Web elements that may track your browsing activity.</source>
-        <note>Header description for tracking protection options section where Basic/Strict block list can be selected</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtection.BlockListsTitle">
-        <source>Block Lists</source>
-        <note>Title for tracking protection options section where Basic/Strict block list can be selected</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtection.SectionName">
-        <source>Tracking Protection</source>
-        <target>Protection contra le traciamento</target>
-        <note>Row in top-level of settings that gets tapped to show the tracking protection settings detail view.</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.BlockListBasic">
-        <source>Basic (Recommended)</source>
-        <note>Tracking protection settings option for using the basic blocklist.</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.BlockListBasicDescription">
-        <source>Allows some trackers so websites function properly.</source>
-        <note>Tracking protection settings option description for using the basic blocklist.</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.BlockListStrict">
-        <source>Strict</source>
-        <target>Stricte</target>
-        <note>Tracking protection settings option for using the strict blocklist.</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.BlockListStrictDescription">
-        <source>Blocks known trackers. Some websites may not function properly.</source>
-        <note>Tracking protection settings option description for using the strict blocklist.</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.BlockListTypeFooter">
-        <source>You can choose which list Firefox will use to block Web elements that may track your browsing activity.</source>
-        <note>Description label shown at bottom of tracking protection options for which Block List to use</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.EnabledStateFooterLabel">
-        <source>Tracking is the collection of your browsing data across multiple websites. Tracking can be used to build a profile and display content based on your browsing and personal information.</source>
-        <note>Description label shown on tracking protection options screen.</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.EnabledStateHeaderLabel">
-        <source>Use Tracking Protection to Block Known Trackers</source>
-        <note>Description label shown at the top of tracking protection options screen.</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.OffLabel">
-        <source>Never</source>
-        <target>Nunquam</target>
-        <note>Settings option to specify that Tracking Protection is always off.</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.OnInPrivateBrowsingLabel">
-        <source>Private Browsing Mode Only</source>
-        <note>Settings option to specify that Tracking Protection is on only in Private Browsing mode.</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.OnLabel">
-        <source>Always On</source>
-        <note>Settings option to specify that Tracking Protection is always on.</note>
-      </trans-unit>
-      <trans-unit id="Settings.TroubleShootSync.Title">
-        <source>Troubleshoot</source>
-        <target>Diagnostico</target>
-        <note>Title of link to help page to find out how to solve Sync issues</note>
-      </trans-unit>
-      <trans-unit id="Share">
-        <source>Share</source>
-        <target>Compartir</target>
-        <note>Accessibility Label for the tab toolbar Share button</note>
+        <note>Settings</note>
       </trans-unit>
       <trans-unit id="Share Link">
         <source>Share Link</source>
         <note>Context menu item for sharing a link URL</note>
-      </trans-unit>
-      <trans-unit id="ShareTo.Cancel.Button">
-        <source>Cancel</source>
-        <target>Cancellar</target>
-        <note>Button title for cancelling Share screen</note>
       </trans-unit>
       <trans-unit id="Show Search Suggestions">
         <source>Show Search Suggestions</source>
@@ -1956,20 +1136,11 @@
         <source>Show search suggestions</source>
         <note>Label for show search suggestions setting.</note>
       </trans-unit>
-      <trans-unit id="Sign In to Firefox">
-        <source>Sign In to Firefox</source>
-        <note>Text message / button in the settings table view</note>
-      </trans-unit>
       <trans-unit id="Sign in">
         <source>Sign in</source>
         <target>Authenticar se</target>
         <note>See http://mzl.la/1Qtkf0j
    Text message / button in the settings table view</note>
-      </trans-unit>
-      <trans-unit id="Sign in to get your tabs, bookmarks, and passwords from your other devices.">
-        <source>Sign in to get your tabs, bookmarks, and passwords from your other devices.</source>
-        <target>Authentica te pro obtener tu schedas, marcapaginas e contrasignos de tu altere apparatos.</target>
-        <note>Clarify value prop under Sign In to Firefox in Settings.</note>
       </trans-unit>
       <trans-unit id="Stop">
         <source>Stop</source>
@@ -1997,58 +1168,6 @@
         <source>Sync your tabs, passwords and more.</source>
         <note>Text displayed when the Sync home panel is empty, describing the features provided by Sync to invite the user to log in.</note>
       </trans-unit>
-      <trans-unit id="Sync.FirstTimeMessage.Label">
-        <source>Your first sync may take a while</source>
-        <note>Message displayed when the user syncs for the first time</note>
-      </trans-unit>
-      <trans-unit id="Sync.Syncing.Label">
-        <source>Syncing</source>
-        <note>Message displayed when the user's account is syncing with no ellipsis</note>
-      </trans-unit>
-      <trans-unit id="Sync.SyncingEllipsis.Label">
-        <source>Syncing…</source>
-        <note>Message displayed when the user's account is syncing with ellipsis at the end</note>
-      </trans-unit>
-      <trans-unit id="SyncState.Bookmark.Title">
-        <source>Bookmarks</source>
-        <target>Marcapaginas</target>
-        <note>The Bookmark sync component, used in SyncState.Partial.Title</note>
-      </trans-unit>
-      <trans-unit id="SyncState.Clients.Title">
-        <source>Remote Clients</source>
-        <note>The Remote Clients sync component, used in SyncState.Partial.Title</note>
-      </trans-unit>
-      <trans-unit id="SyncState.Failed.Title">
-        <source>Syncing has failed</source>
-        <note>Title for Sync status message when synchronization failed to complete</note>
-      </trans-unit>
-      <trans-unit id="SyncState.History.Title">
-        <source>History</source>
-        <target>Chronologia</target>
-        <note>The History sync component, used in SyncState.Partial.Title</note>
-      </trans-unit>
-      <trans-unit id="SyncState.Logins.Title">
-        <source>Logins</source>
-        <target>Authenticationes</target>
-        <note>The Logins sync component, used in SyncState.Partial.Title</note>
-      </trans-unit>
-      <trans-unit id="SyncState.NotStarted.Title">
-        <source>Sync is unavailable</source>
-        <note>Title for Sync status message when Sync failed to start.</note>
-      </trans-unit>
-      <trans-unit id="SyncState.Offline.Title">
-        <source>Sync is offline</source>
-        <note>Title for Sync status message when Sync failed due to being offline</note>
-      </trans-unit>
-      <trans-unit id="SyncState.Partial.Title">
-        <source>Sync is experiencing issues syncing %@</source>
-        <note>Title for Sync status message when a component of Sync failed to complete, where %@ represents the name of the component, i.e. Sync is experiencing issues syncing Bookmarks</note>
-      </trans-unit>
-      <trans-unit id="SyncState.Tabs.Title">
-        <source>Tabs</source>
-        <target>Schedas</target>
-        <note>The Tabs sync component, used in SyncState.Partial.Title</note>
-      </trans-unit>
       <trans-unit id="Tab %@ of %@">
         <source>Tab %1$@ of %2$@</source>
         <note>Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray, along with the total number of tabs. E.g. \"Tab 2 of 5\" says that tab 2 is visible (and is the only visible tab), out of 5 tabs total.</note>
@@ -2060,15 +1179,6 @@
       <trans-unit id="Tabs Tray">
         <source>Tabs Tray</source>
         <note>Accessibility label for the Tabs Tray view.</note>
-      </trans-unit>
-      <trans-unit id="Tabs.DeleteAllUndo.Button">
-        <source>Undo</source>
-        <target>Disfacer</target>
-        <note>The button to undo the delete all tabs</note>
-      </trans-unit>
-      <trans-unit id="Tabs.DeleteAllUndo.Title">
-        <source>%d tab(s) closed</source>
-        <note>The label indicating that all the tabs were closed</note>
       </trans-unit>
       <trans-unit id="The data is invalid">
         <source>The data is invalid</source>
@@ -2094,41 +1204,19 @@
         <source>This will open in another application</source>
         <note>Opening an external app</note>
       </trans-unit>
+      <trans-unit id="To use a custom Firefox Account and sync servers, specify the root Url of the Firefox Account site. This will download the configuration and setup this device to use the new service. After the new service has been set, you will need to create a new Firefox Account or login with an existing one.">
+        <source>To use a custom Firefox Account and sync servers, specify the root Url of the Firefox Account site. This will download the configuration and setup this device to use the new service. After the new service has been set, you will need to create a new Firefox Account or login with an existing one.</source>
+        <note>Details for using custom Firefox Account service.</note>
+      </trans-unit>
       <trans-unit id="Today">
         <source>Today</source>
         <target>Hodie</target>
         <note>History tableview section header</note>
       </trans-unit>
-      <trans-unit id="Toolbar.Menu.AccessibilityLabel">
-        <source>Menu</source>
-        <target>Menu</target>
-        <note>Accessibility label for the Menu button.</note>
-      </trans-unit>
-      <trans-unit id="Toolbar.OpenHomePage.AccessibilityLabel">
-        <source>Homepage</source>
-        <target>Pagina initial</target>
-        <note>Accessibility Label for the tab toolbar Homepage button</note>
-      </trans-unit>
       <trans-unit id="Top sites">
         <source>Top sites</source>
         <target>Sitos popular</target>
         <note>Panel accessibility label</note>
-      </trans-unit>
-      <trans-unit id="TopSites.EmptyState.Description">
-        <source>Your most visited sites will show up here.</source>
-        <note>Description label for the empty Top Sites state.</note>
-      </trans-unit>
-      <trans-unit id="TopSites.EmptyState.Title">
-        <source>Welcome to Top Sites</source>
-        <note>The title for the empty Top Sites state</note>
-      </trans-unit>
-      <trans-unit id="TopSites.RemovePage.Button">
-        <source>Remove page - %@</source>
-        <note>Button shown in editing mode to remove this site from the top sites panel.</note>
-      </trans-unit>
-      <trans-unit id="Twitter">
-        <source>Twitter</source>
-        <note>Tile title for Twitter</note>
       </trans-unit>
       <trans-unit id="Update">
         <source>Update</source>
@@ -2138,10 +1226,6 @@
       <trans-unit id="Upgrade Firefox to connect.">
         <source>Upgrade Firefox to connect.</source>
         <note>Text message in the settings table view</note>
-      </trans-unit>
-      <trans-unit id="Use Compact Tabs">
-        <source>Use Compact Tabs</source>
-        <note>Setting to enable compact tabs in the tab overview</note>
       </trans-unit>
       <trans-unit id="Username">
         <source>Username</source>
@@ -2167,11 +1251,6 @@
         <source>Well, this is embarrassing.</source>
         <note>Restore Tabs Prompt Title</note>
       </trans-unit>
-      <trans-unit id="Wikipedia">
-        <source>Wikipedia</source>
-        <target>Wikipedia</target>
-        <note>Tile title for Wikipedia</note>
-      </trans-unit>
       <trans-unit id="Yes">
         <source>Yes</source>
         <target>Si</target>
@@ -2182,13 +1261,9 @@
         <target>Heri</target>
         <note>History tableview section header</note>
       </trans-unit>
-      <trans-unit id="You don't have any tabs open in Firefox on your other devices.">
-        <source>You don't have any tabs open in Firefox on your other devices.</source>
+      <trans-unit id="You don’t have any tabs open in Firefox on your other devices.">
+        <source>You don’t have any tabs open in Firefox on your other devices.</source>
         <note>Error message in the remote tabs panel</note>
-      </trans-unit>
-      <trans-unit id="YouTube">
-        <source>YouTube</source>
-        <note>Tile title for YouTube</note>
       </trans-unit>
       <trans-unit id="Your Rights">
         <source>Your Rights</source>
@@ -2199,48 +1274,23 @@
         <target>Computator</target>
         <note>Accessibility label for Desktop Computer (PC) image in remote tabs list</note>
       </trans-unit>
-      <trans-unit id="just now">
-        <source>just now</source>
-        <note>Relative time for a tab that was visited within the last few moments.</note>
-      </trans-unit>
       <trans-unit id="mobile device">
         <source>mobile device</source>
         <note>Accessibility label for Mobile Device image in remote tabs list</note>
-      </trans-unit>
-      <trans-unit id="more than a month ago">
-        <source>more than a month ago</source>
-        <note>Relative date for dates older than a month and less than two months.</note>
-      </trans-unit>
-      <trans-unit id="more than a week ago">
-        <source>more than a week ago</source>
-        <note>Description for a date more than a week ago, but less than a month ago.</note>
       </trans-unit>
       <trans-unit id="read">
         <source>read</source>
         <note>Accessibility label for read article in reading list. It's a past participle - functions as an adjective.</note>
       </trans-unit>
-      <trans-unit id="this week">
-        <source>this week</source>
-        <note>Relative date for date in past week.</note>
-      </trans-unit>
-      <trans-unit id="today at %@">
-        <source>today at %@</source>
-        <note>Relative date for date older than a minute.</note>
-      </trans-unit>
       <trans-unit id="unread">
         <source>unread</source>
         <note>Accessibility label for unread article in reading list. It's a past participle - functions as an adjective.</note>
-      </trans-unit>
-      <trans-unit id="yesterday">
-        <source>yesterday</source>
-        <target>heri</target>
-        <note>Relative date for yesterday.</note>
       </trans-unit>
     </body>
   </file>
   <file original="Client/LoginManager.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="Are you sure?">
@@ -2339,98 +1389,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Menu.strings" source-language="en" datatype="plaintext" target-language="ia">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="Menu.AddBookmarkAction.Title">
-        <source>Add Bookmark</source>
-        <target>Adder marcapagina</target>
-        <note>Label for the button, displayed in the menu, used to create a bookmark for the current website.</note>
-      </trans-unit>
-      <trans-unit id="Menu.CloseAllTabsAction.Title">
-        <source>Close All Tabs</source>
-        <target>Clauder tote le schedas</target>
-        <note>Label for the button, displayed in the menu, used to close all tabs currently open.</note>
-      </trans-unit>
-      <trans-unit id="Menu.CloseMenu.AccessibilityLabel">
-        <source>Close Menu</source>
-        <note>Accessibility label describing the button that closes the menu when open</note>
-      </trans-unit>
-      <trans-unit id="Menu.FindInPageAction.Title">
-        <source>Find In Page</source>
-        <note>Label for the button, displayed in the menu, used to open the toolbar to search for text within the current page.</note>
-      </trans-unit>
-      <trans-unit id="Menu.NewPrivateTabAction.Title">
-        <source>New Private Tab</source>
-        <note>Label for the button, displayed in the menu, used to open a new private tab.</note>
-      </trans-unit>
-      <trans-unit id="Menu.NewTabAction.Title">
-        <source>New Tab</source>
-        <target>Nove scheda</target>
-        <note>Label for the button, displayed in the menu, used to open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenBookmarksAction.AccessibilityLabel">
-        <source>Bookmarks</source>
-        <target>Marcapaginas</target>
-        <note>Accessibility label for the button, displayed in the menu, used to open the Bbookmarks home panel.</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenHistoryAction.AccessibilityLabel">
-        <source>History</source>
-        <target>Chronologia</target>
-        <note>Accessibility label for the button, displayed in the menu, used to open the History home panel.</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenHomePageAction.Title">
-        <source>Home</source>
-        <target>Initio</target>
-        <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel">
-        <source>Reading List</source>
-        <note>Accessibility label for the button, displayed in the menu, used to open the Reading list home panel.</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenSettingsAction.Title">
-        <source>Settings</source>
-        <target>Parametros</target>
-        <note>Label for the button, displayed in the menu, used to open the Settings menu.</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenTopSitesAction.AccessibilityLabel">
-        <source>Top Sites</source>
-        <note>Accessibility label for the button, displayed in the menu, used to open the Top Sites home panel.</note>
-      </trans-unit>
-      <trans-unit id="Menu.RemoveBookmarkAction.Title">
-        <source>Remove Bookmark</source>
-        <target>Remover le marcapaginas</target>
-        <note>Label for the button, displayed in the menu, used to delete an existing bookmark for the current website.</note>
-      </trans-unit>
-      <trans-unit id="Menu.ScanQRCodeAction.Title">
-        <source>Scan QR Code</source>
-        <note>Label for the button, displayed in the menu, used to open the QR code scanner.</note>
-      </trans-unit>
-      <trans-unit id="Menu.SendPageAction.Title">
-        <source>Send</source>
-        <target>Inviar</target>
-        <note>Label for the button, displayed in the menu, used to open the share dialog.</note>
-      </trans-unit>
-      <trans-unit id="Menu.SetHomePageAction.Title">
-        <source>Set Homepage</source>
-        <target>Definir un pagina initial</target>
-        <note>Label for the button, displayed in the menu, used to set the homepage if none is currently set.</note>
-      </trans-unit>
-      <trans-unit id="Menu.ViewDekstopSiteAction.Title">
-        <source>Request Desktop Site</source>
-        <note>Label for the button, displayed in the menu, used to request the desktop version of the current website.</note>
-      </trans-unit>
-      <trans-unit id="Menu.ViewMobileSiteAction.Title">
-        <source>Request Mobile Site</source>
-        <note>Label for the button, displayed in the menu, used to request the mobile version of the current website.</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="Client/PrivateBrowsing.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="Close Private Tabs">
@@ -2438,8 +1399,8 @@
         <target>Clauder le schedas private</target>
         <note>Setting for closing private tabs</note>
       </trans-unit>
-      <trans-unit id="Firefox won't remember any of your history or cookies, but new bookmarks will be saved.">
-        <source>Firefox won't remember any of your history or cookies, but new bookmarks will be saved.</source>
+      <trans-unit id="Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.">
+        <source>Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.</source>
         <note>Description text displayed when there are no open tabs while in private mode</note>
       </trans-unit>
       <trans-unit id="Learn More">
@@ -2482,7 +1443,7 @@
   </file>
   <file original="Client/Search.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="%@ search">
@@ -2516,12 +1477,13 @@
   </file>
   <file original="Client/SendAnonymousUsageData.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="More Info…">
         <source>More Info…</source>
-        <note>See http://bit.ly/1SmEXU1</note>
+        <note>Re-using more info label from 'anonymous usage data' item for showing a 'More Info' link on the Tracking Protection settings screen.
+   See http://bit.ly/1SmEXU1</note>
       </trans-unit>
       <trans-unit id="Send Anonymous Usage Data">
         <source>Send Anonymous Usage Data</source>
@@ -2531,7 +1493,7 @@
   </file>
   <file original="Client/SendTo.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="Available devices:">
@@ -2561,30 +1523,26 @@
         <source>You are not signed in to your Firefox Account.</source>
         <note>See http://mzl.la/1ISlXnU</note>
       </trans-unit>
-      <trans-unit id="You don't have any other devices connected to this Firefox Account available to sync.">
-        <source>You don't have any other devices connected to this Firefox Account available to sync.</source>
+      <trans-unit id="You don’t have any other devices connected to this Firefox Account available to sync.">
+        <source>You don’t have any other devices connected to this Firefox Account available to sync.</source>
         <note>Error message shown in the remote tabs panel</note>
       </trans-unit>
     </body>
   </file>
-  <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="ia">
+  <file original="Client/UseCustomAccountService.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+      <trans-unit id="Use Custom Account Service">
+        <source>Use Custom Account Service</source>
+        <note>Toggle switch to use custom FxA server</note>
       </trans-unit>
     </body>
   </file>
   <file original="Extensions/NotificationService/Info.plist" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -2595,15 +1553,11 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
-      </trans-unit>
     </body>
   </file>
   <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -2614,15 +1568,46 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+    </body>
+  </file>
+  <file original="Extensions/SendTo/SendTo.strings" source-language="en" datatype="plaintext" target-language="ia">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
+    </header>
+    <body>
+      <trans-unit id="Available devices:">
+        <source>Available devices:</source>
+        <note>Header for the list of devices table</note>
+      </trans-unit>
+      <trans-unit id="Close">
+        <source>Close</source>
+        <note>Close button in top navigation bar</note>
+      </trans-unit>
+      <trans-unit id="Please open Firefox, go to Settings and sign in to continue.">
+        <source>Please open Firefox, go to Settings and sign in to continue.</source>
+        <note>See http://mzl.la/1ISlXnU</note>
+      </trans-unit>
+      <trans-unit id="Send">
+        <source>Send</source>
+        <note>Navigation bar button to Send the current page to a device</note>
+      </trans-unit>
+      <trans-unit id="Send Tab">
+        <source>Send Tab</source>
+        <note>Title of the dialog that allows you to send a tab to a different device</note>
+      </trans-unit>
+      <trans-unit id="You are not signed in to your Firefox Account.">
+        <source>You are not signed in to your Firefox Account.</source>
+        <note>See http://mzl.la/1ISlXnU</note>
+      </trans-unit>
+      <trans-unit id="You don’t have any other devices connected to this Firefox Account available to sync.">
+        <source>You don’t have any other devices connected to this Firefox Account available to sync.</source>
+        <note>Error message shown in the remote tabs panel</note>
       </trans-unit>
     </body>
   </file>
   <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -2633,15 +1618,11 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
-      </trans-unit>
     </body>
   </file>
   <file original="Extensions/ShareTo/ShareTo.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="Add">
@@ -2662,7 +1643,7 @@
   </file>
   <file original="Extensions/Today/Info.plist" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -2673,15 +1654,11 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
-      </trans-unit>
     </body>
   </file>
   <file original="Extensions/Today/Today.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="TodayWidget.GoToCopiedLinkLabel">
@@ -2701,7 +1678,7 @@
   </file>
   <file original="Extensions/ViewLater/Info.plist" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
@@ -2711,60 +1688,996 @@
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+    </body>
+  </file>
+  <file original="Localizable.strings" source-language="en" datatype="plaintext" target-language="ia">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
+    </header>
+    <body>
+      <trans-unit id="Amazon">
+        <source>Amazon</source>
+        <note>Tile title for Amazon</note>
+      </trans-unit>
+      <trans-unit id="Facebook">
+        <source>Facebook</source>
+        <note>Tile title for Facebook</note>
+      </trans-unit>
+      <trans-unit id="Twitter">
+        <source>Twitter</source>
+        <note>Tile title for Twitter</note>
+      </trans-unit>
+      <trans-unit id="Wikipedia">
+        <source>Wikipedia</source>
+        <note>Tile title for Wikipedia</note>
+      </trans-unit>
+      <trans-unit id="YouTube">
+        <source>YouTube</source>
+        <note>Tile title for YouTube</note>
       </trans-unit>
     </body>
   </file>
   <file original="ReadingList/Info.plist" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="ReadingListTests/Info.plist" source-language="en" datatype="plaintext" target-language="ia">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
       </trans-unit>
     </body>
   </file>
   <file original="Shared/Supporting Files/Info.plist" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/Localizable.strings" source-language="en" datatype="plaintext" target-language="ia">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
+    </header>
+    <body>
+      <trans-unit id="ActivitySream.Pocket.Trending">
+        <source>Trending</source>
+        <note>The description of a Pocket Story</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.ContextMenu.PinTopsite">
+        <source>Pin to Top Sites</source>
+        <note>The title for the pinning a topsite action</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.ContextMenu.RemovePinTopsite">
+        <source>Remove Pinned Site</source>
+        <note>The title for removing a pinned topsite action</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.HighlightIntro.Description">
+        <source>Firefox will place things here that you’ve discovered on the web so you can find your way back to the great articles, videos, bookmarks and other pages</source>
+        <note>The detailed text that explains what highlights are in AS.</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.HighlightIntro.Title">
+        <source>Be on the Lookout</source>
+        <note>The title that appears for the introduction to highlights in AS.</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.Highlights.Bookmark">
+        <source>Bookmarked</source>
+        <note>The description of a highlight if it is a site the user has bookmarked</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.Highlights.SectionTitle">
+        <source>Visit Again</source>
+        <note>Section title label for Visit again section</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.Highlights.Visited">
+        <source>Visited</source>
+        <note>The description of a highlight if it is a site the user has visited</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.PageControl.Button">
+        <source>Next Page</source>
+        <note>The page control button that lets you switch between pages in top sites</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.Pocket.SectionTitle">
+        <source>Recommended by Pocket</source>
+        <note>Section title label for Recommended by Pocket section</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.TopSites.SectionTitle">
+        <source>Top Sites</source>
+        <note>Section title label for Top Sites</note>
+      </trans-unit>
+      <trans-unit id="AddPass.Error.Dismiss">
+        <source>OK</source>
+        <note>Button to dismiss the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet.</note>
+      </trans-unit>
+      <trans-unit id="AddPass.Error.Message">
+        <source>An error occured while adding the pass to Wallet. Please try again later.</source>
+        <note>Text of the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet.</note>
+      </trans-unit>
+      <trans-unit id="AddPass.Error.Title">
+        <source>Failed to Add Pass</source>
+        <note>Title of the 'Add Pass Failed' alert. See https://support.apple.com/HT204003 for context on Wallet.</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.Folder.Label">
+        <source>Folder</source>
+        <note>The label to show the location of the folder where the bookmark is located</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.FolderLocation.Label">
+        <source>Location</source>
+        <note>The label for the location of the new folder</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.FolderName.Label">
+        <source>Folder Name</source>
+        <note>The label for the title of the new folder</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.NewFolder.Label">
+        <source>New Folder</source>
+        <note>The button to create a new folder</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.Title.Label">
+        <source>Title</source>
+        <note>The label for the title of a bookmark</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.URL.Label">
+        <source>URL</source>
+        <note>The label for the URL of a bookmark</note>
+      </trans-unit>
+      <trans-unit id="ClipboardToast.GoToCopiedLink.Button">
+        <source>Go</source>
+        <note>The button to open a new tab with the copied link</note>
+      </trans-unit>
+      <trans-unit id="ClipboardToast.GoToCopiedLink.Title">
+        <source>Go to copied link?</source>
+        <note>Message displayed when the user has a copied link on the clipboard</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.ButtonText">
+        <source>Switch</source>
+        <note>The button text in the Button Toast for switching to a fresh New Private Tab.</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.LabelText">
+        <source>New Private Tab opened</source>
+        <note>The label text in the Button Toast for switching to a fresh New Private Tab.</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.ButtonToast.NewTabOpened.ButtonText">
+        <source>Switch</source>
+        <note>The button text in the Button Toast for switching to a fresh New Tab.</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.ButtonToast.NewTabOpened.LabelText">
+        <source>New Tab opened</source>
+        <note>The label text in the Button Toast for switching to a fresh New Tab.</note>
+      </trans-unit>
+      <trans-unit id="Downloads.Alert.Cancel">
+        <source>No</source>
+        <note>The label of the button the user will press to reject the option to open a file in another application</note>
+      </trans-unit>
+      <trans-unit id="Downloads.Alert.Confirm">
+        <source>Yes</source>
+        <note>The label of the button the user will press to be presented with a list of other apps to open a file in</note>
+      </trans-unit>
+      <trans-unit id="Downloads.Alert.Message">
+        <source>Firefox is unable to download or display this file. Would you like to open it in another app?</source>
+        <note>The message of the alert box asking the user if they want to use another app to open a file.</note>
+      </trans-unit>
+      <trans-unit id="Downloads.Alert.Title">
+        <source>Firefox Downloads</source>
+        <note>The title of the alert box asking the user if they want to use another app to open a file.</note>
+      </trans-unit>
+      <trans-unit id="Downloads.Error.Message">
+        <source>Downloads aren’t supported in Firefox yet.</source>
+        <note>The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle.</note>
+      </trans-unit>
+      <trans-unit id="ErrorPages.Advanced.Button">
+        <source>Advanced</source>
+        <note>Label for button to perform advanced actions on the error page</note>
+      </trans-unit>
+      <trans-unit id="ErrorPages.AdvancedWarning1.Text">
+        <source>Warning: we can’t confirm your connection to this website is secure.</source>
+        <note>Warning text when clicking the Advanced button on error pages</note>
+      </trans-unit>
+      <trans-unit id="ErrorPages.AdvancedWarning2.Text">
+        <source>It may be a misconfiguration or tampering by an attacker. Proceed if you accept the potential risk.</source>
+        <note>Additional warning text when clicking the Advanced button on error pages</note>
+      </trans-unit>
+      <trans-unit id="ErrorPages.CertWarning.Description">
+        <source>The owner of %@ has configured their website improperly. To protect your information from being stolen, Firefox has not connected to this website.</source>
+        <note>Warning text on the certificate error page</note>
+      </trans-unit>
+      <trans-unit id="ErrorPages.CertWarning.Title">
+        <source>This Connection is Untrusted</source>
+        <note>Title on the certificate error page</note>
+      </trans-unit>
+      <trans-unit id="ErrorPages.GoBack.Button">
+        <source>Go Back</source>
+        <note>Label for button to go back from the error page</note>
+      </trans-unit>
+      <trans-unit id="ErrorPages.VisitOnce.Button">
+        <source>Visit site anyway</source>
+        <note>Button label to temporarily continue to the site from the certificate error page</note>
+      </trans-unit>
+      <trans-unit id="ExternalLink.AppStore.ConfirmationTitle">
+        <source>Open this link in the App Store app?</source>
+        <note>Question shown to user when tapping a link that opens the App Store app</note>
+      </trans-unit>
+      <trans-unit id="Firefox.HomePage.Title">
+        <source>Firefox Home Page</source>
+        <note>Title for firefox about:home page in tab history list</note>
+      </trans-unit>
+      <trans-unit id="FxA.AccountVerificationDetails">
+        <source>Wrong email? Disconnect below to start over.</source>
+        <note>Label stating how to disconnect account</note>
+      </trans-unit>
+      <trans-unit id="FxA.AccountVerificationRequired">
+        <source>Account Verification Required</source>
+        <note>Label stating your account is not verified</note>
+      </trans-unit>
+      <trans-unit id="FxA.AccountVerificationRequiredSurface">
+        <source>You need to verify %@. Check your email for the verification link from Firefox.</source>
+        <note>Message explaining that user needs to check email for Firefox Account verfication link.</note>
+      </trans-unit>
+      <trans-unit id="FxA.FirefoxAccount">
+        <source>Firefox Account</source>
+        <note>Settings section title for Firefox Account</note>
+      </trans-unit>
+      <trans-unit id="FxA.ManageAccount">
+        <source>Manage Account</source>
+        <note>Button label to goto Firefox Account settings</note>
+      </trans-unit>
+      <trans-unit id="FxA.NoInternetConnection">
+        <source>No Internet Connection</source>
+        <note>Label when no internet is present</note>
+      </trans-unit>
+      <trans-unit id="FxA.ResendEmail">
+        <source>Resend Email</source>
+        <note>Button label to resend email</note>
+      </trans-unit>
+      <trans-unit id="FxA.SignIntoSync">
+        <source>Sign in to Sync</source>
+        <note>Button label to sign into Sync</note>
+      </trans-unit>
+      <trans-unit id="FxA.SyncExplain">
+        <source>Get your tabs, bookmarks, and passwords from your other devices.</source>
+        <note>Label explaining what sync does</note>
+      </trans-unit>
+      <trans-unit id="FxA.SyncNow">
+        <source>Sync Now</source>
+        <note>Button label to Sync your Firefox Account</note>
+      </trans-unit>
+      <trans-unit id="FxA.TakeYourWebWithYou">
+        <source>Take Your Web With You</source>
+        <note>Call to action for sign into sync button</note>
+      </trans-unit>
+      <trans-unit id="FxAPush_DeviceConnected_body">
+        <source>Firefox Sync has connected to %@</source>
+        <note>Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device.</note>
+      </trans-unit>
+      <trans-unit id="FxAPush_DeviceConnected_title">
+        <source>Sync Connected</source>
+        <note>Title of a notification displayed when another device has connected to FxA.</note>
+      </trans-unit>
+      <trans-unit id="FxAPush_DeviceDisconnected_ThisDevice_body">
+        <source>This device has been successfully disconnected from Firefox Sync.</source>
+        <note>Body of a notification displayed when this device has been disconnected from FxA by another device.</note>
+      </trans-unit>
+      <trans-unit id="FxAPush_DeviceDisconnected_ThisDevice_title">
+        <source>Sync Disconnected</source>
+        <note>Title of a notification displayed when this device has been disconnected by another device.</note>
+      </trans-unit>
+      <trans-unit id="FxAPush_DeviceDisconnected_UnknownDevice_body">
+        <source>A device has disconnected from Firefox Sync</source>
+        <note>Body of a notification displayed when unnamed device has been disconnected from FxA.</note>
+      </trans-unit>
+      <trans-unit id="FxAPush_DeviceDisconnected_body">
+        <source>%@ has been successfully disconnected.</source>
+        <note>Body of a notification displayed when named device has been disconnected from FxA. %@ refers to the name of the disconnected device.</note>
+      </trans-unit>
+      <trans-unit id="FxAPush_DeviceDisconnected_title">
+        <source>Sync Disconnected</source>
+        <note>Title of a notification displayed when named device has been disconnected from FxA.</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.EmptyState.Title">
+        <source>Websites you’ve visited recently will show up here.</source>
+        <note>Title for the History Panel empty state.</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.EmptySyncedTabsNullState.Description">
+        <source>Your tabs from other devices show up here.</source>
+        <note>Description for the empty synced tabs null state in the History Panel</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.EmptySyncedTabsState.Description">
+        <source>Sign in to view open tabs on your other devices.</source>
+        <note>Description for the empty synced tabs state in the History Panel</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.EmptySyncedTabsState.Title">
+        <source>Firefox Sync</source>
+        <note>Title for the empty synced tabs state in the History Panel</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.HistoryBackButton.Title">
+        <source>History</source>
+        <note>Title for the Back to History button in the History Panel</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.RecentlyClosedTabsButton.Title">
+        <source>Recently Closed</source>
+        <note>Title for the Recently Closed button in the History Panel</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.SyncedTabsCell.Description.Pluralized">
+        <source>%d device(s) connected</source>
+        <note>Description that corresponds with a number of devices connected for the Synced Tabs Cell in the History Panel</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.SyncedTabsCell.Title">
+        <source>Synced Devices</source>
+        <note>Title for the Synced Tabs Cell in the History Panel</note>
+      </trans-unit>
+      <trans-unit id="HomePage.Set.Dialog.Cancel">
+        <source>Cancel</source>
+        <note>Button cancelling changes setting the home page for the first time.</note>
+      </trans-unit>
+      <trans-unit id="HomePage.Set.Dialog.Message">
+        <source>You can change this at any time in Settings</source>
+        <note>Alert dialog body when the user opens the home page for the first time.</note>
+      </trans-unit>
+      <trans-unit id="HomePage.Set.Dialog.OK">
+        <source>Set Homepage</source>
+        <note>Button accepting changes setting the home page for the first time.</note>
+      </trans-unit>
+      <trans-unit id="HomePage.Set.Dialog.Title">
+        <source>Do you want to use this web page as your home page?</source>
+        <note>Alert dialog title when the user opens the home page for the first time.</note>
+      </trans-unit>
+      <trans-unit id="HomePanel.ContextMenu.Bookmark">
+        <source>Bookmark</source>
+        <note>The title for the Bookmark context menu action for sites in Home Panels</note>
+      </trans-unit>
+      <trans-unit id="HomePanel.ContextMenu.DeleteFromHistory">
+        <source>Delete from History</source>
+        <note>The title for the Delete from History context menu action for sites in Home Panels</note>
+      </trans-unit>
+      <trans-unit id="HomePanel.ContextMenu.OpenInNewPrivateTab">
+        <source>Open in New Private Tab</source>
+        <note>The title for the Open in New Private Tab context menu action for sites in Home Panels</note>
+      </trans-unit>
+      <trans-unit id="HomePanel.ContextMenu.OpenInNewTab">
+        <source>Open in New Tab</source>
+        <note>The title for the Open in New Tab context menu action for sites in Home Panels</note>
+      </trans-unit>
+      <trans-unit id="HomePanel.ContextMenu.Remove">
+        <source>Remove</source>
+        <note>The title for the Remove context menu action for sites in Home Panels</note>
+      </trans-unit>
+      <trans-unit id="HomePanel.ContextMenu.RemoveBookmark">
+        <source>Remove Bookmark</source>
+        <note>The title for the Remove Bookmark context menu action for sites in Home Panels</note>
+      </trans-unit>
+      <trans-unit id="HomePanel.ContextMenu.Share">
+        <source>Share</source>
+        <note>The title for the Share context menu action for sites in Home Panels</note>
+      </trans-unit>
+      <trans-unit id="Hotkeys.Back.DiscoveryTitle">
+        <source>Back</source>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      </trans-unit>
+      <trans-unit id="Hotkeys.CloseTab.DiscoveryTitle">
+        <source>Close Tab</source>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      </trans-unit>
+      <trans-unit id="Hotkeys.Find.DiscoveryTitle">
+        <source>Find</source>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      </trans-unit>
+      <trans-unit id="Hotkeys.Forward.DiscoveryTitle">
+        <source>Forward</source>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      </trans-unit>
+      <trans-unit id="Hotkeys.NewPrivateTab.DiscoveryTitle">
+        <source>New Private Tab</source>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      </trans-unit>
+      <trans-unit id="Hotkeys.NewTab.DiscoveryTitle">
+        <source>New Tab</source>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      </trans-unit>
+      <trans-unit id="Hotkeys.Reload.DiscoveryTitle">
+        <source>Reload Page</source>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      </trans-unit>
+      <trans-unit id="Hotkeys.SelectLocationBar.DiscoveryTitle">
+        <source>Select Location Bar</source>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      </trans-unit>
+      <trans-unit id="Hotkeys.ShowNextTab.DiscoveryTitle">
+        <source>Show Next Tab</source>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      </trans-unit>
+      <trans-unit id="Hotkeys.ShowPreviousTab.DiscoveryTitle">
+        <source>Show Previous Tab</source>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+      </trans-unit>
+      <trans-unit id="Log Out">
+        <source>Log Out</source>
+        <note>Button in settings screen to disconnect from your account
+   Disconnect button in the 'log out firefox account' alert</note>
+      </trans-unit>
+      <trans-unit id="Log Out?">
+        <source>Log Out?</source>
+        <note>Title of the 'log out firefox account' alert</note>
+      </trans-unit>
+      <trans-unit id="LoginsHelper.DontSave.Button">
+        <source>Don’t Save</source>
+        <note>Button to not save the user's password</note>
+      </trans-unit>
+      <trans-unit id="LoginsHelper.SaveLogin.Button">
+        <source>Save Login</source>
+        <note>Button to save the user's password</note>
+      </trans-unit>
+      <trans-unit id="LoginsHelper.Update.Button">
+        <source>Update</source>
+        <note>Button to update the user's password</note>
+      </trans-unit>
+      <trans-unit id="Menu.NightModeTurnOff.Label">
+        <source>Disable Night Mode</source>
+        <note>Label for the button, displayed in the menu, turns off night mode</note>
+      </trans-unit>
+      <trans-unit id="Menu.NightModeTurnOn.Label">
+        <source>Enable Night Mode</source>
+        <note>Label for the button, displayed in the menu, turns on night mode.</note>
+      </trans-unit>
+      <trans-unit id="Menu.NoImageModeHideImages.Label">
+        <source>Hide Images</source>
+        <note>Label for the button, displayed in the menu, hides images on the webpage when pressed.</note>
+      </trans-unit>
+      <trans-unit id="Menu.NoImageModeShowImages.Label">
+        <source>Show Images</source>
+        <note>Label for the button, displayed in the menu, shows images on the webpage when pressed</note>
+      </trans-unit>
+      <trans-unit id="OpenURL.Error.Message">
+        <source>Firefox cannot open the page because it has an invalid address.</source>
+        <note>The message displayed to a user when they try to open a URL that cannot be handled by Firefox, or any external app.</note>
+      </trans-unit>
+      <trans-unit id="OpenURL.Error.Title">
+        <source>Cannot Open Page</source>
+        <note>Title of the message shown when the user attempts to navigate to an invalid link.</note>
+      </trans-unit>
+      <trans-unit id="PhotonMenu.cancel">
+        <source>Cancel</source>
+        <note>Button for closing the menu action sheet</note>
+      </trans-unit>
+      <trans-unit id="ReaderMode.Available.VoiceOverAnnouncement">
+        <source>Reader Mode available</source>
+        <note>Accessibility message e.g. spoken by VoiceOver when Reader Mode becomes available.</note>
+      </trans-unit>
+      <trans-unit id="RecentlyClosedTabsPanel.Title">
+        <source>Recently Closed</source>
+        <note>Title for the Recently Closed Tabs Panel</note>
+      </trans-unit>
+      <trans-unit id="Reset text size">
+        <source>Reset text size</source>
+        <note>Accessibility label for button resetting font size in display settings of reader mode</note>
+      </trans-unit>
+      <trans-unit id="ScanQRCode.Instructions.Label">
+        <source>Align QR code within frame to scan</source>
+        <note>Text for the instructions label, displayed in the QR scanner view</note>
+      </trans-unit>
+      <trans-unit id="ScanQRCode.View.Title">
+        <source>Scan QR Code</source>
+        <note>Title for the QR code scanner view.</note>
+      </trans-unit>
+      <trans-unit id="Search.ThirdPartyEngines.AddMessage">
+        <source>The new search engine will appear in the quick search bar.</source>
+        <note>The message that asks the user to Add the search provider explaining where the search engine will appear</note>
+      </trans-unit>
+      <trans-unit id="Search.ThirdPartyEngines.AddSuccess">
+        <source>Added Search engine!</source>
+        <note>The success message that appears after a user sucessfully adds a new search engine</note>
+      </trans-unit>
+      <trans-unit id="Search.ThirdPartyEngines.AddTitle">
+        <source>Add Search Provider?</source>
+        <note>The title that asks the user to Add the search provider</note>
+      </trans-unit>
+      <trans-unit id="Search.ThirdPartyEngines.Cancel">
+        <source>Cancel</source>
+        <note>The cancel button if you do not want to add a search engine.</note>
+      </trans-unit>
+      <trans-unit id="Search.ThirdPartyEngines.DuplicateErrorMessage">
+        <source>A search engine with this title or URL has already been added.</source>
+        <note>A message explaining fault in custom search engine form.</note>
+      </trans-unit>
+      <trans-unit id="Search.ThirdPartyEngines.DuplicateErrorTitle">
+        <source>Failed</source>
+        <note>A title stating that we failed to add custom search engine.</note>
+      </trans-unit>
+      <trans-unit id="Search.ThirdPartyEngines.FailedMessage">
+        <source>The search provider could not be added.</source>
+        <note>A title explaining that we failed to add a search engine</note>
+      </trans-unit>
+      <trans-unit id="Search.ThirdPartyEngines.FailedTitle">
+        <source>Failed</source>
+        <note>A title explaining that we failed to add a search engine</note>
+      </trans-unit>
+      <trans-unit id="Search.ThirdPartyEngines.FormErrorMessage">
+        <source>Please fill all fields correctly.</source>
+        <note>A message explaining fault in custom search engine form.</note>
+      </trans-unit>
+      <trans-unit id="Search.ThirdPartyEngines.FormErrorTitle">
+        <source>Failed</source>
+        <note>A title stating that we failed to add custom search engine.</note>
+      </trans-unit>
+      <trans-unit id="Search.ThirdPartyEngines.OK">
+        <source>OK</source>
+        <note>The confirmation button</note>
+      </trans-unit>
+      <trans-unit id="SendTo.Cancel.Button">
+        <source>Cancel</source>
+        <note>Button title for cancelling SendTo screen</note>
+      </trans-unit>
+      <trans-unit id="SendTo.Error.Message">
+        <source>Only HTTP and HTTPS links can be shared.</source>
+        <note>Message in error prompt explaining why the URL is invalid.</note>
+      </trans-unit>
+      <trans-unit id="SendTo.Error.OK.Button">
+        <source>OK</source>
+        <note>OK button to dismiss the error prompt.</note>
+      </trans-unit>
+      <trans-unit id="SendTo.Error.Title">
+        <source>The link you are trying to share cannot be shared.</source>
+        <note>Title of error prompt displayed when an invalid URL is shared.</note>
+      </trans-unit>
+      <trans-unit id="SentTab.NoTabArrivingNotification.body">
+        <source>Tap to begin</source>
+        <note>Body of notification received after a spurious message from FxA has been received.</note>
+      </trans-unit>
+      <trans-unit id="SentTab.NoTabArrivingNotification.title">
+        <source>Firefox Sync</source>
+        <note>Title of notification received after a spurious message from FxA has been received.</note>
+      </trans-unit>
+      <trans-unit id="SentTab_TabArrivingNotification_NoDevice_body">
+        <source>New tab arrived from another device.</source>
+        <note>Body of notification shown when the device is sent one or more tabs from an unnamed device.</note>
+      </trans-unit>
+      <trans-unit id="SentTab_TabArrivingNotification_NoDevice_title">
+        <source>Tab received</source>
+        <note>Title of notification shown when the device is sent one or more tabs from an unnamed device.</note>
+      </trans-unit>
+      <trans-unit id="SentTab_TabArrivingNotification_WithDevice_body">
+        <source>New tab arrived in %@</source>
+        <note>Body of notification shown when the device is sent one or more tabs from the named device. %@ is the placeholder for the app name.</note>
+      </trans-unit>
+      <trans-unit id="SentTab_TabArrivingNotification_WithDevice_title">
+        <source>Tab received from %@</source>
+        <note>Title of notification shown when the device is sent one or more tabs from the named device. %@ is the placeholder for the device name. This device name will be localized by that device.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AddCustomEngine">
+        <source>Add Search Engine</source>
+        <note>The button text in Search Settings that opens the Custom Search Engine view.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AddCustomEngine.SaveButtonText">
+        <source>Save</source>
+        <note>The text on the Save button when saving a custom search engine</note>
+      </trans-unit>
+      <trans-unit id="Settings.AddCustomEngine.Title">
+        <source>Add Search Engine</source>
+        <note>The title of the  Custom Search Engine view.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AddCustomEngine.TitleLabel">
+        <source>Title</source>
+        <note>The title for the field which sets the title for a custom search engine.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AddCustomEngine.TitlePlaceholder">
+        <source>Search Engine</source>
+        <note>The placeholder for Title Field when saving a custom search engine.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AddCustomEngine.URLLabel">
+        <source>URL</source>
+        <note>The title for URL Field</note>
+      </trans-unit>
+      <trans-unit id="Settings.AddCustomEngine.URLPlaceholder">
+        <source>URL (Replace Query with %s)</source>
+        <note>The placeholder for URL Field when saving a custom search engine</note>
+      </trans-unit>
+      <trans-unit id="Settings.AdvanceAccount.ErrorAlertMessage">
+        <source>There was an error while attempting to parse the url. Please make sure that it is a valid Firefox Account root url.</source>
+        <note>Messaged displayed when sync service has an error setting a custom sync url.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AdvanceAccount.ErrorAlertOk">
+        <source>OK</source>
+        <note>Ok button on custom sync service error alert.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AdvanceAccount.ErrorAlertTitle">
+        <source>Error</source>
+        <note>Error alert message title.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AdvanceAccount.SectionName">
+        <source>Account Settings</source>
+        <note>Label used as an item in Settings. When touched it will open a dialog to setup advance Firefox account settings.
+   Title displayed in header of the setting panel.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AdvanceAccount.UpdatedAlertMessage">
+        <source>Firefox account service updated. To begin using custom server, please log out and re-login.</source>
+        <note>Messaged displayed when sync service has been successfully set.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AdvanceAccount.UpdatedAlertOk">
+        <source>OK</source>
+        <note>Ok button on custom sync service updated alert</note>
+      </trans-unit>
+      <trans-unit id="Settings.AdvanceAccount.UrlPlaceholder">
+        <source>Custom Account Url</source>
+        <note>Title displayed in header of the setting panel.</note>
+      </trans-unit>
+      <trans-unit id="Settings.ClearPrivateData.Clear.Button">
+        <source>Clear Private Data</source>
+        <note>Button in settings that clears private data for the selected items.</note>
+      </trans-unit>
+      <trans-unit id="Settings.ClearPrivateData.SectionName">
+        <source>Clear Private Data</source>
+        <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
+      </trans-unit>
+      <trans-unit id="Settings.ClearPrivateData.Title">
+        <source>Clear Private Data</source>
+        <note>Title displayed in header of the setting panel.</note>
+      </trans-unit>
+      <trans-unit id="Settings.DNT.OptionAlwaysOn">
+        <source>Always</source>
+        <note>DNT Settings option for always on</note>
+      </trans-unit>
+      <trans-unit id="Settings.DNT.OptionOnWithTP">
+        <source>Only when using Tracking Protection</source>
+        <note>DNT Settings option for only turning on when Tracking Protection is also on</note>
+      </trans-unit>
+      <trans-unit id="Settings.DNT.Title">
+        <source>Send websites a Do Not Track signal that you don’t want to be tracked</source>
+        <note>DNT Settings title</note>
+      </trans-unit>
+      <trans-unit id="Settings.Disconnect.Button">
+        <source>Disconnect Sync</source>
+        <note>Button displayed at the bottom of settings page allowing users to Disconnect from FxA</note>
+      </trans-unit>
+      <trans-unit id="Settings.Disconnect.DestructiveButton">
+        <source>Disconnect</source>
+        <note>Destructive action button in alert when user is prompted for disconnect</note>
+      </trans-unit>
+      <trans-unit id="Settings.Disconnect.Title">
+        <source>Disconnect Sync?</source>
+        <note>Title of the alert when prompting the user asking to disconnect.</note>
+      </trans-unit>
+      <trans-unit id="Settings.HomePage.Clear.Button">
+        <source>Clear</source>
+        <note>Button in settings to clear the home page.</note>
+      </trans-unit>
+      <trans-unit id="Settings.HomePage.SectionName">
+        <source>Homepage</source>
+        <note>Label used as an item in Settings. When touched it will open a dialog to configure the home page and its uses.</note>
+      </trans-unit>
+      <trans-unit id="Settings.HomePage.Title">
+        <source>Homepage Settings</source>
+        <note>Title displayed in header of the setting panel.</note>
+      </trans-unit>
+      <trans-unit id="Settings.HomePage.URL.Placeholder">
+        <source>Enter a webpage</source>
+        <note>Placeholder text in the homepage setting when no homepage has been set.</note>
+      </trans-unit>
+      <trans-unit id="Settings.HomePage.URL.Title">
+        <source>Current Homepage</source>
+        <note>Title of the setting section containing the URL of the current home page.</note>
+      </trans-unit>
+      <trans-unit id="Settings.HomePage.UseCopiedLink.Button">
+        <source>Use Copied Link</source>
+        <note>Button in settings to use the current link on the clipboard as home page.</note>
+      </trans-unit>
+      <trans-unit id="Settings.HomePage.UseCurrent.Button">
+        <source>Use Current Page</source>
+        <note>Button in settings to use the current page as home page.</note>
+      </trans-unit>
+      <trans-unit id="Settings.HomePage.UseDefault.Button">
+        <source>Use Default</source>
+        <note>Button in settings to use the default home page. If no default is set, then this button isn't shown.</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Description">
+        <source>When you open a New Tab:</source>
+        <note>A description in settings of what the new tab choice means</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.BlankPage">
+        <source>Show a Blank Page</source>
+        <note>Option in settings to show a blank page when you open a new tab</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.Bookmarks">
+        <source>Show your Bookmarks</source>
+        <note>Option in settings to show bookmarks when you open a new tab</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.History">
+        <source>Show your History</source>
+        <note>Option in settings to show history when you open a new tab</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.HomePage">
+        <source>Show your Homepage</source>
+        <note>Option in settings to show your homepage when you open a new tab</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.ReadingList">
+        <source>Show your Reading List</source>
+        <note>Option in settings to show reading list when you open a new tab</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.TopSites">
+        <source>Show your Top Sites</source>
+        <note>Option in settings to show top sites when you open a new tab</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.SectionName">
+        <source>New Tab</source>
+        <note>Label used as an item in Settings. When touched it will open a dialog to configure the new tab behaviour.</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Title">
+        <source>New Tab Settings</source>
+        <note>Title displayed in header of the setting panel.</note>
+      </trans-unit>
+      <trans-unit id="Settings.OfferClipboardBar.Status">
+        <source>When Opening Firefox</source>
+        <note>Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349</note>
+      </trans-unit>
+      <trans-unit id="Settings.OfferClipboardBar.Title">
+        <source>Offer to Open Copied Links</source>
+        <note>Title of setting to enable the Go to Copied URL feature. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349</note>
+      </trans-unit>
+      <trans-unit id="Settings.OpenWith.PageTitle">
+        <source>Open mail links in</source>
+        <note>Title for Open With Settings</note>
+      </trans-unit>
+      <trans-unit id="Settings.OpenWith.SectionName">
+        <source>Open With</source>
+        <note>Label used as an item in Settings. When touched it will open a dialog to configure the open with (mail links) behaviour.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.Done.Button">
+        <source>Done</source>
+        <note>Button displayed at the top of the search settings.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.Edit.Button">
+        <source>Edit</source>
+        <note>Button displayed at the top of the search settings.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtection.BlockListsHeader">
+        <source>You can choose which list Firefox will use to block Web elements that may track your browsing activity.</source>
+        <note>Header description for tracking protection options section where Basic/Strict block list can be selected</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtection.BlockListsTitle">
+        <source>Block Lists</source>
+        <note>Title for tracking protection options section where Basic/Strict block list can be selected</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtection.SectionName">
+        <source>Tracking Protection</source>
+        <note>Row in top-level of settings that gets tapped to show the tracking protection settings detail view.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtectionOption.BlockListBasic">
+        <source>Basic (Recommended)</source>
+        <note>Tracking protection settings option for using the basic blocklist.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtectionOption.BlockListBasicDescription">
+        <source>Allows some trackers so websites function properly.</source>
+        <note>Tracking protection settings option description for using the basic blocklist.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtectionOption.BlockListStrict">
+        <source>Strict</source>
+        <note>Tracking protection settings option for using the strict blocklist.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtectionOption.BlockListStrictDescription">
+        <source>Blocks known trackers. Some websites may not function properly.</source>
+        <note>Tracking protection settings option description for using the strict blocklist.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtectionOption.EnabledStateFooterLabel">
+        <source>Tracking is the collection of your browsing data across multiple websites. Tracking can be used to build a profile and display content based on your browsing and personal information.</source>
+        <note>Description label shown on tracking protection options screen.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtectionOption.EnabledStateHeaderLabel">
+        <source>Use Tracking Protection to Block Known Trackers</source>
+        <note>Description label shown at the top of tracking protection options screen.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtectionOption.OffLabel">
+        <source>Never</source>
+        <note>Settings option to specify that Tracking Protection is always off.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtectionOption.OnInPrivateBrowsingLabel">
+        <source>Private Browsing Mode Only</source>
+        <note>Settings option to specify that Tracking Protection is on only in Private Browsing mode.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtectionOption.OnLabel">
+        <source>Always On</source>
+        <note>Settings option to specify that Tracking Protection is always on.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TroubleShootSync.Title">
+        <source>Troubleshoot</source>
+        <note>Title of link to help page to find out how to solve Sync issues</note>
+      </trans-unit>
+      <trans-unit id="ShareTo.Cancel.Button">
+        <source>Cancel</source>
+        <note>Button title for cancelling Share screen</note>
+      </trans-unit>
+      <trans-unit id="Sync.FirstTimeMessage.Label">
+        <source>Your first sync may take a while</source>
+        <note>Message displayed when the user syncs for the first time</note>
+      </trans-unit>
+      <trans-unit id="Sync.Syncing.Label">
+        <source>Syncing</source>
+        <note>Message displayed when the user's account is syncing with no ellipsis</note>
+      </trans-unit>
+      <trans-unit id="Sync.SyncingEllipsis.Label">
+        <source>Syncing…</source>
+        <note>Message displayed when the user's account is syncing with ellipsis at the end</note>
+      </trans-unit>
+      <trans-unit id="SyncState.Bookmark.Title">
+        <source>Bookmarks</source>
+        <note>The Bookmark sync component, used in SyncState.Partial.Title</note>
+      </trans-unit>
+      <trans-unit id="SyncState.Clients.Title">
+        <source>Remote Clients</source>
+        <note>The Remote Clients sync component, used in SyncState.Partial.Title</note>
+      </trans-unit>
+      <trans-unit id="SyncState.Failed.Title">
+        <source>Syncing has failed</source>
+        <note>Title for Sync status message when synchronization failed to complete</note>
+      </trans-unit>
+      <trans-unit id="SyncState.History.Title">
+        <source>History</source>
+        <note>The History sync component, used in SyncState.Partial.Title</note>
+      </trans-unit>
+      <trans-unit id="SyncState.Logins.Title">
+        <source>Logins</source>
+        <note>The Logins sync component, used in SyncState.Partial.Title</note>
+      </trans-unit>
+      <trans-unit id="SyncState.NotStarted.Title">
+        <source>Sync is unavailable</source>
+        <note>Title for Sync status message when Sync failed to start.</note>
+      </trans-unit>
+      <trans-unit id="SyncState.Offline.Title">
+        <source>Sync is offline</source>
+        <note>Title for Sync status message when Sync failed due to being offline</note>
+      </trans-unit>
+      <trans-unit id="SyncState.Partial.Title">
+        <source>Sync is experiencing issues syncing %@</source>
+        <note>Title for Sync status message when a component of Sync failed to complete, where %@ represents the name of the component, i.e. Sync is experiencing issues syncing Bookmarks</note>
+      </trans-unit>
+      <trans-unit id="SyncState.Tabs.Title">
+        <source>Tabs</source>
+        <note>The Tabs sync component, used in SyncState.Partial.Title</note>
+      </trans-unit>
+      <trans-unit id="Tabs.DeleteAllUndo.Button">
+        <source>Undo</source>
+        <note>The button to undo the delete all tabs</note>
+      </trans-unit>
+      <trans-unit id="Tabs.DeleteAllUndo.Title">
+        <source>%d tab(s) closed</source>
+        <note>The label indicating that all the tabs were closed</note>
+      </trans-unit>
+      <trans-unit id="Toolbar.Menu.AccessibilityLabel">
+        <source>Menu</source>
+        <note>Accessibility label for the Menu button.</note>
+      </trans-unit>
+      <trans-unit id="Toolbar.Menu.CloseAllTabs">
+        <source>Close All Tabs</source>
+        <note>Accessibility label for the Close All Tabs menu button.</note>
+      </trans-unit>
+      <trans-unit id="TopSites.EmptyState.Description">
+        <source>Your most visited sites will show up here.</source>
+        <note>Description label for the empty Top Sites state.</note>
+      </trans-unit>
+      <trans-unit id="TopSites.EmptyState.Title">
+        <source>Welcome to Top Sites</source>
+        <note>The title for the empty Top Sites state</note>
+      </trans-unit>
+      <trans-unit id="TopSites.RemovePage.Button">
+        <source>Remove page — %@</source>
+        <note>Button shown in editing mode to remove this site from the top sites panel.</note>
+      </trans-unit>
+      <trans-unit id="just now">
+        <source>just now</source>
+        <note>Relative time for a tab that was visited within the last few moments.</note>
+      </trans-unit>
+      <trans-unit id="more than a month ago">
+        <source>more than a month ago</source>
+        <note>Relative date for dates older than a month and less than two months.</note>
+      </trans-unit>
+      <trans-unit id="more than a week ago">
+        <source>more than a week ago</source>
+        <note>Description for a date more than a week ago, but less than a month ago.</note>
+      </trans-unit>
+      <trans-unit id="this week">
+        <source>this week</source>
+        <note>Relative date for date in past week.</note>
+      </trans-unit>
+      <trans-unit id="today at %@">
+        <source>today at %@</source>
+        <note>Relative date for date older than a minute.</note>
+      </trans-unit>
+      <trans-unit id="yesterday">
+        <source>yesterday</source>
+        <note>Relative date for yesterday.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/Menu.strings" source-language="en" datatype="plaintext" target-language="ia">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
+    </header>
+    <body>
+      <trans-unit id="Menu.AddBookmarkAction.Title">
+        <source>Bookmark This Page</source>
+        <note>Label for the button, displayed in the menu, used to create a bookmark for the current website.</note>
+      </trans-unit>
+      <trans-unit id="Menu.AddToReadingList.Title">
+        <source>Add to Reading List</source>
+        <note>Label for the button, displayed in the menu, used to add a page to the reading list.</note>
+      </trans-unit>
+      <trans-unit id="Menu.CloseAllTabsAction.Title">
+        <source>Close All Tabs</source>
+        <note>Label for the button, displayed in the menu, used to close all tabs currently open.</note>
+      </trans-unit>
+      <trans-unit id="Menu.CopyURL.Title">
+        <source>Copy URL</source>
+        <note>Label for the button, displayed in the menu, used to copy the page url to the clipboard.</note>
+      </trans-unit>
+      <trans-unit id="Menu.FindInPageAction.Title">
+        <source>Find in Page</source>
+        <note>Label for the button, displayed in the menu, used to open the toolbar to search for text within the current page.</note>
+      </trans-unit>
+      <trans-unit id="Menu.NewPrivateTabAction.Title">
+        <source>Open New Private Tab</source>
+        <note>Label for the button, displayed in the menu, used to open a new private tab.</note>
+      </trans-unit>
+      <trans-unit id="Menu.NewTabAction.Title">
+        <source>Open New Tab</source>
+        <note>Label for the button, displayed in the menu, used to open a new tab</note>
+      </trans-unit>
+      <trans-unit id="Menu.OpenBookmarksAction.AccessibilityLabel">
+        <source>Bookmarks</source>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Bbookmarks home panel.</note>
+      </trans-unit>
+      <trans-unit id="Menu.OpenHistoryAction.AccessibilityLabel">
+        <source>History</source>
+        <note>Accessibility label for the button, displayed in the menu, used to open the History home panel.</note>
+      </trans-unit>
+      <trans-unit id="Menu.OpenHomePageAction.Title">
+        <source>Open Homepage</source>
+        <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
+      </trans-unit>
+      <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel">
+        <source>Reading List</source>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Reading list home panel.</note>
+      </trans-unit>
+      <trans-unit id="Menu.OpenSettingsAction.Title">
+        <source>Settings</source>
+        <note>Label for the button, displayed in the menu, used to open the Settings menu.</note>
+      </trans-unit>
+      <trans-unit id="Menu.OpenTopSitesAction.AccessibilityLabel">
+        <source>Top Sites</source>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Top Sites home panel.</note>
+      </trans-unit>
+      <trans-unit id="Menu.RemoveBookmarkAction.Title">
+        <source>Remove Bookmark</source>
+        <note>Label for the button, displayed in the menu, used to delete an existing bookmark for the current website.</note>
+      </trans-unit>
+      <trans-unit id="Menu.ScanQRCodeAction.Title">
+        <source>Scan QR Code</source>
+        <note>Label for the button, displayed in the menu, used to open the QR code scanner.</note>
+      </trans-unit>
+      <trans-unit id="Menu.SetHomePageAction.Title">
+        <source>Set as Homepage</source>
+        <note>Label for the button, displayed in the menu, used to set the homepage if none is currently set.</note>
+      </trans-unit>
+      <trans-unit id="Menu.SharePageAction.Title">
+        <source>Share Page With...</source>
+        <note>Label for the button, displayed in the menu, used to open the share dialog.</note>
+      </trans-unit>
+      <trans-unit id="Menu.ShowTabs.Title">
+        <source>Show Tabs</source>
+        <note>Label for the button, displayed in the menu, used to open the tabs tray</note>
+      </trans-unit>
+      <trans-unit id="Menu.ViewDekstopSiteAction.Title">
+        <source>Request Desktop Site</source>
+        <note>Label for the button, displayed in the menu, used to request the desktop version of the current website.</note>
+      </trans-unit>
+      <trans-unit id="Menu.ViewMobileSiteAction.Title">
+        <source>Request Mobile Site</source>
+        <note>Label for the button, displayed in the menu, used to request the mobile version of the current website.</note>
       </trans-unit>
     </body>
   </file>
   <file original="Shared/Supporting Files/Shared.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="%@ on %@">
@@ -2774,24 +2687,9 @@
       </trans-unit>
     </body>
   </file>
-  <file original="SharedTests/Info.plist" source-language="en" datatype="plaintext" target-language="ia">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="Storage.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="Bookmarks Menu">
@@ -2822,123 +2720,48 @@
       </trans-unit>
     </body>
   </file>
-  <file original="StoragePerfTests/Info.plist" source-language="en" datatype="plaintext" target-language="ia">
+  <file original="StorageTests/Storage.strings" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
+      <trans-unit id="Bookmarks Menu">
+        <source>Bookmarks Menu</source>
+        <note>The name of the folder that contains desktop bookmarks in the menu. This should match bookmarks.folder.menu.label on Android.</note>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+      <trans-unit id="Bookmarks Toolbar">
+        <source>Bookmarks Toolbar</source>
+        <note>The name of the folder that contains desktop bookmarks in the toolbar. This should match bookmarks.folder.toolbar.label on Android.</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="StorageTests/Info.plist" source-language="en" datatype="plaintext" target-language="ia">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
+      <trans-unit id="Mobile Bookmarks">
+        <source>Mobile Bookmarks</source>
+        <note>The title of the folder that contains mobile bookmarks. This should match bookmarks.folder.mobile.label on Android.</note>
       </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+      <trans-unit id="Unsorted Bookmarks">
+        <source>Unsorted Bookmarks</source>
+        <note>The name of the folder that contains unsorted desktop bookmarks. This should match bookmarks.folder.unfiled.label on Android.</note>
       </trans-unit>
     </body>
   </file>
   <file original="Sync/Info.plist" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="SyncTests/Info.plist" source-language="en" datatype="plaintext" target-language="ia">
+  <file original="SyncTelemetry/Info.plist" source-language="en" datatype="plaintext" target-language="ia">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
     </header>
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
         <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Telemetry/Info.plist" source-language="en" datatype="plaintext" target-language="ia">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="TelemetryTests/Info.plist" source-language="en" datatype="plaintext" target-language="ia">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="UITests/Info.plist" source-language="en" datatype="plaintext" target-language="ia">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="XCUITests/Info.plist" source-language="en" datatype="plaintext" target-language="ia">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
       </trans-unit>
     </body>
   </file>
