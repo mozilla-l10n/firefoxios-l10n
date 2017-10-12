@@ -10,8 +10,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+        <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -25,8 +25,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+        <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -132,6 +132,10 @@
         <target>Sekcem azamul uffir</target>
         <note>Text displayed above the input field when changing the existing passcode</note>
       </trans-unit>
+      <trans-unit id="Face ID &amp; Passcode">
+        <source>Face ID &amp; Passcode</source>
+        <note>Label for the Face ID/Passcode item in Settings</note>
+      </trans-unit>
       <trans-unit id="Immediately">
         <source>Immediately</source>
         <target>Tura kan</target>
@@ -162,9 +166,8 @@
         <target>Yessefk azamul uffir amaynut ad yili yemgarad akked uzamul yellan.</target>
         <note>Error message displayed when user tries to enter the same passcode as their existing code when changing it.</note>
       </trans-unit>
-      <trans-unit id="Passcode">
-        <source>Passcode</source>
-        <target>Azamul uffir</target>
+      <trans-unit id="Passcode For Logins">
+        <source>Passcode For Logins</source>
         <note>Label for the Passcode item in Settings</note>
       </trans-unit>
       <trans-unit id="Passcodes didn’t match. Try again.">
@@ -206,6 +209,10 @@
         <source>Turn off your passcode.</source>
         <target>Kkes armad n uzamul uffir.</target>
         <note>Touch ID prompt subtitle when turning off passcode</note>
+      </trans-unit>
+      <trans-unit id="Use Face ID">
+        <source>Use Face ID</source>
+        <note>List section title for when to use Face ID</note>
       </trans-unit>
       <trans-unit id="Use Touch ID">
         <source>Use Touch ID</source>
@@ -320,11 +327,6 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
     <body>
-      <trans-unit id="Are you sure you want to clear all of your data? This will also close all open tabs.">
-        <source>Are you sure you want to clear all of your data? This will also close all open tabs.</source>
-        <target>Tebɣiḍ ad tsefḍeḍ akk isefka-inek? Aya ad yemdel akk icarren yeldin.</target>
-        <note>Message shown in the dialog prompting users if they want to clear everything</note>
-      </trans-unit>
       <trans-unit id="Browsing History">
         <source>Browsing History</source>
         <target>Amazray n tunigin</target>
@@ -334,21 +336,6 @@
         <source>Cache</source>
         <target>Tuffirt</target>
         <note>Settings item for clearing the cache</note>
-      </trans-unit>
-      <trans-unit id="Cancel">
-        <source>Cancel</source>
-        <target>Sefsex</target>
-        <note>Used as a button label in the dialog to cancel clear private data dialog</note>
-      </trans-unit>
-      <trans-unit id="Clear">
-        <source>Clear</source>
-        <target>Sfeḍ</target>
-        <note>Used as a button label in the dialog to Clear private data dialog</note>
-      </trans-unit>
-      <trans-unit id="Clear Everything">
-        <source>Clear Everything</source>
-        <target>Sfeḍ akk</target>
-        <note>Title of the Clear private data dialog.</note>
       </trans-unit>
       <trans-unit id="Clear Private Data">
         <source>Clear Private Data</source>
@@ -425,8 +412,7 @@
       <trans-unit id="Find in Page">
         <source>Find in Page</source>
         <target>Nadi deg usebter</target>
-        <note>Share action title
-   Text selection menu item</note>
+        <note>Text selection menu item</note>
       </trans-unit>
       <trans-unit id="Next in-page result">
         <source>Next in-page result</source>
@@ -466,8 +452,8 @@
         <target>$(MOZ_PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+        <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you take and upload photos.</source>
@@ -722,10 +708,9 @@
         <target>Yettwacreḍ</target>
         <note>The description of a highlight if it is a site the user has bookmarked</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.Highlights.SectionTitle">
-        <source>Visit Again</source>
-        <target>Inig tikelt nniḍen</target>
-        <note>Section title label for Visit again section</note>
+      <trans-unit id="ActivityStream.Highlights.Title">
+        <source>Highlights</source>
+        <note>Section title label for the Highlights section</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Highlights.Visited">
         <source>Visited</source>
@@ -736,6 +721,14 @@
         <source>Next Page</source>
         <target>Asebter d-iteddun</target>
         <note>The page control button that lets you switch between pages in top sites</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.Pocket.SectionTitle">
+        <source>Recommended by Pocket</source>
+        <note>Section title label for Recommended by Pocket section</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.Pocket.Trending">
+        <source>Trending</source>
+        <note>The description of a Pocket Story</note>
       </trans-unit>
       <trans-unit id="ActivityStream.TopSites.SectionTitle">
         <source>Top Sites</source>
@@ -847,11 +840,6 @@
         <source>Brightness</source>
         <target>Asebrureq</target>
         <note>Accessibility label for brightness adjustment slider in Reader Mode display settings</note>
-      </trans-unit>
-      <trans-unit id="Call">
-        <source>Call</source>
-        <target>Asiwel</target>
-        <note>Alert Call Button</note>
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
@@ -1015,20 +1003,15 @@
         <target>Tebɣiḍ ad tesnifleḍ awal uffir ɣef %@?</target>
         <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
       </trans-unit>
-      <trans-unit id="Don’t Send">
-        <source>Don’t Send</source>
-        <target>Ur ttazen ara</target>
-        <note>Used as a button label for crash dialog prompt</note>
-      </trans-unit>
       <trans-unit id="Done">
         <source>Done</source>
         <target>Immed</target>
         <note>Done button on left side of the Settings view controller title bar</note>
       </trans-unit>
-      <trans-unit id="Double tap and hold to open history">
-        <source>Double tap and hold to open history</source>
-        <target>Sit snat n tikwal udiɣ eǧǧ afus-ik akken ad teldiḍ amazray</target>
-        <note>Accessibility hint, associated to the Back button in the tab toolbar, used by assistive technology to describe the result of a double tap.</note>
+      <trans-unit id="Don’t Send">
+        <source>Don’t Send</source>
+        <target>Ur ttazen ara</target>
+        <note>Used as a button label for crash dialog prompt</note>
       </trans-unit>
       <trans-unit id="Downloads.Alert.Cancel">
         <source>No</source>
@@ -1508,25 +1491,37 @@
         <note>Name for Mark as unread button in reader mode
    Title for the button that marks a reading list item as unread</note>
       </trans-unit>
-      <trans-unit id="Menu.NightModeTurnOffAction.Label">
-        <source>Night Mode Off</source>
-        <target>Askar n yiḍ ur yermid ara</target>
-        <note>Label for the button, displayed in the menu, used to turn night mode off. 'Off' is only displayed when the mode is on.</note>
+      <trans-unit id="Menu.AddBookmark.Confirm">
+        <source>Bookmark Added</source>
+        <note>Toast displayed to the user after a bookmark has been added.</note>
       </trans-unit>
-      <trans-unit id="Menu.NightModeTurnOnAction.Label">
-        <source>Night Mode</source>
-        <target>Askar n yiḍ</target>
-        <note>Label for the button, displayed in the menu, used to turn night mode on. 'Turn On' is an indication of state, and thus redundant.</note>
+      <trans-unit id="Menu.AddToReadingList.Confirm">
+        <source>Added To Reading List</source>
+        <note>Toast displayed to the user after adding the item to their reading list.</note>
       </trans-unit>
-      <trans-unit id="Menu.NoImageModeTurnOffAction.Label">
-        <source>Show Images</source>
-        <target>Sken tugniwin</target>
-        <note>Label for the button, displayed in the menu, used to turn no image mode off.</note>
+      <trans-unit id="Menu.CopyURL.Confirm">
+        <source>URL Copied To Clipboard</source>
+        <note>Toast displayed to user after copy url pressed.</note>
       </trans-unit>
-      <trans-unit id="Menu.NoImageModeTurnOnAction.Label">
+      <trans-unit id="Menu.NightModeTurnOff.Label">
+        <source>Disable Night Mode</source>
+        <note>Label for the button, displayed in the menu, turns off night mode</note>
+      </trans-unit>
+      <trans-unit id="Menu.NightModeTurnOn.Label">
+        <source>Enable Night Mode</source>
+        <note>Label for the button, displayed in the menu, turns on night mode.</note>
+      </trans-unit>
+      <trans-unit id="Menu.NoImageModeHideImages.Label">
         <source>Hide Images</source>
-        <target>Ffer tugniwin</target>
-        <note>Label for the button, displayed in the menu, used to turn no image mode on.</note>
+        <note>Label for the button, displayed in the menu, hides images on the webpage when pressed.</note>
+      </trans-unit>
+      <trans-unit id="Menu.NoImageModeShowImages.Label">
+        <source>Show Images</source>
+        <note>Label for the button, displayed in the menu, shows images on the webpage when pressed</note>
+      </trans-unit>
+      <trans-unit id="Menu.RemoveBookmark.Confirm">
+        <source>Bookmark Removed</source>
+        <note>Toast displayed to the user after a bookmark has been removed.</note>
       </trans-unit>
       <trans-unit id="Missing error">
         <source>Missing error</source>
@@ -1613,6 +1608,10 @@
         <target>Alday n %@</target>
         <note>Opening an external URL</note>
       </trans-unit>
+      <trans-unit id="Page Options Menu">
+        <source>Page Options Menu</source>
+        <note>Accessibility label for the Page Options menu button</note>
+      </trans-unit>
       <trans-unit id="Panel Chooser">
         <source>Panel Chooser</source>
         <target>Amsefran n ugalis</target>
@@ -1632,6 +1631,10 @@
         <source>Paste &amp; Go</source>
         <target>Senteḍ &amp; ddu</target>
         <note>Paste the URL into the location bar and visit</note>
+      </trans-unit>
+      <trans-unit id="PhotonMenu.cancel">
+        <source>Cancel</source>
+        <note>Button for closing the menu action sheet</note>
       </trans-unit>
       <trans-unit id="Please allow Firefox to access your device’s camera in ‘Settings’ -&gt; ‘Privacy’ -&gt; ‘Camera’.">
         <source>Please allow Firefox to access your device’s camera in ‘Settings’ -&gt; ‘Privacy’ -&gt; ‘Camera’.</source>
@@ -1691,14 +1694,12 @@
       <trans-unit id="Request Desktop Site">
         <source>Request Desktop Site</source>
         <target>Suter asmel n tnarit</target>
-        <note>Action Sheet Button for Requesting the Desktop Site
-   Share action title</note>
+        <note>Action Sheet Button for Requesting the Desktop Site</note>
       </trans-unit>
       <trans-unit id="Request Mobile Site">
         <source>Request Mobile Site</source>
         <target>Suter asmel aziraz</target>
-        <note>Action Sheet Button for Requesting the Mobile Site
-   Share action title</note>
+        <note>Action Sheet Button for Requesting the Mobile Site</note>
       </trans-unit>
       <trans-unit id="Reset text size">
         <source>Reset text size</source>
@@ -1846,16 +1847,6 @@
         <target>Aseɣwen i tettaɛraḍeḍ ad tebḍuḍ ur yezmir ara ad yettwabḍu.</target>
         <note>Title of error prompt displayed when an invalid URL is shared.</note>
       </trans-unit>
-      <trans-unit id="SentTab.AddToReadingList">
-        <source>Add to Reading List</source>
-        <target>Rnu ɣer tebdart n tɣuri</target>
-        <note>Button title displayed in a notification when a sent tab has been received. Tapping on the button will add the page to the reading list.</note>
-      </trans-unit>
-      <trans-unit id="SentTab.BookmarkPage">
-        <source>Bookmark</source>
-        <target>Creḍ asebter-agi</target>
-        <note>Button title displayed in a notification when a sent tab has been received. Tapping on the button will add the URL as a bookmark.</note>
-      </trans-unit>
       <trans-unit id="SentTab.NoTabArrivingNotification.body">
         <source>Tap to begin</source>
         <target>Senned akken ad tebḍuḍ</target>
@@ -1865,11 +1856,6 @@
         <source>Firefox Sync</source>
         <target>Firefox Sync</target>
         <note>Title of notification received after a spurious message from FxA has been received.</note>
-      </trans-unit>
-      <trans-unit id="SentTab.ViewPage">
-        <source>View</source>
-        <target>Sken</target>
-        <note>Button title displayed in a notification when a sent tab has been received. Tapping on the button will open the URL.</note>
       </trans-unit>
       <trans-unit id="SentTab_TabArrivingNotification_NoDevice_body">
         <source>New tab arrived from another device.</source>
@@ -1904,8 +1890,7 @@
       <trans-unit id="Settings">
         <source>Settings</source>
         <target>Iɣewwaren</target>
-        <note>Accessibility label for the Settings button in the Tab Tray.
-   Settings</note>
+        <note>Title in the settings view controller title bar</note>
       </trans-unit>
       <trans-unit id="Settings.AddCustomEngine">
         <source>Add Search Engine</source>
@@ -1973,8 +1958,7 @@
         <note>DNT Settings title</note>
       </trans-unit>
       <trans-unit id="Settings.Disconnect.Button">
-        <source>Disconnect</source>
-        <target>Ffeɣ</target>
+        <source>Disconnect Sync</source>
         <note>Button displayed at the bottom of settings page allowing users to Disconnect from FxA</note>
       </trans-unit>
       <trans-unit id="Settings.Disconnect.DestructiveButton">
@@ -1983,8 +1967,7 @@
         <note>Destructive action button in alert when user is prompted for disconnect</note>
       </trans-unit>
       <trans-unit id="Settings.Disconnect.Title">
-        <source>Disconnect?</source>
-        <target>Ffeɣ</target>
+        <source>Disconnect Sync?</source>
         <note>Title of the alert when prompting the user asking to disconnect.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.Clear.Button">
@@ -2001,16 +1984,6 @@
         <source>Homepage Settings</source>
         <target>Iɣewwaren n usebter agejdan</target>
         <note>Title displayed in header of the setting panel.</note>
-      </trans-unit>
-      <trans-unit id="Settings.HomePage.UI.Toggle.Subtitle">
-        <source>Otherwise show in the toolbar</source>
-        <target>Neɣ sken deg ufeggag</target>
-        <note>Label displayed under the 'Show Homepage Icon In Menu' option. It describes the effect of this setting when disabled.</note>
-      </trans-unit>
-      <trans-unit id="Settings.HomePage.UI.Toggle.Title">
-        <source>Show Homepage Icon In Menu</source>
-        <target>Sken tignit n usebter agejdan deg wumuɣ</target>
-        <note>Label used as an item in Settings. User can toggle this setting to show the home page button in menu, or on toolbar.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.URL.Placeholder">
         <source>Enter a webpage</source>
@@ -2042,6 +2015,10 @@
         <target>Ticki teldiḍ iccer amaynut:</target>
         <note>A description in settings of what the new tab choice means</note>
       </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.ASTitle">
+        <source>Additional Content</source>
+        <note>The title of the section in newtab that lets you modify the topsites panel</note>
+      </trans-unit>
       <trans-unit id="Settings.NewTab.Option.BlankPage">
         <source>Show a Blank Page</source>
         <target>Sken asebter ilem</target>
@@ -2052,6 +2029,14 @@
         <target>Sken ticraḍ-inek</target>
         <note>Option in settings to show bookmarks when you open a new tab</note>
       </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.HighlightsBookmarks">
+        <source>Recent Bookmarks</source>
+        <note>Option in the settings to turn off recent bookmarks in the Highlights section</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.HighlightsHistory">
+        <source>Visited</source>
+        <note>Option in settings to turn off history in the highlights section</note>
+      </trans-unit>
       <trans-unit id="Settings.NewTab.Option.History">
         <source>Show your History</source>
         <target>Sken amazray-inek</target>
@@ -2061,6 +2046,10 @@
         <source>Show your Homepage</source>
         <target>Sken asebter-inek agejdan</target>
         <note>Option in settings to show your homepage when you open a new tab</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.Pocket">
+        <source>Recommended by Pocket</source>
+        <note>Option in settings to turn on off pocket recommendations</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.ReadingList">
         <source>Show your Reading List</source>
@@ -2093,13 +2082,11 @@
         <note>Title of setting to enable the Go to Copied URL feature. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349</note>
       </trans-unit>
       <trans-unit id="Settings.OpenWith.PageTitle">
-        <source>Open mail links in</source>
-        <target>Ldi iseɣwan n imayl deg</target>
+        <source>Open mail links with</source>
         <note>Title for Open With Settings</note>
       </trans-unit>
       <trans-unit id="Settings.OpenWith.SectionName">
-        <source>Open With</source>
-        <target>Ldi s</target>
+        <source>Mail App</source>
         <note>Label used as an item in Settings. When touched it will open a dialog to configure the open with (mail links) behaviour.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Done.Button">
@@ -2111,6 +2098,18 @@
         <source>Edit</source>
         <target>Ẓreg</target>
         <note>Button displayed at the top of the search settings.</note>
+      </trans-unit>
+      <trans-unit id="Settings.SendUsage.Link">
+        <source>Learn More.</source>
+        <note>title for a link that explains how mozilla collects telemetry</note>
+      </trans-unit>
+      <trans-unit id="Settings.SendUsage.Message">
+        <source>Mozilla strives to only collect what we need to provide and improve Firefox for everyone.</source>
+        <note>A short description that explains why mozilla collects usage data.</note>
+      </trans-unit>
+      <trans-unit id="Settings.SendUsage.Title">
+        <source>Send Usage Data</source>
+        <note>The title for the setting to send usage data.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.BlockListsHeader">
         <source>You can choose which list Firefox will use to block Web elements that may track your browsing activity.</source>
@@ -2147,11 +2146,6 @@
         <target>Ad isewḥel imesfuɣal iyettwassnen. Kra n yismal zemren ur tteddun ara akken iwata.</target>
         <note>Tracking protection settings option description for using the strict blocklist.</note>
       </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.BlockListTypeFooter">
-        <source>You can choose which list Firefox will use to block Web elements that may track your browsing activity.</source>
-        <target>Tzemreḍ ad tferneḍ anta tabdart ara yesseqdec Firefox akken ad isewḥel iferdisen Web i izemren ad ḍefṛen armud-ik n tunigin.</target>
-        <note>Description label shown at bottom of tracking protection options for which Block List to use</note>
-      </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.EnabledStateFooterLabel">
         <source>Tracking is the collection of your browsing data across multiple websites. Tracking can be used to build a profile and display content based on your browsing and personal information.</source>
         <target>Asfuɣel neɣ aḍfaṛ icudd ar ulqaḍ n isefka-ik n tunigin ɣef ddeqs n yismal Web. Asfuɣel neɣ aḍfaṛ yezmer ad ittwaseqdec akken ad yettwag umaɣnu neɣ ad d-yesken agbur icudden ar tunigin-ik akked isefka-ik udmawanen.</target>
@@ -2181,11 +2175,6 @@
         <source>Troubleshoot</source>
         <target>Ferru n wuguren</target>
         <note>Title of link to help page to find out how to solve Sync issues</note>
-      </trans-unit>
-      <trans-unit id="Share">
-        <source>Share</source>
-        <target>Bḍu</target>
-        <note>Accessibility Label for the tab toolbar Share button</note>
       </trans-unit>
       <trans-unit id="Share Link">
         <source>Share Link</source>
@@ -2218,21 +2207,11 @@
         <target>Sken isumar n unadi</target>
         <note>Label for show search suggestions setting.</note>
       </trans-unit>
-      <trans-unit id="Sign In to Firefox">
-        <source>Sign In to Firefox</source>
-        <target>Kcem ɣer Firefox</target>
-        <note>Text message / button in the settings table view</note>
-      </trans-unit>
       <trans-unit id="Sign in">
         <source>Sign in</source>
         <target>Kcem</target>
         <note>See http://mzl.la/1Qtkf0j
    Text message / button in the settings table view</note>
-      </trans-unit>
-      <trans-unit id="Sign in to get your tabs, bookmarks, and passwords from your other devices.">
-        <source>Sign in to get your tabs, bookmarks, and passwords from your other devices.</source>
-        <target>Kcem akken ad d-tawiḍ iccaren-inek, ticraḍ, akked wawalen uffiren seg yibenkan nniḍen.</target>
-        <note>Clarify value prop under Sign In to Firefox in Settings.</note>
       </trans-unit>
       <trans-unit id="Stop">
         <source>Stop</source>
@@ -2389,10 +2368,9 @@
         <target>Umuɣ</target>
         <note>Accessibility label for the Menu button.</note>
       </trans-unit>
-      <trans-unit id="Toolbar.OpenHomePage.AccessibilityLabel">
-        <source>Homepage</source>
-        <target>Asebter agejdan</target>
-        <note>Accessibility Label for the tab toolbar Homepage button</note>
+      <trans-unit id="Toolbar.Menu.CloseAllTabs">
+        <source>Close All Tabs</source>
+        <note>Accessibility label for the Close All Tabs menu button.</note>
       </trans-unit>
       <trans-unit id="Top sites">
         <source>Top sites</source>
@@ -2428,11 +2406,6 @@
         <source>Upgrade Firefox to connect.</source>
         <target>Leqqem Firefox akken ad teqqneḍ</target>
         <note>Text message in the settings table view</note>
-      </trans-unit>
-      <trans-unit id="Use Compact Tabs">
-        <source>Use Compact Tabs</source>
-        <target>Seqdec iccaren yettwassden</target>
-        <note>Setting to enable compact tabs in the tab overview</note>
       </trans-unit>
       <trans-unit id="Username">
         <source>Username</source>
@@ -2658,103 +2631,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/Menu.strings" source-language="en" datatype="plaintext" target-language="kab">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="Menu.AddBookmarkAction.Title">
-        <source>Add Bookmark</source>
-        <target>Rnu tacreṭ n usebter</target>
-        <note>Label for the button, displayed in the menu, used to create a bookmark for the current website.</note>
-      </trans-unit>
-      <trans-unit id="Menu.CloseAllTabsAction.Title">
-        <source>Close All Tabs</source>
-        <target>Mdel akk iccaren</target>
-        <note>Label for the button, displayed in the menu, used to close all tabs currently open.</note>
-      </trans-unit>
-      <trans-unit id="Menu.CloseMenu.AccessibilityLabel">
-        <source>Close Menu</source>
-        <target>Mdel umuɣ</target>
-        <note>Accessibility label describing the button that closes the menu when open</note>
-      </trans-unit>
-      <trans-unit id="Menu.FindInPageAction.Title">
-        <source>Find In Page</source>
-        <target>Nadi deg usebter</target>
-        <note>Label for the button, displayed in the menu, used to open the toolbar to search for text within the current page.</note>
-      </trans-unit>
-      <trans-unit id="Menu.NewPrivateTabAction.Title">
-        <source>New Private Tab</source>
-        <target>Iccer uslig amaynut</target>
-        <note>Label for the button, displayed in the menu, used to open a new private tab.</note>
-      </trans-unit>
-      <trans-unit id="Menu.NewTabAction.Title">
-        <source>New Tab</source>
-        <target>Iccer amaynut</target>
-        <note>Label for the button, displayed in the menu, used to open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenBookmarksAction.AccessibilityLabel">
-        <source>Bookmarks</source>
-        <target>Ticraḍ n yisebtar</target>
-        <note>Accessibility label for the button, displayed in the menu, used to open the Bbookmarks home panel.</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenHistoryAction.AccessibilityLabel">
-        <source>History</source>
-        <target>Amazray</target>
-        <note>Accessibility label for the button, displayed in the menu, used to open the History home panel.</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenHomePageAction.Title">
-        <source>Home</source>
-        <target>Asebter agejdan</target>
-        <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel">
-        <source>Reading List</source>
-        <target>Tabdart n tɣuri</target>
-        <note>Accessibility label for the button, displayed in the menu, used to open the Reading list home panel.</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenSettingsAction.Title">
-        <source>Settings</source>
-        <target>Iɣewwaren</target>
-        <note>Label for the button, displayed in the menu, used to open the Settings menu.</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenTopSitesAction.AccessibilityLabel">
-        <source>Top Sites</source>
-        <target>Ismal yettwarzan aṭas</target>
-        <note>Accessibility label for the button, displayed in the menu, used to open the Top Sites home panel.</note>
-      </trans-unit>
-      <trans-unit id="Menu.RemoveBookmarkAction.Title">
-        <source>Remove Bookmark</source>
-        <target>Kkes tacreṭ n usebter</target>
-        <note>Label for the button, displayed in the menu, used to delete an existing bookmark for the current website.</note>
-      </trans-unit>
-      <trans-unit id="Menu.ScanQRCodeAction.Title">
-        <source>Scan QR Code</source>
-        <target>Semḍen Tangalt QR</target>
-        <note>Label for the button, displayed in the menu, used to open the QR code scanner.</note>
-      </trans-unit>
-      <trans-unit id="Menu.SendPageAction.Title">
-        <source>Send</source>
-        <target>Azen</target>
-        <note>Label for the button, displayed in the menu, used to open the share dialog.</note>
-      </trans-unit>
-      <trans-unit id="Menu.SetHomePageAction.Title">
-        <source>Set Homepage</source>
-        <target>Sbadu asebter agejdan</target>
-        <note>Label for the button, displayed in the menu, used to set the homepage if none is currently set.</note>
-      </trans-unit>
-      <trans-unit id="Menu.ViewDekstopSiteAction.Title">
-        <source>Request Desktop Site</source>
-        <target>Suter asmel n tnarit</target>
-        <note>Label for the button, displayed in the menu, used to request the desktop version of the current website.</note>
-      </trans-unit>
-      <trans-unit id="Menu.ViewMobileSiteAction.Title">
-        <source>Request Mobile Site</source>
-        <target>Suter asmel aziraz</target>
-        <note>Label for the button, displayed in the menu, used to request the mobile version of the current website.</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="Client/PrivateBrowsing.strings" source-language="en" datatype="plaintext" target-language="kab">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
@@ -2857,12 +2733,7 @@
       <trans-unit id="More Info…">
         <source>More Info…</source>
         <target>Ugar n telɣut…</target>
-        <note>See http://bit.ly/1SmEXU1</note>
-      </trans-unit>
-      <trans-unit id="Send Anonymous Usage Data">
-        <source>Send Anonymous Usage Data</source>
-        <target>Azen isefka n useqdec udrigen</target>
-        <note>See http://bit.ly/1SmEXU1</note>
+        <note>Re-using more info label from 'anonymous usage data' item for showing a 'More Info' link on the Tracking Protection settings screen.</note>
       </trans-unit>
     </body>
   </file>
@@ -2918,8 +2789,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+        <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2937,8 +2808,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+        <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2956,8 +2827,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+        <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2975,8 +2846,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+        <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3016,8 +2887,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+        <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3057,8 +2928,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+        <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3072,8 +2943,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+        <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3087,8 +2958,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+        <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3102,8 +2973,105 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+        <source>10.0</source>
+        <target>10.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/Menu.strings" source-language="en" datatype="plaintext" target-language="kab">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Menu.AddBookmarkAction.Title">
+        <source>Bookmark This Page</source>
+        <note>Label for the button, displayed in the menu, used to create a bookmark for the current website.</note>
+      </trans-unit>
+      <trans-unit id="Menu.AddToReadingList.Title">
+        <source>Add to Reading List</source>
+        <note>Label for the button, displayed in the menu, used to add a page to the reading list.</note>
+      </trans-unit>
+      <trans-unit id="Menu.CloseAllTabsAction.Title">
+        <source>Close All Tabs</source>
+        <target>Mdel akk iccaren</target>
+        <note>Label for the button, displayed in the menu, used to close all tabs currently open.</note>
+      </trans-unit>
+      <trans-unit id="Menu.CopyURL.Title">
+        <source>Copy URL</source>
+        <note>Label for the button, displayed in the menu, used to copy the page url to the clipboard.</note>
+      </trans-unit>
+      <trans-unit id="Menu.FindInPageAction.Title">
+        <source>Find in Page</source>
+        <note>Label for the button, displayed in the menu, used to open the toolbar to search for text within the current page.</note>
+      </trans-unit>
+      <trans-unit id="Menu.NewPrivateTabAction.Title">
+        <source>Open New Private Tab</source>
+        <note>Label for the button, displayed in the menu, used to open a new private tab.</note>
+      </trans-unit>
+      <trans-unit id="Menu.NewTabAction.Title">
+        <source>Open New Tab</source>
+        <note>Label for the button, displayed in the menu, used to open a new tab</note>
+      </trans-unit>
+      <trans-unit id="Menu.OpenBookmarksAction.AccessibilityLabel">
+        <source>Bookmarks</source>
+        <target>Ticraḍ n yisebtar</target>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Bbookmarks home panel.</note>
+      </trans-unit>
+      <trans-unit id="Menu.OpenHistoryAction.AccessibilityLabel">
+        <source>History</source>
+        <target>Amazray</target>
+        <note>Accessibility label for the button, displayed in the menu, used to open the History home panel.</note>
+      </trans-unit>
+      <trans-unit id="Menu.OpenHomePageAction.Title">
+        <source>Open Homepage</source>
+        <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
+      </trans-unit>
+      <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel">
+        <source>Reading List</source>
+        <target>Tabdart n tɣuri</target>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Reading list home panel.</note>
+      </trans-unit>
+      <trans-unit id="Menu.OpenSettingsAction.Title">
+        <source>Settings</source>
+        <target>Iɣewwaren</target>
+        <note>Label for the button, displayed in the menu, used to open the Settings menu.</note>
+      </trans-unit>
+      <trans-unit id="Menu.OpenTopSitesAction.AccessibilityLabel">
+        <source>Top Sites</source>
+        <target>Ismal yettwarzan aṭas</target>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Top Sites home panel.</note>
+      </trans-unit>
+      <trans-unit id="Menu.RemoveBookmarkAction.Title">
+        <source>Remove Bookmark</source>
+        <target>Kkes tacreṭ n usebter</target>
+        <note>Label for the button, displayed in the menu, used to delete an existing bookmark for the current website.</note>
+      </trans-unit>
+      <trans-unit id="Menu.ScanQRCodeAction.Title">
+        <source>Scan QR Code</source>
+        <target>Semḍen Tangalt QR</target>
+        <note>Label for the button, displayed in the menu, used to open the QR code scanner.</note>
+      </trans-unit>
+      <trans-unit id="Menu.SetHomePageAction.Title">
+        <source>Set as Homepage</source>
+        <note>Label for the button, displayed in the menu, used to set the homepage if none is currently set.</note>
+      </trans-unit>
+      <trans-unit id="Menu.SharePageAction.Title">
+        <source>Share Page With…</source>
+        <note>Label for the button, displayed in the menu, used to open the share dialog.</note>
+      </trans-unit>
+      <trans-unit id="Menu.ShowTabs.Title">
+        <source>Show Tabs</source>
+        <note>Label for the button, displayed in the menu, used to open the tabs tray</note>
+      </trans-unit>
+      <trans-unit id="Menu.ViewDekstopSiteAction.Title">
+        <source>Request Desktop Site</source>
+        <target>Suter asmel n tnarit</target>
+        <note>Label for the button, displayed in the menu, used to request the desktop version of the current website.</note>
+      </trans-unit>
+      <trans-unit id="Menu.ViewMobileSiteAction.Title">
+        <source>Request Mobile Site</source>
+        <target>Suter asmel aziraz</target>
+        <note>Label for the button, displayed in the menu, used to request the mobile version of the current website.</note>
       </trans-unit>
     </body>
   </file>
@@ -3129,8 +3097,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+        <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3177,8 +3145,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+        <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3192,8 +3160,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+        <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3207,8 +3175,38 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+        <source>10.0</source>
+        <target>10.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="SyncTelemetry/Info.plist" source-language="en" datatype="plaintext" target-language="kab">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>10.0</source>
+        <target>10.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="SyncTelemetryTests/Info.plist" source-language="en" datatype="plaintext" target-language="kab">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3222,38 +3220,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Telemetry/Info.plist" source-language="en" datatype="plaintext" target-language="kab">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="TelemetryTests/Info.plist" source-language="en" datatype="plaintext" target-language="kab">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+        <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3267,8 +3235,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+        <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3282,8 +3250,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>9.0</source>
-        <target>9.0</target>
+        <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
