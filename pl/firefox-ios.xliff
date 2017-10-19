@@ -1520,25 +1520,25 @@
     <note>Name for Mark as unread button in reader mode
           Title for the button that marks a reading list item as unread</note>
    </trans-unit>
-   <trans-unit id="Menu.NightModeTurnOffAction.Label">
-    <source>Night Mode Off</source>
-    <target>Wyłącz tryb nocny</target>
-    <note>Label for the button, displayed in the menu, used to turn night mode off. 'Off' is only displayed when the mode is on.</note>
-   </trans-unit>
-   <trans-unit id="Menu.NightModeTurnOnAction.Label">
-    <source>Night Mode</source>
+   <trans-unit id="Menu.NightModeIsOffAction.Label">
+    <source>Night Mode: Off</source>
     <target>Tryb nocny</target>
-    <note>Label for the button, displayed in the menu, used to turn night mode on. 'Turn On' is an indication of state, and thus redundant.</note>
+    <note>Label for the button, displayed in the menu, shows the current state of night mode which is currently OFF</note>
    </trans-unit>
-   <trans-unit id="Menu.NoImageModeTurnOffAction.Label">
-    <source>Show Images</source>
-    <target>Pokaż obrazy</target>
-    <note>Label for the button, displayed in the menu, used to turn no image mode off.</note>
+   <trans-unit id="Menu.NightModeIsOnAction.Label">
+    <source>Night Mode: On</source>
+    <target>Wyłącz tryb nocny</target>
+    <note>Label for the button, displayed in the menu, shows the current state of night mode which is currently ON</note>
+   </trans-unit>
+   <trans-unit id="Menu.NoImageModeIsOffAction.Label">
+    <source>Hide Images: Off</source>
+    <target>Pokazuj obrazy</target>
+    <note>Label for the button, displayed in the menu, shows the current state of Hide Images which is currently OFF</note>
    </trans-unit>
    <trans-unit id="Menu.NoImageModeTurnOnAction.Label">
-    <source>Hide Images</source>
-    <target>Ukryj obrazy</target>
-    <note>Label for the button, displayed in the menu, used to turn no image mode on.</note>
+    <source>Hide Images: On</source>
+    <target>Ukrywaj obrazy</target>
+    <note>Label for the button, displayed in the menu, shows the current state of Hide Images mode which is currently ON</note>
    </trans-unit>
    <trans-unit id="Missing error">
     <source>Missing error</source>
@@ -2718,103 +2718,6 @@
    </trans-unit>
   </body>
  </file>
- <file original="Client/Menu.strings" source-language="en" datatype="plaintext" target-language="pl">
-  <header>
-   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.3" build-num="7D175"/>
-  </header>
-  <body>
-   <trans-unit id="Menu.AddBookmarkAction.Title">
-    <source>Add Bookmark</source>
-    <target>Dodaj zakładkę</target>
-    <note>Label for the button, displayed in the menu, used to create a bookmark for the current website.</note>
-   </trans-unit>
-   <trans-unit id="Menu.CloseAllTabsAction.Title">
-    <source>Close All Tabs</source>
-    <target>Zamknij wszystkie karty</target>
-    <note>Label for the button, displayed in the menu, used to close all tabs currently open.</note>
-   </trans-unit>
-   <trans-unit id="Menu.CloseMenu.AccessibilityLabel">
-    <source>Close Menu</source>
-    <target>Zamknij menu</target>
-    <note>Accessibility label describing the button that closes the menu when open</note>
-   </trans-unit>
-   <trans-unit id="Menu.FindInPageAction.Title">
-    <source>Find In Page</source>
-    <target>Wyszukaj na stronie</target>
-    <note>Label for the button, displayed in the menu, used to open the toolbar to search for text within the current page.</note>
-   </trans-unit>
-   <trans-unit id="Menu.NewPrivateTabAction.Title">
-    <source>New Private Tab</source>
-    <target>Nowa karta prywatna</target>
-    <note>Label for the button, displayed in the menu, used to open a new private tab.</note>
-   </trans-unit>
-   <trans-unit id="Menu.NewTabAction.Title">
-    <source>New Tab</source>
-    <target>Nowa karta</target>
-    <note>Label for the button, displayed in the menu, used to open a new tab</note>
-   </trans-unit>
-   <trans-unit id="Menu.OpenBookmarksAction.AccessibilityLabel">
-    <source>Bookmarks</source>
-    <target>Zakładki</target>
-    <note>Accessibility label for the button, displayed in the menu, used to open the Bbookmarks home panel.</note>
-   </trans-unit>
-   <trans-unit id="Menu.OpenHistoryAction.AccessibilityLabel">
-    <source>History</source>
-    <target>Historia</target>
-    <note>Accessibility label for the button, displayed in the menu, used to open the History home panel.</note>
-   </trans-unit>
-   <trans-unit id="Menu.OpenHomePageAction.Title">
-    <source>Home</source>
-    <target>Strona domowa</target>
-    <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
-   </trans-unit>
-   <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel">
-    <source>Reading List</source>
-    <target>Czytelnia</target>
-    <note>Accessibility label for the button, displayed in the menu, used to open the Reading list home panel.</note>
-   </trans-unit>
-   <trans-unit id="Menu.OpenSettingsAction.Title">
-    <source>Settings</source>
-    <target>Ustawienia</target>
-    <note>Label for the button, displayed in the menu, used to open the Settings menu.</note>
-   </trans-unit>
-   <trans-unit id="Menu.OpenTopSitesAction.AccessibilityLabel">
-    <source>Top Sites</source>
-    <target>Popularne</target>
-    <note>Accessibility label for the button, displayed in the menu, used to open the Top Sites home panel.</note>
-   </trans-unit>
-   <trans-unit id="Menu.RemoveBookmarkAction.Title">
-    <source>Remove Bookmark</source>
-    <target>Usuń zakładkę</target>
-    <note>Label for the button, displayed in the menu, used to delete an existing bookmark for the current website.</note>
-   </trans-unit>
-   <trans-unit id="Menu.ScanQRCodeAction.Title">
-    <source>Scan QR Code</source>
-    <target>Skanuj kod QR</target>
-    <note>Label for the button, displayed in the menu, used to open the QR code scanner.</note>
-   </trans-unit>
-   <trans-unit id="Menu.SendPageAction.Title">
-    <source>Send</source>
-    <target>Udostępnij</target>
-    <note>Label for the button, displayed in the menu, used to open the share dialog.</note>
-   </trans-unit>
-   <trans-unit id="Menu.SetHomePageAction.Title">
-    <source>Set Homepage</source>
-    <target>Ustaw stronę domową</target>
-    <note>Label for the button, displayed in the menu, used to set the homepage if none is currently set.</note>
-   </trans-unit>
-   <trans-unit id="Menu.ViewDekstopSiteAction.Title">
-    <source>Request Desktop Site</source>
-    <target>Zażądaj wersji na komputery</target>
-    <note>Label for the button, displayed in the menu, used to request the desktop version of the current website.</note>
-   </trans-unit>
-   <trans-unit id="Menu.ViewMobileSiteAction.Title">
-    <source>Request Mobile Site</source>
-    <target>Zażądaj wersji na urządzenia przenośne</target>
-    <note>Label for the button, displayed in the menu, used to request the mobile version of the current website.</note>
-   </trans-unit>
-  </body>
- </file>
  <file original="Client/PrivateBrowsing.strings" source-language="en" datatype="plaintext" target-language="pl">
   <header>
    <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.0" build-num="7A220"/>
@@ -3177,6 +3080,113 @@
    <trans-unit id="CFBundleShortVersionString">
     <source>8.0</source>
     <target>8.0</target>
+   </trans-unit>
+  </body>
+ </file>
+ <file original="Shared/Supporting Files/Menu.strings" source-language="en" datatype="plaintext" target-language="pl">
+  <header>
+   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
+  </header>
+  <body>
+   <trans-unit id="Menu.AddBookmarkAction.Title">
+    <source>Add Bookmark</source>
+    <target>Dodaj zakładkę</target>
+    <note>Label for the button, displayed in the menu, used to create a bookmark for the current website.</note>
+   </trans-unit>
+   <trans-unit id="Menu.AddToReadingList.Title">
+    <source>Add to Reading List</source>
+    <target>Dodaj do czytelni</target>
+    <note>Label for the button, displayed in the menu, used to add a page to the reading list.</note>
+   </trans-unit>
+   <trans-unit id="Menu.CloseAllTabsAction.Title">
+    <source>Close All Tabs</source>
+    <target>Zamknij wszystkie karty</target>
+    <note>Label for the button, displayed in the menu, used to close all tabs currently open.</note>
+   </trans-unit>
+   <trans-unit id="Menu.CopyURL.Title">
+    <source>Copy URL</source>
+    <target>Kopiuj adres strony</target>
+    <note>Label for the button, displayed in the menu, used to copy the page url to the clipboard.</note>
+   </trans-unit>
+   <trans-unit id="Menu.FindInPageAction.Title">
+    <source>Find In Page</source>
+    <target>Wyszukaj na stronie</target>
+    <note>Label for the button, displayed in the menu, used to open the toolbar to search for text within the current page.</note>
+   </trans-unit>
+   <trans-unit id="Menu.NewPrivateTabAction.Title">
+    <source>Open New Private Tab</source>
+    <target>Otwórz nową kartę prywatną</target>
+    <note>Label for the button, displayed in the menu, used to open a new private tab.</note>
+   </trans-unit>
+   <trans-unit id="Menu.NewTabAction.Title">
+    <source>Open New Tab</source>
+    <target>Otwórz nową kartę</target>
+    <note>Label for the button, displayed in the menu, used to open a new tab</note>
+   </trans-unit>
+   <trans-unit id="Menu.OpenBookmarksAction.AccessibilityLabel">
+    <source>Bookmarks</source>
+    <target>Zakładki</target>
+    <note>Accessibility label for the button, displayed in the menu, used to open the Bbookmarks home panel.</note>
+   </trans-unit>
+   <trans-unit id="Menu.OpenHistoryAction.AccessibilityLabel">
+    <source>History</source>
+    <target>Historia</target>
+    <note>Accessibility label for the button, displayed in the menu, used to open the History home panel.</note>
+   </trans-unit>
+   <trans-unit id="Menu.OpenHomePageAction.Title">
+    <source>Open Homepage</source>
+    <target>Otwórz stronę domową</target>
+    <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
+   </trans-unit>
+   <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel">
+    <source>Reading List</source>
+    <target>Czytelnia</target>
+    <note>Accessibility label for the button, displayed in the menu, used to open the Reading list home panel.</note>
+   </trans-unit>
+   <trans-unit id="Menu.OpenSettingsAction.Title">
+    <source>Settings</source>
+    <target>Ustawienia</target>
+    <note>Label for the button, displayed in the menu, used to open the Settings menu.</note>
+   </trans-unit>
+   <trans-unit id="Menu.OpenTopSitesAction.AccessibilityLabel">
+    <source>Top Sites</source>
+    <target>Popularne</target>
+    <note>Accessibility label for the button, displayed in the menu, used to open the Top Sites home panel.</note>
+   </trans-unit>
+   <trans-unit id="Menu.RemoveBookmarkAction.Title">
+    <source>Remove Bookmark</source>
+    <target>Usuń zakładkę</target>
+    <note>Label for the button, displayed in the menu, used to delete an existing bookmark for the current website.</note>
+   </trans-unit>
+   <trans-unit id="Menu.ScanQRCodeAction.Title">
+    <source>Scan QR Code</source>
+    <target>Skanuj kod QR</target>
+    <note>Label for the button, displayed in the menu, used to open the QR code scanner.</note>
+   </trans-unit>
+   <trans-unit id="Menu.SendPageAction.Title">
+    <source>Share</source>
+    <target>Udostępnij</target>
+    <note>Label for the button, displayed in the menu, used to open the share dialog.</note>
+   </trans-unit>
+   <trans-unit id="Menu.SetHomePageAction.Title">
+    <source>Set Homepage</source>
+    <target>Ustaw jako stronę domową</target>
+    <note>Label for the button, displayed in the menu, used to set the homepage if none is currently set.</note>
+   </trans-unit>
+   <trans-unit id="Menu.ShowTabs.Title">
+    <source>Show Tabs</source>
+    <target>Pokaż otwarte karty</target>
+    <note>Label for the button, displayed in the menu, used to open the tabs tray</note>
+   </trans-unit>
+   <trans-unit id="Menu.ViewDekstopSiteAction.Title">
+    <source>Request Desktop Site</source>
+    <target>Zażądaj wersji na komputery</target>
+    <note>Label for the button, displayed in the menu, used to request the desktop version of the current website.</note>
+   </trans-unit>
+   <trans-unit id="Menu.ViewMobileSiteAction.Title">
+    <source>Request Mobile Site</source>
+    <target>Zażądaj wersji na urządzenia przenośne</target>
+    <note>Label for the button, displayed in the menu, used to request the mobile version of the current website.</note>
    </trans-unit>
   </body>
  </file>
