@@ -689,11 +689,6 @@
     <target>O Firefoksie</target>
     <note>About settings section title</note>
    </trans-unit>
-   <trans-unit id="ActivitySream.Pocket.Trending">
-    <source>Trending</source>
-    <target>Na czasie</target>
-    <note>The description of a Pocket Story</note>
-   </trans-unit>
    <trans-unit id="ActivityStream.ContextMenu.PinTopsite">
     <source>Pin to Top Sites</source>
     <target>Przypnij do popularnych</target>
@@ -738,6 +733,11 @@
     <source>Recommended by Pocket</source>
     <target>Poleca Pocket</target>
     <note>Section title label for Recommended by Pocket section</note>
+   </trans-unit>
+   <trans-unit id="ActivityStream.Pocket.Trending">
+    <source>Trending</source>
+    <target>Na czasie</target>
+    <note>The description of a Pocket Story</note>
    </trans-unit>
    <trans-unit id="ActivityStream.TopSites.SectionTitle">
     <source>Top Sites</source>
@@ -1655,11 +1655,6 @@
     <target>Zezwól Firefoksowi na dostęp do aparatu urządzenia w „Ustawienia” → „Prywatność” → „Aparat”.</target>
     <note>Text of the prompt user to setup the camera authorization.</note>
    </trans-unit>
-   <trans-unit id="Please enter a custom account url before enabling.">
-    <source>Please enter a custom account url before enabling.</source>
-    <target>Wprowadź własny adres konta przed włączeniem.</target>
-    <note>No custom service set.</note>
-   </trans-unit>
    <trans-unit id="Privacy">
     <source>Privacy</source>
     <target>Prywatność</target>
@@ -1909,7 +1904,7 @@
    <trans-unit id="Settings">
     <source>Settings</source>
     <target>Ustawienia</target>
-    <note>Settings</note>
+    <note>Title in the settings view controller title bar</note>
    </trans-unit>
    <trans-unit id="Settings.AddCustomEngine">
     <source>Add Search Engine</source>
@@ -1945,42 +1940,6 @@
     <source>URL (Replace Query with %s)</source>
     <target>URL (wyszukiwany tekst zastąp „%s”)</target>
     <note>The placeholder for URL Field when saving a custom search engine</note>
-   </trans-unit>
-   <trans-unit id="Settings.AdvanceAccount.ErrorAlertMessage">
-    <source>There was an error while attempting to parse the url. Please make sure that it is a valid Firefox Account root url.</source>
-    <target>Wystąpił błąd podczas próby przetworzenia adresu. Upewnij się, że jest to prawidłowy adres konta Firefoksa.</target>
-    <note>Messaged displayed when sync service has an error setting a custom sync url.</note>
-   </trans-unit>
-   <trans-unit id="Settings.AdvanceAccount.ErrorAlertOk">
-    <source>OK</source>
-    <target>OK</target>
-    <note>Ok button on custom sync service error alert.</note>
-   </trans-unit>
-   <trans-unit id="Settings.AdvanceAccount.ErrorAlertTitle">
-    <source>Error</source>
-    <target>Błąd</target>
-    <note>Error alert message title.</note>
-   </trans-unit>
-   <trans-unit id="Settings.AdvanceAccount.SectionName">
-    <source>Account Settings</source>
-    <target>Ustawienia konta</target>
-    <note>Label used as an item in Settings. When touched it will open a dialog to setup advance Firefox account settings.
-          Title displayed in header of the setting panel.</note>
-   </trans-unit>
-   <trans-unit id="Settings.AdvanceAccount.UpdatedAlertMessage">
-    <source>Firefox account service updated. To begin using custom server, please log out and re-login.</source>
-    <target>Uaktualniono ustawienia konta Firefoksa. Wyloguj się i zaloguj ponownie, by zacząć używać własnego serwera.</target>
-    <note>Messaged displayed when sync service has been successfully set.</note>
-   </trans-unit>
-   <trans-unit id="Settings.AdvanceAccount.UpdatedAlertOk">
-    <source>OK</source>
-    <target>OK</target>
-    <note>Ok button on custom sync service updated alert</note>
-   </trans-unit>
-   <trans-unit id="Settings.AdvanceAccount.UrlPlaceholder">
-    <source>Custom Account Url</source>
-    <target>Własny adres konta</target>
-    <note>Title displayed in header of the setting panel.</note>
    </trans-unit>
    <trans-unit id="Settings.ClearPrivateData.Clear.Button">
     <source>Clear Private Data</source>
@@ -2161,6 +2120,21 @@
     <source>Edit</source>
     <target>Edytuj</target>
     <note>Button displayed at the top of the search settings.</note>
+   </trans-unit>
+   <trans-unit id="Settings.SendUsage.Link">
+    <source>Learn More.</source>
+    <target>Więcej informacji</target>
+    <note>title for a link that explains how mozilla collects telemetry</note>
+   </trans-unit>
+   <trans-unit id="Settings.SendUsage.Message">
+    <source>Mozilla strives to only collect what we need to provide and improve Firefox for everyone.</source>
+    <target>Mozilla dąży do zbierania wyłącznie niezbędnych danych, by dostarczać i doskonalić Firefoksa dla nas wszystkich</target>
+    <note>A short description that explains why mozilla collects usage data.</note>
+   </trans-unit>
+   <trans-unit id="Settings.SendUsage.Title">
+    <source>Send Usage Data</source>
+    <target>Przesyłanie danych o użyciu</target>
+    <note>The title for the setting to send usage data.</note>
    </trans-unit>
    <trans-unit id="Settings.TrackingProtection.BlockListsHeader">
     <source>You can choose which list Firefox will use to block Web elements that may track your browsing activity.</source>
@@ -2408,11 +2382,6 @@
     <source>This will open in another application</source>
     <target>Otworzy inną aplikację</target>
     <note>Opening an external app</note>
-   </trans-unit>
-   <trans-unit id="To use a custom Firefox Account and sync servers, specify the root Url of the Firefox Account site. This will download the configuration and setup this device to use the new service. After the new service has been set, you will need to create a new Firefox Account or login with an existing one.">
-    <source>To use a custom Firefox Account and sync servers, specify the root Url of the Firefox Account site. This will download the configuration and setup this device to use the new service. After the new service has been set, you will need to create a new Firefox Account or login with an existing one.</source>
-    <target>Określ główny adres URL strony konta Firefoksa, by używać własnych serwerów kont Firefoksa i synchronizacji. Umożliwi to pobranie informacji o koncie i skonfigurowanie urządzenia dla tego nowego serwisu. Następnie konieczne będzie utworzenie nowego konta Firefoksa lub zalogowanie się do już istniejącego.</target>
-    <note>Details for using custom Firefox Account service.</note>
    </trans-unit>
    <trans-unit id="Today">
     <source>Today</source>
@@ -2787,25 +2756,10 @@
    <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2" build-num="7C68"/>
   </header>
   <body>
-   <trans-unit id="Learn More.">
-    <source>Learn More.</source>
-    <target>Więcej informacji</target>
-    <note>title for a link that explains how mozilla collects telemetry</note>
-   </trans-unit>
    <trans-unit id="More Info…">
     <source>More Info…</source>
     <target>Więcej informacji…</target>
     <note>Re-using more info label from 'anonymous usage data' item for showing a 'More Info' link on the Tracking Protection settings screen.</note>
-   </trans-unit>
-   <trans-unit id="Mozilla strives to only collect what we need to provide and improve Firefox for everyone.">
-    <source>Mozilla strives to only collect what we need to provide and improve Firefox for everyone.</source>
-    <target>Mozilla dąży do zbierania wyłącznie niezbędnych danych, by dostarczać i doskonalić Firefoksa dla nas wszystkich</target>
-    <note>A short description that explains why mozilla collects usage data.</note>
-   </trans-unit>
-   <trans-unit id="Send Usage Data">
-    <source>Send Usage Data</source>
-    <target>Przesyłanie danych o użyciu</target>
-    <note>The title for the setting to send usage data.</note>
    </trans-unit>
   </body>
  </file>
@@ -2848,18 +2802,6 @@
     <source>You don’t have any other devices connected to this Firefox Account available to sync.</source>
     <target>Brak innych urządzeń połączonych z tym kontem Firefoksa dostępnych do synchronizacji.</target>
     <note>Error message shown in the remote tabs panel</note>
-   </trans-unit>
-  </body>
- </file>
- <file original="Client/UseCustomAccountService.strings" source-language="en" datatype="plaintext" target-language="pl">
-  <header>
-   <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
-  </header>
-  <body>
-   <trans-unit id="Use Custom Account Service">
-    <source>Use Custom Account Service</source>
-    <target>Własny serwis kont</target>
-    <note>Toggle switch to use custom FxA server</note>
    </trans-unit>
   </body>
  </file>
@@ -3148,7 +3090,7 @@
     <note>Label for the button, displayed in the menu, used to set the homepage if none is currently set.</note>
    </trans-unit>
    <trans-unit id="Menu.SharePageAction.Title">
-    <source>Share Page With...</source>
+    <source>Share Page With…</source>
     <target>Udostępnij stronę…</target>
     <note>Label for the button, displayed in the menu, used to open the share dialog.</note>
    </trans-unit>
