@@ -250,7 +250,7 @@
     <body>
       <trans-unit id="Delete">
         <source>Delete</source>
-        <target>നീക്കം ചെയ്യുക</target>
+        <target>കളയുക</target>
         <note>Action button for deleting bookmarks in the bookmarks panel.</note>
       </trans-unit>
       <trans-unit id="Desktop Bookmarks">
@@ -681,6 +681,7 @@
       </trans-unit>
       <trans-unit id="ActivityStream.Highlights.Bookmark">
         <source>Bookmarked</source>
+        <target>അടയാളപ്പെടുത്തിയത്</target>
         <note>The description of a highlight if it is a site the user has bookmarked</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Highlights.Title">
@@ -689,22 +690,27 @@
       </trans-unit>
       <trans-unit id="ActivityStream.Highlights.Visited">
         <source>Visited</source>
+        <target>സന്ദർശിച്ചത്</target>
         <note>The description of a highlight if it is a site the user has visited</note>
       </trans-unit>
       <trans-unit id="ActivityStream.PageControl.Button">
         <source>Next Page</source>
+        <target>അടുത്ത താൾ</target>
         <note>The page control button that lets you switch between pages in top sites</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Pocket.SectionTitle">
         <source>Recommended by Pocket</source>
+        <target>പോക്കറ്റ് ശുപാർശ ചെയ്തത്</target>
         <note>Section title label for Recommended by Pocket section</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Pocket.Trending">
         <source>Trending</source>
+        <target>ട്രെൻഡിംഗ്</target>
         <note>The description of a Pocket Story</note>
       </trans-unit>
       <trans-unit id="ActivityStream.TopSites.SectionTitle">
         <source>Top Sites</source>
+        <target>ഏറ്റവും ഉയർന്ന സൈറ്റുകൾ</target>
         <note>Section title label for Top Sites</note>
       </trans-unit>
       <trans-unit id="Add Tab">
@@ -968,10 +974,12 @@
       </trans-unit>
       <trans-unit id="Downloads.Alert.Cancel">
         <source>No</source>
+        <target>ഇല്ല</target>
         <note>The label of the button the user will press to reject the option to open a file in another application</note>
       </trans-unit>
       <trans-unit id="Downloads.Alert.Confirm">
         <source>Yes</source>
+        <target>അതെ</target>
         <note>The label of the button the user will press to be presented with a list of other apps to open a file in</note>
       </trans-unit>
       <trans-unit id="Downloads.Alert.Message">
@@ -1331,30 +1339,37 @@
       </trans-unit>
       <trans-unit id="LoginsHelper.DontSave.Button">
         <source>Don’t Save</source>
+        <target>സംരക്ഷിക്കരുത്</target>
         <note>Button to not save the user's password</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSaveLogin.Title">
         <source>Save login %1$@ for %2$@?</source>
+        <target>%2$@-നു വേണ്ടി %1$@ പ്രവേശണം സംരക്ഷിക്കണോ?</target>
         <note>Prompt for saving a login. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSavePassword.Title">
         <source>Save password for %@?</source>
+        <target>%@-നു വേണ്ടി രഹസ്യവാക്ക് സംരക്ഷിക്കണോ?</target>
         <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title">
         <source>Update login %1$@ for %2$@?</source>
+        <target>%2$@-നു വേണ്ടി %1$@ പ്രവേശണം പുതുക്കണോ?</target>
         <note>Prompt for updating a login. The first parameter is the username for which the password will be updated for. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdatePassword.Title">
         <source>Update password for %@?</source>
+        <target>%@-നു വേണ്ടി രഹസ്യവാക്ക് പുതുക്കണോ?</target>
         <note>Prompt for updating a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.SaveLogin.Button">
         <source>Save Login</source>
+        <target>പ്രവേശനങ്ങള്‍ സംരക്ഷിക്കുക</target>
         <note>Button to save the user's password</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.Update.Button">
         <source>Update</source>
+        <target>പുതുക്കുക</target>
         <note>Button to update the user's password</note>
       </trans-unit>
       <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?">
@@ -1376,14 +1391,17 @@
       </trans-unit>
       <trans-unit id="Menu.AddBookmark.Confirm">
         <source>Bookmark Added</source>
+        <target>അടയാളം ചേർത്തു</target>
         <note>Toast displayed to the user after a bookmark has been added.</note>
       </trans-unit>
       <trans-unit id="Menu.AddToReadingList.Confirm">
         <source>Added To Reading List</source>
+        <target>വായന പട്ടികയിൽ ചേർത്തി</target>
         <note>Toast displayed to the user after adding the item to their reading list.</note>
       </trans-unit>
       <trans-unit id="Menu.CopyURL.Confirm">
         <source>URL Copied To Clipboard</source>
+        <target>URL ക്ലിപ്ബോർഡിലേക്ക് പകർത്തി</target>
         <note>Toast displayed to user after copy url pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.NightModeTurnOff.Label">
@@ -1396,14 +1414,17 @@
       </trans-unit>
       <trans-unit id="Menu.NoImageModeHideImages.Label">
         <source>Hide Images</source>
+        <target>ചിത്രങ്ങൾ മറയ്ക്കുക</target>
         <note>Label for the button, displayed in the menu, hides images on the webpage when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.NoImageModeShowImages.Label">
         <source>Show Images</source>
+        <target>ചിത്രങ്ങൾ കാണിക്കുക</target>
         <note>Label for the button, displayed in the menu, shows images on the webpage when pressed</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveBookmark.Confirm">
         <source>Bookmark Removed</source>
+        <target>അടയാളം നീക്കംചെയ്യുക</target>
         <note>Toast displayed to the user after a bookmark has been removed.</note>
       </trans-unit>
       <trans-unit id="Missing error">
@@ -1421,30 +1442,37 @@
       </trans-unit>
       <trans-unit id="New Tab">
         <source>New Tab</source>
+        <target>പുതിയ ടാബ്</target>
         <note>Accessibility label for the New Tab button in the tab toolbar.</note>
       </trans-unit>
       <trans-unit id="No">
         <source>No</source>
+        <target>ഇല്ല</target>
         <note>Restore Tabs Negative Action</note>
       </trans-unit>
       <trans-unit id="No tabs">
         <source>No tabs</source>
+        <target>ടാബുകള്‍ ഇല്ല</target>
         <note>Message spoken by VoiceOver to indicate that there are no tabs in the Tabs Tray</note>
       </trans-unit>
       <trans-unit id="Not now">
         <source>Not now</source>
+        <target>ഇപ്പോൾ വേണ്ട</target>
         <note>Button to not save the user's password</note>
       </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
+        <target>ശരി</target>
         <note>OK button</note>
       </trans-unit>
       <trans-unit id="Okay">
         <source>Okay</source>
+        <target>ശരി</target>
         <note>Restore Tabs Affirmative Action</note>
       </trans-unit>
       <trans-unit id="Oops! Firefox crashed">
         <source>Oops! Firefox crashed</source>
+        <target>അയ്യോ! ഫയര്‍ഫോക്സ് തകർന്നു</target>
         <note>Title for prompt displayed to user after the app crashes</note>
       </trans-unit>
       <trans-unit id="Open Settings">
@@ -1458,22 +1486,27 @@
       </trans-unit>
       <trans-unit id="Open in New Tab">
         <source>Open in New Tab</source>
+        <target>പുതിയ ടാബിൽ തുറക്കുക</target>
         <note>Context menu item for opening a link in a new tab</note>
       </trans-unit>
       <trans-unit id="Open in…">
         <source>Open in…</source>
+        <target>… ല്‍ തുറക്കുക</target>
         <note>String indicating that the file can be opened in another application on the device</note>
       </trans-unit>
       <trans-unit id="OpenURL.Error.Message">
         <source>Firefox cannot open the page because it has an invalid address.</source>
+        <target>അത് അസാധുവായ ഒരു വിലാസമാതിനാൽ ഫയർഫോക്സിന് താള് തുറക്കാൻ കഴിയില്ല.</target>
         <note>The message displayed to a user when they try to open a URL that cannot be handled by Firefox, or any external app.</note>
       </trans-unit>
       <trans-unit id="OpenURL.Error.Title">
         <source>Cannot Open Page</source>
+        <target>താൾ തുറക്കാനാവുന്നില്ല</target>
         <note>Title of the message shown when the user attempts to navigate to an invalid link.</note>
       </trans-unit>
       <trans-unit id="Opening %@">
         <source>Opening %@</source>
+        <target>%@ തുറക്കുന്നു</target>
         <note>Opening an external URL</note>
       </trans-unit>
       <trans-unit id="Page Options Menu">
@@ -1496,10 +1529,12 @@
       </trans-unit>
       <trans-unit id="Paste &amp; Go">
         <source>Paste &amp; Go</source>
+        <target>പകർത്തി തുടരുക</target>
         <note>Paste the URL into the location bar and visit</note>
       </trans-unit>
       <trans-unit id="PhotonMenu.cancel">
         <source>Cancel</source>
+        <target>റദ്ദാക്കുക</target>
         <note>Button for closing the menu action sheet</note>
       </trans-unit>
       <trans-unit id="Please allow Firefox to access your device’s camera in ‘Settings’ -&gt; ‘Privacy’ -&gt; ‘Camera’.">
@@ -1955,14 +1990,17 @@
       </trans-unit>
       <trans-unit id="Settings.TroubleShootSync.Title">
         <source>Troubleshoot</source>
+        <target>പ്രശ്നപരിഹാരം</target>
         <note>Title of link to help page to find out how to solve Sync issues</note>
       </trans-unit>
       <trans-unit id="Share Link">
         <source>Share Link</source>
+        <target>കണ്ണി പങ്കിടുക</target>
         <note>Context menu item for sharing a link URL</note>
       </trans-unit>
       <trans-unit id="ShareTo.Cancel.Button">
         <source>Cancel</source>
+        <target>റദ്ദാക്കുക</target>
         <note>Button title for cancelling Share screen</note>
       </trans-unit>
       <trans-unit id="Show Search Suggestions">
@@ -2035,6 +2073,7 @@
       </trans-unit>
       <trans-unit id="SyncState.Bookmark.Title">
         <source>Bookmarks</source>
+        <target>അടയാളങ്ങള്‍</target>
         <note>The Bookmark sync component, used in SyncState.Partial.Title</note>
       </trans-unit>
       <trans-unit id="SyncState.Clients.Title">
@@ -2047,10 +2086,12 @@
       </trans-unit>
       <trans-unit id="SyncState.History.Title">
         <source>History</source>
+        <target>നാള്‍വഴി</target>
         <note>The History sync component, used in SyncState.Partial.Title</note>
       </trans-unit>
       <trans-unit id="SyncState.Logins.Title">
         <source>Logins</source>
+        <target>പ്രവേശനങ്ങള്‍</target>
         <note>The Logins sync component, used in SyncState.Partial.Title</note>
       </trans-unit>
       <trans-unit id="SyncState.NotStarted.Title">
@@ -2144,10 +2185,12 @@
       </trans-unit>
       <trans-unit id="TopSites.EmptyState.Title">
         <source>Welcome to Top Sites</source>
+        <target>മുന്നേറിയ സൈറ്റുകളിലേക്ക് സ്വാഗതം</target>
         <note>The title for the empty Top Sites state</note>
       </trans-unit>
       <trans-unit id="TopSites.RemovePage.Button">
         <source>Remove page — %@</source>
+        <target>താള്‍ - %@ കളയുക</target>
         <note>Button shown in editing mode to remove this site from the top sites panel.</note>
       </trans-unit>
       <trans-unit id="Twitter">
@@ -2157,6 +2200,7 @@
       </trans-unit>
       <trans-unit id="Update">
         <source>Update</source>
+        <target>പുതുക്കുക</target>
         <note>Button to update the user's password</note>
       </trans-unit>
       <trans-unit id="Upgrade Firefox to connect.">
@@ -2337,10 +2381,12 @@
       </trans-unit>
       <trans-unit id="Open &amp; Fill">
         <source>Open &amp; Fill</source>
+        <target>തുറക്കുക &amp; നിറയ്ക്കുക</target>
         <note>Open and Fill website text selection menu item</note>
       </trans-unit>
       <trans-unit id="Reveal">
         <source>Reveal</source>
+        <target>വെളിപ്പെടുത്തുക</target>
         <note>Reveal password text selection menu item</note>
       </trans-unit>
       <trans-unit id="Search">
@@ -2350,6 +2396,7 @@
       </trans-unit>
       <trans-unit id="Search Input Field">
         <source>Search Input Field</source>
+        <target>തെരയുന്ന വാക്കിടാനുള്ള ഇടം</target>
         <note>Accessibility label for the search input field in the Logins list</note>
       </trans-unit>
       <trans-unit id="Select All">
@@ -2406,6 +2453,7 @@
       </trans-unit>
       <trans-unit id="Open in New Private Tab">
         <source>Open in New Private Tab</source>
+        <target>പുതിയ സ്വകാര്യ ടാബിൽ തുറക്കുക</target>
         <note>Context menu option for opening a link in a new private tab</note>
       </trans-unit>
       <trans-unit id="Private Browsing">
@@ -2562,6 +2610,7 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>Send Tab</source>
+        <target>ടാബ് അയയ്ക്കുക</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
@@ -2640,14 +2689,17 @@
     <body>
       <trans-unit id="TodayWidget.GoToCopiedLinkLabel">
         <source>Go to copied link</source>
+        <target>പകര്‍ത്തിയ കണ്ണിയിലേക്ക് പോവുക</target>
         <note>Go to link on clipboard</note>
       </trans-unit>
       <trans-unit id="TodayWidget.NewPrivateTabButtonLabel">
         <source>New Private Tab</source>
+        <target>പുതിയ സ്വകാര്യ ടാബ്</target>
         <note>New Private Tab button label</note>
       </trans-unit>
       <trans-unit id="TodayWidget.NewTabButtonLabel">
         <source>New Tab</source>
+        <target>പുതിയ ടാബ്</target>
         <note>New Tab button label</note>
       </trans-unit>
     </body>
@@ -2659,6 +2711,7 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>View Later</source>
+        <target>പിന്നീട് കാണുക</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
