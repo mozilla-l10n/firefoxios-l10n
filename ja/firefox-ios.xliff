@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="ja">
     <header>
@@ -134,6 +134,7 @@
       </trans-unit>
       <trans-unit id="Face ID &amp; Passcode">
         <source>Face ID &amp; Passcode</source>
+        <target>Face ID とパスコード</target>
         <note>Label for the Face ID/Passcode item in Settings</note>
       </trans-unit>
       <trans-unit id="Immediately">
@@ -168,6 +169,7 @@
       </trans-unit>
       <trans-unit id="Passcode For Logins">
         <source>Passcode For Logins</source>
+        <target>ログイン用のパスコード</target>
         <note>Label for the Passcode item in Settings</note>
       </trans-unit>
       <trans-unit id="Passcodes didn’t match. Try again.">
@@ -511,7 +513,7 @@
       </trans-unit>
       <trans-unit id="Intro.Slides.Mail.Title">
         <source>You’ve got mail… options</source>
-        <target>メールを受信しました... オプション</target>
+        <target>メールを受信しました… オプション</target>
         <note>Title for the fourth panel 'Mail' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Private.Description">
@@ -710,6 +712,7 @@
       </trans-unit>
       <trans-unit id="ActivityStream.Highlights.Title">
         <source>Highlights</source>
+        <target>注目</target>
         <note>Section title label for the Highlights section</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Highlights.Visited">
@@ -724,6 +727,7 @@
       </trans-unit>
       <trans-unit id="ActivityStream.Pocket.SectionTitle">
         <source>Recommended by Pocket</source>
+        <target>Pocket からのおすすめ</target>
         <note>Section title label for Recommended by Pocket section</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Pocket.Trending">
@@ -1493,34 +1497,42 @@
       </trans-unit>
       <trans-unit id="Menu.AddBookmark.Confirm">
         <source>Bookmark Added</source>
+        <target>ブックマークを追加しました</target>
         <note>Toast displayed to the user after a bookmark has been added.</note>
       </trans-unit>
       <trans-unit id="Menu.AddToReadingList.Confirm">
         <source>Added To Reading List</source>
+        <target>リーディングリストに追加しました</target>
         <note>Toast displayed to the user after adding the item to their reading list.</note>
       </trans-unit>
       <trans-unit id="Menu.CopyURL.Confirm">
         <source>URL Copied To Clipboard</source>
+        <target>URL をクリップボードにコピーしました</target>
         <note>Toast displayed to user after copy url pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.NightModeTurnOff.Label">
         <source>Disable Night Mode</source>
+        <target>夜間モードを無効化</target>
         <note>Label for the button, displayed in the menu, turns off night mode</note>
       </trans-unit>
       <trans-unit id="Menu.NightModeTurnOn.Label">
         <source>Enable Night Mode</source>
+        <target>夜間モードを有効化</target>
         <note>Label for the button, displayed in the menu, turns on night mode.</note>
       </trans-unit>
       <trans-unit id="Menu.NoImageModeHideImages.Label">
         <source>Hide Images</source>
+        <target>画像を隠す</target>
         <note>Label for the button, displayed in the menu, hides images on the webpage when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.NoImageModeShowImages.Label">
         <source>Show Images</source>
+        <target>画像を表示する</target>
         <note>Label for the button, displayed in the menu, shows images on the webpage when pressed</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveBookmark.Confirm">
         <source>Bookmark Removed</source>
+        <target>ブックマークを削除しました</target>
         <note>Toast displayed to the user after a bookmark has been removed.</note>
       </trans-unit>
       <trans-unit id="Missing error">
@@ -1610,6 +1622,7 @@
       </trans-unit>
       <trans-unit id="Page Options Menu">
         <source>Page Options Menu</source>
+        <target>ページオプションメニュー</target>
         <note>Accessibility label for the Page Options menu button</note>
       </trans-unit>
       <trans-unit id="Panel Chooser">
@@ -1634,6 +1647,7 @@
       </trans-unit>
       <trans-unit id="PhotonMenu.cancel">
         <source>Cancel</source>
+        <target>キャンセル</target>
         <note>Button for closing the menu action sheet</note>
       </trans-unit>
       <trans-unit id="Please allow Firefox to access your device’s camera in ‘Settings’ -&gt; ‘Privacy’ -&gt; ‘Camera’.">
@@ -1959,6 +1973,7 @@
       </trans-unit>
       <trans-unit id="Settings.Disconnect.Button">
         <source>Disconnect Sync</source>
+        <target>Sync との接続を解除</target>
         <note>Button displayed at the bottom of settings page allowing users to Disconnect from FxA</note>
       </trans-unit>
       <trans-unit id="Settings.Disconnect.DestructiveButton">
@@ -1968,6 +1983,7 @@
       </trans-unit>
       <trans-unit id="Settings.Disconnect.Title">
         <source>Disconnect Sync?</source>
+        <target>Sync との接続を解除しますか？</target>
         <note>Title of the alert when prompting the user asking to disconnect.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.Clear.Button">
@@ -2017,6 +2033,7 @@
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.ASTitle">
         <source>Additional Content</source>
+        <target>追加のコンテンツ</target>
         <note>The title of the section in newtab that lets you modify the topsites panel</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.BlankPage">
@@ -2031,10 +2048,12 @@
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HighlightsBookmarks">
         <source>Recent Bookmarks</source>
+        <target>最近追加したブックマーク</target>
         <note>Option in the settings to turn off recent bookmarks in the Highlights section</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HighlightsHistory">
         <source>Visited</source>
+        <target>訪問済み</target>
         <note>Option in settings to turn off history in the highlights section</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.History">
@@ -2049,6 +2068,7 @@
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.Pocket">
         <source>Recommended by Pocket</source>
+        <target>Pocket からのおすすめ</target>
         <note>Option in settings to turn on off pocket recommendations</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.ReadingList">
@@ -2083,10 +2103,12 @@
       </trans-unit>
       <trans-unit id="Settings.OpenWith.PageTitle">
         <source>Open mail links with</source>
+        <target>メールリンクを開くアプリ</target>
         <note>Title for Open With Settings</note>
       </trans-unit>
       <trans-unit id="Settings.OpenWith.SectionName">
         <source>Mail App</source>
+        <target>メールアプリ</target>
         <note>Label used as an item in Settings. When touched it will open a dialog to configure the open with (mail links) behaviour.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Done.Button">
@@ -2101,6 +2123,7 @@
       </trans-unit>
       <trans-unit id="Settings.SendUsage.Link">
         <source>Learn More.</source>
+        <target>詳細情報。</target>
         <note>title for a link that explains how mozilla collects telemetry</note>
       </trans-unit>
       <trans-unit id="Settings.SendUsage.Message">
@@ -2109,6 +2132,7 @@
       </trans-unit>
       <trans-unit id="Settings.SendUsage.Title">
         <source>Send Usage Data</source>
+        <target>利用統計データを送信</target>
         <note>The title for the setting to send usage data.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.BlockListsHeader">
@@ -2370,6 +2394,7 @@
       </trans-unit>
       <trans-unit id="Toolbar.Menu.CloseAllTabs">
         <source>Close All Tabs</source>
+        <target>すべてのタブを閉じる</target>
         <note>Accessibility label for the Close All Tabs menu button.</note>
       </trans-unit>
       <trans-unit id="Top sites">
@@ -2989,6 +3014,7 @@
       </trans-unit>
       <trans-unit id="Menu.AddToReadingList.Title">
         <source>Add to Reading List</source>
+        <target>リーディングリストに追加</target>
         <note>Label for the button, displayed in the menu, used to add a page to the reading list.</note>
       </trans-unit>
       <trans-unit id="Menu.CloseAllTabsAction.Title">
@@ -2998,18 +3024,22 @@
       </trans-unit>
       <trans-unit id="Menu.CopyURL.Title">
         <source>Copy URL</source>
+        <target>URL をコピー</target>
         <note>Label for the button, displayed in the menu, used to copy the page url to the clipboard.</note>
       </trans-unit>
       <trans-unit id="Menu.FindInPageAction.Title">
         <source>Find in Page</source>
+        <target>ページ内検索</target>
         <note>Label for the button, displayed in the menu, used to open the toolbar to search for text within the current page.</note>
       </trans-unit>
       <trans-unit id="Menu.NewPrivateTabAction.Title">
         <source>Open New Private Tab</source>
+        <target>新規プライベートタブを開く</target>
         <note>Label for the button, displayed in the menu, used to open a new private tab.</note>
       </trans-unit>
       <trans-unit id="Menu.NewTabAction.Title">
         <source>Open New Tab</source>
+        <target>新規タブを開く</target>
         <note>Label for the button, displayed in the menu, used to open a new tab</note>
       </trans-unit>
       <trans-unit id="Menu.OpenBookmarksAction.AccessibilityLabel">
@@ -3024,6 +3054,7 @@
       </trans-unit>
       <trans-unit id="Menu.OpenHomePageAction.Title">
         <source>Open Homepage</source>
+        <target>ホームページを開く</target>
         <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel">
@@ -3053,14 +3084,17 @@
       </trans-unit>
       <trans-unit id="Menu.SetHomePageAction.Title">
         <source>Set as Homepage</source>
+        <target>ホームページに設定</target>
         <note>Label for the button, displayed in the menu, used to set the homepage if none is currently set.</note>
       </trans-unit>
       <trans-unit id="Menu.SharePageAction.Title">
         <source>Share Page With…</source>
+        <target>ページを共有…</target>
         <note>Label for the button, displayed in the menu, used to open the share dialog.</note>
       </trans-unit>
       <trans-unit id="Menu.ShowTabs.Title">
         <source>Show Tabs</source>
+        <target>タブを表示</target>
         <note>Label for the button, displayed in the menu, used to open the tabs tray</note>
       </trans-unit>
       <trans-unit id="Menu.ViewDekstopSiteAction.Title">
