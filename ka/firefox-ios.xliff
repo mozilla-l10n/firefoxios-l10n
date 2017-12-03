@@ -1190,7 +1190,7 @@
       </trans-unit>
       <trans-unit id="FxAPush_DeviceDisconnected_UnknownDevice_body">
         <source>A device has disconnected from Firefox Sync</source>
-        <target>მოწყობილობა გამოთიშულია Firefox Sync-იდან </target>
+        <target>მოწყობილობა გამოთიშულია Firefox Sync-იდან</target>
         <note>Body of a notification displayed when unnamed device has been disconnected from FxA.</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceDisconnected_body">
@@ -1441,57 +1441,69 @@
       </trans-unit>
       <trans-unit id="Logins">
         <source>Logins</source>
-        <target>ანგარიშის მონაცემები</target>
+        <target>ანგარიშები</target>
         <note>Label used as an item in Settings. When touched, the user will be navigated to the Logins/Password manager.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.DontSave.Button">
         <source>Don’t Save</source>
+        <target>შენახვის გარეშე</target>
         <note>Button to not save the user's password</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSaveLogin.Title">
         <source>Save login %1$@ for %2$@?</source>
+        <target>გსურთ, %1$@ მონაცემების დამახსოვრება %2$@ საიტისთვის?</target>
         <note>Prompt for saving a login. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSavePassword.Title">
         <source>Save password for %@?</source>
+        <target>გსურთ, პაროლის შენახვა %@-ისთვის?</target>
         <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title">
         <source>Update login %1$@ for %2$@?</source>
+        <target>გსურთ, %1$@ მონაცემების განახლება %2$@ საიტისთვის?</target>
         <note>Prompt for updating a login. The first parameter is the username for which the password will be updated for. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdatePassword.Title">
         <source>Update password for %@?</source>
+        <target>გსურთ, პაროლის განახლება %@-ისთვის?</target>
         <note>Prompt for updating a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.SaveLogin.Button">
         <source>Save Login</source>
+        <target>მონაცემების შენახვა</target>
         <note>Button to save the user's password</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.Update.Button">
         <source>Update</source>
+        <target>განახლება</target>
         <note>Button to update the user's password</note>
       </trans-unit>
       <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?">
         <source>Looks like Firefox crashed previously. Would you like to restore your tabs?</source>
+        <target>როგორც ჩანს, Firefox წინაზე ავარიულად დაიხურა. გსურთ, ჩანართების აღდგენა?</target>
         <note>Restore Tabs Prompt Description</note>
       </trans-unit>
       <trans-unit id="Mark as Read">
         <source>Mark as Read</source>
+        <target>წაკითხულად მონიშვნა</target>
         <note>Name for Mark as read button in reader mode
    Title for the button that marks a reading list item as read</note>
       </trans-unit>
       <trans-unit id="Mark as Unread">
         <source>Mark as Unread</source>
+        <target>წაუკითხავად მონიშვნა</target>
         <note>Name for Mark as unread button in reader mode
    Title for the button that marks a reading list item as unread</note>
       </trans-unit>
       <trans-unit id="Menu.AddBookmark.Confirm">
         <source>Bookmark Added</source>
+        <target>ჩანიშნულია</target>
         <note>Toast displayed to the user after a bookmark has been added.</note>
       </trans-unit>
       <trans-unit id="Menu.AddToReadingList.Confirm">
         <source>Added To Reading List</source>
+        <target>დამატებულია წასაკითხებში</target>
         <note>Toast displayed to the user after adding the item to their reading list.</note>
       </trans-unit>
       <trans-unit id="Menu.CopyURL.Confirm">
@@ -2155,10 +2167,12 @@
       </trans-unit>
       <trans-unit id="Tab %@ of %@">
         <source>Tab %1$@ of %2$@</source>
+        <target>%1$@ ჩანართი, %2$@ ჩანართიდან</target>
         <note>Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray, along with the total number of tabs. E.g. \"Tab 2 of 5\" says that tab 2 is visible (and is the only visible tab), out of 5 tabs total.</note>
       </trans-unit>
       <trans-unit id="Tabs %@ to %@ of %@">
         <source>Tabs %1$@ to %2$@ of %3$@</source>
+        <target>%1$@ - %2$@ ჩანართი, %3$@ ჩანართიდან</target>
         <note>Message spoken by VoiceOver saying the range of tabs that are currently visible in Tabs Tray, along with the total number of tabs. E.g. \"Tabs 8 to 10 of 15\" says tabs 8, 9 and 10 are visible, out of 15 tabs total.</note>
       </trans-unit>
       <trans-unit id="Tabs Tray">
@@ -2247,6 +2261,7 @@
       </trans-unit>
       <trans-unit id="Version %@ (%@)">
         <source>Version %1$@ (%2$@)</source>
+        <target>%1$@ ვერსია (%2$@)</target>
         <note>Version number of Firefox shown in settings</note>
       </trans-unit>
       <trans-unit id="Web content">
@@ -2806,6 +2821,7 @@
     <body>
       <trans-unit id="%@ on %@">
         <source>%1$@ on %2$@</source>
+        <target>%1$@, %2$@ მოწყობილობიდან</target>
         <note>A brief descriptive name for this app on this device, used for Send Tab and Synced Tabs. The first argument is the app name. The second argument is the device name.</note>
       </trans-unit>
     </body>
