@@ -559,6 +559,7 @@
       </trans-unit>
       <trans-unit id="Introductory slide %@ of %@">
         <source>Introductory slide %1$@ of %2$@</source>
+        <target>%1$@ გვერდი %2$@-იდან</target>
         <note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note>
       </trans-unit>
       <trans-unit id="Personalize your Firefox just the way you like in Settings.">
@@ -2331,7 +2332,7 @@
       </trans-unit>
       <trans-unit id="Tab %@ of %@">
         <source>Tab %1$@ of %2$@</source>
-        <target>%1$@ ჩანართი, %2$@ ჩანართიდან</target>
+        <target>%1$@ ჩანართი, %2$@-იდან</target>
         <note>Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray, along with the total number of tabs. E.g. \"Tab 2 of 5\" says that tab 2 is visible (and is the only visible tab), out of 5 tabs total.</note>
       </trans-unit>
       <trans-unit id="Tabs %@ to %@ of %@">
@@ -2670,38 +2671,47 @@
       </trans-unit>
       <trans-unit id="Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.">
         <source>Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.</source>
+        <target>Firefox არ დაიმახსოვრებს მონახულებულ გვერდებს, ან ფუნთუშებს, თუმცა ახალად ჩანიშნული გვერდები შეინახება.</target>
         <note>Description text displayed when there are no open tabs while in private mode</note>
       </trans-unit>
       <trans-unit id="Learn More">
         <source>Learn More</source>
+        <target>ვრცლად</target>
         <note>Text button displayed when there are no tabs open while in private mode</note>
       </trans-unit>
       <trans-unit id="Off">
         <source>Off</source>
+        <target>გამორთვა</target>
         <note>Toggled OFF accessibility value</note>
       </trans-unit>
       <trans-unit id="On">
         <source>On</source>
+        <target>ჩართვა</target>
         <note>Toggled ON accessibility value</note>
       </trans-unit>
       <trans-unit id="Open in New Private Tab">
         <source>Open in New Private Tab</source>
+        <target>გახსნა პირად ჩანართში</target>
         <note>Context menu option for opening a link in a new private tab</note>
       </trans-unit>
       <trans-unit id="Private Browsing">
         <source>Private Browsing</source>
+        <target>პირადი თვალიერება</target>
         <note>Title displayed for when there are no open tabs while in private mode</note>
       </trans-unit>
       <trans-unit id="Private Mode">
         <source>Private Mode</source>
+        <target>პირადი რეჟიმი</target>
         <note>Accessibility label for toggling on/off private mode</note>
       </trans-unit>
       <trans-unit id="Turns private mode on or off">
         <source>Turns private mode on or off</source>
+        <target>პირადი თვალიერების ჩართვა/გამორთვა</target>
         <note>Accessiblity hint for toggling on/off private mode</note>
       </trans-unit>
       <trans-unit id="When Leaving Private Browsing">
         <source>When Leaving Private Browsing</source>
+        <target>პირადი თვალიერების რეჟიმის დატოვებისას</target>
         <note>Will be displayed in Settings under 'Close Private Tabs'</note>
       </trans-unit>
     </body>
@@ -2713,26 +2723,32 @@
     <body>
       <trans-unit id="%@ search">
         <source>%@ search</source>
+        <target>%@ ძიება</target>
         <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
       </trans-unit>
       <trans-unit id="No">
         <source>No</source>
+        <target>არა</target>
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
       </trans-unit>
       <trans-unit id="Search Settings">
         <source>Search Settings</source>
+        <target>ძიების პარამეტრები</target>
         <note>Label for search settings button.</note>
       </trans-unit>
       <trans-unit id="Search suggestions from %@">
         <source>Search suggestions from %@</source>
+        <target>ძიების შემოთავაზებები %@-ისგან</target>
         <note>Accessibility label for image of default search engine displayed left to the actual search suggestions from the engine. The parameter substituted for \"%@\" is the name of the search engine. E.g.: Search suggestions from Google</note>
       </trans-unit>
       <trans-unit id="Turn on search suggestions?">
         <source>Turn on search suggestions?</source>
+        <target>გსურთ, ძიების შემოთავაზების ჩვენება?</target>
         <note>Prompt shown before enabling provider search queries</note>
       </trans-unit>
       <trans-unit id="Yes">
         <source>Yes</source>
+        <target>დიახ</target>
         <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
       </trans-unit>
     </body>
@@ -2744,6 +2760,7 @@
     <body>
       <trans-unit id="More Info…">
         <source>More Info…</source>
+        <target>ვრცლად…</target>
         <note>Re-using more info label from 'anonymous usage data' item for showing a 'More Info' link on the Tracking Protection settings screen.</note>
       </trans-unit>
     </body>
@@ -2755,30 +2772,37 @@
     <body>
       <trans-unit id="Available devices:">
         <source>Available devices:</source>
+        <target>ხელმისაწვდომი მოწყობილობები:</target>
         <note>Header for the list of devices table</note>
       </trans-unit>
       <trans-unit id="Close">
         <source>Close</source>
+        <target>დახურვა</target>
         <note>Close button in top navigation bar</note>
       </trans-unit>
       <trans-unit id="Please open Firefox, go to Settings and sign in to continue.">
         <source>Please open Firefox, go to Settings and sign in to continue.</source>
+        <target>გასაგრძელებლად გთხოვთ, გახსნათ Firefox, გადახვიდეთ პარამეტრებზე და შეხვიდეთ ანგარიშზე.</target>
         <note>See http://mzl.la/1ISlXnU</note>
       </trans-unit>
       <trans-unit id="Send">
         <source>Send</source>
+        <target>გაგზავნა</target>
         <note>Navigation bar button to Send the current page to a device</note>
       </trans-unit>
       <trans-unit id="Send Tab">
         <source>Send Tab</source>
+        <target>ჩანართის გაგზავნა</target>
         <note>Title of the dialog that allows you to send a tab to a different device</note>
       </trans-unit>
       <trans-unit id="You are not signed in to your Firefox Account.">
         <source>You are not signed in to your Firefox Account.</source>
+        <target>თქვენ არ ხართ შესული Firefox ანგარიშზე.</target>
         <note>See http://mzl.la/1ISlXnU</note>
       </trans-unit>
       <trans-unit id="You don’t have any other devices connected to this Firefox Account available to sync.">
         <source>You don’t have any other devices connected to this Firefox Account available to sync.</source>
+        <target>Firefox ანგარიშთან, არცერთი სხვა მოწყობილობა არ გაქვთ დაკავშირებული, დასინქრონებისთვის.</target>
         <note>Error message shown in the remote tabs panel</note>
       </trans-unit>
     </body>
@@ -2790,9 +2814,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2803,12 +2829,15 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2819,12 +2848,15 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>Send Tab</source>
+        <target>ჩანართის გაგზავნა</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2835,12 +2867,15 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2851,14 +2886,17 @@
     <body>
       <trans-unit id="Add">
         <source>Add</source>
+        <target>დამატება</target>
         <note>Add button in the share dialog</note>
       </trans-unit>
       <trans-unit id="Add to Bookmarks">
         <source>Add to Bookmarks</source>
+        <target>ჩანიშვნა</target>
         <note>On/off toggle to select adding this url to your bookmarks</note>
       </trans-unit>
       <trans-unit id="Add to Reading List">
         <source>Add to Reading List</source>
+        <target>წასაკითხებში დამატება</target>
         <note>On/off toggle to select adding this url to your reading list</note>
       </trans-unit>
     </body>
@@ -2870,12 +2908,15 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2886,14 +2927,17 @@
     <body>
       <trans-unit id="TodayWidget.GoToCopiedLinkLabel">
         <source>Go to copied link</source>
+        <target>დაკოპირებულ ბმულზე გადასვლა</target>
         <note>Go to link on clipboard</note>
       </trans-unit>
       <trans-unit id="TodayWidget.NewPrivateTabButtonLabel">
         <source>New Private Tab</source>
+        <target>ახალი პირადი ჩანართი</target>
         <note>New Private Tab button label</note>
       </trans-unit>
       <trans-unit id="TodayWidget.NewTabButtonLabel">
         <source>New Tab</source>
+        <target>ახალი ჩანართი</target>
         <note>New Tab button label</note>
       </trans-unit>
     </body>
@@ -2905,12 +2949,15 @@
     <body>
       <trans-unit id="CFBundleDisplayName">
         <source>View Later</source>
+        <target>გვერდის ნახვა</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2921,9 +2968,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2934,9 +2983,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2947,9 +2998,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2960,82 +3013,102 @@
     <body>
       <trans-unit id="Menu.AddBookmarkAction.Title">
         <source>Bookmark This Page</source>
+        <target>გვერდის ჩანიშვნა</target>
         <note>Label for the button, displayed in the menu, used to create a bookmark for the current website.</note>
       </trans-unit>
       <trans-unit id="Menu.AddToReadingList.Title">
         <source>Add to Reading List</source>
+        <target>წასაკითხებში დამატება</target>
         <note>Label for the button, displayed in the menu, used to add a page to the reading list.</note>
       </trans-unit>
       <trans-unit id="Menu.CloseAllTabsAction.Title">
         <source>Close All Tabs</source>
+        <target>ყველა ჩანართის დახურვა</target>
         <note>Label for the button, displayed in the menu, used to close all tabs currently open.</note>
       </trans-unit>
       <trans-unit id="Menu.CopyURL.Title">
         <source>Copy URL</source>
+        <target>URL ბმულის დაკოპირება</target>
         <note>Label for the button, displayed in the menu, used to copy the page url to the clipboard.</note>
       </trans-unit>
       <trans-unit id="Menu.FindInPageAction.Title">
         <source>Find in Page</source>
+        <target>პოვნა გვერდზე</target>
         <note>Label for the button, displayed in the menu, used to open the toolbar to search for text within the current page.</note>
       </trans-unit>
       <trans-unit id="Menu.NewPrivateTabAction.Title">
         <source>Open New Private Tab</source>
+        <target>ახალი პირადი ჩანართის გახსნა</target>
         <note>Label for the button, displayed in the menu, used to open a new private tab.</note>
       </trans-unit>
       <trans-unit id="Menu.NewTabAction.Title">
         <source>Open New Tab</source>
+        <target>ახალი ჩანართის გახსნა</target>
         <note>Label for the button, displayed in the menu, used to open a new tab</note>
       </trans-unit>
       <trans-unit id="Menu.OpenBookmarksAction.AccessibilityLabel">
         <source>Bookmarks</source>
+        <target>სანიშნები</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the Bbookmarks home panel.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenHistoryAction.AccessibilityLabel">
         <source>History</source>
+        <target>ისტორია</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the History home panel.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenHomePageAction.Title">
         <source>Open Homepage</source>
+        <target>მთავარი გვერდის გახსნა</target>
         <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel">
         <source>Reading List</source>
+        <target>წასაკითხი სია</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the Reading list home panel.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenSettingsAction.Title">
         <source>Settings</source>
+        <target>პარამეტრები</target>
         <note>Label for the button, displayed in the menu, used to open the Settings menu.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenTopSitesAction.AccessibilityLabel">
         <source>Top Sites</source>
+        <target>რჩეული საიტები</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the Top Sites home panel.</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveBookmarkAction.Title">
         <source>Remove Bookmark</source>
+        <target>სანიშნის ამოღება</target>
         <note>Label for the button, displayed in the menu, used to delete an existing bookmark for the current website.</note>
       </trans-unit>
       <trans-unit id="Menu.ScanQRCodeAction.Title">
         <source>Scan QR Code</source>
+        <target>QR კოდის წაკითხვა</target>
         <note>Label for the button, displayed in the menu, used to open the QR code scanner.</note>
       </trans-unit>
       <trans-unit id="Menu.SetHomePageAction.Title">
         <source>Set as Homepage</source>
+        <target>მთავარ გვერდად დაყენება</target>
         <note>Label for the button, displayed in the menu, used to set the homepage if none is currently set.</note>
       </trans-unit>
       <trans-unit id="Menu.SharePageAction.Title">
         <source>Share Page With…</source>
+        <target>გვერდის გაზიარება…</target>
         <note>Label for the button, displayed in the menu, used to open the share dialog.</note>
       </trans-unit>
       <trans-unit id="Menu.ShowTabs.Title">
         <source>Show Tabs</source>
+        <target>ჩანართების გამოჩენა</target>
         <note>Label for the button, displayed in the menu, used to open the tabs tray</note>
       </trans-unit>
       <trans-unit id="Menu.ViewDekstopSiteAction.Title">
         <source>Request Desktop Site</source>
+        <target>საიტის სრული ვერსიის მოთხოვნა</target>
         <note>Label for the button, displayed in the menu, used to request the desktop version of the current website.</note>
       </trans-unit>
       <trans-unit id="Menu.ViewMobileSiteAction.Title">
         <source>Request Mobile Site</source>
+        <target>საიტის მობილური ვერსიის მოთხოვნა</target>
         <note>Label for the button, displayed in the menu, used to request the mobile version of the current website.</note>
       </trans-unit>
     </body>
@@ -3059,9 +3132,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3072,22 +3147,27 @@
     <body>
       <trans-unit id="Bookmarks Menu">
         <source>Bookmarks Menu</source>
+        <target>სანიშნების მენიუ</target>
         <note>The name of the folder that contains desktop bookmarks in the menu. This should match bookmarks.folder.menu.label on Android.</note>
       </trans-unit>
       <trans-unit id="Bookmarks Toolbar">
         <source>Bookmarks Toolbar</source>
+        <target>სანიშნების ხელსაწყოთა ზოლი</target>
         <note>The name of the folder that contains desktop bookmarks in the toolbar. This should match bookmarks.folder.toolbar.label on Android.</note>
       </trans-unit>
       <trans-unit id="Mobile Bookmarks">
         <source>Mobile Bookmarks</source>
+        <target>მობილურის სანიშნები</target>
         <note>The title of the folder that contains mobile bookmarks. This should match bookmarks.folder.mobile.label on Android.</note>
       </trans-unit>
       <trans-unit id="Unsorted Bookmarks">
         <source>Unsorted Bookmarks</source>
+        <target>დაუხარისხებელი სანიშნეები</target>
         <note>The name of the folder that contains unsorted desktop bookmarks. This should match bookmarks.folder.unfiled.label on Android.</note>
       </trans-unit>
       <trans-unit id="Untitled">
         <source>Untitled</source>
+        <target>უსათაურო</target>
         <note>The default name for bookmark folders without titles.
    The default name for bookmark nodes without titles.</note>
       </trans-unit>
@@ -3100,9 +3180,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3113,9 +3195,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3126,9 +3210,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3139,9 +3225,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3152,9 +3240,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3165,9 +3255,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3178,9 +3270,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3191,9 +3285,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>10.0</source>
+        <target>10.0</target>
       </trans-unit>
     </body>
   </file>
