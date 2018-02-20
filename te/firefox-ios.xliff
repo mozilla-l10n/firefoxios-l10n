@@ -10,8 +10,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>10.0</source>
-        <target>10.0</target>
+        <source>11.0</source>
+        <target>11.0</target>
       </trans-unit>
     </body>
   </file>
@@ -25,8 +25,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>10.0</source>
-        <target>10.0</target>
+        <source>11.0</source>
+        <target>11.0</target>
       </trans-unit>
     </body>
   </file>
@@ -455,8 +455,8 @@
         <target>$(MOZ_PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>10.0</source>
-        <target>10.0</target>
+        <source>11.0</source>
+        <target>11.0</target>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you take and upload photos.</source>
@@ -556,11 +556,6 @@
         <source>Thanks for choosing Firefox!</source>
         <target>Firefox ని ఎంచుకున్నందుకు కృతజ్ఞతలు!</target>
         <note>Title for the first panel 'Welcome' in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Introductory slide %@ of %@">
-        <source>Introductory slide %1$@ of %2$@</source>
-        <target>పరిచయ స్లయిడ్ %2$@ లో %1$@ది</target>
-        <note>String spoken by assistive technology (like VoiceOver) stating on which page of the intro wizard we currently are. E.g. Introductory slide 1 of 3</note>
       </trans-unit>
       <trans-unit id="Personalize your Firefox just the way you like in Settings.">
         <source>Personalize your Firefox just the way you like in Settings.</source>
@@ -726,6 +721,10 @@
         <target>తరువాత పేజీ</target>
         <note>The page control button that lets you switch between pages in top sites</note>
       </trans-unit>
+      <trans-unit id="ActivityStream.Pocket.MoreLink">
+        <source>More</source>
+        <note>The link that shows more Pocket trending stories</note>
+      </trans-unit>
       <trans-unit id="ActivityStream.Pocket.SectionTitle">
         <source>Recommended by Pocket</source>
         <target>Pocketచే సిఫార్సు చేయబడింది</target>
@@ -805,7 +804,7 @@
       <trans-unit id="Bookmarks">
         <source>Bookmarks</source>
         <target>బుక్‌మార్కులు</target>
-        <note>Panel accessibility label</note>
+        <note>Toggle bookmarks syncing setting</note>
       </trans-unit>
       <trans-unit id="Bookmarks you save will show up here.">
         <source>Bookmarks you save will show up here.</source>
@@ -907,11 +906,6 @@
         <target>కొత్త ట్యాబు తెరుచుకుంది</target>
         <note>The label text in the Button Toast for switching to a fresh New Tab.</note>
       </trans-unit>
-      <trans-unit id="Copy Address">
-        <source>Copy Address</source>
-        <target>చిరునామాను కాపీచెయ్యి</target>
-        <note>Copy the URL from the location bar</note>
-      </trans-unit>
       <trans-unit id="Copy Image">
         <source>Copy Image</source>
         <target>చిత్రాన్ని కాపీ చేయి</target>
@@ -1009,6 +1003,10 @@
         <target>మీరు పాస్వర్డ్ను %@న నవీకరించాలనుకుంటున్నారా?</target>
         <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
       </trans-unit>
+      <trans-unit id="Don't Enable">
+        <source>Don't Enable</source>
+        <note>Default push alert cancel button text</note>
+      </trans-unit>
       <trans-unit id="Done">
         <source>Done</source>
         <target>పూర్తయింది</target>
@@ -1043,6 +1041,10 @@
         <source>Downloads aren’t supported in Firefox yet.</source>
         <target>Firefox ఇంకా దింపుకోళ్ళకు మద్దతు ఇవ్వట్లేదు.</target>
         <note>The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle.</note>
+      </trans-unit>
+      <trans-unit id="Enable Push">
+        <source>Enable Push</source>
+        <note>Default push alert ok button text</note>
       </trans-unit>
       <trans-unit id="Enter your password to connect.">
         <source>Enter your password to connect.</source>
@@ -1094,10 +1096,13 @@
         <target>ఫేస్‌బుక్</target>
         <note>Tile title for Facebook</note>
       </trans-unit>
-      <trans-unit id="Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.">
-        <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
-        <target>ఫైర్ఫాక్స్ మీ ఖాతాలో సమకాలీకరించడాన్ని ఆపివేయవచ్చు, కానీ ఈ పరికరంలో మీ బ్రౌజింగ్ డేటాను తొలగించలేదు.</target>
-        <note>Text of the 'sign out firefox account' alert</note>
+      <trans-unit id="Firefox Sync Requires Push">
+        <source>Firefox Sync Requires Push</source>
+        <note>Default push to ask title</note>
+      </trans-unit>
+      <trans-unit id="Firefox will stay in sync faster with Push Notifications enabled.">
+        <source>Firefox will stay in sync faster with Push Notifications enabled.</source>
+        <note>Default push to ask message</note>
       </trans-unit>
       <trans-unit id="Firefox would like to access your Photos">
         <source>Firefox would like to access your Photos</source>
@@ -1129,20 +1134,27 @@
         <target>మీరు %@ని ధృవీకరించాలి. Firefox నుండి ధృవీకరణ లంకె కోసం మీ ఇమెయిల్ను తనిఖీ చేయండి.</target>
         <note>Message explaining that user needs to check email for Firefox Account verfication link.</note>
       </trans-unit>
+      <trans-unit id="FxA.ConnectAnotherDevice">
+        <source>Connect Another Device</source>
+        <note>Button label to connect another device to Sync</note>
+      </trans-unit>
       <trans-unit id="FxA.FirefoxAccount">
         <source>Firefox Account</source>
         <target>Firefox ఖాతా</target>
         <note>Settings section title for Firefox Account</note>
       </trans-unit>
       <trans-unit id="FxA.ManageAccount">
-        <source>Manage Account</source>
-        <target>ఖాతా నిర్వహణ</target>
+        <source>Manage Account &amp; Devices</source>
         <note>Button label to goto Firefox Account settings</note>
       </trans-unit>
       <trans-unit id="FxA.NoInternetConnection">
         <source>No Internet Connection</source>
         <target>అంతర్జాల అనుసంధానం లేదు</target>
         <note>Label when no internet is present</note>
+      </trans-unit>
+      <trans-unit id="FxA.OpenSyncPreferences">
+        <source>Open Sync Preferences</source>
+        <note>Button label to open Sync sreferences</note>
       </trans-unit>
       <trans-unit id="FxA.ResendEmail">
         <source>Resend Email</source>
@@ -1204,11 +1216,6 @@
         <target>Sync అనుసంధానం తెంచివేయబడింది</target>
         <note>Title of a notification displayed when named device has been disconnected from FxA.</note>
       </trans-unit>
-      <trans-unit id="General">
-        <source>General</source>
-        <target>సాధారణం</target>
-        <note>General settings section title</note>
-      </trans-unit>
       <trans-unit id="Get your open tabs, bookmarks, and passwords from your other devices.">
         <source>Get your open tabs, bookmarks, and passwords from your other devices.</source>
         <target>మీ ఇతర పరికరాల నుండి మీ తెరిచిన ట్యాబ్లను, బుక్మార్క్లను మరియు పాస్వర్డ్లు పొందండి.</target>
@@ -1232,7 +1239,7 @@
       <trans-unit id="History">
         <source>History</source>
         <target>చరిత్ర</target>
-        <note>Panel accessibility label</note>
+        <note>Toggle history syncing setting</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptyState.Title">
         <source>Websites you’ve visited recently will show up here.</source>
@@ -1244,10 +1251,21 @@
         <target>మీ ఇతర పరికరాల నుండి ట్యాబులు ఇక్కడ కనిపిస్తాయి.</target>
         <note>Description for the empty synced tabs null state in the History Panel</note>
       </trans-unit>
-      <trans-unit id="HistoryPanel.EmptySyncedTabsState.Description">
-        <source>Sign in to view open tabs on your other devices.</source>
-        <target>మీ ఇతర పరికరాల్లో తెరిచిన ట్యాబ్లను వీక్షించడానికి ప్రవేశించండి.</target>
-        <note>Description for the empty synced tabs state in the History Panel</note>
+      <trans-unit id="HistoryPanel.EmptySyncedTabsPanelNotSignedInState.Description">
+        <source>Sign in to view a list of tabs from your other devices.</source>
+        <note>Description for the empty synced tabs 'not signed in' state in the History Panel</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.EmptySyncedTabsPanelNotYetVerifiedState.Description">
+        <source>Your account needs to be verified.</source>
+        <note>Description for the empty synced tabs 'not yet verified' state in the History Panel</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.EmptySyncedTabsPanelSingleDeviceSyncState.Description">
+        <source>Want to see your tabs from other devices here?</source>
+        <note>Description for the empty synced tabs 'single device Sync' state in the History Panel</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description">
+        <source>Turn on tab syncing to view a list of tabs from your other devices.</source>
+        <note>Description for the empty synced tabs 'tab sync disabled' state in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsState.Title">
         <source>Firefox Sync</source>
@@ -1443,7 +1461,7 @@
       <trans-unit id="Logins">
         <source>Logins</source>
         <target>లాగిన్ లు</target>
-        <note>Label used as an item in Settings. When touched, the user will be navigated to the Logins/Password manager.</note>
+        <note>Toggle logins syncing setting</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.DontSave.Button">
         <source>Don’t Save</source>
@@ -1464,11 +1482,6 @@
         <source>Update login %1$@ for %2$@?</source>
         <target>లాగిన్ %2$@ కోసం %2$@ నవీకరిణ చేయండి?</target>
         <note>Prompt for updating a login. The first parameter is the username for which the password will be updated for. The second parameter is the hostname of the site.</note>
-      </trans-unit>
-      <trans-unit id="LoginsHelper.PromptUpdatePassword.Title">
-        <source>Update password for %@?</source>
-        <target>%@ కోసం పాస్వర్డ్ ను నవీకరించండి?</target>
-        <note>Prompt for updating a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.SaveLogin.Button">
         <source>Save Login</source>
@@ -1532,10 +1545,86 @@
         <target>చిత్రాలను చూపించు</target>
         <note>Label for the button, displayed in the menu, shows images on the webpage when pressed</note>
       </trans-unit>
+      <trans-unit id="Menu.Paste.Title">
+        <source>Paste</source>
+        <note>The title for the button that lets you paste into the location bar</note>
+      </trans-unit>
+      <trans-unit id="Menu.PasteAndGo.Title">
+        <source>Paste &amp; Go</source>
+        <note>The title for the button that lets you paste and go to a URL</note>
+      </trans-unit>
+      <trans-unit id="Menu.ReloadWithTrackingProtection.Title">
+        <source>Reload With Tracking Protection</source>
+        <note>Label for the button, displayed in the menu, used to reload the current website with Tracking Protection enabled</note>
+      </trans-unit>
+      <trans-unit id="Menu.ReloadWithoutTrackingProtection.Title">
+        <source>Reload Without Tracking Protection</source>
+        <note>Label for the button, displayed in the menu, used to reload the current website without Tracking Protection</note>
+      </trans-unit>
       <trans-unit id="Menu.RemoveBookmark.Confirm">
         <source>Bookmark Removed</source>
         <target>ఇష్టాంశము తీసివేయబడింది</target>
         <note>Toast displayed to the user after a bookmark has been removed.</note>
+      </trans-unit>
+      <trans-unit id="Menu.ToolsAction.Title">
+        <source>Tools</source>
+        <note>Label for the button, displayed in the menu, used to navigate to the tools sub-menu</note>
+      </trans-unit>
+      <trans-unit id="Menu.TrackingProtection.Title">
+        <source>Tracking Protection</source>
+        <note>Label for the button, displayed in the menu, used to get more info about Tracking Protection</note>
+      </trans-unit>
+      <trans-unit id="Menu.TrackingProtectionAdsBlocked.Title">
+        <source>Ad trackers</source>
+        <note>The title that shows the number of Analytics scripts blocked</note>
+      </trans-unit>
+      <trans-unit id="Menu.TrackingProtectionAnalyticsBlocked.Title">
+        <source>Analytic trackers</source>
+        <note>The title that shows the number of Analytics scripts blocked</note>
+      </trans-unit>
+      <trans-unit id="Menu.TrackingProtectionBlocking.Description">
+        <source>Firefox is blocking parts of the page that may track your browsing.</source>
+        <note>Description of the Tracking protection menu when TP is blocking parts of the page</note>
+      </trans-unit>
+      <trans-unit id="Menu.TrackingProtectionBlockingDisabled.Description">
+        <source>Block online trackers</source>
+        <note>The description of the Tracking Protection menu item when tracking is enabled</note>
+      </trans-unit>
+      <trans-unit id="Menu.TrackingProtectionContentBlocked.Title">
+        <source>Content trackers</source>
+        <note>The title that shows the number of content scripts blocked</note>
+      </trans-unit>
+      <trans-unit id="Menu.TrackingProtectionDisable.Title">
+        <source>Disable for this site</source>
+        <note>The button that disabled TP for a site.</note>
+      </trans-unit>
+      <trans-unit id="Menu.TrackingProtectionDisabled.Title">
+        <source>Tracking Protection is now off for this site.</source>
+        <note>The confirmation toast once tracking protection has been disabled</note>
+      </trans-unit>
+      <trans-unit id="Menu.TrackingProtectionEnable.Title">
+        <source>Enable Tracking Protection</source>
+        <note>A button to enable tracking protection inside the menu.</note>
+      </trans-unit>
+      <trans-unit id="Menu.TrackingProtectionEnabled.Title">
+        <source>Tracking Protection is now enabled for this site.</source>
+        <note>The confirmation toast once tracking protection has been enabled</note>
+      </trans-unit>
+      <trans-unit id="Menu.TrackingProtectionMoreInfo.Description">
+        <source>Learn more about how Tracking Protection blocks online trackers that collect your browsing data across multiple websites.</source>
+        <note>more info about what tracking protection is about</note>
+      </trans-unit>
+      <trans-unit id="Menu.TrackingProtectionNoBlocking.Description">
+        <source>No tracking elements detected on this page.</source>
+        <note>The description of the Tracking Protection menu item when no scripts are blocked but tracking protection is enabled.</note>
+      </trans-unit>
+      <trans-unit id="Menu.TrackingProtectionSocialBlocked.Title">
+        <source>Social trackers</source>
+        <note>The title that shows the number of social scripts blocked</note>
+      </trans-unit>
+      <trans-unit id="Menu.TrackingProtectionTotalBlocked.Title">
+        <source>Total trackers blocked</source>
+        <note>The title that shows the total number of scripts blocked</note>
       </trans-unit>
       <trans-unit id="Missing error">
         <source>Missing error</source>
@@ -1592,6 +1681,10 @@
         <target>సెట్టింగ్‌లను తెరవండి</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
+      <trans-unit id="Open Tabs">
+        <source>Open Tabs</source>
+        <note>Toggle tabs syncing setting</note>
+      </trans-unit>
       <trans-unit id="Open articles in Reader View by tapping the book icon when it appears in the title bar.">
         <source>Open articles in Reader View by tapping the book icon when it appears in the title bar.</source>
         <target>టైటిల్ బార్ లో కనిపించినపుడు పుస్తకం చిహ్నాన్ని నొక్కడం ద్వారా రీడర్ లో వ్యాసాలు చూడండి.</target>
@@ -1637,25 +1730,9 @@
         <target>పాస్వర్డ్</target>
         <note>Password textbox in Authentication prompt</note>
       </trans-unit>
-      <trans-unit id="Paste">
-        <source>Paste</source>
-        <target>పేస్ట్ చేయి</target>
-        <note>Paste the URL into the location bar</note>
-      </trans-unit>
-      <trans-unit id="Paste &amp; Go">
-        <source>Paste &amp; Go</source>
-        <target>అంటించి &amp; వెళ్ళు</target>
-        <note>Paste the URL into the location bar and visit</note>
-      </trans-unit>
-      <trans-unit id="PhotonMenu.cancel">
-        <source>Cancel</source>
-        <target>రద్దుచేయి</target>
+      <trans-unit id="PhotonMenu.close">
+        <source>Close</source>
         <note>Button for closing the menu action sheet</note>
-      </trans-unit>
-      <trans-unit id="Please allow Firefox to access your device’s camera in ‘Settings’ -&gt; ‘Privacy’ -&gt; ‘Camera’.">
-        <source>Please allow Firefox to access your device’s camera in ‘Settings’ -&gt; ‘Privacy’ -&gt; ‘Camera’.</source>
-        <target>దయచేసి 'సెట్టింగులు' -&gt; 'గోప్యత' -&gt; 'కెమెరా' లో మీ పరికర కెమెరాను Firefox యాక్సెస్ చేయడానికి దయచేసి అనుమతించండి.</target>
-        <note>Text of the prompt user to setup the camera authorization.</note>
       </trans-unit>
       <trans-unit id="Privacy">
         <source>Privacy</source>
@@ -1707,6 +1784,10 @@
         <target>చదివే జాబితా నుండి తొలగించు</target>
         <note>Name for button removing current article from reading list in reader mode</note>
       </trans-unit>
+      <trans-unit id="ReopenClosedTab.KeyCodeTitle">
+        <source>Reopen Closed Tab</source>
+        <note>Hardware shortcut to reopen the last closed tab, from the tab or the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
+      </trans-unit>
       <trans-unit id="Request Desktop Site">
         <source>Request Desktop Site</source>
         <target>డెస్క్‌టాప్ సైటును అభ్యర్థించు</target>
@@ -1742,10 +1823,22 @@
         <target>రీడర్ లో చూడటానికి నియంత్రణలు పుస్తక ప్లస్ చిహ్నాన్ని నొక్కడం ద్వారా మీ చదివే జాబితాకు పేజీలను సేవ్ చేయండి.</target>
         <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
+      <trans-unit id="ScanQRCode.Error.OK.Button">
+        <source>OK</source>
+        <note>OK button to dismiss the error prompt.</note>
+      </trans-unit>
       <trans-unit id="ScanQRCode.Instructions.Label">
         <source>Align QR code within frame to scan</source>
         <target>స్కాన్ చేయడానికి ఫ్రేమ్ లోపల QR కోడ్ను సమలేఖనం చేయండి</target>
         <note>Text for the instructions label, displayed in the QR scanner view</note>
+      </trans-unit>
+      <trans-unit id="ScanQRCode.InvalidDataError.Message">
+        <source>The data is invalid</source>
+        <note>Text of the prompt user the data is invalid</note>
+      </trans-unit>
+      <trans-unit id="ScanQRCode.PermissionError.Message">
+        <source>Please allow Firefox to access your device’s camera in ‘Settings’ -&gt; ‘Privacy’ -&gt; ‘Camera’.</source>
+        <note>Text of the prompt user to setup the camera authorization.</note>
       </trans-unit>
       <trans-unit id="ScanQRCode.View.Title">
         <source>Scan QR Code</source>
@@ -1863,6 +1956,14 @@
         <target>మీరు షేర్ చేయడానికి ప్రయత్నిస్తున్న లింక్ షేర్ చేయడం సాధ్యం కాదు.</target>
         <note>Title of error prompt displayed when an invalid URL is shared.</note>
       </trans-unit>
+      <trans-unit id="SentTab.AddToReadingListAction.Title">
+        <source>Add to Reading List</source>
+        <note>Label for an action used to add one or more tabs recieved from a notification to the reading list.</note>
+      </trans-unit>
+      <trans-unit id="SentTab.BookmarkAction.title">
+        <source>Bookmark</source>
+        <note>Label for an action used to bookmark one or more tabs from a notification.</note>
+      </trans-unit>
       <trans-unit id="SentTab.NoTabArrivingNotification.body">
         <source>Tap to begin</source>
         <target>నిష్క్రమించడానికి తాకండి</target>
@@ -1872,6 +1973,10 @@
         <source>Firefox Sync</source>
         <target>Firefox సమకాలీకరణ</target>
         <note>Title of notification received after a spurious message from FxA has been received.</note>
+      </trans-unit>
+      <trans-unit id="SentTab.ViewAction.title">
+        <source>View</source>
+        <note>Label for an action used to view one or more tabs from a notification.</note>
       </trans-unit>
       <trans-unit id="SentTab_TabArrivingNotification_NoDevice_body">
         <source>New tab arrived from another device.</source>
@@ -1973,10 +2078,18 @@
         <target>మీరు ట్రాక్ చేయకూడదనుకునే వెబ్సైట్లు ఒక డోంట్ ట్రాక్ సంకేతాలను పంపండి</target>
         <note>DNT Settings title</note>
       </trans-unit>
+      <trans-unit id="Settings.Disconnect.Body">
+        <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
+        <note>Body of the alert when prompting the user asking to disconnect.</note>
+      </trans-unit>
       <trans-unit id="Settings.Disconnect.Button">
         <source>Disconnect Sync</source>
         <target>Sync అనుసంధానం తెంచు</target>
         <note>Button displayed at the bottom of settings page allowing users to Disconnect from FxA</note>
+      </trans-unit>
+      <trans-unit id="Settings.Disconnect.CancelButton">
+        <source>Cancel</source>
+        <note>Cancel action button in alert when user is prompted for disconnect</note>
       </trans-unit>
       <trans-unit id="Settings.Disconnect.DestructiveButton">
         <source>Disconnect</source>
@@ -1987,6 +2100,22 @@
         <source>Disconnect Sync?</source>
         <target>Sync అనుసంధానం తెంచివేయాలా?</target>
         <note>Title of the alert when prompting the user asking to disconnect.</note>
+      </trans-unit>
+      <trans-unit id="Settings.FxA.DeviceName">
+        <source>Device Name</source>
+        <note>Label used for the device name settings section.</note>
+      </trans-unit>
+      <trans-unit id="Settings.FxA.Sync.SectionName">
+        <source>Sync Settings</source>
+        <note>Label used as an section title in the Firefox Accounts Settings screen.</note>
+      </trans-unit>
+      <trans-unit id="Settings.FxA.Title">
+        <source>Firefox Account</source>
+        <note>Title displayed in header of the FxA settings panel.</note>
+      </trans-unit>
+      <trans-unit id="Settings.General.SectionName">
+        <source>General</source>
+        <note>General settings section title</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.Clear.Button">
         <source>Clear</source>
@@ -2174,29 +2303,20 @@
         <note>Tracking protection settings option description for using the strict blocklist.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.EnabledStateFooterLabel">
-        <source>Tracking is the collection of your browsing data across multiple websites. Tracking can be used to build a profile and display content based on your browsing and personal information.</source>
-        <target>బహుళ వెబ్సైట్లలో మీ బ్రౌజింగ్ డేటా సేకరణ అనేది ట్రాకింగ్. ట్రాకింగ్ను మీ బ్రౌజింగ్ మరియు వ్యక్తిగత సమాచారం ఆధారంగా ఒక ప్రొఫైల్ను నిర్మించడానికి మరియు కంటెంట్ను ప్రదర్శించడానికి ఉపయోగించవచ్చు.</target>
+        <source>Tracking is the collection of your browsing data across multiple websites.</source>
         <note>Description label shown on tracking protection options screen.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.EnabledStateHeaderLabel">
-        <source>Use Tracking Protection to Block Known Trackers</source>
-        <target>తెలిసిన ట్రాకర్లను బ్లాక్ చేయడానికి ట్రాకింగ్ రక్షణను ఉపయోగించండి</target>
+        <source>Enable</source>
         <note>Description label shown at the top of tracking protection options screen.</note>
       </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.OffLabel">
-        <source>Never</source>
-        <target>ఎప్పటికీకాదు</target>
-        <note>Settings option to specify that Tracking Protection is always off.</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.OnInPrivateBrowsingLabel">
-        <source>Private Browsing Mode Only</source>
-        <target>ప్రైవేట్ బ్రౌజింగ్ మోడ్ మాత్రమే</target>
+      <trans-unit id="Settings.TrackingProtectionOption.OnInNormalBrowsingLabel">
+        <source>Normal Browsing</source>
         <note>Settings option to specify that Tracking Protection is on only in Private Browsing mode.</note>
       </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.OnLabel">
-        <source>Always On</source>
-        <target>ఎల్లప్పుడు ఆన్</target>
-        <note>Settings option to specify that Tracking Protection is always on.</note>
+      <trans-unit id="Settings.TrackingProtectionOption.OnInPrivateBrowsingLabel">
+        <source>Private Browsing</source>
+        <note>Settings option to specify that Tracking Protection is on only in Private Browsing mode.</note>
       </trans-unit>
       <trans-unit id="Settings.TroubleShootSync.Title">
         <source>Troubleshoot</source>
@@ -2237,8 +2357,7 @@
       <trans-unit id="Sign in">
         <source>Sign in</source>
         <target>ప్రవేశించండి</target>
-        <note>See http://mzl.la/1Qtkf0j
-   Text message / button in the settings table view</note>
+        <note>Text message / button in the settings table view</note>
       </trans-unit>
       <trans-unit id="Stop">
         <source>Stop</source>
@@ -2254,6 +2373,14 @@
         <source>Swipe right or left with three fingers to close the tab.</source>
         <target>ట్యాబు మూసివేయడానికి మూడు వేళ్ళతో కుడి లేదా ఎడమ వైపుకు స్వైప్ చెయ్యండి.</target>
         <note>Accessibility hint for tab tray's displayed tab.</note>
+      </trans-unit>
+      <trans-unit id="SwitchToNonPBM.KeyCodeTitle">
+        <source>Normal Browsing Mode</source>
+        <note>Hardware shortcut for non-private tab or tab. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
+      </trans-unit>
+      <trans-unit id="SwitchToPBM.KeyCodeTitle">
+        <source>Private Browsing Mode</source>
+        <note>Hardware shortcut switch to the private browsing tab or tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
       <trans-unit id="Sync Now">
         <source>Sync Now</source>
@@ -2335,6 +2462,26 @@
         <target>ట్యాబు %2$@ లో %1$@</target>
         <note>Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray, along with the total number of tabs. E.g. \"Tab 2 of 5\" says that tab 2 is visible (and is the only visible tab), out of 5 tabs total.</note>
       </trans-unit>
+      <trans-unit id="Tab.ShowTabTray.KeyCodeTitle">
+        <source>Show All Tabs</source>
+        <note>Hardware shortcut to open the tab tray from a tab. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
+      </trans-unit>
+      <trans-unit id="TabTray.CloseAllTabs.KeyCodeTitle">
+        <source>Close All Tabs</source>
+        <note>Hardware shortcut to close all tabs from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
+      </trans-unit>
+      <trans-unit id="TabTray.CloseTab.KeyCodeTitle">
+        <source>Close Selected Tab</source>
+        <note>Hardware shortcut to close the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
+      </trans-unit>
+      <trans-unit id="TabTray.OpenNewTab.KeyCodeTitle">
+        <source>Open New Tab</source>
+        <note>Hardware shortcut to open a new tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
+      </trans-unit>
+      <trans-unit id="TabTray.OpenSelectedTab.KeyCodeTitle">
+        <source>Open Selected Tab</source>
+        <note>Hardware shortcut open the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
+      </trans-unit>
       <trans-unit id="Tabs %@ to %@ of %@">
         <source>Tabs %1$@ to %2$@ of %3$@</source>
         <target>ట్యాబు %3$@ లో %1$@ నుండి %2$@ది</target>
@@ -2354,11 +2501,6 @@
         <source>%d tab(s) closed</source>
         <target>%d ట్యాబు(లు) మూసివేయబడింది</target>
         <note>The label indicating that all the tabs were closed</note>
-      </trans-unit>
-      <trans-unit id="The data is invalid">
-        <source>The data is invalid</source>
-        <target>డేటా చెల్లనిది</target>
-        <note>Text of the prompt user the data is invalid</note>
       </trans-unit>
       <trans-unit id="The page could not be displayed in Reader View.">
         <source>The page could not be displayed in Reader View.</source>
@@ -2726,11 +2868,6 @@
         <target>%@ శోధన</target>
         <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
       </trans-unit>
-      <trans-unit id="No">
-        <source>No</source>
-        <target>కాదు</target>
-        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
-      </trans-unit>
       <trans-unit id="Search Settings">
         <source>Search Settings</source>
         <target>శోధన సెట్టింగ్‌లు</target>
@@ -2740,16 +2877,6 @@
         <source>Search suggestions from %@</source>
         <target>%@నుండి శోధన సలహాలు</target>
         <note>Accessibility label for image of default search engine displayed left to the actual search suggestions from the engine. The parameter substituted for \"%@\" is the name of the search engine. E.g.: Search suggestions from Google</note>
-      </trans-unit>
-      <trans-unit id="Turn on search suggestions?">
-        <source>Turn on search suggestions?</source>
-        <target>శోధన సలహాలను ప్రారంభించాలా?</target>
-        <note>Prompt shown before enabling provider search queries</note>
-      </trans-unit>
-      <trans-unit id="Yes">
-        <source>Yes</source>
-        <target>అవును</target>
-        <note>For search suggestions prompt. This string should be short so it fits nicely on the prompt row.</note>
       </trans-unit>
     </body>
   </file>
@@ -2817,8 +2944,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>10.0</source>
-        <target>10.0</target>
+        <source>11.0</source>
+        <target>11.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2836,8 +2963,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>10.0</source>
-        <target>10.0</target>
+        <source>11.0</source>
+        <target>11.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2855,8 +2982,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>10.0</source>
-        <target>10.0</target>
+        <source>11.0</source>
+        <target>11.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2874,8 +3001,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>10.0</source>
-        <target>10.0</target>
+        <source>11.0</source>
+        <target>11.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2915,8 +3042,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>10.0</source>
-        <target>10.0</target>
+        <source>11.0</source>
+        <target>11.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2956,8 +3083,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>10.0</source>
-        <target>10.0</target>
+        <source>11.0</source>
+        <target>11.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2971,8 +3098,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>10.0</source>
-        <target>10.0</target>
+        <source>11.0</source>
+        <target>11.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2986,8 +3113,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>10.0</source>
-        <target>10.0</target>
+        <source>11.0</source>
+        <target>11.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3001,8 +3128,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>10.0</source>
-        <target>10.0</target>
+        <source>11.0</source>
+        <target>11.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3026,9 +3153,8 @@
         <target>ట్యాబలు అన్నీ మూసివేయి</target>
         <note>Label for the button, displayed in the menu, used to close all tabs currently open.</note>
       </trans-unit>
-      <trans-unit id="Menu.CopyURL.Title">
-        <source>Copy URL</source>
-        <target>URL నకలుతీయి</target>
+      <trans-unit id="Menu.CopyAddress.Title">
+        <source>Copy Address</source>
         <note>Label for the button, displayed in the menu, used to copy the page url to the clipboard.</note>
       </trans-unit>
       <trans-unit id="Menu.FindInPageAction.Title">
@@ -3086,11 +3212,6 @@
         <target>QR కోడ్ను స్కాన్ చేయండి</target>
         <note>Label for the button, displayed in the menu, used to open the QR code scanner.</note>
       </trans-unit>
-      <trans-unit id="Menu.SetHomePageAction.Title">
-        <source>Set as Homepage</source>
-        <target>హోంపేజీ సెట్ చేయండి</target>
-        <note>Label for the button, displayed in the menu, used to set the homepage if none is currently set.</note>
-      </trans-unit>
       <trans-unit id="Menu.SharePageAction.Title">
         <source>Share Page With…</source>
         <target>పేజీని …తో పంచుకోండి</target>
@@ -3135,8 +3256,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>10.0</source>
-        <target>10.0</target>
+        <source>11.0</source>
+        <target>11.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3183,8 +3304,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>10.0</source>
-        <target>10.0</target>
+        <source>11.0</source>
+        <target>11.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3198,8 +3319,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>10.0</source>
-        <target>10.0</target>
+        <source>11.0</source>
+        <target>11.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3213,8 +3334,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>10.0</source>
-        <target>10.0</target>
+        <source>11.0</source>
+        <target>11.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3228,8 +3349,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>10.0</source>
-        <target>10.0</target>
+        <source>11.0</source>
+        <target>11.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3243,8 +3364,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>10.0</source>
-        <target>10.0</target>
+        <source>11.0</source>
+        <target>11.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3258,8 +3379,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>10.0</source>
-        <target>10.0</target>
+        <source>11.0</source>
+        <target>11.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3273,8 +3394,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>10.0</source>
-        <target>10.0</target>
+        <source>11.0</source>
+        <target>11.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3288,8 +3409,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>10.0</source>
-        <target>10.0</target>
+        <source>11.0</source>
+        <target>11.0</target>
       </trans-unit>
     </body>
   </file>
