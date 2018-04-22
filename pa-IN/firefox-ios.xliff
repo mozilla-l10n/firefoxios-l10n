@@ -268,7 +268,7 @@
     <body>
       <trans-unit id="Are you sure you want to delete it and its contents?">
         <source>Are you sure you want to delete it and its contents?</source>
-        <target>ਕੀ ਤੁਸੀ ਇਸਨੂੰ ਅਤੇ ਇਸਦੇ ਭਾਗਾਂ ਨੂੰ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?</target>
+        <target>ਕੀ ਤੁਸੀ ਇਸਨੂੰ ਅਤੇ ਇਸ ਦੀ ਸਮੱਗਰੀ ਨੂੰ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?</target>
         <note>Main body of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
       </trans-unit>
       <trans-unit id="Cancel">
@@ -1619,22 +1619,27 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionMoreInfo.Description">
         <source>Learn more about how Tracking Protection blocks online trackers that collect your browsing data across multiple websites.</source>
+        <target>ਆਨਲਾਈਨ ਟਰੈਕਰਾਂ ਤੋਂ ਸੁਰੱਖਿਅਤ ਰਹਿਣ ਬਾਰੇ ਹੋਰ ਜਾਣੋ, ਜੋ ਕਿ ਕਈ ਵੈੱਬਸਾਈਟਾਂ ਦੁਆਲੇ ਤੁਹਾਡੇ ਬਰਾਊਜ਼ ਕੀਤੇ ਡਾਟੇ ਨੂੰ ਇਕੱਤਰ ਕਰਦੇ ਹਨ।</target>
         <note>more info about what tracking protection is about</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionNoBlocking.Description">
         <source>No tracking elements detected on this page.</source>
+        <target>ਇਸ ਸਫ਼ੇ ਉੱਤੇ ਕੋਈ ਟਰੈਕ ਕਰਨ ਵਾਲੇ ਭਾਗ ਨਹੀਂ ਮਿਲੇ ਹਨ।</target>
         <note>The description of the Tracking Protection menu item when no scripts are blocked but tracking protection is enabled.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionOption.WhiteListOnDescription">
         <source>The site includes elements that may track your browsing. You have disabled protection.</source>
+        <target>ਸਾਈਟ ਵਿੱਚ ਕੁਝ ਭਾਗ ਹਨ, ਜੋ ਕਿ ਤੁਹਾਡੇ ਬਰਾਊਜ਼ ਕਰਨ ਨੂੰ ਟਰੈਕ ਕਰ ਸਕਦੇ ਹਨ। ਤੁਸੀਂ ਸੁਰੱਖਿਆ ਨੂੰ ਅਸਮਰੱਥ ਕਰ ਚੁੱਕੇ ਹੋ।</target>
         <note>label for the menu item to show when the website is whitelisted from blocking trackers.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionSocialBlocked.Title">
         <source>Social trackers</source>
+        <target>ਸਮਾਜਿਕ ਟਰੈਕਰ</target>
         <note>The title that shows the number of social scripts blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionTotalBlocked.Title">
         <source>Total trackers blocked</source>
+        <target>ਪਾਬੰਦੀ ਲਗਾਏ ਕੁਝ ਟਰੈਕਰ</target>
         <note>The title that shows the total number of scripts blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionWhitelistRemove.Title">
@@ -1819,7 +1824,7 @@
       </trans-unit>
       <trans-unit id="Reset text size">
         <source>Reset text size</source>
-        <target>ਪਾਠ ਆਕਾਰ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰੋ</target>
+        <target>ਲਿਖਤ ਆਕਾਰ ਨੂੰ ਮੁੜ-ਸੈੱਟ ਕਰੋ</target>
         <note>Accessibility label for button resetting font size in display settings of reader mode</note>
       </trans-unit>
       <trans-unit id="Sans-serif">
@@ -1859,6 +1864,7 @@
       </trans-unit>
       <trans-unit id="ScanQRCode.PermissionError.Message">
         <source>Please allow Firefox to access your device’s camera in ‘Settings’ -&gt; ‘Privacy’ -&gt; ‘Camera’.</source>
+        <target>ਫਾਇਰਫਾਕਸ ਨੂੰ ਆਪਣੇ ਡਿਵਾਈਸ ਦੇ ਕੈਮਰੇ ਲਈ ‘Settings’ -&gt; ‘Privacy’ -&gt; ‘Camera’ ਰਾਹੀਂ ਪਹੁੰਚ ਦੀ ਇਜਾਜ਼ਤ ਦਿਓ।</target>
         <note>Text of the prompt user to setup the camera authorization.</note>
       </trans-unit>
       <trans-unit id="ScanQRCode.View.Title">
@@ -1874,7 +1880,7 @@
       </trans-unit>
       <trans-unit id="Search or enter address">
         <source>Search or enter address</source>
-        <target>ਖੋਜੋ ਜਾਂ ਐਡਰੈਸ ਦਿਓ</target>
+        <target>ਖੋਜੋ ਜਾਂ ਸਿਰਨਾਵਾਂ ਦਿਓ</target>
         <note>The text shown in the URL bar on about:home</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.AddMessage">
@@ -1904,7 +1910,7 @@
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.DuplicateErrorTitle">
         <source>Failed</source>
-        <target>ਫੇਲ੍ਹ ਹੈ</target>
+        <target>ਅਸਫ਼ਲ ਹੈ</target>
         <note>A title stating that we failed to add custom search engine.</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.FailedMessage">
@@ -1914,7 +1920,7 @@
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.FailedTitle">
         <source>Failed</source>
-        <target>ਫੇਲ੍ਹ ਹੈ</target>
+        <target>ਅਸਫ਼ਲ ਹੈ</target>
         <note>A title explaining that we failed to add a search engine</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.FormErrorMessage">
@@ -1979,6 +1985,7 @@
       </trans-unit>
       <trans-unit id="SentTab.AddToReadingListAction.Title">
         <source>Add to Reading List</source>
+        <target>ਪੜ੍ਹਨ-ਸੂਚੀ ਵਿੱਚ ਜੋੜੋ</target>
         <note>Label for an action used to add one or more tabs recieved from a notification to the reading list.</note>
       </trans-unit>
       <trans-unit id="SentTab.BookmarkAction.title">
@@ -2103,6 +2110,7 @@
       </trans-unit>
       <trans-unit id="Settings.Disconnect.Body">
         <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
+        <target>ਫਾਇਰਫਾਕਸ ਤੁੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਸਿੰਕ ਕਰਨ ਤੋਂ ਰੋਕੇਗਾ, ਪਰ ਇਸ ਡਿਵਾਈਸ ਲਈ ਤੁਹਾਡੇ ਬਰਾਊਜ਼ ਕਰਨ ਵਾਲੇ ਕਿਸੇ ਵੀ ਡਾਟੇ ਨੂੰ ਹਟਾਏਗਾ ਨਹੀਂ।</target>
         <note>Body of the alert when prompting the user asking to disconnect.</note>
       </trans-unit>
       <trans-unit id="Settings.Disconnect.Button">
@@ -2112,6 +2120,7 @@
       </trans-unit>
       <trans-unit id="Settings.Disconnect.CancelButton">
         <source>Cancel</source>
+        <target>ਰੱਦ ਕਰੋ</target>
         <note>Cancel action button in alert when user is prompted for disconnect</note>
       </trans-unit>
       <trans-unit id="Settings.Disconnect.DestructiveButton">
@@ -2126,18 +2135,22 @@
       </trans-unit>
       <trans-unit id="Settings.FxA.DeviceName">
         <source>Device Name</source>
+        <target>ਡਿਵਾਈਸ ਦਾ ਨਾਂ</target>
         <note>Label used for the device name settings section.</note>
       </trans-unit>
       <trans-unit id="Settings.FxA.Sync.SectionName">
         <source>Sync Settings</source>
+        <target>ਸਿੰਕ ਸੈਟਿੰਗਾਂ</target>
         <note>Label used as a section title in the Firefox Accounts Settings screen.</note>
       </trans-unit>
       <trans-unit id="Settings.FxA.Title">
         <source>Firefox Account</source>
+        <target>ਫਾਇਰਫਾਕਸ ਖਾਤਾ</target>
         <note>Title displayed in header of the FxA settings panel.</note>
       </trans-unit>
       <trans-unit id="Settings.General.SectionName">
         <source>General</source>
+        <target>ਆਮ</target>
         <note>General settings section title</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.Clear.Button">
@@ -2327,18 +2340,22 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.EnabledStateFooterLabel">
         <source>Tracking is the collection of your browsing data across multiple websites.</source>
+        <target>ਟਰੈਕਿੰਗ ਕਈ ਵੈੱਬਸਾਈਟਾਂ ਤੋਂ ਤੁਹਾਡੇ ਬਰਾਊਜ਼ ਕਰਨ ਵਾਲੇ ਡਾਟੇ ਨੂੰ ਇਕੱਤਰ ਕਰਦੀ ਹੈ।</target>
         <note>Description label shown on tracking protection options screen.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.EnabledStateHeaderLabel">
         <source>Enable</source>
+        <target>ਸਮਰੱਥ ਕਰੋ</target>
         <note>Description label shown at the top of tracking protection options screen.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.OnInNormalBrowsingLabel">
         <source>Normal Browsing Mode</source>
+        <target>ਸਧਾਰਨ ਬਰਾਊਜ਼ ਕਰਨ ਦਾ ਢੰਗ</target>
         <note>Settings option to specify that Tracking Protection is on only in Private Browsing mode.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.OnInPrivateBrowsingLabel">
         <source>Private Browsing Mode</source>
+        <target>ਪ੍ਰਾਈਵੇਟ ਬਰਾਊਜ਼ਿੰਗ ਢੰਗ</target>
         <note>Settings option to specify that Tracking Protection is on only in Private Browsing mode.</note>
       </trans-unit>
       <trans-unit id="Settings.TroubleShootSync.Title">
@@ -2399,10 +2416,12 @@
       </trans-unit>
       <trans-unit id="SwitchToNonPBM.KeyCodeTitle">
         <source>Normal Browsing Mode</source>
+        <target>ਸਧਾਰਨ ਬਰਾਊਜ਼ਿੰਗ ਢੰਗ</target>
         <note>Hardware shortcut for non-private tab or tab. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
       <trans-unit id="SwitchToPBM.KeyCodeTitle">
         <source>Private Browsing Mode</source>
+        <target>ਪ੍ਰਾਈਵੇਟ ਬਰਾਊਜ਼ਿੰਗ ਢੰਗ</target>
         <note>Hardware shortcut switch to the private browsing tab or tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
       <trans-unit id="Sync Now">
@@ -2487,22 +2506,27 @@
       </trans-unit>
       <trans-unit id="Tab.ShowTabTray.KeyCodeTitle">
         <source>Show All Tabs</source>
+        <target>ਸਾਰੀਆਂ ਟੈਬਾਂ ਵੇਖੋ</target>
         <note>Hardware shortcut to open the tab tray from a tab. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
       <trans-unit id="TabTray.CloseAllTabs.KeyCodeTitle">
         <source>Close All Tabs</source>
+        <target>ਸਾਰੀਆਂ ਟੈਬਾਂ ਬੰਦ ਕਰੋ</target>
         <note>Hardware shortcut to close all tabs from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
       <trans-unit id="TabTray.CloseTab.KeyCodeTitle">
         <source>Close Selected Tab</source>
+        <target>ਚੁਣੀ ਟੈਬ ਨੂੰ ਬੰਦ ਕਰੋ</target>
         <note>Hardware shortcut to close the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
       <trans-unit id="TabTray.OpenNewTab.KeyCodeTitle">
         <source>Open New Tab</source>
+        <target>ਨਵੀਂ ਟੈਬ ਖੋਲ੍ਹੋ</target>
         <note>Hardware shortcut to open a new tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
       <trans-unit id="TabTray.OpenSelectedTab.KeyCodeTitle">
         <source>Open Selected Tab</source>
+        <target>ਚੁਣੀ ਟੈਬ ਨੂੰ ਬੰਦ ਕਰੋ</target>
         <note>Hardware shortcut open the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
       <trans-unit id="Tabs %@ to %@ of %@">
@@ -3178,6 +3202,7 @@
       </trans-unit>
       <trans-unit id="Menu.CopyAddress.Title">
         <source>Copy Address</source>
+        <target>ਸਿਰਨਾਵਾਂ ਕਾਪੀ ਕਰੋ</target>
         <note>Label for the button, displayed in the menu, used to copy the page url to the clipboard.</note>
       </trans-unit>
       <trans-unit id="Menu.FindInPageAction.Title">
