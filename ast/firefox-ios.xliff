@@ -10,8 +10,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
@@ -25,8 +25,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
@@ -385,6 +385,21 @@
       </trans-unit>
     </body>
   </file>
+  <file original="Client/DownloadsPanel.strings" source-language="en" datatype="plaintext" target-language="ast">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Delete">
+        <source>Delete</source>
+        <note>Action button for deleting downloaded files in the Downloads panel.</note>
+      </trans-unit>
+      <trans-unit id="Share">
+        <source>Share</source>
+        <note>Action button for sharing downloaded files in the Downloads panel.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Client/ErrorPages.strings" source-language="en" datatype="plaintext" target-language="ast">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
@@ -455,8 +470,8 @@
         <target>$(MOZ_PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you take and upload photos.</source>
@@ -1014,34 +1029,25 @@
         <target>Nun unviar</target>
         <note>Used as a button label for crash dialog prompt</note>
       </trans-unit>
-      <trans-unit id="Downloads.Alert.Cancel">
-        <source>No</source>
-        <target>Non</target>
-        <note>The label of the button the user will press to reject the option to open a file in another application</note>
+      <trans-unit id="Downloads">
+        <source>Downloads</source>
+        <note>Panel accessibility label</note>
       </trans-unit>
-      <trans-unit id="Downloads.Alert.Confirm">
-        <source>Yes</source>
-        <target>Sí</target>
-        <note>The label of the button the user will press to be presented with a list of other apps to open a file in</note>
-      </trans-unit>
-      <trans-unit id="Downloads.Alert.Message">
-        <source>Firefox is unable to download or display this file. Would you like to open it in another app?</source>
-        <target>Firefox nun ye a baxar o amosar esti ficheru. ¿Prestaríate abrilu n'otra aplicación?</target>
-        <note>The message of the alert box asking the user if they want to use another app to open a file.</note>
-      </trans-unit>
-      <trans-unit id="Downloads.Alert.Title">
-        <source>Firefox Downloads</source>
-        <target>Descargues de Firefox</target>
-        <note>The title of the alert box asking the user if they want to use another app to open a file.</note>
+      <trans-unit id="Downloads.Alert.DownloadNow">
+        <source>Download Now</source>
+        <note>The label of the button the user will press to start downloading a file</note>
       </trans-unit>
       <trans-unit id="Downloads.Error.Message">
         <source>Downloads aren’t supported in Firefox yet.</source>
         <target>Les descargues entá nun tán sofitaes en Firefox.</target>
         <note>The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle.</note>
       </trans-unit>
-      <trans-unit id="Enter your password to connect.">
-        <source>Enter your password to connect.</source>
-        <target>Introduz la to contraseña pa coneutar.</target>
+      <trans-unit id="DownloadsPanel.EmptyState.Title">
+        <source>Downloaded files will show up here.</source>
+        <note>Title for the Downloads Panel empty state.</note>
+      </trans-unit>
+      <trans-unit id="Enter your password to connect">
+        <source>Enter your password to connect</source>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="ErrorPages.Advanced.Button">
@@ -1521,11 +1527,6 @@
         <target>Copióse la URL al cartafueyu</target>
         <note>Toast displayed to user after copy url pressed.</note>
       </trans-unit>
-      <trans-unit id="Menu.NightModeTurnOff.Label">
-        <source>Disable Night Mode</source>
-        <target>Desactivar mou nocherniegu</target>
-        <note>Label for the button, displayed in the menu, turns off night mode</note>
-      </trans-unit>
       <trans-unit id="Menu.NightModeTurnOn.Label">
         <source>Enable Night Mode</source>
         <target>Activar mou nocherniegu</target>
@@ -1536,10 +1537,9 @@
         <target>Anubrir imáxenes</target>
         <note>Label for the button, displayed in the menu, hides images on the webpage when pressed.</note>
       </trans-unit>
-      <trans-unit id="Menu.NoImageModeShowImages.Label">
-        <source>Show Images</source>
-        <target>Amosar imáxenes</target>
-        <note>Label for the button, displayed in the menu, shows images on the webpage when pressed</note>
+      <trans-unit id="Menu.PageActions.Title">
+        <source>Page Actions</source>
+        <note>Label for title in page action menu.</note>
       </trans-unit>
       <trans-unit id="Menu.Paste.Title">
         <source>Paste</source>
@@ -1791,16 +1791,6 @@
         <source>Reopen Closed Tab</source>
         <note>Hardware shortcut to reopen the last closed tab, from the tab or the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
-      <trans-unit id="Request Desktop Site">
-        <source>Request Desktop Site</source>
-        <target>Pidir sitiu d'escritoriu</target>
-        <note>Action Sheet Button for Requesting the Desktop Site</note>
-      </trans-unit>
-      <trans-unit id="Request Mobile Site">
-        <source>Request Mobile Site</source>
-        <target>Pidir sitiu móvil</target>
-        <note>Action Sheet Button for Requesting the Mobile Site</note>
-      </trans-unit>
       <trans-unit id="Reset text size">
         <source>Reset text size</source>
         <target>Reafitar tamañu del testu</target>
@@ -1944,7 +1934,7 @@
       <trans-unit id="SendTo.Cancel.Button">
         <source>Cancel</source>
         <target>Encaboxar</target>
-        <note>Button title for cancelling SendTo screen</note>
+        <note>Button title for cancelling share screen</note>
       </trans-unit>
       <trans-unit id="SendTo.Error.Message">
         <source>Only HTTP and HTTPS links can be shared.</source>
@@ -2339,10 +2329,37 @@
         <target>Compartir enllaz</target>
         <note>Context menu item for sharing a link URL</note>
       </trans-unit>
-      <trans-unit id="ShareTo.Cancel.Button">
-        <source>Cancel</source>
-        <target>Encaboxar</target>
-        <note>Button title for cancelling Share screen</note>
+      <trans-unit id="ShareExtension.AddToReadingListAction.Title">
+        <source>Add to Reading List</source>
+        <note>Action label on share extension to add page to the Firefox reading list.</note>
+      </trans-unit>
+      <trans-unit id="ShareExtension.AddToReadingListActionDone.Title">
+        <source>Added to Reading List</source>
+        <note>Share extension label shown after user has performed 'Add to Reading List' action.</note>
+      </trans-unit>
+      <trans-unit id="ShareExtension.BookmarkThisPageAction.Title">
+        <source>Bookmark This Page</source>
+        <note>Action label on share extension to bookmark the page in Firefox.</note>
+      </trans-unit>
+      <trans-unit id="ShareExtension.BookmarkThisPageActionDone.Title">
+        <source>Bookmarked</source>
+        <note>Share extension label shown after user has performed 'Bookmark this Page' action.</note>
+      </trans-unit>
+      <trans-unit id="ShareExtension.LoadInBackgroundAction.Title">
+        <source>Load in Background</source>
+        <note>Action label on share extension to load the page in Firefox when user switches apps to bring it to foreground.</note>
+      </trans-unit>
+      <trans-unit id="ShareExtension.LoadInBackgroundActionDone.Title">
+        <source>Loading in Firefox</source>
+        <note>Share extension label shown after user has performed 'Load in Background' action.</note>
+      </trans-unit>
+      <trans-unit id="ShareExtension.OpenInFirefoxNowAction.Title">
+        <source>Open in Firefox Now</source>
+        <note>Action label on share extension to immediately open page in Firefox.</note>
+      </trans-unit>
+      <trans-unit id="ShareExtension.OpenInPrivateModeNowAction.Title">
+        <source>Open in Private Mode Now</source>
+        <note>Action label on share extension to immediately open page in Firefox in private mode.</note>
       </trans-unit>
       <trans-unit id="Show Search Suggestions">
         <source>Show Search Suggestions</source>
@@ -2588,9 +2605,8 @@
         <target>Anovar</target>
         <note>Button to update the user's password</note>
       </trans-unit>
-      <trans-unit id="Upgrade Firefox to connect.">
-        <source>Upgrade Firefox to connect.</source>
-        <target>Anueva Firefox pa coneutar.</target>
+      <trans-unit id="Upgrade Firefox to connect">
+        <source>Upgrade Firefox to connect</source>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="Username">
@@ -2598,9 +2614,8 @@
         <target>Nome d'usuariu</target>
         <note>Username textbox in Authentication prompt</note>
       </trans-unit>
-      <trans-unit id="Verify your email address.">
-        <source>Verify your email address.</source>
-        <target>Verifica la to direición de corréu.</target>
+      <trans-unit id="Verify your email address">
+        <source>Verify your email address</source>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="Version %@ (%@)">
@@ -2960,8 +2975,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2979,27 +2994,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="ast">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleDisplayName">
-        <source>Send Tab</source>
-        <target>Unviar llingüeta</target>
-      </trans-unit>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3017,30 +3013,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Extensions/ShareTo/ShareTo.strings" source-language="en" datatype="plaintext" target-language="ast">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="Add">
-        <source>Add</source>
-        <target>Amestar</target>
-        <note>Add button in the share dialog</note>
-      </trans-unit>
-      <trans-unit id="Add to Bookmarks">
-        <source>Add to Bookmarks</source>
-        <target>Amestar a Marcadores</target>
-        <note>On/off toggle to select adding this url to your bookmarks</note>
-      </trans-unit>
-      <trans-unit id="Add to Reading List">
-        <source>Add to Reading List</source>
-        <target>Amestar al llistáu de llectura</target>
-        <note>On/off toggle to select adding this url to your reading list</note>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3058,8 +3032,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3085,55 +3059,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ViewLater/Info.plist" source-language="en" datatype="plaintext" target-language="ast">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleDisplayName">
-        <source>View Later</source>
-        <target>Ver más sero</target>
-      </trans-unit>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="ReadingList/Info.plist" source-language="en" datatype="plaintext" target-language="ast">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="ReadingListTests/Info.plist" source-language="en" datatype="plaintext" target-language="ast">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
-      </trans-unit>
-    </body>
-  </file>
   <file original="Shared/Supporting Files/Info.plist" source-language="en" datatype="plaintext" target-language="ast">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
@@ -3144,8 +3069,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3193,6 +3118,10 @@
         <source>Bookmarks</source>
         <target>Marcadores</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the Bbookmarks home panel.</note>
+      </trans-unit>
+      <trans-unit id="Menu.OpenDownloadsAction.AccessibilityLabel">
+        <source>Downloads</source>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Downloads home panel.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenHistoryAction.AccessibilityLabel">
         <source>History</source>
@@ -3273,8 +3202,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3321,8 +3250,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3336,8 +3265,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3351,8 +3280,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3366,8 +3295,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3381,8 +3310,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3396,8 +3325,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3411,8 +3340,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3426,8 +3355,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
