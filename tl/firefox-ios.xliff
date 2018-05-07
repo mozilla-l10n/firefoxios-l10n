@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -10,12 +10,12 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -25,12 +25,12 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/3DTouchActions.strings" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Client/3DTouchActions.strings" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -77,7 +77,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/AuthenticationManager.strings" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Client/AuthenticationManager.strings" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -244,7 +244,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/BookmarkPanel.strings" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Client/BookmarkPanel.strings" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -261,7 +261,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/BookmarkPanelDeleteConfirm.strings" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Client/BookmarkPanelDeleteConfirm.strings" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -288,7 +288,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/ClearHistoryConfirm.strings" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Client/ClearHistoryConfirm.strings" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -325,7 +325,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/ClearPrivateData.strings" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Client/ClearPrivateData.strings" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -351,6 +351,10 @@
         <target>Cookies</target>
         <note>Settings item for clearing cookies</note>
       </trans-unit>
+      <trans-unit id="Downloaded Files">
+        <source>Downloaded Files</source>
+        <note>Settings item for deleting downloaded files</note>
+      </trans-unit>
       <trans-unit id="Offline Website Data">
         <source>Offline Website Data</source>
         <target>Offline Website Data</target>
@@ -363,7 +367,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/ClearPrivateDataConfirm.strings" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Client/ClearPrivateDataConfirm.strings" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -385,7 +389,22 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/ErrorPages.strings" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Client/DownloadsPanel.strings" source-language="en" datatype="plaintext" target-language="fil">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Delete">
+        <source>Delete</source>
+        <note>Action button for deleting downloaded files in the Downloads panel.</note>
+      </trans-unit>
+      <trans-unit id="Share">
+        <source>Share</source>
+        <note>Action button for sharing downloaded files in the Downloads panel.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Client/ErrorPages.strings" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -402,7 +421,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/FindInPage.strings" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Client/FindInPage.strings" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -429,7 +448,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/HistoryPanel.strings" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Client/HistoryPanel.strings" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -441,7 +460,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -455,8 +474,8 @@
         <target>$(MOZ_PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you take and upload photos.</source>
@@ -492,7 +511,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -574,7 +593,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/LightweightThemes.strings" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Client/LightweightThemes.strings" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -646,7 +665,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -1014,34 +1033,73 @@
         <target>Huwag Ipadala</target>
         <note>Used as a button label for crash dialog prompt</note>
       </trans-unit>
-      <trans-unit id="Downloads.Alert.Cancel">
-        <source>No</source>
-        <target>Hindi</target>
-        <note>The label of the button the user will press to reject the option to open a file in another application</note>
+      <trans-unit id="Download Link">
+        <source>Download Link</source>
+        <note>Context menu item for downloading a link URL</note>
       </trans-unit>
-      <trans-unit id="Downloads.Alert.Confirm">
-        <source>Yes</source>
-        <target>Oo</target>
-        <note>The label of the button the user will press to be presented with a list of other apps to open a file in</note>
+      <trans-unit id="Downloads">
+        <source>Downloads</source>
+        <note>Panel accessibility label</note>
       </trans-unit>
-      <trans-unit id="Downloads.Alert.Message">
-        <source>Firefox is unable to download or display this file. Would you like to open it in another app?</source>
-        <target>Firefox is unable to download or display this file. Would you like to open it in another app?</target>
-        <note>The message of the alert box asking the user if they want to use another app to open a file.</note>
+      <trans-unit id="Downloads.Alert.DownloadNow">
+        <source>Download Now</source>
+        <note>The label of the button the user will press to start downloading a file</note>
       </trans-unit>
-      <trans-unit id="Downloads.Alert.Title">
-        <source>Firefox Downloads</source>
-        <target>Firefox Downloads</target>
-        <note>The title of the alert box asking the user if they want to use another app to open a file.</note>
+      <trans-unit id="Downloads.CancelDialog.Cancel">
+        <source>Cancel</source>
+        <note>Button confirming the cancellation of the download.</note>
+      </trans-unit>
+      <trans-unit id="Downloads.CancelDialog.Message">
+        <source>Are you sure you want to cancel this download?</source>
+        <note>Alert dialog body when the user taps the cancel download icon.</note>
+      </trans-unit>
+      <trans-unit id="Downloads.CancelDialog.Resume">
+        <source>Resume</source>
+        <note>Button declining the cancellation of the download.</note>
+      </trans-unit>
+      <trans-unit id="Downloads.CancelDialog.Title">
+        <source>Cancel Download</source>
+        <note>Alert dialog title when the user taps the cancel download icon.</note>
       </trans-unit>
       <trans-unit id="Downloads.Error.Message">
         <source>Downloads aren’t supported in Firefox yet.</source>
         <target>Hindi pa suportado ng Firefox ang mga Downloads.</target>
         <note>The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle.</note>
       </trans-unit>
-      <trans-unit id="Enter your password to connect.">
-        <source>Enter your password to connect.</source>
-        <target>Ilagay ang iyong password para makakonek.</target>
+      <trans-unit id="Downloads.Toast.Cancelled.LabelText">
+        <source>Download Cancelled</source>
+        <note>The label text in the Download Cancelled toast for showing confirmation that the download was cancelled.</note>
+      </trans-unit>
+      <trans-unit id="Downloads.Toast.Failed.LabelText">
+        <source>Download Failed</source>
+        <note>The label text in the Download Failed toast for showing confirmation that the download has failed.</note>
+      </trans-unit>
+      <trans-unit id="Downloads.Toast.Failed.RetryButton">
+        <source>Retry</source>
+        <note>The button to retry a failed download from the Download Failed toast.</note>
+      </trans-unit>
+      <trans-unit id="Downloads.Toast.GoToDownloads.Button">
+        <source>Downloads</source>
+        <note>The button to open a new tab with the Downloads home panel</note>
+      </trans-unit>
+      <trans-unit id="Downloads.Toast.MultipleFiles.DescriptionText">
+        <source>1 of %d files</source>
+        <note>The description text in the Download progress toast for showing the number of files when multiple files are downloading.</note>
+      </trans-unit>
+      <trans-unit id="Downloads.Toast.MultipleFilesAndProgress.DescriptionText">
+        <source>%1$@ %2$@</source>
+        <note>The description text in the Download progress toast for showing the number of files (1$) and download progress (2$). This string only consists of two placeholders for purposes of displaying two other strings side-by-side where 1$ is Downloads.Toast.MultipleFiles.DescriptionText and 2$ is Downloads.Toast.Progress.DescriptionText. This string should only consist of the two placeholders side-by-side separated by a single space and 1$ should come before 2$ everywhere except for right-to-left locales.</note>
+      </trans-unit>
+      <trans-unit id="Downloads.Toast.Progress.DescriptionText">
+        <source>%1$@/%2$@</source>
+        <note>The description text in the Download progress toast for showing the downloaded file size (1$) out of the total expected file size (2$).</note>
+      </trans-unit>
+      <trans-unit id="DownloadsPanel.EmptyState.Title">
+        <source>Downloaded files will show up here.</source>
+        <note>Title for the Downloads Panel empty state.</note>
+      </trans-unit>
+      <trans-unit id="Enter your password to connect">
+        <source>Enter your password to connect</source>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="ErrorPages.Advanced.Button">
@@ -1522,11 +1580,6 @@
         <target>URL Kinopya sa Clipboard</target>
         <note>Toast displayed to user after copy url pressed.</note>
       </trans-unit>
-      <trans-unit id="Menu.NightModeTurnOff.Label">
-        <source>Disable Night Mode</source>
-        <target>Huwag paganahin ang Night Mode</target>
-        <note>Label for the button, displayed in the menu, turns off night mode</note>
-      </trans-unit>
       <trans-unit id="Menu.NightModeTurnOn.Label">
         <source>Enable Night Mode</source>
         <target>Paganahin ang Mode ng Night</target>
@@ -1537,10 +1590,9 @@
         <target>Itago ang Mga Larawan</target>
         <note>Label for the button, displayed in the menu, hides images on the webpage when pressed.</note>
       </trans-unit>
-      <trans-unit id="Menu.NoImageModeShowImages.Label">
-        <source>Show Images</source>
-        <target>Ipakita ang Mga Larawan</target>
-        <note>Label for the button, displayed in the menu, shows images on the webpage when pressed</note>
+      <trans-unit id="Menu.PageActions.Title">
+        <source>Page Actions</source>
+        <note>Label for title in page action menu.</note>
       </trans-unit>
       <trans-unit id="Menu.Paste.Title">
         <source>Paste</source>
@@ -1812,16 +1864,6 @@
         <target>Buksan ulit ang Saradong Tab</target>
         <note>Hardware shortcut to reopen the last closed tab, from the tab or the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
-      <trans-unit id="Request Desktop Site">
-        <source>Request Desktop Site</source>
-        <target>Hilingin ang Desktop Site</target>
-        <note>Action Sheet Button for Requesting the Desktop Site</note>
-      </trans-unit>
-      <trans-unit id="Request Mobile Site">
-        <source>Request Mobile Site</source>
-        <target>Hilingin ang Mobile Site</target>
-        <note>Action Sheet Button for Requesting the Mobile Site</note>
-      </trans-unit>
       <trans-unit id="Reset text size">
         <source>Reset text size</source>
         <target>i-Reset ang sukat ng text</target>
@@ -1966,7 +2008,7 @@
       <trans-unit id="SendTo.Cancel.Button">
         <source>Cancel</source>
         <target>Ikansela</target>
-        <note>Button title for cancelling SendTo screen</note>
+        <note>Button title for cancelling share screen</note>
       </trans-unit>
       <trans-unit id="SendTo.Error.Message">
         <source>Only HTTP and HTTPS links can be shared.</source>
@@ -2368,10 +2410,41 @@
         <target>Ibahagi ang Link</target>
         <note>Context menu item for sharing a link URL</note>
       </trans-unit>
-      <trans-unit id="ShareTo.Cancel.Button">
-        <source>Cancel</source>
-        <target>Ikansela</target>
-        <note>Button title for cancelling Share screen</note>
+      <trans-unit id="ShareExtension.AddToReadingListAction.Title">
+        <source>Add to Reading List</source>
+        <note>Action label on share extension to add page to the Firefox reading list.</note>
+      </trans-unit>
+      <trans-unit id="ShareExtension.AddToReadingListActionDone.Title">
+        <source>Added to Reading List</source>
+        <note>Share extension label shown after user has performed 'Add to Reading List' action.</note>
+      </trans-unit>
+      <trans-unit id="ShareExtension.BookmarkThisPageAction.Title">
+        <source>Bookmark This Page</source>
+        <note>Action label on share extension to bookmark the page in Firefox.</note>
+      </trans-unit>
+      <trans-unit id="ShareExtension.BookmarkThisPageActionDone.Title">
+        <source>Bookmarked</source>
+        <note>Share extension label shown after user has performed 'Bookmark this Page' action.</note>
+      </trans-unit>
+      <trans-unit id="ShareExtension.LoadInBackgroundAction.Title">
+        <source>Load in Background</source>
+        <note>Action label on share extension to load the page in Firefox when user switches apps to bring it to foreground.</note>
+      </trans-unit>
+      <trans-unit id="ShareExtension.LoadInBackgroundActionDone.Title">
+        <source>Loading in Firefox</source>
+        <note>Share extension label shown after user has performed 'Load in Background' action.</note>
+      </trans-unit>
+      <trans-unit id="ShareExtension.OpenInFirefoxAction.Title">
+        <source>Open in Firefox</source>
+        <note>Action label on share extension to immediately open page in Firefox.</note>
+      </trans-unit>
+      <trans-unit id="ShareExtension.OpenInPrivateModeAction.Title">
+        <source>Open in Private Mode</source>
+        <note>Action label on share extension to immediately open page in Firefox in private mode.</note>
+      </trans-unit>
+      <trans-unit id="ShareExtension.SeachInFirefoxAction.Title">
+        <source>Search in Firefox</source>
+        <note>Action label on share extension to search for the selected text in Firefox.</note>
       </trans-unit>
       <trans-unit id="Show Search Suggestions">
         <source>Show Search Suggestions</source>
@@ -2619,9 +2692,8 @@
         <target>Update</target>
         <note>Button to update the user's password</note>
       </trans-unit>
-      <trans-unit id="Upgrade Firefox to connect.">
-        <source>Upgrade Firefox to connect.</source>
-        <target>I-upgrade ang Firefox para maka-konek.</target>
+      <trans-unit id="Upgrade Firefox to connect">
+        <source>Upgrade Firefox to connect</source>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="Username">
@@ -2629,9 +2701,8 @@
         <target>Username</target>
         <note>Username textbox in Authentication prompt</note>
       </trans-unit>
-      <trans-unit id="Verify your email address.">
-        <source>Verify your email address.</source>
-        <target>Patunayan ang iyong email address.</target>
+      <trans-unit id="Verify your email address">
+        <source>Verify your email address</source>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="Version %@ (%@)">
@@ -2736,7 +2807,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/LoginManager.strings" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Client/LoginManager.strings" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -2848,7 +2919,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/PrivateBrowsing.strings" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Client/PrivateBrowsing.strings" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -2905,7 +2976,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Search.strings" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Client/Search.strings" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -2927,7 +2998,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/SendAnonymousUsageData.strings" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Client/SendAnonymousUsageData.strings" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -2939,7 +3010,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/SendTo.strings" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Client/SendTo.strings" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -2981,7 +3052,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -2991,12 +3062,12 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/NotificationService/Info.plist" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Extensions/NotificationService/Info.plist" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -3010,31 +3081,12 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/SendTo/Info.plist" source-language="en" datatype="plaintext" target-language="tl">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleDisplayName">
-        <source>Send Tab</source>
-        <target>Magpadala ng Tab</target>
-      </trans-unit>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -3048,34 +3100,12 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ShareTo/ShareTo.strings" source-language="en" datatype="plaintext" target-language="tl">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="Add">
-        <source>Add</source>
-        <target>Idagdag</target>
-        <note>Add button in the share dialog</note>
-      </trans-unit>
-      <trans-unit id="Add to Bookmarks">
-        <source>Add to Bookmarks</source>
-        <target>Idagdag sa mga Bookmark</target>
-        <note>On/off toggle to select adding this url to your bookmarks</note>
-      </trans-unit>
-      <trans-unit id="Add to Reading List">
-        <source>Add to Reading List</source>
-        <target>Idagdag sa Reading List</target>
-        <note>On/off toggle to select adding this url to your reading list</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Extensions/Today/Info.plist" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Extensions/Today/Info.plist" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -3089,12 +3119,12 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/Today/Today.strings" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Extensions/Today/Today.strings" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -3116,26 +3146,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Extensions/ViewLater/Info.plist" source-language="en" datatype="plaintext" target-language="tl">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleDisplayName">
-        <source>View Later</source>
-        <target>Tingnan Mamaya</target>
-      </trans-unit>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="ReadingList/Info.plist" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Shared/Supporting Files/Info.plist" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -3145,42 +3156,12 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="ReadingListTests/Info.plist" source-language="en" datatype="plaintext" target-language="tl">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Shared/Supporting Files/Info.plist" source-language="en" datatype="plaintext" target-language="tl">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Shared/Supporting Files/Menu.strings" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Shared/Supporting Files/Menu.strings" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -3224,6 +3205,10 @@
         <source>Bookmarks</source>
         <target>Mga Bookmarks</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the Bbookmarks home panel.</note>
+      </trans-unit>
+      <trans-unit id="Menu.OpenDownloadsAction.AccessibilityLabel">
+        <source>Downloads</source>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Downloads home panel.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenHistoryAction.AccessibilityLabel">
         <source>History</source>
@@ -3282,7 +3267,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/Shared.strings" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Shared/Supporting Files/Shared.strings" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -3294,7 +3279,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="SharedTests/Info.plist" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="SharedTests/Info.plist" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -3304,12 +3289,12 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Storage.strings" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Storage.strings" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -3342,7 +3327,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="StoragePerfTests/Info.plist" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="StoragePerfTests/Info.plist" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -3352,12 +3337,12 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="StorageTests/Info.plist" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="StorageTests/Info.plist" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -3367,12 +3352,12 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Sync/Info.plist" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="Sync/Info.plist" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -3382,12 +3367,12 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="SyncTelemetry/Info.plist" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="SyncTelemetry/Info.plist" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -3397,12 +3382,12 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="SyncTelemetryTests/Info.plist" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="SyncTelemetryTests/Info.plist" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -3412,12 +3397,12 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="SyncTests/Info.plist" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="SyncTests/Info.plist" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -3427,12 +3412,12 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="UITests/Info.plist" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="UITests/Info.plist" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -3442,12 +3427,12 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="XCUITests/Info.plist" source-language="en" datatype="plaintext" target-language="tl">
+  <file original="XCUITests/Info.plist" source-language="en" datatype="plaintext" target-language="fil">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -3457,8 +3442,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>11.0</source>
-        <target>11.0</target>
+        <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
