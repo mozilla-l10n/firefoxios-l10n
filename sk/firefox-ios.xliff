@@ -189,7 +189,7 @@
       </trans-unit>
       <trans-unit id="Set Passcode">
         <source>Set Passcode</source>
-        <target>Nastaviť prístupový kód</target>
+        <target>Nastavenie prístupového kódu</target>
         <note>Title of the dialog used to set a passcode</note>
       </trans-unit>
       <trans-unit id="Touch ID &amp; Passcode">
@@ -576,7 +576,7 @@
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Title">
         <source>Thanks for choosing Firefox!</source>
-        <target>Ďakujeme, že ste si zvolili Firefox!</target>
+        <target>Ďakujeme, že ste si vybrali Firefox!</target>
         <note>Title for the first panel 'Welcome' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Personalize your Firefox just the way you like in Settings.">
@@ -613,7 +613,7 @@
       </trans-unit>
       <trans-unit id="Choose">
         <source>Choose</source>
-        <target>Zvoliť</target>
+        <target>Vybrať</target>
         <note>Pending feature; currently unused string! Back button shown to return back to theme settings from photo picker</note>
       </trans-unit>
       <trans-unit id="Choose Theme">
@@ -1101,18 +1101,22 @@
       </trans-unit>
       <trans-unit id="Downloads.Toast.MultipleFilesAndProgress.DescriptionText">
         <source>%1$@ %2$@</source>
+        <target>%1$@ %2$@</target>
         <note>The description text in the Download progress toast for showing the number of files (1$) and download progress (2$). This string only consists of two placeholders for purposes of displaying two other strings side-by-side where 1$ is Downloads.Toast.MultipleFiles.DescriptionText and 2$ is Downloads.Toast.Progress.DescriptionText. This string should only consist of the two placeholders side-by-side separated by a single space and 1$ should come before 2$ everywhere except for right-to-left locales.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.Progress.DescriptionText">
         <source>%1$@/%2$@</source>
+        <target>%1$@/%2$@</target>
         <note>The description text in the Download progress toast for showing the downloaded file size (1$) out of the total expected file size (2$).</note>
       </trans-unit>
       <trans-unit id="DownloadsPanel.EmptyState.Title">
         <source>Downloaded files will show up here.</source>
+        <target>Prevzaté súbory sa objavia tu.</target>
         <note>Title for the Downloads Panel empty state.</note>
       </trans-unit>
       <trans-unit id="Enter your password to connect">
         <source>Enter your password to connect</source>
+        <target>Na pripojenie zadajte svoje heslo</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="ErrorPages.Advanced.Button">
@@ -1605,6 +1609,7 @@
       </trans-unit>
       <trans-unit id="Menu.PageActions.Title">
         <source>Page Actions</source>
+        <target>Akcie stránky</target>
         <note>Label for title in page action menu.</note>
       </trans-unit>
       <trans-unit id="Menu.Paste.Title">
@@ -1854,7 +1859,7 @@
       </trans-unit>
       <trans-unit id="RecentlyClosedTabsPanel.Title">
         <source>Recently Closed</source>
-        <target>Nedávno zatvorené</target>
+        <target>Nedávno zatvorené karty</target>
         <note>Title for the Recently Closed Tabs Panel</note>
       </trans-unit>
       <trans-unit id="Reload">
@@ -2360,7 +2365,7 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.BlockListsHeader">
         <source>You can choose which list Firefox will use to block Web elements that may track your browsing activity.</source>
-        <target>Môžete si zvoliť, ktorý zoznam Firefox použije na blokovanie webových prvkov, ktoré môžu sledovať vašu aktivitu na webe.</target>
+        <target>Môžete si vybrať, ktorý zoznam Firefox použije na blokovanie webových prvkov, ktoré môžu sledovať vašu aktivitu na webe.</target>
         <note>Header description for tracking protection options section where Basic/Strict block list can be selected</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.BlockListsTitle">
@@ -2425,38 +2430,47 @@
       </trans-unit>
       <trans-unit id="ShareExtension.AddToReadingListAction.Title">
         <source>Add to Reading List</source>
+        <target>Pridať do Zoznamu na prečítanie</target>
         <note>Action label on share extension to add page to the Firefox reading list.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.AddToReadingListActionDone.Title">
         <source>Added to Reading List</source>
+        <target>Pridaná do Zoznamu na prečítanie</target>
         <note>Share extension label shown after user has performed 'Add to Reading List' action.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.BookmarkThisPageAction.Title">
         <source>Bookmark This Page</source>
+        <target>Pridať stránku medzi záložky</target>
         <note>Action label on share extension to bookmark the page in Firefox.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.BookmarkThisPageActionDone.Title">
         <source>Bookmarked</source>
+        <target>Pridaná medzi záložky</target>
         <note>Share extension label shown after user has performed 'Bookmark this Page' action.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.LoadInBackgroundAction.Title">
         <source>Load in Background</source>
+        <target>Načítať na pozadí</target>
         <note>Action label on share extension to load the page in Firefox when user switches apps to bring it to foreground.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.LoadInBackgroundActionDone.Title">
         <source>Loading in Firefox</source>
+        <target>Načítavanie vo Firefoxe</target>
         <note>Share extension label shown after user has performed 'Load in Background' action.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.OpenInFirefoxAction.Title">
         <source>Open in Firefox</source>
+        <target>Otvoriť vo Firefoxe</target>
         <note>Action label on share extension to immediately open page in Firefox.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.OpenInPrivateModeAction.Title">
         <source>Open in Private Mode</source>
+        <target>Otvoriť na súkromnej karte</target>
         <note>Action label on share extension to immediately open page in Firefox in private mode.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.SeachInFirefoxAction.Title">
         <source>Search in Firefox</source>
+        <target>Hľadať vo Firefoxe</target>
         <note>Action label on share extension to search for the selected text in Firefox.</note>
       </trans-unit>
       <trans-unit id="Show Search Suggestions">
@@ -2707,6 +2721,7 @@
       </trans-unit>
       <trans-unit id="Upgrade Firefox to connect">
         <source>Upgrade Firefox to connect</source>
+        <target>Aby ste sa mohli pripojiť, aktualizujte Firefox</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="Username">
@@ -2716,6 +2731,7 @@
       </trans-unit>
       <trans-unit id="Verify your email address">
         <source>Verify your email address</source>
+        <target>Overte svoju e-mailovú adresu</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="Version %@ (%@)">
@@ -3221,6 +3237,7 @@
       </trans-unit>
       <trans-unit id="Menu.OpenDownloadsAction.AccessibilityLabel">
         <source>Downloads</source>
+        <target>Prevzaté súbory</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the Downloads home panel.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenHistoryAction.AccessibilityLabel">
@@ -3270,7 +3287,7 @@
       </trans-unit>
       <trans-unit id="Menu.ViewDekstopSiteAction.Title">
         <source>Request Desktop Site</source>
-        <target>Plná verzia stránky</target>
+        <target>Verzia stránky pre počítače</target>
         <note>Label for the button, displayed in the menu, used to request the desktop version of the current website.</note>
       </trans-unit>
       <trans-unit id="Menu.ViewMobileSiteAction.Title">
