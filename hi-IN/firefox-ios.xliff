@@ -1058,6 +1058,7 @@
       </trans-unit>
       <trans-unit id="Downloads.CancelDialog.Message">
         <source>Are you sure you want to cancel this download?</source>
+        <target>क्या आप आश्वस्त हैं कि आप इस डाउनलोड को रद्द करना चाहते हैं?</target>
         <note>Alert dialog body when the user taps the cancel download icon.</note>
       </trans-unit>
       <trans-unit id="Downloads.CancelDialog.Resume">
@@ -1097,14 +1098,17 @@
       </trans-unit>
       <trans-unit id="Downloads.Toast.MultipleFiles.DescriptionText">
         <source>1 of %d files</source>
+        <target>%d फ़ाइलों में से 1</target>
         <note>The description text in the Download progress toast for showing the number of files when multiple files are downloading.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.MultipleFilesAndProgress.DescriptionText">
         <source>%1$@ %2$@</source>
+        <target>%1$@ %2$@</target>
         <note>The description text in the Download progress toast for showing the number of files (1$) and download progress (2$). This string only consists of two placeholders for purposes of displaying two other strings side-by-side where 1$ is Downloads.Toast.MultipleFiles.DescriptionText and 2$ is Downloads.Toast.Progress.DescriptionText. This string should only consist of the two placeholders side-by-side separated by a single space and 1$ should come before 2$ everywhere except for right-to-left locales.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.Progress.DescriptionText">
         <source>%1$@/%2$@</source>
+        <target>%1$@/%2$@</target>
         <note>The description text in the Download progress toast for showing the downloaded file size (1$) out of the total expected file size (2$).</note>
       </trans-unit>
       <trans-unit id="DownloadsPanel.EmptyState.Title">
@@ -2463,10 +2467,12 @@
       </trans-unit>
       <trans-unit id="ShareExtension.OpenInPrivateModeAction.Title">
         <source>Open in Private Mode</source>
+        <target>निजी मोड में खोलें</target>
         <note>Action label on share extension to immediately open page in Firefox in private mode.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.SeachInFirefoxAction.Title">
         <source>Search in Firefox</source>
+        <target>Firefox में खोजें</target>
         <note>Action label on share extension to search for the selected text in Firefox.</note>
       </trans-unit>
       <trans-unit id="Show Search Suggestions">
@@ -2717,6 +2723,7 @@
       </trans-unit>
       <trans-unit id="Upgrade Firefox to connect">
         <source>Upgrade Firefox to connect</source>
+        <target>संपर्क हेतु Firefox को नवीनीकृत करें</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="Username">
@@ -2726,6 +2733,7 @@
       </trans-unit>
       <trans-unit id="Verify your email address">
         <source>Verify your email address</source>
+        <target>अपना ईमेल सत्यापित करे</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="Version %@ (%@)">
@@ -3231,6 +3239,7 @@
       </trans-unit>
       <trans-unit id="Menu.OpenDownloadsAction.AccessibilityLabel">
         <source>Downloads</source>
+        <target>डाउनलोड</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the Downloads home panel.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenHistoryAction.AccessibilityLabel">
