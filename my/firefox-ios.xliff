@@ -353,6 +353,7 @@
       </trans-unit>
       <trans-unit id="Downloaded Files">
         <source>Downloaded Files</source>
+        <target>ဆွဲယူထားသည့် ဖိုင်များ</target>
         <note>Settings item for deleting downloaded files</note>
       </trans-unit>
       <trans-unit id="Offline Website Data">
@@ -396,10 +397,12 @@
     <body>
       <trans-unit id="Delete">
         <source>Delete</source>
+        <target>ဖျက်</target>
         <note>Action button for deleting downloaded files in the Downloads panel.</note>
       </trans-unit>
       <trans-unit id="Share">
         <source>Share</source>
+        <target>မျှဝေ</target>
         <note>Action button for sharing downloaded files in the Downloads panel.</note>
       </trans-unit>
     </body>
@@ -1035,30 +1038,37 @@
       </trans-unit>
       <trans-unit id="Download Link">
         <source>Download Link</source>
+        <target>ဆွဲယူရန်လင့်ခ်</target>
         <note>Context menu item for downloading a link URL</note>
       </trans-unit>
       <trans-unit id="Downloads">
         <source>Downloads</source>
+        <target>ဆွဲချချက်များ</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Downloads.Alert.DownloadNow">
         <source>Download Now</source>
+        <target>ယခုပင် ဆွဲယူပါ</target>
         <note>The label of the button the user will press to start downloading a file</note>
       </trans-unit>
       <trans-unit id="Downloads.CancelDialog.Cancel">
         <source>Cancel</source>
+        <target>မဆောင်ရွက်တော့ပါ</target>
         <note>Button confirming the cancellation of the download.</note>
       </trans-unit>
       <trans-unit id="Downloads.CancelDialog.Message">
         <source>Are you sure you want to cancel this download?</source>
+        <target>ယခုဆွဲယူနေမှုကို မလုပ်ဆောင်တော့မည်မှာ သေချာပါသလား။</target>
         <note>Alert dialog body when the user taps the cancel download icon.</note>
       </trans-unit>
       <trans-unit id="Downloads.CancelDialog.Resume">
         <source>Resume</source>
+        <target>ဆက်လက်ဆောင်ရွက်ပါ</target>
         <note>Button declining the cancellation of the download.</note>
       </trans-unit>
       <trans-unit id="Downloads.CancelDialog.Title">
         <source>Cancel Download</source>
+        <target>ဆွဲယူမှုကို ဖျက်သိမ်း</target>
         <note>Alert dialog title when the user taps the cancel download icon.</note>
       </trans-unit>
       <trans-unit id="Downloads.Error.Message">
@@ -1068,38 +1078,47 @@
       </trans-unit>
       <trans-unit id="Downloads.Toast.Cancelled.LabelText">
         <source>Download Cancelled</source>
+        <target>ဆွဲယူမှုကို ဖျက်သိမ်းပြီး</target>
         <note>The label text in the Download Cancelled toast for showing confirmation that the download was cancelled.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.Failed.LabelText">
         <source>Download Failed</source>
+        <target>ဆွဲယူမှု မအောင်မြင်</target>
         <note>The label text in the Download Failed toast for showing confirmation that the download has failed.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.Failed.RetryButton">
         <source>Retry</source>
+        <target>ထပ်ကြိုးစားပါ</target>
         <note>The button to retry a failed download from the Download Failed toast.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.GoToDownloads.Button">
         <source>Downloads</source>
+        <target>ဆွဲချချက်များ</target>
         <note>The button to open a new tab with the Downloads home panel</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.MultipleFiles.DescriptionText">
         <source>1 of %d files</source>
+        <target>ဖိုင်များ %d ခု ထဲမှ 1 ခု</target>
         <note>The description text in the Download progress toast for showing the number of files when multiple files are downloading.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.MultipleFilesAndProgress.DescriptionText">
         <source>%1$@ %2$@</source>
+        <target>%1$@ %2$@</target>
         <note>The description text in the Download progress toast for showing the number of files (1$) and download progress (2$). This string only consists of two placeholders for purposes of displaying two other strings side-by-side where 1$ is Downloads.Toast.MultipleFiles.DescriptionText and 2$ is Downloads.Toast.Progress.DescriptionText. This string should only consist of the two placeholders side-by-side separated by a single space and 1$ should come before 2$ everywhere except for right-to-left locales.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.Progress.DescriptionText">
         <source>%1$@/%2$@</source>
+        <target>%1$@/%2$@</target>
         <note>The description text in the Download progress toast for showing the downloaded file size (1$) out of the total expected file size (2$).</note>
       </trans-unit>
       <trans-unit id="DownloadsPanel.EmptyState.Title">
         <source>Downloaded files will show up here.</source>
+        <target>ဆွဲယူထားသည့်ဖိုင်များကို ယခုနေရာတွင် ပြပါမည်။</target>
         <note>Title for the Downloads Panel empty state.</note>
       </trans-unit>
       <trans-unit id="Enter your password to connect">
         <source>Enter your password to connect</source>
+        <target>ချိက်ဆက်ရန် စကားဝှက်ကို ရိုက်ပါ</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="ErrorPages.Advanced.Button">
@@ -1189,6 +1208,7 @@
       </trans-unit>
       <trans-unit id="FxA.ManageAccount">
         <source>Manage Account &amp; Devices</source>
+        <target>အကောင့်နှင့် ကိရိယာများကို စီမံရန်</target>
         <note>Button label to go to Firefox Account settings</note>
       </trans-unit>
       <trans-unit id="FxA.NoInternetConnection">
@@ -1591,6 +1611,7 @@
       </trans-unit>
       <trans-unit id="Menu.PageActions.Title">
         <source>Page Actions</source>
+        <target>ဆောင်ရွက်နိုင်သည်များ</target>
         <note>Label for title in page action menu.</note>
       </trans-unit>
       <trans-unit id="Menu.Paste.Title">
@@ -1650,6 +1671,7 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDisable.Title">
         <source>Disable for this site</source>
+        <target>ယခုဆိုက်အတွက် ပိတ်</target>
         <note>The button that disabled TP for a site.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDisabled.Title">
@@ -2356,10 +2378,12 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.EnabledStateFooterLabel">
         <source>Tracking is the collection of your browsing data across multiple websites.</source>
+        <target>နောက်ယောင်ခံခြင်းသည် ဝဘ်ဆိုက်များကို ကြည့်ရှုထားသည့် အချက်အလက်များကို ကောက်ယူ စုစည်းထားခြင်း ဖြစ်သည်။</target>
         <note>Description label shown on tracking protection options screen.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.EnabledStateHeaderLabel">
         <source>Enable</source>
+        <target>ဖွင့်</target>
         <note>Description label shown at the top of tracking protection options screen.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.OnInNormalBrowsingLabel">
@@ -2368,6 +2392,7 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.OnInPrivateBrowsingLabel">
         <source>Private Browsing Mode</source>
+        <target>သီးသန့်ကြည့်ရှုခြင်းပုံစံ</target>
         <note>Settings option to specify that Tracking Protection is on only in Private Browsing mode.</note>
       </trans-unit>
       <trans-unit id="Settings.TroubleShootSync.Title">
