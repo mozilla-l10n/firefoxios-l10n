@@ -1098,14 +1098,17 @@
       </trans-unit>
       <trans-unit id="Downloads.Toast.MultipleFiles.DescriptionText">
         <source>1 of %d files</source>
+        <target>%d ఫైళ్లలో 1</target>
         <note>The description text in the Download progress toast for showing the number of files when multiple files are downloading.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.MultipleFilesAndProgress.DescriptionText">
         <source>%1$@ %2$@</source>
+        <target>%1$@ %2$@</target>
         <note>The description text in the Download progress toast for showing the number of files (1$) and download progress (2$). This string only consists of two placeholders for purposes of displaying two other strings side-by-side where 1$ is Downloads.Toast.MultipleFiles.DescriptionText and 2$ is Downloads.Toast.Progress.DescriptionText. This string should only consist of the two placeholders side-by-side separated by a single space and 1$ should come before 2$ everywhere except for right-to-left locales.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.Progress.DescriptionText">
         <source>%1$@/%2$@</source>
+        <target>%1$@/%2$@</target>
         <note>The description text in the Download progress toast for showing the downloaded file size (1$) out of the total expected file size (2$).</note>
       </trans-unit>
       <trans-unit id="DownloadsPanel.EmptyState.Title">
@@ -1650,6 +1653,7 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionBlocking.Description">
         <source>Firefox is blocking parts of the page that may track your browsing.</source>
+        <target>ఈ పేజీలో మీ విహరణ జాడ తెలుసుకునే భాగాలను Firefox నిరోధిస్తోంది.</target>
         <note>Description of the Tracking protection menu when TP is blocking parts of the page</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionBlockingDisabled.Description">
@@ -2437,6 +2441,7 @@
       </trans-unit>
       <trans-unit id="ShareExtension.BookmarkThisPageActionDone.Title">
         <source>Bookmarked</source>
+        <target>ఇష్టాంశంగా గుర్తించబడింది</target>
         <note>Share extension label shown after user has performed 'Bookmark this Page' action.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.LoadInBackgroundAction.Title">
@@ -2445,10 +2450,12 @@
       </trans-unit>
       <trans-unit id="ShareExtension.LoadInBackgroundActionDone.Title">
         <source>Loading in Firefox</source>
+        <target>Firefox లో లోడ్ అవుతోంది</target>
         <note>Share extension label shown after user has performed 'Load in Background' action.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.OpenInFirefoxAction.Title">
         <source>Open in Firefox</source>
+        <target>Firefox లో తెరవండి</target>
         <note>Action label on share extension to immediately open page in Firefox.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.OpenInPrivateModeAction.Title">
@@ -2457,6 +2464,7 @@
       </trans-unit>
       <trans-unit id="ShareExtension.SeachInFirefoxAction.Title">
         <source>Search in Firefox</source>
+        <target>Firefox లో శోధించండి</target>
         <note>Action label on share extension to search for the selected text in Firefox.</note>
       </trans-unit>
       <trans-unit id="Show Search Suggestions">
@@ -2600,6 +2608,7 @@
       </trans-unit>
       <trans-unit id="TabTray.CloseTab.KeyCodeTitle">
         <source>Close Selected Tab</source>
+        <target>ఎంచుకున్న ట్యాబును మూసివేయి</target>
         <note>Hardware shortcut to close the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
       <trans-unit id="TabTray.OpenNewTab.KeyCodeTitle">
@@ -2609,6 +2618,7 @@
       </trans-unit>
       <trans-unit id="TabTray.OpenSelectedTab.KeyCodeTitle">
         <source>Open Selected Tab</source>
+        <target>ఎంచుకున్న ట్యాబును తెరువు</target>
         <note>Hardware shortcut open the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
       <trans-unit id="Tabs %@ to %@ of %@">
@@ -2703,6 +2713,7 @@
       </trans-unit>
       <trans-unit id="Upgrade Firefox to connect">
         <source>Upgrade Firefox to connect</source>
+        <target>Firefoxతో కనెక్ట్ చేయడానికి అప్గ్రేడ్ చేయండి</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="Username">
@@ -2712,6 +2723,7 @@
       </trans-unit>
       <trans-unit id="Verify your email address">
         <source>Verify your email address</source>
+        <target>మీ ఇమెయిల్ చిరునామాను ధృవీకరించండి</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="Version %@ (%@)">
