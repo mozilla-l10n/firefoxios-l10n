@@ -1157,8 +1157,7 @@
         <note>Button label to temporarily continue to the site from the certificate error page</note>
       </trans-unit>
       <trans-unit id="ExternalLink.AppStore.ConfirmationTitle">
-        <source>Open this link in the App Store app?</source>
-        <target>App Store 앱에서 링크를 여시겠습니까?</target>
+        <source>Open this link in the App Store?</source>
         <note>Question shown to user when tapping a link that opens the App Store app</note>
       </trans-unit>
       <trans-unit id="Facebook">
@@ -1437,14 +1436,14 @@
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.NewPrivateTab.DiscoveryTitle">
-        <source>New Private Tab</source>
-        <target>새 사생활 보호 탭</target>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+        <source>Private Browsing Mode</source>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts
+   Label to switch to private browsing mode</note>
       </trans-unit>
       <trans-unit id="Hotkeys.NewTab.DiscoveryTitle">
-        <source>New Tab</source>
-        <target>새 탭</target>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+        <source>Normal Browsing Mode</source>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts
+   Label to switch to normal browsing mode</note>
       </trans-unit>
       <trans-unit id="Hotkeys.Reload.DiscoveryTitle">
         <source>Reload Page</source>
@@ -1536,6 +1535,10 @@
         <source>Don’t Save</source>
         <target>저장하지 않음</target>
         <note>Button to not save the user's password</note>
+      </trans-unit>
+      <trans-unit id="LoginsHelper.DontUpdate.Button">
+        <source>Don’t Update</source>
+        <note>Button to not update the user's password</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSaveLogin.Title">
         <source>Save login %1$@ for %2$@?</source>
@@ -1749,6 +1752,10 @@
         <target>탭 없음</target>
         <note>Message spoken by VoiceOver to indicate that there are no tabs in the Tabs Tray</note>
       </trans-unit>
+      <trans-unit id="Not Now">
+        <source>Not Now</source>
+        <note>label for Not Now button</note>
+      </trans-unit>
       <trans-unit id="Not now">
         <source>Not now</source>
         <target>다음에</target>
@@ -1769,6 +1776,10 @@
         <target>이런! Firefox가 종료됐습니다.</target>
         <note>Title for prompt displayed to user after the app crashes</note>
       </trans-unit>
+      <trans-unit id="Open App Store">
+        <source>Open App Store</source>
+        <note>Open App Store button</note>
+      </trans-unit>
       <trans-unit id="Open Settings">
         <source>Open Settings</source>
         <target>설정 열기</target>
@@ -1788,11 +1799,6 @@
         <source>Open in New Tab</source>
         <target>새 탭 열기</target>
         <note>Context menu item for opening a link in a new tab</note>
-      </trans-unit>
-      <trans-unit id="Open in…">
-        <source>Open in…</source>
-        <target>다음으로 열기…</target>
-        <note>String indicating that the file can be opened in another application on the device</note>
       </trans-unit>
       <trans-unit id="OpenURL.Error.Message">
         <source>Firefox cannot open the page because it has an invalid address.</source>
@@ -2195,6 +2201,34 @@
         <target>동기화를 끊으시겠습니까?</target>
         <note>Title of the alert when prompting the user asking to disconnect.</note>
       </trans-unit>
+      <trans-unit id="Settings.DisplayTheme">
+        <source>Display</source>
+        <note>Title in main app settings for Display (theme) settings</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayThemeOptionDark">
+        <source>Dark</source>
+        <note>Option choice in display theme settings for dark theme</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayThemeOptionLight">
+        <source>Light</source>
+        <note>Option choice in display theme settings for light theme</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayThemeSectionFooter">
+        <source>The theme will automatically change based on your display brightness. You can set the threshold where the theme changes. The circle indicates your display's current brightness.</source>
+        <note>Display (theme) settings footer describing how the brightness slider works.</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayThemeSectionHeader">
+        <source>Theme</source>
+        <note>Display (theme) settings section title</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayThemeSwitchSubtitle">
+        <source>Switch automatically based on screen brightness</source>
+        <note>Display (theme) settings switch subtitle, explaining the title 'Automatically'.</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayThemeSwitchTitle">
+        <source>Automatically</source>
+        <note>Display (theme) settings switch to choose whether to set the dark mode manually, or automatically based on the brightness slider.</note>
+      </trans-unit>
       <trans-unit id="Settings.FxA.DeviceName">
         <source>Device Name</source>
         <target>기기 이름</target>
@@ -2261,18 +2295,15 @@
         <note>A description in settings of what the new tab choice means</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.ASTitle">
-        <source>Additional Content</source>
-        <target>추가 콘텐츠</target>
+        <source>Customize Top Sites</source>
         <note>The title of the section in newtab that lets you modify the topsites panel</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.BlankPage">
-        <source>Show a Blank Page</source>
-        <target>빈 페이지 보이기</target>
+        <source>Blank Page</source>
         <note>Option in settings to show a blank page when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.Bookmarks">
-        <source>Show your Bookmarks</source>
-        <target>즐겨 찾기 보이기</target>
+        <source>Bookmarks</source>
         <note>Option in settings to show bookmarks when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HighlightsBookmarks">
@@ -2286,13 +2317,11 @@
         <note>Option in settings to turn off history in the highlights section</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.History">
-        <source>Show your History</source>
-        <target>방문 목록 보이기</target>
+        <source>History</source>
         <note>Option in settings to show history when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HomePage">
-        <source>Show your Homepage</source>
-        <target>홈페이지 보이기</target>
+        <source>Homepage</source>
         <note>Option in settings to show your homepage when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.Pocket">
@@ -2306,8 +2335,7 @@
         <note>Option in settings to show reading list when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.TopSites">
-        <source>Show your Top Sites</source>
-        <target>상위 사이트 보이기</target>
+        <source>Top Sites</source>
         <note>Option in settings to show top sites when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.SectionName">
@@ -2316,9 +2344,16 @@
         <note>Label used as an item in Settings. When touched it will open a dialog to configure the new tab behaviour.</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Title">
-        <source>New Tab Settings</source>
-        <target>새 탭 설정</target>
+        <source>New Tab</source>
         <note>Title displayed in header of the setting panel.</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.TopSectionName">
+        <source>Show</source>
+        <note>Label at the top of the New Tab screen after entering New Tab in settings</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.TopSectionNameFooter">
+        <source>Choose what to load when opening a new tab</source>
+        <note>Footer at the bottom of the New Tab screen after entering New Tab in settings</note>
       </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.Status">
         <source>When Opening Firefox</source>
@@ -2650,6 +2685,10 @@
         <source>%d tab(s) closed</source>
         <target>%d개의 탭 닫힘</target>
         <note>The label indicating that all the tabs were closed</note>
+      </trans-unit>
+      <trans-unit id="Tabs.Search.PlaceholderText">
+        <source>Search Tabs</source>
+        <note>The placeholder text for the tab search bar</note>
       </trans-unit>
       <trans-unit id="The page could not be displayed in Reader View.">
         <source>The page could not be displayed in Reader View.</source>
@@ -3029,6 +3068,17 @@
       </trans-unit>
     </body>
   </file>
+  <file original="Client/SearchWithFirefox.strings" source-language="en" datatype="plaintext" target-language="ko">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Search with Firefox">
+        <source>Search with Firefox</source>
+        <note>Search in New Tab Text selection menu item</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Client/SendAnonymousUsageData.strings" source-language="en" datatype="plaintext" target-language="ko">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
@@ -3080,6 +3130,17 @@
         <source>You don’t have any other devices connected to this Firefox Account available to sync.</source>
         <target>이 Firefox Account와 동기화된 다른 기기가 없습니다.</target>
         <note>Error message shown in the remote tabs panel</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Client/URL.strings" source-language="en" datatype="plaintext" target-language="ko">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Paste &amp; Go">
+        <source>Paste &amp; Go</source>
+        <note>pastes URL and searches</note>
       </trans-unit>
     </body>
   </file>
