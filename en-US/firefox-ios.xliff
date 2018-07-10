@@ -1157,8 +1157,8 @@
         <note>Button label to temporarily continue to the site from the certificate error page</note>
       </trans-unit>
       <trans-unit id="ExternalLink.AppStore.ConfirmationTitle">
-        <source>Open this link in the App Store app?</source>
-        <target>Open this link in the App Store app?</target>
+        <source>Open this link in the App Store?</source>
+        <target>Open this link in the App Store?</target>
         <note>Question shown to user when tapping a link that opens the App Store app</note>
       </trans-unit>
       <trans-unit id="Facebook">
@@ -1437,14 +1437,16 @@
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.NewPrivateTab.DiscoveryTitle">
-        <source>New Private Tab</source>
-        <target>New Private Tab</target>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+        <source>Private Browsing Mode</source>
+        <target>Private Browsing Mode</target>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts
+   Label to switch to private browsing mode</note>
       </trans-unit>
       <trans-unit id="Hotkeys.NewTab.DiscoveryTitle">
-        <source>New Tab</source>
-        <target>New Tab</target>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+        <source>Normal Browsing Mode</source>
+        <target>Normal Browsing Mode</target>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts
+   Label to switch to normal browsing mode</note>
       </trans-unit>
       <trans-unit id="Hotkeys.Reload.DiscoveryTitle">
         <source>Reload Page</source>
@@ -1536,6 +1538,11 @@
         <source>Don’t Save</source>
         <target>Don’t Save</target>
         <note>Button to not save the user's password</note>
+      </trans-unit>
+      <trans-unit id="LoginsHelper.DontUpdate.Button">
+        <source>Don’t Update</source>
+        <target>Don’t Update</target>
+        <note>Button to not update the user's password</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSaveLogin.Title">
         <source>Save login %1$@ for %2$@?</source>
@@ -1749,6 +1756,11 @@
         <target>No tabs</target>
         <note>Message spoken by VoiceOver to indicate that there are no tabs in the Tabs Tray</note>
       </trans-unit>
+      <trans-unit id="Not Now">
+        <source>Not Now</source>
+        <target>Not Now</target>
+        <note>label for Not Now button</note>
+      </trans-unit>
       <trans-unit id="Not now">
         <source>Not now</source>
         <target>Not now</target>
@@ -1769,6 +1781,11 @@
         <target>Oops! Firefox crashed</target>
         <note>Title for prompt displayed to user after the app crashes</note>
       </trans-unit>
+      <trans-unit id="Open App Store">
+        <source>Open App Store</source>
+        <target>Open App Store</target>
+        <note>Open App Store button</note>
+      </trans-unit>
       <trans-unit id="Open Settings">
         <source>Open Settings</source>
         <target>Open Settings</target>
@@ -1788,11 +1805,6 @@
         <source>Open in New Tab</source>
         <target>Open in New Tab</target>
         <note>Context menu item for opening a link in a new tab</note>
-      </trans-unit>
-      <trans-unit id="Open in…">
-        <source>Open in…</source>
-        <target>Open in…</target>
-        <note>String indicating that the file can be opened in another application on the device</note>
       </trans-unit>
       <trans-unit id="OpenURL.Error.Message">
         <source>Firefox cannot open the page because it has an invalid address.</source>
@@ -2195,6 +2207,41 @@
         <target>Disconnect Sync?</target>
         <note>Title of the alert when prompting the user asking to disconnect.</note>
       </trans-unit>
+      <trans-unit id="Settings.DisplayTheme">
+        <source>Display</source>
+        <target>Display</target>
+        <note>Title in main app settings for Display (theme) settings</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayThemeOptionDark">
+        <source>Dark</source>
+        <target>Dark</target>
+        <note>Option choice in display theme settings for dark theme</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayThemeOptionLight">
+        <source>Light</source>
+        <target>Light</target>
+        <note>Option choice in display theme settings for light theme</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayThemeSectionFooter">
+        <source>The theme will automatically change based on your display brightness. You can set the threshold where the theme changes. The circle indicates your display's current brightness.</source>
+        <target>The theme will automatically change based on your display brightness. You can set the threshold where the theme changes. The circle indicates your display's current brightness.</target>
+        <note>Display (theme) settings footer describing how the brightness slider works.</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayThemeSectionHeader">
+        <source>Theme</source>
+        <target>Theme</target>
+        <note>Display (theme) settings section title</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayThemeSwitchSubtitle">
+        <source>Switch automatically based on screen brightness</source>
+        <target>Switch automatically based on screen brightness</target>
+        <note>Display (theme) settings switch subtitle, explaining the title 'Automatically'.</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayThemeSwitchTitle">
+        <source>Automatically</source>
+        <target>Automatically</target>
+        <note>Display (theme) settings switch to choose whether to set the dark mode manually, or automatically based on the brightness slider.</note>
+      </trans-unit>
       <trans-unit id="Settings.FxA.DeviceName">
         <source>Device Name</source>
         <target>Device Name</target>
@@ -2261,18 +2308,18 @@
         <note>A description in settings of what the new tab choice means</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.ASTitle">
-        <source>Additional Content</source>
-        <target>Additional Content</target>
+        <source>Customize Top Sites</source>
+        <target>Customize Top Sites</target>
         <note>The title of the section in newtab that lets you modify the topsites panel</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.BlankPage">
-        <source>Show a Blank Page</source>
-        <target>Show a Blank Page</target>
+        <source>Blank Page</source>
+        <target>Blank Page</target>
         <note>Option in settings to show a blank page when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.Bookmarks">
-        <source>Show your Bookmarks</source>
-        <target>Show your Bookmarks</target>
+        <source>Bookmarks</source>
+        <target>Bookmarks</target>
         <note>Option in settings to show bookmarks when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HighlightsBookmarks">
@@ -2286,13 +2333,13 @@
         <note>Option in settings to turn off history in the highlights section</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.History">
-        <source>Show your History</source>
-        <target>Show your History</target>
+        <source>History</source>
+        <target>History</target>
         <note>Option in settings to show history when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HomePage">
-        <source>Show your Homepage</source>
-        <target>Show your Homepage</target>
+        <source>Homepage</source>
+        <target>Homepage</target>
         <note>Option in settings to show your homepage when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.Pocket">
@@ -2306,8 +2353,8 @@
         <note>Option in settings to show reading list when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.TopSites">
-        <source>Show your Top Sites</source>
-        <target>Show your Top Sites</target>
+        <source>Top Sites</source>
+        <target>Top Sites</target>
         <note>Option in settings to show top sites when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.SectionName">
@@ -2316,9 +2363,19 @@
         <note>Label used as an item in Settings. When touched it will open a dialog to configure the new tab behaviour.</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Title">
-        <source>New Tab Settings</source>
-        <target>New Tab Settings</target>
+        <source>New Tab</source>
+        <target>New Tab</target>
         <note>Title displayed in header of the setting panel.</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.TopSectionName">
+        <source>Show</source>
+        <target>Show</target>
+        <note>Label at the top of the New Tab screen after entering New Tab in settings</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.TopSectionNameFooter">
+        <source>Choose what to load when opening a new tab</source>
+        <target>Choose what to load when opening a new tab</target>
+        <note>Footer at the bottom of the New Tab screen after entering New Tab in settings</note>
       </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.Status">
         <source>When Opening Firefox</source>
@@ -2650,6 +2707,11 @@
         <source>%d tab(s) closed</source>
         <target>%d tab(s) closed</target>
         <note>The label indicating that all the tabs were closed</note>
+      </trans-unit>
+      <trans-unit id="Tabs.Search.PlaceholderText">
+        <source>Search Tabs</source>
+        <target>Search Tabs</target>
+        <note>The placeholder text for the tab search bar</note>
       </trans-unit>
       <trans-unit id="The page could not be displayed in Reader View.">
         <source>The page could not be displayed in Reader View.</source>
@@ -3029,6 +3091,18 @@
       </trans-unit>
     </body>
   </file>
+  <file original="Client/SearchWithFirefox.strings" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Search with Firefox">
+        <source>Search with Firefox</source>
+        <target>Search with Firefox</target>
+        <note>Search in New Tab Text selection menu item</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Client/SendAnonymousUsageData.strings" source-language="en" datatype="plaintext" target-language="en">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
@@ -3080,6 +3154,18 @@
         <source>You don’t have any other devices connected to this Firefox Account available to sync.</source>
         <target>You don’t have any other devices connected to this Firefox Account available to sync.</target>
         <note>Error message shown in the remote tabs panel</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Client/URL.strings" source-language="en" datatype="plaintext" target-language="en">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Paste &amp; Go">
+        <source>Paste &amp; Go</source>
+        <target>Paste &amp; Go</target>
+        <note>pastes URL and searches</note>
       </trans-unit>
     </body>
   </file>
