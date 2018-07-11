@@ -1157,8 +1157,7 @@
         <note>Button label to temporarily continue to the site from the certificate error page</note>
       </trans-unit>
       <trans-unit id="ExternalLink.AppStore.ConfirmationTitle">
-        <source>Open this link in the App Store app?</source>
-        <target>要在 App Store 開啟此鏈結嗎？</target>
+        <source>Open this link in the App Store?</source>
         <note>Question shown to user when tapping a link that opens the App Store app</note>
       </trans-unit>
       <trans-unit id="Facebook">
@@ -1437,14 +1436,14 @@
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.NewPrivateTab.DiscoveryTitle">
-        <source>New Private Tab</source>
-        <target>開新隱私分頁</target>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+        <source>Private Browsing Mode</source>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts
+   Label to switch to private browsing mode</note>
       </trans-unit>
       <trans-unit id="Hotkeys.NewTab.DiscoveryTitle">
-        <source>New Tab</source>
-        <target>開新分頁</target>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+        <source>Normal Browsing Mode</source>
+        <note>Label to display in the Discoverability overlay for keyboard shortcuts
+   Label to switch to normal browsing mode</note>
       </trans-unit>
       <trans-unit id="Hotkeys.Reload.DiscoveryTitle">
         <source>Reload Page</source>
@@ -1536,6 +1535,10 @@
         <source>Don’t Save</source>
         <target>不要儲存</target>
         <note>Button to not save the user's password</note>
+      </trans-unit>
+      <trans-unit id="LoginsHelper.DontUpdate.Button">
+        <source>Don’t Update</source>
+        <note>Button to not update the user's password</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSaveLogin.Title">
         <source>Save login %1$@ for %2$@?</source>
@@ -1789,11 +1792,6 @@
         <target>用新分頁開啟</target>
         <note>Context menu item for opening a link in a new tab</note>
       </trans-unit>
-      <trans-unit id="Open in…">
-        <source>Open in…</source>
-        <target>開啟於…</target>
-        <note>String indicating that the file can be opened in another application on the device</note>
-      </trans-unit>
       <trans-unit id="OpenURL.Error.Message">
         <source>Firefox cannot open the page because it has an invalid address.</source>
         <target>由於網址錯誤，Firefox 無法開啟頁面。</target>
@@ -1823,6 +1821,10 @@
         <source>Password</source>
         <target>密碼</target>
         <note>Password textbox in Authentication prompt</note>
+      </trans-unit>
+      <trans-unit id="PasteGo">
+        <source>Paste &amp; Go</source>
+        <note>The Paste &amp; go menu item</note>
       </trans-unit>
       <trans-unit id="PhotonMenu.close">
         <source>Close</source>
@@ -1999,6 +2001,10 @@
         <source>OK</source>
         <target>確定</target>
         <note>The confirmation button</note>
+      </trans-unit>
+      <trans-unit id="SearchWithFirefox">
+        <source>Search with Firefox</source>
+        <note>Search in New Tab Text selection menu item</note>
       </trans-unit>
       <trans-unit id="Searches for the suggestion">
         <source>Searches for the suggestion</source>
@@ -2195,6 +2201,34 @@
         <target>要取消連線至 Sync 嗎？</target>
         <note>Title of the alert when prompting the user asking to disconnect.</note>
       </trans-unit>
+      <trans-unit id="Settings.DisplayTheme">
+        <source>Display</source>
+        <note>Title in main app settings for Display (theme) settings</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayThemeOptionDark">
+        <source>Dark</source>
+        <note>Option choice in display theme settings for dark theme</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayThemeOptionLight">
+        <source>Light</source>
+        <note>Option choice in display theme settings for light theme</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayThemeSectionFooter">
+        <source>The theme will automatically change based on your display brightness. You can set the threshold where the theme changes. The circle indicates your display's current brightness.</source>
+        <note>Display (theme) settings footer describing how the brightness slider works.</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayThemeSectionHeader">
+        <source>Theme</source>
+        <note>Display (theme) settings section title</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayThemeSwitchSubtitle">
+        <source>Switch automatically based on screen brightness</source>
+        <note>Display (theme) settings switch subtitle, explaining the title 'Automatically'.</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayThemeSwitchTitle">
+        <source>Automatically</source>
+        <note>Display (theme) settings switch to choose whether to set the dark mode manually, or automatically based on the brightness slider.</note>
+      </trans-unit>
       <trans-unit id="Settings.FxA.DeviceName">
         <source>Device Name</source>
         <target>裝置名稱</target>
@@ -2261,18 +2295,15 @@
         <note>A description in settings of what the new tab choice means</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.ASTitle">
-        <source>Additional Content</source>
-        <target>其他內容</target>
+        <source>Customize Top Sites</source>
         <note>The title of the section in newtab that lets you modify the topsites panel</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.BlankPage">
-        <source>Show a Blank Page</source>
-        <target>顯示空白頁</target>
+        <source>Blank Page</source>
         <note>Option in settings to show a blank page when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.Bookmarks">
-        <source>Show your Bookmarks</source>
-        <target>顯示您的書籤</target>
+        <source>Bookmarks</source>
         <note>Option in settings to show bookmarks when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HighlightsBookmarks">
@@ -2286,13 +2317,11 @@
         <note>Option in settings to turn off history in the highlights section</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.History">
-        <source>Show your History</source>
-        <target>顯示您的瀏覽紀錄</target>
+        <source>History</source>
         <note>Option in settings to show history when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HomePage">
-        <source>Show your Homepage</source>
-        <target>顯示您的首頁</target>
+        <source>Homepage</source>
         <note>Option in settings to show your homepage when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.Pocket">
@@ -2306,8 +2335,7 @@
         <note>Option in settings to show reading list when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.TopSites">
-        <source>Show your Top Sites</source>
-        <target>顯示您最常瀏覽的網站</target>
+        <source>Top Sites</source>
         <note>Option in settings to show top sites when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.SectionName">
@@ -2316,9 +2344,16 @@
         <note>Label used as an item in Settings. When touched it will open a dialog to configure the new tab behaviour.</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Title">
-        <source>New Tab Settings</source>
-        <target>新分頁選項</target>
+        <source>New Tab</source>
         <note>Title displayed in header of the setting panel.</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.TopSectionName">
+        <source>Show</source>
+        <note>Label at the top of the New Tab screen after entering New Tab in settings</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.TopSectionNameFooter">
+        <source>Choose what to load when opening a new tab</source>
+        <note>Footer at the bottom of the New Tab screen after entering New Tab in settings</note>
       </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.Status">
         <source>When Opening Firefox</source>
@@ -2651,6 +2686,10 @@
         <target>已關閉 %d 個分頁</target>
         <note>The label indicating that all the tabs were closed</note>
       </trans-unit>
+      <trans-unit id="Tabs.Search.PlaceholderText">
+        <source>Search Tabs</source>
+        <note>The placeholder text for the tab search bar</note>
+      </trans-unit>
       <trans-unit id="The page could not be displayed in Reader View.">
         <source>The page could not be displayed in Reader View.</source>
         <target>無法在閱讀畫面中顯示此頁面。</target>
@@ -2675,6 +2714,14 @@
         <source>This will open in another application</source>
         <target>將在其他應用程式開啟</target>
         <note>Opening an external app</note>
+      </trans-unit>
+      <trans-unit id="Toasts.NotNow">
+        <source>Not Now</source>
+        <note>label for Not Now button</note>
+      </trans-unit>
+      <trans-unit id="Toasts.OpenAppStore">
+        <source>Open App Store</source>
+        <note>Open App Store button</note>
       </trans-unit>
       <trans-unit id="Today">
         <source>Today</source>
