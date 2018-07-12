@@ -1157,8 +1157,7 @@
         <note>Button label to temporarily continue to the site from the certificate error page</note>
       </trans-unit>
       <trans-unit id="ExternalLink.AppStore.ConfirmationTitle">
-        <source>Open this link in the App Store app?</source>
-        <target>A bheil thu airson an ceangal seo fhosgladh ann an aplacaid an App Store?</target>
+        <source>Open this link in the App Store?</source>
         <note>Question shown to user when tapping a link that opens the App Store app</note>
       </trans-unit>
       <trans-unit id="Facebook">
@@ -1446,6 +1445,14 @@
         <target>Taba ùr</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
+      <trans-unit id="Hotkeys.NormalMode.DiscoveryTitle">
+        <source>Normal Browsing Mode</source>
+        <note>Label to switch to normal browsing mode</note>
+      </trans-unit>
+      <trans-unit id="Hotkeys.PrivateMode.DiscoveryTitle">
+        <source>Private Browsing Mode</source>
+        <note>Label to switch to private browsing mode</note>
+      </trans-unit>
       <trans-unit id="Hotkeys.Reload.DiscoveryTitle">
         <source>Reload Page</source>
         <target>Ath-luchdaich an duilleag</target>
@@ -1536,6 +1543,10 @@
         <source>Don’t Save</source>
         <target>Na sàbhail</target>
         <note>Button to not save the user's password</note>
+      </trans-unit>
+      <trans-unit id="LoginsHelper.DontUpdate.Button">
+        <source>Don’t Update</source>
+        <note>Button to not update the user's password</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSaveLogin.Title">
         <source>Save login %1$@ for %2$@?</source>
@@ -1788,11 +1799,6 @@
         <source>Open in New Tab</source>
         <target>Fosgail ann an taba ùr</target>
         <note>Context menu item for opening a link in a new tab</note>
-      </trans-unit>
-      <trans-unit id="Open in…">
-        <source>Open in…</source>
-        <target>Fosgail an-seo…</target>
-        <note>String indicating that the file can be opened in another application on the device</note>
       </trans-unit>
       <trans-unit id="OpenURL.Error.Message">
         <source>Firefox cannot open the page because it has an invalid address.</source>
@@ -2195,6 +2201,34 @@
         <target>A bheil thu airson gleus an t-sioncronachaidh a dhì-cheangal?</target>
         <note>Title of the alert when prompting the user asking to disconnect.</note>
       </trans-unit>
+      <trans-unit id="Settings.DisplayTheme.OptionDark">
+        <source>Dark</source>
+        <note>Option choice in display theme settings for dark theme</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayTheme.OptionLight">
+        <source>Light</source>
+        <note>Option choice in display theme settings for light theme</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayTheme.SectionFooter">
+        <source>The theme will automatically change based on your display brightness. You can set the threshold where the theme changes. The circle indicates your display's current brightness.</source>
+        <note>Display (theme) settings footer describing how the brightness slider works.</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayTheme.SectionHeader">
+        <source>Theme</source>
+        <note>Display (theme) settings section title</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayTheme.SwitchSubtitle">
+        <source>Switch automatically based on screen brightness</source>
+        <note>Display (theme) settings switch subtitle, explaining the title 'Automatically'.</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayTheme.SwitchTitle">
+        <source>Automatically</source>
+        <note>Display (theme) settings switch to choose whether to set the dark mode manually, or automatically based on the brightness slider.</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayTheme.Title">
+        <source>Display</source>
+        <note>Title in main app settings for Display (theme) settings</note>
+      </trans-unit>
       <trans-unit id="Settings.FxA.DeviceName">
         <source>Device Name</source>
         <target>Ainm an uidheim</target>
@@ -2261,18 +2295,15 @@
         <note>A description in settings of what the new tab choice means</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.ASTitle">
-        <source>Additional Content</source>
-        <target>Susbaint a bharrachd</target>
+        <source>Customize Top Sites</source>
         <note>The title of the section in newtab that lets you modify the topsites panel</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.BlankPage">
-        <source>Show a Blank Page</source>
-        <target>Seall duilleag bhàn</target>
+        <source>Blank Page</source>
         <note>Option in settings to show a blank page when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.Bookmarks">
-        <source>Show your Bookmarks</source>
-        <target>Seall na comharran-lìn agad</target>
+        <source>Bookmarks</source>
         <note>Option in settings to show bookmarks when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HighlightsBookmarks">
@@ -2286,13 +2317,11 @@
         <note>Option in settings to turn off history in the highlights section</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.History">
-        <source>Show your History</source>
-        <target>Seall an eachdraidh agad</target>
+        <source>History</source>
         <note>Option in settings to show history when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HomePage">
-        <source>Show your Homepage</source>
-        <target>Seall an duilleag mhòr agad</target>
+        <source>Homepage</source>
         <note>Option in settings to show your homepage when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.Pocket">
@@ -2306,8 +2335,7 @@
         <note>Option in settings to show reading list when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.TopSites">
-        <source>Show your Top Sites</source>
-        <target>Seall brod nan làrach agad</target>
+        <source>Top Sites</source>
         <note>Option in settings to show top sites when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.SectionName">
@@ -2316,9 +2344,16 @@
         <note>Label used as an item in Settings. When touched it will open a dialog to configure the new tab behaviour.</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Title">
-        <source>New Tab Settings</source>
-        <target>Roghainnean nan taba ùr</target>
+        <source>New Tab</source>
         <note>Title displayed in header of the setting panel.</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.TopSectionName">
+        <source>Show</source>
+        <note>Label at the top of the New Tab screen after entering New Tab in settings</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.TopSectionNameFooter">
+        <source>Choose what to load when opening a new tab</source>
+        <note>Footer at the bottom of the New Tab screen after entering New Tab in settings</note>
       </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.Status">
         <source>When Opening Firefox</source>
@@ -2651,6 +2686,10 @@
         <target>%d taba(ichean) air an dùnadh</target>
         <note>The label indicating that all the tabs were closed</note>
       </trans-unit>
+      <trans-unit id="Tabs.Search.PlaceholderText">
+        <source>Search Tabs</source>
+        <note>The placeholder text for the tab search bar</note>
+      </trans-unit>
       <trans-unit id="The page could not be displayed in Reader View.">
         <source>The page could not be displayed in Reader View.</source>
         <target>Cha b’ urrainn dhuinn an duilleag a thaisbeanadh ann an sealladh an leughadair.</target>
@@ -2675,6 +2714,14 @@
         <source>This will open in another application</source>
         <target>Thèid seo fhosgladh ann an aplacaid eile</target>
         <note>Opening an external app</note>
+      </trans-unit>
+      <trans-unit id="Toasts.NotNow">
+        <source>Not Now</source>
+        <note>label for Not Now button</note>
+      </trans-unit>
+      <trans-unit id="Toasts.OpenAppStore">
+        <source>Open App Store</source>
+        <note>Open App Store button</note>
       </trans-unit>
       <trans-unit id="Today">
         <source>Today</source>
@@ -2715,6 +2762,14 @@
         <source>Twitter</source>
         <target>Twitter</target>
         <note>Tile title for Twitter</note>
+      </trans-unit>
+      <trans-unit id="UIMenuItem.PasteGo">
+        <source>Paste &amp; Go</source>
+        <note>The menu item that pastes the current contents of the clipboard into the URL bar and navigates to the page</note>
+      </trans-unit>
+      <trans-unit id="UIMenuItem.SearchWithFirefox">
+        <source>Search with Firefox</source>
+        <note>Search in New Tab Text selection menu item</note>
       </trans-unit>
       <trans-unit id="Update">
         <source>Update</source>
