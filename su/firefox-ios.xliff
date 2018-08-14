@@ -144,22 +144,22 @@
       </trans-unit>
       <trans-unit id="Incorrect passcode. Try again (Attempts remaining: %d).">
         <source>Incorrect passcode. Try again (Attempts remaining: %d).</source>
-        <target>Kode rusiah salah. Cobaan deui (Sésa nyobaan: %d).</target>
+        <target>Kode rusiah salah. Pecakan deui (Sésa mecakan: %d).</target>
         <note>Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app with attempts remaining</note>
       </trans-unit>
       <trans-unit id="Incorrect passcode. Try again.">
         <source>Incorrect passcode. Try again.</source>
-        <target>Kode rusiah salah. Cobaan deui.</target>
+        <target>Kode rusiah salah. Pecakan deui.</target>
         <note>Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app</note>
       </trans-unit>
       <trans-unit id="Maximum attempts reached. Please try again in an hour.">
         <source>Maximum attempts reached. Please try again in an hour.</source>
-        <target>Geus nepi ka wates luhur tarekah. Cobaan sajam deui.</target>
+        <target>Geus nepi ka wates luhur tarekah. Pecakan sajam deui mah.</target>
         <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
       </trans-unit>
       <trans-unit id="Maximum attempts reached. Please try again later.">
         <source>Maximum attempts reached. Please try again later.</source>
-        <target>Geus nepi ka wates luhur tarekah. Cobaan engke deui nya.</target>
+        <target>Geus loba teuing mecakan. Pecakan deui engké nya.</target>
         <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
       </trans-unit>
       <trans-unit id="New passcode must be different than existing code.">
@@ -174,7 +174,7 @@
       </trans-unit>
       <trans-unit id="Passcodes didn’t match. Try again.">
         <source>Passcodes didn’t match. Try again.</source>
-        <target>Kodeu rusiah teu nurub. Cobaan deui.</target>
+        <target>Kodeu rusiah teu nurub. Pecakan deui.</target>
         <note>Error message displayed to user when their confirming passcode doesn't match the first code.</note>
       </trans-unit>
       <trans-unit id="Re-enter passcode">
@@ -415,7 +415,7 @@
       </trans-unit>
       <trans-unit id="Try again">
         <source>Try again</source>
-        <target>Cobaan deui</target>
+        <target>Pecakan deui</target>
         <note>Shown in error pages on a button that will try to load the page again</note>
       </trans-unit>
     </body>
@@ -768,7 +768,7 @@
       </trans-unit>
       <trans-unit id="AddPass.Error.Message">
         <source>An error occured while adding the pass to Wallet. Please try again later.</source>
-        <target>Aya kasalahan nalika nambahkeun pass kana Wallet. Cobaan deui engké.</target>
+        <target>Aya kasalahan nalika nambahkeun pass kana Wallet. Pecakan deui engké.</target>
         <note>Text of the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet.</note>
       </trans-unit>
       <trans-unit id="AddPass.Error.Title">
@@ -1058,7 +1058,7 @@
       </trans-unit>
       <trans-unit id="Downloads.Toast.Failed.RetryButton">
         <source>Retry</source>
-        <target>Coba deui</target>
+        <target>Pecak deui</target>
         <note>The button to retry a failed download from the Download Failed toast.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.GoToDownloads.Button">
@@ -1946,7 +1946,7 @@
       </trans-unit>
       <trans-unit id="SendTo.Error.Title">
         <source>The link you are trying to share cannot be shared.</source>
-        <target>Tutumbu nu ku anjeun coba dibagikeun téh teu bisa dibagikeun.</target>
+        <target>Tutumbu nu ku anjeun mecak dibagikeun téh horéng teu bisa dibagikeun.</target>
         <note>Title of error prompt displayed when an invalid URL is shared.</note>
       </trans-unit>
       <trans-unit id="SentTab.AddToReadingListAction.Title">
@@ -2251,6 +2251,7 @@
       </trans-unit>
       <trans-unit id="Settings.SendUsage.Link">
         <source>Learn More.</source>
+        <target>Lenyepan.</target>
         <note>title for a link that explains how mozilla collects telemetry</note>
       </trans-unit>
       <trans-unit id="Settings.SendUsage.Message">
@@ -2514,6 +2515,7 @@
       </trans-unit>
       <trans-unit id="There was a problem accessing tabs from your other devices. Try again in a few moments.">
         <source>There was a problem accessing tabs from your other devices. Try again in a few moments.</source>
+        <target>Aya masalah sabet ngaksés tab ti parangkat anjeun nu séjén. Pecakan deui engké sakeudeung.</target>
         <note>Error message in the remote tabs panel</note>
       </trans-unit>
       <trans-unit id="There was an error converting the page">
@@ -3164,9 +3166,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3177,9 +3181,11 @@
     <body>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
         <source>12.0</source>
+        <target>12.0</target>
       </trans-unit>
     </body>
   </file>
