@@ -10,8 +10,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>13.0</source>
+        <target>13.0</target>
       </trans-unit>
     </body>
   </file>
@@ -25,8 +25,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>13.0</source>
+        <target>13.0</target>
       </trans-unit>
     </body>
   </file>
@@ -370,6 +370,10 @@
         <target>Dié aksie sal al u private data skrap. Dit kan nie ongedaan gemaak word nie.</target>
         <note>Description of the confirmation dialog shown when a user tries to clear their private data.</note>
       </trans-unit>
+      <trans-unit id="This action will clear all of your website data. It cannot be undone.">
+        <source>This action will clear all of your website data. It cannot be undone.</source>
+        <note>Description of the confirmation dialog shown when a user tries to clear their private data.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Client/DownloadsPanel.strings" source-language="en" datatype="plaintext" target-language="af">
@@ -456,8 +460,8 @@
         <target>$(MOZ_PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>13.0</source>
+        <target>13.0</target>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you take and upload photos.</source>
@@ -1987,6 +1991,10 @@
         <target>URL (vervang navraag met %s)</target>
         <note>The placeholder for URL Field when saving a custom search engine</note>
       </trans-unit>
+      <trans-unit id="Settings.ClearAllWebsiteData.Clear.Button">
+        <source>Clear All Website Data</source>
+        <note>Button in Data Management that clears private data for the selected items.</note>
+      </trans-unit>
       <trans-unit id="Settings.ClearPrivateData.Clear.Button">
         <source>Clear Private Data</source>
         <target>Skrap private data</target>
@@ -2013,6 +2021,18 @@
       <trans-unit id="Settings.DNT.Title">
         <source>Send websites a Do Not Track signal that you don’t want to be tracked</source>
         <note>DNT Settings title</note>
+      </trans-unit>
+      <trans-unit id="Settings.DataManagement.SearchLabel">
+        <source>Filter Sites</source>
+        <note>Default text in search bar for Data Management</note>
+      </trans-unit>
+      <trans-unit id="Settings.DataManagement.SectionName">
+        <source>Data Management</source>
+        <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
+      </trans-unit>
+      <trans-unit id="Settings.DataManagement.Title">
+        <source>Data Management</source>
+        <note>Title displayed in header of the setting panel.</note>
       </trans-unit>
       <trans-unit id="Settings.Disconnect.Body">
         <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
@@ -2267,6 +2287,17 @@
         <source>Troubleshoot</source>
         <target>Probleemoplossing</target>
         <note>Title of link to help page to find out how to solve Sync issues</note>
+      </trans-unit>
+      <trans-unit id="Settings.WebsiteData.Button">
+        <source>Show More</source>
+        <note>Button shows all websites on website data tableview
+   Button to delete website in search results
+   Button to edit website search results
+   Button to exit edit website search results</note>
+      </trans-unit>
+      <trans-unit id="Settings.WebsiteData.Title">
+        <source>Website Data</source>
+        <note>Title displayed in header of the Data Management panel.</note>
       </trans-unit>
       <trans-unit id="Share Link">
         <source>Share Link</source>
@@ -2930,8 +2961,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>13.0</source>
+        <target>13.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2949,8 +2980,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>13.0</source>
+        <target>13.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2968,8 +2999,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>13.0</source>
+        <target>13.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2987,8 +3018,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>13.0</source>
+        <target>13.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3024,8 +3055,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>13.0</source>
+        <target>13.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3137,6 +3168,25 @@
       </trans-unit>
     </body>
   </file>
+  <file original="Shared/Supporting Files/firefoxcredentials.strings" source-language="en" datatype="plaintext" target-language="af">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Available Credentials:">
+        <source>Available Credentials:</source>
+        <note>Header for the list of credentials table</note>
+      </trans-unit>
+      <trans-unit id="Firefox Credentials">
+        <source>Firefox Credentials</source>
+        <note>Title of the extension that shows firefox passwords</note>
+      </trans-unit>
+      <trans-unit id="You don’t have any credentials synced from your Firefox Account">
+        <source>You don’t have any credentials synced from your Firefox Account</source>
+        <note>Error message shown in the remote tabs panel</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="SharedTests/Info.plist" source-language="en" datatype="plaintext" target-language="af">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
@@ -3147,8 +3197,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>13.0</source>
+        <target>13.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3194,8 +3244,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>13.0</source>
+        <target>13.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3209,8 +3259,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>13.0</source>
+        <target>13.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3224,8 +3274,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>13.0</source>
+        <target>13.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3239,8 +3289,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>13.0</source>
+        <target>13.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3254,8 +3304,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>13.0</source>
+        <target>13.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3269,8 +3319,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>13.0</source>
+        <target>13.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3284,8 +3334,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>13.0</source>
+        <target>13.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3299,8 +3349,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>13.0</source>
+        <target>13.0</target>
       </trans-unit>
     </body>
   </file>
