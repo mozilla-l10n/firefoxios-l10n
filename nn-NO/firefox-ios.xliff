@@ -10,8 +10,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -25,8 +25,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -477,8 +477,8 @@
         <target>$(MOZ_PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you take and upload photos.</source>
@@ -1827,12 +1827,24 @@
       <trans-unit id="Panel Chooser">
         <source>Panel Chooser</source>
         <target>Panelveljar</target>
-        <note>Accessibility label for the Home panel's top toolbar containing list of the home panels (top sites, bookmarsk, history, remote tabs, reading list).</note>
+        <note>Accessibility label for the Home panel's top toolbar containing list of the home panels (top sites, bookmarks, history, remote tabs, reading list).</note>
       </trans-unit>
       <trans-unit id="Password">
         <source>Password</source>
         <target>Passord</target>
         <note>Password textbox in Authentication prompt</note>
+      </trans-unit>
+      <trans-unit id="PasswordAutoFill.NoPasswordsFoundTitle">
+        <source>You don’t have any credentials synced from your Firefox Account</source>
+        <note>Error message shown in the remote tabs panel</note>
+      </trans-unit>
+      <trans-unit id="PasswordAutoFill.PasswordsListTitle">
+        <source>Available Credentials:</source>
+        <note>Header for the list of credentials table</note>
+      </trans-unit>
+      <trans-unit id="PasswordAutoFill.SectionTitle">
+        <source>Firefox Credentials</source>
+        <note>Title of the extension that shows firefox passwords</note>
       </trans-unit>
       <trans-unit id="PhotonMenu.close">
         <source>Close</source>
@@ -2150,6 +2162,10 @@
         <target>URL (Byt ut spørsmål med %s)</target>
         <note>The placeholder for URL Field when saving a custom search engine</note>
       </trans-unit>
+      <trans-unit id="Settings.ClearAllWebsiteData.Clear.Button">
+        <source>Clear All Website Data</source>
+        <note>Button in Data Management that clears private data for the selected items.</note>
+      </trans-unit>
       <trans-unit id="Settings.ClearPrivateData.Clear.Button">
         <source>Clear Private Data</source>
         <target>Slett private data</target>
@@ -2179,6 +2195,18 @@
         <source>Send websites a Do Not Track signal that you don’t want to be tracked</source>
         <target>Send nettsider eit «Ikkje spor»-signal om at du ikkje vil bli spora</target>
         <note>DNT Settings title</note>
+      </trans-unit>
+      <trans-unit id="Settings.DataManagement.SearchLabel">
+        <source>Filter Sites</source>
+        <note>Default text in search bar for Data Management</note>
+      </trans-unit>
+      <trans-unit id="Settings.DataManagement.SectionName">
+        <source>Data Management</source>
+        <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
+      </trans-unit>
+      <trans-unit id="Settings.DataManagement.Title">
+        <source>Data Management</source>
+        <note>Title displayed in header of the setting panel.</note>
       </trans-unit>
       <trans-unit id="Settings.Disconnect.Body">
         <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
@@ -2420,6 +2448,18 @@
         <target>Send bruksdata</target>
         <note>The title for the setting to send usage data.</note>
       </trans-unit>
+      <trans-unit id="Settings.Siri.OpenTabShortcut">
+        <source>Open New Tab</source>
+        <note>The description of the open new tab siri shortcut</note>
+      </trans-unit>
+      <trans-unit id="Settings.Siri.SectionDescription">
+        <source>Use Siri shortcuts to quickly open Firefox via Siri</source>
+        <note>The description that describes what siri shortcuts are</note>
+      </trans-unit>
+      <trans-unit id="Settings.Siri.SectionName">
+        <source>Siri Shortcuts</source>
+        <note>The option that takes you to the siri shortcuts settings page</note>
+      </trans-unit>
       <trans-unit id="Settings.TrackingProtection.BlockListsHeader">
         <source>You can choose which list Firefox will use to block Web elements that may track your browsing activity.</source>
         <target>Du kan velja kva for lister Firefox vil bruka for å blokkera webelement som kan spora nettlesaraktiviteten din.</target>
@@ -2479,6 +2519,30 @@
         <source>Troubleshoot</source>
         <target>Hjelp</target>
         <note>Title of link to help page to find out how to solve Sync issues</note>
+      </trans-unit>
+      <trans-unit id="Settings.WebsiteData.ButtonDelete">
+        <source>Delete</source>
+        <note>Button to delete website in search results</note>
+      </trans-unit>
+      <trans-unit id="Settings.WebsiteData.ButtonDone">
+        <source>Done</source>
+        <note>Button to exit edit website search results</note>
+      </trans-unit>
+      <trans-unit id="Settings.WebsiteData.ButtonEdit">
+        <source>Edit</source>
+        <note>Button to edit website search results</note>
+      </trans-unit>
+      <trans-unit id="Settings.WebsiteData.ButtonShowMore">
+        <source>Show More</source>
+        <note>Button shows all websites on website data tableview</note>
+      </trans-unit>
+      <trans-unit id="Settings.WebsiteData.ConfirmPrompt">
+        <source>This action will clear all of your website data. It cannot be undone.</source>
+        <note>Description of the confirmation dialog shown when a user tries to clear their private data.</note>
+      </trans-unit>
+      <trans-unit id="Settings.WebsiteData.Title">
+        <source>Website Data</source>
+        <note>Title displayed in header of the Data Management panel.</note>
       </trans-unit>
       <trans-unit id="Share Link">
         <source>Share Link</source>
@@ -3173,8 +3237,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3192,8 +3256,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3211,8 +3275,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3230,8 +3294,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3267,8 +3331,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3401,8 +3465,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3449,8 +3513,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3464,8 +3528,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3479,8 +3543,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3494,8 +3558,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3509,8 +3573,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3524,8 +3588,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3539,8 +3603,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3554,8 +3618,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>12.0</source>
-        <target>12.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
