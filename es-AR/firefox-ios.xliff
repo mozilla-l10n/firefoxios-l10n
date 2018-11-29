@@ -40,11 +40,6 @@
         <target>Agregar a marcadores</target>
         <note>Label for preview action on Tab Tray Tab to add current tab to Bookmarks</note>
       </trans-unit>
-      <trans-unit id="Add to Reading List">
-        <source>Add to Reading List</source>
-        <target>Agregar a la lista de lectura</target>
-        <note>Label for preview action on Tab Tray Tab to add current tab to Reading List</note>
-      </trans-unit>
       <trans-unit id="Close Tab">
         <source>Close Tab</source>
         <target>Cerrar pestaña</target>
@@ -207,11 +202,6 @@
         <target>Activar el código de acceso</target>
         <note>Label used as a setting item to turn on passcode</note>
       </trans-unit>
-      <trans-unit id="Turn off your passcode.">
-        <source>Turn off your passcode.</source>
-        <target>Desactivá tu código de acceso.</target>
-        <note>Touch ID prompt subtitle when turning off passcode</note>
-      </trans-unit>
       <trans-unit id="Use Face ID">
         <source>Use Face ID</source>
         <target>Usar Face ID</target>
@@ -226,11 +216,6 @@
         <source>Use your fingerprint to access Logins now.</source>
         <target>Usá tu huella digital para acceder a los inicios de sesión ahora.</target>
         <note>Touch ID prompt subtitle when accessing logins</note>
-      </trans-unit>
-      <trans-unit id="Use your fingerprint to access Private Browsing now.">
-        <source>Use your fingerprint to access Private Browsing now.</source>
-        <target>Usá tu huella digital para acceder a la Navegación privada ahora.</target>
-        <note>Touch ID prompt subtitle when accessing private browsing</note>
       </trans-unit>
       <trans-unit id="touchid.disable.reason.label">
         <source>Use your fingerprint to disable Touch ID.</source>
@@ -298,25 +283,10 @@
         <target>Cancelar</target>
         <note>The cancel button when confirming clear history.</note>
       </trans-unit>
-      <trans-unit id="Clear">
-        <source>Clear</source>
-        <target>Eliminar</target>
-        <note>The button that clears history even when Sync is connected.</note>
-      </trans-unit>
-      <trans-unit id="History will be removed from all your connected devices. This cannot be undone.">
-        <source>History will be removed from all your connected devices. This cannot be undone.</source>
-        <target>Se eliminará el historial de todos sus dispositivos conectados. Esta acción no se puede deshacer.</target>
-        <note>Description of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
-      </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
         <target>Aceptar</target>
         <note>The confirmation button that clears history even when Sync is connected.</note>
-      </trans-unit>
-      <trans-unit id="Remove history from your Firefox Account?">
-        <source>Remove history from your Firefox Account?</source>
-        <target>¿Eliminar historial de tu Cuenta de Firefox?</target>
-        <note>Title of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
       </trans-unit>
       <trans-unit id="This action will clear all of your private data, including history from your synced devices.">
         <source>This action will clear all of your private data, including history from your synced devices.</source>
@@ -339,12 +309,6 @@
         <source>Cache</source>
         <target>Caché</target>
         <note>Settings item for clearing the cache</note>
-      </trans-unit>
-      <trans-unit id="Clear Private Data">
-        <source>Clear Private Data</source>
-        <target>Eliminar los datos privados</target>
-        <note>Button in settings that clears private data for the selected items.
-   Navigation title in settings.</note>
       </trans-unit>
       <trans-unit id="Cookies">
         <source>Cookies</source>
@@ -477,8 +441,8 @@
         <target>$(MOZ_PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>15.0</source>
+        <target>15.0</target>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you take and upload photos.</source>
@@ -511,160 +475,6 @@
       <trans-unit id="ShortcutItemTitleQRCode">
         <source>Scan QR Code</source>
         <target>Escanear código QR</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="es-AR">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="Browse multiple Web pages at the same time with tabs.">
-        <source>Browse multiple Web pages at the same time with tabs.</source>
-        <target>Navegá por múltiples páginas web al mismo tiempo con las pestañas.</target>
-        <note>See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
-      <trans-unit id="Connect Firefox everywhere you use it.">
-        <source>Connect Firefox everywhere you use it.</source>
-        <target>Conectá Firefox donde sea que lo uses.</target>
-        <note>See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Mail.Description">
-        <source>Use any email app — not just Mail — with Firefox.</source>
-        <target>Usar cualquier aplicación de correo con Firefox, no solo la app Mail.</target>
-        <note>Description for the 'Mail' panel in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Mail.Title">
-        <source>You’ve got mail… options</source>
-        <target>Tenés nuevas opciones… de correo</target>
-        <note>Title for the fourth panel 'Mail' in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Private.Description">
-        <source>Tap the mask icon to slip into Private Browsing mode.</source>
-        <target>Pulsá el ícono de la máscara para cambiar al modo de Navegación privada.</target>
-        <note>Description for the 'Private Browsing' panel in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Private.Title">
-        <source>Browse like no one’s watching</source>
-        <target>Navegar como si nadie estuviera mirando</target>
-        <note>Title for the third panel 'Private Browsing' in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Search.Description">
-        <source>Searching for something different? Choose another default search engine (or add your own) in Settings.</source>
-        <target>¿Buscás algo diferente? Elegí otro buscador predeterminado (o agregá el tuyo) en Ajustes.</target>
-        <note>Description for the 'Favorite Search Engine' panel in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Search.Title">
-        <source>Your search, your way</source>
-        <target>Tu búsqueda, a tu manera</target>
-        <note>Title for the second  panel 'Search' in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Sync.Description">
-        <source>Use Sync to find the bookmarks, passwords, and other things you save to Firefox on all your devices.</source>
-        <target>Usá Sync para encontrar los marcadores, contraseñas y otras cosas que guardás en Firefox en todos tus dispositivos.</target>
-        <note>Description for the 'Sync' panel in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Sync.Title">
-        <source>Pick up where you left off</source>
-        <target>Continuá desde donde dejaste</target>
-        <note>Title for the fifth panel 'Sync' in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Welcome.Description">
-        <source>A modern mobile browser from Mozilla, the non-profit committed to a free and open web.</source>
-        <target>Un navegador móvil moderno de Mozilla, la fundación sin fines de lucro comprometida con la web libre y abierta.</target>
-        <note>Description for the 'Welcome' panel in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Welcome.Title">
-        <source>Thanks for choosing Firefox!</source>
-        <target>¡Gracias por elegir Firefox!</target>
-        <note>Title for the first panel 'Welcome' in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Personalize your Firefox just the way you like in Settings.">
-        <source>Personalize your Firefox just the way you like in Settings.</source>
-        <target>Personalizá Firefox a tu gusto en Ajustes.</target>
-        <note>See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
-      <trans-unit id="Sign in to Firefox">
-        <source>Sign in to Firefox</source>
-        <target>Ingresar a Firefox</target>
-        <note>See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
-      <trans-unit id="Start Browsing">
-        <source>Start Browsing</source>
-        <target>Empezar a navegar</target>
-        <note>See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Client/LightweightThemes.strings" source-language="en" datatype="plaintext" target-language="es-AR">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="Allow Firefox to use my Photos">
-        <source>Allow Firefox to use my Photos</source>
-        <target>Permitir que Firefox use mis fotos</target>
-        <note>Pending feature; currently unused string! Button shown when user wishes to view photos for theme but has not given Firefox permission to do so yet.</note>
-      </trans-unit>
-      <trans-unit id="Back to Themes">
-        <source>Back to Themes</source>
-        <target>Volver a temas</target>
-        <note>Pending feature; currently unused string! Accessibility label for back button to theme chooser</note>
-      </trans-unit>
-      <trans-unit id="Choose">
-        <source>Choose</source>
-        <target>Seleccionar</target>
-        <note>Pending feature; currently unused string! Back button shown to return back to theme settings from photo picker</note>
-      </trans-unit>
-      <trans-unit id="Choose Theme">
-        <source>Choose Theme</source>
-        <target>Seleccionar tema</target>
-        <note>Pending feature; currently unused string! Accessibility label for settings row to enter theme settings</note>
-      </trans-unit>
-      <trans-unit id="Default Themes">
-        <source>Default Themes</source>
-        <target>Temas predeterminados</target>
-        <note>Pending feature; currently unused string! Accessibility label for themes subheader</note>
-      </trans-unit>
-      <trans-unit id="My Photos">
-        <source>My Photos</source>
-        <target>Mis fotos</target>
-        <note>Pending feature; currently unused string! Accessibility label for photo viewer</note>
-      </trans-unit>
-      <trans-unit id="Photos">
-        <source>Photos</source>
-        <target>Fotos</target>
-        <note>Pending feature; currently unused string! Sub header for photo options in theme chooser</note>
-      </trans-unit>
-      <trans-unit id="Preview">
-        <source>Preview</source>
-        <target>Vista previa</target>
-        <note>Pending feature; currently unused string! Button to show preview of selected theme</note>
-      </trans-unit>
-      <trans-unit id="Preview Theme">
-        <source>Preview Theme</source>
-        <target>Vista previa del tema</target>
-        <note>Pending feature; currently unused string! Accessibility label for theme preview button</note>
-      </trans-unit>
-      <trans-unit id="Set">
-        <source>Set</source>
-        <target>Establecer</target>
-        <note>Pending feature; currently unused string! Button to set selected theme as current theme</note>
-      </trans-unit>
-      <trans-unit id="Set Theme">
-        <source>Set Theme</source>
-        <target>Establecer tema</target>
-        <note>Pending feature; currently unused string! Accessibility label for set theme button</note>
-      </trans-unit>
-      <trans-unit id="Theme">
-        <source>Theme</source>
-        <target>Tema</target>
-        <note>Pending feature; currently unused string! Settings row to enter theme settings</note>
-      </trans-unit>
-      <trans-unit id="Themes">
-        <source>Themes</source>
-        <target>Temas</target>
-        <note>Pending feature; currently unused string! sub header for theme options in theme chooser</note>
       </trans-unit>
     </body>
   </file>
@@ -749,14 +559,21 @@
         <note>The link that shows more Pocket trending stories</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Pocket.SectionTitle">
-        <source>Recommended by Pocket</source>
-        <target>Recomendado por Pocket</target>
+        <source>Trending on Pocket</source>
         <note>Section title label for Recommended by Pocket section</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Pocket.Trending">
         <source>Trending</source>
         <target>Tendencias</target>
         <note>The description of a Pocket Story</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.TopSites.RowCount">
+        <source>%d rows</source>
+        <note>label showing how many rows of topsites are shown. %d represents a number</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.TopSites.RowSettingFooter">
+        <source>Set Rows</source>
+        <note>The title for the setting page which lets you select the number of top site rows</note>
       </trans-unit>
       <trans-unit id="ActivityStream.TopSites.SectionTitle">
         <source>Top Sites</source>
@@ -884,11 +701,6 @@
         <target>Cambia el tipo de fuente.</target>
         <note>Accessibility hint for the font type buttons in reader mode display settings</note>
       </trans-unit>
-      <trans-unit id="Clear Private Data">
-        <source>Clear Private Data</source>
-        <target>Borrar datos privados</target>
-        <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
-      </trans-unit>
       <trans-unit id="ClipboardToast.GoToCopiedLink.Button">
         <source>Go</source>
         <target>Ir</target>
@@ -996,35 +808,10 @@
    Title for default search engine picker.
    Title for default search engine settings section.</note>
       </trans-unit>
-      <trans-unit id="Disable additional page dialogs">
-        <source>Disable additional page dialogs</source>
-        <target>Evitar que esta página cree diálogos adicionales</target>
-        <note>Pending feature; currently unused string! Checkbox label shown after multiple alerts are shown</note>
-      </trans-unit>
       <trans-unit id="Display Settings">
         <source>Display Settings</source>
         <target>Configuración de pantalla</target>
         <note>Name for display settings button in reader mode. Display in the meaning of presentation, not monitor.</note>
-      </trans-unit>
-      <trans-unit id="Do you want to save the password for %@ on %@?">
-        <source>Do you want to save the password for %1$@ on %2$@?</source>
-        <target>¿Querés guardar la contraseña para %1$@ en %2$@?</target>
-        <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
-      </trans-unit>
-      <trans-unit id="Do you want to save the password on %@?">
-        <source>Do you want to save the password on %@?</source>
-        <target>¿Querés guardar la contraseña en %@?</target>
-        <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
-      </trans-unit>
-      <trans-unit id="Do you want to update the password for %@ on %@?">
-        <source>Do you want to update the password for %1$@ on %2$@?</source>
-        <target>¿Querés actualizar la contraseña de %1$@ en %2$@?</target>
-        <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
-      </trans-unit>
-      <trans-unit id="Do you want to update the password on %@?">
-        <source>Do you want to update the password on %@?</source>
-        <target>¿Querés actualizar la contraseña en %@?</target>
-        <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="Done">
         <source>Done</source>
@@ -1285,16 +1072,6 @@
         <source>Get your open tabs, bookmarks, and passwords from your other devices.</source>
         <target>Obtené tus pestañas abiertas, marcadores y contraseñas de tus otros dispositivos.</target>
         <note>A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing.</note>
-      </trans-unit>
-      <trans-unit id="Go">
-        <source>Go</source>
-        <target>Ir</target>
-        <note>Pending feature; currently unused string! Button to browse to URL on the clipboard when browser is opened</note>
-      </trans-unit>
-      <trans-unit id="Go to copied URL?">
-        <source>Go to copied URL?</source>
-        <target>¿Ir al enlace copiado?</target>
-        <note>Pending feature; currently unused string! Prompt message shown when browser is opened with URL on the clipboard</note>
       </trans-unit>
       <trans-unit id="Help">
         <source>Help</source>
@@ -1764,11 +1541,6 @@
         <target>No hay pestañas</target>
         <note>Message spoken by VoiceOver to indicate that there are no tabs in the Tabs Tray</note>
       </trans-unit>
-      <trans-unit id="Not now">
-        <source>Not now</source>
-        <target>No ahora</target>
-        <note>Button to not save the user's password</note>
-      </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
         <target>Aceptar</target>
@@ -1813,11 +1585,6 @@
         <source>Cannot Open Page</source>
         <target>No se pudo abrir la página</target>
         <note>Title of the message shown when the user attempts to navigate to an invalid link.</note>
-      </trans-unit>
-      <trans-unit id="Opening %@">
-        <source>Opening %@</source>
-        <target>Abriendo %@</target>
-        <note>Opening an external URL</note>
       </trans-unit>
       <trans-unit id="Page Options Menu">
         <source>Page Options Menu</source>
@@ -2053,7 +1820,12 @@
       <trans-unit id="SendTo.Cancel.Button">
         <source>Cancel</source>
         <target>Cancelar</target>
-        <note>Button title for cancelling share screen</note>
+        <note>Button title for cancelling share screen
+   Close button in top navigation bar</note>
+      </trans-unit>
+      <trans-unit id="SendTo.DeviceList.Text">
+        <source>Available devices:</source>
+        <note>Header for the list of devices table</note>
       </trans-unit>
       <trans-unit id="SendTo.Error.Message">
         <source>Only HTTP and HTTPS links can be shared.</source>
@@ -2069,6 +1841,26 @@
         <source>The link you are trying to share cannot be shared.</source>
         <target>El enlace que estás tratando de compartir no puede ser compartido.</target>
         <note>Title of error prompt displayed when an invalid URL is shared.</note>
+      </trans-unit>
+      <trans-unit id="SendTo.NavBar.Title">
+        <source>Send Tab</source>
+        <note>Title of the dialog that allows you to send a tab to a different device</note>
+      </trans-unit>
+      <trans-unit id="SendTo.NoDevicesFound.Message">
+        <source>You don’t have any other devices connected to this Firefox Account available to sync.</source>
+        <note>Error message shown in the remote tabs panel</note>
+      </trans-unit>
+      <trans-unit id="SendTo.NotSignedIn.Message">
+        <source>Please open Firefox, go to Settings and sign in to continue.</source>
+        <note>See http://mzl.la/1ISlXnU</note>
+      </trans-unit>
+      <trans-unit id="SendTo.NotSignedIn.Title">
+        <source>You are not signed in to your Firefox Account.</source>
+        <note>See http://mzl.la/1ISlXnU</note>
+      </trans-unit>
+      <trans-unit id="SendTo.SendAction.Text">
+        <source>Send</source>
+        <note>Navigation bar button to Send the current page to a device</note>
       </trans-unit>
       <trans-unit id="SentTab.AddToReadingListAction.Title">
         <source>Add to Reading List</source>
@@ -2335,6 +2127,10 @@
         <target>Usar predeterminado</target>
         <note>Button in settings to use the default home page. If no default is set, then this button isn't shown.</note>
       </trans-unit>
+      <trans-unit id="Settings.NewTab.CustomURL">
+        <source>Custom URL</source>
+        <note>Label used to set a custom url as the new tab option (homepage).</note>
+      </trans-unit>
       <trans-unit id="Settings.NewTab.Description">
         <source>When you open a New Tab:</source>
         <target>Al abrir una nueva pestaña:</target>
@@ -2354,6 +2150,18 @@
         <source>Bookmarks</source>
         <target>Marcadores</target>
         <note>Option in settings to show bookmarks when you open a new tab</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.CustomizeFooter">
+        <source>The sites you visit most</source>
+        <note>The footer for the section to customize top sites in the new tab settings page.</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.CustomizeTitle">
+        <source>Customize Firefox Home</source>
+        <note>The title for the section to customize top sites in the new tab settings page.</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.FirefoxHome">
+        <source>Firefox Home</source>
+        <note>Option in settings to show Firefox Home when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HighlightsBookmarks">
         <source>Recent Bookmarks</source>
@@ -2376,19 +2184,17 @@
         <note>Option in settings to show your homepage when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.Pocket">
-        <source>Recommended by Pocket</source>
-        <target>Recomendado por Pocket</target>
+        <source>Trending on Pocket</source>
         <note>Option in settings to turn on off pocket recommendations</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.PocketFooter">
+        <source>Great content from around the web.</source>
+        <note>Footer caption for pocket settings</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.ReadingList">
         <source>Show your Reading List</source>
         <target>Mostrar lista de lectura</target>
         <note>Option in settings to show reading list when you open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.TopSites">
-        <source>Top Sites</source>
-        <target>Más visitados</target>
-        <note>Option in settings to show top sites when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.SectionName">
         <source>New Tab</source>
@@ -2525,6 +2331,26 @@
         <target>Modo de Navegación privada</target>
         <note>Settings option to specify that Tracking Protection is on only in Private Browsing mode.</note>
       </trans-unit>
+      <trans-unit id="Settings.TranslateSnackBar.SectionFooter">
+        <source>The web page language is detected on the device, and a translation from a remote service is offered.</source>
+        <note>Translation settings footer describing how language detection and translation happens.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TranslateSnackBar.SectionHeader">
+        <source>Services</source>
+        <note>Translation settings section title</note>
+      </trans-unit>
+      <trans-unit id="Settings.TranslateSnackBar.SwitchSubtitle">
+        <source>Offer to translate any site written in a language that is different from your default language.</source>
+        <note>Switch to choose if the language of a page is detected and offer to translate.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TranslateSnackBar.SwitchTitle">
+        <source>Offer Translation</source>
+        <note>Switch to choose if the language of a page is detected and offer to translate.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TranslateSnackBar.Title">
+        <source>Translation</source>
+        <note>Title in main app settings for Translation toast settings</note>
+      </trans-unit>
       <trans-unit id="Settings.TroubleShootSync.Title">
         <source>Troubleshoot</source>
         <target>Solución de problemas</target>
@@ -2626,16 +2452,6 @@
         <target>Mostrar visita</target>
         <note>Show the on-boarding screen again from the settings</note>
       </trans-unit>
-      <trans-unit id="Show search suggestions">
-        <source>Show search suggestions</source>
-        <target>Mostrar sugerencias de búsqueda</target>
-        <note>Label for show search suggestions setting.</note>
-      </trans-unit>
-      <trans-unit id="Sign in">
-        <source>Sign in</source>
-        <target>Ingresar</target>
-        <note>Text message / button in the settings table view</note>
-      </trans-unit>
       <trans-unit id="Stop">
         <source>Stop</source>
         <target>Detener</target>
@@ -2660,11 +2476,6 @@
         <source>Private Browsing Mode</source>
         <target>Modo de navegación privada</target>
         <note>Hardware shortcut switch to the private browsing tab or tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
-      </trans-unit>
-      <trans-unit id="Sync Now">
-        <source>Sync Now</source>
-        <target>Sincronizar ahora</target>
-        <note>Sync Firefox Account</note>
       </trans-unit>
       <trans-unit id="Sync your tabs, bookmarks, passwords and more.">
         <source>Sync your tabs, bookmarks, passwords and more.</source>
@@ -2811,11 +2622,6 @@
         <target>Esto te permite guardar la imagen a la galería.</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
-      <trans-unit id="This will open in another application">
-        <source>This will open in another application</source>
-        <target>Esto se abrirá en otra aplicación</target>
-        <note>Opening an external app</note>
-      </trans-unit>
       <trans-unit id="Toasts.NotNow">
         <source>Not Now</source>
         <target>No ahora</target>
@@ -2841,11 +2647,6 @@
         <target>Cerrar todas las pestañas</target>
         <note>Accessibility label for the Close All Tabs menu button.</note>
       </trans-unit>
-      <trans-unit id="Top sites">
-        <source>Top sites</source>
-        <target>Más visitados</target>
-        <note>Panel accessibility label</note>
-      </trans-unit>
       <trans-unit id="TopSites.EmptyState.Description">
         <source>Your most visited sites will show up here.</source>
         <target>Aquí se mostrarán los sitios más visitados.</target>
@@ -2861,6 +2662,18 @@
         <target>Eliminar página - %@</target>
         <note>Button shown in editing mode to remove this site from the top sites panel.</note>
       </trans-unit>
+      <trans-unit id="TranslationToastHandler.PromptTranslate.Cancel">
+        <source>No</source>
+        <note>Button to disallow the page to be translated to the user locale language</note>
+      </trans-unit>
+      <trans-unit id="TranslationToastHandler.PromptTranslate.OK">
+        <source>Yes</source>
+        <note>Button to allow the page to be translated to the user locale language</note>
+      </trans-unit>
+      <trans-unit id="TranslationToastHandler.PromptTranslate.Title">
+        <source>This page appears to be in %1$@. Translate to %2$@ with %3$@?</source>
+        <note>Prompt for translation. The first parameter is the language the page is in. The second parameter is the name of our local language. The third is the name of the service.</note>
+      </trans-unit>
       <trans-unit id="Twitter">
         <source>Twitter</source>
         <target>Twitter</target>
@@ -2875,11 +2688,6 @@
         <source>Search with Firefox</source>
         <target>Buscar con Firefox</target>
         <note>Search in New Tab Text selection menu item</note>
-      </trans-unit>
-      <trans-unit id="Update">
-        <source>Update</source>
-        <target>Actualizar</target>
-        <note>Button to update the user's password</note>
       </trans-unit>
       <trans-unit id="Upgrade Firefox to connect">
         <source>Upgrade Firefox to connect</source>
@@ -2920,11 +2728,6 @@
         <source>Wikipedia</source>
         <target>Wikipedia</target>
         <note>Tile title for Wikipedia</note>
-      </trans-unit>
-      <trans-unit id="Yes">
-        <source>Yes</source>
-        <target>Si</target>
-        <note>Button to save the user's password</note>
       </trans-unit>
       <trans-unit id="Yesterday">
         <source>Yesterday</source>
@@ -3201,48 +3004,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/SendTo.strings" source-language="en" datatype="plaintext" target-language="es-AR">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="Available devices:">
-        <source>Available devices:</source>
-        <target>Dispositivos disponibles:</target>
-        <note>Header for the list of devices table</note>
-      </trans-unit>
-      <trans-unit id="Close">
-        <source>Close</source>
-        <target>Cerrar</target>
-        <note>Close button in top navigation bar</note>
-      </trans-unit>
-      <trans-unit id="Please open Firefox, go to Settings and sign in to continue.">
-        <source>Please open Firefox, go to Settings and sign in to continue.</source>
-        <target>Por favor abrí Firefox, andá a Configuraciones e iniciá la sesión para continuar.</target>
-        <note>See http://mzl.la/1ISlXnU</note>
-      </trans-unit>
-      <trans-unit id="Send">
-        <source>Send</source>
-        <target>Enviar</target>
-        <note>Navigation bar button to Send the current page to a device</note>
-      </trans-unit>
-      <trans-unit id="Send Tab">
-        <source>Send Tab</source>
-        <target>Enviar pestaña</target>
-        <note>Title of the dialog that allows you to send a tab to a different device</note>
-      </trans-unit>
-      <trans-unit id="You are not signed in to your Firefox Account.">
-        <source>You are not signed in to your Firefox Account.</source>
-        <target>No ingresaste en tu Cuenta Firefox.</target>
-        <note>See http://mzl.la/1ISlXnU</note>
-      </trans-unit>
-      <trans-unit id="You don’t have any other devices connected to this Firefox Account available to sync.">
-        <source>You don’t have any other devices connected to this Firefox Account available to sync.</source>
-        <target>No tenés ningún otro dispositivo conectado a esta cuenta de Firefox disponible para sincronizar.</target>
-        <note>Error message shown in the remote tabs panel</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="es-AR">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
@@ -3253,8 +3014,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>15.0</source>
+        <target>15.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3272,8 +3033,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>15.0</source>
+        <target>15.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3291,8 +3052,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>15.0</source>
+        <target>15.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3310,8 +3071,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>15.0</source>
+        <target>15.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3347,8 +3108,63 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>15.0</source>
+        <target>15.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/Intro.strings" source-language="en" datatype="plaintext" target-language="es-AR">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Intro.Slides.Mail.Description">
+        <source>Use any email app — not just Mail — with Firefox.</source>
+        <note>Description for the 'Mail' panel in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Mail.Title">
+        <source>You’ve got mail… options</source>
+        <note>Title for the fourth panel 'Mail' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Private.Description">
+        <source>Tap the mask icon to slip into Private Browsing mode.</source>
+        <note>Description for the 'Private Browsing' panel in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Private.Title">
+        <source>Browse like no one’s watching</source>
+        <note>Title for the third panel 'Private Browsing' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Search.Description">
+        <source>Searching for something different? Choose another default search engine (or add your own) in Settings.</source>
+        <note>Description for the 'Favorite Search Engine' panel in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Search.Title">
+        <source>Your search, your way</source>
+        <note>Title for the second  panel 'Search' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Sync.Description">
+        <source>Use Sync to find the bookmarks, passwords, and other things you save to Firefox on all your devices.</source>
+        <note>Description for the 'Sync' panel in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Sync.Title">
+        <source>Pick up where you left off</source>
+        <note>Title for the fifth panel 'Sync' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Welcome.Description">
+        <source>A modern mobile browser from Mozilla, the non-profit committed to a free and open web.</source>
+        <note>Description for the 'Welcome' panel in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Welcome.Title">
+        <source>Thanks for choosing Firefox!</source>
+        <note>Title for the first panel 'Welcome' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Sign in to Firefox">
+        <source>Sign in to Firefox</source>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Start Browsing">
+        <source>Start Browsing</source>
+        <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
     </body>
   </file>
@@ -3382,6 +3198,10 @@
         <target>Buscar en la página</target>
         <note>Label for the button, displayed in the menu, used to open the toolbar to search for text within the current page.</note>
       </trans-unit>
+      <trans-unit id="Menu.Library.Title">
+        <source>Library</source>
+        <note>Label for the button, displayed in the menu, used to open the Library</note>
+      </trans-unit>
       <trans-unit id="Menu.NewPrivateTabAction.Title">
         <source>Open New Private Tab</source>
         <target>Nueva pestaña privada</target>
@@ -3408,8 +3228,7 @@
         <note>Accessibility label for the button, displayed in the menu, used to open the History home panel.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenHomePageAction.Title">
-        <source>Open Homepage</source>
-        <target>Inicio</target>
+        <source>Home</source>
         <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel">
@@ -3481,8 +3300,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>15.0</source>
+        <target>15.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3529,8 +3348,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>15.0</source>
+        <target>15.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3544,8 +3363,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>15.0</source>
+        <target>15.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3559,8 +3378,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>15.0</source>
+        <target>15.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3574,8 +3393,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>15.0</source>
+        <target>15.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3589,8 +3408,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>15.0</source>
+        <target>15.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3604,8 +3423,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>15.0</source>
+        <target>15.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3619,8 +3438,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>15.0</source>
+        <target>15.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3634,8 +3453,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>15.0</source>
+        <target>15.0</target>
       </trans-unit>
     </body>
   </file>
