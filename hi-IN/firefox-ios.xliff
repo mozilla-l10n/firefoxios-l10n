@@ -40,11 +40,6 @@
         <target>बुकमार्कों में जोड़ें</target>
         <note>Label for preview action on Tab Tray Tab to add current tab to Bookmarks</note>
       </trans-unit>
-      <trans-unit id="Add to Reading List">
-        <source>Add to Reading List</source>
-        <target>पठन सूची में जोड़ें</target>
-        <note>Label for preview action on Tab Tray Tab to add current tab to Reading List</note>
-      </trans-unit>
       <trans-unit id="Close Tab">
         <source>Close Tab</source>
         <target>टैब बंद करें</target>
@@ -207,11 +202,6 @@
         <target>पासकोड सक्षम करें</target>
         <note>Label used as a setting item to turn on passcode</note>
       </trans-unit>
-      <trans-unit id="Turn off your passcode.">
-        <source>Turn off your passcode.</source>
-        <target>अपना पासकोड अक्षम करें.</target>
-        <note>Touch ID prompt subtitle when turning off passcode</note>
-      </trans-unit>
       <trans-unit id="Use Face ID">
         <source>Use Face ID</source>
         <target>फेस आईडी अपनायें</target>
@@ -226,11 +216,6 @@
         <source>Use your fingerprint to access Logins now.</source>
         <target>अब लॉगिन ऐक्सेस के लिए अपने ऊँगलीचिह्न का उपयोग करें.</target>
         <note>Touch ID prompt subtitle when accessing logins</note>
-      </trans-unit>
-      <trans-unit id="Use your fingerprint to access Private Browsing now.">
-        <source>Use your fingerprint to access Private Browsing now.</source>
-        <target>निजी ब्राउज़िंग करने के लिये अपने ऊँगलीचिह्न का प्रयोग करें.</target>
-        <note>Touch ID prompt subtitle when accessing private browsing</note>
       </trans-unit>
       <trans-unit id="touchid.disable.reason.label">
         <source>Use your fingerprint to disable Touch ID.</source>
@@ -298,25 +283,10 @@
         <target>रद्द करें</target>
         <note>The cancel button when confirming clear history.</note>
       </trans-unit>
-      <trans-unit id="Clear">
-        <source>Clear</source>
-        <target>साफ़ करें</target>
-        <note>The button that clears history even when Sync is connected.</note>
-      </trans-unit>
-      <trans-unit id="History will be removed from all your connected devices. This cannot be undone.">
-        <source>History will be removed from all your connected devices. This cannot be undone.</source>
-        <target>आपके सभी जुड़े उपकरणों से इतिहास मिटा दिया जायेगा. इसे पहले जैसा नहीं किया जा सकता है.</target>
-        <note>Description of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
-      </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
         <target>ठीक</target>
         <note>The confirmation button that clears history even when Sync is connected.</note>
-      </trans-unit>
-      <trans-unit id="Remove history from your Firefox Account?">
-        <source>Remove history from your Firefox Account?</source>
-        <target>अपने Firefox खाते से इतिहास मिटायें?</target>
-        <note>Title of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
       </trans-unit>
       <trans-unit id="This action will clear all of your private data, including history from your synced devices.">
         <source>This action will clear all of your private data, including history from your synced devices.</source>
@@ -339,12 +309,6 @@
         <source>Cache</source>
         <target>कैश</target>
         <note>Settings item for clearing the cache</note>
-      </trans-unit>
-      <trans-unit id="Clear Private Data">
-        <source>Clear Private Data</source>
-        <target>निजी डेटा साफ करें</target>
-        <note>Button in settings that clears private data for the selected items.
-   Navigation title in settings.</note>
       </trans-unit>
       <trans-unit id="Cookies">
         <source>Cookies</source>
@@ -514,160 +478,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="hi-IN">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="Browse multiple Web pages at the same time with tabs.">
-        <source>Browse multiple Web pages at the same time with tabs.</source>
-        <target>टैब्स के साथ एक ही समय में कई वेब पृष्ठों को ब्राउज़ करें.</target>
-        <note>See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
-      <trans-unit id="Connect Firefox everywhere you use it.">
-        <source>Connect Firefox everywhere you use it.</source>
-        <target>सभी जगह Firefox जोड़ें जहाँ आप इसका उपयोग करते हैं.</target>
-        <note>See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Mail.Description">
-        <source>Use any email app — not just Mail — with Firefox.</source>
-        <target>किसी भी ईमेल ऐप का उपयोग करें — सिर्फ मेल नहीं — Firefox के साथ.</target>
-        <note>Description for the 'Mail' panel in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Mail.Title">
-        <source>You’ve got mail… options</source>
-        <target>आपको मिले हैं मेल… विकल्प</target>
-        <note>Title for the fourth panel 'Mail' in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Private.Description">
-        <source>Tap the mask icon to slip into Private Browsing mode.</source>
-        <target>निजी ब्राउज़िंग मोड में जाने के लिए मास्क चिह्न को टैप करें.</target>
-        <note>Description for the 'Private Browsing' panel in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Private.Title">
-        <source>Browse like no one’s watching</source>
-        <target>ऐसे ब्राउज़ करें जैसे कोई नहीं देख रहा है</target>
-        <note>Title for the third panel 'Private Browsing' in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Search.Description">
-        <source>Searching for something different? Choose another default search engine (or add your own) in Settings.</source>
-        <target>कुछ अलग खोंज रहे हैं? सेटिंग्स में दूसरा डिफ़ॉल्ट खोज इंजन(या अपना खुद जोड़े) चुने.</target>
-        <note>Description for the 'Favorite Search Engine' panel in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Search.Title">
-        <source>Your search, your way</source>
-        <target>आपकी खोज, आपका तरीका</target>
-        <note>Title for the second  panel 'Search' in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Sync.Description">
-        <source>Use Sync to find the bookmarks, passwords, and other things you save to Firefox on all your devices.</source>
-        <target>आपके सभी डिवाइसों पर बुकमार्क, पासवर्ड और अन्य चीज़ों को Firefox में सहेजने के लिए सिंक का उपयोग करें.</target>
-        <note>Description for the 'Sync' panel in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Sync.Title">
-        <source>Pick up where you left off</source>
-        <target>जहाँ आपने छोड़ा था वहाँ से चुने</target>
-        <note>Title for the fifth panel 'Sync' in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Welcome.Description">
-        <source>A modern mobile browser from Mozilla, the non-profit committed to a free and open web.</source>
-        <target>Mozilla द्वारा एक आधुनिक मोबाइल ब्राउज़र, गैर-लाभकारी एक स्वतंत्र और उन्मुक्त वेब के लिए प्रतिबद्ध.</target>
-        <note>Description for the 'Welcome' panel in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Welcome.Title">
-        <source>Thanks for choosing Firefox!</source>
-        <target>Firefox चुनने के लिए धन्यवाद!</target>
-        <note>Title for the first panel 'Welcome' in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Personalize your Firefox just the way you like in Settings.">
-        <source>Personalize your Firefox just the way you like in Settings.</source>
-        <target>अपनी पसंद के अनुसार सेटिंग में अपने Firefox को निजीकृत करें.</target>
-        <note>See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
-      <trans-unit id="Sign in to Firefox">
-        <source>Sign in to Firefox</source>
-        <target>Firefox पे साइन इन करें</target>
-        <note>See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
-      <trans-unit id="Start Browsing">
-        <source>Start Browsing</source>
-        <target>ब्राउजिंग शुरू करें</target>
-        <note>See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Client/LightweightThemes.strings" source-language="en" datatype="plaintext" target-language="hi-IN">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="Allow Firefox to use my Photos">
-        <source>Allow Firefox to use my Photos</source>
-        <target>Firefox को मेरे फ़ोटो का उपयोग करने की अनुमति दें</target>
-        <note>Pending feature; currently unused string! Button shown when user wishes to view photos for theme but has not given Firefox permission to do so yet.</note>
-      </trans-unit>
-      <trans-unit id="Back to Themes">
-        <source>Back to Themes</source>
-        <target>प्रसंग में जाये</target>
-        <note>Pending feature; currently unused string! Accessibility label for back button to theme chooser</note>
-      </trans-unit>
-      <trans-unit id="Choose">
-        <source>Choose</source>
-        <target>चुनें</target>
-        <note>Pending feature; currently unused string! Back button shown to return back to theme settings from photo picker</note>
-      </trans-unit>
-      <trans-unit id="Choose Theme">
-        <source>Choose Theme</source>
-        <target>प्रसंग चुनें</target>
-        <note>Pending feature; currently unused string! Accessibility label for settings row to enter theme settings</note>
-      </trans-unit>
-      <trans-unit id="Default Themes">
-        <source>Default Themes</source>
-        <target>डिफाल्ट प्रसंग</target>
-        <note>Pending feature; currently unused string! Accessibility label for themes subheader</note>
-      </trans-unit>
-      <trans-unit id="My Photos">
-        <source>My Photos</source>
-        <target>मेरा फोटो</target>
-        <note>Pending feature; currently unused string! Accessibility label for photo viewer</note>
-      </trans-unit>
-      <trans-unit id="Photos">
-        <source>Photos</source>
-        <target>तस्वीरें</target>
-        <note>Pending feature; currently unused string! Sub header for photo options in theme chooser</note>
-      </trans-unit>
-      <trans-unit id="Preview">
-        <source>Preview</source>
-        <target>पूर्वावलोकन</target>
-        <note>Pending feature; currently unused string! Button to show preview of selected theme</note>
-      </trans-unit>
-      <trans-unit id="Preview Theme">
-        <source>Preview Theme</source>
-        <target>प्रसंग पूर्वावलोकन</target>
-        <note>Pending feature; currently unused string! Accessibility label for theme preview button</note>
-      </trans-unit>
-      <trans-unit id="Set">
-        <source>Set</source>
-        <target>सेटव्यवस्थित करना</target>
-        <note>Pending feature; currently unused string! Button to set selected theme as current theme</note>
-      </trans-unit>
-      <trans-unit id="Set Theme">
-        <source>Set Theme</source>
-        <target>थीम व्यवस्थित करें</target>
-        <note>Pending feature; currently unused string! Accessibility label for set theme button</note>
-      </trans-unit>
-      <trans-unit id="Theme">
-        <source>Theme</source>
-        <target>प्रसंग</target>
-        <note>Pending feature; currently unused string! Settings row to enter theme settings</note>
-      </trans-unit>
-      <trans-unit id="Themes">
-        <source>Themes</source>
-        <target>प्रसंग</target>
-        <note>Pending feature; currently unused string! sub header for theme options in theme chooser</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="hi-IN">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
@@ -749,14 +559,21 @@
         <note>The link that shows more Pocket trending stories</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Pocket.SectionTitle">
-        <source>Recommended by Pocket</source>
-        <target>पॉकेट द्वारा अनुशंसित</target>
+        <source>Trending on Pocket</source>
         <note>Section title label for Recommended by Pocket section</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Pocket.Trending">
         <source>Trending</source>
         <target>लोकप्रिय</target>
         <note>The description of a Pocket Story</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.TopSites.RowCount">
+        <source>%d rows</source>
+        <note>label showing how many rows of topsites are shown. %d represents a number</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.TopSites.RowSettingFooter">
+        <source>Set Rows</source>
+        <note>The title for the setting page which lets you select the number of top site rows</note>
       </trans-unit>
       <trans-unit id="ActivityStream.TopSites.SectionTitle">
         <source>Top Sites</source>
@@ -884,11 +701,6 @@
         <target>फ़ॉन्ट प्रकार बदले.</target>
         <note>Accessibility hint for the font type buttons in reader mode display settings</note>
       </trans-unit>
-      <trans-unit id="Clear Private Data">
-        <source>Clear Private Data</source>
-        <target>निजी आँकड़ा साफ करें</target>
-        <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
-      </trans-unit>
       <trans-unit id="ClipboardToast.GoToCopiedLink.Button">
         <source>Go</source>
         <target>जाएँ</target>
@@ -996,35 +808,10 @@
    Title for default search engine picker.
    Title for default search engine settings section.</note>
       </trans-unit>
-      <trans-unit id="Disable additional page dialogs">
-        <source>Disable additional page dialogs</source>
-        <target>अतिरिक्त पृष्ठ संवाद अक्षम करें</target>
-        <note>Pending feature; currently unused string! Checkbox label shown after multiple alerts are shown</note>
-      </trans-unit>
       <trans-unit id="Display Settings">
         <source>Display Settings</source>
         <target>सेटिंग प्रदर्शित करें</target>
         <note>Name for display settings button in reader mode. Display in the meaning of presentation, not monitor.</note>
-      </trans-unit>
-      <trans-unit id="Do you want to save the password for %@ on %@?">
-        <source>Do you want to save the password for %1$@ on %2$@?</source>
-        <target>क्या आप %2$@ पर %1$@ के लिए कूटशब्द सहेजना चाहते हैं?</target>
-        <note>Prompt for saving a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
-      </trans-unit>
-      <trans-unit id="Do you want to save the password on %@?">
-        <source>Do you want to save the password on %@?</source>
-        <target>क्या आप %@ पर कूटशब्द सहेजना चाहते हैं?</target>
-        <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
-      </trans-unit>
-      <trans-unit id="Do you want to update the password for %@ on %@?">
-        <source>Do you want to update the password for %1$@ on %2$@?</source>
-        <target>क्या आप %2$@ पर %1$@ के लिए कूटशब्द अद्यतन करना चाहते हैं?</target>
-        <note>Prompt for updating a password. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
-      </trans-unit>
-      <trans-unit id="Do you want to update the password on %@?">
-        <source>Do you want to update the password on %@?</source>
-        <target>क्या आप %@ पर कूटशब्द अद्यतन करना चाहते हैं?</target>
-        <note>Prompt for updating a password with on username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="Done">
         <source>Done</source>
@@ -1285,16 +1072,6 @@
         <source>Get your open tabs, bookmarks, and passwords from your other devices.</source>
         <target>अपने दुसरे उपकरण से पुस्तचिह्न, कूटशब्द, और अपने खुले टैब पायें.</target>
         <note>A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing.</note>
-      </trans-unit>
-      <trans-unit id="Go">
-        <source>Go</source>
-        <target>जाएँ</target>
-        <note>Pending feature; currently unused string! Button to browse to URL on the clipboard when browser is opened</note>
-      </trans-unit>
-      <trans-unit id="Go to copied URL?">
-        <source>Go to copied URL?</source>
-        <target>नक़ल किया URL में जाएँ?</target>
-        <note>Pending feature; currently unused string! Prompt message shown when browser is opened with URL on the clipboard</note>
       </trans-unit>
       <trans-unit id="Help">
         <source>Help</source>
@@ -1764,11 +1541,6 @@
         <target>कोई टैब नहीं</target>
         <note>Message spoken by VoiceOver to indicate that there are no tabs in the Tabs Tray</note>
       </trans-unit>
-      <trans-unit id="Not now">
-        <source>Not now</source>
-        <target>अभी नही</target>
-        <note>Button to not save the user's password</note>
-      </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
         <target>ठीक</target>
@@ -1813,11 +1585,6 @@
         <source>Cannot Open Page</source>
         <target>पृष्ठ नहीं खोला जा सकता है</target>
         <note>Title of the message shown when the user attempts to navigate to an invalid link.</note>
-      </trans-unit>
-      <trans-unit id="Opening %@">
-        <source>Opening %@</source>
-        <target>%@ खोला जा रहा है</target>
-        <note>Opening an external URL</note>
       </trans-unit>
       <trans-unit id="Page Options Menu">
         <source>Page Options Menu</source>
@@ -2053,7 +1820,12 @@
       <trans-unit id="SendTo.Cancel.Button">
         <source>Cancel</source>
         <target>रद्द करें</target>
-        <note>Button title for cancelling share screen</note>
+        <note>Button title for cancelling share screen
+   Close button in top navigation bar</note>
+      </trans-unit>
+      <trans-unit id="SendTo.DeviceList.Text">
+        <source>Available devices:</source>
+        <note>Header for the list of devices table</note>
       </trans-unit>
       <trans-unit id="SendTo.Error.Message">
         <source>Only HTTP and HTTPS links can be shared.</source>
@@ -2069,6 +1841,26 @@
         <source>The link you are trying to share cannot be shared.</source>
         <target>लिंक जो आप साझा करने की कोशिश कर रहे हैं साझा नहीं किया जा सकता है.</target>
         <note>Title of error prompt displayed when an invalid URL is shared.</note>
+      </trans-unit>
+      <trans-unit id="SendTo.NavBar.Title">
+        <source>Send Tab</source>
+        <note>Title of the dialog that allows you to send a tab to a different device</note>
+      </trans-unit>
+      <trans-unit id="SendTo.NoDevicesFound.Message">
+        <source>You don’t have any other devices connected to this Firefox Account available to sync.</source>
+        <note>Error message shown in the remote tabs panel</note>
+      </trans-unit>
+      <trans-unit id="SendTo.NotSignedIn.Message">
+        <source>Please open Firefox, go to Settings and sign in to continue.</source>
+        <note>See http://mzl.la/1ISlXnU</note>
+      </trans-unit>
+      <trans-unit id="SendTo.NotSignedIn.Title">
+        <source>You are not signed in to your Firefox Account.</source>
+        <note>See http://mzl.la/1ISlXnU</note>
+      </trans-unit>
+      <trans-unit id="SendTo.SendAction.Text">
+        <source>Send</source>
+        <note>Navigation bar button to Send the current page to a device</note>
       </trans-unit>
       <trans-unit id="SentTab.AddToReadingListAction.Title">
         <source>Add to Reading List</source>
@@ -2335,6 +2127,10 @@
         <target>तयशुदा का प्रयोग करें</target>
         <note>Button in settings to use the default home page. If no default is set, then this button isn't shown.</note>
       </trans-unit>
+      <trans-unit id="Settings.NewTab.CustomURL">
+        <source>Custom URL</source>
+        <note>Label used to set a custom url as the new tab option (homepage).</note>
+      </trans-unit>
       <trans-unit id="Settings.NewTab.Description">
         <source>When you open a New Tab:</source>
         <target>जब आप एक नया टैब खोलते हैं:</target>
@@ -2354,6 +2150,18 @@
         <source>Bookmarks</source>
         <target>बुकमार्क</target>
         <note>Option in settings to show bookmarks when you open a new tab</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.CustomizeFooter">
+        <source>The sites you visit most</source>
+        <note>The footer for the section to customize top sites in the new tab settings page.</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.CustomizeTitle">
+        <source>Customize Firefox Home</source>
+        <note>The title for the section to customize top sites in the new tab settings page.</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.FirefoxHome">
+        <source>Firefox Home</source>
+        <note>Option in settings to show Firefox Home when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HighlightsBookmarks">
         <source>Recent Bookmarks</source>
@@ -2376,19 +2184,17 @@
         <note>Option in settings to show your homepage when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.Pocket">
-        <source>Recommended by Pocket</source>
-        <target>पॉकेट द्वारा अनुशंसित</target>
+        <source>Trending on Pocket</source>
         <note>Option in settings to turn on off pocket recommendations</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.PocketFooter">
+        <source>Great content from around the web.</source>
+        <note>Footer caption for pocket settings</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.ReadingList">
         <source>Show your Reading List</source>
         <target>अपनी पठन सूची प्रदर्शित करें</target>
         <note>Option in settings to show reading list when you open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.TopSites">
-        <source>Top Sites</source>
-        <target>टॉप साइटें</target>
-        <note>Option in settings to show top sites when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.SectionName">
         <source>New Tab</source>
@@ -2525,6 +2331,26 @@
         <target>निजी ब्राउज़िंग मोड</target>
         <note>Settings option to specify that Tracking Protection is on only in Private Browsing mode.</note>
       </trans-unit>
+      <trans-unit id="Settings.TranslateSnackBar.SectionFooter">
+        <source>The web page language is detected on the device, and a translation from a remote service is offered.</source>
+        <note>Translation settings footer describing how language detection and translation happens.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TranslateSnackBar.SectionHeader">
+        <source>Services</source>
+        <note>Translation settings section title</note>
+      </trans-unit>
+      <trans-unit id="Settings.TranslateSnackBar.SwitchSubtitle">
+        <source>Offer to translate any site written in a language that is different from your default language.</source>
+        <note>Switch to choose if the language of a page is detected and offer to translate.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TranslateSnackBar.SwitchTitle">
+        <source>Offer Translation</source>
+        <note>Switch to choose if the language of a page is detected and offer to translate.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TranslateSnackBar.Title">
+        <source>Translation</source>
+        <note>Title in main app settings for Translation toast settings</note>
+      </trans-unit>
       <trans-unit id="Settings.TroubleShootSync.Title">
         <source>Troubleshoot</source>
         <target>समस्या निवारण करें</target>
@@ -2626,16 +2452,6 @@
         <target>टूर दिखाएँ</target>
         <note>Show the on-boarding screen again from the settings</note>
       </trans-unit>
-      <trans-unit id="Show search suggestions">
-        <source>Show search suggestions</source>
-        <target>खोज सुझाव दिखाएँ</target>
-        <note>Label for show search suggestions setting.</note>
-      </trans-unit>
-      <trans-unit id="Sign in">
-        <source>Sign in</source>
-        <target>साइन इन</target>
-        <note>Text message / button in the settings table view</note>
-      </trans-unit>
       <trans-unit id="Stop">
         <source>Stop</source>
         <target>रोकें</target>
@@ -2660,11 +2476,6 @@
         <source>Private Browsing Mode</source>
         <target>निजी ब्राउज़िंग मोड</target>
         <note>Hardware shortcut switch to the private browsing tab or tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
-      </trans-unit>
-      <trans-unit id="Sync Now">
-        <source>Sync Now</source>
-        <target>अब सिंक करें</target>
-        <note>Sync Firefox Account</note>
       </trans-unit>
       <trans-unit id="Sync your tabs, bookmarks, passwords and more.">
         <source>Sync your tabs, bookmarks, passwords and more.</source>
@@ -2811,11 +2622,6 @@
         <target>यह आपको अपने कैमरा रोल करने में चित्रों को सहेजने की अनुमति देता है.</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
-      <trans-unit id="This will open in another application">
-        <source>This will open in another application</source>
-        <target>यह दुसरे युक्ति में खुलेगा</target>
-        <note>Opening an external app</note>
-      </trans-unit>
       <trans-unit id="Toasts.NotNow">
         <source>Not Now</source>
         <target>अभी नहीं</target>
@@ -2841,11 +2647,6 @@
         <target>सभी टैब बन्द करें</target>
         <note>Accessibility label for the Close All Tabs menu button.</note>
       </trans-unit>
-      <trans-unit id="Top sites">
-        <source>Top sites</source>
-        <target>टॉप साइटें</target>
-        <note>Panel accessibility label</note>
-      </trans-unit>
       <trans-unit id="TopSites.EmptyState.Description">
         <source>Your most visited sites will show up here.</source>
         <target>आपके सर्वाधिक देखे गये साइट यहाँ दिखाई देंगे.</target>
@@ -2861,6 +2662,18 @@
         <target>%@- पृष्ठ हटाएँ</target>
         <note>Button shown in editing mode to remove this site from the top sites panel.</note>
       </trans-unit>
+      <trans-unit id="TranslationToastHandler.PromptTranslate.Cancel">
+        <source>No</source>
+        <note>Button to disallow the page to be translated to the user locale language</note>
+      </trans-unit>
+      <trans-unit id="TranslationToastHandler.PromptTranslate.OK">
+        <source>Yes</source>
+        <note>Button to allow the page to be translated to the user locale language</note>
+      </trans-unit>
+      <trans-unit id="TranslationToastHandler.PromptTranslate.Title">
+        <source>This page appears to be in %1$@. Translate to %2$@ with %3$@?</source>
+        <note>Prompt for translation. The first parameter is the language the page is in. The second parameter is the name of our local language. The third is the name of the service.</note>
+      </trans-unit>
       <trans-unit id="Twitter">
         <source>Twitter</source>
         <target>Twitter</target>
@@ -2875,11 +2688,6 @@
         <source>Search with Firefox</source>
         <target>Firefox के साथ खोजें</target>
         <note>Search in New Tab Text selection menu item</note>
-      </trans-unit>
-      <trans-unit id="Update">
-        <source>Update</source>
-        <target>अद्यतन</target>
-        <note>Button to update the user's password</note>
       </trans-unit>
       <trans-unit id="Upgrade Firefox to connect">
         <source>Upgrade Firefox to connect</source>
@@ -2920,11 +2728,6 @@
         <source>Wikipedia</source>
         <target>Wikipedia</target>
         <note>Tile title for Wikipedia</note>
-      </trans-unit>
-      <trans-unit id="Yes">
-        <source>Yes</source>
-        <target>हाँ</target>
-        <note>Button to save the user's password</note>
       </trans-unit>
       <trans-unit id="Yesterday">
         <source>Yesterday</source>
@@ -3201,48 +3004,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/SendTo.strings" source-language="en" datatype="plaintext" target-language="hi-IN">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="Available devices:">
-        <source>Available devices:</source>
-        <target>उपलब्ध युक्ति:</target>
-        <note>Header for the list of devices table</note>
-      </trans-unit>
-      <trans-unit id="Close">
-        <source>Close</source>
-        <target>बंद करें</target>
-        <note>Close button in top navigation bar</note>
-      </trans-unit>
-      <trans-unit id="Please open Firefox, go to Settings and sign in to continue.">
-        <source>Please open Firefox, go to Settings and sign in to continue.</source>
-        <target>कृपया Firefox खोलें, सेटिंग्स में जाएँ और जारी रखने के लिए साइन इन करें.</target>
-        <note>See http://mzl.la/1ISlXnU</note>
-      </trans-unit>
-      <trans-unit id="Send">
-        <source>Send</source>
-        <target>भेजें</target>
-        <note>Navigation bar button to Send the current page to a device</note>
-      </trans-unit>
-      <trans-unit id="Send Tab">
-        <source>Send Tab</source>
-        <target>टैब भेजें</target>
-        <note>Title of the dialog that allows you to send a tab to a different device</note>
-      </trans-unit>
-      <trans-unit id="You are not signed in to your Firefox Account.">
-        <source>You are not signed in to your Firefox Account.</source>
-        <target>आपने अपने Firefox खाते में प्रवेश नहीं किया है.</target>
-        <note>See http://mzl.la/1ISlXnU</note>
-      </trans-unit>
-      <trans-unit id="You don’t have any other devices connected to this Firefox Account available to sync.">
-        <source>You don’t have any other devices connected to this Firefox Account available to sync.</source>
-        <target>आपके पास इस Firefox खाते से जुड़े संकालन के लिए उपलब्ध कोई अन्य उपकरण नहीं हैं.</target>
-        <note>Error message shown in the remote tabs panel</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="hi-IN">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
@@ -3352,6 +3113,61 @@
       </trans-unit>
     </body>
   </file>
+  <file original="Shared/Supporting Files/Intro.strings" source-language="en" datatype="plaintext" target-language="hi-IN">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Intro.Slides.Mail.Description">
+        <source>Use any email app — not just Mail — with Firefox.</source>
+        <note>Description for the 'Mail' panel in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Mail.Title">
+        <source>You’ve got mail… options</source>
+        <note>Title for the fourth panel 'Mail' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Private.Description">
+        <source>Tap the mask icon to slip into Private Browsing mode.</source>
+        <note>Description for the 'Private Browsing' panel in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Private.Title">
+        <source>Browse like no one’s watching</source>
+        <note>Title for the third panel 'Private Browsing' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Search.Description">
+        <source>Searching for something different? Choose another default search engine (or add your own) in Settings.</source>
+        <note>Description for the 'Favorite Search Engine' panel in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Search.Title">
+        <source>Your search, your way</source>
+        <note>Title for the second  panel 'Search' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Sync.Description">
+        <source>Use Sync to find the bookmarks, passwords, and other things you save to Firefox on all your devices.</source>
+        <note>Description for the 'Sync' panel in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Sync.Title">
+        <source>Pick up where you left off</source>
+        <note>Title for the fifth panel 'Sync' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Welcome.Description">
+        <source>A modern mobile browser from Mozilla, the non-profit committed to a free and open web.</source>
+        <note>Description for the 'Welcome' panel in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Welcome.Title">
+        <source>Thanks for choosing Firefox!</source>
+        <note>Title for the first panel 'Welcome' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Sign in to Firefox">
+        <source>Sign in to Firefox</source>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Start Browsing">
+        <source>Start Browsing</source>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Shared/Supporting Files/Menu.strings" source-language="en" datatype="plaintext" target-language="hi-IN">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
@@ -3382,6 +3198,10 @@
         <target>पृष्ठ में ढूँढें</target>
         <note>Label for the button, displayed in the menu, used to open the toolbar to search for text within the current page.</note>
       </trans-unit>
+      <trans-unit id="Menu.Library.Title">
+        <source>Library</source>
+        <note>Label for the button, displayed in the menu, used to open the Library</note>
+      </trans-unit>
       <trans-unit id="Menu.NewPrivateTabAction.Title">
         <source>Open New Private Tab</source>
         <target>नया निजी टैब</target>
@@ -3408,8 +3228,7 @@
         <note>Accessibility label for the button, displayed in the menu, used to open the History home panel.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenHomePageAction.Title">
-        <source>Open Homepage</source>
-        <target>मुख्य</target>
+        <source>Home</source>
         <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel">
