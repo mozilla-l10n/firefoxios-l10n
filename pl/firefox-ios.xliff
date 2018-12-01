@@ -570,12 +570,12 @@
       </trans-unit>
       <trans-unit id="ActivityStream.TopSites.RowCount">
         <source>Rows: %d</source>
-        <target>Wiersze: %d</target>
+        <target>Rzędy: %d</target>
         <note>label showing how many rows of topsites are shown. %d represents a number</note>
       </trans-unit>
       <trans-unit id="ActivityStream.TopSites.RowSettingFooter">
         <source>Set Rows</source>
-        <target>Ustaw wiersze</target>
+        <target>Ustaw rzędy</target>
         <note>The title for the setting page which lets you select the number of top site rows</note>
       </trans-unit>
       <trans-unit id="ActivityStream.TopSites.SectionTitle">
@@ -1148,17 +1148,17 @@
       </trans-unit>
       <trans-unit id="HomePage.Set.Dialog.Message">
         <source>You can change this at any time in Settings</source>
-        <target>Stronę domową można zawsze zmienić w ustawieniach.</target>
+        <target>Stronę startową można zawsze zmienić w ustawieniach.</target>
         <note>Alert dialog body when the user opens the home page for the first time.</note>
       </trans-unit>
       <trans-unit id="HomePage.Set.Dialog.OK">
         <source>Set Homepage</source>
-        <target>Ustaw stronę domową</target>
+        <target>Ustaw stronę startową</target>
         <note>Button accepting changes setting the home page for the first time.</note>
       </trans-unit>
       <trans-unit id="HomePage.Set.Dialog.Title">
         <source>Do you want to use this web page as your home page?</source>
-        <target>Czy ustawić bieżącą stronę jako stronę domową?</target>
+        <target>Czy ustawić bieżącą stronę jako stronę startową?</target>
         <note>Alert dialog title when the user opens the home page for the first time.</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.Bookmark">
@@ -1596,7 +1596,7 @@
       </trans-unit>
       <trans-unit id="Panel Chooser">
         <source>Panel Chooser</source>
-        <target>Pasek wyboru widoku strony domowej</target>
+        <target>Pasek wyboru widoku strony startowej</target>
         <note>Accessibility label for the Home panel's top toolbar containing list of the home panels (top sites, bookmarks, history, remote tabs, reading list).</note>
       </trans-unit>
       <trans-unit id="Password">
@@ -1848,22 +1848,27 @@
       </trans-unit>
       <trans-unit id="SendTo.NavBar.Title">
         <source>Send Tab</source>
+        <target>Wyślij kartę</target>
         <note>Title of the dialog that allows you to send a tab to a different device</note>
       </trans-unit>
       <trans-unit id="SendTo.NoDevicesFound.Message">
         <source>You don’t have any other devices connected to this Firefox Account available to sync.</source>
+        <target>Brak innych urządzeń połączonych z tym kontem Firefoksa dostępnych do synchronizacji.</target>
         <note>Error message shown in the remote tabs panel</note>
       </trans-unit>
       <trans-unit id="SendTo.NotSignedIn.Message">
         <source>Please open Firefox, go to Settings and sign in to continue.</source>
+        <target>Otwórz Firefoksa, przejdź do ustawień i zaloguj się, by kontynuować.</target>
         <note>See http://mzl.la/1ISlXnU</note>
       </trans-unit>
       <trans-unit id="SendTo.NotSignedIn.Title">
         <source>You are not signed in to your Firefox Account.</source>
+        <target>Nie zalogowano na koncie Firefoksa.</target>
         <note>See http://mzl.la/1ISlXnU</note>
       </trans-unit>
       <trans-unit id="SendTo.SendAction.Text">
         <source>Send</source>
+        <target>Wyślij</target>
         <note>Navigation bar button to Send the current page to a device</note>
       </trans-unit>
       <trans-unit id="SentTab.AddToReadingListAction.Title">
@@ -2098,22 +2103,22 @@
       </trans-unit>
       <trans-unit id="Settings.HomePage.SectionName">
         <source>Homepage</source>
-        <target>Strona domowa</target>
+        <target>Strona startowa</target>
         <note>Label used as an item in Settings. When touched it will open a dialog to configure the home page and its uses.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.Title">
         <source>Homepage Settings</source>
-        <target>Strona domowa</target>
+        <target>Strona startowa</target>
         <note>Title displayed in header of the setting panel.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.URL.Placeholder">
         <source>Enter a webpage</source>
-        <target>Adres strony domowej</target>
+        <target>Adres strony startowej</target>
         <note>Placeholder text in the homepage setting when no homepage has been set.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.URL.Title">
         <source>Current Homepage</source>
-        <target>Obecna strona domowa</target>
+        <target>Obecna strona startowa</target>
         <note>Title of the setting section containing the URL of the current home page.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.UseCopiedLink.Button">
@@ -2133,6 +2138,7 @@
       </trans-unit>
       <trans-unit id="Settings.NewTab.CustomURL">
         <source>Custom URL</source>
+        <target>Inny adres</target>
         <note>Label used to set a custom url as the new tab option (homepage).</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Description">
@@ -2157,14 +2163,17 @@
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.CustomizeFooter">
         <source>The sites you visit most</source>
+        <target>Najczęściej odwiedzane strony</target>
         <note>The footer for the section to customize top sites in the new tab settings page.</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.CustomizeTitle">
         <source>Customize Firefox Home</source>
+        <target>Dostosuj stronę startową Firefoksa</target>
         <note>The title for the section to customize top sites in the new tab settings page.</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.FirefoxHome">
         <source>Firefox Home</source>
+        <target>Strona startowa Firefoksa</target>
         <note>Option in settings to show Firefox Home when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HighlightsBookmarks">
@@ -2184,15 +2193,17 @@
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HomePage">
         <source>Homepage</source>
-        <target>Strona domowa</target>
+        <target>Strona startowa</target>
         <note>Option in settings to show your homepage when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.Pocket">
         <source>Trending on Pocket</source>
+        <target>Pocket: na czasie</target>
         <note>Option in settings to turn on off pocket recommendations</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.PocketFooter">
         <source>Great content from around the web.</source>
+        <target>Świetne rzeczy z całego Internetu.</target>
         <note>Footer caption for pocket settings</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.ReadingList">
@@ -2337,22 +2348,27 @@
       </trans-unit>
       <trans-unit id="Settings.TranslateSnackBar.SectionFooter">
         <source>The web page language is detected on the device, and a translation from a remote service is offered.</source>
+        <target>Język strony jest wykrywany na urządzeniu i proponowane jest tłumaczenie ze zdalnego serwisu.</target>
         <note>Translation settings footer describing how language detection and translation happens.</note>
       </trans-unit>
       <trans-unit id="Settings.TranslateSnackBar.SectionHeader">
         <source>Services</source>
+        <target>Serwisy</target>
         <note>Translation settings section title</note>
       </trans-unit>
       <trans-unit id="Settings.TranslateSnackBar.SwitchSubtitle">
         <source>Offer to translate any site written in a language that is different from your default language.</source>
+        <target>Proponowanie tłumaczenia stron napisanych w języku innym niż domyślny.</target>
         <note>Switch to choose if the language of a page is detected and offer to translate.</note>
       </trans-unit>
       <trans-unit id="Settings.TranslateSnackBar.SwitchTitle">
         <source>Offer Translation</source>
+        <target>Proponowanie tłumaczenia</target>
         <note>Switch to choose if the language of a page is detected and offer to translate.</note>
       </trans-unit>
       <trans-unit id="Settings.TranslateSnackBar.Title">
         <source>Translation</source>
+        <target>Tłumaczenie</target>
         <note>Title in main app settings for Translation toast settings</note>
       </trans-unit>
       <trans-unit id="Settings.TroubleShootSync.Title">
@@ -2668,14 +2684,17 @@
       </trans-unit>
       <trans-unit id="TranslationToastHandler.PromptTranslate.Cancel">
         <source>No</source>
+        <target>Nie</target>
         <note>Button to disallow the page to be translated to the user locale language</note>
       </trans-unit>
       <trans-unit id="TranslationToastHandler.PromptTranslate.OK">
         <source>Yes</source>
+        <target>Tak</target>
         <note>Button to allow the page to be translated to the user locale language</note>
       </trans-unit>
       <trans-unit id="TranslationToastHandler.PromptTranslate.Title">
         <source>This page appears to be in %1$@. Translate to %2$@ with %3$@?</source>
+        <target>Wykryty język strony: %1$@. Przetłumaczyć na język %2$@ za pomocą serwisu %3$@?</target>
         <note>Prompt for translation. The first parameter is the language the page is in. The second parameter is the name of our local language. The third is the name of the service.</note>
       </trans-unit>
       <trans-unit id="Twitter">
@@ -3216,6 +3235,7 @@
       </trans-unit>
       <trans-unit id="Menu.Library.Title">
         <source>Library</source>
+        <target>Biblioteka</target>
         <note>Label for the button, displayed in the menu, used to open the Library</note>
       </trans-unit>
       <trans-unit id="Menu.NewPrivateTabAction.Title">
@@ -3245,6 +3265,7 @@
       </trans-unit>
       <trans-unit id="Menu.OpenHomePageAction.Title">
         <source>Home</source>
+        <target>Strona startowa</target>
         <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel">
