@@ -523,7 +523,7 @@
       </trans-unit>
       <trans-unit id="ActivityStream.HighlightIntro.Description">
         <source>Firefox will place things here that you’ve discovered on the web so you can find your way back to the great articles, videos, bookmarks and other pages</source>
-        <target>Firefox sẽ đặt những thứ ở đây mà bạn đã phát hiện ra trên web để bạn có thể tìm đường quay lại các bài viết, video, trang đánh dấu và các trang khác</target>
+        <target>Firefox sẽ đặt những thứ ở đây mà bạn đã phát hiện ra trên web để bạn có thể tìm đường quay lại các bài viết, video, dấu trang và các trang khác</target>
         <note>The detailed text that explains what highlights are in AS.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.HighlightIntro.Title">
@@ -1015,7 +1015,7 @@
       </trans-unit>
       <trans-unit id="FxA.SyncExplain">
         <source>Get your tabs, bookmarks, and passwords from your other devices.</source>
-        <target>Nhận các thẻ, trang đánh dấu và mật khẩu từ các thiết bị khác của bạn.</target>
+        <target>Nhận các thẻ, dấu trang và mật khẩu từ các thiết bị khác của bạn.</target>
         <note>Label explaining what sync does</note>
       </trans-unit>
       <trans-unit id="FxA.SyncNow">
@@ -1030,7 +1030,7 @@
       </trans-unit>
       <trans-unit id="FxAPush_DeviceConnected_body">
         <source>Firefox Sync has connected to %@</source>
-        <target>Firefox Sync đã kết nối với %@</target>
+        <target>Đồng bộ hóa Firefox đã kết nối với %@</target>
         <note>Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device.</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceConnected_title">
@@ -1040,174 +1040,217 @@
       </trans-unit>
       <trans-unit id="FxAPush_DeviceDisconnected_ThisDevice_body">
         <source>This device has been successfully disconnected from Firefox Sync.</source>
+        <target>Thiết bị này đã được ngắt kết nối thành công khỏi Đồng bộ hóa Firefox.</target>
         <note>Body of a notification displayed when this device has been disconnected from FxA by another device.</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceDisconnected_ThisDevice_title">
         <source>Sync Disconnected</source>
+        <target>Đồng bộ hóa đã bị ngắt kết nối</target>
         <note>Title of a notification displayed when this device has been disconnected by another device.</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceDisconnected_UnknownDevice_body">
         <source>A device has disconnected from Firefox Sync</source>
+        <target>Một thiết bị đã ngắt kết nối khỏi Đồng bộ hóa Firefox</target>
         <note>Body of a notification displayed when unnamed device has been disconnected from FxA.</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceDisconnected_body">
         <source>%@ has been successfully disconnected.</source>
+        <target>%@ đã ngắt kết nối thành công.</target>
         <note>Body of a notification displayed when named device has been disconnected from FxA. %@ refers to the name of the disconnected device.</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceDisconnected_title">
         <source>Sync Disconnected</source>
+        <target>Đồng bộ hóa đã bị ngắt kết nối</target>
         <note>Title of a notification displayed when named device has been disconnected from FxA.</note>
       </trans-unit>
       <trans-unit id="Get your open tabs, bookmarks, and passwords from your other devices.">
         <source>Get your open tabs, bookmarks, and passwords from your other devices.</source>
+        <target>Nhận các thẻ, dấu trang và mật khẩu đang mở của bạn từ các thiết bị khác của bạn.</target>
         <note>A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing.</note>
       </trans-unit>
       <trans-unit id="Help">
         <source>Help</source>
+        <target>Trợ giúp</target>
         <note>Show the SUMO support page from the Support section in the settings. see http://mzl.la/1dmM8tZ</note>
       </trans-unit>
       <trans-unit id="History">
         <source>History</source>
+        <target>Lịch sử</target>
         <note>Toggle history syncing setting</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptyState.Title">
         <source>Websites you’ve visited recently will show up here.</source>
+        <target>Các trang web bạn đã truy cập gần đây sẽ hiển thị ở đây.</target>
         <note>Title for the History Panel empty state.</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsNullState.Description">
         <source>Your tabs from other devices show up here.</source>
+        <target>Các thẻ của bạn từ các thiết bị khác sẽ hiển thị ở đây.</target>
         <note>Description for the empty synced tabs null state in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsPanelNotSignedInState.Description">
         <source>Sign in to view a list of tabs from your other devices.</source>
+        <target>Đăng nhập để xem danh sách thẻ từ các thiết bị khác của bạn.</target>
         <note>Description for the empty synced tabs 'not signed in' state in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsPanelNotYetVerifiedState.Description">
         <source>Your account needs to be verified.</source>
+        <target>Tài khoản của bạn cần được xác thực.</target>
         <note>Description for the empty synced tabs 'not yet verified' state in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsPanelSingleDeviceSyncState.Description">
         <source>Want to see your tabs from other devices here?</source>
+        <target>Muốn xem thẻ từ các thiết bị khác của bạn ở đây?</target>
         <note>Description for the empty synced tabs 'single device Sync' state in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description">
         <source>Turn on tab syncing to view a list of tabs from your other devices.</source>
+        <target>Bật đồng bộ thẻ để xem danh sách thẻ từ các thiết bị khác của bạn.</target>
         <note>Description for the empty synced tabs 'tab sync disabled' state in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsState.Title">
         <source>Firefox Sync</source>
+        <target>Đồng bộ hóa Firefox</target>
         <note>Title for the empty synced tabs state in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.HistoryBackButton.Title">
         <source>History</source>
+        <target>Lịch sử</target>
         <note>Title for the Back to History button in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.RecentlyClosedTabsButton.Title">
         <source>Recently Closed</source>
+        <target>Đã đóng gần đây</target>
         <note>Title for the Recently Closed button in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.SyncedTabsCell.Description.Pluralized">
         <source>%d device(s) connected</source>
+        <target>%d thiết bị đã kết nối</target>
         <note>Description that corresponds with a number of devices connected for the Synced Tabs Cell in the History Panel</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.SyncedTabsCell.Title">
         <source>Synced Devices</source>
+        <target>Thiết bị được đồng bộ hóa</target>
         <note>Title for the Synced Tabs Cell in the History Panel</note>
       </trans-unit>
       <trans-unit id="HomePage.Set.Dialog.Cancel">
         <source>Cancel</source>
+        <target>Hủy bỏ</target>
         <note>Button cancelling changes setting the home page for the first time.</note>
       </trans-unit>
       <trans-unit id="HomePage.Set.Dialog.Message">
         <source>You can change this at any time in Settings</source>
+        <target>Bạn có thể thay đổi điều này bất cứ lúc nào trong cài đặt</target>
         <note>Alert dialog body when the user opens the home page for the first time.</note>
       </trans-unit>
       <trans-unit id="HomePage.Set.Dialog.OK">
         <source>Set Homepage</source>
+        <target>Đặt trang chủ</target>
         <note>Button accepting changes setting the home page for the first time.</note>
       </trans-unit>
       <trans-unit id="HomePage.Set.Dialog.Title">
         <source>Do you want to use this web page as your home page?</source>
+        <target>Bạn có muốn sử dụng trang web này làm trang chủ của bạn?</target>
         <note>Alert dialog title when the user opens the home page for the first time.</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.Bookmark">
         <source>Bookmark</source>
+        <target>Trang đánh dấu</target>
         <note>The title for the Bookmark context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.DeleteFromHistory">
         <source>Delete from History</source>
+        <target>Xóa khỏi lịch sử</target>
         <note>The title for the Delete from History context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewPrivateTab">
         <source>Open in New Private Tab</source>
+        <target>Mở trong thẻ riêng tư mới</target>
         <note>The title for the Open in New Private Tab context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewTab">
         <source>Open in New Tab</source>
+        <target>Mở trong thẻ mới</target>
         <note>The title for the Open in New Tab context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.Remove">
         <source>Remove</source>
+        <target>Xóa</target>
         <note>The title for the Remove context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.RemoveBookmark">
         <source>Remove Bookmark</source>
+        <target>Xóa trang đánh dấu</target>
         <note>The title for the Remove Bookmark context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.Share">
         <source>Share</source>
+        <target>Chia sẻ</target>
         <note>The title for the Share context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="Hotkeys.Back.DiscoveryTitle">
         <source>Back</source>
+        <target>Quay lại</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.CloseTab.DiscoveryTitle">
         <source>Close Tab</source>
+        <target>Đóng thẻ</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.Find.DiscoveryTitle">
         <source>Find</source>
+        <target>Tìm</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.Forward.DiscoveryTitle">
         <source>Forward</source>
+        <target>Tiến</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.NewPrivateTab.DiscoveryTitle">
         <source>New Private Tab</source>
+        <target>Thẻ riêng tư mới</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.NewTab.DiscoveryTitle">
         <source>New Tab</source>
+        <target>Thẻ mới</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.NormalMode.DiscoveryTitle">
         <source>Normal Browsing Mode</source>
+        <target>Chế độ duyệt web bình thường</target>
         <note>Label to switch to normal browsing mode</note>
       </trans-unit>
       <trans-unit id="Hotkeys.PrivateMode.DiscoveryTitle">
         <source>Private Browsing Mode</source>
+        <target>Chế độ duyệt web riêng tư</target>
         <note>Label to switch to private browsing mode</note>
       </trans-unit>
       <trans-unit id="Hotkeys.Reload.DiscoveryTitle">
         <source>Reload Page</source>
+        <target>Tải lại trang này</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.SelectLocationBar.DiscoveryTitle">
         <source>Select Location Bar</source>
+        <target>Chọn thanh địa chỉ</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.ShowNextTab.DiscoveryTitle">
         <source>Show Next Tab</source>
+        <target>Xem thẻ tiếp theo</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.ShowPreviousTab.DiscoveryTitle">
         <source>Show Previous Tab</source>
+        <target>Xem thẻ trước đó</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Increase text size">
         <source>Increase text size</source>
+        <target>Tăng kích thước văn bản</target>
         <note>Accessibility label for button increasing font size in display settings of reader mode</note>
       </trans-unit>
       <trans-unit id="Intro Tour Carousel">
@@ -1216,34 +1259,42 @@
       </trans-unit>
       <trans-unit id="Last month">
         <source>Last month</source>
+        <target>Tháng trước</target>
         <note>History tableview section header</note>
       </trans-unit>
       <trans-unit id="Last synced: %@">
         <source>Last synced: %@</source>
+        <target>Lần đồng bộ cuối: %@</target>
         <note>Remote tabs last synced time. Argument is the relative date string.</note>
       </trans-unit>
       <trans-unit id="Last week">
         <source>Last week</source>
+        <target>Tuần trước</target>
         <note>History tableview section header</note>
       </trans-unit>
       <trans-unit id="Licenses">
         <source>Licenses</source>
+        <target>Giấy phép</target>
         <note>Settings item that opens a tab containing the licenses. See http://mzl.la/1NSAWCG</note>
       </trans-unit>
       <trans-unit id="Light">
         <source>Light</source>
+        <target>Sáng</target>
         <note>Light theme setting in Reading View settings</note>
       </trans-unit>
       <trans-unit id="Load original page">
         <source>Load original page</source>
+        <target>Tải trang gốc</target>
         <note>Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
       <trans-unit id="Loading content…">
         <source>Loading content…</source>
+        <target>Đang tải nội dung…</target>
         <note>Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
       <trans-unit id="Log Out">
         <source>Log Out</source>
+        <target>Đăng xuất</target>
         <note>Button in settings screen to disconnect from your account
    Disconnect button in the 'log out firefox account' alert</note>
       </trans-unit>
@@ -1713,6 +1764,7 @@
       </trans-unit>
       <trans-unit id="SentTab.NoTabArrivingNotification.title">
         <source>Firefox Sync</source>
+        <target>Đồng bộ hóa Firefox</target>
         <note>Title of notification received after a spurious message from FxA has been received.</note>
       </trans-unit>
       <trans-unit id="SentTab.ViewAction.title">
@@ -1869,6 +1921,7 @@
       </trans-unit>
       <trans-unit id="Settings.FxA.Sync.SectionName">
         <source>Sync Settings</source>
+        <target>Cài đặt đồng bộ hóa</target>
         <note>Label used as a section title in the Firefox Accounts Settings screen.</note>
       </trans-unit>
       <trans-unit id="Settings.FxA.Title">
@@ -2754,6 +2807,7 @@
       </trans-unit>
       <trans-unit id="Intro.Slides.Sync.Description">
         <source>Use Sync to find the bookmarks, passwords, and other things you save to Firefox on all your devices.</source>
+        <target>Sử dụng đồng bộ hóa để tìm dấu trang, mật khẩu và những thứ khác bạn lưu vào Firefox trên tất cả các thiết bị của bạn.</target>
         <note>Description for the 'Sync' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Sync.Title">
