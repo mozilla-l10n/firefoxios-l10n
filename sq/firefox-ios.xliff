@@ -10,8 +10,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -25,8 +25,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -441,8 +441,8 @@
         <target>$(MOZ_PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you take and upload photos.</source>
@@ -744,15 +744,33 @@
         <target>U hap Skedë e Re</target>
         <note>The label text in the Button Toast for switching to a fresh New Tab.</note>
       </trans-unit>
-      <trans-unit id="Copy Image">
+      <trans-unit id="ContextMenu.CopyImage">
         <source>Copy Image</source>
-        <target>Kopjo Figurën</target>
         <note>Context menu item for copying an image to the clipboard</note>
       </trans-unit>
-      <trans-unit id="Copy Link">
+      <trans-unit id="ContextMenu.CopyImageLink">
+        <source>Copy Image Link</source>
+        <note>Context menu item for copying an image URL to the clipboard</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.CopyLink">
         <source>Copy Link</source>
-        <target>Kopjo Lidhjen</target>
         <note>Context menu item for copying a link URL to the clipboard</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.DownloadLink">
+        <source>Download Link</source>
+        <note>Context menu item for downloading a link URL</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.OpenInNewTab">
+        <source>Open in New Tab</source>
+        <note>Context menu item for opening a link in a new tab</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.SaveImage">
+        <source>Save Image</source>
+        <note>Context menu item for saving an image</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.ShareLink">
+        <source>Share Link</source>
+        <note>Context menu item for sharing a link URL</note>
       </trans-unit>
       <trans-unit id="Could not add page to Reading List. Maybe it’s already there?">
         <source>Could not add page to Reading List. Maybe it’s already there?</source>
@@ -825,11 +843,6 @@
         <source>Don’t Send</source>
         <target>Mos e Dërgo</target>
         <note>Used as a button label for crash dialog prompt</note>
-      </trans-unit>
-      <trans-unit id="Download Link">
-        <source>Download Link</source>
-        <target>Lidhje Shkarkimi</target>
-        <note>Context menu item for downloading a link URL</note>
       </trans-unit>
       <trans-unit id="Downloads">
         <source>Downloads</source>
@@ -956,11 +969,6 @@
         <target>Facebook</target>
         <note>Tile title for Facebook</note>
       </trans-unit>
-      <trans-unit id="Firefox would like to access your Photos">
-        <source>Firefox would like to access your Photos</source>
-        <target>Firefox-i do të donte të hynte te Fotot tuaja</target>
-        <note>See http://mzl.la/1G7uHo7</note>
-      </trans-unit>
       <trans-unit id="Firefox.HomePage.Title">
         <source>Firefox Home Page</source>
         <target>Faqja Hyrëse e Firefox-it</target>
@@ -1085,6 +1093,26 @@
         <source>History</source>
         <target>Historik</target>
         <note>Toggle history syncing setting</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryButtonTitle">
+        <source>Clear Recent History…</source>
+        <note>Title for button in the history panel to clear recent history</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuOptionTheLastHour">
+        <source>The Last Hour</source>
+        <note>Button to perform action to clear history for the last hour</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuOptionToday">
+        <source>Today</source>
+        <note>Button to perform action to clear history for today only</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuOptionTodayAndYesterday">
+        <source>Today and Yesterday</source>
+        <note>Button to perform action to clear history for yesterday and today</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuTitle">
+        <source>Clearing Recent History will remove history, cookies, and other browser data.</source>
+        <note>Title for popup action menu to clear recent history.</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptyState.Title">
         <source>Websites you’ve visited recently will show up here.</source>
@@ -1574,11 +1602,6 @@
         <target>Artikujt nën Pamjen Lexues i hapni duke prekur ikonën libër, kur shfaqet te shtylla e titullit.</target>
         <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
-      <trans-unit id="Open in New Tab">
-        <source>Open in New Tab</source>
-        <target>Hape në Skedë të Re</target>
-        <note>Context menu item for opening a link in a new tab</note>
-      </trans-unit>
       <trans-unit id="OpenURL.Error.Message">
         <source>Firefox cannot open the page because it has an invalid address.</source>
         <target>Firefox-i s’e hap dot faqen, ngaqë ajo ka një adresë të pavlefshme.</target>
@@ -1618,6 +1641,14 @@
         <source>Firefox Credentials</source>
         <target>Kredenciale Hyrjesh Firefox</target>
         <note>Title of the extension that shows firefox passwords</note>
+      </trans-unit>
+      <trans-unit id="PhotoLibrary.FirefoxWouldLikeAccessMessage">
+        <source>This allows you to save the image to your Camera Roll.</source>
+        <note>See http://mzl.la/1G7uHo7</note>
+      </trans-unit>
+      <trans-unit id="PhotoLibrary.FirefoxWouldLikeAccessTitle">
+        <source>Firefox would like to access your Photos</source>
+        <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="PhotonMenu.close">
         <source>Close</source>
@@ -1688,11 +1719,6 @@
         <source>Sans-serif</source>
         <target>Sans-serif</target>
         <note>Font type setting in the reading view settings</note>
-      </trans-unit>
-      <trans-unit id="Save Image">
-        <source>Save Image</source>
-        <target>Ruaje Figurën</target>
-        <note>Context menu item for saving an image</note>
       </trans-unit>
       <trans-unit id="Save Logins">
         <source>Save Logins</source>
@@ -2069,7 +2095,8 @@
       <trans-unit id="Settings.DisplayTheme.SwitchTitle">
         <source>Automatically</source>
         <target>Vetvetiu</target>
-        <note>Display (theme) settings switch to choose whether to set the dark mode manually, or automatically based on the brightness slider.</note>
+        <note>Display (theme) settings label to show if automatically switch theme is enabled.
+   Display (theme) settings switch to choose whether to set the dark mode manually, or automatically based on the brightness slider.</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.Title">
         <source>Display</source>
@@ -2135,6 +2162,10 @@
         <source>Use Default</source>
         <target>Përdor Parazgjedhjen</target>
         <note>Button in settings to use the default home page. If no default is set, then this button isn't shown.</note>
+      </trans-unit>
+      <trans-unit id="Settings.LoginsAndPasswordsTitle">
+        <source>Logins &amp; Passwords</source>
+        <note>Title for the logins and passwords screen. Translation could just use 'Logins' if the title is too long</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.CustomURL">
         <source>Custom URL</source>
@@ -2406,11 +2437,6 @@
         <target>Të dhëna Sajtesh</target>
         <note>Title displayed in header of the Data Management panel.</note>
       </trans-unit>
-      <trans-unit id="Share Link">
-        <source>Share Link</source>
-        <target>Ndajeni Lidhjen Me të Tjerët</target>
-        <note>Context menu item for sharing a link URL</note>
-      </trans-unit>
       <trans-unit id="ShareExtension.AddToReadingListAction.Title">
         <source>Add to Reading List</source>
         <target>Shtoje te Listë Leximesh</target>
@@ -2636,11 +2662,6 @@
         <source>There was an error converting the page</source>
         <target>Pati një gabim në shndërrimin e faqes</target>
         <note>Error displayed when reader mode cannot be enabled</note>
-      </trans-unit>
-      <trans-unit id="This allows you to save the image to your Camera Roll.">
-        <source>This allows you to save the image to your Camera Roll.</source>
-        <target>Kjo ju lejon të ruani figurën te Camera Roll-i juaj.</target>
-        <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Toasts.NotNow">
         <source>Not Now</source>
@@ -2874,11 +2895,6 @@
         <target>Ndryshuar së fundi më %@</target>
         <note>Footer label describing when the current login was last modified with the timestamp as the parameter.</note>
       </trans-unit>
-      <trans-unit id="Logins">
-        <source>Logins</source>
-        <target>Kredenciale Hyrjesh</target>
-        <note>Title for Logins List View screen.</note>
-      </trans-unit>
       <trans-unit id="Logins will be permanently removed.">
         <source>Logins will be permanently removed.</source>
         <target>Kredencialet e hyrjeve do të hiqen përgjithmonë.</target>
@@ -2946,6 +2962,10 @@
         <target>Mbyll Skedat Private</target>
         <note>Setting for closing private tabs</note>
       </trans-unit>
+      <trans-unit id="ContextMenu.OpenInNewPrivateTab">
+        <source>Open in New Private Tab</source>
+        <note>Context menu option for opening a link in a new private tab</note>
+      </trans-unit>
       <trans-unit id="Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.">
         <source>Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.</source>
         <target>Firefox-i s’do të mbajë mend gjë nga historiku apo cookie-t, por faqerojtësit e rinj do të ruhen.</target>
@@ -2965,11 +2985,6 @@
         <source>On</source>
         <target>On</target>
         <note>Toggled ON accessibility value</note>
-      </trans-unit>
-      <trans-unit id="Open in New Private Tab">
-        <source>Open in New Private Tab</source>
-        <target>Hape në Skedë të Re Private</target>
-        <note>Context menu option for opening a link in a new private tab</note>
       </trans-unit>
       <trans-unit id="Private Browsing">
         <source>Private Browsing</source>
@@ -3037,8 +3052,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3056,8 +3071,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3075,8 +3090,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3094,8 +3109,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3131,74 +3146,62 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="sq">
+  <file original="Shared/Supporting Files/Intro.strings" source-language="en" datatype="plaintext" target-language="sq">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
     <body>
       <trans-unit id="Intro.Slides.Mail.Description">
         <source>Use any email app — not just Mail — with Firefox.</source>
-        <target>Përdorni në Firefox çfarëdo aplikacioni email, jo thjesht Mail-in.</target>
         <note>Description for the 'Mail' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Mail.Title">
         <source>You’ve got mail… options</source>
-        <target>Mundësi për “Erdhi posta!”</target>
         <note>Title for the fourth panel 'Mail' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Private.Description">
         <source>Tap the mask icon to slip into Private Browsing mode.</source>
-        <target>Prekni ikonën maskë që të kaloni nën mënyrën Shfletim Privat.</target>
         <note>Description for the 'Private Browsing' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Private.Title">
         <source>Browse like no one’s watching</source>
-        <target>Shfletoni si të mos ju shihte njeri</target>
         <note>Title for the third panel 'Private Browsing' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Search.Description">
         <source>Searching for something different? Choose another default search engine (or add your own) in Settings.</source>
-        <target>Po kërkoni për diçka tjetër? Zgjidhni te Rregullimet një tjetër motor parazgjedhje kërkimesh (ose shtoni tuajin).</target>
         <note>Description for the 'Favorite Search Engine' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Search.Title">
         <source>Your search, your way</source>
-        <target>Kërkimi juaj, me mënyrën tuaj</target>
         <note>Title for the second  panel 'Search' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Sync.Description">
         <source>Use Sync to find the bookmarks, passwords, and other things you save to Firefox on all your devices.</source>
-        <target>Përdoreni Sync-un që t’i gjeni faqerojtësit, fjalëkalimet dhe të tjera gjëra që ruani në Firefox, në krejt pajisjet tuaja.</target>
         <note>Description for the 'Sync' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Sync.Title">
         <source>Pick up where you left off</source>
-        <target>Vazhdoni atje ku e latë</target>
         <note>Title for the fifth panel 'Sync' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Description">
         <source>A modern mobile browser from Mozilla, the non-profit committed to a free and open web.</source>
-        <target>Një shfletues modern për celularë, nga Mozilla, enti jofitimprurës i përkushtuar një web-i të lirë dhe të hapur.</target>
         <note>Description for the 'Welcome' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Title">
         <source>Thanks for choosing Firefox!</source>
-        <target>Faleminderit për zgjedhjen e Firefox-it!</target>
         <note>Title for the first panel 'Welcome' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Sign in to Firefox">
         <source>Sign in to Firefox</source>
-        <target>Hyni në Firefox</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="Start Browsing">
         <source>Start Browsing</source>
-        <target>Filloni të Shfletoni</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
     </body>
@@ -3337,8 +3340,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3385,8 +3388,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3400,8 +3403,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3415,8 +3418,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3430,8 +3433,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3445,8 +3448,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3460,8 +3463,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3475,8 +3478,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3490,8 +3493,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
