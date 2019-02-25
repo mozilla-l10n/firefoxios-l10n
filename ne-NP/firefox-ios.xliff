@@ -10,8 +10,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -25,8 +25,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -441,8 +441,8 @@
         <target>$(MOZ_PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you take and upload photos.</source>
@@ -741,15 +741,33 @@
         <target>नयाँ ट्याब खुल्यो</target>
         <note>The label text in the Button Toast for switching to a fresh New Tab.</note>
       </trans-unit>
-      <trans-unit id="Copy Image">
+      <trans-unit id="ContextMenu.CopyImage">
         <source>Copy Image</source>
-        <target>तस्बिरको प्रतिलिपि बनाउनुहोस्</target>
         <note>Context menu item for copying an image to the clipboard</note>
       </trans-unit>
-      <trans-unit id="Copy Link">
+      <trans-unit id="ContextMenu.CopyImageLink">
+        <source>Copy Image Link</source>
+        <note>Context menu item for copying an image URL to the clipboard</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.CopyLink">
         <source>Copy Link</source>
-        <target>लिङ्कको प्रतिलिपि बनाउनुहोस्</target>
         <note>Context menu item for copying a link URL to the clipboard</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.DownloadLink">
+        <source>Download Link</source>
+        <note>Context menu item for downloading a link URL</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.OpenInNewTab">
+        <source>Open in New Tab</source>
+        <note>Context menu item for opening a link in a new tab</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.SaveImage">
+        <source>Save Image</source>
+        <note>Context menu item for saving an image</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.ShareLink">
+        <source>Share Link</source>
+        <note>Context menu item for sharing a link URL</note>
       </trans-unit>
       <trans-unit id="Could not add page to Reading List. Maybe it’s already there?">
         <source>Could not add page to Reading List. Maybe it’s already there?</source>
@@ -822,11 +840,6 @@
         <source>Don’t Send</source>
         <target>नपठाउनुहोस्</target>
         <note>Used as a button label for crash dialog prompt</note>
-      </trans-unit>
-      <trans-unit id="Download Link">
-        <source>Download Link</source>
-        <target>डाउनलोड लिङ्क</target>
-        <note>Context menu item for downloading a link URL</note>
       </trans-unit>
       <trans-unit id="Downloads">
         <source>Downloads</source>
@@ -952,11 +965,6 @@
         <target>Facebook</target>
         <note>Tile title for Facebook</note>
       </trans-unit>
-      <trans-unit id="Firefox would like to access your Photos">
-        <source>Firefox would like to access your Photos</source>
-        <target>Firefox ले तपाईँको तस्बिरहरूमा पहुँच बनाउन चाहन्छ</target>
-        <note>See http://mzl.la/1G7uHo7</note>
-      </trans-unit>
       <trans-unit id="Firefox.HomePage.Title">
         <source>Firefox Home Page</source>
         <target>Firefox Home Page</target>
@@ -1081,6 +1089,26 @@
         <source>History</source>
         <target>इतिहास</target>
         <note>Toggle history syncing setting</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryButtonTitle">
+        <source>Clear Recent History…</source>
+        <note>Title for button in the history panel to clear recent history</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuOptionTheLastHour">
+        <source>The Last Hour</source>
+        <note>Button to perform action to clear history for the last hour</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuOptionToday">
+        <source>Today</source>
+        <note>Button to perform action to clear history for today only</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuOptionTodayAndYesterday">
+        <source>Today and Yesterday</source>
+        <note>Button to perform action to clear history for yesterday and today</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuTitle">
+        <source>Clearing Recent History will remove history, cookies, and other browser data.</source>
+        <note>Title for popup action menu to clear recent history.</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptyState.Title">
         <source>Websites you’ve visited recently will show up here.</source>
@@ -1567,11 +1595,6 @@
         <target>Reader View मा लेखहरू हेर्न शीर्षक पट्टीमा रहेको पुस्तक चिनोमा थिच्नुहोस्।</target>
         <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
-      <trans-unit id="Open in New Tab">
-        <source>Open in New Tab</source>
-        <target>नयाँ ट्याबमा खोल्नुहोस्</target>
-        <note>Context menu item for opening a link in a new tab</note>
-      </trans-unit>
       <trans-unit id="OpenURL.Error.Message">
         <source>Firefox cannot open the page because it has an invalid address.</source>
         <target>ठेगाना नमिलेको कारण Firefox ले यो पृष्ठ खोल्न सकेन।</target>
@@ -1608,6 +1631,14 @@
       <trans-unit id="PasswordAutoFill.SectionTitle">
         <source>Firefox Credentials</source>
         <note>Title of the extension that shows firefox passwords</note>
+      </trans-unit>
+      <trans-unit id="PhotoLibrary.FirefoxWouldLikeAccessMessage">
+        <source>This allows you to save the image to your Camera Roll.</source>
+        <note>See http://mzl.la/1G7uHo7</note>
+      </trans-unit>
+      <trans-unit id="PhotoLibrary.FirefoxWouldLikeAccessTitle">
+        <source>Firefox would like to access your Photos</source>
+        <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="PhotonMenu.close">
         <source>Close</source>
@@ -1678,11 +1709,6 @@
         <source>Sans-serif</source>
         <target>सान-सेरिफ</target>
         <note>Font type setting in the reading view settings</note>
-      </trans-unit>
-      <trans-unit id="Save Image">
-        <source>Save Image</source>
-        <target>तस्विर सङ्ग्रह गर्नुहोस्</target>
-        <note>Context menu item for saving an image</note>
       </trans-unit>
       <trans-unit id="Save Logins">
         <source>Save Logins</source>
@@ -2043,7 +2069,8 @@
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.SwitchTitle">
         <source>Automatically</source>
-        <note>Display (theme) settings switch to choose whether to set the dark mode manually, or automatically based on the brightness slider.</note>
+        <note>Display (theme) settings label to show if automatically switch theme is enabled.
+   Display (theme) settings switch to choose whether to set the dark mode manually, or automatically based on the brightness slider.</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.Title">
         <source>Display</source>
@@ -2108,6 +2135,10 @@
         <source>Use Default</source>
         <target>पूर्वनिर्धारित प्रयोग गर्नुहोस्</target>
         <note>Button in settings to use the default home page. If no default is set, then this button isn't shown.</note>
+      </trans-unit>
+      <trans-unit id="Settings.LoginsAndPasswordsTitle">
+        <source>Logins &amp; Passwords</source>
+        <note>Title for the logins and passwords screen. Translation could just use 'Logins' if the title is too long</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.CustomURL">
         <source>Custom URL</source>
@@ -2351,11 +2382,6 @@
         <source>Website Data</source>
         <note>Title displayed in header of the Data Management panel.</note>
       </trans-unit>
-      <trans-unit id="Share Link">
-        <source>Share Link</source>
-        <target>लिङ्क साझा गर्नुहोस्</target>
-        <note>Context menu item for sharing a link URL</note>
-      </trans-unit>
       <trans-unit id="ShareExtension.AddToReadingListAction.Title">
         <source>Add to Reading List</source>
         <target>पढ्ने सूचीमा थप्नुहोस्</target>
@@ -2580,11 +2606,6 @@
         <source>There was an error converting the page</source>
         <target>पृष्ठ परिवर्तन गर्दा त्रुटी आयो</target>
         <note>Error displayed when reader mode cannot be enabled</note>
-      </trans-unit>
-      <trans-unit id="This allows you to save the image to your Camera Roll.">
-        <source>This allows you to save the image to your Camera Roll.</source>
-        <target>यसले तपाईंको चित्रलाई क्यामरा रोलमा सङ्ग्रह गर्न अनुमति दिन्छ।</target>
-        <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Toasts.NotNow">
         <source>Not Now</source>
@@ -2811,11 +2832,6 @@
         <target>पछिल्लो परिमार्जन %@</target>
         <note>Footer label describing when the current login was last modified with the timestamp as the parameter.</note>
       </trans-unit>
-      <trans-unit id="Logins">
-        <source>Logins</source>
-        <target>लग-इनहरू</target>
-        <note>Title for Logins List View screen.</note>
-      </trans-unit>
       <trans-unit id="Logins will be permanently removed.">
         <source>Logins will be permanently removed.</source>
         <target>लग-इनहरू सदाका लागि हटाइनेछन्।</target>
@@ -2883,6 +2899,10 @@
         <target>निजी ट्याबहरू बन्द गर्नुहोस्</target>
         <note>Setting for closing private tabs</note>
       </trans-unit>
+      <trans-unit id="ContextMenu.OpenInNewPrivateTab">
+        <source>Open in New Private Tab</source>
+        <note>Context menu option for opening a link in a new private tab</note>
+      </trans-unit>
       <trans-unit id="Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.">
         <source>Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.</source>
         <target>Firefox ले तपाईँको कुनैपनि ईतिहास र कुकिज सन्चीत गर्ने छैन, तर नयाँ पुस्तकचिनो भने सन्चीत हुनेछ।</target>
@@ -2902,11 +2922,6 @@
         <source>On</source>
         <target>खोल्नुहोस्</target>
         <note>Toggled ON accessibility value</note>
-      </trans-unit>
-      <trans-unit id="Open in New Private Tab">
-        <source>Open in New Private Tab</source>
-        <target>नयाँ निजि ट्याबमा खोल्नुहोस्</target>
-        <note>Context menu option for opening a link in a new private tab</note>
       </trans-unit>
       <trans-unit id="Private Browsing">
         <source>Private Browsing</source>
@@ -2974,8 +2989,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2993,8 +3008,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3012,8 +3027,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3031,8 +3046,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3068,74 +3083,62 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="ne-NP">
+  <file original="Shared/Supporting Files/Intro.strings" source-language="en" datatype="plaintext" target-language="ne-NP">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
     <body>
       <trans-unit id="Intro.Slides.Mail.Description">
         <source>Use any email app — not just Mail — with Firefox.</source>
-        <target>कुनै पनि इमेल एप प्रयोग गर्नुहोस् - मेल मात्र हैन - Firefox को साथमा ।</target>
         <note>Description for the 'Mail' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Mail.Title">
         <source>You’ve got mail… options</source>
-        <target>तपाईँले मेलहरू पाउनु भएको छ … विकल्पहरू</target>
         <note>Title for the fourth panel 'Mail' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Private.Description">
         <source>Tap the mask icon to slip into Private Browsing mode.</source>
-        <target>निजी ब्राउजिङ्ग मोडमा छिर्नको लागि मास्क आइकन मा थिच्नुहोस् ।</target>
         <note>Description for the 'Private Browsing' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Private.Title">
         <source>Browse like no one’s watching</source>
-        <target>कसैले पनि नहेरे झैँ ब्राउज गर्नुहोस्</target>
         <note>Title for the third panel 'Private Browsing' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Search.Description">
         <source>Searching for something different? Choose another default search engine (or add your own) in Settings.</source>
-        <target>केहि फरक खोज्दै हुनुहुन्छ ? सेटिङ्हरूमा अर्को पूर्वनिर्धारित खोजी इञ्जिन छनौट गर्नुहोस् (वा आफ्नै थप्नुहोस्) ।</target>
         <note>Description for the 'Favorite Search Engine' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Search.Title">
         <source>Your search, your way</source>
-        <target>तपाईंको खोजी, तपाईंको बाटो</target>
         <note>Title for the second  panel 'Search' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Sync.Description">
         <source>Use Sync to find the bookmarks, passwords, and other things you save to Firefox on all your devices.</source>
-        <target>तपाईँले Firefox मा संग्रह गर्ने पुस्तकचिनोहरू, पासवर्डहरू र अन्य चीजहरू आफ्नो सबै उपकरणहरूमा फेला पार्न Sync प्रयोग गर्नुहोस् ।</target>
         <note>Description for the 'Sync' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Sync.Title">
         <source>Pick up where you left off</source>
-        <target>तपाईंले जहाँ छोड्नुभयो त्यहिँ बाट छान्नुहोस्</target>
         <note>Title for the fifth panel 'Sync' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Description">
         <source>A modern mobile browser from Mozilla, the non-profit committed to a free and open web.</source>
-        <target>Mozilla - निशुल्क र खुल्ला वेबको लागि प्रतिबद्ध एक गैर-नाफामुलक संस्थाबाट एक आधुनिक मोबाइल ब्राउजर ।</target>
         <note>Description for the 'Welcome' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Title">
         <source>Thanks for choosing Firefox!</source>
-        <target>Firefox छान्नु भएकोमा धन्यबाद!</target>
         <note>Title for the first panel 'Welcome' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Sign in to Firefox">
         <source>Sign in to Firefox</source>
-        <target>Firefox मा साइन इन गर्नुहोस्</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="Start Browsing">
         <source>Start Browsing</source>
-        <target>ब्राउजिङ्ग सुरु गर्नुहोस</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
     </body>
@@ -3272,8 +3275,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3320,8 +3323,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3335,8 +3338,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3350,8 +3353,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3365,8 +3368,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3380,8 +3383,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3395,8 +3398,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3410,8 +3413,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3425,8 +3428,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
