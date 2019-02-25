@@ -10,8 +10,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -25,8 +25,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -431,8 +431,8 @@
         <target>$(MOZ_PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you take and upload photos.</source>
@@ -719,15 +719,33 @@
         <target>Նոր Ներդիր է բացվել</target>
         <note>The label text in the Button Toast for switching to a fresh New Tab.</note>
       </trans-unit>
-      <trans-unit id="Copy Image">
+      <trans-unit id="ContextMenu.CopyImage">
         <source>Copy Image</source>
-        <target>Պատճենել պատկերը</target>
         <note>Context menu item for copying an image to the clipboard</note>
       </trans-unit>
-      <trans-unit id="Copy Link">
+      <trans-unit id="ContextMenu.CopyImageLink">
+        <source>Copy Image Link</source>
+        <note>Context menu item for copying an image URL to the clipboard</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.CopyLink">
         <source>Copy Link</source>
-        <target>Պատճենել հղումը</target>
         <note>Context menu item for copying a link URL to the clipboard</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.DownloadLink">
+        <source>Download Link</source>
+        <note>Context menu item for downloading a link URL</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.OpenInNewTab">
+        <source>Open in New Tab</source>
+        <note>Context menu item for opening a link in a new tab</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.SaveImage">
+        <source>Save Image</source>
+        <note>Context menu item for saving an image</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.ShareLink">
+        <source>Share Link</source>
+        <note>Context menu item for sharing a link URL</note>
       </trans-unit>
       <trans-unit id="Could not add page to Reading List. Maybe it’s already there?">
         <source>Could not add page to Reading List. Maybe it’s already there?</source>
@@ -800,10 +818,6 @@
         <source>Don’t Send</source>
         <target>Չուղարկել</target>
         <note>Used as a button label for crash dialog prompt</note>
-      </trans-unit>
-      <trans-unit id="Download Link">
-        <source>Download Link</source>
-        <note>Context menu item for downloading a link URL</note>
       </trans-unit>
       <trans-unit id="Downloads">
         <source>Downloads</source>
@@ -910,10 +924,6 @@
         <source>Facebook</source>
         <target>Facebook</target>
         <note>Tile title for Facebook</note>
-      </trans-unit>
-      <trans-unit id="Firefox would like to access your Photos">
-        <source>Firefox would like to access your Photos</source>
-        <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Firefox.HomePage.Title">
         <source>Firefox Home Page</source>
@@ -1030,6 +1040,26 @@
         <source>History</source>
         <target>Պատմություն</target>
         <note>Toggle history syncing setting</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryButtonTitle">
+        <source>Clear Recent History…</source>
+        <note>Title for button in the history panel to clear recent history</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuOptionTheLastHour">
+        <source>The Last Hour</source>
+        <note>Button to perform action to clear history for the last hour</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuOptionToday">
+        <source>Today</source>
+        <note>Button to perform action to clear history for today only</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuOptionTodayAndYesterday">
+        <source>Today and Yesterday</source>
+        <note>Button to perform action to clear history for yesterday and today</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuTitle">
+        <source>Clearing Recent History will remove history, cookies, and other browser data.</source>
+        <note>Title for popup action menu to clear recent history.</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptyState.Title">
         <source>Websites you’ve visited recently will show up here.</source>
@@ -1489,11 +1519,6 @@
         <source>Open articles in Reader View by tapping the book icon when it appears in the title bar.</source>
         <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
-      <trans-unit id="Open in New Tab">
-        <source>Open in New Tab</source>
-        <target>Բացել Նոր Ներդիրով</target>
-        <note>Context menu item for opening a link in a new tab</note>
-      </trans-unit>
       <trans-unit id="OpenURL.Error.Message">
         <source>Firefox cannot open the page because it has an invalid address.</source>
         <note>The message displayed to a user when they try to open a URL that cannot be handled by Firefox, or any external app.</note>
@@ -1527,6 +1552,14 @@
       <trans-unit id="PasswordAutoFill.SectionTitle">
         <source>Firefox Credentials</source>
         <note>Title of the extension that shows firefox passwords</note>
+      </trans-unit>
+      <trans-unit id="PhotoLibrary.FirefoxWouldLikeAccessMessage">
+        <source>This allows you to save the image to your Camera Roll.</source>
+        <note>See http://mzl.la/1G7uHo7</note>
+      </trans-unit>
+      <trans-unit id="PhotoLibrary.FirefoxWouldLikeAccessTitle">
+        <source>Firefox would like to access your Photos</source>
+        <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="PhotonMenu.close">
         <source>Close</source>
@@ -1596,11 +1629,6 @@
       <trans-unit id="Sans-serif">
         <source>Sans-serif</source>
         <note>Font type setting in the reading view settings</note>
-      </trans-unit>
-      <trans-unit id="Save Image">
-        <source>Save Image</source>
-        <target>Պահպանել պատկերը</target>
-        <note>Context menu item for saving an image</note>
       </trans-unit>
       <trans-unit id="Save Logins">
         <source>Save Logins</source>
@@ -1951,7 +1979,8 @@
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.SwitchTitle">
         <source>Automatically</source>
-        <note>Display (theme) settings switch to choose whether to set the dark mode manually, or automatically based on the brightness slider.</note>
+        <note>Display (theme) settings label to show if automatically switch theme is enabled.
+   Display (theme) settings switch to choose whether to set the dark mode manually, or automatically based on the brightness slider.</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.Title">
         <source>Display</source>
@@ -2016,6 +2045,10 @@
         <source>Use Default</source>
         <target>Օգտ. լռելյայնը</target>
         <note>Button in settings to use the default home page. If no default is set, then this button isn't shown.</note>
+      </trans-unit>
+      <trans-unit id="Settings.LoginsAndPasswordsTitle">
+        <source>Logins &amp; Passwords</source>
+        <note>Title for the logins and passwords screen. Translation could just use 'Logins' if the title is too long</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.CustomURL">
         <source>Custom URL</source>
@@ -2250,11 +2283,6 @@
         <source>Website Data</source>
         <note>Title displayed in header of the Data Management panel.</note>
       </trans-unit>
-      <trans-unit id="Share Link">
-        <source>Share Link</source>
-        <target>Համօգտագործել հղումը</target>
-        <note>Context menu item for sharing a link URL</note>
-      </trans-unit>
       <trans-unit id="ShareExtension.AddToReadingListAction.Title">
         <source>Add to Reading List</source>
         <note>Action label on share extension to add page to the Firefox reading list.</note>
@@ -2464,10 +2492,6 @@
       <trans-unit id="There was an error converting the page">
         <source>There was an error converting the page</source>
         <note>Error displayed when reader mode cannot be enabled</note>
-      </trans-unit>
-      <trans-unit id="This allows you to save the image to your Camera Roll.">
-        <source>This allows you to save the image to your Camera Roll.</source>
-        <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Toasts.NotNow">
         <source>Not Now</source>
@@ -2692,11 +2716,6 @@
         <target>Վերջին փոփոխված %@-ին</target>
         <note>Footer label describing when the current login was last modified with the timestamp as the parameter.</note>
       </trans-unit>
-      <trans-unit id="Logins">
-        <source>Logins</source>
-        <target>Մուտքագրումներ</target>
-        <note>Title for Logins List View screen.</note>
-      </trans-unit>
       <trans-unit id="Logins will be permanently removed.">
         <source>Logins will be permanently removed.</source>
         <target>Մուտքագրումները վերջնականապես կհեռացվեն:</target>
@@ -2763,6 +2782,10 @@
         <target>Փակել Գաղտնի ներդիրները</target>
         <note>Setting for closing private tabs</note>
       </trans-unit>
+      <trans-unit id="ContextMenu.OpenInNewPrivateTab">
+        <source>Open in New Private Tab</source>
+        <note>Context menu option for opening a link in a new private tab</note>
+      </trans-unit>
       <trans-unit id="Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.">
         <source>Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.</source>
         <note>Description text displayed when there are no open tabs while in private mode</note>
@@ -2781,11 +2804,6 @@
         <source>On</source>
         <target>Միաց.</target>
         <note>Toggled ON accessibility value</note>
-      </trans-unit>
-      <trans-unit id="Open in New Private Tab">
-        <source>Open in New Private Tab</source>
-        <target>Բացել Գաղտնի դիտարկման ներդիրով</target>
-        <note>Context menu option for opening a link in a new private tab</note>
       </trans-unit>
       <trans-unit id="Private Browsing">
         <source>Private Browsing</source>
@@ -2851,8 +2869,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2870,8 +2888,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2889,8 +2907,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2908,8 +2926,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2945,12 +2963,12 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="hy-AM">
+  <file original="Shared/Supporting Files/Intro.strings" source-language="en" datatype="plaintext" target-language="hy-AM">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -2961,7 +2979,6 @@
       </trans-unit>
       <trans-unit id="Intro.Slides.Mail.Title">
         <source>You’ve got mail… options</source>
-        <target>Դուք ստացել եք նամակ... ընտրանքներ</target>
         <note>Title for the fourth panel 'Mail' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Private.Description">
@@ -2994,17 +3011,14 @@
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Title">
         <source>Thanks for choosing Firefox!</source>
-        <target>Շնորհակալություն Firefox-ը նախընտրելու համար:</target>
         <note>Title for the first panel 'Welcome' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Sign in to Firefox">
         <source>Sign in to Firefox</source>
-        <target>Մուտք գործել Firefox</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="Start Browsing">
         <source>Start Browsing</source>
-        <target>Սկսել դիտարկումը</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
     </body>
@@ -3140,8 +3154,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3188,8 +3202,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3203,8 +3217,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3218,8 +3232,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3233,8 +3247,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3248,8 +3262,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3263,8 +3277,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3278,8 +3292,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3293,8 +3307,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
