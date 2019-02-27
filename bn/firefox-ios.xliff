@@ -10,8 +10,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -25,8 +25,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -441,8 +441,8 @@
         <target>$(MOZ_PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you take and upload photos.</source>
@@ -724,6 +724,10 @@
         <target>ট্যাব বন্ধ হচ্ছে</target>
         <note>Accessibility label (used by assistive technology) notifying the user that the tab is being closed.</note>
       </trans-unit>
+      <trans-unit id="ContextMenu.BookmarkLinkButtonTitle">
+        <source>Bookmark Link</source>
+        <note>Context menu item for bookmarking a link URL</note>
+      </trans-unit>
       <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.ButtonText">
         <source>Switch</source>
         <target>পরিবর্তন</target>
@@ -744,15 +748,33 @@
         <target>নতুন ট্যাব খোলা হয়েছে</target>
         <note>The label text in the Button Toast for switching to a fresh New Tab.</note>
       </trans-unit>
-      <trans-unit id="Copy Image">
+      <trans-unit id="ContextMenu.CopyImageButtonTitle">
         <source>Copy Image</source>
-        <target>ছবি কপি করুন</target>
         <note>Context menu item for copying an image to the clipboard</note>
       </trans-unit>
-      <trans-unit id="Copy Link">
+      <trans-unit id="ContextMenu.CopyImageLinkButtonTitle">
+        <source>Copy Image Link</source>
+        <note>Context menu item for copying an image URL to the clipboard</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.CopyLinkButtonTitle">
         <source>Copy Link</source>
-        <target>লিংক কপি করুন</target>
         <note>Context menu item for copying a link URL to the clipboard</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.DownloadLinkButtonTitle">
+        <source>Download Link</source>
+        <note>Context menu item for downloading a link URL</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.OpenInNewTabButtonTitle">
+        <source>Open in New Tab</source>
+        <note>Context menu item for opening a link in a new tab</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.SaveImageButtonTitle">
+        <source>Save Image</source>
+        <note>Context menu item for saving an image</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.ShareLinkButtonTitle">
+        <source>Share Link</source>
+        <note>Context menu item for sharing a link URL</note>
       </trans-unit>
       <trans-unit id="Could not add page to Reading List. Maybe it’s already there?">
         <source>Could not add page to Reading List. Maybe it’s already there?</source>
@@ -825,11 +847,6 @@
         <source>Don’t Send</source>
         <target>প্রেরন করবেন না</target>
         <note>Used as a button label for crash dialog prompt</note>
-      </trans-unit>
-      <trans-unit id="Download Link">
-        <source>Download Link</source>
-        <target>ডাউনলোড লিংক</target>
-        <note>Context menu item for downloading a link URL</note>
       </trans-unit>
       <trans-unit id="Downloads">
         <source>Downloads</source>
@@ -956,11 +973,6 @@
         <target>ফেইসবুক</target>
         <note>Tile title for Facebook</note>
       </trans-unit>
-      <trans-unit id="Firefox would like to access your Photos">
-        <source>Firefox would like to access your Photos</source>
-        <target>Firefox আপনার ছবিগুলির মধ্যে প্রবেশাধিকার চায়</target>
-        <note>See http://mzl.la/1G7uHo7</note>
-      </trans-unit>
       <trans-unit id="Firefox.HomePage.Title">
         <source>Firefox Home Page</source>
         <target>Firefox Home Page</target>
@@ -1085,6 +1097,26 @@
         <source>History</source>
         <target>ইতিহাস</target>
         <note>Toggle history syncing setting</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryButtonTitle">
+        <source>Clear Recent History…</source>
+        <note>Title for button in the history panel to clear recent history</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuOptionTheLastHour">
+        <source>The Last Hour</source>
+        <note>Button to perform action to clear history for the last hour</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuOptionToday">
+        <source>Today</source>
+        <note>Button to perform action to clear history for today only</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuOptionTodayAndYesterday">
+        <source>Today and Yesterday</source>
+        <note>Button to perform action to clear history for yesterday and today</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuTitle">
+        <source>Clearing Recent History will remove history, cookies, and other browser data.</source>
+        <note>Title for popup action menu to clear recent history.</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptyState.Title">
         <source>Websites you’ve visited recently will show up here.</source>
@@ -1322,6 +1354,14 @@
         <target>লগইনগুলি</target>
         <note>Toggle logins syncing setting</note>
       </trans-unit>
+      <trans-unit id="LoginsDetailView.LoginModified">
+        <source>Modified</source>
+        <note>Login detail view field name for the last modified date</note>
+      </trans-unit>
+      <trans-unit id="LoginsDetailView.LoginTitle">
+        <source>Login</source>
+        <note>Title for the login detail view</note>
+      </trans-unit>
       <trans-unit id="LoginsHelper.DontSave.Button">
         <source>Don’t Save</source>
         <target>সেভ করবেন না</target>
@@ -1356,6 +1396,26 @@
         <source>Update</source>
         <target>আপডেট করুন</target>
         <note>Button to update the user's password</note>
+      </trans-unit>
+      <trans-unit id="LoginsList.LoginsListFilterLogin">
+        <source>Login</source>
+        <note>For filtering the login list, search only the login names</note>
+      </trans-unit>
+      <trans-unit id="LoginsList.LoginsListFilterSearchAll">
+        <source>All</source>
+        <note>For filtering the login list, search both website and login names.</note>
+      </trans-unit>
+      <trans-unit id="LoginsList.LoginsListFilterWebsite">
+        <source>Website</source>
+        <note>For filtering the login list, search only the website names</note>
+      </trans-unit>
+      <trans-unit id="LoginsList.LoginsListSearchPlaceholder">
+        <source>Filter</source>
+        <note>Placeholder test for search box in logins list view.</note>
+      </trans-unit>
+      <trans-unit id="LoginsList.Title">
+        <source>SAVED LOGINS</source>
+        <note>Title for the list of logins</note>
       </trans-unit>
       <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?">
         <source>Looks like Firefox crashed previously. Would you like to restore your tabs?</source>
@@ -1574,11 +1634,6 @@
         <target>টাইটেলবারে বইয়ের আইকনটি এলে সেটিতে ট্যাপ করে রিডার ভিউতে আর্টিকেলগুলি দেখুন।</target>
         <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
-      <trans-unit id="Open in New Tab">
-        <source>Open in New Tab</source>
-        <target>নতুন ট্যাবের মধ্যে খুলুন</target>
-        <note>Context menu item for opening a link in a new tab</note>
-      </trans-unit>
       <trans-unit id="OpenURL.Error.Message">
         <source>Firefox cannot open the page because it has an invalid address.</source>
         <target>Firefox পাতাটি খুলতে পাচ্ছে না কারণ এটিই অবৈধ ঠিকানা।</target>
@@ -1618,6 +1673,14 @@
         <source>Firefox Credentials</source>
         <target>Firefox লগইন তথ্য</target>
         <note>Title of the extension that shows firefox passwords</note>
+      </trans-unit>
+      <trans-unit id="PhotoLibrary.FirefoxWouldLikeAccessMessage">
+        <source>This allows you to save the image to your Camera Roll.</source>
+        <note>See http://mzl.la/1G7uHo7</note>
+      </trans-unit>
+      <trans-unit id="PhotoLibrary.FirefoxWouldLikeAccessTitle">
+        <source>Firefox would like to access your Photos</source>
+        <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="PhotonMenu.close">
         <source>Close</source>
@@ -1688,16 +1751,6 @@
         <source>Sans-serif</source>
         <target>Sans-serif</target>
         <note>Font type setting in the reading view settings</note>
-      </trans-unit>
-      <trans-unit id="Save Image">
-        <source>Save Image</source>
-        <target>ছবি সংরক্ষণ করুন</target>
-        <note>Context menu item for saving an image</note>
-      </trans-unit>
-      <trans-unit id="Save Logins">
-        <source>Save Logins</source>
-        <target>লগইন সংরক্ষিত করুন</target>
-        <note>Setting to enable the built-in password manager</note>
       </trans-unit>
       <trans-unit id="Save pages to your Reading List by tapping the book plus icon in the Reader View controls.">
         <source>Save pages to your Reading List by tapping the book plus icon in the Reader View controls.</source>
@@ -2069,7 +2122,8 @@
       <trans-unit id="Settings.DisplayTheme.SwitchTitle">
         <source>Automatically</source>
         <target>স্বয়ংক্রিয়ভাবে</target>
-        <note>Display (theme) settings switch to choose whether to set the dark mode manually, or automatically based on the brightness slider.</note>
+        <note>Display (theme) settings label to show if automatically switch theme is enabled.
+   Display (theme) settings switch to choose whether to set the dark mode manually, or automatically based on the brightness slider.</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.Title">
         <source>Display</source>
@@ -2135,6 +2189,10 @@
         <source>Use Default</source>
         <target>ডিফল্ট ব্যবহার করুন</target>
         <note>Button in settings to use the default home page. If no default is set, then this button isn't shown.</note>
+      </trans-unit>
+      <trans-unit id="Settings.LoginsAndPasswordsTitle">
+        <source>Logins &amp; Passwords</source>
+        <note>Title for the logins and passwords screen. Translation could just use 'Logins' if the title is too long</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.CustomURL">
         <source>Custom URL</source>
@@ -2251,6 +2309,10 @@
         <target>মেইল অ্যাপ</target>
         <note>Label used as an item in Settings. When touched it will open a dialog to configure the open with (mail links) behaviour.</note>
       </trans-unit>
+      <trans-unit id="Settings.SaveLogins.Title">
+        <source>Save Logins</source>
+        <note>Setting to enable the built-in password manager</note>
+      </trans-unit>
       <trans-unit id="Settings.Search.Done.Button">
         <source>Done</source>
         <target>হয়ে গেছে</target>
@@ -2275,6 +2337,10 @@
         <source>Send Usage Data</source>
         <target>ব্যবহারের উপাত্ত প্রেরণ করুন</target>
         <note>The title for the setting to send usage data.</note>
+      </trans-unit>
+      <trans-unit id="Settings.ShowLoginsInAppMenu.Title">
+        <source>Show in Application Menu</source>
+        <note>Setting to show Logins &amp; Passwords quick access in the application menu</note>
       </trans-unit>
       <trans-unit id="Settings.Siri.OpenTabShortcut">
         <source>Open New Tab</source>
@@ -2405,11 +2471,6 @@
         <source>Website Data</source>
         <target>ওয়েবসাইট ডাটা</target>
         <note>Title displayed in header of the Data Management panel.</note>
-      </trans-unit>
-      <trans-unit id="Share Link">
-        <source>Share Link</source>
-        <target>লিঙ্ক শেয়ার করুন</target>
-        <note>Context menu item for sharing a link URL</note>
       </trans-unit>
       <trans-unit id="ShareExtension.AddToReadingListAction.Title">
         <source>Add to Reading List</source>
@@ -2636,11 +2697,6 @@
         <source>There was an error converting the page</source>
         <target>পাতা রূপান্তর করার সময় একটি ত্রুটি ছিল</target>
         <note>Error displayed when reader mode cannot be enabled</note>
-      </trans-unit>
-      <trans-unit id="This allows you to save the image to your Camera Roll.">
-        <source>This allows you to save the image to your Camera Roll.</source>
-        <target>এটি ছবিটিকে আপনার ক্যামেরা রোলের মধ্যে সেভ করতে অনুমতি দেয়।</target>
-        <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Toasts.NotNow">
         <source>Not Now</source>
@@ -2874,11 +2930,6 @@
         <target>সর্বশেষ পরিবর্তন %@</target>
         <note>Footer label describing when the current login was last modified with the timestamp as the parameter.</note>
       </trans-unit>
-      <trans-unit id="Logins">
-        <source>Logins</source>
-        <target>লগইনগুলি</target>
-        <note>Title for Logins List View screen.</note>
-      </trans-unit>
       <trans-unit id="Logins will be permanently removed.">
         <source>Logins will be permanently removed.</source>
         <target>লগইনগুলি স্থায়ীভাবে মুছে ফেলা হবে।</target>
@@ -2898,6 +2949,10 @@
         <source>Open &amp; Fill</source>
         <target>খুলুন আর পূরণ করুন</target>
         <note>Open and Fill website text selection menu item</note>
+      </trans-unit>
+      <trans-unit id="Password">
+        <source>Password</source>
+        <note>Label displayed above the password row in Login Detail View.</note>
       </trans-unit>
       <trans-unit id="Reveal">
         <source>Reveal</source>
@@ -2919,19 +2974,12 @@
         <target>সবগুলো নির্বাচন করুন</target>
         <note>Label for the button used to select all logins.</note>
       </trans-unit>
-      <trans-unit id="password">
-        <source>password</source>
-        <target>পাসওয়ার্ড</target>
-        <note>Label displayed above the password row in Login Detail View.</note>
-      </trans-unit>
-      <trans-unit id="username">
-        <source>username</source>
-        <target>উজারনেম</target>
+      <trans-unit id="Username">
+        <source>Username</source>
         <note>Label displayed above the username row in Login Detail View.</note>
       </trans-unit>
-      <trans-unit id="website">
-        <source>website</source>
-        <target>ওয়েবসাইট</target>
+      <trans-unit id="Website">
+        <source>Website</source>
         <note>Label displayed above the website row in Login Detail View.</note>
       </trans-unit>
     </body>
@@ -2945,6 +2993,10 @@
         <source>Close Private Tabs</source>
         <target>ব্যক্তিগত ট্যাবগুলি বন্ধ করুন</target>
         <note>Setting for closing private tabs</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.OpenInNewPrivateTabButtonTitle">
+        <source>Open in New Private Tab</source>
+        <note>Context menu option for opening a link in a new private tab</note>
       </trans-unit>
       <trans-unit id="Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.">
         <source>Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.</source>
@@ -2965,11 +3017,6 @@
         <source>On</source>
         <target>চালু</target>
         <note>Toggled ON accessibility value</note>
-      </trans-unit>
-      <trans-unit id="Open in New Private Tab">
-        <source>Open in New Private Tab</source>
-        <target>নতুন ব্যক্তিগত ট্যাবে খুলুন</target>
-        <note>Context menu option for opening a link in a new private tab</note>
       </trans-unit>
       <trans-unit id="Private Browsing">
         <source>Private Browsing</source>
@@ -3037,8 +3084,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3056,8 +3103,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3075,8 +3122,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3094,8 +3141,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3131,74 +3178,62 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="bn">
+  <file original="Shared/Supporting Files/Intro.strings" source-language="en" datatype="plaintext" target-language="bn">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
     <body>
       <trans-unit id="Intro.Slides.Mail.Description">
         <source>Use any email app — not just Mail — with Firefox.</source>
-        <target>ফায়ারফক্সের সাথে - শুধুমাত্র মেইল নয় - যেকোনো ইমেইল অ্যাপ ব্যবহার করুন।</target>
         <note>Description for the 'Mail' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Mail.Title">
         <source>You’ve got mail… options</source>
-        <target>আপনার মেইল এসেছে… অপশনসমূহ</target>
         <note>Title for the fourth panel 'Mail' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Private.Description">
         <source>Tap the mask icon to slip into Private Browsing mode.</source>
-        <target>ব্যাক্তিগত ব্রাউজিং মোডে চলে যেতে মুখোশ চিহ্ন স্পর্শ করুন।</target>
         <note>Description for the 'Private Browsing' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Private.Title">
         <source>Browse like no one’s watching</source>
-        <target>ব্রাউজ করুন এমন ভাবে, যেনো কেউ দেখছে না।</target>
         <note>Title for the third panel 'Private Browsing' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Search.Description">
         <source>Searching for something different? Choose another default search engine (or add your own) in Settings.</source>
-        <target>ভিন্ন কিছু খুঁজছেন? সেটিংস থেকে অন্য আরেকটি ডিফল্ট সার্চ ইঞ্জিন পছন্দ (অথবা নিজের যুক্ত) করুন।</target>
         <note>Description for the 'Favorite Search Engine' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Search.Title">
         <source>Your search, your way</source>
-        <target>আপনার খোঁজ, আপনার পথ</target>
         <note>Title for the second  panel 'Search' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Sync.Description">
         <source>Use Sync to find the bookmarks, passwords, and other things you save to Firefox on all your devices.</source>
-        <target>বুকমার্ক, পাসওয়ার্ড এবং অন্যান্য জিনিস যা আপনি Firefox এ সংরক্ষণ করে থাকেন, তা আপনার সকল ডিভাইসে পেতে হলে, সিঙ্ক ব্যবহার করুন।</target>
         <note>Description for the 'Sync' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Sync.Title">
         <source>Pick up where you left off</source>
-        <target>যেখানে আপনি রেখেছিলেন সেখান থেকেই শুরু করুন</target>
         <note>Title for the fifth panel 'Sync' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Description">
         <source>A modern mobile browser from Mozilla, the non-profit committed to a free and open web.</source>
-        <target>একটি আধুনিক মোবাইল ব্রাউজার Mozilla থেকে, যারা একটি অলাভজনক প্রতিষ্ঠান এবং উন্মুক্ত ওয়েবের জন্যে প্রতিজ্ঞাবদ্ধ।</target>
         <note>Description for the 'Welcome' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Title">
         <source>Thanks for choosing Firefox!</source>
-        <target>Firefox নির্বাচন করার জন্য ধন্যবাদ!</target>
         <note>Title for the first panel 'Welcome' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Sign in to Firefox">
         <source>Sign in to Firefox</source>
-        <target>সাইন ইন করুন Firefox এ</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="Start Browsing">
         <source>Start Browsing</source>
-        <target>ব্রাউজিং করা শুরু করুন</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
     </body>
@@ -3337,8 +3372,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3385,8 +3420,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3400,8 +3435,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3415,8 +3450,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3430,8 +3465,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3445,8 +3480,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3460,8 +3495,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3475,8 +3510,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3490,8 +3525,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
