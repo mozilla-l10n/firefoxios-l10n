@@ -10,8 +10,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -25,8 +25,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -434,8 +434,8 @@
         <target>$(MOZ_PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you take and upload photos.</source>
@@ -705,6 +705,10 @@
         <target>Ichki oyna yopilmoqda</target>
         <note>Accessibility label (used by assistive technology) notifying the user that the tab is being closed.</note>
       </trans-unit>
+      <trans-unit id="ContextMenu.BookmarkLinkButtonTitle">
+        <source>Bookmark Link</source>
+        <note>Context menu item for bookmarking a link URL</note>
+      </trans-unit>
       <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.ButtonText">
         <source>Switch</source>
         <target>Almashish</target>
@@ -725,15 +729,33 @@
         <target>Yangi ichki oyna ochildi</target>
         <note>The label text in the Button Toast for switching to a fresh New Tab.</note>
       </trans-unit>
-      <trans-unit id="Copy Image">
+      <trans-unit id="ContextMenu.CopyImageButtonTitle">
         <source>Copy Image</source>
-        <target>Resmi kopyala</target>
         <note>Context menu item for copying an image to the clipboard</note>
       </trans-unit>
-      <trans-unit id="Copy Link">
+      <trans-unit id="ContextMenu.CopyImageLinkButtonTitle">
+        <source>Copy Image Link</source>
+        <note>Context menu item for copying an image URL to the clipboard</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.CopyLinkButtonTitle">
         <source>Copy Link</source>
-        <target>Bağlantıyı kopyala</target>
         <note>Context menu item for copying a link URL to the clipboard</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.DownloadLinkButtonTitle">
+        <source>Download Link</source>
+        <note>Context menu item for downloading a link URL</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.OpenInNewTabButtonTitle">
+        <source>Open in New Tab</source>
+        <note>Context menu item for opening a link in a new tab</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.SaveImageButtonTitle">
+        <source>Save Image</source>
+        <note>Context menu item for saving an image</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.ShareLinkButtonTitle">
+        <source>Share Link</source>
+        <note>Context menu item for sharing a link URL</note>
       </trans-unit>
       <trans-unit id="Could not add page to Reading List. Maybe it’s already there?">
         <source>Could not add page to Reading List. Maybe it’s already there?</source>
@@ -806,10 +828,6 @@
         <source>Don’t Send</source>
         <target>Jo‘natilmasin</target>
         <note>Used as a button label for crash dialog prompt</note>
-      </trans-unit>
-      <trans-unit id="Download Link">
-        <source>Download Link</source>
-        <note>Context menu item for downloading a link URL</note>
       </trans-unit>
       <trans-unit id="Downloads">
         <source>Downloads</source>
@@ -920,11 +938,6 @@
         <target>Facebook</target>
         <note>Tile title for Facebook</note>
       </trans-unit>
-      <trans-unit id="Firefox would like to access your Photos">
-        <source>Firefox would like to access your Photos</source>
-        <target>Firefox "Rasmlar"ingizdan foydalanmoqchi</target>
-        <note>See http://mzl.la/1G7uHo7</note>
-      </trans-unit>
       <trans-unit id="Firefox.HomePage.Title">
         <source>Firefox Home Page</source>
         <target>Firefox bosh sahifasi</target>
@@ -1029,6 +1042,26 @@
         <source>History</source>
         <target>Tarix</target>
         <note>Toggle history syncing setting</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryButtonTitle">
+        <source>Clear Recent History…</source>
+        <note>Title for button in the history panel to clear recent history</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuOptionTheLastHour">
+        <source>The Last Hour</source>
+        <note>Button to perform action to clear history for the last hour</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuOptionToday">
+        <source>Today</source>
+        <note>Button to perform action to clear history for today only</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuOptionTodayAndYesterday">
+        <source>Today and Yesterday</source>
+        <note>Button to perform action to clear history for yesterday and today</note>
+      </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuTitle">
+        <source>Clearing Recent History will remove history, cookies, and other browser data.</source>
+        <note>Title for popup action menu to clear recent history.</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptyState.Title">
         <source>Websites you’ve visited recently will show up here.</source>
@@ -1253,6 +1286,14 @@
         <target>Loginlar</target>
         <note>Toggle logins syncing setting</note>
       </trans-unit>
+      <trans-unit id="LoginsDetailView.LoginModified">
+        <source>Modified</source>
+        <note>Login detail view field name for the last modified date</note>
+      </trans-unit>
+      <trans-unit id="LoginsDetailView.LoginTitle">
+        <source>Login</source>
+        <note>Title for the login detail view</note>
+      </trans-unit>
       <trans-unit id="LoginsHelper.DontSave.Button">
         <source>Don’t Save</source>
         <target>Saqlanmasin</target>
@@ -1286,6 +1327,26 @@
         <source>Update</source>
         <target>Yangilash</target>
         <note>Button to update the user's password</note>
+      </trans-unit>
+      <trans-unit id="LoginsList.LoginsListFilterLogin">
+        <source>Login</source>
+        <note>For filtering the login list, search only the login names</note>
+      </trans-unit>
+      <trans-unit id="LoginsList.LoginsListFilterSearchAll">
+        <source>All</source>
+        <note>For filtering the login list, search both website and login names.</note>
+      </trans-unit>
+      <trans-unit id="LoginsList.LoginsListFilterWebsite">
+        <source>Website</source>
+        <note>For filtering the login list, search only the website names</note>
+      </trans-unit>
+      <trans-unit id="LoginsList.LoginsListSearchPlaceholder">
+        <source>Filter</source>
+        <note>Placeholder test for search box in logins list view.</note>
+      </trans-unit>
+      <trans-unit id="LoginsList.Title">
+        <source>SAVED LOGINS</source>
+        <note>Title for the list of logins</note>
       </trans-unit>
       <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?">
         <source>Looks like Firefox crashed previously. Would you like to restore your tabs?</source>
@@ -1475,11 +1536,6 @@
         <target>Kitobning rasmchasi nom panelida paydo bo‘lsa, uning ustiga bosib, maqolalarni "O‘qish rejimi"da ochishingiz mumkin.</target>
         <note>See http://mzl.la/1LXbDOL</note>
       </trans-unit>
-      <trans-unit id="Open in New Tab">
-        <source>Open in New Tab</source>
-        <target>Yangi ichki oynada ochish</target>
-        <note>Context menu item for opening a link in a new tab</note>
-      </trans-unit>
       <trans-unit id="OpenURL.Error.Message">
         <source>Firefox cannot open the page because it has an invalid address.</source>
         <target>Xato manzil kiritilganligi uchun Firefox bu sahifani ocha olmaydi.</target>
@@ -1515,6 +1571,14 @@
       <trans-unit id="PasswordAutoFill.SectionTitle">
         <source>Firefox Credentials</source>
         <note>Title of the extension that shows firefox passwords</note>
+      </trans-unit>
+      <trans-unit id="PhotoLibrary.FirefoxWouldLikeAccessMessage">
+        <source>This allows you to save the image to your Camera Roll.</source>
+        <note>See http://mzl.la/1G7uHo7</note>
+      </trans-unit>
+      <trans-unit id="PhotoLibrary.FirefoxWouldLikeAccessTitle">
+        <source>Firefox would like to access your Photos</source>
+        <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="PhotonMenu.close">
         <source>Close</source>
@@ -1583,16 +1647,6 @@
         <source>Sans-serif</source>
         <target>Sans-serif</target>
         <note>Font type setting in the reading view settings</note>
-      </trans-unit>
-      <trans-unit id="Save Image">
-        <source>Save Image</source>
-        <target>Resmi kaydet</target>
-        <note>Context menu item for saving an image</note>
-      </trans-unit>
-      <trans-unit id="Save Logins">
-        <source>Save Logins</source>
-        <target>Loginlarni saqlash</target>
-        <note>Setting to enable the built-in password manager</note>
       </trans-unit>
       <trans-unit id="Save pages to your Reading List by tapping the book plus icon in the Reader View controls.">
         <source>Save pages to your Reading List by tapping the book plus icon in the Reader View controls.</source>
@@ -1926,7 +1980,8 @@
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.SwitchTitle">
         <source>Automatically</source>
-        <note>Display (theme) settings switch to choose whether to set the dark mode manually, or automatically based on the brightness slider.</note>
+        <note>Display (theme) settings label to show if automatically switch theme is enabled.
+   Display (theme) settings switch to choose whether to set the dark mode manually, or automatically based on the brightness slider.</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.Title">
         <source>Display</source>
@@ -1987,6 +2042,10 @@
         <source>Use Default</source>
         <target>Standart bosh sahifadan foydalanish</target>
         <note>Button in settings to use the default home page. If no default is set, then this button isn't shown.</note>
+      </trans-unit>
+      <trans-unit id="Settings.LoginsAndPasswordsTitle">
+        <source>Logins &amp; Passwords</source>
+        <note>Title for the logins and passwords screen. Translation could just use 'Logins' if the title is too long</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.CustomURL">
         <source>Custom URL</source>
@@ -2083,6 +2142,10 @@
         <source>Mail App</source>
         <note>Label used as an item in Settings. When touched it will open a dialog to configure the open with (mail links) behaviour.</note>
       </trans-unit>
+      <trans-unit id="Settings.SaveLogins.Title">
+        <source>Save Logins</source>
+        <note>Setting to enable the built-in password manager</note>
+      </trans-unit>
       <trans-unit id="Settings.Search.Done.Button">
         <source>Done</source>
         <target>Tayyor</target>
@@ -2104,6 +2167,10 @@
       <trans-unit id="Settings.SendUsage.Title">
         <source>Send Usage Data</source>
         <note>The title for the setting to send usage data.</note>
+      </trans-unit>
+      <trans-unit id="Settings.ShowLoginsInAppMenu.Title">
+        <source>Show in Application Menu</source>
+        <note>Setting to show Logins &amp; Passwords quick access in the application menu</note>
       </trans-unit>
       <trans-unit id="Settings.Siri.OpenTabShortcut">
         <source>Open New Tab</source>
@@ -2209,11 +2276,6 @@
       <trans-unit id="Settings.WebsiteData.Title">
         <source>Website Data</source>
         <note>Title displayed in header of the Data Management panel.</note>
-      </trans-unit>
-      <trans-unit id="Share Link">
-        <source>Share Link</source>
-        <target>Havolani bo‘lishish</target>
-        <note>Context menu item for sharing a link URL</note>
       </trans-unit>
       <trans-unit id="ShareExtension.AddToReadingListAction.Title">
         <source>Add to Reading List</source>
@@ -2423,11 +2485,6 @@
         <source>There was an error converting the page</source>
         <target>Sahifa formatini o‘zgartirishda xato yuz berdi</target>
         <note>Error displayed when reader mode cannot be enabled</note>
-      </trans-unit>
-      <trans-unit id="This allows you to save the image to your Camera Roll.">
-        <source>This allows you to save the image to your Camera Roll.</source>
-        <target>U rasmni kamera jildiga saqlashga ruxsat beradi.</target>
-        <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="Toasts.NotNow">
         <source>Not Now</source>
@@ -2651,11 +2708,6 @@
         <target>Oxirgi o‘zgartirish: %@</target>
         <note>Footer label describing when the current login was last modified with the timestamp as the parameter.</note>
       </trans-unit>
-      <trans-unit id="Logins">
-        <source>Logins</source>
-        <target>Loginlar</target>
-        <note>Title for Logins List View screen.</note>
-      </trans-unit>
       <trans-unit id="Logins will be permanently removed.">
         <source>Logins will be permanently removed.</source>
         <target>Loginlar butunlay olib tashlanadi.</target>
@@ -2675,6 +2727,10 @@
         <source>Open &amp; Fill</source>
         <target>Ochish va to‘ldirish</target>
         <note>Open and Fill website text selection menu item</note>
+      </trans-unit>
+      <trans-unit id="Password">
+        <source>Password</source>
+        <note>Label displayed above the password row in Login Detail View.</note>
       </trans-unit>
       <trans-unit id="Reveal">
         <source>Reveal</source>
@@ -2696,19 +2752,12 @@
         <target>Barchasini tanlash</target>
         <note>Label for the button used to select all logins.</note>
       </trans-unit>
-      <trans-unit id="password">
-        <source>password</source>
-        <target>parol</target>
-        <note>Label displayed above the password row in Login Detail View.</note>
-      </trans-unit>
-      <trans-unit id="username">
-        <source>username</source>
-        <target>foydalanuvchi nomi</target>
+      <trans-unit id="Username">
+        <source>Username</source>
         <note>Label displayed above the username row in Login Detail View.</note>
       </trans-unit>
-      <trans-unit id="website">
-        <source>website</source>
-        <target>veb sayt</target>
+      <trans-unit id="Website">
+        <source>Website</source>
         <note>Label displayed above the website row in Login Detail View.</note>
       </trans-unit>
     </body>
@@ -2722,6 +2771,10 @@
         <source>Close Private Tabs</source>
         <target>Maxfiy ichki oynalarni yopish</target>
         <note>Setting for closing private tabs</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.OpenInNewPrivateTabButtonTitle">
+        <source>Open in New Private Tab</source>
+        <note>Context menu option for opening a link in a new private tab</note>
       </trans-unit>
       <trans-unit id="Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.">
         <source>Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.</source>
@@ -2742,11 +2795,6 @@
         <source>On</source>
         <target>Yoqib qo‘yish</target>
         <note>Toggled ON accessibility value</note>
-      </trans-unit>
-      <trans-unit id="Open in New Private Tab">
-        <source>Open in New Private Tab</source>
-        <target>Yangi maxfiy ichki oynada ochish</target>
-        <note>Context menu option for opening a link in a new private tab</note>
       </trans-unit>
       <trans-unit id="Private Browsing">
         <source>Private Browsing</source>
@@ -2814,8 +2862,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2833,8 +2881,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2852,8 +2900,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2871,8 +2919,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -2908,12 +2956,12 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="uz">
+  <file original="Shared/Supporting Files/Intro.strings" source-language="en" datatype="plaintext" target-language="uz">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -2960,12 +3008,10 @@
       </trans-unit>
       <trans-unit id="Sign in to Firefox">
         <source>Sign in to Firefox</source>
-        <target>Firefox’a giriş yap</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="Start Browsing">
         <source>Start Browsing</source>
-        <target>Gezinmeye başla</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
     </body>
@@ -3092,8 +3138,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3140,8 +3186,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3155,8 +3201,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3170,8 +3216,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3185,8 +3231,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3200,8 +3246,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3215,8 +3261,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3230,8 +3276,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3245,8 +3291,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>14.0</source>
-        <target>14.0</target>
+        <source>16.0</source>
+        <target>16.0</target>
       </trans-unit>
     </body>
   </file>
