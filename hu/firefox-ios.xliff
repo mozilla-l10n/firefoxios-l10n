@@ -2930,6 +2930,10 @@
         <target>Másolás</target>
         <note>Copy password text selection menu item</note>
       </trans-unit>
+      <trans-unit id="Created %@">
+        <source>Created %@</source>
+        <note>Label describing when the current login was created with the timestamp as the parameter.</note>
+      </trans-unit>
       <trans-unit id="Delete">
         <source>Delete</source>
         <target>Törlés</target>
@@ -2950,11 +2954,6 @@
         <target>Elrejtés</target>
         <note>Hide password text selection menu item</note>
       </trans-unit>
-      <trans-unit id="Last modified %@">
-        <source>Last modified %@</source>
-        <target>Legutóbbi módosítás: %@</target>
-        <note>Footer label describing when the current login was last modified with the timestamp as the parameter.</note>
-      </trans-unit>
       <trans-unit id="Logins will be permanently removed.">
         <source>Logins will be permanently removed.</source>
         <target>A bejelentkezések véglegesen eltávolításra kerülnek.</target>
@@ -2964,6 +2963,10 @@
         <source>Logins will be removed from all connected devices.</source>
         <target>A bejelentkezések eltávolításra kerülnek minden összekapcsolt eszközről.</target>
         <note>Prompt message warning the user that deleted logins will remove logins from all connected devices</note>
+      </trans-unit>
+      <trans-unit id="Modified %@">
+        <source>Modified %@</source>
+        <note>Label describing when the current login was last modified with the timestamp as the parameter.</note>
       </trans-unit>
       <trans-unit id="No logins found">
         <source>No logins found</source>
@@ -3310,8 +3313,7 @@
         <note>Label for the button, displayed in the menu, used to open the toolbar to search for text within the current page.</note>
       </trans-unit>
       <trans-unit id="Menu.Library.Title">
-        <source>Library</source>
-        <target>Könyvtár</target>
+        <source>Your Library</source>
         <note>Label for the button, displayed in the menu, used to open the Library</note>
       </trans-unit>
       <trans-unit id="Menu.NewPrivateTabAction.Title">
