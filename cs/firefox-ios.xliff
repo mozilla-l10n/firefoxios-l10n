@@ -84,22 +84,22 @@
       </trans-unit>
       <trans-unit id="After 1 minute">
         <source>After 1 minute</source>
-        <target>Po 1 minutě</target>
+        <target>1 minutě</target>
         <note>'After 1 minute' interval item for selecting when to require passcode</note>
       </trans-unit>
       <trans-unit id="After 5 minutes">
         <source>After 5 minutes</source>
-        <target>Po 5 minutách</target>
+        <target>5 minutách</target>
         <note>'After 5 minutes' interval item for selecting when to require passcode</note>
       </trans-unit>
       <trans-unit id="After 10 minutes">
         <source>After 10 minutes</source>
-        <target>Po 10 minutách</target>
+        <target>10 minutách</target>
         <note>'After 10 minutes' interval item for selecting when to require passcode</note>
       </trans-unit>
       <trans-unit id="After 15 minutes">
         <source>After 15 minutes</source>
-        <target>Po 15 minutách</target>
+        <target>15 minutách</target>
         <note>'After 15 minutes' interval item for selecting when to require passcode</note>
       </trans-unit>
       <trans-unit id="Change Passcode">
@@ -179,7 +179,7 @@
       </trans-unit>
       <trans-unit id="Require Passcode">
         <source>Require Passcode</source>
-        <target>Vyžadovat heslo</target>
+        <target>Vyžadovat heslo po</target>
         <note>Text displayed in the 'Interval' section, followed by the current interval setting, e.g. 'Immediately'</note>
       </trans-unit>
       <trans-unit id="Set Passcode">
@@ -194,12 +194,12 @@
       </trans-unit>
       <trans-unit id="Turn Passcode Off">
         <source>Turn Passcode Off</source>
-        <target>Přestat požadovat heslo</target>
+        <target>Přestat používat heslo</target>
         <note>Label used as a setting item to turn off passcode</note>
       </trans-unit>
       <trans-unit id="Turn Passcode On">
         <source>Turn Passcode On</source>
-        <target>Požadovat heslo</target>
+        <target>Používat heslo</target>
         <note>Label used as a setting item to turn on passcode</note>
       </trans-unit>
       <trans-unit id="Use Face ID">
@@ -726,6 +726,7 @@
       </trans-unit>
       <trans-unit id="ContextMenu.BookmarkLinkButtonTitle">
         <source>Bookmark Link</source>
+        <target>Přidat do záložek</target>
         <note>Context menu item for bookmarking a link URL</note>
       </trans-unit>
       <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.ButtonText">
@@ -750,30 +751,37 @@
       </trans-unit>
       <trans-unit id="ContextMenu.CopyImageButtonTitle">
         <source>Copy Image</source>
+        <target>Kopírovat obrázek</target>
         <note>Context menu item for copying an image to the clipboard</note>
       </trans-unit>
       <trans-unit id="ContextMenu.CopyImageLinkButtonTitle">
         <source>Copy Image Link</source>
+        <target>Kopírovat adresu obrázku</target>
         <note>Context menu item for copying an image URL to the clipboard</note>
       </trans-unit>
       <trans-unit id="ContextMenu.CopyLinkButtonTitle">
         <source>Copy Link</source>
+        <target>Kopírovat odkaz</target>
         <note>Context menu item for copying a link URL to the clipboard</note>
       </trans-unit>
       <trans-unit id="ContextMenu.DownloadLinkButtonTitle">
         <source>Download Link</source>
+        <target>Stáhnout</target>
         <note>Context menu item for downloading a link URL</note>
       </trans-unit>
       <trans-unit id="ContextMenu.OpenInNewTabButtonTitle">
         <source>Open in New Tab</source>
+        <target>Otevřít v novém panelu</target>
         <note>Context menu item for opening a link in a new tab</note>
       </trans-unit>
       <trans-unit id="ContextMenu.SaveImageButtonTitle">
         <source>Save Image</source>
+        <target>Uložit obrázek</target>
         <note>Context menu item for saving an image</note>
       </trans-unit>
       <trans-unit id="ContextMenu.ShareLinkButtonTitle">
         <source>Share Link</source>
+        <target>Sdílet odkaz</target>
         <note>Context menu item for sharing a link URL</note>
       </trans-unit>
       <trans-unit id="Could not add page to Reading List. Maybe it’s already there?">
@@ -1100,22 +1108,27 @@
       </trans-unit>
       <trans-unit id="HistoryPanel.ClearHistoryButtonTitle">
         <source>Clear Recent History…</source>
+        <target>Vymazat nedávnou historii…</target>
         <note>Title for button in the history panel to clear recent history</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.ClearHistoryMenuOptionTheLastHour">
         <source>The Last Hour</source>
+        <target>Poslední hodina</target>
         <note>Button to perform action to clear history for the last hour</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.ClearHistoryMenuOptionToday">
         <source>Today</source>
+        <target>Dnešek</target>
         <note>Button to perform action to clear history for today only</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.ClearHistoryMenuOptionTodayAndYesterday">
         <source>Today and Yesterday</source>
+        <target>Dnešek a včerejšek</target>
         <note>Button to perform action to clear history for yesterday and today</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.ClearHistoryMenuTitle">
         <source>Clearing Recent History will remove history, cookies, and other browser data.</source>
+        <target>Smazání nedávné historie odstraní historii prohlížení, cookies a další data.</target>
         <note>Title for popup action menu to clear recent history.</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptyState.Title">
@@ -1356,10 +1369,12 @@
       </trans-unit>
       <trans-unit id="LoginsDetailView.LoginModified">
         <source>Modified</source>
+        <target>Upraveno</target>
         <note>Login detail view field name for the last modified date</note>
       </trans-unit>
       <trans-unit id="LoginsDetailView.LoginTitle">
         <source>Login</source>
+        <target>Přihlašovací údaje</target>
         <note>Title for the login detail view</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.DontSave.Button">
@@ -1399,22 +1414,27 @@
       </trans-unit>
       <trans-unit id="LoginsList.LoginsListFilterLogin">
         <source>Login</source>
+        <target>Uživatelské jméno</target>
         <note>For filtering the login list, search only the login names</note>
       </trans-unit>
       <trans-unit id="LoginsList.LoginsListFilterSearchAll">
         <source>All</source>
+        <target>Vše</target>
         <note>For filtering the login list, search both website and login names.</note>
       </trans-unit>
       <trans-unit id="LoginsList.LoginsListFilterWebsite">
         <source>Website</source>
+        <target>Server</target>
         <note>For filtering the login list, search only the website names</note>
       </trans-unit>
       <trans-unit id="LoginsList.LoginsListSearchPlaceholder">
         <source>Filter</source>
+        <target>Hledat</target>
         <note>Placeholder test for search box in logins list view.</note>
       </trans-unit>
       <trans-unit id="LoginsList.Title">
         <source>SAVED LOGINS</source>
+        <target>ULOŽENÉ PŘIHLAŠOVACÍ ÚDAJE</target>
         <note>Title for the list of logins</note>
       </trans-unit>
       <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?">
@@ -1676,10 +1696,12 @@
       </trans-unit>
       <trans-unit id="PhotoLibrary.FirefoxWouldLikeAccessMessage">
         <source>This allows you to save the image to your Camera Roll.</source>
+        <target>Toto vám umožní ukládat obrázky do vaší složky Camera Roll.</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="PhotoLibrary.FirefoxWouldLikeAccessTitle">
         <source>Firefox would like to access your Photos</source>
+        <target>Firefox žádá o přístup k vašim Fotografiím</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="PhotonMenu.close">
@@ -2192,6 +2214,7 @@
       </trans-unit>
       <trans-unit id="Settings.LoginsAndPasswordsTitle">
         <source>Logins &amp; Passwords</source>
+        <target>Přihlašovací údaje</target>
         <note>Title for the logins and passwords screen. Translation could just use 'Logins' if the title is too long</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.CustomURL">
@@ -2425,7 +2448,7 @@
       </trans-unit>
       <trans-unit id="Settings.TranslateSnackBar.SwitchSubtitle">
         <source>Offer to translate any site written in a language that is different from your default language.</source>
-        <target>Nabízet překlad webových stránek do vašeho výchozího jazyka.</target>
+        <target>Nabízet překlad stránek do vašeho jazyka.</target>
         <note>Switch to choose if the language of a page is detected and offer to translate.</note>
       </trans-unit>
       <trans-unit id="Settings.TranslateSnackBar.SwitchTitle">
@@ -2435,7 +2458,7 @@
       </trans-unit>
       <trans-unit id="Settings.TranslateSnackBar.Title">
         <source>Translation</source>
-        <target>Překlady</target>
+        <target>Překladač</target>
         <note>Title in main app settings for Translation toast settings</note>
       </trans-unit>
       <trans-unit id="Settings.TroubleShootSync.Title">
@@ -2908,6 +2931,7 @@
       </trans-unit>
       <trans-unit id="Created %@">
         <source>Created %@</source>
+        <target>Uloženo %@</target>
         <note>Label describing when the current login was created with the timestamp as the parameter.</note>
       </trans-unit>
       <trans-unit id="Delete">
@@ -2942,6 +2966,7 @@
       </trans-unit>
       <trans-unit id="Modified %@">
         <source>Modified %@</source>
+        <target>Změněno %@</target>
         <note>Label describing when the current login was last modified with the timestamp as the parameter.</note>
       </trans-unit>
       <trans-unit id="No logins found">
@@ -2956,6 +2981,7 @@
       </trans-unit>
       <trans-unit id="Password">
         <source>Password</source>
+        <target>Heslo</target>
         <note>Label displayed above the password row in Login Detail View.</note>
       </trans-unit>
       <trans-unit id="Reveal">
@@ -2980,10 +3006,12 @@
       </trans-unit>
       <trans-unit id="Username">
         <source>Username</source>
+        <target>Uživatelské jméno</target>
         <note>Label displayed above the username row in Login Detail View.</note>
       </trans-unit>
       <trans-unit id="Website">
         <source>Website</source>
+        <target>Server</target>
         <note>Label displayed above the website row in Login Detail View.</note>
       </trans-unit>
     </body>
@@ -3000,6 +3028,7 @@
       </trans-unit>
       <trans-unit id="ContextMenu.OpenInNewPrivateTabButtonTitle">
         <source>Open in New Private Tab</source>
+        <target>Otevřít v anonymním panelu</target>
         <note>Context menu option for opening a link in a new private tab</note>
       </trans-unit>
       <trans-unit id="Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.">
@@ -3286,6 +3315,7 @@
       </trans-unit>
       <trans-unit id="Menu.Library.Title">
         <source>Your Library</source>
+        <target>Knihovna</target>
         <note>Label for the button, displayed in the menu, used to open the Library</note>
       </trans-unit>
       <trans-unit id="Menu.NewPrivateTabAction.Title">
