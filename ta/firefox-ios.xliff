@@ -10,8 +10,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -25,8 +25,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -441,8 +441,8 @@
         <target>$(MOZ_PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you take and upload photos.</source>
@@ -523,35 +523,15 @@
         <target>முனையிலிருந்து நீக்குக</target>
         <note>The title for removing a pinned topsite action</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.HighlightIntro.Description">
-        <source>Firefox will place things here that you’ve discovered on the web so you can find your way back to the great articles, videos, bookmarks and other pages</source>
-        <target>பயர்பாஃசு உலாவி நீங்கள் இணையத்தில் தேடிப் பார்த்தவற்றைச் சிறப்புக் கூறுகளாக உருவாக்கி உயரிய கட்டுரைகள் காணொளிகள், புத்தகக்குறிகள் பிற பக்கங்கள் ஆகியவற்றைக் காண வழிச் செய்கிறது.</target>
-        <note>The detailed text that explains what highlights are in AS.</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.HighlightIntro.Title">
-        <source>Be on the Lookout</source>
-        <target>பாருங்கள்</target>
-        <note>The title that appears for the introduction to highlights in AS.</note>
-      </trans-unit>
       <trans-unit id="ActivityStream.Highlights.Bookmark">
         <source>Bookmarked</source>
         <target>புத்தகக்குறியிட்டது</target>
         <note>The description of a highlight if it is a site the user has bookmarked</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.Highlights.Title">
-        <source>Highlights</source>
-        <target>மிளிர்ப்புகள்</target>
-        <note>Section title label for the Highlights section</note>
-      </trans-unit>
       <trans-unit id="ActivityStream.Highlights.Visited">
         <source>Visited</source>
         <target>பார்வையிட்டது</target>
         <note>The description of a highlight if it is a site the user has visited</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.PageControl.Button">
-        <source>Next Page</source>
-        <target>அடுத்த பக்கம்</target>
-        <note>The page control button that lets you switch between pages in top sites</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Pocket.MoreLink">
         <source>More</source>
@@ -567,6 +547,14 @@
         <source>Trending</source>
         <target>பிரபலமான</target>
         <note>The description of a Pocket Story</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.RecentBookmarks.Title">
+        <source>Recently Bookmarked</source>
+        <note>Section title label for recently bookmarked websites</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.RecentHistory.Title">
+        <source>Recently Visited</source>
+        <note>Section title label for recently visited websites</note>
       </trans-unit>
       <trans-unit id="ActivityStream.TopSites.RowCount">
         <source>Rows: %d</source>
@@ -1333,17 +1321,6 @@
         <target>உள்ளடக்கங்களை ஏற்று…</target>
         <note>Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
-      <trans-unit id="Log Out">
-        <source>Log Out</source>
-        <target>வெளியேறு</target>
-        <note>Button in settings screen to disconnect from your account
-   Disconnect button in the 'log out firefox account' alert</note>
-      </trans-unit>
-      <trans-unit id="Log Out?">
-        <source>Log Out?</source>
-        <target>வெளியேறவா?</target>
-        <note>Title of the 'log out firefox account' alert</note>
-      </trans-unit>
       <trans-unit id="Log in">
         <source>Log in</source>
         <target>உள்நுழை</target>
@@ -1573,6 +1550,10 @@
         <source>Enable for this site</source>
         <target>இந்த தளத்தில் இயக்கு</target>
         <note>label for the menu item that lets you remove a website from the tracking protection whitelist</note>
+      </trans-unit>
+      <trans-unit id="Menu.WhatsNew.Title">
+        <source>What's New</source>
+        <note>The title for the option to view the What's new page.</note>
       </trans-unit>
       <trans-unit id="Missing error">
         <source>Missing error</source>
@@ -2038,6 +2019,10 @@
         <source>Clear Private Data</source>
         <target>அந்தரங்க தரவைத் துடை</target>
         <note>Title displayed in header of the setting panel.</note>
+      </trans-unit>
+      <trans-unit id="Settings.CopyAppVersion.Title">
+        <source>Copied to clipboard</source>
+        <note>Copy app version alert shown in settings.</note>
       </trans-unit>
       <trans-unit id="Settings.DNT.OptionAlwaysOn">
         <source>Always</source>
@@ -3087,8 +3072,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3106,8 +3091,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3125,8 +3110,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3144,8 +3129,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3181,8 +3166,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3222,13 +3207,11 @@
         <note>Title for the second  panel 'Search' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Sync.Description">
-        <source>Use Sync to find the bookmarks, passwords, and other things you save to Firefox on all your devices.</source>
-        <target>பயர்பாக்சு உலாவியில் நீங்கள் சேமிக்கும் புத்தகக்குறிகள், கடவுச்சொற்கள், பிறவற்றை உங்கள் எல்லா கருவிகளிலும் எடுக்க ஒத்திசைவைப் பயன்படுத்தவும்.</target>
+        <source>Get your bookmarks, history and passwords on all your devices.</source>
         <note>Description for the 'Sync' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Sync.Title">
-        <source>Pick up where you left off</source>
-        <target>நீங்கள் விட்டுவிட்ட இடத்தில் எடு</target>
+        <source>Take Firefox with You</source>
         <note>Title for the fifth panel 'Sync' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Description">
@@ -3241,14 +3224,13 @@
         <target>பயர்பாஃசைத் தேர்வு செய்தமைக்கு நன்றி!</target>
         <note>Title for the first panel 'Welcome' in the First Run tour.</note>
       </trans-unit>
-      <trans-unit id="Sign in to Firefox">
-        <source>Sign in to Firefox</source>
-        <target>பயர்பாஃசில் உள்நுழை</target>
-        <note>See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
       <trans-unit id="Start Browsing">
         <source>Start Browsing</source>
         <target>உலாவத் தொடங்குங்கள்</target>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Turn on Sync...">
+        <source>Turn on Sync...</source>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
     </body>
@@ -3332,6 +3314,10 @@
         <target>முதன்மை தளங்கள்</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the Top Sites home panel.</note>
       </trans-unit>
+      <trans-unit id="Menu.PageSourceAction.Title">
+        <source>View Page Source</source>
+        <note>Label for the button, displayed in the menu, used to show the html page source</note>
+      </trans-unit>
       <trans-unit id="Menu.RemoveBookmarkAction.Title">
         <source>Remove Bookmark</source>
         <target>புத்தகக்குறியை நீக்கு</target>
@@ -3386,8 +3372,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3434,8 +3420,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3449,8 +3435,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3464,8 +3450,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3479,8 +3465,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3494,8 +3480,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3509,8 +3495,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3524,8 +3510,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3539,8 +3525,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>14.0</source>
+        <target>14.0</target>
       </trans-unit>
     </body>
   </file>
