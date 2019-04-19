@@ -523,35 +523,15 @@
         <target>Odstránenie pripnutej stránky</target>
         <note>The title for removing a pinned topsite action</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.HighlightIntro.Description">
-        <source>Firefox will place things here that you’ve discovered on the web so you can find your way back to the great articles, videos, bookmarks and other pages</source>
-        <target>Firefox odteraz vytvára výber vecí, ktoré ste na webe objavili. Ľahko sa tak môžete dostať naspäť k zaujímavým článkom, videám, záložkám a iným stránkam</target>
-        <note>The detailed text that explains what highlights are in AS.</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.HighlightIntro.Title">
-        <source>Be on the Lookout</source>
-        <target>Pozor, pozor</target>
-        <note>The title that appears for the introduction to highlights in AS.</note>
-      </trans-unit>
       <trans-unit id="ActivityStream.Highlights.Bookmark">
         <source>Bookmarked</source>
         <target>V záložkách</target>
         <note>The description of a highlight if it is a site the user has bookmarked</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.Highlights.Title">
-        <source>Highlights</source>
-        <target>Vybrané stránky</target>
-        <note>Section title label for the Highlights section</note>
-      </trans-unit>
       <trans-unit id="ActivityStream.Highlights.Visited">
         <source>Visited</source>
         <target>Navštívené</target>
         <note>The description of a highlight if it is a site the user has visited</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.PageControl.Button">
-        <source>Next Page</source>
-        <target>Ďalšia stránka</target>
-        <note>The page control button that lets you switch between pages in top sites</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Pocket.MoreLink">
         <source>More</source>
@@ -567,6 +547,14 @@
         <source>Trending</source>
         <target>Trendy</target>
         <note>The description of a Pocket Story</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.RecentBookmarks.Title">
+        <source>Recently Bookmarked</source>
+        <note>Section title label for recently bookmarked websites</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.RecentHistory.Title">
+        <source>Recently Visited</source>
+        <note>Section title label for recently visited websites</note>
       </trans-unit>
       <trans-unit id="ActivityStream.TopSites.RowCount">
         <source>Rows: %d</source>
@@ -1346,17 +1334,6 @@
         <target>Obsah sa načítava…</target>
         <note>Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
-      <trans-unit id="Log Out">
-        <source>Log Out</source>
-        <target>Odhlásiť sa</target>
-        <note>Button in settings screen to disconnect from your account
-   Disconnect button in the 'log out firefox account' alert</note>
-      </trans-unit>
-      <trans-unit id="Log Out?">
-        <source>Log Out?</source>
-        <target>Odhlásiť sa?</target>
-        <note>Title of the 'log out firefox account' alert</note>
-      </trans-unit>
       <trans-unit id="Log in">
         <source>Log in</source>
         <target>Prihlásiť sa</target>
@@ -1593,6 +1570,10 @@
         <source>Enable for this site</source>
         <target>Povoliť pre túto stránku</target>
         <note>label for the menu item that lets you remove a website from the tracking protection whitelist</note>
+      </trans-unit>
+      <trans-unit id="Menu.WhatsNew.Title">
+        <source>What's New</source>
+        <note>The title for the option to view the What's new page.</note>
       </trans-unit>
       <trans-unit id="Missing error">
         <source>Missing error</source>
@@ -2060,6 +2041,10 @@
         <source>Clear Private Data</source>
         <target>Vymazanie súkromných údajov</target>
         <note>Title displayed in header of the setting panel.</note>
+      </trans-unit>
+      <trans-unit id="Settings.CopyAppVersion.Title">
+        <source>Copied to clipboard</source>
+        <note>Copy app version alert shown in settings.</note>
       </trans-unit>
       <trans-unit id="Settings.DNT.OptionAlwaysOn">
         <source>Always</source>
@@ -3232,6 +3217,14 @@
         <target>Možnosti e-mailu</target>
         <note>Title for the fourth panel 'Mail' in the First Run tour.</note>
       </trans-unit>
+      <trans-unit id="Intro.Slides.NewSync.Description">
+        <source>Get your bookmarks, history and passwords on all your devices.</source>
+        <note>Description for the 'Sync' panel in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.NewSync.Title">
+        <source>Take Firefox with You</source>
+        <note>Title for the fifth panel 'Sync' in the First Run tour.</note>
+      </trans-unit>
       <trans-unit id="Intro.Slides.Private.Description">
         <source>Tap the mask icon to slip into Private Browsing mode.</source>
         <target>Ťuknite na ikonu masky a prejdite do režimu Súkromné prehliadanie.</target>
@@ -3252,16 +3245,6 @@
         <target>Prehliadanie podľa vás</target>
         <note>Title for the second  panel 'Search' in the First Run tour.</note>
       </trans-unit>
-      <trans-unit id="Intro.Slides.Sync.Description">
-        <source>Use Sync to find the bookmarks, passwords, and other things you save to Firefox on all your devices.</source>
-        <target>Nájdite pomocou služby Sync záložky, heslá a ďalšie veci, ktoré ste si uložili do Firefoxu na všetkých svojich zariadeniach.</target>
-        <note>Description for the 'Sync' panel in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Sync.Title">
-        <source>Pick up where you left off</source>
-        <target>Pokračujte tam, kde ste prestali</target>
-        <note>Title for the fifth panel 'Sync' in the First Run tour.</note>
-      </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Description">
         <source>A modern mobile browser from Mozilla, the non-profit committed to a free and open web.</source>
         <target>Moderný mobilný prehliadač od Mozilly - neziskovej organizácie, odhodlanej chrániť slobodný a otvorený web.</target>
@@ -3272,15 +3255,14 @@
         <target>Ďakujeme, že ste si vybrali Firefox!</target>
         <note>Title for the first panel 'Welcome' in the First Run tour.</note>
       </trans-unit>
-      <trans-unit id="Sign in to Firefox">
-        <source>Sign in to Firefox</source>
-        <target>Prihlásiť sa do Firefoxu</target>
-        <note>See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
       <trans-unit id="Start Browsing">
         <source>Start Browsing</source>
         <target>Začať prehliadanie</target>
         <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Turn on Sync…">
+        <source>Turn on Sync…</source>
+        <note>The button that opens the sign in page for sync. See http://mzl.la/1T8gxwo</note>
       </trans-unit>
     </body>
   </file>
@@ -3363,6 +3345,10 @@
         <source>Top Sites</source>
         <target>Top stránky</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the Top Sites home panel.</note>
+      </trans-unit>
+      <trans-unit id="Menu.PageSourceAction.Title">
+        <source>View Page Source</source>
+        <note>Label for the button, displayed in the menu, used to show the html page source</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveBookmarkAction.Title">
         <source>Remove Bookmark</source>

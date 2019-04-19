@@ -523,35 +523,15 @@
         <target>Eliminar sitio pegado</target>
         <note>The title for removing a pinned topsite action</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.HighlightIntro.Description">
-        <source>Firefox will place things here that you’ve discovered on the web so you can find your way back to the great articles, videos, bookmarks and other pages</source>
-        <target>Firefox colocará aquí lo que vayas descubriendo en la web para que puedas acceder rápidamente a los mejores artículos, videos, marcadores y otras páginas</target>
-        <note>The detailed text that explains what highlights are in AS.</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.HighlightIntro.Title">
-        <source>Be on the Lookout</source>
-        <target>Estate atento</target>
-        <note>The title that appears for the introduction to highlights in AS.</note>
-      </trans-unit>
       <trans-unit id="ActivityStream.Highlights.Bookmark">
         <source>Bookmarked</source>
         <target>Marcado</target>
         <note>The description of a highlight if it is a site the user has bookmarked</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.Highlights.Title">
-        <source>Highlights</source>
-        <target>Destacados</target>
-        <note>Section title label for the Highlights section</note>
-      </trans-unit>
       <trans-unit id="ActivityStream.Highlights.Visited">
         <source>Visited</source>
         <target>Visitados</target>
         <note>The description of a highlight if it is a site the user has visited</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.PageControl.Button">
-        <source>Next Page</source>
-        <target>Página siguiente</target>
-        <note>The page control button that lets you switch between pages in top sites</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Pocket.MoreLink">
         <source>More</source>
@@ -567,6 +547,14 @@
         <source>Trending</source>
         <target>Tendencias</target>
         <note>The description of a Pocket Story</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.RecentBookmarks.Title">
+        <source>Recently Bookmarked</source>
+        <note>Section title label for recently bookmarked websites</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.RecentHistory.Title">
+        <source>Recently Visited</source>
+        <note>Section title label for recently visited websites</note>
       </trans-unit>
       <trans-unit id="ActivityStream.TopSites.RowCount">
         <source>Rows: %d</source>
@@ -1346,17 +1334,6 @@
         <target>Cargando contenido…</target>
         <note>Message displayed when the reader mode page is loading. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
-      <trans-unit id="Log Out">
-        <source>Log Out</source>
-        <target>Cerrar sesión</target>
-        <note>Button in settings screen to disconnect from your account
-   Disconnect button in the 'log out firefox account' alert</note>
-      </trans-unit>
-      <trans-unit id="Log Out?">
-        <source>Log Out?</source>
-        <target>¿Cerrar sesión?</target>
-        <note>Title of the 'log out firefox account' alert</note>
-      </trans-unit>
       <trans-unit id="Log in">
         <source>Log in</source>
         <target>Iniciar sesión</target>
@@ -1593,6 +1570,10 @@
         <source>Enable for this site</source>
         <target>Habilitar para este sitio</target>
         <note>label for the menu item that lets you remove a website from the tracking protection whitelist</note>
+      </trans-unit>
+      <trans-unit id="Menu.WhatsNew.Title">
+        <source>What's New</source>
+        <note>The title for the option to view the What's new page.</note>
       </trans-unit>
       <trans-unit id="Missing error">
         <source>Missing error</source>
@@ -2060,6 +2041,10 @@
         <source>Clear Private Data</source>
         <target>Borrar datos privados</target>
         <note>Title displayed in header of the setting panel.</note>
+      </trans-unit>
+      <trans-unit id="Settings.CopyAppVersion.Title">
+        <source>Copied to clipboard</source>
+        <note>Copy app version alert shown in settings.</note>
       </trans-unit>
       <trans-unit id="Settings.DNT.OptionAlwaysOn">
         <source>Always</source>
@@ -3232,6 +3217,14 @@
         <target>Tenés nuevas opciones… de correo</target>
         <note>Title for the fourth panel 'Mail' in the First Run tour.</note>
       </trans-unit>
+      <trans-unit id="Intro.Slides.NewSync.Description">
+        <source>Get your bookmarks, history and passwords on all your devices.</source>
+        <note>Description for the 'Sync' panel in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.NewSync.Title">
+        <source>Take Firefox with You</source>
+        <note>Title for the fifth panel 'Sync' in the First Run tour.</note>
+      </trans-unit>
       <trans-unit id="Intro.Slides.Private.Description">
         <source>Tap the mask icon to slip into Private Browsing mode.</source>
         <target>Pulsá el ícono de la máscara para cambiar al modo de Navegación privada.</target>
@@ -3252,16 +3245,6 @@
         <target>Tu búsqueda, a tu manera</target>
         <note>Title for the second  panel 'Search' in the First Run tour.</note>
       </trans-unit>
-      <trans-unit id="Intro.Slides.Sync.Description">
-        <source>Use Sync to find the bookmarks, passwords, and other things you save to Firefox on all your devices.</source>
-        <target>Usá Sync para encontrar los marcadores, contraseñas y otras cosas que guardás en Firefox en todos tus dispositivos.</target>
-        <note>Description for the 'Sync' panel in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Sync.Title">
-        <source>Pick up where you left off</source>
-        <target>Continuá desde donde dejaste</target>
-        <note>Title for the fifth panel 'Sync' in the First Run tour.</note>
-      </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Description">
         <source>A modern mobile browser from Mozilla, the non-profit committed to a free and open web.</source>
         <target>Un navegador móvil moderno de Mozilla, la fundación sin fines de lucro comprometida con la web libre y abierta.</target>
@@ -3272,15 +3255,14 @@
         <target>¡Gracias por elegir Firefox!</target>
         <note>Title for the first panel 'Welcome' in the First Run tour.</note>
       </trans-unit>
-      <trans-unit id="Sign in to Firefox">
-        <source>Sign in to Firefox</source>
-        <target>Ingresar a Firefox</target>
-        <note>See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
       <trans-unit id="Start Browsing">
         <source>Start Browsing</source>
         <target>Empezar a navegar</target>
         <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Turn on Sync…">
+        <source>Turn on Sync…</source>
+        <note>The button that opens the sign in page for sync. See http://mzl.la/1T8gxwo</note>
       </trans-unit>
     </body>
   </file>
@@ -3363,6 +3345,10 @@
         <source>Top Sites</source>
         <target>Más visitados</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the Top Sites home panel.</note>
+      </trans-unit>
+      <trans-unit id="Menu.PageSourceAction.Title">
+        <source>View Page Source</source>
+        <note>Label for the button, displayed in the menu, used to show the html page source</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveBookmarkAction.Title">
         <source>Remove Bookmark</source>
