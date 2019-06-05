@@ -10,8 +10,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>17.0</source>
+        <target>17.0</target>
       </trans-unit>
     </body>
   </file>
@@ -25,8 +25,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>17.0</source>
+        <target>17.0</target>
       </trans-unit>
     </body>
   </file>
@@ -229,50 +229,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/BookmarkPanel.strings" source-language="en" datatype="plaintext" target-language="ur">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="Delete">
-        <source>Delete</source>
-        <target>حذف کریں</target>
-        <note>Action button for deleting bookmarks in the bookmarks panel.</note>
-      </trans-unit>
-      <trans-unit id="Desktop Bookmarks">
-        <source>Desktop Bookmarks</source>
-        <target>ڈیسک ٹاپ نشانیاں</target>
-        <note>The folder name for the virtual folder that contains all desktop bookmarks.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Client/BookmarkPanelDeleteConfirm.strings" source-language="en" datatype="plaintext" target-language="ur">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="Are you sure you want to delete it and its contents?">
-        <source>Are you sure you want to delete it and its contents?</source>
-        <target>کیا آپ کو یقین ہے کہ آپ اسے اور ااس کے مواد کو حزف کرنا چاہتے ہیں؟</target>
-        <note>Main body of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
-      </trans-unit>
-      <trans-unit id="Cancel">
-        <source>Cancel</source>
-        <target>منسوخ کریں</target>
-        <note>Button label to cancel deletion when the user tried to delete a non-empty folder.</note>
-      </trans-unit>
-      <trans-unit id="Delete">
-        <source>Delete</source>
-        <target>حذف کریں</target>
-        <note>Button label for the button that deletes a folder and all of its children.</note>
-      </trans-unit>
-      <trans-unit id="This folder isn’t empty.">
-        <source>This folder isn’t empty.</source>
-        <target>یہ پوشہ خالی نہیں ہے۔</target>
-        <note>Title of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="Client/ClearHistoryConfirm.strings" source-language="en" datatype="plaintext" target-language="ur">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
@@ -441,8 +397,8 @@
         <target>$(MOZ_PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>17.0</source>
+        <target>17.0</target>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you take and upload photos.</source>
@@ -548,7 +504,7 @@
         <note>The description of a Pocket Story</note>
       </trans-unit>
       <trans-unit id="ActivityStream.RecentBookmarks.Title">
-        <source>Recently Bookmarked</source>
+        <source>Recent Bookmarks</source>
         <note>Section title label for recently bookmarked websites</note>
       </trans-unit>
       <trans-unit id="ActivityStream.RecentHistory.Title">
@@ -631,15 +587,34 @@
         <target>پوپ اپ دریچے بلاک کریں</target>
         <note>Block pop-up windows setting</note>
       </trans-unit>
+      <trans-unit id="Bookmark.BookmarkDetail.FieldsHeader.Bookmark.Title">
+        <source>Bookmark</source>
+        <note>The header title for the fields when editing a Bookmark</note>
+      </trans-unit>
+      <trans-unit id="Bookmark.BookmarkDetail.FieldsHeader.Folder.Title">
+        <source>Folder</source>
+        <note>The header title for the fields when editing a Folder</note>
+      </trans-unit>
+      <trans-unit id="Bookmark.DetailFieldTitle.Label">
+        <source>Title</source>
+        <note>The label for the Title field when editing a bookmark</note>
+      </trans-unit>
+      <trans-unit id="Bookmark.DetailFieldURL.Label">
+        <source>URL</source>
+        <note>The label for the URL field when editing a bookmark</note>
+      </trans-unit>
       <trans-unit id="Bookmarks">
         <source>Bookmarks</source>
         <target>نشانیاں</target>
         <note>Toggle bookmarks syncing setting</note>
       </trans-unit>
-      <trans-unit id="Bookmarks you save will show up here.">
-        <source>Bookmarks you save will show up here.</source>
-        <target>نشانیاں جو آپ محفوظ کرنے ہیں یہاں نظر آئیں گی۔</target>
-        <note>Status label for the empty Bookmarks state.</note>
+      <trans-unit id="Bookmarks.EditBookmark.Label">
+        <source>Edit Bookmark</source>
+        <note>The button to edit a bookmark</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.EditFolder.Label">
+        <source>Edit Folder</source>
+        <note>The button to edit a folder</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Folder.Label">
         <source>Folder</source>
@@ -656,10 +631,18 @@
         <target>پوشہ کا نام</target>
         <note>The label for the title of the new folder</note>
       </trans-unit>
+      <trans-unit id="Bookmarks.NewBookmark.Label">
+        <source>New Bookmark</source>
+        <note>The button to create a new bookmark</note>
+      </trans-unit>
       <trans-unit id="Bookmarks.NewFolder.Label">
         <source>New Folder</source>
         <target>نیا پوشہ</target>
         <note>The button to create a new folder</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.NewSeparator.Label">
+        <source>New Separator</source>
+        <note>The button to create a new separator</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Title.Label">
         <source>Title</source>
@@ -670,6 +653,10 @@
         <source>URL</source>
         <target>URL</target>
         <note>The label for the URL of a bookmark</note>
+      </trans-unit>
+      <trans-unit id="BookmarksPanel.EmptyState.Title">
+        <source>Bookmarks you save will show up here.</source>
+        <note>Status label for the empty Bookmarks state.</note>
       </trans-unit>
       <trans-unit id="Brightness">
         <source>Brightness</source>
@@ -961,6 +948,10 @@
         <source>Open this link in the App Store?</source>
         <target>اس ربط کو ایپ اسٹور میں کھولیں؟</target>
         <note>Question shown to user when tapping a link that opens the App Store app</note>
+      </trans-unit>
+      <trans-unit id="ExternalLink.AppStore.GenericConfirmationTitle">
+        <source>Open this link in external app?</source>
+        <note>Question shown to user when tapping an SMS or MailTo link that opens the external app for those.</note>
       </trans-unit>
       <trans-unit id="Facebook">
         <source>Facebook</source>
@@ -1651,7 +1642,7 @@
       <trans-unit id="Panel Chooser">
         <source>Panel Chooser</source>
         <target>پینل کا انتخاب کنندہ</target>
-        <note>Accessibility label for the Home panel's top toolbar containing list of the home panels (top sites, bookmarks, history, remote tabs, reading list).</note>
+        <note>Accessibility label for the Library panel's bottom toolbar containing a list of the home panels (top sites, bookmarks, history, remote tabs, reading list).</note>
       </trans-unit>
       <trans-unit id="Password">
         <source>Password</source>
@@ -1735,6 +1726,18 @@
         <source>Remove from Reading List</source>
         <target>پڑھنے کی فہرست سے ہٹائیں</target>
         <note>Name for button removing current article from reading list in reader mode</note>
+      </trans-unit>
+      <trans-unit id="ReopenAlert.Actions.Cancel">
+        <source>Cancel</source>
+        <note>Cancel button text shown in reopen-alert at home page.</note>
+      </trans-unit>
+      <trans-unit id="ReopenAlert.Actions.Reopen">
+        <source>Reopen</source>
+        <note>Reopen button text shown in reopen-alert at home page.</note>
+      </trans-unit>
+      <trans-unit id="ReopenAlert.Title">
+        <source>Reopen Last Closed Tab</source>
+        <note>Reopen alert title shown at home page.</note>
       </trans-unit>
       <trans-unit id="ReopenClosedTab.KeyCodeTitle">
         <source>Reopen Closed Tab</source>
@@ -3091,8 +3094,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>17.0</source>
+        <target>17.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3110,8 +3113,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>17.0</source>
+        <target>17.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3129,8 +3132,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>17.0</source>
+        <target>17.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3148,8 +3151,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>17.0</source>
+        <target>17.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3175,6 +3178,40 @@
       </trans-unit>
     </body>
   </file>
+  <file original="Shared/Supporting Files/BookmarkPanel.strings" source-language="en" datatype="plaintext" target-language="ur">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Delete">
+        <source>Delete</source>
+        <note>Action button for deleting bookmarks in the bookmarks panel.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/BookmarkPanelDeleteConfirm.strings" source-language="en" datatype="plaintext" target-language="ur">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Bookmarks.DeleteFolderWarning.CancelButton.Label">
+        <source>Cancel</source>
+        <note>Button label to cancel deletion when the user tried to delete a non-empty folder.</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.DeleteFolderWarning.DeleteButton.Label">
+        <source>Delete</source>
+        <note>Button label for the button that deletes a folder and all of its children.</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.DeleteFolderWarning.Description">
+        <source>Are you sure you want to delete it and its contents?</source>
+        <note>Main body of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.DeleteFolderWarning.Title">
+        <source>This folder isn’t empty.</source>
+        <note>Title of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Shared/Supporting Files/Info.plist" source-language="en" datatype="plaintext" target-language="ur">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
@@ -3185,8 +3222,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>17.0</source>
+        <target>17.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3206,11 +3243,11 @@
         <note>Title for the fourth panel 'Mail' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.NewSync.Description">
-        <source>Get your bookmarks, history and passwords on all your devices.</source>
+        <source>Sign in to your account to sync and access more features.</source>
         <note>Description for the 'Sync' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.NewSync.Title">
-        <source>Take Firefox with You</source>
+        <source>Get the most out of Firefox</source>
         <note>Title for the fifth panel 'Sync' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Private.Description">
@@ -3382,6 +3419,29 @@
       </trans-unit>
     </body>
   </file>
+  <file original="Shared/Supporting Files/Storage.strings" source-language="en" datatype="plaintext" target-language="ur">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Bookmarks Menu">
+        <source>Bookmarks Menu</source>
+        <note>The name of the folder that contains desktop bookmarks in the menu. This should match bookmarks.folder.menu.label on Android.</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks Toolbar">
+        <source>Bookmarks Toolbar</source>
+        <note>The name of the folder that contains desktop bookmarks in the toolbar. This should match bookmarks.folder.toolbar.label on Android.</note>
+      </trans-unit>
+      <trans-unit id="Mobile Bookmarks">
+        <source>Mobile Bookmarks</source>
+        <note>The title of the folder that contains mobile bookmarks. This should match bookmarks.folder.mobile.label on Android.</note>
+      </trans-unit>
+      <trans-unit id="Unsorted Bookmarks">
+        <source>Unsorted Bookmarks</source>
+        <note>The name of the folder that contains unsorted desktop bookmarks. This should match bookmarks.folder.unfiled.label on Android.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="SharedTests/Info.plist" source-language="en" datatype="plaintext" target-language="ur">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
@@ -3392,41 +3452,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Storage.strings" source-language="en" datatype="plaintext" target-language="ur">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="Bookmarks Menu">
-        <source>Bookmarks Menu</source>
-        <target>نشانیاں مینیو</target>
-        <note>The name of the folder that contains desktop bookmarks in the menu. This should match bookmarks.folder.menu.label on Android.</note>
-      </trans-unit>
-      <trans-unit id="Bookmarks Toolbar">
-        <source>Bookmarks Toolbar</source>
-        <target>نشانیاں ٹول بار</target>
-        <note>The name of the folder that contains desktop bookmarks in the toolbar. This should match bookmarks.folder.toolbar.label on Android.</note>
-      </trans-unit>
-      <trans-unit id="Mobile Bookmarks">
-        <source>Mobile Bookmarks</source>
-        <target>موبائل نشانیاں</target>
-        <note>The title of the folder that contains mobile bookmarks. This should match bookmarks.folder.mobile.label on Android.</note>
-      </trans-unit>
-      <trans-unit id="Unsorted Bookmarks">
-        <source>Unsorted Bookmarks</source>
-        <target>غیر چھانٹی شدہ نشانیاں</target>
-        <note>The name of the folder that contains unsorted desktop bookmarks. This should match bookmarks.folder.unfiled.label on Android.</note>
-      </trans-unit>
-      <trans-unit id="Untitled">
-        <source>Untitled</source>
-        <target>بلا عنوان</target>
-        <note>The default name for bookmark folders without titles.
-   The default name for bookmark nodes without titles.</note>
+        <source>17.0</source>
+        <target>17.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3440,8 +3467,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>17.0</source>
+        <target>17.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3455,8 +3482,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>17.0</source>
+        <target>17.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3470,8 +3497,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>17.0</source>
+        <target>17.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3485,8 +3512,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>17.0</source>
+        <target>17.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3500,8 +3527,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>17.0</source>
+        <target>17.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3515,8 +3542,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>17.0</source>
+        <target>17.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3530,8 +3557,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>17.0</source>
+        <target>17.0</target>
       </trans-unit>
     </body>
   </file>
@@ -3545,8 +3572,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>16.0</source>
-        <target>16.0</target>
+        <source>17.0</source>
+        <target>17.0</target>
       </trans-unit>
     </body>
   </file>
