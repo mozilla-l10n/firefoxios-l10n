@@ -1554,14 +1554,12 @@
         <target>網站中可能會含有外部廣告、影片、或其他隱藏了追蹤器的內容。封鎖這類內容可以讓網站更快載入，但某些按鈕、表單、登入欄位可能無法正常運作。</target>
         <note>Description of content trackers.</note>
       </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionDescription.CrossSite">
-        <source>These cookies follow you from site to site to gather data about what you do online.</source>
-        <target>這些 Cookie 會在不同網站間跟蹤您，收集您的上網紀錄。</target>
+      <trans-unit id="Menu.TrackingProtectionDescription.CrossSiteNew">
+        <source>These cookies follow you from site to site to gather data about what you do online. They are set by third parties such as advertisers and analytics companies.</source>
         <note>Description of cross-site trackers.</note>
       </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionDescription.Cryptominers">
-        <source>Cryptominers secretly use your system's computing power to mine digital money.</source>
-        <target>加密貨幣採礦程式會使用您的裝置運算能力來對數位貨幣「採礦」。</target>
+      <trans-unit id="Menu.TrackingProtectionDescription.CryptominersNew">
+        <source>Cryptominers secretly use your system’s computing power to mine digital money. Cryptomining scripts drain your battery, slow down your computer, and can increase your energy bill.</source>
         <note>Description of cryptominers.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDescription.Fingerprinters">
@@ -1569,14 +1567,12 @@
         <target>數位指紋追蹤程式會針對您的瀏覽器、電腦設定來建立您的獨特輪廓，並在不同網站間追蹤您。</target>
         <note>Description of fingerprinters.</note>
       </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionDescription.SocialNetworks">
-        <source>Social networks place trackers on other websites to build a more complete and targeted profile of you.</source>
-        <target>社群網站會在其他網站放置追蹤器，以便更加了解您的一舉一動，來針對您投放廣告。</target>
+      <trans-unit id="Menu.TrackingProtectionDescription.SocialNetworksNew">
+        <source>Social networks place trackers on other websites to build a more complete and targeted profile of you. Blocking these trackers reduces how much social media companies can see what do you online.</source>
         <note>Description of social network trackers.</note>
       </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionDisable.Title">
-        <source>Disable for this site</source>
-        <target>為此網站關閉</target>
+      <trans-unit id="Menu.TrackingProtectionDisable1.Title">
+        <source>Disabled for this site</source>
         <note>The button that disabled TP for a site.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDisabled.Title">
@@ -1589,6 +1585,10 @@
         <target>開啟追蹤保護</target>
         <note>A button to enable tracking protection inside the menu.</note>
       </trans-unit>
+      <trans-unit id="Menu.TrackingProtectionEnable1.Title">
+        <source>Enabled for this site</source>
+        <note>A button to enable tracking protection inside the menu.</note>
+      </trans-unit>
       <trans-unit id="Menu.TrackingProtectionEnabled.Title">
         <source>Tracking Protection is now on for this site.</source>
         <target>已開啟針對此網站的追蹤保護功能。</target>
@@ -1599,9 +1599,20 @@
         <target>數位指紋追蹤程式</target>
         <note>The title that shows the number of fingerprinting scripts blocked</note>
       </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionListTitle">
-        <source>Blocked %@</source>
-        <target>已封鎖%@</target>
+      <trans-unit id="Menu.TrackingProtectionListTitle.CrossSiteCookies">
+        <source>Blocked Cross-Site Tracking Cookies</source>
+        <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
+      </trans-unit>
+      <trans-unit id="Menu.TrackingProtectionListTitle.Cryptominers">
+        <source>Blocked Cryptominers</source>
+        <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
+      </trans-unit>
+      <trans-unit id="Menu.TrackingProtectionListTitle.Fingerprinters">
+        <source>Blocked Fingerprinters</source>
+        <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
+      </trans-unit>
+      <trans-unit id="Menu.TrackingProtectionListTitle.Social">
+        <source>Blocked Social Trackers</source>
         <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionMoreInfo.Description">
@@ -3485,6 +3496,10 @@
         <source>Show Tabs</source>
         <target>顯示分頁</target>
         <note>Label for the button, displayed in the menu, used to open the tabs tray</note>
+      </trans-unit>
+      <trans-unit id="Menu.TranslatePageAction.Title">
+        <source>Translate Page</source>
+        <note>Label for the button, displayed in the menu, used to translate the current page.</note>
       </trans-unit>
       <trans-unit id="Menu.ViewDekstopSiteAction.Title">
         <source>Request Desktop Site</source>
