@@ -1554,14 +1554,12 @@
         <target>Веб-сайты могут загружать внешнюю рекламу, видео и другой контент, содержащий скрытые трекеры. Блокировка такого содержимого может помочь сайтам загружаться быстрее, но некоторые кнопки, формы и поля для входа могут не работать.</target>
         <note>Description of content trackers.</note>
       </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionDescription.CrossSite">
-        <source>These cookies follow you from site to site to gather data about what you do online.</source>
-        <target>Такие куки ходят за вами с сайта на сайт для сбора информации о том, что вы делаете в Интернете.</target>
+      <trans-unit id="Menu.TrackingProtectionDescription.CrossSiteNew">
+        <source>These cookies follow you from site to site to gather data about what you do online. They are set by third parties such as advertisers and analytics companies.</source>
         <note>Description of cross-site trackers.</note>
       </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionDescription.Cryptominers">
-        <source>Cryptominers secretly use your system's computing power to mine digital money.</source>
-        <target>Криптомайнеры тайно используют вычислительные мощности вашей системы для добычи цифровых валют.</target>
+      <trans-unit id="Menu.TrackingProtectionDescription.CryptominersNew">
+        <source>Cryptominers secretly use your system’s computing power to mine digital money. Cryptomining scripts drain your battery, slow down your computer, and can increase your energy bill.</source>
         <note>Description of cryptominers.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDescription.Fingerprinters">
@@ -1569,14 +1567,12 @@
         <target>Параметры вашего браузера и компьютера уникальны. Сборщики цифровых отпечатков используют набор этих уникальных параметров, чтобы создать ваш профиль, который можно будет использовать для отслеживания вас при веб-сёрфинге.</target>
         <note>Description of fingerprinters.</note>
       </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionDescription.SocialNetworks">
-        <source>Social networks place trackers on other websites to build a more complete and targeted profile of you.</source>
-        <target>Социальные сети размещают трекеры на других веб-сайтах для создания вашего более полного и таргетированного профиля.</target>
+      <trans-unit id="Menu.TrackingProtectionDescription.SocialNetworksNew">
+        <source>Social networks place trackers on other websites to build a more complete and targeted profile of you. Blocking these trackers reduces how much social media companies can see what do you online.</source>
         <note>Description of social network trackers.</note>
       </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionDisable.Title">
-        <source>Disable for this site</source>
-        <target>Отключить для этого сайта</target>
+      <trans-unit id="Menu.TrackingProtectionDisable1.Title">
+        <source>Disabled for this site</source>
         <note>The button that disabled TP for a site.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDisabled.Title">
@@ -1589,6 +1585,10 @@
         <target>Включить защиту от отслеживания</target>
         <note>A button to enable tracking protection inside the menu.</note>
       </trans-unit>
+      <trans-unit id="Menu.TrackingProtectionEnable1.Title">
+        <source>Enabled for this site</source>
+        <note>A button to enable tracking protection inside the menu.</note>
+      </trans-unit>
       <trans-unit id="Menu.TrackingProtectionEnabled.Title">
         <source>Tracking Protection is now on for this site.</source>
         <target>Защита от отслеживания на этом сайте теперь включена.</target>
@@ -1599,9 +1599,20 @@
         <target>Сборщики цифровых отпечатков</target>
         <note>The title that shows the number of fingerprinting scripts blocked</note>
       </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionListTitle">
-        <source>Blocked %@</source>
-        <target>Заблокировано %@</target>
+      <trans-unit id="Menu.TrackingProtectionListTitle.CrossSiteCookies">
+        <source>Blocked Cross-Site Tracking Cookies</source>
+        <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
+      </trans-unit>
+      <trans-unit id="Menu.TrackingProtectionListTitle.Cryptominers">
+        <source>Blocked Cryptominers</source>
+        <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
+      </trans-unit>
+      <trans-unit id="Menu.TrackingProtectionListTitle.Fingerprinters">
+        <source>Blocked Fingerprinters</source>
+        <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
+      </trans-unit>
+      <trans-unit id="Menu.TrackingProtectionListTitle.Social">
+        <source>Blocked Social Trackers</source>
         <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionMoreInfo.Description">
@@ -3485,6 +3496,10 @@
         <source>Show Tabs</source>
         <target>Отобразить вкладки</target>
         <note>Label for the button, displayed in the menu, used to open the tabs tray</note>
+      </trans-unit>
+      <trans-unit id="Menu.TranslatePageAction.Title">
+        <source>Translate Page</source>
+        <note>Label for the button, displayed in the menu, used to translate the current page.</note>
       </trans-unit>
       <trans-unit id="Menu.ViewDekstopSiteAction.Title">
         <source>Request Desktop Site</source>
