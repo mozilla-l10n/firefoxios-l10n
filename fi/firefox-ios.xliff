@@ -794,18 +794,22 @@
       </trans-unit>
       <trans-unit id="Debug: forget Sync auth state">
         <source>Debug: forget Sync auth state</source>
+        <target>Vianjäljitys: unohda Syncin todentamisen tila</target>
         <note>Debug option</note>
       </trans-unit>
       <trans-unit id="Debug: require password">
         <source>Debug: require password</source>
+        <target>Vianjäljitys: vaadi salasana</target>
         <note>Debug option</note>
       </trans-unit>
       <trans-unit id="Debug: require upgrade">
         <source>Debug: require upgrade</source>
+        <target>Vianjäljitys: vaadi päivitys</target>
         <note>Debug option</note>
       </trans-unit>
       <trans-unit id="Debug: use stage servers">
         <source>Debug: use stage servers</source>
+        <target>Vianjäljitys: käytä stage-palvelimia</target>
         <note>Debug option</note>
       </trans-unit>
       <trans-unit id="Decrease text size">
@@ -925,6 +929,7 @@
       </trans-unit>
       <trans-unit id="ErrorPages.AdvancedWarning2.Text">
         <source>It may be a misconfiguration or tampering by an attacker. Proceed if you accept the potential risk.</source>
+        <target>Kyseessä saattaa olla ongelma palvelimen asetuksissa tai hyökkääjän suorittama toimenpide. Jatka, jos hyväksyt mahdollisen riskin.</target>
         <note>Additional warning text when clicking the Advanced button on error pages</note>
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Description">
@@ -983,6 +988,7 @@
       </trans-unit>
       <trans-unit id="FxA.AccountVerificationRequiredSurface">
         <source>You need to verify %@. Check your email for the verification link from Firefox.</source>
+        <target>Sinun tulee vahvistaa %@. Tarkista sähköpostistasi Firefoxin lähettämä vahvistuslinkki.</target>
         <note>Message explaining that user needs to check email for Firefox Account verfication link.</note>
       </trans-unit>
       <trans-unit id="FxA.ConnectAnotherDevice">
@@ -1032,10 +1038,12 @@
       </trans-unit>
       <trans-unit id="FxA.TakeYourWebWithYou">
         <source>Take Your Web With You</source>
+        <target>Ota verkko mukaasi</target>
         <note>Call to action for sign into sync button</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceConnected_body">
         <source>Firefox Sync has connected to %@</source>
+        <target>Firefox Sync on yhdistänyt laitteeseen %@</target>
         <note>Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device.</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceConnected_title">
@@ -1070,6 +1078,7 @@
       </trans-unit>
       <trans-unit id="Get your open tabs, bookmarks, and passwords from your other devices.">
         <source>Get your open tabs, bookmarks, and passwords from your other devices.</source>
+        <target>Käytä avoimia välilehtiä, kirjanmerkkejä ja salasanoja muilta laitteiltasi.</target>
         <note>A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing.</note>
       </trans-unit>
       <trans-unit id="Help">
@@ -1104,10 +1113,12 @@
       </trans-unit>
       <trans-unit id="HistoryPanel.ClearHistoryMenuTitle">
         <source>Clearing Recent History will remove history, cookies, and other browser data.</source>
+        <target>Historian tyhjentäminen poistaa selaushistorian, evästeet ja muut selaustiedot.</target>
         <note>Title for popup action menu to clear recent history.</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptyState.Title">
         <source>Websites you’ve visited recently will show up here.</source>
+        <target>Viimeksi vierailemasi sivut ilmestyvät tänne.</target>
         <note>Title for the History Panel empty state.</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsNullState.Description">
@@ -1167,6 +1178,7 @@
       </trans-unit>
       <trans-unit id="HomePage.Set.Dialog.Message">
         <source>You can change this at any time in Settings</source>
+        <target>Voit muuttaa tätä asetusta milloin tahansa asetuksista</target>
         <note>Alert dialog body when the user opens the home page for the first time.</note>
       </trans-unit>
       <trans-unit id="HomePage.Set.Dialog.OK">
@@ -1290,6 +1302,7 @@
       </trans-unit>
       <trans-unit id="Last synced: %@">
         <source>Last synced: %@</source>
+        <target>Viimeksi synkronoitu: %@</target>
         <note>Remote tabs last synced time. Argument is the relative date string.</note>
       </trans-unit>
       <trans-unit id="Last week">
@@ -1309,6 +1322,7 @@
       </trans-unit>
       <trans-unit id="Load original page">
         <source>Load original page</source>
+        <target>Lataa alkuperäinen sivu</target>
         <note>Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Firefox reader mode from another app.</note>
       </trans-unit>
       <trans-unit id="Loading content…">
@@ -1347,14 +1361,17 @@
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSaveLogin.Title">
         <source>Save login %1$@ for %2$@?</source>
+        <target>Tallennetaanko käyttäjätunnus %1$@ sivustolle %2$@?</target>
         <note>Prompt for saving a login. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSavePassword.Title">
         <source>Save password for %@?</source>
+        <target>Tallennetaanko sivuston %@ salasana?</target>
         <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title">
         <source>Update login %1$@ for %2$@?</source>
+        <target>Päivitetäänkö tunnuksen %1$@ kirjautumistiedot sivustolle %2$@?</target>
         <note>Prompt for updating a login. The first parameter is the username for which the password will be updated for. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.SaveLogin.Button">
@@ -1388,6 +1405,7 @@
       </trans-unit>
       <trans-unit id="LoginsList.Title">
         <source>SAVED LOGINS</source>
+        <target>TALLENNETUT KIRJAUTUMISTIEDOT</target>
         <note>Title for the list of logins</note>
       </trans-unit>
       <trans-unit id="Looks like Firefox crashed previously. Would you like to restore your tabs?">
@@ -1469,26 +1487,32 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.BlockedTitle">
         <source>Blocked</source>
+        <target>Estetty</target>
         <note>Title on tracking protection menu for blocked items.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.NoTrackersBlocked">
         <source>No trackers blocked for this site.</source>
+        <target>Ei seuraimia estetty tällä sivustolla.</target>
         <note>Message in menu when no trackers blocked.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.ProtectionSettings.Title">
         <source>Protection Settings</source>
+        <target>Suojausasetukset</target>
         <note>The title for tracking protection settings</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.TitlePrefix">
         <source>Protections for %@</source>
+        <target>Suojaukset verkkotunnukselle %@</target>
         <note>Title on tracking protection menu showing the domain. eg. Protections for mozilla.org</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionBlockedContent.Title">
         <source>Tracking content</source>
+        <target>Seurantaan tarkoitettu sisältö</target>
         <note>The title that shows the number of content cookies blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionBlockedSocial.Title">
         <source>Social Trackers</source>
+        <target>Sosiaaliset seuraimet</target>
         <note>The title that shows the number of social URLs blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionBlocking.Description">
@@ -1503,14 +1527,17 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionCrossSiteCookies.Title">
         <source>Cross-Site Tracking Cookies</source>
+        <target>Sivustorajat ylittävät seurainevästeet</target>
         <note>The title that shows the number of cross-site cookies blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionCrossSiteTrackers.Title">
         <source>Cross-Site Trackers</source>
+        <target>Sivustorajat ylittävät seuraimet</target>
         <note>The title that shows the number of cross-site URLs blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionCryptominersBlocked.Title">
         <source>Cryptominers</source>
+        <target>Kryptolouhijat</target>
         <note>The title that shows the number of cryptomining scripts blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDescription.ContentTrackers">
@@ -1535,6 +1562,7 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDisable1.Title">
         <source>Disabled for this site</source>
+        <target>Pois käytöstä tällä sivustolla</target>
         <note>The button that disabled TP for a site.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDisabled.Title">
@@ -1549,6 +1577,7 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionEnable1.Title">
         <source>Enabled for this site</source>
+        <target>Käytössä tällä sivustolla</target>
         <note>A button to enable tracking protection inside the menu.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionEnabled.Title">
@@ -1562,18 +1591,22 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionListTitle.CrossSiteCookies">
         <source>Blocked Cross-Site Tracking Cookies</source>
+        <target>Estetyt sivustorajat ylittävät seurainevästeet</target>
         <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionListTitle.Cryptominers">
         <source>Blocked Cryptominers</source>
+        <target>Estetyt kryptolouhijat</target>
         <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionListTitle.Fingerprinters">
         <source>Blocked Fingerprinters</source>
+        <target>Estetyt yksilöijät</target>
         <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionListTitle.Social">
         <source>Blocked Social Trackers</source>
+        <target>Estetyt sosiaaliset seuraimet</target>
         <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionMoreInfo.Description">
@@ -1591,6 +1624,7 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionWhitelistRemove.Title">
         <source>Enable for this site</source>
+        <target>Käytä tällä sivustolla</target>
         <note>label for the menu item that lets you remove a website from the tracking protection whitelist</note>
       </trans-unit>
       <trans-unit id="Menu.WhatsNew.Title">
@@ -1832,6 +1866,7 @@
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.AddTitle">
         <source>Add Search Provider?</source>
+        <target>Lisätäänkö hakukone?</target>
         <note>The title that asks the user to Add the search provider</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.Cancel">
@@ -1841,6 +1876,7 @@
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.DuplicateErrorMessage">
         <source>A search engine with this title or URL has already been added.</source>
+        <target>Hakukone tällä otsikolla tai osoitteella on jo lisätty.</target>
         <note>A message explaining fault in custom search engine form.</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.DuplicateErrorTitle">
@@ -1850,6 +1886,7 @@
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.FailedMessage">
         <source>The search provider could not be added.</source>
+        <target>Hakukonetta ei voitu lisätä.</target>
         <note>A title explaining that we failed to add a search engine</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.FailedTitle">
@@ -1918,6 +1955,7 @@
       </trans-unit>
       <trans-unit id="SendTo.Error.Title">
         <source>The link you are trying to share cannot be shared.</source>
+        <target>Linkkiä, jonka yrität jakaa, ei voi jakaa.</target>
         <note>Title of error prompt displayed when an invalid URL is shared.</note>
       </trans-unit>
       <trans-unit id="SendTo.NavBar.Title">
@@ -1951,6 +1989,7 @@
       </trans-unit>
       <trans-unit id="SentTab.BookmarkAction.title">
         <source>Bookmark</source>
+        <target>Lisää kirjanmerkiksi</target>
         <note>Label for an action used to bookmark one or more tabs from a notification.</note>
       </trans-unit>
       <trans-unit id="SentTab.NoTabArrivingNotification.body">
@@ -2041,14 +2080,17 @@
       </trans-unit>
       <trans-unit id="Settings.ClearPrivateData.Clear.Button">
         <source>Clear Private Data</source>
+        <target>Tyhjennä yksityiset tiedot</target>
         <note>Button in settings that clears private data for the selected items.</note>
       </trans-unit>
       <trans-unit id="Settings.ClearPrivateData.SectionName">
         <source>Clear Private Data</source>
+        <target>Tyhjennä yksityiset tiedot</target>
         <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
       </trans-unit>
       <trans-unit id="Settings.ClearPrivateData.Title">
         <source>Clear Private Data</source>
+        <target>Tyhjennä yksityiset tiedot</target>
         <note>Title displayed in header of the setting panel.</note>
       </trans-unit>
       <trans-unit id="Settings.CopyAppVersion.Title">
@@ -2068,6 +2110,7 @@
       </trans-unit>
       <trans-unit id="Settings.DNT.Title">
         <source>Send websites a Do Not Track signal that you don’t want to be tracked</source>
+        <target>Lähetä sivustoille Älä seuraa -signaali, että et halua sinua seurattavan</target>
         <note>DNT Settings title</note>
       </trans-unit>
       <trans-unit id="Settings.DataManagement.SearchLabel">
@@ -2152,6 +2195,7 @@
       </trans-unit>
       <trans-unit id="Settings.FxA.Sync.SectionName">
         <source>Sync Settings</source>
+        <target>Sync-asetukset</target>
         <note>Label used as a section title in the Firefox Accounts Settings screen.</note>
       </trans-unit>
       <trans-unit id="Settings.FxA.Title">
@@ -2387,10 +2431,12 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.MoreInfo">
         <source>More Info…</source>
+        <target>Lisätietoja…</target>
         <note>'More Info' link on the Tracking Protection settings screen.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevelTitle">
         <source>Protection Level</source>
+        <target>Suojaustaso</target>
         <note>Title for tracking protection options section where level can be selected.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.SectionName">
@@ -2427,6 +2473,7 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.NormalBrowsingLabelOn">
         <source>Enhanced Tracking Protection</source>
+        <target>Tehostettu seurannan suojaus</target>
         <note>Settings option to specify that Tracking Protection is on</note>
       </trans-unit>
       <trans-unit id="Settings.TranslateSnackBar.SectionFooter">
@@ -2479,6 +2526,7 @@
       </trans-unit>
       <trans-unit id="Settings.WebsiteData.ConfirmPrompt">
         <source>This action will clear all of your website data. It cannot be undone.</source>
+        <target>Tämä toiminto tyhjentää kaikki sivustotiedot. Toimintoa ei voi perua.</target>
         <note>Description of the confirmation dialog shown when a user tries to clear their private data.</note>
       </trans-unit>
       <trans-unit id="Settings.WebsiteData.Title">
@@ -2813,6 +2861,7 @@
       </trans-unit>
       <trans-unit id="You don’t have any tabs open in Firefox on your other devices.">
         <source>You don’t have any tabs open in Firefox on your other devices.</source>
+        <target>Sinulla ei ole Firefoxissa avoimia välilehtiä muilla laitteilla.</target>
         <note>Error message in the remote tabs panel</note>
       </trans-unit>
       <trans-unit id="YouTube">
@@ -2965,6 +3014,7 @@
       </trans-unit>
       <trans-unit id="Search Input Field">
         <source>Search Input Field</source>
+        <target>Haun tekstikenttä</target>
         <note>Accessibility label for the search input field in the Logins list</note>
       </trans-unit>
       <trans-unit id="Select All">
@@ -3010,10 +3060,12 @@
       </trans-unit>
       <trans-unit id="Off">
         <source>Off</source>
+        <target>Pois</target>
         <note>Toggled OFF accessibility value</note>
       </trans-unit>
       <trans-unit id="On">
         <source>On</source>
+        <target>Päällä</target>
         <note>Toggled ON accessibility value</note>
       </trans-unit>
       <trans-unit id="Private Browsing">
@@ -3374,6 +3426,7 @@
       </trans-unit>
       <trans-unit id="Menu.TranslatePageAction.Title">
         <source>Translate Page</source>
+        <target>Käännä sivu</target>
         <note>Label for the button, displayed in the menu, used to translate the current page.</note>
       </trans-unit>
       <trans-unit id="Menu.ViewDekstopSiteAction.Title">
@@ -3395,6 +3448,7 @@
     <body>
       <trans-unit id="%@ on %@">
         <source>%1$@ on %2$@</source>
+        <target>%1$@ laitteella %2$@</target>
         <note>A brief descriptive name for this app on this device, used for Send Tab and Synced Tabs. The first argument is the app name. The second argument is the device name.</note>
       </trans-unit>
     </body>
