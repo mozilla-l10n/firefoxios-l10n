@@ -1102,6 +1102,10 @@
         <target>최근 방문 기록 삭제…</target>
         <note>Title for button in the history panel to clear recent history</note>
       </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuOptionEverything">
+        <source>Everything</source>
+        <note>Option title to clear all browsing history.</note>
+      </trans-unit>
       <trans-unit id="HistoryPanel.ClearHistoryMenuOptionTheLastHour">
         <source>The Last Hour</source>
         <target>지난 1시간</target>
@@ -3336,69 +3340,57 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="ko">
+  <file original="Shared/Supporting Files/Intro.strings" source-language="en" datatype="plaintext" target-language="ko">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
     <body>
       <trans-unit id="Intro.Slides.Mail.Description">
         <source>Use any email app — not just Mail — with Firefox.</source>
-        <target>Firefox로 Mail 앱 외의 다른 이메일 앱을 사용해 보세요.</target>
         <note>Description for the 'Mail' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Mail.Title">
         <source>You’ve got mail… options</source>
-        <target>메일이 도착했습니다… 설정</target>
         <note>Title for the fourth panel 'Mail' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Private.Description">
         <source>Tap the mask icon to slip into Private Browsing mode.</source>
-        <target>개인정보 보호 모드로 들어가려면 마스크 아이콘을 탭하세요.</target>
         <note>Description for the 'Private Browsing' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Private.Title">
         <source>Browse like no one’s watching</source>
-        <target>아무도 보지 않는 브라우징</target>
         <note>Title for the third panel 'Private Browsing' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Search.Description">
         <source>Searching for something different? Choose another default search engine (or add your own) in Settings.</source>
-        <target>뭔가 다른 것을 검색하고 싶으세요? 설정에서 기본 검색 엔진을 다른것으로 선택(또는 추가)해 보세요.</target>
         <note>Description for the 'Favorite Search Engine' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Search.Title">
         <source>Your search, your way</source>
-        <target>나만의 검색</target>
         <note>Title for the second  panel 'Search' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.TrailheadSync.Description">
         <source>Sign in to your account to sync and access more features.</source>
-        <target>계정에 로그인하면 더 많은 기능을 동기화하고 접근할 수 있습니다.</target>
         <note>Description for the 'Sync' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.TrailheadSync.Title">
         <source>Get the most out of Firefox</source>
-        <target>Firefox 최대한 활용하기</target>
         <note>Title for the fifth panel 'Sync' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Description">
         <source>A modern mobile browser from Mozilla, the non-profit committed to a free and open web.</source>
-        <target>자유롭고 개방된 웹을 위해 일하는 비영리재단 Mozilla에서 만든 최신 모바일 브라우저입니다.</target>
         <note>Description for the 'Welcome' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Title">
         <source>Thanks for choosing Firefox!</source>
-        <target>Firefox를 선택해 주셔서 감사합니다!</target>
         <note>Title for the first panel 'Welcome' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Start Browsing">
         <source>Start Browsing</source>
-        <target>사용하기</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="Turn on Sync…">
         <source>Turn on Sync…</source>
-        <target>동기화 켜기…</target>
         <note>The button that opens the sign in page for sync. See http://mzl.la/1T8gxwo</note>
       </trans-unit>
     </body>
@@ -3537,29 +3529,25 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Storage.strings" source-language="en" datatype="plaintext" target-language="ko">
+  <file original="Shared/Supporting Files/Storage.strings" source-language="en" datatype="plaintext" target-language="ko">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
     <body>
       <trans-unit id="Bookmarks Menu">
         <source>Bookmarks Menu</source>
-        <target>북마크 메뉴</target>
         <note>The name of the folder that contains desktop bookmarks in the menu. This should match bookmarks.folder.menu.label on Android.</note>
       </trans-unit>
       <trans-unit id="Bookmarks Toolbar">
         <source>Bookmarks Toolbar</source>
-        <target>북마크 툴바</target>
         <note>The name of the folder that contains desktop bookmarks in the toolbar. This should match bookmarks.folder.toolbar.label on Android.</note>
       </trans-unit>
       <trans-unit id="Mobile Bookmarks">
         <source>Mobile Bookmarks</source>
-        <target>모바일 북마크</target>
         <note>The title of the folder that contains mobile bookmarks. This should match bookmarks.folder.mobile.label on Android.</note>
       </trans-unit>
       <trans-unit id="Unsorted Bookmarks">
         <source>Unsorted Bookmarks</source>
-        <target>미분류 북마크</target>
         <note>The name of the folder that contains unsorted desktop bookmarks. This should match bookmarks.folder.unfiled.label on Android.</note>
       </trans-unit>
     </body>
