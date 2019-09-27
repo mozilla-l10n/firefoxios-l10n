@@ -1102,6 +1102,10 @@
         <target>ताजा इतिहास नष्ट करा…</target>
         <note>Title for button in the history panel to clear recent history</note>
       </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuOptionEverything">
+        <source>Everything</source>
+        <note>Option title to clear all browsing history.</note>
+      </trans-unit>
       <trans-unit id="HistoryPanel.ClearHistoryMenuOptionTheLastHour">
         <source>The Last Hour</source>
         <target>शेवटचा तास</target>
@@ -3316,69 +3320,57 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="mr">
+  <file original="Shared/Supporting Files/Intro.strings" source-language="en" datatype="plaintext" target-language="mr">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
     <body>
       <trans-unit id="Intro.Slides.Mail.Description">
         <source>Use any email app — not just Mail — with Firefox.</source>
-        <target>फक्त मेल नाही — Firefox सोबत — कोणतेही इमेल अॅप वापरा.</target>
         <note>Description for the 'Mail' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Mail.Title">
         <source>You’ve got mail… options</source>
-        <target>आपल्याला मेल आलाय… पर्याय</target>
         <note>Title for the fourth panel 'Mail' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Private.Description">
         <source>Tap the mask icon to slip into Private Browsing mode.</source>
-        <target>खाजगी ब्राऊझिंग चालू करण्यासाठी मुखवट्यावर क्लिक करा.</target>
         <note>Description for the 'Private Browsing' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Private.Title">
         <source>Browse like no one’s watching</source>
-        <target>कोणीच पाहत नाही आहे असे ब्राउजिंग करा</target>
         <note>Title for the third panel 'Private Browsing' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Search.Description">
         <source>Searching for something different? Choose another default search engine (or add your own) in Settings.</source>
-        <target>काही वेगळे शोधत आहात का? सेटिंग मधून अन्य पूर्वनिर्धारित शोध इंजिन ठरवा (किंवा स्वतःचा पर्याय जोडा).</target>
         <note>Description for the 'Favorite Search Engine' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Search.Title">
         <source>Your search, your way</source>
-        <target>आपला शोध, आपल्या प्रमाणे</target>
         <note>Title for the second  panel 'Search' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.TrailheadSync.Description">
         <source>Sign in to your account to sync and access more features.</source>
-        <target>संकलन करण्यासाठी आपल्या खात्यामध्ये साइन इन करा आणि अधिक वैशिष्ट्यांचा अॅक्सेस मिळवा.</target>
         <note>Description for the 'Sync' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.TrailheadSync.Title">
         <source>Get the most out of Firefox</source>
-        <target>Firefox मधून सार्वधिक मिळवा</target>
         <note>Title for the fifth panel 'Sync' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Description">
         <source>A modern mobile browser from Mozilla, the non-profit committed to a free and open web.</source>
-        <target>एक आधुनिक मोबाईल ब्राउझर Mozilla कडून, जी एक मुक्त व खुल्या वेब साठी समर्पित विना-नफा संस्था आहे.</target>
         <note>Description for the 'Welcome' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Title">
         <source>Thanks for choosing Firefox!</source>
-        <target>Firefox निवडल्याबद्दल धन्यवाद!</target>
         <note>Title for the first panel 'Welcome' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Start Browsing">
         <source>Start Browsing</source>
-        <target>ब्राउजिंग सुरु करा</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="Turn on Sync…">
         <source>Turn on Sync…</source>
-        <target>सिंक चालू करा…</target>
         <note>The button that opens the sign in page for sync. See http://mzl.la/1T8gxwo</note>
       </trans-unit>
     </body>
@@ -3516,29 +3508,25 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Storage.strings" source-language="en" datatype="plaintext" target-language="mr">
+  <file original="Shared/Supporting Files/Storage.strings" source-language="en" datatype="plaintext" target-language="mr">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
     <body>
       <trans-unit id="Bookmarks Menu">
         <source>Bookmarks Menu</source>
-        <target>वाचनखूण मेनु</target>
         <note>The name of the folder that contains desktop bookmarks in the menu. This should match bookmarks.folder.menu.label on Android.</note>
       </trans-unit>
       <trans-unit id="Bookmarks Toolbar">
         <source>Bookmarks Toolbar</source>
-        <target>वाचनखूणा साधनपट्टी</target>
         <note>The name of the folder that contains desktop bookmarks in the toolbar. This should match bookmarks.folder.toolbar.label on Android.</note>
       </trans-unit>
       <trans-unit id="Mobile Bookmarks">
         <source>Mobile Bookmarks</source>
-        <target>मोबाईल वाचनखूणा</target>
         <note>The title of the folder that contains mobile bookmarks. This should match bookmarks.folder.mobile.label on Android.</note>
       </trans-unit>
       <trans-unit id="Unsorted Bookmarks">
         <source>Unsorted Bookmarks</source>
-        <target>अवर्गीकृत बुकमार्क</target>
         <note>The name of the folder that contains unsorted desktop bookmarks. This should match bookmarks.folder.unfiled.label on Android.</note>
       </trans-unit>
     </body>
