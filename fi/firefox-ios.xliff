@@ -1096,6 +1096,10 @@
         <target>Poista historiatietoja…</target>
         <note>Title for button in the history panel to clear recent history</note>
       </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuOptionEverything">
+        <source>Everything</source>
+        <note>Option title to clear all browsing history.</note>
+      </trans-unit>
       <trans-unit id="HistoryPanel.ClearHistoryMenuOptionTheLastHour">
         <source>The Last Hour</source>
         <target>Viime tunti</target>
@@ -3264,14 +3268,13 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="fi">
+  <file original="Shared/Supporting Files/Intro.strings" source-language="en" datatype="plaintext" target-language="fi">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
     <body>
       <trans-unit id="Intro.Slides.Mail.Description">
         <source>Use any email app — not just Mail — with Firefox.</source>
-        <target>Käytä mitä tahansa sähköpostiohjelmaa – ei vain Mailia – Firefoxin kanssa.</target>
         <note>Description for the 'Mail' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Mail.Title">
@@ -3296,32 +3299,26 @@
       </trans-unit>
       <trans-unit id="Intro.Slides.TrailheadSync.Description">
         <source>Sign in to your account to sync and access more features.</source>
-        <target>Kirjaudu tiliisi synkronoidaksesi ja käyttääksesi muita ominaisuuksia.</target>
         <note>Description for the 'Sync' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.TrailheadSync.Title">
         <source>Get the most out of Firefox</source>
-        <target>Ota kaikki irti Firefoxista</target>
         <note>Title for the fifth panel 'Sync' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Description">
         <source>A modern mobile browser from Mozilla, the non-profit committed to a free and open web.</source>
-        <target>Nykyaikainen mobiiliselain voittoa tavoittelemattomalta Mozillalta, joka on omistautunut vapaaseen ja avoimeen verkkoon.</target>
         <note>Description for the 'Welcome' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Title">
         <source>Thanks for choosing Firefox!</source>
-        <target>Kiitos, että valitsit Firefoxin!</target>
         <note>Title for the first panel 'Welcome' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Start Browsing">
         <source>Start Browsing</source>
-        <target>Aloita selaaminen</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="Turn on Sync…">
         <source>Turn on Sync…</source>
-        <target>Ota synkronointi käyttöön…</target>
         <note>The button that opens the sign in page for sync. See http://mzl.la/1T8gxwo</note>
       </trans-unit>
     </body>
@@ -3460,29 +3457,25 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Storage.strings" source-language="en" datatype="plaintext" target-language="fi">
+  <file original="Shared/Supporting Files/Storage.strings" source-language="en" datatype="plaintext" target-language="fi">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
     <body>
       <trans-unit id="Bookmarks Menu">
         <source>Bookmarks Menu</source>
-        <target>Kirjanmerkkivalikko</target>
         <note>The name of the folder that contains desktop bookmarks in the menu. This should match bookmarks.folder.menu.label on Android.</note>
       </trans-unit>
       <trans-unit id="Bookmarks Toolbar">
         <source>Bookmarks Toolbar</source>
-        <target>Kirjanmerkkipalkki</target>
         <note>The name of the folder that contains desktop bookmarks in the toolbar. This should match bookmarks.folder.toolbar.label on Android.</note>
       </trans-unit>
       <trans-unit id="Mobile Bookmarks">
         <source>Mobile Bookmarks</source>
-        <target>Kannettavan laitteen kirjanmerkit</target>
         <note>The title of the folder that contains mobile bookmarks. This should match bookmarks.folder.mobile.label on Android.</note>
       </trans-unit>
       <trans-unit id="Unsorted Bookmarks">
         <source>Unsorted Bookmarks</source>
-        <target>Lajittelemattomat kirjanmerkit</target>
         <note>The name of the folder that contains unsorted desktop bookmarks. This should match bookmarks.folder.unfiled.label on Android.</note>
       </trans-unit>
     </body>
