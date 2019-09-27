@@ -1102,6 +1102,10 @@
         <target>সাম্প্রতিক ইতিহাস পরিষ্কার করুন…</target>
         <note>Title for button in the history panel to clear recent history</note>
       </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuOptionEverything">
+        <source>Everything</source>
+        <note>Option title to clear all browsing history.</note>
+      </trans-unit>
       <trans-unit id="HistoryPanel.ClearHistoryMenuOptionTheLastHour">
         <source>The Last Hour</source>
         <target>শেষ ঘন্টা</target>
@@ -3336,69 +3340,57 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="bn">
+  <file original="Shared/Supporting Files/Intro.strings" source-language="en" datatype="plaintext" target-language="bn">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
     <body>
       <trans-unit id="Intro.Slides.Mail.Description">
         <source>Use any email app — not just Mail — with Firefox.</source>
-        <target>ফায়ারফক্সের সাথে - শুধুমাত্র মেইল নয় - যেকোনো ইমেইল অ্যাপ ব্যবহার করুন।</target>
         <note>Description for the 'Mail' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Mail.Title">
         <source>You’ve got mail… options</source>
-        <target>আপনার মেইল এসেছে… অপশনসমূহ</target>
         <note>Title for the fourth panel 'Mail' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Private.Description">
         <source>Tap the mask icon to slip into Private Browsing mode.</source>
-        <target>ব্যাক্তিগত ব্রাউজিং মোডে চলে যেতে মুখোশ চিহ্ন স্পর্শ করুন।</target>
         <note>Description for the 'Private Browsing' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Private.Title">
         <source>Browse like no one’s watching</source>
-        <target>ব্রাউজ করুন এমন ভাবে, যেনো কেউ দেখছে না।</target>
         <note>Title for the third panel 'Private Browsing' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Search.Description">
         <source>Searching for something different? Choose another default search engine (or add your own) in Settings.</source>
-        <target>ভিন্ন কিছু খুঁজছেন? সেটিংস থেকে অন্য আরেকটি ডিফল্ট সার্চ ইঞ্জিন পছন্দ (অথবা নিজের যুক্ত) করুন।</target>
         <note>Description for the 'Favorite Search Engine' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Search.Title">
         <source>Your search, your way</source>
-        <target>আপনার খোঁজ, আপনার পথ</target>
         <note>Title for the second  panel 'Search' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.TrailheadSync.Description">
         <source>Sign in to your account to sync and access more features.</source>
-        <target>সিঙ্ক এবং আরও ফিচার ব্যবহার করতে আপনার অ্যাকাউন্টে সাইন ইন করুন।</target>
         <note>Description for the 'Sync' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.TrailheadSync.Title">
         <source>Get the most out of Firefox</source>
-        <target>Firefox এর সর্বোচ্চ সুবিধা নিন</target>
         <note>Title for the fifth panel 'Sync' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Description">
         <source>A modern mobile browser from Mozilla, the non-profit committed to a free and open web.</source>
-        <target>একটি আধুনিক মোবাইল ব্রাউজার Mozilla থেকে, যারা একটি অলাভজনক প্রতিষ্ঠান এবং উন্মুক্ত ওয়েবের জন্যে প্রতিজ্ঞাবদ্ধ।</target>
         <note>Description for the 'Welcome' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Title">
         <source>Thanks for choosing Firefox!</source>
-        <target>Firefox নির্বাচন করার জন্য ধন্যবাদ!</target>
         <note>Title for the first panel 'Welcome' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Start Browsing">
         <source>Start Browsing</source>
-        <target>ব্রাউজিং করা শুরু করুন</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="Turn on Sync…">
         <source>Turn on Sync…</source>
-        <target>সিঙ্ক চালু করুন…</target>
         <note>The button that opens the sign in page for sync. See http://mzl.la/1T8gxwo</note>
       </trans-unit>
     </body>
@@ -3537,29 +3529,25 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Storage.strings" source-language="en" datatype="plaintext" target-language="bn">
+  <file original="Shared/Supporting Files/Storage.strings" source-language="en" datatype="plaintext" target-language="bn">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
     <body>
       <trans-unit id="Bookmarks Menu">
         <source>Bookmarks Menu</source>
-        <target>বুকমার্ক মেনু</target>
         <note>The name of the folder that contains desktop bookmarks in the menu. This should match bookmarks.folder.menu.label on Android.</note>
       </trans-unit>
       <trans-unit id="Bookmarks Toolbar">
         <source>Bookmarks Toolbar</source>
-        <target>বুকমার্ক টুল-বার</target>
         <note>The name of the folder that contains desktop bookmarks in the toolbar. This should match bookmarks.folder.toolbar.label on Android.</note>
       </trans-unit>
       <trans-unit id="Mobile Bookmarks">
         <source>Mobile Bookmarks</source>
-        <target>মোবাইলের বুকমার্ক</target>
         <note>The title of the folder that contains mobile bookmarks. This should match bookmarks.folder.mobile.label on Android.</note>
       </trans-unit>
       <trans-unit id="Unsorted Bookmarks">
         <source>Unsorted Bookmarks</source>
-        <target>অবিন্যস্ত বুকমার্ক</target>
         <note>The name of the folder that contains unsorted desktop bookmarks. This should match bookmarks.folder.unfiled.label on Android.</note>
       </trans-unit>
     </body>
