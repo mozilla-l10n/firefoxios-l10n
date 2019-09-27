@@ -1102,6 +1102,10 @@
         <target>清除最近的历史记录…</target>
         <note>Title for button in the history panel to clear recent history</note>
       </trans-unit>
+      <trans-unit id="HistoryPanel.ClearHistoryMenuOptionEverything">
+        <source>Everything</source>
+        <note>Option title to clear all browsing history.</note>
+      </trans-unit>
       <trans-unit id="HistoryPanel.ClearHistoryMenuOptionTheLastHour">
         <source>The Last Hour</source>
         <target>最近一小时</target>
@@ -3339,69 +3343,57 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="zh-CN">
+  <file original="Shared/Supporting Files/Intro.strings" source-language="en" datatype="plaintext" target-language="zh-CN">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
     <body>
       <trans-unit id="Intro.Slides.Mail.Description">
         <source>Use any email app — not just Mail — with Firefox.</source>
-        <target>可以与 Firefox 配合使用任何邮件 App，不再只是自带的“邮件”。</target>
         <note>Description for the 'Mail' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Mail.Title">
         <source>You’ve got mail… options</source>
-        <target>现在…你能选择要调用的邮件 App</target>
         <note>Title for the fourth panel 'Mail' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Private.Description">
         <source>Tap the mask icon to slip into Private Browsing mode.</source>
-        <target>点击面具图标进入隐私浏览模式。</target>
         <note>Description for the 'Private Browsing' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Private.Title">
         <source>Browse like no one’s watching</source>
-        <target>上网时拒绝对你的监视</target>
         <note>Title for the third panel 'Private Browsing' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Search.Description">
         <source>Searching for something different? Choose another default search engine (or add your own) in Settings.</source>
-        <target>想用其他引擎搜索？在“设置”中选择其他默认搜索引擎（或添加自己想要的搜索引擎）。</target>
         <note>Description for the 'Favorite Search Engine' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Search.Title">
         <source>Your search, your way</source>
-        <target>你的搜索，由你而定</target>
         <note>Title for the second  panel 'Search' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.TrailheadSync.Description">
         <source>Sign in to your account to sync and access more features.</source>
-        <target>请登录您的账户以同步和访问更多功能。</target>
         <note>Description for the 'Sync' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.TrailheadSync.Title">
         <source>Get the most out of Firefox</source>
-        <target>享用 Firefox 更多功能</target>
         <note>Title for the fifth panel 'Sync' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Description">
         <source>A modern mobile browser from Mozilla, the non-profit committed to a free and open web.</source>
-        <target>Firefox 是现代化的移动浏览器，由致力于建立一个自由且开放的网络的非营利组织 Mozilla 打造。</target>
         <note>Description for the 'Welcome' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Title">
         <source>Thanks for choosing Firefox!</source>
-        <target>感谢您选择 Firefox！</target>
         <note>Title for the first panel 'Welcome' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Start Browsing">
         <source>Start Browsing</source>
-        <target>开始浏览</target>
         <note>See http://mzl.la/1T8gxwo</note>
       </trans-unit>
       <trans-unit id="Turn on Sync…">
         <source>Turn on Sync…</source>
-        <target>开启同步…</target>
         <note>The button that opens the sign in page for sync. See http://mzl.la/1T8gxwo</note>
       </trans-unit>
     </body>
@@ -3540,29 +3532,25 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Storage.strings" source-language="en" datatype="plaintext" target-language="zh-CN">
+  <file original="Shared/Supporting Files/Storage.strings" source-language="en" datatype="plaintext" target-language="zh-CN">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
     <body>
       <trans-unit id="Bookmarks Menu">
         <source>Bookmarks Menu</source>
-        <target>书签菜单</target>
         <note>The name of the folder that contains desktop bookmarks in the menu. This should match bookmarks.folder.menu.label on Android.</note>
       </trans-unit>
       <trans-unit id="Bookmarks Toolbar">
         <source>Bookmarks Toolbar</source>
-        <target>书签工具栏</target>
         <note>The name of the folder that contains desktop bookmarks in the toolbar. This should match bookmarks.folder.toolbar.label on Android.</note>
       </trans-unit>
       <trans-unit id="Mobile Bookmarks">
         <source>Mobile Bookmarks</source>
-        <target>移动版书签</target>
         <note>The title of the folder that contains mobile bookmarks. This should match bookmarks.folder.mobile.label on Android.</note>
       </trans-unit>
       <trans-unit id="Unsorted Bookmarks">
         <source>Unsorted Bookmarks</source>
-        <target>未分类书签</target>
         <note>The name of the folder that contains unsorted desktop bookmarks. This should match bookmarks.folder.unfiled.label on Android.</note>
       </trans-unit>
     </body>
