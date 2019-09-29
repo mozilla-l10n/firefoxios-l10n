@@ -144,17 +144,17 @@
       </trans-unit>
       <trans-unit id="Incorrect passcode. Try again.">
         <source>Incorrect passcode. Try again.</source>
-        <target>Pogrešna zaporka. Pokušajte ponovno.</target>
+        <target>Pogrešna lozinka. Pokušaj ponovo.</target>
         <note>Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app</note>
       </trans-unit>
       <trans-unit id="Maximum attempts reached. Please try again in an hour.">
         <source>Maximum attempts reached. Please try again in an hour.</source>
-        <target>Dostignut je maksimalan broj pokušaja. Molimo pokušajte ponovno za jedan sat.</target>
+        <target>Dostignut je maksimalan broj pokušaja. Pokušaj ponovo za sat vremena.</target>
         <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
       </trans-unit>
       <trans-unit id="Maximum attempts reached. Please try again later.">
         <source>Maximum attempts reached. Please try again later.</source>
-        <target>Dostignut je maksimalan broj pokušaja. Molimo pokušajte ponovno kasnije.</target>
+        <target>Dostignut je maksimalan broj pokušaja. Pokušaj ponovo kasnije.</target>
         <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
       </trans-unit>
       <trans-unit id="New passcode must be different than existing code.">
@@ -547,7 +547,7 @@
       </trans-unit>
       <trans-unit id="AddPass.Error.Message">
         <source>An error occured while adding the pass to Wallet. Please try again later.</source>
-        <target>Došlo je do greške prilikom dodavanja propusnice u Wallet. Molimo pokušajte ponovo kasnije.</target>
+        <target>Došlo je do greške prilikom dodavanja propusnice u Wallet. Pokušaj ponovo kasnije.</target>
         <note>Text of the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet.</note>
       </trans-unit>
       <trans-unit id="AddPass.Error.Title">
@@ -1104,6 +1104,7 @@
       </trans-unit>
       <trans-unit id="HistoryPanel.ClearHistoryMenuOptionEverything">
         <source>Everything</source>
+        <target>Sve</target>
         <note>Option title to clear all browsing history.</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.ClearHistoryMenuOptionTheLastHour">
@@ -1465,6 +1466,7 @@
       </trans-unit>
       <trans-unit id="Menu.NoImageModeBlockImages.Label">
         <source>Block Images</source>
+        <target>Blokiraj slike</target>
         <note>Label for the button, displayed in the menu, hides images on the webpage when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.PageActions.Title">
@@ -1499,6 +1501,7 @@
       </trans-unit>
       <trans-unit id="Menu.TabSent.Confirm">
         <source>Tab Sent</source>
+        <target>Kartica poslana</target>
         <note>Toast displayed to the user after a tab has been sent successfully.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.BlockedTitle">
@@ -1508,6 +1511,7 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.NoTrackersBlockedTitle">
         <source>No trackers known to Firefox were detected on this page.</source>
+        <target>Na ovoj stranici nisu otkriveni programi za praćenje koji su poznati Firefoxu.</target>
         <note>Message in menu when no trackers blocked.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.ProtectionSettings.Title">
@@ -1557,6 +1561,7 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDescription.ContentTrackers">
         <source>Websites may load outside ads, videos, and other content that contains hidden trackers. Blocking this can make websites load faster, but some buttons, forms, and login fields, might not work.</source>
+        <target>Web stranice mogu učitati vanjske reklame, video materijal i drugi sadržaj koji sadrži programe za praćenje. Blokiranjem se može ubrzati učitavanje stranica, ali neki gumbi, obrasci ili polja za prijavu možda neće raditi.</target>
         <note>Description of content trackers.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDescription.CrossSiteNew">
@@ -1576,6 +1581,7 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDescription.SocialNetworksNew">
         <source>Social networks place trackers on other websites to build a more complete and targeted profile of you. Blocking these trackers reduces how much social media companies can see what do you online.</source>
+        <target>Društvene mreže postavljaju programe za praćenje na druge web stranice kako bi izgradili potpuniji i točniji profil za tebe. Blokiranjem ovih programa za praćenje smanjuje se količina podataka, koje društvene mreže sakupljaju o tebi.</target>
         <note>Description of social network trackers.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDisable1.Title">
@@ -1605,6 +1611,7 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionFingerprintersBlocked.Title">
         <source>Fingerprinters</source>
+        <target>Identifikatori (Fingerprinters)</target>
         <note>The title that shows the number of fingerprinting scripts blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionListTitle.CrossSiteCookies">
@@ -1619,6 +1626,7 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionListTitle.Fingerprinters">
         <source>Blocked Fingerprinters</source>
+        <target>Blokirani identifikatori (Fingerprinters)</target>
         <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionListTitle.Social">
@@ -2887,6 +2895,7 @@
       </trans-unit>
       <trans-unit id="Upgrade Firefox to connect">
         <source>Upgrade Firefox to connect</source>
+        <target>Nadogradi Firefox za povezivanje</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="Username">
@@ -2896,6 +2905,7 @@
       </trans-unit>
       <trans-unit id="Verify your email address">
         <source>Verify your email address</source>
+        <target>Potvrdi tvoju e-adresu</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="Version %@ (%@)">
@@ -3022,6 +3032,7 @@
       </trans-unit>
       <trans-unit id="Created %@">
         <source>Created %@</source>
+        <target>Izrađeno %@</target>
         <note>Label describing when the current login was created with the timestamp as the parameter.</note>
       </trans-unit>
       <trans-unit id="Delete">
@@ -3056,6 +3067,7 @@
       </trans-unit>
       <trans-unit id="Modified %@">
         <source>Modified %@</source>
+        <target>Promijenjeno %@</target>
         <note>Label describing when the current login was last modified with the timestamp as the parameter.</note>
       </trans-unit>
       <trans-unit id="No logins found">
@@ -3070,6 +3082,7 @@
       </trans-unit>
       <trans-unit id="Password">
         <source>Password</source>
+        <target>Lozinka</target>
         <note>Label displayed above the password row in Login Detail View.</note>
       </trans-unit>
       <trans-unit id="Reveal">
@@ -3094,10 +3107,12 @@
       </trans-unit>
       <trans-unit id="Username">
         <source>Username</source>
+        <target>Korisničko ime</target>
         <note>Label displayed above the username row in Login Detail View.</note>
       </trans-unit>
       <trans-unit id="Website">
         <source>Website</source>
+        <target>Web stranica</target>
         <note>Label displayed above the website row in Login Detail View.</note>
       </trans-unit>
     </body>
@@ -3114,6 +3129,7 @@
       </trans-unit>
       <trans-unit id="ContextMenu.OpenInNewPrivateTabButtonTitle">
         <source>Open in New Private Tab</source>
+        <target>Otvori u novoj privatnoj kartici</target>
         <note>Context menu option for opening a link in a new private tab</note>
       </trans-unit>
       <trans-unit id="Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.">
@@ -3153,6 +3169,7 @@
       </trans-unit>
       <trans-unit id="When Leaving Private Browsing">
         <source>When Leaving Private Browsing</source>
+        <target>Tijekom napuštanja privatnog pregledavanja</target>
         <note>Will be displayed in Settings under 'Close Private Tabs'</note>
       </trans-unit>
     </body>
@@ -3280,6 +3297,7 @@
     <body>
       <trans-unit id="Delete">
         <source>Delete</source>
+        <target>Obriši</target>
         <note>Action button for deleting bookmarks in the bookmarks panel.</note>
       </trans-unit>
     </body>
@@ -3291,18 +3309,22 @@
     <body>
       <trans-unit id="Bookmarks.DeleteFolderWarning.CancelButton.Label">
         <source>Cancel</source>
+        <target>Odustani</target>
         <note>Button label to cancel deletion when the user tried to delete a non-empty folder.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.DeleteFolderWarning.DeleteButton.Label">
         <source>Delete</source>
+        <target>Obriši</target>
         <note>Button label for the button that deletes a folder and all of its children.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.DeleteFolderWarning.Description">
         <source>Are you sure you want to delete it and its contents?</source>
+        <target>Sigurno to želiš izbrisati kao i sadržaj?</target>
         <note>Main body of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.DeleteFolderWarning.Title">
         <source>This folder isn’t empty.</source>
+        <target>Ova mapa nije prazna.</target>
         <note>Title of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
       </trans-unit>
     </body>
@@ -3349,6 +3371,7 @@
       </trans-unit>
       <trans-unit id="Intro.Slides.Search.Description">
         <source>Searching for something different? Choose another default search engine (or add your own) in Settings.</source>
+        <target>Tražiš nešto drugo? U postavkama odaberi jednu drugu zadanu tražilicu (ili dodaj svoju).</target>
         <note>Description for the 'Favorite Search Engine' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Search.Title">
@@ -3358,10 +3381,12 @@
       </trans-unit>
       <trans-unit id="Intro.Slides.TrailheadSync.Description">
         <source>Sign in to your account to sync and access more features.</source>
+        <target>Prijavi se na svoj račun za sinkronizaciju i za pristupanje daljnjim funkcijama.</target>
         <note>Description for the 'Sync' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.TrailheadSync.Title">
         <source>Get the most out of Firefox</source>
+        <target>Iskoristi sve prednosti Firefoxa</target>
         <note>Title for the fifth panel 'Sync' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Description">
@@ -3381,6 +3406,7 @@
       </trans-unit>
       <trans-unit id="Turn on Sync…">
         <source>Turn on Sync…</source>
+        <target>Uključi sinkronizaciju …</target>
         <note>The button that opens the sign in page for sync. See http://mzl.la/1T8gxwo</note>
       </trans-unit>
     </body>
@@ -3417,6 +3443,7 @@
       </trans-unit>
       <trans-unit id="Menu.Library.Title">
         <source>Your Library</source>
+        <target>Tvoja biblioteka</target>
         <note>Label for the button, displayed in the menu, used to open the Library</note>
       </trans-unit>
       <trans-unit id="Menu.NewPrivateTabAction.Title">
@@ -3436,6 +3463,7 @@
       </trans-unit>
       <trans-unit id="Menu.OpenDownloadsAction.AccessibilityLabel">
         <source>Downloads</source>
+        <target>Preuzimanja</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the Downloads home panel.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenHistoryAction.AccessibilityLabel">
@@ -3445,6 +3473,7 @@
       </trans-unit>
       <trans-unit id="Menu.OpenHomePageAction.Title">
         <source>Home</source>
+        <target>Početna stranica</target>
         <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel">
@@ -3464,6 +3493,7 @@
       </trans-unit>
       <trans-unit id="Menu.PageSourceAction.Title">
         <source>View Page Source</source>
+        <target>Prikaži izvorni kȏd stranice</target>
         <note>Label for the button, displayed in the menu, used to show the html page source</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveBookmarkAction.Title">
@@ -3488,6 +3518,7 @@
       </trans-unit>
       <trans-unit id="Menu.TranslatePageAction.Title">
         <source>Translate Page</source>
+        <target>Prevedi stranicu</target>
         <note>Label for the button, displayed in the menu, used to translate the current page.</note>
       </trans-unit>
       <trans-unit id="Menu.ViewDekstopSiteAction.Title">
@@ -3526,6 +3557,7 @@
       </trans-unit>
       <trans-unit id="Bookmarks Toolbar">
         <source>Bookmarks Toolbar</source>
+        <target>Alatna traka za zabilješke</target>
         <note>The name of the folder that contains desktop bookmarks in the toolbar. This should match bookmarks.folder.toolbar.label on Android.</note>
       </trans-unit>
       <trans-unit id="Mobile Bookmarks">
@@ -3535,6 +3567,7 @@
       </trans-unit>
       <trans-unit id="Unsorted Bookmarks">
         <source>Unsorted Bookmarks</source>
+        <target>Nerazvrstane zabilješke</target>
         <note>The name of the folder that contains unsorted desktop bookmarks. This should match bookmarks.folder.unfiled.label on Android.</note>
       </trans-unit>
     </body>
