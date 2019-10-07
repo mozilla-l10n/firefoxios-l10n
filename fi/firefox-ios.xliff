@@ -901,10 +901,12 @@
       </trans-unit>
       <trans-unit id="Downloads.Toast.MultipleFilesAndProgress.DescriptionText">
         <source>%1$@ %2$@</source>
+        <target>%1$@ %2$@</target>
         <note>The description text in the Download progress toast for showing the number of files (1$) and download progress (2$). This string only consists of two placeholders for purposes of displaying two other strings side-by-side where 1$ is Downloads.Toast.MultipleFiles.DescriptionText and 2$ is Downloads.Toast.Progress.DescriptionText. This string should only consist of the two placeholders side-by-side separated by a single space and 1$ should come before 2$ everywhere except for right-to-left locales.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.Progress.DescriptionText">
         <source>%1$@/%2$@</source>
+        <target>%1$@/%2$@</target>
         <note>The description text in the Download progress toast for showing the downloaded file size (1$) out of the total expected file size (2$).</note>
       </trans-unit>
       <trans-unit id="DownloadsPanel.EmptyState.Title">
@@ -1351,6 +1353,7 @@
       </trans-unit>
       <trans-unit id="LoginsDetailView.LoginTitle">
         <source>Login</source>
+        <target>Sisäänkirjautuminen</target>
         <note>Title for the login detail view</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.DontSave.Button">
@@ -1390,6 +1393,7 @@
       </trans-unit>
       <trans-unit id="LoginsList.LoginsListFilterLogin">
         <source>Login</source>
+        <target>Sisäänkirjautuminen</target>
         <note>For filtering the login list, search only the login names</note>
       </trans-unit>
       <trans-unit id="LoginsList.LoginsListFilterSearchAll">
@@ -1490,6 +1494,7 @@
       </trans-unit>
       <trans-unit id="Menu.TabSent.Confirm">
         <source>Tab Sent</source>
+        <target>Välilehti lähetetty</target>
         <note>Toast displayed to the user after a tab has been sent successfully.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.BlockedTitle">
@@ -1593,6 +1598,7 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionFingerprintersBlocked.Title">
         <source>Fingerprinters</source>
+        <target>Yksilöijät</target>
         <note>The title that shows the number of fingerprinting scripts blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionListTitle.CrossSiteCookies">
@@ -1648,6 +1654,7 @@
       </trans-unit>
       <trans-unit id="Navigation Toolbar">
         <source>Navigation Toolbar</source>
+        <target>Navigointipalkki</target>
         <note>Accessibility label for the navigation toolbar displayed at the bottom of the screen.</note>
       </trans-unit>
       <trans-unit id="New Tab">
@@ -1838,6 +1845,7 @@
       </trans-unit>
       <trans-unit id="ScanQRCode.InvalidDataError.Message">
         <source>The data is invalid</source>
+        <target>Tiedot ovat virheellisiä</target>
         <note>Text of the prompt that is shown to the user when the data is invalid</note>
       </trans-unit>
       <trans-unit id="ScanQRCode.PermissionError.Message">
@@ -2025,14 +2033,17 @@
       </trans-unit>
       <trans-unit id="SentTab_TabArrivingNotification_WithDevice_body">
         <source>New tab arrived in %@</source>
+        <target>Uusi välilehti saapui laitteesta %@</target>
         <note>Body of notification shown when the device is sent one or more tabs from the named device. %@ is the placeholder for the app name.</note>
       </trans-unit>
       <trans-unit id="SentTab_TabArrivingNotification_WithDevice_title">
         <source>Tab received from %@</source>
+        <target>Välilehti vastaanotettu laitteesta %@</target>
         <note>Title of notification shown when the device is sent one or more tabs from the named device. %@ is the placeholder for the device name. This device name will be localized by that device.</note>
       </trans-unit>
       <trans-unit id="Sepia">
         <source>Sepia</source>
+        <target>Seepia</target>
         <note>Sepia theme setting in Reading View settings</note>
       </trans-unit>
       <trans-unit id="Serif">
@@ -2673,6 +2684,7 @@
       </trans-unit>
       <trans-unit id="SyncState.Logins.Title">
         <source>Logins</source>
+        <target>Kirjautumistiedot</target>
         <note>The Logins sync component, used in SyncState.Partial.Title</note>
       </trans-unit>
       <trans-unit id="SyncState.NotStarted.Title">
@@ -2737,6 +2749,7 @@
       </trans-unit>
       <trans-unit id="Tabs.DeleteAllUndo.Title">
         <source>%d tab(s) closed</source>
+        <target>%d välilehteä suljettu</target>
         <note>The label indicating that all the tabs were closed</note>
       </trans-unit>
       <trans-unit id="Tabs.Search.PlaceholderText">
@@ -2973,6 +2986,7 @@
       </trans-unit>
       <trans-unit id="Deselect All">
         <source>Deselect All</source>
+        <target>Poista kaikkien valinta</target>
         <note>Label for the button used to deselect all logins.</note>
       </trans-unit>
       <trans-unit id="Enter Search Mode">
@@ -3107,6 +3121,7 @@
     <body>
       <trans-unit id="%@ search">
         <source>%@ search</source>
+        <target>%@-haku</target>
         <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
       </trans-unit>
       <trans-unit id="Search Settings">
@@ -3275,14 +3290,17 @@
     <body>
       <trans-unit id="Intro.Slides.Button.Next">
         <source>Next</source>
+        <target>Seuraava</target>
         <note>Next button on the first intro screen.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Button.SignIn">
         <source>Sign In</source>
+        <target>Kirjaudu sisään</target>
         <note>Sign in to Firefox account button on second intro screen.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Button.SignUp">
         <source>Sign Up</source>
+        <target>Luo tili</target>
         <note>Sign up to Firefox account button on second intro screen.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Mail.Description">
@@ -3300,14 +3318,17 @@
       </trans-unit>
       <trans-unit id="Intro.Slides.Private.Title">
         <source>Browse like no one’s watching</source>
+        <target>Selaa täysin itseksesi</target>
         <note>Title for the third panel 'Private Browsing' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Search.Description">
         <source>Searching for something different? Choose another default search engine (or add your own) in Settings.</source>
+        <target>Haetko jotain erilaista? Valitse (tai lisää oma) toinen oletushakukone asetuksista.</target>
         <note>Description for the 'Favorite Search Engine' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Search.Title">
         <source>Your search, your way</source>
+        <target>Hakusi haluamallasi tavalla</target>
         <note>Title for the second  panel 'Search' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.TrailheadSync.Description">
@@ -3317,14 +3338,17 @@
       </trans-unit>
       <trans-unit id="Intro.Slides.TrailheadSync.Title.v2">
         <source>Sync your bookmarks, history, and passwords to your phone.</source>
+        <target>Synkronoi kirjanmerkit, historia ja salasanat puhelimeesi.</target>
         <note>Title for the second panel 'Sync' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Description.v2">
         <source>Fast, private, and on your side.</source>
+        <target>Nopea, yksityinen ja sinun puolellasi.</target>
         <note>Description for the 'Welcome' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Title.v2">
         <source>Welcome to Firefox</source>
+        <target>Tervetuloa Firefoxiin</target>
         <note>Title for the first panel 'Welcome' in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Start Browsing">
