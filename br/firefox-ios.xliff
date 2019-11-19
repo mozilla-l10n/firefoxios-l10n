@@ -310,23 +310,6 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/DownloadsPanel.strings" source-language="en" datatype="plaintext" target-language="br">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="Delete">
-        <source>Delete</source>
-        <target>Dilemel</target>
-        <note>Action button for deleting downloaded files in the Downloads panel.</note>
-      </trans-unit>
-      <trans-unit id="Share">
-        <source>Share</source>
-        <target>Rannañ</target>
-        <note>Action button for sharing downloaded files in the Downloads panel.</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="Client/ErrorPages.strings" source-language="en" datatype="plaintext" target-language="br">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
@@ -912,10 +895,18 @@
         <target>%1$@/%2$@</target>
         <note>The description text in the Download progress toast for showing the downloaded file size (1$) out of the total expected file size (2$).</note>
       </trans-unit>
+      <trans-unit id="DownloadsPanel.Delete.Title">
+        <source>Delete</source>
+        <note>Action button for deleting downloaded files in the Downloads panel.</note>
+      </trans-unit>
       <trans-unit id="DownloadsPanel.EmptyState.Title">
         <source>Downloaded files will show up here.</source>
         <target>Ar restroù pellgarget a vo diskouezet amañ.</target>
         <note>Title for the Downloads Panel empty state.</note>
+      </trans-unit>
+      <trans-unit id="DownloadsPanel.Share.Title">
+        <source>Share</source>
+        <note>Action button for sharing downloaded files in the Downloads panel.</note>
       </trans-unit>
       <trans-unit id="Enter your password to connect">
         <source>Enter your password to connect</source>
@@ -1301,11 +1292,6 @@
         <source>Increase text size</source>
         <target>Kreskaat ment an destenn</target>
         <note>Accessibility label for button increasing font size in display settings of reader mode</note>
-      </trans-unit>
-      <trans-unit id="Intro Tour Carousel">
-        <source>Intro Tour Carousel</source>
-        <target>Troiad digeriñ</target>
-        <note>Accessibility label for the introduction tour carousel</note>
       </trans-unit>
       <trans-unit id="Last month">
         <source>Last month</source>
@@ -2201,6 +2187,22 @@
         <target>Digennaskañ Sync?</target>
         <note>Title of the alert when prompting the user asking to disconnect.</note>
       </trans-unit>
+      <trans-unit id="Settings.DisplayTheme.BrightnessThreshold.SectionHeader">
+        <source>Threshold</source>
+        <note>Section header for brightness slider.</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayTheme.Manual.StatusLabel">
+        <source>Manual</source>
+        <note>Display (theme) settings label to show if manually switch theme is enabled.</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayTheme.Manual.SwitchSubtitle">
+        <source>Pick which theme you want</source>
+        <note>Display (theme) settings switch subtitle, explaining the title 'Manually'.</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayTheme.Manual.SwitchTitle">
+        <source>Manually</source>
+        <note>Display (theme) setting to choose the theme manually.</note>
+      </trans-unit>
       <trans-unit id="Settings.DisplayTheme.OptionDark">
         <source>Dark</source>
         <target>Teñval</target>
@@ -2216,10 +2218,9 @@
         <target>An neuz a cheñcho en un doare emgefre e-keñver sked ho skramm. Gellout a rit termeniñ an treuzoù ma cheñcho an tem ganto. Ar c'helc'h a ziskouez sked a-vremañ ho skramm.</target>
         <note>Display (theme) settings footer describing how the brightness slider works.</note>
       </trans-unit>
-      <trans-unit id="Settings.DisplayTheme.SectionHeader">
-        <source>Theme</source>
-        <target>Neuz</target>
-        <note>Display (theme) settings section title</note>
+      <trans-unit id="Settings.DisplayTheme.SwitchMode.SectionHeader">
+        <source>Switch Mode</source>
+        <note>Switch mode settings section title</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.SwitchSubtitle">
         <source>Switch automatically based on screen brightness</source>
@@ -2232,10 +2233,21 @@
         <note>Display (theme) settings label to show if automatically switch theme is enabled.
    Display (theme) settings switch to choose whether to set the dark mode manually, or automatically based on the brightness slider.</note>
       </trans-unit>
-      <trans-unit id="Settings.DisplayTheme.Title">
-        <source>Display</source>
-        <target>Diskouez</target>
-        <note>Title in main app settings for Display (theme) settings</note>
+      <trans-unit id="Settings.DisplayTheme.SystemTheme.SectionHeader">
+        <source>System Theme</source>
+        <note>System theme settings section title</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayTheme.SystemTheme.SwitchTitle">
+        <source>Use System Light/Dark Mode</source>
+        <note>System theme settings switch to choose whether to use the same theme as the system</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayTheme.ThemePicker.SectionHeader">
+        <source>Theme Picker</source>
+        <note>Theme picker settings section title</note>
+      </trans-unit>
+      <trans-unit id="Settings.DisplayTheme.Title.v2">
+        <source>Theme</source>
+        <note>Title in main app settings for Theme settings</note>
       </trans-unit>
       <trans-unit id="Settings.FxA.DeviceName">
         <source>Device Name</source>
@@ -2752,6 +2764,10 @@
         <source>Tabs</source>
         <target>Ivinelloù</target>
         <note>The Tabs sync component, used in SyncState.Partial.Title</note>
+      </trans-unit>
+      <trans-unit id="Synced Tabs">
+        <source>Synced Tabs</source>
+        <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Tab %@ of %@">
         <source>Tab %1$@ of %2$@</source>
@@ -3501,6 +3517,10 @@
         <target>Arventennoù</target>
         <note>Label for the button, displayed in the menu, used to open the Settings menu.</note>
       </trans-unit>
+      <trans-unit id="Menu.OpenSyncedTabsAction.AccessibilityLabel">
+        <source>Synced Tabs</source>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Synced Tabs home panel.</note>
+      </trans-unit>
       <trans-unit id="Menu.OpenTopSitesAction.AccessibilityLabel">
         <source>Top Sites</source>
         <target>Lec'hiennoù gwellañ</target>
@@ -3520,6 +3540,10 @@
         <source>Scan QR Code</source>
         <target>C'hwilerviñ ar boneg QR</target>
         <note>Label for the button, displayed in the menu, used to open the QR code scanner.</note>
+      </trans-unit>
+      <trans-unit id="Menu.SeeAllAction.Title">
+        <source>See All</source>
+        <note>Label for the button, displayed in Firefox Home, used to see all Library panels.</note>
       </trans-unit>
       <trans-unit id="Menu.SharePageAction.Title">
         <source>Share Page With…</source>
