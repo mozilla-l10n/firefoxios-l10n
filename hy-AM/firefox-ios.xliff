@@ -149,10 +149,12 @@
       </trans-unit>
       <trans-unit id="Maximum attempts reached. Please try again in an hour.">
         <source>Maximum attempts reached. Please try again in an hour.</source>
+        <target>Փորձերը առավելագույն չափով կատարվել են։ Մեկ ժամից նորից փորձեք։</target>
         <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
       </trans-unit>
       <trans-unit id="Maximum attempts reached. Please try again later.">
         <source>Maximum attempts reached. Please try again later.</source>
+        <target>Փորձերը առավելագույն չափով կատարվե են։ Հետո նորից փորձեք։</target>
         <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
       </trans-unit>
       <trans-unit id="New passcode must be different than existing code.">
@@ -217,10 +219,12 @@
       </trans-unit>
       <trans-unit id="touchid.disable.reason.label">
         <source>Use your fingerprint to disable Touch ID.</source>
+        <target>Օգտագործեք ձեր մատնահետքը Touch ID անջատելու համար։</target>
         <note>Touch ID prompt subtitle when disabling Touch ID</note>
       </trans-unit>
       <trans-unit id="touchid.require.passcode.reason.label">
         <source>Use your fingerprint to access configuring your required passcode interval.</source>
+        <target>Օգտագործեք ձեր մատնահետքը պահանջված անցակոդի միջակայքը մատչելու համար։</target>
         <note>Touch ID prompt subtitle when accessing the require passcode setting</note>
       </trans-unit>
     </body>
@@ -242,6 +246,7 @@
       </trans-unit>
       <trans-unit id="This action will clear all of your private data, including history from your synced devices.">
         <source>This action will clear all of your private data, including history from your synced devices.</source>
+        <target>Այս գործողությունը կմաքրի ողջ ձեր անձնական տվյալները, ներառյալ ձեր համաժամեցրած սարքերի պատմությունը։</target>
         <note>Description of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
       </trans-unit>
     </body>
@@ -268,6 +273,7 @@
       </trans-unit>
       <trans-unit id="Downloaded Files">
         <source>Downloaded Files</source>
+        <target>Ներբեռնված ֆայլեր</target>
         <note>Settings item for deleting downloaded files</note>
       </trans-unit>
       <trans-unit id="Offline Website Data">
@@ -338,10 +344,12 @@
       </trans-unit>
       <trans-unit id="Next in-page result">
         <source>Next in-page result</source>
+        <target>Հաջորդը արդյունքը էջում</target>
         <note>Accessibility label for next result button in Find in Page Toolbar.</note>
       </trans-unit>
       <trans-unit id="Previous in-page result">
         <source>Previous in-page result</source>
+        <target>Նախորդ արդյունքը էջում</target>
         <note>Accessibility label for previous result button in Find in Page Toolbar.</note>
       </trans-unit>
     </body>
@@ -381,15 +389,19 @@
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription">
         <source>Websites you visit may request your location.</source>
+        <target>Ձեր այցելած կայքերը կարող են հարցնել ձեր տեղադրությունը։</target>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription">
         <source>This lets you take and upload videos.</source>
+        <target>Սա ձեզ թույլատրում է նկարել և վերբեռնել տեսանյութեր։</target>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription">
         <source>This lets you save photos.</source>
+        <target>Սա ձեզ թույլ է տալիս պահպանել լուսանկարներ։</target>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryUsageDescription">
         <source>This lets you save and upload photos.</source>
+        <target>Սա ձեզ թույլ է տալիս պահպանել և վերբեռնել լուսանկարներ։</target>
       </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Private Tab</source>
@@ -422,10 +434,12 @@
       </trans-unit>
       <trans-unit id="A username and password are being requested by %@.">
         <source>A username and password are being requested by %@.</source>
+        <target>Օգտանունը և գաղտնաբառը հայցվում են %@-ի կողմից։</target>
         <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
       </trans-unit>
       <trans-unit id="A username and password are being requested by %@. The site says: %@">
         <source>A username and password are being requested by %1$@. The site says: %2$@</source>
+        <target>Օգտանունը և գաղտնաբառը հայցվում են %1$@-ի կողմից։ Կայքը ասում է․ %2$@</target>
         <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
       </trans-unit>
       <trans-unit id="Aa">
@@ -460,6 +474,7 @@
       </trans-unit>
       <trans-unit id="ActivityStream.NewRecentBookmarks.Title">
         <source>Recent Bookmarks</source>
+        <target>Վերջին էջանիշեր</target>
         <note>Section title label for recently bookmarked websites</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Pocket.MoreLink">
@@ -469,22 +484,27 @@
       </trans-unit>
       <trans-unit id="ActivityStream.Pocket.SectionTitle">
         <source>Trending on Pocket</source>
+        <target>Միտված է Pocket-ում</target>
         <note>Section title label for Recommended by Pocket section</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Pocket.Trending">
         <source>Trending</source>
+        <target>Միտում</target>
         <note>The description of a Pocket Story</note>
       </trans-unit>
       <trans-unit id="ActivityStream.RecentHistory.Title">
         <source>Recently Visited</source>
+        <target>Վերջերս այցելված</target>
         <note>Section title label for recently visited websites</note>
       </trans-unit>
       <trans-unit id="ActivityStream.TopSites.RowCount">
         <source>Rows: %d</source>
+        <target>Տողեր․ %d</target>
         <note>label showing how many rows of topsites are shown. %d represents a number</note>
       </trans-unit>
       <trans-unit id="ActivityStream.TopSites.RowSettingFooter">
         <source>Set Rows</source>
+        <target>Սահմանել տողերը</target>
         <note>The title for the setting page which lets you select the number of top site rows</note>
       </trans-unit>
       <trans-unit id="ActivityStream.TopSites.SectionTitle">
@@ -510,14 +530,17 @@
       </trans-unit>
       <trans-unit id="AddPass.Error.Message">
         <source>An error occured while adding the pass to Wallet. Please try again later.</source>
+        <target>Wallet-ում գաղտնաբառերի ավելացման ընթացքում սխալ է տեղի ունեցել։ Փորձեք ավելի ուշ։</target>
         <note>Text of the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet.</note>
       </trans-unit>
       <trans-unit id="AddPass.Error.Title">
         <source>Failed to Add Pass</source>
+        <target>Չհաջողվեց գաղտնաբառեր ավելացնել</target>
         <note>Title of the 'Add Pass Failed' alert. See https://support.apple.com/HT204003 for context on Wallet.</note>
       </trans-unit>
       <trans-unit id="Added page to Reading List">
         <source>Added page to Reading List</source>
+        <target>Էջն ավելացվել է ընթերցացուցակում</target>
         <note>Accessibility message e.g. spoken by VoiceOver after the current page gets added to the Reading List using the Reader View button, e.g. by long-pressing it or by its accessibility custom action.</note>
       </trans-unit>
       <trans-unit id="Address and Search">
@@ -552,18 +575,22 @@
       </trans-unit>
       <trans-unit id="Bookmark.BookmarkDetail.FieldsHeader.Bookmark.Title">
         <source>Bookmark</source>
+        <target>Էջանշան</target>
         <note>The header title for the fields when editing a Bookmark</note>
       </trans-unit>
       <trans-unit id="Bookmark.BookmarkDetail.FieldsHeader.Folder.Title">
         <source>Folder</source>
+        <target>Պանակ</target>
         <note>The header title for the fields when editing a Folder</note>
       </trans-unit>
       <trans-unit id="Bookmark.DetailFieldTitle.Label">
         <source>Title</source>
+        <target>Վերնագիր</target>
         <note>The label for the Title field when editing a bookmark</note>
       </trans-unit>
       <trans-unit id="Bookmark.DetailFieldURL.Label">
         <source>URL</source>
+        <target>URL</target>
         <note>The label for the URL field when editing a bookmark</note>
       </trans-unit>
       <trans-unit id="Bookmarks">
@@ -573,10 +600,12 @@
       </trans-unit>
       <trans-unit id="Bookmarks.EditBookmark.Label">
         <source>Edit Bookmark</source>
+        <target>Խմբագրել Էջանշանը</target>
         <note>The button to edit a bookmark</note>
       </trans-unit>
       <trans-unit id="Bookmarks.EditFolder.Label">
         <source>Edit Folder</source>
+        <target>Խմբագրել պանակը</target>
         <note>The button to edit a folder</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Folder.Label">
@@ -596,6 +625,7 @@
       </trans-unit>
       <trans-unit id="Bookmarks.NewBookmark.Label">
         <source>New Bookmark</source>
+        <target>Նոր Էջանշան</target>
         <note>The button to create a new bookmark</note>
       </trans-unit>
       <trans-unit id="Bookmarks.NewFolder.Label">
@@ -605,6 +635,7 @@
       </trans-unit>
       <trans-unit id="Bookmarks.NewSeparator.Label">
         <source>New Separator</source>
+        <target>Նոր բաժանիչ</target>
         <note>The button to create a new separator</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Title.Label">
@@ -619,6 +650,7 @@
       </trans-unit>
       <trans-unit id="BookmarksPanel.EmptyState.Title">
         <source>Bookmarks you save will show up here.</source>
+        <target>Ձեր պահպանած էջանշանները կցուցադրվեն այստեղ։</target>
         <note>Status label for the empty Bookmarks state.</note>
       </trans-unit>
       <trans-unit id="Brightness">
@@ -663,6 +695,7 @@
       </trans-unit>
       <trans-unit id="ContextMenu.BookmarkLinkButtonTitle">
         <source>Bookmark Link</source>
+        <target>Էջանշանի հղում</target>
         <note>Context menu item for bookmarking a link URL</note>
       </trans-unit>
       <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.ButtonText">
@@ -687,30 +720,37 @@
       </trans-unit>
       <trans-unit id="ContextMenu.CopyImageButtonTitle">
         <source>Copy Image</source>
+        <target>Պատճենել պատկերը</target>
         <note>Context menu item for copying an image to the clipboard</note>
       </trans-unit>
       <trans-unit id="ContextMenu.CopyImageLinkButtonTitle">
         <source>Copy Image Link</source>
+        <target>Պատճենել պատկերի հղումը</target>
         <note>Context menu item for copying an image URL to the clipboard</note>
       </trans-unit>
       <trans-unit id="ContextMenu.CopyLinkButtonTitle">
         <source>Copy Link</source>
+        <target>Պատճենել հղումը</target>
         <note>Context menu item for copying a link URL to the clipboard</note>
       </trans-unit>
       <trans-unit id="ContextMenu.DownloadLinkButtonTitle">
         <source>Download Link</source>
+        <target>Ներբեռնել հղումը</target>
         <note>Context menu item for downloading a link URL</note>
       </trans-unit>
       <trans-unit id="ContextMenu.OpenInNewTabButtonTitle">
         <source>Open in New Tab</source>
+        <target>Բացել նոր ներդիրում</target>
         <note>Context menu item for opening a link in a new tab</note>
       </trans-unit>
       <trans-unit id="ContextMenu.SaveImageButtonTitle">
         <source>Save Image</source>
+        <target>Պահպանել պատկերը</target>
         <note>Context menu item for saving an image</note>
       </trans-unit>
       <trans-unit id="ContextMenu.ShareLinkButtonTitle">
         <source>Share Link</source>
+        <target>Կիսվել հղումով</target>
         <note>Context menu item for sharing a link URL</note>
       </trans-unit>
       <trans-unit id="Could not add page to Reading List. Maybe it’s already there?">
@@ -787,26 +827,32 @@
       </trans-unit>
       <trans-unit id="Downloads">
         <source>Downloads</source>
+        <target>Ներբեռնումներ</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Downloads.Alert.DownloadNow">
         <source>Download Now</source>
+        <target>Ներբեռնել հիմա</target>
         <note>The label of the button the user will press to start downloading a file</note>
       </trans-unit>
       <trans-unit id="Downloads.CancelDialog.Cancel">
         <source>Cancel</source>
+        <target>Չեղարկել</target>
         <note>Button confirming the cancellation of the download.</note>
       </trans-unit>
       <trans-unit id="Downloads.CancelDialog.Message">
         <source>Are you sure you want to cancel this download?</source>
+        <target>Ցանկանում եք չեղարկե՞լ այս ներբեռնումը։</target>
         <note>Alert dialog body when the user taps the cancel download icon.</note>
       </trans-unit>
       <trans-unit id="Downloads.CancelDialog.Resume">
         <source>Resume</source>
+        <target>Վերսկսել</target>
         <note>Button declining the cancellation of the download.</note>
       </trans-unit>
       <trans-unit id="Downloads.CancelDialog.Title">
         <source>Cancel Download</source>
+        <target>Չեղարկել ներբեռնումը</target>
         <note>Alert dialog title when the user taps the cancel download icon.</note>
       </trans-unit>
       <trans-unit id="Downloads.Error.Message">
@@ -816,34 +862,42 @@
       </trans-unit>
       <trans-unit id="Downloads.Toast.Cancelled.LabelText">
         <source>Download Cancelled</source>
+        <target>Ներբեռնումը չեղարկվել է</target>
         <note>The label text in the Download Cancelled toast for showing confirmation that the download was cancelled.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.Failed.LabelText">
         <source>Download Failed</source>
+        <target>Ներբեռնումը ձախողվեց</target>
         <note>The label text in the Download Failed toast for showing confirmation that the download has failed.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.Failed.RetryButton">
         <source>Retry</source>
+        <target>Կրկնել</target>
         <note>The button to retry a failed download from the Download Failed toast.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.GoToDownloads.Button">
         <source>Downloads</source>
+        <target>Ներբեռնումներ</target>
         <note>The button to open a new tab with the Downloads home panel</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.MultipleFiles.DescriptionText">
         <source>1 of %d files</source>
+        <target>%d-ի նիշքերից 1-ը</target>
         <note>The description text in the Download progress toast for showing the number of files when multiple files are downloading.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.MultipleFilesAndProgress.DescriptionText">
         <source>%1$@ %2$@</source>
+        <target>%1$@ %2$@</target>
         <note>The description text in the Download progress toast for showing the number of files (1$) and download progress (2$). This string only consists of two placeholders for purposes of displaying two other strings side-by-side where 1$ is Downloads.Toast.MultipleFiles.DescriptionText and 2$ is Downloads.Toast.Progress.DescriptionText. This string should only consist of the two placeholders side-by-side separated by a single space and 1$ should come before 2$ everywhere except for right-to-left locales.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.Progress.DescriptionText">
         <source>%1$@/%2$@</source>
+        <target>%1$@/%2$@</target>
         <note>The description text in the Download progress toast for showing the downloaded file size (1$) out of the total expected file size (2$).</note>
       </trans-unit>
       <trans-unit id="DownloadsPanel.Delete.Title">
         <source>Delete</source>
+        <target>Ջնջել</target>
         <note>Action button for deleting downloaded files in the Downloads panel.</note>
       </trans-unit>
       <trans-unit id="DownloadsPanel.EmptyState.Title">
@@ -3473,4 +3527,3 @@
     </body>
   </file>
 </xliff>
-
