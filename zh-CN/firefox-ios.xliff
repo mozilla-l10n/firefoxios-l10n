@@ -768,6 +768,14 @@
         <target>未能载入页面。</target>
         <note>Error message that is shown in settings when there was a problem loading</note>
       </trans-unit>
+      <trans-unit id="CoverSheet.v22.DarkMode.Description">
+        <source>For iOS 13 users, Firefox now automatically switches to a dark theme when your phone is set to Dark Mode. To change this behaviour, go to Settings &gt; Theme.</source>
+        <note>Description for the new dark mode change in the version 22 app release. It describes the new automatic dark theme and how to change the theme settings.</note>
+      </trans-unit>
+      <trans-unit id="CoverSheet.v22.DarkMode.Title">
+        <source>Dark theme now includes a dark keyboard and dark splash screen.</source>
+        <note>Title for the new dark mode change in the version 22 app release.</note>
+      </trans-unit>
       <trans-unit id="Create an account">
         <source>Create an account</source>
         <target>注册账号</target>
@@ -1014,6 +1022,18 @@
         <source>Open Sync Preferences</source>
         <target>打开同步首选项</target>
         <note>Button label to open Sync preferences</note>
+      </trans-unit>
+      <trans-unit id="FxA.RemoveAccount">
+        <source>Remove</source>
+        <note>Remove button is displayed on firefox account page under certain scenarios where user would like to remove their account.</note>
+      </trans-unit>
+      <trans-unit id="FxA.RemoveAccountAlertMessage">
+        <source>Remove the Firefox Account associated with this device to sign in as a different user.</source>
+        <note>Description string for alert view that gets presented when user tries to remove an account.</note>
+      </trans-unit>
+      <trans-unit id="FxA.RemoveAccountAlertTitle">
+        <source>Remove Account</source>
+        <note>Remove account alert is the final confirmation before user removes their firefox account</note>
       </trans-unit>
       <trans-unit id="FxA.ResendEmail">
         <source>Resend Email</source>
@@ -3499,40 +3519,35 @@
         <target>新建标签页</target>
         <note>Label for the button, displayed in the menu, used to open a new tab</note>
       </trans-unit>
-      <trans-unit id="Menu.OpenBookmarksAction.AccessibilityLabel">
+      <trans-unit id="Menu.OpenBookmarksAction.AccessibilityLabel.v2">
         <source>Bookmarks</source>
-        <target>书签</target>
-        <note>Accessibility label for the button, displayed in the menu, used to open the Bbookmarks home panel.</note>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Bookmarks home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
       </trans-unit>
-      <trans-unit id="Menu.OpenDownloadsAction.AccessibilityLabel">
+      <trans-unit id="Menu.OpenDownloadsAction.AccessibilityLabel.v2">
         <source>Downloads</source>
-        <target>下载</target>
-        <note>Accessibility label for the button, displayed in the menu, used to open the Downloads home panel.</note>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Downloads home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
       </trans-unit>
-      <trans-unit id="Menu.OpenHistoryAction.AccessibilityLabel">
+      <trans-unit id="Menu.OpenHistoryAction.AccessibilityLabel.v2">
         <source>History</source>
-        <target>历史记录</target>
-        <note>Accessibility label for the button, displayed in the menu, used to open the History home panel.</note>
+        <note>Accessibility label for the button, displayed in the menu, used to open the History home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenHomePageAction.Title">
         <source>Home</source>
         <target>主页</target>
         <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
       </trans-unit>
-      <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel">
+      <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel.v2">
         <source>Reading List</source>
-        <target>阅读列表</target>
-        <note>Accessibility label for the button, displayed in the menu, used to open the Reading list home panel.</note>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Reading list home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenSettingsAction.Title">
         <source>Settings</source>
         <target>设置</target>
         <note>Label for the button, displayed in the menu, used to open the Settings menu.</note>
       </trans-unit>
-      <trans-unit id="Menu.OpenSyncedTabsAction.AccessibilityLabel">
+      <trans-unit id="Menu.OpenSyncedTabsAction.AccessibilityLabel.v2">
         <source>Synced Tabs</source>
-        <target>受同步的标签页</target>
-        <note>Accessibility label for the button, displayed in the menu, used to open the Synced Tabs home panel.</note>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Synced Tabs home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenTopSitesAction.AccessibilityLabel">
         <source>Top Sites</source>
