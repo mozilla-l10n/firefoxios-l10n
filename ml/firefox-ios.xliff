@@ -769,14 +769,25 @@
         <note>Error message that is shown in settings when there was a problem loading</note>
       </trans-unit>
       <trans-unit id="CoverSheet.v22.DarkMode.Description">
-        <source>For iOS 13 users, Firefox now automatically switches to a dark theme when your phone is set to Dark Mode. To change this behaviour, go to Settings &gt; Theme.</source>
-        <target>IOS 13 ഉപയോക്താക്കൾക്കായി, നിങ്ങളുടെ ഫോൺ ഡാർക്ക് മോഡിലേക്ക് സജ്ജമാക്കുമ്പോൾ ഫയർഫോക്സ് ഇപ്പോൾ യാന്ത്രികമായി ഇരുണ്ട തീമിലേക്ക് മാറുന്നു. ഈ സ്വഭാവം മാറ്റാൻ, ക്രമീകരണങ്ങൾ&gt; തീം എന്നതിലേക്ക് പോകുക.</target>
+        <source>For iOS 13 users, Firefox now automatically switches to a dark theme when your phone is set to Dark Mode. To change this behavior, go to Settings &gt; Theme.</source>
         <note>Description for the new dark mode change in the version 22 app release. It describes the new automatic dark theme and how to change the theme settings.</note>
       </trans-unit>
       <trans-unit id="CoverSheet.v22.DarkMode.Title">
         <source>Dark theme now includes a dark keyboard and dark splash screen.</source>
         <target>ഇരുണ്ട തീമിൽ ഇപ്പോൾ ഇരുണ്ട കീബോർഡും ഇരുണ്ട സ്പ്ലാഷ് സ്ക്രീനും ഉൾപ്പെടുന്നു.</target>
         <note>Title for the new dark mode change in the version 22 app release.</note>
+      </trans-unit>
+      <trans-unit id="CoverSheet.v24.ETP.Description">
+        <source>Built-in Enhanced Tracking Protection helps stop ads from following you around. Turn on Strict to block even more trackers, ads, and popups. </source>
+        <note>Description for the new ETP mode i.e. standard vs strict</note>
+      </trans-unit>
+      <trans-unit id="CoverSheet.v24.ETP.Settings.Button">
+        <source>Go to Settings</source>
+        <note>Text for the new ETP settings button</note>
+      </trans-unit>
+      <trans-unit id="CoverSheet.v24.ETP.Title">
+        <source>Protection Against Ad Tracking</source>
+        <note>Title for the new ETP mode i.e. standard vs strict</note>
       </trans-unit>
       <trans-unit id="Create an account">
         <source>Create an account</source>
@@ -1471,6 +1482,14 @@
         <source>URL Copied To Clipboard</source>
         <target>URL ക്ലിപ്ബോർഡിലേക്ക് പകർത്തി</target>
         <note>Toast displayed to user after copy url pressed.</note>
+      </trans-unit>
+      <trans-unit id="Menu.EnhancedTrackingProtectionOff.Title">
+        <source>Enhanced Tracking Protection is OFF for this site.</source>
+        <note>A switch to disable enhanced tracking protection inside the menu.</note>
+      </trans-unit>
+      <trans-unit id="Menu.EnhancedTrackingProtectionOn.Title">
+        <source>Enhanced Tracking Protection is ON for this site.</source>
+        <note>A switch to enable enhanced tracking protection inside the menu.</note>
       </trans-unit>
       <trans-unit id="Menu.NightModeTurnOn.Label">
         <source>Enable Night Mode</source>
@@ -2428,7 +2447,7 @@
       <trans-unit id="Settings.NewTab.SectionName">
         <source>New Tab</source>
         <target>പുതിയ ടാബ്</target>
-        <note>Label used as an item in Settings. When touched it will open a dialog to configure the new tab behaviour.</note>
+        <note>Label used as an item in Settings. When touched it will open a dialog to configure the new tab behavior.</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Title">
         <source>New Tab</source>
@@ -2463,7 +2482,7 @@
       <trans-unit id="Settings.OpenWith.SectionName">
         <source>Mail App</source>
         <target>മെയില്‍ ആപ്പ്</target>
-        <note>Label used as an item in Settings. When touched it will open a dialog to configure the open with (mail links) behaviour.</note>
+        <note>Label used as an item in Settings. When touched it will open a dialog to configure the open with (mail links) behavior.</note>
       </trans-unit>
       <trans-unit id="Settings.SaveLogins.Title">
         <source>Save Logins</source>
@@ -2515,6 +2534,18 @@
         <target>സിരി കുറുക്കുവഴികൾ</target>
         <note>The option that takes you to the siri shortcuts settings page</note>
       </trans-unit>
+      <trans-unit id="Settings.TrackingProtection.Alert.Button">
+        <source>OK, Got It</source>
+        <note>Dismiss button for the tracker protection alert.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtection.Alert.Description">
+        <source>If a site doesn’t work as expected, tap the shield in the address bar and turn off Enhanced Tracking Protection for that page.</source>
+        <note>Decription for the tracker protection alert.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtection.Alert.Title">
+        <source>Heads up!</source>
+        <note>Title for the tracker protection alert.</note>
+      </trans-unit>
       <trans-unit id="Settings.TrackingProtection.BlockListsHeader">
         <source>You can choose which list Firefox will use to block Web elements that may track your browsing activity.</source>
         <target>ഫയര്‍ഫോക്സ് ഏത് പട്ടിക താങ്കളുടെ ബ്രൗസിംഗ് കർമങ്ങളെ നിരീക്ഷിക്കുന്ന വെബ് എലമെന്റുകൾ തടയാനായി ഉപയോഗിക്കുമെന്ന് താങ്കൾക്ക് തീരുമാനിക്കാം.</target>
@@ -2535,10 +2566,30 @@
         <target>ശക്തമായ പരിരക്ഷ വാഗ്ദാനം ചെയ്യുന്നു, പക്ഷേ ചില സൈറ്റുകൾ തകരാൻ കാരണമായേക്കാം.</target>
         <note>Explanation of strict mode.</note>
       </trans-unit>
+      <trans-unit id="Settings.TrackingProtection.LearnMore">
+        <source>Learn more</source>
+        <note>'Learn more' info link on the Tracking Protection settings screen.</note>
+      </trans-unit>
       <trans-unit id="Settings.TrackingProtection.MoreInfo">
         <source>More Info…</source>
         <target>കൂടുതൽ വിവരങ്ങള്‍…</target>
         <note>'More Info' link on the Tracking Protection settings screen.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtection.ProtectionCellFooter">
+        <source>Reduces targeted ads and helps stop advertisers from tracking your browsing.</source>
+        <note>Additional information about your Enhanced Tracking Protection</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtection.ProtectionLevel.Footer">
+        <source>If a site doesn’t work as expected, tap the shield in the address bar and turn off Enhanced Tracking Protection for that page.</source>
+        <note>Footer information for tracker protection level.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtection.ProtectionLevelStandard.Description">
+        <source>Allows some ad tracking so websites function properly.</source>
+        <note>Description for standard level tracker protection</note>
+      </trans-unit>
+      <trans-unit id="Settings.TrackingProtection.ProtectionLevelStrict.Description">
+        <source>Blocks more trackers, ads, and popups. Pages load faster, but some functionality may not work.</source>
+        <note>Description for strict level tracker protection</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevelTitle">
         <source>Protection Level</source>
@@ -3786,3 +3837,4 @@
     </body>
   </file>
 </xliff>
+
