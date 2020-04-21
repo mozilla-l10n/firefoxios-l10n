@@ -380,8 +380,8 @@
         <target>$(MOZ_PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>18.0</source>
-        <target>18.0</target>
+        <source>23.1</source>
+        <target>23.1</target>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription">
         <source>This lets you take and upload photos.</source>
@@ -789,21 +789,6 @@
       <trans-unit id="Debug: forget Sync auth state">
         <source>Debug: forget Sync auth state</source>
         <target>Atkļūdošana: aizmirst Sync autoriz. stāvokli</target>
-        <note>Debug option</note>
-      </trans-unit>
-      <trans-unit id="Debug: require password">
-        <source>Debug: require password</source>
-        <target>Atkļūdošana: nepieciešama parole</target>
-        <note>Debug option</note>
-      </trans-unit>
-      <trans-unit id="Debug: require upgrade">
-        <source>Debug: require upgrade</source>
-        <target>Atkļūdošana: atjauninājums nepieceišams</target>
-        <note>Debug option</note>
-      </trans-unit>
-      <trans-unit id="Debug: use stage servers">
-        <source>Debug: use stage servers</source>
-        <target>Atkļūdošana: izmantot izmēģinājuma serverus</target>
         <note>Debug option</note>
       </trans-unit>
       <trans-unit id="Decrease text size">
@@ -1389,7 +1374,8 @@
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title">
         <source>Update login %1$@ for %2$@?</source>
         <target>Vai atjaunot %1$@ paroli %2$@?</target>
-        <note>Prompt for updating a login. The first parameter is the username for which the password will be updated for. The second parameter is the hostname of the site.</note>
+        <note>Prompt for updating a login. The first parameter is the hostname for which the password will be updated for.
+   Prompt for updating a login. The first parameter is the username for which the password will be updated for. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.SaveLogin.Button">
         <source>Save Login</source>
@@ -1645,16 +1631,6 @@
       <trans-unit id="Menu.WhatsNew.Title">
         <source>What's New</source>
         <note>The title for the option to view the What's new page.</note>
-      </trans-unit>
-      <trans-unit id="Missing error">
-        <source>Missing error</source>
-        <target>Trūkstoša kļūda</target>
-        <note>Error for a missing remote error number</note>
-      </trans-unit>
-      <trans-unit id="Missing message">
-        <source>Missing message</source>
-        <target>Pazudis paziņojums</target>
-        <note>Error for a missing remote error message</note>
       </trans-unit>
       <trans-unit id="Navigation Toolbar">
         <source>Navigation Toolbar</source>
@@ -2438,6 +2414,14 @@
         <target>Sūtīt izmantošanas datus</target>
         <note>The title for the setting to send usage data.</note>
       </trans-unit>
+      <trans-unit id="Settings.ShowLinkPreviews.Status">
+        <source>When Long-pressing Links</source>
+        <note>Description displayed under the ”Show Link Previews” option</note>
+      </trans-unit>
+      <trans-unit id="Settings.ShowLinkPreviews.Title">
+        <source>Show Link Previews</source>
+        <note>Title of setting to enable link previews when long-pressing links.</note>
+      </trans-unit>
       <trans-unit id="Settings.ShowLoginsInAppMenu.Title">
         <source>Show in Application Menu</source>
         <note>Setting to show Logins &amp; Passwords quick access in the application menu</note>
@@ -2909,6 +2893,10 @@
         <target>Atjauniniet Firefox lai pieslēgtos</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
+      <trans-unit id="Use stage servers">
+        <source>Use stage servers</source>
+        <note>Debug option</note>
+      </trans-unit>
       <trans-unit id="Username">
         <source>Username</source>
         <target>Lietotājvārds</target>
@@ -3236,8 +3224,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>18.0</source>
-        <target>18.0</target>
+        <source>23.1</source>
+        <target>23.1</target>
       </trans-unit>
     </body>
   </file>
@@ -3255,8 +3243,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>18.0</source>
-        <target>18.0</target>
+        <source>23.1</source>
+        <target>23.1</target>
       </trans-unit>
     </body>
   </file>
@@ -3274,8 +3262,8 @@
         <target>$(PRODUCT_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleShortVersionString">
-        <source>18.0</source>
-        <target>18.0</target>
+        <source>23.1</source>
+        <target>23.1</target>
       </trans-unit>
     </body>
   </file>
