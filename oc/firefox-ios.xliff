@@ -793,6 +793,18 @@
         <target>Escur</target>
         <note>Dark theme setting in Reading View settings</note>
       </trans-unit>
+      <trans-unit id="Debug: Clear onboarding AB variables">
+        <source>Debug: Clear onboarding AB variables</source>
+        <note>Debug option</note>
+      </trans-unit>
+      <trans-unit id="Debug: ETP Cover Sheet On">
+        <source>Debug: ETP Cover Sheet On</source>
+        <note>Debug option to show ETP Cover Sheet</note>
+      </trans-unit>
+      <trans-unit id="Debug: Toggle onboarding type">
+        <source>Debug: Toggle onboarding type</source>
+        <note>Debug option</note>
+      </trans-unit>
       <trans-unit id="Debug: forget Sync auth state">
         <source>Debug: forget Sync auth state</source>
         <target>Desbugatge : oblidar l’estat de l’autentificacion Sync</target>
@@ -1438,6 +1450,10 @@
         <target>Marcapagina apondut</target>
         <note>Toast displayed to the user after a bookmark has been added.</note>
       </trans-unit>
+      <trans-unit id="Menu.AddPin.Confirm">
+        <source>Pinned To Top Sites</source>
+        <note>Toast displayed to the user after adding the item to the Top Sites.</note>
+      </trans-unit>
       <trans-unit id="Menu.AddToReadingList.Confirm">
         <source>Added To Reading List</source>
         <target>Apondut a la lista de lectura</target>
@@ -1500,6 +1516,10 @@
         <source>Bookmark Removed</source>
         <target>Marcapaginas suprimit</target>
         <note>Toast displayed to the user after a bookmark has been removed.</note>
+      </trans-unit>
+      <trans-unit id="Menu.RemovePin.Confirm">
+        <source>Removed From Top Sites</source>
+        <note>Toast displayed to the user after removing the item from the Top Sites.</note>
       </trans-unit>
       <trans-unit id="Menu.TabSent.Confirm">
         <source>Tab Sent</source>
@@ -1858,7 +1878,8 @@
       <trans-unit id="Search">
         <source>Search</source>
         <target>Recèrca</target>
-        <note>Navigation title for search settings.
+        <note>Accessibility Label for the tab toolbar Search button
+   Navigation title for search settings.
    Open search section of settings</note>
       </trans-unit>
       <trans-unit id="Search or enter address">
@@ -2761,6 +2782,10 @@
         <target>Afichar totes los onglets</target>
         <note>Hardware shortcut to open the tab tray from a tab. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
+      <trans-unit id="TabTray.AddTab.Button">
+        <source>Add Tab</source>
+        <note>Accessibility label for the Add Tab button in the Tab Tray.</note>
+      </trans-unit>
       <trans-unit id="TabTray.CloseAllTabs.KeyCodeTitle">
         <source>Close All Tabs</source>
         <target>Tampar totes los onglets</target>
@@ -3261,8 +3286,8 @@
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
-        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+        <source>$(MOZ_TODAY_WIDGET_SEARCH_DISPLAY_NAME)</source>
+        <target>$(MOZ_TODAY_WIDGET_SEARCH_DISPLAY_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
@@ -3279,19 +3304,21 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
     <body>
+      <trans-unit id="TodayWidget.CopiedLinkLabelFromPasteBoard">
+        <source>Copied Link from clipboard</source>
+        <note>Copied Link from clipboard displayed</note>
+      </trans-unit>
       <trans-unit id="TodayWidget.GoToCopiedLinkLabel">
         <source>Go to copied link</source>
         <target>Anar al ligam copiat</target>
         <note>Go to link on clipboard</note>
       </trans-unit>
       <trans-unit id="TodayWidget.NewPrivateTabButtonLabel">
-        <source>New Private Tab</source>
-        <target>Novèl onglet de nav. privada</target>
+        <source>Private Search</source>
         <note>New Private Tab button label</note>
       </trans-unit>
       <trans-unit id="TodayWidget.NewTabButtonLabel">
-        <source>New Tab</source>
-        <target>Onglet novèl</target>
+        <source>New Search</source>
         <note>New Tab button label</note>
       </trans-unit>
     </body>
