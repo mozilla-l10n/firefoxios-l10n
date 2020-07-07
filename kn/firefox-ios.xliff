@@ -788,10 +788,6 @@
         <target>ಗಾಢ</target>
         <note>Dark theme setting in Reading View settings</note>
       </trans-unit>
-      <trans-unit id="Debug: forget Sync auth state">
-        <source>Debug: forget Sync auth state</source>
-        <note>Debug option</note>
-      </trans-unit>
       <trans-unit id="Decrease text size">
         <source>Decrease text size</source>
         <target>ಪಠ್ಯದ ಗಾತ್ರವನ್ನು ಕುಗ್ಗಿಸು</target>
@@ -1409,6 +1405,10 @@
         <target>ಬುಕ್ ಮಾರ್ಕ್ ಸೇರಿಸಲಾಗಿದೆ</target>
         <note>Toast displayed to the user after a bookmark has been added.</note>
       </trans-unit>
+      <trans-unit id="Menu.AddPin.Confirm">
+        <source>Pinned To Top Sites</source>
+        <note>Toast displayed to the user after adding the item to the Top Sites.</note>
+      </trans-unit>
       <trans-unit id="Menu.AddToReadingList.Confirm">
         <source>Added To Reading List</source>
         <target>ಓದುಗ ಪಟ್ಟಿಗೆ ಸೇರಿಸು</target>
@@ -1470,6 +1470,10 @@
         <source>Bookmark Removed</source>
         <target>ಬುಕ್‌ಮಾರ್ಕನ್ನು ತೆಗೆಯಲಾಗಿದೆ</target>
         <note>Toast displayed to the user after a bookmark has been removed.</note>
+      </trans-unit>
+      <trans-unit id="Menu.RemovePin.Confirm">
+        <source>Removed From Top Sites</source>
+        <note>Toast displayed to the user after removing the item from the Top Sites.</note>
       </trans-unit>
       <trans-unit id="Menu.TabSent.Confirm">
         <source>Tab Sent</source>
@@ -1810,7 +1814,8 @@
       <trans-unit id="Search">
         <source>Search</source>
         <target>ಹುಡುಕು</target>
-        <note>Navigation title for search settings.
+        <note>Accessibility Label for the tab toolbar Search button
+   Navigation title for search settings.
    Open search section of settings</note>
       </trans-unit>
       <trans-unit id="Search or enter address">
@@ -2695,6 +2700,10 @@
         <target>ಎಲ್ಲಾ ಟ್ಯಾಬ್‌ಗಳನ್ನು ತೋರಿಸು</target>
         <note>Hardware shortcut to open the tab tray from a tab. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
+      <trans-unit id="TabTray.AddTab.Button">
+        <source>Add Tab</source>
+        <note>Accessibility label for the Add Tab button in the Tab Tray.</note>
+      </trans-unit>
       <trans-unit id="TabTray.CloseAllTabs.KeyCodeTitle">
         <source>Close All Tabs</source>
         <target>ಎಲ್ಲ ಟ್ಯಾಬ್‍ಗಳನ್ನು ಮುಚ್ಚು</target>
@@ -3202,8 +3211,8 @@
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName">
-        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+        <source>$(MOZ_TODAY_WIDGET_SEARCH_DISPLAY_NAME)</source>
+        <target>$(MOZ_TODAY_WIDGET_SEARCH_DISPLAY_NAME)</target>
       </trans-unit>
       <trans-unit id="CFBundleName">
         <source>$(PRODUCT_NAME)</source>
@@ -3212,28 +3221,6 @@
       <trans-unit id="CFBundleShortVersionString">
         <source>0.0.1</source>
         <target>0.0.1</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Extensions/Today/Today.strings" source-language="en" datatype="plaintext" target-language="kn">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="TodayWidget.GoToCopiedLinkLabel">
-        <source>Go to copied link</source>
-        <target>ನಕಲಿಸಿದ ಕೊಂಡಿಗೆ ಸಾಗು</target>
-        <note>Go to link on clipboard</note>
-      </trans-unit>
-      <trans-unit id="TodayWidget.NewPrivateTabButtonLabel">
-        <source>New Private Tab</source>
-        <target>ಹೊಸ ಖಾಸಗಿ ಟ್ಯಾಬ್</target>
-        <note>New Private Tab button label</note>
-      </trans-unit>
-      <trans-unit id="TodayWidget.NewTabButtonLabel">
-        <source>New Tab</source>
-        <target>ಹೊಸ ಟ್ಯಾಬ್</target>
-        <note>New Tab button label</note>
       </trans-unit>
     </body>
   </file>
@@ -3422,6 +3409,10 @@
         <target>ಪುಟದಲ್ಲಿ ಹುಡುಕು</target>
         <note>Label for the button, displayed in the menu, used to open the toolbar to search for text within the current page.</note>
       </trans-unit>
+      <trans-unit id="Menu.Library.Reload">
+        <source>Reload</source>
+        <note>Label for the button, displayed in the menu, used to Reload the webpage</note>
+      </trans-unit>
       <trans-unit id="Menu.Library.Title">
         <source>Your Library</source>
         <target>ನಿಮ್ಮ ಲೈಬ್ರರಿ</target>
@@ -3553,6 +3544,29 @@
         <source>Unsorted Bookmarks</source>
         <target>ವಿಂಗಡಿಸದೆ ಇರುವ ಪುಟಗುರುತುಗಳು</target>
         <note>The name of the folder that contains unsorted desktop bookmarks. This should match bookmarks.folder.unfiled.label on Android.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/Today.strings" source-language="en" datatype="plaintext" target-language="kn">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="TodayWidget.CopiedLinkLabelFromPasteBoardV1">
+        <source>Copied Link from clipboard</source>
+        <note>Copied Link from clipboard displayed</note>
+      </trans-unit>
+      <trans-unit id="TodayWidget.GoToCopiedLinkLabelV1">
+        <source>Go to copied link</source>
+        <note>Go to link pasted on the clipboard</note>
+      </trans-unit>
+      <trans-unit id="TodayWidget.NewTabButtonLabelV1">
+        <source>New Search</source>
+        <note>Open New Tab button label</note>
+      </trans-unit>
+      <trans-unit id="TodayWidget.PrivateTabButtonLabelV1">
+        <source>Private Search</source>
+        <note>Open New Private Tab button label</note>
       </trans-unit>
     </body>
   </file>
