@@ -399,10 +399,6 @@
         <source>This lets you save photos.</source>
         <target>사진을 저장할 수 있게 합니다.</target>
       </trans-unit>
-      <trans-unit id="NSPhotoLibraryUsageDescription">
-        <source>This lets you save and upload photos.</source>
-        <target>사진을 저장하고 업로드 할 수 있게 합니다.</target>
-      </trans-unit>
       <trans-unit id="ShortcutItemTitleNewPrivateTab">
         <source>New Private Tab</source>
         <target>새 사생활 탭</target>
@@ -3953,6 +3949,10 @@ Link</source>
         <target>열린 탭이 없습니다.</target>
         <note>Label that is shown when there are no tabs opened in tab tray i.e. Empty State</note>
       </trans-unit>
+      <trans-unit id="TodayWidget.NoOpenTabsLabelV2">
+        <source>No Open Tabs</source>
+        <note>Label that is shown when there are no tabs opened in tab tray i.e. Empty State</note>
+      </trans-unit>
       <trans-unit id="TodayWidget.OpenFirefoxLabel">
         <source>Open Firefox</source>
         <target>Firefox 열기</target>
@@ -4006,6 +4006,10 @@ Link</source>
       <trans-unit id="TodayWidget.QuickViewGalleryDescription">
         <source>Access your open tabs directly on your homescreen.</source>
         <target>홈 화면에서 직접 열린 탭을 살펴보세요.</target>
+        <note>Description for Quick View widget in Gallery View where user can add it to home screen</note>
+      </trans-unit>
+      <trans-unit id="TodayWidget.QuickViewGalleryDescriptionV2">
+        <source>Add shortcuts to your open tabs.</source>
         <note>Description for Quick View widget in Gallery View where user can add it to home screen</note>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickViewGalleryTitle">
@@ -4203,3 +4207,4 @@ Private Tab</source>
     </body>
   </file>
 </xliff>
+
