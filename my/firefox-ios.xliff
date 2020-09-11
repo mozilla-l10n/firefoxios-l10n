@@ -651,10 +651,12 @@
       </trans-unit>
       <trans-unit id="BreachAlerts.BreachDate">
         <source>This breach occurred on</source>
+        <target>ဒီဖောက်ဖျက်မှုဖြစ်ပွားခဲ့သည်</target>
         <note>Describes the date on which the breach occurred</note>
       </trans-unit>
       <trans-unit id="BreachAlerts.Description">
         <source>Passwords were leaked or stolen since you last changed your password. To protect this account, log in to the site and change your password.</source>
+        <target>သင်၏နောက်ဆုံးစကားဝှက်ကိုပြောင်းလဲပြီးစကားဝှက်များသည်ခိုးယူခြင်းခံရသည်။ ဤအကောင့်ကိုကာကွယ်ရန်ဆိုက်သို့ဝင်ရောက်ပြီးသင်၏စကားဝှက်ကိုပြောင်းပါ။</target>
         <note>Description of what a breach is</note>
       </trans-unit>
       <trans-unit id="BreachAlerts.LearnMoreButton">
@@ -1416,6 +1418,7 @@
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title.TwoArg">
         <source>Update login %1$@ for %2$@?</source>
+        <target>%2$@ အတွက် ဝင်ရောက်မှု %1$@ ကို ပြောင်းလဲသိမ်းမည်လား။</target>
         <note>Prompt for updating a login. The first parameter is the username for which the password will be updated for. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.SaveLogin.Button">
@@ -1497,18 +1500,22 @@
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtectionOff.Title">
         <source>Enhanced Tracking Protection is OFF for this site.</source>
+        <target>ဤဆိုက်အတွက် ခြေရာခံကာကွယ်ရေးများကိုပိတ်ပါ။</target>
         <note>A switch to disable enhanced tracking protection inside the menu.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtectionOn.Title">
         <source>Enhanced Tracking Protection is ON for this site.</source>
+        <target>ဤဆိုက်အတွက် ခြေရာခံကာကွယ်ရေးများကိုဖွင့်ပါ။</target>
         <note>A switch to enable enhanced tracking protection inside the menu.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtectionStandardWithITP.Title">
         <source>Firefox blocks cross-site trackers, social trackers, cryptominers, and fingerprinters.</source>
+        <target>Firefox သည် cross-site tracker များ၊ social tracker များ၊ cryptominers နှင့် fingerprinters များကိုပိတ်ပင်ထားသည်။</target>
         <note>Description for having standard ETP protection with ITP offered in iOS14+</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtectionStrictWithITP.Title">
         <source>Firefox blocks cross-site trackers, social trackers, cryptominers, fingerprinters, and tracking content.</source>
+        <target>Firefox သည် cross-site tracker များ၊ social tracker များ၊ cryptominers နှင့် fingerprinters များကိုပိတ်ပင်ထားသည်။</target>
         <note>Description for having strict ETP protection with ITP offered in iOS14+</note>
       </trans-unit>
       <trans-unit id="Menu.Library.StopReload">
@@ -2618,18 +2625,22 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionCellFooter">
         <source>Reduces targeted ads and helps stop advertisers from tracking your browsing.</source>
+        <target>ပစ်မှတ်ထားသောကြော်ငြာများကိုလျှော့ချပြီးကြော်ငြာရှင်များကိုသင်၏ရှာဖွေမှုကိုကြော်ငြာရှင်များခြေရာခံခြင်းမှရပ်တန့်စေသည်။</target>
         <note>Additional information about your Enhanced Tracking Protection</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevel.Footer">
         <source>If a site doesn’t work as expected, tap the shield in the address bar and turn off Enhanced Tracking Protection for that page.</source>
+        <target>အကယ်၍ ဆိုက်သည် မျှော်မှန်း သလို မလုပ်ဆောင်ပါက လိပ်စာ ဘားတန်း ရှိ ဒိုင်းပုံကို နှိပ် ကာ နောက်ယောင်ခံလိုက်ခြင်း အကာအကွယ် လုပ်ဆောင်ချက် ကို ဤ စာမျက်နှာ အတွက် ပိတ်လိုက်ပါ။</target>
         <note>Footer information for tracker protection level.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevelStandard.Description">
         <source>Allows some ad tracking so websites function properly.</source>
+        <target>လိုက်လံမှတ်သားသည့်ကြော်ငြာခြေရာခံစနစ်အချို့ကို ခွင့်ပြုပါ။ သို့မှသာ ဝဘ်ဆိုက်များသည် ကောင်းမွန်စွာ လုပ်ဆောင်ပါမည်။</target>
         <note>Description for standard level tracker protection</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevelStrict.Description">
         <source>Blocks more trackers, ads, and popups. Pages load faster, but some functionality may not work.</source>
+        <target>tracker, ads နှင့် popups များကိုပိုမိုပိတ်ဆို့ထားပါသည်။ စာမျက်နှာများသည်ပိုမိုမြန်ဆန်စွာအလုပ်လုပ်နိုင်သော်လည်းအချို့သောလုပ်ဆောင်မှုများသည်အလုပ်မလုပ်ပါ။</target>
         <note>Description for strict level tracker protection</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevelTitle">
@@ -3055,6 +3066,7 @@
       </trans-unit>
       <trans-unit id="Use stage servers">
         <source>Use stage servers</source>
+        <target>ဆာဗာကိုသုံးပါ</target>
         <note>Debug option</note>
       </trans-unit>
       <trans-unit id="Username">
@@ -3129,6 +3141,7 @@
       </trans-unit>
       <trans-unit id="fxa.signin.qr-link-instruction">
         <source>On your computer open Firefox and go to firefox.com/pair</source>
+        <target>&lt;b&gt;https://firefox.com/pair&lt;/b&gt; ကိုသွားပြီး သင့်ကွန်ပျူတာတွင် Firefox ဖွင့်ပါ။</target>
         <note>FxA sign in view qr code instructions</note>
       </trans-unit>
       <trans-unit id="fxa.signin.ready-to-scan">
@@ -3502,18 +3515,22 @@
     <body>
       <trans-unit id="DefaultBrowserCard.Button">
         <source>Go to Settings</source>
+        <target>အပြင်အဆင်များသို့ သွားပါ</target>
         <note>Button string to open settings that allows user to switch their default browser to Firefox.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserCard.Description">
         <source>Set links from websites, emails, and Messages to open automatically in Firefox.</source>
+        <target>Firefox တွင်ဝက်ဘ်ဆိုက်များ၊ အီးမေးလ်များနှင့်မက်ဆေ့ခ်ျများမှလင့်ခ်များကိုသတ်မှတ်ပါ။</target>
         <note>Description for small card shown that allows user to switch their default browser to Firefox.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserCard.Title">
         <source>Switch Your Default Browser</source>
+        <target>သင်၏ပုံမှန် Browser ကိုပြောင်းပါ</target>
         <note>Title for small card shown that allows user to switch their default browser to Firefox.</note>
       </trans-unit>
       <trans-unit id="Settings.DefaultBrowserMenuItem">
         <source>Set as Default Browser</source>
+        <target>ပုံသေဘရောက်ဇာ အဖြစ်သတ်မှတ်မည်</target>
         <note>Menu option for setting Firefox as default browser.</note>
       </trans-unit>
     </body>
@@ -3540,6 +3557,7 @@
     <body>
       <trans-unit id="Intro.Slides.Automatic.Privacy.Description">
         <source>Enhanced Tracking Protection blocks malware and stops trackers.</source>
+        <target>ခြေရာခံကာကွယ်မှုသည် အနှောင့်အယှက်များကိုပိတ်ဆို့ပြီး ခြေရာခံသူများကိုရပ်စေသည်။</target>
         <note>Description for the first item in the table related to automatic privacy</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Automatic.Privacy.Title">
@@ -3574,6 +3592,7 @@
       </trans-unit>
       <trans-unit id="Intro.Slides.Firefox.Account.Sync.Description">
         <source>Bring bookmarks, history, and passwords to Firefox on this device.</source>
+        <target>Bookmarks, history နှင့် password များကိုဤစက်ရှိ Firefox သို့ယူဆောင်ပါ။</target>
         <note>Description for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Firefox.Account.Sync.Title">
@@ -3942,6 +3961,7 @@ Link</source>
       </trans-unit>
       <trans-unit id="TodayWidget.PocketWidgetGalleryDescription">
         <source>Discover fascinating and thought-provoking stories from across the web, curated by Pocket.</source>
+        <target>Pocket မှကောက်ယူထားသော ၀က်ဆိုက်မှစိတ်ဝင်စားဖွယ်ကောင်းသောအတွေးအမြင်များကိုရှာဖွေပါ။</target>
         <note>Description for Firefox Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app.</note>
       </trans-unit>
       <trans-unit id="TodayWidget.PocketWidgetSubLabel">
@@ -3971,6 +3991,7 @@ Link</source>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickActionGalleryDescription">
         <source>Add a Firefox shortcut to your Home screen. After adding the widget, touch and hold to edit it and select a different shortcut.</source>
+        <target>သင်၏မူလမြင်ကွင်းသို့ Firefox ဖြတ်လမ်းများကိုထည့်ပါ။ ဤအရာကိုထည့်ပြီးလျှင်အခြားဖြတ်လမ်းများကိုရွေးချယ်၍ထားရှိပါ။</target>
         <note>Description for small size widget to add it to home screen</note>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickActionsGalleryTitle">
