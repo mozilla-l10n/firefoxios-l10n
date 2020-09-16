@@ -1,36 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="bo">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>18.0</source>
-        <target>18.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="bo">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>18.0</source>
-        <target>18.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Client/3DTouchActions.strings" source-language="en" datatype="plaintext" target-language="bo">
+  <file original="3DTouchActions.strings" source-language="en" datatype="plaintext" target-language="bo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -65,7 +35,37 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/AuthenticationManager.strings" source-language="en" datatype="plaintext" target-language="bo">
+  <file original="Account/Info.plist" source-language="en" datatype="plaintext" target-language="bo">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>18.0</source>
+        <target>18.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="AccountTests/Info.plist" source-language="en" datatype="plaintext" target-language="bo">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>18.0</source>
+        <target>18.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="AuthenticationManager.strings" source-language="en" datatype="plaintext" target-language="bo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -192,19 +192,17 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/ClearHistoryConfirm.strings" source-language="en" datatype="plaintext" target-language="bo">
+  <file original="ClearHistoryConfirm.strings" source-language="en" datatype="plaintext" target-language="bo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
     <body>
       <trans-unit id="Cancel">
         <source>Cancel</source>
-        <target>འདོར་བ།</target>
         <note>The cancel button when confirming clear history.</note>
       </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
-        <target>ཆོག</target>
         <note>The confirmation button that clears history even when Sync is connected.</note>
       </trans-unit>
       <trans-unit id="This action will clear all of your private data, including history from your synced devices.">
@@ -213,7 +211,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/ClearPrivateData.strings" source-language="en" datatype="plaintext" target-language="bo">
+  <file original="ClearPrivateData.strings" source-language="en" datatype="plaintext" target-language="bo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -244,19 +242,17 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/ClearPrivateDataConfirm.strings" source-language="en" datatype="plaintext" target-language="bo">
+  <file original="ClearPrivateDataConfirm.strings" source-language="en" datatype="plaintext" target-language="bo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
     <body>
       <trans-unit id="Cancel">
         <source>Cancel</source>
-        <target>འདོར་བ།</target>
         <note>The cancel button when confirming clear private data.</note>
       </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
-        <target>ཆོག</target>
         <note>The button that clears private data.</note>
       </trans-unit>
       <trans-unit id="This action will clear all of your private data. It cannot be undone.">
@@ -265,7 +261,22 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/ErrorPages.strings" source-language="en" datatype="plaintext" target-language="bo">
+  <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="bo">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>18.0</source>
+        <target>18.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ErrorPages.strings" source-language="en" datatype="plaintext" target-language="bo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -280,7 +291,64 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/FindInPage.strings" source-language="en" datatype="plaintext" target-language="bo">
+  <file original="Extensions/NotificationService/Info.plist" source-language="en" datatype="plaintext" target-language="bo">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>0.0.1</source>
+        <target>0.0.1</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="bo">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
+        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>0.0.1</source>
+        <target>0.0.1</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Extensions/Today/Info.plist" source-language="en" datatype="plaintext" target-language="bo">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>$(MOZ_TODAY_WIDGET_SEARCH_DISPLAY_NAME)</source>
+        <target>$(MOZ_TODAY_WIDGET_SEARCH_DISPLAY_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>0.0.1</source>
+        <target>0.0.1</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="FindInPage.strings" source-language="en" datatype="plaintext" target-language="bo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
@@ -303,71 +371,28 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Client/HistoryPanel.strings" source-language="en" datatype="plaintext" target-language="bo">
+  <file original="HistoryPanel.strings" source-language="en" datatype="plaintext" target-language="bo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
     <body>
       <trans-unit id="Delete">
         <source>Delete</source>
-        <target>འདོར་སུབ།</target>
         <note>Action button for deleting history entries in the history panel.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Client/Info.plist" source-language="en" datatype="plaintext" target-language="bo">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleDisplayName">
-        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleName">
-        <source>$(MOZ_PRODUCT_NAME)</source>
-        <target>$(MOZ_PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>0.0.1</source>
-        <target>0.0.1</target>
-      </trans-unit>
-      <trans-unit id="NSCameraUsageDescription">
-        <source>This lets you take and upload photos.</source>
-      </trans-unit>
-      <trans-unit id="NSLocationWhenInUseUsageDescription">
-        <source>Websites you visit may request your location.</source>
-      </trans-unit>
-      <trans-unit id="NSMicrophoneUsageDescription">
-        <source>This lets you take and upload videos.</source>
-      </trans-unit>
-      <trans-unit id="NSPhotoLibraryAddUsageDescription">
-        <source>This lets you save photos.</source>
-      </trans-unit>
-      <trans-unit id="ShortcutItemTitleNewPrivateTab">
-        <source>New Private Tab</source>
-      </trans-unit>
-      <trans-unit id="ShortcutItemTitleNewTab">
-        <source>New Tab</source>
-      </trans-unit>
-      <trans-unit id="ShortcutItemTitleQRCode">
-        <source>Scan QR Code</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Client/Localizable.strings" source-language="en" datatype="plaintext" target-language="bo">
+  <file original="Localizable.strings" source-language="en" datatype="plaintext" target-language="bo">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
     </header>
     <body>
       <trans-unit id="+">
         <source>+</source>
-        <target>+</target>
         <note>Button for larger reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       </trans-unit>
       <trans-unit id="-">
         <source>-</source>
-        <target>-</target>
         <note>Button for smaller reader font size. Keep this extremely short! This is shown in the reader mode toolbar.</note>
       </trans-unit>
       <trans-unit id="A username and password are being requested by %@.">
@@ -384,7 +409,6 @@
       </trans-unit>
       <trans-unit id="About">
         <source>About</source>
-        <target>ངོ་སྤྲོད།</target>
         <note>About settings section title</note>
       </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.PinTopsite">
@@ -409,7 +433,6 @@
       </trans-unit>
       <trans-unit id="ActivityStream.Pocket.MoreLink">
         <source>More</source>
-        <target>དེ་བས་མང་།</target>
         <note>The link that shows more Pocket trending stories</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Pocket.SectionTitle">
@@ -447,7 +470,6 @@
       </trans-unit>
       <trans-unit id="AddPass.Error.Dismiss">
         <source>OK</source>
-        <target>ཆོག</target>
         <note>Button to dismiss the 'Add Pass Failed' alert.  See https://support.apple.com/HT204003 for context on Wallet.</note>
       </trans-unit>
       <trans-unit id="AddPass.Error.Message">
@@ -480,7 +502,6 @@
       </trans-unit>
       <trans-unit id="Back">
         <source>Back</source>
-        <target>ཕྱིར་ལོག།</target>
         <note>Accessibility label for the Back button in the tab toolbar.</note>
       </trans-unit>
       <trans-unit id="Block Pop-up Windows">
@@ -545,7 +566,6 @@
       </trans-unit>
       <trans-unit id="Bookmarks.URL.Label">
         <source>URL</source>
-        <target>URL</target>
         <note>The label for the URL of a bookmark</note>
       </trans-unit>
       <trans-unit id="BookmarksPanel.EmptyState.Title">
@@ -578,7 +598,6 @@
       </trans-unit>
       <trans-unit id="Cancel">
         <source>Cancel</source>
-        <target>འདོར་བ།</target>
         <note>Label for Cancel button</note>
       </trans-unit>
       <trans-unit id="Changes color theme.">
@@ -703,6 +722,18 @@
    Title for default search engine picker.
    Title for default search engine settings section.</note>
       </trans-unit>
+      <trans-unit id="DefaultBrowserCard.Button">
+        <source>Go to Settings</source>
+        <note>Button string to open settings that allows user to switch their default browser to Firefox.</note>
+      </trans-unit>
+      <trans-unit id="DefaultBrowserCard.Description">
+        <source>Set links from websites, emails, and Messages to open automatically in Firefox.</source>
+        <note>Description for small card shown that allows user to switch their default browser to Firefox.</note>
+      </trans-unit>
+      <trans-unit id="DefaultBrowserCard.Title">
+        <source>Switch Your Default Browser</source>
+        <note>Title for small card shown that allows user to switch their default browser to Firefox.</note>
+      </trans-unit>
       <trans-unit id="Display Settings">
         <source>Display Settings</source>
         <note>Name for display settings button in reader mode. Display in the meaning of presentation, not monitor.</note>
@@ -725,7 +756,6 @@
       </trans-unit>
       <trans-unit id="Downloads.CancelDialog.Cancel">
         <source>Cancel</source>
-        <target>འདོར་བ།</target>
         <note>Button confirming the cancellation of the download.</note>
       </trans-unit>
       <trans-unit id="Downloads.CancelDialog.Message">
@@ -810,7 +840,6 @@
       </trans-unit>
       <trans-unit id="ErrorPages.GoBack.Button">
         <source>Go Back</source>
-        <target>ཕྱིར་ལོག།</target>
         <note>Label for button to go back from the error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.VisitOnce.Button">
@@ -935,7 +964,6 @@
       </trans-unit>
       <trans-unit id="Help">
         <source>Help</source>
-        <target>རོགས་རམ།</target>
         <note>Show the SUMO support page from the Support section in the settings. see http://mzl.la/1dmM8tZ</note>
       </trans-unit>
       <trans-unit id="History">
@@ -1012,7 +1040,6 @@
       </trans-unit>
       <trans-unit id="HomePage.Set.Dialog.Cancel">
         <source>Cancel</source>
-        <target>འདོར་བ།</target>
         <note>Button cancelling changes setting the home page for the first time.</note>
       </trans-unit>
       <trans-unit id="HomePage.Set.Dialog.Message">
@@ -1053,12 +1080,10 @@
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.Share">
         <source>Share</source>
-        <target>བགོ་འགྲེམས།</target>
         <note>The title for the Share context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="Hotkeys.Back.DiscoveryTitle">
         <source>Back</source>
-        <target>ཕྱིར་ལོག།</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
       </trans-unit>
       <trans-unit id="Hotkeys.CloseTab.DiscoveryTitle">
@@ -1183,7 +1208,6 @@
       </trans-unit>
       <trans-unit id="LoginsHelper.Update.Button">
         <source>Update</source>
-        <target>གསར་བཅོས།</target>
         <note>Button to update the user's password</note>
       </trans-unit>
       <trans-unit id="LoginsList.LoginsListFilterLogin">
@@ -1443,12 +1467,10 @@
       </trans-unit>
       <trans-unit id="OK">
         <source>OK</source>
-        <target>ཆོག</target>
         <note>OK button</note>
       </trans-unit>
       <trans-unit id="Okay">
         <source>Okay</source>
-        <target>ཆོག</target>
         <note>Restore Tabs Affirmative Action</note>
       </trans-unit>
       <trans-unit id="Oops! Firefox crashed">
@@ -1485,7 +1507,6 @@
       </trans-unit>
       <trans-unit id="Password">
         <source>Password</source>
-        <target>གསང་གྲངས།</target>
         <note>Password textbox in Authentication prompt</note>
       </trans-unit>
       <trans-unit id="PasswordAutoFill.NoPasswordsFoundTitle">
@@ -1586,7 +1607,6 @@
       </trans-unit>
       <trans-unit id="ScanQRCode.Error.OK.Button">
         <source>OK</source>
-        <target>ཆོག</target>
         <note>OK button to dismiss the error prompt.</note>
       </trans-unit>
       <trans-unit id="ScanQRCode.Instructions.Label">
@@ -1629,7 +1649,6 @@
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.Cancel">
         <source>Cancel</source>
-        <target>འདོར་བ།</target>
         <note>The cancel button if you do not want to add a search engine.</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.DuplicateErrorMessage">
@@ -1658,7 +1677,6 @@
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.OK">
         <source>OK</source>
-        <target>ཆོག</target>
         <note>The confirmation button</note>
       </trans-unit>
       <trans-unit id="Searches for the suggestion">
@@ -1683,7 +1701,6 @@
       </trans-unit>
       <trans-unit id="SendTo.Cancel.Button">
         <source>Cancel</source>
-        <target>འདོར་བ།</target>
         <note>Button title for cancelling share screen
    Close button in top navigation bar</note>
       </trans-unit>
@@ -1697,7 +1714,6 @@
       </trans-unit>
       <trans-unit id="SendTo.Error.OK.Button">
         <source>OK</source>
-        <target>ཆོག</target>
         <note>OK button to dismiss the error prompt.</note>
       </trans-unit>
       <trans-unit id="SendTo.Error.Title">
@@ -1778,7 +1794,6 @@
       </trans-unit>
       <trans-unit id="Settings.AddCustomEngine.SaveButtonText">
         <source>Save</source>
-        <target>ཉར་ཚགས།</target>
         <note>The text on the Save button when saving a custom search engine</note>
       </trans-unit>
       <trans-unit id="Settings.AddCustomEngine.Title">
@@ -1845,6 +1860,10 @@
         <source>Data Management</source>
         <note>Title displayed in header of the setting panel.</note>
       </trans-unit>
+      <trans-unit id="Settings.DefaultBrowserMenuItem">
+        <source>Set as Default Browser</source>
+        <note>Menu option for setting Firefox as default browser.</note>
+      </trans-unit>
       <trans-unit id="Settings.Disconnect.Body">
         <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
         <note>Body of the alert when prompting the user asking to disconnect.</note>
@@ -1855,7 +1874,6 @@
       </trans-unit>
       <trans-unit id="Settings.Disconnect.CancelButton">
         <source>Cancel</source>
-        <target>འདོར་བ།</target>
         <note>Cancel action button in alert when user is prompted for disconnect</note>
       </trans-unit>
       <trans-unit id="Settings.Disconnect.DestructiveButton">
@@ -2045,7 +2063,6 @@
       </trans-unit>
       <trans-unit id="Settings.NewTab.TopSectionName">
         <source>Show</source>
-        <target>འཆར།</target>
         <note>Label at the top of the New Tab screen after entering New Tab in settings</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.TopSectionNameFooter">
@@ -2078,7 +2095,6 @@
       </trans-unit>
       <trans-unit id="Settings.Search.Edit.Button">
         <source>Edit</source>
-        <target>བཅོས་བསྒྲིགས།</target>
         <note>Button displayed at the top of the search settings.</note>
       </trans-unit>
       <trans-unit id="Settings.SendUsage.Link">
@@ -2231,17 +2247,14 @@
       </trans-unit>
       <trans-unit id="Settings.WebsiteData.ButtonDelete">
         <source>Delete</source>
-        <target>འདོར་སུབ།</target>
         <note>Button to delete website in search results</note>
       </trans-unit>
       <trans-unit id="Settings.WebsiteData.ButtonDone">
         <source>Done</source>
-        <target>ཚར་བ།</target>
         <note>Button to exit edit website search results</note>
       </trans-unit>
       <trans-unit id="Settings.WebsiteData.ButtonEdit">
         <source>Edit</source>
-        <target>བཅོས་བསྒྲིགས།</target>
         <note>Button to edit website search results</note>
       </trans-unit>
       <trans-unit id="Settings.WebsiteData.ButtonShowMore">
@@ -2461,725 +2474,6 @@
         <source>Today</source>
         <note>History tableview section header</note>
       </trans-unit>
-      <trans-unit id="Toolbar.Menu.AccessibilityLabel">
-        <source>Menu</source>
-        <note>Accessibility label for the Menu button.</note>
-      </trans-unit>
-      <trans-unit id="Toolbar.Menu.CloseAllTabs">
-        <source>Close All Tabs</source>
-        <note>Accessibility label for the Close All Tabs menu button.</note>
-      </trans-unit>
-      <trans-unit id="TopSites.EmptyState.Description">
-        <source>Your most visited sites will show up here.</source>
-        <note>Description label for the empty Top Sites state.</note>
-      </trans-unit>
-      <trans-unit id="TopSites.EmptyState.Title">
-        <source>Welcome to Top Sites</source>
-        <note>The title for the empty Top Sites state</note>
-      </trans-unit>
-      <trans-unit id="TopSites.RemovePage.Button">
-        <source>Remove page — %@</source>
-        <note>Button shown in editing mode to remove this site from the top sites panel.</note>
-      </trans-unit>
-      <trans-unit id="TranslationToastHandler.PromptTranslate.Cancel">
-        <source>No</source>
-        <note>Button to disallow the page to be translated to the user locale language</note>
-      </trans-unit>
-      <trans-unit id="TranslationToastHandler.PromptTranslate.OK">
-        <source>Yes</source>
-        <note>Button to allow the page to be translated to the user locale language</note>
-      </trans-unit>
-      <trans-unit id="TranslationToastHandler.PromptTranslate.Title">
-        <source>This page appears to be in %1$@. Translate to %2$@ with %3$@?</source>
-        <note>Prompt for translation. The first parameter is the language the page is in. The second parameter is the name of our local language. The third is the name of the service.</note>
-      </trans-unit>
-      <trans-unit id="Twitter">
-        <source>Twitter</source>
-        <note>Tile title for Twitter</note>
-      </trans-unit>
-      <trans-unit id="UIMenuItem.PasteGo">
-        <source>Paste &amp; Go</source>
-        <note>The menu item that pastes the current contents of the clipboard into the URL bar and navigates to the page</note>
-      </trans-unit>
-      <trans-unit id="UIMenuItem.SearchWithFirefox">
-        <source>Search with Firefox</source>
-        <note>Search in New Tab Text selection menu item</note>
-      </trans-unit>
-      <trans-unit id="Upgrade Firefox to connect">
-        <source>Upgrade Firefox to connect</source>
-        <note>Text message in the settings table view</note>
-      </trans-unit>
-      <trans-unit id="Use stage servers">
-        <source>Use stage servers</source>
-        <note>Debug option</note>
-      </trans-unit>
-      <trans-unit id="Username">
-        <source>Username</source>
-        <target>ཐོ་མིང་།</target>
-        <note>Username textbox in Authentication prompt</note>
-      </trans-unit>
-      <trans-unit id="Verify your email address">
-        <source>Verify your email address</source>
-        <note>Text message in the settings table view</note>
-      </trans-unit>
-      <trans-unit id="Version %@ (%@)">
-        <source>Version %1$@ (%2$@)</source>
-        <note>Version number of Firefox shown in settings</note>
-      </trans-unit>
-      <trans-unit id="Web content">
-        <source>Web content</source>
-        <note>Accessibility label for the main web content view</note>
-      </trans-unit>
-      <trans-unit id="Welcome to your Reading List">
-        <source>Welcome to your Reading List</source>
-        <note>See http://mzl.la/1LXbDOL</note>
-      </trans-unit>
-      <trans-unit id="Well, this is embarrassing.">
-        <source>Well, this is embarrassing.</source>
-        <note>Restore Tabs Prompt Title</note>
-      </trans-unit>
-      <trans-unit id="Wikipedia">
-        <source>Wikipedia</source>
-        <note>Tile title for Wikipedia</note>
-      </trans-unit>
-      <trans-unit id="Yesterday">
-        <source>Yesterday</source>
-        <note>History tableview section header</note>
-      </trans-unit>
-      <trans-unit id="You don’t have any tabs open in Firefox on your other devices.">
-        <source>You don’t have any tabs open in Firefox on your other devices.</source>
-        <note>Error message in the remote tabs panel</note>
-      </trans-unit>
-      <trans-unit id="YouTube">
-        <source>YouTube</source>
-        <note>Tile title for YouTube</note>
-      </trans-unit>
-      <trans-unit id="Your Rights">
-        <source>Your Rights</source>
-        <note>Your Rights settings section title</note>
-      </trans-unit>
-      <trans-unit id="computer">
-        <source>computer</source>
-        <note>Accessibility label for Desktop Computer (PC) image in remote tabs list</note>
-      </trans-unit>
-      <trans-unit id="fxa.qr-scanning-view.instructions">
-        <source>Scan the QR code shown at firefox.com/pair</source>
-        <note>Instructions shown on qr code scanning view</note>
-      </trans-unit>
-      <trans-unit id="fxa.signin.camera-signin">
-        <source>Sign In with Your Camera</source>
-        <note>FxA sign in view subtitle</note>
-      </trans-unit>
-      <trans-unit id="fxa.signin.qr-link-instruction">
-        <source>On your computer open Firefox and go to firefox.com/pair</source>
-        <note>FxA sign in view qr code instructions</note>
-      </trans-unit>
-      <trans-unit id="fxa.signin.ready-to-scan">
-        <source>Ready to Scan</source>
-        <note>FxA sign in view qr code scan button</note>
-      </trans-unit>
-      <trans-unit id="fxa.signin.turn-on-sync">
-        <source>Turn on Sync</source>
-        <note>FxA sign in view title</note>
-      </trans-unit>
-      <trans-unit id="fxa.signin.use-email-instead">
-        <source>Use Email Instead</source>
-        <note>FxA sign in view email login button</note>
-      </trans-unit>
-      <trans-unit id="just now">
-        <source>just now</source>
-        <note>Relative time for a tab that was visited within the last few moments.</note>
-      </trans-unit>
-      <trans-unit id="mobile device">
-        <source>mobile device</source>
-        <note>Accessibility label for Mobile Device image in remote tabs list</note>
-      </trans-unit>
-      <trans-unit id="more than a month ago">
-        <source>more than a month ago</source>
-        <note>Relative date for dates older than a month and less than two months.</note>
-      </trans-unit>
-      <trans-unit id="more than a week ago">
-        <source>more than a week ago</source>
-        <note>Description for a date more than a week ago, but less than a month ago.</note>
-      </trans-unit>
-      <trans-unit id="read">
-        <source>read</source>
-        <note>Accessibility label for read article in reading list. It's a past participle - functions as an adjective.</note>
-      </trans-unit>
-      <trans-unit id="this week">
-        <source>this week</source>
-        <note>Relative date for date in past week.</note>
-      </trans-unit>
-      <trans-unit id="today at %@">
-        <source>today at %@</source>
-        <note>Relative date for date older than a minute.</note>
-      </trans-unit>
-      <trans-unit id="unread">
-        <source>unread</source>
-        <note>Accessibility label for unread article in reading list. It's a past participle - functions as an adjective.</note>
-      </trans-unit>
-      <trans-unit id="yesterday">
-        <source>yesterday</source>
-        <note>Relative date for yesterday.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Client/LoginManager.strings" source-language="en" datatype="plaintext" target-language="bo">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="Are you sure?">
-        <source>Are you sure?</source>
-        <note>Prompt title when deleting logins</note>
-      </trans-unit>
-      <trans-unit id="Cancel">
-        <source>Cancel</source>
-        <target>འདོར་བ།</target>
-        <note>Prompt option for cancelling out of deletion</note>
-      </trans-unit>
-      <trans-unit id="Clear Search">
-        <source>Clear Search</source>
-        <target>འཚོལ་བཤེར་གཙང་བཟོ།</target>
-        <note>Accessibility message e.g. spoken by VoiceOver after the user taps the close button in the search field to clear the search and exit search mode</note>
-      </trans-unit>
-      <trans-unit id="Copy">
-        <source>Copy</source>
-        <note>Copy password text selection menu item</note>
-      </trans-unit>
-      <trans-unit id="Created %@">
-        <source>Created %@</source>
-        <note>Label describing when the current login was created with the timestamp as the parameter.</note>
-      </trans-unit>
-      <trans-unit id="Delete">
-        <source>Delete</source>
-        <target>འདོར་སུབ།</target>
-        <note>Label for the button used to delete the current login.</note>
-      </trans-unit>
-      <trans-unit id="Deselect All">
-        <source>Deselect All</source>
-        <note>Label for the button used to deselect all logins.</note>
-      </trans-unit>
-      <trans-unit id="Enter Search Mode">
-        <source>Enter Search Mode</source>
-        <note>Accessibility label for entering search mode for logins</note>
-      </trans-unit>
-      <trans-unit id="Hide">
-        <source>Hide</source>
-        <note>Hide password text selection menu item</note>
-      </trans-unit>
-      <trans-unit id="Logins will be permanently removed.">
-        <source>Logins will be permanently removed.</source>
-        <note>Prompt message warning the user that deleting non-synced logins will permanently remove them</note>
-      </trans-unit>
-      <trans-unit id="Logins will be removed from all connected devices.">
-        <source>Logins will be removed from all connected devices.</source>
-        <note>Prompt message warning the user that deleted logins will remove logins from all connected devices</note>
-      </trans-unit>
-      <trans-unit id="Modified %@">
-        <source>Modified %@</source>
-        <note>Label describing when the current login was last modified with the timestamp as the parameter.</note>
-      </trans-unit>
-      <trans-unit id="No logins found">
-        <source>No logins found</source>
-        <note>Label displayed when no logins are found after searching.</note>
-      </trans-unit>
-      <trans-unit id="Open &amp; Fill">
-        <source>Open &amp; Fill</source>
-        <note>Open and Fill website text selection menu item</note>
-      </trans-unit>
-      <trans-unit id="Password">
-        <source>Password</source>
-        <note>Label displayed above the password row in Login Detail View.</note>
-      </trans-unit>
-      <trans-unit id="Reveal">
-        <source>Reveal</source>
-        <note>Reveal password text selection menu item</note>
-      </trans-unit>
-      <trans-unit id="Search">
-        <source>Search</source>
-        <target>འཚོལ་བཤེར།</target>
-        <note>Title for the search field at the top of the Logins list screen</note>
-      </trans-unit>
-      <trans-unit id="Search Input Field">
-        <source>Search Input Field</source>
-        <note>Accessibility label for the search input field in the Logins list</note>
-      </trans-unit>
-      <trans-unit id="Select All">
-        <source>Select All</source>
-        <note>Label for the button used to select all logins.</note>
-      </trans-unit>
-      <trans-unit id="Username">
-        <source>Username</source>
-        <note>Label displayed above the username row in Login Detail View.</note>
-      </trans-unit>
-      <trans-unit id="Website">
-        <source>Website</source>
-        <note>Label displayed above the website row in Login Detail View.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Client/PrivateBrowsing.strings" source-language="en" datatype="plaintext" target-language="bo">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="Close Private Tabs">
-        <source>Close Private Tabs</source>
-        <note>Setting for closing private tabs</note>
-      </trans-unit>
-      <trans-unit id="ContextMenu.OpenInNewPrivateTabButtonTitle">
-        <source>Open in New Private Tab</source>
-        <note>Context menu option for opening a link in a new private tab</note>
-      </trans-unit>
-      <trans-unit id="Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.">
-        <source>Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.</source>
-        <note>Description text displayed when there are no open tabs while in private mode</note>
-      </trans-unit>
-      <trans-unit id="Learn More">
-        <source>Learn More</source>
-        <note>Text button displayed when there are no tabs open while in private mode</note>
-      </trans-unit>
-      <trans-unit id="Off">
-        <source>Off</source>
-        <note>Toggled OFF accessibility value</note>
-      </trans-unit>
-      <trans-unit id="On">
-        <source>On</source>
-        <note>Toggled ON accessibility value</note>
-      </trans-unit>
-      <trans-unit id="Private Browsing">
-        <source>Private Browsing</source>
-        <note>Title displayed for when there are no open tabs while in private mode</note>
-      </trans-unit>
-      <trans-unit id="Private Mode">
-        <source>Private Mode</source>
-        <note>Accessibility label for toggling on/off private mode</note>
-      </trans-unit>
-      <trans-unit id="Turns private mode on or off">
-        <source>Turns private mode on or off</source>
-        <note>Accessiblity hint for toggling on/off private mode</note>
-      </trans-unit>
-      <trans-unit id="When Leaving Private Browsing">
-        <source>When Leaving Private Browsing</source>
-        <note>Will be displayed in Settings under 'Close Private Tabs'</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Client/Search.strings" source-language="en" datatype="plaintext" target-language="bo">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="%@ search">
-        <source>%@ search</source>
-        <target>%@ འཚོལ་བཤེར།</target>
-        <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
-      </trans-unit>
-      <trans-unit id="Search Settings">
-        <source>Search Settings</source>
-        <target>འཚོལ་བཤེར་སྒྲིག་བཟོ།</target>
-        <note>Label for search settings button.</note>
-      </trans-unit>
-      <trans-unit id="Search suggestions from %@">
-        <source>Search suggestions from %@</source>
-        <note>Accessibility label for image of default search engine displayed left to the actual search suggestions from the engine. The parameter substituted for \"%@\" is the name of the search engine. E.g.: Search suggestions from Google</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="ClientTests/Info.plist" source-language="en" datatype="plaintext" target-language="bo">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>18.0</source>
-        <target>18.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Extensions/NotificationService/Info.plist" source-language="en" datatype="plaintext" target-language="bo">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleDisplayName">
-        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>0.0.1</source>
-        <target>0.0.1</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Extensions/ShareTo/Info.plist" source-language="en" datatype="plaintext" target-language="bo">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleDisplayName">
-        <source>$(MOZ_BUNDLE_DISPLAY_NAME)</source>
-        <target>$(MOZ_BUNDLE_DISPLAY_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>0.0.1</source>
-        <target>0.0.1</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Extensions/Today/Info.plist" source-language="en" datatype="plaintext" target-language="bo">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleDisplayName">
-        <source>$(MOZ_TODAY_WIDGET_SEARCH_DISPLAY_NAME)</source>
-        <target>$(MOZ_TODAY_WIDGET_SEARCH_DISPLAY_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>0.0.1</source>
-        <target>0.0.1</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Shared/Supporting Files/BookmarkPanel.strings" source-language="en" datatype="plaintext" target-language="bo">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="Delete">
-        <source>Delete</source>
-        <note>Action button for deleting bookmarks in the bookmarks panel.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Shared/Supporting Files/BookmarkPanelDeleteConfirm.strings" source-language="en" datatype="plaintext" target-language="bo">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="Bookmarks.DeleteFolderWarning.CancelButton.Label">
-        <source>Cancel</source>
-        <note>Button label to cancel deletion when the user tried to delete a non-empty folder.</note>
-      </trans-unit>
-      <trans-unit id="Bookmarks.DeleteFolderWarning.DeleteButton.Label">
-        <source>Delete</source>
-        <note>Button label for the button that deletes a folder and all of its children.</note>
-      </trans-unit>
-      <trans-unit id="Bookmarks.DeleteFolderWarning.Description">
-        <source>Are you sure you want to delete it and its contents?</source>
-        <note>Main body of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
-      </trans-unit>
-      <trans-unit id="Bookmarks.DeleteFolderWarning.Title">
-        <source>This folder isn’t empty.</source>
-        <note>Title of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Shared/Supporting Files/Default Browser.strings" source-language="en" datatype="plaintext" target-language="bo">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="DefaultBrowserCard.Button">
-        <source>Go to Settings</source>
-        <note>Button string to open settings that allows user to switch their default browser to Firefox.</note>
-      </trans-unit>
-      <trans-unit id="DefaultBrowserCard.Description">
-        <source>Set links from websites, emails, and Messages to open automatically in Firefox.</source>
-        <note>Description for small card shown that allows user to switch their default browser to Firefox.</note>
-      </trans-unit>
-      <trans-unit id="DefaultBrowserCard.Title">
-        <source>Switch Your Default Browser</source>
-        <note>Title for small card shown that allows user to switch their default browser to Firefox.</note>
-      </trans-unit>
-      <trans-unit id="Settings.DefaultBrowserMenuItem">
-        <source>Set as Default Browser</source>
-        <note>Menu option for setting Firefox as default browser.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Shared/Supporting Files/Info.plist" source-language="en" datatype="plaintext" target-language="bo">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-        <target>$(PRODUCT_NAME)</target>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>18.0</source>
-        <target>18.0</target>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Client/Intro.strings" source-language="en" datatype="plaintext" target-language="bo">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="Intro.Slides.Automatic.Privacy.Description">
-        <source>Enhanced Tracking Protection blocks malware and stops trackers.</source>
-        <note>Description for the first item in the table related to automatic privacy</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Automatic.Privacy.Title">
-        <source>Automatic Privacy</source>
-        <note>Title for the first item in the table related to automatic privacy</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Button.Next">
-        <source>Next</source>
-        <note>Next button on the first intro screen.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Button.SignIn">
-        <source>Sign In</source>
-        <note>Sign in to Firefox account button on second intro screen.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Button.SignUp">
-        <source>Sign Up</source>
-        <note>Sign up to Firefox account button on second intro screen.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Fast.Search.Description">
-        <source>Search suggestions get you to websites faster.</source>
-        <note>Description for the second item in the table related to fast searching via address bar</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Fast.Search.Title">
-        <source>Fast Search</source>
-        <note>Title for the second item in the table related to fast searching via address bar</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Firefox.Account.Sync.Description">
-        <source>Bring bookmarks, history, and passwords to Firefox on this device.</source>
-        <note>Description for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Firefox.Account.Sync.Title">
-        <source>Sync Firefox Between Devices</source>
-        <note>Title for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Mail.Description">
-        <source>Use any email app — not just Mail — with Firefox.</source>
-        <note>Description for the 'Mail' panel in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Mail.Title">
-        <source>You’ve got mail… options</source>
-        <note>Title for the fourth panel 'Mail' in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Private.Description">
-        <source>Tap the mask icon to slip into Private Browsing mode.</source>
-        <note>Description for the 'Private Browsing' panel in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Private.Title">
-        <source>Browse like no one’s watching</source>
-        <note>Title for the third panel 'Private Browsing' in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Safe.Sync.Description">
-        <source>Protect your logins and data everywhere you use Firefox.</source>
-        <note>Description for the third item in the table related to safe syncing with a firefox account</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Safe.Sync.Title">
-        <source>Safe Sync</source>
-        <note>Title for the third item in the table related to safe syncing with a firefox account</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Search.Description">
-        <source>Searching for something different? Choose another default search engine (or add your own) in Settings.</source>
-        <note>Description for the 'Favorite Search Engine' panel in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Search.Title">
-        <source>Your search, your way</source>
-        <note>Title for the second  panel 'Search' in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.TrailheadSync.Description">
-        <source>Sign in to your account to sync and access more features.</source>
-        <note>Description for the 'Sync' panel in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.TrailheadSync.Title.v2">
-        <source>Sync your bookmarks, history, and passwords to your phone.</source>
-        <note>Title for the second panel 'Sync' in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Welcome.Description.v2">
-        <source>Fast, private, and on your side.</source>
-        <note>Description for the 'Welcome' panel in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Intro.Slides.Welcome.Title.v2">
-        <source>Welcome to Firefox</source>
-        <note>Title for the first panel 'Welcome' in the First Run tour.</note>
-      </trans-unit>
-      <trans-unit id="Start Browsing">
-        <source>Start Browsing</source>
-        <note>See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
-      <trans-unit id="Turn on Sync…">
-        <source>Turn on Sync…</source>
-        <note>The button that opens the sign in page for sync. See http://mzl.la/1T8gxwo</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Shared/Supporting Files/Menu.strings" source-language="en" datatype="plaintext" target-language="bo">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="Menu.AddBookmarkAction.Title">
-        <source>Bookmark This Page</source>
-        <note>Label for the button, displayed in the menu, used to create a bookmark for the current website.</note>
-      </trans-unit>
-      <trans-unit id="Menu.AddToReadingList.Title">
-        <source>Add to Reading List</source>
-        <note>Label for the button, displayed in the menu, used to add a page to the reading list.</note>
-      </trans-unit>
-      <trans-unit id="Menu.CloseAllTabsAction.Title">
-        <source>Close All Tabs</source>
-        <note>Label for the button, displayed in the menu, used to close all tabs currently open.</note>
-      </trans-unit>
-      <trans-unit id="Menu.CopyAddress.Title">
-        <source>Copy Address</source>
-        <note>Label for the button, displayed in the menu, used to copy the page url to the clipboard.</note>
-      </trans-unit>
-      <trans-unit id="Menu.FindInPageAction.Title">
-        <source>Find in Page</source>
-        <note>Label for the button, displayed in the menu, used to open the toolbar to search for text within the current page.</note>
-      </trans-unit>
-      <trans-unit id="Menu.Library.Reload">
-        <source>Reload</source>
-        <note>Label for the button, displayed in the menu, used to Reload the webpage</note>
-      </trans-unit>
-      <trans-unit id="Menu.Library.Title">
-        <source>Your Library</source>
-        <note>Label for the button, displayed in the menu, used to open the Library</note>
-      </trans-unit>
-      <trans-unit id="Menu.NewPrivateTabAction.Title">
-        <source>Open New Private Tab</source>
-        <note>Label for the button, displayed in the menu, used to open a new private tab.</note>
-      </trans-unit>
-      <trans-unit id="Menu.NewTabAction.Title">
-        <source>Open New Tab</source>
-        <note>Label for the button, displayed in the menu, used to open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenBookmarksAction.AccessibilityLabel.v2">
-        <source>Bookmarks</source>
-        <note>Accessibility label for the button, displayed in the menu, used to open the Bookmarks home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenDownloadsAction.AccessibilityLabel.v2">
-        <source>Downloads</source>
-        <note>Accessibility label for the button, displayed in the menu, used to open the Downloads home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenHistoryAction.AccessibilityLabel.v2">
-        <source>History</source>
-        <note>Accessibility label for the button, displayed in the menu, used to open the History home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenHomePageAction.Title">
-        <source>Home</source>
-        <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel.v2">
-        <source>Reading List</source>
-        <note>Accessibility label for the button, displayed in the menu, used to open the Reading list home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenSettingsAction.Title">
-        <source>Settings</source>
-        <note>Label for the button, displayed in the menu, used to open the Settings menu.</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenSyncedTabsAction.AccessibilityLabel.v2">
-        <source>Synced Tabs</source>
-        <note>Accessibility label for the button, displayed in the menu, used to open the Synced Tabs home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenTopSitesAction.AccessibilityLabel">
-        <source>Top Sites</source>
-        <note>Accessibility label for the button, displayed in the menu, used to open the Top Sites home panel.</note>
-      </trans-unit>
-      <trans-unit id="Menu.PageSourceAction.Title">
-        <source>View Page Source</source>
-        <note>Label for the button, displayed in the menu, used to show the html page source</note>
-      </trans-unit>
-      <trans-unit id="Menu.RemoveBookmarkAction.Title">
-        <source>Remove Bookmark</source>
-        <note>Label for the button, displayed in the menu, used to delete an existing bookmark for the current website.</note>
-      </trans-unit>
-      <trans-unit id="Menu.ScanQRCodeAction.Title">
-        <source>Scan QR Code</source>
-        <note>Label for the button, displayed in the menu, used to open the QR code scanner.</note>
-      </trans-unit>
-      <trans-unit id="Menu.SeeAllAction.Title">
-        <source>See All</source>
-        <note>Label for the button, displayed in Firefox Home, used to see all Library panels.</note>
-      </trans-unit>
-      <trans-unit id="Menu.SharePageAction.Title">
-        <source>Share Page With…</source>
-        <note>Label for the button, displayed in the menu, used to open the share dialog.</note>
-      </trans-unit>
-      <trans-unit id="Menu.ShowTabs.Title">
-        <source>Show Tabs</source>
-        <note>Label for the button, displayed in the menu, used to open the tabs tray</note>
-      </trans-unit>
-      <trans-unit id="Menu.TranslatePageAction.Title">
-        <source>Translate Page</source>
-        <note>Label for the button, displayed in the menu, used to translate the current page.</note>
-      </trans-unit>
-      <trans-unit id="Menu.ViewDekstopSiteAction.Title">
-        <source>Request Desktop Site</source>
-        <note>Label for the button, displayed in the menu, used to request the desktop version of the current website.</note>
-      </trans-unit>
-      <trans-unit id="Menu.ViewMobileSiteAction.Title">
-        <source>Request Mobile Site</source>
-        <note>Label for the button, displayed in the menu, used to request the mobile version of the current website.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Shared/Supporting Files/Shared.strings" source-language="en" datatype="plaintext" target-language="bo">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="%@ on %@">
-        <source>%1$@ on %2$@</source>
-        <note>A brief descriptive name for this app on this device, used for Send Tab and Synced Tabs. The first argument is the app name. The second argument is the device name.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Storage.strings" source-language="en" datatype="plaintext" target-language="bo">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
-      <trans-unit id="Bookmarks Menu">
-        <source>Bookmarks Menu</source>
-        <note>The name of the folder that contains desktop bookmarks in the menu. This should match bookmarks.folder.menu.label on Android.</note>
-      </trans-unit>
-      <trans-unit id="Bookmarks Toolbar">
-        <source>Bookmarks Toolbar</source>
-        <note>The name of the folder that contains desktop bookmarks in the toolbar. This should match bookmarks.folder.toolbar.label on Android.</note>
-      </trans-unit>
-      <trans-unit id="Mobile Bookmarks">
-        <source>Mobile Bookmarks</source>
-        <note>The title of the folder that contains mobile bookmarks. This should match bookmarks.folder.mobile.label on Android.</note>
-      </trans-unit>
-      <trans-unit id="Unsorted Bookmarks">
-        <source>Unsorted Bookmarks</source>
-        <note>The name of the folder that contains unsorted desktop bookmarks. This should match bookmarks.folder.unfiled.label on Android.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Shared/Supporting Files/Today.strings" source-language="en" datatype="plaintext" target-language="bo">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
-    </header>
-    <body>
       <trans-unit id="TodayWidget.ClosePrivateTabsButton">
         <source>Close Private Tabs</source>
         <note>Close Private Tabs button label</note>
@@ -3356,6 +2650,345 @@ Private Tab</source>
         <source>View More…</source>
         <note>View More… for Firefox Pocket stories widget where we don't know how many articles are available.</note>
       </trans-unit>
+      <trans-unit id="Toolbar.Menu.AccessibilityLabel">
+        <source>Menu</source>
+        <note>Accessibility label for the Menu button.</note>
+      </trans-unit>
+      <trans-unit id="Toolbar.Menu.CloseAllTabs">
+        <source>Close All Tabs</source>
+        <note>Accessibility label for the Close All Tabs menu button.</note>
+      </trans-unit>
+      <trans-unit id="TopSites.EmptyState.Description">
+        <source>Your most visited sites will show up here.</source>
+        <note>Description label for the empty Top Sites state.</note>
+      </trans-unit>
+      <trans-unit id="TopSites.EmptyState.Title">
+        <source>Welcome to Top Sites</source>
+        <note>The title for the empty Top Sites state</note>
+      </trans-unit>
+      <trans-unit id="TopSites.RemovePage.Button">
+        <source>Remove page — %@</source>
+        <note>Button shown in editing mode to remove this site from the top sites panel.</note>
+      </trans-unit>
+      <trans-unit id="TranslationToastHandler.PromptTranslate.Cancel">
+        <source>No</source>
+        <note>Button to disallow the page to be translated to the user locale language</note>
+      </trans-unit>
+      <trans-unit id="TranslationToastHandler.PromptTranslate.OK">
+        <source>Yes</source>
+        <note>Button to allow the page to be translated to the user locale language</note>
+      </trans-unit>
+      <trans-unit id="TranslationToastHandler.PromptTranslate.Title">
+        <source>This page appears to be in %1$@. Translate to %2$@ with %3$@?</source>
+        <note>Prompt for translation. The first parameter is the language the page is in. The second parameter is the name of our local language. The third is the name of the service.</note>
+      </trans-unit>
+      <trans-unit id="Twitter">
+        <source>Twitter</source>
+        <note>Tile title for Twitter</note>
+      </trans-unit>
+      <trans-unit id="UIMenuItem.PasteGo">
+        <source>Paste &amp; Go</source>
+        <note>The menu item that pastes the current contents of the clipboard into the URL bar and navigates to the page</note>
+      </trans-unit>
+      <trans-unit id="UIMenuItem.SearchWithFirefox">
+        <source>Search with Firefox</source>
+        <note>Search in New Tab Text selection menu item</note>
+      </trans-unit>
+      <trans-unit id="Upgrade Firefox to connect">
+        <source>Upgrade Firefox to connect</source>
+        <note>Text message in the settings table view</note>
+      </trans-unit>
+      <trans-unit id="Use stage servers">
+        <source>Use stage servers</source>
+        <note>Debug option</note>
+      </trans-unit>
+      <trans-unit id="Username">
+        <source>Username</source>
+        <note>Username textbox in Authentication prompt</note>
+      </trans-unit>
+      <trans-unit id="Verify your email address">
+        <source>Verify your email address</source>
+        <note>Text message in the settings table view</note>
+      </trans-unit>
+      <trans-unit id="Web content">
+        <source>Web content</source>
+        <note>Accessibility label for the main web content view</note>
+      </trans-unit>
+      <trans-unit id="Welcome to your Reading List">
+        <source>Welcome to your Reading List</source>
+        <note>See http://mzl.la/1LXbDOL</note>
+      </trans-unit>
+      <trans-unit id="Well, this is embarrassing.">
+        <source>Well, this is embarrassing.</source>
+        <note>Restore Tabs Prompt Title</note>
+      </trans-unit>
+      <trans-unit id="Wikipedia">
+        <source>Wikipedia</source>
+        <note>Tile title for Wikipedia</note>
+      </trans-unit>
+      <trans-unit id="Yesterday">
+        <source>Yesterday</source>
+        <note>History tableview section header</note>
+      </trans-unit>
+      <trans-unit id="You don’t have any tabs open in Firefox on your other devices.">
+        <source>You don’t have any tabs open in Firefox on your other devices.</source>
+        <note>Error message in the remote tabs panel</note>
+      </trans-unit>
+      <trans-unit id="YouTube">
+        <source>YouTube</source>
+        <note>Tile title for YouTube</note>
+      </trans-unit>
+      <trans-unit id="Your Rights">
+        <source>Your Rights</source>
+        <note>Your Rights settings section title</note>
+      </trans-unit>
+      <trans-unit id="computer">
+        <source>computer</source>
+        <note>Accessibility label for Desktop Computer (PC) image in remote tabs list</note>
+      </trans-unit>
+      <trans-unit id="fxa.qr-scanning-view.instructions">
+        <source>Scan the QR code shown at firefox.com/pair</source>
+        <note>Instructions shown on qr code scanning view</note>
+      </trans-unit>
+      <trans-unit id="fxa.signin.camera-signin">
+        <source>Sign In with Your Camera</source>
+        <note>FxA sign in view subtitle</note>
+      </trans-unit>
+      <trans-unit id="fxa.signin.qr-link-instruction">
+        <source>On your computer open Firefox and go to firefox.com/pair</source>
+        <note>FxA sign in view qr code instructions</note>
+      </trans-unit>
+      <trans-unit id="fxa.signin.ready-to-scan">
+        <source>Ready to Scan</source>
+        <note>FxA sign in view qr code scan button</note>
+      </trans-unit>
+      <trans-unit id="fxa.signin.turn-on-sync">
+        <source>Turn on Sync</source>
+        <note>FxA sign in view title</note>
+      </trans-unit>
+      <trans-unit id="fxa.signin.use-email-instead">
+        <source>Use Email Instead</source>
+        <note>FxA sign in view email login button</note>
+      </trans-unit>
+      <trans-unit id="just now">
+        <source>just now</source>
+        <note>Relative time for a tab that was visited within the last few moments.</note>
+      </trans-unit>
+      <trans-unit id="mobile device">
+        <source>mobile device</source>
+        <note>Accessibility label for Mobile Device image in remote tabs list</note>
+      </trans-unit>
+      <trans-unit id="more than a month ago">
+        <source>more than a month ago</source>
+        <note>Relative date for dates older than a month and less than two months.</note>
+      </trans-unit>
+      <trans-unit id="more than a week ago">
+        <source>more than a week ago</source>
+        <note>Description for a date more than a week ago, but less than a month ago.</note>
+      </trans-unit>
+      <trans-unit id="read">
+        <source>read</source>
+        <note>Accessibility label for read article in reading list. It's a past participle - functions as an adjective.</note>
+      </trans-unit>
+      <trans-unit id="this week">
+        <source>this week</source>
+        <note>Relative date for date in past week.</note>
+      </trans-unit>
+      <trans-unit id="today at %@">
+        <source>today at %@</source>
+        <note>Relative date for date older than a minute.</note>
+      </trans-unit>
+      <trans-unit id="unread">
+        <source>unread</source>
+        <note>Accessibility label for unread article in reading list. It's a past participle - functions as an adjective.</note>
+      </trans-unit>
+      <trans-unit id="yesterday">
+        <source>yesterday</source>
+        <note>Relative date for yesterday.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="LoginManager.strings" source-language="en" datatype="plaintext" target-language="bo">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Are you sure?">
+        <source>Are you sure?</source>
+        <note>Prompt title when deleting logins</note>
+      </trans-unit>
+      <trans-unit id="Cancel">
+        <source>Cancel</source>
+        <note>Prompt option for cancelling out of deletion</note>
+      </trans-unit>
+      <trans-unit id="Clear Search">
+        <source>Clear Search</source>
+        <note>Accessibility message e.g. spoken by VoiceOver after the user taps the close button in the search field to clear the search and exit search mode</note>
+      </trans-unit>
+      <trans-unit id="Copy">
+        <source>Copy</source>
+        <note>Copy password text selection menu item</note>
+      </trans-unit>
+      <trans-unit id="Created %@">
+        <source>Created %@</source>
+        <note>Label describing when the current login was created with the timestamp as the parameter.</note>
+      </trans-unit>
+      <trans-unit id="Delete">
+        <source>Delete</source>
+        <note>Label for the button used to delete the current login.</note>
+      </trans-unit>
+      <trans-unit id="Deselect All">
+        <source>Deselect All</source>
+        <note>Label for the button used to deselect all logins.</note>
+      </trans-unit>
+      <trans-unit id="Enter Search Mode">
+        <source>Enter Search Mode</source>
+        <note>Accessibility label for entering search mode for logins</note>
+      </trans-unit>
+      <trans-unit id="Hide">
+        <source>Hide</source>
+        <note>Hide password text selection menu item</note>
+      </trans-unit>
+      <trans-unit id="Logins will be permanently removed.">
+        <source>Logins will be permanently removed.</source>
+        <note>Prompt message warning the user that deleting non-synced logins will permanently remove them</note>
+      </trans-unit>
+      <trans-unit id="Logins will be removed from all connected devices.">
+        <source>Logins will be removed from all connected devices.</source>
+        <note>Prompt message warning the user that deleted logins will remove logins from all connected devices</note>
+      </trans-unit>
+      <trans-unit id="Modified %@">
+        <source>Modified %@</source>
+        <note>Label describing when the current login was last modified with the timestamp as the parameter.</note>
+      </trans-unit>
+      <trans-unit id="No logins found">
+        <source>No logins found</source>
+        <note>Label displayed when no logins are found after searching.</note>
+      </trans-unit>
+      <trans-unit id="Open &amp; Fill">
+        <source>Open &amp; Fill</source>
+        <note>Open and Fill website text selection menu item</note>
+      </trans-unit>
+      <trans-unit id="Password">
+        <source>Password</source>
+        <note>Label displayed above the password row in Login Detail View.</note>
+      </trans-unit>
+      <trans-unit id="Reveal">
+        <source>Reveal</source>
+        <note>Reveal password text selection menu item</note>
+      </trans-unit>
+      <trans-unit id="Search">
+        <source>Search</source>
+        <note>Title for the search field at the top of the Logins list screen</note>
+      </trans-unit>
+      <trans-unit id="Search Input Field">
+        <source>Search Input Field</source>
+        <note>Accessibility label for the search input field in the Logins list</note>
+      </trans-unit>
+      <trans-unit id="Select All">
+        <source>Select All</source>
+        <note>Label for the button used to select all logins.</note>
+      </trans-unit>
+      <trans-unit id="Username">
+        <source>Username</source>
+        <note>Label displayed above the username row in Login Detail View.</note>
+      </trans-unit>
+      <trans-unit id="Website">
+        <source>Website</source>
+        <note>Label displayed above the website row in Login Detail View.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="PrivateBrowsing.strings" source-language="en" datatype="plaintext" target-language="bo">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Close Private Tabs">
+        <source>Close Private Tabs</source>
+        <note>Setting for closing private tabs</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.OpenInNewPrivateTabButtonTitle">
+        <source>Open in New Private Tab</source>
+        <note>Context menu option for opening a link in a new private tab</note>
+      </trans-unit>
+      <trans-unit id="Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.">
+        <source>Firefox won’t remember any of your history or cookies, but new bookmarks will be saved.</source>
+        <note>Description text displayed when there are no open tabs while in private mode</note>
+      </trans-unit>
+      <trans-unit id="Learn More">
+        <source>Learn More</source>
+        <note>Text button displayed when there are no tabs open while in private mode</note>
+      </trans-unit>
+      <trans-unit id="Off">
+        <source>Off</source>
+        <note>Toggled OFF accessibility value</note>
+      </trans-unit>
+      <trans-unit id="On">
+        <source>On</source>
+        <note>Toggled ON accessibility value</note>
+      </trans-unit>
+      <trans-unit id="Private Browsing">
+        <source>Private Browsing</source>
+        <note>Title displayed for when there are no open tabs while in private mode</note>
+      </trans-unit>
+      <trans-unit id="Private Mode">
+        <source>Private Mode</source>
+        <note>Accessibility label for toggling on/off private mode</note>
+      </trans-unit>
+      <trans-unit id="Turns private mode on or off">
+        <source>Turns private mode on or off</source>
+        <note>Accessiblity hint for toggling on/off private mode</note>
+      </trans-unit>
+      <trans-unit id="When Leaving Private Browsing">
+        <source>When Leaving Private Browsing</source>
+        <note>Will be displayed in Settings under 'Close Private Tabs'</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Search.strings" source-language="en" datatype="plaintext" target-language="bo">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="%@ search">
+        <source>%@ search</source>
+        <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
+      </trans-unit>
+      <trans-unit id="Search Settings">
+        <source>Search Settings</source>
+        <note>Label for search settings button.</note>
+      </trans-unit>
+      <trans-unit id="Search suggestions from %@">
+        <source>Search suggestions from %@</source>
+        <note>Accessibility label for image of default search engine displayed left to the actual search suggestions from the engine. The parameter substituted for \"%@\" is the name of the search engine. E.g.: Search suggestions from Google</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/Info.plist" source-language="en" datatype="plaintext" target-language="bo">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>18.0</source>
+        <target>18.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/Shared.strings" source-language="en" datatype="plaintext" target-language="bo">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="%@ on %@">
+        <source>%1$@ on %2$@</source>
+        <note>A brief descriptive name for this app on this device, used for Send Tab and Synced Tabs. The first argument is the app name. The second argument is the device name.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="SharedTests/Info.plist" source-language="en" datatype="plaintext" target-language="bo">
@@ -3475,6 +3108,292 @@ Private Tab</source>
       <trans-unit id="CFBundleShortVersionString">
         <source>18.0</source>
         <target>18.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="WidgetKit/BookmarkPanel.strings" source-language="en" datatype="plaintext" target-language="bo">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Delete">
+        <source>Delete</source>
+        <note>Action button for deleting bookmarks in the bookmarks panel.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="WidgetKit/BookmarkPanelDeleteConfirm.strings" source-language="en" datatype="plaintext" target-language="bo">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Bookmarks.DeleteFolderWarning.CancelButton.Label">
+        <source>Cancel</source>
+        <note>Button label to cancel deletion when the user tried to delete a non-empty folder.</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.DeleteFolderWarning.DeleteButton.Label">
+        <source>Delete</source>
+        <note>Button label for the button that deletes a folder and all of its children.</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.DeleteFolderWarning.Description">
+        <source>Are you sure you want to delete it and its contents?</source>
+        <note>Main body of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.DeleteFolderWarning.Title">
+        <source>This folder isn’t empty.</source>
+        <note>Title of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="WidgetKit/Info.plist" source-language="en" datatype="plaintext" target-language="bo">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>$(MOZ_TODAY_WIDGET_SEARCH_DISPLAY_NAME)</source>
+        <target>$(MOZ_TODAY_WIDGET_SEARCH_DISPLAY_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <target>$(PRODUCT_NAME)</target>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+        <target>1.0</target>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="WidgetKit/Intro.strings" source-language="en" datatype="plaintext" target-language="bo">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Intro.Slides.Automatic.Privacy.Description">
+        <source>Enhanced Tracking Protection blocks malware and stops trackers.</source>
+        <note>Description for the first item in the table related to automatic privacy</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Automatic.Privacy.Title">
+        <source>Automatic Privacy</source>
+        <note>Title for the first item in the table related to automatic privacy</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Button.Next">
+        <source>Next</source>
+        <note>Next button on the first intro screen.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Button.SignIn">
+        <source>Sign In</source>
+        <note>Sign in to Firefox account button on second intro screen.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Button.SignUp">
+        <source>Sign Up</source>
+        <note>Sign up to Firefox account button on second intro screen.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Fast.Search.Description">
+        <source>Search suggestions get you to websites faster.</source>
+        <note>Description for the second item in the table related to fast searching via address bar</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Fast.Search.Title">
+        <source>Fast Search</source>
+        <note>Title for the second item in the table related to fast searching via address bar</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Firefox.Account.Sync.Description">
+        <source>Bring bookmarks, history, and passwords to Firefox on this device.</source>
+        <note>Description for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Firefox.Account.Sync.Title">
+        <source>Sync Firefox Between Devices</source>
+        <note>Title for the first item in the table related to syncing data (bookmarks, history) via firefox account between devices</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Mail.Description">
+        <source>Use any email app — not just Mail — with Firefox.</source>
+        <note>Description for the 'Mail' panel in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Mail.Title">
+        <source>You’ve got mail… options</source>
+        <note>Title for the fourth panel 'Mail' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Private.Description">
+        <source>Tap the mask icon to slip into Private Browsing mode.</source>
+        <note>Description for the 'Private Browsing' panel in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Private.Title">
+        <source>Browse like no one’s watching</source>
+        <note>Title for the third panel 'Private Browsing' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Safe.Sync.Description">
+        <source>Protect your logins and data everywhere you use Firefox.</source>
+        <note>Description for the third item in the table related to safe syncing with a firefox account</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Safe.Sync.Title">
+        <source>Safe Sync</source>
+        <note>Title for the third item in the table related to safe syncing with a firefox account</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Search.Description">
+        <source>Searching for something different? Choose another default search engine (or add your own) in Settings.</source>
+        <note>Description for the 'Favorite Search Engine' panel in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Search.Title">
+        <source>Your search, your way</source>
+        <note>Title for the second  panel 'Search' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.TrailheadSync.Description">
+        <source>Sign in to your account to sync and access more features.</source>
+        <note>Description for the 'Sync' panel in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.TrailheadSync.Title.v2">
+        <source>Sync your bookmarks, history, and passwords to your phone.</source>
+        <note>Title for the second panel 'Sync' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Welcome.Description.v2">
+        <source>Fast, private, and on your side.</source>
+        <note>Description for the 'Welcome' panel in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Intro.Slides.Welcome.Title.v2">
+        <source>Welcome to Firefox</source>
+        <note>Title for the first panel 'Welcome' in the First Run tour.</note>
+      </trans-unit>
+      <trans-unit id="Start Browsing">
+        <source>Start Browsing</source>
+        <note>See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+      <trans-unit id="Turn on Sync…">
+        <source>Turn on Sync…</source>
+        <note>The button that opens the sign in page for sync. See http://mzl.la/1T8gxwo</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="WidgetKit/Menu.strings" source-language="en" datatype="plaintext" target-language="bo">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Menu.AddBookmarkAction.Title">
+        <source>Bookmark This Page</source>
+        <note>Label for the button, displayed in the menu, used to create a bookmark for the current website.</note>
+      </trans-unit>
+      <trans-unit id="Menu.AddToReadingList.Title">
+        <source>Add to Reading List</source>
+        <note>Label for the button, displayed in the menu, used to add a page to the reading list.</note>
+      </trans-unit>
+      <trans-unit id="Menu.CloseAllTabsAction.Title">
+        <source>Close All Tabs</source>
+        <note>Label for the button, displayed in the menu, used to close all tabs currently open.</note>
+      </trans-unit>
+      <trans-unit id="Menu.CopyAddress.Title">
+        <source>Copy Address</source>
+        <note>Label for the button, displayed in the menu, used to copy the page url to the clipboard.</note>
+      </trans-unit>
+      <trans-unit id="Menu.FindInPageAction.Title">
+        <source>Find in Page</source>
+        <note>Label for the button, displayed in the menu, used to open the toolbar to search for text within the current page.</note>
+      </trans-unit>
+      <trans-unit id="Menu.Library.Reload">
+        <source>Reload</source>
+        <note>Label for the button, displayed in the menu, used to Reload the webpage</note>
+      </trans-unit>
+      <trans-unit id="Menu.Library.Title">
+        <source>Your Library</source>
+        <note>Label for the button, displayed in the menu, used to open the Library</note>
+      </trans-unit>
+      <trans-unit id="Menu.NewPrivateTabAction.Title">
+        <source>Open New Private Tab</source>
+        <note>Label for the button, displayed in the menu, used to open a new private tab.</note>
+      </trans-unit>
+      <trans-unit id="Menu.NewTabAction.Title">
+        <source>Open New Tab</source>
+        <note>Label for the button, displayed in the menu, used to open a new tab</note>
+      </trans-unit>
+      <trans-unit id="Menu.OpenBookmarksAction.AccessibilityLabel.v2">
+        <source>Bookmarks</source>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Bookmarks home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
+      </trans-unit>
+      <trans-unit id="Menu.OpenDownloadsAction.AccessibilityLabel.v2">
+        <source>Downloads</source>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Downloads home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
+      </trans-unit>
+      <trans-unit id="Menu.OpenHistoryAction.AccessibilityLabel.v2">
+        <source>History</source>
+        <note>Accessibility label for the button, displayed in the menu, used to open the History home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
+      </trans-unit>
+      <trans-unit id="Menu.OpenHomePageAction.Title">
+        <source>Home</source>
+        <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
+      </trans-unit>
+      <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel.v2">
+        <source>Reading List</source>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Reading list home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
+      </trans-unit>
+      <trans-unit id="Menu.OpenSettingsAction.Title">
+        <source>Settings</source>
+        <note>Label for the button, displayed in the menu, used to open the Settings menu.</note>
+      </trans-unit>
+      <trans-unit id="Menu.OpenSyncedTabsAction.AccessibilityLabel.v2">
+        <source>Synced Tabs</source>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Synced Tabs home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
+      </trans-unit>
+      <trans-unit id="Menu.OpenTopSitesAction.AccessibilityLabel">
+        <source>Top Sites</source>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Top Sites home panel.</note>
+      </trans-unit>
+      <trans-unit id="Menu.PageSourceAction.Title">
+        <source>View Page Source</source>
+        <note>Label for the button, displayed in the menu, used to show the html page source</note>
+      </trans-unit>
+      <trans-unit id="Menu.RemoveBookmarkAction.Title">
+        <source>Remove Bookmark</source>
+        <note>Label for the button, displayed in the menu, used to delete an existing bookmark for the current website.</note>
+      </trans-unit>
+      <trans-unit id="Menu.ScanQRCodeAction.Title">
+        <source>Scan QR Code</source>
+        <note>Label for the button, displayed in the menu, used to open the QR code scanner.</note>
+      </trans-unit>
+      <trans-unit id="Menu.SeeAllAction.Title">
+        <source>See All</source>
+        <note>Label for the button, displayed in Firefox Home, used to see all Library panels.</note>
+      </trans-unit>
+      <trans-unit id="Menu.SharePageAction.Title">
+        <source>Share Page With…</source>
+        <note>Label for the button, displayed in the menu, used to open the share dialog.</note>
+      </trans-unit>
+      <trans-unit id="Menu.ShowTabs.Title">
+        <source>Show Tabs</source>
+        <note>Label for the button, displayed in the menu, used to open the tabs tray</note>
+      </trans-unit>
+      <trans-unit id="Menu.TranslatePageAction.Title">
+        <source>Translate Page</source>
+        <note>Label for the button, displayed in the menu, used to translate the current page.</note>
+      </trans-unit>
+      <trans-unit id="Menu.ViewDekstopSiteAction.Title">
+        <source>Request Desktop Site</source>
+        <note>Label for the button, displayed in the menu, used to request the desktop version of the current website.</note>
+      </trans-unit>
+      <trans-unit id="Menu.ViewMobileSiteAction.Title">
+        <source>Request Mobile Site</source>
+        <note>Label for the button, displayed in the menu, used to request the mobile version of the current website.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="WidgetKit/Storage.strings" source-language="en" datatype="plaintext" target-language="bo">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.3.3" build-num="8E3004b"/>
+    </header>
+    <body>
+      <trans-unit id="Bookmarks Menu">
+        <source>Bookmarks Menu</source>
+        <note>The name of the folder that contains desktop bookmarks in the menu. This should match bookmarks.folder.menu.label on Android.</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks Toolbar">
+        <source>Bookmarks Toolbar</source>
+        <note>The name of the folder that contains desktop bookmarks in the toolbar. This should match bookmarks.folder.toolbar.label on Android.</note>
+      </trans-unit>
+      <trans-unit id="Mobile Bookmarks">
+        <source>Mobile Bookmarks</source>
+        <note>The title of the folder that contains mobile bookmarks. This should match bookmarks.folder.mobile.label on Android.</note>
+      </trans-unit>
+      <trans-unit id="Unsorted Bookmarks">
+        <source>Unsorted Bookmarks</source>
+        <note>The name of the folder that contains unsorted desktop bookmarks. This should match bookmarks.folder.unfiled.label on Android.</note>
       </trans-unit>
     </body>
   </file>
