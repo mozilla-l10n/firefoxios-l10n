@@ -134,7 +134,7 @@
       </trans-unit>
       <trans-unit id="Immediately">
         <source>Immediately</source>
-        <target>حالًا</target>
+        <target>مباشرة</target>
         <note>'Immediately' interval item for selecting when to require passcode</note>
       </trans-unit>
       <trans-unit id="Incorrect passcode. Try again (Attempts remaining: %d).">
@@ -169,7 +169,7 @@
       </trans-unit>
       <trans-unit id="Passcodes didn’t match. Try again.">
         <source>Passcodes didn’t match. Try again.</source>
-        <target>رمزا السر لا يتطابقان. جرب ثانية.</target>
+        <target>رمزا السر لا يتطابقان. أعِد المحاولة.</target>
         <note>Error message displayed to user when their confirming passcode doesn't match the first code.</note>
       </trans-unit>
       <trans-unit id="Re-enter passcode">
@@ -179,6 +179,7 @@
       </trans-unit>
       <trans-unit id="Require Passcode">
         <source>Require Passcode</source>
+        <target>اطلب رمز السر</target>
         <note>Text displayed in the 'Interval' section, followed by the current interval setting, e.g. 'Immediately'</note>
       </trans-unit>
       <trans-unit id="Set Passcode">
@@ -193,7 +194,7 @@
       </trans-unit>
       <trans-unit id="Turn Passcode Off">
         <source>Turn Passcode Off</source>
-        <target>أوقف رمز السر</target>
+        <target>أوقِف رمز السر</target>
         <note>Label used as a setting item to turn off passcode</note>
       </trans-unit>
       <trans-unit id="Turn Passcode On">
@@ -540,7 +541,7 @@
       </trans-unit>
       <trans-unit id="Address and Search">
         <source>Address and Search</source>
-        <target>العنوان و البحث</target>
+        <target>العنوان والبحث</target>
         <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
       </trans-unit>
       <trans-unit id="Always Send">
@@ -790,6 +791,7 @@
       </trans-unit>
       <trans-unit id="CoverSheet.v22.DarkMode.Description">
         <source>For iOS 13 users, Firefox now automatically switches to a dark theme when your phone is set to Dark Mode. To change this behavior, go to Settings &gt; Theme.</source>
+        <target>صار Firefox ينتقل تلقائيًا إلى السمة الداكنة (على آي‌أوإس 13) متى ما كان نظام الهاتف مضبوطًا على السمة الداكنة. لو أردت تغيير هذا السلوك فانتقل إلى الإعدادات &gt; السمة.</target>
         <note>Description for the new dark mode change in the version 22 app release. It describes the new automatic dark theme and how to change the theme settings.</note>
       </trans-unit>
       <trans-unit id="CoverSheet.v22.DarkMode.Title">
@@ -1066,7 +1068,7 @@
       </trans-unit>
       <trans-unit id="FxA.SyncExplain">
         <source>Get your tabs, bookmarks, and passwords from your other devices.</source>
-        <target>اجلب الألسنة، و العلامات، و كلمات السر من أجهزتك الأخرى.</target>
+        <target>اجلب الألسنة، والعلامات، وكلمات السر من أجهزتك الأخرى.</target>
         <note>Label explaining what sync does</note>
       </trans-unit>
       <trans-unit id="FxA.SyncNow">
@@ -1116,12 +1118,12 @@
       </trans-unit>
       <trans-unit id="Get your open tabs, bookmarks, and passwords from your other devices.">
         <source>Get your open tabs, bookmarks, and passwords from your other devices.</source>
-        <target>اجلب الألسنة المفتوحة، و العلامات، و كلمات السر من أجهزتك الأخرى.</target>
+        <target>اجلب الألسنة المفتوحة، والعلامات، وكلمات السر من أجهزتك الأخرى.</target>
         <note>A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing.</note>
       </trans-unit>
       <trans-unit id="Help">
         <source>Help</source>
-        <target>مساعدة</target>
+        <target>المساعدة</target>
         <note>Show the SUMO support page from the Support section in the settings. see http://mzl.la/1dmM8tZ</note>
       </trans-unit>
       <trans-unit id="History">
@@ -1593,7 +1595,7 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionBlockedContent.Title">
         <source>Tracking content</source>
-        <target>محتوى التعقّب</target>
+        <target>المحتوى الذي يتعقّبك</target>
         <note>The title that shows the number of content cookies blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionBlockedSocial.Title">
@@ -2182,7 +2184,7 @@
       </trans-unit>
       <trans-unit id="Settings.AddCustomEngine.URLPlaceholder">
         <source>URL (Replace Query with %s)</source>
-        <target>المسار (استخدم %s بدل نص البحث)</target>
+        <target>المسار (استخدم ‎%s بدل نص البحث)</target>
         <note>The placeholder for URL Field when saving a custom search engine</note>
       </trans-unit>
       <trans-unit id="Settings.ClearAllWebsiteData.Clear.Button">
@@ -2503,7 +2505,7 @@
       </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.Title">
         <source>Offer to Open Copied Links</source>
-        <target>طلب فتح الروابط المنسوخة</target>
+        <target>اطلب فتح الروابط المنسوخة</target>
         <note>Title of setting to enable the Go to Copied URL feature. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349</note>
       </trans-unit>
       <trans-unit id="Settings.OpenWith.PageTitle">
@@ -2553,7 +2555,7 @@
       </trans-unit>
       <trans-unit id="Settings.ShowLinkPreviews.Title">
         <source>Show Link Previews</source>
-        <target>اعرض معاينة للرابط</target>
+        <target>اعرض معاينات الروابط</target>
         <note>Title of setting to enable link previews when long-pressing links.</note>
       </trans-unit>
       <trans-unit id="Settings.ShowLoginsInAppMenu.Title">
@@ -2583,7 +2585,7 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.Alert.Description">
         <source>If a site doesn’t work as expected, tap the shield in the address bar and turn off Enhanced Tracking Protection for that page.</source>
-        <target>إن لم يعمل أحد المواقع كما يجب، اضغط أيقونة الدرع في شريط العنوان وعطّل الحماية الموسّعة من التعقّب في الصفحة.</target>
+        <target>إن لم يعمل أحد المواقع كما يجب، اضغط أيقونة الدرع في شريط العنوان وعطّل الحماية الموسّعة من التعقب في الصفحة.</target>
         <note>Decription for the tracker protection alert.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.Alert.Title">
@@ -2623,11 +2625,12 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionCellFooter">
         <source>Reduces targeted ads and helps stop advertisers from tracking your browsing.</source>
+        <target>تقلّل الإعلانات المستهدفة وتُساعد على منع المُعلنين من تعقب تصفحّك.</target>
         <note>Additional information about your Enhanced Tracking Protection</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevel.Footer">
         <source>If a site doesn’t work as expected, tap the shield in the address bar and turn off Enhanced Tracking Protection for that page.</source>
-        <target>إن لم يعمل أحد المواقع كما يجب، اضغط أيقونة الدرع في شريط العنوان وعطّل الحماية المحسّنة من التعقّب في الصفحة.</target>
+        <target>إن لم يعمل أحد المواقع كما يجب، اضغط أيقونة الدرع في شريط العنوان وعطّل الحماية المحسّنة من التعقب في الصفحة.</target>
         <note>Footer information for tracker protection level.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevelStandard.Description">
@@ -2647,7 +2650,7 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.SectionName">
         <source>Tracking Protection</source>
-        <target>الحماية من التعقّب</target>
+        <target>الحماية من التعقب</target>
         <note>Row in top-level of settings that gets tapped to show the tracking protection settings detail view.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.StrictLevelInfoFooter">
@@ -2657,7 +2660,7 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.BasicBlockList">
         <source>Standard (default)</source>
-        <target>القياسية (المبدئي)</target>
+        <target>قياسية (المبدئي)</target>
         <note>Tracking protection settings option for using the basic blocklist.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.BlockListBasicDescription">
@@ -2803,12 +2806,12 @@
       </trans-unit>
       <trans-unit id="Show Tour">
         <source>Show Tour</source>
-        <target>أظهر الجولة</target>
+        <target>اعرض الجولة</target>
         <note>Show the on-boarding screen again from the settings</note>
       </trans-unit>
       <trans-unit id="Stop">
         <source>Stop</source>
-        <target>أوقف</target>
+        <target>أوقِف</target>
         <note>Accessibility Label for the tab toolbar Stop button</note>
       </trans-unit>
       <trans-unit id="Support">
@@ -3320,7 +3323,7 @@
       </trans-unit>
       <trans-unit id="Reveal">
         <source>Reveal</source>
-        <target>أظهر</target>
+        <target>اعرض</target>
         <note>Reveal password text selection menu item</note>
       </trans-unit>
       <trans-unit id="Search">
@@ -3397,7 +3400,7 @@
       </trans-unit>
       <trans-unit id="Turns private mode on or off">
         <source>Turns private mode on or off</source>
-        <target>شغّل/أوقف الوضع الخاص</target>
+        <target>شغّل/أوقِف الوضع الخاص</target>
         <note>Accessiblity hint for toggling on/off private mode</note>
       </trans-unit>
       <trans-unit id="When Leaving Private Browsing">
@@ -4018,6 +4021,7 @@ Link</source>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickActionDropDownMenu">
         <source>Quick action</source>
+        <target>إجراء سريع</target>
         <note>Quick Actions left label text for dropdown menu when widget enters edit mode</note>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickActionGalleryDescription">
