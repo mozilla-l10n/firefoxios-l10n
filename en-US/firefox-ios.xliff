@@ -4,11 +4,6 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"></tool>
     </header>
     <body>
-      <trans-unit id="1Password Fill Browser Action" xml:space="preserve">
-        <source>1Password Fill Browser Action</source>
-        <target>1Password Fill Browser Action</target>
-        <note></note>
-      </trans-unit>
       <trans-unit id="NSCameraUsageDescription" xml:space="preserve">
         <source>This lets you take and upload photos.</source>
         <target>This lets you take and upload photos.</target>
@@ -342,6 +337,11 @@
         <source>Go to Settings</source>
         <target>Go to Settings</target>
         <note>Button string to open settings that allows user to switch their default browser to Firefox.</note>
+      </trans-unit>
+      <trans-unit id="DefaultBrowserCard.Button.v2" xml:space="preserve">
+        <source>Learn How</source>
+        <target>Learn How</target>
+        <note>Button string to learn how to set your default browser.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserCard.Description" xml:space="preserve">
         <source>Set links from websites, emails, and Messages to open automatically in Firefox.</source>
@@ -3628,6 +3628,11 @@
         <target>Remove Bookmark</target>
         <note>Label for the button, displayed in the menu, used to delete an existing bookmark for the current website.</note>
       </trans-unit>
+      <trans-unit id="Menu.ReportSiteIssueAction.Title" xml:space="preserve">
+        <source>Report Site Issue</source>
+        <target>Report Site Issue</target>
+        <note>Label for the button, displayed in the menu, used to report a compatibility issue with the current page.</note>
+      </trans-unit>
       <trans-unit id="Menu.ScanQRCodeAction.Title" xml:space="preserve">
         <source>Scan QR Code</source>
         <target>Scan QR Code</target>
@@ -4057,6 +4062,93 @@ Private Tab</target>
         <source>This folder isn’t empty.</source>
         <target>This folder isn’t empty.</target>
         <note>Title of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="WidgetKit/Base.lproj/WidgetIntents.intentdefinition" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"></tool>
+    </header>
+    <body>
+      <trans-unit id="2GqvPe" xml:space="preserve">
+        <source>Go to Copied Link</source>
+        <target>Go to Copied Link</target>
+        <note>Quick Actions drop down menu item for Go to Copied Link when widget enters edit mode and drop down menu expands</note>
+      </trans-unit>
+      <trans-unit id="PzSrmZ-2GqvPe" xml:space="preserve">
+        <source>Just to confirm, you wanted ‘Go to Copied Link’?</source>
+        <target>Just to confirm, you wanted ‘Go to Copied Link’?</target>
+        <note>Accessibility label to confirm the go to copied link selection</note>
+      </trans-unit>
+      <trans-unit id="PzSrmZ-eHmH1H" xml:space="preserve">
+        <source>Just to confirm, you wanted ‘Clear Private Tabs’?</source>
+        <target>Just to confirm, you wanted ‘Clear Private Tabs’?</target>
+        <note>Accessibility label to confirm the Clear Private Tabs selection</note>
+      </trans-unit>
+      <trans-unit id="PzSrmZ-scEmjs" xml:space="preserve">
+        <source>Just to confirm, you wanted ‘New Private Search’?</source>
+        <target>Just to confirm, you wanted ‘New Private Search’?</target>
+        <note>Accessibility label to confirm the New Private Search selection</note>
+      </trans-unit>
+      <trans-unit id="PzSrmZ-xRJbBP" xml:space="preserve">
+        <source>Just to confirm, you wanted ‘New Search’?</source>
+        <target>Just to confirm, you wanted ‘New Search’?</target>
+        <note>Accessibility label to confirm the New Search selection</note>
+      </trans-unit>
+      <trans-unit id="ctDNmu" xml:space="preserve">
+        <source>Quick access to various Firefox acions</source>
+        <target>Quick access to various Firefox acions</target>
+        <note>Description of the collection of widgets</note>
+      </trans-unit>
+      <trans-unit id="eHmH1H" xml:space="preserve">
+        <source>Clear Private Tabs</source>
+        <target>Clear Private Tabs</target>
+        <note>Quick Actions drop down menu item for lear Private Tabs when widget enters edit mode and drop down menu expands</note>
+      </trans-unit>
+      <trans-unit id="eV8mOT" xml:space="preserve">
+        <source>Quick Action Type</source>
+        <target>Quick Action Type</target>
+        <note>The description of a customizable section of the widget</note>
+      </trans-unit>
+      <trans-unit id="eqyNJg" xml:space="preserve">
+        <source>Quick Action</source>
+        <target>Quick Action</target>
+        <note>Title of the quick actions widgets</note>
+      </trans-unit>
+      <trans-unit id="fi3W24-2GqvPe" xml:space="preserve">
+        <source>There are ${count} options matching ‘Go to Copied Link’.</source>
+        <target>There are ${count} options matching ‘Go to Copied Link’.</target>
+        <note>Label showing how many widgets match ‘Go to Copied Link’. ${count} is a placeholder fo the number of widgets.</note>
+      </trans-unit>
+      <trans-unit id="fi3W24-eHmH1H" xml:space="preserve">
+        <source>There are ${count} options matching ‘Clear Private Tabs’.</source>
+        <target>There are ${count} options matching ‘Clear Private Tabs’.</target>
+        <note>Label showing how many widgets match ‘Clear Private Tabs’. ${count} is a placeholder fo the number of widgets.</note>
+      </trans-unit>
+      <trans-unit id="fi3W24-scEmjs" xml:space="preserve">
+        <source>There are ${count} options matching ‘New Private Search’.</source>
+        <target>There are ${count} options matching ‘New Private Search’.</target>
+        <note>Label showing how many widgets match ‘New Private Search’. ${count} is a placeholder fo the number of widgets.</note>
+      </trans-unit>
+      <trans-unit id="fi3W24-xRJbBP" xml:space="preserve">
+        <source>There are ${count} options matching ‘New Search’.</source>
+        <target>There are ${count} options matching ‘New Search’.</target>
+        <note>Label showing how many widgets match ‘New Search’. ${count} is a placeholder fo the number of widgets.</note>
+      </trans-unit>
+      <trans-unit id="scEmjs" xml:space="preserve">
+        <source>New Private Search</source>
+        <target>New Private Search</target>
+        <note>Quick Actions drop down menu item for new private search when widget enters edit mode and drop down menu expands</note>
+      </trans-unit>
+      <trans-unit id="w9jdPK" xml:space="preserve">
+        <source>Quick Action</source>
+        <target>Quick Action</target>
+        <note>Quick Actions left label text for dropdown menu when widget enters edit mode</note>
+      </trans-unit>
+      <trans-unit id="xRJbBP" xml:space="preserve">
+        <source>New Search</source>
+        <target>New Search</target>
+        <note>Quick Actions drop down menu item for new search when widget enters edit mode and drop down menu expands</note>
       </trans-unit>
     </body>
   </file>
