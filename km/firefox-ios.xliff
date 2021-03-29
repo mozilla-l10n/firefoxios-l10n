@@ -1546,10 +1546,12 @@
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title.OneArg" xml:space="preserve">
         <source>Update login for %@?</source>
+        <target>ធ្វើបច្ចុប្បន្នភាពការចូលសម្រាប់ %@ ដែរ​ឬ​ទេ?</target>
         <note>Prompt for updating a login. The first parameter is the hostname for which the password will be updated for.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title.TwoArg" xml:space="preserve">
         <source>Update login %1$@ for %2$@?</source>
+        <target>ធ្វើ​បច្ចុប្បន្នភាព​ការ​ចូល %1$@ សម្រាប់ %2$@ ដែរឬ​ទេ?</target>
         <note>Prompt for updating a login. The first parameter is the username for which the password will be updated for. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.SaveLogin.Button" xml:space="preserve">
@@ -1704,46 +1706,57 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.NoTrackersBlockedTitle" xml:space="preserve">
         <source>No trackers known to Firefox were detected on this page.</source>
+        <target>មិនមានកម្មវិធីតាមដានដែលស្គាល់ដោយ Firefox ត្រូវបានរកឃើញនៅលើទំព័រនេះទេ ។</target>
         <note>Message in menu when no trackers blocked.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.ProtectionSettings.Title" xml:space="preserve">
         <source>Protection Settings</source>
+        <target>ការកំណត់ការការពារ</target>
         <note>The title for tracking protection settings</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.TitlePrefix" xml:space="preserve">
         <source>Protections for %@</source>
+        <target>ការការពារសម្រាប់ %@</target>
         <note>Title on tracking protection menu showing the domain. eg. Protections for mozilla.org</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionBlockedContent.Title" xml:space="preserve">
         <source>Tracking content</source>
+        <target>កំពុងតាមដានខ្លឹមសារ</target>
         <note>The title that shows the number of content cookies blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionBlockedSocial.Title" xml:space="preserve">
         <source>Social Trackers</source>
+        <target>អ្នកតាមដានសង្គម</target>
         <note>The title that shows the number of social URLs blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionBlocking.Description" xml:space="preserve">
         <source>Firefox is blocking parts of the page that may track your browsing.</source>
+        <target>Firefox កំពុង​ទប់ស្កាត់​ផ្នែក​នៃ​ទំព័រ​ដែល​អាច​តាមដាន​ការរុករក​របស់អ្នក។</target>
         <note>Description of the Tracking protection menu when TP is blocking parts of the page</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionBlockingDisabled.Description" xml:space="preserve">
         <source>Block online trackers</source>
+        <target>ទប់ស្កាត់​កម្មវិធី​តាមដាន​លើ​អ៊ីនធឺណិត</target>
         <note>The description of the Tracking Protection menu item when tracking is enabled</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionCrossSiteCookies.Title" xml:space="preserve">
         <source>Cross-Site Tracking Cookies</source>
+        <target>ខូឃី​ដែល​តាមដាន​ឆ្លង​គេហទំព័រ</target>
         <note>The title that shows the number of cross-site cookies blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionCrossSiteTrackers.Title" xml:space="preserve">
         <source>Cross-Site Trackers</source>
+        <target>កម្មវិធី​តាមដានឆ្លង​គេហទំព័រ</target>
         <note>The title that shows the number of cross-site URLs blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionCryptominersBlocked.Title" xml:space="preserve">
         <source>Cryptominers</source>
+        <target>Cryptominer</target>
         <note>The title that shows the number of cryptomining scripts blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDescription.ContentTrackers" xml:space="preserve">
         <source>Websites may load outside ads, videos, and other content that contains hidden trackers. Blocking this can make websites load faster, but some buttons, forms, and login fields, might not work.</source>
+        <target>គេហទំព័រអាចផ្ទុក​ការផ្សាយ​ពាណិជ្ជកម្ម វីដេអូ និងមាតិកាផ្សេងទៀត​ខាងក្រៅ​ដែលមានបង្កប់កម្មវិធីតាមដាន។ ការទប់ស្កាត់​នេះអាចធ្វើឱ្យគេហទំព័រដំណើរការលឿនជាងមុន ប៉ុន្តែប៊ូតុង ទម្រង់ និងកន្លែង​​ចូល ប្រហែលមិនដំណើរការទេ។</target>
         <note>Description of content trackers.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDescription.CrossSiteNew" xml:space="preserve">
