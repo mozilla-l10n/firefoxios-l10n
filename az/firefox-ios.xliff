@@ -67,6 +67,10 @@
         <target>Ünvanı köçür</target>
         <note>Label for preview action on Tab Tray Tab to copy the URL of the current tab to clipboard</note>
       </trans-unit>
+      <trans-unit id="Menu.SendLinkToDevice" xml:space="preserve">
+        <source>Send Link to Device</source>
+        <note>Label for preview action on Tab Tray Tab to send the current link to another device</note>
+      </trans-unit>
       <trans-unit id="Open Last Bookmark" xml:space="preserve">
         <source>Open Last Bookmark</source>
         <target>Son əlfəcini aç</target>
@@ -579,15 +583,27 @@
         <target>Haqqında</target>
         <note>About settings section title</note>
       </trans-unit>
+      <trans-unit id="ActivityStream.ContextMenu.AddToShortcuts" xml:space="preserve">
+        <source>Add to Shortcuts</source>
+        <note>The title for the pinning a shortcut action</note>
+      </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.PinTopsite" xml:space="preserve">
         <source>Pin to Top Sites</source>
         <target>Qabaqcıl Saytlara bərkid</target>
+        <note>The title for the pinning a topsite action</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.ContextMenu.PinTopsite2" xml:space="preserve">
+        <source>Pin</source>
         <note>The title for the pinning a topsite action</note>
       </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.RemovePinTopsite" xml:space="preserve">
         <source>Remove Pinned Site</source>
         <target>Bərkidilmiş saytı sil</target>
         <note>The title for removing a pinned topsite action</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.ContextMenu.UnpinTopsite" xml:space="preserve">
+        <source>Unpin</source>
+        <note>The title for the unpinning a topsite action</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Highlights.Bookmark" xml:space="preserve">
         <source>Bookmarked</source>
@@ -614,6 +630,10 @@
         <target>Pocket-də Trenddə</target>
         <note>Section title label for Recommended by Pocket section</note>
       </trans-unit>
+      <trans-unit id="ActivityStream.Pocket.SectionTitle2" xml:space="preserve">
+        <source>Recommended by Pocket</source>
+        <note>Section title label for Recommended by Pocket section</note>
+      </trans-unit>
       <trans-unit id="ActivityStream.Pocket.Trending" xml:space="preserve">
         <source>Trending</source>
         <target>Populyar</target>
@@ -623,6 +643,10 @@
         <source>Recently Visited</source>
         <target>Təzəlikcə ziyarət edilən</target>
         <note>Section title label for recently visited websites</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.Shortcuts.SectionTitle" xml:space="preserve">
+        <source>Shortcuts</source>
+        <note>Section title label for Shortcuts</note>
       </trans-unit>
       <trans-unit id="ActivityStream.TopSites.RowCount" xml:space="preserve">
         <source>Rows: %d</source>
@@ -689,6 +713,14 @@
         <source>Authentication required</source>
         <target>Təsdiqləmə tələb edilir</target>
         <note>Authentication prompt title</note>
+      </trans-unit>
+      <trans-unit id="Awesomebar.SearchWithEngine.Description" xml:space="preserve">
+        <source>Search %@ directly from the address bar</source>
+        <note>Description for button to suggest searching with a search engine. First argument is the name of the search engine to select</note>
+      </trans-unit>
+      <trans-unit id="Awesomebar.SearchWithEngine.Title" xml:space="preserve">
+        <source>Search with %@</source>
+        <note>Title for button to suggest searching with a search engine. First argument is the name of the search engine to select</note>
       </trans-unit>
       <trans-unit id="Back" xml:space="preserve">
         <source>Back</source>
@@ -894,6 +926,14 @@
       <trans-unit id="ContextMenu.OpenInNewTabButtonTitle" xml:space="preserve">
         <source>Open in New Tab</source>
         <target>Yeni vərəqdə aç</target>
+        <note>Context menu item for opening a link in a new tab</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.OpenLinkInNewPrivateTabButtonTitle" xml:space="preserve">
+        <source>Open Link in New Private Tab</source>
+        <note>Context menu item for opening a link in a new private tab</note>
+      </trans-unit>
+      <trans-unit id="ContextMenu.OpenLinkInNewTabButtonTitle" xml:space="preserve">
+        <source>Open Link in New Tab</source>
         <note>Context menu item for opening a link in a new tab</note>
       </trans-unit>
       <trans-unit id="ContextMenu.SaveImageButtonTitle" xml:space="preserve">
@@ -1612,10 +1652,22 @@
         <source>Pinned To Top Sites</source>
         <note>Toast displayed to the user after adding the item to the Top Sites.</note>
       </trans-unit>
+      <trans-unit id="Menu.AddPin.Confirm2" xml:space="preserve">
+        <source>Added to Shortcuts</source>
+        <note>Toast displayed to the user after adding the item to the Shortcuts.</note>
+      </trans-unit>
       <trans-unit id="Menu.AddToReadingList.Confirm" xml:space="preserve">
         <source>Added To Reading List</source>
         <target>Oxuma Siyahısına əlavə edildi</target>
         <note>Toast displayed to the user after adding the item to their reading list.</note>
+      </trans-unit>
+      <trans-unit id="Menu.BackUpAndSync.Label" xml:space="preserve">
+        <source>Back up and Sync Data</source>
+        <note>Label for the button, displayed in the menu, takes you to sync sign in when pressed.</note>
+      </trans-unit>
+      <trans-unit id="Menu.Bookmarks.Label" xml:space="preserve">
+        <source>Bookmarks</source>
+        <note>Label for the button, displayed in the menu, takes you to to bookmarks screen when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.Copy.Title" xml:space="preserve">
         <source>Copy Address</source>
@@ -1626,6 +1678,10 @@
         <source>URL Copied To Clipboard</source>
         <target>URL mübadilə buferinə köçürüldü</target>
         <note>Toast displayed to user after copy url pressed.</note>
+      </trans-unit>
+      <trans-unit id="Menu.Downloads.Label" xml:space="preserve">
+        <source>Downloads</source>
+        <note>Label for the button, displayed in the menu, takes you to to Downloads screen when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtectionOff.Title" xml:space="preserve">
         <source>Enhanced Tracking Protection is OFF for this site.</source>
@@ -1645,14 +1701,30 @@
         <source>Firefox blocks cross-site trackers, social trackers, cryptominers, fingerprinters, and tracking content.</source>
         <note>Description for having strict ETP protection with ITP offered in iOS14+</note>
       </trans-unit>
+      <trans-unit id="Menu.History.Label" xml:space="preserve">
+        <source>History</source>
+        <note>Label for the button, displayed in the menu, takes you to to History screen when pressed.</note>
+      </trans-unit>
       <trans-unit id="Menu.Library.StopReload" xml:space="preserve">
         <source>Stop</source>
         <target>Dayandır</target>
         <note>Label for the button displayed in the menu used to stop the reload of the webpage</note>
       </trans-unit>
+      <trans-unit id="Menu.ManageAccount.Label" xml:space="preserve">
+        <source>Manage Account %@</source>
+        <note>Label for the button, displayed in the menu, takes you to screen to manage account when pressed. First argument is the display name for the current account</note>
+      </trans-unit>
+      <trans-unit id="Menu.NightModeTurnOff.Label2" xml:space="preserve">
+        <source>Turn off Night Mode</source>
+        <note>Label for the button, displayed in the menu, turns off night mode.</note>
+      </trans-unit>
       <trans-unit id="Menu.NightModeTurnOn.Label" xml:space="preserve">
         <source>Enable Night Mode</source>
         <target>Gecə Rejimini aç</target>
+        <note>Label for the button, displayed in the menu, turns on night mode.</note>
+      </trans-unit>
+      <trans-unit id="Menu.NightModeTurnOn.Label2" xml:space="preserve">
+        <source>Turn on Night Mode</source>
         <note>Label for the button, displayed in the menu, turns on night mode.</note>
       </trans-unit>
       <trans-unit id="Menu.NoImageModeBlockImages.Label" xml:space="preserve">
@@ -1660,10 +1732,18 @@
         <target>Şəkilləri Əngəllə</target>
         <note>Label for the button, displayed in the menu, hides images on the webpage when pressed.</note>
       </trans-unit>
+      <trans-unit id="Menu.NoImageModeShowImages.Label" xml:space="preserve">
+        <source>Show Images</source>
+        <note>Label for the button, displayed in the menu, shows images on the webpage when pressed.</note>
+      </trans-unit>
       <trans-unit id="Menu.PageActions.Title" xml:space="preserve">
         <source>Page Actions</source>
         <target>Səhifə Əməliyyatları</target>
         <note>Label for title in page action menu.</note>
+      </trans-unit>
+      <trans-unit id="Menu.Passwords.Label" xml:space="preserve">
+        <source>Passwords</source>
+        <note>Label for the button, displayed in the menu, takes you to to passwords screen when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.Paste.Title" xml:space="preserve">
         <source>Paste</source>
@@ -1674,6 +1754,10 @@
         <source>Paste &amp; Go</source>
         <target>Yapışdır və aç</target>
         <note>The title for the button that lets you paste and go to a URL</note>
+      </trans-unit>
+      <trans-unit id="Menu.ReadingList.Label" xml:space="preserve">
+        <source>Reading List</source>
+        <note>Label for the button, displayed in the menu, takes you to to Reading List screen when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.ReloadWithTrackingProtection.Title" xml:space="preserve">
         <source>Reload With Tracking Protection</source>
@@ -1693,6 +1777,10 @@
       <trans-unit id="Menu.RemovePin.Confirm" xml:space="preserve">
         <source>Removed From Top Sites</source>
         <note>Toast displayed to the user after removing the item from the Top Sites.</note>
+      </trans-unit>
+      <trans-unit id="Menu.RemovePin.Confirm2" xml:space="preserve">
+        <source>Removed from Shortcuts</source>
+        <note>Toast displayed to the user after removing the item to the Shortcuts.</note>
       </trans-unit>
       <trans-unit id="Menu.TabSent.Confirm" xml:space="preserve">
         <source>Tab Sent</source>
@@ -2086,6 +2174,10 @@
         <source>Search or enter address</source>
         <target>Ünvanı daxil et və ya axtar</target>
         <note>The text shown in the URL bar on about:home</note>
+      </trans-unit>
+      <trans-unit id="Search.Awesomebar.SwitchToTab" xml:space="preserve">
+        <source>Switch to tab</source>
+        <note>Search suggestion cell label that allows user to switch to tab which they searched for in url bar</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.AddMessage" xml:space="preserve">
         <source>The new search engine will appear in the quick search bar.</source>
@@ -2563,6 +2655,10 @@
         <target>Ən çox ziyarət etdiyiniz saytlar</target>
         <note>The footer for the section to customize top sites in the new tab settings page.</note>
       </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.CustomizeFooter2" xml:space="preserve">
+        <source>Sites you save or visit</source>
+        <note>The footer for the section to customize top sites in the new tab settings page.</note>
+      </trans-unit>
       <trans-unit id="Settings.NewTab.Option.CustomizeTitle" xml:space="preserve">
         <source>Customize Firefox Home</source>
         <target>Firefox Ev-i Şəxsiləşdir</target>
@@ -2607,6 +2703,14 @@
         <source>Show your Reading List</source>
         <target>Oxuma Siyahısını Göstər</target>
         <note>Option in settings to show reading list when you open a new tab</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.RecommendedByPocket" xml:space="preserve">
+        <source>Recommended by %@</source>
+        <note>Option in settings to turn on off pocket recommendations First argument is the pocket brand name</note>
+      </trans-unit>
+      <trans-unit id="Settings.NewTab.Option.RecommendedByPocketDescription" xml:space="preserve">
+        <source>Exceptional content curated by %1$@, part of the %2$@ family</source>
+        <note>Descriptoin for the option in settings to turn on off pocket recommendations. First argument is the pocket brand name, second argument is the pocket product name.</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.SectionName" xml:space="preserve">
         <source>New Tab</source>
@@ -2705,6 +2809,46 @@
         <source>Siri Shortcuts</source>
         <target>Siri Qısayolları</target>
         <note>The option that takes you to the siri shortcuts settings page</note>
+      </trans-unit>
+      <trans-unit id="Settings.Studies.Active.SectionName" xml:space="preserve">
+        <source>Active</source>
+        <note>Section title for all studies that are currently active</note>
+      </trans-unit>
+      <trans-unit id="Settings.Studies.Completed.SectionName" xml:space="preserve">
+        <source>Completed</source>
+        <note>Section title for all studies that are completed</note>
+      </trans-unit>
+      <trans-unit id="Settings.Studies.Remove.Button" xml:space="preserve">
+        <source>Remove</source>
+        <note>Button title displayed next to each study allowing the user to opt-out of the study</note>
+      </trans-unit>
+      <trans-unit id="Settings.Studies.SectionName" xml:space="preserve">
+        <source>Studies</source>
+        <note>Title displayed in header of the Studies panel</note>
+      </trans-unit>
+      <trans-unit id="Settings.Studies.Title" xml:space="preserve">
+        <source>Studies</source>
+        <note>Label used as an item in Settings. Tapping on this item takes you to the Studies panel</note>
+      </trans-unit>
+      <trans-unit id="Settings.Studies.Toggle.Link" xml:space="preserve">
+        <source>Learn More.</source>
+        <note>Title for a link that explains what Mozilla means by Studies</note>
+      </trans-unit>
+      <trans-unit id="Settings.Studies.Toggle.Message" xml:space="preserve">
+        <source>Firefox may install and run studies from time to time.</source>
+        <note>A short description that explains that Mozilla is running studies</note>
+      </trans-unit>
+      <trans-unit id="Settings.Studies.Toggle.Off" xml:space="preserve">
+        <source>Off</source>
+        <note>Toggled OFF to opt-out of studies</note>
+      </trans-unit>
+      <trans-unit id="Settings.Studies.Toggle.On" xml:space="preserve">
+        <source>On</source>
+        <note>Toggled ON to participate in studies</note>
+      </trans-unit>
+      <trans-unit id="Settings.Studies.Toggle.Title" xml:space="preserve">
+        <source>Studies</source>
+        <note>Label used as a toggle item in Settings. When this is off, the user is opting out of all studies.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.Alert.Button" xml:space="preserve">
         <source>OK, Got It</source>
@@ -3066,6 +3210,10 @@
         <target>Seçilən Vərəqi Qapat</target>
         <note>Hardware shortcut to close the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
+      <trans-unit id="TabTray.CurrentSelectedTab.A11Y" xml:space="preserve">
+        <source>Currently selected tab.</source>
+        <note>Accessibility label for the currently selected tab.</note>
+      </trans-unit>
       <trans-unit id="TabTray.LastWeek.Header" xml:space="preserve">
         <source>Last Week</source>
         <note>The section header for tabs opened last week</note>
@@ -3087,6 +3235,22 @@
         <source>Open Selected Tab</source>
         <target>Seçilən Vərəqi Aç</target>
         <note>Hardware shortcut open the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
+      </trans-unit>
+      <trans-unit id="TabTray.PrivateTitle" xml:space="preserve">
+        <source>Private Tabs</source>
+        <note>The title for the tab tray in private mode</note>
+      </trans-unit>
+      <trans-unit id="TabTray.SegmentedControlTitles.PrivateTabs" xml:space="preserve">
+        <source>Private</source>
+        <note>The title on the button to look at private tabs.</note>
+      </trans-unit>
+      <trans-unit id="TabTray.SegmentedControlTitles.SyncedTabs" xml:space="preserve">
+        <source>Synced</source>
+        <note>The title on the button to look at synced tabs.</note>
+      </trans-unit>
+      <trans-unit id="TabTray.SegmentedControlTitles.Tabs" xml:space="preserve">
+        <source>Tabs</source>
+        <note>The title on the button to look at regular tabs.</note>
       </trans-unit>
       <trans-unit id="TabTray.SwipeMenu.More" xml:space="preserve">
         <source>More</source>
@@ -3489,6 +3653,10 @@
         <target>Bu Səhifəni Əlfəcinlə</target>
         <note>Label for the button, displayed in the menu, used to create a bookmark for the current website.</note>
       </trans-unit>
+      <trans-unit id="Menu.AddBookmarkAction2.Title" xml:space="preserve">
+        <source>Add Bookmark</source>
+        <note>Label for the button, displayed in the menu, used to create a bookmark for the current website.</note>
+      </trans-unit>
       <trans-unit id="Menu.AddToReadingList.Title" xml:space="preserve">
         <source>Add to Reading List</source>
         <target>Oxuma Siyahısına əlavə et</target>
@@ -3503,6 +3671,10 @@
         <source>Copy Address</source>
         <target>Ünvanı Köçür</target>
         <note>Label for the button, displayed in the menu, used to copy the page url to the clipboard.</note>
+      </trans-unit>
+      <trans-unit id="Menu.CopyLink.Title" xml:space="preserve">
+        <source>Copy Link</source>
+        <note>Label for the button, displayed in the menu, used to copy the current page link to the clipboard.</note>
       </trans-unit>
       <trans-unit id="Menu.FindInPageAction.Title" xml:space="preserve">
         <source>Find in Page</source>
@@ -3915,6 +4087,10 @@ Private Tab</source>
         <source>Firefox - Top Sites</source>
         <note>Sub label for Top Sites widget</note>
       </trans-unit>
+      <trans-unit id="TodayWidget.TopSitesSubLabel2" xml:space="preserve">
+        <source>Firefox - Website Shortcuts</source>
+        <note>Sub label for Shortcuts widget</note>
+      </trans-unit>
       <trans-unit id="TodayWidget.ViewMore" xml:space="preserve">
         <source>View More</source>
         <note>View More for Quick View widget in Gallery View where we don't know how many tabs might be opened</note>
@@ -3985,7 +4161,7 @@ Private Tab</source>
         <note>Accessibility label to confirm the New Search selection</note>
       </trans-unit>
       <trans-unit id="ctDNmu" xml:space="preserve">
-        <source>Quick access to various Firefox acions</source>
+        <source>Quick access to various Firefox actions</source>
         <note>Description of the collection of widgets</note>
       </trans-unit>
       <trans-unit id="eHmH1H" xml:space="preserve">
