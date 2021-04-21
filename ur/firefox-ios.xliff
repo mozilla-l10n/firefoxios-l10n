@@ -606,6 +606,10 @@
         <source>Pin</source>
         <note>The title for the pinning a topsite action</note>
       </trans-unit>
+      <trans-unit id="ActivityStream.ContextMenu.RemoveFromShortcuts" xml:space="preserve">
+        <source>Remove from Shortcuts</source>
+        <note>The title for removing a shortcut action</note>
+      </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.RemovePinTopsite" xml:space="preserve">
         <source>Remove Pinned Site</source>
         <target>پن شدہ سائٹ ہٹائیں</target>
@@ -4159,47 +4163,54 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/BookmarkPanel.strings" datatype="plaintext" source-language="en" target-language="ur">
+  <file original="Shared/Supporting Files/en.lproj/BookmarkPanel.strings" source-language="en" target-language="ur" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"></tool>
     </header>
     <body>
       <trans-unit id="Delete" xml:space="preserve">
         <source>Delete</source>
+        <target>مٹائیں</target>
         <note>Action button for deleting bookmarks in the bookmarks panel.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/BookmarkPanelDeleteConfirm.strings" datatype="plaintext" source-language="en" target-language="ur">
+  <file original="Shared/Supporting Files/en.lproj/BookmarkPanelDeleteConfirm.strings" source-language="en" target-language="ur" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"></tool>
     </header>
     <body>
       <trans-unit id="Bookmarks.DeleteFolderWarning.CancelButton.Label" xml:space="preserve">
         <source>Cancel</source>
+        <target>منسوخ کریں</target>
         <note>Button label to cancel deletion when the user tried to delete a non-empty folder.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.DeleteFolderWarning.DeleteButton.Label" xml:space="preserve">
         <source>Delete</source>
+        <target>مٹائیں</target>
         <note>Button label for the button that deletes a folder and all of its children.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.DeleteFolderWarning.Description" xml:space="preserve">
         <source>Are you sure you want to delete it and its contents?</source>
+        <target>کیا آپ واقعی اسے اور اسکے مواد کو مٹانا چاہتے ہیں؟</target>
         <note>Main body of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.DeleteFolderWarning.Title" xml:space="preserve">
         <source>This folder isn’t empty.</source>
+        <target>یہ فولڈر خالی نہیں ہے۔</target>
         <note>Title of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="WidgetKit/Base.lproj/WidgetIntents.intentdefinition" datatype="plaintext" source-language="en" target-language="ur">
+  <file original="WidgetKit/Base.lproj/WidgetIntents.intentdefinition" source-language="en" target-language="ur" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"></tool>
     </header>
     <body>
       <trans-unit id="2GqvPe" xml:space="preserve">
         <source>Go to Copied Link</source>
+        <target>نقل شدہ لنک پر جائیں
+ </target>
         <note>Quick Actions drop down menu item for Go to Copied Link when widget enters edit mode and drop down menu expands</note>
       </trans-unit>
       <trans-unit id="PzSrmZ-2GqvPe" xml:space="preserve">
@@ -4232,6 +4243,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="eqyNJg" xml:space="preserve">
         <source>Quick Action</source>
+        <target>فوری کارروائی</target>
         <note>Title of the quick actions widgets</note>
       </trans-unit>
       <trans-unit id="fi3W24-2GqvPe" xml:space="preserve">
@@ -4252,25 +4264,29 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="scEmjs" xml:space="preserve">
         <source>New Private Search</source>
+        <target>نئی نجی تلاش</target>
         <note>Quick Actions drop down menu item for new private search when widget enters edit mode and drop down menu expands</note>
       </trans-unit>
       <trans-unit id="w9jdPK" xml:space="preserve">
         <source>Quick Action</source>
+        <target>فوری کارروائی</target>
         <note>Quick Actions left label text for dropdown menu when widget enters edit mode</note>
       </trans-unit>
       <trans-unit id="xRJbBP" xml:space="preserve">
         <source>New Search</source>
+        <target>نئی تلاش</target>
         <note>Quick Actions drop down menu item for new search when widget enters edit mode and drop down menu expands</note>
       </trans-unit>
     </body>
   </file>
-  <file original="WidgetKit/en.lproj/Localizable.strings" datatype="plaintext" source-language="en" target-language="ur">
+  <file original="WidgetKit/en.lproj/Localizable.strings" source-language="en" target-language="ur" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"></tool>
     </header>
     <body>
       <trans-unit id="Open Firefox" xml:space="preserve">
         <source>Open Firefox</source>
+        <target>Firefox کھولیں</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>

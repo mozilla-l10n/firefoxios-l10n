@@ -605,6 +605,10 @@
         <source>Pin</source>
         <note>The title for the pinning a topsite action</note>
       </trans-unit>
+      <trans-unit id="ActivityStream.ContextMenu.RemoveFromShortcuts" xml:space="preserve">
+        <source>Remove from Shortcuts</source>
+        <note>The title for removing a shortcut action</note>
+      </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.RemovePinTopsite" xml:space="preserve">
         <source>Remove Pinned Site</source>
         <target>ລຶບເວັບໄຊທ໌ທີ່ໄດ້ Pin ໄວ້</target>
@@ -4124,47 +4128,53 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/BookmarkPanel.strings" datatype="plaintext" source-language="en" target-language="lo">
+  <file original="Shared/Supporting Files/en.lproj/BookmarkPanel.strings" source-language="en" target-language="lo" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"></tool>
     </header>
     <body>
       <trans-unit id="Delete" xml:space="preserve">
         <source>Delete</source>
+        <target>ລຶບ</target>
         <note>Action button for deleting bookmarks in the bookmarks panel.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/BookmarkPanelDeleteConfirm.strings" datatype="plaintext" source-language="en" target-language="lo">
+  <file original="Shared/Supporting Files/en.lproj/BookmarkPanelDeleteConfirm.strings" source-language="en" target-language="lo" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"></tool>
     </header>
     <body>
       <trans-unit id="Bookmarks.DeleteFolderWarning.CancelButton.Label" xml:space="preserve">
         <source>Cancel</source>
+        <target>ຍົກເລີກ</target>
         <note>Button label to cancel deletion when the user tried to delete a non-empty folder.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.DeleteFolderWarning.DeleteButton.Label" xml:space="preserve">
         <source>Delete</source>
+        <target>ລຶບ</target>
         <note>Button label for the button that deletes a folder and all of its children.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.DeleteFolderWarning.Description" xml:space="preserve">
         <source>Are you sure you want to delete it and its contents?</source>
+        <target>ທ່ານຫມັ້ນໃຈແລ້ວບໍ່ວ່າຕ້ອງການລຶບໂຟລເດີ ແລະ ເນື້ອຫາທັງຫມົດໃນນັ້ນ?</target>
         <note>Main body of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.DeleteFolderWarning.Title" xml:space="preserve">
         <source>This folder isn’t empty.</source>
+        <target>ໂຟລເດີນີ້ມີຂໍ້ມູນຢູ່</target>
         <note>Title of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
       </trans-unit>
     </body>
   </file>
-  <file original="WidgetKit/Base.lproj/WidgetIntents.intentdefinition" datatype="plaintext" source-language="en" target-language="lo">
+  <file original="WidgetKit/Base.lproj/WidgetIntents.intentdefinition" source-language="en" target-language="lo" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"></tool>
     </header>
     <body>
       <trans-unit id="2GqvPe" xml:space="preserve">
         <source>Go to Copied Link</source>
+        <target>ໄປທີ່ລີ້ງໄດ້ກັອບປີ້ໄວ້</target>
         <note>Quick Actions drop down menu item for Go to Copied Link when widget enters edit mode and drop down menu expands</note>
       </trans-unit>
       <trans-unit id="PzSrmZ-2GqvPe" xml:space="preserve">
@@ -4189,14 +4199,17 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="eHmH1H" xml:space="preserve">
         <source>Clear Private Tabs</source>
+        <target>ລົບລ້າງແທັບສ່ວນຕົວ</target>
         <note>Quick Actions drop down menu item for lear Private Tabs when widget enters edit mode and drop down menu expands</note>
       </trans-unit>
       <trans-unit id="eV8mOT" xml:space="preserve">
         <source>Quick Action Type</source>
+        <target>ປະເພດການກະທຳດ່ວນ</target>
         <note>The description of a customizable section of the widget</note>
       </trans-unit>
       <trans-unit id="eqyNJg" xml:space="preserve">
         <source>Quick Action</source>
+        <target>ການກະທຳດ່ວນ</target>
         <note>Title of the quick actions widgets</note>
       </trans-unit>
       <trans-unit id="fi3W24-2GqvPe" xml:space="preserve">
@@ -4217,25 +4230,29 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="scEmjs" xml:space="preserve">
         <source>New Private Search</source>
+        <target>ຄົ້ນຫາແບບສ່ວນຕົວໃໝ່</target>
         <note>Quick Actions drop down menu item for new private search when widget enters edit mode and drop down menu expands</note>
       </trans-unit>
       <trans-unit id="w9jdPK" xml:space="preserve">
         <source>Quick Action</source>
+        <target>ການກະທຳດ່ວນ</target>
         <note>Quick Actions left label text for dropdown menu when widget enters edit mode</note>
       </trans-unit>
       <trans-unit id="xRJbBP" xml:space="preserve">
         <source>New Search</source>
+        <target>ການຄົ້ນຫາໃໝ່</target>
         <note>Quick Actions drop down menu item for new search when widget enters edit mode and drop down menu expands</note>
       </trans-unit>
     </body>
   </file>
-  <file original="WidgetKit/en.lproj/Localizable.strings" datatype="plaintext" source-language="en" target-language="lo">
+  <file original="WidgetKit/en.lproj/Localizable.strings" source-language="en" target-language="lo" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"></tool>
     </header>
     <body>
       <trans-unit id="Open Firefox" xml:space="preserve">
         <source>Open Firefox</source>
+        <target>ເປີດ Firefox</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>
