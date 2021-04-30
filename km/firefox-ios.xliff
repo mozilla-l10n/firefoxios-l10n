@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Client/en.lproj/InfoPlist.strings" source-language="en" target-language="km" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
@@ -1015,10 +1014,12 @@
       </trans-unit>
       <trans-unit id="CoverSheet.v24.ETP.Settings.Button" xml:space="preserve">
         <source>Go to Settings</source>
+        <target>ចូល​ទៅ​កាន់​ការ​កំណត់</target>
         <note>Text for the new ETP settings button</note>
       </trans-unit>
       <trans-unit id="CoverSheet.v24.ETP.Title" xml:space="preserve">
         <source>Protection Against Ad Tracking</source>
+        <target>ការការពារប្រឆាំងនឹងការតាមដានការផ្សាយពាណិជ្ជកម្ម</target>
         <note>Title for the new ETP mode i.e. standard vs strict</note>
       </trans-unit>
       <trans-unit id="Create an account" xml:space="preserve">
@@ -1250,14 +1251,17 @@
       </trans-unit>
       <trans-unit id="FxA.RemoveAccount" xml:space="preserve">
         <source>Remove</source>
+        <target>យកចេញ</target>
         <note>Remove button is displayed on firefox account page under certain scenarios where user would like to remove their account.</note>
       </trans-unit>
       <trans-unit id="FxA.RemoveAccountAlertMessage" xml:space="preserve">
         <source>Remove the Firefox Account associated with this device to sign in as a different user.</source>
+        <target>យកចេញ​គណនី Firefox ដែល​បាន​ភ្ជាប់ជាមួយឧបករណ៍នេះ ដើម្បីចូលជាអ្នកប្រើប្រាស់​ផ្សេងមួយ។</target>
         <note>Description string for alert view that gets presented when user tries to remove an account.</note>
       </trans-unit>
       <trans-unit id="FxA.RemoveAccountAlertTitle" xml:space="preserve">
         <source>Remove Account</source>
+        <target>លុប​គណនី</target>
         <note>Remove account alert is the final confirmation before user removes their firefox account</note>
       </trans-unit>
       <trans-unit id="FxA.ResendEmail" xml:space="preserve">
@@ -1617,10 +1621,12 @@
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title.OneArg" xml:space="preserve">
         <source>Update login for %@?</source>
+        <target>ធ្វើបច្ចុប្បន្នភាពការចូលសម្រាប់ %@ ដែរ​ឬ​ទេ?</target>
         <note>Prompt for updating a login. The first parameter is the hostname for which the password will be updated for.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title.TwoArg" xml:space="preserve">
         <source>Update login %1$@ for %2$@?</source>
+        <target>ធ្វើ​បច្ចុប្បន្នភាព​ការ​ចូល %1$@ សម្រាប់ %2$@ ដែរឬ​ទេ?</target>
         <note>Prompt for updating a login. The first parameter is the username for which the password will be updated for. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.SaveLogin.Button" xml:space="preserve">
@@ -1823,54 +1829,67 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.NoTrackersBlockedTitle" xml:space="preserve">
         <source>No trackers known to Firefox were detected on this page.</source>
+        <target>មិនមានកម្មវិធីតាមដានដែលស្គាល់ដោយ Firefox ត្រូវបានរកឃើញនៅលើទំព័រនេះទេ ។</target>
         <note>Message in menu when no trackers blocked.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.ProtectionSettings.Title" xml:space="preserve">
         <source>Protection Settings</source>
+        <target>ការកំណត់ការការពារ</target>
         <note>The title for tracking protection settings</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.TitlePrefix" xml:space="preserve">
         <source>Protections for %@</source>
+        <target>ការការពារសម្រាប់ %@</target>
         <note>Title on tracking protection menu showing the domain. eg. Protections for mozilla.org</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionBlockedContent.Title" xml:space="preserve">
         <source>Tracking content</source>
+        <target>កំពុងតាមដានខ្លឹមសារ</target>
         <note>The title that shows the number of content cookies blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionBlockedSocial.Title" xml:space="preserve">
         <source>Social Trackers</source>
+        <target>អ្នកតាមដានសង្គម</target>
         <note>The title that shows the number of social URLs blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionBlocking.Description" xml:space="preserve">
         <source>Firefox is blocking parts of the page that may track your browsing.</source>
+        <target>Firefox កំពុង​ទប់ស្កាត់​ផ្នែក​នៃ​ទំព័រ​ដែល​អាច​តាមដាន​ការរុករក​របស់អ្នក។</target>
         <note>Description of the Tracking protection menu when TP is blocking parts of the page</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionBlockingDisabled.Description" xml:space="preserve">
         <source>Block online trackers</source>
+        <target>ទប់ស្កាត់​កម្មវិធី​តាមដាន​លើ​អ៊ីនធឺណិត</target>
         <note>The description of the Tracking Protection menu item when tracking is enabled</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionCrossSiteCookies.Title" xml:space="preserve">
         <source>Cross-Site Tracking Cookies</source>
+        <target>ខូឃី​ដែល​តាមដាន​ឆ្លង​គេហទំព័រ</target>
         <note>The title that shows the number of cross-site cookies blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionCrossSiteTrackers.Title" xml:space="preserve">
         <source>Cross-Site Trackers</source>
+        <target>កម្មវិធី​តាមដានឆ្លង​គេហទំព័រ</target>
         <note>The title that shows the number of cross-site URLs blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionCryptominersBlocked.Title" xml:space="preserve">
         <source>Cryptominers</source>
+        <target>Cryptominer</target>
         <note>The title that shows the number of cryptomining scripts blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDescription.ContentTrackers" xml:space="preserve">
         <source>Websites may load outside ads, videos, and other content that contains hidden trackers. Blocking this can make websites load faster, but some buttons, forms, and login fields, might not work.</source>
+        <target>គេហទំព័រអាចផ្ទុក​ការផ្សាយ​ពាណិជ្ជកម្ម វីដេអូ និងមាតិកាផ្សេងទៀត​ខាងក្រៅ​ដែលមានបង្កប់កម្មវិធីតាមដាន។ ការទប់ស្កាត់​នេះអាចធ្វើឱ្យគេហទំព័រដំណើរការលឿនជាងមុន ប៉ុន្តែប៊ូតុង ទម្រង់ និងកន្លែង​​ចូល ប្រហែលមិនដំណើរការទេ។</target>
         <note>Description of content trackers.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDescription.CrossSiteNew" xml:space="preserve">
         <source>These cookies follow you from site to site to gather data about what you do online. They are set by third parties such as advertisers and analytics companies.</source>
+        <target>ខូឃីទាំងនេះតាមដានអ្នកពីគេហទំព័រមួយទៅគេហទំព័រមួយ ដើម្បីប្រមូលទិន្នន័យអំពីអ្វីដែលអ្នកធ្វើនៅលើអ៊ីនធឺណិត។ ខូឃី​ទាំងនេះ​ត្រូវបានកំណត់ដោយភាគីទីបី​ដូចជា ក្រុមហ៊ុនផ្សាយពាណិជ្ជកម្ម និងក្រុមហ៊ុនវិភាគ។</target>
         <note>Description of cross-site trackers.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDescription.CryptominersNew" xml:space="preserve">
         <source>Cryptominers secretly use your system’s computing power to mine digital money. Cryptomining scripts drain your battery, slow down your computer, and can increase your energy bill.</source>
+        <target>Cryptominers ប្រើប្រាស់​ថាមពលគណនា​របស់​ប្រព័ន្ធ​ដោយសម្ងាត់ ដើម្បីរកប្រាក់ឌីជីថល។ Cryptominers ធ្វើឱ្យថ្មរបស់អ្នកអន់ថយ កុំព្យូទ័ររបស់អ្នកយឺត និងអាចបង្កើនវិក្កយបត្រថាមពលរបស់អ្នក។</target>
         <note>Description of cryptominers.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDescription.Fingerprinters" xml:space="preserve">
@@ -1879,66 +1898,82 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDescription.SocialNetworksNew" xml:space="preserve">
         <source>Social networks place trackers on other websites to build a more complete and targeted profile of you. Blocking these trackers reduces how much social media companies can see what do you online.</source>
+        <target>បណ្តាញ​សង្គម​ដាក់​កម្មវិធី​តាម​ដាន​នៅ​លើ​គេហទំព័រ​ផ្សេងៗ ​ដើម្បី​បង្កើត​​កម្រង​ព័ត៌មាន​​របស់​អ្នក​ពេញលេញ​ និង​ស្មុគ្រស្មាញ។ ទប់ស្កាត់​កម្មវិធី​តាម​ដាន​ទាំង​នេះ​អាច​កាត់​បន្ថយ​ចំនួន​ប្រព័ន្ធ​ផ្សព្វផ្សាយ​សង្គម​អាច​​មើល​ឃើញ​ព័ត៌មាន​ដែល​អ្នក​ប្រើប្រាស់​នៅ​លើ​អ៊ីនធឺណិត ។</target>
         <note>Description of social network trackers.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDisable1.Title" xml:space="preserve">
         <source>Disabled for this site</source>
+        <target>បាន​បិទ​សម្រាប់​គេហទំព័រ​នេះ</target>
         <note>The button that disabled TP for a site.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDisabled.Title" xml:space="preserve">
         <source>Tracking Protection is now off for this site.</source>
+        <target>ឥឡូវនេះ ការការពារ​ការតាមដាន​ត្រូវ​បិទសម្រាប់គេហទំព័រនេះហើយ។</target>
         <note>The confirmation toast once tracking protection has been disabled</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionEnable.Title" xml:space="preserve">
         <source>Enable Tracking Protection</source>
+        <target>បើកការការពារការតាមដាន</target>
         <note>A button to enable tracking protection inside the menu.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionEnable1.Title" xml:space="preserve">
         <source>Enabled for this site</source>
+        <target>បាន​បើក​សម្រាប់​គេហទំព័រនេះ</target>
         <note>A button to enable tracking protection inside the menu.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionEnabled.Title" xml:space="preserve">
         <source>Tracking Protection is now on for this site.</source>
+        <target>ឥឡូវនេះ ការការពារការតាមដាន​ត្រូវបាន​បើក​សម្រាប់​គេហទំព័រ​នេះ។</target>
         <note>The confirmation toast once tracking protection has been enabled</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionFingerprintersBlocked.Title" xml:space="preserve">
         <source>Fingerprinters</source>
+        <target>ស្នាមម្រាមដៃ</target>
         <note>The title that shows the number of fingerprinting scripts blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionListTitle.CrossSiteCookies" xml:space="preserve">
         <source>Blocked Cross-Site Tracking Cookies</source>
+        <target>ខូឃី​ការតាមដាន​ឆ្លង​គេហទំព័រ​ត្រូវបានទប់ស្កាត់</target>
         <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionListTitle.Cryptominers" xml:space="preserve">
         <source>Blocked Cryptominers</source>
+        <target>Cryptominers ត្រូវបានទប់ស្កាត់</target>
         <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionListTitle.Fingerprinters" xml:space="preserve">
         <source>Blocked Fingerprinters</source>
+        <target>ស្នាមម្រាមដៃ​ត្រូវបានទប់ស្កាត់</target>
         <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionListTitle.Social" xml:space="preserve">
         <source>Blocked Social Trackers</source>
+        <target>កម្មវិធី​តាមដានសង្គម​ត្រូវបានទប់ស្កាត់</target>
         <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionMoreInfo.Description" xml:space="preserve">
         <source>Learn more about how Tracking Protection blocks online trackers that collect your browsing data across multiple websites.</source>
+        <target>ស្វែងយល់បន្ថែមអំពីវិធីការពារការតាមដាន​ទប់ស្កាត់​កម្មវិធី​តាមដានលើ​អ៊ីនធឺណិត ដែលប្រមូលទិន្នន័យរុករករបស់អ្នក​នៅលើគេហទំព័រជាច្រើន។</target>
         <note>more info about what tracking protection is about</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionNoBlocking.Description" xml:space="preserve">
         <source>No tracking elements detected on this page.</source>
+        <target>រក​មិន​ឃើញ​ធាតុ​ដែលបាន​​តាមដាន​នៅ​លើ​ទំព័រ​នេះ​ទេ។</target>
         <note>The description of the Tracking Protection menu item when no scripts are blocked but tracking protection is enabled.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionOption.WhiteListOnDescription" xml:space="preserve">
         <source>The site includes elements that may track your browsing. You have disabled protection.</source>
+        <target>គេហទំព័រនេះ មានធាតុដែលអាចតាមដានការរុករករបស់អ្នក។ អ្នកបានបិទការការពារ ។</target>
         <note>label for the menu item to show when the website is whitelisted from blocking trackers.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionWhitelistRemove.Title" xml:space="preserve">
         <source>Enable for this site</source>
+        <target>បើកសម្រាប់គេហទំព័រនេះ</target>
         <note>label for the menu item that lets you remove a website from the tracking protection whitelist</note>
       </trans-unit>
       <trans-unit id="Menu.WhatsNew.Title" xml:space="preserve">
         <source>What's New</source>
+        <target>មានអ្វី​​ថ្មី</target>
         <note>The title for the option to view the What's new page.</note>
       </trans-unit>
       <trans-unit id="Navigation Toolbar" xml:space="preserve">
@@ -2004,6 +2039,7 @@
       </trans-unit>
       <trans-unit id="Page Options Menu" xml:space="preserve">
         <source>Page Options Menu</source>
+        <target>ម៉ឺនុយជម្រើសទំព័រ</target>
         <note>Accessibility label for the Page Options menu button</note>
       </trans-unit>
       <trans-unit id="Panel Chooser" xml:space="preserve">
@@ -2018,22 +2054,27 @@
       </trans-unit>
       <trans-unit id="PasswordAutoFill.NoPasswordsFoundTitle" xml:space="preserve">
         <source>You don’t have any credentials synced from your Firefox Account</source>
+        <target>អ្នកមិនមានព័ត៌មាន​ផ្ទៀងផ្ទាត់​ណាមួយដែលបានធ្វើសមកាលកម្មពីគណនី Firefox របស់អ្នកទេ</target>
         <note>Error message shown in the remote tabs panel</note>
       </trans-unit>
       <trans-unit id="PasswordAutoFill.PasswordsListTitle" xml:space="preserve">
         <source>Available Credentials:</source>
+        <target>ព័ត៌មាន​ផ្ទៀងផ្ទាត់​ដែលមាន៖</target>
         <note>Header for the list of credentials table</note>
       </trans-unit>
       <trans-unit id="PasswordAutoFill.SectionTitle" xml:space="preserve">
         <source>Firefox Credentials</source>
+        <target>ព័ត៌មាន​ផ្ទៀងផ្ទាត់ Firefox</target>
         <note>Title of the extension that shows firefox passwords</note>
       </trans-unit>
       <trans-unit id="PhotoLibrary.FirefoxWouldLikeAccessMessage" xml:space="preserve">
         <source>This allows you to save the image to your Camera Roll.</source>
+        <target>វា​អនុញ្ញាត​ឱ្យ​អ្នក​អាច​រក្សាទុក​រូបភាព​ទៅ​ក្នុង​របុំ​កាមេរ៉ា​របស់អ្នក។</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="PhotoLibrary.FirefoxWouldLikeAccessTitle" xml:space="preserve">
         <source>Firefox would like to access your Photos</source>
+        <target>Firefox ចង់​ចូល​​​ប្រើ​រូបថត​របស់​អ្នក</target>
         <note>See http://mzl.la/1G7uHo7</note>
       </trans-unit>
       <trans-unit id="PhotonMenu.close" xml:space="preserve">
@@ -2097,18 +2138,22 @@
       </trans-unit>
       <trans-unit id="ReopenAlert.Actions.Cancel" xml:space="preserve">
         <source>Cancel</source>
+        <target>បោះបង់</target>
         <note>Cancel button text shown in reopen-alert at home page.</note>
       </trans-unit>
       <trans-unit id="ReopenAlert.Actions.Reopen" xml:space="preserve">
         <source>Reopen</source>
+        <target>បើកឡើងវិញ</target>
         <note>Reopen button text shown in reopen-alert at home page.</note>
       </trans-unit>
       <trans-unit id="ReopenAlert.Title" xml:space="preserve">
         <source>Reopen Last Closed Tab</source>
+        <target>បើកផ្ទាំងដែលបានបិទចុងក្រោយ</target>
         <note>Reopen alert title shown at home page.</note>
       </trans-unit>
       <trans-unit id="ReopenClosedTab.KeyCodeTitle" xml:space="preserve">
         <source>Reopen Closed Tab</source>
+        <target>បើកផ្ទាំងដែលបានបិទឡើងវិញ</target>
         <note>Hardware shortcut to reopen the last closed tab, from the tab or the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
       <trans-unit id="Reset text size" xml:space="preserve">
@@ -2138,10 +2183,12 @@
       </trans-unit>
       <trans-unit id="ScanQRCode.InvalidDataError.Message" xml:space="preserve">
         <source>The data is invalid</source>
+        <target>ទិន្នន័យនេះមិនត្រឹមត្រូវ​ទេ</target>
         <note>Text of the prompt that is shown to the user when the data is invalid</note>
       </trans-unit>
       <trans-unit id="ScanQRCode.PermissionError.Message" xml:space="preserve">
         <source>Please allow Firefox to access your device’s camera in ‘Settings’ -&gt; ‘Privacy’ -&gt; ‘Camera’.</source>
+        <target>សូមអនុញ្ញាតិឱ្យ Firefox ចូលប្រើកាមេរ៉ារបស់ឧបករណ៍អ្នកនៅក្នុង “ការកំណត់” -&gt; “ឯកជនភាព” -&gt; “កាមេរ៉ា” ។</target>
         <note>Text of the prompt user to setup the camera authorization.</note>
       </trans-unit>
       <trans-unit id="ScanQRCode.View.Title" xml:space="preserve">
@@ -2253,6 +2300,7 @@
       </trans-unit>
       <trans-unit id="SendTo.DeviceList.Text" xml:space="preserve">
         <source>Available devices:</source>
+        <target>ឧបករណ៍​​ដែល​អាចប្រើបាន៖</target>
         <note>Header for the list of devices table</note>
       </trans-unit>
       <trans-unit id="SendTo.Error.Message" xml:space="preserve">
@@ -2272,22 +2320,27 @@
       </trans-unit>
       <trans-unit id="SendTo.NavBar.Title" xml:space="preserve">
         <source>Send Tab</source>
+        <target>ផ្ញើ​ផ្ទាំង</target>
         <note>Title of the dialog that allows you to send a tab to a different device</note>
       </trans-unit>
       <trans-unit id="SendTo.NoDevicesFound.Message" xml:space="preserve">
         <source>You don’t have any other devices connected to this Firefox Account available to sync.</source>
+        <target>អ្នក​មិន​មាន​ឧបករណ៍​ផ្សេង​ណា​មួយ​បាន​ភ្ជាប់​ទៅ​គណនី Firefox ដែល​អាច​ប្រើ ​​ដើម្បី​ធ្វើ​សមកាលកម្ម​​បាននោះ​ទេ។</target>
         <note>Error message shown in the remote tabs panel</note>
       </trans-unit>
       <trans-unit id="SendTo.NotSignedIn.Message" xml:space="preserve">
         <source>Please open Firefox, go to Settings and sign in to continue.</source>
+        <target>សូម​បើក​កម្មវិធី Firefox រួច​ទៅ​កាន់​ ការ​កំណត់ និង​ចូល​ដើម្បី​បន្ត។</target>
         <note>See http://mzl.la/1ISlXnU</note>
       </trans-unit>
       <trans-unit id="SendTo.NotSignedIn.Title" xml:space="preserve">
         <source>You are not signed in to your Firefox Account.</source>
+        <target>អ្នក​មិន​បាន​ចូល​ទៅ​គណនី Firefox របស់​អ្នក​ទេ។</target>
         <note>See http://mzl.la/1ISlXnU</note>
       </trans-unit>
       <trans-unit id="SendTo.SendAction.Text" xml:space="preserve">
         <source>Send</source>
+        <target>ផ្ញើ</target>
         <note>Navigation bar button to Send the current page to a device</note>
       </trans-unit>
       <trans-unit id="SendTo.SignIn.Button" xml:space="preserve">
@@ -2296,10 +2349,12 @@
       </trans-unit>
       <trans-unit id="SentTab.AddToReadingListAction.Title" xml:space="preserve">
         <source>Add to Reading List</source>
+        <target>បញ្ចូល​​ទៅ​បញ្ជី​អាន</target>
         <note>Label for an action used to add one or more tabs recieved from a notification to the reading list.</note>
       </trans-unit>
       <trans-unit id="SentTab.BookmarkAction.title" xml:space="preserve">
         <source>Bookmark</source>
+        <target>ចំណាំ</target>
         <note>Label for an action used to bookmark one or more tabs from a notification.</note>
       </trans-unit>
       <trans-unit id="SentTab.NoTabArrivingNotification.body" xml:space="preserve">
@@ -2389,6 +2444,7 @@
       </trans-unit>
       <trans-unit id="Settings.ClearAllWebsiteData.Clear.Button" xml:space="preserve">
         <source>Clear All Website Data</source>
+        <target>ជម្រះទិន្នន័យគេហទំព័រទាំងអស់</target>
         <note>Button in Data Management that clears private data for the selected items.</note>
       </trans-unit>
       <trans-unit id="Settings.ClearPrivateData.Clear.Button" xml:space="preserve">
@@ -2408,6 +2464,7 @@
       </trans-unit>
       <trans-unit id="Settings.CopyAppVersion.Title" xml:space="preserve">
         <source>Copied to clipboard</source>
+        <target>​ចម្លង​ទៅកាន់​អង្គ​ចងចាំ</target>
         <note>Copy app version alert shown in settings.</note>
       </trans-unit>
       <trans-unit id="Settings.DNT.OptionAlwaysOn" xml:space="preserve">
@@ -2427,18 +2484,22 @@
       </trans-unit>
       <trans-unit id="Settings.DataManagement.SearchLabel" xml:space="preserve">
         <source>Filter Sites</source>
+        <target>តម្រងគេហទំព័រ</target>
         <note>Default text in search bar for Data Management</note>
       </trans-unit>
       <trans-unit id="Settings.DataManagement.SectionName" xml:space="preserve">
         <source>Data Management</source>
+        <target>ការ​គ្រប់​គ្រង​ទិន្នន័យ</target>
         <note>Label used as an item in Settings. When touched it will open a dialog prompting the user to make sure they want to clear all of their private data.</note>
       </trans-unit>
       <trans-unit id="Settings.DataManagement.Title" xml:space="preserve">
         <source>Data Management</source>
+        <target>ការ​គ្រប់​គ្រង​ទិន្នន័យ</target>
         <note>Title displayed in header of the setting panel.</note>
       </trans-unit>
       <trans-unit id="Settings.Disconnect.Body" xml:space="preserve">
         <source>Firefox will stop syncing with your account, but won’t delete any of your browsing data on this device.</source>
+        <target>Firefox នឹង​ឈប់​ធ្វើ​សមកាលកម្ម​ជាមួយ​គណនី​របស់​អ្នក ប៉ុន្តែ​នឹង​មិន​លុប​ទិន្នន័យ​​ដែលរុករក​​​របស់​អ្នក​​​នៅ​លើ​ឧបករណ៍​នេះ​ទេ។</target>
         <note>Body of the alert when prompting the user asking to disconnect.</note>
       </trans-unit>
       <trans-unit id="Settings.Disconnect.Button" xml:space="preserve">
@@ -2467,55 +2528,68 @@
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.Manual.StatusLabel" xml:space="preserve">
         <source>Manual</source>
+        <target>ដោយ​ខ្លួន​ឯង</target>
         <note>Display (theme) settings label to show if manually switch theme is enabled.</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.Manual.SwitchSubtitle" xml:space="preserve">
         <source>Pick which theme you want</source>
+        <target>ជ្រើស​រើស​រចនាប័ទ្ម​​ណាមួយ​ដែល​អ្នក​ចង់​បាន</target>
         <note>Display (theme) settings switch subtitle, explaining the title 'Manually'.</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.Manual.SwitchTitle" xml:space="preserve">
         <source>Manually</source>
+        <target>ដោយ​​ខ្លួន​​ឯង</target>
         <note>Display (theme) setting to choose the theme manually.</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.OptionDark" xml:space="preserve">
         <source>Dark</source>
+        <target>ងងឹត</target>
         <note>Option choice in display theme settings for dark theme</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.OptionLight" xml:space="preserve">
         <source>Light</source>
+        <target>ភ្លឺ</target>
         <note>Option choice in display theme settings for light theme</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.SectionFooter" xml:space="preserve">
         <source>The theme will automatically change based on your display brightness. You can set the threshold where the theme changes. The circle indicates your display's current brightness.</source>
+        <target>រចនាប័ទ្ម​នឹងផ្លាស់ប្តូរដោយស្វ័យប្រវត្តិតាម​ពន្លឺបង្ហាញរបស់អ្នក។ អ្នកអាចកំណត់ចំណុច​ដែលរចនាប័ទ្ម​ផ្លាស់ប្តូរ។ រង្វង់បង្ហាញពីពន្លឺបច្ចុប្បន្ននៃអេក្រង់របស់អ្នក។</target>
         <note>Display (theme) settings footer describing how the brightness slider works.</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.SwitchMode.SectionHeader" xml:space="preserve">
         <source>Switch Mode</source>
+        <target>ប្ដូរមុខងារ</target>
         <note>Switch mode settings section title</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.SwitchSubtitle" xml:space="preserve">
         <source>Switch automatically based on screen brightness</source>
+        <target>ប្តូរដោយស្វ័យប្រវត្តិ​តាម​ពន្លឺអេក្រង់</target>
         <note>Display (theme) settings switch subtitle, explaining the title 'Automatically'.</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.SwitchTitle" xml:space="preserve">
         <source>Automatically</source>
+        <target>ដោយស្វ័យប្រវត្តិ</target>
         <note>Display (theme) settings label to show if automatically switch theme is enabled.
    Display (theme) settings switch to choose whether to set the dark mode manually, or automatically based on the brightness slider.</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.SystemTheme.SectionHeader" xml:space="preserve">
         <source>System Theme</source>
+        <target>រចនាប័ទ្ម​ប្រព័ន្ធ</target>
         <note>System theme settings section title</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.SystemTheme.SwitchTitle" xml:space="preserve">
         <source>Use System Light/Dark Mode</source>
+        <target>ប្រើមុខងារ​ងងឹត/ភ្លឺច្បាស់របស់ប្រព័ន្ធ</target>
         <note>System theme settings switch to choose whether to use the same theme as the system</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.ThemePicker.SectionHeader" xml:space="preserve">
         <source>Theme Picker</source>
+        <target>ឧបករណ៍​ជ្រើសរើស​រចនាប័ទ្ម</target>
         <note>Theme picker settings section title</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.Title.v2" xml:space="preserve">
         <source>Theme</source>
+        <target>រចនាប័ទ្ម</target>
         <note>Title in main app settings for Theme settings</note>
       </trans-unit>
       <trans-unit id="Settings.FxA.DeviceName" xml:space="preserve">
@@ -2525,14 +2599,17 @@
       </trans-unit>
       <trans-unit id="Settings.FxA.Sync.SectionName" xml:space="preserve">
         <source>Sync Settings</source>
+        <target>ធ្វើសមកាលកម្ម​ការកំណត់</target>
         <note>Label used as a section title in the Firefox Accounts Settings screen.</note>
       </trans-unit>
       <trans-unit id="Settings.FxA.Title" xml:space="preserve">
         <source>Firefox Account</source>
+        <target>គណនី Firefox</target>
         <note>Title displayed in header of the FxA settings panel.</note>
       </trans-unit>
       <trans-unit id="Settings.General.SectionName" xml:space="preserve">
         <source>General</source>
+        <target>ទូទៅ</target>
         <note>General settings section title</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.Clear.Button" xml:space="preserve">
@@ -2577,10 +2654,12 @@
       </trans-unit>
       <trans-unit id="Settings.LoginsAndPasswordsTitle" xml:space="preserve">
         <source>Logins &amp; Passwords</source>
+        <target>ការចូល និង​ពាក្យ​សម្ងាត់</target>
         <note>Title for the logins and passwords screen. Translation could just use 'Logins' if the title is too long</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.CustomURL" xml:space="preserve">
         <source>Custom URL</source>
+        <target>URL ផ្ទាល់ខ្លួន</target>
         <note>Label used to set a custom url as the new tab option (homepage).</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Description" xml:space="preserve">
@@ -2590,6 +2669,7 @@
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.ASTitle" xml:space="preserve">
         <source>Customize Top Sites</source>
+        <target>ប្តូរគេហទំព័រពេញនិយម​តាមបំណង</target>
         <note>The title of the section in newtab that lets you modify the topsites panel</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.BlankPage" xml:space="preserve">
@@ -2599,10 +2679,12 @@
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.Bookmarks" xml:space="preserve">
         <source>Bookmarks</source>
+        <target>ចំណាំ</target>
         <note>Option in settings to show bookmarks when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.CustomizeFooter" xml:space="preserve">
         <source>The sites you visit most</source>
+        <target>គេហទំព័រ​ដែល​អ្នក​មើល​ច្រើន​បំផុត</target>
         <note>The footer for the section to customize top sites in the new tab settings page.</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.CustomizeFooter2" xml:space="preserve">
@@ -2611,14 +2693,17 @@
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.CustomizeTitle" xml:space="preserve">
         <source>Customize Firefox Home</source>
+        <target>ប្ដូរ​ទំព័រដើម Firefox តាមបំណង</target>
         <note>The title for the section to customize top sites in the new tab settings page.</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.FirefoxHome" xml:space="preserve">
         <source>Firefox Home</source>
+        <target>ទំព័រដើម Firefox</target>
         <note>Option in settings to show Firefox Home when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HighlightsBookmarks" xml:space="preserve">
         <source>Recent Bookmarks</source>
+        <target>ចំណាំថ្មីៗ</target>
         <note>Option in the settings to turn off recent bookmarks in the Highlights section</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HighlightsHistory" xml:space="preserve">
@@ -2628,18 +2713,22 @@
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.History" xml:space="preserve">
         <source>History</source>
+        <target>ប្រវត្តិ</target>
         <note>Option in settings to show history when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HomePage" xml:space="preserve">
         <source>Homepage</source>
+        <target>ទំព័រ​ដើម</target>
         <note>Option in settings to show your homepage when you open a new tab</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.Pocket" xml:space="preserve">
         <source>Trending on Pocket</source>
+        <target>កំពុង​ពេញនិយម​នៅ​លើ Pocket</target>
         <note>Option in settings to turn on off pocket recommendations</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.PocketFooter" xml:space="preserve">
         <source>Great content from around the web.</source>
+        <target>មាតិកា​​ប្រសើរបំផុត​ពី​គេហទំព័រ​នានា។</target>
         <note>Footer caption for pocket settings</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.ReadingList" xml:space="preserve">
@@ -2662,14 +2751,17 @@
       </trans-unit>
       <trans-unit id="Settings.NewTab.Title" xml:space="preserve">
         <source>New Tab</source>
+        <target>ផ្ទាំង​ថ្មី</target>
         <note>Title displayed in header of the setting panel.</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.TopSectionName" xml:space="preserve">
         <source>Show</source>
+        <target>បង្ហាញ</target>
         <note>Label at the top of the New Tab screen after entering New Tab in settings</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.TopSectionNameFooter" xml:space="preserve">
         <source>Choose what to load when opening a new tab</source>
+        <target>ជ្រើសរើសអ្វីដែលត្រូវផ្ទុកនៅពេលបើកផ្ទាំងថ្មី</target>
         <note>Footer at the bottom of the New Tab screen after entering New Tab in settings</note>
       </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.Status" xml:space="preserve">
@@ -2694,6 +2786,7 @@
       </trans-unit>
       <trans-unit id="Settings.SaveLogins.Title" xml:space="preserve">
         <source>Save Logins</source>
+        <target>រក្សាទុក​ការ​ចូល</target>
         <note>Setting to enable the built-in password manager</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Done.Button" xml:space="preserve">
@@ -2708,14 +2801,17 @@
       </trans-unit>
       <trans-unit id="Settings.SendUsage.Link" xml:space="preserve">
         <source>Learn More.</source>
+        <target>ស្វែងយល់បន្ថែម។</target>
         <note>title for a link that explains how mozilla collects telemetry</note>
       </trans-unit>
       <trans-unit id="Settings.SendUsage.Message" xml:space="preserve">
         <source>Mozilla strives to only collect what we need to provide and improve Firefox for everyone.</source>
+        <target>Mozilla ខិតខំប្រមូលតែអ្វីដែល​យើងត្រូវការដើម្បីផ្តល់ និងធ្វើឱ្យ Firefox ប្រសើរឡើងសម្រាប់អ្នកគ្រប់គ្នា។</target>
         <note>A short description that explains why mozilla collects usage data.</note>
       </trans-unit>
       <trans-unit id="Settings.SendUsage.Title" xml:space="preserve">
         <source>Send Usage Data</source>
+        <target>ផ្ញើទិន្នន័យការប្រើប្រាស់</target>
         <note>The title for the setting to send usage data.</note>
       </trans-unit>
       <trans-unit id="Settings.ShowLinkPreviews.Status" xml:space="preserve">
@@ -2728,18 +2824,22 @@
       </trans-unit>
       <trans-unit id="Settings.ShowLoginsInAppMenu.Title" xml:space="preserve">
         <source>Show in Application Menu</source>
+        <target>បង្ហាញនៅក្នុងម៉ឺនុយកម្មវិធី</target>
         <note>Setting to show Logins &amp; Passwords quick access in the application menu</note>
       </trans-unit>
       <trans-unit id="Settings.Siri.OpenTabShortcut" xml:space="preserve">
         <source>Open New Tab</source>
+        <target>បើក​ផ្ទាំង​ថ្មី</target>
         <note>The description of the open new tab siri shortcut</note>
       </trans-unit>
       <trans-unit id="Settings.Siri.SectionDescription" xml:space="preserve">
         <source>Use Siri shortcuts to quickly open Firefox via Siri</source>
+        <target>ប្រើផ្លូវកាត់ Siri ដើម្បីបើក Firefox តាមរយៈកម្មវិធី Siri</target>
         <note>The description that describes what siri shortcuts are</note>
       </trans-unit>
       <trans-unit id="Settings.Siri.SectionName" xml:space="preserve">
         <source>Siri Shortcuts</source>
+        <target>ផ្លូវកាត់ Siri</target>
         <note>The option that takes you to the siri shortcuts settings page</note>
       </trans-unit>
       <trans-unit id="Settings.Studies.Active.SectionName" xml:space="preserve">
@@ -2801,14 +2901,17 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.Info.BasicTitle" xml:space="preserve">
         <source>Balanced for protection and performance.</source>
+        <target>តុល្យភាពសម្រាប់ការពារ និងការដំណើរការ។</target>
         <note>Explanation of basic mode.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.Info.BlocksTitle" xml:space="preserve">
         <source>BLOCKS</source>
+        <target>ការទប់ស្កាត់</target>
         <note>The Title on info view which shows a list of all blocked websites</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.Info.StrictTitle" xml:space="preserve">
         <source>Offers stronger protection, but may cause some sites to break.</source>
+        <target>ផ្តល់ជូនការការពារខ្លាំងជាងមុន ប៉ុន្តែអាចបណ្តាលឱ្យគេហទំព័រមួយចំនួនខូច។</target>
         <note>Explanation of strict mode.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.LearnMore" xml:space="preserve">
@@ -2817,6 +2920,7 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.MoreInfo" xml:space="preserve">
         <source>More Info…</source>
+        <target>ព័ត៌មាន​បន្ថែម…</target>
         <note>'More Info' link on the Tracking Protection settings screen.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionCellFooter" xml:space="preserve">
@@ -2837,6 +2941,7 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevelTitle" xml:space="preserve">
         <source>Protection Level</source>
+        <target>កម្រិតការការពារ</target>
         <note>Title for tracking protection options section where level can be selected.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.SectionName" xml:space="preserve">
@@ -2846,10 +2951,12 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.StrictLevelInfoFooter" xml:space="preserve">
         <source>Blocking trackers could impact the functionality of some websites.</source>
+        <target>ការទប់ស្កាត់កម្មវិធីតាមដានអាចប៉ះពាល់ដល់មុខងារខ្លះនៃគេហទំព័រមួយចំនួន។</target>
         <note>Additional information about the strict level setting</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.BasicBlockList" xml:space="preserve">
         <source>Standard (default)</source>
+        <target>ស្តង់ដារ (លំនាំដើម)</target>
         <note>Tracking protection settings option for using the basic blocklist.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.BlockListBasicDescription" xml:space="preserve">
@@ -2874,26 +2981,32 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.NormalBrowsingLabelOn" xml:space="preserve">
         <source>Enhanced Tracking Protection</source>
+        <target>ការការពារការតាមដានដែលបានកែលម្អ</target>
         <note>Settings option to specify that Tracking Protection is on</note>
       </trans-unit>
       <trans-unit id="Settings.TranslateSnackBar.SectionFooter" xml:space="preserve">
         <source>The web page language is detected on the device, and a translation from a remote service is offered.</source>
+        <target>ភាសាទំព័របណ្តាញត្រូវបានរកឃើញនៅលើឧបករណ៍ ហើយការបកប្រែពីសេវាកម្មពីចម្ងាយត្រូវបានផ្តល់ជូន។</target>
         <note>Translation settings footer describing how language detection and translation happens.</note>
       </trans-unit>
       <trans-unit id="Settings.TranslateSnackBar.SectionHeader" xml:space="preserve">
         <source>Services</source>
+        <target>សេវាកម្ម</target>
         <note>Translation settings section title</note>
       </trans-unit>
       <trans-unit id="Settings.TranslateSnackBar.SwitchSubtitle" xml:space="preserve">
         <source>Offer to translate any site written in a language that is different from your default language.</source>
+        <target>ការផ្តល់ជូនដើម្បីបកប្រែគេហទំព័រណាមួយដែលបានសរសេរជាភាសាខុសគ្នាពីភាសាលំនាំដើមរបស់អ្នក។</target>
         <note>Switch to choose if the language of a page is detected and offer to translate.</note>
       </trans-unit>
       <trans-unit id="Settings.TranslateSnackBar.SwitchTitle" xml:space="preserve">
         <source>Offer Translation</source>
+        <target>ការផ្តល់ជូនការបកប្រែ</target>
         <note>Switch to choose if the language of a page is detected and offer to translate.</note>
       </trans-unit>
       <trans-unit id="Settings.TranslateSnackBar.Title" xml:space="preserve">
         <source>Translation</source>
+        <target>ការបកប្រែ</target>
         <note>Title in main app settings for Translation toast settings</note>
       </trans-unit>
       <trans-unit id="Settings.TroubleShootSync.Title" xml:space="preserve">
@@ -2903,62 +3016,77 @@
       </trans-unit>
       <trans-unit id="Settings.WebsiteData.ButtonDelete" xml:space="preserve">
         <source>Delete</source>
+        <target>លុប</target>
         <note>Button to delete website in search results</note>
       </trans-unit>
       <trans-unit id="Settings.WebsiteData.ButtonDone" xml:space="preserve">
         <source>Done</source>
+        <target>រួចរាល់</target>
         <note>Button to exit edit website search results</note>
       </trans-unit>
       <trans-unit id="Settings.WebsiteData.ButtonEdit" xml:space="preserve">
         <source>Edit</source>
+        <target>កែសម្រួល</target>
         <note>Button to edit website search results</note>
       </trans-unit>
       <trans-unit id="Settings.WebsiteData.ButtonShowMore" xml:space="preserve">
         <source>Show More</source>
+        <target>បង្ហាញច្រើនទៀត</target>
         <note>Button shows all websites on website data tableview</note>
       </trans-unit>
       <trans-unit id="Settings.WebsiteData.ConfirmPrompt" xml:space="preserve">
         <source>This action will clear all of your website data. It cannot be undone.</source>
+        <target>សកម្មភាពនេះនឹងលុបទិន្នន័យគេហទំព័ររបស់អ្នកទាំងអស់។ វាមិនអាចធ្វើវិញបានទេ។</target>
         <note>Description of the confirmation dialog shown when a user tries to clear their private data.</note>
       </trans-unit>
       <trans-unit id="Settings.WebsiteData.Title" xml:space="preserve">
         <source>Website Data</source>
+        <target>ទិន្នន័យគេហទំព័រ</target>
         <note>Title displayed in header of the Data Management panel.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.AddToReadingListAction.Title" xml:space="preserve">
         <source>Add to Reading List</source>
+        <target>បញ្ចូល​ទៅកាន់​បញ្ជី​អាន</target>
         <note>Action label on share extension to add page to the Firefox reading list.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.AddToReadingListActionDone.Title" xml:space="preserve">
         <source>Added to Reading List</source>
+        <target>បានបញ្ចូល​ទៅ​បញ្ជី​អាន</target>
         <note>Share extension label shown after user has performed 'Add to Reading List' action.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.BookmarkThisPageAction.Title" xml:space="preserve">
         <source>Bookmark This Page</source>
+        <target>កត់ចំណាំ​ទំព័រ​នេះ</target>
         <note>Action label on share extension to bookmark the page in Firefox.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.BookmarkThisPageActionDone.Title" xml:space="preserve">
         <source>Bookmarked</source>
+        <target>បាន​ចំណាំ</target>
         <note>Share extension label shown after user has performed 'Bookmark this Page' action.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.LoadInBackgroundAction.Title" xml:space="preserve">
         <source>Load in Background</source>
+        <target>ផ្ទុកនៅផ្ទៃខាងក្រោយ</target>
         <note>Action label on share extension to load the page in Firefox when user switches apps to bring it to foreground.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.LoadInBackgroundActionDone.Title" xml:space="preserve">
         <source>Loading in Firefox</source>
+        <target>កំពុងផ្ទុកក្នុង Firefox</target>
         <note>Share extension label shown after user has performed 'Load in Background' action.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.OpenInFirefoxAction.Title" xml:space="preserve">
         <source>Open in Firefox</source>
+        <target>បើកក្នុង Firefox</target>
         <note>Action label on share extension to immediately open page in Firefox.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.OpenInPrivateModeAction.Title" xml:space="preserve">
         <source>Open in Private Mode</source>
+        <target>បើកជាមុខងារឯកជន</target>
         <note>Action label on share extension to immediately open page in Firefox in private mode.</note>
       </trans-unit>
       <trans-unit id="ShareExtension.SeachInFirefoxAction.Title" xml:space="preserve">
         <source>Search in Firefox</source>
+        <target>ស្វែងរកក្នុង Firefox</target>
         <note>Action label on share extension to search for the selected text in Firefox.</note>
       </trans-unit>
       <trans-unit id="Show Search Suggestions" xml:space="preserve">
@@ -2994,10 +3122,12 @@
       </trans-unit>
       <trans-unit id="SwitchToNonPBM.KeyCodeTitle" xml:space="preserve">
         <source>Normal Browsing Mode</source>
+        <target>មុខងារ​រុករក​ធម្មតា</target>
         <note>Hardware shortcut for non-private tab or tab. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
       <trans-unit id="SwitchToPBM.KeyCodeTitle" xml:space="preserve">
         <source>Private Browsing Mode</source>
+        <target>មុខងារ​រុករក​ឯកជន</target>
         <note>Hardware shortcut switch to the private browsing tab or tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
       <trans-unit id="Sync your tabs, bookmarks, passwords and more." xml:space="preserve">
@@ -3076,6 +3206,7 @@
       </trans-unit>
       <trans-unit id="Synced Tabs" xml:space="preserve">
         <source>Synced Tabs</source>
+        <target>ផ្ទាំង​ដែល​បាន​ធ្វើ​សមកាលកម្ម</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="Tab %@ of %@" xml:space="preserve">
@@ -3085,6 +3216,7 @@
       </trans-unit>
       <trans-unit id="Tab.ShowTabTray.KeyCodeTitle" xml:space="preserve">
         <source>Show All Tabs</source>
+        <target>បង្ហាញ​ផ្ទាំង​ទាំងអស់</target>
         <note>Hardware shortcut to open the tab tray from a tab. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
       <trans-unit id="TabTray.AddTab.Button" xml:space="preserve">
@@ -3093,10 +3225,12 @@
       </trans-unit>
       <trans-unit id="TabTray.CloseAllTabs.KeyCodeTitle" xml:space="preserve">
         <source>Close All Tabs</source>
+        <target>បិទ​ផ្ទាំង​ទាំងអស់</target>
         <note>Hardware shortcut to close all tabs from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
       <trans-unit id="TabTray.CloseTab.KeyCodeTitle" xml:space="preserve">
         <source>Close Selected Tab</source>
+        <target>បិទផ្ទាំងដែលបានជ្រើសរើស</target>
         <note>Hardware shortcut to close the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
       <trans-unit id="TabTray.CurrentSelectedTab.A11Y" xml:space="preserve">
@@ -3117,10 +3251,12 @@
       </trans-unit>
       <trans-unit id="TabTray.OpenNewTab.KeyCodeTitle" xml:space="preserve">
         <source>Open New Tab</source>
+        <target>បើក​​ផ្ទាំង​ថ្មី</target>
         <note>Hardware shortcut to open a new tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
       <trans-unit id="TabTray.OpenSelectedTab.KeyCodeTitle" xml:space="preserve">
         <source>Open Selected Tab</source>
+        <target>បើក​ផ្ទាំង​ដែល​​បាន​ជ្រើស</target>
         <note>Hardware shortcut open the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
       <trans-unit id="TabTray.PrivateTitle" xml:space="preserve">
@@ -3177,6 +3313,7 @@
       </trans-unit>
       <trans-unit id="Tabs.Search.PlaceholderText" xml:space="preserve">
         <source>Search Tabs</source>
+        <target>ផ្ទាំងស្វែងរក</target>
         <note>The placeholder text for the tab search bar</note>
       </trans-unit>
       <trans-unit id="The page could not be displayed in Reader View." xml:space="preserve">
@@ -3196,10 +3333,12 @@
       </trans-unit>
       <trans-unit id="Toasts.NotNow" xml:space="preserve">
         <source>Not Now</source>
+        <target>កុំទាន់អាល</target>
         <note>label for Not Now button</note>
       </trans-unit>
       <trans-unit id="Toasts.OpenAppStore" xml:space="preserve">
         <source>Open App Store</source>
+        <target>បើក App Store</target>
         <note>Open App Store button</note>
       </trans-unit>
       <trans-unit id="Toasts.Undo" xml:space="preserve">
@@ -3218,6 +3357,7 @@
       </trans-unit>
       <trans-unit id="Toolbar.Menu.CloseAllTabs" xml:space="preserve">
         <source>Close All Tabs</source>
+        <target>បិទ​ផ្ទាំង​ទាំងអស់</target>
         <note>Accessibility label for the Close All Tabs menu button.</note>
       </trans-unit>
       <trans-unit id="TopSites.EmptyState.Description" xml:space="preserve">
@@ -3237,14 +3377,17 @@
       </trans-unit>
       <trans-unit id="TranslationToastHandler.PromptTranslate.Cancel" xml:space="preserve">
         <source>No</source>
+        <target>ទេ</target>
         <note>Button to disallow the page to be translated to the user locale language</note>
       </trans-unit>
       <trans-unit id="TranslationToastHandler.PromptTranslate.OK" xml:space="preserve">
         <source>Yes</source>
+        <target>បាទ/ចាស</target>
         <note>Button to allow the page to be translated to the user locale language</note>
       </trans-unit>
       <trans-unit id="TranslationToastHandler.PromptTranslate.Title" xml:space="preserve">
         <source>This page appears to be in %1$@. Translate to %2$@ with %3$@?</source>
+        <target>ទំព័រនេះបង្ហាញជា %1$@ តើចង់បកប្រែទៅជា %2$@ ជាមួយ %3$@ ដែរឫទេ?</target>
         <note>Prompt for translation. The first parameter is the language the page is in. The second parameter is the name of our local language. The third is the name of the service.</note>
       </trans-unit>
       <trans-unit id="Twitter" xml:space="preserve">
@@ -3254,14 +3397,17 @@
       </trans-unit>
       <trans-unit id="UIMenuItem.PasteGo" xml:space="preserve">
         <source>Paste &amp; Go</source>
+        <target>ដាក់ចូល និង​ទៅ</target>
         <note>The menu item that pastes the current contents of the clipboard into the URL bar and navigates to the page</note>
       </trans-unit>
       <trans-unit id="UIMenuItem.SearchWithFirefox" xml:space="preserve">
         <source>Search with Firefox</source>
+        <target>ស្វែងរកជាមួយ Firefox</target>
         <note>Search in New Tab Text selection menu item</note>
       </trans-unit>
       <trans-unit id="Upgrade Firefox to connect" xml:space="preserve">
         <source>Upgrade Firefox to connect</source>
+        <target>ដំឡើងកំណែ Firefox ដើម្បីតភ្ជាប់</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="Use stage servers" xml:space="preserve">
@@ -3275,6 +3421,7 @@
       </trans-unit>
       <trans-unit id="Verify your email address" xml:space="preserve">
         <source>Verify your email address</source>
+        <target>ផ្ទៀងផ្ទាត់អាសយដ្ឋាន​អ៊ីមែល​របស់​អ្នក</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
       <trans-unit id="Version %@ (%@)" xml:space="preserve">
@@ -3433,6 +3580,7 @@
       </trans-unit>
       <trans-unit id="Created %@" xml:space="preserve">
         <source>Created %@</source>
+        <target>បាន​បង្កើត %@</target>
         <note>Label describing when the current login was created with the timestamp as the parameter.</note>
       </trans-unit>
       <trans-unit id="Delete" xml:space="preserve">
@@ -3467,6 +3615,7 @@
       </trans-unit>
       <trans-unit id="Modified %@" xml:space="preserve">
         <source>Modified %@</source>
+        <target>បាន​កែប្រែ %@</target>
         <note>Label describing when the current login was last modified with the timestamp as the parameter.</note>
       </trans-unit>
       <trans-unit id="No logins found" xml:space="preserve">
@@ -3481,6 +3630,7 @@
       </trans-unit>
       <trans-unit id="Password" xml:space="preserve">
         <source>Password</source>
+        <target>ពាក្យ​សម្ងាត់</target>
         <note>Label displayed above the password row in Login Detail View.</note>
       </trans-unit>
       <trans-unit id="Reveal" xml:space="preserve">
@@ -3505,10 +3655,12 @@
       </trans-unit>
       <trans-unit id="Username" xml:space="preserve">
         <source>Username</source>
+        <target>ឈ្មោះ​អ្នក​ប្រើប្រាស់</target>
         <note>Label displayed above the username row in Login Detail View.</note>
       </trans-unit>
       <trans-unit id="Website" xml:space="preserve">
         <source>Website</source>
+        <target>គេហទំព័រ</target>
         <note>Label displayed above the website row in Login Detail View.</note>
       </trans-unit>
     </body>
@@ -3520,6 +3672,7 @@
     <body>
       <trans-unit id="Menu.AddBookmarkAction.Title" xml:space="preserve">
         <source>Bookmark This Page</source>
+        <target>ចំណាំ​ទំព័រ​នេះ</target>
         <note>Label for the button, displayed in the menu, used to create a bookmark for the current website.</note>
       </trans-unit>
       <trans-unit id="Menu.AddBookmarkAction2.Title" xml:space="preserve">
@@ -3528,6 +3681,7 @@
       </trans-unit>
       <trans-unit id="Menu.AddToReadingList.Title" xml:space="preserve">
         <source>Add to Reading List</source>
+        <target>បញ្ចូល​​ទៅ​បញ្ជី​អាន</target>
         <note>Label for the button, displayed in the menu, used to add a page to the reading list.</note>
       </trans-unit>
       <trans-unit id="Menu.CloseAllTabsAction.Title" xml:space="preserve">
@@ -3546,6 +3700,7 @@
       </trans-unit>
       <trans-unit id="Menu.FindInPageAction.Title" xml:space="preserve">
         <source>Find in Page</source>
+        <target>ស្វែងរក​ក្នុង​ទំព័រ</target>
         <note>Label for the button, displayed in the menu, used to open the toolbar to search for text within the current page.</note>
       </trans-unit>
       <trans-unit id="Menu.Library.Reload" xml:space="preserve">
@@ -3554,18 +3709,22 @@
       </trans-unit>
       <trans-unit id="Menu.Library.Title" xml:space="preserve">
         <source>Your Library</source>
+        <target>បណ្ណាល័យរបស់អ្នក</target>
         <note>Label for the button, displayed in the menu, used to open the Library</note>
       </trans-unit>
       <trans-unit id="Menu.NewPrivateTabAction.Title" xml:space="preserve">
         <source>Open New Private Tab</source>
+        <target>បើក​ផ្ទាំង​ឯកជនថ្មី</target>
         <note>Label for the button, displayed in the menu, used to open a new private tab.</note>
       </trans-unit>
       <trans-unit id="Menu.NewTabAction.Title" xml:space="preserve">
         <source>Open New Tab</source>
+        <target>បើក​ផ្ទាំង​ថ្មី</target>
         <note>Label for the button, displayed in the menu, used to open a new tab</note>
       </trans-unit>
       <trans-unit id="Menu.OpenBookmarksAction.AccessibilityLabel.v2" xml:space="preserve">
         <source>Bookmarks</source>
+        <target>ចំណាំ</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the Bookmarks home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenDownloadsAction.AccessibilityLabel.v2" xml:space="preserve">
@@ -3574,14 +3733,17 @@
       </trans-unit>
       <trans-unit id="Menu.OpenHistoryAction.AccessibilityLabel.v2" xml:space="preserve">
         <source>History</source>
+        <target>ប្រវត្តិ</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the History home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenHomePageAction.Title" xml:space="preserve">
         <source>Home</source>
+        <target>ទំព័រដើម</target>
         <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel.v2" xml:space="preserve">
         <source>Reading List</source>
+        <target>បញ្ជី​​អំណាន</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the Reading list home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenSettingsAction.Title" xml:space="preserve">
@@ -3591,6 +3753,7 @@
       </trans-unit>
       <trans-unit id="Menu.OpenSyncedTabsAction.AccessibilityLabel.v2" xml:space="preserve">
         <source>Synced Tabs</source>
+        <target>ផ្ទាំង​​ដែល​​បាន​​ធ្វើ​​សមកាល​កម្ម</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the Synced Tabs home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenTopSitesAction.AccessibilityLabel" xml:space="preserve">
@@ -3600,6 +3763,7 @@
       </trans-unit>
       <trans-unit id="Menu.PageSourceAction.Title" xml:space="preserve">
         <source>View Page Source</source>
+        <target>មើល​ប្រភពកូដ​នៃទំព័រ</target>
         <note>Label for the button, displayed in the menu, used to show the html page source</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveBookmarkAction.Title" xml:space="preserve">
@@ -3613,22 +3777,27 @@
       </trans-unit>
       <trans-unit id="Menu.ScanQRCodeAction.Title" xml:space="preserve">
         <source>Scan QR Code</source>
+        <target>ស្កេនកូដ QR</target>
         <note>Label for the button, displayed in the menu, used to open the QR code scanner.</note>
       </trans-unit>
       <trans-unit id="Menu.SeeAllAction.Title" xml:space="preserve">
         <source>See All</source>
+        <target>មើល​ទាំងអស់</target>
         <note>Label for the button, displayed in Firefox Home, used to see all Library panels.</note>
       </trans-unit>
       <trans-unit id="Menu.SharePageAction.Title" xml:space="preserve">
         <source>Share Page With…</source>
+        <target>ចែករំលែកទំព័រជាមួយ...</target>
         <note>Label for the button, displayed in the menu, used to open the share dialog.</note>
       </trans-unit>
       <trans-unit id="Menu.ShowTabs.Title" xml:space="preserve">
         <source>Show Tabs</source>
+        <target>បង្ហាញ​ផ្ទាំង</target>
         <note>Label for the button, displayed in the menu, used to open the tabs tray</note>
       </trans-unit>
       <trans-unit id="Menu.TranslatePageAction.Title" xml:space="preserve">
         <source>Translate Page</source>
+        <target>បកប្រែទំព័រ</target>
         <note>Label for the button, displayed in the menu, used to translate the current page.</note>
       </trans-unit>
       <trans-unit id="Menu.ViewDekstopSiteAction.Title" xml:space="preserve">
@@ -3655,6 +3824,7 @@
       </trans-unit>
       <trans-unit id="ContextMenu.OpenInNewPrivateTabButtonTitle" xml:space="preserve">
         <source>Open in New Private Tab</source>
+        <target>បើក​នៅ​ក្នុង​ផ្ទាំង​ឯកជន​ថ្មី</target>
         <note>Context menu option for opening a link in a new private tab</note>
       </trans-unit>
       <trans-unit id="Firefox won’t remember any of your history or cookies, but new bookmarks will be saved." xml:space="preserve">
