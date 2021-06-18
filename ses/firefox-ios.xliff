@@ -611,6 +611,14 @@
         <target>Gunante</target>
         <note>The description of a highlight if it is a site the user has visited</note>
       </trans-unit>
+      <trans-unit id="ActivityStream.JumpBackIn.SectionTitle" xml:space="preserve">
+        <source>Jump Back In</source>
+        <note>Title for the Jump Back In section. This section allows users to jump back in to a recently viewed tab</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.Library.Title" xml:space="preserve">
+        <source>Recently Saved</source>
+        <note>A string used to signify the start of the Recently Saved section in Home Screen.</note>
+      </trans-unit>
       <trans-unit id="ActivityStream.NewRecentBookmarks.Title" xml:space="preserve">
         <source>Recent Bookmarks</source>
         <note>Section title label for recently bookmarked websites</note>
@@ -636,6 +644,14 @@
       <trans-unit id="ActivityStream.RecentHistory.Title" xml:space="preserve">
         <source>Recently Visited</source>
         <note>Section title label for recently visited websites</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.RecentlySaved.SectionTitle" xml:space="preserve">
+        <source>Recently Saved</source>
+        <note>Section title for the Recently Saved section. This shows websites that have had a save action. Right now it is just bookmarks but it could be used for other things like the reading list in the future.</note>
+      </trans-unit>
+      <trans-unit id="ActivityStream.RecentlySaved.ShowAll" xml:space="preserve">
+        <source>Show all</source>
+        <note>This button will open the library showing all the users bookmarks</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Shortcuts.SectionTitle" xml:space="preserve">
         <source>Shortcuts</source>
@@ -2002,6 +2018,10 @@
         <target>Kaŋ kokor ka daaba</target>
         <note>Title for the Recently Closed Tabs Panel</note>
       </trans-unit>
+      <trans-unit id="RecentlySaved.Actions.More" xml:space="preserve">
+        <source>Show All</source>
+        <note>More button text for Recently Saved items at the home page.</note>
+      </trans-unit>
       <trans-unit id="Reload" xml:space="preserve">
         <source>Reload</source>
         <target>Dam taaga</target>
@@ -2337,6 +2357,10 @@
         <source>Clear Private Data</source>
         <target>Sutura bayhayey tuusu</target>
         <note>Title displayed in header of the setting panel.</note>
+      </trans-unit>
+      <trans-unit id="Settings.ClearSelectedWebsiteData.ClearSelected.Button" xml:space="preserve">
+        <source>Clear Items: %1$@</source>
+        <note>Button in Data Management that clears private data for the selected items. Parameter is the number of items to be cleared</note>
       </trans-unit>
       <trans-unit id="Settings.CopyAppVersion.Title" xml:space="preserve">
         <source>Copied to clipboard</source>
@@ -2884,6 +2908,10 @@
         <target>Teeraa woo ga war nungoo bayhayey kul tuusu. A ši hin ka yeeri.</target>
         <note>Description of the confirmation dialog shown when a user tries to clear their private data.</note>
       </trans-unit>
+      <trans-unit id="Settings.WebsiteData.SelectedConfirmPrompt" xml:space="preserve">
+        <source>This action will clear the selected items. It cannot be undone.</source>
+        <note>Description of the confirmation dialog shown when a user tries to clear some of their private data.</note>
+      </trans-unit>
       <trans-unit id="Settings.WebsiteData.Title" xml:space="preserve">
         <source>Website Data</source>
         <target>Interneti nungu bayhayey</target>
@@ -3081,6 +3109,10 @@
         <source>Currently selected tab.</source>
         <note>Accessibility label for the currently selected tab.</note>
       </trans-unit>
+      <trans-unit id="TabTray.InactiveTabs.SectionTitle" xml:space="preserve">
+        <source>Inactive Tabs</source>
+        <note>Title for the inactive tabs section. This section groups all tabs that haven't been used in a while.</note>
+      </trans-unit>
       <trans-unit id="TabTray.LastWeek.Header" xml:space="preserve">
         <source>Last Week</source>
         <note>The section header for tabs opened last week</note>
@@ -3106,6 +3138,10 @@
       <trans-unit id="TabTray.PrivateTitle" xml:space="preserve">
         <source>Private Tabs</source>
         <note>The title for the tab tray in private mode</note>
+      </trans-unit>
+      <trans-unit id="TabTray.RecentlyClosed.Description" xml:space="preserve">
+        <source>Tabs are available here for 30 days. After that time, tabs will be automatically closed.</source>
+        <note>Describes what the Recently Closed tabs behavior is for users unfamiliar with it.</note>
       </trans-unit>
       <trans-unit id="TabTray.SegmentedControlTitles.PrivateTabs" xml:space="preserve">
         <source>Private</source>
@@ -3594,6 +3630,10 @@
       <trans-unit id="Menu.PageSourceAction.Title" xml:space="preserve">
         <source>View Page Source</source>
         <note>Label for the button, displayed in the menu, used to show the html page source</note>
+      </trans-unit>
+      <trans-unit id="Menu.RecentlySaved.Title" xml:space="preserve">
+        <source>Recently Saved</source>
+        <note>A string used to signify the start of the Recently Saved section in Home Screen.</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveBookmarkAction.Title" xml:space="preserve">
         <source>Remove Bookmark</source>
