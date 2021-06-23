@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Client/en.lproj/InfoPlist.strings" source-language="en" target-language="ka" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
@@ -645,10 +646,12 @@
       </trans-unit>
       <trans-unit id="ActivityStream.JumpBackIn.SectionTitle" xml:space="preserve">
         <source>Jump Back In</source>
+        <target>წინაზე გადასვლა</target>
         <note>Title for the Jump Back In section. This section allows users to jump back in to a recently viewed tab</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Library.Title" xml:space="preserve">
         <source>Recently Saved</source>
+        <target>ბოლოს შენახული</target>
         <note>A string used to signify the start of the Recently Saved section in Home Screen.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.NewRecentBookmarks.Title" xml:space="preserve">
@@ -683,10 +686,12 @@
       </trans-unit>
       <trans-unit id="ActivityStream.RecentlySaved.SectionTitle" xml:space="preserve">
         <source>Recently Saved</source>
+        <target>ბოლოს შენახული</target>
         <note>Section title for the Recently Saved section. This shows websites that have had a save action. Right now it is just bookmarks but it could be used for other things like the reading list in the future.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.RecentlySaved.ShowAll" xml:space="preserve">
         <source>Show all</source>
+        <target>ყველას ჩვენება</target>
         <note>This button will open the library showing all the users bookmarks</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Shortcuts.SectionTitle" xml:space="preserve">
@@ -2157,6 +2162,7 @@
       </trans-unit>
       <trans-unit id="RecentlySaved.Actions.More" xml:space="preserve">
         <source>Show All</source>
+        <target>ყველას ჩვენება</target>
         <note>More button text for Recently Saved items at the home page.</note>
       </trans-unit>
       <trans-unit id="Reload" xml:space="preserve">
@@ -2509,6 +2515,7 @@
       </trans-unit>
       <trans-unit id="Settings.ClearSelectedWebsiteData.ClearSelected.Button" xml:space="preserve">
         <source>Clear Items: %1$@</source>
+        <target>გასუფთავება: %1$@</target>
         <note>Button in Data Management that clears private data for the selected items. Parameter is the number of items to be cleared</note>
       </trans-unit>
       <trans-unit id="Settings.CopyAppVersion.Title" xml:space="preserve">
@@ -3114,6 +3121,7 @@
       </trans-unit>
       <trans-unit id="Settings.WebsiteData.SelectedConfirmPrompt" xml:space="preserve">
         <source>This action will clear the selected items. It cannot be undone.</source>
+        <target>შედეგად, შერჩეული მონაცემები წაიშლება. ეს ქმედება შეუქცევადია.</target>
         <note>Description of the confirmation dialog shown when a user tries to clear some of their private data.</note>
       </trans-unit>
       <trans-unit id="Settings.WebsiteData.Title" xml:space="preserve">
@@ -3319,6 +3327,7 @@
       </trans-unit>
       <trans-unit id="TabTray.InactiveTabs.SectionTitle" xml:space="preserve">
         <source>Inactive Tabs</source>
+        <target>უქმი ჩანართები</target>
         <note>Title for the inactive tabs section. This section groups all tabs that haven't been used in a while.</note>
       </trans-unit>
       <trans-unit id="TabTray.LastWeek.Header" xml:space="preserve">
@@ -3353,6 +3362,7 @@
       </trans-unit>
       <trans-unit id="TabTray.RecentlyClosed.Description" xml:space="preserve">
         <source>Tabs are available here for 30 days. After that time, tabs will be automatically closed.</source>
+        <target>ჩანართები აქ დარჩება 30 დღით. შემდეგ კი თავადვე დაიხურება.</target>
         <note>Describes what the Recently Closed tabs behavior is for users unfamiliar with it.</note>
       </trans-unit>
       <trans-unit id="TabTray.SegmentedControlTitles.PrivateTabs" xml:space="preserve">
@@ -3881,6 +3891,7 @@
       </trans-unit>
       <trans-unit id="Menu.RecentlySaved.Title" xml:space="preserve">
         <source>Recently Saved</source>
+        <target>ბოლოს შენახული</target>
         <note>A string used to signify the start of the Recently Saved section in Home Screen.</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveBookmarkAction.Title" xml:space="preserve">
@@ -4055,20 +4066,23 @@
     <body>
       <trans-unit id="TodayWidget.ClosePrivateTabsButton" xml:space="preserve">
         <source>Close Private Tabs</source>
-        <target>დახურვა პირადი ჩანართების</target>
+        <target>პირადი ჩანართების დახურვა</target>
         <note>Close Private Tabs button label</note>
       </trans-unit>
       <trans-unit id="TodayWidget.ClosePrivateTabsLabelV2" xml:space="preserve">
         <source>Close
 Private Tabs</source>
-        <target>დახურვა პირადი ჩანართების</target>
+        <target>პირადი ჩანართების
+დახურვა</target>
         <note>Close Private Tabs</note>
       </trans-unit>
       <trans-unit id="TodayWidget.ClosePrivateTabsLabelV3" xml:space="preserve">
         <source>Close
 Private
 Tabs</source>
-        <target>დახურვა პირადი ჩანართების</target>
+        <target>პირადი
+ჩანართების
+დახურვა</target>
         <note>Close Private Tabs</note>
       </trans-unit>
       <trans-unit id="TodayWidget.CopiedLinkLabelFromPasteBoardV1" xml:space="preserve">
@@ -4131,7 +4145,7 @@ Link</source>
       </trans-unit>
       <trans-unit id="TodayWidget.NewPrivateTabButtonLabelV2" xml:space="preserve">
         <source>Search in Private Tab</source>
-        <target>ძიება პირად ჩანართში</target>
+        <target>პირად ჩანართში მოძიება</target>
         <note>Open New Private Tab button label for medium size action</note>
       </trans-unit>
       <trans-unit id="TodayWidget.NewSearchButtonLabelV1" xml:space="preserve">
@@ -4248,12 +4262,13 @@ Firefox</source>
       <trans-unit id="TodayWidget.SearchInPrivateTabLabelV2" xml:space="preserve">
         <source>Search in
 Private Tab</source>
-        <target>ძიება პირად ჩანართში</target>
+        <target>პირად ჩანართში
+მოძიება</target>
         <note>Search in private tab</note>
       </trans-unit>
       <trans-unit id="TodayWidget.TopSitesGalleryDescription" xml:space="preserve">
         <source>Add shortcuts to frequently and recently visited sites.</source>
-        <target>დაამატეთ მალსახმობები ხშირად და ბოლოს მონახულებული საიტების.</target>
+        <target>დაამატეთ მალსახმობები ხშირად და ბოლოს მონახულებული საიტებისთვის.</target>
         <note>Description for top sites widget to add Firefox top sites shotcuts to home screen</note>
       </trans-unit>
       <trans-unit id="TodayWidget.TopSitesGalleryTitle" xml:space="preserve">
