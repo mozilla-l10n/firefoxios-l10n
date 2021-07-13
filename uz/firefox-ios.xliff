@@ -1458,6 +1458,10 @@
         <target>Loginlar</target>
         <note>Toggle logins syncing setting</note>
       </trans-unit>
+      <trans-unit id="Logins.WelcomeView.Title" xml:space="preserve">
+        <source>Take your passwords everywhere</source>
+        <note>Label displaying welcome view title</note>
+      </trans-unit>
       <trans-unit id="LoginsDetailView.LoginModified" xml:space="preserve">
         <source>Modified</source>
         <note>Login detail view field name for the last modified date</note>
@@ -1518,6 +1522,30 @@
       <trans-unit id="LoginsList.LoginsListSearchPlaceholder" xml:space="preserve">
         <source>Filter</source>
         <note>Placeholder test for search box in logins list view.</note>
+      </trans-unit>
+      <trans-unit id="LoginsList.NoLoginsFound.Description" xml:space="preserve">
+        <source>Saved logins will show up here. If you saved your logins to Firefox on a different device, sign in to your Firefox Account.</source>
+        <note>Label shown when there are no logins to list</note>
+      </trans-unit>
+      <trans-unit id="LoginsList.NoMatchingResult.Subtitle" xml:space="preserve">
+        <source>There are no results matching your search.</source>
+        <note>Label that appears after the search if there are no logins matching the search</note>
+      </trans-unit>
+      <trans-unit id="LoginsList.NoMatchingResult.Title" xml:space="preserve">
+        <source>No matching logins</source>
+        <note>Label displayed when a user searches and no matches can be found against the search query</note>
+      </trans-unit>
+      <trans-unit id="LoginsList.Search.Cancel" xml:space="preserve">
+        <source>Cancel</source>
+        <note>title for cancel button for user to stop searching for a particular login</note>
+      </trans-unit>
+      <trans-unit id="LoginsList.Search.Placeholder" xml:space="preserve">
+        <source>Search logins</source>
+        <note>Placeholder text for search field</note>
+      </trans-unit>
+      <trans-unit id="LoginsList.SelectPassword.Title" xml:space="preserve">
+        <source>Select a password to fill</source>
+        <note>Label displaying select a password to fill instruction</note>
       </trans-unit>
       <trans-unit id="LoginsList.Title" xml:space="preserve">
         <source>SAVED LOGINS</source>
@@ -1899,6 +1927,14 @@
         <source>Privacy Policy</source>
         <target>Maxfiylik siyosati</target>
         <note>Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/</note>
+      </trans-unit>
+      <trans-unit id="ProtectionStatusSheet.InsecureConnection" xml:space="preserve">
+        <source>Insecure Connection</source>
+        <note>value for label to indicate user is on an unencrypted website</note>
+      </trans-unit>
+      <trans-unit id="ProtectionStatusSheet.SecureConnection" xml:space="preserve">
+        <source>Secure Connection</source>
+        <note>value for label to indicate user is on a secure ssl connection</note>
       </trans-unit>
       <trans-unit id="Quick-Search Engines" xml:space="preserve">
         <source>Quick-Search Engines</source>
@@ -2965,6 +3001,10 @@
       <trans-unit id="TabTray.RecentlyClosed.Description" xml:space="preserve">
         <source>Tabs are available here for 30 days. After that time, tabs will be automatically closed.</source>
         <note>Describes what the Recently Closed tabs behavior is for users unfamiliar with it.</note>
+      </trans-unit>
+      <trans-unit id="TabTray.RecentlyClosed.SectionTitle" xml:space="preserve">
+        <source>Recently closed</source>
+        <note>Title for the recently closed tabs section. This section shows a list of all the tabs that have been recently closed.</note>
       </trans-unit>
       <trans-unit id="TabTray.SegmentedControlTitles.PrivateTabs" xml:space="preserve">
         <source>Private</source>
