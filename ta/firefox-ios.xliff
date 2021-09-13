@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Client/en.lproj/InfoPlist.strings" source-language="en" target-language="ta" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="NSCameraUsageDescription" xml:space="preserve">
@@ -12,7 +11,6 @@
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve">
         <source>Firefox requires Face ID to access your saved logins.</source>
-        <target>சேமித்த உள்நுழைவுகளை அணுக பயர்பாக்சுக்கு முக அடையாளம் தேவை.</target>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription" xml:space="preserve">
@@ -51,7 +49,7 @@
   </file>
   <file original="Shared/en.lproj/3DTouchActions.strings" source-language="en" target-language="ta" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="Add to Bookmarks" xml:space="preserve">
@@ -71,7 +69,6 @@
       </trans-unit>
       <trans-unit id="Menu.SendLinkToDevice" xml:space="preserve">
         <source>Send Link to Device</source>
-        <target>இணைப்பை சாதனத்திற்கு அனுப்பு</target>
         <note>Label for preview action on Tab Tray Tab to send the current link to another device</note>
       </trans-unit>
       <trans-unit id="Open Last Bookmark" xml:space="preserve">
@@ -98,7 +95,7 @@
   </file>
   <file original="Shared/en.lproj/AuthenticationManager.strings" source-language="en" target-language="ta" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="After 1 hour" xml:space="preserve">
@@ -255,7 +252,7 @@
   </file>
   <file original="Shared/en.lproj/ClearHistoryConfirm.strings" source-language="en" target-language="ta" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="Cancel" xml:space="preserve">
@@ -277,7 +274,7 @@
   </file>
   <file original="Shared/en.lproj/ClearPrivateData.strings" source-language="en" target-language="ta" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="Browsing History" xml:space="preserve">
@@ -310,11 +307,15 @@
         <target>சேமிக்கப்பட்ட புகுபதிகைகள்</target>
         <note>Settings item for clearing passwords and login data</note>
       </trans-unit>
+      <trans-unit id="Spotlight Index" xml:space="preserve">
+        <source>Spotlight Index</source>
+        <note>A settings item that allows a user to use Apple's \"Spotlight Search\" in Data Management's Website Data option to search for and select an item to delete.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Shared/en.lproj/ClearPrivateDataConfirm.strings" source-language="en" target-language="ta" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="Cancel" xml:space="preserve">
@@ -336,64 +337,54 @@
   </file>
   <file original="Shared/en.lproj/Default Browser.strings" datatype="plaintext" source-language="en" target-language="ta">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="DefaultBrowserCard.Button" xml:space="preserve">
         <source>Go to Settings</source>
-        <target>அமைவுகளுக்கு செல்</target>
         <note>Button string to open settings that allows user to switch their default browser to Firefox.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserCard.Button.v2" xml:space="preserve">
         <source>Learn How</source>
-        <target>எப்படியென்று அறி</target>
         <note>Button string to learn how to set your default browser.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserCard.Description" xml:space="preserve">
         <source>Set links from websites, emails, and Messages to open automatically in Firefox.</source>
-        <target>வலைதளங்கள், மின்னஞ்சல்கள் மற்றும் செய்திகளிலிருந்து இணைப்புகளைப் பயர்பாக்சில் தானாகத் திறக்குமாறு அமை.</target>
         <note>Description for small card shown that allows user to switch their default browser to Firefox.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserCard.Title" xml:space="preserve">
         <source>Switch Your Default Browser</source>
-        <target>உமது முன்னிருப்பு உலாவியை மாற்று</target>
         <note>Title for small card shown that allows user to switch their default browser to Firefox.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserOnboarding.Button" xml:space="preserve">
         <source>Go to Settings</source>
-        <target>அமைவுகளுக்கு செல்</target>
         <note>Button string to open settings that allows user to switch their default browser to Firefox.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserOnboarding.Description1" xml:space="preserve">
         <source>1. Go to Settings</source>
-        <target>1. அமைவுகளுக்குச் செல்</target>
         <note>Description for default browser onboarding card.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserOnboarding.Description2" xml:space="preserve">
         <source>2. Tap Default Browser App</source>
-        <target>2. முன்னிருப்பு உலாவி செயலியைத் தட்டு</target>
         <note>Description for default browser onboarding card.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserOnboarding.Description3" xml:space="preserve">
         <source>3. Select Firefox</source>
-        <target>3. பயர்பாக்சைத் தேர்ந்தெடு</target>
         <note>Description for default browser onboarding card.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserOnboarding.Screenshot" xml:space="preserve">
         <source>Default Browser App</source>
-        <target>முன்னிருப்பு உலாவி</target>
         <note>Text for the screenshot of the iOS system settings page for Firefox.</note>
       </trans-unit>
       <trans-unit id="Settings.DefaultBrowserMenuItem" xml:space="preserve">
         <source>Set as Default Browser</source>
-        <target>முன்னிருப்பு உலாவியாக அமை</target>
         <note>Menu option for setting Firefox as default browser.</note>
       </trans-unit>
     </body>
   </file>
   <file original="Shared/en.lproj/ErrorPages.strings" source-language="en" target-language="ta" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="Open in Safari" xml:space="preserve">
@@ -410,7 +401,7 @@
   </file>
   <file original="Shared/en.lproj/FindInPage.strings" source-language="en" target-language="ta" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="Done" xml:space="preserve">
@@ -437,7 +428,7 @@
   </file>
   <file original="Shared/en.lproj/HistoryPanel.strings" source-language="en" target-language="ta" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="Delete" xml:space="preserve">
@@ -449,7 +440,7 @@
   </file>
   <file original="Shared/en.lproj/Intro.strings" source-language="en" target-language="ta" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="Intro.Slides.Automatic.Privacy.Description" xml:space="preserve">
@@ -571,7 +562,7 @@
   </file>
   <file original="Shared/en.lproj/Localizable.strings" source-language="en" target-language="ta" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="+" xml:space="preserve">
@@ -606,7 +597,6 @@
       </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.AddToShortcuts" xml:space="preserve">
         <source>Add to Shortcuts</source>
-        <target>குறுக்குவழிகளுக்குச் சேர்</target>
         <note>The title for the pinning a shortcut action</note>
       </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.PinTopsite" xml:space="preserve">
@@ -616,12 +606,10 @@
       </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.PinTopsite2" xml:space="preserve">
         <source>Pin</source>
-        <target>பொருத்து</target>
         <note>The title for the pinning a topsite action</note>
       </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.RemoveFromShortcuts" xml:space="preserve">
         <source>Remove from Shortcuts</source>
-        <target>குறுக்குவழிகளிலிருந்து நீக்கு</target>
         <note>The title for removing a shortcut action</note>
       </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.RemovePinTopsite" xml:space="preserve">
@@ -631,7 +619,6 @@
       </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.UnpinTopsite" xml:space="preserve">
         <source>Unpin</source>
-        <target>விடுவி</target>
         <note>The title for the unpinning a topsite action</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Highlights.Bookmark" xml:space="preserve">
@@ -646,12 +633,10 @@
       </trans-unit>
       <trans-unit id="ActivityStream.JumpBackIn.SectionTitle" xml:space="preserve">
         <source>Jump Back In</source>
-        <target>மீண்டும் உள்ளே குதி</target>
         <note>Title for the Jump Back In section. This section allows users to jump back in to a recently viewed tab</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Library.Title" xml:space="preserve">
         <source>Recently Saved</source>
-        <target>சமீபத்தில் சேமித்தவை</target>
         <note>A string used to signify the start of the Recently Saved section in Home Screen.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.NewRecentBookmarks.Title" xml:space="preserve">
@@ -671,7 +656,6 @@
       </trans-unit>
       <trans-unit id="ActivityStream.Pocket.SectionTitle2" xml:space="preserve">
         <source>Recommended by Pocket</source>
-        <target>பாக்கெட் மூலம் பரிந்துரைக்கப்படுகிறது</target>
         <note>Section title label for Recommended by Pocket section</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Pocket.Trending" xml:space="preserve">
@@ -686,17 +670,14 @@
       </trans-unit>
       <trans-unit id="ActivityStream.RecentlySaved.SectionTitle" xml:space="preserve">
         <source>Recently Saved</source>
-        <target>சமீபத்தில் சேமித்தவை</target>
         <note>Section title for the Recently Saved section. This shows websites that have had a save action. Right now it is just bookmarks but it could be used for other things like the reading list in the future.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.RecentlySaved.ShowAll" xml:space="preserve">
         <source>Show all</source>
-        <target>அனைத்தையும் காட்டு</target>
         <note>This button will open the library showing all the users bookmarks</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Shortcuts.SectionTitle" xml:space="preserve">
         <source>Shortcuts</source>
-        <target>குறுக்குவழிகள்</target>
         <note>Section title label for Shortcuts</note>
       </trans-unit>
       <trans-unit id="ActivityStream.TopSites.RowCount" xml:space="preserve">
@@ -771,7 +752,6 @@
       </trans-unit>
       <trans-unit id="Awesomebar.SearchWithEngine.Title" xml:space="preserve">
         <source>Search with %@</source>
-        <target>%@ கொண்டு தேடு</target>
         <note>Title for button to suggest searching with a search engine. First argument is the name of the search engine to select</note>
       </trans-unit>
       <trans-unit id="Back" xml:space="preserve">
@@ -811,7 +791,6 @@
       </trans-unit>
       <trans-unit id="Bookmarks.Edit.Button" xml:space="preserve">
         <source>Edit</source>
-        <target>தொகு</target>
         <note>The button on the snackbar to edit a bookmark after adding it.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.EditBookmark.Label" xml:space="preserve">
@@ -871,7 +850,6 @@
       </trans-unit>
       <trans-unit id="BreachAlerts.BreachDate" xml:space="preserve">
         <source>This breach occurred on</source>
-        <target>இம்மீறல் ஏற்பட்ட நேரம்</target>
         <note>Describes the date on which the breach occurred</note>
       </trans-unit>
       <trans-unit id="BreachAlerts.Description" xml:space="preserve">
@@ -880,17 +858,14 @@
       </trans-unit>
       <trans-unit id="BreachAlerts.LearnMoreButton" xml:space="preserve">
         <source>Learn more</source>
-        <target>மேலும் அறிக</target>
         <note>Link to monitor.firefox.com to learn more about breached passwords</note>
       </trans-unit>
       <trans-unit id="BreachAlerts.Link" xml:space="preserve">
         <source>Go to</source>
-        <target>இதற்குச் செல்</target>
         <note>Leads to a link to the breached website</note>
       </trans-unit>
       <trans-unit id="BreachAlerts.Title" xml:space="preserve">
         <source>Website Breach</source>
-        <target>வலைத்தள அத்துமீறல்</target>
         <note>Title for the Breached Login Detail View.</note>
       </trans-unit>
       <trans-unit id="Brightness" xml:space="preserve">
@@ -985,12 +960,10 @@
       </trans-unit>
       <trans-unit id="ContextMenu.OpenLinkInNewPrivateTabButtonTitle" xml:space="preserve">
         <source>Open Link in New Private Tab</source>
-        <target>இணைப்பைப் புது கமுக்க கீற்றில் திற</target>
         <note>Context menu item for opening a link in a new private tab</note>
       </trans-unit>
       <trans-unit id="ContextMenu.OpenLinkInNewTabButtonTitle" xml:space="preserve">
         <source>Open Link in New Tab</source>
-        <target>இணைப்பைப் புதிய கீற்றில் திற</target>
         <note>Context menu item for opening a link in a new tab</note>
       </trans-unit>
       <trans-unit id="ContextMenu.SaveImageButtonTitle" xml:space="preserve">
@@ -1445,6 +1418,10 @@
         <target>ஒத்திசைவு சாதனங்கள்</target>
         <note>Title for the Synced Tabs Cell in the History Panel</note>
       </trans-unit>
+      <trans-unit id="Home" xml:space="preserve">
+        <source>Home</source>
+        <note>Accessibility label for the tab toolbar indicating the Home button.</note>
+      </trans-unit>
       <trans-unit id="HomePage.Set.Dialog.Cancel" xml:space="preserve">
         <source>Cancel</source>
         <target>ரத்து</target>
@@ -1612,7 +1589,6 @@
       </trans-unit>
       <trans-unit id="Logins.WelcomeView.Title" xml:space="preserve">
         <source>Take your passwords everywhere</source>
-        <target>உமது கடவுச்சொற்களை எங்கும் எடுத்துச்செல்க</target>
         <note>Label displaying welcome view title</note>
       </trans-unit>
       <trans-unit id="LoginsDetailView.LoginModified" xml:space="preserve">
@@ -1687,32 +1663,30 @@
       </trans-unit>
       <trans-unit id="LoginsList.NoLoginsFound.Description" xml:space="preserve">
         <source>Saved logins will show up here. If you saved your logins to Firefox on a different device, sign in to your Firefox Account.</source>
-        <target>சேமித்த உள்நுழைவுகள் இங்கே காட்டப்படும். உங்கள் உள்நுழைவுகளை வேறு சாதனத்தில்  சேமித்திருந்தால், உங்கள் பயர்பாக்சு கணக்கில் உள்நுழைக.</target>
         <note>Label shown when there are no logins to list</note>
+      </trans-unit>
+      <trans-unit id="LoginsList.NoLoginsFound.Title" xml:space="preserve">
+        <source>No logins found</source>
+        <note>Label shown when there are no logins saved</note>
       </trans-unit>
       <trans-unit id="LoginsList.NoMatchingResult.Subtitle" xml:space="preserve">
         <source>There are no results matching your search.</source>
-        <target>உங்கள் தேடலுடன் பொருந்தக்கூடிய முடிவுகள் ஏதுமில்லை.</target>
         <note>Label that appears after the search if there are no logins matching the search</note>
       </trans-unit>
       <trans-unit id="LoginsList.NoMatchingResult.Title" xml:space="preserve">
         <source>No matching logins</source>
-        <target>பொருந்தும் உள்நுழைவுகள் இல்லை</target>
         <note>Label displayed when a user searches and no matches can be found against the search query</note>
       </trans-unit>
       <trans-unit id="LoginsList.Search.Cancel" xml:space="preserve">
         <source>Cancel</source>
-        <target>இரத்து</target>
-        <note>title for cancel button for user to stop searching for a particular login</note>
+        <note>Title for cancel button for user to stop searching for a particular login</note>
       </trans-unit>
       <trans-unit id="LoginsList.Search.Placeholder" xml:space="preserve">
         <source>Search logins</source>
-        <target>புகுபதிகைகளைத் தேடு</target>
         <note>Placeholder text for search field</note>
       </trans-unit>
       <trans-unit id="LoginsList.SelectPassword.Title" xml:space="preserve">
         <source>Select a password to fill</source>
-        <target>நிரப்பக் கடவுச்சொல்லைத் தேர்ந்தெடு</target>
         <note>Label displaying select a password to fill instruction</note>
       </trans-unit>
       <trans-unit id="LoginsList.Title" xml:space="preserve">
@@ -1749,7 +1723,6 @@
       </trans-unit>
       <trans-unit id="Menu.AddPin.Confirm2" xml:space="preserve">
         <source>Added to Shortcuts</source>
-        <target>குறுக்குவழிகளுக்கு சேர்க்கப்பட்டது</target>
         <note>Toast displayed to the user after adding the item to the Shortcuts.</note>
       </trans-unit>
       <trans-unit id="Menu.AddToReadingList.Confirm" xml:space="preserve">
@@ -1759,12 +1732,10 @@
       </trans-unit>
       <trans-unit id="Menu.BackUpAndSync.Label" xml:space="preserve">
         <source>Back up and Sync Data</source>
-        <target>தரவு மறுபிரதி மற்றும் ஒத்திசை</target>
         <note>Label for the button, displayed in the menu, takes you to sync sign in when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.Bookmarks.Label" xml:space="preserve">
         <source>Bookmarks</source>
-        <target>புத்தகக்குறிகள்</target>
         <note>Label for the button, displayed in the menu, takes you to to bookmarks screen when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.Copy.Title" xml:space="preserve">
@@ -1779,7 +1750,6 @@
       </trans-unit>
       <trans-unit id="Menu.Downloads.Label" xml:space="preserve">
         <source>Downloads</source>
-        <target>பதிவிறக்கங்கள்</target>
         <note>Label for the button, displayed in the menu, takes you to to Downloads screen when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtectionOff.Title" xml:space="preserve">
@@ -1794,32 +1764,26 @@
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtectionStandardWithITP.Title" xml:space="preserve">
         <source>Firefox blocks cross-site trackers, social trackers, cryptominers, and fingerprinters.</source>
-        <target>பயர்பாக்சு குறுக்கு-தள தடமறிகள், சமூக தடமறிகள், கமுக்க தோண்டிகள் மற்றும் கைரேகையர்களைத் தடுக்கிறது.</target>
         <note>Description for having standard ETP protection with ITP offered in iOS14+</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtectionStrictWithITP.Title" xml:space="preserve">
         <source>Firefox blocks cross-site trackers, social trackers, cryptominers, fingerprinters, and tracking content.</source>
-        <target>பயர்பாக்சு குறுக்கு-தள தடமறிகள், சமூக தடமறிகள், கமுக்க தோண்டிகள் மற்றும் கைரேகையர்கள் மற்றும் தடமறியும் உள்ளடக்கத்தைத் தடுக்கிறது.</target>
         <note>Description for having strict ETP protection with ITP offered in iOS14+</note>
       </trans-unit>
       <trans-unit id="Menu.History.Label" xml:space="preserve">
         <source>History</source>
-        <target>வரலாறு</target>
         <note>Label for the button, displayed in the menu, takes you to to History screen when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.Library.StopReload" xml:space="preserve">
         <source>Stop</source>
-        <target>நிறுத்து</target>
         <note>Label for the button displayed in the menu used to stop the reload of the webpage</note>
       </trans-unit>
       <trans-unit id="Menu.ManageAccount.Label" xml:space="preserve">
         <source>Manage Account %@</source>
-        <target>%@ கணக்கை நிர்வகி</target>
         <note>Label for the button, displayed in the menu, takes you to screen to manage account when pressed. First argument is the display name for the current account</note>
       </trans-unit>
       <trans-unit id="Menu.NightModeTurnOff.Label2" xml:space="preserve">
         <source>Turn off Night Mode</source>
-        <target>இரவு நிலையை அணை</target>
         <note>Label for the button, displayed in the menu, turns off night mode.</note>
       </trans-unit>
       <trans-unit id="Menu.NightModeTurnOn.Label" xml:space="preserve">
@@ -1829,7 +1793,6 @@
       </trans-unit>
       <trans-unit id="Menu.NightModeTurnOn.Label2" xml:space="preserve">
         <source>Turn on Night Mode</source>
-        <target>இரவு நிலையை இயக்கு</target>
         <note>Label for the button, displayed in the menu, turns on night mode.</note>
       </trans-unit>
       <trans-unit id="Menu.NoImageModeBlockImages.Label" xml:space="preserve">
@@ -1839,7 +1802,6 @@
       </trans-unit>
       <trans-unit id="Menu.NoImageModeShowImages.Label" xml:space="preserve">
         <source>Show Images</source>
-        <target>படங்களைக் காட்டு</target>
         <note>Label for the button, displayed in the menu, shows images on the webpage when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.PageActions.Title" xml:space="preserve">
@@ -1849,7 +1811,6 @@
       </trans-unit>
       <trans-unit id="Menu.Passwords.Label" xml:space="preserve">
         <source>Passwords</source>
-        <target>கடவுச்சொற்கள்</target>
         <note>Label for the button, displayed in the menu, takes you to to passwords screen when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.Paste.Title" xml:space="preserve">
@@ -1864,7 +1825,6 @@
       </trans-unit>
       <trans-unit id="Menu.ReadingList.Label" xml:space="preserve">
         <source>Reading List</source>
-        <target>வாசிப்பு பட்டியல்</target>
         <note>Label for the button, displayed in the menu, takes you to to Reading List screen when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.ReloadWithTrackingProtection.Title" xml:space="preserve">
@@ -1889,7 +1849,6 @@
       </trans-unit>
       <trans-unit id="Menu.RemovePin.Confirm2" xml:space="preserve">
         <source>Removed from Shortcuts</source>
-        <target>குறுக்குவழிகளிலிருந்து நீக்கப்பட்டது</target>
         <note>Toast displayed to the user after removing the item to the Shortcuts.</note>
       </trans-unit>
       <trans-unit id="Menu.TabSent.Confirm" xml:space="preserve">
@@ -1901,6 +1860,10 @@
         <source>Blocked</source>
         <target>தடுக்கப்பட்டது</target>
         <note>Title on tracking protection menu for blocked items.</note>
+      </trans-unit>
+      <trans-unit id="Menu.TrackingProtection.Details.Verifier" xml:space="preserve">
+        <source>Verified by %@</source>
+        <note>String to let users know the site verifier, where the placeholder represents the SSL certificate signer.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.NoTrackersBlockedTitle" xml:space="preserve">
         <source>No trackers known to Firefox were detected on this page.</source>
@@ -2168,15 +2131,13 @@
         <target>தனியுரிம கொள்கை</target>
         <note>Show Firefox Browser Privacy Policy page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/</note>
       </trans-unit>
-      <trans-unit id="ProtectionStatusSheet.InsecureConnection" xml:space="preserve">
-        <source>Insecure Connection</source>
-        <target>பாதுகாப்பற்ற இணைப்பு</target>
-        <note>value for label to indicate user is on an unencrypted website</note>
+      <trans-unit id="ProtectionStatus.NotSecure" xml:space="preserve">
+        <source>Connection is not secure</source>
+        <note>This is the value for a label that indicates if a user is on an unencrypted website.</note>
       </trans-unit>
-      <trans-unit id="ProtectionStatusSheet.SecureConnection" xml:space="preserve">
-        <source>Secure Connection</source>
-        <target>பாதுகாப்பான இணைப்பு</target>
-        <note>value for label to indicate user is on a secure ssl connection</note>
+      <trans-unit id="ProtectionStatus.Secure" xml:space="preserve">
+        <source>Connection is secure</source>
+        <note>This is the value for a label that indicates if a user is on a secure https connection.</note>
       </trans-unit>
       <trans-unit id="Quick-Search Engines" xml:space="preserve">
         <source>Quick-Search Engines</source>
@@ -2205,7 +2166,6 @@
       </trans-unit>
       <trans-unit id="RecentlySaved.Actions.More" xml:space="preserve">
         <source>Show All</source>
-        <target>அனைத்தையும் காட்டு</target>
         <note>More button text for Recently Saved items at the home page.</note>
       </trans-unit>
       <trans-unit id="Reload" xml:space="preserve">
@@ -2215,7 +2175,6 @@
       </trans-unit>
       <trans-unit id="Reload page" xml:space="preserve">
         <source>Reload page</source>
-        <target>பக்கத்தை மீளேற்று</target>
         <note>Accessibility label for the reload button</note>
       </trans-unit>
       <trans-unit id="Remove" xml:space="preserve">
@@ -2302,7 +2261,6 @@
       </trans-unit>
       <trans-unit id="Search.Awesomebar.SwitchToTab" xml:space="preserve">
         <source>Switch to tab</source>
-        <target>கீற்றுக்கு தாவு</target>
         <note>Search suggestion cell label that allows user to switch to tab which they searched for in url bar</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.AddMessage" xml:space="preserve">
@@ -2438,7 +2396,6 @@
       </trans-unit>
       <trans-unit id="SendTo.SignIn.Button" xml:space="preserve">
         <source>Sign In to Firefox</source>
-        <target>பயர்பாக்சில் உள்நுழை</target>
         <note>The text for the button on the Send to Device page if you are not signed in to Firefox Accounts.</note>
       </trans-unit>
       <trans-unit id="SentTab.AddToReadingListAction.Title" xml:space="preserve">
@@ -2558,7 +2515,6 @@
       </trans-unit>
       <trans-unit id="Settings.ClearSelectedWebsiteData.ClearSelected.Button" xml:space="preserve">
         <source>Clear Items: %1$@</source>
-        <target>உருப்படிகளைத் துடை: %1$@</target>
         <note>Button in Data Management that clears private data for the selected items. Parameter is the number of items to be cleared</note>
       </trans-unit>
       <trans-unit id="Settings.CopyAppVersion.Title" xml:space="preserve">
@@ -2789,7 +2745,6 @@
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.CustomizeFooter2" xml:space="preserve">
         <source>Sites you save or visit</source>
-        <target>நீங்கள் சேமிக்கும் (அ) பார்வையிடும் தளங்கள்</target>
         <note>The footer for the section to customize top sites in the new tab settings page.</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.CustomizeTitle" xml:space="preserve">
@@ -2839,7 +2794,6 @@
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.RecommendedByPocket" xml:space="preserve">
         <source>Recommended by %@</source>
-        <target>%@ ஆல் பரிந்துரைக்கப்படுகிறது</target>
         <note>Option in settings to turn on off pocket recommendations First argument is the pocket brand name</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.RecommendedByPocketDescription" xml:space="preserve">
@@ -2948,52 +2902,42 @@
       </trans-unit>
       <trans-unit id="Settings.Studies.Active.SectionName" xml:space="preserve">
         <source>Active</source>
-        <target>செயலில்</target>
         <note>Section title for all studies that are currently active</note>
       </trans-unit>
       <trans-unit id="Settings.Studies.Completed.SectionName" xml:space="preserve">
         <source>Completed</source>
-        <target>முடிவுற்றது</target>
         <note>Section title for all studies that are completed</note>
       </trans-unit>
       <trans-unit id="Settings.Studies.Remove.Button" xml:space="preserve">
         <source>Remove</source>
-        <target>நீக்கு</target>
         <note>Button title displayed next to each study allowing the user to opt-out of the study</note>
       </trans-unit>
       <trans-unit id="Settings.Studies.SectionName" xml:space="preserve">
         <source>Studies</source>
-        <target>ஆய்வுகள்</target>
         <note>Title displayed in header of the Studies panel</note>
       </trans-unit>
       <trans-unit id="Settings.Studies.Title" xml:space="preserve">
         <source>Studies</source>
-        <target>ஆய்வுகள்</target>
         <note>Label used as an item in Settings. Tapping on this item takes you to the Studies panel</note>
       </trans-unit>
       <trans-unit id="Settings.Studies.Toggle.Link" xml:space="preserve">
         <source>Learn More.</source>
-        <target>மேலும் அறிக.</target>
         <note>Title for a link that explains what Mozilla means by Studies</note>
       </trans-unit>
       <trans-unit id="Settings.Studies.Toggle.Message" xml:space="preserve">
         <source>Firefox may install and run studies from time to time.</source>
-        <target>பயர்பாக்சு அவ்வப்போது ஆய்வுகளை நிறுவி இயக்கக்கூடும்.</target>
         <note>A short description that explains that Mozilla is running studies</note>
       </trans-unit>
       <trans-unit id="Settings.Studies.Toggle.Off" xml:space="preserve">
         <source>Off</source>
-        <target>முடக்கு</target>
         <note>Toggled OFF to opt-out of studies</note>
       </trans-unit>
       <trans-unit id="Settings.Studies.Toggle.On" xml:space="preserve">
         <source>On</source>
-        <target>இயக்கு</target>
         <note>Toggled ON to participate in studies</note>
       </trans-unit>
       <trans-unit id="Settings.Studies.Toggle.Title" xml:space="preserve">
         <source>Studies</source>
-        <target>ஆய்வுகள்</target>
         <note>Label used as a toggle item in Settings. When this is off, the user is opting out of all studies.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.Alert.Button" xml:space="preserve">
@@ -3163,7 +3107,6 @@
       </trans-unit>
       <trans-unit id="Settings.WebsiteData.SelectedConfirmPrompt" xml:space="preserve">
         <source>This action will clear the selected items. It cannot be undone.</source>
-        <target>இச்செயல் தேர்ந்த உருப்படிகளைத் துடைக்கும். இதைச் செயல்தவிர்க்க இயலாது.</target>
         <note>Description of the confirmation dialog shown when a user tries to clear some of their private data.</note>
       </trans-unit>
       <trans-unit id="Settings.WebsiteData.Title" xml:space="preserve">
@@ -3274,7 +3217,6 @@
       </trans-unit>
       <trans-unit id="Sync.NoAccount.Description" xml:space="preserve">
         <source>No account? Create one to sync Firefox between devices.</source>
-        <target>கணக்கு இல்லையா? சாதனங்களுக்கு இடையே பயர்பாக்சை ஒத்திசைக்க ஒன்றை உருவாக்குக.</target>
         <note>String displayed on Sign In to Sync page that allows the user to create a new account.</note>
       </trans-unit>
       <trans-unit id="Sync.Syncing.Label" xml:space="preserve">
@@ -3364,27 +3306,22 @@
       </trans-unit>
       <trans-unit id="TabTray.CurrentSelectedTab.A11Y" xml:space="preserve">
         <source>Currently selected tab.</source>
-        <target>தற்போது தேர்ந்தெடுக்கப்பட்ட கீற்று.</target>
         <note>Accessibility label for the currently selected tab.</note>
       </trans-unit>
       <trans-unit id="TabTray.InactiveTabs.SectionTitle" xml:space="preserve">
         <source>Inactive Tabs</source>
-        <target>செயலற்ற கீற்றுகள்</target>
         <note>Title for the inactive tabs section. This section groups all tabs that haven't been used in a while.</note>
       </trans-unit>
       <trans-unit id="TabTray.LastWeek.Header" xml:space="preserve">
         <source>Last Week</source>
-        <target>கடந்த வாரம்</target>
         <note>The section header for tabs opened last week</note>
       </trans-unit>
       <trans-unit id="TabTray.MoreMenu.Copy" xml:space="preserve">
         <source>Copy</source>
-        <target>நகலெடு</target>
         <note>The title on the button to copy the tab address.</note>
       </trans-unit>
       <trans-unit id="TabTray.Older.Header" xml:space="preserve">
         <source>Older</source>
-        <target>பழையவை</target>
         <note>The section header for tabs opened before last week</note>
       </trans-unit>
       <trans-unit id="TabTray.OpenNewTab.KeyCodeTitle" xml:space="preserve">
@@ -3399,7 +3336,6 @@
       </trans-unit>
       <trans-unit id="TabTray.PrivateTitle" xml:space="preserve">
         <source>Private Tabs</source>
-        <target>கமுக்கக் கீற்றுகள்</target>
         <note>The title for the tab tray in private mode</note>
       </trans-unit>
       <trans-unit id="TabTray.RecentlyClosed.Description" xml:space="preserve">
@@ -3408,42 +3344,34 @@
       </trans-unit>
       <trans-unit id="TabTray.RecentlyClosed.SectionTitle" xml:space="preserve">
         <source>Recently closed</source>
-        <target>அண்மையில் மூடப்பட்டவை</target>
         <note>Title for the recently closed tabs section. This section shows a list of all the tabs that have been recently closed.</note>
       </trans-unit>
       <trans-unit id="TabTray.SegmentedControlTitles.PrivateTabs" xml:space="preserve">
         <source>Private</source>
-        <target>கமுக்க</target>
         <note>The title on the button to look at private tabs.</note>
       </trans-unit>
       <trans-unit id="TabTray.SegmentedControlTitles.SyncedTabs" xml:space="preserve">
         <source>Synced</source>
-        <target>ஒத்திசைக்கப்பட்ட</target>
         <note>The title on the button to look at synced tabs.</note>
       </trans-unit>
       <trans-unit id="TabTray.SegmentedControlTitles.Tabs" xml:space="preserve">
         <source>Tabs</source>
-        <target>கீற்றுகள்</target>
         <note>The title on the button to look at regular tabs.</note>
       </trans-unit>
       <trans-unit id="TabTray.SwipeMenu.More" xml:space="preserve">
         <source>More</source>
-        <target>மேலும்</target>
         <note>The button title to see more options to perform on the tab.</note>
       </trans-unit>
       <trans-unit id="TabTray.Title" xml:space="preserve">
         <source>Open Tabs</source>
-        <target>திறந்த கீற்றுகள்</target>
         <note>The title for the tab tray</note>
       </trans-unit>
       <trans-unit id="TabTray.Today.Header" xml:space="preserve">
         <source>Today</source>
-        <target>இன்று</target>
         <note>The section header for tabs opened today</note>
       </trans-unit>
       <trans-unit id="TabTray.Yesterday.Header" xml:space="preserve">
         <source>Yesterday</source>
-        <target>நேற்று</target>
         <note>The section header for tabs opened yesterday</note>
       </trans-unit>
       <trans-unit id="Tabs %@ to %@ of %@" xml:space="preserve">
@@ -3643,12 +3571,10 @@
       </trans-unit>
       <trans-unit id="fxa.signin.create-account-pt-1" xml:space="preserve">
         <source>Sync Firefox between devices with an account.</source>
-        <target>ஒரு கணக்குடன் சாதனங்களுக்கு இடையே பயர்பாக்சை ஒத்திசை.</target>
         <note>FxA sign in create account label.</note>
       </trans-unit>
       <trans-unit id="fxa.signin.create-account-pt-2" xml:space="preserve">
         <source>Create Firefox account.</source>
-        <target>பயர்பாக்சு கணக்கை உருவாக்கு.</target>
         <note>FxA sign in create account label. This will be linked to the site to create an account.</note>
       </trans-unit>
       <trans-unit id="fxa.signin.qr-link-instruction" xml:space="preserve">
@@ -3720,7 +3646,7 @@
   </file>
   <file original="Shared/en.lproj/LoginManager.strings" source-language="en" target-language="ta" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="Are you sure?" xml:space="preserve">
@@ -3832,7 +3758,7 @@
   </file>
   <file original="Shared/en.lproj/Menu.strings" source-language="en" target-language="ta" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="Menu.AddBookmarkAction.Title" xml:space="preserve">
@@ -3842,7 +3768,6 @@
       </trans-unit>
       <trans-unit id="Menu.AddBookmarkAction2.Title" xml:space="preserve">
         <source>Add Bookmark</source>
-        <target>புத்தகக்குறியைச் சேர்</target>
         <note>Label for the button, displayed in the menu, used to create a bookmark for the current website.</note>
       </trans-unit>
       <trans-unit id="Menu.AddToReadingList.Title" xml:space="preserve">
@@ -3862,7 +3787,6 @@
       </trans-unit>
       <trans-unit id="Menu.CopyLink.Title" xml:space="preserve">
         <source>Copy Link</source>
-        <target>தொடுப்பை நகலெடு</target>
         <note>Label for the button, displayed in the menu, used to copy the current page link to the clipboard.</note>
       </trans-unit>
       <trans-unit id="Menu.FindInPageAction.Title" xml:space="preserve">
@@ -3937,7 +3861,6 @@
       </trans-unit>
       <trans-unit id="Menu.RecentlySaved.Title" xml:space="preserve">
         <source>Recently Saved</source>
-        <target>அண்மையில் சேமித்தவை</target>
         <note>A string used to signify the start of the Recently Saved section in Home Screen.</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveBookmarkAction.Title" xml:space="preserve">
@@ -3947,7 +3870,6 @@
       </trans-unit>
       <trans-unit id="Menu.ReportSiteIssueAction.Title" xml:space="preserve">
         <source>Report Site Issue</source>
-        <target>தள சிக்கலைத் புகாரளி</target>
         <note>Label for the button, displayed in the menu, used to report a compatibility issue with the current page.</note>
       </trans-unit>
       <trans-unit id="Menu.ScanQRCodeAction.Title" xml:space="preserve">
@@ -3989,7 +3911,7 @@
   </file>
   <file original="Shared/en.lproj/PrivateBrowsing.strings" source-language="en" target-language="ta" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="Close Private Tabs" xml:space="preserve">
@@ -4046,7 +3968,7 @@
   </file>
   <file original="Shared/en.lproj/Search.strings" source-language="en" target-language="ta" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="%@ search" xml:space="preserve">
@@ -4068,7 +3990,7 @@
   </file>
   <file original="Shared/en.lproj/Shared.strings" source-language="en" target-language="ta" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="%@ on %@" xml:space="preserve">
@@ -4080,7 +4002,7 @@
   </file>
   <file original="Shared/en.lproj/Storage.strings" source-language="en" target-language="ta" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="Bookmarks Menu" xml:space="preserve">
@@ -4107,12 +4029,11 @@
   </file>
   <file original="Shared/en.lproj/Today.strings" source-language="en" target-language="ta" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="TodayWidget.ClosePrivateTabsButton" xml:space="preserve">
         <source>Close Private Tabs</source>
-        <target>கமுக்க கீற்றுகளை மூடு</target>
         <note>Close Private Tabs button label</note>
       </trans-unit>
       <trans-unit id="TodayWidget.ClosePrivateTabsLabelV2" xml:space="preserve">
@@ -4133,22 +4054,18 @@ Tabs</source>
       </trans-unit>
       <trans-unit id="TodayWidget.DropDownMenuItemClearPrivateTabs" xml:space="preserve">
         <source>Clear Private Tabs</source>
-        <target>கமுக்க கீற்றுகளைத் துடை</target>
         <note>Quick Actions drop down menu item for lear Private Tabs when widget enters edit mode and drop down menu expands</note>
       </trans-unit>
       <trans-unit id="TodayWidget.DropDownMenuItemGoToCopiedLink" xml:space="preserve">
         <source>Go to Copied Link</source>
-        <target>நகலெடுத்த தொடுப்பிற்கு செல்</target>
         <note>Quick Actions drop down menu item for Go to Copied Link when widget enters edit mode and drop down menu expands</note>
       </trans-unit>
       <trans-unit id="TodayWidget.DropDownMenuItemNewPrivateSearch" xml:space="preserve">
         <source>New Private Search</source>
-        <target>புது கமுக்கத் தேடல்</target>
         <note>Quick Actions drop down menu item for new private search when widget enters edit mode and drop down menu expands</note>
       </trans-unit>
       <trans-unit id="TodayWidget.DropDownMenuItemNewSearch" xml:space="preserve">
         <source>New Search</source>
-        <target>புதிய தேடல்</target>
         <note>Quick Actions drop down menu item for new search when widget enters edit mode and drop down menu expands</note>
       </trans-unit>
       <trans-unit id="TodayWidget.FirefoxShortcutGalleryDescription" xml:space="preserve">
@@ -4181,12 +4098,10 @@ Link</source>
       </trans-unit>
       <trans-unit id="TodayWidget.NewPrivateTabButtonLabelV2" xml:space="preserve">
         <source>Search in Private Tab</source>
-        <target>கமுக்க கீற்றில் தேடு</target>
         <note>Open New Private Tab button label for medium size action</note>
       </trans-unit>
       <trans-unit id="TodayWidget.NewSearchButtonLabelV1" xml:space="preserve">
         <source>Search in Firefox</source>
-        <target>பயர்பாக்சில் தேடு</target>
         <note>Open New Tab button label</note>
       </trans-unit>
       <trans-unit id="TodayWidget.NewTabButtonLabelV1" xml:space="preserve">
@@ -4196,17 +4111,14 @@ Link</source>
       </trans-unit>
       <trans-unit id="TodayWidget.NoOpenTabsLabel" xml:space="preserve">
         <source>No open tabs.</source>
-        <target>திறந்த கீற்றுகள் இல்லை.</target>
         <note>Label that is shown when there are no tabs opened in tab tray i.e. Empty State</note>
       </trans-unit>
       <trans-unit id="TodayWidget.NoOpenTabsLabelV2" xml:space="preserve">
         <source>No Open Tabs</source>
-        <target>திறந்த கீற்றுகள் இல்லை.</target>
         <note>Label that is shown when there are no tabs opened in tab tray i.e. Empty State</note>
       </trans-unit>
       <trans-unit id="TodayWidget.OpenFirefoxLabel" xml:space="preserve">
         <source>Open Firefox</source>
-        <target>பயர்பாக்சைத் திற</target>
         <note>Open Firefox when there are no tabs opened in tab tray i.e. Empty State</note>
       </trans-unit>
       <trans-unit id="TodayWidget.PocketWidgetGalleryDescription" xml:space="preserve">
@@ -4232,7 +4144,6 @@ Link</source>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickActionDropDownMenu" xml:space="preserve">
         <source>Quick action</source>
-        <target>விரைவுச் செயல்</target>
         <note>Quick Actions left label text for dropdown menu when widget enters edit mode</note>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickActionGalleryDescription" xml:space="preserve">
@@ -4241,47 +4152,38 @@ Link</source>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickActionsGalleryTitle" xml:space="preserve">
         <source>Quick Actions</source>
-        <target>விரைவுச் செயல்கள்</target>
         <note>Quick Actions title when widget enters edit mode</note>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickActionsGalleryTitleV2" xml:space="preserve">
         <source>Firefox Shortcuts</source>
-        <target>பயர்பாக்சு குறுக்குவழிகள்</target>
         <note>Firefox shortcuts title when widget enters edit mode. Do not translate the word Firefox.</note>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickActionsSubLabel" xml:space="preserve">
         <source>Firefox - Quick Actions</source>
-        <target>பயர்பாக்சு - விரைவுச் செயல்கள்</target>
         <note>Sub label for medium size quick action widget</note>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickViewGalleryDescription" xml:space="preserve">
         <source>Access your open tabs directly on your homescreen.</source>
-        <target>திறந்த கீற்றுகளை நேரடியாக உமது முகப்புத் திரையில் அணுகு.</target>
         <note>Description for Quick View widget in Gallery View where user can add it to home screen</note>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickViewGalleryDescriptionV2" xml:space="preserve">
         <source>Add shortcuts to your open tabs.</source>
-        <target>குறுக்குவழிகளைத் திறந்த கீற்றுகளுக்குச் சேர்.</target>
         <note>Description for Quick View widget in Gallery View where user can add it to home screen</note>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickViewGalleryTitle" xml:space="preserve">
         <source>Quick View</source>
-        <target>விரைவுப் பார்வை</target>
         <note>Title for Quick View widget in Gallery View where user can add it to home screen</note>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickViewLargeGalleryDescription" xml:space="preserve">
         <source>Add shortcuts to your open tabs.</source>
-        <target>குறுக்குவழிகளைத் திறந்த கீற்றுகளுக்குச் சேர்.</target>
         <note>Description for Quick View widget in Gallery View where user can add it to home screen</note>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickViewOpenTabsSubLabel" xml:space="preserve">
         <source>Firefox - Open Tabs</source>
-        <target>பயர்பாக்சு - திறந்த கீற்றுகள்</target>
         <note>Sub label for Top Sites widget</note>
       </trans-unit>
       <trans-unit id="TodayWidget.SearchInFirefoxTitle" xml:space="preserve">
         <source>Search in Firefox</source>
-        <target>பயர்பாக்சில் தேடு</target>
         <note>Title for small size widget which allows users to search in Firefox. Do not translate the word Firefox.</note>
       </trans-unit>
       <trans-unit id="TodayWidget.SearchInFirefoxV2" xml:space="preserve">
@@ -4300,39 +4202,33 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="TodayWidget.TopSitesGalleryTitle" xml:space="preserve">
         <source>Top Sites</source>
-        <target>முதன்மை தளங்கள்</target>
         <note>Title for top sites widget to add Firefox top sites shotcuts to home screen</note>
       </trans-unit>
       <trans-unit id="TodayWidget.TopSitesGalleryTitleV2" xml:space="preserve">
         <source>Website Shortcuts</source>
-        <target>வலைதள குறுக்குவழிகள்</target>
         <note>Title for top sites widget to add Firefox top sites shotcuts to home screen</note>
       </trans-unit>
       <trans-unit id="TodayWidget.TopSitesSubLabel" xml:space="preserve">
         <source>Firefox - Top Sites</source>
-        <target>பயர்பாக்சு - முதன்மை தளங்கள்</target>
         <note>Sub label for Top Sites widget</note>
       </trans-unit>
       <trans-unit id="TodayWidget.TopSitesSubLabel2" xml:space="preserve">
         <source>Firefox - Website Shortcuts</source>
-        <target>பயர்பாக்சு - வலைதள குறுக்குவழிகள்</target>
         <note>Sub label for Shortcuts widget</note>
       </trans-unit>
       <trans-unit id="TodayWidget.ViewMore" xml:space="preserve">
         <source>View More</source>
-        <target>மேலும் பார்</target>
         <note>View More for Quick View widget in Gallery View where we don't know how many tabs might be opened</note>
       </trans-unit>
       <trans-unit id="TodayWidget.ViewMoreDots" xml:space="preserve">
         <source>View More…</source>
-        <target>மேலும் பார்…</target>
         <note>View More… for Firefox Pocket stories widget where we don't know how many articles are available.</note>
       </trans-unit>
     </body>
   </file>
   <file original="Shared/Supporting Files/en.lproj/BookmarkPanel.strings" datatype="plaintext" source-language="en" target-language="ta">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="Delete" xml:space="preserve">
@@ -4343,7 +4239,7 @@ Private Tab</source>
   </file>
   <file original="Shared/Supporting Files/en.lproj/BookmarkPanelDeleteConfirm.strings" datatype="plaintext" source-language="en" target-language="ta">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="Bookmarks.DeleteFolderWarning.CancelButton.Label" xml:space="preserve">
@@ -4360,59 +4256,49 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Bookmarks.DeleteFolderWarning.Title" xml:space="preserve">
         <source>This folder isn’t empty.</source>
-        <target>இவ்வடைவு காலியாக இல்லை.</target>
         <note>Title of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
       </trans-unit>
     </body>
   </file>
   <file original="WidgetKit/Base.lproj/WidgetIntents.intentdefinition" datatype="plaintext" source-language="en" target-language="ta">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="2GqvPe" xml:space="preserve">
         <source>Go to Copied Link</source>
-        <target>நகலெடுத்த தொடுப்பிற்கு செல்</target>
         <note>Quick Actions drop down menu item for Go to Copied Link when widget enters edit mode and drop down menu expands</note>
       </trans-unit>
       <trans-unit id="PzSrmZ-2GqvPe" xml:space="preserve">
         <source>Just to confirm, you wanted ‘Go to Copied Link’?</source>
-        <target>உறுதிப்படுத்த, நீங்கள் ‘நகலெடுத்த தொடுப்பிற்குச் செல்ல’ வேண்டுமா?</target>
         <note>Accessibility label to confirm the go to copied link selection</note>
       </trans-unit>
       <trans-unit id="PzSrmZ-eHmH1H" xml:space="preserve">
         <source>Just to confirm, you wanted ‘Clear Private Tabs’?</source>
-        <target>உறுதிப்படுத்த, உங்களுக்கு ‘கமுக்க கீற்றுகளைத் துடைக்க’ வேண்டுமா?</target>
         <note>Accessibility label to confirm the Clear Private Tabs selection</note>
       </trans-unit>
       <trans-unit id="PzSrmZ-scEmjs" xml:space="preserve">
         <source>Just to confirm, you wanted ‘New Private Search’?</source>
-        <target>உறுதிப்படுத்த, உங்களுக்கு ‘புதிய கமுக்க தேடல்’ வேண்டுமா?</target>
         <note>Accessibility label to confirm the New Private Search selection</note>
       </trans-unit>
       <trans-unit id="PzSrmZ-xRJbBP" xml:space="preserve">
         <source>Just to confirm, you wanted ‘New Search’?</source>
-        <target>உறுதிப்படுத்த, உங்களுக்கு ‘புதிய தேடல்’ வேண்டுமா?</target>
         <note>Accessibility label to confirm the New Search selection</note>
       </trans-unit>
       <trans-unit id="ctDNmu" xml:space="preserve">
         <source>Quick access to various Firefox actions</source>
-        <target>பல்வேறு பயர்பாக்சு செயல்களுக்கான விரைவு அணுகல்</target>
         <note>Description of the collection of widgets</note>
       </trans-unit>
       <trans-unit id="eHmH1H" xml:space="preserve">
         <source>Clear Private Tabs</source>
-        <target>கமுக்க கீற்றுகளைத் துடை</target>
         <note>Quick Actions drop down menu item for lear Private Tabs when widget enters edit mode and drop down menu expands</note>
       </trans-unit>
       <trans-unit id="eV8mOT" xml:space="preserve">
         <source>Quick Action Type</source>
-        <target>விரைவுச் செயல் வகை</target>
         <note>The description of a customizable section of the widget</note>
       </trans-unit>
       <trans-unit id="eqyNJg" xml:space="preserve">
         <source>Quick Action</source>
-        <target>விரைவுச் செயல்</target>
         <note>Title of the quick actions widgets</note>
       </trans-unit>
       <trans-unit id="fi3W24-2GqvPe" xml:space="preserve">
@@ -4433,29 +4319,25 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="scEmjs" xml:space="preserve">
         <source>New Private Search</source>
-        <target>புதிய கமுக்கத் தேடல்</target>
         <note>Quick Actions drop down menu item for new private search when widget enters edit mode and drop down menu expands</note>
       </trans-unit>
       <trans-unit id="w9jdPK" xml:space="preserve">
         <source>Quick Action</source>
-        <target>விரைவுச் செயல்</target>
         <note>Quick Actions left label text for dropdown menu when widget enters edit mode</note>
       </trans-unit>
       <trans-unit id="xRJbBP" xml:space="preserve">
         <source>New Search</source>
-        <target>புதிய தேடல்</target>
         <note>Quick Actions drop down menu item for new search when widget enters edit mode and drop down menu expands</note>
       </trans-unit>
     </body>
   </file>
   <file original="WidgetKit/en.lproj/Localizable.strings" datatype="plaintext" source-language="en" target-language="ta">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5" build-num="12E262"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="Open Firefox" xml:space="preserve">
         <source>Open Firefox</source>
-        <target>பயர்பாசைத் திற</target>
         <note>No comment provided by engineer.</note>
       </trans-unit>
     </body>
