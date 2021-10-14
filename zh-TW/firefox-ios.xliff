@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Client/en.lproj/InfoPlist.strings" source-language="en" target-language="zh-TW" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A233"/>
@@ -655,10 +656,12 @@
       </trans-unit>
       <trans-unit id="ActivityStream.JumpBackIn.TabGroup.SiteCount" xml:space="preserve">
         <source>Tabs: %d</source>
+        <target>分頁: %d</target>
         <note>On the Firefox homepage in the Jump Back In section, if a Tab group item - a collection of grouped tabs from a related search - exists underneath the search term for the tab group, there will be a subtitle with a number for how many tabs are in that group. The placeholder is for a number. It will read 'Tabs: 5' or similar.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.JumpBackIn.TabGroup.Title" xml:space="preserve">
         <source>Your search for "%@"</source>
+        <target>「%@」的搜尋結果</target>
         <note>On the Firefox homepage in the Jump Back In section, if a Tab group item - a collection of grouped tabs from a related search - exists, the Tab Group item title will be 'Your search for \"video games\"'. The %@ sign is a placeholder for the actual search the user did.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Library.Title" xml:space="preserve">
@@ -708,6 +711,7 @@
       </trans-unit>
       <trans-unit id="ActivityStream.RecentlyVisited.RemoveButton.Title" xml:space="preserve">
         <source>Remove</source>
+        <target>移除</target>
         <note>When long pressing an item in the Recently Visited section, this is the title of the button that appears, letting the user know to remove that particular item from the menu.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Shortcuts.SectionTitle" xml:space="preserve">
@@ -1023,10 +1027,12 @@
       </trans-unit>
       <trans-unit id="ContextualHints.Homepage.PersonalizedHome" xml:space="preserve">
         <source>Your personalized Firefox homepage now makes it easier to pick up where you left off. Find your recent tabs, bookmarks, and search results.</source>
+        <target>現在起，有您的風格的 Firefox 首頁，可讓您更簡單就從上次結束瀏覽的地方繼續上網。快速找到您最近開啟的分頁、書籤、搜尋結果等分頁。</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one talks about the more personalized home feature.</note>
       </trans-unit>
       <trans-unit id="ContextualHints.TabTray.InactiveTabs" xml:space="preserve">
         <source>Tabs you haven’t viewed for two weeks get moved here.</source>
+        <target>超過兩週沒有檢視過的分頁，將移動至此處。</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one is the call to action for the inactive tabs contextual popup.
    Contextual hints are little popups that appear for the users informing them of new features. This one talks about the inactive tabs feature.</note>
       </trans-unit>
@@ -1254,6 +1260,7 @@
       </trans-unit>
       <trans-unit id="FirefoxHome.CustomizeHomeButton.Title" xml:space="preserve">
         <source>Customize Homepage</source>
+        <target>自訂首頁</target>
         <note>A button at bottom of the Firefox homepage that, when clicked, takes users straight to the settings options, where they can customize the Firefox Home page</note>
       </trans-unit>
       <trans-unit id="Forward" xml:space="preserve">
@@ -1598,18 +1605,22 @@
       </trans-unit>
       <trans-unit id="InactiveTabs.TabTray.AutoClosePrompt.ButtonTitle" xml:space="preserve">
         <source>Turn on Auto Close</source>
+        <target>開啟「分頁自動關閉」功能</target>
         <note>In the Tabs Tray, in the Inactive Tabs section, a prompt may come up about auto-closing tabs. This string is for the button the user must tap in order to turn on the Auto close feature</note>
       </trans-unit>
       <trans-unit id="InactiveTabs.TabTray.AutoClosePrompt.Content" xml:space="preserve">
         <source>Firefox will close tabs you haven’t viewed over the past month.</source>
+        <target>Firefox 將自動關閉您超過一個月未檢視的分頁。</target>
         <note>In the Tabs Tray, in the Inactive Tabs section, a prompt may come up about auto-closing tabs. This string describes what happens if you elect to turn on this option.</note>
       </trans-unit>
       <trans-unit id="InactiveTabs.TabTray.AutoClosePrompt.Title" xml:space="preserve">
         <source>Auto-close after one month?</source>
+        <target>等一個月後再自動關閉？</target>
         <note>In the Tabs Tray, in the Inactive Tabs section, a prompt may come up about auto-closing tabs. This is the title of that Auto Close prompt</note>
       </trans-unit>
       <trans-unit id="InactiveTabs.TabTray.CloseButtonTitle" xml:space="preserve">
         <source>Close All Inactive Tabs</source>
+        <target>關閉所有閒置分頁</target>
         <note>In the Tabs Tray, in the Inactive Tabs section, this is the button the user must tap in order to close all inactive tabs.</note>
       </trans-unit>
       <trans-unit id="Increase text size" xml:space="preserve">
@@ -2147,34 +2158,42 @@
       </trans-unit>
       <trans-unit id="Onboarding.WhatsNew.Button.Title" xml:space="preserve">
         <source>Start Browsing</source>
+        <target>開始上網</target>
         <note>On the onboarding card letting users know what's new in this version of Firefox, this is the title for the button, on the bottom of the card, used to get back to browsing on Firefox by dismissing the onboarding card</note>
       </trans-unit>
       <trans-unit id="Onboarding.WhatsNew.Description" xml:space="preserve">
         <source>It’s now easier to pick up where you left off.</source>
+        <target>更簡單就能回到上次中斷的地方繼續上網。</target>
         <note>On the onboarding card, letting users know what's new in this version of Firefox, this is a general description that appears under the title for what the card is about.</note>
       </trans-unit>
       <trans-unit id="Onboarding.WhatsNew.PersonalizedHome.Description" xml:space="preserve">
         <source>Jump to your open tabs, bookmarks, and browsing history.</source>
+        <target>跳到您開啟的分頁、書籤、上網紀錄等。</target>
         <note>On the onboarding card, letting users know what's new in this version of Firefox, this is the description for the Jump Back In bullet point</note>
       </trans-unit>
       <trans-unit id="Onboarding.WhatsNew.RecentSearches.Description" xml:space="preserve">
         <source>Revisit your latest searches from your homepage.</source>
+        <target>從首頁快速重新造訪先前的搜尋結果。</target>
         <note>On the onboarding card letting users know what's new in this version of Firefox, this is the descripion of the Recent Searches bullet point on the card</note>
       </trans-unit>
       <trans-unit id="Onboarding.WhatsNew.RecentSearches.Title" xml:space="preserve">
         <source>Recent Searches</source>
+        <target>最近搜尋內容</target>
         <note>On the onboarding card letting users know what's new in this version of Firefox, this is the title for the Recent Searches bullet point on the card</note>
       </trans-unit>
       <trans-unit id="Onboarding.WhatsNew.TabGroups.Description" xml:space="preserve">
         <source>Pages from the same search get grouped together.</source>
+        <target>把同一次搜尋開啟的頁面分在同一組。</target>
         <note>On the onboarding card letting users know what's new in this version of Firefox, this is the description for the Tab Group bullet point on the card</note>
       </trans-unit>
       <trans-unit id="Onboarding.WhatsNew.TabGroups.Title" xml:space="preserve">
         <source>Tidier Tab Groups</source>
+        <target>更精簡的分頁群組</target>
         <note>On the onboarding card, letting users know what's new in this version of Firefox, this is the title for the Tab Group bullet point on the card</note>
       </trans-unit>
       <trans-unit id="Onboarding.WhatsNew.Title" xml:space="preserve">
         <source>What’s New in Firefox</source>
+        <target>Firefox 有什麼新鮮事</target>
         <note>On the onboarding card, letting users know what's new in this version of Firefox, this is the title for the Jump Back In bullet point on the card
    The title for the new onboarding card letting users know what is new in Firefox iOS</note>
       </trans-unit>
@@ -2809,54 +2828,67 @@
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Description" xml:space="preserve">
         <source>Choose content you see on the Firefox homepage.</source>
+        <target>選擇要在 Firefox 首頁看到哪些東西。</target>
         <note>In the settings menu, on the Firefox homepage customization section, this is the description below the section, describing what the options in the section are for.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.JumpBackIn" xml:space="preserve">
         <source>Jump Back In</source>
+        <target>回到先前開啟頁面</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle the Jump Back In section on homepage on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Pocket" xml:space="preserve">
         <source>Recommended by Pocket</source>
+        <target>Pocket 推薦內容</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Pocket Recommendations section on the Firefox homepage on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.RecentSearches" xml:space="preserve">
         <source>Recent Searches</source>
+        <target>最近搜尋內容</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Recent Searches section on the Firefox homepage on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.RecentlySaved" xml:space="preserve">
         <source>Recently Saved</source>
+        <target>最近儲存</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Recently Saved section on the Firefox homepage on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.RecentlyVisited" xml:space="preserve">
         <source>Recently Visited</source>
+        <target>最近造訪過的頁面</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Recently Visited section on the Firfox homepage on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Shortcuts" xml:space="preserve">
         <source>Shortcuts</source>
+        <target>捷徑</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Shortcuts section on the Firefox homepage on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.StartAtHome.AfterFourHours" xml:space="preserve">
         <source>Homepage after four hours of inactivity</source>
+        <target>超過四個小時未使用就回到首頁</target>
         <note>In the settings menu, on the Start at Home homepage customization option, this allows users to set this setting to return to the Homepage after four hours of inactivity.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.StartAtHome.Always" xml:space="preserve">
         <source>Homepage</source>
+        <target>首頁</target>
         <note>In the settings menu, on the Start at Home homepage customization option, this allows users to set this setting to return to the Homepage every time they open up Firefox</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.StartAtHome.Description" xml:space="preserve">
         <source>Choose what you see when you return to Firefox.</source>
+        <target>選擇回到 Firefox 時想看到什麼。</target>
         <note>In the settings menu, in the Start at Home customization options, this is text that appears below the section, describing what the section settings do.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.StartAtHome.Never" xml:space="preserve">
         <source>Last tab</source>
+        <target>最後開啟的分頁</target>
         <note>In the settings menu, on the Start at Home homepage customization option, this allows users to set this setting to return to the last tab they were on, every time they open up Firefox</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.StartAtHome.Title" xml:space="preserve">
         <source>Opening screen</source>
+        <target>開啟畫面</target>
         <note>Title for the section in the settings menu where users can configure the behaviour of the Start at Home feature on the Firefox Homepage.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Title" xml:space="preserve">
         <source>Firefox Homepage</source>
+        <target>Firefox 首頁</target>
         <note>In the settings menu, this is the title of the Firefox Homepage customization settings section</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.Clear.Button" xml:space="preserve">
@@ -3146,18 +3178,22 @@
       </trans-unit>
       <trans-unit id="Settings.Tabs.CustomizeTabsSection.InactiveTabs" xml:space="preserve">
         <source>Inactive Tabs</source>
+        <target>閒置分頁</target>
         <note>In the settings menu, in the Tabs customization section, this is the title for the setting that toggles the Inactive Tabs feature, a separate section of inactive tabs that appears in the Tab Tray, on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Tabs.CustomizeTabsSection.TabGroups" xml:space="preserve">
         <source>Tab Groups</source>
+        <target>分頁群組</target>
         <note>In the settings menu, in the Tabs customization section, this is the title for the setting that toggles the Tab Groups feature - where tabs from related searches are grouped - on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Tabs.CustomizeTabsSection.Title" xml:space="preserve">
         <source>Customize Tab Tray</source>
+        <target>自訂分頁列</target>
         <note>In the settings menu, in the Tabs customization section, this is the title for the Tabs Tray customization section. The tabs tray is accessed from firefox hompage</note>
       </trans-unit>
       <trans-unit id="Settings.Tabs.Title" xml:space="preserve">
         <source>Tabs</source>
+        <target>分頁</target>
         <note>In the settings menu, this is the title for the Tabs customization section option</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.Alert.Button" xml:space="preserve">
@@ -3563,6 +3599,7 @@
       </trans-unit>
       <trans-unit id="TabTray.OtherTabs.Title" xml:space="preserve">
         <source>Other tabs</source>
+        <target>其他分頁</target>
         <note>In the Tabs Tray, summoned from the homepage, the title for the section containing non-grouped tabs, which will appear below grouped tabs</note>
       </trans-unit>
       <trans-unit id="TabTray.PrivateTitle" xml:space="preserve">
@@ -4156,6 +4193,7 @@
       </trans-unit>
       <trans-unit id="SettingsMenu.OpenHomePageAction.Title" xml:space="preserve">
         <source>Homepage</source>
+        <target>首頁</target>
         <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
       </trans-unit>
     </body>
