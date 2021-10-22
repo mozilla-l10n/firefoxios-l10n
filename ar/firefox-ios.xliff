@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Client/en.lproj/InfoPlist.strings" source-language="en" target-language="ar" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A233"/>
@@ -653,14 +654,17 @@
       </trans-unit>
       <trans-unit id="ActivityStream.JumpBackIn.TabGroup.SiteCount" xml:space="preserve">
         <source>Tabs: %d</source>
+        <target>الألسنة: %d</target>
         <note>On the Firefox homepage in the Jump Back In section, if a Tab group item - a collection of grouped tabs from a related search - exists underneath the search term for the tab group, there will be a subtitle with a number for how many tabs are in that group. The placeholder is for a number. It will read 'Tabs: 5' or similar.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.JumpBackIn.TabGroup.Title" xml:space="preserve">
         <source>Your search for "%@"</source>
+        <target>نتائج البحث عن ”%@“</target>
         <note>On the Firefox homepage in the Jump Back In section, if a Tab group item - a collection of grouped tabs from a related search - exists, the Tab Group item title will be 'Your search for \"video games\"'. The %@ sign is a placeholder for the actual search the user did.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Library.Title" xml:space="preserve">
         <source>Recently Saved</source>
+        <target>المحفوظة حديثًا</target>
         <note>A string used to signify the start of the Recently Saved section in Home Screen.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.NewRecentBookmarks.Title" xml:space="preserve">
@@ -695,14 +699,17 @@
       </trans-unit>
       <trans-unit id="ActivityStream.RecentlySaved.SectionTitle" xml:space="preserve">
         <source>Recently Saved</source>
+        <target>المحفوظة حديثًا</target>
         <note>Section title for the Recently Saved section. This shows websites that have had a save action. Right now it is just bookmarks but it could be used for other things like the reading list in the future.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.RecentlySaved.ShowAll" xml:space="preserve">
         <source>Show all</source>
+        <target>اعرض الكل</target>
         <note>This button will open the library showing all the users bookmarks</note>
       </trans-unit>
       <trans-unit id="ActivityStream.RecentlyVisited.RemoveButton.Title" xml:space="preserve">
         <source>Remove</source>
+        <target>أزِل</target>
         <note>When long pressing an item in the Recently Visited section, this is the title of the button that appears, letting the user know to remove that particular item from the menu.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Shortcuts.SectionTitle" xml:space="preserve">
@@ -1018,10 +1025,12 @@
       </trans-unit>
       <trans-unit id="ContextualHints.Homepage.PersonalizedHome" xml:space="preserve">
         <source>Your personalized Firefox homepage now makes it easier to pick up where you left off. Find your recent tabs, bookmarks, and search results.</source>
+        <target>تُسهّل الآن صفحة بداية Firefox مواصلة ما كنتَ تركته سابقًا. ستجد فيها أحدث الألسنة والعلامات ونتائج البحث.</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one talks about the more personalized home feature.</note>
       </trans-unit>
       <trans-unit id="ContextualHints.TabTray.InactiveTabs" xml:space="preserve">
         <source>Tabs you haven’t viewed for two weeks get moved here.</source>
+        <target>ستُنقل الألسنة التي لم تعرضها منذ أسبوعين إلى هنا.</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one is the call to action for the inactive tabs contextual popup.
    Contextual hints are little popups that appear for the users informing them of new features. This one talks about the inactive tabs feature.</note>
       </trans-unit>
@@ -1249,6 +1258,7 @@
       </trans-unit>
       <trans-unit id="FirefoxHome.CustomizeHomeButton.Title" xml:space="preserve">
         <source>Customize Homepage</source>
+        <target>خصّص صفحة البداية</target>
         <note>A button at bottom of the Firefox homepage that, when clicked, takes users straight to the settings options, where they can customize the Firefox Home page</note>
       </trans-unit>
       <trans-unit id="Forward" xml:space="preserve">
@@ -1473,6 +1483,7 @@
       </trans-unit>
       <trans-unit id="Home" xml:space="preserve">
         <source>Home</source>
+        <target>صفحة البداية</target>
         <note>Accessibility label for the tab toolbar indicating the Home button.</note>
       </trans-unit>
       <trans-unit id="HomePage.Set.Dialog.Cancel" xml:space="preserve">
@@ -1592,10 +1603,12 @@
       </trans-unit>
       <trans-unit id="InactiveTabs.TabTray.AutoClosePrompt.ButtonTitle" xml:space="preserve">
         <source>Turn on Auto Close</source>
+        <target>شغّل الإغلاق التلقائي</target>
         <note>In the Tabs Tray, in the Inactive Tabs section, a prompt may come up about auto-closing tabs. This string is for the button the user must tap in order to turn on the Auto close feature</note>
       </trans-unit>
       <trans-unit id="InactiveTabs.TabTray.AutoClosePrompt.Content" xml:space="preserve">
         <source>Firefox will close tabs you haven’t viewed over the past month.</source>
+        <target>سيُغلق Firefox الألسنة التي لم تعرضها منذ شهر تلقائيًا.</target>
         <note>In the Tabs Tray, in the Inactive Tabs section, a prompt may come up about auto-closing tabs. This string describes what happens if you elect to turn on this option.</note>
       </trans-unit>
       <trans-unit id="InactiveTabs.TabTray.AutoClosePrompt.Title" xml:space="preserve">
