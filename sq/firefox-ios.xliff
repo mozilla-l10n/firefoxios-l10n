@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Client/en.lproj/InfoPlist.strings" source-language="en" target-language="sq" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A233"/>
@@ -653,14 +654,17 @@
       </trans-unit>
       <trans-unit id="ActivityStream.JumpBackIn.TabGroup.SiteCount" xml:space="preserve">
         <source>Tabs: %d</source>
+        <target>Skeda: %d</target>
         <note>On the Firefox homepage in the Jump Back In section, if a Tab group item - a collection of grouped tabs from a related search - exists underneath the search term for the tab group, there will be a subtitle with a number for how many tabs are in that group. The placeholder is for a number. It will read 'Tabs: 5' or similar.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.JumpBackIn.TabGroup.Title" xml:space="preserve">
         <source>Your search for "%@"</source>
+        <target>Kërkimi juaj për “%@”</target>
         <note>On the Firefox homepage in the Jump Back In section, if a Tab group item - a collection of grouped tabs from a related search - exists, the Tab Group item title will be 'Your search for \"video games\"'. The %@ sign is a placeholder for the actual search the user did.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Library.Title" xml:space="preserve">
         <source>Recently Saved</source>
+        <target>Ruajtur Së Fundi</target>
         <note>A string used to signify the start of the Recently Saved section in Home Screen.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.NewRecentBookmarks.Title" xml:space="preserve">
@@ -695,14 +699,17 @@
       </trans-unit>
       <trans-unit id="ActivityStream.RecentlySaved.SectionTitle" xml:space="preserve">
         <source>Recently Saved</source>
+        <target>Ruajtur Së Fundi</target>
         <note>Section title for the Recently Saved section. This shows websites that have had a save action. Right now it is just bookmarks but it could be used for other things like the reading list in the future.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.RecentlySaved.ShowAll" xml:space="preserve">
         <source>Show all</source>
+        <target>Shfaqi krejt</target>
         <note>This button will open the library showing all the users bookmarks</note>
       </trans-unit>
       <trans-unit id="ActivityStream.RecentlyVisited.RemoveButton.Title" xml:space="preserve">
         <source>Remove</source>
+        <target>Hiqe</target>
         <note>When long pressing an item in the Recently Visited section, this is the title of the button that appears, letting the user know to remove that particular item from the menu.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Shortcuts.SectionTitle" xml:space="preserve">
@@ -1473,6 +1480,7 @@
       </trans-unit>
       <trans-unit id="Home" xml:space="preserve">
         <source>Home</source>
+        <target>Kreu</target>
         <note>Accessibility label for the tab toolbar indicating the Home button.</note>
       </trans-unit>
       <trans-unit id="HomePage.Set.Dialog.Cancel" xml:space="preserve">
@@ -1658,6 +1666,7 @@
       </trans-unit>
       <trans-unit id="Logins.WelcomeView.Title" xml:space="preserve">
         <source>Take your passwords everywhere</source>
+        <target>Merrini fjalëkalimet tuaja kudo</target>
         <note>Label displaying welcome view title</note>
       </trans-unit>
       <trans-unit id="LoginsDetailView.LoginModified" xml:space="preserve">
@@ -1736,26 +1745,32 @@
       </trans-unit>
       <trans-unit id="LoginsList.NoLoginsFound.Title" xml:space="preserve">
         <source>No logins found</source>
+        <target>S’u gjetën kredenciale hyrjesh</target>
         <note>Label shown when there are no logins saved</note>
       </trans-unit>
       <trans-unit id="LoginsList.NoMatchingResult.Subtitle" xml:space="preserve">
         <source>There are no results matching your search.</source>
+        <target>S’ka përfundime me përputhje me kërkimin tuaj.</target>
         <note>Label that appears after the search if there are no logins matching the search</note>
       </trans-unit>
       <trans-unit id="LoginsList.NoMatchingResult.Title" xml:space="preserve">
         <source>No matching logins</source>
+        <target>S’u gjetën kredenciale hyrjesh me përputhje</target>
         <note>Label displayed when a user searches and no matches can be found against the search query</note>
       </trans-unit>
       <trans-unit id="LoginsList.Search.Cancel" xml:space="preserve">
         <source>Cancel</source>
+        <target>Anuloje</target>
         <note>Title for cancel button for user to stop searching for a particular login</note>
       </trans-unit>
       <trans-unit id="LoginsList.Search.Placeholder" xml:space="preserve">
         <source>Search logins</source>
+        <target>Kërkoni te kredenciale hyrjesh</target>
         <note>Placeholder text for search field</note>
       </trans-unit>
       <trans-unit id="LoginsList.SelectPassword.Title" xml:space="preserve">
         <source>Select a password to fill</source>
+        <target>Përzgjidhni fjalëkalim për t’u plotësuar</target>
         <note>Label displaying select a password to fill instruction</note>
       </trans-unit>
       <trans-unit id="LoginsList.Title" xml:space="preserve">
@@ -1947,6 +1962,7 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.Details.Verifier" xml:space="preserve">
         <source>Verified by %@</source>
+        <target>Verifikuar nga: %@</target>
         <note>String to let users know the site verifier, where the placeholder represents the SSL certificate signer.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.NoTrackersBlockedTitle" xml:space="preserve">
@@ -2132,6 +2148,7 @@
       </trans-unit>
       <trans-unit id="Onboarding.WhatsNew.Button.Title" xml:space="preserve">
         <source>Start Browsing</source>
+        <target>Filloni të Shfletoni</target>
         <note>On the onboarding card letting users know what's new in this version of Firefox, this is the title for the button, on the bottom of the card, used to get back to browsing on Firefox by dismissing the onboarding card</note>
       </trans-unit>
       <trans-unit id="Onboarding.WhatsNew.Description" xml:space="preserve">
@@ -2148,6 +2165,7 @@
       </trans-unit>
       <trans-unit id="Onboarding.WhatsNew.RecentSearches.Title" xml:space="preserve">
         <source>Recent Searches</source>
+        <target>Kërkime Së Fundi</target>
         <note>On the onboarding card letting users know what's new in this version of Firefox, this is the title for the Recent Searches bullet point on the card</note>
       </trans-unit>
       <trans-unit id="Onboarding.WhatsNew.TabGroups.Description" xml:space="preserve">
@@ -2160,6 +2178,7 @@
       </trans-unit>
       <trans-unit id="Onboarding.WhatsNew.Title" xml:space="preserve">
         <source>What’s New in Firefox</source>
+        <target>Ç’ka të Re te Firefox-i</target>
         <note>On the onboarding card, letting users know what's new in this version of Firefox, this is the title for the Jump Back In bullet point on the card
    The title for the new onboarding card letting users know what is new in Firefox iOS</note>
       </trans-unit>
@@ -2250,10 +2269,12 @@
       </trans-unit>
       <trans-unit id="ProtectionStatus.NotSecure" xml:space="preserve">
         <source>Connection is not secure</source>
+        <target>Lidhja s’është e sigurt</target>
         <note>This is the value for a label that indicates if a user is on an unencrypted website.</note>
       </trans-unit>
       <trans-unit id="ProtectionStatus.Secure" xml:space="preserve">
         <source>Connection is secure</source>
+        <target>Lidhja është e sigurt</target>
         <note>This is the value for a label that indicates if a user is on a secure https connection.</note>
       </trans-unit>
       <trans-unit id="Quick-Search Engines" xml:space="preserve">
@@ -2283,6 +2304,7 @@
       </trans-unit>
       <trans-unit id="RecentlySaved.Actions.More" xml:space="preserve">
         <source>Show All</source>
+        <target>Shfaqi Krejt</target>
         <note>More button text for Recently Saved items at the home page.</note>
       </trans-unit>
       <trans-unit id="Reload" xml:space="preserve">
@@ -2798,22 +2820,27 @@
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Pocket" xml:space="preserve">
         <source>Recommended by Pocket</source>
+        <target>Rekomanduar nga Pocket</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Pocket Recommendations section on the Firefox homepage on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.RecentSearches" xml:space="preserve">
         <source>Recent Searches</source>
+        <target>Kërkime Së Fundi</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Recent Searches section on the Firefox homepage on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.RecentlySaved" xml:space="preserve">
         <source>Recently Saved</source>
+        <target>Ruajtur Së Fundi</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Recently Saved section on the Firefox homepage on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.RecentlyVisited" xml:space="preserve">
         <source>Recently Visited</source>
+        <target>Vizituar Së Fundi</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Recently Visited section on the Firfox homepage on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Shortcuts" xml:space="preserve">
         <source>Shortcuts</source>
+        <target>Shkurtore</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Shortcuts section on the Firefox homepage on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.StartAtHome.AfterFourHours" xml:space="preserve">
@@ -2822,22 +2849,27 @@
       </trans-unit>
       <trans-unit id="Settings.Home.Option.StartAtHome.Always" xml:space="preserve">
         <source>Homepage</source>
+        <target>Kreu</target>
         <note>In the settings menu, on the Start at Home homepage customization option, this allows users to set this setting to return to the Homepage every time they open up Firefox</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.StartAtHome.Description" xml:space="preserve">
         <source>Choose what you see when you return to Firefox.</source>
+        <target>Zgjidhni çtë shihni, kur ktheheni te Firefox-i.</target>
         <note>In the settings menu, in the Start at Home customization options, this is text that appears below the section, describing what the section settings do.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.StartAtHome.Never" xml:space="preserve">
         <source>Last tab</source>
+        <target>Skedën e fundit</target>
         <note>In the settings menu, on the Start at Home homepage customization option, this allows users to set this setting to return to the last tab they were on, every time they open up Firefox</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.StartAtHome.Title" xml:space="preserve">
         <source>Opening screen</source>
+        <target>Skenën hyrëse</target>
         <note>Title for the section in the settings menu where users can configure the behaviour of the Start at Home feature on the Firefox Homepage.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Title" xml:space="preserve">
         <source>Firefox Homepage</source>
+        <target>Faqen Hyrëse të Firefox-it</target>
         <note>In the settings menu, this is the title of the Firefox Homepage customization settings section</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.Clear.Button" xml:space="preserve">
@@ -3127,10 +3159,12 @@
       </trans-unit>
       <trans-unit id="Settings.Tabs.CustomizeTabsSection.InactiveTabs" xml:space="preserve">
         <source>Inactive Tabs</source>
+        <target>Skedat Jo Aktive</target>
         <note>In the settings menu, in the Tabs customization section, this is the title for the setting that toggles the Inactive Tabs feature, a separate section of inactive tabs that appears in the Tab Tray, on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Tabs.CustomizeTabsSection.TabGroups" xml:space="preserve">
         <source>Tab Groups</source>
+        <target>Grupe Skedash</target>
         <note>In the settings menu, in the Tabs customization section, this is the title for the setting that toggles the Tab Groups feature - where tabs from related searches are grouped - on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Tabs.CustomizeTabsSection.Title" xml:space="preserve">
@@ -3139,6 +3173,7 @@
       </trans-unit>
       <trans-unit id="Settings.Tabs.Title" xml:space="preserve">
         <source>Tabs</source>
+        <target>Skeda</target>
         <note>In the settings menu, this is the title for the Tabs customization section option</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.Alert.Button" xml:space="preserve">
@@ -3513,6 +3548,7 @@
       </trans-unit>
       <trans-unit id="TabTray.InactiveTabs.SectionTitle" xml:space="preserve">
         <source>Inactive Tabs</source>
+        <target>Skeda Jo Aktive</target>
         <note>Title for the inactive tabs section. This section groups all tabs that haven't been used in a while.</note>
       </trans-unit>
       <trans-unit id="TabTray.LastWeek.Header" xml:space="preserve">
@@ -3542,6 +3578,7 @@
       </trans-unit>
       <trans-unit id="TabTray.OtherTabs.Title" xml:space="preserve">
         <source>Other tabs</source>
+        <target>Skeda të tjera</target>
         <note>In the Tabs Tray, summoned from the homepage, the title for the section containing non-grouped tabs, which will appear below grouped tabs</note>
       </trans-unit>
       <trans-unit id="TabTray.PrivateTitle" xml:space="preserve">
@@ -3555,6 +3592,7 @@
       </trans-unit>
       <trans-unit id="TabTray.RecentlyClosed.SectionTitle" xml:space="preserve">
         <source>Recently closed</source>
+        <target>Mbyllur së fundi</target>
         <note>Title for the recently closed tabs section. This section shows a list of all the tabs that have been recently closed.</note>
       </trans-unit>
       <trans-unit id="TabTray.SegmentedControlTitles.PrivateTabs" xml:space="preserve">
@@ -4083,6 +4121,7 @@
       </trans-unit>
       <trans-unit id="Menu.RecentlySaved.Title" xml:space="preserve">
         <source>Recently Saved</source>
+        <target>Ruajtur Së Fundi</target>
         <note>A string used to signify the start of the Recently Saved section in Home Screen.</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveBookmarkAction.Title" xml:space="preserve">
@@ -4132,6 +4171,7 @@
       </trans-unit>
       <trans-unit id="SettingsMenu.OpenHomePageAction.Title" xml:space="preserve">
         <source>Homepage</source>
+        <target>Kreu</target>
         <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
       </trans-unit>
     </body>
