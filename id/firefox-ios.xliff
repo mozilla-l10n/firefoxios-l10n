@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Client/en.lproj/InfoPlist.strings" source-language="en" target-language="id" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A233"/>
@@ -1673,10 +1672,41 @@
         <target>Info Masuk</target>
         <note>Toggle logins syncing setting</note>
       </trans-unit>
-      <trans-unit id="Logins.WelcomeView.Title" xml:space="preserve">
+      <trans-unit id="Logins.DevicePasscodeRequired.LearnMoreButtonTitle" xml:space="preserve">
+        <source>Learn More</source>
+        <note>Title of the Learn More button that links to a support page about device passcode requirements.</note>
+      </trans-unit>
+      <trans-unit id="Logins.DevicePasscodeRequired.Message" xml:space="preserve">
+        <source>To save and autofill logins and passwords, enable Face ID, Touch ID or a device passcode.</source>
+        <note>Message shown when you enter Logins &amp; Passwords without having a device passcode set.</note>
+      </trans-unit>
+      <trans-unit id="Logins.Onboarding.ContinueButtonTitle" xml:space="preserve">
+        <source>Continue</source>
+        <note>Title of the Continue button.</note>
+      </trans-unit>
+      <trans-unit id="Logins.Onboarding.LearnMoreButtonTitle" xml:space="preserve">
+        <source>Learn More</source>
+        <note>Title of the Learn More button that links to a support page about device passcode requirements.</note>
+      </trans-unit>
+      <trans-unit id="Logins.Onboarding.Message" xml:space="preserve">
+        <source>Your logins and passwords are now protected by Face ID, Touch ID or a device passcode.</source>
+        <note>Message shown when you enter Logins &amp; Passwords for the first time.</note>
+      </trans-unit>
+      <trans-unit id="Logins.PasscodeRequirement.Warning" xml:space="preserve">
+        <source>To use the AutoFill feature for Firefox, you must have a device passcode enabled.</source>
+        <note>Warning message shown when you try to enable or use native AutoFill without a device passcode setup</note>
+      </trans-unit>
+      <trans-unit id="Logins.WelcomeView.Tagline" xml:space="preserve">
         <source>Take your passwords everywhere</source>
-        <target>Bawa kata sandi Anda ke mana saja</target>
+        <note>Label displaying welcome view tagline under the title</note>
+      </trans-unit>
+      <trans-unit id="Logins.WelcomeView.Title2" xml:space="preserve">
+        <source>AutoFill Firefox Passwords</source>
         <note>Label displaying welcome view title</note>
+      </trans-unit>
+      <trans-unit id="Logins.WelcomeView.TurnOnAutoFill" xml:space="preserve">
+        <source>Turn on AutoFill</source>
+        <note>Title of the big blue button to enable AutoFill</note>
       </trans-unit>
       <trans-unit id="LoginsDetailView.LoginModified" xml:space="preserve">
         <source>Modified</source>
@@ -3566,6 +3596,10 @@
         <source>Currently selected tab.</source>
         <target>Tab yang dipilih saat ini.</target>
         <note>Accessibility label for the currently selected tab.</note>
+      </trans-unit>
+      <trans-unit id="TabTray.Header.FilteredTabs.SectionHeader" xml:space="preserve">
+        <source>Others</source>
+        <note>In the tab tray, when tab groups appear and there exist tabs that don't belong to any group, those tabs are listed under this header as \"Others\"</note>
       </trans-unit>
       <trans-unit id="TabTray.InactiveTabs.SectionTitle" xml:space="preserve">
         <source>Inactive Tabs</source>
