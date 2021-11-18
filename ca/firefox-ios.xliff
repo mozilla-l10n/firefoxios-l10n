@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Client/en.lproj/InfoPlist.strings" source-language="en" target-language="ca" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A233"/>
@@ -655,10 +656,12 @@
       </trans-unit>
       <trans-unit id="ActivityStream.JumpBackIn.TabGroup.SiteCount" xml:space="preserve">
         <source>Tabs: %d</source>
+        <target>Pestanyes: %d</target>
         <note>On the Firefox homepage in the Jump Back In section, if a Tab group item - a collection of grouped tabs from a related search - exists underneath the search term for the tab group, there will be a subtitle with a number for how many tabs are in that group. The placeholder is for a number. It will read 'Tabs: 5' or similar.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.JumpBackIn.TabGroup.Title" xml:space="preserve">
         <source>Your search for "%@"</source>
+        <target>La vostra cerca de «%@»</target>
         <note>On the Firefox homepage in the Jump Back In section, if a Tab group item - a collection of grouped tabs from a related search - exists, the Tab Group item title will be 'Your search for \"video games\"'. The %@ sign is a placeholder for the actual search the user did.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Library.Title" xml:space="preserve">
@@ -708,6 +711,7 @@
       </trans-unit>
       <trans-unit id="ActivityStream.RecentlyVisited.RemoveButton.Title" xml:space="preserve">
         <source>Remove</source>
+        <target>Elimina</target>
         <note>When long pressing an item in the Recently Visited section, this is the title of the button that appears, letting the user know to remove that particular item from the menu.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Shortcuts.SectionTitle" xml:space="preserve">
@@ -1023,10 +1027,12 @@
       </trans-unit>
       <trans-unit id="ContextualHints.Homepage.PersonalizedHome" xml:space="preserve">
         <source>Your personalized Firefox homepage now makes it easier to pick up where you left off. Find your recent tabs, bookmarks, and search results.</source>
+        <target>Amb la pàgina d’inici del Firefox personalitzada, ara és més fàcil continuar des d’on ho havíeu deixat. Hi trobareu les pestanyes, les adreces d’interès i els resultats de cerca recents.</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one talks about the more personalized home feature.</note>
       </trans-unit>
       <trans-unit id="ContextualHints.TabTray.InactiveTabs" xml:space="preserve">
         <source>Tabs you haven’t viewed for two weeks get moved here.</source>
+        <target>Aquí s’hi mouen les pestanyes que no heu vist des de fa dues setmanes.</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one is the call to action for the inactive tabs contextual popup.
    Contextual hints are little popups that appear for the users informing them of new features. This one talks about the inactive tabs feature.</note>
       </trans-unit>
@@ -1254,6 +1260,7 @@
       </trans-unit>
       <trans-unit id="FirefoxHome.CustomizeHomeButton.Title" xml:space="preserve">
         <source>Customize Homepage</source>
+        <target>Personalitza la pàgina d’inici</target>
         <note>A button at bottom of the Firefox homepage that, when clicked, takes users straight to the settings options, where they can customize the Firefox Home page</note>
       </trans-unit>
       <trans-unit id="Forward" xml:space="preserve">
@@ -1598,18 +1605,22 @@
       </trans-unit>
       <trans-unit id="InactiveTabs.TabTray.AutoClosePrompt.ButtonTitle" xml:space="preserve">
         <source>Turn on Auto Close</source>
+        <target>Activa el tancament automàtic</target>
         <note>In the Tabs Tray, in the Inactive Tabs section, a prompt may come up about auto-closing tabs. This string is for the button the user must tap in order to turn on the Auto close feature</note>
       </trans-unit>
       <trans-unit id="InactiveTabs.TabTray.AutoClosePrompt.Content" xml:space="preserve">
         <source>Firefox will close tabs you haven’t viewed over the past month.</source>
+        <target>El Firefox tancarà les pestanyes que no hàgiu vist durant el darrer mes.</target>
         <note>In the Tabs Tray, in the Inactive Tabs section, a prompt may come up about auto-closing tabs. This string describes what happens if you elect to turn on this option.</note>
       </trans-unit>
       <trans-unit id="InactiveTabs.TabTray.AutoClosePrompt.Title" xml:space="preserve">
         <source>Auto-close after one month?</source>
+        <target>Voleu tancar-les automàticament al cap d’un mes?</target>
         <note>In the Tabs Tray, in the Inactive Tabs section, a prompt may come up about auto-closing tabs. This is the title of that Auto Close prompt</note>
       </trans-unit>
       <trans-unit id="InactiveTabs.TabTray.CloseButtonTitle" xml:space="preserve">
         <source>Close All Inactive Tabs</source>
+        <target>Tanca totes les pestanyes inactives</target>
         <note>In the Tabs Tray, in the Inactive Tabs section, this is the button the user must tap in order to close all inactive tabs.</note>
       </trans-unit>
       <trans-unit id="Increase text size" xml:space="preserve">
@@ -1664,34 +1675,42 @@
       </trans-unit>
       <trans-unit id="Logins.DevicePasscodeRequired.LearnMoreButtonTitle" xml:space="preserve">
         <source>Learn More</source>
+        <target>Més informació</target>
         <note>Title of the Learn More button that links to a support page about device passcode requirements.</note>
       </trans-unit>
       <trans-unit id="Logins.DevicePasscodeRequired.Message" xml:space="preserve">
         <source>To save and autofill logins and passwords, enable Face ID, Touch ID or a device passcode.</source>
+        <target>Per desar i emplenar automàticament els inicis de sessió i les contrasenyes, activeu el Face ID, el Touch ID o un codi del dispositiu.</target>
         <note>Message shown when you enter Logins &amp; Passwords without having a device passcode set.</note>
       </trans-unit>
       <trans-unit id="Logins.Onboarding.ContinueButtonTitle" xml:space="preserve">
         <source>Continue</source>
+        <target>Continua</target>
         <note>Title of the Continue button.</note>
       </trans-unit>
       <trans-unit id="Logins.Onboarding.LearnMoreButtonTitle" xml:space="preserve">
         <source>Learn More</source>
+        <target>Més informació</target>
         <note>Title of the Learn More button that links to a support page about device passcode requirements.</note>
       </trans-unit>
       <trans-unit id="Logins.Onboarding.Message" xml:space="preserve">
         <source>Your logins and passwords are now protected by Face ID, Touch ID or a device passcode.</source>
+        <target>Ara els vostres inicis de sessió i contrasenyes estan protegits amb Face ID, Touch ID o un codi del dispositiu.</target>
         <note>Message shown when you enter Logins &amp; Passwords for the first time.</note>
       </trans-unit>
       <trans-unit id="Logins.PasscodeRequirement.Warning" xml:space="preserve">
         <source>To use the AutoFill feature for Firefox, you must have a device passcode enabled.</source>
+        <target>Per utilitzar la funció d'emplenament automàtic per al Firefox, heu de tenir activat un codi del dispositiu.</target>
         <note>Warning message shown when you try to enable or use native AutoFill without a device passcode setup</note>
       </trans-unit>
       <trans-unit id="Logins.WelcomeView.Tagline" xml:space="preserve">
         <source>Take your passwords everywhere</source>
+        <target>Accediu a les vostres contrasenyes des de qualsevol lloc</target>
         <note>Label displaying welcome view tagline under the title</note>
       </trans-unit>
       <trans-unit id="Logins.WelcomeView.Title2" xml:space="preserve">
         <source>AutoFill Firefox Passwords</source>
+        <target>Emplena automàticament les contrasenyes del Firefox</target>
         <note>Label displaying welcome view title</note>
       </trans-unit>
       <trans-unit id="Logins.WelcomeView.TurnOnAutoFill" xml:space="preserve">
