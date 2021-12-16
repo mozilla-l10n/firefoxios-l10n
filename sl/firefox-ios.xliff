@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Client/en.lproj/InfoPlist.strings" source-language="en" target-language="sl" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A233"/>
@@ -830,17 +829,14 @@
       </trans-unit>
       <trans-unit id="Bookmarks.Actions.Add" xml:space="preserve">
         <source>Add</source>
-        <target>Dodaj</target>
         <note>A label indicating the action of adding a web page as a bookmark.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Actions.BookmarkAllTabs" xml:space="preserve">
         <source>Bookmark All Tabs</source>
-        <target>Dodaj vse zavihke med zaznamke</target>
         <note>A label indicating the action of bookmarking all currently open non private tabs.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Actions.BookmarkCurrentTab" xml:space="preserve">
         <source>Bookmark Current Tab</source>
-        <target>Dodaj trenutni zavihek med zaznamke</target>
         <note>A label indicating the action of bookmarking the current tab.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Edit.Button" xml:space="preserve">
@@ -879,7 +875,6 @@
       </trans-unit>
       <trans-unit id="Bookmarks.Menu.RecentlyBookmarked" xml:space="preserve">
         <source>Recently Bookmarked</source>
-        <target>Nedavni zaznamki</target>
         <note>A label indicating all bookmarks that were recently added.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.NewBookmark.Label" xml:space="preserve">
@@ -899,7 +894,6 @@
       </trans-unit>
       <trans-unit id="Bookmarks.Search.SearchBookmarks" xml:space="preserve">
         <source>Search Bookmarks</source>
-        <target>Iskanje po zaznamkih</target>
         <note>A label serving as a placeholder text in the search bar that's embedded in the Bookmarks menu. The placeholder text indicates that a user can search and filter bookmarks.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Title.Label" xml:space="preserve">
@@ -1063,7 +1057,6 @@
       </trans-unit>
       <trans-unit id="ContextualHints.TabTray.InactiveTabs.CallToAction" xml:space="preserve">
         <source>Turn off in settings</source>
-        <target>Izklopi v nastavitvah</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one is the call to action for the inactive tabs contextual popup.</note>
       </trans-unit>
       <trans-unit id="Could not add page to Reading List. Maybe it’s already there?" xml:space="preserve">
@@ -1660,122 +1653,98 @@
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.ActualSize" xml:space="preserve">
         <source>Actual Size</source>
-        <target>Dejanska velikost</target>
         <note>A label indicating the keyboard shortcut of resetting a web page's view to the standard viewing size. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.AddBookmark" xml:space="preserve">
         <source>Add Bookmark</source>
-        <target>Dodaj zaznamek</target>
         <note>A label indicating the keyboard shortcut of adding the currently viewing web page as a bookmark. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.ClearRecentHistory" xml:space="preserve">
         <source>Clear Recent History</source>
-        <target>Počisti nedavno zgodovino</target>
         <note>A label indicating the keyboard shortcut of clearing recent history. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.DownloadLink" xml:space="preserve">
         <source>Download Link</source>
-        <target>Prenesi povezavo</target>
         <note>A label indicating the keyboard shortcut of downloading a link the user taps on. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.FindAgain" xml:space="preserve">
         <source>Find Again</source>
-        <target>Najdi znova</target>
         <note>A label indicating the keyboard shortcut of finding text a user desires within a page again. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.OpenLinkInBackground" xml:space="preserve">
         <source>Open Link in Background</source>
-        <target>Odpri povezavo v ozadju</target>
         <note>A label indicating the keyboard shortcut of opening a link in a new tab while staying on the currently selected tab. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.OpenLinkInNewTab" xml:space="preserve">
         <source>Open Link in New Tab</source>
-        <target>Odpri povezavo v novem zavihku</target>
         <note>A label indicating the keyboard shortcut of opening a link in a new tab and switching to that tab at the same time. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.SavePageAs" xml:space="preserve">
         <source>Save Page As…</source>
-        <target>Shrani stran kot …</target>
         <note>A label indicating the keyboard shortcut of saving the current web page in a format of the user's choice. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.Section.Bookmark" xml:space="preserve">
         <source>Bookmarks</source>
-        <target>Zaznamki</target>
         <note>A label indicating a grouping of related keyboard shortcuts describing actions a user can do with Bookmarks. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.Section.Edit" xml:space="preserve">
         <source>Edit</source>
-        <target>Uredi</target>
         <note>A label indicating a grouping of related keyboard shortcuts describing actions a user can do within a web page. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.Section.File" xml:space="preserve">
         <source>File</source>
-        <target>Datoteka</target>
         <note>A label indicating a grouping of related keyboard shortcuts describing actions a user can take on, and within, a Tab. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.Section.History" xml:space="preserve">
         <source>History</source>
-        <target>Zgodovina</target>
         <note>A label indicating a grouping of related keyboard shortcuts describing actions a user can do with History. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.Section.Tools" xml:space="preserve">
         <source>Tools</source>
-        <target>Orodja</target>
         <note>A label indicating a grouping of related keyboard shortcuts describing actions a user can do with locally saved items. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.Section.View" xml:space="preserve">
         <source>View</source>
-        <target>Pogled</target>
         <note>A label indicating a grouping of related keyboard shortcuts describing actions a user can do regarding the viewing experience of a webpage. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.Section.Window" xml:space="preserve">
         <source>Window</source>
-        <target>Okno</target>
         <note>A label indicating a grouping of related keyboard shortcuts describing actions a user can take when navigating between their availale set of tabs. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.Settings" xml:space="preserve">
         <source>Settings</source>
-        <target>Nastavitve</target>
         <note>A label indicating the keyboard shortcut of opening the application's settings menu. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.ShowBookmarks" xml:space="preserve">
         <source>Show Bookmarks</source>
-        <target>Prikaži zaznamke</target>
         <note>A label indicating the keyboard shortcut of showing all bookmarks. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.ShowDownloads" xml:space="preserve">
         <source>Show Downloads</source>
-        <target>Prikaži prenose</target>
         <note>A label indcating the keyboard shortcut of showing all downloads. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.ShowFirstTab" xml:space="preserve">
         <source>Show First Tab</source>
-        <target>Prikaži prvi zavihek</target>
         <note>A label indicating the keyboard shortcut to switch from the current tab to the first tab. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.ShowHistory" xml:space="preserve">
         <source>Show History</source>
-        <target>Prikaži zgodovino</target>
         <note>A label indicating the keyboard shortcut of showing all history. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.ShowLastTab" xml:space="preserve">
         <source>Show Last Tab</source>
-        <target>Prikaži zadnji zavihek</target>
         <note>A label indicating the keyboard shortcut switch from your current tab to the last tab. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.ShowTabNumber" xml:space="preserve">
         <source>Show Tab Number 1-9</source>
-        <target>Prikaži zavihek št. 1–9</target>
         <note>A label indicating the keyboard shortcut of switching between the first nine tabs. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.ZoomIn" xml:space="preserve">
         <source>Zoom In</source>
-        <target>Povečaj</target>
         <note>A label indicating the keyboard shortcut of enlarging the view of the current web page. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.ZoomOut" xml:space="preserve">
         <source>Zoom Out</source>
-        <target>Pomanjšaj</target>
         <note>A label indicating the keyboard shortcut of shrinking the view of the current web page. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Last month" xml:space="preserve">
@@ -1792,6 +1761,10 @@
         <source>Last week</source>
         <target>Zadnji teden</target>
         <note>History tableview section header</note>
+      </trans-unit>
+      <trans-unit id="LibraryPanel.Section.Older" xml:space="preserve">
+        <source>Older</source>
+        <note>This label is meant to signify the section containing a group of items that are older than thirty days.</note>
       </trans-unit>
       <trans-unit id="Licenses" xml:space="preserve">
         <source>Licenses</source>
@@ -2481,7 +2454,6 @@
       </trans-unit>
       <trans-unit id="Ratings.Settings.RateOnAppStore" xml:space="preserve">
         <source>Rate on App Store</source>
-        <target>Oceni v trgovini App Store</target>
         <note>A label indicating the action that a user can rate the Firefox app in the App store.</note>
       </trans-unit>
       <trans-unit id="Reader View" xml:space="preserve">
