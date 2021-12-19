@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Client/en.lproj/InfoPlist.strings" source-language="en" target-language="fa" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A233"/>
@@ -6,7 +7,7 @@
     <body>
       <trans-unit id="NSCameraUsageDescription" xml:space="preserve">
         <source>Firefox uses your camera to scan QR codes and take photos and video.</source>
-        <target>این اجازه را به شما می‌دهد تا تصاویر خود را ثبت و بارگذاری کنید.</target>
+        <target>فایرفاکس از دوربین شما برای پردازش کد QR یا گرفتن عکس یا ویدیو شما استفاده می‌کند.</target>
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve">
@@ -21,7 +22,7 @@
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription" xml:space="preserve">
         <source>Firefox uses your microphone to record and upload audio.</source>
-        <target>این به شما اجازهٔ گرفتن و بارگذاری عکس‌ها را می‌دهد.</target>
+        <target>فایرفاکس از میکروفن شما برای ضبط و ارسال صدا استفاده می‌کند.</target>
         <note>Privacy - Microphone Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription" xml:space="preserve">
@@ -68,6 +69,7 @@
       </trans-unit>
       <trans-unit id="Menu.SendLinkToDevice" xml:space="preserve">
         <source>Send Link to Device</source>
+        <target>ارسال پیوند به دستگاه</target>
         <note>Label for preview action on Tab Tray Tab to send the current link to another device</note>
       </trans-unit>
       <trans-unit id="Open Last Bookmark" xml:space="preserve">
@@ -346,6 +348,7 @@
       </trans-unit>
       <trans-unit id="DefaultBrowserCard.Button.v2" xml:space="preserve">
         <source>Learn How</source>
+        <target>چگونگی کار را یاد بگیرید</target>
         <note>Button string to learn how to set your default browser.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserCard.Description" xml:space="preserve">
@@ -548,7 +551,7 @@
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Description.v2" xml:space="preserve">
         <source>Fast, private, and on your side.</source>
-        <target>سریع،‌ خصوصی و سمت شما.</target>
+        <target>سریع،‌ خصوصی و در کنار شما.</target>
         <note>Description for the 'Welcome' panel in the First Run tour.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Title.v2" xml:space="preserve">
@@ -605,6 +608,7 @@
       </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.AddToShortcuts" xml:space="preserve">
         <source>Add to Shortcuts</source>
+        <target>اضافه کردن به میانبرها</target>
         <note>The title for the pinning a shortcut action</note>
       </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.PinTopsite" xml:space="preserve">
@@ -614,10 +618,12 @@
       </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.PinTopsite2" xml:space="preserve">
         <source>Pin</source>
+        <target>سنجاق کردن</target>
         <note>The title for the pinning a topsite action</note>
       </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.RemoveFromShortcuts" xml:space="preserve">
         <source>Remove from Shortcuts</source>
+        <target>حذف از میانبرها</target>
         <note>The title for removing a shortcut action</note>
       </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.RemovePinTopsite" xml:space="preserve">
@@ -645,14 +651,17 @@
       </trans-unit>
       <trans-unit id="ActivityStream.JumpBackIn.TabGroup.SiteCount" xml:space="preserve">
         <source>Tabs: %d</source>
+        <target>زبانه‌ها: %d</target>
         <note>On the Firefox homepage in the Jump Back In section, if a Tab group item - a collection of grouped tabs from a related search - exists underneath the search term for the tab group, there will be a subtitle with a number for how many tabs are in that group. The placeholder is for a number. It will read 'Tabs: 5' or similar.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.JumpBackIn.TabGroup.Title" xml:space="preserve">
         <source>Your search for "%@"</source>
+        <target>جستجو شما برای «%@»</target>
         <note>On the Firefox homepage in the Jump Back In section, if a Tab group item - a collection of grouped tabs from a related search - exists, the Tab Group item title will be 'Your search for \"video games\"'. The %@ sign is a placeholder for the actual search the user did.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Library.Title" xml:space="preserve">
         <source>Recently Saved</source>
+        <target>اخیرا ذخیره شده</target>
         <note>A string used to signify the start of the Recently Saved section in Home Screen.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.NewRecentBookmarks.Title" xml:space="preserve">
@@ -672,6 +681,7 @@
       </trans-unit>
       <trans-unit id="ActivityStream.Pocket.SectionTitle2" xml:space="preserve">
         <source>Recommended by Pocket</source>
+        <target>توصیه شده توسط Pocket</target>
         <note>Section title label for Recommended by Pocket section</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Pocket.Trending" xml:space="preserve">
@@ -686,18 +696,22 @@
       </trans-unit>
       <trans-unit id="ActivityStream.RecentlySaved.SectionTitle" xml:space="preserve">
         <source>Recently Saved</source>
+        <target>اخیرا ذخیره شده</target>
         <note>Section title for the Recently Saved section. This shows websites that have had a save action. Right now it is just bookmarks but it could be used for other things like the reading list in the future.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.RecentlySaved.ShowAll" xml:space="preserve">
         <source>Show all</source>
+        <target>نمایش همه</target>
         <note>This button will open the library showing all the users bookmarks</note>
       </trans-unit>
       <trans-unit id="ActivityStream.RecentlyVisited.RemoveButton.Title" xml:space="preserve">
         <source>Remove</source>
+        <target>حذف</target>
         <note>When long pressing an item in the Recently Visited section, this is the title of the button that appears, letting the user know to remove that particular item from the menu.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Shortcuts.SectionTitle" xml:space="preserve">
         <source>Shortcuts</source>
+        <target>میانبرها</target>
         <note>Section title label for Shortcuts</note>
       </trans-unit>
       <trans-unit id="ActivityStream.TopSites.RowCount" xml:space="preserve">
@@ -768,10 +782,12 @@
       </trans-unit>
       <trans-unit id="Awesomebar.SearchWithEngine.Description" xml:space="preserve">
         <source>Search %@ directly from the address bar</source>
+        <target>مستقیما از نوار آدرس با %@ جستجو کنید</target>
         <note>Description for button to suggest searching with a search engine. First argument is the name of the search engine to select</note>
       </trans-unit>
       <trans-unit id="Awesomebar.SearchWithEngine.Title" xml:space="preserve">
         <source>Search with %@</source>
+        <target>جستجو با %@</target>
         <note>Title for button to suggest searching with a search engine. First argument is the name of the search engine to select</note>
       </trans-unit>
       <trans-unit id="Back" xml:space="preserve">
@@ -811,14 +827,17 @@
       </trans-unit>
       <trans-unit id="Bookmarks.Actions.Add" xml:space="preserve">
         <source>Add</source>
+        <target>اضافه کردن</target>
         <note>A label indicating the action of adding a web page as a bookmark.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Actions.BookmarkAllTabs" xml:space="preserve">
         <source>Bookmark All Tabs</source>
+        <target>نشانک‌گذاری همه زبانه‌ها</target>
         <note>A label indicating the action of bookmarking all currently open non private tabs.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Actions.BookmarkCurrentTab" xml:space="preserve">
         <source>Bookmark Current Tab</source>
+        <target>نشانک‌گذاری زبانهٔ فعلی</target>
         <note>A label indicating the action of bookmarking the current tab.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Edit.Button" xml:space="preserve">
@@ -853,10 +872,12 @@
       </trans-unit>
       <trans-unit id="Bookmarks.Menu.DesktopBookmarks" xml:space="preserve">
         <source>Desktop Bookmarks</source>
+        <target>نشانک‌های رایانه رومیزی</target>
         <note>A label indicating all bookmarks grouped under the category 'Desktop Bookmarks'.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Menu.RecentlyBookmarked" xml:space="preserve">
         <source>Recently Bookmarked</source>
+        <target>نشانک‌های اخیر</target>
         <note>A label indicating all bookmarks that were recently added.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.NewBookmark.Label" xml:space="preserve">
@@ -876,6 +897,7 @@
       </trans-unit>
       <trans-unit id="Bookmarks.Search.SearchBookmarks" xml:space="preserve">
         <source>Search Bookmarks</source>
+        <target>جستجوی نشانک‌ها</target>
         <note>A label serving as a placeholder text in the search bar that's embedded in the Bookmarks menu. The placeholder text indicates that a user can search and filter bookmarks.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Title.Label" xml:space="preserve">
@@ -1010,10 +1032,12 @@
       </trans-unit>
       <trans-unit id="ContextMenu.OpenLinkInNewPrivateTabButtonTitle" xml:space="preserve">
         <source>Open Link in New Private Tab</source>
+        <target>باز کردن پیوند در زبانه خصوصی جدید</target>
         <note>Context menu item for opening a link in a new private tab</note>
       </trans-unit>
       <trans-unit id="ContextMenu.OpenLinkInNewTabButtonTitle" xml:space="preserve">
         <source>Open Link in New Tab</source>
+        <target>باز کردن پیوند در زبانه جدید</target>
         <note>Context menu item for opening a link in a new tab</note>
       </trans-unit>
       <trans-unit id="ContextMenu.SaveImageButtonTitle" xml:space="preserve">
