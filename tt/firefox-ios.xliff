@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Client/en.lproj/InfoPlist.strings" source-language="en" target-language="tt" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.0" build-num="13A233"/>
@@ -1644,6 +1645,7 @@
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.NewNormalTab" xml:space="preserve">
         <source>New Normal Tab</source>
+        <target>Яңа гадәти таб</target>
         <note>A label indicating the keyboard shortcut of opening a new non-private tab, switching the user to that tab and Normal Browsing Mode. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.OpenLinkInBackground" xml:space="preserve">
@@ -1721,6 +1723,7 @@
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.UndoCloseTab" xml:space="preserve">
         <source>Undo Close Tab</source>
+        <target>Ябылган табны кире кайтару</target>
         <note>A label indicating the keyboard shortcut of reopening the last closed tab. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.ZoomIn" xml:space="preserve">
@@ -1750,6 +1753,7 @@
       </trans-unit>
       <trans-unit id="LibraryPanel.Section.Older" xml:space="preserve">
         <source>Older</source>
+        <target>Искерәк</target>
         <note>This label is meant to signify the section containing a group of items that are older than thirty days.</note>
       </trans-unit>
       <trans-unit id="Licenses" xml:space="preserve">
@@ -2582,6 +2586,7 @@
       </trans-unit>
       <trans-unit id="Searches for the suggestion" xml:space="preserve">
         <source>Searches for the suggestion</source>
+        <target>Тәкъдим итү өчен эзләү</target>
         <note>Accessibility hint describing the action performed when a search suggestion is clicked</note>
       </trans-unit>
       <trans-unit id="Secure connection" xml:space="preserve">
@@ -2601,6 +2606,7 @@
       </trans-unit>
       <trans-unit id="Send a crash report so Mozilla can fix the problem?" xml:space="preserve">
         <source>Send a crash report so Mozilla can fix the problem?</source>
+        <target>Mozilla проблеманы хәл итә алсын өчен, ватылу турында хәбәр җибәрелсенме?</target>
         <note>Message displayed in the crash dialog above the buttons used to select when sending reports</note>
       </trans-unit>
       <trans-unit id="SendTo.Cancel.Button" xml:space="preserve">
@@ -2616,6 +2622,7 @@
       </trans-unit>
       <trans-unit id="SendTo.Error.Message" xml:space="preserve">
         <source>Only HTTP and HTTPS links can be shared.</source>
+        <target>HTTP һәм HTTPS сылтамаларны гына уртаклашып була.</target>
         <note>Message in error prompt explaining why the URL is invalid.</note>
       </trans-unit>
       <trans-unit id="SendTo.Error.OK.Button" xml:space="preserve">
@@ -2625,6 +2632,7 @@
       </trans-unit>
       <trans-unit id="SendTo.Error.Title" xml:space="preserve">
         <source>The link you are trying to share cannot be shared.</source>
+        <target>Сез уртаклашырга теләгән сылтаманы уртаклашып булмый.</target>
         <note>Title of error prompt displayed when an invalid URL is shared.</note>
       </trans-unit>
       <trans-unit id="SendTo.NavBar.Title" xml:space="preserve">
@@ -2638,10 +2646,12 @@
       </trans-unit>
       <trans-unit id="SendTo.NotSignedIn.Message" xml:space="preserve">
         <source>Please open Firefox, go to Settings and sign in to continue.</source>
+        <target>Зинһар, дәвам итү өчен Firefox-ны ачып, көйләүләргә күчегез һәм керегез.</target>
         <note>See http://mzl.la/1ISlXnU</note>
       </trans-unit>
       <trans-unit id="SendTo.NotSignedIn.Title" xml:space="preserve">
         <source>You are not signed in to your Firefox Account.</source>
+        <target>Сез Firefox Хисабыгызга кермәгәнсез.</target>
         <note>See http://mzl.la/1ISlXnU</note>
       </trans-unit>
       <trans-unit id="SendTo.SendAction.Text" xml:space="preserve">
@@ -2746,6 +2756,7 @@
       </trans-unit>
       <trans-unit id="Settings.AddCustomEngine.URLPlaceholder" xml:space="preserve">
         <source>URL (Replace Query with %s)</source>
+        <target>URL (Сорауны %s белән алыштырыгыз)</target>
         <note>The placeholder for URL Field when saving a custom search engine</note>
       </trans-unit>
       <trans-unit id="Settings.ClearAllWebsiteData.Clear.Button" xml:space="preserve">
@@ -2784,6 +2795,7 @@
       </trans-unit>
       <trans-unit id="Settings.DNT.OptionOnWithTP" xml:space="preserve">
         <source>Only when using Tracking Protection</source>
+        <target>Күзәтелүдән саклауны кулланганда гына</target>
         <note>DNT Settings option for only turning on when Tracking Protection is also on</note>
       </trans-unit>
       <trans-unit id="Settings.DNT.Title" xml:space="preserve">
@@ -2841,6 +2853,7 @@
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.Manual.SwitchSubtitle" xml:space="preserve">
         <source>Pick which theme you want</source>
+        <target>Теләгән теманы сайлагыз</target>
         <note>Display (theme) settings switch subtitle, explaining the title 'Manually'.</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.Manual.SwitchTitle" xml:space="preserve">
@@ -2869,6 +2882,7 @@
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.SwitchSubtitle" xml:space="preserve">
         <source>Switch automatically based on screen brightness</source>
+        <target>Экран яктылыгына нигезләнеп, автоматик рәвештә үзгәрсен</target>
         <note>Display (theme) settings switch subtitle, explaining the title 'Automatically'.</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.SwitchTitle" xml:space="preserve">
@@ -2884,6 +2898,7 @@
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.SystemTheme.SwitchTitle" xml:space="preserve">
         <source>Use System Light/Dark Mode</source>
+        <target>Системаның ачык/караңгы режимын куллану</target>
         <note>System theme settings switch to choose whether to use the same theme as the system</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.ThemePicker.SectionHeader" xml:space="preserve">
@@ -2918,14 +2933,17 @@
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Description" xml:space="preserve">
         <source>Choose content you see on the Firefox homepage.</source>
+        <target>Firefox-ның баш битендә күрсәтеләселәрне сайлагыз.</target>
         <note>In the settings menu, on the Firefox homepage customization section, this is the description below the section, describing what the options in the section are for.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.JumpBackIn" xml:space="preserve">
         <source>Jump Back In</source>
+        <target>Кире кайту</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle the Jump Back In section on homepage on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Pocket" xml:space="preserve">
         <source>Recommended by Pocket</source>
+        <target>Pocket тәкъдим итә</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Pocket Recommendations section on the Firefox homepage on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.RecentSearches" xml:space="preserve">
