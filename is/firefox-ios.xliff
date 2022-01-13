@@ -161,7 +161,7 @@
       </trans-unit>
       <trans-unit id="Incorrect passcode. Try again (Attempts remaining: %d)." xml:space="preserve">
         <source>Incorrect passcode. Try again (Attempts remaining: %d).</source>
-        <target>Rangur aðgangskóðinn. Reyndu aftur (%d tilraunir eftir).</target>
+        <target>Rangur aðgangskóði. Reyndu aftur (%d tilraunir eftir).</target>
         <note>Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app with attempts remaining</note>
       </trans-unit>
       <trans-unit id="Incorrect passcode. Try again." xml:space="preserve">
@@ -181,7 +181,7 @@
       </trans-unit>
       <trans-unit id="New passcode must be different than existing code." xml:space="preserve">
         <source>New passcode must be different than existing code.</source>
-        <target>Nýr aðgangskóði verður að vera frábreyttur núverandi kóða.</target>
+        <target>Nýr aðgangskóði verður að vera frábrugðinn fyrirliggjandi kóða.</target>
         <note>Error message displayed when user tries to enter the same passcode as their existing code when changing it.</note>
       </trans-unit>
       <trans-unit id="Passcode For Logins" xml:space="preserve">
@@ -191,12 +191,12 @@
       </trans-unit>
       <trans-unit id="Passcodes didn’t match. Try again." xml:space="preserve">
         <source>Passcodes didn’t match. Try again.</source>
-        <target>Aðgangskóðar eru ekki samir. Reyndu aftur.</target>
+        <target>Aðgangskóðar passa ekki saman. Reyndu aftur.</target>
         <note>Error message displayed to user when their confirming passcode doesn't match the first code.</note>
       </trans-unit>
       <trans-unit id="Re-enter passcode" xml:space="preserve">
         <source>Re-enter passcode</source>
-        <target>Slá aftur inn aðgangskóða</target>
+        <target>Settu aftur inn aðgangskóða</target>
         <note>Text displayed above the input field when confirming a passcode</note>
       </trans-unit>
       <trans-unit id="Require Passcode" xml:space="preserve">
@@ -211,7 +211,7 @@
       </trans-unit>
       <trans-unit id="Touch ID &amp; Passcode" xml:space="preserve">
         <source>Touch ID &amp; Passcode</source>
-        <target>Snerti auðkenning &amp; aðgangskóði</target>
+        <target>Fingrafaraauðkenning &amp; aðgangskóði</target>
         <note>Label for the Touch ID/Passcode item in Settings</note>
       </trans-unit>
       <trans-unit id="Turn Passcode Off" xml:space="preserve">
@@ -241,12 +241,12 @@
       </trans-unit>
       <trans-unit id="touchid.disable.reason.label" xml:space="preserve">
         <source>Use your fingerprint to disable Touch ID.</source>
-        <target>Notaðu fingrafarið þitt til að slökkva á Touch ID.</target>
+        <target>Notaðu fingrafarið þitt til að slökkva á Touch ID fingrafaraskönnun.</target>
         <note>Touch ID prompt subtitle when disabling Touch ID</note>
       </trans-unit>
       <trans-unit id="touchid.require.passcode.reason.label" xml:space="preserve">
         <source>Use your fingerprint to access configuring your required passcode interval.</source>
-        <target>Notaðu fingrafarið þitt til að fá aðgang að stillingu nauðsynlegra lykilorða tíðna.</target>
+        <target>Notaðu fingrafarið þitt til að fá aðgang að stillingu á tíðni nauðsynlegrar innsetningar aðgangskóða.</target>
         <note>Touch ID prompt subtitle when accessing the require passcode setting</note>
       </trans-unit>
     </body>
@@ -1843,6 +1843,7 @@
       </trans-unit>
       <trans-unit id="Logins.DevicePasscodeRequired.Message" xml:space="preserve">
         <source>To save and autofill logins and passwords, enable Face ID, Touch ID or a device passcode.</source>
+        <target>Til að vista og fylla út innskráningar og lykilorð sjálfkrafa skaltu virkja Face ID andlitsauðkenni, Touch ID fingrafaraauðkenni eða aðgangskóða tækis.</target>
         <note>Message shown when you enter Logins &amp; Passwords without having a device passcode set.</note>
       </trans-unit>
       <trans-unit id="Logins.Onboarding.ContinueButtonTitle" xml:space="preserve">
@@ -1857,10 +1858,12 @@
       </trans-unit>
       <trans-unit id="Logins.Onboarding.Message" xml:space="preserve">
         <source>Your logins and passwords are now protected by Face ID, Touch ID or a device passcode.</source>
+        <target>Innskráningar þínar og lykilorð eru nú vernduð með Face ID andlitsauðkenni, Touch ID fingrafaraauðkenni eða aðgangskóða tækis.</target>
         <note>Message shown when you enter Logins &amp; Passwords for the first time.</note>
       </trans-unit>
       <trans-unit id="Logins.PasscodeRequirement.Warning" xml:space="preserve">
         <source>To use the AutoFill feature for Firefox, you must have a device passcode enabled.</source>
+        <target>Til að nota sjálfvirka útfyllingareiginleikann fyrir Firefox verður þú að hafa aðgangskóða tækis virkan.</target>
         <note>Warning message shown when you try to enable or use native AutoFill without a device passcode setup</note>
       </trans-unit>
       <trans-unit id="Logins.WelcomeView.Tagline" xml:space="preserve">
