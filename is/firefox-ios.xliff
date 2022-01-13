@@ -1101,7 +1101,7 @@
       </trans-unit>
       <trans-unit id="CoverSheet.v24.ETP.Title" xml:space="preserve">
         <source>Protection Against Ad Tracking</source>
-        <target>Vörn gegn því að fylgst sé með þér</target>
+        <target>Vörn gegn auglýsingarakningu</target>
         <note>Title for the new ETP mode i.e. standard vs strict</note>
       </trans-unit>
       <trans-unit id="Create an account" xml:space="preserve">
@@ -1453,7 +1453,7 @@
       </trans-unit>
       <trans-unit id="HistoryPanel.ClearHistoryMenuTitle" xml:space="preserve">
         <source>Clearing Recent History will remove history, cookies, and other browser data.</source>
-        <target>Ef þú hrenisar ferli, þá mun ferli, smáköku og önnu vafragögn eyðast.</target>
+        <target>Ef nýlegur ferill er hreinsaður verða ferill, vefkökur og önnur vafragögn fjarlægð.</target>
         <note>Title for popup action menu to clear recent history.</note>
       </trans-unit>
       <trans-unit id="HistoryPanel.EmptyState.Title" xml:space="preserve">
@@ -2024,12 +2024,12 @@
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtectionOff.Title" xml:space="preserve">
         <source>Enhanced Tracking Protection is OFF for this site.</source>
-        <target>Slökkt er á aukinni rekjaravernd fyrir þetta vefsvæði.</target>
+        <target>Slökkt er á auknum rakningarvörnum fyrir þetta vefsvæði.</target>
         <note>A switch to disable enhanced tracking protection inside the menu.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtectionOn.Title" xml:space="preserve">
         <source>Enhanced Tracking Protection is ON for this site.</source>
-        <target>Kveikt er á aukinni rekjaravernd fyrir þetta vefsvæði.</target>
+        <target>Kveikt er á auknum rakningarvörnum fyrir þetta vefsvæði.</target>
         <note>A switch to enable enhanced tracking protection inside the menu.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtectionStandardWithITP.Title" xml:space="preserve">
@@ -2099,12 +2099,12 @@
       </trans-unit>
       <trans-unit id="Menu.ReloadWithTrackingProtection.Title" xml:space="preserve">
         <source>Reload With Tracking Protection</source>
-        <target>Hlaða aftur með vörn gegn því að fylgst sé með þér</target>
+        <target>Hlaða aftur með vörnum gegn rekjurum</target>
         <note>Label for the button, displayed in the menu, used to reload the current website with Tracking Protection enabled</note>
       </trans-unit>
       <trans-unit id="Menu.ReloadWithoutTrackingProtection.Title" xml:space="preserve">
         <source>Reload Without Tracking Protection</source>
-        <target>Hlaða aftur án varnar gegn því að fylgst sé með þér</target>
+        <target>Hlaða aftur án varna gegn rekjurum</target>
         <note>Label for the button, displayed in the menu, used to reload the current website without Tracking Protection</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveBookmark.Confirm" xml:space="preserve">
@@ -2146,17 +2146,17 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.TitlePrefix" xml:space="preserve">
         <source>Protections for %@</source>
-        <target>Vörn gegn %@</target>
+        <target>Varnir fyrir %@</target>
         <note>Title on tracking protection menu showing the domain. eg. Protections for mozilla.org</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionBlockedContent.Title" xml:space="preserve">
         <source>Tracking content</source>
-        <target>Rakið efnið</target>
+        <target>Rakning efnis</target>
         <note>The title that shows the number of content cookies blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionBlockedSocial.Title" xml:space="preserve">
         <source>Social Trackers</source>
-        <target>Samfélagsrekjarar</target>
+        <target>Samfélagsmiðlarekjarar</target>
         <note>The title that shows the number of social URLs blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionBlocking.Description" xml:space="preserve">
@@ -2171,7 +2171,7 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionCrossSiteCookies.Title" xml:space="preserve">
         <source>Cross-Site Tracking Cookies</source>
-        <target>Smákökur millivefsvæðarekjara</target>
+        <target>Rakningarkökur milli vefsvæða</target>
         <note>The title that shows the number of cross-site cookies blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionCrossSiteTrackers.Title" xml:space="preserve">
@@ -2181,24 +2181,27 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionCryptominersBlocked.Title" xml:space="preserve">
         <source>Cryptominers</source>
-        <target>Rafmyntugrafarar</target>
+        <target>Rafmyntagröftur</target>
         <note>The title that shows the number of cryptomining scripts blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDescription.ContentTrackers" xml:space="preserve">
         <source>Websites may load outside ads, videos, and other content that contains hidden trackers. Blocking this can make websites load faster, but some buttons, forms, and login fields, might not work.</source>
-        <target>Vefsíður geta hlaðið ytri auglýsingum, myndböndum og öðru efni sem inniheldur falda rekjara. Vefsíður munu vera fljótari að hlaðast með því að loka á þetta efni en sumir takkar, eyðublöð og innskráningarreitir virka ef til vill ekki.</target>
+        <target>Vefsvæði kunna að hlaða inn utanaðkomandi auglýsingum, myndskeiðum og öðru efni með rakningarkóða. Að loka fyrir rakningarefni getur hjálpað vefsvæðum til að hlaðast hraðar inn, en sumir hnappar, innfyllingarreitir og innskráningarreitir virka kannski ekki.</target>
         <note>Description of content trackers.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDescription.CrossSiteNew" xml:space="preserve">
         <source>These cookies follow you from site to site to gather data about what you do online. They are set by third parties such as advertisers and analytics companies.</source>
+        <target>Þessar vafrakökur fylgja þér frá vefsvæði til vefsvæðis til að safna gögnum um það sem þú gerir á netinu. Þær eru settar af utanaðkomandi aðilum á borð við auglýsendur og greiningarfyrirtæki.</target>
         <note>Description of cross-site trackers.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDescription.CryptominersNew" xml:space="preserve">
         <source>Cryptominers secretly use your system’s computing power to mine digital money. Cryptomining scripts drain your battery, slow down your computer, and can increase your energy bill.</source>
+        <target>Rafmyntagrafarar laumast til að nota afkastagetu kerfisins þíns til að vinna stafræna peninga. Rafmyntaskriftur tæma rafhlöðuna þína, hægja á tölvunni þinni og geta hækkað rafmagnseikninginn þinn.</target>
         <note>Description of cryptominers.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDescription.Fingerprinters" xml:space="preserve">
         <source>The settings on your browser and computer are unique. Fingerprinters collect a variety of these unique settings to create a profile of you, which can be used to track you as you browse.</source>
+        <target>Stillingarnar á vafranum þínum og tölvunni eru einstakar. Fingrafarasafnarar safna ýmsum slíkum einstökuum stillingum til að búa til persónusnið af þér, sem hægt er að nota til að fylgjast með þér á meðan þú vafrar.</target>
         <note>Description of fingerprinters.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDescription.SocialNetworksNew" xml:space="preserve">
@@ -2212,12 +2215,12 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionDisabled.Title" xml:space="preserve">
         <source>Tracking Protection is now off for this site.</source>
-        <target>Slökkt hefur verið á vörn gegn gagnasöfnun fyrir þetta svæði.</target>
+        <target>Vörn gegn gagnasöfnun er ekki virk fyrir þetta vefsvæði.</target>
         <note>The confirmation toast once tracking protection has been disabled</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionEnable.Title" xml:space="preserve">
         <source>Enable Tracking Protection</source>
-        <target>Gera vörn gegn gagnasöfnun virka</target>
+        <target>Kveikja á rakningarvörn</target>
         <note>A button to enable tracking protection inside the menu.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionEnable1.Title" xml:space="preserve">
@@ -2227,16 +2230,17 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionEnabled.Title" xml:space="preserve">
         <source>Tracking Protection is now on for this site.</source>
-        <target>Vörn gegn gagnasöfnun virk fyrir þetta svæði.</target>
+        <target>Vörn gegn gagnasöfnun er núna virk fyrir þetta vefsvæði.</target>
         <note>The confirmation toast once tracking protection has been enabled</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionFingerprintersBlocked.Title" xml:space="preserve">
         <source>Fingerprinters</source>
-        <target>Fingraför</target>
+        <target>Fingrafarasöfnun</target>
         <note>The title that shows the number of fingerprinting scripts blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionListTitle.CrossSiteCookies" xml:space="preserve">
         <source>Blocked Cross-Site Tracking Cookies</source>
+        <target>Útilokaðar rakningarkökur milli vefsvæða</target>
         <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionListTitle.Cryptominers" xml:space="preserve">
