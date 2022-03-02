@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Client/en.lproj/InfoPlist.strings" source-language="en" target-language="hr" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.2.1" build-num="13C100"/>
@@ -18,7 +17,7 @@
       <trans-unit id="NSLocationWhenInUseUsageDescription" xml:space="preserve">
         <source>Websites you visit may request your location.</source>
         <target>Web stranice koje posjećuješ mogu zatražiti tvoju lokaciju.</target>
-        <note>file, You can obtain one at http://mozilla.org/MPL/2.0</note>
+        <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription" xml:space="preserve">
         <source>Firefox uses your microphone to record and upload audio.</source>
@@ -768,6 +767,10 @@
         <target>Adresa i pretraga</target>
         <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
       </trans-unit>
+      <trans-unit id="Address.Bar.v99" xml:space="preserve">
+        <source>Address Bar</source>
+        <note>Accessibility label for the Address Bar, where a user can enter the search they wish to make</note>
+      </trans-unit>
       <trans-unit id="Always Send" xml:space="preserve">
         <source>Always Send</source>
         <target>Uvijek šalji</target>
@@ -1315,6 +1318,10 @@
         <target>Otkrij više</target>
         <note>At the end of the Pocket section on the Firefox Homepage, this button appears and indicates tapping it will navigate the user to more Pocket Stories.</note>
       </trans-unit>
+      <trans-unit id="FirefoxHome.Pocket.Minutes.v99" xml:space="preserve">
+        <source>%d min</source>
+        <note>On each Pocket Stories on the Firefox Homepage, this label appears and indicates the number of minutes to read an article. Minutes should be abbreviated due to space constraints. %d represents the number of minutes</note>
+      </trans-unit>
       <trans-unit id="FirefoxHome.Pocket.SectionTitle" xml:space="preserve">
         <source>Thought-Provoking Stories</source>
         <note>This is the title of the Pocket section on Firefox Homepage.</note>
@@ -1444,9 +1451,8 @@
         <target>Sync je odspojen</target>
         <note>Title of a notification displayed when named device has been disconnected from FxA.</note>
       </trans-unit>
-      <trans-unit id="FxHomepage.Wallpaper.ButtonLabel" xml:space="preserve">
-        <source>Firefox logo, change the wallpaper, button</source>
-        <target>Firefox logitip, promijeni pozadinu, gumb</target>
+      <trans-unit id="FxHomepage.Wallpaper.ButtonLabel.v99" xml:space="preserve">
+        <source>Firefox logo, change the wallpaper.</source>
         <note>On the firefox homepage, the string read by the voice over prompt for accessibility, for the button which changes the wallpaper</note>
       </trans-unit>
       <trans-unit id="Get your open tabs, bookmarks, and passwords from your other devices." xml:space="preserve">
@@ -1839,15 +1845,21 @@
         <target>Prošli tjedan</target>
         <note>History tableview section header</note>
       </trans-unit>
-      <trans-unit id="LibraryPanel.History.SearchHistoryPlaceholder" xml:space="preserve">
-        <source>Search History</source>
-        <target>Povijest pretrage</target>
-        <note>In the history panel, this placeholder text inside the search component will indicate that a user can search through their browsing history.</note>
+      <trans-unit id="LibraryPanel.History.NoHistoryFound.v99" xml:space="preserve">
+        <source>No history found</source>
+        <note>In the history panel, users will be able to search terms in their browsing history. This label is shown when there is no results after querying the search terms in the user's history.</note>
       </trans-unit>
-      <trans-unit id="LibraryPanel.History.SyncedHistory" xml:space="preserve">
-        <source>Synced History</source>
-        <target>Sinkronizirana povijest</target>
-        <note>In the history panel, this label indicates that tapping on this item will navigate the user to a screen showing only browser history from other devices that are synced with the user's Firefox account.</note>
+      <trans-unit id="LibraryPanel.History.RecentlyClosedTabs.v99" xml:space="preserve">
+        <source>Recently Closed Tabs</source>
+        <note>In the history panel, this is the title on the button that navigates the user to a screen showing their recently closed tabs.</note>
+      </trans-unit>
+      <trans-unit id="LibraryPanel.History.SearchHistoryPlaceholder.v99" xml:space="preserve">
+        <source>Enter search terms</source>
+        <note>In the history panel, users will be able to search terms in their browsing history. This placeholder text inside the search component will indicate that a user can search through their browsing history.</note>
+      </trans-unit>
+      <trans-unit id="LibraryPanel.History.SyncedFromOtherDevices.v99" xml:space="preserve">
+        <source>Synced from Other Devices</source>
+        <note>In the history panel, this is the title on the button that navigates the user to a screen showing only browser history from other devices that are synced with the user's Firefox account.</note>
       </trans-unit>
       <trans-unit id="LibraryPanel.Section.Older" xml:space="preserve">
         <source>Older</source>
@@ -2056,10 +2068,18 @@
         <note>Name for Mark as unread button in reader mode
    Title for the button that marks a reading list item as unread</note>
       </trans-unit>
+      <trans-unit id="Menu.AddBookmark.AlternateLabel.v99" xml:space="preserve">
+        <source>Add Bookmark</source>
+        <note>Long label for the add bookmark button displayed in the menu. Pressing this button bookmarks the current page.</note>
+      </trans-unit>
       <trans-unit id="Menu.AddBookmark.Confirm" xml:space="preserve">
         <source>Bookmark Added</source>
         <target>Zabilješka dodana</target>
         <note>Toast displayed to the user after a bookmark has been added.</note>
+      </trans-unit>
+      <trans-unit id="Menu.AddBookmark.Label.v99" xml:space="preserve">
+        <source>Add</source>
+        <note>Label for the add bookmark button in the menu. Pressing this button bookmarks the current page. Please keep the text as short as possible for this label.</note>
       </trans-unit>
       <trans-unit id="Menu.AddPin.Confirm" xml:space="preserve">
         <source>Pinned To Top Sites</source>
@@ -2071,15 +2091,18 @@
         <target>Dodano u prečace</target>
         <note>Toast displayed to the user after adding the item to the Shortcuts.</note>
       </trans-unit>
+      <trans-unit id="Menu.AddReadingList.Label.v99" xml:space="preserve">
+        <source>Add</source>
+        <note>Label for the add to reading list button in the menu. Pressing this button adds the current page to the reading list. Please keep the text as short as possible for this label.</note>
+      </trans-unit>
       <trans-unit id="Menu.AddToReadingList.Confirm" xml:space="preserve">
         <source>Added To Reading List</source>
         <target>Dodano na popis za čitanje</target>
         <note>Toast displayed to the user after adding the item to their reading list.</note>
       </trans-unit>
-      <trans-unit id="Menu.BackUpAndSync.Label" xml:space="preserve">
-        <source>Back up and Sync Data</source>
-        <target>Sigurnosno kopiraj i sinkroniziraj podatke</target>
-        <note>Label for the button, displayed in the menu, takes you to sync sign in when pressed.</note>
+      <trans-unit id="Menu.AddToShortcuts.v99" xml:space="preserve">
+        <source>Add to Shortcuts</source>
+        <note>Label for the add to shortcuts button in the menu. Pressing this button pins the current website as a shortcut on the home page.</note>
       </trans-unit>
       <trans-unit id="Menu.Bookmarks.Label" xml:space="preserve">
         <source>Bookmarks</source>
@@ -2095,6 +2118,10 @@
         <source>URL Copied To Clipboard</source>
         <target>URL kopiran u međuspremnik</target>
         <note>Toast displayed to user after copy url pressed.</note>
+      </trans-unit>
+      <trans-unit id="Menu.CustomizeHomePage.v99" xml:space="preserve">
+        <source>Customize Homepage</source>
+        <note>Label for the customize homepage button in the menu page. Pressing this button takes users to the settings options, where they can customize the Firefox Home page</note>
       </trans-unit>
       <trans-unit id="Menu.Downloads.Label" xml:space="preserve">
         <source>Downloads</source>
@@ -2121,6 +2148,10 @@
         <target>Firefox blokira programe za praćenje web-mjesta, programe za praćenje društvenih mreža, kriptorudare, čitače digitalnih otisaka i praćenje sadržaja.</target>
         <note>Description for having strict ETP protection with ITP offered in iOS14+</note>
       </trans-unit>
+      <trans-unit id="Menu.Help.v99" xml:space="preserve">
+        <source>Help</source>
+        <note>Label for the help button in the menu page. Pressing this button opens the support page https://support.mozilla.org/en-US/products/ios</note>
+      </trans-unit>
       <trans-unit id="Menu.History.Label" xml:space="preserve">
         <source>History</source>
         <target>Povijest</target>
@@ -2135,6 +2166,10 @@
         <source>Manage Account %@</source>
         <target>Upravljaj računom %@</target>
         <note>Label for the button, displayed in the menu, takes you to screen to manage account when pressed. First argument is the display name for the current account</note>
+      </trans-unit>
+      <trans-unit id="Menu.NewTab.v99" xml:space="preserve">
+        <source>New Tab</source>
+        <note>Label for the new tab button in the menu page. Pressing this button opens a new tab.</note>
       </trans-unit>
       <trans-unit id="Menu.NightModeTurnOff.Label2" xml:space="preserve">
         <source>Turn off Night Mode</source>
@@ -2201,20 +2236,55 @@
         <target>Zabilješka uklonjena</target>
         <note>Toast displayed to the user after a bookmark has been removed.</note>
       </trans-unit>
+      <trans-unit id="Menu.RemoveBookmark.Label.v99" xml:space="preserve">
+        <source>Remove</source>
+        <note>Label for the remove bookmark button in the menu. Pressing this button remove the current page from the bookmarks. Please keep the text as short as possible for this label.</note>
+      </trans-unit>
       <trans-unit id="Menu.RemovePin.Confirm" xml:space="preserve">
         <source>Removed From Top Sites</source>
         <target>Uklonjeno iz najpopularnijih stranica</target>
         <note>Toast displayed to the user after removing the item from the Top Sites.</note>
       </trans-unit>
-      <trans-unit id="Menu.RemovePin.Confirm2" xml:space="preserve">
+      <trans-unit id="Menu.RemovePin.Confirm2.v99" xml:space="preserve">
         <source>Removed from Shortcuts</source>
-        <target>Uklonjeno iz prečaca</target>
         <note>Toast displayed to the user after removing the item to the Shortcuts.</note>
+      </trans-unit>
+      <trans-unit id="Menu.RemoveReadingList.AlternateLabel.v99" xml:space="preserve">
+        <source>Remove from Reading List</source>
+        <note>Long label for the remove from reading list button in the menu. Pressing this button removes the current page from the reading list.</note>
+      </trans-unit>
+      <trans-unit id="Menu.RemoveReadingList.Confirm.v99" xml:space="preserve">
+        <source>Removed from Reading List</source>
+        <note>Toast displayed to confirm to the user that his reading list item was correctly removed.</note>
+      </trans-unit>
+      <trans-unit id="Menu.RemoveReadingList.Label.v99" xml:space="preserve">
+        <source>Remove</source>
+        <note>Label for the remove from reading list button in the menu. Pressing this button removes the current page from the reading list. Please keep the text as short as possible for this label.</note>
+      </trans-unit>
+      <trans-unit id="Menu.RemovedFromShortcuts.v99" xml:space="preserve">
+        <source>Remove from Shortcuts</source>
+        <note>Label for the remove from shortcuts button in the menu. Pressing this button removes the current website from the shortcut pins on the home page.</note>
+      </trans-unit>
+      <trans-unit id="Menu.Share.v99" xml:space="preserve">
+        <source>Share</source>
+        <note>Label for the share button in the menu page. Pressing this button open the share menu to share the current website.</note>
+      </trans-unit>
+      <trans-unit id="Menu.SignInToSync.Label.v99" xml:space="preserve">
+        <source>Sign in to Sync</source>
+        <note>Label for the button, displayed in the menu, takes you to sync sign in when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.TabSent.Confirm" xml:space="preserve">
         <source>Tab Sent</source>
         <target>Kartica poslana</target>
         <note>Toast displayed to the user after a tab has been sent successfully.</note>
+      </trans-unit>
+      <trans-unit id="Menu.Toolbar.Bookmarks.AccessibilityLabel.v99" xml:space="preserve">
+        <source>Bookmarks</source>
+        <note>Accessibility label for the Bookmark button on the toolbar. Pressing this button opens the bookmarks menu</note>
+      </trans-unit>
+      <trans-unit id="Menu.Toolbar.Home.AccessibilityLabel.v99" xml:space="preserve">
+        <source>Home</source>
+        <note>Accessibility label for the Home button on the toolbar. Pressing this button brings the user to the home page.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.BlockedTitle" xml:space="preserve">
         <source>Blocked</source>
@@ -2652,6 +2722,10 @@
         <source>Please allow Firefox to access your device’s camera in ‘Settings’ -&gt; ‘Privacy’ -&gt; ‘Camera’.</source>
         <target>Dozvoli Firefoxu pristup kameri tvog uređaja u Postavke -&gt; Privatnost -&gt; Kamera.</target>
         <note>Text of the prompt user to setup the camera authorization.</note>
+      </trans-unit>
+      <trans-unit id="ScanQRCode.PermissionError.Message.v99" xml:space="preserve">
+        <source>Go to device ‘Settings’ &gt; ‘Firefox.’ Allow Firefox to access camera.</source>
+        <note>Text of the prompt to setup the camera authorization for the Scan QR Code feature.</note>
       </trans-unit>
       <trans-unit id="ScanQRCode.View.Title" xml:space="preserve">
         <source>Scan QR Code</source>
@@ -3097,11 +3171,6 @@
         <target>Preporučuje Pocket</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Pocket Recommendations section on the Firefox homepage on or off</note>
       </trans-unit>
-      <trans-unit id="Settings.Home.Option.RecentSearches" xml:space="preserve">
-        <source>Recent Searches</source>
-        <target>Nedavne pretrage</target>
-        <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Recent Searches section on the Firefox homepage on or off</note>
-      </trans-unit>
       <trans-unit id="Settings.Home.Option.RecentlySaved" xml:space="preserve">
         <source>Recently Saved</source>
         <target>Nedavno spremljeno</target>
@@ -3152,21 +3221,20 @@
         <target>Pozadinska slika</target>
         <note>In the settings menu, on the Firefox homepage customization section, this is the title for the option that allows users to access the wallpaper settings for the application.</note>
       </trans-unit>
-      <trans-unit id="Settings.Home.Option.Wallpaper.Accessibility.AmethystWallpaper" xml:space="preserve">
-        <source>Firefox wallpaper, amethyst pattern, button</source>
-        <target>Slika pozdine Firefoxa, uzorak ametista, gumb</target>
+      <trans-unit id="Settings.Home.Option.Wallpaper.Accessibility.AmethystWallpaper.v99" xml:space="preserve">
+        <source>Firefox wallpaper, amethyst pattern.</source>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the accessibility string for the amethyst firefox wallpaper.</note>
       </trans-unit>
-      <trans-unit id="Settings.Home.Option.Wallpaper.Accessibility.CeruleanWallpaper" xml:space="preserve">
-        <source>Firefox wallpaper, cerulean pattern, button</source>
+      <trans-unit id="Settings.Home.Option.Wallpaper.Accessibility.CeruleanWallpaper.v99" xml:space="preserve">
+        <source>Firefox wallpaper, cerulean pattern.</source>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the title accessibility string for the cerulean firefox wallpaper.</note>
       </trans-unit>
-      <trans-unit id="Settings.Home.Option.Wallpaper.Accessibility.DefaultWallpaper" xml:space="preserve">
-        <source>Default clear wallpaper, button</source>
+      <trans-unit id="Settings.Home.Option.Wallpaper.Accessibility.DefaultWallpaper.v99" xml:space="preserve">
+        <source>Default clear wallpaper.</source>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the accessibility string for the default wallpaper.</note>
       </trans-unit>
-      <trans-unit id="Settings.Home.Option.Wallpaper.Accessibility.SunriseWallpaper" xml:space="preserve">
-        <source>Firefox wallpaper, sunrise pattern, button</source>
+      <trans-unit id="Settings.Home.Option.Wallpaper.Accessibility.SunriseWallpaper.v99" xml:space="preserve">
+        <source>Firefox wallpaper, sunrise pattern.</source>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the title accessibility string for the sunrise firefox wallpaper.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.Accessibility.ToggleButton" xml:space="preserve">
@@ -3177,13 +3245,8 @@
         <source>OPENING SCREEN</source>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the title of the section that allows users to change the wallpaper settings for the application.</note>
       </trans-unit>
-      <trans-unit id="Settings.Home.Option.Wallpaper.SwitchDescription" xml:space="preserve">
-        <source>Cycle through and update image without leaving the homepage.</source>
-        <note>In the settings menu, on the Firefox wallpaper customization screen, this is the string describing the switch button's function, which allows a user to toggle wallpaper switching from the homepage logo on or off.</note>
-      </trans-unit>
-      <trans-unit id="Settings.Home.Option.Wallpaper.SwitchTitle" xml:space="preserve">
-        <source>Tap logo to change wallpaper</source>
-        <target>Dodirni logotip za mijenjanje pozadine</target>
+      <trans-unit id="Settings.Home.Option.Wallpaper.SwitchTitle.v99" xml:space="preserve">
+        <source>Change wallpaper by tapping Firefox homepage logo</source>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the string titling the switch button's function, which allows a user to toggle wallpaper switching from the homepage logo on or off.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.Title" xml:space="preserve">
@@ -3355,6 +3418,10 @@
         <source>Choose what to load when opening a new tab</source>
         <target>Odaberi što želiš učitati prilikom otvaranja nove kartice</target>
         <note>Footer at the bottom of the New Tab screen after entering New Tab in settings</note>
+      </trans-unit>
+      <trans-unit id="Settings.NoImageModeBlockImages.Label.v99" xml:space="preserve">
+        <source>Block Images</source>
+        <note>Label for the block images toggle displayed in the settings menu. Enabling this toggle will hide images on any webpage the user visits.</note>
       </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.Status" xml:space="preserve">
         <source>When Opening Firefox</source>
@@ -4376,10 +4443,9 @@
         <target>Zabilježi ovu stranicu</target>
         <note>Label for the button, displayed in the menu, used to create a bookmark for the current website.</note>
       </trans-unit>
-      <trans-unit id="Menu.AddBookmarkAction2.Title" xml:space="preserve">
-        <source>Add Bookmark</source>
-        <target>Dodaj zabilješku</target>
-        <note>Label for the button, displayed in the menu, used to create a bookmark for the current website.</note>
+      <trans-unit id="Menu.AddToReadingList.AlternateLabel.v99" xml:space="preserve">
+        <source>Add to Reading List</source>
+        <note>Long label for the button displayed in the menu, used to add a page to the reading list.</note>
       </trans-unit>
       <trans-unit id="Menu.AddToReadingList.Title" xml:space="preserve">
         <source>Add to Reading List</source>
@@ -4475,6 +4541,10 @@
         <source>Recently Saved</source>
         <target>Nedavno spremljeno</target>
         <note>A string used to signify the start of the Recently Saved section in Home Screen.</note>
+      </trans-unit>
+      <trans-unit id="Menu.RemoveBookmark.AlternateLabel.v99" xml:space="preserve">
+        <source>Remove Bookmark</source>
+        <note>Long label for the remove bookmark button displayed in the menu. Pressing this button remove the current page from the bookmarks.</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveBookmarkAction.Title" xml:space="preserve">
         <source>Remove Bookmark</source>
