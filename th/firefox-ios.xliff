@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Client/en.lproj/InfoPlist.strings" source-language="en" target-language="th" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.2.1" build-num="13C100"/>
@@ -769,6 +770,7 @@
       </trans-unit>
       <trans-unit id="Address.Bar.v99" xml:space="preserve">
         <source>Address Bar</source>
+        <target>แถบที่อยู่</target>
         <note>Accessibility label for the Address Bar, where a user can enter the search they wish to make</note>
       </trans-unit>
       <trans-unit id="Always Send" xml:space="preserve">
@@ -1318,6 +1320,7 @@
       </trans-unit>
       <trans-unit id="FirefoxHome.Pocket.Minutes.v99" xml:space="preserve">
         <source>%d min</source>
+        <target>%d นาที</target>
         <note>On each Pocket Stories on the Firefox Homepage, this label appears and indicates the number of minutes to read an article. Minutes should be abbreviated due to space constraints. %d represents the number of minutes</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.Pocket.SectionTitle" xml:space="preserve">
@@ -1846,18 +1849,22 @@
       </trans-unit>
       <trans-unit id="LibraryPanel.History.NoHistoryFound.v99" xml:space="preserve">
         <source>No history found</source>
+        <target>ไม่พบประวัติ</target>
         <note>In the history panel, users will be able to search terms in their browsing history. This label is shown when there is no results after querying the search terms in the user's history.</note>
       </trans-unit>
       <trans-unit id="LibraryPanel.History.RecentlyClosedTabs.v99" xml:space="preserve">
         <source>Recently Closed Tabs</source>
+        <target>แท็บที่เพิ่งปิด</target>
         <note>In the history panel, this is the title on the button that navigates the user to a screen showing their recently closed tabs.</note>
       </trans-unit>
       <trans-unit id="LibraryPanel.History.SearchHistoryPlaceholder.v99" xml:space="preserve">
         <source>Enter search terms</source>
+        <target>ป้อนคำค้นหา</target>
         <note>In the history panel, users will be able to search terms in their browsing history. This placeholder text inside the search component will indicate that a user can search through their browsing history.</note>
       </trans-unit>
       <trans-unit id="LibraryPanel.History.SyncedFromOtherDevices.v99" xml:space="preserve">
         <source>Synced from Other Devices</source>
+        <target>ซิงค์จากอุปกรณ์อื่น</target>
         <note>In the history panel, this is the title on the button that navigates the user to a screen showing only browser history from other devices that are synced with the user's Firefox account.</note>
       </trans-unit>
       <trans-unit id="LibraryPanel.Section.Older" xml:space="preserve">
@@ -2069,6 +2076,7 @@
       </trans-unit>
       <trans-unit id="Menu.AddBookmark.AlternateLabel.v99" xml:space="preserve">
         <source>Add Bookmark</source>
+        <target>เพิ่มที่คั่นหน้า</target>
         <note>Long label for the add bookmark button displayed in the menu. Pressing this button bookmarks the current page.</note>
       </trans-unit>
       <trans-unit id="Menu.AddBookmark.Confirm" xml:space="preserve">
@@ -2078,6 +2086,7 @@
       </trans-unit>
       <trans-unit id="Menu.AddBookmark.Label.v99" xml:space="preserve">
         <source>Add</source>
+        <target>เพิ่ม</target>
         <note>Label for the add bookmark button in the menu. Pressing this button bookmarks the current page. Please keep the text as short as possible for this label.</note>
       </trans-unit>
       <trans-unit id="Menu.AddPin.Confirm" xml:space="preserve">
@@ -2092,6 +2101,7 @@
       </trans-unit>
       <trans-unit id="Menu.AddReadingList.Label.v99" xml:space="preserve">
         <source>Add</source>
+        <target>เพิ่ม</target>
         <note>Label for the add to reading list button in the menu. Pressing this button adds the current page to the reading list. Please keep the text as short as possible for this label.</note>
       </trans-unit>
       <trans-unit id="Menu.AddToReadingList.Confirm" xml:space="preserve">
@@ -2101,6 +2111,7 @@
       </trans-unit>
       <trans-unit id="Menu.AddToShortcuts.v99" xml:space="preserve">
         <source>Add to Shortcuts</source>
+        <target>เพิ่มทางลัด</target>
         <note>Label for the add to shortcuts button in the menu. Pressing this button pins the current website as a shortcut on the home page.</note>
       </trans-unit>
       <trans-unit id="Menu.Bookmarks.Label" xml:space="preserve">
@@ -2120,6 +2131,7 @@
       </trans-unit>
       <trans-unit id="Menu.CustomizeHomePage.v99" xml:space="preserve">
         <source>Customize Homepage</source>
+        <target>ปรับแต่งหน้าแรก</target>
         <note>Label for the customize homepage button in the menu page. Pressing this button takes users to the settings options, where they can customize the Firefox Home page</note>
       </trans-unit>
       <trans-unit id="Menu.Downloads.Label" xml:space="preserve">
@@ -2149,6 +2161,7 @@
       </trans-unit>
       <trans-unit id="Menu.Help.v99" xml:space="preserve">
         <source>Help</source>
+        <target>ช่วยเหลือ</target>
         <note>Label for the help button in the menu page. Pressing this button opens the support page https://support.mozilla.org/en-US/products/ios</note>
       </trans-unit>
       <trans-unit id="Menu.History.Label" xml:space="preserve">
@@ -2168,6 +2181,7 @@
       </trans-unit>
       <trans-unit id="Menu.NewTab.v99" xml:space="preserve">
         <source>New Tab</source>
+        <target>แท็บใหม่</target>
         <note>Label for the new tab button in the menu page. Pressing this button opens a new tab.</note>
       </trans-unit>
       <trans-unit id="Menu.NightModeTurnOff.Label2" xml:space="preserve">
@@ -2237,6 +2251,7 @@
       </trans-unit>
       <trans-unit id="Menu.RemoveBookmark.Label.v99" xml:space="preserve">
         <source>Remove</source>
+        <target>เอาออก</target>
         <note>Label for the remove bookmark button in the menu. Pressing this button remove the current page from the bookmarks. Please keep the text as short as possible for this label.</note>
       </trans-unit>
       <trans-unit id="Menu.RemovePin.Confirm" xml:space="preserve">
@@ -2250,14 +2265,17 @@
       </trans-unit>
       <trans-unit id="Menu.RemoveReadingList.AlternateLabel.v99" xml:space="preserve">
         <source>Remove from Reading List</source>
+        <target>เอาออกจากรายการอ่าน</target>
         <note>Long label for the remove from reading list button in the menu. Pressing this button removes the current page from the reading list.</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveReadingList.Confirm.v99" xml:space="preserve">
         <source>Removed from Reading List</source>
+        <target>เอาออกจากรายการอ่านแล้ว</target>
         <note>Toast displayed to confirm to the user that his reading list item was correctly removed.</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveReadingList.Label.v99" xml:space="preserve">
         <source>Remove</source>
+        <target>เอาออก</target>
         <note>Label for the remove from reading list button in the menu. Pressing this button removes the current page from the reading list. Please keep the text as short as possible for this label.</note>
       </trans-unit>
       <trans-unit id="Menu.RemovedFromShortcuts.v99" xml:space="preserve">
@@ -2266,10 +2284,12 @@
       </trans-unit>
       <trans-unit id="Menu.Share.v99" xml:space="preserve">
         <source>Share</source>
+        <target>แบ่งปัน</target>
         <note>Label for the share button in the menu page. Pressing this button open the share menu to share the current website.</note>
       </trans-unit>
       <trans-unit id="Menu.SignInToSync.Label.v99" xml:space="preserve">
         <source>Sign in to Sync</source>
+        <target>ลงชื่อเข้า Sync</target>
         <note>Label for the button, displayed in the menu, takes you to sync sign in when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.TabSent.Confirm" xml:space="preserve">
@@ -2279,10 +2299,12 @@
       </trans-unit>
       <trans-unit id="Menu.Toolbar.Bookmarks.AccessibilityLabel.v99" xml:space="preserve">
         <source>Bookmarks</source>
+        <target>ที่คั่นหน้า</target>
         <note>Accessibility label for the Bookmark button on the toolbar. Pressing this button opens the bookmarks menu</note>
       </trans-unit>
       <trans-unit id="Menu.Toolbar.Home.AccessibilityLabel.v99" xml:space="preserve">
         <source>Home</source>
+        <target>หน้าแรก</target>
         <note>Accessibility label for the Home button on the toolbar. Pressing this button brings the user to the home page.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.BlockedTitle" xml:space="preserve">
@@ -3420,6 +3442,7 @@
       </trans-unit>
       <trans-unit id="Settings.NoImageModeBlockImages.Label.v99" xml:space="preserve">
         <source>Block Images</source>
+        <target>ปิดกั้นภาพ</target>
         <note>Label for the block images toggle displayed in the settings menu. Enabling this toggle will hide images on any webpage the user visits.</note>
       </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.Status" xml:space="preserve">
@@ -4444,6 +4467,7 @@
       </trans-unit>
       <trans-unit id="Menu.AddToReadingList.AlternateLabel.v99" xml:space="preserve">
         <source>Add to Reading List</source>
+        <target>เพิ่มไปยังรายการอ่าน</target>
         <note>Long label for the button displayed in the menu, used to add a page to the reading list.</note>
       </trans-unit>
       <trans-unit id="Menu.AddToReadingList.Title" xml:space="preserve">
@@ -4543,6 +4567,7 @@
       </trans-unit>
       <trans-unit id="Menu.RemoveBookmark.AlternateLabel.v99" xml:space="preserve">
         <source>Remove Bookmark</source>
+        <target>เอาที่คั่นหน้าออก</target>
         <note>Long label for the remove bookmark button displayed in the menu. Pressing this button remove the current page from the bookmarks.</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveBookmarkAction.Title" xml:space="preserve">
