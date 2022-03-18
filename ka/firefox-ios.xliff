@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Client/en.lproj/InfoPlist.strings" source-language="en" target-language="ka" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.2.1" build-num="13C100"/>
@@ -769,6 +770,7 @@
       </trans-unit>
       <trans-unit id="Address.Bar.v99" xml:space="preserve">
         <source>Address Bar</source>
+        <target>მისამართების ველი</target>
         <note>Accessibility label for the Address Bar, where a user can enter the search they wish to make</note>
       </trans-unit>
       <trans-unit id="Always Send" xml:space="preserve">
@@ -1058,10 +1060,12 @@
       </trans-unit>
       <trans-unit id="ContextualHint.SearchBarPlacement.ExistingUsers" xml:space="preserve">
         <source>Now you can move the toolbar to the bottom, so it’s easier to enter info</source>
+        <target>ახლა უკვე შეგიძლიათ ხელსაწყოების ქვემოთ გადატანა, მოხერხებულად გამოყენებისთვის</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one introduces search bar placement to existing users. It tells them that the search bar can now be moved to the bottom of the screen.</note>
       </trans-unit>
       <trans-unit id="ContextualHint.SearchBarPlacement.NewUsers" xml:space="preserve">
         <source>To make entering info easier, the toolbar is now at the bottom by default.</source>
+        <target>ტექსტის მოხერხებულად შეყვანისთვის, ხელსაწყოები ნაგულისხმევად ქვემოთაა განთავსებული.</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one introduces search bar placement to new users. It tells them that by default, the search bar will appear at the bottom of the device.</note>
       </trans-unit>
       <trans-unit id="ContextualHints.Homepage.PersonalizedHome" xml:space="preserve">
@@ -1071,6 +1075,7 @@
       </trans-unit>
       <trans-unit id="ContextualHints.SearchBarPlacement.CallToAction" xml:space="preserve">
         <source>Toolbar Settings</source>
+        <target>ხელსაწყოთა ზოლის პარამეტრები</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one is a call to action for the popup describing search bar placement. It indicates a user can navigate to the settings page that allows them to customize the placement of the search bar.</note>
       </trans-unit>
       <trans-unit id="ContextualHints.TabTray.InactiveTabs" xml:space="preserve">
@@ -1312,6 +1317,7 @@
       </trans-unit>
       <trans-unit id="FirefoxHome.Pocket.DiscoverMore" xml:space="preserve">
         <source>Discover more</source>
+        <target>აღმოაჩინეთ მეტი</target>
         <note>At the end of the Pocket section on the Firefox Homepage, this button appears and indicates tapping it will navigate the user to more Pocket Stories.</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.Pocket.Minutes.v99" xml:space="preserve">
@@ -2065,6 +2071,7 @@
       </trans-unit>
       <trans-unit id="Menu.AddBookmark.AlternateLabel.v99" xml:space="preserve">
         <source>Add Bookmark</source>
+        <target>სანიშნის დამატება</target>
         <note>Long label for the add bookmark button displayed in the menu. Pressing this button bookmarks the current page.</note>
       </trans-unit>
       <trans-unit id="Menu.AddBookmark.Confirm" xml:space="preserve">
@@ -2074,6 +2081,7 @@
       </trans-unit>
       <trans-unit id="Menu.AddBookmark.Label.v99" xml:space="preserve">
         <source>Add</source>
+        <target>დამატება</target>
         <note>Label for the add bookmark button in the menu. Pressing this button bookmarks the current page. Please keep the text as short as possible for this label.</note>
       </trans-unit>
       <trans-unit id="Menu.AddPin.Confirm" xml:space="preserve">
@@ -2088,6 +2096,7 @@
       </trans-unit>
       <trans-unit id="Menu.AddReadingList.Label.v99" xml:space="preserve">
         <source>Add</source>
+        <target>დამატება</target>
         <note>Label for the add to reading list button in the menu. Pressing this button adds the current page to the reading list. Please keep the text as short as possible for this label.</note>
       </trans-unit>
       <trans-unit id="Menu.AddToReadingList.Confirm" xml:space="preserve">
@@ -2097,6 +2106,7 @@
       </trans-unit>
       <trans-unit id="Menu.AddToShortcuts.v99" xml:space="preserve">
         <source>Add to Shortcuts</source>
+        <target>მალსახმობებში დამატება</target>
         <note>Label for the add to shortcuts button in the menu. Pressing this button pins the current website as a shortcut on the home page.</note>
       </trans-unit>
       <trans-unit id="Menu.Bookmarks.Label" xml:space="preserve">
@@ -2262,6 +2272,7 @@
       </trans-unit>
       <trans-unit id="Menu.Share.v99" xml:space="preserve">
         <source>Share</source>
+        <target>გაზიარება</target>
         <note>Label for the share button in the menu page. Pressing this button open the share menu to share the current website.</note>
       </trans-unit>
       <trans-unit id="Menu.SignInToSync.Label.v99" xml:space="preserve">
@@ -4244,7 +4255,7 @@
       </trans-unit>
       <trans-unit id="fxa.signin.qr-link-instruction" xml:space="preserve">
         <source>On your computer open Firefox and go to firefox.com/pair</source>
-        <target>გახსენით კომპიუტერში Firefox და იხილეთ გვერდი firefox.com/pair</target>
+        <target>ჩართეთ კომპიუტერში Firefox და გახსენით გვერდი firefox.com/pair</target>
         <note>FxA sign in view qr code instructions</note>
       </trans-unit>
       <trans-unit id="fxa.signin.ready-to-scan" xml:space="preserve">
@@ -4433,6 +4444,7 @@
       </trans-unit>
       <trans-unit id="Menu.AddToReadingList.AlternateLabel.v99" xml:space="preserve">
         <source>Add to Reading List</source>
+        <target>წასაკითხებში დამატება</target>
         <note>Long label for the button displayed in the menu, used to add a page to the reading list.</note>
       </trans-unit>
       <trans-unit id="Menu.AddToReadingList.Title" xml:space="preserve">
@@ -4699,7 +4711,7 @@
       </trans-unit>
       <trans-unit id="Unsorted Bookmarks" xml:space="preserve">
         <source>Unsorted Bookmarks</source>
-        <target>დაულაგებელი სანიშნები</target>
+        <target>დაუხარისხებელი სანიშნები</target>
         <note>The name of the folder that contains unsorted desktop bookmarks. This should match bookmarks.folder.unfiled.label on Android.</note>
       </trans-unit>
     </body>
