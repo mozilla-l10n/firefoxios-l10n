@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+<?xml version='1.0' encoding='UTF-8'?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Client/en.lproj/InfoPlist.strings" source-language="en" target-language="ka" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.3.1" build-num="13E500a"/>
@@ -1079,7 +1080,7 @@
       </trans-unit>
       <trans-unit id="ContextualHints.TabTray.InactiveTabs" xml:space="preserve">
         <source>Tabs you haven’t viewed for two weeks get moved here.</source>
-        <target>ორი კვირის მოუნახულებელი ჩანართები, აქ გადმოვა.</target>
+        <target>ორი კვირის მოუნახულებელი ჩანართები აქ გადმოვა.</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one talks about the inactive tabs feature.</note>
       </trans-unit>
       <trans-unit id="ContextualHints.TabTray.InactiveTabs.CallToAction" xml:space="preserve">
@@ -1336,14 +1337,17 @@
       </trans-unit>
       <trans-unit id="FirefoxHomepage.Common.SitesCount.v101" xml:space="preserve">
         <source>Sites: %d</source>
+        <target>საიტები: %d</target>
         <note>Label showing how many sites there is in a search group. %d represents a number</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.ContextualMenu.Settings.v101" xml:space="preserve">
         <source>Settings</source>
+        <target>პარამეტრები</target>
         <note>The title for the Settings context menu action for sponsored tiles in the Firefox home page shortcuts section. Clicking this brings the users to the Shortcuts Settings.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.ContextualMenu.SponsoredContent.v101" xml:space="preserve">
         <source>Our Sponsors &amp; Your Privacy</source>
+        <target>ჩვენი დამფინანსებლები და თქვენი პირადულობა</target>
         <note>The title for the Sponsored Content context menu action for sponsored tiles in the Firefox home page shortcuts section. Clicking this brings the users to a support page where users can learn more about Sponsored content and how it works.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.Shortcuts.Sponsored.v100" xml:space="preserve">
@@ -1618,6 +1622,7 @@
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewPrivateTab.v101" xml:space="preserve">
         <source>Open in a Private Tab</source>
+        <target>გახსნა პირად ჩანართში</target>
         <note>The title for the Open in New Private Tab context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewTab" xml:space="preserve">
@@ -3230,10 +3235,12 @@
       </trans-unit>
       <trans-unit id="Settings.Home.Current.Description.v101" xml:space="preserve">
         <source>Choose what displays as the homepage.</source>
+        <target>აირჩიეთ, რა გამოჩნდეს საწყის გვერდზე.</target>
         <note>This is the description below the settings section located in the menu under customize current homepage. It describes what the options in the section are for.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Description.v101" xml:space="preserve">
         <source>Choose what’s included on the Firefox homepage.</source>
+        <target>აირჩიეთ, რა დაემატოს Firefox-ის საწყის გვერდზე.</target>
         <note>In the settings menu, on the Firefox homepage customization section, this is the description below the section, describing what the options in the section are for.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.JumpBackIn" xml:space="preserve">
@@ -3288,6 +3295,7 @@
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Title.v101" xml:space="preserve">
         <source>Include on Homepage</source>
+        <target>ჩაემატოს საწყის გვერდზე</target>
         <note>In the settings menu, this is the title of the Firefox Homepage customization settings section</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper" xml:space="preserve">
@@ -3437,7 +3445,7 @@
       </trans-unit>
       <trans-unit id="Settings.NewTab.CustomURL" xml:space="preserve">
         <source>Custom URL</source>
-        <target>საკუთარი ბმული</target>
+        <target>შერჩეული ბმული</target>
         <note>Label used to set a custom url as the new tab option (homepage).</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Description" xml:space="preserve">
@@ -3687,6 +3695,7 @@
       </trans-unit>
       <trans-unit id="Settings.Tabs.CustomizeTabsSection.InactiveTabsDescription.v101" xml:space="preserve">
         <source>Tabs you haven’t viewed for two weeks get moved to the inactive section.</source>
+        <target>ორი კვირის მოუნახულებელი ჩანართები გადმოვა უქმეების არეში.</target>
         <note>This is the description for the setting that toggles the Inactive Tabs feature in the settings menu under the Tabs customization section. Inactive tabs are a separate section of tabs that appears in the Tab Tray, which can be enabled or not</note>
       </trans-unit>
       <trans-unit id="Settings.Tabs.CustomizeTabsSection.TabGroups" xml:space="preserve">
@@ -4641,7 +4650,7 @@
       </trans-unit>
       <trans-unit id="Menu.OpenHomePageAction.Title" xml:space="preserve">
         <source>Home</source>
-        <target>მთავარი</target>
+        <target>საწყისი</target>
         <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel.v2" xml:space="preserve">
