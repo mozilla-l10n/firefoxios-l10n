@@ -1069,6 +1069,10 @@
    Title for default search engine picker.
    Title for default search engine settings section.</note>
       </trans-unit>
+      <trans-unit id="DefaultBrowserCloseButtonAccessibility.v102" xml:space="preserve">
+        <source>Close</source>
+        <note>Accessibility label for action denoting closing default browser home tab banner.</note>
+      </trans-unit>
       <trans-unit id="Display Settings" xml:space="preserve">
         <source>Display Settings</source>
         <target>ಪ್ರದರ್ಶಕದ ಹೊಂದಾಣಿಕೆಗಳು</target>
@@ -2306,6 +2310,42 @@
         <target>ಸರಿ</target>
         <note>Restore Tabs Affirmative Action</note>
       </trans-unit>
+      <trans-unit id="Onboarding.IntroAction.v102" xml:space="preserve">
+        <source>Get Started</source>
+        <note>Describes the action on the first onboarding page in our Onboarding screen. This string will be on a button so user can continue the onboarding.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.IntroDescriptionPart1.v102" xml:space="preserve">
+        <source>Indie. Non-profit. For good.</source>
+        <note>String used to describes what Firefox is on the first onboarding page in our Onboarding screens. Indie means small independant.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.IntroDescriptionPart2.v102" xml:space="preserve">
+        <source>Committed to the promise of a better Internet for everyone.</source>
+        <note>String used to describes what Firefox is on the first onboarding page in our Onboarding screens.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.LaterAction.v102" xml:space="preserve">
+        <source>Not Now</source>
+        <note>Describes an action on some of the Onboarding screen, including the wallpaper onboarding screen. This string will be on a button so user can skip that onboarding page.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.SyncAction.v102" xml:space="preserve">
+        <source>Sign Up and Log In</source>
+        <note>Describes an action on the sync onboarding page in our Onboarding screens. This string will be on a button so user can sign up or login directly in the onboarding.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.SyncDescription.v102" xml:space="preserve">
+        <source>Automatically sync tabs and bookmarks across devices for seamless screen-hopping.</source>
+        <note>Description for the sync onboarding page in our Onboarding screens. The user will be able to setup their Firefox sync account from that screen.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.SyncTitle.v102" xml:space="preserve">
+        <source>Sync to Stay In Your Flow</source>
+        <note>Title for the sync onboarding page in our Onboarding screens. The user will be able to setup their Firefox sync account from that screen. 'Stay in the flow' means that a person is fully immersed in an activity. The user will sync with their Firefox sync account to stay connected and immersed in the activity they are doing.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.WallpaperAction.v102" xml:space="preserve">
+        <source>Set Wallpaper</source>
+        <note>Description for the wallpaper onboarding page in our Onboarding screens. This describes to the user that they can set a wallpaper.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.WallpaperTitle.v102" xml:space="preserve">
+        <source>Choose a Firefox Wallpaper</source>
+        <note>Title for the wallpaper onboarding page in our Onboarding screens. This describes to the user that they can choose different wallpapers.</note>
+      </trans-unit>
       <trans-unit id="Onboarding.WhatsNew.Button.Title" xml:space="preserve">
         <source>Start Browsing</source>
         <note>On the onboarding card letting users know what's new in this version of Firefox, this is the title for the button, on the bottom of the card, used to get back to browsing on Firefox by dismissing the onboarding card</note>
@@ -2553,6 +2593,10 @@
       <trans-unit id="Search.Awesomebar.SwitchToTab" xml:space="preserve">
         <source>Switch to tab</source>
         <note>Search suggestion cell label that allows user to switch to tab which they searched for in url bar</note>
+      </trans-unit>
+      <trans-unit id="Search.SuggestSectionTitle.v102" xml:space="preserve">
+        <source>Firefox Suggest</source>
+        <note>When making a new search from the awesome bar, suggestions appear to the user as they write new letters in their search. Different types of suggestions can appear. This string will be used as a header to separate Firefox suggestions from normal suggestions.</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.AddMessage" xml:space="preserve">
         <source>The new search engine will appear in the quick search bar.</source>
@@ -3722,10 +3766,6 @@
       <trans-unit id="TabTray.OtherTabs.Title" xml:space="preserve">
         <source>Other tabs</source>
         <note>In the Tabs Tray, summoned from the homepage, the title for the section containing non-grouped tabs, which will appear below grouped tabs</note>
-      </trans-unit>
-      <trans-unit id="TabTray.PrivateTitle" xml:space="preserve">
-        <source>Private Tabs</source>
-        <note>The title for the tab tray in private mode</note>
       </trans-unit>
       <trans-unit id="TabTray.RecentlyClosed.Description" xml:space="preserve">
         <source>Tabs are available here for 30 days. After that time, tabs will be automatically closed.</source>
