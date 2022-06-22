@@ -1353,6 +1353,10 @@
         <target>ຜູ້ສະຫນັບສະຫນູນຂອງພວກເຮົາ &amp; ຄວາມເປັນສ່ວນຕົວຂອງທ່ານ</target>
         <note>The title for the Sponsored Content context menu action for sponsored tiles in the Firefox home page shortcuts section. Clicking this brings the users to a support page where users can learn more about Sponsored content and how it works.</note>
       </trans-unit>
+      <trans-unit id="FirefoxHomepage.Pocket.Sponsored.v103" xml:space="preserve">
+        <source>Sponsored</source>
+        <note>This string will show under the description on pocket story, indicating that the story is sponsored.</note>
+      </trans-unit>
       <trans-unit id="FirefoxHomepage.Shortcuts.Sponsored.v100" xml:space="preserve">
         <source>Sponsored</source>
         <target>ໄດ້ຮັບການສະຫນັບສະຫນູນ</target>
@@ -2329,6 +2333,10 @@
         <source>Sign in to Sync</source>
         <note>Label for the button, displayed in the menu, takes you to sync sign in when pressed.</note>
       </trans-unit>
+      <trans-unit id="Menu.SyncAndSaveData.v103" xml:space="preserve">
+        <source>Sync and Save Data</source>
+        <note>Label for the Firefox Sync button in the menu page. Pressing this button open the sign in to Firefox page service to sync and save data.</note>
+      </trans-unit>
       <trans-unit id="Menu.TabSent.Confirm" xml:space="preserve">
         <source>Tab Sent</source>
         <target>ແທັບຖືກສົ່ງແລ້ວ</target>
@@ -3285,6 +3293,10 @@
         <target>ທາງລັດ</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Shortcuts section on the Firefox homepage on or off</note>
       </trans-unit>
+      <trans-unit id="Settings.Home.Option.SponsoredPocket.v103" xml:space="preserve">
+        <source>Sponsored stories</source>
+        <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Pocket Sponsored Stories on the Firefox homepage on or off</note>
+      </trans-unit>
       <trans-unit id="Settings.Home.Option.StartAtHome.AfterFourHours" xml:space="preserve">
         <source>Homepage after four hours of inactivity</source>
         <target>ຫນ້າທໍາອິດຫຼັງຈາກທີ່ບໍ່ມີການເຄື່ອນໄຫວເປັນເວລາສີ່ຊົ່ວໂມງ</target>
@@ -3573,6 +3585,22 @@
         <target>ແອັບເມລ</target>
         <note>Label used as an item in Settings. When touched it will open a dialog to configure the open with (mail links) behavior.</note>
       </trans-unit>
+      <trans-unit id="Settings.Passwords.FingerPrintReason.v103" xml:space="preserve">
+        <source>Use your fingerprint to access passwords now.</source>
+        <note>Touch ID prompt subtitle when accessing logins and passwords</note>
+      </trans-unit>
+      <trans-unit id="Settings.Passwords.OnboardingMessage.v103" xml:space="preserve">
+        <source>Your passwords are now protected by Face ID, Touch ID or a device passcode.</source>
+        <note>Message shown when you enter Passwords screen for the first time. It explains how password are protected in the Firefox for iOS application.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Passwords.SavePasswords.v103" xml:space="preserve">
+        <source>Save Passwords</source>
+        <note>Setting that appears in the Passwords screen to enable the built-in password manager so users can save their passwords.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Passwords.Title.v103" xml:space="preserve">
+        <source>Passwords</source>
+        <note>Title for the passwords screen.</note>
+      </trans-unit>
       <trans-unit id="Settings.SaveLogins.Title" xml:space="preserve">
         <source>Save Logins</source>
         <target>ບັກທຶກການເຂົ້າສູ່ລະບົບ</target>
@@ -3682,6 +3710,18 @@
         <source>Studies</source>
         <target>ການສຶກສາ</target>
         <note>Label used as a toggle item in Settings. When this is off, the user is opting out of all studies.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Sync.ButtonDescription.v103" xml:space="preserve">
+        <source>Sign in to sync tabs, bookmarks, passwords, and more.</source>
+        <note>Ddescription that appears in the settings screen to explain what Firefox Sync is useful for.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Sync.ButtonTitle.v103" xml:space="preserve">
+        <source>Sync and Save Data</source>
+        <note>Button label that appears in the settings to prompt the user to sign in to Firefox for iOS sync service to sync and save data.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Sync.SignInView.Title.v103" xml:space="preserve">
+        <source>Sync and Save Data</source>
+        <note>Title for the page where the user sign in to their Firefox Sync account.</note>
       </trans-unit>
       <trans-unit id="Settings.Tabs.CustomizeTabsSection.InactiveTabs" xml:space="preserve">
         <source>Inactive Tabs</source>
@@ -4199,6 +4239,14 @@
         <source>Search Tabs</source>
         <target>ຄົ້ນຫາແທັບ</target>
         <note>The placeholder text for the tab search bar</note>
+      </trans-unit>
+      <trans-unit id="TabsTray.InactiveTabs.SectionTitle.Closed.Accessibility.v103" xml:space="preserve">
+        <source>View Inactive Tabs</source>
+        <note>Accessibility title for the inactive tabs section button when section is closed. This section groups all tabs that haven't been used in a while.</note>
+      </trans-unit>
+      <trans-unit id="TabsTray.InactiveTabs.SectionTitle.Opened.Accessibility.v103" xml:space="preserve">
+        <source>Hide Inactive Tabs</source>
+        <note>Accessibility title for the inactive tabs section button when section is open. This section groups all tabs that haven't been used in a while.</note>
       </trans-unit>
       <trans-unit id="The page could not be displayed in Reader View." xml:space="preserve">
         <source>The page could not be displayed in Reader View.</source>
