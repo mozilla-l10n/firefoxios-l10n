@@ -1,4 +1,4 @@
-name: Import strings (new)
+name: Import strings
 on:
   workflow_dispatch:
     inputs:
@@ -13,7 +13,8 @@ jobs:
     strategy:
       max-parallel: 4
       matrix:
-        xcode: ["13.4"]
+        xcode:
+          - 13.4.1
     steps:
       - name: Clone l10n repository
         uses: actions/checkout@v3
