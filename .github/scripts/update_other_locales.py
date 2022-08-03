@@ -134,6 +134,7 @@ def main():
                 "sv_SE": "sv",
                 "templates": "en",
                 "tl": "fil",
+                "zgh": "tmz",
             }
             # Normaliza the locale code, using dashes instead of underscores
             locale_code = locale_mapping.get(locale, locale).replace("_", "-")
