@@ -16,7 +16,7 @@
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription" xml:space="preserve">
         <source>Websites you visit may request your location.</source>
-        <target>පිවිසෙන අඩවි මගින් ඔබගේ ස්ථානය ඉල්ලා සිටීමට හැකිය.</target>
+        <target>ගොඩවදින අඩවි වෙතින් ඔබගේ ස්ථානය ඉල්ලා සිටීමට හැකිය.</target>
         <note>Privacy - Location When In Use Usage Description</note>
       </trans-unit>
       <trans-unit id="NSMicrophoneUsageDescription" xml:space="preserve">
@@ -632,6 +632,7 @@
       </trans-unit>
       <trans-unit id="ActivityStream.Highlights.Visited" xml:space="preserve">
         <source>Visited</source>
+        <target>ගොඩවැදුණු</target>
         <note>The description of a highlight if it is a site the user has visited</note>
       </trans-unit>
       <trans-unit id="ActivityStream.JumpBackIn.SectionTitle" xml:space="preserve">
@@ -1247,26 +1248,32 @@
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Description" xml:space="preserve">
         <source>The owner of %@ has configured their website improperly. To protect your information from being stolen, Firefox has not connected to this website.</source>
+        <target>%@ හි අයිතිකරු ඔවුන්ගේ වියමන අඩවිය නිසි ලෙස සකස් කර නැත. ඔබගේ තොරතුරු සොරෙන් ගැනීම වැළැක්වීමට, ෆයර්ෆොක්ස් මෙම අඩවියට සම්බන්ධ වී නැත.</target>
         <note>Warning text on the certificate error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Title" xml:space="preserve">
         <source>This Connection is Untrusted</source>
+        <target>මෙම සම්බන්ධතාවය අවිශ්වාසයි</target>
         <note>Title on the certificate error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.GoBack.Button" xml:space="preserve">
         <source>Go Back</source>
+        <target>ආපසු යන්න</target>
         <note>Label for button to go back from the error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.VisitOnce.Button" xml:space="preserve">
         <source>Visit site anyway</source>
+        <target>කෙසේවුවද පිවිසෙන්න</target>
         <note>Button label to temporarily continue to the site from the certificate error page</note>
       </trans-unit>
       <trans-unit id="ExternalLink.AppStore.ConfirmationTitle" xml:space="preserve">
         <source>Open this link in the App Store?</source>
+        <target>යෙදුම් ගබඩාවෙහි මෙම සබැඳිය අරින්නද?</target>
         <note>Question shown to user when tapping a link that opens the App Store app</note>
       </trans-unit>
       <trans-unit id="ExternalLink.AppStore.GenericConfirmationTitle" xml:space="preserve">
         <source>Open this link in external app?</source>
+        <target>මෙම සබැඳිය බාහිර යෙදුම තුළ අරින්නද?</target>
         <note>Question shown to user when tapping an SMS or MailTo link that opens the external app for those.</note>
       </trans-unit>
       <trans-unit id="Facebook" xml:space="preserve">
@@ -1276,10 +1283,12 @@
       </trans-unit>
       <trans-unit id="Firefox.HomePage.Title" xml:space="preserve">
         <source>Firefox Home Page</source>
+        <target>ෆයර්ෆොක්ස් මුල් පිටුව</target>
         <note>Title for firefox about:home page in tab history list</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.CustomizeHomeButton.Title" xml:space="preserve">
         <source>Customize Homepage</source>
+        <target>මුල්පිටුව අභිරුචිකරණය</target>
         <note>A button at bottom of the Firefox homepage that, when clicked, takes users straight to the settings options, where they can customize the Firefox Home page</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.Pocket.DiscoverMore" xml:space="preserve">
@@ -1288,6 +1297,7 @@
       </trans-unit>
       <trans-unit id="FirefoxHome.Pocket.Minutes.v99" xml:space="preserve">
         <source>%d min</source>
+        <target>විනාඩි %d</target>
         <note>On each Pocket Stories on the Firefox Homepage, this label appears and indicates the number of minutes to read an article. Minutes should be abbreviated due to space constraints. %d represents the number of minutes</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.Pocket.SectionTitle" xml:space="preserve">
@@ -1296,6 +1306,7 @@
       </trans-unit>
       <trans-unit id="FirefoxHome.RecentHistory.Remove" xml:space="preserve">
         <source>Remove</source>
+        <target>ඉවත් කරන්න</target>
         <note>When a user taps and holds on an item from the Recently Visited section, this label will appear indicating the option to remove that item.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.Common.SitesCount.v101" xml:space="preserve">
@@ -2002,10 +2013,12 @@
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title.OneArg" xml:space="preserve">
         <source>Update login for %@?</source>
+        <target>%@ සඳහා ඇතුළු වීම යාවත්කාල කරන්නද?</target>
         <note>Prompt for updating a login. The first parameter is the hostname for which the password will be updated for.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title.TwoArg" xml:space="preserve">
         <source>Update login %1$@ for %2$@?</source>
+        <target>%2$@ සඳහා %1$@ ඇතුළු වීම යාවත්කාල කරන්නද?</target>
         <note>Prompt for updating a login. The first parameter is the username for which the password will be updated for. The second parameter is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.SaveLogin.Button" xml:space="preserve">
@@ -2122,42 +2135,52 @@
       </trans-unit>
       <trans-unit id="Menu.AddReadingList.Label.v99" xml:space="preserve">
         <source>Add</source>
+        <target>එකතු</target>
         <note>Label for the add to reading list button in the menu. Pressing this button adds the current page to the reading list. Please keep the text as short as possible for this label.</note>
       </trans-unit>
       <trans-unit id="Menu.AddToReadingList.Confirm" xml:space="preserve">
         <source>Added To Reading List</source>
+        <target>කියවීමේ ලේඛනයට එක් කෙරිණි</target>
         <note>Toast displayed to the user after adding the item to their reading list.</note>
       </trans-unit>
       <trans-unit id="Menu.AddToShortcuts.v99" xml:space="preserve">
         <source>Add to Shortcuts</source>
+        <target>කෙටිමං වෙත යොදන්න</target>
         <note>Label for the add to shortcuts button in the menu. Pressing this button pins the current website as a shortcut on the home page.</note>
       </trans-unit>
       <trans-unit id="Menu.Bookmarks.Label" xml:space="preserve">
         <source>Bookmarks</source>
+        <target>පොත්යොමු</target>
         <note>Label for the button, displayed in the menu, takes you to to bookmarks screen when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.Copy.Title" xml:space="preserve">
         <source>Copy Address</source>
+        <target>ලිපිනයේ පිටපතක්</target>
         <note>The title for the button that lets you copy the url from the location bar.</note>
       </trans-unit>
       <trans-unit id="Menu.CopyURL.Confirm" xml:space="preserve">
         <source>URL Copied To Clipboard</source>
+        <target>ඒ.ස.නි. පසුරුපුවරුවට පිටපත් විය</target>
         <note>Toast displayed to user after copy url pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.CustomizeHomePage.v99" xml:space="preserve">
         <source>Customize Homepage</source>
+        <target>මුල් පිටුව අභිරුචිකරණය</target>
         <note>Label for the customize homepage button in the menu page. Pressing this button takes users to the settings options, where they can customize the Firefox Home page</note>
       </trans-unit>
       <trans-unit id="Menu.Downloads.Label" xml:space="preserve">
         <source>Downloads</source>
+        <target>බාගැනීම්</target>
         <note>Label for the button, displayed in the menu, takes you to to Downloads screen when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtectionOff.Title" xml:space="preserve">
         <source>Enhanced Tracking Protection is OFF for this site.</source>
+        <target>මෙම අඩවිය සඳහා වැඩිදියුණු ලුහුබැඳීමේ රැකවරණය අක්‍රියයි.</target>
         <note>A switch to disable enhanced tracking protection inside the menu.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtectionOn.Title" xml:space="preserve">
         <source>Enhanced Tracking Protection is ON for this site.</source>
+        <target>මෙම අඩවිය සඳහා වැඩිදියුණු ලුහුබැඳීමේ රැකවරණය සක්‍රියයි.</target>
         <note>A switch to enable enhanced tracking protection inside the menu.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtectionStandardWithITP.Title" xml:space="preserve">
@@ -2170,126 +2193,157 @@
       </trans-unit>
       <trans-unit id="Menu.Help.v99" xml:space="preserve">
         <source>Help</source>
+        <target>උදව්</target>
         <note>Label for the help button in the menu page. Pressing this button opens the support page https://support.mozilla.org/en-US/products/ios</note>
       </trans-unit>
       <trans-unit id="Menu.History.Label" xml:space="preserve">
         <source>History</source>
+        <target>ඉතිහාසය</target>
         <note>Label for the button, displayed in the menu, takes you to to History screen when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.Library.StopReload" xml:space="preserve">
         <source>Stop</source>
+        <target>නවතන්න</target>
         <note>Label for the button displayed in the menu used to stop the reload of the webpage</note>
       </trans-unit>
       <trans-unit id="Menu.ManageAccount.Label" xml:space="preserve">
         <source>Manage Account %@</source>
+        <target>%@ ගිණුම කළමනාකරණය</target>
         <note>Label for the button, displayed in the menu, takes you to screen to manage account when pressed. First argument is the display name for the current account</note>
       </trans-unit>
       <trans-unit id="Menu.NewTab.v99" xml:space="preserve">
         <source>New Tab</source>
+        <target>නව පටිත්ත</target>
         <note>Label for the new tab button in the menu page. Pressing this button opens a new tab.</note>
       </trans-unit>
       <trans-unit id="Menu.NightModeTurnOff.Label2" xml:space="preserve">
         <source>Turn off Night Mode</source>
+        <target>රාත්‍රී ආකාරය අක්‍රිය කරන්න</target>
         <note>Label for the button, displayed in the menu, turns off night mode.</note>
       </trans-unit>
       <trans-unit id="Menu.NightModeTurnOn.Label" xml:space="preserve">
         <source>Enable Night Mode</source>
+        <target>රාත්‍රී ආකාරය සබල කරන්න</target>
         <note>Label for the button, displayed in the menu, turns on night mode.</note>
       </trans-unit>
       <trans-unit id="Menu.NightModeTurnOn.Label2" xml:space="preserve">
         <source>Turn on Night Mode</source>
+        <target>රාත්‍රී ආකාරය සක්‍රිය කරන්න</target>
         <note>Label for the button, displayed in the menu, turns on night mode.</note>
       </trans-unit>
       <trans-unit id="Menu.NoImageModeBlockImages.Label" xml:space="preserve">
         <source>Block Images</source>
+        <target>රූප අවහිර කරන්න</target>
         <note>Label for the button, displayed in the menu, hides images on the webpage when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.NoImageModeShowImages.Label" xml:space="preserve">
         <source>Show Images</source>
+        <target>රූප පෙන්වන්න</target>
         <note>Label for the button, displayed in the menu, shows images on the webpage when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.PageActions.Title" xml:space="preserve">
         <source>Page Actions</source>
+        <target>පිටුවේ ක්‍රියාමාර්ග</target>
         <note>Label for title in page action menu.</note>
       </trans-unit>
       <trans-unit id="Menu.Passwords.Label" xml:space="preserve">
         <source>Passwords</source>
+        <target>මුරපද</target>
         <note>Label for the button, displayed in the menu, takes you to to passwords screen when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.Paste.Title" xml:space="preserve">
         <source>Paste</source>
+        <target>අලවන්න</target>
         <note>The title for the button that lets you paste into the location bar</note>
       </trans-unit>
       <trans-unit id="Menu.PasteAndGo.Title" xml:space="preserve">
         <source>Paste &amp; Go</source>
+        <target>අලවන්න හා යන්න</target>
         <note>The title for the button that lets you paste and go to a URL</note>
       </trans-unit>
       <trans-unit id="Menu.ReadingList.Label" xml:space="preserve">
         <source>Reading List</source>
+        <target>කියවීමේ ලේඛනය</target>
         <note>Label for the button, displayed in the menu, takes you to to Reading List screen when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.ReloadWithTrackingProtection.Title" xml:space="preserve">
         <source>Reload With Tracking Protection</source>
+        <target>ලුහුබැඳීමේ රැකවරණය සමඟ යළි පූරණය</target>
         <note>Label for the button, displayed in the menu, used to reload the current website with Tracking Protection enabled</note>
       </trans-unit>
       <trans-unit id="Menu.ReloadWithoutTrackingProtection.Title" xml:space="preserve">
         <source>Reload Without Tracking Protection</source>
+        <target>ලුහුබැඳීමේ රැකවරණය රහිතව යළි පූරණය</target>
         <note>Label for the button, displayed in the menu, used to reload the current website without Tracking Protection</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveBookmark.Confirm" xml:space="preserve">
         <source>Bookmark Removed</source>
+        <target>පොත්යොමුව ඉවත් කෙරිණි</target>
         <note>Toast displayed to the user after a bookmark has been removed.</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveBookmark.Label.v99" xml:space="preserve">
         <source>Remove</source>
+        <target>ඉවත් කරන්න</target>
         <note>Label for the remove bookmark button in the menu. Pressing this button remove the current page from the bookmarks. Please keep the text as short as possible for this label.</note>
       </trans-unit>
       <trans-unit id="Menu.RemovePin.Confirm" xml:space="preserve">
         <source>Removed From Top Sites</source>
+        <target>ප්‍රචලිත අඩවි වලින් ඉවත් කෙරිණි</target>
         <note>Toast displayed to the user after removing the item from the Top Sites.</note>
       </trans-unit>
       <trans-unit id="Menu.RemovePin.Confirm2.v99" xml:space="preserve">
         <source>Removed from Shortcuts</source>
+        <target>කෙටිමං වලින් ඉවත් කෙරිණි</target>
         <note>Toast displayed to the user after removing the item to the Shortcuts.</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveReadingList.AlternateLabel.v99" xml:space="preserve">
         <source>Remove from Reading List</source>
+        <target>කියවීමේ ලේඛනයෙන් ඉවත් කරන්න</target>
         <note>Long label for the remove from reading list button in the menu. Pressing this button removes the current page from the reading list.</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveReadingList.Confirm.v99" xml:space="preserve">
         <source>Removed from Reading List</source>
+        <target>කියවීමේ ලේඛනයෙන් ඉවත් කෙරිණි</target>
         <note>Toast displayed to confirm to the user that his reading list item was correctly removed.</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveReadingList.Label.v99" xml:space="preserve">
         <source>Remove</source>
+        <target>ඉවත් කරන්න</target>
         <note>Label for the remove from reading list button in the menu. Pressing this button removes the current page from the reading list. Please keep the text as short as possible for this label.</note>
       </trans-unit>
       <trans-unit id="Menu.RemovedFromShortcuts.v99" xml:space="preserve">
         <source>Remove from Shortcuts</source>
+        <target>කෙටිමං වෙතින් ඉවත් කරන්න</target>
         <note>Label for the remove from shortcuts button in the menu. Pressing this button removes the current website from the shortcut pins on the home page.</note>
       </trans-unit>
       <trans-unit id="Menu.Share.v99" xml:space="preserve">
         <source>Share</source>
+        <target>බෙදාගන්න</target>
         <note>Label for the share button in the menu page. Pressing this button open the share menu to share the current website.</note>
       </trans-unit>
       <trans-unit id="Menu.SignInToSync.Label.v99" xml:space="preserve">
         <source>Sign in to Sync</source>
+        <target>සමමුහූර්තයට පිවිසෙන්න</target>
         <note>Label for the button, displayed in the menu, takes you to sync sign in when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.SyncAndSaveData.v103" xml:space="preserve">
         <source>Sync and Save Data</source>
+        <target>දත්ත සමමුහූර්ත කර සුරකින්න</target>
         <note>Label for the Firefox Sync button in the menu page. Pressing this button open the sign in to Firefox page service to sync and save data.</note>
       </trans-unit>
       <trans-unit id="Menu.TabSent.Confirm" xml:space="preserve">
         <source>Tab Sent</source>
+        <target>පටිත්ත යැවිණි</target>
         <note>Toast displayed to the user after a tab has been sent successfully.</note>
       </trans-unit>
       <trans-unit id="Menu.Toolbar.Bookmarks.AccessibilityLabel.v99" xml:space="preserve">
         <source>Bookmarks</source>
+        <target>පොත්යොමු</target>
         <note>Accessibility label for the Bookmark button on the toolbar. Pressing this button opens the bookmarks menu</note>
       </trans-unit>
       <trans-unit id="Menu.Toolbar.Home.AccessibilityLabel.v99" xml:space="preserve">
         <source>Home</source>
+        <target>මුල</target>
         <note>Accessibility label for the Home button on the toolbar. Pressing this button brings the user to the home page.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.BlockedTitle" xml:space="preserve">
