@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Client/en.lproj/InfoPlist.strings" source-language="en" target-language="jv" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
@@ -331,7 +330,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/en.lproj/Default Browser.strings" source-language="en" target-language="jv" datatype="plaintext">
+  <file original="Shared/en.lproj/Default Browser.strings" datatype="plaintext" source-language="en" target-language="jv">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
     </header>
@@ -434,7 +433,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/en.lproj/Intro.strings" source-language="en" target-language="jv" datatype="plaintext">
+  <file original="Shared/en.lproj/Intro.strings" datatype="plaintext" source-language="en" target-language="jv">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
     </header>
@@ -993,10 +992,6 @@
         <source>To make entering info easier, the toolbar is now at the bottom by default.</source>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one introduces search bar placement to new users. It tells them that by default, the search bar will appear at the bottom of the device.</note>
       </trans-unit>
-      <trans-unit id="ContextualHints.Homepage.PersonalizedHome" xml:space="preserve">
-        <source>Your personalized Firefox homepage now makes it easier to pick up where you left off. Find your recent tabs, bookmarks, and search results.</source>
-        <note>Contextual hints are little popups that appear for the users informing them of new features. This one talks about the more personalized home feature.</note>
-      </trans-unit>
       <trans-unit id="ContextualHints.SearchBarPlacement.CallToAction" xml:space="preserve">
         <source>Toolbar Settings</source>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one is a call to action for the popup describing search bar placement. It indicates a user can navigate to the settings page that allows them to customize the placement of the search bar.</note>
@@ -1008,6 +1003,10 @@
       <trans-unit id="ContextualHints.TabTray.InactiveTabs.CallToAction" xml:space="preserve">
         <source>Turn off in settings</source>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one is the call to action for the inactive tabs contextual popup.</note>
+      </trans-unit>
+      <trans-unit id="ContextualHintsCloseButtonAccessibility.v105" xml:space="preserve">
+        <source>Close</source>
+        <note>Accessibility label for action denoting closing contextual hint.</note>
       </trans-unit>
       <trans-unit id="Could not add page to Reading List. Maybe it’s already there?" xml:space="preserve">
         <source>Could not add page to Reading List. Maybe it’s already there?</source>
@@ -2174,10 +2173,6 @@
       <trans-unit id="Menu.Share.v99" xml:space="preserve">
         <source>Share</source>
         <note>Label for the share button in the menu page. Pressing this button open the share menu to share the current website.</note>
-      </trans-unit>
-      <trans-unit id="Menu.SignInToSync.Label.v99" xml:space="preserve">
-        <source>Sign in to Sync</source>
-        <note>Label for the button, displayed in the menu, takes you to sync sign in when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.SyncAndSaveData.v103" xml:space="preserve">
         <source>Sync and Save Data</source>
@@ -3965,6 +3960,27 @@
         <source>Upgrade Firefox to connect</source>
         <note>Text message in the settings table view</note>
       </trans-unit>
+      <trans-unit id="Upgrade.SyncSign.Action.v106" xml:space="preserve">
+        <source>Sign In</source>
+        <note>Describes an action on the sync upgrade page in our Upgrade screens. This string will be on a button so user can sign up or login directly in the upgrade.</note>
+      </trans-unit>
+      <trans-unit id="Upgrade.SyncSign.Description.v106" xml:space="preserve">
+        <source>Switching screens is easier than ever</source>
+        <note>Description string used to to sign in to sync in the Upgrade screens. This screen is shown after user upgrades firefox version
+   Title string used to sign in to sync in the Upgrade screens. This screen is shown after user upgrades firefox version</note>
+      </trans-unit>
+      <trans-unit id="Upgrade.Welcome.Action.v106" xml:space="preserve">
+        <source>Get Started</source>
+        <note>Describes the action on the first upgrade page in the Upgrade screen. This string will be on a button so user can continue the Upgrade.</note>
+      </trans-unit>
+      <trans-unit id="Upgrade.Welcome.Description.v106" xml:space="preserve">
+        <source>New colors. New convenience. Same commitment to people over profits.</source>
+        <note>Description string used to welcome back users in the Upgrade screens. This screen is shown after user upgrades firefox version</note>
+      </trans-unit>
+      <trans-unit id="Upgrade.Welcome.Title.v106" xml:space="preserve">
+        <source>Welcome to a more personal internet</source>
+        <note>Title string used to welcome back users in the Upgrade screens. This screen is shown after user upgrades firefox version</note>
+      </trans-unit>
       <trans-unit id="Use stage servers" xml:space="preserve">
         <source>Use stage servers</source>
         <note>Debug option</note>
@@ -4419,7 +4435,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/en.lproj/Shared.strings" source-language="en" target-language="jv" datatype="plaintext">
+  <file original="Shared/en.lproj/Shared.strings" datatype="plaintext" source-language="en" target-language="jv">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
     </header>
@@ -4454,7 +4470,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/en.lproj/Today.strings" source-language="en" target-language="jv" datatype="plaintext">
+  <file original="Shared/en.lproj/Today.strings" datatype="plaintext" source-language="en" target-language="jv">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
     </header>
@@ -4649,7 +4665,7 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/BookmarkPanel.strings" source-language="en" target-language="jv" datatype="plaintext">
+  <file original="Shared/Supporting Files/en.lproj/BookmarkPanel.strings" datatype="plaintext" source-language="en" target-language="jv">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
     </header>
@@ -4660,7 +4676,7 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/BookmarkPanelDeleteConfirm.strings" source-language="en" target-language="jv" datatype="plaintext">
+  <file original="Shared/Supporting Files/en.lproj/BookmarkPanelDeleteConfirm.strings" datatype="plaintext" source-language="en" target-language="jv">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
     </header>
@@ -4683,7 +4699,33 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
-  <file original="WidgetKit/Base.lproj/WidgetIntents.intentdefinition" source-language="en" target-language="jv" datatype="plaintext">
+  <file original="Shared/Supporting Files/en.lproj/JumpBackIn.strings" datatype="plaintext" source-language="en" target-language="jv">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
+    </header>
+    <body>
+      <trans-unit id="ContextualHints.FirefoxHomepage.JumpBackIn.PersonalizedHome" xml:space="preserve">
+        <source>Meet your personalized homepage. Recent tabs, bookmarks, and search results will appear here.</source>
+        <note>Contextual hints are little popups that appear for the users informing them of new features. This one talks about additions to the Firefox homepage regarding a more personalized experience.</note>
+      </trans-unit>
+      <trans-unit id="ContextualHints.FirefoxHomepage.JumpBackIn.SyncedTab.v106" xml:space="preserve">
+        <source>Your tabs are syncing! Pick up where you left off on your other device.</source>
+        <note>Contextual hints are little popups that appear for the users informing them of new features. When a user is logged in and has a tab synced from desktop, this popup indicates which tab that is within the Jump Back In section.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/ToolbarLocation.strings" datatype="plaintext" source-language="en" target-language="jv">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
+    </header>
+    <body>
+      <trans-unit id="ContextualHints.Toolbar.Top.Description.v106" xml:space="preserve">
+        <source>Move the toolbar to the bottom in settings if that's more your style.</source>
+        <note>Contextual hints are little popups that appear for the users informing them of new features. It indicates a user can navigate to the settings page that allows them to customize the placement of the search bar.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="WidgetKit/Base.lproj/WidgetIntents.intentdefinition" datatype="plaintext" source-language="en" target-language="jv">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
     </header>
@@ -4754,7 +4796,7 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
-  <file original="WidgetKit/en.lproj/Localizable.strings" source-language="en" target-language="jv" datatype="plaintext">
+  <file original="WidgetKit/en.lproj/Localizable.strings" datatype="plaintext" source-language="en" target-language="jv">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
     </header>
