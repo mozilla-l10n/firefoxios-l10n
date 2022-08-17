@@ -658,7 +658,7 @@
         <note>On the Firefox homepage in the Jump Back In section, if a Tab group item - a collection of grouped tabs from a related search - exists underneath the search term for the tab group, there will be a subtitle with a number for how many tabs are in that group. The placeholder is for a number. It will read 'Tabs: 5' or similar.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.JumpBackIn.TabGroup.Title" xml:space="preserve">
-        <source>Your search for "%@"</source>
+        <source>Your search for “%@”</source>
         <target>Eich chwilio am "%@"</target>
         <note>On the Firefox homepage in the Jump Back In section, if a Tab group item - a collection of grouped tabs from a related search - exists, the Tab Group item title will be 'Your search for \"video games\"'. The %@ sign is a placeholder for the actual search the user did.</note>
       </trans-unit>
@@ -1068,11 +1068,6 @@
         <target>Er mwyn ei gwneud hi'n haws cyflwyno gwybodaeth, mae'r bar offer nawr wedi ei ragosod ar y gwaelod.</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one introduces search bar placement to new users. It tells them that by default, the search bar will appear at the bottom of the device.</note>
       </trans-unit>
-      <trans-unit id="ContextualHints.Homepage.PersonalizedHome" xml:space="preserve">
-        <source>Your personalized Firefox homepage now makes it easier to pick up where you left off. Find your recent tabs, bookmarks, and search results.</source>
-        <target>Mae eich cartref Firefox personoledig bellach yn ei gwneud hi’n haws i fynd nôl i le roeddech chi o'r blaen. Dewch o hyd i’ch tabiau, nodau tudalen a’ch canlyniadau chwilio diweddar.</target>
-        <note>Contextual hints are little popups that appear for the users informing them of new features. This one talks about the more personalized home feature.</note>
-      </trans-unit>
       <trans-unit id="ContextualHints.SearchBarPlacement.CallToAction" xml:space="preserve">
         <source>Toolbar Settings</source>
         <target>Gosodiadau Bar Offer</target>
@@ -1087,6 +1082,10 @@
         <source>Turn off in settings</source>
         <target>Eu diffodd yn y gosodiadau</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one is the call to action for the inactive tabs contextual popup.</note>
+      </trans-unit>
+      <trans-unit id="ContextualHintsCloseButtonAccessibility.v105" xml:space="preserve">
+        <source>Close</source>
+        <note>Accessibility label for action denoting closing contextual hint.</note>
       </trans-unit>
       <trans-unit id="Could not add page to Reading List. Maybe it’s already there?" xml:space="preserve">
         <source>Could not add page to Reading List. Maybe it’s already there?</source>
@@ -2366,11 +2365,6 @@
         <source>Share</source>
         <target>Rhannu</target>
         <note>Label for the share button in the menu page. Pressing this button open the share menu to share the current website.</note>
-      </trans-unit>
-      <trans-unit id="Menu.SignInToSync.Label.v99" xml:space="preserve">
-        <source>Sign in to Sync</source>
-        <target>Mewngofnodwch i Sync</target>
-        <note>Label for the button, displayed in the menu, takes you to sync sign in when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.SyncAndSaveData.v103" xml:space="preserve">
         <source>Sync and Save Data</source>
@@ -4434,6 +4428,30 @@
         <target>Diweddarwch Firefox i gysylltu</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
+      <trans-unit id="Upgrade.SyncSign.Action.v106" xml:space="preserve">
+        <source>Sign In</source>
+        <note>Describes an action on the sync upgrade page in our Upgrade screens. This string will be on a button so user can sign up or login directly in the upgrade.</note>
+      </trans-unit>
+      <trans-unit id="Upgrade.SyncSign.Description.v106" xml:space="preserve">
+        <source>Pick up where you left off with tabs from other devices now on your homepage.</source>
+        <note>Description string used to to sign in to sync in the Upgrade screens. This screen is shown after user upgrades Firefox version.</note>
+      </trans-unit>
+      <trans-unit id="Upgrade.SyncSign.Title.v106" xml:space="preserve">
+        <source>Switching screens is easier than ever</source>
+        <note>Title string used to sign in to sync in the Upgrade screens. This screen is shown after user upgrades Firefox version.</note>
+      </trans-unit>
+      <trans-unit id="Upgrade.Welcome.Action.v106" xml:space="preserve">
+        <source>Get Started</source>
+        <note>Describes the action on the first upgrade page in the Upgrade screen. This string will be on a button so user can continue the Upgrade.</note>
+      </trans-unit>
+      <trans-unit id="Upgrade.Welcome.Description.v106" xml:space="preserve">
+        <source>New colors. New convenience. Same commitment to people over profits.</source>
+        <note>Description string used to welcome back users in the Upgrade screens. This screen is shown after user upgrades Firefox version.</note>
+      </trans-unit>
+      <trans-unit id="Upgrade.Welcome.Title.v106" xml:space="preserve">
+        <source>Welcome to a more personal internet</source>
+        <note>Title string used to welcome back users in the Upgrade screens. This screen is shown after user upgrades Firefox version.</note>
+      </trans-unit>
       <trans-unit id="Use stage servers" xml:space="preserve">
         <source>Use stage servers</source>
         <target>Defnyddio weinyddion llwyfan</target>
@@ -4441,7 +4459,7 @@
       </trans-unit>
       <trans-unit id="Username" xml:space="preserve">
         <source>Username</source>
-        <target>Enw defnyddiwr</target>
+        <target>Enw Defnyddiwr</target>
         <note>Username textbox in Authentication prompt</note>
       </trans-unit>
       <trans-unit id="Verify your email address" xml:space="preserve">
@@ -5259,6 +5277,32 @@ Private Tab</source>
         <source>This folder isn’t empty.</source>
         <target>Nid yw'r ffolder hwn yn wag.</target>
         <note>Title of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/JumpBackIn.strings" source-language="en" target-language="cy" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
+    </header>
+    <body>
+      <trans-unit id="ContextualHints.FirefoxHomepage.JumpBackIn.PersonalizedHome" xml:space="preserve">
+        <source>Meet your personalized homepage. Recent tabs, bookmarks, and search results will appear here.</source>
+        <note>Contextual hints are little popups that appear for the users informing them of new features. This one talks about additions to the Firefox homepage regarding a more personalized experience.</note>
+      </trans-unit>
+      <trans-unit id="ContextualHints.FirefoxHomepage.JumpBackIn.SyncedTab.v106" xml:space="preserve">
+        <source>Your tabs are syncing! Pick up where you left off on your other device.</source>
+        <note>Contextual hints are little popups that appear for the users informing them of new features. When a user is logged in and has a tab synced from desktop, this popup indicates which tab that is within the Jump Back In section.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/ToolbarLocation.strings" source-language="en" target-language="cy" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
+    </header>
+    <body>
+      <trans-unit id="ContextualHints.Toolbar.Top.Description.v106" xml:space="preserve">
+        <source>Move the toolbar to the bottom in settings if that’s more your style.</source>
+        <note>Contextual hints are little popups that appear for the users informing them of new features. It indicates a user can navigate to the settings page that allows them to customize the placement of the search bar.</note>
       </trans-unit>
     </body>
   </file>
