@@ -27,6 +27,10 @@ It’s possible to invoke [automation manually](https://github.com/mozilla-l10n/
 * `nofile` will copy translations if the ID and source text match, ignoring the file. This is useful to minimize the impact of code refactoring.
 * `matchid` will ignore both file and source text, copying translations if the ID matches. This is useful for source changes that don’t require invalidating existing translations.
 
+## Linter for reference strings
+
+When opening a pull request that touches the `en-US` folder, a GitHub workflow is used to check for common issues in the reference strings (misused quotes or ellipsis, hard-coded brand names). It's possible to add exceptions in this [JSON file](.github/scripts/linter_config.json).
+
 ## Locales in build
 
 [![Check product locales](https://github.com/mozilla-l10n/firefoxios-l10n/actions/workflows/check_product_locales.yml/badge.svg)](https://github.com/mozilla-l10n/firefoxios-l10n/actions/workflows/check_product_locales.yml)
