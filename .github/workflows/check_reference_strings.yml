@@ -1,0 +1,33 @@
+name: Check reference strings
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/check_reference_strings.yml'
+      - '.github/scripts/linter_config.json'
+      - 'en-US/*.xliff'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/check_reference_strings.yml'
+      - '.github/scripts/linter_config.json'
+      - 'en-US/*.xliff'
+  workflow_dispatch:
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v3
+      - name: Set up Python 3
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.9'
+      - name: Install Python dependencies
+        run: |
+          pip install -r .github/scripts/requirements.txt
+      - name: Lint reference locale
+        run: |
+          python .github/scripts/xliff_reference.py --path en-US --config .github/scripts/linter_config.json
