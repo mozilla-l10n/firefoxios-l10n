@@ -77,11 +77,6 @@
         <target>開啟最近儲存書籤</target>
         <note>String describing the action of opening the last added bookmark from the home screen Quick Actions via 3D Touch</note>
       </trans-unit>
-      <trans-unit id="Open Last Tab" xml:space="preserve">
-        <source>Open Last Tab</source>
-        <target>開啟最近關閉分頁</target>
-        <note>String describing the action of opening the last tab sent to Firefox from the home screen Quick Actions via 3D Touch</note>
-      </trans-unit>
       <trans-unit id="Preview of %@" xml:space="preserve">
         <source>Preview of %@</source>
         <target>預覽 %@</target>
@@ -99,155 +94,15 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
     </header>
     <body>
-      <trans-unit id="After 1 hour" xml:space="preserve">
-        <source>After 1 hour</source>
-        <target>1 小時後</target>
-        <note>'After 1 hour' interval item for selecting when to require passcode</note>
-      </trans-unit>
-      <trans-unit id="After 1 minute" xml:space="preserve">
-        <source>After 1 minute</source>
-        <target>1 分鐘後</target>
-        <note>'After 1 minute' interval item for selecting when to require passcode</note>
-      </trans-unit>
-      <trans-unit id="After 5 minutes" xml:space="preserve">
-        <source>After 5 minutes</source>
-        <target>5 分鐘後</target>
-        <note>'After 5 minutes' interval item for selecting when to require passcode</note>
-      </trans-unit>
-      <trans-unit id="After 10 minutes" xml:space="preserve">
-        <source>After 10 minutes</source>
-        <target>10 分鐘後</target>
-        <note>'After 10 minutes' interval item for selecting when to require passcode</note>
-      </trans-unit>
-      <trans-unit id="After 15 minutes" xml:space="preserve">
-        <source>After 15 minutes</source>
-        <target>15 分鐘後</target>
-        <note>'After 15 minutes' interval item for selecting when to require passcode</note>
-      </trans-unit>
-      <trans-unit id="Change Passcode" xml:space="preserve">
-        <source>Change Passcode</source>
-        <target>變更解鎖碼</target>
-        <note>Label used as a setting item and title of the following screen to change the current passcode</note>
-      </trans-unit>
-      <trans-unit id="Enter Passcode" xml:space="preserve">
-        <source>Enter Passcode</source>
-        <target>輸入解鎖碼</target>
-        <note>Title of the dialog used to request the passcode</note>
-      </trans-unit>
-      <trans-unit id="Enter a new passcode" xml:space="preserve">
-        <source>Enter a new passcode</source>
-        <target>輸入新的解鎖碼</target>
-        <note>Text displayed above the input field when changing the existing passcode</note>
-      </trans-unit>
-      <trans-unit id="Enter a passcode" xml:space="preserve">
-        <source>Enter a passcode</source>
-        <target>輸入解鎖碼</target>
-        <note>Text displayed above the input field when entering a new passcode</note>
-      </trans-unit>
       <trans-unit id="Enter passcode" xml:space="preserve">
         <source>Enter passcode</source>
         <target>輸入解鎖碼</target>
         <note>Text displayed above the input field when changing the existing passcode</note>
       </trans-unit>
-      <trans-unit id="Face ID &amp; Passcode" xml:space="preserve">
-        <source>Face ID &amp; Passcode</source>
-        <target>Face ID 與解鎖碼</target>
-        <note>Label for the Face ID/Passcode item in Settings</note>
-      </trans-unit>
-      <trans-unit id="Immediately" xml:space="preserve">
-        <source>Immediately</source>
-        <target>立即</target>
-        <note>'Immediately' interval item for selecting when to require passcode</note>
-      </trans-unit>
-      <trans-unit id="Incorrect passcode. Try again (Attempts remaining: %d)." xml:space="preserve">
-        <source>Incorrect passcode. Try again (Attempts remaining: %d).</source>
-        <target>解鎖碼不正確，請再試一次。（剩下 %d 次機會）</target>
-        <note>Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app with attempts remaining</note>
-      </trans-unit>
-      <trans-unit id="Incorrect passcode. Try again." xml:space="preserve">
-        <source>Incorrect passcode. Try again.</source>
-        <target>解鎖碼不正確，請再試一次。</target>
-        <note>Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app</note>
-      </trans-unit>
-      <trans-unit id="Maximum attempts reached. Please try again in an hour." xml:space="preserve">
-        <source>Maximum attempts reached. Please try again in an hour.</source>
-        <target>已達最大嘗試次數，請等一小時後再試試看。</target>
-        <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
-      </trans-unit>
-      <trans-unit id="Maximum attempts reached. Please try again later." xml:space="preserve">
-        <source>Maximum attempts reached. Please try again later.</source>
-        <target>已達最大嘗試次數，請稍後再試試看。</target>
-        <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
-      </trans-unit>
-      <trans-unit id="New passcode must be different than existing code." xml:space="preserve">
-        <source>New passcode must be different than existing code.</source>
-        <target>新的解鎖碼必須與目前的不同。</target>
-        <note>Error message displayed when user tries to enter the same passcode as their existing code when changing it.</note>
-      </trans-unit>
-      <trans-unit id="Passcode For Logins" xml:space="preserve">
-        <source>Passcode For Logins</source>
-        <target>解鎖後方可顯示登入資訊</target>
-        <note>Label for the Passcode item in Settings</note>
-      </trans-unit>
-      <trans-unit id="Passcodes didn’t match. Try again." xml:space="preserve">
-        <source>Passcodes didn’t match. Try again.</source>
-        <target>解鎖碼不正確，請再試一次。</target>
-        <note>Error message displayed to user when their confirming passcode doesn't match the first code.</note>
-      </trans-unit>
-      <trans-unit id="Re-enter passcode" xml:space="preserve">
-        <source>Re-enter passcode</source>
-        <target>重新輸入解鎖碼</target>
-        <note>Text displayed above the input field when confirming a passcode</note>
-      </trans-unit>
-      <trans-unit id="Require Passcode" xml:space="preserve">
-        <source>Require Passcode</source>
-        <target>要求輸入解鎖碼</target>
-        <note>Text displayed in the 'Interval' section, followed by the current interval setting, e.g. 'Immediately'</note>
-      </trans-unit>
-      <trans-unit id="Set Passcode" xml:space="preserve">
-        <source>Set Passcode</source>
-        <target>設定解鎖碼</target>
-        <note>Title of the dialog used to set a passcode</note>
-      </trans-unit>
-      <trans-unit id="Touch ID &amp; Passcode" xml:space="preserve">
-        <source>Touch ID &amp; Passcode</source>
-        <target>Touch ID 與解鎖碼</target>
-        <note>Label for the Touch ID/Passcode item in Settings</note>
-      </trans-unit>
-      <trans-unit id="Turn Passcode Off" xml:space="preserve">
-        <source>Turn Passcode Off</source>
-        <target>關閉解鎖碼</target>
-        <note>Label used as a setting item to turn off passcode</note>
-      </trans-unit>
-      <trans-unit id="Turn Passcode On" xml:space="preserve">
-        <source>Turn Passcode On</source>
-        <target>開啟解鎖碼</target>
-        <note>Label used as a setting item to turn on passcode</note>
-      </trans-unit>
-      <trans-unit id="Use Face ID" xml:space="preserve">
-        <source>Use Face ID</source>
-        <target>使用 Face ID</target>
-        <note>List section title for when to use Face ID</note>
-      </trans-unit>
-      <trans-unit id="Use Touch ID" xml:space="preserve">
-        <source>Use Touch ID</source>
-        <target>使用 Touch ID</target>
-        <note>List section title for when to use Touch ID</note>
-      </trans-unit>
       <trans-unit id="Use your fingerprint to access Logins now." xml:space="preserve">
         <source>Use your fingerprint to access Logins now.</source>
         <target>掃描指紋，開啟儲存的登入資訊。</target>
         <note>Touch ID prompt subtitle when accessing logins</note>
-      </trans-unit>
-      <trans-unit id="touchid.disable.reason.label" xml:space="preserve">
-        <source>Use your fingerprint to disable Touch ID.</source>
-        <target>使用您的指紋來停用 Touch ID。</target>
-        <note>Touch ID prompt subtitle when disabling Touch ID</note>
-      </trans-unit>
-      <trans-unit id="touchid.require.passcode.reason.label" xml:space="preserve">
-        <source>Use your fingerprint to access configuring your required passcode interval.</source>
-        <target>使用您的指紋來設定需要重新輸入解鎖碼的時間。</target>
-        <note>Touch ID prompt subtitle when accessing the require passcode setting</note>
       </trans-unit>
     </body>
   </file>
@@ -342,11 +197,6 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
     </header>
     <body>
-      <trans-unit id="DefaultBrowserCard.Button" xml:space="preserve">
-        <source>Go to Settings</source>
-        <target>開啟設定</target>
-        <note>Button string to open settings that allows user to switch their default browser to Firefox.</note>
-      </trans-unit>
       <trans-unit id="DefaultBrowserCard.Button.v2" xml:space="preserve">
         <source>Learn How</source>
         <target>更多資訊</target>
@@ -612,11 +462,6 @@
         <target>新增捷徑</target>
         <note>The title for the pinning a shortcut action</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.ContextMenu.PinTopsite" xml:space="preserve">
-        <source>Pin to Top Sites</source>
-        <target>釘選為熱門網站</target>
-        <note>The title for the pinning a topsite action</note>
-      </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.PinTopsite2" xml:space="preserve">
         <source>Pin</source>
         <target>釘選</target>
@@ -627,25 +472,10 @@
         <target>刪除捷徑</target>
         <note>The title for removing a shortcut action</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.ContextMenu.RemovePinTopsite" xml:space="preserve">
-        <source>Remove Pinned Site</source>
-        <target>移除釘選網站</target>
-        <note>The title for removing a pinned topsite action</note>
-      </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.UnpinTopsite" xml:space="preserve">
         <source>Unpin</source>
         <target>取消釘選</target>
         <note>The title for the unpinning a topsite action</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.Highlights.Bookmark" xml:space="preserve">
-        <source>Bookmarked</source>
-        <target>已加入書籤</target>
-        <note>The description of a highlight if it is a site the user has bookmarked</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.Highlights.Visited" xml:space="preserve">
-        <source>Visited</source>
-        <target>造訪過的頁面</target>
-        <note>The description of a highlight if it is a site the user has visited</note>
       </trans-unit>
       <trans-unit id="ActivityStream.JumpBackIn.SectionTitle" xml:space="preserve">
         <source>Jump Back In</source>
@@ -687,11 +517,6 @@
         <target>Pocket 推薦內容</target>
         <note>Section title label for Recommended by Pocket section</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.Pocket.Trending" xml:space="preserve">
-        <source>Trending</source>
-        <target>熱門</target>
-        <note>The description of a Pocket Story</note>
-      </trans-unit>
       <trans-unit id="ActivityStream.RecentHistory.Title" xml:space="preserve">
         <source>Recently Visited</source>
         <target>最近造訪過的頁面</target>
@@ -726,11 +551,6 @@
         <source>Set Rows</source>
         <target>設定列數</target>
         <note>The title for the setting page which lets you select the number of top site rows</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.TopSites.SectionTitle" xml:space="preserve">
-        <source>Top Sites</source>
-        <target>熱門網站</target>
-        <note>Section title label for Top Sites</note>
       </trans-unit>
       <trans-unit id="Add Tab" xml:space="preserve">
         <source>Add Tab</source>
@@ -788,16 +608,6 @@
         <target>需要驗證</target>
         <note>Authentication prompt title</note>
       </trans-unit>
-      <trans-unit id="Awesomebar.SearchWithEngine.Description" xml:space="preserve">
-        <source>Search %@ directly from the address bar</source>
-        <target>從網址列直接使用 %@ 進行搜尋</target>
-        <note>Description for button to suggest searching with a search engine. First argument is the name of the search engine to select</note>
-      </trans-unit>
-      <trans-unit id="Awesomebar.SearchWithEngine.Title" xml:space="preserve">
-        <source>Search with %@</source>
-        <target>使用 %@ 進行搜尋</target>
-        <note>Title for button to suggest searching with a search engine. First argument is the name of the search engine to select</note>
-      </trans-unit>
       <trans-unit id="Back" xml:space="preserve">
         <source>Back</source>
         <target>上一頁</target>
@@ -807,16 +617,6 @@
         <source>Block Pop-up Windows</source>
         <target>封鎖彈出視窗</target>
         <note>Block pop-up windows setting</note>
-      </trans-unit>
-      <trans-unit id="Bookmark.BookmarkDetail.FieldsHeader.Bookmark.Title" xml:space="preserve">
-        <source>Bookmark</source>
-        <target>書籤</target>
-        <note>The header title for the fields when editing a Bookmark</note>
-      </trans-unit>
-      <trans-unit id="Bookmark.BookmarkDetail.FieldsHeader.Folder.Title" xml:space="preserve">
-        <source>Folder</source>
-        <target>資料夾</target>
-        <note>The header title for the fields when editing a Folder</note>
       </trans-unit>
       <trans-unit id="Bookmark.DetailFieldTitle.Label" xml:space="preserve">
         <source>Title</source>
@@ -868,16 +668,6 @@
         <target>資料夾</target>
         <note>The label to show the location of the folder where the bookmark is located</note>
       </trans-unit>
-      <trans-unit id="Bookmarks.FolderLocation.Label" xml:space="preserve">
-        <source>Location</source>
-        <target>位置</target>
-        <note>The label for the location of the new folder</note>
-      </trans-unit>
-      <trans-unit id="Bookmarks.FolderName.Label" xml:space="preserve">
-        <source>Folder Name</source>
-        <target>資料夾名稱</target>
-        <note>The label for the title of the new folder</note>
-      </trans-unit>
       <trans-unit id="Bookmarks.Menu.DesktopBookmarks" xml:space="preserve">
         <source>Desktop Bookmarks</source>
         <target>來自電腦的書籤</target>
@@ -912,16 +702,6 @@
         <source>Title</source>
         <target>標題</target>
         <note>The label for the title of a bookmark</note>
-      </trans-unit>
-      <trans-unit id="Bookmarks.URL.Label" xml:space="preserve">
-        <source>URL</source>
-        <target>網址</target>
-        <note>The label for the URL of a bookmark</note>
-      </trans-unit>
-      <trans-unit id="BookmarksPanel.EmptyState.Title" xml:space="preserve">
-        <source>Bookmarks you save will show up here.</source>
-        <target>您儲存的書籤會顯示於此處。</target>
-        <note>Status label for the empty Bookmarks state.</note>
       </trans-unit>
       <trans-unit id="BreachAlerts.BreachDate" xml:space="preserve">
         <source>This breach occurred on</source>
@@ -993,11 +773,6 @@
         <target>將鏈結加入書籤</target>
         <note>Context menu item for bookmarking a link URL</note>
       </trans-unit>
-      <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.ButtonText" xml:space="preserve">
-        <source>Switch</source>
-        <target>切換</target>
-        <note>The button text in the Button Toast for switching to a fresh New Private Tab.</note>
-      </trans-unit>
       <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.LabelText" xml:space="preserve">
         <source>New Private Tab opened</source>
         <target>已開啟新隱私分頁</target>
@@ -1036,16 +811,6 @@
       <trans-unit id="ContextMenu.OpenInNewTabButtonTitle" xml:space="preserve">
         <source>Open in New Tab</source>
         <target>用新分頁開啟</target>
-        <note>Context menu item for opening a link in a new tab</note>
-      </trans-unit>
-      <trans-unit id="ContextMenu.OpenLinkInNewPrivateTabButtonTitle" xml:space="preserve">
-        <source>Open Link in New Private Tab</source>
-        <target>用新隱私分頁開啟鏈結</target>
-        <note>Context menu item for opening a link in a new private tab</note>
-      </trans-unit>
-      <trans-unit id="ContextMenu.OpenLinkInNewTabButtonTitle" xml:space="preserve">
-        <source>Open Link in New Tab</source>
-        <target>用新分頁開啟鏈結</target>
         <note>Context menu item for opening a link in a new tab</note>
       </trans-unit>
       <trans-unit id="ContextMenu.SaveImageButtonTitle" xml:space="preserve">
@@ -1199,11 +964,6 @@
         <source>Cancel Download</source>
         <target>取消下載</target>
         <note>Alert dialog title when the user taps the cancel download icon.</note>
-      </trans-unit>
-      <trans-unit id="Downloads.Error.Message" xml:space="preserve">
-        <source>Downloads aren’t supported in Firefox yet.</source>
-        <target>尚不支援使用 Firefox 下載。</target>
-        <note>The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.Cancelled.LabelText" xml:space="preserve">
         <source>Download Cancelled</source>
@@ -1440,16 +1200,6 @@
         <target>重寄郵件</target>
         <note>Button label to resend email</note>
       </trans-unit>
-      <trans-unit id="FxA.SignIntoSync" xml:space="preserve">
-        <source>Sign in to Sync</source>
-        <target>登入 Sync</target>
-        <note>Button label to sign into Sync</note>
-      </trans-unit>
-      <trans-unit id="FxA.SyncExplain" xml:space="preserve">
-        <source>Get your tabs, bookmarks, and passwords from your other devices.</source>
-        <target>取得您其他裝置中開啟的分頁、書籤與密碼。</target>
-        <note>Label explaining what sync does</note>
-      </trans-unit>
       <trans-unit id="FxA.SyncNow" xml:space="preserve">
         <source>Sync Now</source>
         <target>立刻同步</target>
@@ -1499,11 +1249,6 @@
         <source>Firefox logo, change the wallpaper.</source>
         <target>Firefox 圖示，點擊此圖示變更背景圖。</target>
         <note>On the firefox homepage, the string read by the voice over prompt for accessibility, for the button which changes the wallpaper</note>
-      </trans-unit>
-      <trans-unit id="Get your open tabs, bookmarks, and passwords from your other devices." xml:space="preserve">
-        <source>Get your open tabs, bookmarks, and passwords from your other devices.</source>
-        <target>在您其他的裝置取得開啟的分頁、書籤與密碼。</target>
-        <note>A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing.</note>
       </trans-unit>
       <trans-unit id="Help" xml:space="preserve">
         <source>Help</source>
@@ -1565,11 +1310,6 @@
         <target>需要驗證您的帳號。</target>
         <note>Description for the empty synced tabs 'not yet verified' state in the History Panel</note>
       </trans-unit>
-      <trans-unit id="HistoryPanel.EmptySyncedTabsPanelSingleDeviceSyncState.Description" xml:space="preserve">
-        <source>Want to see your tabs from other devices here?</source>
-        <target>想在這裡看到您其他裝置上開啟的分頁嗎？</target>
-        <note>Description for the empty synced tabs 'single device Sync' state in the History Panel</note>
-      </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" xml:space="preserve">
         <source>Turn on tab syncing to view a list of tabs from your other devices.</source>
         <target>開啟分頁同步功能以檢視您其他裝置中的分頁清單。</target>
@@ -1590,40 +1330,10 @@
         <target>最近關閉的分頁</target>
         <note>Title for the Recently Closed button in the History Panel</note>
       </trans-unit>
-      <trans-unit id="HistoryPanel.SyncedTabsCell.Description.Pluralized" xml:space="preserve">
-        <source>%d device(s) connected</source>
-        <target>已連結 %d 台裝置</target>
-        <note>Description that corresponds with a number of devices connected for the Synced Tabs Cell in the History Panel</note>
-      </trans-unit>
-      <trans-unit id="HistoryPanel.SyncedTabsCell.Title" xml:space="preserve">
-        <source>Synced Devices</source>
-        <target>已同步的裝置</target>
-        <note>Title for the Synced Tabs Cell in the History Panel</note>
-      </trans-unit>
       <trans-unit id="Home" xml:space="preserve">
         <source>Home</source>
         <target>首頁</target>
         <note>Accessibility label for the tab toolbar indicating the Home button.</note>
-      </trans-unit>
-      <trans-unit id="HomePage.Set.Dialog.Cancel" xml:space="preserve">
-        <source>Cancel</source>
-        <target>取消</target>
-        <note>Button cancelling changes setting the home page for the first time.</note>
-      </trans-unit>
-      <trans-unit id="HomePage.Set.Dialog.Message" xml:space="preserve">
-        <source>You can change this at any time in Settings</source>
-        <target>可以稍後再到設定中調整</target>
-        <note>Alert dialog body when the user opens the home page for the first time.</note>
-      </trans-unit>
-      <trans-unit id="HomePage.Set.Dialog.OK" xml:space="preserve">
-        <source>Set Homepage</source>
-        <target>設為首頁</target>
-        <note>Button accepting changes setting the home page for the first time.</note>
-      </trans-unit>
-      <trans-unit id="HomePage.Set.Dialog.Title" xml:space="preserve">
-        <source>Do you want to use this web page as your home page?</source>
-        <target>想要將此頁面設為首頁嗎？</target>
-        <note>Alert dialog title when the user opens the home page for the first time.</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.Bookmark" xml:space="preserve">
         <source>Bookmark</source>
@@ -1634,11 +1344,6 @@
         <source>Delete from History</source>
         <target>從紀錄刪除</target>
         <note>The title for the Delete from History context menu action for sites in Home Panels</note>
-      </trans-unit>
-      <trans-unit id="HomePanel.ContextMenu.OpenInNewPrivateTab" xml:space="preserve">
-        <source>Open in New Private Tab</source>
-        <target>用新隱私分頁開啟</target>
-        <note>The title for the Open in New Private Tab context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewPrivateTab.v101" xml:space="preserve">
         <source>Open in a Private Tab</source>
@@ -2025,16 +1730,6 @@
         <target>開啟密碼「自動填寫」功能</target>
         <note>Title of the big blue button to enable AutoFill</note>
       </trans-unit>
-      <trans-unit id="LoginsDetailView.LoginModified" xml:space="preserve">
-        <source>Modified</source>
-        <target>修改於</target>
-        <note>Login detail view field name for the last modified date</note>
-      </trans-unit>
-      <trans-unit id="LoginsDetailView.LoginTitle" xml:space="preserve">
-        <source>Login</source>
-        <target>登入資訊</target>
-        <note>Title for the login detail view</note>
-      </trans-unit>
       <trans-unit id="LoginsHelper.DontSave.Button" xml:space="preserve">
         <source>Don’t Save</source>
         <target>不要儲存</target>
@@ -2074,21 +1769,6 @@
         <source>Update</source>
         <target>更新登入資訊</target>
         <note>Button to update the user's password</note>
-      </trans-unit>
-      <trans-unit id="LoginsList.LoginsListFilterLogin" xml:space="preserve">
-        <source>Login</source>
-        <target>登入資訊</target>
-        <note>For filtering the login list, search only the login names</note>
-      </trans-unit>
-      <trans-unit id="LoginsList.LoginsListFilterSearchAll" xml:space="preserve">
-        <source>All</source>
-        <target>全部</target>
-        <note>For filtering the login list, search both website and login names.</note>
-      </trans-unit>
-      <trans-unit id="LoginsList.LoginsListFilterWebsite" xml:space="preserve">
-        <source>Website</source>
-        <target>網站</target>
-        <note>For filtering the login list, search only the website names</note>
       </trans-unit>
       <trans-unit id="LoginsList.LoginsListSearchPlaceholder" xml:space="preserve">
         <source>Filter</source>
@@ -2166,11 +1846,6 @@
         <source>Add</source>
         <target>新增</target>
         <note>Label for the add bookmark button in the menu. Pressing this button bookmarks the current page. Please keep the text as short as possible for this label.</note>
-      </trans-unit>
-      <trans-unit id="Menu.AddPin.Confirm" xml:space="preserve">
-        <source>Pinned To Top Sites</source>
-        <target>已釘選為熱門網站</target>
-        <note>Toast displayed to the user after adding the item to the Top Sites.</note>
       </trans-unit>
       <trans-unit id="Menu.AddPin.Confirm2" xml:space="preserve">
         <source>Added to Shortcuts</source>
@@ -2252,11 +1927,6 @@
         <target>停止</target>
         <note>Label for the button displayed in the menu used to stop the reload of the webpage</note>
       </trans-unit>
-      <trans-unit id="Menu.ManageAccount.Label" xml:space="preserve">
-        <source>Manage Account %@</source>
-        <target>管理帳號 %@</target>
-        <note>Label for the button, displayed in the menu, takes you to screen to manage account when pressed. First argument is the display name for the current account</note>
-      </trans-unit>
       <trans-unit id="Menu.NewTab.v99" xml:space="preserve">
         <source>New Tab</source>
         <target>開新分頁</target>
@@ -2267,30 +1937,15 @@
         <target>關閉夜間模式</target>
         <note>Label for the button, displayed in the menu, turns off night mode.</note>
       </trans-unit>
-      <trans-unit id="Menu.NightModeTurnOn.Label" xml:space="preserve">
-        <source>Enable Night Mode</source>
-        <target>開啟夜間模式</target>
-        <note>Label for the button, displayed in the menu, turns on night mode.</note>
-      </trans-unit>
       <trans-unit id="Menu.NightModeTurnOn.Label2" xml:space="preserve">
         <source>Turn on Night Mode</source>
         <target>開啟夜間模式</target>
         <note>Label for the button, displayed in the menu, turns on night mode.</note>
       </trans-unit>
-      <trans-unit id="Menu.NoImageModeBlockImages.Label" xml:space="preserve">
-        <source>Block Images</source>
-        <target>封鎖圖片</target>
-        <note>Label for the button, displayed in the menu, hides images on the webpage when pressed.</note>
-      </trans-unit>
       <trans-unit id="Menu.NoImageModeShowImages.Label" xml:space="preserve">
         <source>Show Images</source>
         <target>顯示圖片</target>
         <note>Label for the button, displayed in the menu, shows images on the webpage when pressed.</note>
-      </trans-unit>
-      <trans-unit id="Menu.PageActions.Title" xml:space="preserve">
-        <source>Page Actions</source>
-        <target>頁面操作</target>
-        <note>Label for title in page action menu.</note>
       </trans-unit>
       <trans-unit id="Menu.Passwords.Label" xml:space="preserve">
         <source>Passwords</source>
@@ -2331,11 +1986,6 @@
         <source>Remove</source>
         <target>移除</target>
         <note>Label for the remove bookmark button in the menu. Pressing this button remove the current page from the bookmarks. Please keep the text as short as possible for this label.</note>
-      </trans-unit>
-      <trans-unit id="Menu.RemovePin.Confirm" xml:space="preserve">
-        <source>Removed From Top Sites</source>
-        <target>已從熱門網站移除</target>
-        <note>Toast displayed to the user after removing the item from the Top Sites.</note>
       </trans-unit>
       <trans-unit id="Menu.RemovePin.Confirm2.v99" xml:space="preserve">
         <source>Removed from Shortcuts</source>
@@ -2422,16 +2072,6 @@
         <target>社交追蹤器</target>
         <note>The title that shows the number of social URLs blocked</note>
       </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionBlocking.Description" xml:space="preserve">
-        <source>Firefox is blocking parts of the page that may track your browsing.</source>
-        <target>Firefox 已經封鎖頁面裡的部分元素，以防止您的瀏覽行為被其追蹤。</target>
-        <note>Description of the Tracking protection menu when TP is blocking parts of the page</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionBlockingDisabled.Description" xml:space="preserve">
-        <source>Block online trackers</source>
-        <target>封鎖線上追蹤器</target>
-        <note>The description of the Tracking Protection menu item when tracking is enabled</note>
-      </trans-unit>
       <trans-unit id="Menu.TrackingProtectionCrossSiteCookies.Title" xml:space="preserve">
         <source>Cross-Site Tracking Cookies</source>
         <target>跨網站追蹤 Cookie</target>
@@ -2472,75 +2112,10 @@
         <target>社群網站會在其他網站放置追蹤器，以更加了解您的一舉一動。封鎖這些追蹤器，可降低您被社群媒體公司看到行為內容的機會。</target>
         <note>Description of social network trackers.</note>
       </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionDisable1.Title" xml:space="preserve">
-        <source>Disabled for this site</source>
-        <target>為此網站關閉</target>
-        <note>The button that disabled TP for a site.</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionDisabled.Title" xml:space="preserve">
-        <source>Tracking Protection is now off for this site.</source>
-        <target>已對此網站關閉追蹤保護。</target>
-        <note>The confirmation toast once tracking protection has been disabled</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionEnable.Title" xml:space="preserve">
-        <source>Enable Tracking Protection</source>
-        <target>開啟追蹤保護</target>
-        <note>A button to enable tracking protection inside the menu.</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionEnable1.Title" xml:space="preserve">
-        <source>Enabled for this site</source>
-        <target>為此網站開啟</target>
-        <note>A button to enable tracking protection inside the menu.</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionEnabled.Title" xml:space="preserve">
-        <source>Tracking Protection is now on for this site.</source>
-        <target>已對此網站開啟追蹤保護。</target>
-        <note>The confirmation toast once tracking protection has been enabled</note>
-      </trans-unit>
       <trans-unit id="Menu.TrackingProtectionFingerprintersBlocked.Title" xml:space="preserve">
         <source>Fingerprinters</source>
         <target>數位指紋追蹤程式</target>
         <note>The title that shows the number of fingerprinting scripts blocked</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionListTitle.CrossSiteCookies" xml:space="preserve">
-        <source>Blocked Cross-Site Tracking Cookies</source>
-        <target>已封鎖的跨網站追蹤 Cookie</target>
-        <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionListTitle.Cryptominers" xml:space="preserve">
-        <source>Blocked Cryptominers</source>
-        <target>已封鎖的加密貨幣採礦程式</target>
-        <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionListTitle.Fingerprinters" xml:space="preserve">
-        <source>Blocked Fingerprinters</source>
-        <target>已封鎖的數位指紋追蹤程式</target>
-        <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionListTitle.Social" xml:space="preserve">
-        <source>Blocked Social Trackers</source>
-        <target>已封鎖的社交型追蹤器</target>
-        <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionMoreInfo.Description" xml:space="preserve">
-        <source>Learn more about how Tracking Protection blocks online trackers that collect your browsing data across multiple websites.</source>
-        <target>了解追蹤保護功能如何封鎖會在不同網站間收集您的瀏覽資料的網路追蹤器。</target>
-        <note>more info about what tracking protection is about</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionNoBlocking.Description" xml:space="preserve">
-        <source>No tracking elements detected on this page.</source>
-        <target>未在此頁面偵測到追蹤元素。</target>
-        <note>The description of the Tracking Protection menu item when no scripts are blocked but tracking protection is enabled.</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionOption.WhiteListOnDescription" xml:space="preserve">
-        <source>The site includes elements that may track your browsing. You have disabled protection.</source>
-        <target>此網站包含可能會追蹤您瀏覽行為的元素，但您已停用保護。</target>
-        <note>label for the menu item to show when the website is whitelisted from blocking trackers.</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionWhitelistRemove.Title" xml:space="preserve">
-        <source>Enable for this site</source>
-        <target>為此網站開啟</target>
-        <note>label for the menu item that lets you remove a website from the tracking protection whitelist</note>
       </trans-unit>
       <trans-unit id="Menu.WhatsNew.Title" xml:space="preserve">
         <source>What’s New</source>
@@ -2612,6 +2187,26 @@
         <source>Sync to Stay In Your Flow</source>
         <target>登入同步，使用不中斷</target>
         <note>Title for the sync onboarding page in our Onboarding screens. The user will be able to setup their Firefox sync account from that screen. 'Stay in the flow' means that a person is fully immersed in an activity. The user will sync with their Firefox sync account to stay connected and immersed in the activity they are doing.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Wallpaper.Accessibility.Classic.v106" xml:space="preserve">
+        <source>Classic Wallpaper</source>
+        <note>Accessibility label for the wallpaper onboarding modal displayed on top of the homepage. This describes to the user that which type of wallpaper they are seeing.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Wallpaper.Accessibility.LimitedEdition.v106" xml:space="preserve">
+        <source>Limited Edition Wallpaper</source>
+        <note>Accessibility label for the wallpaper onboarding modal displayed on top of the homepage. This describes to the user that which type of wallpaper they are seeing.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Wallpaper.Action.v106" xml:space="preserve">
+        <source>Explore more wallpapers</source>
+        <note>Description for the wallpaper onboarding modal displayed on top of the homepage. This describes to the user that they can set a wallpaper.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Wallpaper.Description.v106" xml:space="preserve">
+        <source>Choose a wallpaper that speaks to you.</source>
+        <note>Description for the wallpaper onboarding modal displayed on top of the homepage. This describes to the user that they can choose different wallpapers.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Wallpaper.Title.v106" xml:space="preserve">
+        <source>Try a splash of color</source>
+        <note>Title for the wallpaper onboarding modal displayed on top of the homepage. This describes to the user that they can choose different wallpapers.</note>
       </trans-unit>
       <trans-unit id="Onboarding.WallpaperAction.v102" xml:space="preserve">
         <source>Set Wallpaper</source>
@@ -2698,11 +2293,6 @@
         <source>Page Options Menu</source>
         <target>頁面選項選單</target>
         <note>Accessibility label for the Page Options menu button</note>
-      </trans-unit>
-      <trans-unit id="Panel Chooser" xml:space="preserve">
-        <source>Panel Chooser</source>
-        <target>面板選擇器</target>
-        <note>Accessibility label for the Library panel's bottom toolbar containing a list of the home panels (top sites, bookmarks, history, remote tabs, reading list).</note>
       </trans-unit>
       <trans-unit id="Password" xml:space="preserve">
         <source>Password</source>
@@ -2829,11 +2419,6 @@
         <target>回復關閉的分頁</target>
         <note>Reopen alert title shown at home page.</note>
       </trans-unit>
-      <trans-unit id="ReopenClosedTab.KeyCodeTitle" xml:space="preserve">
-        <source>Reopen Closed Tab</source>
-        <target>回復關閉的分頁</target>
-        <note>Hardware shortcut to reopen the last closed tab, from the tab or the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
-      </trans-unit>
       <trans-unit id="Reset text size" xml:space="preserve">
         <source>Reset text size</source>
         <target>重設文字大小</target>
@@ -2863,11 +2448,6 @@
         <source>The data is invalid</source>
         <target>資料無效</target>
         <note>Text of the prompt that is shown to the user when the data is invalid</note>
-      </trans-unit>
-      <trans-unit id="ScanQRCode.PermissionError.Message" xml:space="preserve">
-        <source>Please allow Firefox to access your device’s camera in ‘Settings’ -&gt; ‘Privacy’ -&gt; ‘Camera’.</source>
-        <target>請到「設定」-&gt;「隱私權」-&gt;「相機」允許 Firefox 使用裝置上的相機。</target>
-        <note>Text of the prompt user to setup the camera authorization.</note>
       </trans-unit>
       <trans-unit id="ScanQRCode.PermissionError.Message.v100" xml:space="preserve">
         <source>Go to device ‘Settings’ &gt; ‘Firefox’. Allow Firefox to access camera.</source>
@@ -3036,16 +2616,6 @@
         <source>Sign In to Firefox</source>
         <target>登入 Firefox</target>
         <note>The text for the button on the Send to Device page if you are not signed in to Firefox Accounts.</note>
-      </trans-unit>
-      <trans-unit id="SentTab.AddToReadingListAction.Title" xml:space="preserve">
-        <source>Add to Reading List</source>
-        <target>新增至閱讀清單</target>
-        <note>Label for an action used to add one or more tabs recieved from a notification to the reading list.</note>
-      </trans-unit>
-      <trans-unit id="SentTab.BookmarkAction.title" xml:space="preserve">
-        <source>Bookmark</source>
-        <target>書籤</target>
-        <note>Label for an action used to bookmark one or more tabs from a notification.</note>
       </trans-unit>
       <trans-unit id="SentTab.NoTabArrivingNotification.body" xml:space="preserve">
         <source>Tap to begin</source>
@@ -3443,45 +3013,20 @@
         <target>檢視</target>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the title of the button found on the toast that comes up once the user changes wallpaper, and allows users to dismiss the settings page. In this case, consider View as a verb - the action of dismissing settings and seeing the wallpaper.</note>
       </trans-unit>
-      <trans-unit id="Settings.HomePage.Clear.Button" xml:space="preserve">
-        <source>Clear</source>
-        <target>清除</target>
-        <note>Button in settings to clear the home page.</note>
-      </trans-unit>
       <trans-unit id="Settings.HomePage.SectionName" xml:space="preserve">
         <source>Homepage</source>
         <target>首頁</target>
         <note>Label used as an item in Settings. When touched it will open a dialog to configure the home page and its uses.</note>
-      </trans-unit>
-      <trans-unit id="Settings.HomePage.Title" xml:space="preserve">
-        <source>Homepage Settings</source>
-        <target>首頁設定</target>
-        <note>Title displayed in header of the setting panel.</note>
-      </trans-unit>
-      <trans-unit id="Settings.HomePage.URL.Placeholder" xml:space="preserve">
-        <source>Enter a webpage</source>
-        <target>輸入網址</target>
-        <note>Placeholder text in the homepage setting when no homepage has been set.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.URL.Title" xml:space="preserve">
         <source>Current Homepage</source>
         <target>目前首頁</target>
         <note>Title of the setting section containing the URL of the current home page.</note>
       </trans-unit>
-      <trans-unit id="Settings.HomePage.UseCopiedLink.Button" xml:space="preserve">
-        <source>Use Copied Link</source>
-        <target>使用剛複製的鏈結</target>
-        <note>Button in settings to use the current link on the clipboard as home page.</note>
-      </trans-unit>
       <trans-unit id="Settings.HomePage.UseCurrent.Button" xml:space="preserve">
         <source>Use Current Page</source>
         <target>使用目前開啟頁面</target>
         <note>Button in settings to use the current page as home page.</note>
-      </trans-unit>
-      <trans-unit id="Settings.HomePage.UseDefault.Button" xml:space="preserve">
-        <source>Use Default</source>
-        <target>使用預設值</target>
-        <note>Button in settings to use the default home page. If no default is set, then this button isn't shown.</note>
       </trans-unit>
       <trans-unit id="Settings.Homepage.Shortcuts.Rows.v100" xml:space="preserve">
         <source>Rows</source>
@@ -3528,90 +3073,20 @@
         <target>自訂網址</target>
         <note>Label used to set a custom url as the new tab option (homepage).</note>
       </trans-unit>
-      <trans-unit id="Settings.NewTab.Description" xml:space="preserve">
-        <source>When you open a New Tab:</source>
-        <target>開啟新分頁時:</target>
-        <note>A description in settings of what the new tab choice means</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.ASTitle" xml:space="preserve">
-        <source>Customize Top Sites</source>
-        <target>自訂熱門網站</target>
-        <note>The title of the section in newtab that lets you modify the topsites panel</note>
-      </trans-unit>
       <trans-unit id="Settings.NewTab.Option.BlankPage" xml:space="preserve">
         <source>Blank Page</source>
         <target>空白頁面</target>
         <note>Option in settings to show a blank page when you open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.Bookmarks" xml:space="preserve">
-        <source>Bookmarks</source>
-        <target>書籤</target>
-        <note>Option in settings to show bookmarks when you open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.CustomizeFooter" xml:space="preserve">
-        <source>The sites you visit most</source>
-        <target>最常造訪的網站</target>
-        <note>The footer for the section to customize top sites in the new tab settings page.</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.CustomizeFooter2" xml:space="preserve">
-        <source>Sites you save or visit</source>
-        <target>您儲存或造訪過的網站</target>
-        <note>The footer for the section to customize top sites in the new tab settings page.</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.CustomizeTitle" xml:space="preserve">
-        <source>Customize Firefox Home</source>
-        <target>自訂 Firefox 首頁</target>
-        <note>The title for the section to customize top sites in the new tab settings page.</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.FirefoxHome" xml:space="preserve">
         <source>Firefox Home</source>
         <target>Firefox 首頁</target>
         <note>Option in settings to show Firefox Home when you open a new tab</note>
       </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.HighlightsBookmarks" xml:space="preserve">
-        <source>Recent Bookmarks</source>
-        <target>最近加入的書籤</target>
-        <note>Option in the settings to turn off recent bookmarks in the Highlights section</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.HighlightsHistory" xml:space="preserve">
-        <source>Visited</source>
-        <target>造訪過的頁面</target>
-        <note>Option in settings to turn off history in the highlights section</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.History" xml:space="preserve">
-        <source>History</source>
-        <target>瀏覽紀錄</target>
-        <note>Option in settings to show history when you open a new tab</note>
-      </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HomePage" xml:space="preserve">
         <source>Homepage</source>
         <target>首頁</target>
         <note>Option in settings to show your homepage when you open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.Pocket" xml:space="preserve">
-        <source>Trending on Pocket</source>
-        <target>Pocket 上越來越熱門的文章</target>
-        <note>Option in settings to turn on off pocket recommendations</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.PocketFooter" xml:space="preserve">
-        <source>Great content from around the web.</source>
-        <target>來自網路的精彩內容。</target>
-        <note>Footer caption for pocket settings</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.ReadingList" xml:space="preserve">
-        <source>Show your Reading List</source>
-        <target>顯示您的閱讀清單</target>
-        <note>Option in settings to show reading list when you open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.RecommendedByPocket" xml:space="preserve">
-        <source>Recommended by %@</source>
-        <target>%@ 推薦</target>
-        <note>Option in settings to turn on off pocket recommendations First argument is the pocket brand name</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.RecommendedByPocketDescription" xml:space="preserve">
-        <source>Exceptional content curated by %1$@, part of the %2$@ family</source>
-        <target>由 %2$@ 家族系列產品 %1$@ 所提供的精選內容</target>
-        <note>Descriptoin for the option in settings to turn on off pocket recommendations. First argument is the pocket brand name, second argument is the pocket product name.</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.SectionName" xml:space="preserve">
         <source>New Tab</source>
@@ -3858,35 +3333,15 @@
         <target>注意！</target>
         <note>Title for the tracker protection alert.</note>
       </trans-unit>
-      <trans-unit id="Settings.TrackingProtection.BlockListsHeader" xml:space="preserve">
-        <source>You can choose which list Firefox will use to block Web elements that may track your browsing activity.</source>
-        <target>您可以選擇 Firefox 要依照哪個清單來封鎖可能會追蹤您的上網行為的網頁元素。</target>
-        <note>Header description for tracking protection options section where Basic/Strict block list can be selected</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtection.Info.BasicTitle" xml:space="preserve">
-        <source>Balanced for protection and performance.</source>
-        <target>在保護與效能間取得平衡。</target>
-        <note>Explanation of basic mode.</note>
-      </trans-unit>
       <trans-unit id="Settings.TrackingProtection.Info.BlocksTitle" xml:space="preserve">
         <source>BLOCKS</source>
         <target>封鎖</target>
         <note>The Title on info view which shows a list of all blocked websites</note>
       </trans-unit>
-      <trans-unit id="Settings.TrackingProtection.Info.StrictTitle" xml:space="preserve">
-        <source>Offers stronger protection, but may cause some sites to break.</source>
-        <target>提供更強大的保護，但可能會導致某些網站故障。</target>
-        <note>Explanation of strict mode.</note>
-      </trans-unit>
       <trans-unit id="Settings.TrackingProtection.LearnMore" xml:space="preserve">
         <source>Learn more</source>
         <target>了解更多</target>
         <note>'Learn more' info link on the Tracking Protection settings screen.</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtection.MoreInfo" xml:space="preserve">
-        <source>More Info…</source>
-        <target>更多資訊…</target>
-        <note>'More Info' link on the Tracking Protection settings screen.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionCellFooter" xml:space="preserve">
         <source>Reduces targeted ads and helps stop advertisers from tracking your browsing.</source>
@@ -3918,35 +3373,15 @@
         <target>追蹤保護</target>
         <note>Row in top-level of settings that gets tapped to show the tracking protection settings detail view.</note>
       </trans-unit>
-      <trans-unit id="Settings.TrackingProtection.StrictLevelInfoFooter" xml:space="preserve">
-        <source>Blocking trackers could impact the functionality of some websites.</source>
-        <target>封鎖追蹤器，可能會造成某些網站運作發生問題。</target>
-        <note>Additional information about the strict level setting</note>
-      </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.BasicBlockList" xml:space="preserve">
         <source>Standard (default)</source>
         <target>標準（預設）</target>
         <note>Tracking protection settings option for using the basic blocklist.</note>
       </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.BlockListBasicDescription" xml:space="preserve">
-        <source>Allows some trackers so websites function properly.</source>
-        <target>允許部分追蹤者，讓網站功能保持正常。</target>
-        <note>Tracking protection settings option description for using the basic blocklist.</note>
-      </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.BlockListStrict" xml:space="preserve">
         <source>Strict</source>
         <target>嚴格</target>
         <note>Tracking protection settings option for using the strict blocklist.</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.BlockListStrictDescription" xml:space="preserve">
-        <source>Blocks known trackers. Some websites may not function properly.</source>
-        <target>封鎖所有已知的追蹤者，可能會造成某些網站無法正常使用。</target>
-        <note>Tracking protection settings option description for using the strict blocklist.</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.EnabledStateFooterLabel" xml:space="preserve">
-        <source>Tracking is the collection of your browsing data across multiple websites.</source>
-        <target>「網路追蹤」就是在您瀏覽不同網站時，收集您的上網資料的行為。</target>
-        <note>Description label shown on tracking protection options screen.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.NormalBrowsingLabelOn" xml:space="preserve">
         <source>Enhanced Tracking Protection</source>
@@ -3982,21 +3417,6 @@
         <source>Troubleshoot</source>
         <target>疑難排解</target>
         <note>Title of link to help page to find out how to solve Sync issues</note>
-      </trans-unit>
-      <trans-unit id="Settings.WebsiteData.ButtonDelete" xml:space="preserve">
-        <source>Delete</source>
-        <target>刪除</target>
-        <note>Button to delete website in search results</note>
-      </trans-unit>
-      <trans-unit id="Settings.WebsiteData.ButtonDone" xml:space="preserve">
-        <source>Done</source>
-        <target>完成</target>
-        <note>Button to exit edit website search results</note>
-      </trans-unit>
-      <trans-unit id="Settings.WebsiteData.ButtonEdit" xml:space="preserve">
-        <source>Edit</source>
-        <target>編輯</target>
-        <note>Button to edit website search results</note>
       </trans-unit>
       <trans-unit id="Settings.WebsiteData.ButtonShowMore" xml:space="preserve">
         <source>Show More</source>
@@ -4094,26 +3514,6 @@
         <target>用三指向左或向右滑動即可關閉分頁。</target>
         <note>Accessibility hint for tab tray's displayed tab.</note>
       </trans-unit>
-      <trans-unit id="SwitchToNonPBM.KeyCodeTitle" xml:space="preserve">
-        <source>Normal Browsing Mode</source>
-        <target>一般瀏覽模式</target>
-        <note>Hardware shortcut for non-private tab or tab. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
-      </trans-unit>
-      <trans-unit id="SwitchToPBM.KeyCodeTitle" xml:space="preserve">
-        <source>Private Browsing Mode</source>
-        <target>隱私瀏覽模式</target>
-        <note>Hardware shortcut switch to the private browsing tab or tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
-      </trans-unit>
-      <trans-unit id="Sync your tabs, bookmarks, passwords and more." xml:space="preserve">
-        <source>Sync your tabs, bookmarks, passwords and more.</source>
-        <target>同步您的分頁、書籤、密碼等資訊。</target>
-        <note>Text displayed when the Sync home panel is empty, describing the features provided by Sync to invite the user to log in.</note>
-      </trans-unit>
-      <trans-unit id="Sync your tabs, passwords and more." xml:space="preserve">
-        <source>Sync your tabs, passwords and more.</source>
-        <target>同步您的分頁、密碼及其他設定。</target>
-        <note>Text displayed when the Sync home panel is empty, describing the features provided by Sync to invite the user to log in.</note>
-      </trans-unit>
       <trans-unit id="Sync.FirstTimeMessage.Label" xml:space="preserve">
         <source>Your first sync may take a while</source>
         <target>首次同步可能要花一點時間</target>
@@ -4179,11 +3579,6 @@
         <target>分頁標籤</target>
         <note>The Tabs sync component, used in SyncState.Partial.Title</note>
       </trans-unit>
-      <trans-unit id="Synced Tabs" xml:space="preserve">
-        <source>Synced Tabs</source>
-        <target>同步的分頁</target>
-        <note>Panel accessibility label</note>
-      </trans-unit>
       <trans-unit id="Tab %@ of %@" xml:space="preserve">
         <source>Tab %1$@ of %2$@</source>
         <target>第 %1$@ 個，共 %2$@ 個分頁</target>
@@ -4224,30 +3619,10 @@
         <target>閒置分頁</target>
         <note>Title for the inactive tabs section. This section groups all tabs that haven't been used in a while.</note>
       </trans-unit>
-      <trans-unit id="TabTray.LastWeek.Header" xml:space="preserve">
-        <source>Last Week</source>
-        <target>上週</target>
-        <note>The section header for tabs opened last week</note>
-      </trans-unit>
-      <trans-unit id="TabTray.MoreMenu.Copy" xml:space="preserve">
-        <source>Copy</source>
-        <target>複製</target>
-        <note>The title on the button to copy the tab address.</note>
-      </trans-unit>
-      <trans-unit id="TabTray.Older.Header" xml:space="preserve">
-        <source>Older</source>
-        <target>更久之前</target>
-        <note>The section header for tabs opened before last week</note>
-      </trans-unit>
       <trans-unit id="TabTray.OpenNewTab.KeyCodeTitle" xml:space="preserve">
         <source>Open New Tab</source>
         <target>開啟新分頁</target>
         <note>Hardware shortcut to open a new tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
-      </trans-unit>
-      <trans-unit id="TabTray.OpenSelectedTab.KeyCodeTitle" xml:space="preserve">
-        <source>Open Selected Tab</source>
-        <target>開啟選擇的分頁</target>
-        <note>Hardware shortcut open the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
       <trans-unit id="TabTray.OtherTabs.Title" xml:space="preserve">
         <source>Other tabs</source>
@@ -4279,25 +3654,10 @@
         <target>分頁</target>
         <note>The title on the button to look at regular tabs.</note>
       </trans-unit>
-      <trans-unit id="TabTray.SwipeMenu.More" xml:space="preserve">
-        <source>More</source>
-        <target>更多</target>
-        <note>The button title to see more options to perform on the tab.</note>
-      </trans-unit>
       <trans-unit id="TabTray.Title" xml:space="preserve">
         <source>Open Tabs</source>
         <target>開啟分頁</target>
         <note>The title for the tab tray</note>
-      </trans-unit>
-      <trans-unit id="TabTray.Today.Header" xml:space="preserve">
-        <source>Today</source>
-        <target>今天</target>
-        <note>The section header for tabs opened today</note>
-      </trans-unit>
-      <trans-unit id="TabTray.Yesterday.Header" xml:space="preserve">
-        <source>Yesterday</source>
-        <target>昨天</target>
-        <note>The section header for tabs opened yesterday</note>
       </trans-unit>
       <trans-unit id="Tabs %@ to %@ of %@" xml:space="preserve">
         <source>Tabs %1$@ to %2$@ of %3$@</source>
@@ -4318,11 +3678,6 @@
         <source>%d tab(s) closed</source>
         <target>已關閉 %d 個分頁</target>
         <note>The label indicating that all the tabs were closed</note>
-      </trans-unit>
-      <trans-unit id="Tabs.Search.PlaceholderText" xml:space="preserve">
-        <source>Search Tabs</source>
-        <target>搜尋分頁</target>
-        <note>The placeholder text for the tab search bar</note>
       </trans-unit>
       <trans-unit id="TabsTray.InactiveTabs.SectionTitle.Closed.Accessibility.v103" xml:space="preserve">
         <source>View Inactive Tabs</source>
@@ -4378,16 +3733,6 @@
         <source>Close All Tabs</source>
         <target>關閉所有分頁</target>
         <note>Accessibility label for the Close All Tabs menu button.</note>
-      </trans-unit>
-      <trans-unit id="TopSites.EmptyState.Description" xml:space="preserve">
-        <source>Your most visited sites will show up here.</source>
-        <target>將在此顯示您最常拜訪的網站。</target>
-        <note>Description label for the empty Top Sites state.</note>
-      </trans-unit>
-      <trans-unit id="TopSites.EmptyState.Title" xml:space="preserve">
-        <source>Welcome to Top Sites</source>
-        <target>歡迎來到您的常用網站</target>
-        <note>The title for the empty Top Sites state</note>
       </trans-unit>
       <trans-unit id="TopSites.RemovePage.Button" xml:space="preserve">
         <source>Remove page — %@</source>
@@ -4474,11 +3819,6 @@
         <target>確認您的電子郵件地址</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
-      <trans-unit id="Version %@ (%@)" xml:space="preserve">
-        <source>Version %1$@ (%2$@)</source>
-        <target>版本 %1$@（%2$@）</target>
-        <note>Version number of Firefox shown in settings</note>
-      </trans-unit>
       <trans-unit id="Web content" xml:space="preserve">
         <source>Web content</source>
         <target>網頁內容</target>
@@ -4524,11 +3864,6 @@
         <target>電腦</target>
         <note>Accessibility label for Desktop Computer (PC) image in remote tabs list</note>
       </trans-unit>
-      <trans-unit id="fxa.qr-scanning-view.instructions" xml:space="preserve">
-        <source>Scan the QR code shown at firefox.com/pair</source>
-        <target>掃描 firefox.com/pair 網站上的 QR Code</target>
-        <note>Instructions shown on qr code scanning view</note>
-      </trans-unit>
       <trans-unit id="fxa.signin.camera-signin" xml:space="preserve">
         <source>Sign In with Your Camera</source>
         <target>使用相機登入</target>
@@ -4553,11 +3888,6 @@
         <source>Ready to Scan</source>
         <target>準備好了，開始掃描！</target>
         <note>FxA sign in view qr code scan button</note>
-      </trans-unit>
-      <trans-unit id="fxa.signin.turn-on-sync" xml:space="preserve">
-        <source>Turn on Sync</source>
-        <target>開啟 Sync</target>
-        <note>FxA sign in view title</note>
       </trans-unit>
       <trans-unit id="fxa.signin.use-email-instead" xml:space="preserve">
         <source>Use Email Instead</source>
@@ -4738,11 +4068,6 @@
         <target>新增至閱讀清單</target>
         <note>Long label for the button displayed in the menu, used to add a page to the reading list.</note>
       </trans-unit>
-      <trans-unit id="Menu.AddToReadingList.Title" xml:space="preserve">
-        <source>Add to Reading List</source>
-        <target>新增至閱讀清單</target>
-        <note>Label for the button, displayed in the menu, used to add a page to the reading list.</note>
-      </trans-unit>
       <trans-unit id="Menu.CloseAllTabsAction.Title" xml:space="preserve">
         <source>Close All Tabs</source>
         <target>關閉所有分頁</target>
@@ -4768,11 +4093,6 @@
         <target>重新載入</target>
         <note>Label for the button, displayed in the menu, used to Reload the webpage</note>
       </trans-unit>
-      <trans-unit id="Menu.Library.Title" xml:space="preserve">
-        <source>Your Library</source>
-        <target>您的收藏庫</target>
-        <note>Label for the button, displayed in the menu, used to open the Library</note>
-      </trans-unit>
       <trans-unit id="Menu.NewPrivateTabAction.Title" xml:space="preserve">
         <source>Open New Private Tab</source>
         <target>開新隱私分頁</target>
@@ -4797,11 +4117,6 @@
         <source>History</source>
         <target>瀏覽紀錄</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the History home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenHomePageAction.Title" xml:space="preserve">
-        <source>Home</source>
-        <target>首頁</target>
-        <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel.v2" xml:space="preserve">
         <source>Reading List</source>
@@ -4837,11 +4152,6 @@
         <source>Remove Bookmark</source>
         <target>移除書籤</target>
         <note>Long label for the remove bookmark button displayed in the menu. Pressing this button remove the current page from the bookmarks.</note>
-      </trans-unit>
-      <trans-unit id="Menu.RemoveBookmarkAction.Title" xml:space="preserve">
-        <source>Remove Bookmark</source>
-        <target>移除書籤</target>
-        <note>Label for the button, displayed in the menu, used to delete an existing bookmark for the current website.</note>
       </trans-unit>
       <trans-unit id="Menu.ReportSiteIssueAction.Title" xml:space="preserve">
         <source>Report Site Issue</source>

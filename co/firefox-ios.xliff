@@ -77,11 +77,6 @@
         <target>Ultima indetta</target>
         <note>String describing the action of opening the last added bookmark from the home screen Quick Actions via 3D Touch</note>
       </trans-unit>
-      <trans-unit id="Open Last Tab" xml:space="preserve">
-        <source>Open Last Tab</source>
-        <target>Ultima unghjetta mandata</target>
-        <note>String describing the action of opening the last tab sent to Firefox from the home screen Quick Actions via 3D Touch</note>
-      </trans-unit>
       <trans-unit id="Preview of %@" xml:space="preserve">
         <source>Preview of %@</source>
         <target>Fighjulata di %@</target>
@@ -99,155 +94,15 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
     </header>
     <body>
-      <trans-unit id="After 1 hour" xml:space="preserve">
-        <source>After 1 hour</source>
-        <target>Dopu 1 ora</target>
-        <note>'After 1 hour' interval item for selecting when to require passcode</note>
-      </trans-unit>
-      <trans-unit id="After 1 minute" xml:space="preserve">
-        <source>After 1 minute</source>
-        <target>Dopu 1 minutu</target>
-        <note>'After 1 minute' interval item for selecting when to require passcode</note>
-      </trans-unit>
-      <trans-unit id="After 5 minutes" xml:space="preserve">
-        <source>After 5 minutes</source>
-        <target>Dopu 5 minuti</target>
-        <note>'After 5 minutes' interval item for selecting when to require passcode</note>
-      </trans-unit>
-      <trans-unit id="After 10 minutes" xml:space="preserve">
-        <source>After 10 minutes</source>
-        <target>Dopu 10 minuti</target>
-        <note>'After 10 minutes' interval item for selecting when to require passcode</note>
-      </trans-unit>
-      <trans-unit id="After 15 minutes" xml:space="preserve">
-        <source>After 15 minutes</source>
-        <target>Dopu 15 minuti</target>
-        <note>'After 15 minutes' interval item for selecting when to require passcode</note>
-      </trans-unit>
-      <trans-unit id="Change Passcode" xml:space="preserve">
-        <source>Change Passcode</source>
-        <target>Cambià u codice</target>
-        <note>Label used as a setting item and title of the following screen to change the current passcode</note>
-      </trans-unit>
-      <trans-unit id="Enter Passcode" xml:space="preserve">
-        <source>Enter Passcode</source>
-        <target>Stampittate u codice d’accessu</target>
-        <note>Title of the dialog used to request the passcode</note>
-      </trans-unit>
-      <trans-unit id="Enter a new passcode" xml:space="preserve">
-        <source>Enter a new passcode</source>
-        <target>Stampittà un novu codice d’accessu</target>
-        <note>Text displayed above the input field when changing the existing passcode</note>
-      </trans-unit>
-      <trans-unit id="Enter a passcode" xml:space="preserve">
-        <source>Enter a passcode</source>
-        <target>Stampittà un codice d’accessu</target>
-        <note>Text displayed above the input field when entering a new passcode</note>
-      </trans-unit>
       <trans-unit id="Enter passcode" xml:space="preserve">
         <source>Enter passcode</source>
         <target>Stampittate u codice d’accessu</target>
         <note>Text displayed above the input field when changing the existing passcode</note>
       </trans-unit>
-      <trans-unit id="Face ID &amp; Passcode" xml:space="preserve">
-        <source>Face ID &amp; Passcode</source>
-        <target>Codice d’accessu è Face ID</target>
-        <note>Label for the Face ID/Passcode item in Settings</note>
-      </trans-unit>
-      <trans-unit id="Immediately" xml:space="preserve">
-        <source>Immediately</source>
-        <target>Subitu subitu</target>
-        <note>'Immediately' interval item for selecting when to require passcode</note>
-      </trans-unit>
-      <trans-unit id="Incorrect passcode. Try again (Attempts remaining: %d)." xml:space="preserve">
-        <source>Incorrect passcode. Try again (Attempts remaining: %d).</source>
-        <target>Codice d’accessu incurrettu Pruvate torna (Tentativi rimanente : %d).</target>
-        <note>Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app with attempts remaining</note>
-      </trans-unit>
-      <trans-unit id="Incorrect passcode. Try again." xml:space="preserve">
-        <source>Incorrect passcode. Try again.</source>
-        <target>Codice d’accessu incurrettu Pruvate torna.</target>
-        <note>Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app</note>
-      </trans-unit>
-      <trans-unit id="Maximum attempts reached. Please try again in an hour." xml:space="preserve">
-        <source>Maximum attempts reached. Please try again in an hour.</source>
-        <target>Numeru massimu di tentativi toccu. Pruvate torna in un ora.</target>
-        <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
-      </trans-unit>
-      <trans-unit id="Maximum attempts reached. Please try again later." xml:space="preserve">
-        <source>Maximum attempts reached. Please try again later.</source>
-        <target>Numeru massimu di tentativi toccu. Pruvate torna dopu.</target>
-        <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
-      </trans-unit>
-      <trans-unit id="New passcode must be different than existing code." xml:space="preserve">
-        <source>New passcode must be different than existing code.</source>
-        <target>U novu codice d’accessu deve esse sfarente di u codice attuale.</target>
-        <note>Error message displayed when user tries to enter the same passcode as their existing code when changing it.</note>
-      </trans-unit>
-      <trans-unit id="Passcode For Logins" xml:space="preserve">
-        <source>Passcode For Logins</source>
-        <target>Codice d’accessu per l’identificazioni di cunnessione</target>
-        <note>Label for the Passcode item in Settings</note>
-      </trans-unit>
-      <trans-unit id="Passcodes didn’t match. Try again." xml:space="preserve">
-        <source>Passcodes didn’t match. Try again.</source>
-        <target>I codici d’accessu ùn currispondenu micca. Pruvate torna.</target>
-        <note>Error message displayed to user when their confirming passcode doesn't match the first code.</note>
-      </trans-unit>
-      <trans-unit id="Re-enter passcode" xml:space="preserve">
-        <source>Re-enter passcode</source>
-        <target>Torna à stampittà u codice d’accessu</target>
-        <note>Text displayed above the input field when confirming a passcode</note>
-      </trans-unit>
-      <trans-unit id="Require Passcode" xml:space="preserve">
-        <source>Require Passcode</source>
-        <target>Dumandà u codice</target>
-        <note>Text displayed in the 'Interval' section, followed by the current interval setting, e.g. 'Immediately'</note>
-      </trans-unit>
-      <trans-unit id="Set Passcode" xml:space="preserve">
-        <source>Set Passcode</source>
-        <target>Definisce un codice d’accessu</target>
-        <note>Title of the dialog used to set a passcode</note>
-      </trans-unit>
-      <trans-unit id="Touch ID &amp; Passcode" xml:space="preserve">
-        <source>Touch ID &amp; Passcode</source>
-        <target>Codice d’accessu è Touch ID</target>
-        <note>Label for the Touch ID/Passcode item in Settings</note>
-      </trans-unit>
-      <trans-unit id="Turn Passcode Off" xml:space="preserve">
-        <source>Turn Passcode Off</source>
-        <target>Disattivà u codice</target>
-        <note>Label used as a setting item to turn off passcode</note>
-      </trans-unit>
-      <trans-unit id="Turn Passcode On" xml:space="preserve">
-        <source>Turn Passcode On</source>
-        <target>Attivà u codice</target>
-        <note>Label used as a setting item to turn on passcode</note>
-      </trans-unit>
-      <trans-unit id="Use Face ID" xml:space="preserve">
-        <source>Use Face ID</source>
-        <target>Impiegà Face ID</target>
-        <note>List section title for when to use Face ID</note>
-      </trans-unit>
-      <trans-unit id="Use Touch ID" xml:space="preserve">
-        <source>Use Touch ID</source>
-        <target>Impiegà Touch ID</target>
-        <note>List section title for when to use Touch ID</note>
-      </trans-unit>
       <trans-unit id="Use your fingerprint to access Logins now." xml:space="preserve">
         <source>Use your fingerprint to access Logins now.</source>
         <target>Impiegate a vostra impronta digitale per accede subitu à l’identificazioni di cunnessione.</target>
         <note>Touch ID prompt subtitle when accessing logins</note>
-      </trans-unit>
-      <trans-unit id="touchid.disable.reason.label" xml:space="preserve">
-        <source>Use your fingerprint to disable Touch ID.</source>
-        <target>Impiegate a vostra impronta digitale per disattivà Touch ID.</target>
-        <note>Touch ID prompt subtitle when disabling Touch ID</note>
-      </trans-unit>
-      <trans-unit id="touchid.require.passcode.reason.label" xml:space="preserve">
-        <source>Use your fingerprint to access configuring your required passcode interval.</source>
-        <target>Impiegate a vostra impronta digitale per definisce l’intervallu di dumanda di u codice d’accessu.</target>
-        <note>Touch ID prompt subtitle when accessing the require passcode setting</note>
       </trans-unit>
     </body>
   </file>
@@ -342,11 +197,6 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
     </header>
     <body>
-      <trans-unit id="DefaultBrowserCard.Button" xml:space="preserve">
-        <source>Go to Settings</source>
-        <target>Andà à e preferenze</target>
-        <note>Button string to open settings that allows user to switch their default browser to Firefox.</note>
-      </trans-unit>
       <trans-unit id="DefaultBrowserCard.Button.v2" xml:space="preserve">
         <source>Learn How</source>
         <target>Scopre cumu fà</target>
@@ -612,11 +462,6 @@
         <target>Aghjunghje à l’accurtatoghji</target>
         <note>The title for the pinning a shortcut action</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.ContextMenu.PinTopsite" xml:space="preserve">
-        <source>Pin to Top Sites</source>
-        <target>Fissà cum’è situ principale</target>
-        <note>The title for the pinning a topsite action</note>
-      </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.PinTopsite2" xml:space="preserve">
         <source>Pin</source>
         <target>Spirlà</target>
@@ -627,25 +472,10 @@
         <target>Caccià da l’accurtatoghji</target>
         <note>The title for removing a shortcut action</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.ContextMenu.RemovePinTopsite" xml:space="preserve">
-        <source>Remove Pinned Site</source>
-        <target>Caccià di i siti principale</target>
-        <note>The title for removing a pinned topsite action</note>
-      </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.UnpinTopsite" xml:space="preserve">
         <source>Unpin</source>
         <target>Dispirlà</target>
         <note>The title for the unpinning a topsite action</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.Highlights.Bookmark" xml:space="preserve">
-        <source>Bookmarked</source>
-        <target>Aghjuntu à l’indette</target>
-        <note>The description of a highlight if it is a site the user has bookmarked</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.Highlights.Visited" xml:space="preserve">
-        <source>Visited</source>
-        <target>Visitatu</target>
-        <note>The description of a highlight if it is a site the user has visited</note>
       </trans-unit>
       <trans-unit id="ActivityStream.JumpBackIn.SectionTitle" xml:space="preserve">
         <source>Jump Back In</source>
@@ -687,11 +517,6 @@
         <target>Ricumandatu da Pocket</target>
         <note>Section title label for Recommended by Pocket section</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.Pocket.Trending" xml:space="preserve">
-        <source>Trending</source>
-        <target>Tendenza</target>
-        <note>The description of a Pocket Story</note>
-      </trans-unit>
       <trans-unit id="ActivityStream.RecentHistory.Title" xml:space="preserve">
         <source>Recently Visited</source>
         <target>Visitati pocu fà</target>
@@ -726,11 +551,6 @@
         <source>Set Rows</source>
         <target>Sceglie u numeru di linee</target>
         <note>The title for the setting page which lets you select the number of top site rows</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.TopSites.SectionTitle" xml:space="preserve">
-        <source>Top Sites</source>
-        <target>I più visitati</target>
-        <note>Section title label for Top Sites</note>
       </trans-unit>
       <trans-unit id="Add Tab" xml:space="preserve">
         <source>Add Tab</source>
@@ -788,16 +608,6 @@
         <target>Autenticazione richiesta</target>
         <note>Authentication prompt title</note>
       </trans-unit>
-      <trans-unit id="Awesomebar.SearchWithEngine.Description" xml:space="preserve">
-        <source>Search %@ directly from the address bar</source>
-        <target>Circà direttamente cù %@ da a barra d’indirizzu</target>
-        <note>Description for button to suggest searching with a search engine. First argument is the name of the search engine to select</note>
-      </trans-unit>
-      <trans-unit id="Awesomebar.SearchWithEngine.Title" xml:space="preserve">
-        <source>Search with %@</source>
-        <target>Circà cù %@</target>
-        <note>Title for button to suggest searching with a search engine. First argument is the name of the search engine to select</note>
-      </trans-unit>
       <trans-unit id="Back" xml:space="preserve">
         <source>Back</source>
         <target>Autenticazione richiesta</target>
@@ -807,16 +617,6 @@
         <source>Block Pop-up Windows</source>
         <target>Bluccà e finestre popup</target>
         <note>Block pop-up windows setting</note>
-      </trans-unit>
-      <trans-unit id="Bookmark.BookmarkDetail.FieldsHeader.Bookmark.Title" xml:space="preserve">
-        <source>Bookmark</source>
-        <target>Indetta</target>
-        <note>The header title for the fields when editing a Bookmark</note>
-      </trans-unit>
-      <trans-unit id="Bookmark.BookmarkDetail.FieldsHeader.Folder.Title" xml:space="preserve">
-        <source>Folder</source>
-        <target>Cartulare</target>
-        <note>The header title for the fields when editing a Folder</note>
       </trans-unit>
       <trans-unit id="Bookmark.DetailFieldTitle.Label" xml:space="preserve">
         <source>Title</source>
@@ -868,16 +668,6 @@
         <target>Cartulare</target>
         <note>The label to show the location of the folder where the bookmark is located</note>
       </trans-unit>
-      <trans-unit id="Bookmarks.FolderLocation.Label" xml:space="preserve">
-        <source>Location</source>
-        <target>Lucalizazione</target>
-        <note>The label for the location of the new folder</note>
-      </trans-unit>
-      <trans-unit id="Bookmarks.FolderName.Label" xml:space="preserve">
-        <source>Folder Name</source>
-        <target>Nome di u cartulare</target>
-        <note>The label for the title of the new folder</note>
-      </trans-unit>
       <trans-unit id="Bookmarks.Menu.DesktopBookmarks" xml:space="preserve">
         <source>Desktop Bookmarks</source>
         <target>Indette di l’urdinatore</target>
@@ -912,16 +702,6 @@
         <source>Title</source>
         <target>Titulu</target>
         <note>The label for the title of a bookmark</note>
-      </trans-unit>
-      <trans-unit id="Bookmarks.URL.Label" xml:space="preserve">
-        <source>URL</source>
-        <target>Indirizzu web</target>
-        <note>The label for the URL of a bookmark</note>
-      </trans-unit>
-      <trans-unit id="BookmarksPanel.EmptyState.Title" xml:space="preserve">
-        <source>Bookmarks you save will show up here.</source>
-        <target>L’indette chì voi arregistrate seranu affissate quì.</target>
-        <note>Status label for the empty Bookmarks state.</note>
       </trans-unit>
       <trans-unit id="BreachAlerts.BreachDate" xml:space="preserve">
         <source>This breach occurred on</source>
@@ -993,11 +773,6 @@
         <target>Marcà u liame</target>
         <note>Context menu item for bookmarking a link URL</note>
       </trans-unit>
-      <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.ButtonText" xml:space="preserve">
-        <source>Switch</source>
-        <target>Affissà</target>
-        <note>The button text in the Button Toast for switching to a fresh New Private Tab.</note>
-      </trans-unit>
       <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.LabelText" xml:space="preserve">
         <source>New Private Tab opened</source>
         <target>Nova unghjetta privata aperta</target>
@@ -1036,16 +811,6 @@
       <trans-unit id="ContextMenu.OpenInNewTabButtonTitle" xml:space="preserve">
         <source>Open in New Tab</source>
         <target>Apre in una nova unghjetta</target>
-        <note>Context menu item for opening a link in a new tab</note>
-      </trans-unit>
-      <trans-unit id="ContextMenu.OpenLinkInNewPrivateTabButtonTitle" xml:space="preserve">
-        <source>Open Link in New Private Tab</source>
-        <target>Apre u liame in una nova unghjetta privata</target>
-        <note>Context menu item for opening a link in a new private tab</note>
-      </trans-unit>
-      <trans-unit id="ContextMenu.OpenLinkInNewTabButtonTitle" xml:space="preserve">
-        <source>Open Link in New Tab</source>
-        <target>Apre u liame in una nova unghjetta</target>
         <note>Context menu item for opening a link in a new tab</note>
       </trans-unit>
       <trans-unit id="ContextMenu.SaveImageButtonTitle" xml:space="preserve">
@@ -1198,11 +963,6 @@
         <source>Cancel Download</source>
         <target>Abbandunà u scaricamentu</target>
         <note>Alert dialog title when the user taps the cancel download icon.</note>
-      </trans-unit>
-      <trans-unit id="Downloads.Error.Message" xml:space="preserve">
-        <source>Downloads aren’t supported in Firefox yet.</source>
-        <target>I scaricamenti ùn sò mancu permessi da Firefox à st’ora.</target>
-        <note>The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.Cancelled.LabelText" xml:space="preserve">
         <source>Download Cancelled</source>
@@ -1439,16 +1199,6 @@
         <target>Mandà u messaghji torna</target>
         <note>Button label to resend email</note>
       </trans-unit>
-      <trans-unit id="FxA.SignIntoSync" xml:space="preserve">
-        <source>Sign in to Sync</source>
-        <target>Cunnettesi à Sync</target>
-        <note>Button label to sign into Sync</note>
-      </trans-unit>
-      <trans-unit id="FxA.SyncExplain" xml:space="preserve">
-        <source>Get your tabs, bookmarks, and passwords from your other devices.</source>
-        <target>Ritruvate e vostre unghjette, l’indette è e parolle d’intesa da i vostri altri apparechji.</target>
-        <note>Label explaining what sync does</note>
-      </trans-unit>
       <trans-unit id="FxA.SyncNow" xml:space="preserve">
         <source>Sync Now</source>
         <target>Sincrunizà avà</target>
@@ -1498,11 +1248,6 @@
         <source>Firefox logo, change the wallpaper.</source>
         <target>Logo Firefox, cambià u sfondu di screnu.</target>
         <note>On the firefox homepage, the string read by the voice over prompt for accessibility, for the button which changes the wallpaper</note>
-      </trans-unit>
-      <trans-unit id="Get your open tabs, bookmarks, and passwords from your other devices." xml:space="preserve">
-        <source>Get your open tabs, bookmarks, and passwords from your other devices.</source>
-        <target>Ritruvate e vostre unghjette aperte, l’indette è e parolle d'entrata da i vostri altri apparechji.</target>
-        <note>A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing.</note>
       </trans-unit>
       <trans-unit id="Help" xml:space="preserve">
         <source>Help</source>
@@ -1564,11 +1309,6 @@
         <target>U vostru contu deve esse verificatu.</target>
         <note>Description for the empty synced tabs 'not yet verified' state in the History Panel</note>
       </trans-unit>
-      <trans-unit id="HistoryPanel.EmptySyncedTabsPanelSingleDeviceSyncState.Description" xml:space="preserve">
-        <source>Want to see your tabs from other devices here?</source>
-        <target>Vulete vede quì e vostre unghjette di l’altri apparechji ?</target>
-        <note>Description for the empty synced tabs 'single device Sync' state in the History Panel</note>
-      </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" xml:space="preserve">
         <source>Turn on tab syncing to view a list of tabs from your other devices.</source>
         <target>Attivate a sincrunizazione di l’unghjette per affissà a lista di l’unghjette di i vostri altri apparechji.</target>
@@ -1589,40 +1329,10 @@
         <target>Chjosi pocu fà</target>
         <note>Title for the Recently Closed button in the History Panel</note>
       </trans-unit>
-      <trans-unit id="HistoryPanel.SyncedTabsCell.Description.Pluralized" xml:space="preserve">
-        <source>%d device(s) connected</source>
-        <target>%d apparechju(i) cunnessu(i)</target>
-        <note>Description that corresponds with a number of devices connected for the Synced Tabs Cell in the History Panel</note>
-      </trans-unit>
-      <trans-unit id="HistoryPanel.SyncedTabsCell.Title" xml:space="preserve">
-        <source>Synced Devices</source>
-        <target>Apparechji sincrunizati</target>
-        <note>Title for the Synced Tabs Cell in the History Panel</note>
-      </trans-unit>
       <trans-unit id="Home" xml:space="preserve">
         <source>Home</source>
         <target>Accolta</target>
         <note>Accessibility label for the tab toolbar indicating the Home button.</note>
-      </trans-unit>
-      <trans-unit id="HomePage.Set.Dialog.Cancel" xml:space="preserve">
-        <source>Cancel</source>
-        <target>Abbandunà</target>
-        <note>Button cancelling changes setting the home page for the first time.</note>
-      </trans-unit>
-      <trans-unit id="HomePage.Set.Dialog.Message" xml:space="preserve">
-        <source>You can change this at any time in Settings</source>
-        <target>Pudete cambià sta scelta à ogni mumentu da e Preferenze</target>
-        <note>Alert dialog body when the user opens the home page for the first time.</note>
-      </trans-unit>
-      <trans-unit id="HomePage.Set.Dialog.OK" xml:space="preserve">
-        <source>Set Homepage</source>
-        <target>Definisce cum’è pagina d’accolta</target>
-        <note>Button accepting changes setting the home page for the first time.</note>
-      </trans-unit>
-      <trans-unit id="HomePage.Set.Dialog.Title" xml:space="preserve">
-        <source>Do you want to use this web page as your home page?</source>
-        <target>Vulete impiegà stu situ web cum’è pagina d’accolta ?</target>
-        <note>Alert dialog title when the user opens the home page for the first time.</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.Bookmark" xml:space="preserve">
         <source>Bookmark</source>
@@ -1633,11 +1343,6 @@
         <source>Delete from History</source>
         <target>Squassà da a cronolugia</target>
         <note>The title for the Delete from History context menu action for sites in Home Panels</note>
-      </trans-unit>
-      <trans-unit id="HomePanel.ContextMenu.OpenInNewPrivateTab" xml:space="preserve">
-        <source>Open in New Private Tab</source>
-        <target>Apre in una nova unghjetta privata</target>
-        <note>The title for the Open in New Private Tab context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewPrivateTab.v101" xml:space="preserve">
         <source>Open in a Private Tab</source>
@@ -2024,16 +1729,6 @@
         <target>Attivà u riempiimentu autumaticu</target>
         <note>Title of the big blue button to enable AutoFill</note>
       </trans-unit>
-      <trans-unit id="LoginsDetailView.LoginModified" xml:space="preserve">
-        <source>Modified</source>
-        <target>Mudificatu</target>
-        <note>Login detail view field name for the last modified date</note>
-      </trans-unit>
-      <trans-unit id="LoginsDetailView.LoginTitle" xml:space="preserve">
-        <source>Login</source>
-        <target>Identificazione di cunnessione</target>
-        <note>Title for the login detail view</note>
-      </trans-unit>
       <trans-unit id="LoginsHelper.DontSave.Button" xml:space="preserve">
         <source>Don’t Save</source>
         <target>Ùn arregistrà micca</target>
@@ -2073,21 +1768,6 @@
         <source>Update</source>
         <target>Mudificà</target>
         <note>Button to update the user's password</note>
-      </trans-unit>
-      <trans-unit id="LoginsList.LoginsListFilterLogin" xml:space="preserve">
-        <source>Login</source>
-        <target>Identificazione di cunnessione</target>
-        <note>For filtering the login list, search only the login names</note>
-      </trans-unit>
-      <trans-unit id="LoginsList.LoginsListFilterSearchAll" xml:space="preserve">
-        <source>All</source>
-        <target>Tuttu</target>
-        <note>For filtering the login list, search both website and login names.</note>
-      </trans-unit>
-      <trans-unit id="LoginsList.LoginsListFilterWebsite" xml:space="preserve">
-        <source>Website</source>
-        <target>Situ web</target>
-        <note>For filtering the login list, search only the website names</note>
       </trans-unit>
       <trans-unit id="LoginsList.LoginsListSearchPlaceholder" xml:space="preserve">
         <source>Filter</source>
@@ -2165,11 +1845,6 @@
         <source>Add</source>
         <target>Aghjunghje</target>
         <note>Label for the add bookmark button in the menu. Pressing this button bookmarks the current page. Please keep the text as short as possible for this label.</note>
-      </trans-unit>
-      <trans-unit id="Menu.AddPin.Confirm" xml:space="preserve">
-        <source>Pinned To Top Sites</source>
-        <target>Aghjuntu à i siti principale</target>
-        <note>Toast displayed to the user after adding the item to the Top Sites.</note>
       </trans-unit>
       <trans-unit id="Menu.AddPin.Confirm2" xml:space="preserve">
         <source>Added to Shortcuts</source>
@@ -2251,11 +1926,6 @@
         <target>Piantà</target>
         <note>Label for the button displayed in the menu used to stop the reload of the webpage</note>
       </trans-unit>
-      <trans-unit id="Menu.ManageAccount.Label" xml:space="preserve">
-        <source>Manage Account %@</source>
-        <target>Ghjestione di u contu %@</target>
-        <note>Label for the button, displayed in the menu, takes you to screen to manage account when pressed. First argument is the display name for the current account</note>
-      </trans-unit>
       <trans-unit id="Menu.NewTab.v99" xml:space="preserve">
         <source>New Tab</source>
         <target>Nova unghjetta</target>
@@ -2266,30 +1936,15 @@
         <target>Disattivà u modu nutturnu</target>
         <note>Label for the button, displayed in the menu, turns off night mode.</note>
       </trans-unit>
-      <trans-unit id="Menu.NightModeTurnOn.Label" xml:space="preserve">
-        <source>Enable Night Mode</source>
-        <target>Attivà u modu nutturnu</target>
-        <note>Label for the button, displayed in the menu, turns on night mode.</note>
-      </trans-unit>
       <trans-unit id="Menu.NightModeTurnOn.Label2" xml:space="preserve">
         <source>Turn on Night Mode</source>
         <target>Attivà u modu nutturnu</target>
         <note>Label for the button, displayed in the menu, turns on night mode.</note>
       </trans-unit>
-      <trans-unit id="Menu.NoImageModeBlockImages.Label" xml:space="preserve">
-        <source>Block Images</source>
-        <target>Bluccà e fiure</target>
-        <note>Label for the button, displayed in the menu, hides images on the webpage when pressed.</note>
-      </trans-unit>
       <trans-unit id="Menu.NoImageModeShowImages.Label" xml:space="preserve">
         <source>Show Images</source>
         <target>Affissà e fiure</target>
         <note>Label for the button, displayed in the menu, shows images on the webpage when pressed.</note>
-      </trans-unit>
-      <trans-unit id="Menu.PageActions.Title" xml:space="preserve">
-        <source>Page Actions</source>
-        <target>Azzioni per a pagina</target>
-        <note>Label for title in page action menu.</note>
       </trans-unit>
       <trans-unit id="Menu.Passwords.Label" xml:space="preserve">
         <source>Passwords</source>
@@ -2330,11 +1985,6 @@
         <source>Remove</source>
         <target>Caccià</target>
         <note>Label for the remove bookmark button in the menu. Pressing this button remove the current page from the bookmarks. Please keep the text as short as possible for this label.</note>
-      </trans-unit>
-      <trans-unit id="Menu.RemovePin.Confirm" xml:space="preserve">
-        <source>Removed From Top Sites</source>
-        <target>Cacciatu da i siti principale</target>
-        <note>Toast displayed to the user after removing the item from the Top Sites.</note>
       </trans-unit>
       <trans-unit id="Menu.RemovePin.Confirm2.v99" xml:space="preserve">
         <source>Removed from Shortcuts</source>
@@ -2421,16 +2071,6 @@
         <target>Perseguitatori di rete suciale</target>
         <note>The title that shows the number of social URLs blocked</note>
       </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionBlocking.Description" xml:space="preserve">
-        <source>Firefox is blocking parts of the page that may track your browsing.</source>
-        <target>Firefox hà bluccatu l’elementi di a pagina chì ponu spiunà a vostra navigazione.</target>
-        <note>Description of the Tracking protection menu when TP is blocking parts of the page</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionBlockingDisabled.Description" xml:space="preserve">
-        <source>Block online trackers</source>
-        <target>Bluccà i perseguitatori in linea</target>
-        <note>The description of the Tracking Protection menu item when tracking is enabled</note>
-      </trans-unit>
       <trans-unit id="Menu.TrackingProtectionCrossSiteCookies.Title" xml:space="preserve">
         <source>Cross-Site Tracking Cookies</source>
         <target>Canistrelli impiegati per u spiunagiu intersiti</target>
@@ -2471,75 +2111,10 @@
         <target>E rete suciale piazzanu perseguitatori nant’à d’altri siti web per custruisce un prufilu di voi più cumpletu è più persunalizatu. U blucchime di sti perseguitatori pò diminuisce a quantità d’infurmazione cunnisciuta da e sucietà di rete suciale nant’à ciò chì vo fate in linea.</target>
         <note>Description of social network trackers.</note>
       </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionDisable1.Title" xml:space="preserve">
-        <source>Disabled for this site</source>
-        <target>Disattivatu per stu situ</target>
-        <note>The button that disabled TP for a site.</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionDisabled.Title" xml:space="preserve">
-        <source>Tracking Protection is now off for this site.</source>
-        <target>Oramai a prutezzione contr’à u spiunagiu hè disattivata per stu situ.</target>
-        <note>The confirmation toast once tracking protection has been disabled</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionEnable.Title" xml:space="preserve">
-        <source>Enable Tracking Protection</source>
-        <target>Attivà a prutezzione contr’à u spiunagiu</target>
-        <note>A button to enable tracking protection inside the menu.</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionEnable1.Title" xml:space="preserve">
-        <source>Enabled for this site</source>
-        <target>Attivatu per stu situ</target>
-        <note>A button to enable tracking protection inside the menu.</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionEnabled.Title" xml:space="preserve">
-        <source>Tracking Protection is now on for this site.</source>
-        <target>Oramai a prutezzione contr’à u spiunagiu hè attivata per stu situ.</target>
-        <note>The confirmation toast once tracking protection has been enabled</note>
-      </trans-unit>
       <trans-unit id="Menu.TrackingProtectionFingerprintersBlocked.Title" xml:space="preserve">
         <source>Fingerprinters</source>
         <target>Detettori d’impronta numerica</target>
         <note>The title that shows the number of fingerprinting scripts blocked</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionListTitle.CrossSiteCookies" xml:space="preserve">
-        <source>Blocked Cross-Site Tracking Cookies</source>
-        <target>Canistrelli di spiunagiu intersiti bluccati</target>
-        <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionListTitle.Cryptominers" xml:space="preserve">
-        <source>Blocked Cryptominers</source>
-        <target>Minatori di crittomuneta bluccati</target>
-        <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionListTitle.Fingerprinters" xml:space="preserve">
-        <source>Blocked Fingerprinters</source>
-        <target>Detettori d’impronta numerica bluccati</target>
-        <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionListTitle.Social" xml:space="preserve">
-        <source>Blocked Social Trackers</source>
-        <target>Perseguitatori di rete suciale bluccati</target>
-        <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionMoreInfo.Description" xml:space="preserve">
-        <source>Learn more about how Tracking Protection blocks online trackers that collect your browsing data across multiple websites.</source>
-        <target>Scopre cumu a prutezzione contr’à u spiunagiu blocca i perseguitatori in linea chì cullettanu i vostri dati di navigazione da parechji siti web.</target>
-        <note>more info about what tracking protection is about</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionNoBlocking.Description" xml:space="preserve">
-        <source>No tracking elements detected on this page.</source>
-        <target>Alcunu elementu di spiunagiu avventatu nant’à sta pagina.</target>
-        <note>The description of the Tracking Protection menu item when no scripts are blocked but tracking protection is enabled.</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionOption.WhiteListOnDescription" xml:space="preserve">
-        <source>The site includes elements that may track your browsing. You have disabled protection.</source>
-        <target>Stu situ cuntene elementi chì ponu spiunà a vostra navigazione. Avete disattivatu a prutezzione.</target>
-        <note>label for the menu item to show when the website is whitelisted from blocking trackers.</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionWhitelistRemove.Title" xml:space="preserve">
-        <source>Enable for this site</source>
-        <target>Attivà per stu situ</target>
-        <note>label for the menu item that lets you remove a website from the tracking protection whitelist</note>
       </trans-unit>
       <trans-unit id="Menu.WhatsNew.Title" xml:space="preserve">
         <source>What’s New</source>
@@ -2611,6 +2186,26 @@
         <source>Sync to Stay In Your Flow</source>
         <target>Sincrunizate per ùn perde u filu</target>
         <note>Title for the sync onboarding page in our Onboarding screens. The user will be able to setup their Firefox sync account from that screen. 'Stay in the flow' means that a person is fully immersed in an activity. The user will sync with their Firefox sync account to stay connected and immersed in the activity they are doing.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Wallpaper.Accessibility.Classic.v106" xml:space="preserve">
+        <source>Classic Wallpaper</source>
+        <note>Accessibility label for the wallpaper onboarding modal displayed on top of the homepage. This describes to the user that which type of wallpaper they are seeing.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Wallpaper.Accessibility.LimitedEdition.v106" xml:space="preserve">
+        <source>Limited Edition Wallpaper</source>
+        <note>Accessibility label for the wallpaper onboarding modal displayed on top of the homepage. This describes to the user that which type of wallpaper they are seeing.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Wallpaper.Action.v106" xml:space="preserve">
+        <source>Explore more wallpapers</source>
+        <note>Description for the wallpaper onboarding modal displayed on top of the homepage. This describes to the user that they can set a wallpaper.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Wallpaper.Description.v106" xml:space="preserve">
+        <source>Choose a wallpaper that speaks to you.</source>
+        <note>Description for the wallpaper onboarding modal displayed on top of the homepage. This describes to the user that they can choose different wallpapers.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Wallpaper.Title.v106" xml:space="preserve">
+        <source>Try a splash of color</source>
+        <note>Title for the wallpaper onboarding modal displayed on top of the homepage. This describes to the user that they can choose different wallpapers.</note>
       </trans-unit>
       <trans-unit id="Onboarding.WallpaperAction.v102" xml:space="preserve">
         <source>Set Wallpaper</source>
@@ -2697,11 +2292,6 @@
         <source>Page Options Menu</source>
         <target>Listinu di l’ozzioni di a pagina</target>
         <note>Accessibility label for the Page Options menu button</note>
-      </trans-unit>
-      <trans-unit id="Panel Chooser" xml:space="preserve">
-        <source>Panel Chooser</source>
-        <target>Selettore di pannellu</target>
-        <note>Accessibility label for the Library panel's bottom toolbar containing a list of the home panels (top sites, bookmarks, history, remote tabs, reading list).</note>
       </trans-unit>
       <trans-unit id="Password" xml:space="preserve">
         <source>Password</source>
@@ -2828,11 +2418,6 @@
         <target>Torna à apre l’ultima unghjetta chjosa</target>
         <note>Reopen alert title shown at home page.</note>
       </trans-unit>
-      <trans-unit id="ReopenClosedTab.KeyCodeTitle" xml:space="preserve">
-        <source>Reopen Closed Tab</source>
-        <target>Riapre l’unghjetta chjosa</target>
-        <note>Hardware shortcut to reopen the last closed tab, from the tab or the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
-      </trans-unit>
       <trans-unit id="Reset text size" xml:space="preserve">
         <source>Reset text size</source>
         <target>Reinizià a dimensione di u testu</target>
@@ -2862,11 +2447,6 @@
         <source>The data is invalid</source>
         <target>I dati sò inaccetevule</target>
         <note>Text of the prompt that is shown to the user when the data is invalid</note>
-      </trans-unit>
-      <trans-unit id="ScanQRCode.PermissionError.Message" xml:space="preserve">
-        <source>Please allow Firefox to access your device’s camera in ‘Settings’ -&gt; ‘Privacy’ -&gt; ‘Camera’.</source>
-        <target>Ci vole à permette à Firefox d’accede à l’apparechju-fotò di u vostru apparechju in « Preferenze» -&gt; « Cunfidenzialità » -&gt; « Apparechju-fotò ».</target>
-        <note>Text of the prompt user to setup the camera authorization.</note>
       </trans-unit>
       <trans-unit id="ScanQRCode.PermissionError.Message.v100" xml:space="preserve">
         <source>Go to device ‘Settings’ &gt; ‘Firefox’. Allow Firefox to access camera.</source>
@@ -3035,16 +2615,6 @@
         <source>Sign In to Firefox</source>
         <target>Cunnettesi à Firefox</target>
         <note>The text for the button on the Send to Device page if you are not signed in to Firefox Accounts.</note>
-      </trans-unit>
-      <trans-unit id="SentTab.AddToReadingListAction.Title" xml:space="preserve">
-        <source>Add to Reading List</source>
-        <target>Aghjunghje à a lista di lettura</target>
-        <note>Label for an action used to add one or more tabs recieved from a notification to the reading list.</note>
-      </trans-unit>
-      <trans-unit id="SentTab.BookmarkAction.title" xml:space="preserve">
-        <source>Bookmark</source>
-        <target>Aghjunghje à l'indette</target>
-        <note>Label for an action used to bookmark one or more tabs from a notification.</note>
       </trans-unit>
       <trans-unit id="SentTab.NoTabArrivingNotification.body" xml:space="preserve">
         <source>Tap to begin</source>
@@ -3442,45 +3012,20 @@
         <target>Affissà</target>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the title of the button found on the toast that comes up once the user changes wallpaper, and allows users to dismiss the settings page. In this case, consider View as a verb - the action of dismissing settings and seeing the wallpaper.</note>
       </trans-unit>
-      <trans-unit id="Settings.HomePage.Clear.Button" xml:space="preserve">
-        <source>Clear</source>
-        <target>Squassà</target>
-        <note>Button in settings to clear the home page.</note>
-      </trans-unit>
       <trans-unit id="Settings.HomePage.SectionName" xml:space="preserve">
         <source>Homepage</source>
         <target>Pagina d’accolta</target>
         <note>Label used as an item in Settings. When touched it will open a dialog to configure the home page and its uses.</note>
-      </trans-unit>
-      <trans-unit id="Settings.HomePage.Title" xml:space="preserve">
-        <source>Homepage Settings</source>
-        <target>Preferenze di a pagina d’accolta</target>
-        <note>Title displayed in header of the setting panel.</note>
-      </trans-unit>
-      <trans-unit id="Settings.HomePage.URL.Placeholder" xml:space="preserve">
-        <source>Enter a webpage</source>
-        <target>Stampittà una pagina web</target>
-        <note>Placeholder text in the homepage setting when no homepage has been set.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.URL.Title" xml:space="preserve">
         <source>Current Homepage</source>
         <target>Pagina d’accolta attuale</target>
         <note>Title of the setting section containing the URL of the current home page.</note>
       </trans-unit>
-      <trans-unit id="Settings.HomePage.UseCopiedLink.Button" xml:space="preserve">
-        <source>Use Copied Link</source>
-        <target>Impiegà u liame cupiatu</target>
-        <note>Button in settings to use the current link on the clipboard as home page.</note>
-      </trans-unit>
       <trans-unit id="Settings.HomePage.UseCurrent.Button" xml:space="preserve">
         <source>Use Current Page</source>
         <target>Impiegà a pagina attuale</target>
         <note>Button in settings to use the current page as home page.</note>
-      </trans-unit>
-      <trans-unit id="Settings.HomePage.UseDefault.Button" xml:space="preserve">
-        <source>Use Default</source>
-        <target>Impiegà a pagina predefinita</target>
-        <note>Button in settings to use the default home page. If no default is set, then this button isn't shown.</note>
       </trans-unit>
       <trans-unit id="Settings.Homepage.Shortcuts.Rows.v100" xml:space="preserve">
         <source>Rows</source>
@@ -3527,90 +3072,20 @@
         <target>Indirizzu persunalizatu</target>
         <note>Label used to set a custom url as the new tab option (homepage).</note>
       </trans-unit>
-      <trans-unit id="Settings.NewTab.Description" xml:space="preserve">
-        <source>When you open a New Tab:</source>
-        <target>À l’apertura d’una nova unghjetta :</target>
-        <note>A description in settings of what the new tab choice means</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.ASTitle" xml:space="preserve">
-        <source>Customize Top Sites</source>
-        <target>Persunalizà i siti principale</target>
-        <note>The title of the section in newtab that lets you modify the topsites panel</note>
-      </trans-unit>
       <trans-unit id="Settings.NewTab.Option.BlankPage" xml:space="preserve">
         <source>Blank Page</source>
         <target>Una pagina viota</target>
         <note>Option in settings to show a blank page when you open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.Bookmarks" xml:space="preserve">
-        <source>Bookmarks</source>
-        <target>L’indette</target>
-        <note>Option in settings to show bookmarks when you open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.CustomizeFooter" xml:space="preserve">
-        <source>The sites you visit most</source>
-        <target>I siti aspessu visitati</target>
-        <note>The footer for the section to customize top sites in the new tab settings page.</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.CustomizeFooter2" xml:space="preserve">
-        <source>Sites you save or visit</source>
-        <target>I siti chì vo arregistrate o visitate</target>
-        <note>The footer for the section to customize top sites in the new tab settings page.</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.CustomizeTitle" xml:space="preserve">
-        <source>Customize Firefox Home</source>
-        <target>Persunalizà l’accolta di Firefox</target>
-        <note>The title for the section to customize top sites in the new tab settings page.</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.FirefoxHome" xml:space="preserve">
         <source>Firefox Home</source>
         <target>Accolta di Firefox</target>
         <note>Option in settings to show Firefox Home when you open a new tab</note>
       </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.HighlightsBookmarks" xml:space="preserve">
-        <source>Recent Bookmarks</source>
-        <target>Indette recente</target>
-        <note>Option in the settings to turn off recent bookmarks in the Highlights section</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.HighlightsHistory" xml:space="preserve">
-        <source>Visited</source>
-        <target>Visitatu</target>
-        <note>Option in settings to turn off history in the highlights section</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.History" xml:space="preserve">
-        <source>History</source>
-        <target>A cronolugia</target>
-        <note>Option in settings to show history when you open a new tab</note>
-      </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HomePage" xml:space="preserve">
         <source>Homepage</source>
         <target>A pagina d’accolta</target>
         <note>Option in settings to show your homepage when you open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.Pocket" xml:space="preserve">
-        <source>Trending on Pocket</source>
-        <target>Tendenze nant’à Pocket</target>
-        <note>Option in settings to turn on off pocket recommendations</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.PocketFooter" xml:space="preserve">
-        <source>Great content from around the web.</source>
-        <target>Cuntenutu di qualità ghjunghjendu da tutti i scorni di u Web.</target>
-        <note>Footer caption for pocket settings</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.ReadingList" xml:space="preserve">
-        <source>Show your Reading List</source>
-        <target>Affissà a lista di lettura</target>
-        <note>Option in settings to show reading list when you open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.RecommendedByPocket" xml:space="preserve">
-        <source>Recommended by %@</source>
-        <target>Ricumandatu da %@</target>
-        <note>Option in settings to turn on off pocket recommendations First argument is the pocket brand name</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.RecommendedByPocketDescription" xml:space="preserve">
-        <source>Exceptional content curated by %1$@, part of the %2$@ family</source>
-        <target>Cuntenutu eccezzionale selezziunatu da %1$@, membru di a famiglia %2$@</target>
-        <note>Descriptoin for the option in settings to turn on off pocket recommendations. First argument is the pocket brand name, second argument is the pocket product name.</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.SectionName" xml:space="preserve">
         <source>New Tab</source>
@@ -3857,35 +3332,15 @@
         <target>Fate casu !</target>
         <note>Title for the tracker protection alert.</note>
       </trans-unit>
-      <trans-unit id="Settings.TrackingProtection.BlockListsHeader" xml:space="preserve">
-        <source>You can choose which list Firefox will use to block Web elements that may track your browsing activity.</source>
-        <target>Pudete sceglie chì lista Firefox deve impiegà per bluccà l’elementi web chì ponu spiunà a vostra navigazione.</target>
-        <note>Header description for tracking protection options section where Basic/Strict block list can be selected</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtection.Info.BasicTitle" xml:space="preserve">
-        <source>Balanced for protection and performance.</source>
-        <target>Equilibratu trà a prutezzione è a perfurmenza.</target>
-        <note>Explanation of basic mode.</note>
-      </trans-unit>
       <trans-unit id="Settings.TrackingProtection.Info.BlocksTitle" xml:space="preserve">
         <source>BLOCKS</source>
         <target>BLUCCATU</target>
         <note>The Title on info view which shows a list of all blocked websites</note>
       </trans-unit>
-      <trans-unit id="Settings.TrackingProtection.Info.StrictTitle" xml:space="preserve">
-        <source>Offers stronger protection, but may cause some sites to break.</source>
-        <target>Prupone una prutezzione rinfurzata, ma certi siti puderianu ùn micca funziunà currettamente.</target>
-        <note>Explanation of strict mode.</note>
-      </trans-unit>
       <trans-unit id="Settings.TrackingProtection.LearnMore" xml:space="preserve">
         <source>Learn more</source>
         <target>Sapene di più</target>
         <note>'Learn more' info link on the Tracking Protection settings screen.</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtection.MoreInfo" xml:space="preserve">
-        <source>More Info…</source>
-        <target>Per sapene di più…</target>
-        <note>'More Info' link on the Tracking Protection settings screen.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionCellFooter" xml:space="preserve">
         <source>Reduces targeted ads and helps stop advertisers from tracking your browsing.</source>
@@ -3917,35 +3372,15 @@
         <target>Prutezzione contr’à u spiunagiu</target>
         <note>Row in top-level of settings that gets tapped to show the tracking protection settings detail view.</note>
       </trans-unit>
-      <trans-unit id="Settings.TrackingProtection.StrictLevelInfoFooter" xml:space="preserve">
-        <source>Blocking trackers could impact the functionality of some websites.</source>
-        <target>U blucchime di i perseguitatori pò affettà e funzioni di certi siti web.</target>
-        <note>Additional information about the strict level setting</note>
-      </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.BasicBlockList" xml:space="preserve">
         <source>Standard (default)</source>
         <target>Classica (predefinitu)</target>
         <note>Tracking protection settings option for using the basic blocklist.</note>
       </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.BlockListBasicDescription" xml:space="preserve">
-        <source>Allows some trackers so websites function properly.</source>
-        <target>Permette qualchì elementu di spiunagiu per chì i siti funziuneghjanu currettamente.</target>
-        <note>Tracking protection settings option description for using the basic blocklist.</note>
-      </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.BlockListStrict" xml:space="preserve">
         <source>Strict</source>
         <target>Severa</target>
         <note>Tracking protection settings option for using the strict blocklist.</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.BlockListStrictDescription" xml:space="preserve">
-        <source>Blocks known trackers. Some websites may not function properly.</source>
-        <target>Bluccheghja l’elementi di spiunagiu cunnisciuti. Certi siti ponu ùn micca funziunà currettamente.</target>
-        <note>Tracking protection settings option description for using the strict blocklist.</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.EnabledStateFooterLabel" xml:space="preserve">
-        <source>Tracking is the collection of your browsing data across multiple websites.</source>
-        <target>U spiunagiu currisponde à a culletta di i vostri dati di navigazione nant’à parechji siti web.</target>
-        <note>Description label shown on tracking protection options screen.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.NormalBrowsingLabelOn" xml:space="preserve">
         <source>Enhanced Tracking Protection</source>
@@ -3981,21 +3416,6 @@
         <source>Troubleshoot</source>
         <target>Infurmazioni per currege certi penseri</target>
         <note>Title of link to help page to find out how to solve Sync issues</note>
-      </trans-unit>
-      <trans-unit id="Settings.WebsiteData.ButtonDelete" xml:space="preserve">
-        <source>Delete</source>
-        <target>Caccià</target>
-        <note>Button to delete website in search results</note>
-      </trans-unit>
-      <trans-unit id="Settings.WebsiteData.ButtonDone" xml:space="preserve">
-        <source>Done</source>
-        <target>Compiu</target>
-        <note>Button to exit edit website search results</note>
-      </trans-unit>
-      <trans-unit id="Settings.WebsiteData.ButtonEdit" xml:space="preserve">
-        <source>Edit</source>
-        <target>Mudificà</target>
-        <note>Button to edit website search results</note>
       </trans-unit>
       <trans-unit id="Settings.WebsiteData.ButtonShowMore" xml:space="preserve">
         <source>Show More</source>
@@ -4093,26 +3513,6 @@
         <target>Fate sguillà trè diti à manu dritta o manca per chjode l’unghjetta.</target>
         <note>Accessibility hint for tab tray's displayed tab.</note>
       </trans-unit>
-      <trans-unit id="SwitchToNonPBM.KeyCodeTitle" xml:space="preserve">
-        <source>Normal Browsing Mode</source>
-        <target>Modu di navigazione nurmale</target>
-        <note>Hardware shortcut for non-private tab or tab. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
-      </trans-unit>
-      <trans-unit id="SwitchToPBM.KeyCodeTitle" xml:space="preserve">
-        <source>Private Browsing Mode</source>
-        <target>Modu di navigazione privata</target>
-        <note>Hardware shortcut switch to the private browsing tab or tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
-      </trans-unit>
-      <trans-unit id="Sync your tabs, bookmarks, passwords and more." xml:space="preserve">
-        <source>Sync your tabs, bookmarks, passwords and more.</source>
-        <target>Sincrunizà e vostre unghjette, indette, parolle d’intesa è ancu di più.</target>
-        <note>Text displayed when the Sync home panel is empty, describing the features provided by Sync to invite the user to log in.</note>
-      </trans-unit>
-      <trans-unit id="Sync your tabs, passwords and more." xml:space="preserve">
-        <source>Sync your tabs, passwords and more.</source>
-        <target>Sincrunizà e vostre unghjette, parolle d’intesa è ancu di più.</target>
-        <note>Text displayed when the Sync home panel is empty, describing the features provided by Sync to invite the user to log in.</note>
-      </trans-unit>
       <trans-unit id="Sync.FirstTimeMessage.Label" xml:space="preserve">
         <source>Your first sync may take a while</source>
         <target>A prima sincrunizazione pò durà qualchì mumentu</target>
@@ -4178,11 +3578,6 @@
         <target>Unghjette</target>
         <note>The Tabs sync component, used in SyncState.Partial.Title</note>
       </trans-unit>
-      <trans-unit id="Synced Tabs" xml:space="preserve">
-        <source>Synced Tabs</source>
-        <target>Unghjette sincrunizate</target>
-        <note>Panel accessibility label</note>
-      </trans-unit>
       <trans-unit id="Tab %@ of %@" xml:space="preserve">
         <source>Tab %1$@ of %2$@</source>
         <target>Unghjetta %1$@ nant’à %2$@</target>
@@ -4223,30 +3618,10 @@
         <target>Unghjette inattive</target>
         <note>Title for the inactive tabs section. This section groups all tabs that haven't been used in a while.</note>
       </trans-unit>
-      <trans-unit id="TabTray.LastWeek.Header" xml:space="preserve">
-        <source>Last Week</source>
-        <target>A settimana scorsa</target>
-        <note>The section header for tabs opened last week</note>
-      </trans-unit>
-      <trans-unit id="TabTray.MoreMenu.Copy" xml:space="preserve">
-        <source>Copy</source>
-        <target>Cupià</target>
-        <note>The title on the button to copy the tab address.</note>
-      </trans-unit>
-      <trans-unit id="TabTray.Older.Header" xml:space="preserve">
-        <source>Older</source>
-        <target>Più vechju</target>
-        <note>The section header for tabs opened before last week</note>
-      </trans-unit>
       <trans-unit id="TabTray.OpenNewTab.KeyCodeTitle" xml:space="preserve">
         <source>Open New Tab</source>
         <target>Apre una nova unghjetta</target>
         <note>Hardware shortcut to open a new tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
-      </trans-unit>
-      <trans-unit id="TabTray.OpenSelectedTab.KeyCodeTitle" xml:space="preserve">
-        <source>Open Selected Tab</source>
-        <target>Apre l’unghjetta selezziunata</target>
-        <note>Hardware shortcut open the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
       <trans-unit id="TabTray.OtherTabs.Title" xml:space="preserve">
         <source>Other tabs</source>
@@ -4278,25 +3653,10 @@
         <target>Unghjette</target>
         <note>The title on the button to look at regular tabs.</note>
       </trans-unit>
-      <trans-unit id="TabTray.SwipeMenu.More" xml:space="preserve">
-        <source>More</source>
-        <target>Altru</target>
-        <note>The button title to see more options to perform on the tab.</note>
-      </trans-unit>
       <trans-unit id="TabTray.Title" xml:space="preserve">
         <source>Open Tabs</source>
         <target>Unghjette aperte</target>
         <note>The title for the tab tray</note>
-      </trans-unit>
-      <trans-unit id="TabTray.Today.Header" xml:space="preserve">
-        <source>Today</source>
-        <target>Oghje</target>
-        <note>The section header for tabs opened today</note>
-      </trans-unit>
-      <trans-unit id="TabTray.Yesterday.Header" xml:space="preserve">
-        <source>Yesterday</source>
-        <target>Eri</target>
-        <note>The section header for tabs opened yesterday</note>
       </trans-unit>
       <trans-unit id="Tabs %@ to %@ of %@" xml:space="preserve">
         <source>Tabs %1$@ to %2$@ of %3$@</source>
@@ -4317,11 +3677,6 @@
         <source>%d tab(s) closed</source>
         <target>%d unghjetta(e) chjosa(e)</target>
         <note>The label indicating that all the tabs were closed</note>
-      </trans-unit>
-      <trans-unit id="Tabs.Search.PlaceholderText" xml:space="preserve">
-        <source>Search Tabs</source>
-        <target>Ricercà unghjette</target>
-        <note>The placeholder text for the tab search bar</note>
       </trans-unit>
       <trans-unit id="TabsTray.InactiveTabs.SectionTitle.Closed.Accessibility.v103" xml:space="preserve">
         <source>View Inactive Tabs</source>
@@ -4377,16 +3732,6 @@
         <source>Close All Tabs</source>
         <target>Chjode tutte l’unghjette</target>
         <note>Accessibility label for the Close All Tabs menu button.</note>
-      </trans-unit>
-      <trans-unit id="TopSites.EmptyState.Description" xml:space="preserve">
-        <source>Your most visited sites will show up here.</source>
-        <target>I siti i più visitati seranu affissati quì.</target>
-        <note>Description label for the empty Top Sites state.</note>
-      </trans-unit>
-      <trans-unit id="TopSites.EmptyState.Title" xml:space="preserve">
-        <source>Welcome to Top Sites</source>
-        <target>Siti i più visitati</target>
-        <note>The title for the empty Top Sites state</note>
       </trans-unit>
       <trans-unit id="TopSites.RemovePage.Button" xml:space="preserve">
         <source>Remove page — %@</source>
@@ -4467,11 +3812,6 @@
         <target>Ci vole à cunfirmà u vostru indirizzu elettronicu</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
-      <trans-unit id="Version %@ (%@)" xml:space="preserve">
-        <source>Version %1$@ (%2$@)</source>
-        <target>Versione %1$@ (%2$@)</target>
-        <note>Version number of Firefox shown in settings</note>
-      </trans-unit>
       <trans-unit id="Web content" xml:space="preserve">
         <source>Web content</source>
         <target>Cuntenutu web</target>
@@ -4517,11 +3857,6 @@
         <target>urdinatore</target>
         <note>Accessibility label for Desktop Computer (PC) image in remote tabs list</note>
       </trans-unit>
-      <trans-unit id="fxa.qr-scanning-view.instructions" xml:space="preserve">
-        <source>Scan the QR code shown at firefox.com/pair</source>
-        <target>Analizate u codice QR affissatu nant’à firefox.com/pair</target>
-        <note>Instructions shown on qr code scanning view</note>
-      </trans-unit>
       <trans-unit id="fxa.signin.camera-signin" xml:space="preserve">
         <source>Sign In with Your Camera</source>
         <target>Cunnittitevi cù u vostru apparechju-fotò</target>
@@ -4546,11 +3881,6 @@
         <source>Ready to Scan</source>
         <target>Prontu à analizà</target>
         <note>FxA sign in view qr code scan button</note>
-      </trans-unit>
-      <trans-unit id="fxa.signin.turn-on-sync" xml:space="preserve">
-        <source>Turn on Sync</source>
-        <target>Attivà Sync</target>
-        <note>FxA sign in view title</note>
       </trans-unit>
       <trans-unit id="fxa.signin.use-email-instead" xml:space="preserve">
         <source>Use Email Instead</source>
@@ -4731,11 +4061,6 @@
         <target>Aghjunghje à a lista di lettura</target>
         <note>Long label for the button displayed in the menu, used to add a page to the reading list.</note>
       </trans-unit>
-      <trans-unit id="Menu.AddToReadingList.Title" xml:space="preserve">
-        <source>Add to Reading List</source>
-        <target>Aghjunghje à a lista di lettura</target>
-        <note>Label for the button, displayed in the menu, used to add a page to the reading list.</note>
-      </trans-unit>
       <trans-unit id="Menu.CloseAllTabsAction.Title" xml:space="preserve">
         <source>Close All Tabs</source>
         <target>Chjode tutte l’unghjette</target>
@@ -4761,11 +4086,6 @@
         <target>Attualizà</target>
         <note>Label for the button, displayed in the menu, used to Reload the webpage</note>
       </trans-unit>
-      <trans-unit id="Menu.Library.Title" xml:space="preserve">
-        <source>Your Library</source>
-        <target>A vostra bibliuteca</target>
-        <note>Label for the button, displayed in the menu, used to open the Library</note>
-      </trans-unit>
       <trans-unit id="Menu.NewPrivateTabAction.Title" xml:space="preserve">
         <source>Open New Private Tab</source>
         <target>Apre una nova unghjetta privata</target>
@@ -4790,11 +4110,6 @@
         <source>History</source>
         <target>Cronolugia</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the History home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenHomePageAction.Title" xml:space="preserve">
-        <source>Home</source>
-        <target>Accolta</target>
-        <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel.v2" xml:space="preserve">
         <source>Reading List</source>
@@ -4830,11 +4145,6 @@
         <source>Remove Bookmark</source>
         <target>Caccià l’indetta</target>
         <note>Long label for the remove bookmark button displayed in the menu. Pressing this button remove the current page from the bookmarks.</note>
-      </trans-unit>
-      <trans-unit id="Menu.RemoveBookmarkAction.Title" xml:space="preserve">
-        <source>Remove Bookmark</source>
-        <target>Caccià l’indetta</target>
-        <note>Label for the button, displayed in the menu, used to delete an existing bookmark for the current website.</note>
       </trans-unit>
       <trans-unit id="Menu.ReportSiteIssueAction.Title" xml:space="preserve">
         <source>Report Site Issue</source>

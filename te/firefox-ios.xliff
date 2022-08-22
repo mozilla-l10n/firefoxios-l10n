@@ -77,11 +77,6 @@
         <target>చివరి ఇష్టాంశాన్ని తెరువు</target>
         <note>String describing the action of opening the last added bookmark from the home screen Quick Actions via 3D Touch</note>
       </trans-unit>
-      <trans-unit id="Open Last Tab" xml:space="preserve">
-        <source>Open Last Tab</source>
-        <target>చివరి ట్యాబును తెరువు</target>
-        <note>String describing the action of opening the last tab sent to Firefox from the home screen Quick Actions via 3D Touch</note>
-      </trans-unit>
       <trans-unit id="Preview of %@" xml:space="preserve">
         <source>Preview of %@</source>
         <target>%@ యొక్క పరిదృశ్యం</target>
@@ -99,155 +94,15 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
     </header>
     <body>
-      <trans-unit id="After 1 hour" xml:space="preserve">
-        <source>After 1 hour</source>
-        <target>1 గంట తరువాత</target>
-        <note>'After 1 hour' interval item for selecting when to require passcode</note>
-      </trans-unit>
-      <trans-unit id="After 1 minute" xml:space="preserve">
-        <source>After 1 minute</source>
-        <target>1 నిమిషం తరువాత</target>
-        <note>'After 1 minute' interval item for selecting when to require passcode</note>
-      </trans-unit>
-      <trans-unit id="After 5 minutes" xml:space="preserve">
-        <source>After 5 minutes</source>
-        <target>5 నిమిషాల తరువాత</target>
-        <note>'After 5 minutes' interval item for selecting when to require passcode</note>
-      </trans-unit>
-      <trans-unit id="After 10 minutes" xml:space="preserve">
-        <source>After 10 minutes</source>
-        <target>10 నిమిషాల తరువాత</target>
-        <note>'After 10 minutes' interval item for selecting when to require passcode</note>
-      </trans-unit>
-      <trans-unit id="After 15 minutes" xml:space="preserve">
-        <source>After 15 minutes</source>
-        <target>15 నిమిషాల తరువాత</target>
-        <note>'After 15 minutes' interval item for selecting when to require passcode</note>
-      </trans-unit>
-      <trans-unit id="Change Passcode" xml:space="preserve">
-        <source>Change Passcode</source>
-        <target>పాస్‌కోడ్ మార్చు</target>
-        <note>Label used as a setting item and title of the following screen to change the current passcode</note>
-      </trans-unit>
-      <trans-unit id="Enter Passcode" xml:space="preserve">
-        <source>Enter Passcode</source>
-        <target>పాస్‌కోడ్ ఇవ్వండి</target>
-        <note>Title of the dialog used to request the passcode</note>
-      </trans-unit>
-      <trans-unit id="Enter a new passcode" xml:space="preserve">
-        <source>Enter a new passcode</source>
-        <target>ఒక కొత్త పాస్‌కోడ్ ఇవ్వండి</target>
-        <note>Text displayed above the input field when changing the existing passcode</note>
-      </trans-unit>
-      <trans-unit id="Enter a passcode" xml:space="preserve">
-        <source>Enter a passcode</source>
-        <target>పాస్‌కోడ్ ఇవ్వండి</target>
-        <note>Text displayed above the input field when entering a new passcode</note>
-      </trans-unit>
       <trans-unit id="Enter passcode" xml:space="preserve">
         <source>Enter passcode</source>
         <target>పాస్‌కోడ్ ఇవ్వండి</target>
         <note>Text displayed above the input field when changing the existing passcode</note>
       </trans-unit>
-      <trans-unit id="Face ID &amp; Passcode" xml:space="preserve">
-        <source>Face ID &amp; Passcode</source>
-        <target>ముఖ ID &amp; పాస్ కోడ్</target>
-        <note>Label for the Face ID/Passcode item in Settings</note>
-      </trans-unit>
-      <trans-unit id="Immediately" xml:space="preserve">
-        <source>Immediately</source>
-        <target>వెంటనే</target>
-        <note>'Immediately' interval item for selecting when to require passcode</note>
-      </trans-unit>
-      <trans-unit id="Incorrect passcode. Try again (Attempts remaining: %d)." xml:space="preserve">
-        <source>Incorrect passcode. Try again (Attempts remaining: %d).</source>
-        <target>తప్పుడు పాస్‌కోడ్. మళ్ళీ ప్రయత్నించండి (మిగిలిన ప్రయత్నాలు: %d).</target>
-        <note>Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app with attempts remaining</note>
-      </trans-unit>
-      <trans-unit id="Incorrect passcode. Try again." xml:space="preserve">
-        <source>Incorrect passcode. Try again.</source>
-        <target>తప్పుడు పాస్‌కోడ్. మళ్ళీ ప్రయత్నించండి.</target>
-        <note>Error message displayed when user enters incorrect passcode when trying to enter a protected section of the app</note>
-      </trans-unit>
-      <trans-unit id="Maximum attempts reached. Please try again in an hour." xml:space="preserve">
-        <source>Maximum attempts reached. Please try again in an hour.</source>
-        <target>గరిష్ట ప్రయత్నాలు చేరుకుంది. దయచేసి ఒక గంట తర్వాత మళ్ళీ ప్రయత్నించండి.</target>
-        <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
-      </trans-unit>
-      <trans-unit id="Maximum attempts reached. Please try again later." xml:space="preserve">
-        <source>Maximum attempts reached. Please try again later.</source>
-        <target>గరిష్ట ప్రయత్నాలు చేరుకుంది. దయచేసి కాసేపాగి ప్రయత్నించండి.</target>
-        <note>Error message displayed when user enters incorrect passcode and has reached the maximum number of attempts.</note>
-      </trans-unit>
-      <trans-unit id="New passcode must be different than existing code." xml:space="preserve">
-        <source>New passcode must be different than existing code.</source>
-        <target>కొత్త సంకేతపదం ఇప్పటి కంటే భిన్నంగా ఉండాలి.</target>
-        <note>Error message displayed when user tries to enter the same passcode as their existing code when changing it.</note>
-      </trans-unit>
-      <trans-unit id="Passcode For Logins" xml:space="preserve">
-        <source>Passcode For Logins</source>
-        <target>లాగిన్ల కోసం పాస్కోడ్</target>
-        <note>Label for the Passcode item in Settings</note>
-      </trans-unit>
-      <trans-unit id="Passcodes didn’t match. Try again." xml:space="preserve">
-        <source>Passcodes didn’t match. Try again.</source>
-        <target>సంకేతపదాలు సరిపోలేదు. మళ్ళీ ప్రయత్నించండి.</target>
-        <note>Error message displayed to user when their confirming passcode doesn't match the first code.</note>
-      </trans-unit>
-      <trans-unit id="Re-enter passcode" xml:space="preserve">
-        <source>Re-enter passcode</source>
-        <target>పాస్‌కోడ్ మళ్ళీ ఇవ్వండి</target>
-        <note>Text displayed above the input field when confirming a passcode</note>
-      </trans-unit>
-      <trans-unit id="Require Passcode" xml:space="preserve">
-        <source>Require Passcode</source>
-        <target>పాస్‌కోడ్ అవసరం</target>
-        <note>Text displayed in the 'Interval' section, followed by the current interval setting, e.g. 'Immediately'</note>
-      </trans-unit>
-      <trans-unit id="Set Passcode" xml:space="preserve">
-        <source>Set Passcode</source>
-        <target>పాస్‌కోడ్ అమర్పు</target>
-        <note>Title of the dialog used to set a passcode</note>
-      </trans-unit>
-      <trans-unit id="Touch ID &amp; Passcode" xml:space="preserve">
-        <source>Touch ID &amp; Passcode</source>
-        <target>టచ్ ID &amp; పాస్ కోడ్</target>
-        <note>Label for the Touch ID/Passcode item in Settings</note>
-      </trans-unit>
-      <trans-unit id="Turn Passcode Off" xml:space="preserve">
-        <source>Turn Passcode Off</source>
-        <target>పాస్ కోడ్ ఆపివేయండి</target>
-        <note>Label used as a setting item to turn off passcode</note>
-      </trans-unit>
-      <trans-unit id="Turn Passcode On" xml:space="preserve">
-        <source>Turn Passcode On</source>
-        <target>పాస్ కోడ్ ఆన్ చేయండి</target>
-        <note>Label used as a setting item to turn on passcode</note>
-      </trans-unit>
-      <trans-unit id="Use Face ID" xml:space="preserve">
-        <source>Use Face ID</source>
-        <target>ముఖ IDని ఉపయోగించండి</target>
-        <note>List section title for when to use Face ID</note>
-      </trans-unit>
-      <trans-unit id="Use Touch ID" xml:space="preserve">
-        <source>Use Touch ID</source>
-        <target>టచ్ ID ఉపయోగించండి</target>
-        <note>List section title for when to use Touch ID</note>
-      </trans-unit>
       <trans-unit id="Use your fingerprint to access Logins now." xml:space="preserve">
         <source>Use your fingerprint to access Logins now.</source>
         <target>ఇప్పుడు లాగిన్ యాక్సెస్ చేయడానికి మీ వేలిముద్రను ఉపయోగించండి.</target>
         <note>Touch ID prompt subtitle when accessing logins</note>
-      </trans-unit>
-      <trans-unit id="touchid.disable.reason.label" xml:space="preserve">
-        <source>Use your fingerprint to disable Touch ID.</source>
-        <target>టచ్ ID డిసేబుల్ చేయడానికి మీ వేలిముద్ర ఉపయోగించండి.</target>
-        <note>Touch ID prompt subtitle when disabling Touch ID</note>
-      </trans-unit>
-      <trans-unit id="touchid.require.passcode.reason.label" xml:space="preserve">
-        <source>Use your fingerprint to access configuring your required passcode interval.</source>
-        <target>మీ అవసరమైన పాస్కోడ్ విరామం ఆకృతీకరించుట యాక్సెస్ మీ వేలిముద్ర ఉపయోగించండి.</target>
-        <note>Touch ID prompt subtitle when accessing the require passcode setting</note>
       </trans-unit>
     </body>
   </file>
@@ -341,11 +196,6 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
     </header>
     <body>
-      <trans-unit id="DefaultBrowserCard.Button" xml:space="preserve">
-        <source>Go to Settings</source>
-        <target>అమరికలకు వెళ్ళు</target>
-        <note>Button string to open settings that allows user to switch their default browser to Firefox.</note>
-      </trans-unit>
       <trans-unit id="DefaultBrowserCard.Button.v2" xml:space="preserve">
         <source>Learn How</source>
         <target>ఎలాగో తెలుసుకోండి</target>
@@ -594,11 +444,6 @@
         <source>Add to Shortcuts</source>
         <note>The title for the pinning a shortcut action</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.ContextMenu.PinTopsite" xml:space="preserve">
-        <source>Pin to Top Sites</source>
-        <target>అగ్ర సైట్లకు పిన్ చేయండి</target>
-        <note>The title for the pinning a topsite action</note>
-      </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.PinTopsite2" xml:space="preserve">
         <source>Pin</source>
         <note>The title for the pinning a topsite action</note>
@@ -607,24 +452,9 @@
         <source>Remove from Shortcuts</source>
         <note>The title for removing a shortcut action</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.ContextMenu.RemovePinTopsite" xml:space="preserve">
-        <source>Remove Pinned Site</source>
-        <target>పిన్ చేసిన సైటుని తీసివేయండి</target>
-        <note>The title for removing a pinned topsite action</note>
-      </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.UnpinTopsite" xml:space="preserve">
         <source>Unpin</source>
         <note>The title for the unpinning a topsite action</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.Highlights.Bookmark" xml:space="preserve">
-        <source>Bookmarked</source>
-        <target>ఇష్టాంశము చేయబడినది</target>
-        <note>The description of a highlight if it is a site the user has bookmarked</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.Highlights.Visited" xml:space="preserve">
-        <source>Visited</source>
-        <target>సందర్శించినవి</target>
-        <note>The description of a highlight if it is a site the user has visited</note>
       </trans-unit>
       <trans-unit id="ActivityStream.JumpBackIn.SectionTitle" xml:space="preserve">
         <source>Jump Back In</source>
@@ -663,11 +493,6 @@
         <source>Recommended by Pocket</source>
         <note>Section title label for Recommended by Pocket section</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.Pocket.Trending" xml:space="preserve">
-        <source>Trending</source>
-        <target>ట్రెండింగ్</target>
-        <note>The description of a Pocket Story</note>
-      </trans-unit>
       <trans-unit id="ActivityStream.RecentHistory.Title" xml:space="preserve">
         <source>Recently Visited</source>
         <target>ఇటీవల చూసినవి</target>
@@ -701,11 +526,6 @@
         <source>Set Rows</source>
         <target>వరుసలను ఏర్పాటు చేయు</target>
         <note>The title for the setting page which lets you select the number of top site rows</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.TopSites.SectionTitle" xml:space="preserve">
-        <source>Top Sites</source>
-        <target>మేటి సైట్లు</target>
-        <note>Section title label for Top Sites</note>
       </trans-unit>
       <trans-unit id="Add Tab" xml:space="preserve">
         <source>Add Tab</source>
@@ -762,14 +582,6 @@
         <target>ప్రమాణీకరణ అవసరం</target>
         <note>Authentication prompt title</note>
       </trans-unit>
-      <trans-unit id="Awesomebar.SearchWithEngine.Description" xml:space="preserve">
-        <source>Search %@ directly from the address bar</source>
-        <note>Description for button to suggest searching with a search engine. First argument is the name of the search engine to select</note>
-      </trans-unit>
-      <trans-unit id="Awesomebar.SearchWithEngine.Title" xml:space="preserve">
-        <source>Search with %@</source>
-        <note>Title for button to suggest searching with a search engine. First argument is the name of the search engine to select</note>
-      </trans-unit>
       <trans-unit id="Back" xml:space="preserve">
         <source>Back</source>
         <target>తిరిగి</target>
@@ -779,16 +591,6 @@
         <source>Block Pop-up Windows</source>
         <target>పాప్-అప్ విండోలను బ్లాకు చేయి</target>
         <note>Block pop-up windows setting</note>
-      </trans-unit>
-      <trans-unit id="Bookmark.BookmarkDetail.FieldsHeader.Bookmark.Title" xml:space="preserve">
-        <source>Bookmark</source>
-        <target>ఇష్టాంశం</target>
-        <note>The header title for the fields when editing a Bookmark</note>
-      </trans-unit>
-      <trans-unit id="Bookmark.BookmarkDetail.FieldsHeader.Folder.Title" xml:space="preserve">
-        <source>Folder</source>
-        <target>సంచయం</target>
-        <note>The header title for the fields when editing a Folder</note>
       </trans-unit>
       <trans-unit id="Bookmark.DetailFieldTitle.Label" xml:space="preserve">
         <source>Title</source>
@@ -838,16 +640,6 @@
         <target>సంచిక</target>
         <note>The label to show the location of the folder where the bookmark is located</note>
       </trans-unit>
-      <trans-unit id="Bookmarks.FolderLocation.Label" xml:space="preserve">
-        <source>Location</source>
-        <target>ప్రాంతం</target>
-        <note>The label for the location of the new folder</note>
-      </trans-unit>
-      <trans-unit id="Bookmarks.FolderName.Label" xml:space="preserve">
-        <source>Folder Name</source>
-        <target>సంచిక పేరు</target>
-        <note>The label for the title of the new folder</note>
-      </trans-unit>
       <trans-unit id="Bookmarks.Menu.DesktopBookmarks" xml:space="preserve">
         <source>Desktop Bookmarks</source>
         <target>డెస్క్‌టాప్ ఇష్టాంశాలు</target>
@@ -881,16 +673,6 @@
         <source>Title</source>
         <target>శీర్షిక</target>
         <note>The label for the title of a bookmark</note>
-      </trans-unit>
-      <trans-unit id="Bookmarks.URL.Label" xml:space="preserve">
-        <source>URL</source>
-        <target>URL</target>
-        <note>The label for the URL of a bookmark</note>
-      </trans-unit>
-      <trans-unit id="BookmarksPanel.EmptyState.Title" xml:space="preserve">
-        <source>Bookmarks you save will show up here.</source>
-        <target>మీరు భద్రపరుచుకున్న ఇష్టాంశాలు ఇక్కడ కనిపిస్తాయి.</target>
-        <note>Status label for the empty Bookmarks state.</note>
       </trans-unit>
       <trans-unit id="BreachAlerts.BreachDate" xml:space="preserve">
         <source>This breach occurred on</source>
@@ -958,11 +740,6 @@
         <target>లంకెను ఇష్టాంశంగాచేయి</target>
         <note>Context menu item for bookmarking a link URL</note>
       </trans-unit>
-      <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.ButtonText" xml:space="preserve">
-        <source>Switch</source>
-        <target>మార్చు</target>
-        <note>The button text in the Button Toast for switching to a fresh New Private Tab.</note>
-      </trans-unit>
       <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.LabelText" xml:space="preserve">
         <source>New Private Tab opened</source>
         <target>కొత్త వ్యక్తిగత ట్యాబు తెరవబడింది</target>
@@ -1001,16 +778,6 @@
       <trans-unit id="ContextMenu.OpenInNewTabButtonTitle" xml:space="preserve">
         <source>Open in New Tab</source>
         <target>కొత్త ట్యాబులో తెరువు</target>
-        <note>Context menu item for opening a link in a new tab</note>
-      </trans-unit>
-      <trans-unit id="ContextMenu.OpenLinkInNewPrivateTabButtonTitle" xml:space="preserve">
-        <source>Open Link in New Private Tab</source>
-        <target>లంకెను అంతరంగిక ట్యాబులో తెరువు</target>
-        <note>Context menu item for opening a link in a new private tab</note>
-      </trans-unit>
-      <trans-unit id="ContextMenu.OpenLinkInNewTabButtonTitle" xml:space="preserve">
-        <source>Open Link in New Tab</source>
-        <target>లంకెను కొత్త ట్యాబులో తెరువు</target>
         <note>Context menu item for opening a link in a new tab</note>
       </trans-unit>
       <trans-unit id="ContextMenu.SaveImageButtonTitle" xml:space="preserve">
@@ -1155,11 +922,6 @@
         <source>Cancel Download</source>
         <target>దింపుకోలును రద్దుచేయి</target>
         <note>Alert dialog title when the user taps the cancel download icon.</note>
-      </trans-unit>
-      <trans-unit id="Downloads.Error.Message" xml:space="preserve">
-        <source>Downloads aren’t supported in Firefox yet.</source>
-        <target>Firefox ఇంకా దింపుకోళ్ళకు మద్దతు ఇవ్వట్లేదు.</target>
-        <note>The message displayed to a user when they try and perform the download of an asset that Firefox cannot currently handle.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.Cancelled.LabelText" xml:space="preserve">
         <source>Download Cancelled</source>
@@ -1389,16 +1151,6 @@
         <target>ఇమెయిల్ తిరిగి పంపండి</target>
         <note>Button label to resend email</note>
       </trans-unit>
-      <trans-unit id="FxA.SignIntoSync" xml:space="preserve">
-        <source>Sign in to Sync</source>
-        <target>Sync లోకి ప్రవేశించండి</target>
-        <note>Button label to sign into Sync</note>
-      </trans-unit>
-      <trans-unit id="FxA.SyncExplain" xml:space="preserve">
-        <source>Get your tabs, bookmarks, and passwords from your other devices.</source>
-        <target>మీ ఇతర పరికరాల నుండి మీ ట్యాబులను, ఇష్టాంశాలను మరియు సంకేతపదాలను పొందండి.</target>
-        <note>Label explaining what sync does</note>
-      </trans-unit>
       <trans-unit id="FxA.SyncNow" xml:space="preserve">
         <source>Sync Now</source>
         <target>ఇప్పుడే సింక్ చేయి</target>
@@ -1447,11 +1199,6 @@
       <trans-unit id="FxHomepage.Wallpaper.ButtonLabel.v99" xml:space="preserve">
         <source>Firefox logo, change the wallpaper.</source>
         <note>On the firefox homepage, the string read by the voice over prompt for accessibility, for the button which changes the wallpaper</note>
-      </trans-unit>
-      <trans-unit id="Get your open tabs, bookmarks, and passwords from your other devices." xml:space="preserve">
-        <source>Get your open tabs, bookmarks, and passwords from your other devices.</source>
-        <target>మీ ఇతర పరికరాల నుండి మీ తెరిచిన ట్యాబ్లను, బుక్మార్క్లను మరియు పాస్వర్డ్లు పొందండి.</target>
-        <note>A re-worded offer about Sync, displayed when the Sync home panel is empty, that emphasizes one-way data transfer, not syncing.</note>
       </trans-unit>
       <trans-unit id="Help" xml:space="preserve">
         <source>Help</source>
@@ -1513,11 +1260,6 @@
         <target>మీ ఖాతాను తనిఖీ చెయ్యాలి.</target>
         <note>Description for the empty synced tabs 'not yet verified' state in the History Panel</note>
       </trans-unit>
-      <trans-unit id="HistoryPanel.EmptySyncedTabsPanelSingleDeviceSyncState.Description" xml:space="preserve">
-        <source>Want to see your tabs from other devices here?</source>
-        <target>ఇతర పరికరాలలో తెరిచివున్న మీ ట్యాబులను ఇక్కడ చూడాలనుకుంటున్నారా?</target>
-        <note>Description for the empty synced tabs 'single device Sync' state in the History Panel</note>
-      </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" xml:space="preserve">
         <source>Turn on tab syncing to view a list of tabs from your other devices.</source>
         <target>మీ ఇతర పరికరాల లోని ట్యాబుల జాబితాను చూడడానికి ట్యాబ్ సింక్ ను ప్రారంభించండి.</target>
@@ -1538,40 +1280,10 @@
         <target>ఇటీవల మూసినవి</target>
         <note>Title for the Recently Closed button in the History Panel</note>
       </trans-unit>
-      <trans-unit id="HistoryPanel.SyncedTabsCell.Description.Pluralized" xml:space="preserve">
-        <source>%d device(s) connected</source>
-        <target>%d పరికర(లు) కనెక్ట్ అయ్యాయి</target>
-        <note>Description that corresponds with a number of devices connected for the Synced Tabs Cell in the History Panel</note>
-      </trans-unit>
-      <trans-unit id="HistoryPanel.SyncedTabsCell.Title" xml:space="preserve">
-        <source>Synced Devices</source>
-        <target>సింక్ చేసిన పరికరాలు</target>
-        <note>Title for the Synced Tabs Cell in the History Panel</note>
-      </trans-unit>
       <trans-unit id="Home" xml:space="preserve">
         <source>Home</source>
         <target>ముంగిలి</target>
         <note>Accessibility label for the tab toolbar indicating the Home button.</note>
-      </trans-unit>
-      <trans-unit id="HomePage.Set.Dialog.Cancel" xml:space="preserve">
-        <source>Cancel</source>
-        <target>రద్దుచేయి</target>
-        <note>Button cancelling changes setting the home page for the first time.</note>
-      </trans-unit>
-      <trans-unit id="HomePage.Set.Dialog.Message" xml:space="preserve">
-        <source>You can change this at any time in Settings</source>
-        <target>మీరు ఏ సమయంలోనైనా సెట్టింగ్లలో దీనిని మార్చవచ్చు</target>
-        <note>Alert dialog body when the user opens the home page for the first time.</note>
-      </trans-unit>
-      <trans-unit id="HomePage.Set.Dialog.OK" xml:space="preserve">
-        <source>Set Homepage</source>
-        <target>హోంపేజీ సెట్ చేయండి</target>
-        <note>Button accepting changes setting the home page for the first time.</note>
-      </trans-unit>
-      <trans-unit id="HomePage.Set.Dialog.Title" xml:space="preserve">
-        <source>Do you want to use this web page as your home page?</source>
-        <target>ఈ వెబ్ పేజీని మీ ముగిలి పేజీగా ఉపయోగించాలనుకుంటున్నారా?</target>
-        <note>Alert dialog title when the user opens the home page for the first time.</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.Bookmark" xml:space="preserve">
         <source>Bookmark</source>
@@ -1582,11 +1294,6 @@
         <source>Delete from History</source>
         <target>చరిత్ర నుండి తొలగించు</target>
         <note>The title for the Delete from History context menu action for sites in Home Panels</note>
-      </trans-unit>
-      <trans-unit id="HomePanel.ContextMenu.OpenInNewPrivateTab" xml:space="preserve">
-        <source>Open in New Private Tab</source>
-        <target>కొత్త ప్రైవేట్ ట్యాబులో తెరువు</target>
-        <note>The title for the Open in New Private Tab context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewPrivateTab.v101" xml:space="preserve">
         <source>Open in a Private Tab</source>
@@ -1943,16 +1650,6 @@
         <source>Turn on AutoFill</source>
         <note>Title of the big blue button to enable AutoFill</note>
       </trans-unit>
-      <trans-unit id="LoginsDetailView.LoginModified" xml:space="preserve">
-        <source>Modified</source>
-        <target>సవరించబడింది</target>
-        <note>Login detail view field name for the last modified date</note>
-      </trans-unit>
-      <trans-unit id="LoginsDetailView.LoginTitle" xml:space="preserve">
-        <source>Login</source>
-        <target>ప్రవేశం</target>
-        <note>Title for the login detail view</note>
-      </trans-unit>
       <trans-unit id="LoginsHelper.DontSave.Button" xml:space="preserve">
         <source>Don’t Save</source>
         <target>సేవ్ చేయవద్దు</target>
@@ -1990,21 +1687,6 @@
         <source>Update</source>
         <target>నవీకరించు</target>
         <note>Button to update the user's password</note>
-      </trans-unit>
-      <trans-unit id="LoginsList.LoginsListFilterLogin" xml:space="preserve">
-        <source>Login</source>
-        <target>ప్రవేశం</target>
-        <note>For filtering the login list, search only the login names</note>
-      </trans-unit>
-      <trans-unit id="LoginsList.LoginsListFilterSearchAll" xml:space="preserve">
-        <source>All</source>
-        <target>అన్నీ</target>
-        <note>For filtering the login list, search both website and login names.</note>
-      </trans-unit>
-      <trans-unit id="LoginsList.LoginsListFilterWebsite" xml:space="preserve">
-        <source>Website</source>
-        <target>వెబ్‌సైటు</target>
-        <note>For filtering the login list, search only the website names</note>
       </trans-unit>
       <trans-unit id="LoginsList.LoginsListSearchPlaceholder" xml:space="preserve">
         <source>Filter</source>
@@ -2075,11 +1757,6 @@
         <source>Add</source>
         <target>చేర్చు</target>
         <note>Label for the add bookmark button in the menu. Pressing this button bookmarks the current page. Please keep the text as short as possible for this label.</note>
-      </trans-unit>
-      <trans-unit id="Menu.AddPin.Confirm" xml:space="preserve">
-        <source>Pinned To Top Sites</source>
-        <target>మేటి సైట్లకు పిన్ చేయబడింది</target>
-        <note>Toast displayed to the user after adding the item to the Top Sites.</note>
       </trans-unit>
       <trans-unit id="Menu.AddPin.Confirm2" xml:space="preserve">
         <source>Added to Shortcuts</source>
@@ -2155,10 +1832,6 @@
         <source>Stop</source>
         <note>Label for the button displayed in the menu used to stop the reload of the webpage</note>
       </trans-unit>
-      <trans-unit id="Menu.ManageAccount.Label" xml:space="preserve">
-        <source>Manage Account %@</source>
-        <note>Label for the button, displayed in the menu, takes you to screen to manage account when pressed. First argument is the display name for the current account</note>
-      </trans-unit>
       <trans-unit id="Menu.NewTab.v99" xml:space="preserve">
         <source>New Tab</source>
         <target>కొత్త ట్యాబు</target>
@@ -2168,28 +1841,13 @@
         <source>Turn off Night Mode</source>
         <note>Label for the button, displayed in the menu, turns off night mode.</note>
       </trans-unit>
-      <trans-unit id="Menu.NightModeTurnOn.Label" xml:space="preserve">
-        <source>Enable Night Mode</source>
-        <target>రాత్రి రీతిని చేతనించు</target>
-        <note>Label for the button, displayed in the menu, turns on night mode.</note>
-      </trans-unit>
       <trans-unit id="Menu.NightModeTurnOn.Label2" xml:space="preserve">
         <source>Turn on Night Mode</source>
         <note>Label for the button, displayed in the menu, turns on night mode.</note>
       </trans-unit>
-      <trans-unit id="Menu.NoImageModeBlockImages.Label" xml:space="preserve">
-        <source>Block Images</source>
-        <target>బొమ్మలను నిరోధించు</target>
-        <note>Label for the button, displayed in the menu, hides images on the webpage when pressed.</note>
-      </trans-unit>
       <trans-unit id="Menu.NoImageModeShowImages.Label" xml:space="preserve">
         <source>Show Images</source>
         <note>Label for the button, displayed in the menu, shows images on the webpage when pressed.</note>
-      </trans-unit>
-      <trans-unit id="Menu.PageActions.Title" xml:space="preserve">
-        <source>Page Actions</source>
-        <target>పేజీ చర్యలు</target>
-        <note>Label for title in page action menu.</note>
       </trans-unit>
       <trans-unit id="Menu.Passwords.Label" xml:space="preserve">
         <source>Passwords</source>
@@ -2229,11 +1887,6 @@
         <source>Remove</source>
         <target>తీసివేయి</target>
         <note>Label for the remove bookmark button in the menu. Pressing this button remove the current page from the bookmarks. Please keep the text as short as possible for this label.</note>
-      </trans-unit>
-      <trans-unit id="Menu.RemovePin.Confirm" xml:space="preserve">
-        <source>Removed From Top Sites</source>
-        <target>మేటి సైట్ల నుండి తీసివేయబడింది</target>
-        <note>Toast displayed to the user after removing the item from the Top Sites.</note>
       </trans-unit>
       <trans-unit id="Menu.RemovePin.Confirm2.v99" xml:space="preserve">
         <source>Removed from Shortcuts</source>
@@ -2313,16 +1966,6 @@
         <target>సామాజిక ట్రాకర్లు</target>
         <note>The title that shows the number of social URLs blocked</note>
       </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionBlocking.Description" xml:space="preserve">
-        <source>Firefox is blocking parts of the page that may track your browsing.</source>
-        <target>ఈ పేజీలో మీ విహరణ జాడ తెలుసుకునే భాగాలను Firefox నిరోధిస్తోంది.</target>
-        <note>Description of the Tracking protection menu when TP is blocking parts of the page</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionBlockingDisabled.Description" xml:space="preserve">
-        <source>Block online trackers</source>
-        <target>ఆన్లైన్ ట్రాకర్లను బ్లాక్ చేయండి</target>
-        <note>The description of the Tracking Protection menu item when tracking is enabled</note>
-      </trans-unit>
       <trans-unit id="Menu.TrackingProtectionCrossSiteCookies.Title" xml:space="preserve">
         <source>Cross-Site Tracking Cookies</source>
         <target>క్రాస్-సైట్ ట్రాకింగ్ కుకీలు</target>
@@ -2363,75 +2006,10 @@
         <target>మీ గురించిన పూర్తి, లక్ష్యిత ప్రొఫైలును తయారుచేయడానికి సామాజిక మాధ్యమాలు ఇతర వెబ్‌సైట్లలో ట్రాకర్లను ఉంచుతాయి. ఈ ట్రాకర్లను నిరోధిస్తే, సామాజిక మాధ్యమ కంపెనీలు జాలంలో మీ కార్యకలాపాలను చూడగలిగే పరిధి తగ్గుతుంది.</target>
         <note>Description of social network trackers.</note>
       </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionDisable1.Title" xml:space="preserve">
-        <source>Disabled for this site</source>
-        <target>ఈ సైటుకి నిలిపివేయబడింది</target>
-        <note>The button that disabled TP for a site.</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionDisabled.Title" xml:space="preserve">
-        <source>Tracking Protection is now off for this site.</source>
-        <target>ఈ సైట్ కోసం ట్రాకింగ్ రక్షణ ఇప్పుడు ముగిసింది.</target>
-        <note>The confirmation toast once tracking protection has been disabled</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionEnable.Title" xml:space="preserve">
-        <source>Enable Tracking Protection</source>
-        <target>ట్రాకింగ్ రక్షణను చేతనపరచు</target>
-        <note>A button to enable tracking protection inside the menu.</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionEnable1.Title" xml:space="preserve">
-        <source>Enabled for this site</source>
-        <target>ఈ సైటుకి చేతనమైవుంది</target>
-        <note>A button to enable tracking protection inside the menu.</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionEnabled.Title" xml:space="preserve">
-        <source>Tracking Protection is now on for this site.</source>
-        <target>ఈ సైట్ కోసం ఇప్పుడు ట్రాకింగ్ రక్షణ ఉంది.</target>
-        <note>The confirmation toast once tracking protection has been enabled</note>
-      </trans-unit>
       <trans-unit id="Menu.TrackingProtectionFingerprintersBlocked.Title" xml:space="preserve">
         <source>Fingerprinters</source>
         <target>ఫింగర్‌ప్రింటర్లు</target>
         <note>The title that shows the number of fingerprinting scripts blocked</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionListTitle.CrossSiteCookies" xml:space="preserve">
-        <source>Blocked Cross-Site Tracking Cookies</source>
-        <target>నిరోధించిన క్రాస్-సైటు ట్రాకింగు కుకీలు</target>
-        <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionListTitle.Cryptominers" xml:space="preserve">
-        <source>Blocked Cryptominers</source>
-        <target>నిరోధిత క్రిప్టోమైనర్లు</target>
-        <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionListTitle.Fingerprinters" xml:space="preserve">
-        <source>Blocked Fingerprinters</source>
-        <target>నిరోధించిన ఫింగర్‌ప్రింటర్లు</target>
-        <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionListTitle.Social" xml:space="preserve">
-        <source>Blocked Social Trackers</source>
-        <target>నిరోధించిన సామాజిక ట్రాకర్లు</target>
-        <note>Title for list of domains blocked by category type. eg.  Blocked `CryptoMiners`</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionMoreInfo.Description" xml:space="preserve">
-        <source>Learn more about how Tracking Protection blocks online trackers that collect your browsing data across multiple websites.</source>
-        <target>పలు వెబ్‌సైట్లలో మీ విహారణ డేటాని సేకరించే ఆన్‌లైన్ ట్రాకర్లను ట్రాకింగ్ సంరక్షణ ఎలా నిరోధిస్తుందో తెలుసుకోండి.</target>
-        <note>more info about what tracking protection is about</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionNoBlocking.Description" xml:space="preserve">
-        <source>No tracking elements detected on this page.</source>
-        <target>ఈ పేజీపైన ఎటువంటి జాడ తెలుసుకొనే ఎలిమెంట్స్ లేవు.</target>
-        <note>The description of the Tracking Protection menu item when no scripts are blocked but tracking protection is enabled.</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionOption.WhiteListOnDescription" xml:space="preserve">
-        <source>The site includes elements that may track your browsing. You have disabled protection.</source>
-        <target>మీ విహరణ జాడ తెలుసుకొనే ఎలిమెంట్లను ఈ సైట్ కలిగివుంది. మీరు రక్షణను అచేతనించారు.</target>
-        <note>label for the menu item to show when the website is whitelisted from blocking trackers.</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionWhitelistRemove.Title" xml:space="preserve">
-        <source>Enable for this site</source>
-        <target>ఈ సైట్ కోసం చేతనపరచు</target>
-        <note>label for the menu item that lets you remove a website from the tracking protection whitelist</note>
       </trans-unit>
       <trans-unit id="Menu.WhatsNew.Title" xml:space="preserve">
         <source>What’s New</source>
@@ -2496,6 +2074,26 @@
       <trans-unit id="Onboarding.SyncTitle.v102" xml:space="preserve">
         <source>Sync to Stay In Your Flow</source>
         <note>Title for the sync onboarding page in our Onboarding screens. The user will be able to setup their Firefox sync account from that screen. 'Stay in the flow' means that a person is fully immersed in an activity. The user will sync with their Firefox sync account to stay connected and immersed in the activity they are doing.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Wallpaper.Accessibility.Classic.v106" xml:space="preserve">
+        <source>Classic Wallpaper</source>
+        <note>Accessibility label for the wallpaper onboarding modal displayed on top of the homepage. This describes to the user that which type of wallpaper they are seeing.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Wallpaper.Accessibility.LimitedEdition.v106" xml:space="preserve">
+        <source>Limited Edition Wallpaper</source>
+        <note>Accessibility label for the wallpaper onboarding modal displayed on top of the homepage. This describes to the user that which type of wallpaper they are seeing.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Wallpaper.Action.v106" xml:space="preserve">
+        <source>Explore more wallpapers</source>
+        <note>Description for the wallpaper onboarding modal displayed on top of the homepage. This describes to the user that they can set a wallpaper.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Wallpaper.Description.v106" xml:space="preserve">
+        <source>Choose a wallpaper that speaks to you.</source>
+        <note>Description for the wallpaper onboarding modal displayed on top of the homepage. This describes to the user that they can choose different wallpapers.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Wallpaper.Title.v106" xml:space="preserve">
+        <source>Try a splash of color</source>
+        <note>Title for the wallpaper onboarding modal displayed on top of the homepage. This describes to the user that they can choose different wallpapers.</note>
       </trans-unit>
       <trans-unit id="Onboarding.WallpaperAction.v102" xml:space="preserve">
         <source>Set Wallpaper</source>
@@ -2574,11 +2172,6 @@
         <source>Page Options Menu</source>
         <target>పేజీ ఎంపికల మెనూ</target>
         <note>Accessibility label for the Page Options menu button</note>
-      </trans-unit>
-      <trans-unit id="Panel Chooser" xml:space="preserve">
-        <source>Panel Chooser</source>
-        <target>ప్యానెల్ ఎంపిక</target>
-        <note>Accessibility label for the Library panel's bottom toolbar containing a list of the home panels (top sites, bookmarks, history, remote tabs, reading list).</note>
       </trans-unit>
       <trans-unit id="Password" xml:space="preserve">
         <source>Password</source>
@@ -2699,11 +2292,6 @@
         <target>చివరగా మూసివేసిన ట్యాబును తిరిగి తెరవండి</target>
         <note>Reopen alert title shown at home page.</note>
       </trans-unit>
-      <trans-unit id="ReopenClosedTab.KeyCodeTitle" xml:space="preserve">
-        <source>Reopen Closed Tab</source>
-        <target>మూసివేసిన ట్యాబును మళ్ళీ తెరువు</target>
-        <note>Hardware shortcut to reopen the last closed tab, from the tab or the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
-      </trans-unit>
       <trans-unit id="Reset text size" xml:space="preserve">
         <source>Reset text size</source>
         <target>టెక్స్ట్ పరిమాణం రీసెట్ చేయండి</target>
@@ -2733,11 +2321,6 @@
         <source>The data is invalid</source>
         <target>డేటా చెల్లనిది</target>
         <note>Text of the prompt that is shown to the user when the data is invalid</note>
-      </trans-unit>
-      <trans-unit id="ScanQRCode.PermissionError.Message" xml:space="preserve">
-        <source>Please allow Firefox to access your device’s camera in ‘Settings’ -&gt; ‘Privacy’ -&gt; ‘Camera’.</source>
-        <target>మీ పరికరపు కెమెరాను వాడటానికి Firefoxను ఇక్కడ అనుమతించండి ‘అమరికలు’ -&gt; ‘అంతరంగికత’ -&gt; ‘కెమెరా’.</target>
-        <note>Text of the prompt user to setup the camera authorization.</note>
       </trans-unit>
       <trans-unit id="ScanQRCode.PermissionError.Message.v100" xml:space="preserve">
         <source>Go to device ‘Settings’ &gt; ‘Firefox’. Allow Firefox to access camera.</source>
@@ -2902,16 +2485,6 @@
       <trans-unit id="SendTo.SignIn.Button" xml:space="preserve">
         <source>Sign In to Firefox</source>
         <note>The text for the button on the Send to Device page if you are not signed in to Firefox Accounts.</note>
-      </trans-unit>
-      <trans-unit id="SentTab.AddToReadingListAction.Title" xml:space="preserve">
-        <source>Add to Reading List</source>
-        <target>చదవాల్సిన జాబితాకి చేర్చు</target>
-        <note>Label for an action used to add one or more tabs recieved from a notification to the reading list.</note>
-      </trans-unit>
-      <trans-unit id="SentTab.BookmarkAction.title" xml:space="preserve">
-        <source>Bookmark</source>
-        <target>ఇష్టాంశం</target>
-        <note>Label for an action used to bookmark one or more tabs from a notification.</note>
       </trans-unit>
       <trans-unit id="SentTab.NoTabArrivingNotification.body" xml:space="preserve">
         <source>Tap to begin</source>
@@ -3283,45 +2856,20 @@
         <source>View</source>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the title of the button found on the toast that comes up once the user changes wallpaper, and allows users to dismiss the settings page. In this case, consider View as a verb - the action of dismissing settings and seeing the wallpaper.</note>
       </trans-unit>
-      <trans-unit id="Settings.HomePage.Clear.Button" xml:space="preserve">
-        <source>Clear</source>
-        <target>క్లియర్ చేయి</target>
-        <note>Button in settings to clear the home page.</note>
-      </trans-unit>
       <trans-unit id="Settings.HomePage.SectionName" xml:space="preserve">
         <source>Homepage</source>
         <target>హొమ్ పేజీ</target>
         <note>Label used as an item in Settings. When touched it will open a dialog to configure the home page and its uses.</note>
-      </trans-unit>
-      <trans-unit id="Settings.HomePage.Title" xml:space="preserve">
-        <source>Homepage Settings</source>
-        <target>హోంపేజీ సెట్టింగులు</target>
-        <note>Title displayed in header of the setting panel.</note>
-      </trans-unit>
-      <trans-unit id="Settings.HomePage.URL.Placeholder" xml:space="preserve">
-        <source>Enter a webpage</source>
-        <target>ఒక వెబ్ పేజీ ఎంటర్ చేయండి</target>
-        <note>Placeholder text in the homepage setting when no homepage has been set.</note>
       </trans-unit>
       <trans-unit id="Settings.HomePage.URL.Title" xml:space="preserve">
         <source>Current Homepage</source>
         <target>ప్రస్తుత హోంపేజీ</target>
         <note>Title of the setting section containing the URL of the current home page.</note>
       </trans-unit>
-      <trans-unit id="Settings.HomePage.UseCopiedLink.Button" xml:space="preserve">
-        <source>Use Copied Link</source>
-        <target>కాపీ చేసిన లంకెను వాడు</target>
-        <note>Button in settings to use the current link on the clipboard as home page.</note>
-      </trans-unit>
       <trans-unit id="Settings.HomePage.UseCurrent.Button" xml:space="preserve">
         <source>Use Current Page</source>
         <target>ప్రస్తుత పేజీని ఉపయోగించు</target>
         <note>Button in settings to use the current page as home page.</note>
-      </trans-unit>
-      <trans-unit id="Settings.HomePage.UseDefault.Button" xml:space="preserve">
-        <source>Use Default</source>
-        <target>అప్రమేయాన్ని వాడు</target>
-        <note>Button in settings to use the default home page. If no default is set, then this button isn't shown.</note>
       </trans-unit>
       <trans-unit id="Settings.Homepage.Shortcuts.Rows.v100" xml:space="preserve">
         <source>Rows</source>
@@ -3365,87 +2913,20 @@
         <target>అభిమత URL</target>
         <note>Label used to set a custom url as the new tab option (homepage).</note>
       </trans-unit>
-      <trans-unit id="Settings.NewTab.Description" xml:space="preserve">
-        <source>When you open a New Tab:</source>
-        <target>మీరు ఒక కొత్త ట్యాబు తెరిచినప్పుడు:</target>
-        <note>A description in settings of what the new tab choice means</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.ASTitle" xml:space="preserve">
-        <source>Customize Top Sites</source>
-        <target>మేటి సైట్ల అభిమతీకరణ</target>
-        <note>The title of the section in newtab that lets you modify the topsites panel</note>
-      </trans-unit>
       <trans-unit id="Settings.NewTab.Option.BlankPage" xml:space="preserve">
         <source>Blank Page</source>
         <target>ఖాళీ పేజీ</target>
         <note>Option in settings to show a blank page when you open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.Bookmarks" xml:space="preserve">
-        <source>Bookmarks</source>
-        <target>ఇష్టాంశాలు</target>
-        <note>Option in settings to show bookmarks when you open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.CustomizeFooter" xml:space="preserve">
-        <source>The sites you visit most</source>
-        <target>మీరు ఎక్కువగా చూసే సైట్లు</target>
-        <note>The footer for the section to customize top sites in the new tab settings page.</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.CustomizeFooter2" xml:space="preserve">
-        <source>Sites you save or visit</source>
-        <target>మీరు భద్రపరచుకున్న లేదా చూసిన సైట్లు</target>
-        <note>The footer for the section to customize top sites in the new tab settings page.</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.CustomizeTitle" xml:space="preserve">
-        <source>Customize Firefox Home</source>
-        <note>The title for the section to customize top sites in the new tab settings page.</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.Option.FirefoxHome" xml:space="preserve">
         <source>Firefox Home</source>
         <target>Firefox ముంగిలి</target>
         <note>Option in settings to show Firefox Home when you open a new tab</note>
       </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.HighlightsBookmarks" xml:space="preserve">
-        <source>Recent Bookmarks</source>
-        <target>ఇటీవల ఇష్టాంశాలుగా చేసినవి</target>
-        <note>Option in the settings to turn off recent bookmarks in the Highlights section</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.HighlightsHistory" xml:space="preserve">
-        <source>Visited</source>
-        <target>సందర్శించినవి</target>
-        <note>Option in settings to turn off history in the highlights section</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.History" xml:space="preserve">
-        <source>History</source>
-        <target>చరిత్ర</target>
-        <note>Option in settings to show history when you open a new tab</note>
-      </trans-unit>
       <trans-unit id="Settings.NewTab.Option.HomePage" xml:space="preserve">
         <source>Homepage</source>
         <target>ముంగిలిపేజీ</target>
         <note>Option in settings to show your homepage when you open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.Pocket" xml:space="preserve">
-        <source>Trending on Pocket</source>
-        <target>Pocketచే సిఫార్సు చేయబడింది</target>
-        <note>Option in settings to turn on off pocket recommendations</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.PocketFooter" xml:space="preserve">
-        <source>Great content from around the web.</source>
-        <target>జాలం చుట్టుపక్కల నుంచి గొప్ప విషయం.</target>
-        <note>Footer caption for pocket settings</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.ReadingList" xml:space="preserve">
-        <source>Show your Reading List</source>
-        <target>మీరు చదవాల్సిన జాబితాను చూపించు</target>
-        <note>Option in settings to show reading list when you open a new tab</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.RecommendedByPocket" xml:space="preserve">
-        <source>Recommended by %@</source>
-        <note>Option in settings to turn on off pocket recommendations First argument is the pocket brand name</note>
-      </trans-unit>
-      <trans-unit id="Settings.NewTab.Option.RecommendedByPocketDescription" xml:space="preserve">
-        <source>Exceptional content curated by %1$@, part of the %2$@ family</source>
-        <note>Descriptoin for the option in settings to turn on off pocket recommendations. First argument is the pocket brand name, second argument is the pocket product name.</note>
       </trans-unit>
       <trans-unit id="Settings.NewTab.SectionName" xml:space="preserve">
         <source>New Tab</source>
@@ -3675,35 +3156,15 @@
         <target>గమనిక!</target>
         <note>Title for the tracker protection alert.</note>
       </trans-unit>
-      <trans-unit id="Settings.TrackingProtection.BlockListsHeader" xml:space="preserve">
-        <source>You can choose which list Firefox will use to block Web elements that may track your browsing activity.</source>
-        <target>మీ విహరణ జాడ తెలుసుకునే వెబ్ ఎలిమెంట్స్ నిరోధించుటకు Firefox ఏ జాబితా ఉపయోగించాలో మీరు ఎంచుకోవచ్చు.</target>
-        <note>Header description for tracking protection options section where Basic/Strict block list can be selected</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtection.Info.BasicTitle" xml:space="preserve">
-        <source>Balanced for protection and performance.</source>
-        <target>సంరక్షణకు, పనితనానికి మధ్య సమతుల్యమైనది.</target>
-        <note>Explanation of basic mode.</note>
-      </trans-unit>
       <trans-unit id="Settings.TrackingProtection.Info.BlocksTitle" xml:space="preserve">
         <source>BLOCKS</source>
         <target>నిరోధాలు</target>
         <note>The Title on info view which shows a list of all blocked websites</note>
       </trans-unit>
-      <trans-unit id="Settings.TrackingProtection.Info.StrictTitle" xml:space="preserve">
-        <source>Offers stronger protection, but may cause some sites to break.</source>
-        <target>బలమైన సంరక్షణను అందిస్తుంది, కానీ కొన్ని సైట్లు సరిగా పనిచేయకపోవచ్చు.</target>
-        <note>Explanation of strict mode.</note>
-      </trans-unit>
       <trans-unit id="Settings.TrackingProtection.LearnMore" xml:space="preserve">
         <source>Learn more</source>
         <target>ఇంకా తెలుసుకోండి</target>
         <note>'Learn more' info link on the Tracking Protection settings screen.</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtection.MoreInfo" xml:space="preserve">
-        <source>More Info…</source>
-        <target>మరింత సమాచారం…</target>
-        <note>'More Info' link on the Tracking Protection settings screen.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionCellFooter" xml:space="preserve">
         <source>Reduces targeted ads and helps stop advertisers from tracking your browsing.</source>
@@ -3731,35 +3192,15 @@
         <target>ట్రాకింగ్ సంరక్షణ</target>
         <note>Row in top-level of settings that gets tapped to show the tracking protection settings detail view.</note>
       </trans-unit>
-      <trans-unit id="Settings.TrackingProtection.StrictLevelInfoFooter" xml:space="preserve">
-        <source>Blocking trackers could impact the functionality of some websites.</source>
-        <target>ట్రాకర్లను నిరోధించడం కొన్ని వెబ్‌సైట్ల పనితనాన్ని ప్రభావితం చేయవచ్చు.</target>
-        <note>Additional information about the strict level setting</note>
-      </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.BasicBlockList" xml:space="preserve">
         <source>Standard (default)</source>
         <target>ప్రామాణికం (అప్రమేయం)</target>
         <note>Tracking protection settings option for using the basic blocklist.</note>
       </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.BlockListBasicDescription" xml:space="preserve">
-        <source>Allows some trackers so websites function properly.</source>
-        <target>వెబ్‌సైట్లు సరిగా పనిచేయడం కోసం కొన్ని ట్రాకర్లను అనుమతిస్తుంది.</target>
-        <note>Tracking protection settings option description for using the basic blocklist.</note>
-      </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.BlockListStrict" xml:space="preserve">
         <source>Strict</source>
         <target>ఖచ్చితం</target>
         <note>Tracking protection settings option for using the strict blocklist.</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.BlockListStrictDescription" xml:space="preserve">
-        <source>Blocks known trackers. Some websites may not function properly.</source>
-        <target>తెలిసిన ట్రాకర్లను నిరోధిస్తుంది. కొన్ని వెబ్‌సైట్లు సరిగా పనిచేయకపోవచ్చు.</target>
-        <note>Tracking protection settings option description for using the strict blocklist.</note>
-      </trans-unit>
-      <trans-unit id="Settings.TrackingProtectionOption.EnabledStateFooterLabel" xml:space="preserve">
-        <source>Tracking is the collection of your browsing data across multiple websites.</source>
-        <target>ట్రాకింగ్ అంటే పలు వెబ్‌సైట్ల నుండి మీ విహారణ సమాచారాన్ని సేకరించడం.</target>
-        <note>Description label shown on tracking protection options screen.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.NormalBrowsingLabelOn" xml:space="preserve">
         <source>Enhanced Tracking Protection</source>
@@ -3795,21 +3236,6 @@
         <source>Troubleshoot</source>
         <target>ట్రబుల్‌షూట్</target>
         <note>Title of link to help page to find out how to solve Sync issues</note>
-      </trans-unit>
-      <trans-unit id="Settings.WebsiteData.ButtonDelete" xml:space="preserve">
-        <source>Delete</source>
-        <target>తొలగించు</target>
-        <note>Button to delete website in search results</note>
-      </trans-unit>
-      <trans-unit id="Settings.WebsiteData.ButtonDone" xml:space="preserve">
-        <source>Done</source>
-        <target>పూర్తయింది</target>
-        <note>Button to exit edit website search results</note>
-      </trans-unit>
-      <trans-unit id="Settings.WebsiteData.ButtonEdit" xml:space="preserve">
-        <source>Edit</source>
-        <target>మార్చు</target>
-        <note>Button to edit website search results</note>
       </trans-unit>
       <trans-unit id="Settings.WebsiteData.ButtonShowMore" xml:space="preserve">
         <source>Show More</source>
@@ -3906,26 +3332,6 @@
         <target>ట్యాబు మూసివేయడానికి మూడు వేళ్ళతో కుడి లేదా ఎడమ వైపుకు స్వైప్ చెయ్యండి.</target>
         <note>Accessibility hint for tab tray's displayed tab.</note>
       </trans-unit>
-      <trans-unit id="SwitchToNonPBM.KeyCodeTitle" xml:space="preserve">
-        <source>Normal Browsing Mode</source>
-        <target>సాధారణ విహరణ రీతి</target>
-        <note>Hardware shortcut for non-private tab or tab. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
-      </trans-unit>
-      <trans-unit id="SwitchToPBM.KeyCodeTitle" xml:space="preserve">
-        <source>Private Browsing Mode</source>
-        <target>అంతరంగిక విహరణ రీతి</target>
-        <note>Hardware shortcut switch to the private browsing tab or tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
-      </trans-unit>
-      <trans-unit id="Sync your tabs, bookmarks, passwords and more." xml:space="preserve">
-        <source>Sync your tabs, bookmarks, passwords and more.</source>
-        <target>మీ ట్యాబులను, ఇష్టాంశాలను, సంకేతపదాలను, ఇంకా మరెన్నింటినో సింక్ చేసుకోండి.</target>
-        <note>Text displayed when the Sync home panel is empty, describing the features provided by Sync to invite the user to log in.</note>
-      </trans-unit>
-      <trans-unit id="Sync your tabs, passwords and more." xml:space="preserve">
-        <source>Sync your tabs, passwords and more.</source>
-        <target>మీ ట్యాబులను, ఇష్టాంశాలను, సంకేతపదాలను, ఇంకా మరెన్నింటినో సింక్ చేసుకోండి.</target>
-        <note>Text displayed when the Sync home panel is empty, describing the features provided by Sync to invite the user to log in.</note>
-      </trans-unit>
       <trans-unit id="Sync.FirstTimeMessage.Label" xml:space="preserve">
         <source>Your first sync may take a while</source>
         <target>మీ మొదటి సింక్ కొంత సమయం పట్టవచ్చు</target>
@@ -3990,11 +3396,6 @@
         <target>ట్యాబులు</target>
         <note>The Tabs sync component, used in SyncState.Partial.Title</note>
       </trans-unit>
-      <trans-unit id="Synced Tabs" xml:space="preserve">
-        <source>Synced Tabs</source>
-        <target>సింకైన ట్యాబులు</target>
-        <note>Panel accessibility label</note>
-      </trans-unit>
       <trans-unit id="Tab %@ of %@" xml:space="preserve">
         <source>Tab %1$@ of %2$@</source>
         <target>ట్యాబు %2$@ లో %1$@</target>
@@ -4032,30 +3433,10 @@
         <source>Inactive Tabs</source>
         <note>Title for the inactive tabs section. This section groups all tabs that haven't been used in a while.</note>
       </trans-unit>
-      <trans-unit id="TabTray.LastWeek.Header" xml:space="preserve">
-        <source>Last Week</source>
-        <target>పోయిన వారం</target>
-        <note>The section header for tabs opened last week</note>
-      </trans-unit>
-      <trans-unit id="TabTray.MoreMenu.Copy" xml:space="preserve">
-        <source>Copy</source>
-        <target>కాపీచేయి</target>
-        <note>The title on the button to copy the tab address.</note>
-      </trans-unit>
-      <trans-unit id="TabTray.Older.Header" xml:space="preserve">
-        <source>Older</source>
-        <target>పాతవి</target>
-        <note>The section header for tabs opened before last week</note>
-      </trans-unit>
       <trans-unit id="TabTray.OpenNewTab.KeyCodeTitle" xml:space="preserve">
         <source>Open New Tab</source>
         <target>కొత్త ట్యాబును తెరువు</target>
         <note>Hardware shortcut to open a new tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
-      </trans-unit>
-      <trans-unit id="TabTray.OpenSelectedTab.KeyCodeTitle" xml:space="preserve">
-        <source>Open Selected Tab</source>
-        <target>ఎంచుకున్న ట్యాబును తెరువు</target>
-        <note>Hardware shortcut open the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
       </trans-unit>
       <trans-unit id="TabTray.OtherTabs.Title" xml:space="preserve">
         <source>Other tabs</source>
@@ -4084,25 +3465,10 @@
         <target>ట్యాబులు</target>
         <note>The title on the button to look at regular tabs.</note>
       </trans-unit>
-      <trans-unit id="TabTray.SwipeMenu.More" xml:space="preserve">
-        <source>More</source>
-        <target>మరిన్ని</target>
-        <note>The button title to see more options to perform on the tab.</note>
-      </trans-unit>
       <trans-unit id="TabTray.Title" xml:space="preserve">
         <source>Open Tabs</source>
         <target>తెరిచివున్న ట్యాబులు</target>
         <note>The title for the tab tray</note>
-      </trans-unit>
-      <trans-unit id="TabTray.Today.Header" xml:space="preserve">
-        <source>Today</source>
-        <target>ఈరోజు</target>
-        <note>The section header for tabs opened today</note>
-      </trans-unit>
-      <trans-unit id="TabTray.Yesterday.Header" xml:space="preserve">
-        <source>Yesterday</source>
-        <target>నిన్న</target>
-        <note>The section header for tabs opened yesterday</note>
       </trans-unit>
       <trans-unit id="Tabs %@ to %@ of %@" xml:space="preserve">
         <source>Tabs %1$@ to %2$@ of %3$@</source>
@@ -4123,11 +3489,6 @@
         <source>%d tab(s) closed</source>
         <target>%d ట్యాబు(లు) మూసివేయబడింది</target>
         <note>The label indicating that all the tabs were closed</note>
-      </trans-unit>
-      <trans-unit id="Tabs.Search.PlaceholderText" xml:space="preserve">
-        <source>Search Tabs</source>
-        <target>ట్యాబులలో వెతకండి</target>
-        <note>The placeholder text for the tab search bar</note>
       </trans-unit>
       <trans-unit id="TabsTray.InactiveTabs.SectionTitle.Closed.Accessibility.v103" xml:space="preserve">
         <source>View Inactive Tabs</source>
@@ -4180,16 +3541,6 @@
         <source>Close All Tabs</source>
         <target>అన్ని ట్యాబులను మూసివేయి</target>
         <note>Accessibility label for the Close All Tabs menu button.</note>
-      </trans-unit>
-      <trans-unit id="TopSites.EmptyState.Description" xml:space="preserve">
-        <source>Your most visited sites will show up here.</source>
-        <target>మీరు ఎక్కువగా సందర్శించే సైట్లను ఇక్కడ కనిపిస్తాయి.</target>
-        <note>Description label for the empty Top Sites state.</note>
-      </trans-unit>
-      <trans-unit id="TopSites.EmptyState.Title" xml:space="preserve">
-        <source>Welcome to Top Sites</source>
-        <target>టాప్ సైట్స్ కు స్వాగతం</target>
-        <note>The title for the empty Top Sites state</note>
       </trans-unit>
       <trans-unit id="TopSites.RemovePage.Button" xml:space="preserve">
         <source>Remove page — %@</source>
@@ -4269,11 +3620,6 @@
         <target>మీ ఇమెయిల్ చిరునామాను ధృవీకరించండి</target>
         <note>Text message in the settings table view</note>
       </trans-unit>
-      <trans-unit id="Version %@ (%@)" xml:space="preserve">
-        <source>Version %1$@ (%2$@)</source>
-        <target>వెర్షన్ %1$@ (%2$@)</target>
-        <note>Version number of Firefox shown in settings</note>
-      </trans-unit>
       <trans-unit id="Web content" xml:space="preserve">
         <source>Web content</source>
         <target>వెబ్ కంటెంట్</target>
@@ -4319,10 +3665,6 @@
         <target>కంప్యూటర్</target>
         <note>Accessibility label for Desktop Computer (PC) image in remote tabs list</note>
       </trans-unit>
-      <trans-unit id="fxa.qr-scanning-view.instructions" xml:space="preserve">
-        <source>Scan the QR code shown at firefox.com/pair</source>
-        <note>Instructions shown on qr code scanning view</note>
-      </trans-unit>
       <trans-unit id="fxa.signin.camera-signin" xml:space="preserve">
         <source>Sign In with Your Camera</source>
         <note>FxA sign in view subtitle</note>
@@ -4342,10 +3684,6 @@
       <trans-unit id="fxa.signin.ready-to-scan" xml:space="preserve">
         <source>Ready to Scan</source>
         <note>FxA sign in view qr code scan button</note>
-      </trans-unit>
-      <trans-unit id="fxa.signin.turn-on-sync" xml:space="preserve">
-        <source>Turn on Sync</source>
-        <note>FxA sign in view title</note>
       </trans-unit>
       <trans-unit id="fxa.signin.use-email-instead" xml:space="preserve">
         <source>Use Email Instead</source>
@@ -4525,11 +3863,6 @@
         <source>Add to Reading List</source>
         <note>Long label for the button displayed in the menu, used to add a page to the reading list.</note>
       </trans-unit>
-      <trans-unit id="Menu.AddToReadingList.Title" xml:space="preserve">
-        <source>Add to Reading List</source>
-        <target>చదవాల్సిన జాబితాకి చేర్చు</target>
-        <note>Label for the button, displayed in the menu, used to add a page to the reading list.</note>
-      </trans-unit>
       <trans-unit id="Menu.CloseAllTabsAction.Title" xml:space="preserve">
         <source>Close All Tabs</source>
         <target>ట్యాబలు అన్నీ మూసివేయి</target>
@@ -4553,11 +3886,6 @@
       <trans-unit id="Menu.Library.Reload" xml:space="preserve">
         <source>Reload</source>
         <note>Label for the button, displayed in the menu, used to Reload the webpage</note>
-      </trans-unit>
-      <trans-unit id="Menu.Library.Title" xml:space="preserve">
-        <source>Your Library</source>
-        <target>మీ లైబ్రరీ</target>
-        <note>Label for the button, displayed in the menu, used to open the Library</note>
       </trans-unit>
       <trans-unit id="Menu.NewPrivateTabAction.Title" xml:space="preserve">
         <source>Open New Private Tab</source>
@@ -4583,11 +3911,6 @@
         <source>History</source>
         <target>చరిత్ర</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the History home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
-      </trans-unit>
-      <trans-unit id="Menu.OpenHomePageAction.Title" xml:space="preserve">
-        <source>Home</source>
-        <target>ముంగిలి</target>
-        <note>Label for the button, displayed in the menu, used to navigate to the home page.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel.v2" xml:space="preserve">
         <source>Reading List</source>
@@ -4623,11 +3946,6 @@
         <source>Remove Bookmark</source>
         <target>ఇష్టాంశాన్ని తీసివేయి</target>
         <note>Long label for the remove bookmark button displayed in the menu. Pressing this button remove the current page from the bookmarks.</note>
-      </trans-unit>
-      <trans-unit id="Menu.RemoveBookmarkAction.Title" xml:space="preserve">
-        <source>Remove Bookmark</source>
-        <target>బుక్మార్క్ తొలగించు</target>
-        <note>Label for the button, displayed in the menu, used to delete an existing bookmark for the current website.</note>
       </trans-unit>
       <trans-unit id="Menu.ReportSiteIssueAction.Title" xml:space="preserve">
         <source>Report Site Issue</source>
