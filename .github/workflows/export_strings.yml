@@ -53,10 +53,14 @@ jobs:
 
           # Extract strings
           cd LocalizationTools
-          swift run LocalizationTools --export --project-path ../Client.xcodeproj --l10n-project-path ../firefoxios-l10n
+          swift run LocalizationTools --export --project-path ../Client.xcodeproj --l10n-project-path ../firefoxios-l10n --locale en-US
+          cp ../firefoxios-l10n/en-US/*.xliff "${start_folder}/l10n_repo/en-US/"
+
+          # Make sure that the reference locale (en-US) has translations, i.e.
+          # targets defined and identical to the source.
+          python "${start_folder}/l10n_repo/.github/scripts/translate_reference.py" --path "${start_folder}/l10n_repo/en-US"
 
           # Copy strings to other locales
-          cp ../firefoxios-l10n/en-US/*.xliff "${start_folder}/l10n_repo/en-US/"
           python "${start_folder}/l10n_repo/.github/scripts/update_other_locales.py" --reference en-US --path "${start_folder}/l10n_repo" --type "${{ github.event.inputs.type }}"
       - name: Get the current date for PR title
         run: echo "current_date=$(date +"%Y-%m-%d")" >> $GITHUB_ENV
