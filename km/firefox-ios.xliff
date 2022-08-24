@@ -367,11 +367,6 @@
         <target>ខ្ទាស់</target>
         <note>The title for the pinning a topsite action</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.ContextMenu.RemoveFromShortcuts" xml:space="preserve">
-        <source>Remove from Shortcuts</source>
-        <target>ដកចេញ​ពី​ផ្លូវកាត់</target>
-        <note>The title for removing a shortcut action</note>
-      </trans-unit>
       <trans-unit id="ActivityStream.ContextMenu.UnpinTopsite" xml:space="preserve">
         <source>Unpin</source>
         <target>ដកខ្ទាស់</target>
@@ -387,65 +382,20 @@
         <target>ផ្ទាំង៖ %d</target>
         <note>On the Firefox homepage in the Jump Back In section, if a Tab group item - a collection of grouped tabs from a related search - exists underneath the search term for the tab group, there will be a subtitle with a number for how many tabs are in that group. The placeholder is for a number. It will read 'Tabs: 5' or similar.</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.JumpBackIn.TabGroup.Title" xml:space="preserve">
-        <source>Your search for “%@”</source>
-        <target>ការស្វែងរក​របស់អ្នក​សម្រាប់ "%@"</target>
-        <note>On the Firefox homepage in the Jump Back In section, if a Tab group item - a collection of grouped tabs from a related search - exists, the Tab Group item title will be 'Your search for \"video games\"'. The %@ sign is a placeholder for the actual search the user did.</note>
-      </trans-unit>
       <trans-unit id="ActivityStream.Library.Title" xml:space="preserve">
         <source>Recently Saved</source>
         <target>បានរក្សាទុក​ថ្មីៗ</target>
         <note>A string used to signify the start of the Recently Saved section in Home Screen.</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.NewRecentBookmarks.Title" xml:space="preserve">
-        <source>Recent Bookmarks</source>
-        <target>ចំណាំ​ថ្មីៗ</target>
-        <note>Section title label for recently bookmarked websites</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.Pocket.MoreLink" xml:space="preserve">
-        <source>More</source>
-        <target>ច្រើន​ទៀត</target>
-        <note>The link that shows more Pocket trending stories</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.Pocket.SectionTitle" xml:space="preserve">
-        <source>Trending on Pocket</source>
-        <target>កំពុង​ពេញនិយម​នៅ​លើ ហៅប៉ៅ</target>
-        <note>Section title label for Recommended by Pocket section</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.Pocket.SectionTitle2" xml:space="preserve">
-        <source>Recommended by Pocket</source>
-        <target>បាន​ណែនាំ​ដោយ Pocket</target>
-        <note>Section title label for Recommended by Pocket section</note>
       </trans-unit>
       <trans-unit id="ActivityStream.RecentHistory.Title" xml:space="preserve">
         <source>Recently Visited</source>
         <target>បាន​ចូលមើល​ថ្មីៗ</target>
         <note>Section title label for recently visited websites</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.RecentlySaved.SectionTitle" xml:space="preserve">
-        <source>Recently Saved</source>
-        <target>បានរក្សាទុក​ថ្មីៗ</target>
-        <note>Section title for the Recently Saved section. This shows websites that have had a save action. Right now it is just bookmarks but it could be used for other things like the reading list in the future.</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.RecentlySaved.ShowAll" xml:space="preserve">
-        <source>Show all</source>
-        <target>បង្ហាញ​ទាំងអស់</target>
-        <note>This button will open the library showing all the users bookmarks</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.RecentlyVisited.RemoveButton.Title" xml:space="preserve">
-        <source>Remove</source>
-        <target>ដកចេញ</target>
-        <note>When long pressing an item in the Recently Visited section, this is the title of the button that appears, letting the user know to remove that particular item from the menu.</note>
-      </trans-unit>
       <trans-unit id="ActivityStream.Shortcuts.SectionTitle" xml:space="preserve">
         <source>Shortcuts</source>
         <target>ផ្លូវកាត់</target>
         <note>Section title label for Shortcuts</note>
-      </trans-unit>
-      <trans-unit id="ActivityStream.TopSites.RowCount" xml:space="preserve">
-        <source>Rows: %d</source>
-        <target>ជួរដេក៖ %d</target>
-        <note>label showing how many rows of topsites are shown. %d represents a number</note>
       </trans-unit>
       <trans-unit id="ActivityStream.TopSites.RowSettingFooter" xml:space="preserve">
         <source>Set Rows</source>
@@ -531,18 +481,6 @@
         <source>Bookmarks</source>
         <target>ចំណាំ</target>
         <note>Toggle bookmarks syncing setting</note>
-      </trans-unit>
-      <trans-unit id="Bookmarks.Actions.Add" xml:space="preserve">
-        <source>Add</source>
-        <note>A label indicating the action of adding a web page as a bookmark.</note>
-      </trans-unit>
-      <trans-unit id="Bookmarks.Actions.BookmarkAllTabs" xml:space="preserve">
-        <source>Bookmark All Tabs</source>
-        <note>A label indicating the action of bookmarking all currently open non private tabs.</note>
-      </trans-unit>
-      <trans-unit id="Bookmarks.Actions.BookmarkCurrentTab" xml:space="preserve">
-        <source>Bookmark Current Tab</source>
-        <note>A label indicating the action of bookmarking the current tab.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Edit.Button" xml:space="preserve">
         <source>Edit</source>
@@ -756,16 +694,6 @@
         <target>មិន​អាច​ផ្ទុក​ទំព័រ​បាន​ទេ។</target>
         <note>Error message that is shown in settings when there was a problem loading</note>
       </trans-unit>
-      <trans-unit id="CoverSheet.v22.DarkMode.Description" xml:space="preserve">
-        <source>For iOS 13 users, Firefox now automatically switches to a dark theme when your phone is set to Dark Mode. To change this behavior, go to Settings &gt; Theme.</source>
-        <target>សម្រាប់អ្នកប្រើ iOS 13 ឥឡូវនេះ Firefox ប្តូរទៅជារចនាប័ទ្ម​ងងឹតនៅពេលទូរសព្ទរបស់អ្នកត្រូវបានកំណត់ទៅជាមុខងារ​ងងឹត។ ដើម្បីផ្លាស់ប្តូរឥរិយាបថនេះ សូម​ចូលទៅកាន់ ការកំណត់ &gt; រចនាប័ទ្ម។</target>
-        <note>Description for the new dark mode change in the version 22 app release. It describes the new automatic dark theme and how to change the theme settings.</note>
-      </trans-unit>
-      <trans-unit id="CoverSheet.v22.DarkMode.Title" xml:space="preserve">
-        <source>Dark theme now includes a dark keyboard and dark splash screen.</source>
-        <target>ឥឡូវនេះ រចនាប័ទ្ម​ងងឹតរួម​បញ្ចូល​ទាំង​ក្តារ​ចុច​ងងឹត ​និង​អេក្រង់​ស្វាគមន៍​ងងឹត។</target>
-        <note>Title for the new dark mode change in the version 22 app release.</note>
-      </trans-unit>
       <trans-unit id="CoverSheet.v24.ETP.Description" xml:space="preserve">
         <source>Built-in Enhanced Tracking Protection helps stop ads from following you around. Turn on Strict to block even more trackers, ads, and popups. </source>
         <target>ការការពារ​ការតាមដាន​កែលម្អ​ដែលបានបង្កើត​​ជួយ​បញ្ឈប់​ការផ្សាយពាណិជ្ជកម្ម​ពី​ការតាមដាន​ជុំវិញ​អ្នក។ បើក​ការរឹតបន្តឹង​ដើម្បីទប់ស្កាត់​ទោះបីជា​មាន​កម្មវិធី​តាមដាន ការផ្សាយពាណិជ្ជកម្ម និង​ព័ត៌មាន​លេចឡើង​កាន់តែច្រើន​ក៏ដោយ។</target>
@@ -861,11 +789,6 @@
         <source>Download Failed</source>
         <target>មិន​អាច​ទាញយក​បាន​ទេ</target>
         <note>The label text in the Download Failed toast for showing confirmation that the download has failed.</note>
-      </trans-unit>
-      <trans-unit id="Downloads.Toast.Failed.RetryButton" xml:space="preserve">
-        <source>Retry</source>
-        <target>ព្យាយាមម្ដងទៀត</target>
-        <note>The button to retry a failed download from the Download Failed toast.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.GoToDownloads.Button" xml:space="preserve">
         <source>Downloads</source>
@@ -1125,16 +1048,6 @@
         <target>ចូល ដើម្បី​មើល​បញ្ជី​ផ្ទាំង​ពី​ឧបករណ៍​ផ្សេងៗ​របស់​អ្នក។</target>
         <note>Description for the empty synced tabs 'not signed in' state in the History Panel</note>
       </trans-unit>
-      <trans-unit id="HistoryPanel.EmptySyncedTabsPanelNotYetVerifiedState.Description" xml:space="preserve">
-        <source>Your account needs to be verified.</source>
-        <target>គណនី​របស់​អ្នក​ចាំបាច់​ត្រូវ​ផ្ទៀងផ្ទាត់។</target>
-        <note>Description for the empty synced tabs 'not yet verified' state in the History Panel</note>
-      </trans-unit>
-      <trans-unit id="HistoryPanel.EmptySyncedTabsPanelTabSyncDisabledState.Description" xml:space="preserve">
-        <source>Turn on tab syncing to view a list of tabs from your other devices.</source>
-        <target>បើក​ផ្ទាំង​ដែល​កំពុង​ធ្វើ​សមកាលកម្ម ដើម្បី​មើល​បញ្ជី​ផ្ទាំង​ពី​ឧបករណ៍​ផ្សេងៗ​របស់​អ្នក។</target>
-        <note>Description for the empty synced tabs 'tab sync disabled' state in the History Panel</note>
-      </trans-unit>
       <trans-unit id="HistoryPanel.EmptySyncedTabsState.Title" xml:space="preserve">
         <source>Firefox Sync</source>
         <target>ការ​ធ្វើ​សមកាលកម្ម Firefox</target>
@@ -1248,21 +1161,6 @@
         <source>Show Previous Tab</source>
         <target>បង្ហាញ​ផ្ទាំង​មុន​</target>
         <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
-      </trans-unit>
-      <trans-unit id="InactiveTabs.TabTray.AutoClosePrompt.ButtonTitle" xml:space="preserve">
-        <source>Turn on Auto Close</source>
-        <target>បើក​ការបិទ​ស្វ័យប្រវត្តិ</target>
-        <note>In the Tabs Tray, in the Inactive Tabs section, a prompt may come up about auto-closing tabs. This string is for the button the user must tap in order to turn on the Auto close feature</note>
-      </trans-unit>
-      <trans-unit id="InactiveTabs.TabTray.AutoClosePrompt.Content" xml:space="preserve">
-        <source>Firefox will close tabs you haven’t viewed over the past month.</source>
-        <target>Firefox នឹង​បិទ​ផ្ទាំង​ដែល​អ្នក​មិន​បាន​មើល​ជាងមួយ​ខែ​មុន។</target>
-        <note>In the Tabs Tray, in the Inactive Tabs section, a prompt may come up about auto-closing tabs. This string describes what happens if you elect to turn on this option.</note>
-      </trans-unit>
-      <trans-unit id="InactiveTabs.TabTray.AutoClosePrompt.Title" xml:space="preserve">
-        <source>Auto-close after one month?</source>
-        <target>បិទ​ស្វ័យប្រវត្តិ​បន្ទាប់​ពី​មួយខែ​ឬ?</target>
-        <note>In the Tabs Tray, in the Inactive Tabs section, a prompt may come up about auto-closing tabs. This is the title of that Auto Close prompt</note>
       </trans-unit>
       <trans-unit id="InactiveTabs.TabTray.CloseButtonTitle" xml:space="preserve">
         <source>Close All Inactive Tabs</source>
@@ -1382,11 +1280,6 @@
         <source>Last month</source>
         <target>ខែ​មុន</target>
         <note>History tableview section header</note>
-      </trans-unit>
-      <trans-unit id="Last synced: %@" xml:space="preserve">
-        <source>Last synced: %@</source>
-        <target>បាន​ធ្វើ​សមកាល​កម្ម​ចុងក្រោយ៖ %@</target>
-        <note>Remote tabs last synced time. Argument is the relative date string.</note>
       </trans-unit>
       <trans-unit id="Last week" xml:space="preserve">
         <source>Last week</source>
@@ -1668,14 +1561,6 @@
         <target>ការការពារការតាមដានត្រូវបានបើកសម្រាប់គេហទំព័រនេះ។</target>
         <note>A switch to enable enhanced tracking protection inside the menu.</note>
       </trans-unit>
-      <trans-unit id="Menu.EnhancedTrackingProtectionStandardWithITP.Title" xml:space="preserve">
-        <source>Firefox blocks cross-site trackers, social trackers, cryptominers, and fingerprinters.</source>
-        <note>Description for having standard ETP protection with ITP offered in iOS14+</note>
-      </trans-unit>
-      <trans-unit id="Menu.EnhancedTrackingProtectionStrictWithITP.Title" xml:space="preserve">
-        <source>Firefox blocks cross-site trackers, social trackers, cryptominers, fingerprinters, and tracking content.</source>
-        <note>Description for having strict ETP protection with ITP offered in iOS14+</note>
-      </trans-unit>
       <trans-unit id="Menu.Help.v99" xml:space="preserve">
         <source>Help</source>
         <note>Label for the help button in the menu page. Pressing this button opens the support page https://support.mozilla.org/en-US/products/ios</note>
@@ -1779,29 +1664,14 @@
         <source>Home</source>
         <note>Accessibility label for the Home button on the toolbar. Pressing this button brings the user to the home page.</note>
       </trans-unit>
-      <trans-unit id="Menu.TrackingProtection.BlockedTitle" xml:space="preserve">
-        <source>Blocked</source>
-        <target>បាន​ទប់ស្កាត់</target>
-        <note>Title on tracking protection menu for blocked items.</note>
-      </trans-unit>
       <trans-unit id="Menu.TrackingProtection.Details.Verifier" xml:space="preserve">
         <source>Verified by %@</source>
         <note>String to let users know the site verifier, where the placeholder represents the SSL certificate signer.</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtection.NoTrackersBlockedTitle" xml:space="preserve">
-        <source>No trackers known to Firefox were detected on this page.</source>
-        <target>មិនមានកម្មវិធីតាមដានដែលស្គាល់ដោយ Firefox ត្រូវបានរកឃើញនៅលើទំព័រនេះទេ ។</target>
-        <note>Message in menu when no trackers blocked.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.ProtectionSettings.Title" xml:space="preserve">
         <source>Protection Settings</source>
         <target>ការកំណត់ការការពារ</target>
         <note>The title for tracking protection settings</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtection.TitlePrefix" xml:space="preserve">
-        <source>Protections for %@</source>
-        <target>ការការពារសម្រាប់ %@</target>
-        <note>Title on tracking protection menu showing the domain. eg. Protections for mozilla.org</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionBlockedContent.Title" xml:space="preserve">
         <source>Tracking content</source>
@@ -1812,11 +1682,6 @@
         <source>Social Trackers</source>
         <target>អ្នកតាមដានសង្គម</target>
         <note>The title that shows the number of social URLs blocked</note>
-      </trans-unit>
-      <trans-unit id="Menu.TrackingProtectionCrossSiteCookies.Title" xml:space="preserve">
-        <source>Cross-Site Tracking Cookies</source>
-        <target>ខូឃី​ដែល​តាមដាន​ឆ្លង​គេហទំព័រ</target>
-        <note>The title that shows the number of cross-site cookies blocked</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtectionCrossSiteTrackers.Title" xml:space="preserve">
         <source>Cross-Site Trackers</source>
@@ -1870,8 +1735,7 @@
       <trans-unit id="New Tab" xml:space="preserve">
         <source>New Tab</source>
         <target>ផ្ទាំងថ្មី</target>
-        <note>Accessibility label for the New Tab button in the tab toolbar.
-   Accessibility Label for the tab toolbar New tab button</note>
+        <note>Accessibility label for the New Tab button in the tab toolbar.</note>
       </trans-unit>
       <trans-unit id="No" xml:space="preserve">
         <source>No</source>
@@ -2003,30 +1867,10 @@
         <target>មិនអាចបើកទំព័រ​បាន​ទេ</target>
         <note>Title of the message shown when the user attempts to navigate to an invalid link.</note>
       </trans-unit>
-      <trans-unit id="Page Options Menu" xml:space="preserve">
-        <source>Page Options Menu</source>
-        <target>ម៉ឺនុយជម្រើសទំព័រ</target>
-        <note>Accessibility label for the Page Options menu button</note>
-      </trans-unit>
       <trans-unit id="Password" xml:space="preserve">
         <source>Password</source>
         <target>ពាក្យ​សម្ងាត់</target>
         <note>Password textbox in Authentication prompt</note>
-      </trans-unit>
-      <trans-unit id="PasswordAutoFill.NoPasswordsFoundTitle" xml:space="preserve">
-        <source>You don’t have any credentials synced from your Firefox Account</source>
-        <target>អ្នកមិនមានព័ត៌មាន​ផ្ទៀងផ្ទាត់​ណាមួយដែលបានធ្វើសមកាលកម្មពីគណនី Firefox របស់អ្នកទេ</target>
-        <note>Error message shown in the remote tabs panel</note>
-      </trans-unit>
-      <trans-unit id="PasswordAutoFill.PasswordsListTitle" xml:space="preserve">
-        <source>Available Credentials:</source>
-        <target>ព័ត៌មាន​ផ្ទៀងផ្ទាត់​ដែលមាន៖</target>
-        <note>Header for the list of credentials table</note>
-      </trans-unit>
-      <trans-unit id="PasswordAutoFill.SectionTitle" xml:space="preserve">
-        <source>Firefox Credentials</source>
-        <target>ព័ត៌មាន​ផ្ទៀងផ្ទាត់ Firefox</target>
-        <note>Title of the extension that shows firefox passwords</note>
       </trans-unit>
       <trans-unit id="PhotoLibrary.FirefoxWouldLikeAccessMessage" xml:space="preserve">
         <source>This allows you to save the image to your Camera Roll.</source>
@@ -2244,16 +2088,6 @@
         <target>យល់ព្រម​</target>
         <note>The confirmation button</note>
       </trans-unit>
-      <trans-unit id="Searches for the suggestion" xml:space="preserve">
-        <source>Searches for the suggestion</source>
-        <target>ស្វែងរក​ការ​ស្នើ</target>
-        <note>Accessibility hint describing the action performed when a search suggestion is clicked</note>
-      </trans-unit>
-      <trans-unit id="Secure connection" xml:space="preserve">
-        <source>Secure connection</source>
-        <target>ការ​តភ្ជាប់​សុវត្ថិភាព</target>
-        <note>Accessibility label for the lock icon, which is only present if the connection is secure</note>
-      </trans-unit>
       <trans-unit id="Send Feedback" xml:space="preserve">
         <source>Send Feedback</source>
         <target>ផ្ញើ​មតិត្រឡប់</target>
@@ -2323,11 +2157,6 @@
         <source>Send</source>
         <target>ផ្ញើ</target>
         <note>Navigation bar button to Send the current page to a device</note>
-      </trans-unit>
-      <trans-unit id="SendTo.SignIn.Button" xml:space="preserve">
-        <source>Sign In to Firefox</source>
-        <target>ចូល​ទៅ Firefox</target>
-        <note>The text for the button on the Send to Device page if you are not signed in to Firefox Accounts.</note>
       </trans-unit>
       <trans-unit id="SentTab.NoTabArrivingNotification.body" xml:space="preserve">
         <source>Tap to begin</source>
@@ -3052,11 +2881,6 @@
         <target>បើកក្នុង Firefox</target>
         <note>Action label on share extension to immediately open page in Firefox.</note>
       </trans-unit>
-      <trans-unit id="ShareExtension.OpenInPrivateModeAction.Title" xml:space="preserve">
-        <source>Open in Private Mode</source>
-        <target>បើកជាមុខងារឯកជន</target>
-        <note>Action label on share extension to immediately open page in Firefox in private mode.</note>
-      </trans-unit>
       <trans-unit id="ShareExtension.SeachInFirefoxAction.Title" xml:space="preserve">
         <source>Search in Firefox</source>
         <target>ស្វែងរកក្នុង Firefox</target>
@@ -3093,69 +2917,15 @@
         <target>អូស​ម្រាម​ដៃ​បី​​ទៅ​ស្ដាំ ឬ​ឆ្វេង​​ដើម្បី​បិទ​ផ្ទាំង។</target>
         <note>Accessibility hint for tab tray's displayed tab.</note>
       </trans-unit>
-      <trans-unit id="Sync.FirstTimeMessage.Label" xml:space="preserve">
-        <source>Your first sync may take a while</source>
-        <target>ការ​ធ្វើ​សមកាលកម្ម​ដំបូង​របស់​អ្នក​អាច​ចំណាយ​ពេល​បន្តិច</target>
-        <note>Message displayed when the user syncs for the first time</note>
-      </trans-unit>
-      <trans-unit id="Sync.NoAccount.Description" xml:space="preserve">
-        <source>No account? Create one to sync Firefox between devices.</source>
-        <note>String displayed on Sign In to Sync page that allows the user to create a new account.</note>
-      </trans-unit>
-      <trans-unit id="Sync.Syncing.Label" xml:space="preserve">
-        <source>Syncing</source>
-        <target>កំពុង​ធ្វើ​សមកាលកម្ម</target>
-        <note>Message displayed when the user's account is syncing with no ellipsis</note>
-      </trans-unit>
       <trans-unit id="Sync.SyncingEllipsis.Label" xml:space="preserve">
         <source>Syncing…</source>
         <target>កំពុង​ធ្វើ​សមកាលកម្ម…</target>
         <note>Message displayed when the user's account is syncing with ellipsis at the end</note>
       </trans-unit>
-      <trans-unit id="SyncState.Bookmark.Title" xml:space="preserve">
-        <source>Bookmarks</source>
-        <target>ចំណាំ​</target>
-        <note>The Bookmark sync component, used in SyncState.Partial.Title</note>
-      </trans-unit>
-      <trans-unit id="SyncState.Clients.Title" xml:space="preserve">
-        <source>Remote Clients</source>
-        <target>ម៉ាស៊ីន​ភ្ញៀវ​ពី​ចម្ងាយ</target>
-        <note>The Remote Clients sync component, used in SyncState.Partial.Title</note>
-      </trans-unit>
-      <trans-unit id="SyncState.Failed.Title" xml:space="preserve">
-        <source>Syncing has failed</source>
-        <target>ការ​ធ្វើ​សមកាលកម្ម​បាន​បរាជ័យ</target>
-        <note>Title for Sync status message when synchronization failed to complete</note>
-      </trans-unit>
-      <trans-unit id="SyncState.History.Title" xml:space="preserve">
-        <source>History</source>
-        <target>ប្រវត្តិ​</target>
-        <note>The History sync component, used in SyncState.Partial.Title</note>
-      </trans-unit>
-      <trans-unit id="SyncState.Logins.Title" xml:space="preserve">
-        <source>Logins</source>
-        <target>ចូល​</target>
-        <note>The Logins sync component, used in SyncState.Partial.Title</note>
-      </trans-unit>
-      <trans-unit id="SyncState.NotStarted.Title" xml:space="preserve">
-        <source>Sync is unavailable</source>
-        <target>សមកាលកម្ម​មិន​អាច​ធ្វើ​បាន</target>
-        <note>Title for Sync status message when Sync failed to start.</note>
-      </trans-unit>
       <trans-unit id="SyncState.Offline.Title" xml:space="preserve">
         <source>Sync is offline</source>
         <target>សមកាលកម្ម​គ្មាន​អ៊ីនធឺណិត</target>
         <note>Title for Sync status message when Sync failed due to being offline</note>
-      </trans-unit>
-      <trans-unit id="SyncState.Partial.Title" xml:space="preserve">
-        <source>Sync is experiencing issues syncing %@</source>
-        <target>សមកាលកម្ម​កំពុង​ជួបប្រទេះ​បញ្ហា​ពេល​ធ្វើ​សមកាលកម្ម %@</target>
-        <note>Title for Sync status message when a component of Sync failed to complete, where %@ represents the name of the component, i.e. Sync is experiencing issues syncing Bookmarks</note>
-      </trans-unit>
-      <trans-unit id="SyncState.Tabs.Title" xml:space="preserve">
-        <source>Tabs</source>
-        <target>ផ្ទាំង​</target>
-        <note>The Tabs sync component, used in SyncState.Partial.Title</note>
       </trans-unit>
       <trans-unit id="Tab %@ of %@" xml:space="preserve">
         <source>Tab %1$@ of %2$@</source>
@@ -3197,18 +2967,6 @@
         <source>Open New Tab</source>
         <target>បើក​​ផ្ទាំង​ថ្មី</target>
         <note>Hardware shortcut to open a new tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
-      </trans-unit>
-      <trans-unit id="TabTray.OtherTabs.Title" xml:space="preserve">
-        <source>Other tabs</source>
-        <note>In the Tabs Tray, summoned from the homepage, the title for the section containing non-grouped tabs, which will appear below grouped tabs</note>
-      </trans-unit>
-      <trans-unit id="TabTray.RecentlyClosed.Description" xml:space="preserve">
-        <source>Tabs are available here for 30 days. After that time, tabs will be automatically closed.</source>
-        <note>Describes what the Recently Closed tabs behavior is for users unfamiliar with it.</note>
-      </trans-unit>
-      <trans-unit id="TabTray.RecentlyClosed.SectionTitle" xml:space="preserve">
-        <source>Recently closed</source>
-        <note>Title for the recently closed tabs section. This section shows a list of all the tabs that have been recently closed.</note>
       </trans-unit>
       <trans-unit id="TabTray.SegmentedControlTitles.PrivateTabs" xml:space="preserve">
         <source>Private</source>
@@ -3405,11 +3163,6 @@
         <source>Your Rights</source>
         <target>សិទ្ធិ​របស់​អ្នក</target>
         <note>Your Rights settings section title</note>
-      </trans-unit>
-      <trans-unit id="computer" xml:space="preserve">
-        <source>computer</source>
-        <target>កុំព្យូទ័រ</target>
-        <note>Accessibility label for Desktop Computer (PC) image in remote tabs list</note>
       </trans-unit>
       <trans-unit id="fxa.signin.camera-signin" xml:space="preserve">
         <source>Sign In with Your Camera</source>
@@ -3754,11 +3507,6 @@
         <target>ការ​កំណត់​ស្វែងរក</target>
         <note>Label for search settings button.</note>
       </trans-unit>
-      <trans-unit id="Search suggestions from %@" xml:space="preserve">
-        <source>Search suggestions from %@</source>
-        <target>ការ​ស្នើ​ស្វែងរក​ពី %@</target>
-        <note>Accessibility label for image of default search engine displayed left to the actual search suggestions from the engine. The parameter substituted for \"%@\" is the name of the search engine. E.g.: Search suggestions from Google</note>
-      </trans-unit>
     </body>
   </file>
   <file original="Shared/en.lproj/Shared.strings" source-language="en" target-language="km" datatype="plaintext">
@@ -3814,32 +3562,6 @@
 Private Tabs</source>
         <note>Close Private Tabs</note>
       </trans-unit>
-      <trans-unit id="TodayWidget.ClosePrivateTabsLabelV3" xml:space="preserve">
-        <source>Close
-Private
-Tabs</source>
-        <note>Close Private Tabs</note>
-      </trans-unit>
-      <trans-unit id="TodayWidget.CopiedLinkLabelFromPasteBoardV1" xml:space="preserve">
-        <source>Copied Link from clipboard</source>
-        <note>Copied Link from clipboard displayed</note>
-      </trans-unit>
-      <trans-unit id="TodayWidget.DropDownMenuItemClearPrivateTabs" xml:space="preserve">
-        <source>Clear Private Tabs</source>
-        <note>Quick Actions drop down menu item for lear Private Tabs when widget enters edit mode and drop down menu expands</note>
-      </trans-unit>
-      <trans-unit id="TodayWidget.DropDownMenuItemGoToCopiedLink" xml:space="preserve">
-        <source>Go to Copied Link</source>
-        <note>Quick Actions drop down menu item for Go to Copied Link when widget enters edit mode and drop down menu expands</note>
-      </trans-unit>
-      <trans-unit id="TodayWidget.DropDownMenuItemNewPrivateSearch" xml:space="preserve">
-        <source>New Private Search</source>
-        <note>Quick Actions drop down menu item for new private search when widget enters edit mode and drop down menu expands</note>
-      </trans-unit>
-      <trans-unit id="TodayWidget.DropDownMenuItemNewSearch" xml:space="preserve">
-        <source>New Search</source>
-        <note>Quick Actions drop down menu item for new search when widget enters edit mode and drop down menu expands</note>
-      </trans-unit>
       <trans-unit id="TodayWidget.FirefoxShortcutGalleryDescription" xml:space="preserve">
         <source>Add Firefox shortcuts to your Home screen.</source>
         <note>Description for medium size widget to add Firefox Shortcut to home screen</note>
@@ -3853,27 +3575,9 @@ Tabs</source>
 Copied Link</source>
         <note>Go to copied link</note>
       </trans-unit>
-      <trans-unit id="TodayWidget.GoToCopiedLinkLabelV3" xml:space="preserve">
-        <source>Go to Copied Link</source>
-        <note>Go To Copied Link text pasted on the clipboard but this string doesn't have new line character</note>
-      </trans-unit>
-      <trans-unit id="TodayWidget.GoToCopiedLinkLabelV4" xml:space="preserve">
-        <source>Go to
-Copied
-Link</source>
-        <note>Go to copied link</note>
-      </trans-unit>
       <trans-unit id="TodayWidget.MoreTabsLabel" xml:space="preserve">
         <source>+%d More…</source>
         <note>%d represents number and it becomes something like +5 more where 5 is the number of open tabs in tab tray beyond what is displayed in the widget</note>
-      </trans-unit>
-      <trans-unit id="TodayWidget.NewPrivateTabButtonLabelV2" xml:space="preserve">
-        <source>Search in Private Tab</source>
-        <note>Open New Private Tab button label for medium size action</note>
-      </trans-unit>
-      <trans-unit id="TodayWidget.NewSearchButtonLabelV1" xml:space="preserve">
-        <source>Search in Firefox</source>
-        <note>Open New Tab button label</note>
       </trans-unit>
       <trans-unit id="TodayWidget.NewTabButtonLabelV1" xml:space="preserve">
         <source>New Search</source>
@@ -3883,37 +3587,13 @@ Link</source>
         <source>No open tabs.</source>
         <note>Label that is shown when there are no tabs opened in tab tray i.e. Empty State</note>
       </trans-unit>
-      <trans-unit id="TodayWidget.NoOpenTabsLabelV2" xml:space="preserve">
-        <source>No Open Tabs</source>
-        <note>Label that is shown when there are no tabs opened in tab tray i.e. Empty State</note>
-      </trans-unit>
       <trans-unit id="TodayWidget.OpenFirefoxLabel" xml:space="preserve">
         <source>Open Firefox</source>
         <note>Open Firefox when there are no tabs opened in tab tray i.e. Empty State</note>
       </trans-unit>
-      <trans-unit id="TodayWidget.PocketWidgetGalleryDescription" xml:space="preserve">
-        <source>Discover fascinating and thought-provoking stories from across the web, curated by Pocket.</source>
-        <note>Description for Firefox Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app.</note>
-      </trans-unit>
-      <trans-unit id="TodayWidget.PocketWidgetSubLabel" xml:space="preserve">
-        <source>Firefox - Recommended by Pocket</source>
-        <note>Sub label for medium size Firefox Pocket stories widge widget. Pocket is the name of another app.</note>
-      </trans-unit>
-      <trans-unit id="TodayWidget.PocketWidgetTitle" xml:space="preserve">
-        <source>Recommended by Pocket</source>
-        <note>Title for Firefox Pocket stories widget in Gallery View where user can add it to home screen. Pocket is the name of another app.</note>
-      </trans-unit>
       <trans-unit id="TodayWidget.PrivateTabButtonLabelV1" xml:space="preserve">
         <source>Private Search</source>
         <note>Open New Private Tab button label</note>
-      </trans-unit>
-      <trans-unit id="TodayWidget.QuickActionDescription" xml:space="preserve">
-        <source>Select a Firefox shortcut to add to your Home screen.</source>
-        <note>Quick action description when widget enters edit mode</note>
-      </trans-unit>
-      <trans-unit id="TodayWidget.QuickActionDropDownMenu" xml:space="preserve">
-        <source>Quick action</source>
-        <note>Quick Actions left label text for dropdown menu when widget enters edit mode</note>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickActionGalleryDescription" xml:space="preserve">
         <source>Add a Firefox shortcut to your Home screen. After adding the widget, touch and hold to edit it and select a different shortcut.</source>
@@ -3927,14 +3607,6 @@ Link</source>
         <source>Firefox Shortcuts</source>
         <note>Firefox shortcuts title when widget enters edit mode. Do not translate the word Firefox.</note>
       </trans-unit>
-      <trans-unit id="TodayWidget.QuickActionsSubLabel" xml:space="preserve">
-        <source>Firefox - Quick Actions</source>
-        <note>Sub label for medium size quick action widget</note>
-      </trans-unit>
-      <trans-unit id="TodayWidget.QuickViewGalleryDescription" xml:space="preserve">
-        <source>Access your open tabs directly on your homescreen.</source>
-        <note>Description for Quick View widget in Gallery View where user can add it to home screen</note>
-      </trans-unit>
       <trans-unit id="TodayWidget.QuickViewGalleryDescriptionV2" xml:space="preserve">
         <source>Add shortcuts to your open tabs.</source>
         <note>Description for Quick View widget in Gallery View where user can add it to home screen</note>
@@ -3942,18 +3614,6 @@ Link</source>
       <trans-unit id="TodayWidget.QuickViewGalleryTitle" xml:space="preserve">
         <source>Quick View</source>
         <note>Title for Quick View widget in Gallery View where user can add it to home screen</note>
-      </trans-unit>
-      <trans-unit id="TodayWidget.QuickViewLargeGalleryDescription" xml:space="preserve">
-        <source>Add shortcuts to your open tabs.</source>
-        <note>Description for Quick View widget in Gallery View where user can add it to home screen</note>
-      </trans-unit>
-      <trans-unit id="TodayWidget.QuickViewOpenTabsSubLabel" xml:space="preserve">
-        <source>Firefox - Open Tabs</source>
-        <note>Sub label for Top Sites widget</note>
-      </trans-unit>
-      <trans-unit id="TodayWidget.SearchInFirefoxTitle" xml:space="preserve">
-        <source>Search in Firefox</source>
-        <note>Title for small size widget which allows users to search in Firefox. Do not translate the word Firefox.</note>
       </trans-unit>
       <trans-unit id="TodayWidget.SearchInFirefoxV2" xml:space="preserve">
         <source>Search in
@@ -3976,22 +3636,6 @@ Private Tab</source>
       <trans-unit id="TodayWidget.TopSitesGalleryTitleV2" xml:space="preserve">
         <source>Website Shortcuts</source>
         <note>Title for top sites widget to add Firefox top sites shotcuts to home screen</note>
-      </trans-unit>
-      <trans-unit id="TodayWidget.TopSitesSubLabel" xml:space="preserve">
-        <source>Firefox - Top Sites</source>
-        <note>Sub label for Top Sites widget</note>
-      </trans-unit>
-      <trans-unit id="TodayWidget.TopSitesSubLabel2" xml:space="preserve">
-        <source>Firefox - Website Shortcuts</source>
-        <note>Sub label for Shortcuts widget</note>
-      </trans-unit>
-      <trans-unit id="TodayWidget.ViewMore" xml:space="preserve">
-        <source>View More</source>
-        <note>View More for Quick View widget in Gallery View where we don't know how many tabs might be opened</note>
-      </trans-unit>
-      <trans-unit id="TodayWidget.ViewMoreDots" xml:space="preserve">
-        <source>View More…</source>
-        <note>View More… for Firefox Pocket stories widget where we don't know how many articles are available.</note>
       </trans-unit>
     </body>
   </file>
