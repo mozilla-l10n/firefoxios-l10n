@@ -205,12 +205,12 @@
       <trans-unit id="DefaultBrowserCard.Description" xml:space="preserve">
         <source>Set links from websites, emails, and Messages to open automatically in Firefox.</source>
         <target>Állítsa be a webhelyek, e-mailek és üzenetek hivatkozásait, hogy azok automatikusan a Firefoxban nyíljanak meg.</target>
-        <note>Description for small card shown that allows user to switch their default browser to Firefox.</note>
+        <note>Description for small home tab banner shown that allows user to switch their default browser to Firefox.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserCard.Title" xml:space="preserve">
         <source>Switch Your Default Browser</source>
         <target>Az alapértelmezett böngésző módosítása</target>
-        <note>Title for small card shown that allows user to switch their default browser to Firefox.</note>
+        <note>Title for small home tab banner shown that allows user to switch their default browser to Firefox.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserOnboarding.Button" xml:space="preserve">
         <source>Go to Settings</source>
@@ -410,8 +410,7 @@
       <trans-unit id="Add to Reading List" xml:space="preserve">
         <source>Add to Reading List</source>
         <target>Felvétel az olvasási listára</target>
-        <note>Accessibility label for action adding current page to reading list.
-   Name for button adding current article to reading list in reader mode</note>
+        <note>Name for button adding current article to reading list in reader mode</note>
       </trans-unit>
       <trans-unit id="AddPass.Error.Dismiss" xml:space="preserve">
         <source>OK</source>
@@ -437,6 +436,10 @@
         <source>Address and Search</source>
         <target>Cím és keresés</target>
         <note>Accessibility label for address and search field, both words (Address, Search) are therefore nouns.</note>
+      </trans-unit>
+      <trans-unit id="Address.Bar.ReadingList.v106" xml:space="preserve">
+        <source>Add to Reading List</source>
+        <note>Accessibility label for action adding current page to reading list.</note>
       </trans-unit>
       <trans-unit id="Address.Bar.v99" xml:space="preserve">
         <source>Address Bar</source>
@@ -726,9 +729,7 @@
       <trans-unit id="Default Search Engine" xml:space="preserve">
         <source>Default Search Engine</source>
         <target>Alapértelmezett keresőszolgáltatás</target>
-        <note>Accessibility label for default search engine setting.
-   Title for default search engine picker.
-   Title for default search engine settings section.</note>
+        <note>Title for default search engine picker.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserCloseButtonAccessibility.v102" xml:space="preserve">
         <source>Close</source>
@@ -1118,62 +1119,62 @@
       <trans-unit id="Hotkeys.Back.DiscoveryTitle" xml:space="preserve">
         <source>Back</source>
         <target>Vissza</target>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+        <note>A label indicating the keyboard shortcut to navigate backwards, through session history, inside the current tab. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Hotkeys.CloseTab.DiscoveryTitle" xml:space="preserve">
         <source>Close Tab</source>
         <target>Lap bezárása</target>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+        <note>A label indicating the keyboard shortcut of closing the current tab a user is in. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Hotkeys.Find.DiscoveryTitle" xml:space="preserve">
         <source>Find</source>
         <target>Keresés</target>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+        <note>A label indicating the keyboard shortcut of finding text a user desires within a page. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Hotkeys.Forward.DiscoveryTitle" xml:space="preserve">
         <source>Forward</source>
         <target>Előre</target>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+        <note>A label indicating the keyboard shortcut of switching to a subsequent tab. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Hotkeys.NewPrivateTab.DiscoveryTitle" xml:space="preserve">
         <source>New Private Tab</source>
         <target>Új privát lap</target>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+        <note>A label indicating the keyboard shortcut of creating a new private tab. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Hotkeys.NewTab.DiscoveryTitle" xml:space="preserve">
         <source>New Tab</source>
         <target>Új lap</target>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+        <note>A label indicating the keyboard shortcut of creating a new tab. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Hotkeys.NormalMode.DiscoveryTitle" xml:space="preserve">
         <source>Normal Browsing Mode</source>
         <target>Normál böngészés</target>
-        <note>Label to switch to normal browsing mode</note>
+        <note>A label indicating the keyboard shortcut of switching from Private Browsing to Normal Browsing Mode. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Hotkeys.PrivateMode.DiscoveryTitle" xml:space="preserve">
         <source>Private Browsing Mode</source>
         <target>Privát böngészés</target>
-        <note>Label to switch to private browsing mode</note>
+        <note>A label indicating the keyboard shortcut of switching from Normal Browsing mode to Private Browsing Mode. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Hotkeys.Reload.DiscoveryTitle" xml:space="preserve">
         <source>Reload Page</source>
         <target>Újratöltés</target>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+        <note>A label indicating the keyboard shortcut of reloading the current page. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Hotkeys.SelectLocationBar.DiscoveryTitle" xml:space="preserve">
         <source>Select Location Bar</source>
         <target>Címsáv kiválasztása</target>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+        <note>A label indicating the keyboard shortcut of directly accessing the URL, location, bar. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Hotkeys.ShowNextTab.DiscoveryTitle" xml:space="preserve">
         <source>Show Next Tab</source>
         <target>Következő lap megjelenítése</target>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+        <note>A label indicating the keyboard shortcut of switching to a subsequent tab. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Hotkeys.ShowPreviousTab.DiscoveryTitle" xml:space="preserve">
         <source>Show Previous Tab</source>
         <target>Előző lap megjelenítése</target>
-        <note>Label to display in the Discoverability overlay for keyboard shortcuts</note>
+        <note>A label indicating the keyboard shortcut of switching to a tab immediately preceding to the currently selected tab. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="InactiveTabs.TabTray.CloseButtonTitle" xml:space="preserve">
         <source>Close All Inactive Tabs</source>
@@ -1268,12 +1269,20 @@
       <trans-unit id="Last month" xml:space="preserve">
         <source>Last month</source>
         <target>Múlt hónap</target>
-        <note>History tableview section header</note>
+        <note>This label is meant to signify the section containing a group of items from the past thirty days.</note>
       </trans-unit>
       <trans-unit id="Last week" xml:space="preserve">
         <source>Last week</source>
         <target>Múlt hét</target>
-        <note>History tableview section header</note>
+        <note>This label is meant to signify the section containing a group of items from the past seven days.</note>
+      </trans-unit>
+      <trans-unit id="LibraryPanel.Accessibility.Bookmarks.v106" xml:space="preserve">
+        <source>Bookmarks</source>
+        <note>Panel accessibility label</note>
+      </trans-unit>
+      <trans-unit id="LibraryPanel.Accessibility.History.v106" xml:space="preserve">
+        <source>History</source>
+        <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="LibraryPanel.History.ClearGroupedTabsCancel.v100" xml:space="preserve">
         <source>Cancel</source>
@@ -1488,14 +1497,12 @@
       <trans-unit id="Mark as Read" xml:space="preserve">
         <source>Mark as Read</source>
         <target>Megjelölés olvasottként</target>
-        <note>Name for Mark as read button in reader mode
-   Title for the button that marks a reading list item as read</note>
+        <note>Title for the button that marks a reading list item as read</note>
       </trans-unit>
       <trans-unit id="Mark as Unread" xml:space="preserve">
         <source>Mark as Unread</source>
         <target>Megjelölés olvasatlanként</target>
-        <note>Name for Mark as unread button in reader mode
-   Title for the button that marks a reading list item as unread</note>
+        <note>Title for the button that marks a reading list item as unread</note>
       </trans-unit>
       <trans-unit id="Menu.AddBookmark.AlternateLabel.v99" xml:space="preserve">
         <source>Add Bookmark</source>
@@ -1558,13 +1565,11 @@
         <note>Label for the button, displayed in the menu, takes you to to Downloads screen when pressed.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtectionOff.Title" xml:space="preserve">
-        <source>Enhanced Tracking Protection is OFF for this site.</source>
-        <target>A fokozott követés elleni védelem KI van kapcsolva ezen a webhelyen.</target>
+        <source>Protections are OFF for this site</source>
         <note>A switch to disable enhanced tracking protection inside the menu.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtectionOn.Title" xml:space="preserve">
-        <source>Enhanced Tracking Protection is ON for this site.</source>
-        <target>A fokozott követés elleni védelem BE van kapcsolva ezen a webhelyen.</target>
+        <source>Protections are ON for this site</source>
         <note>A switch to enable enhanced tracking protection inside the menu.</note>
       </trans-unit>
       <trans-unit id="Menu.Help.v99" xml:space="preserve">
@@ -1967,6 +1972,14 @@
         <target>Olvasó mód elérhető</target>
         <note>Accessibility message e.g. spoken by VoiceOver when Reader Mode becomes available.</note>
       </trans-unit>
+      <trans-unit id="ReaderModeBar.MarkAsRead.v106" xml:space="preserve">
+        <source>Mark as Read</source>
+        <note>Name for Mark as read button in reader mode</note>
+      </trans-unit>
+      <trans-unit id="ReaderModeBar.MarkAsUnread.v106" xml:space="preserve">
+        <source>Mark as Unread</source>
+        <note>Name for Mark as unread button in reader mode</note>
+      </trans-unit>
       <trans-unit id="Reading list" xml:space="preserve">
         <source>Reading list</source>
         <target>Olvasási lista</target>
@@ -2060,9 +2073,7 @@
       <trans-unit id="Search" xml:space="preserve">
         <source>Search</source>
         <target>Keresés</target>
-        <note>Accessibility Label for the tab toolbar Search button
-   Navigation title for search settings.
-   Open search section of settings</note>
+        <note>Open search section of settings</note>
       </trans-unit>
       <trans-unit id="Search or enter address" xml:space="preserve">
         <source>Search or enter address</source>
@@ -2134,6 +2145,18 @@
         <target>Rendben</target>
         <note>The confirmation button</note>
       </trans-unit>
+      <trans-unit id="SearchSettings.Accessibility.DefaultSearchEngine.v106" xml:space="preserve">
+        <source>Default Search Engine</source>
+        <note>Accessibility label for default search engine setting.</note>
+      </trans-unit>
+      <trans-unit id="SearchSettings.Title.DefaultSearchEngine.v106" xml:space="preserve">
+        <source>Default Search Engine</source>
+        <note>Title for default search engine settings section.</note>
+      </trans-unit>
+      <trans-unit id="SearchSettings.Title.Search.v106" xml:space="preserve">
+        <source>Search</source>
+        <note>Navigation title for search settings.</note>
+      </trans-unit>
       <trans-unit id="Send Feedback" xml:space="preserve">
         <source>Send Feedback</source>
         <target>Visszajelzés küldése</target>
@@ -2152,8 +2175,7 @@
       <trans-unit id="SendTo.Cancel.Button" xml:space="preserve">
         <source>Cancel</source>
         <target>Mégse</target>
-        <note>Button title for cancelling share screen
-   Close button in top navigation bar</note>
+        <note>Button title for cancelling share screen</note>
       </trans-unit>
       <trans-unit id="SendTo.Close.Button" xml:space="preserve">
         <source>Close</source>
@@ -2293,7 +2315,7 @@
       <trans-unit id="Settings.ClearAllWebsiteData.Clear.Button" xml:space="preserve">
         <source>Clear All Website Data</source>
         <target>Összes webhely adatainak törlése</target>
-        <note>Button in Data Management that clears private data for the selected items.</note>
+        <note>Button in Data Management that clears all items.</note>
       </trans-unit>
       <trans-unit id="Settings.ClearPrivateData.Clear.Button" xml:space="preserve">
         <source>Clear Private Data</source>
@@ -2408,8 +2430,7 @@
       <trans-unit id="Settings.DisplayTheme.SwitchTitle" xml:space="preserve">
         <source>Automatically</source>
         <target>Automatikusan</target>
-        <note>Display (theme) settings label to show if automatically switch theme is enabled.
-   Display (theme) settings switch to choose whether to set the dark mode manually, or automatically based on the brightness slider.</note>
+        <note>Display (theme) settings switch to choose whether to set the dark mode manually, or automatically based on the brightness slider.</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.SystemTheme.SectionHeader" xml:space="preserve">
         <source>System Theme</source>
@@ -2999,8 +3020,7 @@
       <trans-unit id="Show Tabs" xml:space="preserve">
         <source>Show Tabs</source>
         <target>Lapok megjelenítése</target>
-        <note>Accessibility label for the tabs button in the (top) tab toolbar
-   Accessibility Label for the tabs button in the tab toolbar</note>
+        <note>Accessibility label for the tabs button in the (top) tab toolbar</note>
       </trans-unit>
       <trans-unit id="Show Tour" xml:space="preserve">
         <source>Show Tour</source>
@@ -3040,7 +3060,11 @@
       <trans-unit id="Tab.ShowTabTray.KeyCodeTitle" xml:space="preserve">
         <source>Show All Tabs</source>
         <target>Minden lap megjelenítése</target>
-        <note>Hardware shortcut to open the tab tray from a tab. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
+        <note>A label indicating the keyboard shortcut of showing the tab tray. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
+      </trans-unit>
+      <trans-unit id="TabToolbar.Accessibility.Search.v106" xml:space="preserve">
+        <source>Search</source>
+        <note>Accessibility Label for the tab toolbar Search button</note>
       </trans-unit>
       <trans-unit id="TabTray.AddTab.Button" xml:space="preserve">
         <source>Add Tab</source>
@@ -3050,7 +3074,7 @@
       <trans-unit id="TabTray.CloseAllTabs.KeyCodeTitle" xml:space="preserve">
         <source>Close All Tabs</source>
         <target>Minden lap bezárása</target>
-        <note>Hardware shortcut to close all tabs from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
+        <note>A label indicating the keyboard shortcut of closing all tabs from the tab tray. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="TabTray.CurrentSelectedTab.A11Y" xml:space="preserve">
         <source>Currently selected tab.</source>
@@ -3070,7 +3094,7 @@
       <trans-unit id="TabTray.OpenNewTab.KeyCodeTitle" xml:space="preserve">
         <source>Open New Tab</source>
         <target>Új lap megnyitása</target>
-        <note>Hardware shortcut to open a new tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down.</note>
+        <note>A label indicating the keyboard shortcut of opening a new tab in the tab tray. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="TabTray.SegmentedControlTitles.PrivateTabs" xml:space="preserve">
         <source>Private</source>
@@ -3091,6 +3115,10 @@
         <source>Open Tabs</source>
         <target>Nyitott lapok</target>
         <note>The title for the tab tray</note>
+      </trans-unit>
+      <trans-unit id="TabTrayButtons.Accessibility.ShowTabs.v106" xml:space="preserve">
+        <source>Show Tabs</source>
+        <note>Accessibility Label for the tabs button in the tab toolbar</note>
       </trans-unit>
       <trans-unit id="Tabs %@ to %@ of %@" xml:space="preserve">
         <source>Tabs %1$@ to %2$@ of %3$@</source>
@@ -3137,6 +3165,10 @@
         <target>Hiba történt az oldal átalakításakor</target>
         <note>Error displayed when reader mode cannot be enabled</note>
       </trans-unit>
+      <trans-unit id="TimeConstants.Yesterday.v106" xml:space="preserve">
+        <source>yesterday</source>
+        <note>Relative date for yesterday.</note>
+      </trans-unit>
       <trans-unit id="Toasts.NotNow" xml:space="preserve">
         <source>Not Now</source>
         <target>Most nem</target>
@@ -3155,7 +3187,7 @@
       <trans-unit id="Today" xml:space="preserve">
         <source>Today</source>
         <target>Ma</target>
-        <note>History tableview section header</note>
+        <note>This label is meant to signify the section containing a group of items from the current day.</note>
       </trans-unit>
       <trans-unit id="Toolbar.Menu.AccessibilityLabel" xml:space="preserve">
         <source>Menu</source>
@@ -3265,7 +3297,7 @@
       <trans-unit id="Yesterday" xml:space="preserve">
         <source>Yesterday</source>
         <target>Tegnap</target>
-        <note>History tableview section header</note>
+        <note>This label is meant to signify the section containing a group of items from the past 24 hours.</note>
       </trans-unit>
       <trans-unit id="You don’t have any tabs open in Firefox on your other devices." xml:space="preserve">
         <source>You don’t have any tabs open in Firefox on your other devices.</source>
@@ -3443,6 +3475,10 @@
         <source>Search Input Field</source>
         <target>Keresési beviteli mező</target>
         <note>Accessibility label for the search input field in the Logins list</note>
+      </trans-unit>
+      <trans-unit id="SearchInput.Title.Search.v106" xml:space="preserve">
+        <source>Search</source>
+        <note>Title for the search field at the top of the Logins list screen</note>
       </trans-unit>
       <trans-unit id="Select All" xml:space="preserve">
         <source>Select All</source>
