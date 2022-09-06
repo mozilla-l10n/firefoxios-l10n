@@ -30,21 +30,6 @@
         <target>Quessu vi permette d’arregistrà fotò.</target>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
-      <trans-unit id="ShortcutItemTitleNewPrivateTab" xml:space="preserve">
-        <source>New Private Tab</source>
-        <target>Nova unghjetta privata</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="ShortcutItemTitleNewTab" xml:space="preserve">
-        <source>New Tab</source>
-        <target>Nova unghjetta</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="ShortcutItemTitleQRCode" xml:space="preserve">
-        <source>Scan QR Code</source>
-        <target>Analizà un codice QR</target>
-        <note/>
-      </trans-unit>
       <trans-unit id="New Private Tab" xml:space="preserve">
         <source>New Private Tab</source>
         <target>Nova unghjetta privata</target>
@@ -675,6 +660,10 @@
         <source>To make entering info easier, the toolbar is now at the bottom by default.</source>
         <target>Per facilità a stampittera d’infurmazione, a pusizione predefinita di a barra d’attrezzi hè inghjò.</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one introduces search bar placement to new users. It tells them that by default, the search bar will appear at the bottom of the device.</note>
+      </trans-unit>
+      <trans-unit id="ContextualHints.FirefoxHomepage.JumpBackIn.PersonalizedHomeOldCopy.v106" xml:space="preserve">
+        <source>Your personalized Firefox homepage now makes it easier to pick up where you left off. Find your recent tabs, bookmarks, and search results.</source>
+        <note>Contextual hints are little popups that appear for the users informing them of new features. This one talks about the more personalized home feature.</note>
       </trans-unit>
       <trans-unit id="ContextualHints.SearchBarPlacement.CallToAction" xml:space="preserve">
         <source>Toolbar Settings</source>
@@ -2588,10 +2577,30 @@
         <target>Sfondulu di screnu di Firefox, mudellu d’un’attrachju marina.</target>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the title accessibility string for the twilight hills firefox wallpaper.</note>
       </trans-unit>
+      <trans-unit id="Settings.Home.Option.Wallpaper.Classic.Title.v106" xml:space="preserve">
+        <source>Classic Firefox</source>
+        <note>In the settings menu, on the Firefox wallpaper customization screen, this is the title of the group of wallpapers that are always available to the user.</note>
+      </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.CollectionTitle" xml:space="preserve">
         <source>OPENING SCREEN</source>
         <target>SCRENU À L’APERTURA</target>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the title of the section that allows users to change the wallpaper settings for the application.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Home.Option.Wallpaper.LearnMore.v106" xml:space="preserve">
+        <source>Learn more</source>
+        <note>In the settings menu, on the Firefox wallpaper customization screen, this is the button title of the group of wallpapers that are seasonally available to the user.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Home.Option.Wallpaper.LimitedEdition.Default.Description.v106" xml:space="preserve">
+        <source>Try the new collection.</source>
+        <note>In the settings menu, on the Firefox wallpaper customization screen, this is the default description of the group of wallpapers that are seasonally available to the user.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Home.Option.Wallpaper.LimitedEdition.IndependentVoices.Description.v106" xml:space="preserve">
+        <source>The new Independent Voices collection.</source>
+        <note>In the settings menu, on the Firefox wallpaper customization screen, this is the description of the group of wallpapers that are seasonally available to the user.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Home.Option.Wallpaper.LimitedEdition.Title.v106" xml:space="preserve">
+        <source>Limited Edition</source>
+        <note>In the settings menu, on the Firefox wallpaper customization screen, this is the title of the group of wallpapers that are seasonally available to the user.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.SwitchTitle.v99" xml:space="preserve">
         <source>Change wallpaper by tapping Firefox homepage logo</source>
@@ -3827,7 +3836,7 @@ unghjetta privata</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/BookmarkPanel.strings" datatype="plaintext" source-language="en" target-language="co">
+  <file original="Shared/Supporting Files/en.lproj/BookmarkPanel.strings" source-language="en" target-language="co" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
     </header>
@@ -3839,7 +3848,7 @@ unghjetta privata</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/BookmarkPanelDeleteConfirm.strings" datatype="plaintext" source-language="en" target-language="co">
+  <file original="Shared/Supporting Files/en.lproj/BookmarkPanelDeleteConfirm.strings" source-language="en" target-language="co" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
     </header>
@@ -3866,7 +3875,7 @@ unghjetta privata</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/JumpBackIn.strings" datatype="plaintext" source-language="en" target-language="co">
+  <file original="Shared/Supporting Files/en.lproj/JumpBackIn.strings" source-language="en" target-language="co" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
     </header>
@@ -3881,7 +3890,7 @@ unghjetta privata</target>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/ToolbarLocation.strings" datatype="plaintext" source-language="en" target-language="co">
+  <file original="Shared/Supporting Files/en.lproj/ToolbarLocation.strings" source-language="en" target-language="co" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
     </header>
@@ -3979,7 +3988,7 @@ unghjetta privata</target>
       </trans-unit>
     </body>
   </file>
-  <file original="WidgetKit/en.lproj/Localizable.strings" datatype="plaintext" source-language="en" target-language="co">
+  <file original="WidgetKit/en.lproj/Localizable.strings" source-language="en" target-language="co" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="13.4.1" build-num="13F100"/>
     </header>
