@@ -60,6 +60,9 @@ jobs:
           # targets defined and identical to the source.
           python "${start_folder}/l10n_repo/.github/scripts/translate_reference.py" --path "${start_folder}/l10n_repo/en-US"
 
+          # Copy strings over from es-ES to es
+          cp -r ../firefoxios-l10n/es-ES ../firefoxios-l10n/es
+
           # Copy strings to other locales
           python "${start_folder}/l10n_repo/.github/scripts/update_other_locales.py" --reference en-US --path "${start_folder}/l10n_repo" --type "${{ github.event.inputs.type }}"
       - name: Get the current date for PR title
@@ -67,6 +70,7 @@ jobs:
       - run : git config --global user.email 'flodolo@users.noreply.github.com'
       - uses: peter-evans/create-pull-request@v4
         with:
+          token: ${{ secrets.IOS_L10N_TOKEN }}
           path: "l10n_repo"
           commit-message: "Extract new strings (${{ env.current_date }})"
           branch: l10n_automation
