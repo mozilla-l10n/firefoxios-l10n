@@ -45,6 +45,9 @@ def getPontoonLocales(project_slug):
                 locale_list.append(e["locale"]["code"])
         locale_list.sort()
 
+        # Ignore es-ES missing from builds, since es is imported
+        locale_list.remove("es-ES")
+
         return locale_list
     except Exception as e:
         sys.exit(e)

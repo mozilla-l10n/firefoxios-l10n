@@ -1,5 +1,7 @@
 name: Import strings
 on:
+  schedule:
+    - cron: '0 15 * * 2' # At 8:00 PDT on Tuesday
   workflow_dispatch:
     inputs:
       type:
