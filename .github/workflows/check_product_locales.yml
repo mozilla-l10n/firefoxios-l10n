@@ -1,7 +1,7 @@
 name: Check product locales
 on:
   schedule:
-    - cron: '0 0 * * 3'
+    - cron: "0 0 * * 3"
   workflow_dispatch:
 
 jobs:
@@ -13,7 +13,7 @@ jobs:
       - name: Set up Python 3
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: "3.10"
       - name: Check product locales
         run: |
           python .github/scripts/check_product_locales.py --product firefox
