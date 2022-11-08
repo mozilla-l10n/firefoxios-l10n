@@ -1,0 +1,80 @@
+name: Import strings
+on:
+  schedule:
+    - cron: "0 15 * * 2" # At 8:00 PDT on Tuesday
+  workflow_dispatch:
+    inputs:
+      type:
+        description: Type of update (standard, nofile, matchid)
+        required: true
+        default: "standard"
+
+jobs:
+  build:
+    runs-on: macos-12
+    strategy:
+      max-parallel: 4
+      matrix:
+        xcode:
+          - "14.0"
+    steps:
+      - name: Clone l10n repository
+        uses: actions/checkout@v3
+        with:
+          path: "l10n_repo"
+      - name: Clone main code repository
+        uses: actions/checkout@v3
+        with:
+          repository: "mozilla-mobile/firefox-ios"
+          path: "code_repo"
+      - name: Select Xcode ${{ matrix.xcode }}
+        run: |
+          sudo xcode-select -s /Applications/Xcode_${{ matrix.xcode }}.app
+      - name: Set up Python 3
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - name: Install Python dependencies
+        run: |
+          pip install -r l10n_repo/.github/scripts/requirements.txt
+      - name: Run bootstrap script
+        run: |
+          brew update
+          brew install node
+          pip3 install virtualenv
+          cd code_repo
+          sh ./bootstrap.sh
+      - name: Extract strings
+        run: |
+          start_folder="$PWD"
+
+          # Clone localization tools and l10n repository
+          cd code_repo
+          git clone https://github.com/mozilla-mobile/LocalizationTools --depth 1
+          git clone https://github.com/mozilla-l10n/firefoxios-l10n --depth 1
+
+          # Extract strings
+          cd LocalizationTools
+          swift run LocalizationTools --export --project-path ../Client.xcodeproj --l10n-project-path ../firefoxios-l10n --locale en-US
+          cp ../firefoxios-l10n/en-US/*.xliff "${start_folder}/l10n_repo/en-US/"
+
+          # Make sure that the reference locale (en-US) has translations, i.e.
+          # targets defined and identical to the source.
+          python "${start_folder}/l10n_repo/.github/scripts/translate_reference.py" --path "${start_folder}/l10n_repo/en-US"
+
+          # Copy strings over from es-ES to es
+          cp -r ../firefoxios-l10n/es-ES ../firefoxios-l10n/es
+
+          # Copy strings to other locales
+          python "${start_folder}/l10n_repo/.github/scripts/update_other_locales.py" --reference en-US --path "${start_folder}/l10n_repo" --type "${{ github.event.inputs.type }}"
+      - name: Get the current date for PR title
+        run: echo "current_date=$(date +"%Y-%m-%d")" >> $GITHUB_ENV
+      - run : git config --global user.email "flodolo@users.noreply.github.com"
+      - uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.IOS_L10N_TOKEN }}
+          path: "l10n_repo"
+          commit-message: "Extract new strings (${{ env.current_date }})"
+          branch: l10n_automation
+          delete-branch: true
+          title: "Extract new strings (${{ env.current_date }})"
