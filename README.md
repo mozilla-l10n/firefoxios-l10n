@@ -23,7 +23,7 @@ As a consequence, the default update removes translations if:
 
 This is not ideal when the change in the source text is trivial, or the string move is caused by code refactoring.
 
-It’s possible to invoke [automation manually](https://github.com/mozilla-l10n/firefoxios-l10n/actions/workflows/export_strings.yml), and use a different matching criterion:
+It’s possible to invoke [automation manually](https://github.com/mozilla-l10n/firefoxios-l10n/actions/workflows/import_strings.yml), and use a different matching criterion:
 * `nofile` will copy translations if the ID and source text match, ignoring the file. This is useful to minimize the impact of code refactoring.
 * `matchid` will ignore both file and source text, copying translations if the ID matches. This is useful for source changes that don’t require invalidating existing translations.
 
