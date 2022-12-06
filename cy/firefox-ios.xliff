@@ -3947,7 +3947,7 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/Alerts.strings" datatype="plaintext" source-language="en" target-language="cy">
+  <file original="Shared/Supporting Files/en.lproj/Alerts.strings" source-language="en" target-language="cy" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0" build-num="14A309"/>
     </header>
@@ -3967,10 +3967,9 @@ Private Tab</source>
         <target>Ymddiheuriadau. Adferwch y tabiau i barhau.</target>
         <note>The body of the restore tabs pop-up alert. This alert shows when opening up Firefox after it crashed.</note>
       </trans-unit>
-      <trans-unit id="Alerts.RestoreTabs.Title.v109" xml:space="preserve">
-        <source>Firefox crashed. Restore your tabs?</source>
-        <target>Chwalodd Firefox. Adfer eich tabiau?</target>
-        <note>The title of the restore tabs pop-up alert. This alert shows when opening up Firefox after it crashed.</note>
+      <trans-unit id="Alerts.RestoreTabs.Title.v109.v2" xml:space="preserve">
+        <source>%@ crashed. Restore your tabs?</source>
+        <note>The title of the restore tabs pop-up alert. This alert shows when opening up Firefox after it crashed. The placeholder will be the Firefox name.</note>
       </trans-unit>
     </body>
   </file>
@@ -4047,7 +4046,7 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/TabsTray.strings" datatype="plaintext" source-language="en" target-language="cy">
+  <file original="Shared/Supporting Files/en.lproj/TabsTray.strings" source-language="en" target-language="cy" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0" build-num="14A309"/>
     </header>
