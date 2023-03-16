@@ -719,7 +719,7 @@
       </trans-unit>
       <trans-unit id="CoverSheet.v24.ETP.Description" xml:space="preserve">
         <source>Built-in Enhanced Tracking Protection helps stop ads from following you around. Turn on Strict to block even more trackers, ads, and popups. </source>
-        <target>การป้องกันการติดตามที่มากขึ้นในตัวช่วยหยุดโฆษณาตามคุณไปในทุกที่ เปิดใช้แบบ เข้มงวด เพื่อเพิ่มการปิดกั้นจากตัวติดตาม โฆษณา และป๊อปอัป</target>
+        <target>การป้องกันการติดตามแบบพิเศษในตัวจะช่วยหยุดโฆษณาไม่ให้ตามคุณไปในทุกที่ เปิดใช้แบบเข้มงวดเพื่อปิดกั้นตัวติดตาม โฆษณา และป๊อปอัปได้มากขึ้น</target>
         <note>Description for the new ETP mode i.e. standard vs strict</note>
       </trans-unit>
       <trans-unit id="CoverSheet.v24.ETP.Settings.Button" xml:space="preserve">
@@ -1599,12 +1599,12 @@
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtectionOff.Title" xml:space="preserve">
         <source>Protections are OFF for this site</source>
-        <target>การป้องกันถูก ปิด สำหรับไซต์นี้</target>
+        <target>การป้องกันปิดอยู่สำหรับไซต์นี้</target>
         <note>A switch to disable enhanced tracking protection inside the menu.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtectionOn.Title" xml:space="preserve">
         <source>Protections are ON for this site</source>
-        <target>การป้องกันถูก เปิด สำหรับไซต์นี้</target>
+        <target>การป้องกันเปิดอยู่สำหรับไซต์นี้</target>
         <note>A switch to enable enhanced tracking protection inside the menu.</note>
       </trans-unit>
       <trans-unit id="Menu.Help.v99" xml:space="preserve">
@@ -2954,6 +2954,7 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.Alert.Description" xml:space="preserve">
         <source>If a site doesn’t work as expected, tap the lock in the address bar and turn off Enhanced Tracking Protection for that page.</source>
+        <target>หากไซต์ไม่ทำงานตามที่คาดไว้ ให้แตะที่แม่กุญแจในแถบที่อยู่ แล้วปิดการป้องกันการติดตามแบบพิเศษสำหรับหน้านั้น</target>
         <note>Decription for the tracker protection alert.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.Alert.Title" xml:space="preserve">
@@ -2978,10 +2979,12 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevel.Footer" xml:space="preserve">
         <source>If a site doesn’t work as expected, tap the lock in the address bar and turn off Enhanced Tracking Protection for that page.</source>
+        <target>หากไซต์ไม่ทำงานตามที่คาดไว้ ให้แตะที่แม่กุญแจในแถบที่อยู่ แล้วปิดการป้องกันการติดตามแบบพิเศษสำหรับหน้านั้น</target>
         <note>Footer information for tracker protection level.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevel.Footer.Lock" xml:space="preserve">
         <source>If a site doesn’t work as expected, tap the lock in the address bar and turn off Enhanced Tracking Protection for that page.</source>
+        <target>หากไซต์ไม่ทำงานตามที่คาดไว้ ให้แตะที่แม่กุญแจในแถบที่อยู่ แล้วปิดการป้องกันการติดตามแบบพิเศษสำหรับหน้านั้น</target>
         <note>Footer information for tracker protection level.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevelStandard.Description" xml:space="preserve">
@@ -3011,6 +3014,7 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.BasicBlockList.Status" xml:space="preserve">
         <source>Standard</source>
+        <target>มาตรฐาน</target>
         <note>Tracking protection settings status showing the current option selected.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.BlockListStrict" xml:space="preserve">
@@ -3020,7 +3024,7 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtectionOption.NormalBrowsingLabelOn" xml:space="preserve">
         <source>Enhanced Tracking Protection</source>
-        <target>การป้องกันการติดตามที่มากขึ้น</target>
+        <target>การป้องกันการติดตามแบบพิเศษ</target>
         <note>Settings option to specify that Tracking Protection is on</note>
       </trans-unit>
       <trans-unit id="Settings.TroubleShootSync.Title" xml:space="preserve">
@@ -3950,18 +3954,22 @@ Private Tab</source>
     <body>
       <trans-unit id="CreditCard.SnackBar.CancelRemoveCardButton.v112" xml:space="preserve">
         <source>Cancel</source>
+        <target>ยกเลิก</target>
         <note>Button text to dismiss the dialog box that gets presented as a confirmation to to remove card and cancel the the operation.</note>
       </trans-unit>
       <trans-unit id="CreditCard.SnackBar.RemoveCardSublabel.v112" xml:space="preserve">
         <source>This will remove the card from all of your synced devices.</source>
+        <target>การดำเนินการนี้จะเป็นการลบบัตรออกจากอุปกรณ์ที่ซิงค์ทั้งหมดของคุณ</target>
         <note>Sub label for the dialog box that gets presented as a confirmation to ask user if they would like to remove the saved credit card from local as well as all their synced devices</note>
       </trans-unit>
       <trans-unit id="CreditCard.SnackBar.RemoveCardTitle.v112" xml:space="preserve">
         <source>Remove This Card?</source>
+        <target>ต้องการลบบัตรนี้ไหม?</target>
         <note>Title label for the dialog box that gets presented as a confirmation to ask user if they would like to remove the saved credit card</note>
       </trans-unit>
       <trans-unit id="CreditCard.SnackBar.RemovedCardButton.v112" xml:space="preserve">
         <source>Remove</source>
+        <target>ลบ</target>
         <note>Button text to dismiss the dialog box that gets presented as a confirmation to to remove card and perform the operation of removing the credit card.</note>
       </trans-unit>
     </body>
@@ -4000,6 +4008,7 @@ Private Tab</source>
     <body>
       <trans-unit id="Biometry.Screen.UniversalAuthenticationReason.v113" xml:space="preserve">
         <source>Enter your device passcode</source>
+        <target>ใส่รหัสผ่านอุปกรณ์ของคุณ</target>
         <note>Biometric authentication is when the system prompts users for Face ID or fingerprint before accessing protected information. This string asks the user to enter their device passcode to access the protected screen.</note>
       </trans-unit>
     </body>
@@ -4050,10 +4059,12 @@ Private Tab</source>
     <body>
       <trans-unit id="CreditCard.EditCard.CardExpirationDateTitle.v112" xml:space="preserve">
         <source>Expiration MM / YY</source>
+        <target>ดด / ปป ที่หมดอายุ</target>
         <note>Title label for user to input their credit card Expiration date in the format MM / YY printed on their credit card in the text box below.</note>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.CardNumberTitle.v112" xml:space="preserve">
         <source>Card Number</source>
+        <target>หมายเลขบัตร</target>
         <note>Title label for user to input their credit card number printed on their credit card in the text box below.</note>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.ExpiredDateTitle.v112" xml:space="preserve">
