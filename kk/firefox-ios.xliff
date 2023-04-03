@@ -637,6 +637,10 @@
         <target>Жаңа жекелік беті ашылды</target>
         <note>The label text in the Button Toast for switching to a fresh New Private Tab.</note>
       </trans-unit>
+      <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.LabelText.v113" xml:space="preserve">
+        <source>New Private Tab Opened</source>
+        <note>The label text in the Button Toast for switching to a fresh New Private Tab.</note>
+      </trans-unit>
       <trans-unit id="ContextMenu.ButtonToast.NewTabOpened.ButtonText" xml:space="preserve">
         <source>Switch</source>
         <target>Ауысу</target>
@@ -1786,6 +1790,10 @@
         <source>What’s New</source>
         <target>Не жаңалық</target>
         <note>The title for the option to view the What's new page.</note>
+      </trans-unit>
+      <trans-unit id="Menu.ZoomPage.Title.v113" xml:space="preserve">
+        <source>Zoom (%@)</source>
+        <note>Label for the zoom page button in the menu, used to show the Zoom Page bar. The placeholder shows the current zoom level in percent.</note>
       </trans-unit>
       <trans-unit id="Navigation Toolbar" xml:space="preserve">
         <source>Navigation Toolbar</source>
@@ -3947,7 +3955,7 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/Alert.strings" datatype="plaintext" source-language="en" target-language="kk">
+  <file original="Shared/Supporting Files/en.lproj/Alert.strings" source-language="en" target-language="kk" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
     </header>
@@ -4001,7 +4009,7 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/BiometricAuthentication.strings" datatype="plaintext" source-language="en" target-language="kk">
+  <file original="Shared/Supporting Files/en.lproj/BiometricAuthentication.strings" source-language="en" target-language="kk" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
     </header>
@@ -4052,11 +4060,30 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/EditCard.strings" datatype="plaintext" source-language="en" target-language="kk">
+  <file original="Shared/Supporting Files/en.lproj/Edit Card.strings" datatype="plaintext" source-language="en" target-language="kk">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
     </header>
     <body>
+      <trans-unit id="CreditCard.EditCard.EditCreditCardTitle.v113" xml:space="preserve">
+        <source>Edit Credit Card</source>
+        <note>Title label for the view where user can edit their credit card info</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/EditCard.strings" source-language="en" target-language="kk" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
+    </header>
+    <body>
+      <trans-unit id="CreditCard.EditCard.AddCreditCardTitle.v113" xml:space="preserve">
+        <source>Add Credit Card</source>
+        <note>Title label for the view where user can add their credit card info</note>
+      </trans-unit>
+      <trans-unit id="CreditCard.EditCard.CancelNavBarButtonLabel.v113" xml:space="preserve">
+        <source>Cancel</source>
+        <note>Button label for cancelling editing of the credit card details shown in the form</note>
+      </trans-unit>
       <trans-unit id="CreditCard.EditCard.CardExpirationDateTitle.v112" xml:space="preserve">
         <source>Expiration MM / YY</source>
         <target>Жарамдылық мерзімі АА / ЖЖ</target>
@@ -4066,6 +4093,18 @@ Private Tab</source>
         <source>Card Number</source>
         <target>Карта нөмірі</target>
         <note>Title label for user to input their credit card number printed on their credit card in the text box below.</note>
+      </trans-unit>
+      <trans-unit id="CreditCard.EditCard.CloseNavBarButtonLabel.v113" xml:space="preserve">
+        <source>Close</source>
+        <note>Button label for closing the view where user can view their credit card info</note>
+      </trans-unit>
+      <trans-unit id="CreditCard.EditCard.CopyLabel.v113" xml:space="preserve">
+        <source>Copy</source>
+        <note>Label for copying contents of the form</note>
+      </trans-unit>
+      <trans-unit id="CreditCard.EditCard.EditNavBarButtonLabel.v113" xml:space="preserve">
+        <source>Edit</source>
+        <note>Button label for editing the credit card details shown in the form</note>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.ExpiredDateTitle.v112" xml:space="preserve">
         <source>Expires %@</source>
@@ -4087,6 +4126,10 @@ Private Tab</source>
         <target>Картаны өшіру</target>
         <note>Title label for button that allows user to remove their saved credit card.</note>
       </trans-unit>
+      <trans-unit id="CreditCard.EditCard.SaveNavBarButtonLabel.v113" xml:space="preserve">
+        <source>Save</source>
+        <note>Button label for saving the credit card details user entered in the form</note>
+      </trans-unit>
       <trans-unit id="CreditCard.EditCard.SavedCardListTitle.v112" xml:space="preserve">
         <source>SAVED CARDS</source>
         <target>САҚТАЛҒАН КАРТАЛАР</target>
@@ -4096,6 +4139,10 @@ Private Tab</source>
         <source>Save and autofill cards</source>
         <target>Карталарды сақтау және автотолтыру</target>
         <note>Title label for user to use the toggle settings to allow saving and autofilling of credit cards for webpages.</note>
+      </trans-unit>
+      <trans-unit id="CreditCard.EditCard.ViewCreditCardTitle.v113" xml:space="preserve">
+        <source>View Credit Card</source>
+        <note>Title label for the view where user can view their credit card info</note>
       </trans-unit>
     </body>
   </file>
@@ -4116,7 +4163,7 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/ErrorState.strings" datatype="plaintext" source-language="en" target-language="kk">
+  <file original="Shared/Supporting Files/en.lproj/ErrorState.strings" source-language="en" target-language="kk" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
     </header>
@@ -4221,7 +4268,7 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/Settings.strings" datatype="plaintext" source-language="en" target-language="kk">
+  <file original="Shared/Supporting Files/en.lproj/Settings.strings" source-language="en" target-language="kk" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
     </header>
@@ -4286,6 +4333,10 @@ Private Tab</source>
         <target>Синхрондау</target>
         <note>This is the title for the setting that toggles Sync related notifications in the settings menu under the Notifications section.</note>
       </trans-unit>
+      <trans-unit id="Settings.Notifications.SystemNotificationsDisabledMessage.v112" xml:space="preserve">
+        <source>You turned off all %1$@ notifications. Turn them on by going to device Settings &gt; Notifications &gt; %2$@</source>
+        <note>This is the footer title informing the user needs to turn on notifications in iOS Settings. Both placeholders will be replaced with the app name.</note>
+      </trans-unit>
       <trans-unit id="Settings.Notifications.TipsAndFeaturesNotificationsStatus.v112" xml:space="preserve">
         <source>Learn about useful features and how to get the most out of %@.</source>
         <target>Пайдалы мүмкіндіктері және %@ мүмкіндігін барынша пайдалану туралы біліңіз.</target>
@@ -4313,7 +4364,7 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/SnackBar.strings" datatype="plaintext" source-language="en" target-language="kk">
+  <file original="Shared/Supporting Files/en.lproj/SnackBar.strings" source-language="en" target-language="kk" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
     </header>
@@ -4340,6 +4391,14 @@ Private Tab</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
     </header>
     <body>
+      <trans-unit id="CloseTabsToast.Button.v113" xml:space="preserve">
+        <source>Undo</source>
+        <note>When the user closes tabs in the tab tray, a popup will appear. This is the title for the button to undo the deletion of those tabs</note>
+      </trans-unit>
+      <trans-unit id="CloseTabsToast.Title.v113" xml:space="preserve">
+        <source>Tabs Closed: %d</source>
+        <note>When the user closes tabs in the tab tray, a popup will appear informing them how many tabs were closed. This is the text for the popup. The placeholder is the number of tabs</note>
+      </trans-unit>
       <trans-unit id="TabsTray.SyncTabs.SyncTabsButton.Title.v109" xml:space="preserve">
         <source>Sync Tabs</source>
         <target>Беттерді синхрондау</target>
