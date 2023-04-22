@@ -864,6 +864,7 @@
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Description" xml:space="preserve">
         <source>The owner of %@ has configured their website improperly. To protect your information from being stolen, Firefox has not connected to this website.</source>
+        <target>%@ хуҗасы үз сайтын дөрес көйләмәгән. Мәгълүматыгызны урланудан саклау өчен, Firefox бу вебсайтка тоташмады.</target>
         <note>Warning text on the certificate error page</note>
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Title" xml:space="preserve">
@@ -907,50 +908,62 @@
       </trans-unit>
       <trans-unit id="FirefoxHome.Pocket.DiscoverMore" xml:space="preserve">
         <source>Discover more</source>
+        <target>Күбрәген күрү</target>
         <note>At the end of the Pocket section on the Firefox Homepage, this button appears and indicates tapping it will navigate the user to more Pocket Stories.</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.Pocket.Minutes.v99" xml:space="preserve">
         <source>%d min</source>
+        <target>%d мин</target>
         <note>On each Pocket Stories on the Firefox Homepage, this label appears and indicates the number of minutes to read an article. Minutes should be abbreviated due to space constraints. %d represents the number of minutes</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.Pocket.SectionTitle" xml:space="preserve">
         <source>Thought-Provoking Stories</source>
+        <target>Уйландыра торган мәкаләләр</target>
         <note>This is the title of the Pocket section on Firefox Homepage.</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.RecentHistory.Remove" xml:space="preserve">
         <source>Remove</source>
+        <target>Бетерү</target>
         <note>When a user taps and holds on an item from the Recently Visited section, this label will appear indicating the option to remove that item.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.Common.PagesCount.v112" xml:space="preserve">
         <source>Pages: %d</source>
+        <target>Битләр: %d</target>
         <note>Label showing how many pages there is in a search group. %d represents a number</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.ContextualMenu.Settings.v101" xml:space="preserve">
         <source>Settings</source>
+        <target>Көйләүләр</target>
         <note>The title for the Settings context menu action for sponsored tiles in the Firefox home page shortcuts section. Clicking this brings the users to the Shortcuts Settings.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.ContextualMenu.SponsoredContent.v101" xml:space="preserve">
         <source>Our Sponsors &amp; Your Privacy</source>
+        <target>Безнең иганәчеләр һәм Сезнең хосусыйлыгыз</target>
         <note>The title for the Sponsored Content context menu action for sponsored tiles in the Firefox home page shortcuts section. Clicking this brings the users to a support page where users can learn more about Sponsored content and how it works.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.JumpBackIn.TabPickup.OpenTab.A11y.v106" xml:space="preserve">
         <source>Open synced tab</source>
+        <target>Синхронланган табны ачу</target>
         <note>Accessibility action title to open the synced tab for tab pickup on the Firefox homepage in the Jump Back In section.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.JumpBackIn.TabPickup.ShowAll.ButtonTitle.v104" xml:space="preserve">
         <source>See all synced tabs</source>
+        <target>Барлык синхронланган табларны карау</target>
         <note>Button title shown for tab pickup on the Firefox homepage in the Jump Back In section.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.JumpBackIn.TabPickup.v104" xml:space="preserve">
         <source>Tab pickup</source>
+        <target>Синхронланган таблар</target>
         <note>If a user is signed in, and a sync has been performed to collect their recent tabs from other signed in devices, their most recent tab from another device can now appear in the Jump Back In section. This label specifically points out which cell inside the Jump Back In section shows that synced tab.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.Pocket.Sponsored.v103" xml:space="preserve">
         <source>Sponsored</source>
+        <target>Спонсорланган</target>
         <note>This string will show under the description on pocket story, indicating that the story is sponsored.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.Shortcuts.Sponsored.v100" xml:space="preserve">
         <source>Sponsored</source>
+        <target>Спонсорланган</target>
         <note>This string will show under a shortcuts tile on the firefox home page, indicating that the tile is a sponsored tile. Space is limited, please keep as short as possible.</note>
       </trans-unit>
       <trans-unit id="Forward" xml:space="preserve">
@@ -1015,6 +1028,7 @@
       </trans-unit>
       <trans-unit id="FxHomepage.Wallpaper.ButtonLabel.v99" xml:space="preserve">
         <source>Firefox logo, change the wallpaper.</source>
+        <target>Firefox логотибы, фон рәсемне үзгәртү.</target>
         <note>On the firefox homepage, the string read by the voice over prompt for accessibility, for the button which changes the wallpaper</note>
       </trans-unit>
       <trans-unit id="Help" xml:space="preserve">
@@ -1098,6 +1112,7 @@
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewPrivateTab.v101" xml:space="preserve">
         <source>Open in a Private Tab</source>
+        <target>Хосусый табта ачу</target>
         <note>The title for the Open in New Private Tab context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewTab" xml:space="preserve">
@@ -1191,6 +1206,7 @@
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.ActualSize" xml:space="preserve">
         <source>Actual Size</source>
+        <target>Чын үлчәм</target>
         <note>A label indicating the keyboard shortcut of resetting a web page's view to the standard viewing size. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.AddBookmark" xml:space="preserve">
@@ -1200,10 +1216,12 @@
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.ClearRecentHistory" xml:space="preserve">
         <source>Clear Recent History</source>
+        <target>Соңгы тарихны чистарту</target>
         <note>A label indicating the keyboard shortcut of clearing recent history. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.FindAgain" xml:space="preserve">
         <source>Find Again</source>
+        <target>Эзләүне кабатлау</target>
         <note>A label indicating the keyboard shortcut of finding text a user desires within a page again. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.RefreshWithoutCache.v108" xml:space="preserve">
