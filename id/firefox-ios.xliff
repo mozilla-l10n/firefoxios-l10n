@@ -3887,8 +3887,8 @@ Private Tab</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
     </header>
     <body>
-      <trans-unit id="Biometry.Screen.UniversalAuthenticationReason.v113" xml:space="preserve">
-        <source>Enter your device passcode</source>
+      <trans-unit id="Biometry.Screen.UniversalAuthenticationReason.v115" xml:space="preserve">
+        <source>Authenticate to access passwords.</source>
         <note>Biometric authentication is when the system prompts users for Face ID or fingerprint before accessing protected information. This string asks the user to enter their device passcode to access the protected screen.</note>
       </trans-unit>
     </body>
@@ -3932,7 +3932,7 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/DisplayCard.strings" datatype="plaintext" source-language="en" target-language="id">
+  <file original="Shared/Supporting Files/en.lproj/DisplayCard.strings" source-language="en" target-language="id" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
     </header>
@@ -4090,6 +4090,25 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
+  <file original="Shared/Supporting Files/en.lproj/Footer.strings" datatype="plaintext" source-language="en" target-language="id">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
+    </header>
+    <body>
+      <trans-unit id="FirefoxHomepage.Pocket.Footer.LearnMore.v115" xml:space="preserve">
+        <source>Learn more</source>
+        <note>This is the learn more text of the Pocket footer on Firefox Homepage.</note>
+      </trans-unit>
+      <trans-unit id="FirefoxHomepage.Pocket.Footer.Subtitle.v115" xml:space="preserve">
+        <source>Part of the %@ family.</source>
+        <note>This is the subtitle of the Pocket footer on Firefox Homepage. The placeholder is the app name.</note>
+      </trans-unit>
+      <trans-unit id="FirefoxHomepage.Pocket.Footer.Title.v115" xml:space="preserve">
+        <source>Powered by %@.</source>
+        <note>This is the title of the Pocket footer on Firefox Homepage. placeholder will be for App Name</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Shared/Supporting Files/en.lproj/JumpBackIn.strings" source-language="en" target-language="id" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
@@ -4151,8 +4170,8 @@ Private Tab</source>
         <source>Committed to the promise of a better Internet for everyone.</source>
         <note>String used to describes what Firefox is on the first onboarding page in our Onboarding screens.</note>
       </trans-unit>
-      <trans-unit id="Onboarding.LaterAction.v114" xml:space="preserve">
-        <source>Not Now</source>
+      <trans-unit id="Onboarding.LaterAction.v115" xml:space="preserve">
+        <source>Skip</source>
         <note>Describes an action on some of the Onboarding screen, including the wallpaper onboarding screen. This string will be on a button so user can skip that onboarding page.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Notification.Continue.Action.v114" xml:space="preserve">
@@ -4163,8 +4182,8 @@ Private Tab</source>
         <source>Send tabs between your devices and get tips about how to get the most out of %@.</source>
         <note>String used to describe the description of the notification onboarding page in our Onboarding screens. Placeholder is for the app name.</note>
       </trans-unit>
-      <trans-unit id="Onboarding.Notification.Skip.Action.v114" xml:space="preserve">
-        <source>Not now</source>
+      <trans-unit id="Onboarding.Notification.Skip.Action.v115" xml:space="preserve">
+        <source>Skip</source>
         <note>String used to describe the option to skip the notification permission in Firefox Onboarding screens.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Notification.Title.v114" xml:space="preserve">
@@ -4246,6 +4265,29 @@ Private Tab</source>
       <trans-unit id="Onboarding.Welcome.Title.v114" xml:space="preserve">
         <source>Welcome to an independent internet</source>
         <note>String used to describes the title of what Firefox is on the welcome onboarding page for current version in our Onboarding screens.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/RememberCard.strings" datatype="plaintext" source-language="en" target-language="id">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
+    </header>
+    <body>
+      <trans-unit id="CreditCard.RememberCard.Header.v115" xml:space="preserve">
+        <source>Save your card information securely with %@ to check out faster next time.</source>
+        <note>This value is used as the header for the remember card page. The placeholder is for the app name.</note>
+      </trans-unit>
+      <trans-unit id="CreditCard.RememberCard.MainButtonTitle.v115" xml:space="preserve">
+        <source>Yes</source>
+        <note>This value is used as the title for the Yes button in the remember credit card page</note>
+      </trans-unit>
+      <trans-unit id="CreditCard.RememberCard.MainTitle.v115" xml:space="preserve">
+        <source>Remember this card?</source>
+        <note>This value is used as the title for the remember credit card page</note>
+      </trans-unit>
+      <trans-unit id="CreditCard.RememberCard.SecondaryButtonTitle.v115" xml:space="preserve">
+        <source>Not Now</source>
+        <note>This value is used as the title for the Not Now button in the remember credit card page</note>
       </trans-unit>
     </body>
   </file>
@@ -4429,6 +4471,29 @@ Private Tab</source>
         <source>Move the toolbar to the bottom if that’s more your style.</source>
         <target>Pindahkan bilah alat ke bawah jika itu lebih sesuai dengan gaya Anda.</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one indicates a user can navigate to the Settings page to move the search bar to the bottom.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/UpdateCard.strings" datatype="plaintext" source-language="en" target-language="id">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
+    </header>
+    <body>
+      <trans-unit id="CreditCard.UpdateCard.MainTitle.v115" xml:space="preserve">
+        <source>Update this card?</source>
+        <note>This value is used as the title for the update card page</note>
+      </trans-unit>
+      <trans-unit id="CreditCard.UpdateCard.ManageCardsButtonTitle.v115" xml:space="preserve">
+        <source>Manage cards</source>
+        <note>This value is used as the title for the Manage Cards button from the update credit card page</note>
+      </trans-unit>
+      <trans-unit id="CreditCard.UpdateCard.NotNowButtonTitle.v115" xml:space="preserve">
+        <source>Not Now</source>
+        <note>This value is used as the title for the Not Now button in the update credit card page</note>
+      </trans-unit>
+      <trans-unit id="CreditCard.UpdateCard.YesButtonTitle.v115" xml:space="preserve">
+        <source>Yes</source>
+        <note>This value is used as the title for the button in the update credit card page</note>
       </trans-unit>
     </body>
   </file>
