@@ -11,8 +11,7 @@
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve">
-        <source>Firefox requires Face ID to access your saved logins.</source>
-        <target>Që të mund të hyjë te kredencialet tuaja të ruajtura, Firefox-i lyp Face ID.</target>
+        <source>Firefox requires Face ID to access your saved logins and encrypted cards.</source>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription" xml:space="preserve">
@@ -2469,11 +2468,6 @@
         <target>Shkurtore</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Shortcuts section on the Firefox homepage on or off</note>
       </trans-unit>
-      <trans-unit id="Settings.Home.Option.SponsoredPocket.v103" xml:space="preserve">
-        <source>Sponsored stories</source>
-        <target>Histori të sponsorizuara</target>
-        <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Pocket Sponsored Stories on the Firefox homepage on or off</note>
-      </trans-unit>
       <trans-unit id="Settings.Home.Option.StartAtHome.AfterFourHours" xml:space="preserve">
         <source>Homepage after four hours of inactivity</source>
         <target>Faqe hyrëse pas katër orësh plogështie</target>
@@ -3902,6 +3896,10 @@ Private Tab</source>
         <source>Authenticate to access passwords.</source>
         <note>Biometric authentication is when the system prompts users for Face ID or fingerprint before accessing protected information. This string asks the user to enter their device passcode to access the protected screen.</note>
       </trans-unit>
+      <trans-unit id="Biometry.Screen.UniversalAuthenticationReasonV2.v116" xml:space="preserve">
+        <source>Authenticate to access your saved logins and encrypted cards.</source>
+        <note>Biometric authentication is when the system prompts users for Face ID or fingerprint before accessing protected information. This string asks the user to enter their device passcode to access the protected screen for logins and encrypted cards.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Shared/Supporting Files/en.lproj/BookmarkPanel.strings" source-language="en" target-language="sq" datatype="plaintext">
@@ -3940,6 +3938,21 @@ Private Tab</source>
         <source>This folder isn’t empty.</source>
         <target>Kjo dosje s’është e zbrazët.</target>
         <note>Title of the confirmation alert when the user tries to delete a folder that still contains bookmarks and/or folders.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/CustomizeFirefoxHome.strings" datatype="plaintext" source-language="en" target-language="sq">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
+    </header>
+    <body>
+      <trans-unit id="Settings.Home.Option.ThoughtProvokingStories.subtitle.v116" xml:space="preserve">
+        <source>Articles powered by %@</source>
+        <note>In the settings menu, in the Firefox homepage customization section, this is the subtitle for the option that allows users to turn the Pocket Recommendations section on the Firefox homepage on or off. The placeholder is the pocket app name.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Home.Option.ThoughtProvokingStories.v116" xml:space="preserve">
+        <source>Thought-Provoking Stories</source>
+        <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Pocket Recommendations section on the Firefox homepage on or off</note>
       </trans-unit>
     </body>
   </file>
@@ -4038,12 +4051,12 @@ Private Tab</source>
         <note>Title label for user to pick a credit card from the list below to be updated.</note>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.ToggleToAllowAutofillTitle.v112" xml:space="preserve">
-        <source>Save and autofill cards</source>
+        <source>Save and Autofill Cards</source>
         <target>Ruani dhe plotësoni vetvetiu hollësi kartash</target>
         <note>Title label for user to use the toggle settings to allow saving and autofilling of credit cards for webpages.</note>
       </trans-unit>
-      <trans-unit id="CreditCard.EditCard.ViewCreditCardTitle.v113" xml:space="preserve">
-        <source>View Credit Card</source>
+      <trans-unit id="CreditCard.EditCard.ViewCreditCardTitle.v116" xml:space="preserve">
+        <source>View Card</source>
         <note>Title label for the view where user can view their credit card info</note>
       </trans-unit>
     </body>
@@ -4123,13 +4136,9 @@ Private Tab</source>
         <source>Learn more</source>
         <note>This is the learn more text of the Pocket footer on Firefox Homepage.</note>
       </trans-unit>
-      <trans-unit id="FirefoxHomepage.Pocket.Footer.Subtitle.v115" xml:space="preserve">
-        <source>Part of the %@ family.</source>
-        <note>This is the subtitle of the Pocket footer on Firefox Homepage. The placeholder is the app name.</note>
-      </trans-unit>
-      <trans-unit id="FirefoxHomepage.Pocket.Footer.Title.v115" xml:space="preserve">
-        <source>Powered by %@.</source>
-        <note>This is the title of the Pocket footer on Firefox Homepage. placeholder will be for App Name</note>
+      <trans-unit id="FirefoxHomepage.Pocket.Footer.Title.v116" xml:space="preserve">
+        <source>Powered by %1$@. Part of the %2$@ family.</source>
+        <note>This is the title of the Pocket footer on Firefox Homepage. The first placeholder is for the Pocket app name and the second placeholder for the app name</note>
       </trans-unit>
     </body>
   </file>
@@ -4358,6 +4367,17 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
+  <file original="Shared/Supporting Files/en.lproj/SelectCreditCard.strings" datatype="plaintext" source-language="en" target-language="sq">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
+    </header>
+    <body>
+      <trans-unit id="CreditCard.SelectCreditCard.MainTitle.v116" xml:space="preserve">
+        <source>Use a saved card?</source>
+        <note>This value is used as the title for the select a credit card from list of available cards.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Shared/Supporting Files/en.lproj/Settings.strings" source-language="en" target-language="sq" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
@@ -4464,17 +4484,17 @@ Private Tab</source>
     </header>
     <body>
       <trans-unit id="CreditCard.SnackBar.RemovedCardLabel.v112" xml:space="preserve">
-        <source>Card removed</source>
+        <source>Card Removed</source>
         <target>Karta u hoq</target>
         <note>Label text that gets presented as a confirmation at the bottom of screen when the credit card is successfully removed.</note>
       </trans-unit>
       <trans-unit id="CreditCard.SnackBar.SavedCardLabel.v112" xml:space="preserve">
-        <source>New card saved</source>
+        <source>New Card Saved</source>
         <target>Karta e re u ruajt</target>
         <note>Label text that gets presented as a confirmation at the bottom of screen when credit card information gets saved successfully</note>
       </trans-unit>
       <trans-unit id="CreditCard.SnackBar.UpdatedCardLabel.v112" xml:space="preserve">
-        <source>Card information updated</source>
+        <source>Card Information updated</source>
         <target>Hollësitë e kartës u përditësuan</target>
         <note>Label text that gets presented as a confirmation at the bottom of screen when credit card information gets updated successfully</note>
       </trans-unit>
@@ -4500,6 +4520,10 @@ Private Tab</source>
       <trans-unit id="InactiveTabs.TabTray.CloseSwipeActionTitle.v115" xml:space="preserve">
         <source>Close</source>
         <note>This is the swipe action title for closing an inactive tab by swiping, located in the Inactive Tabs section of the Tabs Tray</note>
+      </trans-unit>
+      <trans-unit id="TabsTray.Sync.SyncTabsDisabled.v116" xml:space="preserve">
+        <source>Turn on tab syncing to view a list of tabs from your other devices.</source>
+        <note>Users can disable syncing tabs from other devices. In the Sync Tabs panel of the Tab Tray, we inform the user tab syncing can be switched back on to view those tabs.</note>
       </trans-unit>
       <trans-unit id="TabsTray.SyncTabs.SyncTabsButton.Title.v109" xml:space="preserve">
         <source>Sync Tabs</source>
