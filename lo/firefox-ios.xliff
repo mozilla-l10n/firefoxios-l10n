@@ -1547,11 +1547,6 @@
         <target>ໝາຍໄວ້ວ່າຫຍັງບໍ່ທັນໄດ້ອ່ານເທື່ອ</target>
         <note>Title for the button that marks a reading list item as unread</note>
       </trans-unit>
-      <trans-unit id="Menu.AddBookmark.AlternateLabel.v99" xml:space="preserve">
-        <source>Add Bookmark</source>
-        <target>ເພີ່ມບຸກມາກ</target>
-        <note>Long label for the add bookmark button displayed in the menu. Pressing this button bookmarks the current page.</note>
-      </trans-unit>
       <trans-unit id="Menu.AddBookmark.Confirm" xml:space="preserve">
         <source>Bookmark Added</source>
         <target>ເພີ່ມບຸກມາກແລ້ວ</target>
@@ -1686,11 +1681,6 @@
         <source>Removed from Shortcuts</source>
         <target>ລຶບອອກຈາກທາງລັດແລ້ວ</target>
         <note>Toast displayed to the user after removing the item to the Shortcuts.</note>
-      </trans-unit>
-      <trans-unit id="Menu.RemoveReadingList.AlternateLabel.v99" xml:space="preserve">
-        <source>Remove from Reading List</source>
-        <target>ລືບອອກຈາກລາຍການອ່ານ</target>
-        <note>Long label for the remove from reading list button in the menu. Pressing this button removes the current page from the reading list.</note>
       </trans-unit>
       <trans-unit id="Menu.RemoveReadingList.Confirm.v99" xml:space="preserve">
         <source>Removed from Reading List</source>
@@ -3516,11 +3506,6 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
     </header>
     <body>
-      <trans-unit id="Menu.AddToReadingList.AlternateLabel.v99" xml:space="preserve">
-        <source>Add to Reading List</source>
-        <target>ເພີ່ມເຂົ້າໄປໃນລາຍການອ່ານ</target>
-        <note>Long label for the button displayed in the menu, used to add a page to the reading list.</note>
-      </trans-unit>
       <trans-unit id="Menu.CloseAllTabsAction.Title" xml:space="preserve">
         <source>Close All Tabs</source>
         <target>ປິດແທັບທັງຫມົດ</target>
@@ -3575,11 +3560,6 @@
         <source>Synced Tabs</source>
         <target>ແທັບທີ່ Sync ແລ້ວ</target>
         <note>Accessibility label for the button, displayed in the menu, used to open the Synced Tabs home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
-      </trans-unit>
-      <trans-unit id="Menu.RemoveBookmark.AlternateLabel.v99" xml:space="preserve">
-        <source>Remove Bookmark</source>
-        <target>ລຶບບຸກມາກອອກ</target>
-        <note>Long label for the remove bookmark button displayed in the menu. Pressing this button remove the current page from the bookmarks.</note>
       </trans-unit>
       <trans-unit id="Menu.ReportSiteIssueAction.Title" xml:space="preserve">
         <source>Report Site Issue</source>
@@ -4460,10 +4440,9 @@ Private Tab</source>
         <target>ບັນທຶກບັດເຄຣດິດໃສ່ %@</target>
         <note>Title label for when there are no credit cards shown in credit card list in autofill settings screen. %@ is the product name and should not be altered.</note>
       </trans-unit>
-      <trans-unit id="CreditCard.Settings.ListItemA11y.v112" xml:space="preserve">
-        <source>%1$@ ending in %2$@, issued to %3$@, expires %4$@</source>
-        <target>%1$@ ລົງທ້າຍດ້ວຍ %2$@, ອອກໃຫ້ %3$@, ໝົດອາຍຸ %4$@</target>
-        <note>Accessibility label for a credit card list item in autofill settings screen. The first parameter is the credit card type (e.g. Visa). The second parameter is the last 4 digits of the credit card. The third parameter is the name of the credit card holder. The fourth and fifth parameters are the month and year of the credit card's expiration date.</note>
+      <trans-unit id="CreditCard.Settings.ListItemA11y.v118" xml:space="preserve">
+        <source>%1$@, issued to %2$@, ending in %3$@, expires %4$@</source>
+        <note>Accessibility label for a credit card list item in autofill settings screen. The first parameter is the credit card issuer (e.g. Visa). The second parameter is is the name of the credit card holder. The third parameter is the last 4 digits of the credit card. The fourth parameter is the card's expiration date.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.NotNow.v112" xml:space="preserve">
         <source>Not now</source>
@@ -4628,6 +4607,10 @@ Private Tab</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
     </header>
     <body>
+      <trans-unit id="CreditCard.RememberCard.SecondaryButtonTitle.v116" xml:space="preserve">
+        <source>Card Information Updated</source>
+        <note>This value is used as the toast message for the saving success alert in the remember credit card page</note>
+      </trans-unit>
       <trans-unit id="CreditCard.UpdateCard.MainTitle.v115" xml:space="preserve">
         <source>Update this card?</source>
         <target>ອັບເດດບັດນີ້ບໍ?</target>
