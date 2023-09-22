@@ -1497,6 +1497,10 @@
         <target>Gemte logins vil blive vist her. Hvis du har gemt dine logins i Firefox på en anden enhed, skal du logge ind på din Firefox-konto.</target>
         <note>Label shown when there are no logins to list</note>
       </trans-unit>
+      <trans-unit id="LoginsList.NoLoginsFound.Description.v119" xml:space="preserve">
+        <source>Saved logins will show up here. If you saved your logins to %@ on a different device, sign in to your account.</source>
+        <note>Label shown when there are no logins to list. The placeholder will be replaced with the app name.</note>
+      </trans-unit>
       <trans-unit id="LoginsList.NoLoginsFound.Title" xml:space="preserve">
         <source>No logins found</source>
         <target>Ingen logins fundet</target>
@@ -4482,6 +4486,14 @@ Private Tab</source>
         <target>Brug gemt kort</target>
         <note>When a user is in the process of making a purchase, and has at least one saved card, we show this label inside the keyboard hint. This indicates to the user that there are stored cards available for use on this pending purchase.</note>
       </trans-unit>
+      <trans-unit id="FxA.FirefoxAccount.v119" xml:space="preserve">
+        <source>Account</source>
+        <note>Settings section title for the old Firefox account</note>
+      </trans-unit>
+      <trans-unit id="Settings.FxA.Title.v119" xml:space="preserve">
+        <source>Account</source>
+        <note>Title displayed in header of the FxA settings panel.</note>
+      </trans-unit>
       <trans-unit id="Settings.Notifications.SyncNotificationsStatus.v112" xml:space="preserve">
         <source>This must be turned on to receive tabs and get notified when you sign in on another device.</source>
         <target>Dette skal aktiveres for at kunne modtage faneblade og få besked, når du logger ind på en anden enhed.</target>
@@ -4521,6 +4533,21 @@ Private Tab</source>
         <source>Turn on Notifications</source>
         <target>Slå beskeder til</target>
         <note>This is the title informing the user needs to turn on notifications in iOS Settings.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/Share.strings" datatype="plaintext" source-language="en" target-language="da">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
+    </header>
+    <body>
+      <trans-unit id="SendTo.NoDevicesFound.Message.v119" xml:space="preserve">
+        <source>You don’t have any other devices connected to this account available to sync.</source>
+        <note>Error message shown in the remote tabs panel</note>
+      </trans-unit>
+      <trans-unit id="SendTo.NotSignedIn.Title.v119" xml:space="preserve">
+        <source>You are not signed in to your account.</source>
+        <note>This message appears when a user tries to use 'Send Link to Device' action while not logged in</note>
       </trans-unit>
     </body>
   </file>
@@ -4617,6 +4644,10 @@ Private Tab</source>
         <source>Sync Tabs</source>
         <target>Synkroniser faneblade</target>
         <note>Button label to sync tabs in your Firefox Account</note>
+      </trans-unit>
+      <trans-unit id="TabsTray.SyncTabs.SyncTabsButton.Title.v119" xml:space="preserve">
+        <source>Sync Tabs</source>
+        <note>Button label to sync tabs in your account</note>
       </trans-unit>
     </body>
   </file>
