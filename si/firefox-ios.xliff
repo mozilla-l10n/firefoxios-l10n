@@ -4364,6 +4364,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Welcome.Title.TreatementA.v120" xml:space="preserve">
         <source>We love keeping you safe</source>
+        <target>ඔබට ආරක්‍ෂාව සලසන්නෙමු</target>
         <note>String used to describes the title of what Firefox is on the welcome onboarding page for current version in our Onboarding screens.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Welcome.Title.v114" xml:space="preserve">
@@ -4592,6 +4593,7 @@ Private Tab</source>
     <body>
       <trans-unit id="ContextualHints.Shopping.NotOptedIn.v120" xml:space="preserve">
         <source>Find out if you can trust this product’s reviews — before you buy.</source>
+        <target>මිලදී ගැනීමට පෙර — ඔබට මෙම නිෂ්පාදනයේ සමාලෝචන විශ්වාස කළ හැකිදැයි බලන්න.</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one indicates that a user can tap on the shopping button to start using the Shopping feature.</note>
       </trans-unit>
       <trans-unit id="ContextualHints.Shopping.NotOptedInAction.v120" xml:space="preserve">
@@ -4609,10 +4611,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.AdjustedRating.Description.v120" xml:space="preserve">
         <source>Unreliable reviews removed</source>
+        <target>අවිශ්වසනීය සමාලෝචන ඉවත් කර ඇත</target>
         <note>Description adjusted of the rating card displayed in the shopping review quality bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.AdjustedRating.StarsAccessibilityLabel.v120" xml:space="preserve">
         <source>%@ out of 5 stars</source>
+        <target>තරු 5 න් %@</target>
         <note>Accessibility label, associated to adjusted rating stars. %@ is a decimal value from 0 to 5 that will only use a tenth (example: 3.5).</note>
       </trans-unit>
       <trans-unit id="Shopping.AdjustedRating.Title.v120" xml:space="preserve">
@@ -4626,6 +4630,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.ConfirmationCard.Title.v120" xml:space="preserve">
         <source>Analysis Is Up To Date</source>
+        <target>විශ්ලේෂණ යාවත්කාලීනයි</target>
         <note>Title of the confirmation displayed in the shopping review quality bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.HighlightsCard.Competitiveness.Title.v120" xml:space="preserve">
@@ -4671,6 +4676,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.FakespotDoesNotAnalyzeReviews.Title.v120" xml:space="preserve">
         <source>Can’t Check These Reviews</source>
+        <target>මෙම සමාලෝචන පරීක්‍ෂාවට නොහැකිය</target>
         <note>Title for info card when Fakespot cannot analyze reviews for a certain product type</note>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.NeedsAnalysis.PrimaryAction.v120" xml:space="preserve">
@@ -4696,18 +4702,22 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.NotEnoughReviews.Title.v120" xml:space="preserve">
         <source>Not Enough Reviews Yet</source>
+        <target>ප්‍රමාණවත් සමාලෝචන නැත</target>
         <note>Title for info card when there are not enough reviews for a product</note>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.ProgressAnalysis.Description.v120" xml:space="preserve">
         <source>This could take about 60 seconds.</source>
+        <target>මෙයට තත්. 60 ක් පමණ ගත වනු ඇත.</target>
         <note>Description for info card when the product is in analysis mode</note>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.ProgressAnalysis.Title.v120" xml:space="preserve">
         <source>Checking review quality</source>
+        <target>සමාලෝචනයේ ගුණත්‍වය පරීක්‍ෂා වෙමින්</target>
         <note>Title for info card when the product is in analysis mode</note>
       </trans-unit>
       <trans-unit id="Shopping.NoAnalysisCard.AnalyzerButton.Title.v120" xml:space="preserve">
         <source>Check Review Quality</source>
+        <target>සමාලෝචනයේ ගුණත්‍වය බලන්න</target>
         <note>Text for the analyzer button displayed when an analysis can be updated for a product.</note>
       </trans-unit>
       <trans-unit id="Shopping.NoAnalysisCard.BodyLabel.Title.v120" xml:space="preserve">
@@ -4716,14 +4726,17 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.NoAnalysisCard.HeadlineLabel.Title.v120" xml:space="preserve">
         <source>No info about these reviews yet</source>
+        <target>මෙම සමාලෝචන ගැන තවමත් තොරතුරු නැත</target>
         <note>Title for card displayed when a shopping product has not been analysed yet.</note>
       </trans-unit>
       <trans-unit id="Shopping.NoAnalysisCard.InProgress.Body.Label.v120" xml:space="preserve">
         <source>This could take about 60 seconds.</source>
+        <target>මෙයට තත්. 60 ක් පමණ ගත වනු ඇත.</target>
         <note>Description for the card displayed when a shopping product has not been analysed yet but the analysis is in progress.</note>
       </trans-unit>
       <trans-unit id="Shopping.NoAnalysisCard.InProgress.Headline.Title.v120" xml:space="preserve">
         <source>Checking review quality</source>
+        <target>සමාලෝචනයේ ගුණත්‍වය පරීක්‍ෂා වෙමින්</target>
         <note>Title for the card displayed when a shopping product has not been analysed yet but the analysis is in progress.</note>
       </trans-unit>
       <trans-unit id="Shopping.OptInCard.DisclaimerText.Title.v120" xml:space="preserve">
@@ -4768,22 +4781,27 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.ReliabilityScore.Grade.A11y.Label.v120" xml:space="preserve">
         <source>Grade %@</source>
+        <target>%@ ශ්‍රේණිය</target>
         <note>Accessibility label for the Grade labels used in 'How we determine review quality' card and 'How reliable are these reviews' card displayed in the shopping review quality bottom sheet. The placeholder will be replaced by a grade letter (e.g. A). The grading system contains letters from A-F.</note>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQuality.ReliabilityCardTitle.v120" xml:space="preserve">
         <source>How reliable are these reviews?</source>
+        <target>මෙම සමාලෝචන කෙතරම් විශ්වසනීය ද?</target>
         <note>Title of the reliability card displayed in the shopping review quality bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQuality.ReliabilityRating.AB.Description.v120" xml:space="preserve">
         <source>Reliable reviews</source>
+        <target>විශ්වසනීය සමාලෝචන</target>
         <note>Description of the reliability ratings for rating 'A' and 'B' displayed in the shopping review quality bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQuality.ReliabilityRating.C.Description.v120" xml:space="preserve">
         <source>Mix of reliable and unreliable reviews</source>
+        <target>විශ්වසනීය සහ නොවන සමාලෝචන</target>
         <note>Description of the reliability rating 'C' displayed in the shopping review quality bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQuality.ReliabilityRating.DF.Description.v120" xml:space="preserve">
         <source>Unreliable reviews</source>
+        <target>අවිශ්වසනීය සමාලෝචන</target>
         <note>Description of the reliability ratings for rating 'D' and 'F' displayed in the shopping review quality bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQualityCard.AdjustedRating.Label.v120" xml:space="preserve">
@@ -4792,10 +4810,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQualityCard.Collapse.AccessibilityLabel.v120" xml:space="preserve">
         <source>Collapse How we determine review quality Card</source>
+        <target>සමාලෝචනයක ගුණත්‍වය තීරණය කරන්නේ කෙසේදැයි පත හකුළන්න</target>
         <note>Accessibility label for the up chevron, from 'How we determine review quality' card displayed in the shopping review quality bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQualityCard.Expand.AccessibilityLabel.v120" xml:space="preserve">
         <source>Expand How we determine review quality card</source>
+        <target>සමාලෝචනයක ගුණත්‍වය තීරණය කරන්නේ කෙසේදැයි පත විහිදන්න</target>
         <note>Accessibility label for the down chevron, from 'How we determine review quality' card displayed in the shopping review quality bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQualityCard.Headline.Label.v120" xml:space="preserve">
@@ -4808,10 +4828,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQualityCard.Label.Title.v120" xml:space="preserve">
         <source>How we determine review quality</source>
+        <target>සමාලෝචනයක ගුණත්‍වය තීරණය කරන්නේ කෙසේද?</target>
         <note>Title of the 'How we determine review quality' card displayed in the shopping review quality bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQualityCard.LearnMoreButton.Title.v120" xml:space="preserve">
         <source>Learn more about how %@ determines review quality</source>
+        <target>%@ සමාලෝචනයක ගුණත්‍වය තීරණය කරන්නේ කෙසේදැයි තව දැනගන්න</target>
         <note>The title of the learn more button from How we determine review quality card displayed in the shopping review quality bottom sheet. The placeholder will be replaced with the Fakespot app name.</note>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQualityCard.MixedReviews.Label.v120" xml:space="preserve">
@@ -4832,10 +4854,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.SettingsCard.Collapse.AccessibilityLabel.v120" xml:space="preserve">
         <source>Collapse Settings Card</source>
+        <target>සැකසුම් පත හකුළන්න</target>
         <note>Accessibility label for the up chevron icon used to collapse or minimize the Settings Card within the shopping product review bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.SettingsCard.Expand.AccessibilityLabel.v120" xml:space="preserve">
         <source>Expand Settings Card</source>
+        <target>සැකසුම් පත විහිදන්න</target>
         <note>Accessibility label for the down chevron icon used to expand or show the details of the Settings Card within the shopping product review bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.SettingsCard.Footer.Action.v120" xml:space="preserve">
