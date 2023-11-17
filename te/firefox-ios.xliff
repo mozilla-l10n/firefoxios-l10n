@@ -2856,14 +2856,6 @@
         <source>Send Link to Device</source>
         <note>Button in the share sheet to send the current link to another device.</note>
       </trans-unit>
-      <trans-unit id="Shopping.InfoCard.ReportSubmittedByCurrentUser.Description.v121" xml:space="preserve">
-        <source>We should have info about this product’s reviews within 24 hours. Please check back.</source>
-        <note>This description appears beneath the confirmation title on the information card to inform the user that their report regarding the product stock status has been received and is being processed. It serves to set the expectation that the review information will be updated within 24 hours and invites the user to revisit the product page for updates.</note>
-      </trans-unit>
-      <trans-unit id="Shopping.InfoCard.ReportSubmittedByCurrentUser.Title.v121" xml:space="preserve">
-        <source>Thanks for Reporting!</source>
-        <note>This title is displayed on the information card as a confirmation message after a user reports that a previously out-of-stock product is now available. It's meant to acknowledge the user's contribution and encourage community engagement by letting them know their report has been successfully submitted.</note>
-      </trans-unit>
       <trans-unit id="Show Search Suggestions" xml:space="preserve">
         <source>Show Search Suggestions</source>
         <target>శోధన సలహాలను చూపించు</target>
@@ -3899,6 +3891,25 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
+  <file original="Shared/Supporting Files/en.lproj/FirefoxHomepage.strings" datatype="plaintext" source-language="en" target-language="te">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
+    </header>
+    <body>
+      <trans-unit id="FeltPrivacyUI.Body.v121" xml:space="preserve">
+        <source>%@ deletes your cookies, history, and site data when you close all your private windows.</source>
+        <note>The body of the message for the card that educates users about how private mode works. The card shows up on the homepage when in the new privacy mode. Placeholder refers to app name.</note>
+      </trans-unit>
+      <trans-unit id="FeltPrivacyUI.Link.v121" xml:space="preserve">
+        <source>Who might be able to see my activity?</source>
+        <note>The link for the card that educates users about how private mode works. The link redirects to an external site for more information. The card shows up on the homepage when in the new privacy mode.</note>
+      </trans-unit>
+      <trans-unit id="FeltPrivacyUI.Title.v121" xml:space="preserve">
+        <source>Leave no traces on this device</source>
+        <note>The title for the card that educates users about how private mode works. The card shows up on the homepage when in the new privacy mode.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Shared/Supporting Files/en.lproj/FirefoxSync.strings" source-language="en" target-language="te" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
@@ -3992,10 +4003,6 @@ Private Tab</source>
         <source>Continue</source>
         <note>String used to describe the option to continue to ask for the notification permission in Firefox Onboarding screens.</note>
       </trans-unit>
-      <trans-unit id="Onboarding.Notification.Description.v114" xml:space="preserve">
-        <source>Send tabs between your devices and get tips about how to get the most out of %@.</source>
-        <note>String used to describe the description of the notification onboarding page in our Onboarding screens. Placeholder is for the app name.</note>
-      </trans-unit>
       <trans-unit id="Onboarding.Notification.Description.v120" xml:space="preserve">
         <source>Securely send tabs between your devices and discover other privacy features in %@.</source>
         <note>String used to describe the description of the notification onboarding page in our Onboarding screens. Placeholder is for the app name.</note>
@@ -4004,10 +4011,6 @@ Private Tab</source>
         <source>Skip</source>
         <note>String used to describe the option to skip the notification permission in Firefox Onboarding screens.</note>
       </trans-unit>
-      <trans-unit id="Onboarding.Notification.Title.v114" xml:space="preserve">
-        <source>Notifications help you do more with %@</source>
-        <note>String used to describe the title of the notification onboarding page in our Onboarding screens. Placeholder is for the app name.</note>
-      </trans-unit>
       <trans-unit id="Onboarding.Notification.Title.v120" xml:space="preserve">
         <source>Notifications help you stay safer with %@</source>
         <note>String used to describe the title of the notification onboarding page in our Onboarding screens. Placeholder is for the app name.</note>
@@ -4015,10 +4018,6 @@ Private Tab</source>
       <trans-unit id="Onboarding.Notification.TurnOnNotifications.Action.v114" xml:space="preserve">
         <source>Turn On Notifications</source>
         <note>String used to describe the option to continue to ask for the notification permission in Firefox Onboarding screens.</note>
-      </trans-unit>
-      <trans-unit id="Onboarding.Sync.Description.v114" xml:space="preserve">
-        <source>Grab tabs and passwords from your other devices to pick up where you left off.</source>
-        <note>String used to describes the description of what Firefox is on the Sync onboarding page for current version in our Onboarding screens.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Sync.Description.v120" xml:space="preserve">
         <source>When you’re signed in and synced, you’re safer. %@ encrypts your passwords, bookmarks, and more.</source>
@@ -4031,10 +4030,6 @@ Private Tab</source>
       <trans-unit id="Onboarding.Sync.Skip.Action.v114" xml:space="preserve">
         <source>Skip</source>
         <note>String used to describes the option to skip the Sync sign in during onboarding for the current version in Firefox Onboarding screens.</note>
-      </trans-unit>
-      <trans-unit id="Onboarding.Sync.Title.v114" xml:space="preserve">
-        <source>Hop from phone to laptop and back</source>
-        <note>String used to describes the title of what Firefox is on the Sync onboarding page for current version in our Onboarding screens.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Sync.Title.v120" xml:space="preserve">
         <source>Stay encrypted when you hop between devices</source>
@@ -4072,9 +4067,9 @@ Private Tab</source>
         <source>Set as Default Browser</source>
         <note>Describes the action on the first onboarding page in our Onboarding screen. This indicates that the user will set their default browser to Firefox.</note>
       </trans-unit>
-      <trans-unit id="Onboarding.Welcome.Description.TreatementA.v114" xml:space="preserve">
-        <source>%@ puts people over profits and defends your privacy as you browse.</source>
-        <note>String used to describes the description of what Firefox is on the welcome onboarding page for current version in our Onboarding screens. Placeholder is for the app name.</note>
+      <trans-unit id="Onboarding.Welcome.Close.AccessibilityLabel.v121" xml:space="preserve">
+        <source>Close and exit %@ onboarding</source>
+        <note>Accessibility label for close button that dismisses the welcome onboarding screen. Placeholder is for the app name.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Welcome.Description.TreatementA.v120" xml:space="preserve">
         <source>Our non-profit backed browser helps stop companies from secretly following you around the web.</source>
@@ -4091,10 +4086,6 @@ Private Tab</source>
       <trans-unit id="Onboarding.Welcome.Skip.v114" xml:space="preserve">
         <source>Skip</source>
         <note>Describes the action on the first onboarding page in our Onboarding screen. This string will be on a button so user can skip this onboarding card.</note>
-      </trans-unit>
-      <trans-unit id="Onboarding.Welcome.Title.TreatementA.v114" xml:space="preserve">
-        <source>Make %@ your go-to browser</source>
-        <note>String used to describes the title of what Firefox is on the welcome onboarding page for current version in our Onboarding screens. Placeholder is for the app name.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Welcome.Title.TreatementA.v120" xml:space="preserve">
         <source>We love keeping you safe</source>
@@ -4183,6 +4174,10 @@ Private Tab</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="14.0.1" build-num="14A400"/>
     </header>
     <body>
+      <trans-unit id="CreditCard.Settings.AddCard.AccessibilityLabel.v121" xml:space="preserve">
+        <source>Add Card</source>
+        <note>Accessibility label for the add button in autofill settings screen. Pressing this button presents a modal that allows users to add a card by entering the credit card information.</note>
+      </trans-unit>
       <trans-unit id="CreditCard.Settings.EmptyListDescription.v112" xml:space="preserve">
         <source>Save your card information securely to check out faster next time.</source>
         <note>Description label for when there are no credit cards shown in credit card list in autofill settings screen.</note>
@@ -4267,6 +4262,34 @@ Private Tab</source>
         <source>Turn on Notifications</source>
         <note>This is the title informing the user needs to turn on notifications in iOS Settings.</note>
       </trans-unit>
+      <trans-unit id="Settings.Search.Accessibility.DefaultSearchEngine.v121" xml:space="preserve">
+        <source>Default Search Engine</source>
+        <note>Accessibility label for default search engine setting.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.DefaultSearchEngine.Title.v121" xml:space="preserve">
+        <source>Default Search Engine</source>
+        <note>Title for the `default search engine` settings section in the Search page in the Settings menu.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.PageTitle.v121" xml:space="preserve">
+        <source>Search</source>
+        <note>Navigation title for search page in the Settings menu.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.PrivateSession.Setting.v121" xml:space="preserve">
+        <source>Turn off suggestions in private browsing</source>
+        <note>Label for toggle. Explains that in private browsing mode, the search suggestions which appears at the top of the search bar, can be toggled on or off. Located in the Private Session section in the Search page in the Settings menu.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.PrivateSession.Title.v121" xml:space="preserve">
+        <source>Private Session</source>
+        <note>Title for the `Private Session` settings section in the Search page in the Settings menu.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.QuickEnginesTitle.v121" xml:space="preserve">
+        <source>Quick-Search Engines</source>
+        <note>Title for quick-search engines settings section in the Search page in the Settings menu.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.ShowSuggestions.v121" xml:space="preserve">
+        <source>Show Search Suggestions</source>
+        <note>Label for the `show search suggestions` setting, in the Search Settings page.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Shared/Supporting Files/en.lproj/Share.strings" source-language="en" target-language="te" datatype="plaintext">
@@ -4305,8 +4328,20 @@ Private Tab</source>
         <source>Are these reviews reliable? Check now to see an adjusted rating.</source>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one appears after the user has opted in and informs him if he wants use the review checker by tapping the Shopping button.</note>
       </trans-unit>
+      <trans-unit id="Shopping.AdCard.Footer.v121" xml:space="preserve">
+        <source>Ad by %@</source>
+        <note>Footer label from the Fakespot Ad card displayed for the related product we advertise. This is displayed below the ad card, suggested as an alternative to the product reviewed. The first parameter will be replaced by the Fakespot app name</note>
+      </trans-unit>
+      <trans-unit id="Shopping.AdCard.Title.v121" xml:space="preserve">
+        <source>More to consider</source>
+        <note>Title label for the Fakespot Ad card. This is displayed above a product image, suggested as an alternative to the product reviewed.</note>
+      </trans-unit>
       <trans-unit id="Shopping.AdjustedRating.Description.v120" xml:space="preserve">
         <source>Unreliable reviews removed</source>
+        <note>Description adjusted of the rating card displayed in the shopping review quality bottom sheet.</note>
+      </trans-unit>
+      <trans-unit id="Shopping.AdjustedRating.Description.v121" xml:space="preserve">
+        <source>Based on reliable reviews</source>
         <note>Description adjusted of the rating card displayed in the shopping review quality bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.AdjustedRating.StarsAccessibilityLabel.v120" xml:space="preserve">
@@ -4365,6 +4400,14 @@ Private Tab</source>
         <source>Can’t Check These Reviews</source>
         <note>Title for info card when Fakespot cannot analyze reviews for a certain product type</note>
       </trans-unit>
+      <trans-unit id="Shopping.InfoCard.InfoComingSoon.Description.v121" xml:space="preserve">
+        <source>We should have info about this product’s reviews within 24 hours. Please check back.</source>
+        <note>Description text for an information card used in the review checker section. This message is displayed when the reviews for a product are not yet available but are expected to be provided within the next 24 hours. It serves to inform users of the short wait for reviews and encourages them to return soon for the updated information.</note>
+      </trans-unit>
+      <trans-unit id="Shopping.InfoCard.InfoComingSoon.Title.v121" xml:space="preserve">
+        <source>Info Coming Soon</source>
+        <note>Title for an information card that is displayed in the review checker section when certain details about a product or feature are not currently available but are expected to be provided soon. The message should imply that the user can look forward to receiving more information shortly.</note>
+      </trans-unit>
       <trans-unit id="Shopping.InfoCard.NeedsAnalysis.PrimaryAction.v120" xml:space="preserve">
         <source>Check Now</source>
         <note>Primary action title for info card when the product needs analysis</note>
@@ -4389,6 +4432,18 @@ Private Tab</source>
         <source>Not Enough Reviews Yet</source>
         <note>Title for info card when there are not enough reviews for a product</note>
       </trans-unit>
+      <trans-unit id="Shopping.InfoCard.ProductNotInStock.Description.v121" xml:space="preserve">
+        <source>If you see this product is back in stock, report it and we’ll work on checking the reviews.</source>
+        <note>Description for the information card displayed by the review checker feature when the product the user is looking at is out of stock. This description is used for info card where the user can report if it's back in stock.</note>
+      </trans-unit>
+      <trans-unit id="Shopping.InfoCard.ProductNotInStock.PrimaryAction.v121" xml:space="preserve">
+        <source>Report Product Back in Stock</source>
+        <note>Primary action label for the information card displayed by the review checker feature when the product the user is looking at is out of stock. This primary action label is used for info card button where the user can report if it's back in stock.</note>
+      </trans-unit>
+      <trans-unit id="Shopping.InfoCard.ProductNotInStock.Title.v121" xml:space="preserve">
+        <source>Product Is Not Available</source>
+        <note>Title for the information card displayed by the review checker feature when the product the user is looking at is out of stock. This title is used for info card where the user can report if it's back in stock.</note>
+      </trans-unit>
       <trans-unit id="Shopping.InfoCard.ProgressAnalysis.Description.v120" xml:space="preserve">
         <source>This could take about 60 seconds.</source>
         <note>Description for info card when the product is in analysis mode</note>
@@ -4396,6 +4451,14 @@ Private Tab</source>
       <trans-unit id="Shopping.InfoCard.ProgressAnalysis.Title.v120" xml:space="preserve">
         <source>Checking review quality</source>
         <note>Title for info card when the product is in analysis mode</note>
+      </trans-unit>
+      <trans-unit id="Shopping.InfoCard.ReportSubmittedByCurrentUser.Description.v121" xml:space="preserve">
+        <source>We should have info about this product’s reviews within 24 hours. Please check back.</source>
+        <note>This description appears beneath the confirmation title on the information card to inform the user that their report regarding the product stock status has been received and is being processed. It serves to set the expectation that the review information will be updated within 24 hours and invites the user to revisit the product page for updates.</note>
+      </trans-unit>
+      <trans-unit id="Shopping.InfoCard.ReportSubmittedByCurrentUser.Title.v121" xml:space="preserve">
+        <source>Thanks for Reporting!</source>
+        <note>This title is displayed on the information card as a confirmation message after a user reports that a previously out-of-stock product is now available. It's meant to acknowledge the user's contribution and encourage community engagement by letting them know their report has been successfully submitted.</note>
       </trans-unit>
       <trans-unit id="Shopping.NoAnalysisCard.AnalyzerButton.Title.v120" xml:space="preserve">
         <source>Check Review Quality</source>
@@ -4417,9 +4480,9 @@ Private Tab</source>
         <source>Checking review quality</source>
         <note>Title for the card displayed when a shopping product has not been analysed yet but the analysis is in progress.</note>
       </trans-unit>
-      <trans-unit id="Shopping.OptInCard.Disclaimer.Title.v120" xml:space="preserve">
-        <source>By selecting “Yes, Try It” you agree to the %@:</source>
-        <note>Text for the disclaimer that appears beneath the rating image of the Shopping Experience Opt In onboarding Card (Fakespot). The parameter will be replaced by the Fakespot app name.</note>
+      <trans-unit id="Shopping.OptInCard.Disclaimer.Text.v120" xml:space="preserve">
+        <source>By selecting “Yes, Try It” you agree to the following from %@:</source>
+        <note>Text for the disclaimer that appears underneath the rating image of the Shopping Experience Opt In onboarding Card (Fakespot). The parameter will be replaced by the Fakespot app name. After the colon, what appears are two links, each on their own line. The first link is to a Privacy policy. The second link is to Terms of use.</note>
       </trans-unit>
       <trans-unit id="Shopping.OptInCard.FirstParagraph.Description.v120" xml:space="preserve">
         <source>See how reliable product reviews are on %1$@ before you buy. Review Checker, an experimental feature from %2$@, is built right into the browser. It works on %3$@ and %4$@, too.</source>
@@ -4544,6 +4607,10 @@ Private Tab</source>
       <trans-unit id="Shopping.Sheet.Beta.Title.v120" xml:space="preserve">
         <source>BETA</source>
         <note>Beta label for the header of the Shopping Experience (Fakespot) sheet</note>
+      </trans-unit>
+      <trans-unit id="Shopping.Sheet.Close.AccessibilityLabel.v121" xml:space="preserve">
+        <source>Close Review Checker</source>
+        <note>Accessibility label for close button that dismisses the Shopping Experience (Fakespot) sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.Sheet.Title.v120" xml:space="preserve">
         <source>Review Checker</source>
