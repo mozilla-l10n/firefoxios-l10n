@@ -19,11 +19,11 @@ jobs:
           - "15.0.1"
     steps:
       - name: Clone l10n repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: "l10n_repo"
       - name: Clone main code repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: "mozilla-mobile/firefox-ios"
           path: "code_repo"
@@ -33,7 +33,7 @@ jobs:
       - name: Set up Python 3
         uses: actions/setup-python@v4
         with:
-          python-version: "3.10"
+          python-version: "3.11"
       - name: Install Python dependencies
         run: |
           pip install -r l10n_repo/.github/scripts/requirements.txt
