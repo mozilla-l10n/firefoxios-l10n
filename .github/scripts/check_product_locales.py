@@ -16,7 +16,6 @@ from urllib.request import urlopen
 
 
 def getPontoonLocales(project_slug):
-
     query = f"""
 {{
   project: project(slug: "{project_slug}") {{
@@ -57,7 +56,7 @@ def getGithubLocales(repo, path):
     query = f"/repos/{repo}/contents/{path}"
     url = f"https://api.github.com{urlquote(query)}"
 
-    ignored_locales = ["en", "en-US"]
+    ignored_locales = ["Base", "en", "en-US"]
     locale_mapping = {
         # iOS locale: Pontoon locale
         "fil": "tl",
@@ -112,7 +111,7 @@ def main():
         "focus": {
             "name": "Focus for iOS",
             "github_repo": "mozilla-mobile/focus-ios",
-            "github_path": "Blockzilla",
+            "github_path": "focus-ios/Blockzilla",
             "pontoon_slug": "focus-for-ios",
         },
     }
@@ -124,12 +123,20 @@ def main():
     missing_locales = list(set(pontoon_locales) - set(github_locales))
     missing_locales.sort()
 
+    print(f"{project['name']}")
+    print(
+        f"Locales available in Pontoon ({len(pontoon_locales)}): {','.join(pontoon_locales)}"
+    )
+    print(
+        f"\nLocales available in GitHub ({len(github_locales)}): {','.join(github_locales)}"
+    )
+
     if missing_locales:
         sys.exit(
-            f"{project['name']}\nMissing locales in repository: {', '.join(missing_locales)}\n"
+            f"\nMissing locales in GitHub repository: {', '.join(missing_locales)}\n"
         )
     else:
-        print(f"{project['name']}\nNo missing locales\n")
+        print(f"\nNo missing locales\n")
 
 
 if __name__ == "__main__":
