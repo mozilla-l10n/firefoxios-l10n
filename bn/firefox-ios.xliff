@@ -11,7 +11,7 @@
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve">
-        <source>Firefox requires Face ID to access your saved logins and encrypted cards.</source>
+        <source>Firefox requires Face ID to access your saved passwords and payment methods.</source>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription" xml:space="preserve">
@@ -2202,7 +2202,7 @@
       </trans-unit>
       <trans-unit id="Settings.AutofillCreditCard.Title.v112" xml:space="preserve">
         <source>Autofill Credit Cards</source>
-        <note>Label used as an item in Settings screen. When touched, it will take user to credit card settings page to that will allows to add or modify saved credit cards to allow for autofill in a webpage.</note>
+        <note>Label used as an item in Settings screen. When touched, it will take user to credit card settings page to that will allows to add or modify saved credit cards to allow autofill in a webpage.</note>
       </trans-unit>
       <trans-unit id="Settings.ClearAllWebsiteData.Clear.Button" xml:space="preserve">
         <source>Clear All Website Data</source>
@@ -3292,6 +3292,26 @@
         <target>মুছে ফেলুন</target>
         <note>Label for the button used to delete the current login.</note>
       </trans-unit>
+      <trans-unit id="DeleteLoginAlert.DeleteButton.Cancel.v122" xml:space="preserve">
+        <source>Cancel</source>
+        <note>Prompt option for cancelling out of deletion</note>
+      </trans-unit>
+      <trans-unit id="DeleteLoginAlert.DeleteButton.Title.v122" xml:space="preserve">
+        <source>Remove</source>
+        <note>Label for the button used to delete the current login.</note>
+      </trans-unit>
+      <trans-unit id="DeleteLoginAlert.Message.Local.v122" xml:space="preserve">
+        <source>You cannot undo this action.</source>
+        <note>Prompt message warning the user that deleting non-synced logins will permanently remove them, when they attempt to do so</note>
+      </trans-unit>
+      <trans-unit id="DeleteLoginAlert.Message.Synced.v122" xml:space="preserve">
+        <source>This will remove the password from all of your synced devices.</source>
+        <note>Prompt message warning the user that deleted logins will remove logins from all connected devices</note>
+      </trans-unit>
+      <trans-unit id="DeleteLoginsAlert.Title.v122" xml:space="preserve">
+        <source>Remove Password?</source>
+        <note>Title for the prompt that appears when the user deletes a login.</note>
+      </trans-unit>
       <trans-unit id="Deselect All" xml:space="preserve">
         <source>Deselect All</source>
         <target>সবগুলো অনির্বাচিত করুন</target>
@@ -3325,6 +3345,10 @@
       <trans-unit id="No logins found" xml:space="preserve">
         <source>No logins found</source>
         <target>কোন লগইন পাওয়া যায়নি</target>
+        <note>Label displayed when no logins are found after searching.</note>
+      </trans-unit>
+      <trans-unit id="NoLoginsFound.Title.v122" xml:space="preserve">
+        <source>No passwords found</source>
         <note>Label displayed when no logins are found after searching.</note>
       </trans-unit>
       <trans-unit id="Open &amp; Fill" xml:space="preserve">
@@ -3714,6 +3738,10 @@ Private Tab</source>
         <source>Remove This Card?</source>
         <note>Title label for the dialog box that gets presented as a confirmation to ask user if they would like to remove the saved credit card</note>
       </trans-unit>
+      <trans-unit id="CreditCard.SnackBar.RemoveCardTitle.v122" xml:space="preserve">
+        <source>Remove Card?</source>
+        <note>Title label for the dialog box that gets presented as a confirmation to ask user if they would like to remove the saved credit card</note>
+      </trans-unit>
       <trans-unit id="CreditCard.SnackBar.RemovedCardButton.v112" xml:space="preserve">
         <source>Remove</source>
         <note>Button text to dismiss the dialog box that gets presented as a confirmation to to remove card and perform the operation of removing the credit card.</note>
@@ -3725,6 +3753,22 @@ Private Tab</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
     </header>
     <body>
+      <trans-unit id="Alerts.FeltDeletion.Body.v122" xml:space="preserve">
+        <source>Close all private tabs and delete history, cookies, and all other site data.</source>
+        <note>When tapping the fire icon in private mode, an alert comes up asking to confirm if you want to delete all browsing data and end your private session. This is the body text for the alert.</note>
+      </trans-unit>
+      <trans-unit id="Alerts.FeltDeletion.Button.Cancel.v122" xml:space="preserve">
+        <source>Cancel</source>
+        <note>When tapping the fire icon in private mode, an alert comes up asking to confirm if you want to delete all browsing data and end your private session. This is the cancel action for the alert, cancelling ending your session.</note>
+      </trans-unit>
+      <trans-unit id="Alerts.FeltDeletion.Button.Confirm.v122" xml:space="preserve">
+        <source>Delete session data</source>
+        <note>When tapping the fire icon in private mode, an alert comes up asking to confirm if you want to delete all browsing data and end your private session. This is the affirmative action for the alert, confirming that you do want to do that.</note>
+      </trans-unit>
+      <trans-unit id="Alerts.FeltDeletion.Title.v122" xml:space="preserve">
+        <source>End your private session?</source>
+        <note>When tapping the fire icon in private mode, an alert comes up asking to confirm if you want to delete all browsing data and end your private session. This is the title for the alert.</note>
+      </trans-unit>
       <trans-unit id="Alerts.RestoreTabs.Button.No.v109" xml:space="preserve">
         <source>No</source>
         <note>The title for the negative action of the restore tabs pop-up alert. This alert shows when opening up Firefox after it crashed, and will reject the action of restoring tabs.</note>
@@ -3751,6 +3795,10 @@ Private Tab</source>
       <trans-unit id="Biometry.Screen.UniversalAuthenticationReason.v115" xml:space="preserve">
         <source>Authenticate to access passwords.</source>
         <note>Biometric authentication is when the system prompts users for Face ID or fingerprint before accessing protected information. This string asks the user to enter their device passcode to access the protected screen.</note>
+      </trans-unit>
+      <trans-unit id="Biometry.Screen.UniversalAuthenticationReason.v122" xml:space="preserve">
+        <source>Authenticate to access your saved passwords and payment methods.</source>
+        <note>Biometric authentication is when the system prompts users for Face ID or fingerprint before accessing protected information. This string asks the user to enter their device passcode to access the protected screen for logins and encrypted cards.</note>
       </trans-unit>
       <trans-unit id="Biometry.Screen.UniversalAuthenticationReasonV2.v116" xml:space="preserve">
         <source>Authenticate to access your saved logins and encrypted cards.</source>
@@ -3797,6 +3845,51 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
+  <file original="Shared/Supporting Files/en.lproj/ContextualHints.strings" datatype="plaintext" source-language="en" target-language="bn">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
+    </header>
+    <body>
+      <trans-unit id="ContextualHints.FeltDeletion.Body.v122" xml:space="preserve">
+        <source>Tap here to start a fresh private session. Delete your history, cookies — everything.</source>
+        <note>Contextual hints are little popups that appear for the users informing them of new features. This is a call to action for the popup that appears to educate users about what the fire button in the toolbar does, when in private mode.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/CredentialProvider.strings" datatype="plaintext" source-language="en" target-language="bn">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
+    </header>
+    <body>
+      <trans-unit id="LoginsList.NoLoginsFound.Description.v122" xml:space="preserve">
+        <source>The passwords you save or sync to %@ will be listed here. All passwords you save are encrypted.</source>
+        <note>Label shown when there are no logins to list. The placeholder will be replaced with the app name.</note>
+      </trans-unit>
+      <trans-unit id="LoginsList.NoLoginsFound.Title.v122" xml:space="preserve">
+        <source>No passwords saved</source>
+        <note>Label shown when there are no logins saved in the passwords list</note>
+      </trans-unit>
+      <trans-unit id="LoginsList.NoMatchingResult.Title.v122" xml:space="preserve">
+        <source>No passwords found</source>
+        <note>Label displayed when a user searches for an item, and no matches can be found against the search query</note>
+      </trans-unit>
+      <trans-unit id="LoginsList.Search.Placeholder.v122" xml:space="preserve">
+        <source>Search passwords</source>
+        <note>Placeholder text for search field in the credential provider list</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/Credentials.strings" datatype="plaintext" source-language="en" target-language="bn">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
+    </header>
+    <body>
+      <trans-unit id="Logins.DevicePasscodeRequired.Message.v122" xml:space="preserve">
+        <source>To save and automatically fill passwords, enable Face ID, Touch ID, or a device passcode.</source>
+        <note>Message shown when you enter Logins &amp; Passwords without having a device passcode set.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Shared/Supporting Files/en.lproj/CustomizeFirefoxHome.strings" source-language="en" target-language="bn" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
@@ -3832,6 +3925,10 @@ Private Tab</source>
         <source>Edit Credit Card</source>
         <note>Title label for the view where user can edit their credit card info</note>
       </trans-unit>
+      <trans-unit id="CreditCard.EditCard.EditCreditCardTitle.v122" xml:space="preserve">
+        <source>Edit Card</source>
+        <note>Title label for the view where user can edit their credit card info</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Shared/Supporting Files/en.lproj/EditCard.strings" source-language="en" target-language="bn" datatype="plaintext">
@@ -3841,6 +3938,10 @@ Private Tab</source>
     <body>
       <trans-unit id="CreditCard.EditCard.AddCreditCardTitle.v113" xml:space="preserve">
         <source>Add Credit Card</source>
+        <note>Title label for the view where user can add their credit card info</note>
+      </trans-unit>
+      <trans-unit id="CreditCard.EditCard.AddCreditCardTitle.v122" xml:space="preserve">
+        <source>Add Card</source>
         <note>Title label for the view where user can add their credit card info</note>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.CancelNavBarButtonLabel.v113" xml:space="preserve">
@@ -3901,6 +4002,10 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.ToggleToAllowAutofillTitle.v112" xml:space="preserve">
         <source>Save and Autofill Cards</source>
+        <note>Title label for user to use the toggle settings to allow saving and autofilling of credit cards for webpages.</note>
+      </trans-unit>
+      <trans-unit id="CreditCard.EditCard.ToggleToAllowAutofillTitle.v122" xml:space="preserve">
+        <source>Save and Fill Payment Methods</source>
         <note>Title label for user to use the toggle settings to allow saving and autofilling of credit cards for webpages.</note>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.ViewCreditCardTitle.v116" xml:space="preserve">
@@ -3964,17 +4069,52 @@ Private Tab</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
     </header>
     <body>
-      <trans-unit id="FeltPrivacyUI.Body.v121" xml:space="preserve">
-        <source>%@ deletes your cookies, history, and site data when you close all your private windows.</source>
+      <trans-unit id="FirefoxHomepage.FeltDeletion.Link.v122" xml:space="preserve">
+        <source>Private Browsing Data Erased</source>
+        <note>When the user ends their private session, they are returned to the private mode homepage, and a toastbar popups confirming that their data has been erased. This is the label for that toast.</note>
+      </trans-unit>
+      <trans-unit id="FirefoxHomepage.FeltPrivacyUI.Body.v122" xml:space="preserve">
+        <source>%@ deletes your cookies, history, and site data when you close all your private tabs.</source>
         <note>The body of the message for the card that educates users about how private mode works. The card shows up on the homepage when in the new privacy mode. Placeholder refers to app name.</note>
       </trans-unit>
-      <trans-unit id="FeltPrivacyUI.Link.v121" xml:space="preserve">
+      <trans-unit id="FirefoxHomepage.FeltPrivacyUI.Link.v122" xml:space="preserve">
         <source>Who might be able to see my activity?</source>
         <note>The link for the card that educates users about how private mode works. The link redirects to an external site for more information. The card shows up on the homepage when in the new privacy mode.</note>
       </trans-unit>
-      <trans-unit id="FeltPrivacyUI.Title.v121" xml:space="preserve">
+      <trans-unit id="FirefoxHomepage.FeltPrivacyUI.Title.v122" xml:space="preserve">
         <source>Leave no traces on this device</source>
         <note>The title for the card that educates users about how private mode works. The card shows up on the homepage when in the new privacy mode.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/FirefoxLogins.strings" datatype="plaintext" source-language="en" target-language="bn">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
+    </header>
+    <body>
+      <trans-unit id="LoginsHelper.PromptSaveLogin.Title.v122" xml:space="preserve">
+        <source>Save username?</source>
+        <note>Prompt for saving the username in the Save Logins prompt.</note>
+      </trans-unit>
+      <trans-unit id="LoginsHelper.PromptSavePassword.Title.v122" xml:space="preserve">
+        <source>Save password?</source>
+        <note>Prompt for saving a password in the Save Logins prompt.</note>
+      </trans-unit>
+      <trans-unit id="LoginsHelper.PromptUpdateLogin.Title.OneArg.v122" xml:space="preserve">
+        <source>Update password?</source>
+        <note>Prompt for updating the password in the Update Password prompt.</note>
+      </trans-unit>
+      <trans-unit id="LoginsHelper.PromptUpdateLogin.Title.TwoArg.v122" xml:space="preserve">
+        <source>Update password?</source>
+        <note>Prompt for updating a password in the Update Password prompt.</note>
+      </trans-unit>
+      <trans-unit id="LoginsList.LoginsListSearchPlaceholder.v122" xml:space="preserve">
+        <source>Search passwords</source>
+        <note>Placeholder text for search box in logins list view.</note>
+      </trans-unit>
+      <trans-unit id="LoginsList.Title.v122" xml:space="preserve">
+        <source>SAVED PASSWORDS</source>
+        <note>Title for the list of logins saved by the app</note>
       </trans-unit>
     </body>
   </file>
@@ -3986,6 +4126,14 @@ Private Tab</source>
       <trans-unit id="FirefoxSync.CreditCardsEngine.v115" xml:space="preserve">
         <source>Credit Cards</source>
         <note>Toggle for credit cards syncing setting</note>
+      </trans-unit>
+      <trans-unit id="FirefoxSync.CreditCardsEngine.v122" xml:space="preserve">
+        <source>Payment Methods</source>
+        <note>Toggle for credit cards syncing setting</note>
+      </trans-unit>
+      <trans-unit id="Sync.LoginsEngine.Title.v122" xml:space="preserve">
+        <source>Passwords</source>
+        <note>Toggle passwords syncing setting, in the Settings &gt; Sync Data menu of the app.</note>
       </trans-unit>
     </body>
   </file>
@@ -4016,6 +4164,25 @@ Private Tab</source>
       <trans-unit id="ContextualHints.FirefoxHomepage.JumpBackIn.SyncedTab.v106" xml:space="preserve">
         <source>Your tabs are syncing! Pick up where you left off on your other device.</source>
         <note>Contextual hints are little popups that appear for the users informing them of new features. When a user is logged in and has a tab synced from desktop, this popup indicates which tab that is within the Jump Back In section.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/LoginsHelper.strings" datatype="plaintext" source-language="en" target-language="bn">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
+    </header>
+    <body>
+      <trans-unit id="LoginsHelper.DontSave.Button.v122" xml:space="preserve">
+        <source>Now Now</source>
+        <note>Button to not save the user's password in the logins helper</note>
+      </trans-unit>
+      <trans-unit id="LoginsHelper.DontUpdate.Button.v122" xml:space="preserve">
+        <source>Now Now</source>
+        <note>Button to not update the user's password in the logins helper</note>
+      </trans-unit>
+      <trans-unit id="LoginsHelper.SaveLogin.Button.v122" xml:space="preserve">
+        <source>Save</source>
+        <note>Button to save the user's password</note>
       </trans-unit>
     </body>
   </file>
@@ -4174,12 +4341,24 @@ Private Tab</source>
         <source>Save your card information securely with %@ to check out faster next time.</source>
         <note>This value is used as the header for the remember card page. The placeholder is for the app name.</note>
       </trans-unit>
+      <trans-unit id="CreditCard.RememberCard.Header.v122" xml:space="preserve">
+        <source>%@ encrypts your card number. Your security code won’t be saved.</source>
+        <note>This value is used as the header for the remember card page. The placeholder is for the app name.</note>
+      </trans-unit>
       <trans-unit id="CreditCard.RememberCard.MainButtonTitle.v115" xml:space="preserve">
         <source>Yes</source>
         <note>This value is used as the title for the Yes button in the remember credit card page</note>
       </trans-unit>
+      <trans-unit id="CreditCard.RememberCard.MainButtonTitle.v122" xml:space="preserve">
+        <source>Save</source>
+        <note>This value is used as the title for the Yes button in the remember credit card page</note>
+      </trans-unit>
       <trans-unit id="CreditCard.RememberCard.MainTitle.v115" xml:space="preserve">
         <source>Remember this card?</source>
+        <note>This value is used as the title for the remember credit card page</note>
+      </trans-unit>
+      <trans-unit id="CreditCard.RememberCard.MainTitle.v122" xml:space="preserve">
+        <source>Securely save this card?</source>
         <note>This value is used as the title for the remember credit card page</note>
       </trans-unit>
       <trans-unit id="CreditCard.RememberCard.SecondaryButtonTitle.v115" xml:space="preserve">
@@ -4235,6 +4414,10 @@ Private Tab</source>
         <source>Use a saved card?</source>
         <note>This value is used as the title for the select a credit card from list of available cards.</note>
       </trans-unit>
+      <trans-unit id="CreditCard.SelectCreditCard.MainTitle.v122" xml:space="preserve">
+        <source>Use saved card</source>
+        <note>This value is used as the title for the select a credit card from list of available cards.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Shared/Supporting Files/en.lproj/Settings.strings" source-language="en" target-language="bn" datatype="plaintext">
@@ -4254,6 +4437,10 @@ Private Tab</source>
         <source>Save Credit Cards to %@</source>
         <note>Title label for when there are no credit cards shown in credit card list in autofill settings screen. %@ is the product name and should not be altered.</note>
       </trans-unit>
+      <trans-unit id="CreditCard.Settings.EmptyListTitle.v122" xml:space="preserve">
+        <source>Save Cards to %@</source>
+        <note>Title label for when there are no credit cards shown in credit card list in autofill settings screen. %@ is the product name and should not be altered.</note>
+      </trans-unit>
       <trans-unit id="CreditCard.Settings.ListItemA11y.v118" xml:space="preserve">
         <source>%1$@, issued to %2$@, ending in %3$@, expires %4$@</source>
         <note>Accessibility label for a credit card list item in autofill settings screen. The first parameter is the credit card issuer (e.g. Visa). The second parameter is is the name of the credit card holder. The third parameter is the last 4 digits of the credit card. The fourth parameter is the card's expiration date.</note>
@@ -4262,16 +4449,32 @@ Private Tab</source>
         <source>Not now</source>
         <note>When a user is in the process or has finished making a purchase with a card not saved in Firefox's list of stored cards, we ask the user if they would like to save this card for future purchases. This string indicates to users that they can deny Firefox from remembering the card that is being used.</note>
       </trans-unit>
+      <trans-unit id="CreditCard.Settings.NotNow.v122" xml:space="preserve">
+        <source>Not Now</source>
+        <note>When a user is in the process or has finished making a purchase with a card not saved in Firefox's list of stored cards, we ask the user if they would like to save this card for future purchases. This string indicates to users that they can deny Firefox from remembering the card that is being used.</note>
+      </trans-unit>
       <trans-unit id="CreditCard.Settings.RememberThisCard.v112" xml:space="preserve">
         <source>Remember this card?</source>
+        <note>When a user is in the process or has finished making a purchase with a card not saved in Firefox's list of stored cards, we ask the user if they would like to save this card for future purchases. This string is a title string of the overall message that asks the user if they would like Firefox to remember the card that is being used.</note>
+      </trans-unit>
+      <trans-unit id="CreditCard.Settings.RememberThisCard.v122" xml:space="preserve">
+        <source>Securely save this card?</source>
         <note>When a user is in the process or has finished making a purchase with a card not saved in Firefox's list of stored cards, we ask the user if they would like to save this card for future purchases. This string is a title string of the overall message that asks the user if they would like Firefox to remember the card that is being used.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.UpdateThisCard.v112" xml:space="preserve">
         <source>Update this card?</source>
         <note>When a user is in the process or has finished making a purchase with a remembered card, and if the credit card information doesn't match the contents of the stored information of that card, we show this string. We ask this user if they would like Firefox update the staled information of that credit card.</note>
       </trans-unit>
+      <trans-unit id="CreditCard.Settings.UpdateThisCard.v122" xml:space="preserve">
+        <source>Update card?</source>
+        <note>When a user is in the process or has finished making a purchase with a remembered card, and if the credit card information doesn't match the contents of the stored information of that card, we show this string. We ask this user if they would like Firefox update the staled information of that credit card.</note>
+      </trans-unit>
       <trans-unit id="CreditCard.Settings.Yes.v112" xml:space="preserve">
         <source>Yes</source>
+        <note>When a user is in the process or has finished making a purchase with a card not saved in Firefox's list of stored cards, we ask the user if they would like to save this card for future purchases. This string asks users to confirm if they would like Firefox to remember the card that is being used.</note>
+      </trans-unit>
+      <trans-unit id="CreditCard.Settings.Yes.v122" xml:space="preserve">
+        <source>Update</source>
         <note>When a user is in the process or has finished making a purchase with a card not saved in Firefox's list of stored cards, we ask the user if they would like to save this card for future purchases. This string asks users to confirm if they would like Firefox to remember the card that is being used.</note>
       </trans-unit>
       <trans-unit id="CreditCards.Settings.Done.v114" xml:space="preserve">
@@ -4286,6 +4489,10 @@ Private Tab</source>
         <source>Use a saved card?</source>
         <note>When a user is in the process of making a purchase, and has at least one saved card, we show this label used as a title. This indicates to the user that there are stored cards available for use on this pending purchase.</note>
       </trans-unit>
+      <trans-unit id="CreditCards.Settings.UseASavedCard.v122" xml:space="preserve">
+        <source>Use saved card</source>
+        <note>When a user is in the process of making a purchase, and has at least one saved card, we show this label used as a title. This indicates to the user that there are stored cards available for use on this pending purchase.</note>
+      </trans-unit>
       <trans-unit id="CreditCards.Settings.UseSavedCardFromKeyboard.v112" xml:space="preserve">
         <source>Use saved card</source>
         <note>When a user is in the process of making a purchase, and has at least one saved card, we show this label inside the keyboard hint. This indicates to the user that there are stored cards available for use on this pending purchase.</note>
@@ -4293,6 +4500,10 @@ Private Tab</source>
       <trans-unit id="FxA.FirefoxAccount.v119" xml:space="preserve">
         <source>Account</source>
         <note>Settings section title for the old Firefox account</note>
+      </trans-unit>
+      <trans-unit id="Settings.AutofillCreditCard.Title.v122" xml:space="preserve">
+        <source>Payment Methods</source>
+        <note>Label used as an item in Settings screen. When touched, it will take user to credit card settings page to that will allows to add or modify saved credit cards to allow for autofill in a webpage.</note>
       </trans-unit>
       <trans-unit id="Settings.FxA.Title.v119" xml:space="preserve">
         <source>Account</source>
@@ -4342,13 +4553,13 @@ Private Tab</source>
         <source>Search</source>
         <note>Navigation title for search page in the Settings menu.</note>
       </trans-unit>
-      <trans-unit id="Settings.Search.PrivateSession.Setting.v121" xml:space="preserve">
-        <source>Turn off suggestions in private browsing</source>
+      <trans-unit id="Settings.Search.PrivateSession.Setting.v122" xml:space="preserve">
+        <source>Show Suggestions in Private Browsing</source>
         <note>Label for toggle. Explains that in private browsing mode, the search suggestions which appears at the top of the search bar, can be toggled on or off. Located in the Private Session section in the Search page in the Settings menu.</note>
       </trans-unit>
-      <trans-unit id="Settings.Search.PrivateSession.Title.v121" xml:space="preserve">
-        <source>Private Session</source>
-        <note>Title for the `Private Session` settings section in the Search page in the Settings menu.</note>
+      <trans-unit id="Settings.Search.PrivateSession.Title.v122" xml:space="preserve">
+        <source>Private Browsing</source>
+        <note>Title for the `Private Browsing` settings section in the Search page in the Settings menu.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.QuickEnginesTitle.v121" xml:space="preserve">
         <source>Quick-Search Engines</source>
@@ -4715,6 +4926,10 @@ Private Tab</source>
         <source>Card Information updated</source>
         <note>Label text that gets presented as a confirmation at the bottom of screen when credit card information gets updated successfully</note>
       </trans-unit>
+      <trans-unit id="CreditCard.SnackBar.UpdatedCardLabel.v122" xml:space="preserve">
+        <source>Card Information Updated</source>
+        <note>Label text that gets presented as a confirmation at the bottom of screen when credit card information gets updated successfully</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Shared/Supporting Files/en.lproj/TabLocation.strings" source-language="en" target-language="bn" datatype="plaintext">
@@ -4738,13 +4953,33 @@ Private Tab</source>
         <source>Secure connection</source>
         <note>Accessibility label for the security icon in url bar</note>
       </trans-unit>
+      <trans-unit id="TabLocation.LockButton.AccessibilityLabel.v122" xml:space="preserve">
+        <source>Tracking Protection</source>
+        <note>Accessibility label for the lock / tracking protection button on the URL bar</note>
+      </trans-unit>
+      <trans-unit id="TabLocation.LockButton.LargeContentTitle.v122" xml:space="preserve">
+        <source>Tracking Protection</source>
+        <note>Large content title for the lock button. This title is displayed when accessible font sizes are enabled</note>
+      </trans-unit>
       <trans-unit id="TabLocation.Share.A11y.Label.v119" xml:space="preserve">
         <source>Share this page</source>
         <note>Accessibility label for the share button in url bar</note>
       </trans-unit>
+      <trans-unit id="TabLocation.ShareButton.AccessibilityLabel.v122" xml:space="preserve">
+        <source>Share</source>
+        <note>Large content title for the share button. This title is displayed when using accessible font sizes is enabled</note>
+      </trans-unit>
       <trans-unit id="TabLocation.Shopping.A11y.Label.v120" xml:space="preserve">
         <source>Review Checker</source>
         <note>Accessibility label for the shopping button in url bar</note>
+      </trans-unit>
+      <trans-unit id="TabsButton.Accessibility.LargeContentTitle.v122" xml:space="preserve">
+        <source>Show Tabs: %@</source>
+        <note>Large content title for the tabs button. The argument is the number of open tabs or an infinity symbol. This title is displayed when using accessible font sizes is enabled.</note>
+      </trans-unit>
+      <trans-unit id="TopSites.RemoveButton.LargeContentTitle.v122" xml:space="preserve">
+        <source>Remove page</source>
+        <note>Large content title for the button shown in editing mode to remove this site from the top sites panel.</note>
       </trans-unit>
     </body>
   </file>
@@ -4811,6 +5046,10 @@ Private Tab</source>
         <source>Update this card?</source>
         <note>This value is used as the title for the update card page</note>
       </trans-unit>
+      <trans-unit id="CreditCard.UpdateCard.MainTitle.v122" xml:space="preserve">
+        <source>Update card?</source>
+        <note>This value is used as the title for the update card page</note>
+      </trans-unit>
       <trans-unit id="CreditCard.UpdateCard.ManageCardsButtonTitle.v115" xml:space="preserve">
         <source>Manage cards</source>
         <note>This value is used as the title for the Manage Cards button from the update credit card page</note>
@@ -4822,6 +5061,10 @@ Private Tab</source>
       <trans-unit id="CreditCard.UpdateCard.YesButtonTitle.v115" xml:space="preserve">
         <source>Yes</source>
         <note>This value is used as the title for the button in the update credit card page</note>
+      </trans-unit>
+      <trans-unit id="CreditCard.UpdateCard.YesButtonTitle.v122" xml:space="preserve">
+        <source>Update</source>
+        <note>This value is used as the title for the button in the update credit card page. It indicates the action to update the details f9 the card.</note>
       </trans-unit>
     </body>
   </file>
