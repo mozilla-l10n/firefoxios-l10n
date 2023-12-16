@@ -12,7 +12,7 @@
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve">
         <source>Firefox requires Face ID to access your saved passwords and payment methods.</source>
-        <target>Firefox 需要進行 Face ID 才能存取您儲存的密碼與加密過的付款方式資訊。</target>
+        <target>Firefox 需要進行 Face ID 才能存取您儲存的密碼與付款方式資訊。</target>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription" xml:space="preserve">
@@ -3948,6 +3948,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Biometry.Screen.UniversalAuthenticationReason.v122" xml:space="preserve">
         <source>Authenticate to access your saved passwords and payment methods.</source>
+        <target>驗證後即可存取您儲存的密碼與付款方式資訊。</target>
         <note>Biometric authentication is when the system prompts users for Face ID or fingerprint before accessing protected information. This string asks the user to enter their device passcode to access the protected screen for logins and encrypted cards.</note>
       </trans-unit>
       <trans-unit id="Biometry.Screen.UniversalAuthenticationReasonV2.v116" xml:space="preserve">
@@ -4003,6 +4004,7 @@ Private Tab</source>
     <body>
       <trans-unit id="ContextualHints.FeltDeletion.Body.v122" xml:space="preserve">
         <source>Tap here to start a fresh private session. Delete your history, cookies — everything.</source>
+        <target>點擊此處即可開啟新的隱私瀏覽階段。清除瀏覽紀錄、Cookie 等一切上網資料。</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This is a call to action for the popup that appears to educate users about what the fire button in the toolbar does, when in private mode.</note>
       </trans-unit>
     </body>
@@ -4014,6 +4016,7 @@ Private Tab</source>
     <body>
       <trans-unit id="LoginsList.NoLoginsFound.Description.v122" xml:space="preserve">
         <source>The passwords you save or sync to %@ will be listed here. All passwords you save are encrypted.</source>
+        <target>您儲存或同步到 %@ 的密碼將顯示於此處，所有儲存的密碼資訊都會被加密。</target>
         <note>Label shown when there are no logins to list. The placeholder will be replaced with the app name.</note>
       </trans-unit>
       <trans-unit id="LoginsList.NoLoginsFound.Title.v122" xml:space="preserve">
@@ -4040,6 +4043,7 @@ Private Tab</source>
     <body>
       <trans-unit id="Logins.DevicePasscodeRequired.Message.v122" xml:space="preserve">
         <source>To save and automatically fill passwords, enable Face ID, Touch ID, or a device passcode.</source>
+        <target>若要儲存並自動填寫網站密碼，請先開啟 Face ID、Touch ID 或裝置解鎖碼任一種保護機制。</target>
         <note>Message shown when you enter Logins &amp; Passwords without having a device passcode set.</note>
       </trans-unit>
     </body>
@@ -4085,6 +4089,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.EditCreditCardTitle.v122" xml:space="preserve">
         <source>Edit Card</source>
+        <target>編輯卡片</target>
         <note>Title label for the view where user can edit their credit card info</note>
       </trans-unit>
     </body>
@@ -4284,18 +4289,22 @@ Private Tab</source>
     <body>
       <trans-unit id="LoginsHelper.PromptSaveLogin.Title.v122" xml:space="preserve">
         <source>Save username?</source>
+        <target>要儲存使用者名稱嗎？</target>
         <note>Prompt for saving the username in the Save Logins prompt.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSavePassword.Title.v122" xml:space="preserve">
         <source>Save password?</source>
+        <target>要儲存密碼嗎？</target>
         <note>Prompt for saving a password in the Save Logins prompt.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title.OneArg.v122" xml:space="preserve">
         <source>Update password?</source>
+        <target>要更新密碼嗎？</target>
         <note>Prompt for updating the password in the Update Password prompt.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title.TwoArg.v122" xml:space="preserve">
         <source>Update password?</source>
+        <target>要更新密碼嗎？</target>
         <note>Prompt for updating a password in the Update Password prompt.</note>
       </trans-unit>
       <trans-unit id="LoginsList.LoginsListSearchPlaceholder.v122" xml:space="preserve">
@@ -4305,6 +4314,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="LoginsList.Title.v122" xml:space="preserve">
         <source>SAVED PASSWORDS</source>
+        <target>儲存的密碼</target>
         <note>Title for the list of logins saved by the app</note>
       </trans-unit>
     </body>
@@ -4372,10 +4382,12 @@ Private Tab</source>
     <body>
       <trans-unit id="LoginsHelper.DontSave.Button.v122" xml:space="preserve">
         <source>Now Now</source>
+        <target>現在不要</target>
         <note>Button to not save the user's password in the logins helper</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.DontUpdate.Button.v122" xml:space="preserve">
         <source>Now Now</source>
+        <target>現在不要</target>
         <note>Button to not update the user's password in the logins helper</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.SaveLogin.Button.v122" xml:space="preserve">
@@ -4576,6 +4588,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.RememberCard.Header.v122" xml:space="preserve">
         <source>%@ encrypts your card number. Your security code won’t be saved.</source>
+        <target>%@ 會加密您的卡號，且不會儲存安全碼。</target>
         <note>This value is used as the header for the remember card page. The placeholder is for the app name.</note>
       </trans-unit>
       <trans-unit id="CreditCard.RememberCard.MainButtonTitle.v115" xml:space="preserve">
@@ -4595,6 +4608,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.RememberCard.MainTitle.v122" xml:space="preserve">
         <source>Securely save this card?</source>
+        <target>要安全地儲存這張卡片的資料嗎？</target>
         <note>This value is used as the title for the remember credit card page</note>
       </trans-unit>
       <trans-unit id="CreditCard.RememberCard.SecondaryButtonTitle.v115" xml:space="preserve">
@@ -4687,6 +4701,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.EmptyListTitle.v122" xml:space="preserve">
         <source>Save Cards to %@</source>
+        <target>將卡片資訊儲存至 %@</target>
         <note>Title label for when there are no credit cards shown in credit card list in autofill settings screen. %@ is the product name and should not be altered.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.ListItemA11y.v118" xml:space="preserve">
@@ -4711,6 +4726,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.RememberThisCard.v122" xml:space="preserve">
         <source>Securely save this card?</source>
+        <target>要安全地儲存這張卡片的資料嗎？</target>
         <note>When a user is in the process or has finished making a purchase with a card not saved in Firefox's list of stored cards, we ask the user if they would like to save this card for future purchases. This string is a title string of the overall message that asks the user if they would like Firefox to remember the card that is being used.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.UpdateThisCard.v112" xml:space="preserve">
@@ -4720,6 +4736,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.UpdateThisCard.v122" xml:space="preserve">
         <source>Update card?</source>
+        <target>要更新卡片資訊嗎？</target>
         <note>When a user is in the process or has finished making a purchase with a remembered card, and if the credit card information doesn't match the contents of the stored information of that card, we show this string. We ask this user if they would like Firefox update the staled information of that credit card.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.Yes.v112" xml:space="preserve">
@@ -4729,6 +4746,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.Yes.v122" xml:space="preserve">
         <source>Update</source>
+        <target>更新</target>
         <note>When a user is in the process or has finished making a purchase with a card not saved in Firefox's list of stored cards, we ask the user if they would like to save this card for future purchases. This string asks users to confirm if they would like Firefox to remember the card that is being used.</note>
       </trans-unit>
       <trans-unit id="CreditCards.Settings.Done.v114" xml:space="preserve">
@@ -4828,6 +4846,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.Search.PrivateSession.Setting.v122" xml:space="preserve">
         <source>Show Suggestions in Private Browsing</source>
+        <target>在隱私瀏覽模式中顯示搜尋建議</target>
         <note>Label for toggle. Explains that in private browsing mode, the search suggestions which appears at the top of the search bar, can be toggled on or off. Located in the Private Session section in the Search page in the Settings menu.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.PrivateSession.Title.v122" xml:space="preserve">
@@ -5345,6 +5364,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="TabsButton.Accessibility.LargeContentTitle.v122" xml:space="preserve">
         <source>Show Tabs: %@</source>
+        <target>顯示分頁：%@</target>
         <note>Large content title for the tabs button. The argument is the number of open tabs or an infinity symbol. This title is displayed when using accessible font sizes is enabled.</note>
       </trans-unit>
       <trans-unit id="TopSites.RemoveButton.LargeContentTitle.v122" xml:space="preserve">
@@ -5430,6 +5450,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.UpdateCard.MainTitle.v122" xml:space="preserve">
         <source>Update card?</source>
+        <target>要更新卡片資訊嗎？</target>
         <note>This value is used as the title for the update card page</note>
       </trans-unit>
       <trans-unit id="CreditCard.UpdateCard.ManageCardsButtonTitle.v115" xml:space="preserve">
