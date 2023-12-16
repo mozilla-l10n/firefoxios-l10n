@@ -96,7 +96,7 @@
     <body>
       <trans-unit id="Enter passcode" xml:space="preserve">
         <source>Enter passcode</source>
-        <target>Digitar senha</target>
+        <target>Inserir código de acesso</target>
         <note>Text displayed above the input field when changing the existing passcode</note>
       </trans-unit>
       <trans-unit id="Use your fingerprint to access Logins now." xml:space="preserve">
@@ -1414,7 +1414,7 @@
       </trans-unit>
       <trans-unit id="Logins.DevicePasscodeRequired.Message" xml:space="preserve">
         <source>To save and autofill logins and passwords, enable Face ID, Touch ID or a device passcode.</source>
-        <target>Para salvar e preencher automaticamente contas e senhas, ative o Face ID, Touch ID ou uma senha de dispositivo.</target>
+        <target>Para salvar e preencher automaticamente contas e senhas, ative o Face ID, Touch ID ou um código de acesso do dispositivo.</target>
         <note>Message shown when you enter Logins &amp; Passwords without having a device passcode set.</note>
       </trans-unit>
       <trans-unit id="Logins.Onboarding.ContinueButtonTitle" xml:space="preserve">
@@ -1429,7 +1429,7 @@
       </trans-unit>
       <trans-unit id="Logins.PasscodeRequirement.Warning" xml:space="preserve">
         <source>To use the AutoFill feature for Firefox, you must have a device passcode enabled.</source>
-        <target>Para usar o recurso de preenchimento automático do Firefox, você deve ter ativada uma senha de dispositivo.</target>
+        <target>Para usar o recurso de preenchimento automático do Firefox, você deve ter ativado um código de acesso do dispositivo.</target>
         <note>Warning message shown when you try to enable or use native AutoFill without a device passcode setup</note>
       </trans-unit>
       <trans-unit id="Logins.WelcomeView.Tagline" xml:space="preserve">
@@ -2719,7 +2719,7 @@
       </trans-unit>
       <trans-unit id="Settings.Passwords.OnboardingMessage.v103" xml:space="preserve">
         <source>Your passwords are now protected by Face ID, Touch ID or a device passcode.</source>
-        <target>Suas senhas agora estão protegidas por Face ID, Touch ID ou uma senha de dispositivo.</target>
+        <target>Suas senhas agora estão protegidas por Face ID, Touch ID ou um código de acesso do dispositivo.</target>
         <note>Message shown when you enter Passwords screen for the first time. It explains how password are protected in the Firefox for iOS application.</note>
       </trans-unit>
       <trans-unit id="Settings.Passwords.SavePasswords.v103" xml:space="preserve">
@@ -4382,10 +4382,12 @@ Private Tab</source>
     <body>
       <trans-unit id="LoginsHelper.DontSave.Button.v122" xml:space="preserve">
         <source>Now Now</source>
+        <target>Agora não</target>
         <note>Button to not save the user's password in the logins helper</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.DontUpdate.Button.v122" xml:space="preserve">
         <source>Now Now</source>
+        <target>Agora não</target>
         <note>Button to not update the user's password in the logins helper</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.SaveLogin.Button.v122" xml:space="preserve">
@@ -5362,6 +5364,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="TabsButton.Accessibility.LargeContentTitle.v122" xml:space="preserve">
         <source>Show Tabs: %@</source>
+        <target>Mostrar abas: %@</target>
         <note>Large content title for the tabs button. The argument is the number of open tabs or an infinity symbol. This title is displayed when using accessible font sizes is enabled.</note>
       </trans-unit>
       <trans-unit id="TopSites.RemoveButton.LargeContentTitle.v122" xml:space="preserve">
