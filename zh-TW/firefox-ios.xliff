@@ -12,6 +12,7 @@
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve">
         <source>Firefox requires Face ID to access your saved passwords and payment methods.</source>
+        <target>Firefox 需要進行 Face ID 才能存取您儲存的密碼與加密過的付款方式資訊。</target>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription" xml:space="preserve">
@@ -3435,14 +3436,17 @@
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.Message.Local.v122" xml:space="preserve">
         <source>You cannot undo this action.</source>
+        <target>無法復原此動作。</target>
         <note>Prompt message warning the user that deleting non-synced logins will permanently remove them, when they attempt to do so</note>
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.Message.Synced.v122" xml:space="preserve">
         <source>This will remove the password from all of your synced devices.</source>
+        <target>將從您所有進行同步的裝置中，刪除密碼。</target>
         <note>Prompt message warning the user that deleted logins will remove logins from all connected devices</note>
       </trans-unit>
       <trans-unit id="DeleteLoginsAlert.Title.v122" xml:space="preserve">
         <source>Remove Password?</source>
+        <target>要移除密碼嗎？</target>
         <note>Title for the prompt that appears when the user deletes a login.</note>
       </trans-unit>
       <trans-unit id="Deselect All" xml:space="preserve">
@@ -3875,6 +3879,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.SnackBar.RemoveCardTitle.v122" xml:space="preserve">
         <source>Remove Card?</source>
+        <target>要移除卡片嗎？</target>
         <note>Title label for the dialog box that gets presented as a confirmation to ask user if they would like to remove the saved credit card</note>
       </trans-unit>
       <trans-unit id="CreditCard.SnackBar.RemovedCardButton.v112" xml:space="preserve">
@@ -3891,6 +3896,7 @@ Private Tab</source>
     <body>
       <trans-unit id="Alerts.FeltDeletion.Body.v122" xml:space="preserve">
         <source>Close all private tabs and delete history, cookies, and all other site data.</source>
+        <target>關閉所有隱私分頁，並清除瀏覽紀錄、Cookie 及其他網站資料。</target>
         <note>When tapping the fire icon in private mode, an alert comes up asking to confirm if you want to delete all browsing data and end your private session. This is the body text for the alert.</note>
       </trans-unit>
       <trans-unit id="Alerts.FeltDeletion.Button.Cancel.v122" xml:space="preserve">
@@ -4095,6 +4101,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.AddCreditCardTitle.v122" xml:space="preserve">
         <source>Add Card</source>
+        <target>新增卡片</target>
         <note>Title label for the view where user can add their credit card info</note>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.CancelNavBarButtonLabel.v113" xml:space="preserve">
@@ -4174,6 +4181,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.ToggleToAllowAutofillTitle.v122" xml:space="preserve">
         <source>Save and Fill Payment Methods</source>
+        <target>儲存並自動填寫付款方式</target>
         <note>Title label for user to use the toggle settings to allow saving and autofilling of credit cards for webpages.</note>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.ViewCreditCardTitle.v116" xml:space="preserve">
@@ -4249,18 +4257,22 @@ Private Tab</source>
     <body>
       <trans-unit id="FirefoxHomepage.FeltDeletion.Link.v122" xml:space="preserve">
         <source>Private Browsing Data Erased</source>
+        <target>已清除隱私瀏覽資料</target>
         <note>When the user ends their private session, they are returned to the private mode homepage, and a toastbar popups confirming that their data has been erased. This is the label for that toast.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.FeltPrivacyUI.Body.v122" xml:space="preserve">
         <source>%@ deletes your cookies, history, and site data when you close all your private tabs.</source>
+        <target>%@ 會在您關閉所有隱私瀏覽分頁後，清除您的 Cookie、瀏覽紀錄、網站資料。</target>
         <note>The body of the message for the card that educates users about how private mode works. The card shows up on the homepage when in the new privacy mode. Placeholder refers to app name.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.FeltPrivacyUI.Link.v122" xml:space="preserve">
         <source>Who might be able to see my activity?</source>
+        <target>誰可能看到我的上網紀錄？</target>
         <note>The link for the card that educates users about how private mode works. The link redirects to an external site for more information. The card shows up on the homepage when in the new privacy mode.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.FeltPrivacyUI.Title.v122" xml:space="preserve">
         <source>Leave no traces on this device</source>
+        <target>在此裝置不留下任何痕跡</target>
         <note>The title for the card that educates users about how private mode works. The card shows up on the homepage when in the new privacy mode.</note>
       </trans-unit>
     </body>
@@ -4288,6 +4300,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="LoginsList.LoginsListSearchPlaceholder.v122" xml:space="preserve">
         <source>Search passwords</source>
+        <target>搜尋密碼</target>
         <note>Placeholder text for search box in logins list view.</note>
       </trans-unit>
       <trans-unit id="LoginsList.Title.v122" xml:space="preserve">
@@ -4308,10 +4321,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="FirefoxSync.CreditCardsEngine.v122" xml:space="preserve">
         <source>Payment Methods</source>
+        <target>付款方式</target>
         <note>Toggle for credit cards syncing setting</note>
       </trans-unit>
       <trans-unit id="Sync.LoginsEngine.Title.v122" xml:space="preserve">
         <source>Passwords</source>
+        <target>密碼</target>
         <note>Toggle passwords syncing setting, in the Settings &gt; Sync Data menu of the app.</note>
       </trans-unit>
     </body>
@@ -4365,6 +4380,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="LoginsHelper.SaveLogin.Button.v122" xml:space="preserve">
         <source>Save</source>
+        <target>儲存</target>
         <note>Button to save the user's password</note>
       </trans-unit>
     </body>
@@ -4569,6 +4585,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.RememberCard.MainButtonTitle.v122" xml:space="preserve">
         <source>Save</source>
+        <target>儲存</target>
         <note>This value is used as the title for the Yes button in the remember credit card page</note>
       </trans-unit>
       <trans-unit id="CreditCard.RememberCard.MainTitle.v115" xml:space="preserve">
@@ -4643,6 +4660,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.SelectCreditCard.MainTitle.v122" xml:space="preserve">
         <source>Use saved card</source>
+        <target>使用儲存的卡片資訊</target>
         <note>This value is used as the title for the select a credit card from list of available cards.</note>
       </trans-unit>
     </body>
@@ -4683,6 +4701,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.NotNow.v122" xml:space="preserve">
         <source>Not Now</source>
+        <target>現在不要</target>
         <note>When a user is in the process or has finished making a purchase with a card not saved in Firefox's list of stored cards, we ask the user if they would like to save this card for future purchases. This string indicates to users that they can deny Firefox from remembering the card that is being used.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.RememberThisCard.v112" xml:space="preserve">
@@ -4729,6 +4748,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCards.Settings.UseASavedCard.v122" xml:space="preserve">
         <source>Use saved card</source>
+        <target>使用儲存的卡片資訊</target>
         <note>When a user is in the process of making a purchase, and has at least one saved card, we show this label used as a title. This indicates to the user that there are stored cards available for use on this pending purchase.</note>
       </trans-unit>
       <trans-unit id="CreditCards.Settings.UseSavedCardFromKeyboard.v112" xml:space="preserve">
@@ -4743,6 +4763,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.AutofillCreditCard.Title.v122" xml:space="preserve">
         <source>Payment Methods</source>
+        <target>付款方式</target>
         <note>Label used as an item in Settings screen. When touched, it will take user to credit card settings page to that will allows to add or modify saved credit cards to allow for autofill in a webpage.</note>
       </trans-unit>
       <trans-unit id="Settings.FxA.Title.v119" xml:space="preserve">
@@ -4811,6 +4832,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.Search.PrivateSession.Title.v122" xml:space="preserve">
         <source>Private Browsing</source>
+        <target>隱私瀏覽</target>
         <note>Title for the `Private Browsing` settings section in the Search page in the Settings menu.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.QuickEnginesTitle.v121" xml:space="preserve">
@@ -5266,6 +5288,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.SnackBar.UpdatedCardLabel.v122" xml:space="preserve">
         <source>Card Information Updated</source>
+        <target>已更新卡片資訊</target>
         <note>Label text that gets presented as a confirmation at the bottom of screen when credit card information gets updated successfully</note>
       </trans-unit>
     </body>
@@ -5297,10 +5320,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="TabLocation.LockButton.AccessibilityLabel.v122" xml:space="preserve">
         <source>Tracking Protection</source>
+        <target>追蹤保護</target>
         <note>Accessibility label for the lock / tracking protection button on the URL bar</note>
       </trans-unit>
       <trans-unit id="TabLocation.LockButton.LargeContentTitle.v122" xml:space="preserve">
         <source>Tracking Protection</source>
+        <target>追蹤保護</target>
         <note>Large content title for the lock button. This title is displayed when accessible font sizes are enabled</note>
       </trans-unit>
       <trans-unit id="TabLocation.Share.A11y.Label.v119" xml:space="preserve">
@@ -5310,6 +5335,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="TabLocation.ShareButton.AccessibilityLabel.v122" xml:space="preserve">
         <source>Share</source>
+        <target>分享</target>
         <note>Large content title for the share button. This title is displayed when using accessible font sizes is enabled</note>
       </trans-unit>
       <trans-unit id="TabLocation.Shopping.A11y.Label.v120" xml:space="preserve">
@@ -5323,6 +5349,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="TopSites.RemoveButton.LargeContentTitle.v122" xml:space="preserve">
         <source>Remove page</source>
+        <target>移除頁面</target>
         <note>Large content title for the button shown in editing mode to remove this site from the top sites panel.</note>
       </trans-unit>
     </body>
@@ -5422,6 +5449,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.UpdateCard.YesButtonTitle.v122" xml:space="preserve">
         <source>Update</source>
+        <target>更新</target>
         <note>This value is used as the title for the button in the update credit card page. It indicates the action to update the details f9 the card.</note>
       </trans-unit>
     </body>
