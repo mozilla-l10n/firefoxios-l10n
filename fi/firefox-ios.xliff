@@ -3438,6 +3438,7 @@
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.Message.Synced.v122" xml:space="preserve">
         <source>This will remove the password from all of your synced devices.</source>
+        <target>Tämä poistaa salasanan kaikista synkronoiduista laitteistasi.</target>
         <note>Prompt message warning the user that deleted logins will remove logins from all connected devices</note>
       </trans-unit>
       <trans-unit id="DeleteLoginsAlert.Title.v122" xml:space="preserve">
@@ -3895,6 +3896,7 @@ yksityisessä välilehdessä</target>
     <body>
       <trans-unit id="Alerts.FeltDeletion.Body.v122" xml:space="preserve">
         <source>Close all private tabs and delete history, cookies, and all other site data.</source>
+        <target>Sulje kaikki yksityiset välilehdet ja poista historia, evästeet ja kaikki muut sivustotiedot.</target>
         <note>When tapping the fire icon in private mode, an alert comes up asking to confirm if you want to delete all browsing data and end your private session. This is the body text for the alert.</note>
       </trans-unit>
       <trans-unit id="Alerts.FeltDeletion.Button.Cancel.v122" xml:space="preserve">
@@ -3945,6 +3947,7 @@ yksityisessä välilehdessä</target>
       </trans-unit>
       <trans-unit id="Biometry.Screen.UniversalAuthenticationReason.v122" xml:space="preserve">
         <source>Authenticate to access your saved passwords and payment methods.</source>
+        <target>Tunnistaudu päästäksesi käsiksi tallennettuihin salasanoihin ja maksutapoihin.</target>
         <note>Biometric authentication is when the system prompts users for Face ID or fingerprint before accessing protected information. This string asks the user to enter their device passcode to access the protected screen for logins and encrypted cards.</note>
       </trans-unit>
       <trans-unit id="Biometry.Screen.UniversalAuthenticationReasonV2.v116" xml:space="preserve">
@@ -4000,6 +4003,7 @@ yksityisessä välilehdessä</target>
     <body>
       <trans-unit id="ContextualHints.FeltDeletion.Body.v122" xml:space="preserve">
         <source>Tap here to start a fresh private session. Delete your history, cookies — everything.</source>
+        <target>Aloita uusi yksityinen istunto napauttamalla tästä. Poista historia, evästeet — kaikki.</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This is a call to action for the popup that appears to educate users about what the fire button in the toolbar does, when in private mode.</note>
       </trans-unit>
     </body>
@@ -4255,10 +4259,12 @@ yksityisessä välilehdessä</target>
     <body>
       <trans-unit id="FirefoxHomepage.FeltDeletion.Link.v122" xml:space="preserve">
         <source>Private Browsing Data Erased</source>
+        <target>Yksityiset selaustiedot poistettu</target>
         <note>When the user ends their private session, they are returned to the private mode homepage, and a toastbar popups confirming that their data has been erased. This is the label for that toast.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.FeltPrivacyUI.Body.v122" xml:space="preserve">
         <source>%@ deletes your cookies, history, and site data when you close all your private tabs.</source>
+        <target>%@ poistaa evästeet, historian ja sivustotiedot, kun suljet kaikki yksityiset välilehdet.</target>
         <note>The body of the message for the card that educates users about how private mode works. The card shows up on the homepage when in the new privacy mode. Placeholder refers to app name.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.FeltPrivacyUI.Link.v122" xml:space="preserve">
@@ -4279,26 +4285,32 @@ yksityisessä välilehdessä</target>
     <body>
       <trans-unit id="LoginsHelper.PromptSaveLogin.Title.v122" xml:space="preserve">
         <source>Save username?</source>
+        <target>Tallennetaanko käyttäjätunnus?</target>
         <note>Prompt for saving the username in the Save Logins prompt.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSavePassword.Title.v122" xml:space="preserve">
         <source>Save password?</source>
+        <target>Tallennetaanko salasana?</target>
         <note>Prompt for saving a password in the Save Logins prompt.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title.OneArg.v122" xml:space="preserve">
         <source>Update password?</source>
+        <target>Päivitetäänkö salasana?</target>
         <note>Prompt for updating the password in the Update Password prompt.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title.TwoArg.v122" xml:space="preserve">
         <source>Update password?</source>
+        <target>Päivitetäänkö salasana?</target>
         <note>Prompt for updating a password in the Update Password prompt.</note>
       </trans-unit>
       <trans-unit id="LoginsList.LoginsListSearchPlaceholder.v122" xml:space="preserve">
         <source>Search passwords</source>
+        <target>Etsi salasanoja</target>
         <note>Placeholder text for search box in logins list view.</note>
       </trans-unit>
       <trans-unit id="LoginsList.Title.v122" xml:space="preserve">
         <source>SAVED PASSWORDS</source>
+        <target>TALLENNETUT SALASANAT</target>
         <note>Title for the list of logins saved by the app</note>
       </trans-unit>
     </body>
@@ -4568,6 +4580,7 @@ yksityisessä välilehdessä</target>
       </trans-unit>
       <trans-unit id="CreditCard.RememberCard.Header.v122" xml:space="preserve">
         <source>%@ encrypts your card number. Your security code won’t be saved.</source>
+        <target>%@ salaa korttisi numeron. Turvakoodiasi ei tallenneta.</target>
         <note>This value is used as the header for the remember card page. The placeholder is for the app name.</note>
       </trans-unit>
       <trans-unit id="CreditCard.RememberCard.MainButtonTitle.v115" xml:space="preserve">
@@ -4713,6 +4726,7 @@ yksityisessä välilehdessä</target>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.UpdateThisCard.v122" xml:space="preserve">
         <source>Update card?</source>
+        <target>Päivitetäänkö kortti?</target>
         <note>When a user is in the process or has finished making a purchase with a remembered card, and if the credit card information doesn't match the contents of the stored information of that card, we show this string. We ask this user if they would like Firefox update the staled information of that credit card.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.Yes.v112" xml:space="preserve">
@@ -5407,6 +5421,7 @@ yksityisessä välilehdessä</target>
       </trans-unit>
       <trans-unit id="CreditCard.UpdateCard.MainTitle.v122" xml:space="preserve">
         <source>Update card?</source>
+        <target>Päivitetäänkö kortti?</target>
         <note>This value is used as the title for the update card page</note>
       </trans-unit>
       <trans-unit id="CreditCard.UpdateCard.ManageCardsButtonTitle.v115" xml:space="preserve">
