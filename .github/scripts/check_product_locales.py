@@ -105,7 +105,7 @@ def main():
         "firefox": {
             "name": "Firefox for iOS",
             "github_repo": "mozilla-mobile/firefox-ios",
-            "github_path": "Client",
+            "github_path": "firefox-ios/Client",
             "pontoon_slug": "firefox-for-ios",
         },
         "focus": {

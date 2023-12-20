@@ -58,7 +58,7 @@ jobs:
 
           # Extract strings
           cd LocalizationTools
-          swift run LocalizationTools --export --project-path ../Client.xcodeproj --l10n-project-path ../firefoxios-l10n --locale en-US
+          swift run LocalizationTools --export --project-path ../firefox-ios/Client.xcodeproj --l10n-project-path ../firefoxios-l10n --locale en-US
           cp ../firefoxios-l10n/en-US/*.xliff "${start_folder}/l10n_repo/en-US/"
 
           # Make sure that the reference locale (en-US) has translations, i.e.
@@ -73,7 +73,7 @@ jobs:
       - name: Get the current date for PR title
         run: echo "current_date=$(date +"%Y-%m-%d")" >> $GITHUB_ENV
       - run : git config --global user.email "flodolo@users.noreply.github.com"
-      - uses: peter-evans/create-pull-request@v4
+      - uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.IOS_L10N_TOKEN }}
           path: "l10n_repo"
