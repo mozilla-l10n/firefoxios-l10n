@@ -12,6 +12,7 @@
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve">
         <source>Firefox requires Face ID to access your saved passwords and payment methods.</source>
+        <target>Firefox-ը պահանջում է Face ID՝ ձեր պահպանված գաղտնաբառերը և վճարման եղանակները մուտք գործելու համար:</target>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription" xml:space="preserve">
@@ -3425,22 +3426,27 @@
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.DeleteButton.Cancel.v122" xml:space="preserve">
         <source>Cancel</source>
+        <target>Չեղարկել</target>
         <note>Prompt option for cancelling out of deletion</note>
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.DeleteButton.Title.v122" xml:space="preserve">
         <source>Remove</source>
+        <target>Հեռացնել</target>
         <note>Label for the button used to delete the current login.</note>
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.Message.Local.v122" xml:space="preserve">
         <source>You cannot undo this action.</source>
+        <target>Դուք չեք կարող հետարկել այս գործողությունը:</target>
         <note>Prompt message warning the user that deleting non-synced logins will permanently remove them, when they attempt to do so</note>
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.Message.Synced.v122" xml:space="preserve">
         <source>This will remove the password from all of your synced devices.</source>
+        <target>Սա կհեռացնի գաղտնաբառը ձեր բոլոր համաժամացված սարքերից:</target>
         <note>Prompt message warning the user that deleted logins will remove logins from all connected devices</note>
       </trans-unit>
       <trans-unit id="DeleteLoginsAlert.Title.v122" xml:space="preserve">
         <source>Remove Password?</source>
+        <target>Հեռացնե՞լ գաղտնաբառը:</target>
         <note>Title for the prompt that appears when the user deletes a login.</note>
       </trans-unit>
       <trans-unit id="Deselect All" xml:space="preserve">
@@ -3480,6 +3486,7 @@
       </trans-unit>
       <trans-unit id="NoLoginsFound.Title.v122" xml:space="preserve">
         <source>No passwords found</source>
+        <target>Գաղտնաբառեր չեն գտնվել</target>
         <note>Label displayed when no logins are found after searching.</note>
       </trans-unit>
       <trans-unit id="Open &amp; Fill" xml:space="preserve">
@@ -3872,6 +3879,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.SnackBar.RemoveCardTitle.v122" xml:space="preserve">
         <source>Remove Card?</source>
+        <target>Հեռացնե՞լ քարտը</target>
         <note>Title label for the dialog box that gets presented as a confirmation to ask user if they would like to remove the saved credit card</note>
       </trans-unit>
       <trans-unit id="CreditCard.SnackBar.RemovedCardButton.v112" xml:space="preserve">
@@ -3888,18 +3896,22 @@ Private Tab</source>
     <body>
       <trans-unit id="Alerts.FeltDeletion.Body.v122" xml:space="preserve">
         <source>Close all private tabs and delete history, cookies, and all other site data.</source>
+        <target>Փակեք բոլոր անձնական ներդիրները և ջնջեք պատմությունը, թխուկները և կայքի բոլոր մյուս տվյալները:</target>
         <note>When tapping the fire icon in private mode, an alert comes up asking to confirm if you want to delete all browsing data and end your private session. This is the body text for the alert.</note>
       </trans-unit>
       <trans-unit id="Alerts.FeltDeletion.Button.Cancel.v122" xml:space="preserve">
         <source>Cancel</source>
+        <target>Չեղարկել</target>
         <note>When tapping the fire icon in private mode, an alert comes up asking to confirm if you want to delete all browsing data and end your private session. This is the cancel action for the alert, cancelling ending your session.</note>
       </trans-unit>
       <trans-unit id="Alerts.FeltDeletion.Button.Confirm.v122" xml:space="preserve">
         <source>Delete session data</source>
+        <target>Ջնջել աշխատաշրջանի տվյալները</target>
         <note>When tapping the fire icon in private mode, an alert comes up asking to confirm if you want to delete all browsing data and end your private session. This is the affirmative action for the alert, confirming that you do want to do that.</note>
       </trans-unit>
       <trans-unit id="Alerts.FeltDeletion.Title.v122" xml:space="preserve">
         <source>End your private session?</source>
+        <target>Ավարտե՞լ ձեր անձնական աշխատաշրջանը:</target>
         <note>When tapping the fire icon in private mode, an alert comes up asking to confirm if you want to delete all browsing data and end your private session. This is the title for the alert.</note>
       </trans-unit>
       <trans-unit id="Alerts.RestoreTabs.Button.No.v109" xml:space="preserve">
@@ -3936,6 +3948,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Biometry.Screen.UniversalAuthenticationReason.v122" xml:space="preserve">
         <source>Authenticate to access your saved passwords and payment methods.</source>
+        <target>Նույնականացրեք՝ ձեր պահպանված գաղտնաբառերը և վճարման եղանակները մատչելու համար:</target>
         <note>Biometric authentication is when the system prompts users for Face ID or fingerprint before accessing protected information. This string asks the user to enter their device passcode to access the protected screen for logins and encrypted cards.</note>
       </trans-unit>
       <trans-unit id="Biometry.Screen.UniversalAuthenticationReasonV2.v116" xml:space="preserve">
@@ -3991,6 +4004,7 @@ Private Tab</source>
     <body>
       <trans-unit id="ContextualHints.FeltDeletion.Body.v122" xml:space="preserve">
         <source>Tap here to start a fresh private session. Delete your history, cookies — everything.</source>
+        <target>Հպեք՝ նոր մասնավոր աշխատաշրջան սկսելու համար: Ջնջեք ձեր պատմությունը, թխուկները՝ ամեն ինչ:</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This is a call to action for the popup that appears to educate users about what the fire button in the toolbar does, when in private mode.</note>
       </trans-unit>
     </body>
@@ -4002,18 +4016,22 @@ Private Tab</source>
     <body>
       <trans-unit id="LoginsList.NoLoginsFound.Description.v122" xml:space="preserve">
         <source>The passwords you save or sync to %@ will be listed here. All passwords you save are encrypted.</source>
+        <target>Այն գաղտնաբառերը, որոնք դուք պահում կամ համաժամացնում եք %@-ի հետ, կցուցադրվեն այստեղ: Ձեր պահած բոլոր գաղտնաբառերը կոդավորված են:</target>
         <note>Label shown when there are no logins to list. The placeholder will be replaced with the app name.</note>
       </trans-unit>
       <trans-unit id="LoginsList.NoLoginsFound.Title.v122" xml:space="preserve">
         <source>No passwords saved</source>
+        <target>Գաղտնաբառեր չեն պահպանվել</target>
         <note>Label shown when there are no logins saved in the passwords list</note>
       </trans-unit>
       <trans-unit id="LoginsList.NoMatchingResult.Title.v122" xml:space="preserve">
         <source>No passwords found</source>
+        <target>Գաղտնաբառեր չեն գտնվել</target>
         <note>Label displayed when a user searches for an item, and no matches can be found against the search query</note>
       </trans-unit>
       <trans-unit id="LoginsList.Search.Placeholder.v122" xml:space="preserve">
         <source>Search passwords</source>
+        <target>Որոնել գաղտնաբառեր</target>
         <note>Placeholder text for search field in the credential provider list</note>
       </trans-unit>
     </body>
@@ -4025,6 +4043,7 @@ Private Tab</source>
     <body>
       <trans-unit id="Logins.DevicePasscodeRequired.Message.v122" xml:space="preserve">
         <source>To save and automatically fill passwords, enable Face ID, Touch ID, or a device passcode.</source>
+        <target>Գաղտնաբառերը պահպանելու և ինքնաշխատ լրացնելու համար միացրեք Face ID-ն, Touch ID-ն կամ սարքի անցակոդը:</target>
         <note>Message shown when you enter Logins &amp; Passwords without having a device passcode set.</note>
       </trans-unit>
     </body>
@@ -4070,6 +4089,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.EditCreditCardTitle.v122" xml:space="preserve">
         <source>Edit Card</source>
+        <target>Խմբագրել Card-ը</target>
         <note>Title label for the view where user can edit their credit card info</note>
       </trans-unit>
     </body>
@@ -4086,6 +4106,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.AddCreditCardTitle.v122" xml:space="preserve">
         <source>Add Card</source>
+        <target>Հավելել քարտ</target>
         <note>Title label for the view where user can add their credit card info</note>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.CancelNavBarButtonLabel.v113" xml:space="preserve">
@@ -4165,6 +4186,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.ToggleToAllowAutofillTitle.v122" xml:space="preserve">
         <source>Save and Fill Payment Methods</source>
+        <target>Պահեք և լրացրեք վճարման եղանակները</target>
         <note>Title label for user to use the toggle settings to allow saving and autofilling of credit cards for webpages.</note>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.ViewCreditCardTitle.v116" xml:space="preserve">
@@ -4240,18 +4262,22 @@ Private Tab</source>
     <body>
       <trans-unit id="FirefoxHomepage.FeltDeletion.Link.v122" xml:space="preserve">
         <source>Private Browsing Data Erased</source>
+        <target>Մասնավոր զննարկման տվյալները ջնջվել են</target>
         <note>When the user ends their private session, they are returned to the private mode homepage, and a toastbar popups confirming that their data has been erased. This is the label for that toast.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.FeltPrivacyUI.Body.v122" xml:space="preserve">
         <source>%@ deletes your cookies, history, and site data when you close all your private tabs.</source>
+        <target>%@-ը ջնջում է ձեր թխուկները, պատմությունը և կայքի տվյալները, երբ փակում եք ձեր բոլոր մասնավոր պատուհանները:</target>
         <note>The body of the message for the card that educates users about how private mode works. The card shows up on the homepage when in the new privacy mode. Placeholder refers to app name.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.FeltPrivacyUI.Link.v122" xml:space="preserve">
         <source>Who might be able to see my activity?</source>
+        <target>Ո՞վ կարող է տեսնել իմ գործունեությունը:</target>
         <note>The link for the card that educates users about how private mode works. The link redirects to an external site for more information. The card shows up on the homepage when in the new privacy mode.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.FeltPrivacyUI.Title.v122" xml:space="preserve">
         <source>Leave no traces on this device</source>
+        <target>Այս սարքի վրա հետքեր չթողնել</target>
         <note>The title for the card that educates users about how private mode works. The card shows up on the homepage when in the new privacy mode.</note>
       </trans-unit>
     </body>
@@ -4263,26 +4289,32 @@ Private Tab</source>
     <body>
       <trans-unit id="LoginsHelper.PromptSaveLogin.Title.v122" xml:space="preserve">
         <source>Save username?</source>
+        <target>Պահե՞լ օգտվողի անունը:</target>
         <note>Prompt for saving the username in the Save Logins prompt.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSavePassword.Title.v122" xml:space="preserve">
         <source>Save password?</source>
+        <target>Պահե՞լ գաղտնաբառը</target>
         <note>Prompt for saving a password in the Save Logins prompt.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title.OneArg.v122" xml:space="preserve">
         <source>Update password?</source>
+        <target>Թարմացնե՞լ գաղտնաբառը:</target>
         <note>Prompt for updating the password in the Update Password prompt.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title.TwoArg.v122" xml:space="preserve">
         <source>Update password?</source>
+        <target>Թարմացնե՞լ գաղտնաբառը:</target>
         <note>Prompt for updating a password in the Update Password prompt.</note>
       </trans-unit>
       <trans-unit id="LoginsList.LoginsListSearchPlaceholder.v122" xml:space="preserve">
         <source>Search passwords</source>
+        <target>Որոնել գաղտնաբառեր</target>
         <note>Placeholder text for search box in logins list view.</note>
       </trans-unit>
       <trans-unit id="LoginsList.Title.v122" xml:space="preserve">
         <source>SAVED PASSWORDS</source>
+        <target>ՊԱՀՎԱԾ ԳԱՂՏՆԱԲԱՌԵՐ</target>
         <note>Title for the list of logins saved by the app</note>
       </trans-unit>
     </body>
@@ -4299,10 +4331,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="FirefoxSync.CreditCardsEngine.v122" xml:space="preserve">
         <source>Payment Methods</source>
+        <target>Վճարամիջոցներ</target>
         <note>Toggle for credit cards syncing setting</note>
       </trans-unit>
       <trans-unit id="Sync.LoginsEngine.Title.v122" xml:space="preserve">
         <source>Passwords</source>
+        <target>Գաղտնաբառեր</target>
         <note>Toggle passwords syncing setting, in the Settings &gt; Sync Data menu of the app.</note>
       </trans-unit>
     </body>
@@ -4348,14 +4382,17 @@ Private Tab</source>
     <body>
       <trans-unit id="LoginsHelper.DontSave.Button.v122" xml:space="preserve">
         <source>Not Now</source>
+        <target>Ոչ հիմա</target>
         <note>Button to not save the user's password in the logins helper</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.DontUpdate.Button.v122" xml:space="preserve">
         <source>Not Now</source>
+        <target>Ոչ հիմա</target>
         <note>Button to not update the user's password in the logins helper</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.SaveLogin.Button.v122" xml:space="preserve">
         <source>Save</source>
+        <target>Պահել</target>
         <note>Button to save the user's password</note>
       </trans-unit>
     </body>
@@ -4551,6 +4588,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.RememberCard.Header.v122" xml:space="preserve">
         <source>%@ encrypts your card number. Your security code won’t be saved.</source>
+        <target>%@ գաղտնագրում է ձեր քարտի համարը: Անվտանգության ձեր կոդը չի պահպանվի:</target>
         <note>This value is used as the header for the remember card page. The placeholder is for the app name.</note>
       </trans-unit>
       <trans-unit id="CreditCard.RememberCard.MainButtonTitle.v115" xml:space="preserve">
@@ -4560,6 +4598,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.RememberCard.MainButtonTitle.v122" xml:space="preserve">
         <source>Save</source>
+        <target>Պահպանել</target>
         <note>This value is used as the title for the Yes button in the remember credit card page</note>
       </trans-unit>
       <trans-unit id="CreditCard.RememberCard.MainTitle.v115" xml:space="preserve">
@@ -4569,6 +4608,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.RememberCard.MainTitle.v122" xml:space="preserve">
         <source>Securely save this card?</source>
+        <target>Ապահով պահե՞լ այս քարտը:</target>
         <note>This value is used as the title for the remember credit card page</note>
       </trans-unit>
       <trans-unit id="CreditCard.RememberCard.SecondaryButtonTitle.v115" xml:space="preserve">
@@ -4634,6 +4674,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.SelectCreditCard.MainTitle.v122" xml:space="preserve">
         <source>Use saved card</source>
+        <target>Օգտագործել պահված քարտը</target>
         <note>This value is used as the title for the select a credit card from list of available cards.</note>
       </trans-unit>
     </body>
@@ -4660,6 +4701,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.EmptyListTitle.v122" xml:space="preserve">
         <source>Save Cards to %@</source>
+        <target>Պահել քարտերը %@-ում</target>
         <note>Title label for when there are no credit cards shown in credit card list in autofill settings screen. %@ is the product name and should not be altered.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.ListItemA11y.v118" xml:space="preserve">
@@ -4674,6 +4716,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.NotNow.v122" xml:space="preserve">
         <source>Not Now</source>
+        <target>Ոչ հիմա</target>
         <note>When a user is in the process or has finished making a purchase with a card not saved in Firefox's list of stored cards, we ask the user if they would like to save this card for future purchases. This string indicates to users that they can deny Firefox from remembering the card that is being used.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.RememberThisCard.v112" xml:space="preserve">
@@ -4683,6 +4726,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.RememberThisCard.v122" xml:space="preserve">
         <source>Securely save this card?</source>
+        <target>Ապահով պահե՞լ այս քարտը:</target>
         <note>When a user is in the process or has finished making a purchase with a card not saved in Firefox's list of stored cards, we ask the user if they would like to save this card for future purchases. This string is a title string of the overall message that asks the user if they would like Firefox to remember the card that is being used.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.UpdateThisCard.v112" xml:space="preserve">
@@ -4692,6 +4736,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.UpdateThisCard.v122" xml:space="preserve">
         <source>Update card?</source>
+        <target>Արդիացնե՞լ քարտը:</target>
         <note>When a user is in the process or has finished making a purchase with a remembered card, and if the credit card information doesn't match the contents of the stored information of that card, we show this string. We ask this user if they would like Firefox update the staled information of that credit card.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.Yes.v112" xml:space="preserve">
@@ -4701,6 +4746,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.Yes.v122" xml:space="preserve">
         <source>Update</source>
+        <target>Թարմացնել</target>
         <note>When a user is in the process or has finished making a purchase with a card not saved in Firefox's list of stored cards, we ask the user if they would like to save this card for future purchases. This string asks users to confirm if they would like Firefox to remember the card that is being used.</note>
       </trans-unit>
       <trans-unit id="CreditCards.Settings.Done.v114" xml:space="preserve">
@@ -4720,6 +4766,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCards.Settings.UseASavedCard.v122" xml:space="preserve">
         <source>Use saved card</source>
+        <target>Օգտագործել պահված քարտը</target>
         <note>When a user is in the process of making a purchase, and has at least one saved card, we show this label used as a title. This indicates to the user that there are stored cards available for use on this pending purchase.</note>
       </trans-unit>
       <trans-unit id="CreditCards.Settings.UseSavedCardFromKeyboard.v112" xml:space="preserve">
@@ -4734,6 +4781,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.AutofillCreditCard.Title.v122" xml:space="preserve">
         <source>Payment Methods</source>
+        <target>Վճարամիջոցներ</target>
         <note>Label used as an item in Settings screen. When touched, it will take user to credit card settings page to that will allows to add or modify saved credit cards to allow for autofill in a webpage.</note>
       </trans-unit>
       <trans-unit id="Settings.FxA.Title.v119" xml:space="preserve">
@@ -4798,10 +4846,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.Search.PrivateSession.Setting.v122" xml:space="preserve">
         <source>Show Suggestions in Private Browsing</source>
+        <target>Ցուցադրել առաջարկները մասնավոր զննարկումում</target>
         <note>Label for toggle. Explains that in private browsing mode, the search suggestions which appears at the top of the search bar, can be toggled on or off. Located in the Private Session section in the Search page in the Settings menu.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.PrivateSession.Title.v122" xml:space="preserve">
         <source>Private Browsing</source>
+        <target>Գաղտնի դիտարկում</target>
         <note>Title for the `Private Browsing` settings section in the Search page in the Settings menu.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.QuickEnginesTitle.v121" xml:space="preserve">
@@ -5257,6 +5307,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.SnackBar.UpdatedCardLabel.v122" xml:space="preserve">
         <source>Card Information Updated</source>
+        <target>Քարտի տվյալները թարմացվել են</target>
         <note>Label text that gets presented as a confirmation at the bottom of screen when credit card information gets updated successfully</note>
       </trans-unit>
     </body>
@@ -5288,10 +5339,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="TabLocation.LockButton.AccessibilityLabel.v122" xml:space="preserve">
         <source>Tracking Protection</source>
+        <target>Հետագծման պաշտպանություն</target>
         <note>Accessibility label for the lock / tracking protection button on the URL bar</note>
       </trans-unit>
       <trans-unit id="TabLocation.LockButton.LargeContentTitle.v122" xml:space="preserve">
         <source>Tracking Protection</source>
+        <target>Հետագծման պաշտպանություն</target>
         <note>Large content title for the lock button. This title is displayed when accessible font sizes are enabled</note>
       </trans-unit>
       <trans-unit id="TabLocation.Share.A11y.Label.v119" xml:space="preserve">
@@ -5301,6 +5354,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="TabLocation.ShareButton.AccessibilityLabel.v122" xml:space="preserve">
         <source>Share</source>
+        <target>Համօգտագործել</target>
         <note>Large content title for the share button. This title is displayed when using accessible font sizes is enabled</note>
       </trans-unit>
       <trans-unit id="TabLocation.Shopping.A11y.Label.v120" xml:space="preserve">
@@ -5310,10 +5364,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="TabsButton.Accessibility.LargeContentTitle.v122" xml:space="preserve">
         <source>Show Tabs: %@</source>
+        <target>Ցուցադրել ներդիրները՝ %@</target>
         <note>Large content title for the tabs button. The argument is the number of open tabs or an infinity symbol. This title is displayed when using accessible font sizes is enabled.</note>
       </trans-unit>
       <trans-unit id="TopSites.RemoveButton.LargeContentTitle.v122" xml:space="preserve">
         <source>Remove page</source>
+        <target>Հեռացնել էջը</target>
         <note>Large content title for the button shown in editing mode to remove this site from the top sites panel.</note>
       </trans-unit>
     </body>
@@ -5394,6 +5450,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.UpdateCard.MainTitle.v122" xml:space="preserve">
         <source>Update card?</source>
+        <target>Արդիացնե՞լ քարտը:</target>
         <note>This value is used as the title for the update card page</note>
       </trans-unit>
       <trans-unit id="CreditCard.UpdateCard.ManageCardsButtonTitle.v115" xml:space="preserve">
@@ -5413,6 +5470,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.UpdateCard.YesButtonTitle.v122" xml:space="preserve">
         <source>Update</source>
+        <target>Թարմացնել</target>
         <note>This value is used as the title for the button in the update credit card page. It indicates the action to update the details f9 the card.</note>
       </trans-unit>
     </body>
