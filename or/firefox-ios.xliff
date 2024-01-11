@@ -3895,6 +3895,10 @@ Private Tab</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
     </header>
     <body>
+      <trans-unit id="FirefoxSync.AddressAutofillEngine.v124" xml:space="preserve">
+        <source>Addresses</source>
+        <note>Toggle for address autofill syncing setting</note>
+      </trans-unit>
       <trans-unit id="FirefoxSync.CreditCardsEngine.v115" xml:space="preserve">
         <source>Credit Cards</source>
         <note>Toggle for credit cards syncing setting</note>
@@ -4273,6 +4277,10 @@ Private Tab</source>
         <source>Account</source>
         <note>Settings section title for the old Firefox account</note>
       </trans-unit>
+      <trans-unit id="Settings.AddressAutofill.Title.v124" xml:space="preserve">
+        <source>Autofill Addresses</source>
+        <note>Label used as an item in Settings screen. When touched, it will take user to address autofill settings page to that will allow user to add or modify saved addresses to allow for autofill in a webpage.</note>
+      </trans-unit>
       <trans-unit id="Settings.AutofillCreditCard.Title.v122" xml:space="preserve">
         <source>Payment Methods</source>
         <note>Label used as an item in Settings screen. When touched, it will take user to credit card settings page to that will allows to add or modify saved credit cards to allow for autofill in a webpage.</note>
@@ -4317,6 +4325,14 @@ Private Tab</source>
         <source>Default Search Engine</source>
         <note>Accessibility label for default search engine setting.</note>
       </trans-unit>
+      <trans-unit id="Settings.Search.Accessibility.LearnAboutSuggestions.v124" xml:space="preserve">
+        <source>Learn more about Firefox Suggest</source>
+        <note>Accessibility label for Learn more about Firefox Suggest.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.DefaultSearchEngine.Footer.v122" xml:space="preserve">
+        <source>Results from searches, history, bookmarks, and more</source>
+        <note>Footer for for the `default search engine` settings section in the Search Settings page, which explains in more details what the `Show Search Suggestions` setting includes.</note>
+      </trans-unit>
       <trans-unit id="Settings.Search.DefaultSearchEngine.Title.v121" xml:space="preserve">
         <source>Default Search Engine</source>
         <note>Title for the `default search engine` settings section in the Search page in the Settings menu.</note>
@@ -4340,6 +4356,30 @@ Private Tab</source>
       <trans-unit id="Settings.Search.ShowSuggestions.v121" xml:space="preserve">
         <source>Show Search Suggestions</source>
         <note>Label for the `show search suggestions` setting, in the Search Settings page.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.Suggest.AddressBarSetting.Title.v124" xml:space="preserve">
+        <source>Address bar - Firefox Suggest</source>
+        <note>In the Search page of the Settings menu, the title for the Firefox Suggest settings section.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.Suggest.LearnAboutSuggestions.v124" xml:space="preserve">
+        <source>Learn more about Firefox Suggest</source>
+        <note>In the search page of the Settings menu, the title for the link to the SUMO Page about Firefox Suggest.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.Suggest.ShowNonSponsoredSuggestions.Description.v124" xml:space="preserve">
+        <source>Get suggestions from the web related to your search</source>
+        <note>In the Search page of the Settings menu, the description for the setting to enable Suggestions from Firefox.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.Suggest.ShowNonSponsoredSuggestions.Title.v124" xml:space="preserve">
+        <source>Suggestions from %@</source>
+        <note>In the Search page of the Settings menu, the title for setting to enable Suggestions from Firefox. Placeholder is for the app name - Firefox.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.Suggest.ShowSponsoredSuggestions.Description.v124" xml:space="preserve">
+        <source>Support %@ with occasional sponsored suggestions</source>
+        <note>In the Search page of the Settings menu, the description for the setting to enable Suggestions from sponsors. Placeholder is for the app name - Firefox.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.Suggest.ShowSponsoredSuggestions.Title.v124" xml:space="preserve">
+        <source>Suggestions from sponsors</source>
+        <note>In the Search page of the Settings menu, the title for the setting to enable Suggestions from sponsors.</note>
       </trans-unit>
     </body>
   </file>
@@ -4503,6 +4543,10 @@ Private Tab</source>
         <source>Checking review quality</source>
         <note>Title for info card when the product is in analysis mode</note>
       </trans-unit>
+      <trans-unit id="Shopping.InfoCard.ProgressAnalysis.Title.v123" xml:space="preserve">
+        <source>Checking review quality (%@)</source>
+        <note>Title for info card when the product is in analysis mode. The placeholder represents the percentage of the analysis progress, ranging between 1 and 100.</note>
+      </trans-unit>
       <trans-unit id="Shopping.InfoCard.ReportSubmittedByCurrentUser.Description.v121" xml:space="preserve">
         <source>We should have info about this product’s reviews within 24 hours. Please check back.</source>
         <note>This description appears beneath the confirmation title on the information card to inform the user that their report regarding the product stock status has been received and is being processed. It serves to set the expectation that the review information will be updated within 24 hours and invites the user to revisit the product page for updates.</note>
@@ -4643,6 +4687,14 @@ Private Tab</source>
         <source>Expand Settings Card</source>
         <note>Accessibility label for the down chevron icon used to expand or show the details of the Settings Card within the shopping product review bottom sheet.</note>
       </trans-unit>
+      <trans-unit id="Shopping.SettingsCard.Expand.GroupedRecommendedProductsAndSwitch.AccessibilityHint.v123" xml:space="preserve">
+        <source>Double tap to toggle setting.</source>
+        <note>Accessibility hint for the recommended products label and switch, grouped together. When the group is selected in VoiceOver mode, the hint is read to help the user understand what action can be performed.</note>
+      </trans-unit>
+      <trans-unit id="Shopping.SettingsCard.Expand.GroupedRecommendedProductsAndSwitch.AccessibilityLabel.v123" xml:space="preserve">
+        <source>%1$@, switch button, %2$@.</source>
+        <note>Accessibility label for the recommended products label and switch, grouped together. The first placeholder is for the recommended products label, and the second placeholder is for the state of the switch: On/Off.</note>
+      </trans-unit>
       <trans-unit id="Shopping.SettingsCard.Footer.Action.v120" xml:space="preserve">
         <source>Review Checker is powered by %1$@ by %2$@</source>
         <note>Action title of the footer underneath the Settings Card displayed in the shopping review quality bottom sheet. The first parameter will be replaced by the Fakespot app name and the second parameter by the company name of Mozilla.</note>
@@ -4654,6 +4706,14 @@ Private Tab</source>
       <trans-unit id="Shopping.SettingsCard.RecommendedProducts.Label.v120" xml:space="preserve">
         <source>Show products recommended by %@</source>
         <note>Label of the switch from settings card displayed in the shopping review quality bottom sheet. The placeholder will be replaced with the app name.</note>
+      </trans-unit>
+      <trans-unit id="Shopping.SettingsCard.SwitchValueOff.AccessibilityLabel.v123" xml:space="preserve">
+        <source>Off</source>
+        <note>Toggled Off accessibility switch value from Settings Card within the shopping product review bottom sheet.</note>
+      </trans-unit>
+      <trans-unit id="Shopping.SettingsCard.SwitchValueOn.AccessibilityLabel.v123" xml:space="preserve">
+        <source>On</source>
+        <note>Toggled On accessibility value, from Settings Card within the shopping product review bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.SettingsCard.TurnOffButton.Title.v120" xml:space="preserve">
         <source>Turn Off Review Checker</source>
@@ -4787,6 +4847,17 @@ Private Tab</source>
       <trans-unit id="TabsTray.SyncTabs.SyncTabsButton.Title.v119" xml:space="preserve">
         <source>Sync Tabs</source>
         <note>Button label to sync tabs in your account</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/TabToolbar.strings" datatype="plaintext" source-language="en" target-language="or">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
+    </header>
+    <body>
+      <trans-unit id="TabToolbar.Accessibility.DataClearance.v122" xml:space="preserve">
+        <source>Data Clearance</source>
+        <note>Accessibility label for the tab toolbar fire button in private mode, used to provide users a way to end and delete their private session data.</note>
       </trans-unit>
     </body>
   </file>
