@@ -1385,10 +1385,6 @@
         <target>Peñerar</target>
         <note>Placeholder test for search box in logins list view.</note>
       </trans-unit>
-      <trans-unit id="LoginsList.NoLoginsFound.Description" xml:space="preserve">
-        <source>Saved logins will show up here. If you saved your logins to Firefox on a different device, sign in to your Firefox Account.</source>
-        <note>Label shown when there are no logins to list</note>
-      </trans-unit>
       <trans-unit id="LoginsList.NoLoginsFound.Description.v119" xml:space="preserve">
         <source>Saved logins will show up here. If you saved your logins to %@ on a different device, sign in to your account.</source>
         <note>Label shown when there are no logins to list. The placeholder will be replaced with the app name.</note>
@@ -1944,18 +1940,6 @@
         <source>OK</source>
         <target>D'acuerdu</target>
         <note>The confirmation button</note>
-      </trans-unit>
-      <trans-unit id="SearchSettings.Accessibility.DefaultSearchEngine.v106" xml:space="preserve">
-        <source>Default Search Engine</source>
-        <note>Accessibility label for default search engine setting.</note>
-      </trans-unit>
-      <trans-unit id="SearchSettings.Title.DefaultSearchEngine.v106" xml:space="preserve">
-        <source>Default Search Engine</source>
-        <note>Title for default search engine settings section.</note>
-      </trans-unit>
-      <trans-unit id="SearchSettings.Title.Search.v106" xml:space="preserve">
-        <source>Search</source>
-        <note>Navigation title for search settings.</note>
       </trans-unit>
       <trans-unit id="Send Feedback" xml:space="preserve">
         <source>Send Feedback</source>
@@ -4064,6 +4048,74 @@ Private Tab</source>
         <source>Switch Your Default Browser</source>
         <note>The title on the Default Browser Popup, which is a card with instructions telling the user how to set Firefox as their default browser.</note>
       </trans-unit>
+      <trans-unit id="Onboarding.Customization.Intro.Continue.Action.v123" xml:space="preserve">
+        <source>Customize %@</source>
+        <note>String used to describe the option to continue to the next onboarding card in Firefox Onboarding screens. Placeholder is for the app name.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Customization.Intro.Description.v123" xml:space="preserve">
+        <source>Set your theme and toolbar to match your unique browsing style.</source>
+        <note>String used to describe the description label of the customization onboarding page in our Onboarding screens.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Customization.Intro.Skip.Action.v123" xml:space="preserve">
+        <source>Start Browsing</source>
+        <note>String used to describe the option to skip the customization cards in Firefox Onboarding screens and start browsing.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Customization.Intro.Title.v123" xml:space="preserve">
+        <source>%@ puts you in control</source>
+        <note>String used to describe the title of the customization onboarding page in our Onboarding screens. Placeholder is for the app name.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Customization.Theme.Continue.Action.v123" xml:space="preserve">
+        <source>Save and Continue</source>
+        <note>String used to describe the option to save the user setting and continue to the next onboarding in Firefox Onboarding screens.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Customization.Theme.Dark.Action.v123" xml:space="preserve">
+        <source>Dark</source>
+        <note>On the theme customization onboarding card, the string used to describe the option to set the theme to dark theme from the available choices.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Customization.Theme.Description.v123" xml:space="preserve">
+        <source>See the web in the best light.</source>
+        <note>String used to describe the description label of the theme customization onboarding page in our Onboarding screens.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Customization.Theme.Light.Action.v123" xml:space="preserve">
+        <source>Light</source>
+        <note>On the theme customization onboarding card, the string used to describe the option to set the theme to light theme from the available choices.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Customization.Theme.Skip.Action.v123" xml:space="preserve">
+        <source>Skip</source>
+        <note>String used to describe the option to skip the theme customization in Firefox Onboarding screens.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Customization.Theme.System.Action.v123" xml:space="preserve">
+        <source>System Auto</source>
+        <note>On the theme customization onboarding card, the string used to describe the option to set the theme to system theme from the available choices.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Customization.Theme.Title.v123" xml:space="preserve">
+        <source>Pick a theme</source>
+        <note>String used to describe the title of the theme customization onboarding page in our Onboarding screens.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Customization.Toolbar.Bottom.Action.v123" xml:space="preserve">
+        <source>Bottom</source>
+        <note>On the toolbar customization onboarding card, the string used to describe the option to set the toolbar at the bottom of the screen.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Customization.Toolbar.Continue.Action.v123" xml:space="preserve">
+        <source>Save and Start Browsing</source>
+        <note>String used to describe the option to save set preferences and leave onboarding to start browsing in the app.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Customization.Toolbar.Description.v123" xml:space="preserve">
+        <source>Keep searches within reach.</source>
+        <note>String used to describe the description label of the toolbar customization onboarding page in our Onboarding screens.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Customization.Toolbar.Skip.Action.v123" xml:space="preserve">
+        <source>Skip</source>
+        <note>String used to describe the option to skip the toolbar customization in Firefox Onboarding screens and start browisg in the app.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Customization.Toolbar.Title.v123" xml:space="preserve">
+        <source>Pick a toolbar placement</source>
+        <note>String used to describe the title of the toolbar customization onboarding page in our Onboarding screens.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Customization.Toolbar.Top.Action.v123" xml:space="preserve">
+        <source>Top</source>
+        <note>On the toolbar customization onboarding card, the string used to describe the option to set the toolbar at the top of the screen.</note>
+      </trans-unit>
       <trans-unit id="Onboarding.IntroDescriptionPart1.v114" xml:space="preserve">
         <source>Indie. Non-profit. For good.</source>
         <note>String used to describes what Firefox is on the first onboarding page in our Onboarding screens. Indie means small independant.</note>
@@ -4098,6 +4150,10 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Sync.Description.v120" xml:space="preserve">
         <source>When you’re signed in and synced, you’re safer. %@ encrypts your passwords, bookmarks, and more.</source>
+        <note>String used to describes the description of what Firefox is on the Sync onboarding page for current version in our Onboarding screens. Placeholder is for the app name.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Sync.Description.v123" xml:space="preserve">
+        <source>%@ encrypts your passwords, bookmarks, and more when you’re synced.</source>
         <note>String used to describes the description of what Firefox is on the Sync onboarding page for current version in our Onboarding screens. Placeholder is for the app name.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Sync.SignIn.Action.v114" xml:space="preserve">
@@ -4267,6 +4323,14 @@ Private Tab</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
     </header>
     <body>
+      <trans-unit id="Addresses.Settings.EditCard.Switch.Description.v124" xml:space="preserve">
+        <source>Includes phone numbers and email addresses</source>
+        <note>On the autofill settings screen, a label under the title label to add additional context for user in regards to what the toggle switch that allow saving and autofilling of addresses for webpages does, letting users know that this action includes phone numbers and email addresses.</note>
+      </trans-unit>
+      <trans-unit id="Addresses.Settings.EditCard.Switch.Title.v124" xml:space="preserve">
+        <source>Save and Fill Addresses</source>
+        <note>Title label for user to use the toggle settings to allow saving and autofilling of addresses for webpages.</note>
+      </trans-unit>
       <trans-unit id="CreditCard.Settings.AddCard.AccessibilityLabel.v121" xml:space="preserve">
         <source>Add Card</source>
         <note>Accessibility label for the add button in autofill settings screen. Pressing this button presents a modal that allows users to add a card by entering the credit card information.</note>
@@ -4493,10 +4557,6 @@ Private Tab</source>
         <source>More to consider</source>
         <note>Title label for the Fakespot Ad card. This is displayed above a product image, suggested as an alternative to the product reviewed.</note>
       </trans-unit>
-      <trans-unit id="Shopping.AdjustedRating.Description.v120" xml:space="preserve">
-        <source>Unreliable reviews removed</source>
-        <note>Description adjusted of the rating card displayed in the shopping review quality bottom sheet.</note>
-      </trans-unit>
       <trans-unit id="Shopping.AdjustedRating.Description.v121" xml:space="preserve">
         <source>Based on reliable reviews</source>
         <note>Description adjusted of the rating card displayed in the shopping review quality bottom sheet.</note>
@@ -4633,17 +4693,13 @@ Private Tab</source>
         <source>No info about these reviews yet</source>
         <note>Title for card displayed when a shopping product has not been analysed yet.</note>
       </trans-unit>
-      <trans-unit id="Shopping.NoAnalysisCard.InProgress.Body.Label.v120" xml:space="preserve">
-        <source>This could take about 60 seconds.</source>
-        <note>Description for the card displayed when a shopping product has not been analysed yet but the analysis is in progress.</note>
-      </trans-unit>
-      <trans-unit id="Shopping.NoAnalysisCard.InProgress.Headline.Title.v120" xml:space="preserve">
-        <source>Checking review quality</source>
-        <note>Title for the card displayed when a shopping product has not been analysed yet but the analysis is in progress.</note>
-      </trans-unit>
       <trans-unit id="Shopping.OptInCard.Disclaimer.Text.v120" xml:space="preserve">
         <source>By selecting “Yes, Try It” you agree to the following from %@:</source>
         <note>Text for the disclaimer that appears underneath the rating image of the Shopping Experience Opt In onboarding Card (Fakespot). The parameter will be replaced by the Fakespot app name. After the colon, what appears are two links, each on their own line. The first link is to a Privacy policy. The second link is to Terms of use.</note>
+      </trans-unit>
+      <trans-unit id="Shopping.OptInCard.Disclaimer.Text.v123" xml:space="preserve">
+        <source>By selecting “Yes, Try It” you agree to these items:</source>
+        <note>Text for the disclaimer that appears underneath the rating image of the Shopping Experience Opt In onboarding Card (Fakespot). After the colon, there will be two links, each on their own line. The first link is to a Privacy policy. The second link is to Terms of use.</note>
       </trans-unit>
       <trans-unit id="Shopping.OptInCard.FirstParagraph.AmazonOnly.Description.v122" xml:space="preserve">
         <source>See how reliable product reviews are on %1$@ before you buy. Review Checker, an experimental feature from %2$@, is built right into the browser.</source>
@@ -4669,6 +4725,10 @@ Private Tab</source>
         <source>Privacy policy</source>
         <note>Show Firefox Browser Privacy Policy page from the Privacy section in the Shopping Experience Opt In onboarding Card (Fakespot). See https://www.mozilla.org/privacy/firefox/</note>
       </trans-unit>
+      <trans-unit id="Shopping.OptInCard.PrivacyPolicy.Button.Title.v123" xml:space="preserve">
+        <source>%@’s privacy notice</source>
+        <note>Show Firefox Browser Privacy Policy page from the Privacy section in the Shopping Experience Opt In onboarding Card (Fakespot). The parameter will be replace by the Firefox app name.</note>
+      </trans-unit>
       <trans-unit id="Shopping.OptInCard.SecondParagraph.Description.v120" xml:space="preserve">
         <source>Using the power of %1$@ by %2$@, we help you avoid biased and inauthentic reviews. Our AI model is always improving to protect you as you shop.</source>
         <note>Label for the second paragraph of the Shopping Experience Opt In onboarding Card (Fakespot). The first parameter will be replaced by the Fakespot app name. The second parameter will be replaced the company name of Mozilla.</note>
@@ -4680,6 +4740,10 @@ Private Tab</source>
       <trans-unit id="Shopping.OptInCard.TermsOfUse.Button.Title.v120" xml:space="preserve">
         <source>Terms of use</source>
         <note>Show Firefox Browser Terms of Use page from the Privacy section in the Shopping Experience Opt In onboarding Card (Fakespot). See https://www.mozilla.org/privacy/firefox/</note>
+      </trans-unit>
+      <trans-unit id="Shopping.OptInCard.TermsOfUse.Button.Title.v123" xml:space="preserve">
+        <source>%@’s terms of use</source>
+        <note>Show Fakespot Terms of Use page in the Shopping Experience Opt In onboarding Card (Fakespot). The parameter will be replace by the Fakespot name.</note>
       </trans-unit>
       <trans-unit id="Shopping.ReliabilityScore.Grade.A11y.Label.v120" xml:space="preserve">
         <source>Grade %@</source>
@@ -4906,17 +4970,13 @@ Private Tab</source>
         <source>Turn on tab syncing to view a list of tabs from your other devices.</source>
         <note>Users can disable syncing tabs from other devices. In the Sync Tabs panel of the Tab Tray, we inform the user tab syncing can be switched back on to view those tabs.</note>
       </trans-unit>
-      <trans-unit id="TabsTray.SyncTabs.SyncTabsButton.Title.v109" xml:space="preserve">
-        <source>Sync Tabs</source>
-        <note>Button label to sync tabs in your Firefox Account</note>
-      </trans-unit>
       <trans-unit id="TabsTray.SyncTabs.SyncTabsButton.Title.v119" xml:space="preserve">
         <source>Sync Tabs</source>
         <note>Button label to sync tabs in your account</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/TabToolbar.strings" datatype="plaintext" source-language="en" target-language="ast">
+  <file original="Shared/Supporting Files/en.lproj/TabToolbar.strings" source-language="en" target-language="ast" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
     </header>
