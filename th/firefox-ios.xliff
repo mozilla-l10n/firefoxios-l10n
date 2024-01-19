@@ -12,6 +12,7 @@
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve">
         <source>Firefox requires Face ID to access your saved passwords and payment methods.</source>
+        <target>Firefox ต้องใช้ Face ID เพื่อเข้าถึงการเข้าสู่ระบบและวิธีการชำระเงินที่คุณบันทึกไว้</target>
         <note>Privacy - Face ID Usage Description</note>
       </trans-unit>
       <trans-unit id="NSLocationWhenInUseUsageDescription" xml:space="preserve">
@@ -3947,6 +3948,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Biometry.Screen.UniversalAuthenticationReason.v122" xml:space="preserve">
         <source>Authenticate to access your saved passwords and payment methods.</source>
+        <target>ยืนยันตัวตนเพื่อเข้าถึงการเข้าสู่ระบบและวิธีการชำระเงินที่คุณบันทึกไว้</target>
         <note>Biometric authentication is when the system prompts users for Face ID or fingerprint before accessing protected information. This string asks the user to enter their device passcode to access the protected screen for logins and encrypted cards.</note>
       </trans-unit>
       <trans-unit id="Biometry.Screen.UniversalAuthenticationReasonV2.v116" xml:space="preserve">
@@ -4002,6 +4004,7 @@ Private Tab</source>
     <body>
       <trans-unit id="ContextualHints.FeltDeletion.Body.v122" xml:space="preserve">
         <source>Tap here to start a fresh private session. Delete your history, cookies — everything.</source>
+        <target>แตะที่นี่เพื่อเริ่มเปิดวาระส่วนตัวใหม่ โดยจะลบประวัติ คุกกี้ และทุกๆ อย่างของคุณเมื่อเสร็จแล้ว</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This is a call to action for the popup that appears to educate users about what the fire button in the toolbar does, when in private mode.</note>
       </trans-unit>
     </body>
@@ -4013,6 +4016,7 @@ Private Tab</source>
     <body>
       <trans-unit id="LoginsList.NoLoginsFound.Description.v122" xml:space="preserve">
         <source>The passwords you save or sync to %@ will be listed here. All passwords you save are encrypted.</source>
+        <target>รหัสผ่านที่คุณบันทึกหรือซิงค์กับ %@ จะแสดงอยู่ที่นี่ รหัสผ่านทั้งหมดที่คุณบันทึกจะถูกเข้ารหัสไว้</target>
         <note>Label shown when there are no logins to list. The placeholder will be replaced with the app name.</note>
       </trans-unit>
       <trans-unit id="LoginsList.NoLoginsFound.Title.v122" xml:space="preserve">
@@ -4039,6 +4043,7 @@ Private Tab</source>
     <body>
       <trans-unit id="Logins.DevicePasscodeRequired.Message.v122" xml:space="preserve">
         <source>To save and automatically fill passwords, enable Face ID, Touch ID, or a device passcode.</source>
+        <target>หากต้องการบันทึกและเติมรหัสผ่านแบบอัตโนมัติ ให้เปิดใช้งาน Face ID, Touch ID หรือรหัสของอุปกรณ์</target>
         <note>Message shown when you enter Logins &amp; Passwords without having a device passcode set.</note>
       </trans-unit>
     </body>
@@ -4181,6 +4186,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.ToggleToAllowAutofillTitle.v122" xml:space="preserve">
         <source>Save and Fill Payment Methods</source>
+        <target>บันทึกและเติมวิธีการชำระเงิน</target>
         <note>Title label for user to use the toggle settings to allow saving and autofilling of credit cards for webpages.</note>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.ViewCreditCardTitle.v116" xml:space="preserve">
@@ -4256,18 +4262,22 @@ Private Tab</source>
     <body>
       <trans-unit id="FirefoxHomepage.FeltDeletion.Link.v122" xml:space="preserve">
         <source>Private Browsing Data Erased</source>
+        <target>ลบข้อมูลการเรียกดูแบบส่วนตัวแล้ว</target>
         <note>When the user ends their private session, they are returned to the private mode homepage, and a toastbar popups confirming that their data has been erased. This is the label for that toast.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.FeltPrivacyUI.Body.v122" xml:space="preserve">
         <source>%@ deletes your cookies, history, and site data when you close all your private tabs.</source>
+        <target>%@ จะลบคุกกี้ ประวัติ และข้อมูลไซต์ของคุณเมื่อคุณปิดแท็บส่วนตัวของคุณทั้งหมด</target>
         <note>The body of the message for the card that educates users about how private mode works. The card shows up on the homepage when in the new privacy mode. Placeholder refers to app name.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.FeltPrivacyUI.Link.v122" xml:space="preserve">
         <source>Who might be able to see my activity?</source>
+        <target>ใครบ้างที่สามารถเห็นกิจกรรมของฉันได้?</target>
         <note>The link for the card that educates users about how private mode works. The link redirects to an external site for more information. The card shows up on the homepage when in the new privacy mode.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.FeltPrivacyUI.Title.v122" xml:space="preserve">
         <source>Leave no traces on this device</source>
+        <target>ไม่ทิ้งร่องรอยใดๆ บนอุปกรณ์นี้</target>
         <note>The title for the card that educates users about how private mode works. The card shows up on the homepage when in the new privacy mode.</note>
       </trans-unit>
     </body>
@@ -4583,6 +4593,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.RememberCard.Header.v122" xml:space="preserve">
         <source>%@ encrypts your card number. Your security code won’t be saved.</source>
+        <target>%@ จะเข้ารหัสหมายเลขบัตรของคุณ รหัสความปลอดภัยของคุณจะไม่ถูกบันทึก</target>
         <note>This value is used as the header for the remember card page. The placeholder is for the app name.</note>
       </trans-unit>
       <trans-unit id="CreditCard.RememberCard.MainButtonTitle.v115" xml:space="preserve">
@@ -4695,6 +4706,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.EmptyListTitle.v122" xml:space="preserve">
         <source>Save Cards to %@</source>
+        <target>บันทึกบัตรลงใน %@</target>
         <note>Title label for when there are no credit cards shown in credit card list in autofill settings screen. %@ is the product name and should not be altered.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.ListItemA11y.v118" xml:space="preserve">
@@ -4729,6 +4741,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.UpdateThisCard.v122" xml:space="preserve">
         <source>Update card?</source>
+        <target>ต้องการอัปเดตบัตรหรือไม่?</target>
         <note>When a user is in the process or has finished making a purchase with a remembered card, and if the credit card information doesn't match the contents of the stored information of that card, we show this string. We ask this user if they would like Firefox update the staled information of that credit card.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.Yes.v112" xml:space="preserve">
@@ -4773,6 +4786,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.AddressAutofill.Title.v124" xml:space="preserve">
         <source>Autofill Addresses</source>
+        <target>เติมที่อยู่อัตโนมัติ</target>
         <note>Label used as an item in Settings screen. When touched, it will take user to address autofill settings page to that will allow user to add or modify saved addresses to allow for autofill in a webpage.</note>
       </trans-unit>
       <trans-unit id="Settings.AutofillCreditCard.Title.v122" xml:space="preserve">
@@ -4832,10 +4846,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.Search.Accessibility.LearnAboutSuggestions.v124" xml:space="preserve">
         <source>Learn more about Firefox Suggest</source>
+        <target>เรียนรู้เพิ่มเติมเกี่ยวกับ Firefox Suggest</target>
         <note>Accessibility label for Learn more about Firefox Suggest.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.DefaultSearchEngine.Footer.v122" xml:space="preserve">
         <source>Results from searches, history, bookmarks, and more</source>
+        <target>ผลลัพธ์จากการค้นหา ประวัติ ที่คั่นหน้า และอื่นๆ</target>
         <note>Footer for for the `default search engine` settings section in the Search Settings page, which explains in more details what the `Show Search Suggestions` setting includes.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.DefaultSearchEngine.Title.v121" xml:space="preserve">
@@ -4850,6 +4866,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.Search.PrivateSession.Setting.v122" xml:space="preserve">
         <source>Show Suggestions in Private Browsing</source>
+        <target>แสดงคำแนะนำในการเรียกดูแบบส่วนตัว</target>
         <note>Label for toggle. Explains that in private browsing mode, the search suggestions which appears at the top of the search bar, can be toggled on or off. Located in the Private Session section in the Search page in the Settings menu.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.PrivateSession.Title.v122" xml:space="preserve">
@@ -4869,26 +4886,32 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.AddressBarSetting.Title.v124" xml:space="preserve">
         <source>Address bar - Firefox Suggest</source>
+        <target>แถบที่อยู่ - Firefox Suggest</target>
         <note>In the Search page of the Settings menu, the title for the Firefox Suggest settings section.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.LearnAboutSuggestions.v124" xml:space="preserve">
         <source>Learn more about Firefox Suggest</source>
+        <target>เรียนรู้เพิ่มเติมเกี่ยวกับ Firefox Suggest</target>
         <note>In the search page of the Settings menu, the title for the link to the SUMO Page about Firefox Suggest.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.ShowNonSponsoredSuggestions.Description.v124" xml:space="preserve">
         <source>Get suggestions from the web related to your search</source>
+        <target>รับคำแนะนำจากเว็บที่เกี่ยวข้องกับการค้นหาของคุณ</target>
         <note>In the Search page of the Settings menu, the description for the setting to enable Suggestions from Firefox.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.ShowNonSponsoredSuggestions.Title.v124" xml:space="preserve">
         <source>Suggestions from %@</source>
+        <target>คำแนะนำจาก %@</target>
         <note>In the Search page of the Settings menu, the title for setting to enable Suggestions from Firefox. Placeholder is for the app name - Firefox.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.ShowSponsoredSuggestions.Description.v124" xml:space="preserve">
         <source>Support %@ with occasional sponsored suggestions</source>
+        <target>สนับสนุน %@ ด้วยคำแนะนำจากผู้สนับสนุนซึ่งแสดงเป็นครั้งคราว</target>
         <note>In the Search page of the Settings menu, the description for the setting to enable Suggestions from sponsors. Placeholder is for the app name - Firefox.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.ShowSponsoredSuggestions.Title.v124" xml:space="preserve">
         <source>Suggestions from sponsors</source>
+        <target>คำแนะนำจากผู้สนับสนุน</target>
         <note>In the Search page of the Settings menu, the title for the setting to enable Suggestions from sponsors.</note>
       </trans-unit>
     </body>
@@ -5092,6 +5115,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.ProgressAnalysis.Title.v123" xml:space="preserve">
         <source>Checking review quality (%@)</source>
+        <target>กำลังตรวจสอบคุณภาพบทวิจารณ์ (%@)</target>
         <note>Title for info card when the product is in analysis mode. The placeholder represents the percentage of the analysis progress, ranging between 1 and 100.</note>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.ReportSubmittedByCurrentUser.Description.v121" xml:space="preserve">
@@ -5271,6 +5295,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.SettingsCard.Expand.GroupedRecommendedProductsAndSwitch.AccessibilityHint.v123" xml:space="preserve">
         <source>Double tap to toggle setting.</source>
+        <target>แตะสองครั้งเพื่อสลับการตั้งค่า</target>
         <note>Accessibility hint for the recommended products label and switch, grouped together. When the group is selected in VoiceOver mode, the hint is read to help the user understand what action can be performed.</note>
       </trans-unit>
       <trans-unit id="Shopping.SettingsCard.Expand.GroupedRecommendedProductsAndSwitch.AccessibilityLabel.v123" xml:space="preserve">
@@ -5413,6 +5438,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="TabsButton.Accessibility.LargeContentTitle.v122" xml:space="preserve">
         <source>Show Tabs: %@</source>
+        <target>แสดงแท็บ: %@</target>
         <note>Large content title for the tabs button. The argument is the number of open tabs or an infinity symbol. This title is displayed when using accessible font sizes is enabled.</note>
       </trans-unit>
       <trans-unit id="TopSites.RemoveButton.LargeContentTitle.v122" xml:space="preserve">
@@ -5471,6 +5497,7 @@ Private Tab</source>
     <body>
       <trans-unit id="TabToolbar.Accessibility.DataClearance.v122" xml:space="preserve">
         <source>Data Clearance</source>
+        <target>การล้างข้อมูล</target>
         <note>Accessibility label for the tab toolbar fire button in private mode, used to provide users a way to end and delete their private session data.</note>
       </trans-unit>
     </body>
@@ -5509,6 +5536,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.UpdateCard.MainTitle.v122" xml:space="preserve">
         <source>Update card?</source>
+        <target>ต้องการอัปเดตบัตรหรือไม่?</target>
         <note>This value is used as the title for the update card page</note>
       </trans-unit>
       <trans-unit id="CreditCard.UpdateCard.ManageCardsButtonTitle.v115" xml:space="preserve">
