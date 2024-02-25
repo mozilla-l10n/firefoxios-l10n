@@ -4028,6 +4028,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Logins.PaymentMethods.DevicePasscodeRequired.Message.v124.v2" xml:space="preserve">
         <source>To save and autofill credit cards, enable Face ID, Touch ID, or a device passcode.</source>
+        <target>신용 카드를 저장하고 자동 완성하려면 Face ID, Touch ID 또는 장치 암호를 활성화하십시오.</target>
         <note>Message shown when you enter Payment Methods without having a device passcode set.</note>
       </trans-unit>
     </body>
@@ -4425,6 +4426,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="DefaultBrowserPopup.DescriptionFooter.v124" xml:space="preserve">
         <source>*Is %@ already your default?* Close this message and tap Skip.</source>
+        <target>*%@가 이미 기본값입니까?* 이 메시지를 닫고 건너뛰기를 탭하세요.</target>
         <note>The footer label on the Default Browser Popup, which is below all the instructions asking the users if their Firefox browser is the default browser. If it is then close this message and tap skip. The *text inside asterisks* denotes part of the string to bold, please leave the text inside the '*' so that it is bolded correctly.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserPopup.FirstLabel.v114" xml:space="preserve">
@@ -4681,18 +4683,22 @@ Private Tab</source>
     <body>
       <trans-unit id="PasswordAutofill.ManagePasswordsButton.v124" xml:space="preserve">
         <source>Manage passwords</source>
+        <target>비밀번호 관리</target>
         <note>This label is used for a button in the password list screen allowing users to manage their saved passwords. It's meant to direct users to where they can add, remove, or edit their saved passwords.</note>
       </trans-unit>
       <trans-unit id="PasswordAutofill.SignInWithSavedPassword.v124" xml:space="preserve">
         <source>You’ll sign into %@</source>
+        <target>%@에 로그인하게 됩니다</target>
         <note>This phrase is used as a subtitle in the header of password list screen, indicating to the user that they will be logging into a specific website (represented by %@) using a saved password. It's providing clarity on which website the saved credentials apply to.</note>
       </trans-unit>
       <trans-unit id="PasswordAutofill.UseSavedPasswordFromHeader.v124" xml:space="preserve">
         <source>Use saved password?</source>
+        <target>저장된 비밀번호를 사용하시겠습니까?</target>
         <note>This label is used in the password list screen header as a question, prompting the user if they want to use a saved password for logging in.</note>
       </trans-unit>
       <trans-unit id="PasswordAutofill.UseSavedPasswordFromKeyboard.v124" xml:space="preserve">
         <source>Use saved password</source>
+        <target>저장된 비밀번호 사용</target>
         <note>Displayed inside the keyboard hint when a user is entering their login credentials and has at least one saved password. Indicates that there are stored passwords available for use in filling out the login form.</note>
       </trans-unit>
     </body>
@@ -4807,18 +4813,22 @@ Private Tab</source>
     <body>
       <trans-unit id="Addresses.Settings.SavedAddressesSectionTitle.v124" xml:space="preserve">
         <source>SAVED ADDRESSES</source>
+        <target>저장된 주소</target>
         <note>On the autofill settings screen, a label for the section that displays the list of saved addresses. This label adds additional context for users regarding the toggle switch that allows saving and autofilling of addresses for webpages.</note>
       </trans-unit>
       <trans-unit id="Addresses.Settings.Switch.Description.v124" xml:space="preserve">
         <source>Includes phone numbers and email addresses</source>
+        <target>전화번호와 이메일 주소가 포함됩니다.</target>
         <note>On the autofill settings screen, a label under the title label to add additional context for user in regards to what the toggle switch that allow saving and autofilling of addresses for webpages does, letting users know that this action includes phone numbers and email addresses.</note>
       </trans-unit>
       <trans-unit id="Addresses.Settings.Switch.Title.v124" xml:space="preserve">
         <source>Save and Fill Addresses</source>
+        <target>주소 저장 및 채우기</target>
         <note>Title label for user to use the toggle settings to allow saving and autofilling of addresses for webpages.</note>
       </trans-unit>
       <trans-unit id="Addresses.Settings.UseSavedAddressFromKeyboard.v124" xml:space="preserve">
         <source>Use saved address</source>
+        <target>저장된 주소 사용</target>
         <note>Displayed inside the keyboard hint when a user is entering their address and has at least one saved address. Indicates that there are stored addresses available for use in filling out a form.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.AddCard.AccessibilityLabel.v121" xml:space="preserve">
@@ -4983,6 +4993,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.Search.AlternateSearchEngines.Title.v124.v2" xml:space="preserve">
         <source>Alternative Search Engines</source>
+        <target>다른 검색 엔진</target>
         <note>Title for alternate search engines settings section in the Search page in the Settings menu.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.DefaultSearchEngine.Footer.v122" xml:space="preserve">
@@ -4997,6 +5008,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.Search.EnginesSuggestions.Title.v124" xml:space="preserve">
         <source>Suggestions from Search Engines</source>
+        <target>검색 엔진의 제안</target>
         <note>Title for the `Suggestions from Search Engines` settings section in the Search page in the Settings menu.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.PageTitle.v121" xml:space="preserve">
@@ -5011,6 +5023,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.Search.PrivateSession.Setting.v124" xml:space="preserve">
         <source>Show in Private Sessions</source>
+        <target>사생활 보호 세션에서 보기</target>
         <note>Label for toggle. Explains that in private browsing mode, the search suggestions which appears at the top of the search bar, can be toggled on or off. Located in `Suggestions from Search Engines` and `Address Bar - Firefox Suggest` sections in the Search page in the Settings menu.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.PrivateSession.Title.v122" xml:space="preserve">
@@ -5040,14 +5053,17 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.SearchBrowsingHistory.Title.v124" xml:space="preserve">
         <source>Search Browsing History</source>
+        <target>방문 기록 검색</target>
         <note>In the Search page of the Settings menu, the title for the setting to enable search browsing history.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.SearchSearchBookmarks.Title.v124" xml:space="preserve">
         <source>Search Bookmarks</source>
+        <target>북마크 검색</target>
         <note>In the Search page of the Settings menu, the title for the setting to enable search bookmarks.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.SearchSyncedTabs.Title.v124" xml:space="preserve">
         <source>Search Synced Tabs</source>
+        <target>동기화된 탭 검색</target>
         <note>In the Search page of the Settings menu, the title for the setting to enable synced tabs.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.ShowNonSponsoredSuggestions.Description.v124" xml:space="preserve">
@@ -5057,6 +5073,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.ShowNonSponsoredSuggestions.Description.v124.v2" xml:space="preserve">
         <source>Get suggestions from %@ related to your search</source>
+        <target>사용자 검색과 관련된 웹 제안을 받으세요</target>
         <note>In the Search page of the Settings menu, the description for the setting to enable Suggestions from Firefox. Placeholder is for the app name - Firefox.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.ShowNonSponsoredSuggestions.Title.v124" xml:space="preserve">
@@ -5066,6 +5083,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.ShowNonSponsoredSuggestions.Title.v124.v2" xml:space="preserve">
         <source>Suggestions from the Web</source>
+        <target>웹에서 제안</target>
         <note>In the Search page of the Settings menu, the title for setting to enable Suggestions from the web in Firefox.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.ShowSponsoredSuggestions.Description.v124" xml:space="preserve">
