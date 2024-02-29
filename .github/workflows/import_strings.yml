@@ -73,7 +73,7 @@ jobs:
       - name: Get the current date for PR title
         run: echo "current_date=$(date +"%Y-%m-%d")" >> $GITHUB_ENV
       - run : git config --global user.email "flodolo@users.noreply.github.com"
-      - uses: peter-evans/create-pull-request@v5
+      - uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.IOS_L10N_TOKEN }}
           path: "l10n_repo"
