@@ -3971,6 +3971,17 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
+  <file original="Shared/Supporting Files/en.lproj/BottomSheet.strings" datatype="plaintext" source-language="en" target-language="br">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
+    </header>
+    <body>
+      <trans-unit id="Addresses.BottomSheet.UseSavedAddressBottomSheet.v124" xml:space="preserve">
+        <source>Use a saved address?</source>
+        <note>Title displayed on the bottom sheet for prompting users to use a saved address from the list.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Shared/Supporting Files/en.lproj/ContextualHints.strings" source-language="en" target-language="br" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
@@ -4976,6 +4987,10 @@ Private Tab</source>
         <target>Klask</target>
         <note>Navigation title for search page in the Settings menu.</note>
       </trans-unit>
+      <trans-unit id="Settings.Search.PrivateSession.Description.v125" xml:space="preserve">
+        <source>Show suggestions from search engines in private sessions</source>
+        <note>Description for `Show in Private Sessions` toggle, located in `Suggestions from Search Engines` section in the Search page in the Settings menu.</note>
+      </trans-unit>
       <trans-unit id="Settings.Search.PrivateSession.Setting.v122" xml:space="preserve">
         <source>Show Suggestions in Private Browsing</source>
         <note>Label for toggle. Explains that in private browsing mode, the search suggestions which appears at the top of the search bar, can be toggled on or off. Located in the Private Session section in the Search page in the Settings menu.</note>
@@ -5009,6 +5024,10 @@ Private Tab</source>
         <source>Learn more about Firefox Suggest</source>
         <target>Gouzout hiroc’h diwar-benn ar pezh a vez aliet gant Firefox</target>
         <note>In the search page of the Settings menu, the title for the link to the SUMO Page about Firefox Suggest.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.Suggest.PrivateSession.Description.v125" xml:space="preserve">
+        <source>Show suggestions from Firefox Suggest in private sessions</source>
+        <note>Description for `Show in Private Sessions` toggle, located in `Address Bar - Firefox Suggest` section in the Search page in the Settings menu.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.SearchBrowsingHistory.Title.v124" xml:space="preserve">
         <source>Search Browsing History</source>
@@ -5047,8 +5066,7 @@ Private Tab</source>
         <note>In the Search page of the Settings menu, the description for the setting to enable Suggestions from sponsors. Placeholder is for the app name - Firefox.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.ShowSponsoredSuggestions.Title.v124" xml:space="preserve">
-        <source>Suggestions from sponsors</source>
-        <target>Kinnigoù paeroniet</target>
+        <source>Suggestions from Sponsors</source>
         <note>In the Search page of the Settings menu, the title for the setting to enable Suggestions from sponsors.</note>
       </trans-unit>
     </body>
