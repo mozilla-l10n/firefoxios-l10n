@@ -1411,11 +1411,6 @@
         <target>Més informació</target>
         <note>Title of the Learn More button that links to a support page about device passcode requirements.</note>
       </trans-unit>
-      <trans-unit id="Logins.DevicePasscodeRequired.Message" xml:space="preserve">
-        <source>To save and autofill logins and passwords, enable Face ID, Touch ID or a device passcode.</source>
-        <target>Per desar i emplenar automàticament els inicis de sessió i les contrasenyes, activeu el Face ID, el Touch ID o un codi del dispositiu.</target>
-        <note>Message shown when you enter Logins &amp; Passwords without having a device passcode set.</note>
-      </trans-unit>
       <trans-unit id="Logins.Onboarding.ContinueButtonTitle" xml:space="preserve">
         <source>Continue</source>
         <target>Continua</target>
@@ -1491,35 +1486,15 @@
         <target>Filtre</target>
         <note>Placeholder test for search box in logins list view.</note>
       </trans-unit>
-      <trans-unit id="LoginsList.NoLoginsFound.Description.v119" xml:space="preserve">
-        <source>Saved logins will show up here. If you saved your logins to %@ on a different device, sign in to your account.</source>
-        <target>Els inicis de sessió desats es mostraran aquí. Si heu desat inicis de sessió al %@ en un altre dispositiu, inicieu la sessió al vostre compte.</target>
-        <note>Label shown when there are no logins to list. The placeholder will be replaced with the app name.</note>
-      </trans-unit>
-      <trans-unit id="LoginsList.NoLoginsFound.Title" xml:space="preserve">
-        <source>No logins found</source>
-        <target>No s'ha trobat cap inici de sessió</target>
-        <note>Label shown when there are no logins saved</note>
-      </trans-unit>
       <trans-unit id="LoginsList.NoMatchingResult.Subtitle" xml:space="preserve">
         <source>There are no results matching your search.</source>
         <target>No hi ha cap resultat que coincideixi amb la cerca.</target>
         <note>Label that appears after the search if there are no logins matching the search</note>
       </trans-unit>
-      <trans-unit id="LoginsList.NoMatchingResult.Title" xml:space="preserve">
-        <source>No matching logins</source>
-        <target>No hi ha cap inici de sessió que coincideixi</target>
-        <note>Label displayed when a user searches and no matches can be found against the search query</note>
-      </trans-unit>
       <trans-unit id="LoginsList.Search.Cancel" xml:space="preserve">
         <source>Cancel</source>
         <target>Cancel·la</target>
         <note>Title for cancel button for user to stop searching for a particular login</note>
-      </trans-unit>
-      <trans-unit id="LoginsList.Search.Placeholder" xml:space="preserve">
-        <source>Search logins</source>
-        <target>Cerca els inicis de sessió</target>
-        <note>Placeholder text for search field</note>
       </trans-unit>
       <trans-unit id="LoginsList.SelectPassword.Title" xml:space="preserve">
         <source>Select a password to fill</source>
@@ -2245,11 +2220,6 @@
         <source>URL (Replace Query with %s)</source>
         <target>URL (substituïu la cerca per %s)</target>
         <note>The placeholder for URL Field when saving a custom search engine</note>
-      </trans-unit>
-      <trans-unit id="Settings.AutofillCreditCard.Title.v112" xml:space="preserve">
-        <source>Autofill Credit Cards</source>
-        <target>Emplenament automàtic de targetes de crèdit</target>
-        <note>Label used as an item in Settings screen. When touched, it will take user to credit card settings page to that will allows to add or modify saved credit cards to allow autofill in a webpage.</note>
       </trans-unit>
       <trans-unit id="Settings.ClearAllWebsiteData.Clear.Button" xml:space="preserve">
         <source>Clear All Website Data</source>
@@ -3845,11 +3815,6 @@ Private Tab</source>
         <target>Això eliminarà la targeta de tots els dispositius sincronitzats.</target>
         <note>Sub label for the dialog box that gets presented as a confirmation to ask user if they would like to remove the saved credit card from local as well as all their synced devices</note>
       </trans-unit>
-      <trans-unit id="CreditCard.SnackBar.RemoveCardTitle.v112" xml:space="preserve">
-        <source>Remove This Card?</source>
-        <target>Voleu eliminar aquesta targeta?</target>
-        <note>Title label for the dialog box that gets presented as a confirmation to ask user if they would like to remove the saved credit card</note>
-      </trans-unit>
       <trans-unit id="CreditCard.SnackBar.RemoveCardTitle.v122" xml:space="preserve">
         <source>Remove Card?</source>
         <note>Title label for the dialog box that gets presented as a confirmation to ask user if they would like to remove the saved credit card</note>
@@ -3916,11 +3881,6 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Biometry.Screen.UniversalAuthenticationReason.v122" xml:space="preserve">
         <source>Authenticate to access your saved passwords and payment methods.</source>
-        <note>Biometric authentication is when the system prompts users for Face ID or fingerprint before accessing protected information. This string asks the user to enter their device passcode to access the protected screen for logins and encrypted cards.</note>
-      </trans-unit>
-      <trans-unit id="Biometry.Screen.UniversalAuthenticationReasonV2.v116" xml:space="preserve">
-        <source>Authenticate to access your saved logins and encrypted cards.</source>
-        <target>Autentiqueu-vos per accedir als vostres inicis de sessió i targetes xifrades que heu desat.</target>
         <note>Biometric authentication is when the system prompts users for Face ID or fingerprint before accessing protected information. This string asks the user to enter their device passcode to access the protected screen for logins and encrypted cards.</note>
       </trans-unit>
     </body>
@@ -4058,11 +4018,6 @@ Private Tab</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
     </header>
     <body>
-      <trans-unit id="CreditCard.EditCard.EditCreditCardTitle.v113" xml:space="preserve">
-        <source>Edit Credit Card</source>
-        <target>Edita la targeta de crèdit</target>
-        <note>Title label for the view where user can edit their credit card info</note>
-      </trans-unit>
       <trans-unit id="CreditCard.EditCard.EditCreditCardTitle.v122" xml:space="preserve">
         <source>Edit Card</source>
         <note>Title label for the view where user can edit their credit card info</note>
@@ -4074,11 +4029,6 @@ Private Tab</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
     </header>
     <body>
-      <trans-unit id="CreditCard.EditCard.AddCreditCardTitle.v113" xml:space="preserve">
-        <source>Add Credit Card</source>
-        <target>Afegeix una targeta de crèdit</target>
-        <note>Title label for the view where user can add their credit card info</note>
-      </trans-unit>
       <trans-unit id="CreditCard.EditCard.AddCreditCardTitle.v122" xml:space="preserve">
         <source>Add Card</source>
         <note>Title label for the view where user can add their credit card info</note>
@@ -4152,11 +4102,6 @@ Private Tab</source>
         <source>SAVED CARDS</source>
         <target>TARGETES DESADES</target>
         <note>Title label for user to pick a credit card from the list below to be updated.</note>
-      </trans-unit>
-      <trans-unit id="CreditCard.EditCard.ToggleToAllowAutofillTitle.v112" xml:space="preserve">
-        <source>Save and Autofill Cards</source>
-        <target>Desa i emplena automàticament les targetes</target>
-        <note>Title label for user to use the toggle settings to allow saving and autofilling of credit cards for webpages.</note>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.ToggleToAllowAutofillTitle.v122" xml:space="preserve">
         <source>Save and Fill Payment Methods</source>
@@ -4290,11 +4235,6 @@ Private Tab</source>
       <trans-unit id="FirefoxSync.AddressAutofillEngine.v124" xml:space="preserve">
         <source>Addresses</source>
         <note>Toggle for address autofill syncing setting</note>
-      </trans-unit>
-      <trans-unit id="FirefoxSync.CreditCardsEngine.v115" xml:space="preserve">
-        <source>Credit Cards</source>
-        <target>Targetes de crèdit</target>
-        <note>Toggle for credit cards syncing setting</note>
       </trans-unit>
       <trans-unit id="FirefoxSync.CreditCardsEngine.v122" xml:space="preserve">
         <source>Payment Methods</source>
@@ -4651,28 +4591,13 @@ Private Tab</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
     </header>
     <body>
-      <trans-unit id="CreditCard.RememberCard.Header.v115" xml:space="preserve">
-        <source>Save your card information securely with %@ to check out faster next time.</source>
-        <target>Deseu la informació de la targeta de manera segura amb el %@ per agilitzar el pagament la pròxima vegada.</target>
-        <note>This value is used as the header for the remember card page. The placeholder is for the app name.</note>
-      </trans-unit>
       <trans-unit id="CreditCard.RememberCard.Header.v122" xml:space="preserve">
         <source>%@ encrypts your card number. Your security code won’t be saved.</source>
         <note>This value is used as the header for the remember card page. The placeholder is for the app name.</note>
       </trans-unit>
-      <trans-unit id="CreditCard.RememberCard.MainButtonTitle.v115" xml:space="preserve">
-        <source>Yes</source>
-        <target>Sí</target>
-        <note>This value is used as the title for the Yes button in the remember credit card page</note>
-      </trans-unit>
       <trans-unit id="CreditCard.RememberCard.MainButtonTitle.v122" xml:space="preserve">
         <source>Save</source>
         <note>This value is used as the title for the Yes button in the remember credit card page</note>
-      </trans-unit>
-      <trans-unit id="CreditCard.RememberCard.MainTitle.v115" xml:space="preserve">
-        <source>Remember this card?</source>
-        <target>Voleu recordar aquesta targeta?</target>
-        <note>This value is used as the title for the remember credit card page</note>
       </trans-unit>
       <trans-unit id="CreditCard.RememberCard.MainTitle.v122" xml:space="preserve">
         <source>Securely save this card?</source>
@@ -4734,11 +4659,6 @@ Private Tab</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
     </header>
     <body>
-      <trans-unit id="CreditCard.SelectCreditCard.MainTitle.v116" xml:space="preserve">
-        <source>Use a saved card?</source>
-        <target>Voleu utilitzar una targeta desada?</target>
-        <note>This value is used as the title for the select a credit card from list of available cards.</note>
-      </trans-unit>
       <trans-unit id="CreditCard.SelectCreditCard.MainTitle.v122" xml:space="preserve">
         <source>Use saved card</source>
         <note>This value is used as the title for the select a credit card from list of available cards.</note>
@@ -4776,11 +4696,6 @@ Private Tab</source>
         <target>Deseu la informació de la targeta de manera segura per agilitzar el pagament la pròxima vegada.</target>
         <note>Description label for when there are no credit cards shown in credit card list in autofill settings screen.</note>
       </trans-unit>
-      <trans-unit id="CreditCard.Settings.EmptyListTitle.v112" xml:space="preserve">
-        <source>Save Credit Cards to %@</source>
-        <target>Desa les targetes de crèdit en el %@</target>
-        <note>Title label for when there are no credit cards shown in credit card list in autofill settings screen. %@ is the product name and should not be altered.</note>
-      </trans-unit>
       <trans-unit id="CreditCard.Settings.EmptyListTitle.v122" xml:space="preserve">
         <source>Save Cards to %@</source>
         <note>Title label for when there are no credit cards shown in credit card list in autofill settings screen. %@ is the product name and should not be altered.</note>
@@ -4790,37 +4705,17 @@ Private Tab</source>
         <target>%1$@, emesa a %2$@, acabada en %3$@, caduca el %4$@</target>
         <note>Accessibility label for a credit card list item in autofill settings screen. The first parameter is the credit card issuer (e.g. Visa). The second parameter is the name of the credit card holder. The third parameter is the last 4 digits of the credit card. The fourth parameter is the card's expiration date.</note>
       </trans-unit>
-      <trans-unit id="CreditCard.Settings.NotNow.v112" xml:space="preserve">
-        <source>Not now</source>
-        <target>Ara no</target>
-        <note>When a user is in the process or has finished making a purchase with a card not saved in Firefox's list of stored cards, we ask the user if they would like to save this card for future purchases. This string indicates to users that they can deny Firefox from remembering the card that is being used.</note>
-      </trans-unit>
       <trans-unit id="CreditCard.Settings.NotNow.v122" xml:space="preserve">
         <source>Not Now</source>
         <note>When a user is in the process or has finished making a purchase with a card not saved in Firefox's list of stored cards, we ask the user if they would like to save this card for future purchases. This string indicates to users that they can deny Firefox from remembering the card that is being used.</note>
-      </trans-unit>
-      <trans-unit id="CreditCard.Settings.RememberThisCard.v112" xml:space="preserve">
-        <source>Remember this card?</source>
-        <target>Voleu recordar aquesta targeta?</target>
-        <note>When a user is in the process or has finished making a purchase with a card not saved in Firefox's list of stored cards, we ask the user if they would like to save this card for future purchases. This string is a title string of the overall message that asks the user if they would like Firefox to remember the card that is being used.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.RememberThisCard.v122" xml:space="preserve">
         <source>Securely save this card?</source>
         <note>When a user is in the process or has finished making a purchase with a card not saved in Firefox's list of stored cards, we ask the user if they would like to save this card for future purchases. This string is a title string of the overall message that asks the user if they would like Firefox to remember the card that is being used.</note>
       </trans-unit>
-      <trans-unit id="CreditCard.Settings.UpdateThisCard.v112" xml:space="preserve">
-        <source>Update this card?</source>
-        <target>Voleu actualitzar aquesta targeta?</target>
-        <note>When a user is in the process or has finished making a purchase with a remembered card, and if the credit card information doesn't match the contents of the stored information of that card, we show this string. We ask this user if they would like Firefox update the staled information of that credit card.</note>
-      </trans-unit>
       <trans-unit id="CreditCard.Settings.UpdateThisCard.v122" xml:space="preserve">
         <source>Update card?</source>
         <note>When a user is in the process or has finished making a purchase with a remembered card, and if the credit card information doesn't match the contents of the stored information of that card, we show this string. We ask this user if they would like Firefox update the staled information of that credit card.</note>
-      </trans-unit>
-      <trans-unit id="CreditCard.Settings.Yes.v112" xml:space="preserve">
-        <source>Yes</source>
-        <target>Sí</target>
-        <note>When a user is in the process or has finished making a purchase with a card not saved in Firefox's list of stored cards, we ask the user if they would like to save this card for future purchases. This string asks users to confirm if they would like Firefox to remember the card that is being used.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.Yes.v122" xml:space="preserve">
         <source>Update</source>
@@ -4835,11 +4730,6 @@ Private Tab</source>
         <source>Manage cards</source>
         <target>Gestiona les targetes</target>
         <note>When a user is in the process or has finished making a purchase, and has at least one card saved, we show this tappable string. This indicates to users that they can navigate to their list of stored credit cards in the app's credit card list screen.</note>
-      </trans-unit>
-      <trans-unit id="CreditCards.Settings.UseASavedCard.v112" xml:space="preserve">
-        <source>Use a saved card?</source>
-        <target>Voleu utilitzar una targeta desada?</target>
-        <note>When a user is in the process of making a purchase, and has at least one saved card, we show this label used as a title. This indicates to the user that there are stored cards available for use on this pending purchase.</note>
       </trans-unit>
       <trans-unit id="CreditCards.Settings.UseASavedCard.v122" xml:space="preserve">
         <source>Use saved card</source>
@@ -4857,6 +4747,10 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.AddressAutofill.Title.v124" xml:space="preserve">
         <source>Autofill Addresses</source>
+        <note>Label used as an item in Settings screen. When touched, it will take user to address autofill settings page to that will allow user to add or modify saved addresses to allow for autofill in a webpage.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AddressAutofill.Title.v126" xml:space="preserve">
+        <source>Addresses</source>
         <note>Label used as an item in Settings screen. When touched, it will take user to address autofill settings page to that will allow user to add or modify saved addresses to allow for autofill in a webpage.</note>
       </trans-unit>
       <trans-unit id="Settings.AutofillCreditCard.Title.v122" xml:space="preserve">
@@ -5438,11 +5332,6 @@ Private Tab</source>
         <target>S'ha desat la targeta nova</target>
         <note>Label text that gets presented as a confirmation at the bottom of screen when credit card information gets saved successfully</note>
       </trans-unit>
-      <trans-unit id="CreditCard.SnackBar.UpdatedCardLabel.v112" xml:space="preserve">
-        <source>Card Information updated</source>
-        <target>S'ha actualitzat la informació de la targeta</target>
-        <note>Label text that gets presented as a confirmation at the bottom of screen when credit card information gets updated successfully</note>
-      </trans-unit>
       <trans-unit id="CreditCard.SnackBar.UpdatedCardLabel.v122" xml:space="preserve">
         <source>Card Information Updated</source>
         <note>Label text that gets presented as a confirmation at the bottom of screen when credit card information gets updated successfully</note>
@@ -5585,11 +5474,6 @@ Private Tab</source>
         <target>S'ha actualitzat la informació de la targeta</target>
         <note>This value is used as the toast message for the saving success alert in the remember credit card page</note>
       </trans-unit>
-      <trans-unit id="CreditCard.UpdateCard.MainTitle.v115" xml:space="preserve">
-        <source>Update this card?</source>
-        <target>Voleu actualitzar aquesta targeta?</target>
-        <note>This value is used as the title for the update card page</note>
-      </trans-unit>
       <trans-unit id="CreditCard.UpdateCard.MainTitle.v122" xml:space="preserve">
         <source>Update card?</source>
         <note>This value is used as the title for the update card page</note>
@@ -5603,11 +5487,6 @@ Private Tab</source>
         <source>Not Now</source>
         <target>Ara no</target>
         <note>This value is used as the title for the Not Now button in the update credit card page</note>
-      </trans-unit>
-      <trans-unit id="CreditCard.UpdateCard.YesButtonTitle.v115" xml:space="preserve">
-        <source>Yes</source>
-        <target>Sí</target>
-        <note>This value is used as the title for the button in the update credit card page</note>
       </trans-unit>
       <trans-unit id="CreditCard.UpdateCard.YesButtonTitle.v122" xml:space="preserve">
         <source>Update</source>
