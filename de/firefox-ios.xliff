@@ -2224,6 +2224,7 @@
       </trans-unit>
       <trans-unit id="Settings.BlockOpeningExternalApps.Title" xml:space="preserve">
         <source>Block Opening External Apps</source>
+        <target>Öffnen von externen Apps blockieren</target>
         <note>Title of setting to block opening external apps when pressing links.</note>
       </trans-unit>
       <trans-unit id="Settings.ClearAllWebsiteData.Clear.Button" xml:space="preserve">
@@ -2653,6 +2654,7 @@
       </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.Status.v128" xml:space="preserve">
         <source>When opening %@</source>
+        <target>Beim Öffnen von %@</target>
         <note>Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349. Placeholder is for the app name.</note>
       </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.StatusV2" xml:space="preserve">
@@ -3832,10 +3834,12 @@ Private Tab</source>
     <body>
       <trans-unit id="ActivityStream.Bookmarks.Title.v128" xml:space="preserve">
         <source>Bookmarks</source>
+        <target>Lesezeichen</target>
         <note>String used in the section title of the Bookmarks section on Home Screen.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Actions.More.v128" xml:space="preserve">
         <source>Show All</source>
+        <target>Alle anzeigen</target>
         <note>Show all button text for Bookmarks items on the home page, which opens the Bookmarks panel when tapped.</note>
       </trans-unit>
     </body>
@@ -3847,18 +3851,22 @@ Private Tab</source>
     <body>
       <trans-unit id="AddressToolbar.Location.A11y.Label.v128" xml:space="preserve">
         <source>Search or enter address</source>
+        <target>Suche oder Adresse</target>
         <note>Accessibility label for the address field in the address toolbar.</note>
       </trans-unit>
       <trans-unit id="AddressToolbar.Location.Placeholder.v128" xml:space="preserve">
         <source>Search or enter address</source>
+        <target>Suche oder Adresse</target>
         <note>Placeholder for the address field in the address toolbar.</note>
       </trans-unit>
       <trans-unit id="AddressToolbar.PrivacyAndSecuriySettings.A11y.Label.v128" xml:space="preserve">
         <source>Privacy &amp; Security Settings</source>
+        <target>Datenschutz- und Sicherheitseinstellungen</target>
         <note>Accessibility label for the lock icon button in the address field of the address toolbar, responsible with Privacy &amp; Security Settings.</note>
       </trans-unit>
       <trans-unit id="AddressToolbar.SearchEngine.A11y.Label.v128" xml:space="preserve">
         <source>Search Engine: %@</source>
+        <target>Suchmaschine: %@</target>
         <note>Accessibility label for the search engine icon in the address field of the address toolbar. The placeholder is getting replaced with the name of the search engine (e.g. Google).</note>
       </trans-unit>
     </body>
@@ -4068,6 +4076,7 @@ Private Tab</source>
     <body>
       <trans-unit id="Settings.Home.Option.Bookmarks.v128" xml:space="preserve">
         <source>Bookmarks</source>
+        <target>Lesezeichen</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Bookmarks section on the Firefox homepage on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.ThoughtProvokingStories.subtitle.v116" xml:space="preserve">
@@ -4242,80 +4251,99 @@ Private Tab</source>
     <body>
       <trans-unit id="Menu.EnhancedTrackingProtection.ClearData.AlertCancelButton.v128" xml:space="preserve">
         <source>Cancel</source>
+        <target>Abbrechen</target>
         <note>The text for the clear cookies and site data alert button inside the enhanced tracking protection screen.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.ClearData.AlertOkButton.v128" xml:space="preserve">
         <source>Clear</source>
+        <target>Leeren</target>
         <note>The text for the clear cookies and site data alert button inside the enhanced tracking protection screen.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.ClearData.AlertText.v128" xml:space="preserve">
         <source>Removing cookies and site data for %@ might log you out of websites and clear shopping carts.</source>
+        <target>Durch das Löschen von Cookies und Website-Daten für %@ werden Sie eventuell von Websites abgemeldet und Warenkörbe gelöscht.</target>
         <note>The text for the clear cookies and site data alert inside the enhanced tracking protection screen. The placeholder will be replaced with the user's currently visited website</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.ClearData.AlertTitle.v128" xml:space="preserve">
         <source>Clear cookies and site data</source>
+        <target>Cookies und Website-Daten löschen</target>
         <note>The title for the clear cookies and site data alert inside the enhanced tracking protection screen.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.ClearData.ButtonTitle.v128" xml:space="preserve">
         <source>Clear cookies and site data</source>
+        <target>Cookies und Website-Daten löschen</target>
         <note>The title for the clear cookies and site data button inside the enhanced tracking protection screen.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.ClearData.ToastMessage.v128" xml:space="preserve">
         <source>Cookies and site data removed</source>
+        <target>Cookies und Website-Daten entfernt</target>
         <note>The text for the clear cookies and site data toast that appears when the user selects to clear the cookies</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.ConnectionSecure.v128" xml:space="preserve">
         <source>Secure connection</source>
+        <target>Sichere Verbindung</target>
         <note>Text to let users know that the current website is secure.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.ConnectionUnsecure.v128" xml:space="preserve">
         <source>Connection not secure</source>
+        <target>Verbindung nicht sicher</target>
         <note>Text to let users know that the current website is not secure.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.Trackers.v128" xml:space="preserve">
         <source>Trackers blocked: %@</source>
+        <target>Blockierte Tracker: %@</target>
         <note>Text to let users know how many trackers were blocked on the current website. Placeholder for the number of trackers blocked
    Text to let users know that no trackers were found on the current website.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.Verifier.v128" xml:space="preserve">
         <source>Verified by %@</source>
+        <target>Verifiziert von %@</target>
         <note>Text to let users know the site verifier, where the placeholder represents the SSL certificate signer which is on the enhanced tracking protection screen after the user taps on the connection details.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Off.Header.v128" xml:space="preserve">
         <source>%@ is off-duty. We suggest turning protections back on.</source>
+        <target>%@ ist nicht im Dienst. Wir empfehlen Ihnen, den Schutz wieder zu aktivieren.</target>
         <note>Header for the enhanced tracking protection screen when the user has opted out of the feature. Placeholder will be replaced by the app name</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Off.Title.v128" xml:space="preserve">
         <source>You turned off protections</source>
+        <target>Sie haben die Schutzmaßnahmen deaktiviert</target>
         <note>Title for the enhanced tracking protection screen when the user has opted out of the feature.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.On.Header.v128" xml:space="preserve">
         <source>You’re protected. If we spot something, we’ll let you know.</source>
+        <target>Sie sind geschützt. Wenn wir etwas entdecken, sagen wir Ihnen es.</target>
         <note>Header for the enhanced tracking protection screen when the user has selected to be protected but the connection is not secure.
    Header for the enhanced tracking protection screen when the user has selected to be protected.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.On.NotSecure.Title.v128" xml:space="preserve">
         <source>Be careful on this site</source>
+        <target>Seien Sie vorsichtig auf dieser Website</target>
         <note>Title for the enhanced tracking protection screen when the user has selected to be protected but the connection is not secure.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.On.Title.v128" xml:space="preserve">
         <source>%@ is on guard</source>
+        <target>%@ ist auf der Hut</target>
         <note>Title for the enhanced tracking protection screen when the user has selected to be protected. The placeholder will have the value of the app name</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.PrivacySettings.Title.v128" xml:space="preserve">
         <source>Privacy settings</source>
+        <target>Datenschutzeinstellungen</target>
         <note>The title for the privacy settings button inside the enhanced tracking protection screen.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Switch.Title.v128" xml:space="preserve">
         <source>Enhanced Tracking Protection</source>
+        <target>Verbesserter Tracking-Schutz</target>
         <note>Title for the switch to enable/disable enhanced tracking protection inside the menu.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.SwitchOff.Text.v128" xml:space="preserve">
         <source>Protections are OFF. We suggest turning it back on.</source>
+        <target>Der Schutz ist deaktiviert. Wir empfehlen Ihnen, sie wieder zu aktivieren.</target>
         <note>A switch to disable enhanced tracking protection inside the menu.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.SwitchOn.Text.v128" xml:space="preserve">
         <source>If something looks broken on this site, try turning it off.</source>
+        <target>Wenn etwas auf dieser Website beschädigt aussieht, deaktivieren Sie es.</target>
         <note>A switch to disable enhanced tracking protection inside the menu.</note>
       </trans-unit>
     </body>
@@ -4523,6 +4551,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Microsurvey.Prompt.LogoImage.AccessibilityLabel.v129" xml:space="preserve">
         <source>%@ Logo</source>
+        <target>%@-Logo</target>
         <note>On top of the bottom toolbar, there can be a microsurvey prompt, this is the logo image that appears on the prompt to inform the prompt is coming from the app specifically. Placeholder is for the app name.</note>
       </trans-unit>
       <trans-unit id="Microsurvey.Prompt.TitleLabel.v127" xml:space="preserve">
@@ -4562,6 +4591,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Microsurvey.Survey.LogoImage.AccessibilityLabel.v129" xml:space="preserve">
         <source>%@ Logo</source>
+        <target>%@-Logo</target>
         <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this is the logo image that appears on the bottom sheet that informs the user that it is coming from the app specifically. Placeholder is for the app name.</note>
       </trans-unit>
       <trans-unit id="Microsurvey.Survey.Options.LikertScaleOption1.v127" xml:space="preserve">
@@ -4591,6 +4621,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Microsurvey.Survey.OptionsOrder.AccessibilityLabel.v129" xml:space="preserve">
         <source>%1$@ out of %2$@</source>
+        <target>%1$@ von %2$@</target>
         <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this is the accessibility label that states the order the survey option in the list of options. First placeholder is the number the option is in the list and the second placeholder is the total number of options such as 1 out of 6.</note>
       </trans-unit>
       <trans-unit id="Microsurvey.Survey.PrivacyPolicyLink.v127" xml:space="preserve">
@@ -4600,10 +4631,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Microsurvey.Survey.RadioButton.Selected.AccessibilityLabel.v129" xml:space="preserve">
         <source>Selected</source>
+        <target>Ausgewählt</target>
         <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this is the accessibility label that states whether the survey option was selected.</note>
       </trans-unit>
       <trans-unit id="Microsurvey.Survey.RadioButton.Unselected.AccessibilityLabel.v129" xml:space="preserve">
         <source>Unselected</source>
+        <target>Auswahl aufgehoben</target>
         <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this is the accessibility label that states whether the survey option was not selected.</note>
       </trans-unit>
     </body>
@@ -4916,6 +4949,7 @@ Private Tab</source>
     <body>
       <trans-unit id="QRCode.Toolbar.Button.A11y.Title.v128" xml:space="preserve">
         <source>Scan QR code</source>
+        <target>QR-Code scannen</target>
         <note>Accessibility label of the QR code button in the toolbar</note>
       </trans-unit>
     </body>
