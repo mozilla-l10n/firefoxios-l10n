@@ -4926,6 +4926,10 @@ Private Tab</source>
         <target>Unselected</target>
         <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this is the accessibility label that states whether the survey option was not selected.</note>
       </trans-unit>
+      <trans-unit id="Microsurvey.Survey.Sheet.AccessibilityLabel.v130" xml:space="preserve">
+        <source>Survey</source>
+        <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this is the accessibility label used to announce that the sheet has appeared.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Shared/Supporting Files/en.lproj/Notification.strings" source-language="en" target-language="en-CA" datatype="plaintext">
@@ -6215,7 +6219,7 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/Toolbar.strings" datatype="plaintext" source-language="en" target-language="en-CA">
+  <file original="Shared/Supporting Files/en.lproj/Toolbar.strings" source-language="en" target-language="en-CA" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
     </header>
@@ -6224,6 +6228,10 @@ Private Tab</source>
         <source>New Tab</source>
         <target>New Tab</target>
         <note>Accessibility label for the new tab button that can be displayed in the navigation or address toolbar.</note>
+      </trans-unit>
+      <trans-unit id="Toolbar.Tab.CloseThisTab.Button.v130" xml:space="preserve">
+        <source>Close This Tab</source>
+        <note>Label for button on action sheet, accessed via long pressing tab toolbar button, that closes the current tab when pressed</note>
       </trans-unit>
     </body>
   </file>
