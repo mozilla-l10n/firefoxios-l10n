@@ -4192,8 +4192,11 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.On.Header.v128" xml:space="preserve">
         <source>You’re protected. If we spot something, we’ll let you know.</source>
-        <note>Header for the enhanced tracking protection screen when the user has selected to be protected but the connection is not secure.
-   Header for the enhanced tracking protection screen when the user has selected to be protected.</note>
+        <note>Header for the enhanced tracking protection screen when the user has selected to be protected.</note>
+      </trans-unit>
+      <trans-unit id="Menu.EnhancedTrackingProtection.On.NotSecure.Header.v128" xml:space="preserve">
+        <source>Your connection is not secure.</source>
+        <note>Header for the enhanced tracking protection screen when the user has selected to be protected but the connection is not secure.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.On.NotSecure.Title.v128" xml:space="preserve">
         <source>Be careful on this site</source>
@@ -4481,6 +4484,33 @@ Private Tab</source>
       <trans-unit id="Microsurvey.Survey.Sheet.AccessibilityLabel.v130" xml:space="preserve">
         <source>Survey</source>
         <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this is the accessibility label used to announce that the sheet has appeared.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/NativeErrorPage.strings" datatype="plaintext" source-language="en" target-language="mr">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
+    </header>
+    <body>
+      <trans-unit id="NativeErrorPage.ButtonLabel.v131" xml:space="preserve">
+        <source>Reload</source>
+        <note>On error page, this is the text on a button that will try to load the page again.</note>
+      </trans-unit>
+      <trans-unit id="NativeErrorPage.GenericError.Description.v131" xml:space="preserve">
+        <source>An SSL error has occurred and a secure connection to the server cannot be made.</source>
+        <note>On error page, this is the description for generic error.</note>
+      </trans-unit>
+      <trans-unit id="NativeErrorPage.GenericError.TitleLabel.v131" xml:space="preserve">
+        <source>Be careful. Something doesn’t look right.</source>
+        <note>On error page, this is the title for generic error.</note>
+      </trans-unit>
+      <trans-unit id="NativeErrorPage.NoInternetConnection.Description.v131" xml:space="preserve">
+        <source>Try connecting on a different device. Check your modem or router. Disconnect and reconnect to Wi-Fi.</source>
+        <note>On error page, this is the description for no internet connection.</note>
+      </trans-unit>
+      <trans-unit id="NativeErrorPage.NoInternetConnection.TitleLabel.v131" xml:space="preserve">
+        <source>Looks like there’s a problem with your internet connection.</source>
+        <note>On error page, this is the title for no internet connection</note>
       </trans-unit>
     </body>
   </file>
@@ -4840,9 +4870,25 @@ Private Tab</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
     </header>
     <body>
+      <trans-unit id="Addresses.ManageAddressesButton.v130" xml:space="preserve">
+        <source>Manage addresses</source>
+        <note>This label is used for a button in the address list screen allowing users to manage their saved addresses. It's meant to direct users to where they can add, remove, or edit their saved addresses.</note>
+      </trans-unit>
+      <trans-unit id="Addresses.Settings.ListItemA11y.v130" xml:space="preserve">
+        <source>Address for %@</source>
+        <note>Accessibility label for an address list item in autofill settings screen. The %@ parameter is the address of the user that will read the name, street, city, state, postal code if available.</note>
+      </trans-unit>
+      <trans-unit id="Addresses.Settings.SaveToFirefox.Title.v130" xml:space="preserve">
+        <source>Save Addresses to %@</source>
+        <note>Title text for the content unavailable view informing users they can create or add new addresses. %@ is the name of the app.</note>
+      </trans-unit>
       <trans-unit id="Addresses.Settings.SavedAddressesSectionTitle.v124" xml:space="preserve">
         <source>SAVED ADDRESSES</source>
         <note>On the autofill settings screen, a label for the section that displays the list of saved addresses. This label adds additional context for users regarding the toggle switch that allows saving and autofilling of addresses for webpages.</note>
+      </trans-unit>
+      <trans-unit id="Addresses.Settings.SecureSaveInfo.Description.v130" xml:space="preserve">
+        <source>Securely save your information to get quick access to it later.</source>
+        <note>Description text for the content unavailable view informing users they can create or add new addresses.</note>
       </trans-unit>
       <trans-unit id="Addresses.Settings.Switch.Description.v124" xml:space="preserve">
         <source>Includes phone numbers and email addresses</source>
