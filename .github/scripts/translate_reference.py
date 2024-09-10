@@ -6,7 +6,6 @@
 
 from glob import glob
 from lxml import etree
-from translate.misc.xml_helpers import reindent
 import argparse
 import os
 import sys
@@ -62,7 +61,7 @@ def main():
         # Replace the existing file
         with open(file_path, "w") as fp:
             # Fix identation of XML file
-            reindent(root)
+            etree.indent(root)
             xliff_content = etree.tostring(
                 root,
                 encoding="UTF-8",
