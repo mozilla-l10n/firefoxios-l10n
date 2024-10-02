@@ -3658,6 +3658,10 @@
         <target>Modo privado</target>
         <note>Accessibility label for toggling on/off private mode</note>
       </trans-unit>
+      <trans-unit id="PrivateBrowsing.Toggle.A11y.Label.v132" xml:space="preserve">
+        <source>Private browsing</source>
+        <note>Accessibility label for toggling on/off private mode</note>
+      </trans-unit>
       <trans-unit id="Turns private mode on or off" xml:space="preserve">
         <source>Turns private mode on or off</source>
         <target>Activa ou desactiva o modo privado</target>
@@ -4948,6 +4952,26 @@ lapela privada</target>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
     </header>
     <body>
+      <trans-unit id="ContextualHints.MainMenu.NewMenu.Body.v132" xml:space="preserve">
+        <source>Find what you need faster, from private browsing to save actions.</source>
+        <note>Contextual hints are little popups that appear for the users informing them of new features. When a user opens the new menu design for the first time, this contextual hint appears. This is the body text for the hint.</note>
+      </trans-unit>
+      <trans-unit id="ContextualHints.MainMenu.NewMenu.Title.v132" xml:space="preserve">
+        <source>New: streamlined menu</source>
+        <note>Contextual hints are little popups that appear for the users informing them of new features. When a user opens the new menu design for the first time, this contextual hint appears. This is the title for the hint.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Account.AccessibilityLabels.BackButton.v132" xml:space="preserve">
+        <source>Back</source>
+        <note>The accessibility label for the back button in the Main menu header navigation view.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Account.AccessibilityLabels.CloseButton.v132" xml:space="preserve">
+        <source>Close</source>
+        <note>The accessibility label for the close button in the Main menu.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Account.AccessibilityLabels.MainButton.v132" xml:space="preserve">
+        <source>Sign in to sync passwords, tabs, and more</source>
+        <note>The accessibility label for the sign in button in the Main menu header view.</note>
+      </trans-unit>
       <trans-unit id="MainMenu.Account.SignedOut.Description.v131" xml:space="preserve">
         <source>Sync passwords, tabs, and more</source>
         <target>Sincronizar contrasinais, pestanas e moito máis</target>
@@ -4968,25 +4992,57 @@ lapela privada</target>
         <target>Volver a acceder para sincronizar</target>
         <note>On the main menu, at the top, when the user is signed in but there was an error syncing. The title for this state.</note>
       </trans-unit>
+      <trans-unit id="MainMenu.PanelLinkSection.AccessibilityLabels.Bookmarks.v132" xml:space="preserve">
+        <source>Bookmarks</source>
+        <note>On the main menu, the accessibility label for the action that will take the user to the Bookmarks panel.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.PanelLinkSection.AccessibilityLabels.Downloads.v132" xml:space="preserve">
+        <source>Downloads</source>
+        <note>On the main menu, the accessibility label for the action that will take the user to the Downloads panel.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.PanelLinkSection.AccessibilityLabels.History.v132" xml:space="preserve">
+        <source>History</source>
+        <note>On the main menu, the accessibility label for the action that will take the user to the History panel.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.PanelLinkSection.AccessibilityLabels.Passwords.v132" xml:space="preserve">
+        <source>Passwords</source>
+        <note>On the main menu, the accessibility label for the action that will take the user to the Passwords panel in the settings screen.</note>
+      </trans-unit>
       <trans-unit id="MainMenu.PanelLinkSection.Bookmarks.Title.v131" xml:space="preserve">
         <source>Bookmarks</source>
         <target>Marcadores</target>
-        <note>On the main menu, the title for the action that will take the user to the Bookmarks panel. Please keep as short as possible, &lt;15 chars of space available.</note>
+        <note>On the main menu, the title for the action that will take the user to the Bookmarks panel.</note>
       </trans-unit>
       <trans-unit id="MainMenu.PanelLinkSection.Downloads.Title.v131" xml:space="preserve">
         <source>Downloads</source>
         <target>Descargas</target>
-        <note>On the main menu, the title for the action that will take the user to the Downloads panel. Please keep as short as possible, &lt;15 chars of space available.</note>
+        <note>On the main menu, the title for the action that will take the user to the Downloads panel.</note>
       </trans-unit>
       <trans-unit id="MainMenu.PanelLinkSection.History.Title.v131" xml:space="preserve">
         <source>History</source>
         <target>Historial</target>
-        <note>On the main menu, the title for the action that will take the user to the History panel. Please keep as short as possible, &lt;15 chars of space available.</note>
+        <note>On the main menu, the title for the action that will take the user to the History panel.</note>
       </trans-unit>
       <trans-unit id="MainMenu.PanelLinkSection.Passwords.Title.v131" xml:space="preserve">
         <source>Passwords</source>
         <target>Contrasinais</target>
-        <note>On the main menu, the title for the action that will take the user to the Passwords panel in the settings screen. Please keep as short as possible, &lt;15 chars of space available.</note>
+        <note>On the main menu, the title for the action that will take the user to the Passwords panel in the settings screen.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.SettingsSection.AccessibilityLabels.CustomizeHomepage.v132" xml:space="preserve">
+        <source>Customize Homepage</source>
+        <note>On the main menu, the accessibility labels for the action that will take the user to the Customize Homepage section in the settings screen.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.SettingsSection.AccessibilityLabels.GetHelp.v132" xml:space="preserve">
+        <source>Get Help</source>
+        <note>On the main menu, the accessibility labels for the action that will take the user to a website to get help from Mozilla.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.SettingsSection.AccessibilityLabels.Settings.v132" xml:space="preserve">
+        <source>Settings</source>
+        <note>On the main menu, the accessibility labels for the action that will take the user to the Settings menu.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.SettingsSection.AccessibilityLabels.WhatsNew.v132" xml:space="preserve">
+        <source>New in %@</source>
+        <note>On the main menu, the accessibility labels for the action that will take the user to a What's New in Firefox popup. Placeholder is for the app name.</note>
       </trans-unit>
       <trans-unit id="MainMenu.SettingsSection.CustomizeHomepage.Title.v131" xml:space="preserve">
         <source>Customize Homepage</source>
@@ -5007,6 +5063,58 @@ lapela privada</target>
         <source>New in %@</source>
         <target>Novo en %@</target>
         <note>On the main menu, the title for the action that will take the user to a What's New in Firefox popup. Placeholder is for the app name.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Save.AccessibilityLabels.AddToHomeScreen.Subtitle.v132" xml:space="preserve">
+        <source>Home</source>
+        <note>On the main menu, a string below the Save submenu accessibility label, indicating what kind of tools are available in that menu. This string is for the Add to Home screen tool for iOS Home screen.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Save.AccessibilityLabels.AddToHomeScreen.Title.v132" xml:space="preserve">
+        <source>Add to Home Screen</source>
+        <note>On the main menu, in the Save submenu, the accessibility label for the menu component that allows a user to add a website to the iOS home screen.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Save.AccessibilityLabels.AddToShortcuts.Subtitle.v132" xml:space="preserve">
+        <source>Shortcut</source>
+        <note>On the main menu, a string below the Save submenu accessibility label, indicating what kind of tools are available in that menu. This string is for the Shortcuts tool.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Save.AccessibilityLabels.AddToShortcuts.Title.v132" xml:space="preserve">
+        <source>Add to Shortcuts</source>
+        <note>On the main menu, in the Save submenu, the accessibility label for the menu component that allows a user to add the current website to the shortcuts on the homepage.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Save.AccessibilityLabels.BookmarkThisPage.Subtitle.v132" xml:space="preserve">
+        <source>Add Bookmark</source>
+        <note>On the main menu, a string below the Save submenu accessibility label, indicating what kind of tools are available in that menu. This string is for the Bookmarks tool.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Save.AccessibilityLabels.BookmarkThisPage.Title.v132" xml:space="preserve">
+        <source>Bookmark This Page</source>
+        <note>On the main menu, in the Save submenu, the accessibility label for the menu component that allows a user to save a bookmark for this particular page..</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Save.AccessibilityLabels.EditBookmark.Title.v132" xml:space="preserve">
+        <source>Edit Bookmark</source>
+        <note>On the main menu, in the Save submenu, the accessibility label for the menu component that allows a user to edit the bookmark for this particular page.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Save.AccessibilityLabels.RemoveFromReadingList.Title.v132" xml:space="preserve">
+        <source>Remove from Reading List</source>
+        <note>On the main menu, in the Save submenu, the accessibility label for the menu component that allows the user to remove this site from the reading list.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Save.AccessibilityLabels.RemoveFromShortcuts.Title.v132" xml:space="preserve">
+        <source>Remove from Shortcuts</source>
+        <note>On the main menu, in the Save submenu, the accessibility label for the menu component that allows a user to remove the current website from the shortcuts on the homepage.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Save.AccessibilityLabels.SaveAsPDF.Subtitle.v132" xml:space="preserve">
+        <source>PDF</source>
+        <note>On the main menu, a string below the Save submenu accessibility label, indicating what kind of tools are available in that menu. This string is for the Save as PDF tool.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Save.AccessibilityLabels.SaveAsPDF.Title.v132" xml:space="preserve">
+        <source>Save as PDF</source>
+        <note>On the main menu, in the Save submenu, the title for the menu component that allows the user to use the Save to PDF tool.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Save.AccessibilityLabels.SaveToReadingList.Subtitle.v132" xml:space="preserve">
+        <source>Reading List</source>
+        <note>On the main menu, a string below the Save submenu accessibility label, indicating what kind of tools are available in that menu. This string is for the Reading List tool.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Save.AccessibilityLabels.SaveToReadingList.Title.v132" xml:space="preserve">
+        <source>Save to Reading List</source>
+        <note>On the main menu, in the Save submenu, the accessibility label for the menu component that allows the user to add this site to the reading list.</note>
       </trans-unit>
       <trans-unit id="MainMenu.Submenus.Save.AddToHomeScreen.Subtitle.v131" xml:space="preserve">
         <source>Home</source>
@@ -5072,6 +5180,62 @@ lapela privada</target>
         <source>Save to Reading List</source>
         <target>Gardar na lista de lectura</target>
         <note>On the main menu, in the Save submenu, the title for the menu component that allows the user to add this site to the reading list.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Tools.AccessibilityLabels.NightMode.Off.Title.v132" xml:space="preserve">
+        <source>Turn off Night Mode</source>
+        <note>On the main menu, the accessibility label for the action that will turn Night Mode off in the application.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Tools.AccessibilityLabels.NightMode.On.Title.v132" xml:space="preserve">
+        <source>Turn on Night Mode</source>
+        <note>On the main menu, the accessibility label for the action that will turn Night Mode on in the application.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Tools.AccessibilityLabels.NightMode.Subtitle.v132" xml:space="preserve">
+        <source>Night Mode</source>
+        <note>On the main menu, a string below the Tool submenu accessibility label, indicating what kind of tools are available in that menu. This string is for the Night Mode tool.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Tools.AccessibilityLabels.Print.Subtitle.v132" xml:space="preserve">
+        <source>Print</source>
+        <note>On the main menu, a string below the Tool submenu accessibility label, indicating what kind of tools are available in that menu. This string is for the Report Print tool.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Tools.AccessibilityLabels.Print.Title.v132" xml:space="preserve">
+        <source>Print</source>
+        <note>On the main menu, the accessibility label for the action that will take the user to the Print module in the application.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Tools.AccessibilityLabels.ReaderView.Off.Title.v132" xml:space="preserve">
+        <source>Turn off Reader View</source>
+        <note>On the main menu, the accessibility label for the action that will turn the reader view on for the current website.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Tools.AccessibilityLabels.ReaderView.On.Title.v132" xml:space="preserve">
+        <source>Turn on Reader View</source>
+        <note>On the main menu, the accessibility label for the action that will turn the reader view on for the current website.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Tools.AccessibilityLabels.ReaderView.Subtitle.v132" xml:space="preserve">
+        <source>Reader View</source>
+        <note>On the main menu, a string below the Tool submenu accessibility label, indicating what kind of tools are available in that menu. This string is for the Reader View tool.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Tools.AccessibilityLabels.ReportBrokenSite.Subtitle.v132" xml:space="preserve">
+        <source>Report</source>
+        <note>On the main menu, a string below the Tool submenu accessibility label, indicating what kind of tools are available in that menu. This string is for the Report Broken Site tool and is indicating that under the Tools submenu, a Report (Report Broken Site) action is available.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Tools.AccessibilityLabels.ReportBrokenSite.Title.v132" xml:space="preserve">
+        <source>Report Broken Site</source>
+        <note>On the main menu, the accessibility label for the action that will take the user to the site where they can report a broken website to our web compatibility team.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Tools.AccessibilityLabels.Share.Subtitle.v132" xml:space="preserve">
+        <source>Share</source>
+        <note>On the main menu, a string below the Tool submenu accessibility label, indicating what kind of tools are available in that menu. This string is for the Share tool and is indicating that under the Tools submenu, a Share (to someone else) action is available.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Tools.AccessibilityLabels.Share.Title.v132" xml:space="preserve">
+        <source>Share</source>
+        <note>On the main menu, the accessibility label for the action (Share with others) that will take the user/open (to) the Share submenu.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Tools.AccessibilityLabels.Zoom.Subtitle.v132" xml:space="preserve">
+        <source>Zoom</source>
+        <note>On the main menu, a string below the Tool submenu accessibility label, indicating what kind of tools are available in that menu. This string is for the Zoom tool and is indicating that under the Tools submenu, a Zoom (apply zoom on a page) action is available.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Tools.AccessibilityLabels.Zoom.Title.v132" xml:space="preserve">
+        <source>Zoom (%@)</source>
+        <note>On the main menu, in the tools submenu, the accessibility label for the menu component that indicates the current zoom level. Placeholder is for the current zoom level percentage.</note>
       </trans-unit>
       <trans-unit id="MainMenu.Submenus.Tools.NightMode.Off.Title.v131" xml:space="preserve">
         <source>Turn off Night Mode</source>
@@ -5143,6 +5307,18 @@ lapela privada</target>
         <target>Zoom (%@)</target>
         <note>On the main menu, in the tools submenu, the title for the menu component that indicates the current zoom level. Placeholder is for the current zoom level percentage.</note>
       </trans-unit>
+      <trans-unit id="MainMenu.TabsSection.AccessibilityLabels.MainMenu.v132" xml:space="preserve">
+        <source>Main Menu</source>
+        <note>The accessibility label for the Main Menu.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.TabsSection.AccessibilityLabels.NewPrivateTab.v132" xml:space="preserve">
+        <source>New private tab</source>
+        <note>On the main menu, the accessibility label for the action that will create a new private tab.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.TabsSection.AccessibilityLabels.NewTab.v132" xml:space="preserve">
+        <source>New tab</source>
+        <note>On the main menu, the accessibility label for the action that will create a new, non-private, tab.</note>
+      </trans-unit>
       <trans-unit id="MainMenu.TabsSection.NewPrivateTab.Title.v131" xml:space="preserve">
         <source>New Private Tab</source>
         <target>Nova lapela privada</target>
@@ -5152,6 +5328,26 @@ lapela privada</target>
         <source>New Tab</source>
         <target>Nova lapela</target>
         <note>On the main menu, the title for the action that will create a new, non-private, tab.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.ToolsSection.AccessibilityLabels.FindInPage.v132" xml:space="preserve">
+        <source>Find in page</source>
+        <note>On the main menu, the accessibility label for the action that will bring up the Search menu, so the user can search for a word or a pharse on the current page.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.ToolsSection.AccessibilityLabels.Save.v132" xml:space="preserve">
+        <source>Save</source>
+        <note>On the main menu, the accessibility label for the action that will take the user to the Save submenu in the menu. In the main menu, there is an option called Save that is taking the user to the Save submenu where user can share, bookmark the page and so on.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.ToolsSection.AccessibilityLabels.SwitchToDesktopSite.v132" xml:space="preserve">
+        <source>Switch to desktop site</source>
+        <note>On the main menu, the accessibility label for the action that will switch a site from mobile version to the desktop version, if available.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.ToolsSection.AccessibilityLabels.SwitchToMobileSite.v132" xml:space="preserve">
+        <source>Switch to mobile site</source>
+        <note>On the main menu, the accessibility label for the action that will switch a site from the desktop version to the mobile version.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.ToolsSection.AccessibilityLabels.Tools.v132" xml:space="preserve">
+        <source>Tools</source>
+        <note>On the main menu, the accessibility label for the action that will take the user to the Tools submenu in the menu.</note>
       </trans-unit>
       <trans-unit id="MainMenu.ToolsSection.FindInPage.Title.v131" xml:space="preserve">
         <source>Find in Page…</source>
