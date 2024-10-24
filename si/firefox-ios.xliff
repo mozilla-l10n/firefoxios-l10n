@@ -3884,6 +3884,10 @@ Private Tab</source>
         <target>පෞද්ගලිකත්‍ව හා ආරක්‍ෂණ සැකසුම්</target>
         <note>Accessibility label for the lock icon button in the address field of the address toolbar, responsible with Privacy &amp; Security Settings.</note>
       </trans-unit>
+      <trans-unit id="AddressToolbar.SearchEngine.A11y.Hint.v133" xml:space="preserve">
+        <source>Opens search engine selection</source>
+        <note>When the user taps the search engine icon in the toolbar, a sheet with a list of alternative search engines appears. This is the accessibility hint describing what tapping the search engine icon does.</note>
+      </trans-unit>
       <trans-unit id="AddressToolbar.SearchEngine.A11y.Label.v128" xml:space="preserve">
         <source>Search Engine: %@</source>
         <target>සෙවුම් යන්ත්‍රය: %@</target>
@@ -4827,6 +4831,21 @@ Private Tab</source>
         <source>Powered by %1$@. Part of the %2$@ family.</source>
         <target>%1$@ මගින් බලගැන්වේ. %2$@ පවුලේ කොටසකි.</target>
         <note>This is the title of the Pocket footer on Firefox Homepage. The first placeholder is for the Pocket app name and the second placeholder for the app name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/FxANotification.strings" datatype="plaintext" source-language="en" target-language="si">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
+    </header>
+    <body>
+      <trans-unit id="CloseTab.ArrivingNotification.title.v133" xml:space="preserve">
+        <source>%1$@ tabs closed: %2$@</source>
+        <note>Title of notification shown when a remote device has requested to close a number of tabs. First parameter is the app name and the second parameter is the number of tabs.</note>
+      </trans-unit>
+      <trans-unit id="CloseTab.ViewAction.title.v133" xml:space="preserve">
+        <source>View recently closed tabs</source>
+        <note>Label for an action used to view recently closed tabs.</note>
       </trans-unit>
     </body>
   </file>
@@ -5827,6 +5846,37 @@ Private Tab</source>
       <trans-unit id="ScanQRCode.ConfirmOpenURL.Message.v129" xml:space="preserve">
         <source>Allow %@ to open?</source>
         <note>Text of the prompt to ask user permission to open a URL from a scanned QR code. Placeholder is app name.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/SearchEngineSelection.strings" datatype="plaintext" source-language="en" target-language="si">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.0.1" build-num="15A507"/>
+    </header>
+    <body>
+      <trans-unit id="UnifiedSearch.SearchEngineSelection.AccessibilityLabels.CloseButton.Label.v133" xml:space="preserve">
+        <source>Close</source>
+        <note>When the user taps the search engine icon in the toolbar, a sheet with a list of alternative search engines appears. This is the accessibility label for the sheet's close button.</note>
+      </trans-unit>
+      <trans-unit id="UnifiedSearch.SearchEngineSelection.AccessibilityLabels.SearchSettings.Hint.v133" xml:space="preserve">
+        <source>Opens search settings</source>
+        <note>When the user taps the search engine icon in the toolbar, a sheet with a list of alternative search engines appears. This is the accessibility hint for tapping the search settings row at the bottom of the list, which opens the app's search settings screen.</note>
+      </trans-unit>
+      <trans-unit id="UnifiedSearch.SearchEngineSelection.AccessibilityLabels.SearchSettings.Label.v133" xml:space="preserve">
+        <source>Search settings</source>
+        <note>When the user taps the search engine icon in the toolbar, a sheet with a list of alternative search engines appears. This string is the label for the row at the bottom of the list. When this row is tapped, the app's search settings screen appears.</note>
+      </trans-unit>
+      <trans-unit id="UnifiedSearch.SearchEngineSelection.AccessibilityLabels.TopTitle.Label.v133" xml:space="preserve">
+        <source>This time search in:</source>
+        <note>When the user taps the search engine icon in the toolbar, a sheet with a list of alternative search engines appears. This is the accessibility label for the title of that sheet.</note>
+      </trans-unit>
+      <trans-unit id="UnifiedSearch.SearchEngineSelection.SearchSettings.Title.v133" xml:space="preserve">
+        <source>Search Settings</source>
+        <note>When the user taps the search engine icon in the toolbar, a sheet with a list of alternative search engines appears. This string is the label for the button at the bottom of the list. When this row is tapped, the app's search settings screen appears.</note>
+      </trans-unit>
+      <trans-unit id="UnifiedSearch.SearchEngineSelection.TopTitle.Title.v133" xml:space="preserve">
+        <source>This time search in:</source>
+        <note>When the user taps the search engine icon in the toolbar, a sheet with a list of alternative search engines appears. This is the title for the sheet.</note>
       </trans-unit>
     </body>
   </file>
