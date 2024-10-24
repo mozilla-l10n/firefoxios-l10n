@@ -16,7 +16,7 @@ jobs:
       max-parallel: 4
       matrix:
         xcode:
-          - "15.0.1"
+          - "15.4"
     steps:
       - name: Clone l10n repository
         uses: actions/checkout@v4
