@@ -869,7 +869,7 @@
       </trans-unit>
       <trans-unit id="ErrorPages.AdvancedWarning1.Text" xml:space="preserve">
         <source>Warning: we can’t confirm your connection to this website is secure.</source>
-        <target>අවවාදයයි: මෙම අඩවිය වෙත ඔබගේ සම්බන්ධතාවය ආරක්‍ෂිත බව තහවුරු කළ නොහැකිය.</target>
+        <target>අවවාදයයි: මෙම අඩවිය වෙත ඔබගේ සම්බන්‍ධතාව ආරක්‍ෂිත දැයි තහවුරු කළ නොහැකිය.</target>
         <note>Warning text when clicking the Advanced button on error pages</note>
       </trans-unit>
       <trans-unit id="ErrorPages.AdvancedWarning2.Text" xml:space="preserve">
@@ -1867,12 +1867,12 @@
       </trans-unit>
       <trans-unit id="ProtectionStatus.NotSecure" xml:space="preserve">
         <source>Connection is not secure</source>
-        <target>සම්බන්ධතාවය අනාරක්‍ෂිතයි</target>
+        <target>සම්බන්‍ධතාව අනාරක්‍ෂිතයි</target>
         <note>This is the value for a label that indicates if a user is on an unencrypted website.</note>
       </trans-unit>
       <trans-unit id="ProtectionStatus.Secure" xml:space="preserve">
         <source>Connection is secure</source>
-        <target>සම්බන්ධතාවය ආරක්‍ෂිතයි</target>
+        <target>සම්බන්‍ධතාව ආරක්‍ෂිතයි</target>
         <note>This is the value for a label that indicates if a user is on a secure https connection.</note>
       </trans-unit>
       <trans-unit id="Quick-Search Engines" xml:space="preserve">
@@ -4678,12 +4678,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.ConnectionSecure.v128" xml:space="preserve">
         <source>Secure connection</source>
-        <target>ආරක්‍ෂිත සම්බන්‍ධතාවයකි</target>
+        <target>ආරක්‍ෂිත සම්බන්‍ධතාවකි</target>
         <note>Text to let users know that the current website is secure.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.ConnectionUnsecure.v128" xml:space="preserve">
         <source>Connection not secure</source>
-        <target>සම්බන්‍ධතාවය අනාරක්‍ෂිතයි</target>
+        <target>සම්බන්‍ධතාව අනාරක්‍ෂිතයි</target>
         <note>Text to let users know that the current website is not secure.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.NoTrackers.v131" xml:space="preserve">
@@ -4732,6 +4732,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.On.NotSecure.Header.v128" xml:space="preserve">
         <source>Your connection is not secure.</source>
+        <target>ඔබගේ සම්බන්‍ධතාව අනාරක්‍ෂිතයි</target>
         <note>Header for the enhanced tracking protection screen when the user has selected to be protected but the connection is not secure.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.On.NotSecure.Title.v128" xml:space="preserve">
@@ -5495,10 +5496,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.Description.v131" xml:space="preserve">
         <source>An SSL error has occurred and a secure connection to the server cannot be made.</source>
+        <target>SSL දෝෂයක් නිසා සේවාදායකයට ආරක්‍ෂිත සම්බන්‍ධතාවක් සෑදීමට නොහැකිය.</target>
         <note>On error page, this is the description for generic error.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.Description.v134" xml:space="preserve">
         <source>The owner of %@ hasn’t set it up properly and a secure connection can’t be created.</source>
+        <target>%@ හිමිකරු එය නිසියාකාරව පිහිටුවා නැති නිසා ආරක්‍ෂිත සම්බන්‍ධතාවක් සෑදීමට නොහැකිය.</target>
         <note>On error page, this is the description for generic error. The placeholder will be replaced by the site url</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.TitleLabel.v131" xml:space="preserve">
