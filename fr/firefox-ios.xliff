@@ -422,11 +422,6 @@
         <target>Visités récemment</target>
         <note>Section title label for recently visited websites</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.Shortcuts.SectionTitle" xml:space="preserve">
-        <source>Shortcuts</source>
-        <target>Raccourcis</target>
-        <note>Section title label for Shortcuts</note>
-      </trans-unit>
       <trans-unit id="ActivityStream.TopSites.RowSettingFooter" xml:space="preserve">
         <source>Set Rows</source>
         <target>Choisir le nombre de lignes</target>
@@ -2662,11 +2657,6 @@
         <target>Lors de l’ouverture de %@</target>
         <note>Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349. Placeholder is for the app name.</note>
       </trans-unit>
-      <trans-unit id="Settings.OfferClipboardBar.StatusV2" xml:space="preserve">
-        <source>When opening Firefox</source>
-        <target>À l’ouverture de Firefox</target>
-        <note>Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349</note>
-      </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.Title" xml:space="preserve">
         <source>Offer to Open Copied Links</source>
         <target>Proposer d’ouvrir les liens copiés</target>
@@ -4059,6 +4049,22 @@ Private Tab</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.4" build-num="15F31d"/>
     </header>
     <body>
+      <trans-unit id="Bookmarks.EmptyState.Nested.Body.v135" xml:space="preserve">
+        <source>Add bookmarks as you browse so you can find your favorite sites later.</source>
+        <note>The body text for the placeholder screen shown when there are no saved bookmarks, located within a nested subfolder of the bookmarks panel within the libray modal</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.EmptyState.Nested.Title.v135" xml:space="preserve">
+        <source>This folder is empty</source>
+        <note>The title for the placeholder screen shown when there are no saved bookmarks, located within a nested subfolder of the bookmarks panel within the libray modal</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.EmptyState.Root.Body.v135" xml:space="preserve">
+        <source>Save sites as you browse. We’ll also grab bookmarks from other synced devices.</source>
+        <note>The body text for the placeholder screen shown when there are no saved bookmarks, located at the root level of the bookmarks panel within the libray modal</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.EmptyState.Root.Title.v135" xml:space="preserve">
+        <source>No bookmarks yet</source>
+        <note>The title for the placeholder screen shown when there are no saved bookmarks, located at the root level of the bookmarks panel within the libray modal</note>
+      </trans-unit>
       <trans-unit id="Bookmarks.Menu.AllBookmarks.v131" xml:space="preserve">
         <source>All</source>
         <target>Tout</target>
@@ -4781,11 +4787,6 @@ Private Tab</source>
         <target>Protection renforcée contre le pistage</target>
         <note>Title for the switch to enable/disable enhanced tracking protection inside the menu.</note>
       </trans-unit>
-      <trans-unit id="Menu.EnhancedTrackingProtection.SwitchOff.Text.v128" xml:space="preserve">
-        <source>Protections are OFF. We suggest turning it back on.</source>
-        <target>Les protections sont désactivées. Nous vous suggérons de les réactiver.</target>
-        <note>A switch to disable enhanced tracking protection inside the menu.</note>
-      </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.SwitchOff.Text.v129" xml:space="preserve">
         <source>Protections are OFF. We suggest turning them back on.</source>
         <target>Les protections sont désactivées. Nous vous suggérons de les réactiver.</target>
@@ -5388,11 +5389,6 @@ Private Tab</source>
         <target>Signaler un problème</target>
         <note>On the main menu, a string below the Tool submenu tiitle, indicating what kind of tools are available in that menu. This string is for the Report Broken Site tool.</note>
       </trans-unit>
-      <trans-unit id="MainMenu.Submenus.Tools.ReportBrokenSite.Title.v131" xml:space="preserve">
-        <source>Report Broken Site</source>
-        <target>Signaler des problèmes avec ce site</target>
-        <note>On the main menu, the title for the action that will take the user to the site where they can report a broken website to our web compatibility team.</note>
-      </trans-unit>
       <trans-unit id="MainMenu.Submenus.Tools.ReportBrokenSite.Title.v133" xml:space="preserve">
         <source>Report Broken Site…</source>
         <target>Signaler des problèmes avec ce site…</target>
@@ -5515,11 +5511,6 @@ Private Tab</source>
         <target>Continuer</target>
         <note>On top of the bottom toolbar, there can be a microsurvey prompt, this is the title for the button that appears on the prompt that allows the user to tap on and navigates them to the microsurvey to respond to.</note>
       </trans-unit>
-      <trans-unit id="Microsurvey.Prompt.Close.AccessibilityLabel.v127" xml:space="preserve">
-        <source>Close Survey Prompt</source>
-        <target>Fermer la demande de participation au sondage</target>
-        <note>On top of the bottom toolbar, there can be a microsurvey prompt, this is the accessibility label for the close button that appears on the prompt that allows the user to dismiss the microsurvey prompt.</note>
-      </trans-unit>
       <trans-unit id="Microsurvey.Prompt.Close.Button.AccessibilityLabel.v127" xml:space="preserve">
         <source>Close</source>
         <target>Fermer</target>
@@ -5540,11 +5531,6 @@ Private Tab</source>
         <target>Envoyer</target>
         <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this the title of button on the survey that a user can tap on to submit their responses.</note>
       </trans-unit>
-      <trans-unit id="Microsurvey.Survey.Close.AccessibilityLabel.v127" xml:space="preserve">
-        <source>Close Survey</source>
-        <target>Fermer le sondage</target>
-        <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this is the accessibility label for close button that dismisses the sheet.</note>
-      </trans-unit>
       <trans-unit id="Microsurvey.Survey.Close.Button.AccessibilityLabel.v127" xml:space="preserve">
         <source>Close</source>
         <target>Fermer</target>
@@ -5559,11 +5545,6 @@ Private Tab</source>
         <source>Survey complete</source>
         <target>Sondage terminé</target>
         <note>On the microsurvey, which is a bottom sheet that pops up with a survey question and options, this is the title for the header on the microsurvey when the user has completed the survey.</note>
-      </trans-unit>
-      <trans-unit id="Microsurvey.Survey.HeaderLabel.v127" xml:space="preserve">
-        <source>Complete this survey</source>
-        <target>Participer au sondage</target>
-        <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this is the title for the header on the screen.</note>
       </trans-unit>
       <trans-unit id="Microsurvey.Survey.HeaderLabel.v129" xml:space="preserve">
         <source>Please complete survey</source>
@@ -5615,11 +5596,6 @@ Private Tab</source>
         <target>Politique de confidentialité</target>
         <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this the title of a link on the survey and allows the user to navigate to our privacy policy details.</note>
       </trans-unit>
-      <trans-unit id="Microsurvey.Survey.RadioButton.Selected.AccessibilityLabel.v129" xml:space="preserve">
-        <source>Selected</source>
-        <target>Sélectionné</target>
-        <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this is the accessibility label that states whether the survey option was selected.</note>
-      </trans-unit>
       <trans-unit id="Microsurvey.Survey.RadioButton.Unselected.AccessibilityLabel.v129" xml:space="preserve">
         <source>Unselected</source>
         <target>Désélectionné</target>
@@ -5641,11 +5617,6 @@ Private Tab</source>
         <source>Reload</source>
         <target>Actualiser</target>
         <note>On error page, this is the text on a button that will try to load the page again.</note>
-      </trans-unit>
-      <trans-unit id="NativeErrorPage.GenericError.Description.v131" xml:space="preserve">
-        <source>An SSL error has occurred and a secure connection to the server cannot be made.</source>
-        <target>Une erreur SSL s’est produite et une connexion sécurisée avec le serveur ne peut pas être établie.</target>
-        <note>On error page, this is the description for generic error.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.Description.v134" xml:space="preserve">
         <source>The owner of %@ hasn’t set it up properly and a secure connection can’t be created.</source>
@@ -5839,11 +5810,6 @@ Private Tab</source>
         <source>Turn On Notifications</source>
         <target>Activer les notifications</target>
         <note>String used to describe the option to continue to ask for the notification permission in Firefox Onboarding screens.</note>
-      </trans-unit>
-      <trans-unit id="Onboarding.Sync.Description.v120" xml:space="preserve">
-        <source>When you’re signed in and synced, you’re safer. %@ encrypts your passwords, bookmarks, and more.</source>
-        <target>Lorsque vous vous connectez et activez la synchronisation, votre sécurité est renforcée. %@ chiffre vos mots de passe, vos marque-pages et bien d’autres choses.</target>
-        <note>String used to describes the description of what Firefox is on the Sync onboarding page for current version in our Onboarding screens. Placeholder is for the app name.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Sync.Description.v123" xml:space="preserve">
         <source>%@ encrypts your passwords, bookmarks, and more when you’re synced.</source>
@@ -6290,11 +6256,6 @@ Private Tab</source>
         <target>Compte</target>
         <note>Settings section title for the old Firefox account</note>
       </trans-unit>
-      <trans-unit id="Settings.AddressAutofill.Title.v124" xml:space="preserve">
-        <source>Autofill Addresses</source>
-        <target>Compléter les adresses automatiquement</target>
-        <note>Label used as an item in Settings screen. When touched, it will take user to address autofill settings page to that will allow user to add or modify saved addresses to allow for autofill in a webpage.</note>
-      </trans-unit>
       <trans-unit id="Settings.AddressAutofill.Title.v126" xml:space="preserve">
         <source>Addresses</source>
         <target>Adresses</target>
@@ -6365,11 +6326,6 @@ Private Tab</source>
         <target>Moteurs de recherche alternatifs</target>
         <note>Title for alternate search engines settings section in the Search page in the Settings menu.</note>
       </trans-unit>
-      <trans-unit id="Settings.Search.DefaultSearchEngine.Footer.v122" xml:space="preserve">
-        <source>Results from searches, history, bookmarks, and more</source>
-        <target>Résultats des recherches, de l’historique, des marque-pages et bien plus</target>
-        <note>Footer for the `default search engine` settings section in the Search Settings page, which explains in more details what the `Show Search Suggestions` setting includes.</note>
-      </trans-unit>
       <trans-unit id="Settings.Search.DefaultSearchEngine.Title.v121" xml:space="preserve">
         <source>Default Search Engine</source>
         <target>Moteur de recherche par défaut</target>
@@ -6390,25 +6346,10 @@ Private Tab</source>
         <target>Afficher les suggestions des moteurs de recherche lors des sessions privées</target>
         <note>Description for `Show in Private Sessions` toggle, located in `Suggestions from Search Engines` section in the Search page in the Settings menu.</note>
       </trans-unit>
-      <trans-unit id="Settings.Search.PrivateSession.Setting.v122" xml:space="preserve">
-        <source>Show Suggestions in Private Browsing</source>
-        <target>Afficher les suggestions en navigation privée</target>
-        <note>Label for toggle. Explains that in private browsing mode, the search suggestions which appears at the top of the search bar, can be toggled on or off. Located in the Private Session section in the Search page in the Settings menu.</note>
-      </trans-unit>
       <trans-unit id="Settings.Search.PrivateSession.Setting.v124" xml:space="preserve">
         <source>Show in Private Sessions</source>
         <target>Afficher au cours des sessions de navigation privée</target>
         <note>Label for toggle. Explains that in private browsing mode, the search suggestions which appears at the top of the search bar, can be toggled on or off. Located in `Suggestions from Search Engines` and `Address Bar - Firefox Suggest` sections in the Search page in the Settings menu.</note>
-      </trans-unit>
-      <trans-unit id="Settings.Search.PrivateSession.Title.v122" xml:space="preserve">
-        <source>Private Browsing</source>
-        <target>Navigation privée</target>
-        <note>Title for the `Private Browsing` settings section in the Search page in the Settings menu.</note>
-      </trans-unit>
-      <trans-unit id="Settings.Search.QuickEnginesTitle.v121" xml:space="preserve">
-        <source>Quick-Search Engines</source>
-        <target>Moteurs de recherches rapides</target>
-        <note>Title for quick-search engines settings section in the Search page in the Settings menu.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.ShowSuggestions.v121" xml:space="preserve">
         <source>Show Search Suggestions</source>
@@ -6445,20 +6386,10 @@ Private Tab</source>
         <target>Rechercher dans les onglets synchronisés</target>
         <note>In the Search page of the Settings menu, the title for the setting to enable synced tabs.</note>
       </trans-unit>
-      <trans-unit id="Settings.Search.Suggest.ShowNonSponsoredSuggestions.Description.v124" xml:space="preserve">
-        <source>Get suggestions from the web related to your search</source>
-        <target>Obtenir des suggestions du Web en rapport avec votre recherche</target>
-        <note>In the Search page of the Settings menu, the description for the setting to enable Suggestions from Firefox.</note>
-      </trans-unit>
       <trans-unit id="Settings.Search.Suggest.ShowNonSponsoredSuggestions.Description.v124.v2" xml:space="preserve">
         <source>Get suggestions from %@ related to your search</source>
         <target>Obtenir des suggestions %@ en rapport avec votre recherche</target>
         <note>In the Search page of the Settings menu, the description for the setting to enable Suggestions from Firefox. Placeholder is for the app name - Firefox.</note>
-      </trans-unit>
-      <trans-unit id="Settings.Search.Suggest.ShowNonSponsoredSuggestions.Title.v124" xml:space="preserve">
-        <source>Suggestions from %@</source>
-        <target>Suggestions de %@</target>
-        <note>In the Search page of the Settings menu, the title for setting to enable Suggestions from Firefox. Placeholder is for the app name - Firefox.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.ShowNonSponsoredSuggestions.Title.v124.v2" xml:space="preserve">
         <source>Suggestions from the Web</source>
@@ -6664,11 +6595,6 @@ Private Tab</source>
         <target>L’opération peut prendre environ 60 secondes.</target>
         <note>Description for info card when the product is in analysis mode</note>
       </trans-unit>
-      <trans-unit id="Shopping.InfoCard.ProgressAnalysis.Title.v120" xml:space="preserve">
-        <source>Checking review quality</source>
-        <target>Évaluation de la qualité des avis</target>
-        <note>Title for info card when the product is in analysis mode</note>
-      </trans-unit>
       <trans-unit id="Shopping.InfoCard.ProgressAnalysis.Title.v123" xml:space="preserve">
         <source>Checking review quality (%@)</source>
         <target>Évaluation de la qualité des avis (%@)</target>
@@ -6698,11 +6624,6 @@ Private Tab</source>
         <source>No info about these reviews yet</source>
         <target>Aucune information sur ces avis pour le moment</target>
         <note>Title for card displayed when a shopping product has not been analysed yet.</note>
-      </trans-unit>
-      <trans-unit id="Shopping.OptInCard.Disclaimer.Text.v120" xml:space="preserve">
-        <source>By selecting “Yes, Try It” you agree to the following from %@:</source>
-        <target>En sélectionnant « Oui, l’essayer » vous acceptez les éléments suivants de %@ :</target>
-        <note>Text for the disclaimer that appears underneath the rating image of the Shopping Experience Opt In onboarding Card (Fakespot). The parameter will be replaced by the Fakespot app name. After the colon, what appears are two links, each on their own line. The first link is to a Privacy policy. The second link is to Terms of use.</note>
       </trans-unit>
       <trans-unit id="Shopping.OptInCard.Disclaimer.Text.v123" xml:space="preserve">
         <source>By selecting “Yes, Try It” you agree to these items:</source>
@@ -6734,11 +6655,6 @@ Private Tab</source>
         <target>Oui, l’essayer</target>
         <note>Text for the main button of the Shopping Experience Opt In onboarding Card (Fakespot)</note>
       </trans-unit>
-      <trans-unit id="Shopping.OptInCard.PrivacyPolicy.Button.Title.v120" xml:space="preserve">
-        <source>Privacy policy</source>
-        <target>Politique de confidentialité</target>
-        <note>Show Firefox Browser Privacy Policy page from the Privacy section in the Shopping Experience Opt In onboarding Card (Fakespot). See https://www.mozilla.org/privacy/firefox/</note>
-      </trans-unit>
       <trans-unit id="Shopping.OptInCard.PrivacyPolicy.Button.Title.v123" xml:space="preserve">
         <source>%@’s privacy notice</source>
         <target>La politique de confidentialité de %@</target>
@@ -6753,11 +6669,6 @@ Private Tab</source>
         <source>Not now</source>
         <target>Plus tard</target>
         <note>Text for the secondary button of the Shopping Experience Opt In onboarding Card (Fakespot)</note>
-      </trans-unit>
-      <trans-unit id="Shopping.OptInCard.TermsOfUse.Button.Title.v120" xml:space="preserve">
-        <source>Terms of use</source>
-        <target>Conditions d’utilisation</target>
-        <note>Show Firefox Browser Terms of Use page from the Privacy section in the Shopping Experience Opt In onboarding Card (Fakespot). See https://www.mozilla.org/privacy/firefox/</note>
       </trans-unit>
       <trans-unit id="Shopping.OptInCard.TermsOfUse.Button.Title.v123" xml:space="preserve">
         <source>%@’s terms of use</source>
@@ -6808,11 +6719,6 @@ Private Tab</source>
         <source>We use AI technology from %1$@ by %2$@ to check the reliability of product reviews. This will only help you assess review quality, not product quality.</source>
         <target>Nous utilisons la technologie d’intelligence artificielle %1$@ par %2$@ pour vérifier la fiabilité des avis sur des produits. Ce qui vous aide seulement à évaluer la qualité des avis, mais non la qualité des produits.</target>
         <note>Label of the headline from How we determine review quality card displayed in the shopping review quality bottom sheet. The first parameter will be replaced by the Fakespot app name and the second parameter by the company name of Mozilla.</note>
-      </trans-unit>
-      <trans-unit id="Shopping.ReviewQualityCard.Highlights.Label.v120" xml:space="preserve">
-        <source>*Highlights* are from %1@ reviews within the last 80 days that we believe to be reliable.</source>
-        <target>Les *points essentiels* proviennent des avis laissés sur %1@ au cours des 80 derniers jours que nous estimons fiables.</target>
-        <note>Highlights label from How we determine review quality card displayed in the shopping review quality bottom sheet. The parameter substitutes the partner website the user is coming from. The *text inside asterisks* denotes part of the string to bold, please leave the text inside the '*' so that it is bolded correctly.</note>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQualityCard.Highlights.Label.v126" xml:space="preserve">
         <source>*Highlights* are from %@ reviews within the last 80 days that we believe to be reliable.</source>
@@ -6948,7 +6854,7 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/SocialMediaApp.strings" datatype="plaintext" source-language="en" target-language="fr">
+  <file original="Shared/Supporting Files/en.lproj/SocialMediaApp.strings" source-language="en" target-language="fr" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.4" build-num="15F31d"/>
     </header>
@@ -6960,7 +6866,7 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/SocialShare.strings" datatype="plaintext" source-language="en" target-language="fr">
+  <file original="Shared/Supporting Files/en.lproj/SocialShare.strings" source-language="en" target-language="fr" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.4" build-num="15F31d"/>
     </header>

@@ -422,11 +422,6 @@
         <target>Air tadhal orra o chionn goirid</target>
         <note>Section title label for recently visited websites</note>
       </trans-unit>
-      <trans-unit id="ActivityStream.Shortcuts.SectionTitle" xml:space="preserve">
-        <source>Shortcuts</source>
-        <target>Ath-ghoiridean</target>
-        <note>Section title label for Shortcuts</note>
-      </trans-unit>
       <trans-unit id="ActivityStream.TopSites.RowSettingFooter" xml:space="preserve">
         <source>Set Rows</source>
         <target>Suidhich na ràghan</target>
@@ -2662,11 +2657,6 @@
         <target>Nuair a dh’fhosglas tu %@</target>
         <note>Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349. Placeholder is for the app name.</note>
       </trans-unit>
-      <trans-unit id="Settings.OfferClipboardBar.StatusV2" xml:space="preserve">
-        <source>When opening Firefox</source>
-        <target>Nuair a dh’fhosglas mi Firefox</target>
-        <note>Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349</note>
-      </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.Title" xml:space="preserve">
         <source>Offer to Open Copied Links</source>
         <target>faighnich a bheil mi airson ceangal a rinn mi lethbhreac dheth fhosgladh</target>
@@ -4055,6 +4045,22 @@ Private Tab</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.4" build-num="15F31d"/>
     </header>
     <body>
+      <trans-unit id="Bookmarks.EmptyState.Nested.Body.v135" xml:space="preserve">
+        <source>Add bookmarks as you browse so you can find your favorite sites later.</source>
+        <note>The body text for the placeholder screen shown when there are no saved bookmarks, located within a nested subfolder of the bookmarks panel within the libray modal</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.EmptyState.Nested.Title.v135" xml:space="preserve">
+        <source>This folder is empty</source>
+        <note>The title for the placeholder screen shown when there are no saved bookmarks, located within a nested subfolder of the bookmarks panel within the libray modal</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.EmptyState.Root.Body.v135" xml:space="preserve">
+        <source>Save sites as you browse. We’ll also grab bookmarks from other synced devices.</source>
+        <note>The body text for the placeholder screen shown when there are no saved bookmarks, located at the root level of the bookmarks panel within the libray modal</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.EmptyState.Root.Title.v135" xml:space="preserve">
+        <source>No bookmarks yet</source>
+        <note>The title for the placeholder screen shown when there are no saved bookmarks, located at the root level of the bookmarks panel within the libray modal</note>
+      </trans-unit>
       <trans-unit id="Bookmarks.Menu.AllBookmarks.v131" xml:space="preserve">
         <source>All</source>
         <target>A h-uile</target>
@@ -4777,11 +4783,6 @@ Private Tab</source>
         <target>Dìon adhartach o thracadh</target>
         <note>Title for the switch to enable/disable enhanced tracking protection inside the menu.</note>
       </trans-unit>
-      <trans-unit id="Menu.EnhancedTrackingProtection.SwitchOff.Text.v128" xml:space="preserve">
-        <source>Protections are OFF. We suggest turning it back on.</source>
-        <target>Tha an dìon dheth. Mholamaid dhut a chur air a-rithist.</target>
-        <note>A switch to disable enhanced tracking protection inside the menu.</note>
-      </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.SwitchOff.Text.v129" xml:space="preserve">
         <source>Protections are OFF. We suggest turning them back on.</source>
         <target>Tha an dìon dheth. Mholamaid dhut an cur air a-rithist.</target>
@@ -5382,11 +5383,6 @@ Private Tab</source>
         <target>Dèan aithris</target>
         <note>On the main menu, a string below the Tool submenu tiitle, indicating what kind of tools are available in that menu. This string is for the Report Broken Site tool.</note>
       </trans-unit>
-      <trans-unit id="MainMenu.Submenus.Tools.ReportBrokenSite.Title.v131" xml:space="preserve">
-        <source>Report Broken Site</source>
-        <target>Dèan aithris air làrach bhriste</target>
-        <note>On the main menu, the title for the action that will take the user to the site where they can report a broken website to our web compatibility team.</note>
-      </trans-unit>
       <trans-unit id="MainMenu.Submenus.Tools.ReportBrokenSite.Title.v133" xml:space="preserve">
         <source>Report Broken Site…</source>
         <note>On the main menu, the title for the action that will take the user to the site where they can report a broken website to our web compatibility team.</note>
@@ -5506,11 +5502,6 @@ Private Tab</source>
         <target>Lean air adhart</target>
         <note>On top of the bottom toolbar, there can be a microsurvey prompt, this is the title for the button that appears on the prompt that allows the user to tap on and navigates them to the microsurvey to respond to.</note>
       </trans-unit>
-      <trans-unit id="Microsurvey.Prompt.Close.AccessibilityLabel.v127" xml:space="preserve">
-        <source>Close Survey Prompt</source>
-        <target>Dùin brodadh na suirbhidh</target>
-        <note>On top of the bottom toolbar, there can be a microsurvey prompt, this is the accessibility label for the close button that appears on the prompt that allows the user to dismiss the microsurvey prompt.</note>
-      </trans-unit>
       <trans-unit id="Microsurvey.Prompt.Close.Button.AccessibilityLabel.v127" xml:space="preserve">
         <source>Close</source>
         <target>Dùin</target>
@@ -5531,11 +5522,6 @@ Private Tab</source>
         <target>Cuir a-null</target>
         <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this the title of button on the survey that a user can tap on to submit their responses.</note>
       </trans-unit>
-      <trans-unit id="Microsurvey.Survey.Close.AccessibilityLabel.v127" xml:space="preserve">
-        <source>Close Survey</source>
-        <target>Dùin an t-suirbhidh</target>
-        <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this is the accessibility label for close button that dismisses the sheet.</note>
-      </trans-unit>
       <trans-unit id="Microsurvey.Survey.Close.Button.AccessibilityLabel.v127" xml:space="preserve">
         <source>Close</source>
         <target>Dùin</target>
@@ -5550,11 +5536,6 @@ Private Tab</source>
         <source>Survey complete</source>
         <target>Tha an t-suirbhidh air a choileanadh</target>
         <note>On the microsurvey, which is a bottom sheet that pops up with a survey question and options, this is the title for the header on the microsurvey when the user has completed the survey.</note>
-      </trans-unit>
-      <trans-unit id="Microsurvey.Survey.HeaderLabel.v127" xml:space="preserve">
-        <source>Complete this survey</source>
-        <target>Coilean an t-suirbhidh</target>
-        <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this is the title for the header on the screen.</note>
       </trans-unit>
       <trans-unit id="Microsurvey.Survey.HeaderLabel.v129" xml:space="preserve">
         <source>Please complete survey</source>
@@ -5606,11 +5587,6 @@ Private Tab</source>
         <target>Aithris na prìobhaideachd</target>
         <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this the title of a link on the survey and allows the user to navigate to our privacy policy details.</note>
       </trans-unit>
-      <trans-unit id="Microsurvey.Survey.RadioButton.Selected.AccessibilityLabel.v129" xml:space="preserve">
-        <source>Selected</source>
-        <target>Air a thaghadh</target>
-        <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this is the accessibility label that states whether the survey option was selected.</note>
-      </trans-unit>
       <trans-unit id="Microsurvey.Survey.RadioButton.Unselected.AccessibilityLabel.v129" xml:space="preserve">
         <source>Unselected</source>
         <target>Gun taghadh</target>
@@ -5632,11 +5608,6 @@ Private Tab</source>
         <source>Reload</source>
         <target>Ath-luchdaich</target>
         <note>On error page, this is the text on a button that will try to load the page again.</note>
-      </trans-unit>
-      <trans-unit id="NativeErrorPage.GenericError.Description.v131" xml:space="preserve">
-        <source>An SSL error has occurred and a secure connection to the server cannot be made.</source>
-        <target>Thachair mearachd SSL agus chan urrainn dhuinn ceangal tèarainte a dhèanamh ris an fhrithealaiche.</target>
-        <note>On error page, this is the description for generic error.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.Description.v134" xml:space="preserve">
         <source>The owner of %@ hasn’t set it up properly and a secure connection can’t be created.</source>
@@ -5830,11 +5801,6 @@ Private Tab</source>
         <source>Turn On Notifications</source>
         <target>Cuir na brathan air</target>
         <note>String used to describe the option to continue to ask for the notification permission in Firefox Onboarding screens.</note>
-      </trans-unit>
-      <trans-unit id="Onboarding.Sync.Description.v120" xml:space="preserve">
-        <source>When you’re signed in and synced, you’re safer. %@ encrypts your passwords, bookmarks, and more.</source>
-        <target>Dèan clàradh a-steach is sioncronachadh is bidh thu nas sàbhailte. Crioptaichidh %@ na faclan-faire, comharran-lìn is mòran a bharrachd dhut.</target>
-        <note>String used to describes the description of what Firefox is on the Sync onboarding page for current version in our Onboarding screens. Placeholder is for the app name.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Sync.Description.v123" xml:space="preserve">
         <source>%@ encrypts your passwords, bookmarks, and more when you’re synced.</source>
@@ -6281,11 +6247,6 @@ Private Tab</source>
         <target>Cunntas</target>
         <note>Settings section title for the old Firefox account</note>
       </trans-unit>
-      <trans-unit id="Settings.AddressAutofill.Title.v124" xml:space="preserve">
-        <source>Autofill Addresses</source>
-        <target>Fèin-lìon seòlaidhean</target>
-        <note>Label used as an item in Settings screen. When touched, it will take user to address autofill settings page to that will allow user to add or modify saved addresses to allow for autofill in a webpage.</note>
-      </trans-unit>
       <trans-unit id="Settings.AddressAutofill.Title.v126" xml:space="preserve">
         <source>Addresses</source>
         <target>Seòlaidhean</target>
@@ -6356,11 +6317,6 @@ Private Tab</source>
         <target>Einnseanan-luirg eile</target>
         <note>Title for alternate search engines settings section in the Search page in the Settings menu.</note>
       </trans-unit>
-      <trans-unit id="Settings.Search.DefaultSearchEngine.Footer.v122" xml:space="preserve">
-        <source>Results from searches, history, bookmarks, and more</source>
-        <target>Toraidhean o luirg, on eachdraidh, comharran-lìn is mòran a bharrachd</target>
-        <note>Footer for the `default search engine` settings section in the Search Settings page, which explains in more details what the `Show Search Suggestions` setting includes.</note>
-      </trans-unit>
       <trans-unit id="Settings.Search.DefaultSearchEngine.Title.v121" xml:space="preserve">
         <source>Default Search Engine</source>
         <target>An t-einnsean-luirg bunaiteach</target>
@@ -6381,25 +6337,10 @@ Private Tab</source>
         <target>Seall molaidhean o einnseanan-luirg ann an seiseanan prìobhaideach</target>
         <note>Description for `Show in Private Sessions` toggle, located in `Suggestions from Search Engines` section in the Search page in the Settings menu.</note>
       </trans-unit>
-      <trans-unit id="Settings.Search.PrivateSession.Setting.v122" xml:space="preserve">
-        <source>Show Suggestions in Private Browsing</source>
-        <target>Seall molaidhean ann am brabhsadh prìobhaideach</target>
-        <note>Label for toggle. Explains that in private browsing mode, the search suggestions which appears at the top of the search bar, can be toggled on or off. Located in the Private Session section in the Search page in the Settings menu.</note>
-      </trans-unit>
       <trans-unit id="Settings.Search.PrivateSession.Setting.v124" xml:space="preserve">
         <source>Show in Private Sessions</source>
         <target>Seall ann an seiseanan prìobhaideach</target>
         <note>Label for toggle. Explains that in private browsing mode, the search suggestions which appears at the top of the search bar, can be toggled on or off. Located in `Suggestions from Search Engines` and `Address Bar - Firefox Suggest` sections in the Search page in the Settings menu.</note>
-      </trans-unit>
-      <trans-unit id="Settings.Search.PrivateSession.Title.v122" xml:space="preserve">
-        <source>Private Browsing</source>
-        <target>Brabhsadh prìobhaideach</target>
-        <note>Title for the `Private Browsing` settings section in the Search page in the Settings menu.</note>
-      </trans-unit>
-      <trans-unit id="Settings.Search.QuickEnginesTitle.v121" xml:space="preserve">
-        <source>Quick-Search Engines</source>
-        <target>Einnseanan grad-luirg</target>
-        <note>Title for quick-search engines settings section in the Search page in the Settings menu.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.ShowSuggestions.v121" xml:space="preserve">
         <source>Show Search Suggestions</source>
@@ -6436,20 +6377,10 @@ Private Tab</source>
         <target>Lorg am measg nan tabaichean sioncronaichte</target>
         <note>In the Search page of the Settings menu, the title for the setting to enable synced tabs.</note>
       </trans-unit>
-      <trans-unit id="Settings.Search.Suggest.ShowNonSponsoredSuggestions.Description.v124" xml:space="preserve">
-        <source>Get suggestions from the web related to your search</source>
-        <target>Faigh molaidhean on lìon co-cheangailte ris na lorg thu</target>
-        <note>In the Search page of the Settings menu, the description for the setting to enable Suggestions from Firefox.</note>
-      </trans-unit>
       <trans-unit id="Settings.Search.Suggest.ShowNonSponsoredSuggestions.Description.v124.v2" xml:space="preserve">
         <source>Get suggestions from %@ related to your search</source>
         <target>Faigh molaidhean o %@ co-cheangailte ris na lorg thu</target>
         <note>In the Search page of the Settings menu, the description for the setting to enable Suggestions from Firefox. Placeholder is for the app name - Firefox.</note>
-      </trans-unit>
-      <trans-unit id="Settings.Search.Suggest.ShowNonSponsoredSuggestions.Title.v124" xml:space="preserve">
-        <source>Suggestions from %@</source>
-        <target>Molaidhean o %@</target>
-        <note>In the Search page of the Settings menu, the title for setting to enable Suggestions from Firefox. Placeholder is for the app name - Firefox.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.ShowNonSponsoredSuggestions.Title.v124.v2" xml:space="preserve">
         <source>Suggestions from the Web</source>
@@ -6655,11 +6586,6 @@ Private Tab</source>
         <target>Feumaidh seo suas ri 60 diog.</target>
         <note>Description for info card when the product is in analysis mode</note>
       </trans-unit>
-      <trans-unit id="Shopping.InfoCard.ProgressAnalysis.Title.v120" xml:space="preserve">
-        <source>Checking review quality</source>
-        <target>A’ sgrùdadh càileachd nan lèirmheasan</target>
-        <note>Title for info card when the product is in analysis mode</note>
-      </trans-unit>
       <trans-unit id="Shopping.InfoCard.ProgressAnalysis.Title.v123" xml:space="preserve">
         <source>Checking review quality (%@)</source>
         <target>A’ sgrùdadh càileachd nan lèirmheasan (%@)</target>
@@ -6689,11 +6615,6 @@ Private Tab</source>
         <source>No info about these reviews yet</source>
         <target>Chan eil fiosrachadh againn mu na lèirmheasan seo fhathast</target>
         <note>Title for card displayed when a shopping product has not been analysed yet.</note>
-      </trans-unit>
-      <trans-unit id="Shopping.OptInCard.Disclaimer.Text.v120" xml:space="preserve">
-        <source>By selecting “Yes, Try It” you agree to the following from %@:</source>
-        <target>Le bhith a’ taghadh “Tha, feuchaidh mi e”, bidh tu ag aontachadh ris na leanas o %@:</target>
-        <note>Text for the disclaimer that appears underneath the rating image of the Shopping Experience Opt In onboarding Card (Fakespot). The parameter will be replaced by the Fakespot app name. After the colon, what appears are two links, each on their own line. The first link is to a Privacy policy. The second link is to Terms of use.</note>
       </trans-unit>
       <trans-unit id="Shopping.OptInCard.Disclaimer.Text.v123" xml:space="preserve">
         <source>By selecting “Yes, Try It” you agree to these items:</source>
@@ -6725,11 +6646,6 @@ Private Tab</source>
         <target>Tha, feuchaidh mi e</target>
         <note>Text for the main button of the Shopping Experience Opt In onboarding Card (Fakespot)</note>
       </trans-unit>
-      <trans-unit id="Shopping.OptInCard.PrivacyPolicy.Button.Title.v120" xml:space="preserve">
-        <source>Privacy policy</source>
-        <target>Am poileasaidh prìobhaideachd</target>
-        <note>Show Firefox Browser Privacy Policy page from the Privacy section in the Shopping Experience Opt In onboarding Card (Fakespot). See https://www.mozilla.org/privacy/firefox/</note>
-      </trans-unit>
       <trans-unit id="Shopping.OptInCard.PrivacyPolicy.Button.Title.v123" xml:space="preserve">
         <source>%@’s privacy notice</source>
         <target>Aithris na prìobhaideachd aig %@</target>
@@ -6744,11 +6660,6 @@ Private Tab</source>
         <source>Not now</source>
         <target>Chan ann an-dràsta</target>
         <note>Text for the secondary button of the Shopping Experience Opt In onboarding Card (Fakespot)</note>
-      </trans-unit>
-      <trans-unit id="Shopping.OptInCard.TermsOfUse.Button.Title.v120" xml:space="preserve">
-        <source>Terms of use</source>
-        <target>Teirmichean a’ chleachdaidh</target>
-        <note>Show Firefox Browser Terms of Use page from the Privacy section in the Shopping Experience Opt In onboarding Card (Fakespot). See https://www.mozilla.org/privacy/firefox/</note>
       </trans-unit>
       <trans-unit id="Shopping.OptInCard.TermsOfUse.Button.Title.v123" xml:space="preserve">
         <source>%@’s terms of use</source>
@@ -6799,11 +6710,6 @@ Private Tab</source>
         <source>We use AI technology from %1$@ by %2$@ to check the reliability of product reviews. This will only help you assess review quality, not product quality.</source>
         <target>Cleachdaidh sinn teicneolas AI o %1$@ le %2$@ airson earbsachd nan lèirmheasan a sgrùdadh. Cha dèan sin measadh air càileachd a’ bhathair, dìreach càileachd nan lèirmheasan.</target>
         <note>Label of the headline from How we determine review quality card displayed in the shopping review quality bottom sheet. The first parameter will be replaced by the Fakespot app name and the second parameter by the company name of Mozilla.</note>
-      </trans-unit>
-      <trans-unit id="Shopping.ReviewQualityCard.Highlights.Label.v120" xml:space="preserve">
-        <source>*Highlights* are from %1@ reviews within the last 80 days that we believe to be reliable.</source>
-        <target>Tha na *bàrr-phuingean* o lèirmheasan %1@ on 80 latha seo chaidh is a tha earbsach ’nar beachd.</target>
-        <note>Highlights label from How we determine review quality card displayed in the shopping review quality bottom sheet. The parameter substitutes the partner website the user is coming from. The *text inside asterisks* denotes part of the string to bold, please leave the text inside the '*' so that it is bolded correctly.</note>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQualityCard.Highlights.Label.v126" xml:space="preserve">
         <source>*Highlights* are from %@ reviews within the last 80 days that we believe to be reliable.</source>
@@ -6938,7 +6844,7 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/SocialMediaApp.strings" datatype="plaintext" source-language="en" target-language="gd">
+  <file original="Shared/Supporting Files/en.lproj/SocialMediaApp.strings" source-language="en" target-language="gd" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.4" build-num="15F31d"/>
     </header>
@@ -6949,7 +6855,7 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
-  <file original="Shared/Supporting Files/en.lproj/SocialShare.strings" datatype="plaintext" source-language="en" target-language="gd">
+  <file original="Shared/Supporting Files/en.lproj/SocialShare.strings" source-language="en" target-language="gd" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.4" build-num="15F31d"/>
     </header>
