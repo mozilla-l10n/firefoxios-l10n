@@ -3925,10 +3925,12 @@ Private Tab</source>
     <body>
       <trans-unit id="Alerts.AddToCalendar.Body.v134" xml:space="preserve">
         <source>%@ is asking to download a file and add an event to your calendar.</source>
+        <target>%@ กำลังขอดาวน์โหลดไฟล์และเพิ่มเหตุการณ์ในปฏิทินของคุณ</target>
         <note>When tapping on a link, on a website in order to download a file and that file is a calendar file, an alert comes up asking to confirm if you want to add the event to the device calendar. This is the body message for the alert. %@ is the name/domain of the website, for example 'google.com'</note>
       </trans-unit>
       <trans-unit id="Alerts.AddToCalendar.BodyDefault.v134" xml:space="preserve">
         <source>This site is asking to download a file and add an event to your calendar.</source>
+        <target>ไซต์นี้กำลังขอดาวน์โหลดไฟล์และเพิ่มเหตุการณ์ในปฏิทินของคุณ</target>
         <note>When tapping on a link, on a website in order to download a file and that file is a calendar file, an alert comes up asking to confirm if you want to add the event to the device calendar. This is the body message for the alert in case the website doesn't have a base domain.</note>
       </trans-unit>
       <trans-unit id="Alerts.AddToCalendar.Button.Add.v134" xml:space="preserve">
@@ -4051,18 +4053,22 @@ Private Tab</source>
     <body>
       <trans-unit id="Bookmarks.EmptyState.Nested.Body.v135" xml:space="preserve">
         <source>Add bookmarks as you browse so you can find your favorite sites later.</source>
+        <target>เพิ่มที่คั่นหน้าขณะที่คุณเรียกดูเพื่อให้คุณสามารถหาไซต์โปรดของคุณได้ในภายหลัง</target>
         <note>The body text for the placeholder screen shown when there are no saved bookmarks, located within a nested subfolder of the bookmarks panel within the libray modal</note>
       </trans-unit>
       <trans-unit id="Bookmarks.EmptyState.Nested.Title.v135" xml:space="preserve">
         <source>This folder is empty</source>
+        <target>โฟลเดอร์นี้ว่างเปล่า</target>
         <note>The title for the placeholder screen shown when there are no saved bookmarks, located within a nested subfolder of the bookmarks panel within the libray modal</note>
       </trans-unit>
       <trans-unit id="Bookmarks.EmptyState.Root.Body.v135" xml:space="preserve">
         <source>Save sites as you browse. We’ll also grab bookmarks from other synced devices.</source>
+        <target>บันทึกไซต์ขณะที่คุณเรียกดู นอกจากนี้ เราจะดึงที่คั่นหน้าจากอุปกรณ์อื่นๆ ที่ซิงค์มาให้คุณด้วย</target>
         <note>The body text for the placeholder screen shown when there are no saved bookmarks, located at the root level of the bookmarks panel within the libray modal</note>
       </trans-unit>
       <trans-unit id="Bookmarks.EmptyState.Root.Title.v135" xml:space="preserve">
         <source>No bookmarks yet</source>
+        <target>ไม่มีที่คั่นหน้า</target>
         <note>The title for the placeholder screen shown when there are no saved bookmarks, located at the root level of the bookmarks panel within the libray modal</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Menu.AllBookmarks.v131" xml:space="preserve">
@@ -5026,6 +5032,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="MainMenu.AccessibilityLabels.OptionDisabled.Hint.v133" xml:space="preserve">
         <source>Dimmed</source>
+        <target>ใช้ไม่ได้</target>
         <note>On the main menu, the accessibility label hint for any action/option inside the menu, that is disabled. For example: 'Save to Reading List' option, from Menu, in some cases is disabled and the voice over should indicate that. 'Save To Reading List dimmed'</note>
       </trans-unit>
       <trans-unit id="MainMenu.Account.AccessibilityLabels.BackButton.v132" xml:space="preserve">
@@ -5619,6 +5626,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.Description.v134" xml:space="preserve">
         <source>The owner of %@ hasn’t set it up properly and a secure connection can’t be created.</source>
+        <target>เจ้าของ %@ ไม่ได้ตั้งค่าให้ถูกต้อง และไม่สามารถสร้างการเชื่อมต่อแบบปลอดภัยได้</target>
         <note>On error page, this is the description for generic error. The placeholder will be replaced by the site url</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.TitleLabel.v131" xml:space="preserve">
@@ -6872,18 +6880,22 @@ Private Tab</source>
     <body>
       <trans-unit id="SentFromFirefox.SocialShare.SettingsToggle.Subtitle.v134" xml:space="preserve">
         <source>Spread the word about %1$@ every time you share a link on %2$@.</source>
+        <target>บอกต่อเกี่ยวกับ %1$@ ในทุกๆ ครั้งที่คุณแบ่งปันลิงก์ทาง %2$@</target>
         <note>On the Settings screen, this is the subtitle text for a toggle which controls adding additional text to links shared to social media apps. The first parameter is the Firefox app name. The second parameter is the social media app name (e.g. WhatsApp).</note>
       </trans-unit>
       <trans-unit id="SentFromFirefox.SocialShare.SettingsToggle.Title.v134" xml:space="preserve">
         <source>Include %1$@ Download Link on %2$@ Shares</source>
+        <target>รวมลิงก์ดาวน์โหลด %1$@ ไว้บนข้อความที่แบ่งปันทาง %2$@</target>
         <note>On the Settings screen, this is the title text for a toggle which controls adding additional text to links shared to social media apps. The first parameter is the Firefox app name. The second parameter is the social media app name (e.g. WhatsApp).</note>
       </trans-unit>
       <trans-unit id="SentFromFirefox.SocialShare.ShareMessageA.Title.v134" xml:space="preserve">
         <source>%1$@ Sent from %2$@ 🦊 Try the mobile browser: %3$@</source>
+        <target>%1$@ ส่งจาก %2$@ 🦊 ลองใช้เบราว์เซอร์มือถือ: %3$@</target>
         <note>When a user shares a link to social media, this is the shared text they'll see in the social media app. The first parameter is the shared website's URL. The second parameter is the Firefox app name. The third parameter is the link to download the Firefox app.</note>
       </trans-unit>
       <trans-unit id="SentFromFirefox.SocialShare.ShareMessageB.Title.v134" xml:space="preserve">
         <source>%1$@ Sent from %2$@ 🦊 %3$@</source>
+        <target>%1$@ ส่งจาก %2$@ 🦊 %3$@</target>
         <note>When a user shares a link to social media, this is the shared text they'll see in the social media app. The first parameter is the shared website's URL. The second parameter is the Firefox app name. The third parameter is the link to download the Firefox app.</note>
       </trans-unit>
     </body>
