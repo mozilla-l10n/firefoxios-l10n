@@ -123,7 +123,7 @@
       </trans-unit>
       <trans-unit id="This action will clear all of your private data, including history from your synced devices." xml:space="preserve">
         <source>This action will clear all of your private data, including history from your synced devices.</source>
-        <target>ഈ പ്രവര്‍ത്തി മൂലം താങ്കളുടെ സിങ്ക് ചെയ്തിട്ടുള്ള ഡിവൈസുകളിലെ നാള്‍വഴി അടക്കം താങ്കളുടെ സ്വകാര്യ ഡാറ്റ ഇല്ലാതാക്കും.</target>
+        <target>ഈ പ്രവര്‍ത്തി മൂലം താങ്കളുടെ സമന്വയിപ്പിച്ച ചെയ്തിട്ടുള്ള ഉപകരണങ്ങളിൽ നാള്‍വഴി അടക്കം താങ്കളുടെ സ്വകാര്യ ദത്ത ഇല്ലാതാക്കും.</target>
         <note>Description of the confirmation dialog shown when a user tries to clear history that's synced to another device.</note>
       </trans-unit>
     </body>
@@ -135,7 +135,7 @@
     <body>
       <trans-unit id="Browsing History" xml:space="preserve">
         <source>Browsing History</source>
-        <target>ബ്രൌസ് ചെയ്ത നാള്‍വഴി</target>
+        <target>തിരയൽ നാള്‍വഴി</target>
         <note>Settings item for clearing browsing history</note>
       </trans-unit>
       <trans-unit id="Cache" xml:space="preserve">
@@ -165,6 +165,7 @@
       </trans-unit>
       <trans-unit id="Spotlight Index" xml:space="preserve">
         <source>Spotlight Index</source>
+        <target>സ്പോട്ട്ലൈറ്റ് സൂചിക</target>
         <note>A settings item that allows a user to use Apple's \"Spotlight Search\" in Data Management's Website Data option to search for and select an item to delete.</note>
       </trans-unit>
     </body>
@@ -517,7 +518,7 @@
       </trans-unit>
       <trans-unit id="Bookmarks.EditFolder.Label" xml:space="preserve">
         <source>Edit Folder</source>
-        <target>ഫോള്‍ഡര്‍ തിരുത്തുക</target>
+        <target>അറ തുരുത്തുക</target>
         <note>The button to edit a folder</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Folder.Label" xml:space="preserve">
@@ -607,7 +608,7 @@
       </trans-unit>
       <trans-unit id="Close" xml:space="preserve">
         <source>Close</source>
-        <target>അടയ്‍ക്കുക</target>
+        <target>അടയ്ക്കുക</target>
         <note>Accessibility label for action denoting closing a tab in tab list (tray)</note>
       </trans-unit>
       <trans-unit id="Closing tab" xml:space="preserve">
@@ -1230,6 +1231,7 @@
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.RefreshWithoutCache.v108" xml:space="preserve">
         <source>Reload Ignoring Cache</source>
+        <target>അതിവേഗസ്നൃതി ഇല്ലാതെ വീണ്ടും വെബസ്ഥാനം ലഭ്യമാക്കുക</target>
         <note>A label indicating the keyboard shortcut to reload a tab without it's cache. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.Section.Bookmark" xml:space="preserve">
@@ -1329,6 +1331,7 @@
       </trans-unit>
       <trans-unit id="LibraryPanel.History.ClearHistoryMenuTitle.v100" xml:space="preserve">
         <source>Removes history (including history synced from other devices), cookies and other browsing data.</source>
+        <target>നാൾവഴി (മറ്റ് ഉപകരണങ്ങളിൽ നിന്ന് സമന്വയിപ്പിച്ച നാൾവഴി ഉൾപ്പെടെ), കുക്കികൾ, മറ്റ് തിരയൽദത്ത എല്ലാം മായ്ക്കും.</target>
         <note>Within the History Panel, users can open an action menu to clear recent history.</note>
       </trans-unit>
       <trans-unit id="LibraryPanel.History.DeleteGroupedItem.v104" xml:space="preserve">
@@ -1408,6 +1411,7 @@
       </trans-unit>
       <trans-unit id="Logins.PasscodeRequirement.Warning" xml:space="preserve">
         <source>To use the AutoFill feature for Firefox, you must have a device passcode enabled.</source>
+        <target>തനുപൂരിക്കൽ സവിശേഷത ഉപയോഗിക്കാൻ താങ്ങൾക്കു് ഒരു ഉപകരണ രഹസ്യസങ്കേതം പ്രവർത്തനക്ഷമമാക്കിവച്ചിരിക്കണം.</target>
         <note>Warning message shown when you try to enable or use native AutoFill without a device passcode setup</note>
       </trans-unit>
       <trans-unit id="Logins.WelcomeView.Tagline" xml:space="preserve">
@@ -1417,10 +1421,12 @@
       </trans-unit>
       <trans-unit id="Logins.WelcomeView.Title2" xml:space="preserve">
         <source>AutoFill Firefox Passwords</source>
+        <target>ഫയർഫോക്സു് രഹസ്യവാക്കുകൾ തനുപൂരിക്കുക</target>
         <note>Label displaying welcome view title</note>
       </trans-unit>
       <trans-unit id="Logins.WelcomeView.TurnOnAutoFill" xml:space="preserve">
         <source>Turn on AutoFill</source>
+        <target>തനുപൂരിക്കൽ തുടങ്ങി വയ്ക്കുക</target>
         <note>Title of the big blue button to enable AutoFill</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.DontSave.Button" xml:space="preserve">
@@ -2477,6 +2483,7 @@
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.LimitedEdition.Default.Description.v106" xml:space="preserve">
         <source>Try the new collection.</source>
+        <target>പുതിയ ശേഖരം ഉപയോഗിച്ചു നോക്കൂ.</target>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the default description of the group of wallpapers that are seasonally available to the user.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.LimitedEdition.IndependentVoices.Description.v106" xml:space="preserve">
@@ -2738,6 +2745,7 @@
       </trans-unit>
       <trans-unit id="Settings.Sync.ButtonTitle.v103" xml:space="preserve">
         <source>Sync and Save Data</source>
+        <target>ദത്ത സമന്വയിപ്പിച്ചും കരുതിവയ്ക്കുക</target>
         <note>Button label that appears in the settings to prompt the user to sign in to Firefox for iOS sync service to sync and save data.</note>
       </trans-unit>
       <trans-unit id="Settings.Sync.SignInView.Title.v103" xml:space="preserve">
@@ -2791,6 +2799,7 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.Alert.Description" xml:space="preserve">
         <source>If a site doesn’t work as expected, tap the lock in the address bar and turn off Enhanced Tracking Protection for that page.</source>
+        <target>ഒരു സൈറ്റ് പ്രതീക്ഷിച്ചപോലെ പ്രവർത്തിക്കുന്നില്ലെങ്കിൽ, വിലാസപട്ട പരിച അമർത്തിച്ചു് ആ താളിലേ മെച്ചപ്പെടുത്തിയ പിന്തുടർച്ച പരിരക്ഷണം അണക്കുക.</target>
         <note>Decription for the tracker protection alert.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.Alert.Title" xml:space="preserve">
@@ -2810,10 +2819,12 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionCellFooter" xml:space="preserve">
         <source>Reduces targeted ads and helps stop advertisers from tracking your browsing.</source>
+        <target>ടാർഗെറ്റുചെയ്‌ത പരസ്യങ്ങൾ കുറയ്ക്കുകയും താങ്ങളുടെ തിരച്ചിൽ പിന്തുടർച്ചയിൽ നിന്ന് പരസ്യദാതാക്കളെ തടയാൻ സഹായിക്കുകയും ചെയ്യുന്നു.</target>
         <note>Additional information about your Enhanced Tracking Protection</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevel.Footer" xml:space="preserve">
         <source>If a site doesn’t work as expected, tap the lock in the address bar and turn off Enhanced Tracking Protection for that page.</source>
+        <target>ഒരു സൈറ്റ് പ്രതീക്ഷിച്ചപോലെ പ്രവർത്തിക്കുന്നില്ലെങ്കിൽ, വിലാസപട്ട പരിച അമർത്തിച്ചു് ആ താളിലേ മെച്ചപ്പെടുത്തിയ പിന്തുടർച്ച പരിരക്ഷണം അണക്കുക.</target>
         <note>Footer information for tracker protection level.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevel.Footer.Lock" xml:space="preserve">
@@ -3183,6 +3194,7 @@
       </trans-unit>
       <trans-unit id="Wallpaper.Download.Error.Title.v106" xml:space="preserve">
         <source>Couldn’t Download Wallpaper</source>
+        <target>ചുവർകടലാസു് ഇറക്കിവയ്ക്കാൻ പറ്റിയില്ല</target>
         <note>The title of the error displayed if download fails when changing a wallpaper.</note>
       </trans-unit>
       <trans-unit id="Wallpaper.Error.Dismiss.v106" xml:space="preserve">
@@ -3247,6 +3259,7 @@
       </trans-unit>
       <trans-unit id="fxa.signin.ready-to-scan" xml:space="preserve">
         <source>Ready to Scan</source>
+        <target>സ്കാൻ ചെയ്യാൻ തയ്യാറാണു്</target>
         <note>FxA sign in view qr code scan button</note>
       </trans-unit>
       <trans-unit id="fxa.signin.use-email-instead" xml:space="preserve">
@@ -3742,6 +3755,7 @@ Copied Link</source>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickActionsGalleryTitle" xml:space="preserve">
         <source>Quick Actions</source>
+        <target>ദ്രുത പ്രവർത്തനം</target>
         <note>Quick Actions title when widget enters edit mode</note>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickActionsGalleryTitleV2" xml:space="preserve">
@@ -3751,6 +3765,7 @@ Copied Link</source>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickViewGalleryDescriptionV2" xml:space="preserve">
         <source>Add shortcuts to your open tabs.</source>
+        <target>താങ്ങളുടെ തുറന്ന ടാബുകളിലേക്ക് കുറുക്കുവഴികൾ ചേർക്കുക.</target>
         <note>Description for Quick View widget in Gallery View where user can add it to home screen</note>
       </trans-unit>
       <trans-unit id="TodayWidget.QuickViewGalleryTitle" xml:space="preserve">
@@ -3761,11 +3776,15 @@ Copied Link</source>
       <trans-unit id="TodayWidget.SearchInFirefoxV2" xml:space="preserve">
         <source>Search in
 Firefox</source>
+        <target>ഫയർഫോക്സിൽ 
+തിരയുക</target>
         <note>Search in Firefox. Do not translate the word Firefox</note>
       </trans-unit>
       <trans-unit id="TodayWidget.SearchInPrivateTabLabelV2" xml:space="preserve">
         <source>Search in
 Private Tab</source>
+        <target>തിരയുക
+സ്വകാര്യ ടാബിൽ</target>
         <note>Search in private tab</note>
       </trans-unit>
       <trans-unit id="TodayWidget.TopSitesGalleryDescription" xml:space="preserve">
@@ -3827,6 +3846,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="AddressToolbar.SearchEngine.A11y.Label.v128" xml:space="preserve">
         <source>Search Engine: %@</source>
+        <target>തിരയൽയന്ത്രം: %@</target>
         <note>Accessibility label for the search engine icon in the address field of the address toolbar. The placeholder is getting replaced with the name of the search engine (e.g. Google).</note>
       </trans-unit>
     </body>
@@ -3877,10 +3897,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Alerts.AddToCalendar.Title.v134" xml:space="preserve">
         <source>Add to calendar?</source>
+        <target>പഞ്ചാംഗമിലേക്കു് ചേർക്കണോ?</target>
         <note>When tapping on a link, on a website in order to download a file and that file is a calendar file, an alert comes up asking to confirm if you want to add the event to the device calendar. This is the title for the alert.</note>
       </trans-unit>
       <trans-unit id="Alerts.FeltDeletion.Body.v122" xml:space="preserve">
         <source>Close all private tabs and delete history, cookies, and all other site data.</source>
+        <target>എല്ലാ സ്വകാര്യ ടാബുകളും അടച്ചിട്ടു് നാൾവഴിയും കുക്കികളും മറ്റു് എല്ലാ വെബ്സ്ഥാനാദത്തയും മായ്ക്കുക.</target>
         <note>When tapping the fire icon in private mode, an alert comes up asking to confirm if you want to delete all browsing data and end your private session. This is the body text for the alert.</note>
       </trans-unit>
       <trans-unit id="Alerts.FeltDeletion.Button.Cancel.v122" xml:space="preserve">
@@ -4285,6 +4307,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Addresses.EditAddress.AutofillAddressProvince.v129" xml:space="preserve">
         <source>Province</source>
+        <target>പ്രദേശം</target>
         <note>Label for the province field, required in countries where provinces are a primary administrative division. Helps in pinpointing the user's location more accurately for autofill purposes.</note>
       </trans-unit>
       <trans-unit id="Addresses.EditAddress.AutofillAddressState.v129" xml:space="preserve">
@@ -4298,6 +4321,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Addresses.EditAddress.AutofillAddressTel.v129" xml:space="preserve">
         <source>Phone</source>
+        <target>ഫോണ്‍</target>
         <note>Label for the telephone number field, allowing users to input their contact number. This is essential for communication and service provision, ensuring contact details are autofilled correctly.</note>
       </trans-unit>
       <trans-unit id="Addresses.EditAddress.AutofillAddressTownland.v129" xml:space="preserve">
@@ -4374,10 +4398,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Addresses.Toast.AddressSavedConfirmation.v129" xml:space="preserve">
         <source>Address Saved</source>
+        <target>വിലാസം കരുതിവച്ചു</target>
         <note>Toast message confirming that an address has been successfully saved.</note>
       </trans-unit>
       <trans-unit id="Addresses.Toast.AddressUpdatedConfirmation.v129" xml:space="preserve">
         <source>Address Information Updated</source>
+        <target>വിലാസ വിവരം മാറ്റി</target>
         <note>Toast message confirming that an address has been successfully updated.</note>
       </trans-unit>
       <trans-unit id="Addresses.Toast.AddressUpdatedConfirmation.v132.v2" xml:space="preserve">
@@ -4469,6 +4495,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.ToggleToAllowAutofillTitle.v122" xml:space="preserve">
         <source>Save and Fill Payment Methods</source>
+        <target>പണം കൊടുക്കൽ രീതികൾ കരുതിവച്ചു് പൂരിപ്പിക്കുക</target>
         <note>Title label for user to use the toggle settings to allow saving and autofilling of credit cards for webpages.</note>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.ViewCreditCardTitle.v116" xml:space="preserve">
@@ -4503,6 +4530,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Engagement.Notification.Treatment.B.Body.v114" xml:space="preserve">
         <source>Browse with no saved cookies or history in %@.</source>
+        <target>%@-ൽ കരുതിവച്ച കുക്കികളോ നാൾവഴിയോ ഇല്ലാതെ തിരയുക.</target>
         <note>Body of notification send to user after inactivity to encourage them to use the private browsing feature. Placeholder is the app name.</note>
       </trans-unit>
       <trans-unit id="Engagement.Notification.Treatment.B.Title.v114" xml:space="preserve">
@@ -4542,6 +4570,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Certificates.SubjectAltNamesDNSName.v131" xml:space="preserve">
         <source>DNS Name</source>
+        <target>ഡിഎന്‍എസ് പേരു്</target>
         <note>The title for the certificate subject alt names DNS name inside the certificate screen.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Certificates.SubjectName.v131" xml:space="preserve">
@@ -4560,10 +4589,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Certificates.ValidityNotAfter.v131" xml:space="preserve">
         <source>Not After</source>
+        <target>ശേഷമുള്ളതല്ല</target>
         <note>The title for the certificate validity not after date inside the certificate screen.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Certificates.ValidityNotBefore.v131" xml:space="preserve">
         <source>Not Before</source>
+        <target>മുമ്പുള്ളതല്ല</target>
         <note>The title for the certificate validity not before date inside the certificate screen.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.ClearData.AlertCancelButton.v128" xml:space="preserve">
@@ -4660,6 +4691,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.On.NotSecure.Title.v128" xml:space="preserve">
         <source>Be careful on this site</source>
+        <target>ഈ വെബ്സ്ഥാനത്തിൽ ശ്രദ്ധത്തോളം ഇരിക്കുക</target>
         <note>Title for the enhanced tracking protection screen when the user has selected to be protected but the connection is not secure.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.On.Title.v128" xml:space="preserve">
@@ -4720,14 +4752,17 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.FeltPrivacyUI.Body.v122" xml:space="preserve">
         <source>%@ deletes your cookies, history, and site data when you close all your private tabs.</source>
+        <target>സ്വകാര്യ ടാബു് അടക്കുമ്പോൾ %@ താങ്ങളുടെ കുക്കീകളും നാൾവഴിയും സൈറ്റദത്തയും മായ്ക്കാരുണ്ടു്.</target>
         <note>The body of the message for the card that educates users about how private mode works. The card shows up on the homepage when in the new privacy mode. Placeholder refers to app name.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.FeltPrivacyUI.Link.v122" xml:space="preserve">
         <source>Who might be able to see my activity?</source>
+        <target>ആർക്കൊക്കെ എന്റെ പ്രവർത്തനങ്ങൾ കാണാൻ കഴിയും?</target>
         <note>The link for the card that educates users about how private mode works. The link redirects to an external site for more information. The card shows up on the homepage when in the new privacy mode.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.FeltPrivacyUI.Title.v122" xml:space="preserve">
         <source>Leave no traces on this device</source>
+        <target>ഈ ഉപകരണത്തിൽ ഒരു ലക്ഷണമെങ്കിലും വിടരുതു്</target>
         <note>The title for the card that educates users about how private mode works. The card shows up on the homepage when in the new privacy mode.</note>
       </trans-unit>
     </body>
@@ -4739,26 +4774,32 @@ Private Tab</source>
     <body>
       <trans-unit id="LoginsHelper.PromptSaveLogin.Title.v122" xml:space="preserve">
         <source>Save username?</source>
+        <target>ഉപയോക്തൃപ്പേരു് കരുതിവയ്ക്കണോ?</target>
         <note>Prompt for saving the username in the Save Logins prompt.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptSavePassword.Title.v122" xml:space="preserve">
         <source>Save password?</source>
+        <target>രഹസ്യവാക്കു് കരുതിവയ്ക്കണോ?</target>
         <note>Prompt for saving a password in the Save Logins prompt.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title.OneArg.v122" xml:space="preserve">
         <source>Update password?</source>
+        <target>രഹസ്യവാക്കു് മാറ്റണോ?</target>
         <note>Prompt for updating the password in the Update Password prompt.</note>
       </trans-unit>
       <trans-unit id="LoginsHelper.PromptUpdateLogin.Title.TwoArg.v122" xml:space="preserve">
         <source>Update password?</source>
+        <target>രഹസ്യവാക്കു് മാറ്റണോ?</target>
         <note>Prompt for updating a password in the Update Password prompt.</note>
       </trans-unit>
       <trans-unit id="LoginsList.LoginsListSearchPlaceholder.v122" xml:space="preserve">
         <source>Search passwords</source>
+        <target>രഹസ്യവാക്കുകൾ തിരയുക</target>
         <note>Placeholder text for search box in logins list view.</note>
       </trans-unit>
       <trans-unit id="LoginsList.Title.v122" xml:space="preserve">
         <source>SAVED PASSWORDS</source>
+        <target>കരുതിവച്ച രഹസ്യവാക്കുകൾ</target>
         <note>Title for the list of logins saved by the app</note>
       </trans-unit>
     </body>
@@ -4775,10 +4816,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="FirefoxSync.CreditCardsEngine.v122" xml:space="preserve">
         <source>Payment Methods</source>
+        <target>പണം കൊടുക്കൽ മുറകൾ</target>
         <note>Toggle for credit cards syncing setting</note>
       </trans-unit>
       <trans-unit id="Sync.LoginsEngine.Title.v122" xml:space="preserve">
         <source>Passwords</source>
+        <target>രഹസ്യവാക്കുകൾ</target>
         <note>Toggle passwords syncing setting, in the Settings &gt; Sync Data menu of the app.</note>
       </trans-unit>
     </body>
@@ -4790,6 +4833,7 @@ Private Tab</source>
     <body>
       <trans-unit id="FirefoxHomepage.Pocket.Footer.LearnMore.v115" xml:space="preserve">
         <source>Learn more</source>
+        <target>കൂടുതല്‍ അറിയുക</target>
         <note>This is the learn more text of the Pocket footer on Firefox Homepage.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.Pocket.Footer.Title.v116" xml:space="preserve">
@@ -4805,10 +4849,12 @@ Private Tab</source>
     <body>
       <trans-unit id="CloseTab.ArrivingNotification.title.v133" xml:space="preserve">
         <source>%1$@ tabs closed: %2$@</source>
+        <target>%1$@ ടാബുകൾ അടച്ചതു്: %2$@</target>
         <note>Title of notification shown when a remote device has requested to close a number of tabs. First parameter is the app name and the second parameter is the number of tabs.</note>
       </trans-unit>
       <trans-unit id="CloseTab.ViewAction.title.v133" xml:space="preserve">
         <source>View recently closed tabs</source>
+        <target>അടുത്തിടെ അടച്ച ടാബുകള്‍ കാണുക</target>
         <note>Label for an action used to view recently closed tabs.</note>
       </trans-unit>
     </body>
@@ -4888,6 +4934,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="ContextualHints.MainMenu.NewMenu.Title.v132" xml:space="preserve">
         <source>New: streamlined menu</source>
+        <target>പുതിയതു്: ധാരാരേഖിതപെട്ട കുറിപ്പടിക്കട്ട</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. When a user opens the new menu design for the first time, this contextual hint appears. This is the title for the hint.</note>
       </trans-unit>
       <trans-unit id="MainMenu.AccessibilityLabels.OptionDisabled.Hint.v133" xml:space="preserve">
@@ -4907,10 +4954,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="MainMenu.Account.AccessibilityLabels.MainButton.v132" xml:space="preserve">
         <source>Sign in to sync passwords, tabs, and more</source>
+        <target>രഹസ്യവാക്കുകളും ടാബുകളും മറ്റും സമന്വയിപ്പിക്കാൻ പ്രവേശിക്കൽ ചെയ്യുക</target>
         <note>The accessibility label for the sign in button in the Main menu header view.</note>
       </trans-unit>
       <trans-unit id="MainMenu.Account.SignedOut.Description.v131" xml:space="preserve">
         <source>Sync passwords, tabs, and more</source>
+        <target>രഹസ്യവാക്കുകളും ടാബുകളും മറ്റും സമന്വയിപ്പിക്കുക</target>
         <note>On the main menu, at the top, when the user is signed out. The description for the sign in action</note>
       </trans-unit>
       <trans-unit id="MainMenu.Account.SignedOut.Title.v131" xml:space="preserve">
@@ -4920,10 +4969,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="MainMenu.Account.SyncError.Description.v131" xml:space="preserve">
         <source>Syncing paused</source>
+        <target>സമന്വയിപ്പിക്കൽ താൽക്കാലികമായി നിർത്തി</target>
         <note>On the main menu, at the top, when the user is signed in but there was an error syncing. The description subtitle for the sync error state.</note>
       </trans-unit>
       <trans-unit id="MainMenu.Account.SyncError.Title.v131" xml:space="preserve">
         <source>Sign back in to sync</source>
+        <target>സമന്വയിപ്പിക്കാനായി പ്രവേശിക്കൽ ചെയ്യുക</target>
         <note>On the main menu, at the top, when the user is signed in but there was an error syncing. The title for this state.</note>
       </trans-unit>
       <trans-unit id="MainMenu.PanelLinkSection.AccessibilityLabels.Bookmarks.v132" xml:space="preserve">
@@ -5078,6 +5129,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="MainMenu.Submenus.Save.AddToHomeScreen.Title.v131" xml:space="preserve">
         <source>Add to Home Screen</source>
+        <target>ആമുഖതാളിലേക്കു് ചേർക്കുക</target>
         <note>On the main menu, in the Save submenu, the title for the menu component that allows a user to add a website to the home screen.</note>
       </trans-unit>
       <trans-unit id="MainMenu.Submenus.Save.AddToShortcuts.Subtitle.v131" xml:space="preserve">
@@ -5553,10 +5605,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Customization.Theme.Light.Action.v123" xml:space="preserve">
         <source>Light</source>
+        <target>വെളിച്ച അലങ്കാരം</target>
         <note>On the theme customization onboarding card, the string used to describe the option to set the theme to light theme from the available choices.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Customization.Theme.Skip.Action.v123" xml:space="preserve">
         <source>Skip</source>
+        <target>ഒഴിവാക്കുക</target>
         <note>String used to describe the option to skip the theme customization in Firefox Onboarding screens.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Customization.Theme.System.Action.v123" xml:space="preserve">
@@ -5569,10 +5623,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Customization.Toolbar.Bottom.Action.v123" xml:space="preserve">
         <source>Bottom</source>
+        <target>കീഴ്ഭാഗം</target>
         <note>On the toolbar customization onboarding card, the string used to describe the option to set the toolbar at the bottom of the screen.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Customization.Toolbar.Continue.Action.v123" xml:space="preserve">
         <source>Save and Start Browsing</source>
+        <target>കരുതിവച്ചിട്ടു് പരുതാൻ തുടങ്ങുക</target>
         <note>String used to describe the option to save set preferences and leave onboarding to start browsing in the app.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Customization.Toolbar.Description.v123" xml:space="preserve">
@@ -5581,6 +5637,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Customization.Toolbar.Skip.Action.v123" xml:space="preserve">
         <source>Skip</source>
+        <target>ഒഴിവാക്കുക</target>
         <note>String used to describe the option to skip the toolbar customization in Firefox Onboarding screens and start browisg in the app.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Customization.Toolbar.Title.v123" xml:space="preserve">
@@ -5589,6 +5646,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Customization.Toolbar.Top.Action.v123" xml:space="preserve">
         <source>Top</source>
+        <target>മേൽഭാഗം</target>
         <note>On the toolbar customization onboarding card, the string used to describe the option to set the toolbar at the top of the screen.</note>
       </trans-unit>
       <trans-unit id="Onboarding.IntroDescriptionPart1.v114" xml:space="preserve">
@@ -5601,6 +5659,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.LaterAction.v115" xml:space="preserve">
         <source>Skip</source>
+        <target>ഒഴിവാക്കുക</target>
         <note>Describes an action on some of the Onboarding screen, including the wallpaper onboarding screen. This string will be on a button so user can skip that onboarding page.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Notification.Continue.Action.v114" xml:space="preserve">
@@ -5623,6 +5682,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Notification.TurnOnNotifications.Action.v114" xml:space="preserve">
         <source>Turn On Notifications</source>
+        <target>അറിയിപ്പുകൾ തുടങ്ങി വയ്ക്കുക</target>
         <note>String used to describe the option to continue to ask for the notification permission in Firefox Onboarding screens.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Sync.Description.v123" xml:space="preserve">
@@ -5653,6 +5713,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Wallpaper.Action.v114" xml:space="preserve">
         <source>Set Wallpaper</source>
+        <target>ചുവർകടലാസു് ഇടുക</target>
         <note>Description for the wallpaper onboarding page in our Onboarding screens. This describes to the user that they can set a wallpaper.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Wallpaper.Description.v114" xml:space="preserve">
@@ -5691,6 +5752,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Welcome.Link.Action.v114" xml:space="preserve">
         <source>Learn more in our privacy notice</source>
+        <target>ഞങ്ങളുടെ സ്വകാര്യതാ അറിയിപ്പിൽ വായിക്കുക</target>
         <note>String used to describe the title of link button is on the welcome onboarding page for current version in our Onboarding screens.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Welcome.Skip.v114" xml:space="preserve">
@@ -5746,6 +5808,7 @@ Private Tab</source>
     <body>
       <trans-unit id="PasswordGenerator.A11yLabel.v132" xml:space="preserve">
         <source>Password Generator</source>
+        <target>രഹസ്യവാക്കു് ജനറേറ്റർ</target>
         <note>Accessibility label describing a feature that generates a password when the password field of a signup form is interacted with.</note>
       </trans-unit>
       <trans-unit id="PasswordGenerator.CloseButtonA11ylabel.v132" xml:space="preserve">
@@ -5919,6 +5982,7 @@ Private Tab</source>
     <body>
       <trans-unit id="Search.EngineSection.Title.v108" xml:space="preserve">
         <source>%@ search</source>
+        <target>%@ തിരയൽ</target>
         <note>When making a new search from the awesome bar, search results appear as the user write new letters in their search. Different sections with results from the selected search engine will appear. This string will be used as a header to separate the selected engine search results from current search query.</note>
       </trans-unit>
       <trans-unit id="Search.Google.Title.v108" xml:space="preserve">
@@ -5934,6 +5998,7 @@ Private Tab</source>
     <body>
       <trans-unit id="CreditCard.SelectCreditCard.MainTitle.v122" xml:space="preserve">
         <source>Use saved card</source>
+        <target>കരുതിവച്ച ചീട്ടു് ഉപയോഗിക്കുക</target>
         <note>This value is used as the title for the select a credit card from list of available cards.</note>
       </trans-unit>
     </body>
@@ -5945,18 +6010,22 @@ Private Tab</source>
     <body>
       <trans-unit id="Addresses.ManageAddressesButton.v130" xml:space="preserve">
         <source>Manage addresses</source>
+        <target>വിലാസങ്ങൾ കൈകാര്യം ചെയ്യുക</target>
         <note>This label is used for a button in the address list screen allowing users to manage their saved addresses. It's meant to direct users to where they can add, remove, or edit their saved addresses.</note>
       </trans-unit>
       <trans-unit id="Addresses.Settings.ListItemA11y.v130" xml:space="preserve">
         <source>Address for %@</source>
+        <target>%@-നുള്ള വിലാസം</target>
         <note>Accessibility label for an address list item in autofill settings screen. The %@ parameter is the address of the user that will read the name, street, city, state, postal code if available.</note>
       </trans-unit>
       <trans-unit id="Addresses.Settings.SaveToFirefox.Title.v130" xml:space="preserve">
         <source>Save Addresses to %@</source>
+        <target>%@ -ലേക്കു് കരുതിവയ്ക്കുക</target>
         <note>Title text for the content unavailable view informing users they can create or add new addresses. %@ is the name of the app.</note>
       </trans-unit>
       <trans-unit id="Addresses.Settings.SavedAddressesSectionTitle.v124" xml:space="preserve">
         <source>SAVED ADDRESSES</source>
+        <target>കരുതിവച്ച വിലാസങ്ങൾ</target>
         <note>On the autofill settings screen, a label for the section that displays the list of saved addresses. This label adds additional context for users regarding the toggle switch that allows saving and autofilling of addresses for webpages.</note>
       </trans-unit>
       <trans-unit id="Addresses.Settings.SecureSaveInfo.Description.v130" xml:space="preserve">
@@ -5969,14 +6038,17 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Addresses.Settings.Switch.Title.v124" xml:space="preserve">
         <source>Save and Fill Addresses</source>
+        <target>വിലാസങ്ങൾ കരുതവച്ചുിട്ടു് പൂരിപ്പിക്കുക</target>
         <note>Title label for user to use the toggle settings to allow saving and autofilling of addresses for webpages.</note>
       </trans-unit>
       <trans-unit id="Addresses.Settings.UseSavedAddressFromKeyboard.v124" xml:space="preserve">
         <source>Use saved address</source>
+        <target>കരുതിവച്ച വിലാസം ഉപയോഗിക്കുക</target>
         <note>Displayed inside the keyboard hint when a user is entering their address and has at least one saved address. Indicates that there are stored addresses available for use in filling out a form.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.AddCard.AccessibilityLabel.v121" xml:space="preserve">
         <source>Add Card</source>
+        <target>ചീട്ടു് ചേർക്കുക</target>
         <note>Accessibility label for the add button in autofill settings screen. Pressing this button presents a modal that allows users to add a card by entering the credit card information.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.EmptyListDescription.v112" xml:space="preserve">
@@ -5985,6 +6057,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.EmptyListTitle.v122" xml:space="preserve">
         <source>Save Cards to %@</source>
+        <target>%S-ലേക്കു് ചീട്ടുകൾ കരുതിവയ്ക്കുക</target>
         <note>Title label for when there are no credit cards shown in credit card list in autofill settings screen. %@ is the product name and should not be altered.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.ListItemA11y.v118" xml:space="preserve">
@@ -6023,22 +6096,27 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCards.Settings.UseSavedCardFromKeyboard.v112" xml:space="preserve">
         <source>Use saved card</source>
+        <target>കരുതിവച്ച ചീട്ടു് ഉപയോഗിക്കുക</target>
         <note>When a user is in the process of making a purchase, and has at least one saved card, we show this label inside the keyboard hint. This indicates to the user that there are stored cards available for use on this pending purchase.</note>
       </trans-unit>
       <trans-unit id="FxA.FirefoxAccount.v119" xml:space="preserve">
         <source>Account</source>
+        <target>അക്കൗണ്ട്</target>
         <note>Settings section title for the old Firefox account</note>
       </trans-unit>
       <trans-unit id="Settings.AddressAutofill.Title.v126" xml:space="preserve">
         <source>Addresses</source>
+        <target>വിലാസങ്ങള്‍</target>
         <note>Label used as an item in Settings screen. When touched, it will take user to address autofill settings page to that will allow user to add or modify saved addresses to allow for autofill in a webpage.</note>
       </trans-unit>
       <trans-unit id="Settings.AutofillCreditCard.Title.v122" xml:space="preserve">
         <source>Payment Methods</source>
+        <target>പണം കൊടുക്കൽ മുറകൾ</target>
         <note>Label used as an item in Settings screen. When touched, it will take user to credit card settings page to that will allows to add or modify saved credit cards to allow for autofill in a webpage.</note>
       </trans-unit>
       <trans-unit id="Settings.FxA.Title.v119" xml:space="preserve">
         <source>Account</source>
+        <target>അക്കൗണ്ട്</target>
         <note>Title displayed in header of the FxA settings panel.</note>
       </trans-unit>
       <trans-unit id="Settings.Notifications.SyncNotificationsStatus.v112" xml:space="preserve">
@@ -6047,6 +6125,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.Notifications.SyncNotificationsTitle.v112" xml:space="preserve">
         <source>Sync</source>
+        <target>സമന്വയം</target>
         <note>This is the title for the setting that toggles Sync related notifications in the settings menu under the Notifications section.</note>
       </trans-unit>
       <trans-unit id="Settings.Notifications.SystemNotificationsDisabledMessage.v112" xml:space="preserve">
@@ -6201,6 +6280,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.AdCard.Footer.v121" xml:space="preserve">
         <source>Ad by %@</source>
+        <target>%@-ന്റെ പരസ്യം</target>
         <note>Footer label from the Fakespot Ad card displayed for the related product we advertise. This is displayed below the ad card, suggested as an alternative to the product reviewed. The first parameter will be replaced by the Fakespot app name</note>
       </trans-unit>
       <trans-unit id="Shopping.AdCard.Title.v121" xml:space="preserve">
@@ -6455,10 +6535,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.SettingsCard.Collapse.AccessibilityLabel.v120" xml:space="preserve">
         <source>Collapse Settings Card</source>
+        <target>ക്രമീകരണ ചീട്ടു് ചുരുക്കുക</target>
         <note>Accessibility label for the up chevron icon used to collapse or minimize the Settings Card within the shopping product review bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.SettingsCard.Expand.AccessibilityLabel.v120" xml:space="preserve">
         <source>Expand Settings Card</source>
+        <target>ക്രമീകരണ ചീട്ടു് വലുതാക്കുക</target>
         <note>Accessibility label for the down chevron icon used to expand or show the details of the Settings Card within the shopping product review bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.SettingsCard.Expand.GroupedRecommendedProductsAndSwitch.AccessibilityHint.v123" xml:space="preserve">
@@ -6484,10 +6566,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.SettingsCard.SwitchValueOff.AccessibilityLabel.v123" xml:space="preserve">
         <source>Off</source>
+        <target>അണച്ചതു്</target>
         <note>Toggled Off accessibility switch value from Settings Card within the shopping product review bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.SettingsCard.SwitchValueOn.AccessibilityLabel.v123" xml:space="preserve">
         <source>On</source>
+        <target>തുറന്നതു്</target>
         <note>Toggled On accessibility value, from Settings Card within the shopping product review bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.SettingsCard.TurnOffButton.Title.v120" xml:space="preserve">
@@ -6523,14 +6607,17 @@ Private Tab</source>
     <body>
       <trans-unit id="CreditCard.SnackBar.RemovedCardLabel.v112" xml:space="preserve">
         <source>Card Removed</source>
+        <target>ചീട്ടു് നീക്കം ചെയ്തു</target>
         <note>Label text that gets presented as a confirmation at the bottom of screen when the credit card is successfully removed.</note>
       </trans-unit>
       <trans-unit id="CreditCard.SnackBar.SavedCardLabel.v112" xml:space="preserve">
         <source>New Card Saved</source>
+        <target>പുതിയ ചീട്ടു് കരുതിവച്ചു</target>
         <note>Label text that gets presented as a confirmation at the bottom of screen when credit card information gets saved successfully</note>
       </trans-unit>
       <trans-unit id="CreditCard.SnackBar.UpdatedCardLabel.v122" xml:space="preserve">
         <source>Card Information Updated</source>
+        <target>ചീട്ടിൽ വിവരം മാറ്റി</target>
         <note>Label text that gets presented as a confirmation at the bottom of screen when credit card information gets updated successfully</note>
       </trans-unit>
     </body>
@@ -6542,6 +6629,7 @@ Private Tab</source>
     <body>
       <trans-unit id="SentFromFirefox.SocialMediaApp.WhatsApp.Title.v134" xml:space="preserve">
         <source>WhatsApp</source>
+        <target>WhatsApp</target>
         <note>The name of WhatsApp, a popular instant messaging and video calling app.</note>
       </trans-unit>
     </body>
@@ -6576,6 +6664,7 @@ Private Tab</source>
     <body>
       <trans-unit id="SuggestedSites.X.Title.v131" xml:space="preserve">
         <source>X</source>
+        <target>X</target>
         <note>Title for X (formerly Twitter) tile in the suggested sites section of the homepage.</note>
       </trans-unit>
     </body>
@@ -6599,22 +6688,27 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="TabLocation.ETP.On.NotSecure.A11y.Label.v119" xml:space="preserve">
         <source>Connection not secure</source>
+        <target>സമ്പർക്കം സുരക്ഷിതമല്ല</target>
         <note>Accessibility label for the security icon in url bar</note>
       </trans-unit>
       <trans-unit id="TabLocation.ETP.On.Secure.A11y.Label.v119" xml:space="preserve">
         <source>Secure connection</source>
+        <target>സുരക്ഷിതമായ സമ്പർക്കം</target>
         <note>Accessibility label for the security icon in url bar</note>
       </trans-unit>
       <trans-unit id="TabLocation.LockButton.AccessibilityLabel.v122" xml:space="preserve">
         <source>Tracking Protection</source>
+        <target>പിന്തുടരല്‍ സംരക്ഷണം</target>
         <note>Accessibility label for the lock / tracking protection button on the URL bar</note>
       </trans-unit>
       <trans-unit id="TabLocation.LockButton.LargeContentTitle.v122" xml:space="preserve">
         <source>Tracking Protection</source>
+        <target>പിന്തുടരല്‍ സംരക്ഷണം</target>
         <note>Large content title for the lock button. This title is displayed when accessible font sizes are enabled</note>
       </trans-unit>
       <trans-unit id="TabLocation.Share.A11y.Label.v119" xml:space="preserve">
         <source>Share this page</source>
+        <target>ഈ താള്‍ പങ്കു് വയ്ക്കൂ</target>
         <note>Accessibility label for the share button in url bar</note>
       </trans-unit>
       <trans-unit id="TabLocation.ShareButton.AccessibilityLabel.v122" xml:space="preserve">
@@ -6628,6 +6722,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="TabsButton.Accessibility.LargeContentTitle.v122" xml:space="preserve">
         <source>Show Tabs: %@</source>
+        <target>ടാബുകൾ കാണിക്കുക: %@</target>
         <note>Large content title for the tabs button. The argument is the number of open tabs or an infinity symbol. This title is displayed when using accessible font sizes is enabled.</note>
       </trans-unit>
       <trans-unit id="TopSites.RemoveButton.LargeContentTitle.v122" xml:space="preserve">
@@ -6644,18 +6739,22 @@ Private Tab</source>
     <body>
       <trans-unit id="CloseTabsToast.Button.v113" xml:space="preserve">
         <source>Undo</source>
+        <target>പഴയപടിയാക്കുക</target>
         <note>When the user closes tabs in the tab tray, a popup will appear. This is the title for the button to undo the deletion of those tabs</note>
       </trans-unit>
       <trans-unit id="CloseTabsToast.SingleTabTitle.v113" xml:space="preserve">
         <source>Tab Closed</source>
+        <target>ടാബു് അടച്ചു</target>
         <note>When the user closes an individual tab in the tab tray, a popup will appear informing them the tab was closed. This is the text for the popup.</note>
       </trans-unit>
       <trans-unit id="CloseTabsToast.Title.v113" xml:space="preserve">
         <source>Tabs Closed: %d</source>
+        <target>ടാബുകൾ അടച്ചതു്: %d</target>
         <note>When the user closes tabs in the tab tray, a popup will appear informing them how many tabs were closed. This is the text for the popup. The placeholder is the number of tabs</note>
       </trans-unit>
       <trans-unit id="InactiveTabs.TabTray.CloseSwipeActionTitle.v115" xml:space="preserve">
         <source>Close</source>
+        <target>അടയ്ക്കുക</target>
         <note>This is the swipe action title for closing an inactive tab by swiping, located in the Inactive Tabs section of the Tabs Tray</note>
       </trans-unit>
       <trans-unit id="TabsTray.Sync.SyncTabsDisabled.v116" xml:space="preserve">
@@ -6664,6 +6763,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="TabsTray.SyncTabs.SyncTabsButton.Title.v119" xml:space="preserve">
         <source>Sync Tabs</source>
+        <target>ടാബുകൾ സമന്വയിപ്പിക്കുക</target>
         <note>Button label to sync tabs in your account</note>
       </trans-unit>
     </body>
@@ -6686,10 +6786,12 @@ Private Tab</source>
     <body>
       <trans-unit id="Toolbar.NewTab.Button.v130" xml:space="preserve">
         <source>New Tab</source>
+        <target>പുതിയ ടാബു്</target>
         <note>Accessibility label for the new tab button that can be displayed in the navigation or address toolbar.</note>
       </trans-unit>
       <trans-unit id="Toolbar.Tab.CloseThisTab.Button.v130" xml:space="preserve">
         <source>Close This Tab</source>
+        <target>ഈ ടാബു് അടയ്ക്കുക</target>
         <note>Label for button on action sheet, accessed via long pressing tab toolbar button, that closes the current tab when pressed</note>
       </trans-unit>
     </body>
@@ -6701,14 +6803,17 @@ Private Tab</source>
     <body>
       <trans-unit id="ContextualHints.Toolbar.Bottom.Description.v107" xml:space="preserve">
         <source>Move the toolbar to the top if that’s more your style.</source>
+        <target>താങ്ങൾക്കു് വേണമെങ്കിൽ കരുപ്പട്ട മുകളിലേക്കു് നീക്കുക.</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one indicates a user can navigate to the Settings page to move the search bar to the top.</note>
       </trans-unit>
       <trans-unit id="ContextualHints.Toolbar.Navigation.Description.v132" xml:space="preserve">
         <source>Tap and hold the arrows to jump between pages in this tab’s history.</source>
+        <target>ഈ ടാബിന്റെ നാൾവഴിത്തിലേ താളുകൾക്കിടയിൽ ചാടാൻ അമ്പടയാളങ്ങൾ പിടിച്ചുകൊണ്ടു ഇരിക്കുക.</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one indicates a user can press and hold either the back or forward web navigation buttons to quickly navigate their back/forward history</note>
       </trans-unit>
       <trans-unit id="ContextualHints.Toolbar.Top.Description.v107" xml:space="preserve">
         <source>Move the toolbar to the bottom if that’s more your style.</source>
+        <target>താങ്ങൾക്കു് വേണമെങ്കിൽ കരുപ്പട്ട താഴോട്ടു് നീക്കുക.</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one indicates a user can navigate to the Settings page to move the search bar to the bottom.</note>
       </trans-unit>
     </body>
@@ -6720,22 +6825,27 @@ Private Tab</source>
     <body>
       <trans-unit id="CreditCard.RememberCard.SecondaryButtonTitle.v116" xml:space="preserve">
         <source>Card Information Updated</source>
+        <target>ചീട്ടിൽ വിവരം മാറ്റി</target>
         <note>This value is used as the toast message for the saving success alert in the remember credit card page</note>
       </trans-unit>
       <trans-unit id="CreditCard.UpdateCard.MainTitle.v122" xml:space="preserve">
         <source>Update card?</source>
+        <target>ചീട്ടു് പുതുക്കണോ?</target>
         <note>This value is used as the title for the update card page</note>
       </trans-unit>
       <trans-unit id="CreditCard.UpdateCard.ManageCardsButtonTitle.v115" xml:space="preserve">
         <source>Manage cards</source>
+        <target>ചീട്ടുകൾ കൈകാര്യം ചെയ്യുക</target>
         <note>This value is used as the title for the Manage Cards button from the update credit card page</note>
       </trans-unit>
       <trans-unit id="CreditCard.UpdateCard.NotNowButtonTitle.v115" xml:space="preserve">
         <source>Not Now</source>
+        <target>ഇപ്പോഴല്ല</target>
         <note>This value is used as the title for the Not Now button in the update credit card page</note>
       </trans-unit>
       <trans-unit id="CreditCard.UpdateCard.YesButtonTitle.v122" xml:space="preserve">
         <source>Update</source>
+        <target>പുതുക്കുക</target>
         <note>This value is used as the title for the button in the update credit card page. It indicates the action to update the details f9 the card.</note>
       </trans-unit>
     </body>
@@ -6747,6 +6857,7 @@ Private Tab</source>
     <body>
       <trans-unit id="Upgrade.SyncSign.Action.v114" xml:space="preserve">
         <source>Sign In</source>
+        <target>പ്രവേശിക്കുക</target>
         <note>Describes an action on the sync upgrade page in our Upgrade screens. This string will be on a button so user can sign up or login directly in the upgrade.</note>
       </trans-unit>
       <trans-unit id="Upgrade.SyncSign.Description.v114" xml:space="preserve">
@@ -6759,6 +6870,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Upgrade.Welcome.Action.v114" xml:space="preserve">
         <source>Set as Default Browser</source>
+        <target>തനതു അന്വേഷിയന്ത്രമായി സജീകരിക്കുക</target>
         <note>Describes the action on the first upgrade page in the Upgrade screen. This string will be on a button so user can continue the Upgrade.</note>
       </trans-unit>
       <trans-unit id="Upgrade.Welcome.Description.v114" xml:space="preserve">
@@ -6826,14 +6938,17 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="eHmH1H" xml:space="preserve">
         <source>Clear Private Tabs</source>
+        <target>സ്വകാര്യ ടാബുകൾ മായ്ക്കുക</target>
         <note>Quick Actions drop down menu item for lear Private Tabs when widget enters edit mode and drop down menu expands</note>
       </trans-unit>
       <trans-unit id="eV8mOT" xml:space="preserve">
         <source>Quick Action Type</source>
+        <target>ദ്രുത പ്രവർത്തന തരങ്ങൾ</target>
         <note>The description of a customizable section of the widget</note>
       </trans-unit>
       <trans-unit id="eqyNJg" xml:space="preserve">
         <source>Quick Action</source>
+        <target>ദ്രുത പ്രവർത്തനം</target>
         <note>Title of the quick actions widgets</note>
       </trans-unit>
       <trans-unit id="fi3W24-2GqvPe" xml:space="preserve">
@@ -6854,10 +6969,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="scEmjs" xml:space="preserve">
         <source>New Private Search</source>
+        <target>പുതിയ സ്വകാര്യ തിരയൽ</target>
         <note>Quick Actions drop down menu item for new private search when widget enters edit mode and drop down menu expands</note>
       </trans-unit>
       <trans-unit id="w9jdPK" xml:space="preserve">
         <source>Quick Action</source>
+        <target>ദ്രുത പ്രവർത്തനം</target>
         <note>Quick Actions left label text for dropdown menu when widget enters edit mode</note>
       </trans-unit>
       <trans-unit id="xRJbBP" xml:space="preserve">
