@@ -46,6 +46,14 @@ def main():
             print(e)
             continue
 
+        # Use en.lproj instead of en-US.lproj, make sure that target-language
+        # is set to en-US.
+        for file_node in root.xpath("//x:file", namespaces=NS):
+            file_node.set("target-language", "en-US")
+            file_node.set(
+                "original", file_node.get("original").replace("en-US.lproj", "en.lproj")
+            )
+
         for trans_node in root.xpath("//x:trans-unit", namespaces=NS):
             for source in trans_node.xpath("./x:source", namespaces=NS):
                 reference = source.text

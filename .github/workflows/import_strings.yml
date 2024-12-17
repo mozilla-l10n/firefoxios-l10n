@@ -62,7 +62,8 @@ jobs:
           cp ../firefoxios-l10n/en-US/*.xliff "${start_folder}/l10n_repo/en-US/"
 
           # Make sure that the reference locale (en-US) has translations, i.e.
-          # targets defined and identical to the source.
+          # targets defined and identical to the source. Also rewrite paths to
+          # use en.lproj instead of en-US.lproj.
           python "${start_folder}/l10n_repo/.github/scripts/translate_reference.py" --path "${start_folder}/l10n_repo/en-US"
 
           # Copy strings over from es-ES to es
