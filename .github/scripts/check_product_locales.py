@@ -136,7 +136,7 @@ def main():
             f"\nMissing locales in GitHub repository: {', '.join(missing_locales)}\n"
         )
     else:
-        print(f"\nNo missing locales\n")
+        print("\nNo missing locales\n")
 
 
 if __name__ == "__main__":

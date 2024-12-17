@@ -5,24 +5,24 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 """
- update_other_locales.py --reference <locale> --path <base_l10n_folder> [optional list of locales]
+update_other_locales.py --reference <locale> --path <base_l10n_folder> [optional list of locales]
 
-  First, get a list of all XLIFF files in the reference locale. Then, for
-  each folder (locale) available in base_l10n_folder:
+ First, get a list of all XLIFF files in the reference locale. Then, for
+ each folder (locale) available in base_l10n_folder:
 
-  1. Read existing translations, store them in an array: IDs use the structure
-     file_name:string_id:source_hash. Using the hash of the source string
-     prevents from keeping an existing translation if the ID doesn't change
-     but the source string does.
+ 1. Read existing translations, store them in an array: IDs use the structure
+    file_name:string_id:source_hash. Using the hash of the source string
+    prevents from keeping an existing translation if the ID doesn't change
+    but the source string does.
 
-     If the '--nofile' argument is passed, the 'file_name' won't be used when
-     storing translations. This allows to retain translations when a string
-     moves as-is from one file to another.
+    If the '--nofile' argument is passed, the 'file_name' won't be used when
+    storing translations. This allows to retain translations when a string
+    moves as-is from one file to another.
 
-  2. Inject available translations in the reference XLIFF file, updating
-     the target-language where available on file elements.
+ 2. Inject available translations in the reference XLIFF file, updating
+    the target-language where available on file elements.
 
-  3. Store the updated content in existing locale files, without backup.
+ 3. Store the updated content in existing locale files, without backup.
 """
 
 from argparse import RawTextHelpFormatter
