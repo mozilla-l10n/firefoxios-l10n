@@ -4,6 +4,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+from functions import write_xliff
 from glob import glob
 from lxml import etree
 import argparse
@@ -59,16 +60,7 @@ def main():
                     trans_node.insert(1, target)
 
         # Replace the existing file
-        with open(file_path, "w") as fp:
-            # Fix identation of XML file
-            etree.indent(root)
-            xliff_content = etree.tostring(
-                root,
-                encoding="UTF-8",
-                xml_declaration=True,
-                pretty_print=True,
-            )
-            fp.write(xliff_content.decode("utf-8"))
+        write_xliff(root, file_path)
 
 
 if __name__ == "__main__":

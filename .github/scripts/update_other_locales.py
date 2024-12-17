@@ -27,6 +27,7 @@
 
 from argparse import RawTextHelpFormatter
 from copy import deepcopy
+from functions import write_xliff
 from glob import glob
 from lxml import etree
 import argparse
@@ -212,16 +213,7 @@ def main():
                 file_node.set("target-language", locale_code)
 
             # Replace the existing locale file with the new XML content
-            with open(l10n_file, "w") as fp:
-                # Fix identation of XML file
-                etree.indent(reference_root_copy)
-                xliff_content = etree.tostring(
-                    reference_tree_copy,
-                    encoding="UTF-8",
-                    xml_declaration=True,
-                    pretty_print=True,
-                )
-                fp.write(xliff_content.decode("utf-8"))
+            write_xliff(reference_tree_copy, l10n_file)
             updated_files += 1
 
     if updated_files == 0:
