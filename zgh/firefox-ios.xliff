@@ -2813,6 +2813,10 @@
         <source>Hide</source>
         <note>Hide password text selection menu item</note>
       </trans-unit>
+      <trans-unit id="LoginList.DeleteToast.v135" xml:space="preserve">
+        <source>Password removed</source>
+        <note>This message appears briefly as a notification (toast) to inform the user that a password has been successfully removed.</note>
+      </trans-unit>
       <trans-unit id="Logins will be permanently removed." xml:space="preserve">
         <source>Logins will be permanently removed.</source>
         <note>Prompt message warning the user that deleting non-synced logins will permanently remove them</note>
@@ -2892,6 +2896,10 @@
       <trans-unit id="Menu.DownloadPDF.Label.v129" xml:space="preserve">
         <source>Download PDF</source>
         <note>Label for the button, displayed in the menu, downloads a pdf when pressed.</note>
+      </trans-unit>
+      <trans-unit id="Menu.EditBookmark.Label.v135" xml:space="preserve">
+        <source>Edit</source>
+        <note>Label for the edit bookmark button in the legacy menu. Pressing this button opens the bookmark editing screen for the current page's bookmark. Please keep the text as short as possible for this label.</note>
       </trans-unit>
       <trans-unit id="Menu.FindInPageAction.Title" xml:space="preserve">
         <source>Find in Page</source>
@@ -3347,6 +3355,10 @@ Private Tab</source>
         <source>Save sites as you browse. We’ll also grab bookmarks from other synced devices.</source>
         <note>The body text for the placeholder screen shown when there are no saved bookmarks, located at the root level of the bookmarks panel within the libray modal</note>
       </trans-unit>
+      <trans-unit id="Bookmarks.EmptyState.Root.ButtonTitle.v135" xml:space="preserve">
+        <source>Sign in to Sync</source>
+        <note>The button title for the sign in button on the placeholder screen shown when there are no saved bookmarks, located at the root level of the bookmarks panel within the library modal. This button triggers the sign in flow, allowing users to sign in to their Mozilla Account to sync data</note>
+      </trans-unit>
       <trans-unit id="Bookmarks.EmptyState.Root.Title.v135" xml:space="preserve">
         <source>No bookmarks yet</source>
         <note>The title for the placeholder screen shown when there are no saved bookmarks, located at the root level of the bookmarks panel within the libray modal</note>
@@ -3370,6 +3382,10 @@ Private Tab</source>
       <trans-unit id="Bookmarks.Menu.EditBookmark.v131" xml:space="preserve">
         <source>Edit Bookmark</source>
         <note>When a bookmark is longpressed in the bookmarks menu, an `Edit Bookmark` button is present.</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.Menu.EditBookmarkSave.v135" xml:space="preserve">
+        <source>Save</source>
+        <note>When editing a bookmark, the right button in the navigation bar indicating that the edited bookmark will be saved.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Menu.EditBookmarkSaveIn.v131" xml:space="preserve">
         <source>Save in</source>
@@ -4801,6 +4817,70 @@ Private Tab</source>
         <source>Stay encrypted when you hop between devices</source>
         <note>String used to describes the title of what Firefox is on the Sync onboarding page for current version in our Onboarding screens.</note>
       </trans-unit>
+      <trans-unit id="Onboarding.TermsOfService.AgreementButtonTitle.v135" xml:space="preserve">
+        <source>Agree and continue</source>
+        <note>Title for the confirmation button for Terms of Service agreement, in the Terms of Service screen.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.TermsOfService.ManageLink.v135" xml:space="preserve">
+        <source>Manage</source>
+        <note>Title for the Manage button link, in the Terms of Service screen for redirecting the user to the Manage data collection preferences screen.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.TermsOfService.ManagePreferenceAgreement.v135" xml:space="preserve">
+        <source>To help improve the browser, %1$@ sends diagnostic and interaction data to %2$@. %3$@</source>
+        <note>Agreement text for sends diagnostic and interaction data to Mozilla in the Terms of Service screen. First placeholder is for the app name. The second placeholder will be replaced the company name of Mozilla. The last placeholder is for for the Manage link button which redirect the user to another screen in order to manage the data collection preferences.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.TermsOfService.PrivacyNoticeAgreement.v135" xml:space="preserve">
+        <source>%1$@ cares about your privacy. Read more in our %2$@</source>
+        <note>Agreement text for Privacy Notice in the Terms of Service screen. First placeholder is for the app name. The second placeholder is for the Privacy Notice link button that redirect the user to the Privacy Notice page</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.TermsOfService.PrivacyNoticeLink.v135" xml:space="preserve">
+        <source>Privacy Notice.</source>
+        <note>Title for the Privacy Notice button link, in the Terms of Service screen for redirecting the user to the Privacy Notice page.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.LearnMore.v135" xml:space="preserve">
+        <source>Learn more.</source>
+        <note>A text that indicate to the user, a link button is available to be clicked for reading more information about the option that is going to choose in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.LearnMore.v136" xml:space="preserve">
+        <source>Learn more</source>
+        <note>A text that indicate to the user, a link button is available to be clicked for reading more information about the option that is going to choose in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.SendCrashReportsDescription.v135" xml:space="preserve">
+        <source>Crash reports allow us to diagnose and fix issues with the browser. %@</source>
+        <note>Description for the send crash reports switch option in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. %@ is for the Learn more button link, to open a link where user can find more information about this send crash reports option.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.SendCrashReportsTitle.v135" xml:space="preserve">
+        <source>Automatically send crash reports</source>
+        <note>Title for the send crash reports switch option in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.SendTechnicalDataDescription.v135" xml:space="preserve">
+        <source>Data about your device, hardware configuration, and how you use %1$@ helps improve features, performance, and stability for everyone. %2$@</source>
+        <note>Description for the technical and interaction data switch option in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. First placeholder is for the app name. The second placeholder is for the Learn more button link, to open a link where user can find more information about this send technical and interaction data option.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.SendTechnicalDataTitle.v135" xml:space="preserve">
+        <source>Send technical and interaction data to %@</source>
+        <note>Title for the send technical and interaction data switch option in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. Placeholder will be replaced the company name of Mozilla.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.Title.v135" xml:space="preserve">
+        <source>Help us make %@ better</source>
+        <note>Title for the Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. Data like crash reports or technical and interaction data. Placeholder is for the app name.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.TermsOfService.Subtitle.v136" xml:space="preserve">
+        <source>Fast and secure web browsing</source>
+        <note>Subtitle for the Terms of Service screen in the onboarding process.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.TermsOfService.TermsOfServiceAgreement.v135" xml:space="preserve">
+        <source>By continuing, you agree to the %@</source>
+        <note>Agreement text for Terms of Service in the Terms of Service screen. Placeholder is for the Terms of Service link button that redirect the user to the Terms of Service page</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.TermsOfService.TermsOfServiceLink.v135" xml:space="preserve">
+        <source>%@ Terms of Service.</source>
+        <note>Title for the Terms of Service button link, in the Terms of Service screen for redirecting the user to the Terms of Service page. Placeholder is for the app name.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.TermsOfService.Title.v135" xml:space="preserve">
+        <source>Welcome to %@</source>
+        <note>Title for the Terms of Service screen in the onboarding process. Placeholder is for app name.</note>
+      </trans-unit>
       <trans-unit id="Onboarding.Wallpaper.Accessibility.Classic.v114" xml:space="preserve">
         <source>Classic Wallpaper</source>
         <note>Accessibility label for the wallpaper onboarding modal displayed on top of the homepage. This describes to the user that which type of wallpaper they are seeing.</note>
@@ -5163,6 +5243,30 @@ Private Tab</source>
         <source>Payment Methods</source>
         <note>Label used as an item in Settings screen. When touched, it will take user to credit card settings page to that will allows to add or modify saved credit cards to allow for autofill in a webpage.</note>
       </trans-unit>
+      <trans-unit id="Settings.CrashReports.Link.v135" xml:space="preserve">
+        <source>Learn More.</source>
+        <note>Title for a link that explains how Mozilla send crash reports.</note>
+      </trans-unit>
+      <trans-unit id="Settings.CrashReports.Message.v135" xml:space="preserve">
+        <source>Crash reports allow us diagnose and fix issues with the browser.</source>
+        <note>On the Settings screen, this is the subtitle text for a toggle which controls automatically sending crash reports.</note>
+      </trans-unit>
+      <trans-unit id="Settings.CrashReports.Title.v135" xml:space="preserve">
+        <source>Automatically Send Crash Reports</source>
+        <note>On the Settings screen, this is the title text for a toggle which controls automatically sending crash reports.</note>
+      </trans-unit>
+      <trans-unit id="Settings.DailyUsagePing.Link.v135" xml:space="preserve">
+        <source>Learn More.</source>
+        <note>Title for a link that explains how Mozilla send daily usage ping.</note>
+      </trans-unit>
+      <trans-unit id="Settings.DailyUsagePing.Message.v135" xml:space="preserve">
+        <source>This helps %@ to estimate active users.</source>
+        <note>On the Settings screen, this is the subtitle text for a toggle which controls sending daily usage ping. Placeholder will be replaced the company name of Mozilla.</note>
+      </trans-unit>
+      <trans-unit id="Settings.DailyUsagePing.Title.v135" xml:space="preserve">
+        <source>Daily Usage Ping</source>
+        <note>On the Settings screen, this is the title text for a toggle which controls automatically sending daily usage ping.</note>
+      </trans-unit>
       <trans-unit id="Settings.FxA.Title.v119" xml:space="preserve">
         <source>Account</source>
         <note>Title displayed in header of the FxA settings panel.</note>
@@ -5274,6 +5378,18 @@ Private Tab</source>
       <trans-unit id="Settings.Search.Suggest.ShowSponsoredSuggestions.Title.v124" xml:space="preserve">
         <source>Suggestions from Sponsors</source>
         <note>In the Search page of the Settings menu, the title for the setting to enable Suggestions from sponsors.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TechnicalData.Link.v135" xml:space="preserve">
+        <source>Learn More.</source>
+        <note>Title for a link that explains how Mozilla send technical and interaction data.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TechnicalData.Message.v135" xml:space="preserve">
+        <source>%1$@ strives to only collect what we need to provide and improve %2$@ for everyone.</source>
+        <note>On the Settings screen, this is the subtitle text for a toggle which controls sending technical and interaction data. The first placeholder will be replaced the company name of Mozilla. The second placeholder is the app name.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TechnicalData.Title.v135" xml:space="preserve">
+        <source>Technical and Interaction Data</source>
+        <note>On the Settings screen, this is the title text for a toggle which controls sending technical and interaction data.</note>
       </trans-unit>
     </body>
   </file>
@@ -5785,6 +5901,10 @@ Private Tab</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.4" build-num="15F31d"/>
     </header>
     <body>
+      <trans-unit id="Toolbar.Menu.Button.A11y.Label.v135" xml:space="preserve">
+        <source>Main Menu</source>
+        <note>Accessibility label for the Main Menu button in the toolbar, specifing that the button will open Main Menu</note>
+      </trans-unit>
       <trans-unit id="Toolbar.NewTab.Button.v130" xml:space="preserve">
         <source>New Tab</source>
         <note>Accessibility label for the new tab button that can be displayed in the navigation or address toolbar.</note>
@@ -5792,6 +5912,10 @@ Private Tab</source>
       <trans-unit id="Toolbar.Tab.CloseThisTab.Button.v130" xml:space="preserve">
         <source>Close This Tab</source>
         <note>Label for button on action sheet, accessed via long pressing tab toolbar button, that closes the current tab when pressed</note>
+      </trans-unit>
+      <trans-unit id="Toolbar.Tabs.Button.A11y.Label.v135" xml:space="preserve">
+        <source>Tabs open</source>
+        <note>Accessibility label for the tabs button in the toolbar, specifing the number of tabs open.</note>
       </trans-unit>
     </body>
   </file>
