@@ -3965,6 +3965,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Alerts.FeltDeletion.Button.Cancel.v134" xml:space="preserve">
         <source>Cancel</source>
+        <target>Utzi</target>
         <note>When tapping on a link, on a website in order to download a file and that file is a calendar file, an alert comes up asking to confirm if you want to add the event to the device calendar. This is the cancel action for the alert, cancelling the action to add the event to the calendar.</note>
       </trans-unit>
       <trans-unit id="Alerts.FeltDeletion.Button.Confirm.v122" xml:space="preserve">
@@ -4062,22 +4063,27 @@ Private Tab</source>
     <body>
       <trans-unit id="Bookmarks.EmptyState.Nested.Body.v135" xml:space="preserve">
         <source>Add bookmarks as you browse so you can find your favorite sites later.</source>
+        <target>Gehitu laster-markak nabigatu ahala zure gune gogokoenak geroago aurki ditzazun.</target>
         <note>The body text for the placeholder screen shown when there are no saved bookmarks, located within a nested subfolder of the bookmarks panel within the libray modal</note>
       </trans-unit>
       <trans-unit id="Bookmarks.EmptyState.Nested.Title.v135" xml:space="preserve">
         <source>This folder is empty</source>
+        <target>Karpeta hau hutsik dago</target>
         <note>The title for the placeholder screen shown when there are no saved bookmarks, located within a nested subfolder of the bookmarks panel within the libray modal</note>
       </trans-unit>
       <trans-unit id="Bookmarks.EmptyState.Root.Body.v135" xml:space="preserve">
         <source>Save sites as you browse. We’ll also grab bookmarks from other synced devices.</source>
+        <target>Gorde guneak nabigatu ahala. Sinkronizatutako beste gailuetatik laster-markak ere hartuko ditugu.</target>
         <note>The body text for the placeholder screen shown when there are no saved bookmarks, located at the root level of the bookmarks panel within the libray modal</note>
       </trans-unit>
       <trans-unit id="Bookmarks.EmptyState.Root.ButtonTitle.v135" xml:space="preserve">
         <source>Sign in to Sync</source>
+        <target>Hasi saioa sinkronizatzeko</target>
         <note>The button title for the sign in button on the placeholder screen shown when there are no saved bookmarks, located at the root level of the bookmarks panel within the library modal. This button triggers the sign in flow, allowing users to sign in to their Mozilla Account to sync data</note>
       </trans-unit>
       <trans-unit id="Bookmarks.EmptyState.Root.Title.v135" xml:space="preserve">
         <source>No bookmarks yet</source>
+        <target>Laster-markarik ez oraindik</target>
         <note>The title for the placeholder screen shown when there are no saved bookmarks, located at the root level of the bookmarks panel within the libray modal</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Menu.AllBookmarks.v131" xml:space="preserve">
@@ -4107,6 +4113,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Bookmarks.Menu.EditBookmarkSave.v135" xml:space="preserve">
         <source>Save</source>
+        <target>Gorde</target>
         <note>When editing a bookmark, the right button in the navigation bar indicating that the edited bookmark will be saved.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Menu.EditBookmarkSaveIn.v131" xml:space="preserve">
@@ -5045,6 +5052,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="MainMenu.AccessibilityLabels.OptionDisabled.Hint.v133" xml:space="preserve">
         <source>Dimmed</source>
+        <target>Ilunduta</target>
         <note>On the main menu, the accessibility label hint for any action/option inside the menu, that is disabled. For example: 'Save to Reading List' option, from Menu, in some cases is disabled and the voice over should indicate that. 'Save To Reading List dimmed'</note>
       </trans-unit>
       <trans-unit id="MainMenu.Account.AccessibilityLabels.BackButton.v132" xml:space="preserve">
@@ -5409,6 +5417,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="MainMenu.Submenus.Tools.ReportBrokenSite.Title.v133" xml:space="preserve">
         <source>Report Broken Site…</source>
+        <target>Eman hondatutako gunearen berri…</target>
         <note>On the main menu, the title for the action that will take the user to the site where they can report a broken website to our web compatibility team.</note>
       </trans-unit>
       <trans-unit id="MainMenu.Submenus.Tools.Share.Subtitle.v131" xml:space="preserve">
@@ -5637,6 +5646,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.Description.v134" xml:space="preserve">
         <source>The owner of %@ hasn’t set it up properly and a secure connection can’t be created.</source>
+        <target>%@ gunearen jabeak ez du ondo konfiguratu eta ezin da konexio segururik sortu.</target>
         <note>On error page, this is the description for generic error. The placeholder will be replaced by the site url</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.TitleLabel.v131" xml:space="preserve">
@@ -5850,38 +5860,47 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.AgreementButtonTitle.v135" xml:space="preserve">
         <source>Agree and continue</source>
+        <target>Onartu eta jarraitu</target>
         <note>Title for the confirmation button for Terms of Service agreement, in the Terms of Service screen.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.ManageLink.v135" xml:space="preserve">
         <source>Manage</source>
+        <target>Kudeatu</target>
         <note>Title for the Manage button link, in the Terms of Service screen for redirecting the user to the Manage data collection preferences screen.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.ManagePreferenceAgreement.v135" xml:space="preserve">
         <source>To help improve the browser, %1$@ sends diagnostic and interaction data to %2$@. %3$@</source>
+        <target>Nabigatzailea hobetzen laguntzeko, %1$@(e)k diagnostiko- eta interakzio-datuak bidaltzen ditu %2$@(r)a. %3$@</target>
         <note>Agreement text for sends diagnostic and interaction data to Mozilla in the Terms of Service screen. First placeholder is for the app name. The second placeholder will be replaced the company name of Mozilla. The last placeholder is for for the Manage link button which redirect the user to another screen in order to manage the data collection preferences.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyNoticeAgreement.v135" xml:space="preserve">
         <source>%1$@ cares about your privacy. Read more in our %2$@</source>
+        <target>%1$@(r)i zure pribatutasunak axola dio. Irakurri gehiago gure %2$@</target>
         <note>Agreement text for Privacy Notice in the Terms of Service screen. First placeholder is for the app name. The second placeholder is for the Privacy Notice link button that redirect the user to the Privacy Notice page</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyNoticeLink.v135" xml:space="preserve">
         <source>Privacy Notice.</source>
+        <target>Pribatutasun-oharrean.</target>
         <note>Title for the Privacy Notice button link, in the Terms of Service screen for redirecting the user to the Privacy Notice page.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.LearnMore.v135" xml:space="preserve">
         <source>Learn more.</source>
+        <target>Argibide gehiago.</target>
         <note>A text that indicate to the user, a link button is available to be clicked for reading more information about the option that is going to choose in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.LearnMore.v136" xml:space="preserve">
         <source>Learn more</source>
+        <target>Argibide gehiago</target>
         <note>A text that indicate to the user, a link button is available to be clicked for reading more information about the option that is going to choose in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.SendCrashReportsDescription.v135" xml:space="preserve">
         <source>Crash reports allow us to diagnose and fix issues with the browser. %@</source>
+        <target>Hutsegite-txostenek nabigatzailearen arazoak diagnostikatzen laguntzen digute. %@</target>
         <note>Description for the send crash reports switch option in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. %@ is for the Learn more button link, to open a link where user can find more information about this send crash reports option.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.SendCrashReportsTitle.v135" xml:space="preserve">
         <source>Automatically send crash reports</source>
+        <target>Bidali automatikoki hutsegite-txostenak</target>
         <note>Title for the send crash reports switch option in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.SendTechnicalDataDescription.v135" xml:space="preserve">
