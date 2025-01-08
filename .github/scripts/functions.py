@@ -18,6 +18,6 @@ def write_xliff(root, filename):
             pretty_print=True,
         )
         xliff_content = (
-            "<?xml version='1.0' encoding='UTF-8'?>\n" + xliff_content.decode("utf-8")
+            '<?xml version="1.0" encoding="UTF-8"?>\n' + xliff_content.decode("utf-8")
         )
         fp.write(xliff_content)
