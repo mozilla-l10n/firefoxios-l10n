@@ -4111,6 +4111,10 @@ Private Tab</source>
         <target>編輯書籤</target>
         <note>When a bookmark is longpressed in the bookmarks menu, an `Edit Bookmark` button is present.</note>
       </trans-unit>
+      <trans-unit id="Bookmarks.Menu.EditBookmarkDesktopBookmarksLabel.v136" xml:space="preserve">
+        <source>DESKTOP BOOKMARKS</source>
+        <note>Header denoting that the proceeding folders in the parent folder selector table of the Edit Bookmarks Screen are folders shared with desktop.</note>
+      </trans-unit>
       <trans-unit id="Bookmarks.Menu.EditBookmarkSave.v135" xml:space="preserve">
         <source>Save</source>
         <target>儲存</target>
@@ -4130,6 +4134,18 @@ Private Tab</source>
         <source>Edit Folder</source>
         <target>編輯資料夾</target>
         <note>When a folder is longpressed in the bookmarks menu, an `Edit Folder` button is present.</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.Menu.MoreOptionsA11yLabel.v136" xml:space="preserve">
+        <source>More options</source>
+        <note>Accessibility label for the "..." disclosure button located within every bookmark site cell in the bookmarks panel. Pressing this button opens a modal with more actions.</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.Menu.SavedBookmarkToastDefaultFolderLabel.v136" xml:space="preserve">
+        <source>Saved in “Bookmarks”</source>
+        <note>The label displayed in the toast notification when saving a bookmark via the menu to the default folder. "Bookmarks" is the name of the default folder where the bookmark will be saved to.</note>
+      </trans-unit>
+      <trans-unit id="Bookmarks.Menu.SavedBookmarkToastLabel.v136" xml:space="preserve">
+        <source>Saved in “%@”</source>
+        <note>The label displayed in the toast notification when saving a bookmark via the menu to a custom folder. The placeholder represents the custom name of the folder, created by the user, where the bookmark will be saved to</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.Edit.v131" xml:space="preserve">
         <source>Edit</source>
@@ -5938,6 +5954,10 @@ Private Tab</source>
         <target>歡迎使用 %@！</target>
         <note>Title for the Terms of Service screen in the onboarding process. Placeholder is for app name.</note>
       </trans-unit>
+      <trans-unit id="Onboarding.TermsOfUse.TermsOfUseLink.v136" xml:space="preserve">
+        <source>%@ Terms of Use.</source>
+        <note>Title for the Terms of Use button link, in the Terms of Use screen for redirecting the user to the Terms of Use page. Placeholder is for the app name.</note>
+      </trans-unit>
       <trans-unit id="Onboarding.Wallpaper.Accessibility.Classic.v114" xml:space="preserve">
         <source>Classic Wallpaper</source>
         <target>經典背景圖</target>
@@ -6386,6 +6406,10 @@ Private Tab</source>
       <trans-unit id="Settings.CrashReports.Message.v135" xml:space="preserve">
         <source>Crash reports allow us diagnose and fix issues with the browser.</source>
         <target>傳送錯誤報告，可讓我們診斷並修正瀏覽器的問題。</target>
+        <note>On the Settings screen, this is the subtitle text for a toggle which controls automatically sending crash reports.</note>
+      </trans-unit>
+      <trans-unit id="Settings.CrashReports.Message.v136" xml:space="preserve">
+        <source>This helps us diagnose and fix issues with the browser.</source>
         <note>On the Settings screen, this is the subtitle text for a toggle which controls automatically sending crash reports.</note>
       </trans-unit>
       <trans-unit id="Settings.CrashReports.Title.v135" xml:space="preserve">
