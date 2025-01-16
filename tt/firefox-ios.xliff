@@ -4028,10 +4028,9 @@ Private Tab</source>
         <source>Save sites as you browse. We’ll also grab bookmarks from other synced devices.</source>
         <note>The body text for the placeholder screen shown when there are no saved bookmarks, located at the root level of the bookmarks panel within the libray modal</note>
       </trans-unit>
-      <trans-unit id="Bookmarks.EmptyState.Root.ButtonTitle.v135" xml:space="preserve">
+      <trans-unit id="Bookmarks.EmptyState.Root.ButtonTitle.v136" xml:space="preserve">
         <source>Sign in to Sync</source>
-        <target>Синхронлауга керү</target>
-        <note>The button title for the sign in button on the placeholder screen shown when there are no saved bookmarks, located at the root level of the bookmarks panel within the library modal. This button triggers the sign in flow, allowing users to sign in to their Mozilla Account to sync data</note>
+        <note>The button title for the sign in button on the placeholder screen shown when there are no saved bookmarks, located at the root level of the bookmarks panel within the library modal. This button triggers the sign in flow, allowing users to sign in to their Mozilla Account to sync data. In this string, "Sync" is used as a verb, and is capitalized as per convention to title case text for buttons in iOS</note>
       </trans-unit>
       <trans-unit id="Bookmarks.EmptyState.Root.Title.v135" xml:space="preserve">
         <source>No bookmarks yet</source>
@@ -4600,6 +4599,14 @@ Private Tab</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
     </header>
     <body>
+      <trans-unit id="MainMenu.Account.AccessibilityLabels.BackButton.v137" xml:space="preserve">
+        <source>Back</source>
+        <note>The accessibility label for the back button in the EnhancedTrackingProtection screen header navigation view.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Account.AccessibilityLabels.CloseButton.v137" xml:space="preserve">
+        <source>Close</source>
+        <note>The accessibility label for the close button in the EnhancedTrackingProtection screen header navigation view.</note>
+      </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Certificates.CommonName.v131" xml:space="preserve">
         <source>Common Name</source>
         <target>Уртак исем</target>
