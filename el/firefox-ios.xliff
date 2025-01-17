@@ -3431,6 +3431,7 @@
       </trans-unit>
       <trans-unit id="LoginList.DeleteToast.v135" xml:space="preserve">
         <source>Password removed</source>
+        <target>Ο κωδικός πρόσβασης αφαιρέθηκε</target>
         <note>This message appears briefly as a notification (toast) to inform the user that a password has been successfully removed.</note>
       </trans-unit>
       <trans-unit id="Logins will be permanently removed." xml:space="preserve">
@@ -4077,6 +4078,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Bookmarks.EmptyState.Root.ButtonTitle.v136" xml:space="preserve">
         <source>Sign in to Sync</source>
+        <target>Σύνδεση στο Sync</target>
         <note>The button title for the sign in button on the placeholder screen shown when there are no saved bookmarks, located at the root level of the bookmarks panel within the library modal. This button triggers the sign in flow, allowing users to sign in to their Mozilla Account to sync data. In this string, "Sync" is used as a verb, and is capitalized as per convention to title case text for buttons in iOS</note>
       </trans-unit>
       <trans-unit id="Bookmarks.EmptyState.Root.Title.v135" xml:space="preserve">
@@ -4141,10 +4143,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Bookmarks.Menu.SavedBookmarkToastDefaultFolderLabel.v136" xml:space="preserve">
         <source>Saved in “Bookmarks”</source>
+        <target>Αποθηκεύτηκε στους «Σελιδοδείκτες»</target>
         <note>The label displayed in the toast notification when saving a bookmark via the menu to the default folder. "Bookmarks" is the name of the default folder where the bookmark will be saved to.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Menu.SavedBookmarkToastLabel.v136" xml:space="preserve">
         <source>Saved in “%@”</source>
+        <target>Αποθηκεύτηκε στο «%@»</target>
         <note>The label displayed in the toast notification when saving a bookmark via the menu to a custom folder. The placeholder represents the custom name of the folder, created by the user, where the bookmark will be saved to</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.Edit.v131" xml:space="preserve">
@@ -5896,14 +5900,17 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.ManagePreferenceAgreement.v135" xml:space="preserve">
         <source>To help improve the browser, %1$@ sends diagnostic and interaction data to %2$@. %3$@</source>
+        <target>Για τη βελτίωση του προγράμματος περιήγησης, το %1$@ στέλνει δεδομένα διάγνωσης και αλληλεπίδρασης στη %2$@. %3$@</target>
         <note>Agreement text for sends diagnostic and interaction data to Mozilla in the Terms of Service screen. First placeholder is for the app name. The second placeholder will be replaced the company name of Mozilla. The last placeholder is for for the Manage link button which redirect the user to another screen in order to manage the data collection preferences.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyNoticeAgreement.v135" xml:space="preserve">
         <source>%1$@ cares about your privacy. Read more in our %2$@</source>
+        <target>Το %1$@ νοιάζεται για το απόρρητό σας. Διαβάστε περισσότερα στη %2$@ μας</target>
         <note>Agreement text for Privacy Notice in the Terms of Service screen. First placeholder is for the app name. The second placeholder is for the Privacy Notice link button that redirect the user to the Privacy Notice page</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyNoticeLink.v135" xml:space="preserve">
         <source>Privacy Notice.</source>
+        <target>Πολιτική Απορρήτου.</target>
         <note>Title for the Privacy Notice button link, in the Terms of Service screen for redirecting the user to the Privacy Notice page.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.LearnMore.v135" xml:space="preserve">
@@ -5918,42 +5925,52 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.SendCrashReportsDescription.v135" xml:space="preserve">
         <source>Crash reports allow us to diagnose and fix issues with the browser. %@</source>
+        <target>Οι αναφορές κατάρρευσης μάς επιτρέπουν να διαγνώσουμε και να διορθώσουμε προβλήματα με το πρόγραμμα περιήγησης. %@</target>
         <note>Description for the send crash reports switch option in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. %@ is for the Learn more button link, to open a link where user can find more information about this send crash reports option.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.SendCrashReportsTitle.v135" xml:space="preserve">
         <source>Automatically send crash reports</source>
+        <target>Αυτόματη αποστολή αναφορών κατάρρευσης</target>
         <note>Title for the send crash reports switch option in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.SendTechnicalDataDescription.v135" xml:space="preserve">
         <source>Data about your device, hardware configuration, and how you use %1$@ helps improve features, performance, and stability for everyone. %2$@</source>
+        <target>Τα δεδομένα σχετικά με τη συσκευή σας, τη διαμόρφωση του υλικού της και τον τρόπο με τον οποίο χρησιμοποιείτε το %1$@ συμβάλλουν στη βελτίωση των λειτουργιών, των επιδόσεων και της σταθερότητας για τους χρήστες σε όλο τον κόσμο. %2$@</target>
         <note>Description for the technical and interaction data switch option in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. First placeholder is for the app name. The second placeholder is for the Learn more button link, to open a link where user can find more information about this send technical and interaction data option.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.SendTechnicalDataTitle.v135" xml:space="preserve">
         <source>Send technical and interaction data to %@</source>
+        <target>Αποστολή τεχνικών δεδομένων και δεδομένων αλληλεπίδρασης στη %@</target>
         <note>Title for the send technical and interaction data switch option in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. Placeholder will be replaced the company name of Mozilla.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.Title.v135" xml:space="preserve">
         <source>Help us make %@ better</source>
+        <target>Βοηθήστε μας να βελτιώσουμε το %@</target>
         <note>Title for the Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. Data like crash reports or technical and interaction data. Placeholder is for the app name.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.Subtitle.v136" xml:space="preserve">
         <source>Fast and secure web browsing</source>
+        <target>Γρήγορη και ασφαλής περιήγηση στον ιστό</target>
         <note>Subtitle for the Terms of Service screen in the onboarding process.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.TermsOfServiceAgreement.v135" xml:space="preserve">
         <source>By continuing, you agree to the %@</source>
+        <target>Συνεχίζοντας, συμφωνείτε με τους %@</target>
         <note>Agreement text for Terms of Service in the Terms of Service screen. Placeholder is for the Terms of Service link button that redirect the user to the Terms of Service page</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.TermsOfServiceLink.v135" xml:space="preserve">
         <source>%@ Terms of Service.</source>
+        <target>Όροι υπηρεσίας %@.</target>
         <note>Title for the Terms of Service button link, in the Terms of Service screen for redirecting the user to the Terms of Service page. Placeholder is for the app name.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.Title.v135" xml:space="preserve">
         <source>Welcome to %@</source>
+        <target>Καλώς ορίσατε στο %@</target>
         <note>Title for the Terms of Service screen in the onboarding process. Placeholder is for app name.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfUse.TermsOfUseLink.v136" xml:space="preserve">
         <source>%@ Terms of Use.</source>
+        <target>Όροι χρήσης %@.</target>
         <note>Title for the Terms of Use button link, in the Terms of Use screen for redirecting the user to the Terms of Use page. Placeholder is for the app name.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Wallpaper.Accessibility.Classic.v114" xml:space="preserve">
@@ -6403,10 +6420,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.CrashReports.Message.v135" xml:space="preserve">
         <source>Crash reports allow us diagnose and fix issues with the browser.</source>
+        <target>Οι αναφορές κατάρρευσης μάς επιτρέπουν να διαγνώσουμε και να διορθώσουμε προβλήματα με το πρόγραμμα περιήγησης.</target>
         <note>On the Settings screen, this is the subtitle text for a toggle which controls automatically sending crash reports.</note>
       </trans-unit>
       <trans-unit id="Settings.CrashReports.Message.v136" xml:space="preserve">
         <source>This helps us diagnose and fix issues with the browser.</source>
+        <target>Αυτό μας επιτρέπει να διαγνώσουμε και να διορθώσουμε προβλήματα με το πρόγραμμα περιήγησης.</target>
         <note>On the Settings screen, this is the subtitle text for a toggle which controls automatically sending crash reports.</note>
       </trans-unit>
       <trans-unit id="Settings.CrashReports.Title.v135" xml:space="preserve">
@@ -6426,10 +6445,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.DailyUsagePing.Message.v135" xml:space="preserve">
         <source>This helps %@ to estimate active users.</source>
+        <target>Αυτό βοηθά το %@ να εκτιμήσει τους ενεργούς χρήστες.</target>
         <note>On the Settings screen, this is the subtitle text for a toggle which controls sending daily usage ping. Placeholder will be replaced the company name of Mozilla.</note>
       </trans-unit>
       <trans-unit id="Settings.DailyUsagePing.Title.v135" xml:space="preserve">
         <source>Daily Usage Ping</source>
+        <target>Ενημέρωση ημερήσιας χρήσης</target>
         <note>On the Settings screen, this is the title text for a toggle which controls automatically sending daily usage ping.</note>
       </trans-unit>
       <trans-unit id="Settings.FxA.Title.v119" xml:space="preserve">
@@ -6579,10 +6600,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.Studies.Message.v136" xml:space="preserve">
         <source>Try out features and ideas before they’re released to everyone.</source>
+        <target>Δοκιμάστε λειτουργίες και ιδέες πριν δημοσιευτούν σε όλους.</target>
         <note>A short description that explains that Mozilla is running studies</note>
       </trans-unit>
       <trans-unit id="Settings.Studies.Title.v136" xml:space="preserve">
         <source>Install and Run Studies</source>
+        <target>Εγκατάσταση και εκτέλεση μελετών</target>
         <note>Label used as a toggle item in Settings. When this is off, the user is opting out of all studies.</note>
       </trans-unit>
       <trans-unit id="Settings.TechnicalData.Link.v135" xml:space="preserve">
@@ -6597,10 +6620,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.TechnicalData.Message.v135" xml:space="preserve">
         <source>%1$@ strives to only collect what we need to provide and improve %2$@ for everyone.</source>
+        <target>Η %1$@ αγωνίζεται για να συλλέγει μόνο ό,τι χρειάζεται για να παρέχει και να βελτιώνει το %2$@ για όλους.</target>
         <note>On the Settings screen, this is the subtitle text for a toggle which controls sending technical and interaction data. The first placeholder will be replaced the company name of Mozilla. The second placeholder is the app name.</note>
       </trans-unit>
       <trans-unit id="Settings.TechnicalData.Message.v136" xml:space="preserve">
         <source>Data about your device, hardware configuration, and usage helps us improve %@ features, performance and stability.</source>
+        <target>Τα δεδομένα της συσκευής, των ρυθμίσεων υλικού και της χρήσης σας, μάς βοηθούν να βελτιώσουμε τις λειτουργίες, τις επιδόσεις και τη σταθερότητα του %@.</target>
         <note>On the Settings screen, this is the subtitle text for a toggle which controls sending technical and interaction data. Placeholder is the app name.</note>
       </trans-unit>
       <trans-unit id="Settings.TechnicalData.Title.v135" xml:space="preserve">
