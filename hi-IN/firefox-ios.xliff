@@ -3894,6 +3894,10 @@ Private Tab</source>
         <source>Save sites as you browse. We’ll also grab bookmarks from other synced devices.</source>
         <note>The body text for the placeholder screen shown when there are no saved bookmarks, located at the root level of the bookmarks panel within the libray modal</note>
       </trans-unit>
+      <trans-unit id="Bookmarks.EmptyState.Root.BodySignedOut.v135" xml:space="preserve">
+        <source>Save sites as you browse. Sign in to grab bookmarks from other synced devices.</source>
+        <note>The body text for the placeholder screen shown when the user is signed out and there are no saved bookmarks, located at the root level of the bookmarks panel within the libray modal</note>
+      </trans-unit>
       <trans-unit id="Bookmarks.EmptyState.Root.ButtonTitle.v136" xml:space="preserve">
         <source>Sign in to Sync</source>
         <note>The button title for the sign in button on the placeholder screen shown when there are no saved bookmarks, located at the root level of the bookmarks panel within the library modal. This button triggers the sign in flow, allowing users to sign in to their Mozilla Account to sync data. In this string, "Sync" is used as a verb, and is capitalized as per convention to title case text for buttons in iOS</note>
@@ -4549,6 +4553,29 @@ Private Tab</source>
       <trans-unit id="CreditCard.ErrorState.NameOnCardSublabel.v112" xml:space="preserve">
         <source>Add a name</source>
         <note>Sub label error string that gets shown when user enters incorrect input for their name printed on their credit card in the text box.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/ExternalLink.strings" source-language="en-US" target-language="hi-IN" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
+    </header>
+    <body>
+      <trans-unit id="ExternalLink.ExternalInvalidLinkMessage.v136" xml:space="preserve">
+        <source>The application required to open that link can’t be found.</source>
+        <note>A statement shown to user when tapping an external link and the link doesn't work.</note>
+      </trans-unit>
+      <trans-unit id="ExternalLink.ExternalMailLinkConfirmation.v136" xml:space="preserve">
+        <source>Open email in the default mail application?</source>
+        <note>Question shown to user when tapping a mail link that opens the external app for those.</note>
+      </trans-unit>
+      <trans-unit id="ExternalLink.ExternalOpenMessage.v136" xml:space="preserve">
+        <source>Open</source>
+        <note>The call to action button for a user to open an external link.</note>
+      </trans-unit>
+      <trans-unit id="ExternalLink.ExternalSmsLinkConfirmation.v136" xml:space="preserve">
+        <source>Open sms in an external application?</source>
+        <note>Question shown to user when tapping an SMS link that opens the external app for those.</note>
       </trans-unit>
     </body>
   </file>
@@ -5823,7 +5850,7 @@ Private Tab</source>
         <note>Title for a link that explains how Mozilla send crash reports.</note>
       </trans-unit>
       <trans-unit id="Settings.CrashReports.Message.v135" xml:space="preserve">
-        <source>Crash reports allow us diagnose and fix issues with the browser.</source>
+        <source>Crash reports allow us to diagnose and fix issues with the browser.</source>
         <note>On the Settings screen, this is the subtitle text for a toggle which controls automatically sending crash reports.</note>
       </trans-unit>
       <trans-unit id="Settings.CrashReports.Message.v136" xml:space="preserve">
