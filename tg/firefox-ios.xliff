@@ -6312,6 +6312,10 @@ Private Tab</source>
         <target>Хомӯш кардани огоҳномаҳо</target>
         <note>This is the title informing the user needs to turn on notifications in iOS Settings.</note>
       </trans-unit>
+      <trans-unit id="Settings.PrivacyNotice.Title.v137" xml:space="preserve">
+        <source>Privacy Notice</source>
+        <note>Show Firefox Browser Privacy Notice page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/</note>
+      </trans-unit>
       <trans-unit id="Settings.Search.Accessibility.DefaultSearchEngine.v121" xml:space="preserve">
         <source>Default Search Engine</source>
         <target>Низоми ҷустуҷӯии пешфарз</target>
@@ -6432,19 +6436,27 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.TechnicalData.Message.v135" xml:space="preserve">
         <source>%1$@ strives to only collect what we need to provide and improve %2$@ for everyone.</source>
+        <target>«%1$@» cаъю кӯшиш мекунад, ки танҳо он маълумотеро ҷамъоварӣ намояд, ки мо бояд барои фаъолият ва беҳтарсозии «%2$@» барои ҳар як кас таъмин намоем.</target>
         <note>On the Settings screen, this is the subtitle text for a toggle which controls sending technical and interaction data. The first placeholder will be replaced the company name of Mozilla. The second placeholder is the app name.</note>
       </trans-unit>
       <trans-unit id="Settings.TechnicalData.Message.v136" xml:space="preserve">
         <source>Data about your device, hardware configuration, and usage helps us improve %@ features, performance and stability.</source>
+        <target>Маълумот дар бораи дастгоҳи шумо, танзимоти сахтафзор ва тарзи истифодаи браузер ба мо барои беҳтар кардани хусусиятҳо, самаранокӣ ва устувории «%@» кумак мерасонад.</target>
         <note>On the Settings screen, this is the subtitle text for a toggle which controls sending technical and interaction data. Placeholder is the app name.</note>
       </trans-unit>
       <trans-unit id="Settings.TechnicalData.Title.v135" xml:space="preserve">
         <source>Technical and Interaction Data</source>
+        <target>Маълумоти техникӣ ва ҳамкорӣ</target>
         <note>On the Settings screen, this is the title text for a toggle which controls sending technical and interaction data.</note>
       </trans-unit>
       <trans-unit id="Settings.TechnicalData.Title.v136" xml:space="preserve">
         <source>Send Technical and Interaction Data</source>
+        <target>Фиристодани маълумоти техникӣ ва ҳамкорӣ</target>
         <note>On the Settings screen, this is the title text for a toggle which controls sending technical and interaction data.</note>
+      </trans-unit>
+      <trans-unit id="Settings.TermsOfUse.Title.v137" xml:space="preserve">
+        <source>Terms of Use</source>
+        <note>Terms of Use settings section title</note>
       </trans-unit>
     </body>
   </file>
@@ -6459,6 +6471,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="SendTo.NotSignedIn.Title.v119" xml:space="preserve">
         <source>You are not signed in to your account.</source>
+        <target>Шумо ба ҳисоби худ ворид нашудаед.</target>
         <note>This message appears when a user tries to use 'Send Link to Device' action while not logged in</note>
       </trans-unit>
     </body>
@@ -6470,38 +6483,47 @@ Private Tab</source>
     <body>
       <trans-unit id="ContextualHints.Shopping.NotOptedIn.v120" xml:space="preserve">
         <source>Find out if you can trust this product’s reviews — before you buy.</source>
+        <target>Пеш аз хариди ин маҳсул — муайян кунед, агар шумо тавонед ба тақризҳои ин масҳсул бовар кунед.</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one indicates that a user can tap on the shopping button to start using the Shopping feature.</note>
       </trans-unit>
       <trans-unit id="ContextualHints.Shopping.NotOptedInAction.v120" xml:space="preserve">
         <source>Try Review Checker</source>
+        <target>Озмудани абзори тафтиши тақризҳо</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one is a call to action for the popup describing the Shopping feature. It indicates that a user can go directly to the Shopping feature by tapping the text of the action.</note>
       </trans-unit>
       <trans-unit id="ContextualHints.Shopping.OptedInAction.v120" xml:space="preserve">
         <source>Open Review Checker</source>
+        <target>Кушодани абзори тафтиши тақризҳо</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This is a call to action for the popup that appears after the user has opted in for the Shopping feature. It indicates that a user can directly open the review checker by tapping the text of the action.</note>
       </trans-unit>
       <trans-unit id="ContextualHints.Shopping.OptedInBody.v120" xml:space="preserve">
         <source>Are these reviews reliable? Check now to see an adjusted rating.</source>
+        <target>Оё ин тақризҳо боэътимоданд? Барои дидани баҳодиҳии санҷида дурустшуда ин масъаларо ҳозир озмоед.</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one appears after the user has opted in and informs him if he wants use the review checker by tapping the Shopping button.</note>
       </trans-unit>
       <trans-unit id="Shopping.AdCard.Footer.v121" xml:space="preserve">
         <source>Ad by %@</source>
+        <target>Реклама аз ҷониби «%@»</target>
         <note>Footer label from the Fakespot Ad card displayed for the related product we advertise. This is displayed below the ad card, suggested as an alternative to the product reviewed. The first parameter will be replaced by the Fakespot app name</note>
       </trans-unit>
       <trans-unit id="Shopping.AdCard.Title.v121" xml:space="preserve">
         <source>More to consider</source>
+        <target>Боз чӣ бояд ба назар гирифта шавад</target>
         <note>Title label for the Fakespot Ad card. This is displayed above a product image, suggested as an alternative to the product reviewed.</note>
       </trans-unit>
       <trans-unit id="Shopping.AdjustedRating.Description.v121" xml:space="preserve">
         <source>Based on reliable reviews</source>
+        <target>Дар асоси тақризҳои беэътимод</target>
         <note>Description adjusted of the rating card displayed in the shopping review quality bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.AdjustedRating.StarsAccessibilityLabel.v120" xml:space="preserve">
         <source>%@ out of 5 stars</source>
+        <target>%@ аз 5 ситора</target>
         <note>Accessibility label, associated to adjusted rating stars. %@ is a decimal value from 0 to 5 that will only use a tenth (example: 3.5).</note>
       </trans-unit>
       <trans-unit id="Shopping.AdjustedRating.Title.v120" xml:space="preserve">
         <source>Adjusted rating</source>
+        <target>Баҳодиҳии санҷида дурустшуда</target>
         <note>Title of the adjusted rating card displayed in the shopping review quality bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.ConfirmationCard.Button.Text.v120" xml:space="preserve">
@@ -6561,58 +6583,72 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.FakespotDoesNotAnalyzeReviews.Title.v120" xml:space="preserve">
         <source>Can’t Check These Reviews</source>
+        <target>Мо ин тақризҳоро тафтиш карда наметавонем</target>
         <note>Title for info card when Fakespot cannot analyze reviews for a certain product type</note>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.InfoComingSoon.Description.v121" xml:space="preserve">
         <source>We should have info about this product’s reviews within 24 hours. Please check back.</source>
+        <target>Мо бояд дар муддати 24 соат дар бораи тақризҳои ин маҳсул маълумот гирем. Лутфан, аз нав дертар тафтиш кунед.</target>
         <note>Description text for an information card used in the review checker section. This message is displayed when the reviews for a product are not yet available but are expected to be provided within the next 24 hours. It serves to inform users of the short wait for reviews and encourages them to return soon for the updated information.</note>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.InfoComingSoon.Title.v121" xml:space="preserve">
         <source>Info Coming Soon</source>
+        <target>Маълумот ба наздикӣ дастрас мешавад</target>
         <note>Title for an information card that is displayed in the review checker section when certain details about a product or feature are not currently available but are expected to be provided soon. The message should imply that the user can look forward to receiving more information shortly.</note>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.NeedsAnalysis.PrimaryAction.v120" xml:space="preserve">
         <source>Check Now</source>
+        <target>Ҳозир тафтиш карда шавад</target>
         <note>Primary action title for info card when the product needs analysis</note>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.NeedsAnalysis.Title.v120" xml:space="preserve">
         <source>New Info To Check</source>
+        <target>Маълумоти нав барои тафтиш</target>
         <note>Title for info card when the product needs analysis</note>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.NoInfoAvailableRightNow.Description.v120" xml:space="preserve">
         <source>We’re working to resolve this issue. Please check back soon.</source>
+        <target>Мо барои ҳал кардани ин масъала кор карда истодаем. Лутфан, дертар аз нав тафтиш кунед.</target>
         <note>Description for info card when no information is available at the moment</note>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.NoInfoAvailableRightNow.Title.v120" xml:space="preserve">
         <source>No Info Available Right Now</source>
+        <target>Ҳоло ягон маълумот дастрас нест</target>
         <note>Title for info card when no information is available at the moment</note>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.NotEnoughReviews.Description.v120" xml:space="preserve">
         <source>When this product has more reviews, we’ll be able to check their quality.</source>
+        <target>Вақте ки ин маҳсул дорои тақризҳои сершумор мебошад, мо метавонем сифати он тақризҳоро тафтиш намоем.</target>
         <note>Description for info card when there are not enough reviews for a product</note>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.NotEnoughReviews.Title.v120" xml:space="preserve">
         <source>Not Enough Reviews Yet</source>
+        <target>Ҳоло шумораи тақризҳо кофӣ намебошад</target>
         <note>Title for info card when there are not enough reviews for a product</note>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.ProductNotInStock.Description.v121" xml:space="preserve">
         <source>If you see this product is back in stock, report it and we’ll work on checking the reviews.</source>
+        <target>Агар шумо бинед, ки ин маҳсул аз нав дастрас бошад, гузориш диҳед ва мо тақризҳои онро тафтиш мекунем.</target>
         <note>Description for the information card displayed by the review checker feature when the product the user is looking at is out of stock. This description is used for info card where the user can report if it's back in stock.</note>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.ProductNotInStock.PrimaryAction.v121" xml:space="preserve">
         <source>Report Product Back in Stock</source>
+        <target>Огоҳ кунед, ки маҳсул дастрас аст</target>
         <note>Primary action label for the information card displayed by the review checker feature when the product the user is looking at is out of stock. This primary action label is used for info card button where the user can report if it's back in stock.</note>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.ProductNotInStock.Title.v121" xml:space="preserve">
         <source>Product Is Not Available</source>
+        <target>Маҳсул дастнорас аст</target>
         <note>Title for the information card displayed by the review checker feature when the product the user is looking at is out of stock. This title is used for info card where the user can report if it's back in stock.</note>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.ProgressAnalysis.Description.v120" xml:space="preserve">
         <source>This could take about 60 seconds.</source>
+        <target>Ин метавонад тахминан то 60 сония вақт гирад.</target>
         <note>Description for info card when the product is in analysis mode</note>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.ProgressAnalysis.Title.v123" xml:space="preserve">
         <source>Checking review quality (%@)</source>
+        <target>Дар ҳоли санҷиши сифати тақризҳо (%@)</target>
         <note>Title for info card when the product is in analysis mode. The placeholder represents the percentage of the analysis progress, ranging between 1 and 100.</note>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.ReportSubmittedByCurrentUser.Description.v121" xml:space="preserve">
@@ -6691,6 +6727,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.ReliabilityScore.Grade.A11y.Label.v120" xml:space="preserve">
         <source>Grade %@</source>
+        <target>Баҳои %@</target>
         <note>Accessibility label for the Grade labels used in 'How we determine review quality' card and 'How reliable are these reviews' card displayed in the shopping review quality bottom sheet. The placeholder will be replaced by a grade letter (e.g. A). The grading system contains letters from A-F.</note>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQuality.ReliabilityCardTitle.v120" xml:space="preserve">
@@ -6720,10 +6757,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQualityCard.Collapse.AccessibilityLabel.v120" xml:space="preserve">
         <source>Collapse How we determine review quality Card</source>
+        <target>Печондани лавҳаи «Мо чӣ тавр сифати тақризҳоро муайян мекунем»</target>
         <note>Accessibility label for the up chevron, from 'How we determine review quality' card displayed in the shopping review quality bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQualityCard.Expand.AccessibilityLabel.v120" xml:space="preserve">
         <source>Expand How we determine review quality card</source>
+        <target>Баркушодани лавҳаи «Мо чӣ тавр сифати тақризҳоро муайян мекунем»</target>
         <note>Accessibility label for the down chevron, from 'How we determine review quality' card displayed in the shopping review quality bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQualityCard.Headline.Label.v120" xml:space="preserve">
@@ -6768,10 +6807,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.SettingsCard.Collapse.AccessibilityLabel.v120" xml:space="preserve">
         <source>Collapse Settings Card</source>
+        <target>Печондани лавҳаи танзимот</target>
         <note>Accessibility label for the up chevron icon used to collapse or minimize the Settings Card within the shopping product review bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.SettingsCard.Expand.AccessibilityLabel.v120" xml:space="preserve">
         <source>Expand Settings Card</source>
+        <target>Баркушодани лавҳаи танзимот</target>
         <note>Accessibility label for the down chevron icon used to expand or show the details of the Settings Card within the shopping product review bottom sheet.</note>
       </trans-unit>
       <trans-unit id="Shopping.SettingsCard.Expand.GroupedRecommendedProductsAndSwitch.AccessibilityHint.v123" xml:space="preserve">
@@ -6784,6 +6825,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.SettingsCard.Footer.Action.v120" xml:space="preserve">
         <source>Review Checker is powered by %1$@ by %2$@</source>
+        <target>Абзори тафтиши тақризҳо аз ҷониби «%1$@» (%2$@) таҳия карда шудааст</target>
         <note>Action title of the footer underneath the Settings Card displayed in the shopping review quality bottom sheet. The first parameter will be replaced by the Fakespot app name and the second parameter by the company name of Mozilla.</note>
       </trans-unit>
       <trans-unit id="Shopping.SettingsCard.Label.Title.v120" xml:space="preserve">
@@ -6887,9 +6929,23 @@ Private Tab</source>
         <source>%1$@ Sent from %2$@ 🦊 Try the mobile browser: %3$@</source>
         <note>When a user shares a link to social media, this is the shared text they'll see in the social media app. The first parameter is the shared website's URL. The second parameter is the Firefox app name. The third parameter is the link to download the Firefox app.</note>
       </trans-unit>
+      <trans-unit id="SentFromFirefox.SocialShare.ShareMessageA.Title.v137" xml:space="preserve">
+        <source>%1$@
+
+Sent from %2$@ 🦊 Try the mobile browser: %3$@</source>
+        <note>When a user shares a link to social media, this is the shared text they'll see in the social media app. The first parameter is the shared website's URL. The second parameter is the Firefox app name. The third parameter is the link to download the Firefox app. The '
+' symbols denote empty lines separating the first link parameter from the rest of the text.</note>
+      </trans-unit>
       <trans-unit id="SentFromFirefox.SocialShare.ShareMessageB.Title.v134" xml:space="preserve">
         <source>%1$@ Sent from %2$@ 🦊 %3$@</source>
         <note>When a user shares a link to social media, this is the shared text they'll see in the social media app. The first parameter is the shared website's URL. The second parameter is the Firefox app name. The third parameter is the link to download the Firefox app.</note>
+      </trans-unit>
+      <trans-unit id="SentFromFirefox.SocialShare.ShareMessageB.Title.v137" xml:space="preserve">
+        <source>%1$@
+
+Sent from %2$@ 🦊 %3$@</source>
+        <note>When a user shares a link to social media, this is the shared text they'll see in the social media app. The first parameter is the shared website's URL. The second parameter is the Firefox app name. The third parameter is the link to download the Firefox app. The '
+' symbols denote empty lines separating the first link parameter from the rest of the text.</note>
       </trans-unit>
     </body>
   </file>
@@ -7114,6 +7170,17 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
+  <file original="Shared/Supporting Files/en.lproj/WebView.strings" source-language="en-US" target-language="tg" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
+    </header>
+    <body>
+      <trans-unit id="WebView.DocumentLoadingAccessibilityLabel.v137" xml:space="preserve">
+        <source>Loading Document</source>
+        <note>The accessibility label read when loading a document in the web view's custom document loading UI.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Shared/Supporting Files/en.lproj/ZoomPageBar.strings" source-language="en-US" target-language="tg" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
@@ -7134,6 +7201,97 @@ Private Tab</source>
       <trans-unit id="Menu.ZoomPage.IncreaseZoom.AccessibilityLabel.v113" xml:space="preserve">
         <source>Increase Zoom Level</source>
         <note>Accessibility label for increasing the zoom level in Zoom Page Bar</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Sticker/StickersCatalog.xcstickers/Sticker Pack.stickerpack" source-language="en-US" target-language="tg" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
+    </header>
+    <body>
+      <trans-unit id="1.accessibilityLabel" xml:space="preserve">
+        <source>Firefox logo</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="2.accessibilityLabel" xml:space="preserve">
+        <source>Winking fox</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="3.accessibilityLabel" xml:space="preserve">
+        <source>Fox on laptop</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="4.accessibilityLabel" xml:space="preserve">
+        <source>Nervous face with sweat</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="5.accessibilityLabel" xml:space="preserve">
+        <source>Smiling face</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="6.accessibilityLabel" xml:space="preserve">
+        <source>Melting face</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="7.accessibilityLabel" xml:space="preserve">
+        <source>Cactus with sunglasses</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="8.accessibilityLabel" xml:space="preserve">
+        <source>Gorilla with sunglasses</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="9.accessibilityLabel" xml:space="preserve">
+        <source>Eyes</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="10.accessibilityLabel" xml:space="preserve">
+        <source>Hot dog</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="11.accessibilityLabel" xml:space="preserve">
+        <source>Pizza with melting cheese</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="12.accessibilityLabel" xml:space="preserve">
+        <source>Cookie with bite taken</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="13.accessibilityLabel" xml:space="preserve">
+        <source>Lightning bolt</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="14.accessibilityLabel" xml:space="preserve">
+        <source>Red heart</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="15.accessibilityLabel" xml:space="preserve">
+        <source>Messages with heart</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="16.accessibilityLabel" xml:space="preserve">
+        <source>Computer face with crossed-out eyes</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="17.accessibilityLabel" xml:space="preserve">
+        <source>Upside-down face and smiling face on slider controls</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="18.accessibilityLabel" xml:space="preserve">
+        <source>Upside-down face on trash bin</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="19.accessibilityLabel" xml:space="preserve">
+        <source>Conversation bubble with symbols</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="20.accessibilityLabel" xml:space="preserve">
+        <source>Lock with heart</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="21.accessibilityLabel" xml:space="preserve">
+        <source>Firefox browser windows</source>
+        <note/>
       </trans-unit>
     </body>
   </file>
@@ -7168,14 +7326,17 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="eHmH1H" xml:space="preserve">
         <source>Clear Private Tabs</source>
+        <target>Пок кардани варақаҳои хусусӣ</target>
         <note>Quick Actions drop down menu item for lear Private Tabs when widget enters edit mode and drop down menu expands</note>
       </trans-unit>
       <trans-unit id="eV8mOT" xml:space="preserve">
         <source>Quick Action Type</source>
+        <target>Навъи амали зуд</target>
         <note>The description of a customizable section of the widget</note>
       </trans-unit>
       <trans-unit id="eqyNJg" xml:space="preserve">
         <source>Quick Action</source>
+        <target>Амали зуд</target>
         <note>Title of the quick actions widgets</note>
       </trans-unit>
       <trans-unit id="fi3W24-2GqvPe" xml:space="preserve">
