@@ -2222,6 +2222,26 @@
         <target>URL (Zëvendësojeni Kërkesën me %s)</target>
         <note>The placeholder for URL Field when saving a custom search engine</note>
       </trans-unit>
+      <trans-unit id="Settings.Appearance.BrowserTheme.SectionHeader.v137" xml:space="preserve">
+        <source>Browser Theme</source>
+        <note>Browser theme settings section title in Appearance settings</note>
+      </trans-unit>
+      <trans-unit id="Settings.Appearance.Title.v137" xml:space="preserve">
+        <source>Appearance</source>
+        <note>Title in main app settings for Appearance settings</note>
+      </trans-unit>
+      <trans-unit id="Settings.Appearance.WebsiteAppearance.SectionHeader.v137" xml:space="preserve">
+        <source>Website Appearance</source>
+        <note>Website Appearance settings section title in Appearance settings</note>
+      </trans-unit>
+      <trans-unit id="Settings.Appearance.WebsiteDarkMode.Description.v137" xml:space="preserve">
+        <source>Gives websites a dark appearance. Some sites might not look right.</source>
+        <note>Under Website Appearance section in Appearance menu, this is the text under the toggle describing the dark mode feature.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Appearance.WebsiteDarkModeToggle.Title.v137" xml:space="preserve">
+        <source>Website Dark Mode</source>
+        <note>Under Website Appearance section in Appearance menu, this is the title of the toggle to switch dark theme on/off.</note>
+      </trans-unit>
       <trans-unit id="Settings.BlockOpeningExternalApps.Title" xml:space="preserve">
         <source>Block Opening External Apps</source>
         <target>Blloko Hapje Aplikacionesh të Jashtëm</target>
@@ -4000,6 +4020,45 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
+  <file original="Shared/Supporting Files/en.lproj/AppIconSelection.strings" source-language="en-US" target-language="sq" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
+    </header>
+    <body>
+      <trans-unit id="Settings.AppIconSelection.Accessibility.AppIconSelectedLabel.v136" xml:space="preserve">
+        <source>Selected</source>
+        <note>On the app icon customization screen where you can select an alternate icon for the app, this is the accessibility label describing the filled checkbox on the currently selected app icon option.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AppIconSelection.Accessibility.AppIconSelectionHint.v136" xml:space="preserve">
+        <source>Select the %@ app icon</source>
+        <note>On the app icon customization screen where you can select an alternate icon for the app, this is the accessibility hint describing what happens when you select an app icon row. The parameter is the app icon name.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AppIconSelection.Accessibility.AppIconUnselectedLabel.v136" xml:space="preserve">
+        <source>Deselected</source>
+        <note>On the app icon customization screen where you can select an alternate icon for the app, this is the accessibility label describing an unfilled checkbox for an unselected app icon option.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AppIconSelection.AppIconNames.DarkPurple.Title.v136" xml:space="preserve">
+        <source>Dark Purple</source>
+        <note>On the app icon customization screen where you can select an alternate icon for the app, this is the name of the Firefox for iOS icon with a dark purple background.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AppIconSelection.AppIconNames.Hug.Title.v136" xml:space="preserve">
+        <source>Hug</source>
+        <note>On the app icon customization screen where you can select an alternate icon for the app, this is the name of the artsy Firefox for iOS icon of a character hugging the Firefox logo.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AppIconSelection.AppIconNames.Regular.Title.v136" xml:space="preserve">
+        <source>Default</source>
+        <note>On the app icon customization screen where you can select an alternate icon for the app, this is the name of the default Firefox for iOS icon.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AppIconSelection.ScreenTitle.v136" xml:space="preserve">
+        <source>App Icon</source>
+        <note>On the app icon customization screen where you can select an alternate icon for the app, this is the title displayed at the top of the screen.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AppIconSelection.SettingsOptionName.v136" xml:space="preserve">
+        <source>App Icon</source>
+        <note>On the Settings screen, the name of the row that opens app icon selection options.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Shared/Supporting Files/en.lproj/BiometricAuthentication.strings" source-language="en-US" target-language="sq" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
@@ -5510,6 +5569,22 @@ Private Tab</source>
         <target>Ndajeni me të tjerët</target>
         <note>On the main menu, the title for the action that will take the user to the Share module in the application.</note>
       </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Tools.WebsiteDarkMode.Off.Title.v137" xml:space="preserve">
+        <source>Turn off Website Dark Mode</source>
+        <note>On the main menu, the title for the action that will turn Website's Dark Mode off in the application.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Tools.WebsiteDarkMode.On.Title.v137" xml:space="preserve">
+        <source>Turn on Website Dark Mode</source>
+        <note>On the main menu, the title for the action that will turn Website's Dark Mode on in the application.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Tools.Zoom.NegativeSymbol.v137" xml:space="preserve">
+        <source>-</source>
+        <note>This string is for the Zoom tool, when Zoom value is negative. (-50%)</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.Submenus.Tools.Zoom.PositiveSymbol.v137" xml:space="preserve">
+        <source>+</source>
+        <note>This string is for the Zoom tool, when Zoom value is positive. (+125%)</note>
+      </trans-unit>
       <trans-unit id="MainMenu.Submenus.Tools.Zoom.Subtitle.v131" xml:space="preserve">
         <source>Zoom</source>
         <target>Zmadhim/Zvogëlim</target>
@@ -6463,6 +6538,42 @@ Private Tab</source>
         <target>Metoda Pagese</target>
         <note>Label used as an item in Settings screen. When touched, it will take user to credit card settings page to that will allows to add or modify saved credit cards to allow for autofill in a webpage.</note>
       </trans-unit>
+      <trans-unit id="Settings.Autoplay.AllowAudioAndVideo.v137" xml:space="preserve">
+        <source>Allow Audio and Video</source>
+        <note>In the settings menu, in the Autoplay customization section, this label indicates that selecting this will allow audio and video content to autoplay.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Autoplay.BlockAudio.v137" xml:space="preserve">
+        <source>Block Audio</source>
+        <note>In the settings menu, in the Autoplay customization section, this label indicates that selecting this will block audio from autoplaying.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Autoplay.BlockAudioAndVideo.v137" xml:space="preserve">
+        <source>Block Audio and Video</source>
+        <note>In the settings menu, in the Autoplay customization section, this label indicates that selecting this will block audio and video content from autoplaying.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Autoplay.Footer.v137" xml:space="preserve">
+        <source>Autoplay settings will only apply to newly opened tabs. Changes cannot be applied to existing tabs unless the application is restarted.</source>
+        <note>In the settings menu, in the Autoplay customization section, this label indicates that selecting this will block audio and video content from autoplaying.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Autoplay.SettingsTitle.v137" xml:space="preserve">
+        <source>Autoplay</source>
+        <note>In the settings menu, this label indicates that there is an option of customizing the Autoplay behaviour.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Browsing.Links.v137" xml:space="preserve">
+        <source>Links</source>
+        <note>This is the title for Links customization under the Browsing settings section.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Browsing.Media.v137" xml:space="preserve">
+        <source>Media</source>
+        <note>This is the title for Media customization under the Browsing settings section.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Browsing.Tabs.v137" xml:space="preserve">
+        <source>Tabs</source>
+        <note>This is the title for Tabs customization under the Browsing settings section.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Browsing.Title.v137" xml:space="preserve">
+        <source>Browsing</source>
+        <note>In the settings menu, in the General section, this is the title for Browsing customization section.</note>
+      </trans-unit>
       <trans-unit id="Settings.CrashReports.Link.v135" xml:space="preserve">
         <source>Learn More.</source>
         <target>Mësoni Më Tepër.</target>
@@ -7363,6 +7474,14 @@ Dërguar që nga %2$@ 🦊 %3$@</target>
         <target>Skeda të hapura</target>
         <note>Accessibility label for the tabs button in the toolbar, specifing the number of tabs open.</note>
       </trans-unit>
+      <trans-unit id="Toolbar.Tabs.Button.A11y.LargeContentTitle.v137" xml:space="preserve">
+        <source>Tabs open: %@</source>
+        <note>Large content title for the tabs button in the toolbar, specifying the number of tabs open. The placeholder is getting replaced with the number of open tabs.</note>
+      </trans-unit>
+      <trans-unit id="Toolbar.Tabs.Button.A11y.OverflowLargeContentTitle.v137" xml:space="preserve">
+        <source>Tabs open: 99+</source>
+        <note>Large content title for the tabs button in the toolbar, specifying that more than 99 tabs are open.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Shared/Supporting Files/en.lproj/ToolbarLocation.strings" source-language="en-US" target-language="sq" datatype="plaintext">
@@ -7497,118 +7616,6 @@ Dërguar që nga %2$@ 🦊 %3$@</target>
         <source>Increase Zoom Level</source>
         <target>Zmadhojeni Shkallën e Zoom-it</target>
         <note>Accessibility label for increasing the zoom level in Zoom Page Bar</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Sticker/StickersCatalog.xcstickers/Sticker Pack.stickerpack" source-language="en-US" target-language="sq" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
-    </header>
-    <body>
-      <trans-unit id="1.accessibilityLabel" xml:space="preserve">
-        <source>Firefox logo</source>
-        <target>Stemë Firefox-i</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="2.accessibilityLabel" xml:space="preserve">
-        <source>Winking fox</source>
-        <target>Dhelpër që shkel syrin</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="3.accessibilityLabel" xml:space="preserve">
-        <source>Fox on laptop</source>
-        <target>Dhelpër në portativ</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="4.accessibilityLabel" xml:space="preserve">
-        <source>Nervous face with sweat</source>
-        <target>Fytyrë nervoze e djersitur</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="5.accessibilityLabel" xml:space="preserve">
-        <source>Smiling face</source>
-        <target>Fytyrë që buzëqesh</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="6.accessibilityLabel" xml:space="preserve">
-        <source>Melting face</source>
-        <target>Fytyrë që po shkrin</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="7.accessibilityLabel" xml:space="preserve">
-        <source>Cactus with sunglasses</source>
-        <target>Kaktus me syze dielli</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="8.accessibilityLabel" xml:space="preserve">
-        <source>Gorilla with sunglasses</source>
-        <target>Gorillë me syze dielli</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="9.accessibilityLabel" xml:space="preserve">
-        <source>Eyes</source>
-        <target>Sy</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="10.accessibilityLabel" xml:space="preserve">
-        <source>Hot dog</source>
-        <target>Hotdog</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="11.accessibilityLabel" xml:space="preserve">
-        <source>Pizza with melting cheese</source>
-        <target>Picë me dhjathë që ka shkrirë</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="12.accessibilityLabel" xml:space="preserve">
-        <source>Cookie with bite taken</source>
-        <target>Biskotë me një copë të ngrënë</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="13.accessibilityLabel" xml:space="preserve">
-        <source>Lightning bolt</source>
-        <target>Shkreptimë</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="14.accessibilityLabel" xml:space="preserve">
-        <source>Red heart</source>
-        <target>Zemër e kuqe</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="15.accessibilityLabel" xml:space="preserve">
-        <source>Messages with heart</source>
-        <target>Mesazhe me zemër</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="16.accessibilityLabel" xml:space="preserve">
-        <source>Computer face with crossed-out eyes</source>
-        <target>Fytyrë kompjuter me sy mbyllur</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="17.accessibilityLabel" xml:space="preserve">
-        <source>Upside-down face and smiling face on slider controls</source>
-        <target>Fytyrë kokëposhtë dhe fytyrë që buzëqesh, te kontrolle rrëshqitësi</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="18.accessibilityLabel" xml:space="preserve">
-        <source>Upside-down face on trash bin</source>
-        <target>Fytyrë kokëposhtë në kosh hedhurinash</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="19.accessibilityLabel" xml:space="preserve">
-        <source>Conversation bubble with symbols</source>
-        <target>Flluskë bisede me simbole</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="20.accessibilityLabel" xml:space="preserve">
-        <source>Lock with heart</source>
-        <target>Dry me zemër</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="21.accessibilityLabel" xml:space="preserve">
-        <source>Firefox browser windows</source>
-        <target>Dritare shfletuesi Firefox</target>
-        <note/>
       </trans-unit>
     </body>
   </file>
