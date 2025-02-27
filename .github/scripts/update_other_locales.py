@@ -128,11 +128,11 @@ def main():
             Structure: "locale folder" -> "locale code"
             """
             locale_mapping = {
-                "ga_IE": "ga",
-                "nb_NO": "nb",
-                "nn_NO": "nn",
+                "ga-IE": "ga",
+                "nb-NO": "nb",
+                "nn-NO": "nn",
                 "sat": "sat-Olck",
-                "sv_SE": "sv",
+                "sv-SE": "sv",
                 "templates": "en",
                 "tl": "fil",
                 "zgh": "tzm",
