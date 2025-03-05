@@ -67,7 +67,7 @@ jobs:
           python "${start_folder}/l10n_repo/.github/scripts/translate_reference.py" --path "${start_folder}/l10n_repo/en-US"
 
           # Copy strings over from es-ES to es
-          cp -r ../firefoxios-l10n/es-ES ../firefoxios-l10n/es
+          cp ../firefoxios-l10n/es-ES/*.xliff ../firefoxios-l10n/es/
 
           # Copy strings to other locales
           python "${start_folder}/l10n_repo/.github/scripts/update_other_locales.py" --reference en-US --path "${start_folder}/l10n_repo" --type "${{ github.event.inputs.type }}"
