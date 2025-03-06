@@ -10,6 +10,7 @@ from lxml import etree
 import argparse
 import json
 import os
+import re
 import sys
 
 
@@ -53,6 +54,7 @@ def main():
         except Exception as e:
             sys.exit(e)
 
+    placeable_pattern = r"%(?:\d+\$@|@|d)"
     errors = []
     for file_path in file_paths:
         # Read XML file
@@ -65,10 +67,30 @@ def main():
             continue
 
         for trans_node in root.xpath("//x:trans-unit", namespaces=NS):
+            comment = trans_node.xpath("string(./x:note)", namespaces=NS)
             for child in trans_node.xpath("./x:source", namespaces=NS):
                 rel_file_path = os.path.relpath(file_path, reference_path)
                 string_id = f"{rel_file_path}:{trans_node.get('id')}"
                 ref_string = child.text
+
+                if config.get("placeables", {}).get("enabled", False):
+                    str_placeables = list(
+                        set(re.findall(placeable_pattern, ref_string))
+                    )
+                    str_placeables.sort()
+                    if str_placeables:
+                        comment_placeables = list(
+                            set(re.findall(placeable_pattern, comment))
+                        )
+                        comment_placeables.sort()
+                        diff = list(set(str_placeables) - set(comment_placeables))
+                        if diff and string_id not in config["placeables"]["exclusions"]:
+                            errors.append(
+                                f"Identified placeables in string {string_id}: {', '.join(str_placeables)}\n"
+                                f"  Comment does not include the following placeables: {', '.join(diff)}\n"
+                                f"  Text: {ref_string!r}\n"
+                                f"  Comment: {comment}"
+                            )
 
                 # Check ellipsis
                 if config.get("ellipsis", {}).get("enabled", False):
@@ -76,18 +98,18 @@ def main():
                         "..." in ref_string
                         and string_id not in config["ellipsis"]["exclusions"]
                     ):
-                        errors.append(f"'...' in {string_id}\n  Text: {ref_string}")
+                        errors.append(f"'...' in {string_id}\n  Text: {ref_string!r}")
 
                 # Check quotes
                 if config.get("quotes", {}).get("enabled", False):
                     if string_id not in config["quotes"]["exclusions"]:
                         if "'" in ref_string:
                             errors.append(
-                                f"' in {string_id} (should use ’)\n  Text: {ref_string}"
+                                f"' in {string_id} (should use ’)\n  Text: {ref_string!r}"
                             )
                         if '"' in ref_string:
                             errors.append(
-                                f'" in {string_id} (should use “”)\n  Text: {ref_string}'
+                                f'" in {string_id} (should use “”)\n  Text: {ref_string!r}'
                             )
 
                 # Check for brand names
@@ -97,7 +119,7 @@ def main():
                         for brand in brand_names:
                             if brand in ref_string:
                                 errors.append(
-                                    f"{brand} in {string_id} (should use a run-time placeable)\n  Text: {ref_string}"
+                                    f"{brand} in {string_id} (should use a run-time placeable)\n  Text: {ref_string!r}"
                                 )
 
     if errors:
