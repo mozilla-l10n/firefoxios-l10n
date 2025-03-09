@@ -73,23 +73,34 @@ def main():
                 string_id = f"{rel_file_path}:{trans_node.get('id')}"
                 ref_string = child.text
 
+                # Check if the string has placeables and if they are documented in a comment
                 if config.get("placeables", {}).get("enabled", False):
                     str_placeables = list(
                         set(re.findall(placeable_pattern, ref_string))
                     )
                     str_placeables.sort()
-                    if str_placeables:
-                        comment_placeables = list(
-                            set(re.findall(placeable_pattern, comment))
-                        )
-                        comment_placeables.sort()
-                        diff = list(set(str_placeables) - set(comment_placeables))
-                        if diff and string_id not in config["placeables"]["exclusions"]:
+                    if (
+                        str_placeables
+                        and string_id not in config["placeables"]["exclusions"]
+                    ):
+                        if comment:
+                            comment_placeables = list(
+                                set(re.findall(placeable_pattern, comment))
+                            )
+                            comment_placeables.sort()
+                            diff = list(set(str_placeables) - set(comment_placeables))
+                            if diff:
+                                errors.append(
+                                    f"Identified placeables in string {string_id}: {', '.join(str_placeables)}\n"
+                                    f"  Comment does not include the following placeables: {', '.join(diff)}\n"
+                                    f"  Text: {ref_string!r}\n"
+                                    f"  Comment: {comment}"
+                                )
+                        else:
                             errors.append(
                                 f"Identified placeables in string {string_id}: {', '.join(str_placeables)}\n"
-                                f"  Comment does not include the following placeables: {', '.join(diff)}\n"
+                                f"  The string does't have a comment.\n"
                                 f"  Text: {ref_string!r}\n"
-                                f"  Comment: {comment}"
                             )
 
                 # Check ellipsis
