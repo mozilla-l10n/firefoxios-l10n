@@ -150,6 +150,7 @@ def main():
         output_lines = [f"\nSource errors ({len(errors)})"]
         output_lines.extend(f"\n  {err}" for err in errors)
         print("\n".join(output_lines))
+        print(f"\nTotal errors: {len(errors)}")
         sys.exit(1)
     else:
         print("No issues found.")
