@@ -4,7 +4,6 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-from collections import defaultdict
 from glob import glob
 from lxml import etree
 import argparse
@@ -26,7 +25,7 @@ def main():
     )
     parser.add_argument(
         "--config",
-        nargs="?",
+        required=True,
         dest="config_file",
         help="Path to JSON config file",
     )
@@ -45,14 +44,11 @@ def main():
         file_paths.sort()
 
     # Load config
-    if not args.config_file:
-        config = defaultdict(dict)
-    else:
-        try:
-            with open(args.config_file) as f:
-                config = json.load(f)
-        except Exception as e:
-            sys.exit(e)
+    try:
+        with open(args.config_file) as f:
+            config = json.load(f)
+    except Exception as e:
+        sys.exit(e)
 
     placeable_pattern = r"%(?:\d+\$@|@|d)"
     errors = []
