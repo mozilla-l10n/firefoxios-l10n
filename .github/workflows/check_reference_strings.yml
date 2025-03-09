@@ -30,4 +30,4 @@ jobs:
           pip install -r .github/scripts/requirements.txt
       - name: Lint reference locale
         run: |
-          python .github/scripts/xliff_reference.py --path en-US --config .github/scripts/linter_config.json
+          python .github/scripts/xliff_ios_reference.py --path en-US --config .github/scripts/linter_config.json
