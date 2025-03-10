@@ -71,10 +71,6 @@
         <source>Open Last Bookmark</source>
         <note>String describing the action of opening the last added bookmark from the home screen Quick Actions via 3D Touch</note>
       </trans-unit>
-      <trans-unit id="Preview of %@" xml:space="preserve">
-        <source>Preview of %@</source>
-        <note>Accessibility label, associated to the 3D Touch action on the current tab in the tab tray, used to display a larger preview of the tab.</note>
-      </trans-unit>
       <trans-unit id="Send to Device" xml:space="preserve">
         <source>Send to Device</source>
         <note>Label for preview action on Tab Tray Tab to send the current tab to another device</note>
@@ -148,7 +144,7 @@
       </trans-unit>
       <trans-unit id="Spotlight Index" xml:space="preserve">
         <source>Spotlight Index</source>
-        <note>A settings item that allows a user to use Apple's \"Spotlight Search\" in Data Management's Website Data option to search for and select an item to delete.</note>
+        <note>A settings item that allows a user to use Apple's “Spotlight Search” in Data Management's Website Data option to search for and select an item to delete.</note>
       </trans-unit>
     </body>
   </file>
@@ -180,11 +176,11 @@
     <body>
       <trans-unit id="DefaultBrowserCard.BetterInternet.Description.v108" xml:space="preserve">
         <source>Making Firefox your default browser is a vote for an open, accessible internet.</source>
-        <note>Description for small home tab banner shown that allows the user to switch their default browser to Firefox.</note>
+        <note>Description for small home tab banner that allows the user to switch their default browser to Firefox.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserCard.BetterInternet.Title.v108" xml:space="preserve">
         <source>Default to a Better Internet</source>
-        <note>Title for small home tab banner shown that allows the user to switch their default browser to Firefox.</note>
+        <note>Title for small home tab banner that allows the user to switch their default browser to Firefox.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserCard.Button.v2" xml:space="preserve">
         <source>Learn How</source>
@@ -192,27 +188,27 @@
       </trans-unit>
       <trans-unit id="DefaultBrowserCard.Description" xml:space="preserve">
         <source>Set links from websites, emails, and Messages to open automatically in Firefox.</source>
-        <note>Description for small home tab banner shown that allows user to switch their default browser to Firefox.</note>
+        <note>Description for small home tab banner that allows the user to switch their default browser to Firefox.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserCard.NextLevel.Description.v108" xml:space="preserve">
         <source>Choose Firefox as your default browser to make speed, safety, and privacy automatic.</source>
-        <note>Description for small home tab banner shown that allows the user to switch their default browser to Firefox.</note>
+        <note>Description for small home tab banner that allows the user to switch their default browser to Firefox.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserCard.NextLevel.Title.v108" xml:space="preserve">
         <source>Elevate Everyday Browsing</source>
-        <note>Title for small home tab banner shown that allows the user to switch their default browser to Firefox.</note>
+        <note>Title for small home tab banner that allows the user to switch their default browser to Firefox.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserCard.PeaceOfMind.Description.v108" xml:space="preserve">
         <source>Firefox blocks 3,000+ trackers per user each month on average. Make us your default browser for privacy peace of mind.</source>
-        <note>Description for small home tab banner shown that allows the user to switch their default browser to Firefox.</note>
+        <note>Description for small home tab banner that allows the user to switch their default browser to Firefox.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserCard.PeaceOfMind.Title.v108" xml:space="preserve">
         <source>Firefox Has Privacy Covered</source>
-        <note>Title for small home tab banner shown that allows the user to switch their default browser to Firefox.</note>
+        <note>Title for small home tab banner that allows the user to switch their default browser to Firefox.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserCard.Title" xml:space="preserve">
         <source>Switch Your Default Browser</source>
-        <note>Title for small home tab banner shown that allows user to switch their default browser to Firefox.</note>
+        <note>Title for small home tab banner that allows the user to switch their default browser to Firefox.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserOnboarding.Button" xml:space="preserve">
         <source>Go to Settings</source>
@@ -326,11 +322,11 @@
       </trans-unit>
       <trans-unit id="A username and password are being requested by %@." xml:space="preserve">
         <source>A username and password are being requested by %@.</source>
-        <note>Authentication prompt message with no realm. Parameter is the hostname of the site</note>
+        <note>Authentication prompt message with no realm. %@ is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="A username and password are being requested by %@. The site says: %@" xml:space="preserve">
         <source>A username and password are being requested by %1$@. The site says: %2$@</source>
-        <note>Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string</note>
+        <note>Authentication prompt message with a realm. %1$@ is the hostname, %2$@ is the realm string.</note>
       </trans-unit>
       <trans-unit id="Aa" xml:space="preserve">
         <source>Aa</source>
@@ -359,7 +355,7 @@
       </trans-unit>
       <trans-unit id="ActivityStream.JumpBackIn.TabGroup.SiteCount" xml:space="preserve">
         <source>Tabs: %d</source>
-        <note>On the Firefox homepage in the Jump Back In section, if a Tab group item - a collection of grouped tabs from a related search - exists underneath the search term for the tab group, there will be a subtitle with a number for how many tabs are in that group. The placeholder is for a number. It will read 'Tabs: 5' or similar.</note>
+        <note>On the Firefox homepage in the Jump Back In section, if a Tab group item - a collection of grouped tabs from a related search - exists underneath the search term for the tab group, there will be a subtitle with a number for how many tabs are in that group. %d is the number of tabs. It will read 'Tabs: 5' or similar.</note>
       </trans-unit>
       <trans-unit id="ActivityStream.Library.Title" xml:space="preserve">
         <source>Recently Saved</source>
@@ -695,15 +691,15 @@
       </trans-unit>
       <trans-unit id="Downloads.Toast.MultipleFiles.DescriptionText" xml:space="preserve">
         <source>1 of %d files</source>
-        <note>The description text in the Download progress toast for showing the number of files when multiple files are downloading.</note>
+        <note>The description text in the Download progress toast for showing the number of files when multiple files are downloading. %d is the total number of files.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.MultipleFilesAndProgress.DescriptionText" xml:space="preserve">
         <source>%1$@ %2$@</source>
-        <note>The description text in the Download progress toast for showing the number of files (1$) and download progress (2$). This string only consists of two placeholders for purposes of displaying two other strings side-by-side where 1$ is Downloads.Toast.MultipleFiles.DescriptionText and 2$ is Downloads.Toast.Progress.DescriptionText. This string should only consist of the two placeholders side-by-side separated by a single space and 1$ should come before 2$ everywhere except for right-to-left locales.</note>
+        <note>The description text in the Download progress toast for showing the number of files (%1$@) and download progress (%2$@). This string only consists of two placeholders for purposes of displaying two other strings side-by-side where %1$@ is Downloads.Toast.MultipleFiles.DescriptionText and %2$@ is Downloads.Toast.Progress.DescriptionText. This string should only consist of the two placeholders side-by-side separated by a single space and %1$@ should come before %2$@ everywhere except for right-to-left locales.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.Progress.DescriptionText" xml:space="preserve">
         <source>%1$@/%2$@</source>
-        <note>The description text in the Download progress toast for showing the downloaded file size (1$) out of the total expected file size (2$).</note>
+        <note>The description text in the Download progress toast for showing the downloaded file size (%1$@) out of the total expected file size (%2$@).</note>
       </trans-unit>
       <trans-unit id="DownloadsPanel.Delete.Title" xml:space="preserve">
         <source>Delete</source>
@@ -735,7 +731,7 @@
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Description" xml:space="preserve">
         <source>The owner of %@ has configured their website improperly. To protect your information from being stolen, Firefox has not connected to this website.</source>
-        <note>Warning text on the certificate error page</note>
+        <note>Warning text on the certificate error page. %@ is the domain of the website.</note>
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Title" xml:space="preserve">
         <source>This Connection is Untrusted</source>
@@ -1197,22 +1193,6 @@
         <source>Don’t Update</source>
         <note>Button to not update the user's password</note>
       </trans-unit>
-      <trans-unit id="LoginsHelper.PromptSaveLogin.Title" xml:space="preserve">
-        <source>Save login %1$@ for %2$@?</source>
-        <note>Prompt for saving a login. The first parameter is the username being saved. The second parameter is the hostname of the site.</note>
-      </trans-unit>
-      <trans-unit id="LoginsHelper.PromptSavePassword.Title" xml:space="preserve">
-        <source>Save password for %@?</source>
-        <note>Prompt for saving a password with no username. The parameter is the hostname of the site.</note>
-      </trans-unit>
-      <trans-unit id="LoginsHelper.PromptUpdateLogin.Title.OneArg" xml:space="preserve">
-        <source>Update login for %@?</source>
-        <note>Prompt for updating a login. The first parameter is the hostname for which the password will be updated for.</note>
-      </trans-unit>
-      <trans-unit id="LoginsHelper.PromptUpdateLogin.Title.TwoArg" xml:space="preserve">
-        <source>Update login %1$@ for %2$@?</source>
-        <note>Prompt for updating a login. The first parameter is the username for which the password will be updated for. The second parameter is the hostname of the site.</note>
-      </trans-unit>
       <trans-unit id="LoginsHelper.SaveLogin.Button" xml:space="preserve">
         <source>Save Login</source>
         <note>Button to save the user's password</note>
@@ -1400,7 +1380,7 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.Details.Verifier" xml:space="preserve">
         <source>Verified by %@</source>
-        <note>String to let users know the site verifier, where the placeholder represents the SSL certificate signer.</note>
+        <note>String to let users know the site verifier, where %@ represents the SSL certificate signer.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.ProtectionSettings.Title" xml:space="preserve">
         <source>Protection Settings</source>
@@ -1452,7 +1432,7 @@
       </trans-unit>
       <trans-unit id="Menu.ZoomPage.Title.v113" xml:space="preserve">
         <source>Zoom (%@)</source>
-        <note>Label for the zoom page button in the menu, used to show the Zoom Page bar. The placeholder shows the current zoom level in percent.</note>
+        <note>Label for the zoom page button in the menu, used to show the Zoom Page bar. %@ shows the current zoom level in percent.</note>
       </trans-unit>
       <trans-unit id="Navigation Toolbar" xml:space="preserve">
         <source>Navigation Toolbar</source>
@@ -1867,7 +1847,7 @@
       </trans-unit>
       <trans-unit id="Settings.ClearSelectedWebsiteData.ClearSelected.Button" xml:space="preserve">
         <source>Clear Items: %1$@</source>
-        <note>Button in Data Management that clears private data for the selected items. Parameter is the number of items to be cleared</note>
+        <note>Button in Data Management that clears private data for the selected items. %1$@ is the number of items to be cleared.</note>
       </trans-unit>
       <trans-unit id="Settings.CopyAppVersion.Title" xml:space="preserve">
         <source>Copied to clipboard</source>
@@ -2197,7 +2177,7 @@
       </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.Status.v128" xml:space="preserve">
         <source>When opening %@</source>
-        <note>Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349. Placeholder is for the app name.</note>
+        <note>Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349. %@ is for the app name.</note>
       </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.Title" xml:space="preserve">
         <source>Offer to Open Copied Links</source>
@@ -2494,7 +2474,7 @@
       </trans-unit>
       <trans-unit id="Tab %@ of %@" xml:space="preserve">
         <source>Tab %1$@ of %2$@</source>
-        <note>Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray, along with the total number of tabs. E.g. \"Tab 2 of 5\" says that tab 2 is visible (and is the only visible tab), out of 5 tabs total.</note>
+        <note>Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray (%1$@), along with the total number of tabs (%2$@). E.g. “Tab 2 of 5” says that tab 2 is visible (and is the only visible tab), out of 5 tabs total.</note>
       </trans-unit>
       <trans-unit id="Tab.ShowTabTray.KeyCodeTitle" xml:space="preserve">
         <source>Show All Tabs</source>
@@ -2518,7 +2498,7 @@
       </trans-unit>
       <trans-unit id="TabTray.Header.FilteredTabs.SectionHeader" xml:space="preserve">
         <source>Others</source>
-        <note>In the tab tray, when tab groups appear and there exist tabs that don't belong to any group, those tabs are listed under this header as \"Others\"</note>
+        <note>In the tab tray, when tab groups appear and there exist tabs that don't belong to any group, those tabs are listed under this header as “Others”.</note>
       </trans-unit>
       <trans-unit id="TabTray.InactiveTabs.SectionTitle" xml:space="preserve">
         <source>Inactive Tabs</source>
@@ -2550,7 +2530,7 @@
       </trans-unit>
       <trans-unit id="Tabs %@ to %@ of %@" xml:space="preserve">
         <source>Tabs %1$@ to %2$@ of %3$@</source>
-        <note>Message spoken by VoiceOver saying the range of tabs that are currently visible in Tabs Tray, along with the total number of tabs. E.g. \"Tabs 8 to 10 of 15\" says tabs 8, 9 and 10 are visible, out of 15 tabs total.</note>
+        <note>Message spoken by VoiceOver saying the range of tabs that are currently visible in Tabs Tray (%1$@ to %2$@), along with the total number of tabs (%3$@). E.g. “Tabs 8 to 10 of 15” says tabs 8, 9 and 10 are visible, out of 15 tabs total.</note>
       </trans-unit>
       <trans-unit id="Tabs Tray" xml:space="preserve">
         <source>Tabs Tray</source>
@@ -2559,10 +2539,6 @@
       <trans-unit id="Tabs.DeleteAllUndo.Button" xml:space="preserve">
         <source>Undo</source>
         <note>The button to undo the delete all tabs</note>
-      </trans-unit>
-      <trans-unit id="Tabs.DeleteAllUndo.Title" xml:space="preserve">
-        <source>%d tab(s) closed</source>
-        <note>The label indicating that all the tabs were closed</note>
       </trans-unit>
       <trans-unit id="TabsTray.InactiveTabs.SectionTitle.Closed.Accessibility.v103" xml:space="preserve">
         <source>View Inactive Tabs</source>
@@ -2614,7 +2590,7 @@
       </trans-unit>
       <trans-unit id="TopSites.RemovePage.Button" xml:space="preserve">
         <source>Remove page — %@</source>
-        <note>Button shown in editing mode to remove this site from the top sites panel.</note>
+        <note>Button shown in editing mode to remove this site from the top sites panel. %@ is the title of the site.</note>
       </trans-unit>
       <trans-unit id="TranslationToastHandler.PromptTranslate.Cancel" xml:space="preserve">
         <source>No</source>
@@ -2626,7 +2602,7 @@
       </trans-unit>
       <trans-unit id="TranslationToastHandler.PromptTranslate.Title" xml:space="preserve">
         <source>This page appears to be in %1$@. Translate to %2$@ with %3$@?</source>
-        <note>Prompt for translation. The first parameter is the language the page is in. The second parameter is the name of our local language. The third is the name of the service.</note>
+        <note>Prompt for translation. %1$@ is the language the page is in. %2$@ is the name of our local language. %3$@ is the name of the service.</note>
       </trans-unit>
       <trans-unit id="Twitter" xml:space="preserve">
         <source>Twitter</source>
@@ -2747,7 +2723,7 @@
       </trans-unit>
       <trans-unit id="today at %@" xml:space="preserve">
         <source>today at %@</source>
-        <note>Relative date for date older than a minute.</note>
+        <note>Relative date for date older than a minute. %@ is the time.</note>
       </trans-unit>
       <trans-unit id="unread" xml:space="preserve">
         <source>unread</source>
@@ -2784,7 +2760,7 @@
       </trans-unit>
       <trans-unit id="Created %@" xml:space="preserve">
         <source>Created %@</source>
-        <note>Label describing when the current login was created with the timestamp as the parameter.</note>
+        <note>Label describing when the current login was created. %@ is the timestamp.</note>
       </trans-unit>
       <trans-unit id="Delete" xml:space="preserve">
         <source>Delete</source>
@@ -2837,7 +2813,7 @@
       </trans-unit>
       <trans-unit id="Modified %@" xml:space="preserve">
         <source>Modified %@</source>
-        <note>Label describing when the current login was last modified with the timestamp as the parameter.</note>
+        <note>Label describing when the current login was last modified. %@ is the timestamp.</note>
       </trans-unit>
       <trans-unit id="No logins found" xml:space="preserve">
         <source>No logins found</source>
@@ -2927,19 +2903,19 @@
       </trans-unit>
       <trans-unit id="Menu.OpenBookmarksAction.AccessibilityLabel.v2" xml:space="preserve">
         <source>Bookmarks</source>
-        <note>Accessibility label for the button, displayed in the menu, used to open the Bookmarks home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Bookmarks home panel.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenDownloadsAction.AccessibilityLabel.v2" xml:space="preserve">
         <source>Downloads</source>
-        <note>Accessibility label for the button, displayed in the menu, used to open the Downloads home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Downloads home panel.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenHistoryAction.AccessibilityLabel.v2" xml:space="preserve">
         <source>History</source>
-        <note>Accessibility label for the button, displayed in the menu, used to open the History home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
+        <note>Accessibility label for the button, displayed in the menu, used to open the History home panel.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenReadingListAction.AccessibilityLabel.v2" xml:space="preserve">
         <source>Reading List</source>
-        <note>Accessibility label for the button, displayed in the menu, used to open the Reading list home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Reading list home panel.</note>
       </trans-unit>
       <trans-unit id="Menu.OpenSettingsAction.Title" xml:space="preserve">
         <source>Settings</source>
@@ -2947,7 +2923,7 @@
       </trans-unit>
       <trans-unit id="Menu.OpenSyncedTabsAction.AccessibilityLabel.v2" xml:space="preserve">
         <source>Synced Tabs</source>
-        <note>Accessibility label for the button, displayed in the menu, used to open the Synced Tabs home panel. Please keep as short as possible, &lt;15 chars of space available.</note>
+        <note>Accessibility label for the button, displayed in the menu, used to open the Synced Tabs home panel.</note>
       </trans-unit>
       <trans-unit id="Menu.ReportSiteIssueAction.Title" xml:space="preserve">
         <source>Report Site Issue</source>
@@ -3034,7 +3010,7 @@
       <trans-unit id="%@ search" xml:space="preserve">
         <source>%@ search</source>
         <target>%@ འཚོལ་བཤེར།</target>
-        <note>Label for search engine buttons. The argument corresponds to the name of the search engine.</note>
+        <note>Label for search engine buttons. %@ is the name of the search engine.</note>
       </trans-unit>
       <trans-unit id="Search Settings" xml:space="preserve">
         <source>Search Settings</source>
@@ -3054,7 +3030,7 @@
     <body>
       <trans-unit id="%@ on %@" xml:space="preserve">
         <source>%1$@ on %2$@</source>
-        <note>A brief descriptive name for this app on this device, used for Send Tab and Synced Tabs. The first argument is the app name. The second argument is the device name.</note>
+        <note>A brief descriptive name for this app on this device, used for Send Tab and Synced Tabs. %1$@ is the app name, %2$@ is the device name.</note>
       </trans-unit>
     </body>
   </file>
@@ -3077,7 +3053,7 @@
       </trans-unit>
       <trans-unit id="Mobile Bookmarks" xml:space="preserve">
         <source>Mobile Bookmarks</source>
-        <note>The title of the folder that contains mobile bookmarks. This should match bookmarks.folder.mobile.label on Android.</note>
+        <note>The legacy title of the folder that contains mobile bookmarks. This should match bookmarks.folder.mobile.label on Android.</note>
       </trans-unit>
       <trans-unit id="Unsorted Bookmarks" xml:space="preserve">
         <source>Unsorted Bookmarks</source>
@@ -3214,7 +3190,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="AddressToolbar.SearchEngine.A11y.Label.v128" xml:space="preserve">
         <source>Search Engine: %@</source>
-        <note>Accessibility label for the search engine icon in the address field of the address toolbar. The placeholder is getting replaced with the name of the search engine (e.g. Google).</note>
+        <note>Accessibility label for the search engine icon in the address bar. %@ is the name of the search engine (e.g. Google).</note>
       </trans-unit>
     </body>
   </file>
@@ -3284,19 +3260,19 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Alerts.RestoreTabs.Button.No.v109" xml:space="preserve">
         <source>No</source>
-        <note>The title for the negative action of the restore tabs pop-up alert. This alert shows when opening up Firefox after it crashed, and will reject the action of restoring tabs.</note>
+        <note>The title for the negative action of the restore tabs pop-up alert. This alert is displayed when opening up Firefox after it crashed, and will reject the action of restoring tabs.</note>
       </trans-unit>
       <trans-unit id="Alerts.RestoreTabs.Button.Yes.v109" xml:space="preserve">
         <source>Restore tabs</source>
-        <note>The title for the affirmative action of the restore tabs pop-up alert. This alert shows when opening up Firefox after it crashed, and will restore existing tabs.</note>
+        <note>The title for the affirmative action of the restore tabs pop-up alert. This alert is displayed when opening up Firefox after it crashed, and will restore existing tabs.</note>
       </trans-unit>
       <trans-unit id="Alerts.RestoreTabs.Message.v109" xml:space="preserve">
         <source>Sorry about that. Restore tabs to pick up where you left off.</source>
-        <note>The body of the restore tabs pop-up alert. This alert shows when opening up Firefox after it crashed.</note>
+        <note>The body of the restore tabs pop-up alert. This alert is displayed when opening up Firefox after it crashed.</note>
       </trans-unit>
       <trans-unit id="Alerts.RestoreTabs.Title.v109.v2" xml:space="preserve">
         <source>%@ crashed. Restore your tabs?</source>
-        <note>The title of the restore tabs pop-up alert. This alert shows when opening up Firefox after it crashed. The placeholder will be the Firefox name.</note>
+        <note>The title of the restore tabs pop-up alert. This alert is displayed when opening up Firefox after it crashed. %@ is the name of the app (e.g. Firefox).</note>
       </trans-unit>
     </body>
   </file>
@@ -3311,7 +3287,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.AppIconSelection.Accessibility.AppIconSelectionHint.v136" xml:space="preserve">
         <source>Select the %@ app icon</source>
-        <note>On the app icon customization screen where you can select an alternate icon for the app, this is the accessibility hint describing what happens when you select an app icon row. The parameter is the app icon name.</note>
+        <note>On the app icon customization screen, where you can select an alternate icon for the app, this is the accessibility hint describing what happens when you select an app icon row. %@ is the app name.</note>
       </trans-unit>
       <trans-unit id="Settings.AppIconSelection.Accessibility.AppIconUnselectedLabel.v136" xml:space="preserve">
         <source>Deselected</source>
@@ -3404,19 +3380,19 @@ Private Tab</source>
     <body>
       <trans-unit id="Bookmarks.EmptyState.Nested.Body.v135" xml:space="preserve">
         <source>Add bookmarks as you browse so you can find your favorite sites later.</source>
-        <note>The body text for the placeholder screen shown when there are no saved bookmarks, located within a nested subfolder of the bookmarks panel within the libray modal</note>
+        <note>The body text for the placeholder screen shown when there are no saved bookmarks, located within a nested subfolder of the bookmarks panel within the library modal.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.EmptyState.Nested.Title.v135" xml:space="preserve">
         <source>This folder is empty</source>
-        <note>The title for the placeholder screen shown when there are no saved bookmarks, located within a nested subfolder of the bookmarks panel within the libray modal</note>
+        <note>The title for the placeholder screen shown when there are no saved bookmarks, located within a nested subfolder of the bookmarks panel within the library modal.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.EmptyState.Root.Body.v135" xml:space="preserve">
         <source>Save sites as you browse. We’ll also grab bookmarks from other synced devices.</source>
-        <note>The body text for the placeholder screen shown when there are no saved bookmarks, located at the root level of the bookmarks panel within the libray modal</note>
+        <note>The body text for the placeholder screen shown when there are no saved bookmarks, located at the root level of the bookmarks panel within the library modal.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.EmptyState.Root.BodySignedOut.v135" xml:space="preserve">
         <source>Save sites as you browse. Sign in to grab bookmarks from other synced devices.</source>
-        <note>The body text for the placeholder screen shown when the user is signed out and there are no saved bookmarks, located at the root level of the bookmarks panel within the libray modal</note>
+        <note>The body text for the placeholder screen shown when the user is signed out and there are no saved bookmarks, located at the root level of the bookmarks panel within the library modal.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.EmptyState.Root.ButtonTitle.v136" xml:space="preserve">
         <source>Sign in to Sync</source>
@@ -3424,7 +3400,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Bookmarks.EmptyState.Root.Title.v135" xml:space="preserve">
         <source>No bookmarks yet</source>
-        <note>The title for the placeholder screen shown when there are no saved bookmarks, located at the root level of the bookmarks panel within the libray modal</note>
+        <note>The title for the placeholder screen shown when there are no saved bookmarks, located at the root level of the bookmarks panel within the library modal.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Menu.AllBookmarks.v131" xml:space="preserve">
         <source>All</source>
@@ -3476,7 +3452,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Bookmarks.Menu.SavedBookmarkToastLabel.v136" xml:space="preserve">
         <source>Saved in “%@”</source>
-        <note>The label displayed in the toast notification when saving a bookmark via the menu to a custom folder. The placeholder represents the custom name of the folder, created by the user, where the bookmark will be saved to</note>
+        <note>The label displayed in the toast notification when saving a bookmark via the menu to a custom folder. %@ represents the custom name of the folder, created by the user, where the bookmark will be saved to.</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.Edit.v131" xml:space="preserve">
         <source>Edit</source>
@@ -3529,7 +3505,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="LoginsList.NoLoginsFound.Description.v122" xml:space="preserve">
         <source>The passwords you save or sync to %@ will be listed here. All passwords you save are encrypted.</source>
-        <note>Label shown when there are no logins to list. The placeholder will be replaced with the app name.</note>
+        <note>Label shown when there are no logins to list. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="LoginsList.NoLoginsFound.Title.v122" xml:space="preserve">
         <source>No passwords saved</source>
@@ -3571,7 +3547,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.ThoughtProvokingStories.subtitle.v116" xml:space="preserve">
         <source>Articles powered by %@</source>
-        <note>In the settings menu, in the Firefox homepage customization section, this is the subtitle for the option that allows users to turn the Pocket Recommendations section on the Firefox homepage on or off. The placeholder is the pocket app name.</note>
+        <note>In the settings menu, in the Firefox homepage customization section, this is the subtitle for the option that allows users to turn the Pocket Recommendations section on the Firefox homepage on or off. %@ is Pocket.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.ThoughtProvokingStories.v116" xml:space="preserve">
         <source>Thought-Provoking Stories</source>
@@ -3882,27 +3858,27 @@ Private Tab</source>
     <body>
       <trans-unit id="Engagement.Notification.Body.v112" xml:space="preserve">
         <source>Find something nearby. Or discover something fun.</source>
-        <note>Body of notification send to user after inactivity to encourage them to use the search feature.</note>
+        <note>Body of notification sent to user after inactivity to encourage them to use the search feature.</note>
       </trans-unit>
       <trans-unit id="Engagement.Notification.Title.v112" xml:space="preserve">
         <source>Start your first search</source>
-        <note>Title of notification send to user after inactivity to encourage them to use the search feature.</note>
+        <note>Title of notification sent to user after inactivity to encourage them to use the search feature.</note>
       </trans-unit>
       <trans-unit id="Engagement.Notification.Treatment.A.Body.v114" xml:space="preserve">
         <source>Private browsing in %@ doesn’t save your info and blocks hidden trackers.</source>
-        <note>Body of notification send to user after inactivity to encourage them to use the private browsing feature. Placeholder is app name.</note>
+        <note>Body of notification sent to user after inactivity to encourage them to use the private browsing feature. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Engagement.Notification.Treatment.A.Title.v114" xml:space="preserve">
         <source>Browse without a trace</source>
-        <note>Title of notification send to user after inactivity to encourage them to use the private browsing feature.</note>
+        <note>Title of notification sent to user after inactivity to encourage them to use the private browsing feature.</note>
       </trans-unit>
       <trans-unit id="Engagement.Notification.Treatment.B.Body.v114" xml:space="preserve">
         <source>Browse with no saved cookies or history in %@.</source>
-        <note>Body of notification send to user after inactivity to encourage them to use the private browsing feature. Placeholder is the app name.</note>
+        <note>Body of notification sent to user after inactivity to encourage them to use the private browsing feature. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Engagement.Notification.Treatment.B.Title.v114" xml:space="preserve">
         <source>Try private browsing</source>
-        <note>Title of notification send to user after inactivity to encourage them to use the private browsing feature.</note>
+        <note>Title of notification sent to user after inactivity to encourage them to use the private browsing feature.</note>
       </trans-unit>
     </body>
   </file>
@@ -3973,7 +3949,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.ClearData.AlertText.v128" xml:space="preserve">
         <source>Removing cookies and site data for %@ might log you out of websites and clear shopping carts.</source>
-        <note>The text for the clear cookies and site data alert inside the enhanced tracking protection screen. The placeholder will be replaced with the user's currently visited website</note>
+        <note>The text for the clear cookies and site data alert inside the enhanced tracking protection screen. %@ is the currently visited website.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.ClearData.AlertTitle.v128" xml:space="preserve">
         <source>Clear cookies and site data</source>
@@ -4005,27 +3981,27 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.Trackers.Analytics.v132" xml:space="preserve">
         <source>Tracking content: %@</source>
-        <note>Text to let users know how many analytics trackers were blocked on the current website. The placeholder will show the number of such cookies detected</note>
+        <note>Text to let users know how many analytics trackers were blocked on the current website. %@ is the number of cookies of this type detected.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.Trackers.CrossSite.v129" xml:space="preserve">
         <source>Cross-site tracking cookies: %@</source>
-        <note>Text to let users know how many cross-site tracking cookies were blocked on the current website. The placeholder will show the number of such cookies detected</note>
+        <note>Text to let users know how many cross-site tracking cookies were blocked on the current website. %@ is the number of cookies of this type detected.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.Trackers.Fingerprinter.v129" xml:space="preserve">
         <source>Fingerprinters: %@</source>
-        <note>Text to let users know how many fingerprinters were blocked on the current website. The placeholder will show the number of fingerprinters detected</note>
+        <note>Text to let users know how many fingerprinters were blocked on the current website. %@ is the number of fingerprinters detected.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.Trackers.SocialMedia.v129" xml:space="preserve">
         <source>Social media trackers: %@</source>
-        <note>Text to let users know how many social media trackers were blocked on the current website. The placeholder will show the number of such cookies detected</note>
+        <note>Text to let users know how many social media trackers were blocked on the current website. %@ is the number of cookies of this type detected.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.Trackers.v128" xml:space="preserve">
         <source>Trackers blocked: %@</source>
-        <note>Text to let users know how many trackers were blocked on the current website. Placeholder for the number of trackers blocked</note>
+        <note>Text to let users know how many trackers were blocked on the current website. %@ is the number of trackers blocked.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.Verifier.v128" xml:space="preserve">
         <source>Verified by %@</source>
-        <note>Text to let users know the site verifier, where the placeholder represents the SSL certificate signer which is on the enhanced tracking protection screen after the user taps on the connection details.</note>
+        <note>Text to let users know the site verifier, where %@ represents the SSL certificate signer which is on the enhanced tracking protection screen after the user taps on the connection details.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.ViewCertificatesTitle.v131" xml:space="preserve">
         <source>View certificate</source>
@@ -4033,7 +4009,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Off.Header.v128" xml:space="preserve">
         <source>%@ is off-duty. We suggest turning protections back on.</source>
-        <note>Header for the enhanced tracking protection screen when the user has opted out of the feature. Placeholder will be replaced by the app name</note>
+        <note>Header for the enhanced tracking protection screen when the user has opted out of the feature. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Off.Title.v128" xml:space="preserve">
         <source>You turned off protections</source>
@@ -4053,7 +4029,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.On.Title.v128" xml:space="preserve">
         <source>%@ is on guard</source>
-        <note>Title for the enhanced tracking protection screen when the user has selected to be protected. The placeholder will have the value of the app name</note>
+        <note>Title for the enhanced tracking protection screen when the user has selected to be protected. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.PrivacySettings.Title.v128" xml:space="preserve">
         <source>Privacy settings</source>
@@ -4126,7 +4102,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.FeltPrivacyUI.Body.v122" xml:space="preserve">
         <source>%@ deletes your cookies, history, and site data when you close all your private tabs.</source>
-        <note>The body of the message for the card that educates users about how private mode works. The card shows up on the homepage when in the new privacy mode. Placeholder refers to app name.</note>
+        <note>The body of the message for the card that educates users about how private mode works. The card shows up on the homepage when in the new privacy mode. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.FeltPrivacyUI.Link.v122" xml:space="preserve">
         <source>Who might be able to see my activity?</source>
@@ -4199,7 +4175,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.Pocket.Footer.Title.v116" xml:space="preserve">
         <source>Powered by %1$@. Part of the %2$@ family.</source>
-        <note>This is the title of the Pocket footer on Firefox Homepage. The first placeholder is for the Pocket app name and the second placeholder for the app name</note>
+        <note>This is the title of the Pocket footer on Firefox Homepage. %1$@ is Pocket, %2$@ is the app name (e.g. Firefox).</note>
       </trans-unit>
     </body>
   </file>
@@ -4210,7 +4186,7 @@ Private Tab</source>
     <body>
       <trans-unit id="CloseTab.ArrivingNotification.title.v133" xml:space="preserve">
         <source>%1$@ tabs closed: %2$@</source>
-        <note>Title of notification shown when a remote device has requested to close a number of tabs. First parameter is the app name and the second parameter is the number of tabs.</note>
+        <note>Title of notification shown when a remote device has requested to close a number of tabs. %1$@ is the app name (e.g. Firefox). %2$@ is the number of tabs.</note>
       </trans-unit>
       <trans-unit id="CloseTab.ViewAction.title.v133" xml:space="preserve">
         <source>View recently closed tabs</source>
@@ -4369,7 +4345,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="MainMenu.SettingsSection.AccessibilityLabels.WhatsNew.v132" xml:space="preserve">
         <source>New in %@</source>
-        <note>On the main menu, the accessibility labels for the action that will take the user to a What's New in Firefox popup. Placeholder is for the app name.</note>
+        <note>On the main menu, the accessibility labels for the action that will take the user to a What's New in Firefox popup. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="MainMenu.SettingsSection.CustomizeHomepage.Title.v131" xml:space="preserve">
         <source>Customize Homepage</source>
@@ -4385,7 +4361,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="MainMenu.SettingsSection.WhatsNew.Title.v131" xml:space="preserve">
         <source>New in %@</source>
-        <note>On the main menu, the title for the action that will take the user to a What's New in Firefox popup. Placeholder is for the app name.</note>
+        <note>On the main menu, the title for the action that will take the user to a What's New in Firefox popup. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="MainMenu.Submenus.Save.AccessibilityLabels.AddToHomeScreen.Subtitle.v132" xml:space="preserve">
         <source>Home</source>
@@ -4545,7 +4521,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="MainMenu.Submenus.Tools.AccessibilityLabels.Zoom.Title.v132" xml:space="preserve">
         <source>Zoom (%@)</source>
-        <note>On the main menu, in the tools submenu, the accessibility label for the menu component that indicates the current zoom level. Placeholder is for the current zoom level percentage.</note>
+        <note>On the main menu, in the tools submenu, the accessibility label for the menu component that indicates the current zoom level. %@ is the current zoom level percentage.</note>
       </trans-unit>
       <trans-unit id="MainMenu.Submenus.Tools.NightMode.Off.Title.v131" xml:space="preserve">
         <source>Turn off Night Mode</source>
@@ -4617,7 +4593,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="MainMenu.Submenus.Tools.Zoom.Title.v131" xml:space="preserve">
         <source>Zoom (%@)</source>
-        <note>On the main menu, in the tools submenu, the title for the menu component that indicates the current zoom level. Placeholder is for the current zoom level percentage.</note>
+        <note>On the main menu, in the tools submenu, the title for the menu component that indicates the current zoom level. %@ is the current zoom level percentage.</note>
       </trans-unit>
       <trans-unit id="MainMenu.TabsSection.AccessibilityLabels.MainMenu.v132" xml:space="preserve">
         <source>Main Menu</source>
@@ -4704,11 +4680,11 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Microsurvey.Prompt.LogoImage.AccessibilityLabel.v129" xml:space="preserve">
         <source>%@ Logo</source>
-        <note>On top of the bottom toolbar, there can be a microsurvey prompt, this is the logo image that appears on the prompt to inform the prompt is coming from the app specifically. Placeholder is for the app name.</note>
+        <note>On top of the bottom toolbar, there can be a microsurvey prompt, this is the logo image that appears on the prompt to inform the prompt is coming from the app specifically. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Microsurvey.Prompt.TitleLabel.v127" xml:space="preserve">
         <source>Help us make %@ better. It only takes a minute.</source>
-        <note>On top of the bottom toolbar, there can be a microsurvey prompt, this is the title for the text that appears on the prompt to inform the user that this is a prompt to take a survey. Placeholder is for the app name.</note>
+        <note>On top of the bottom toolbar, there can be a microsurvey prompt, this is the title for the text that appears on the prompt to inform the user that this is a prompt to take a survey. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Microsurvey.Survey.Button.v127" xml:space="preserve">
         <source>Submit</source>
@@ -4732,7 +4708,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Microsurvey.Survey.LogoImage.AccessibilityLabel.v129" xml:space="preserve">
         <source>%@ Logo</source>
-        <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this is the logo image that appears on the bottom sheet that informs the user that it is coming from the app specifically. Placeholder is for the app name.</note>
+        <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this is the logo image that appears on the bottom sheet that informs the user that it is coming from the app specifically. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Microsurvey.Survey.Options.Dissatisfied.v132" xml:space="preserve">
         <source>Dissatisfied</source>
@@ -4760,7 +4736,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Microsurvey.Survey.OptionsOrder.AccessibilityLabel.v129" xml:space="preserve">
         <source>%1$@ out of %2$@</source>
-        <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this is the accessibility label that states the order the survey option in the list of options. First placeholder is the number the option is in the list and the second placeholder is the total number of options such as 1 out of 6.</note>
+        <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this is the accessibility label that states the order of the current option in the list of options. %1$@ is the number the option is in the list, %2$@ is the total number of options. An example of output is “1 out of 6”.</note>
       </trans-unit>
       <trans-unit id="Microsurvey.Survey.PrivacyPolicyLink.v127" xml:space="preserve">
         <source>Privacy notice</source>
@@ -4787,7 +4763,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.Description.v134" xml:space="preserve">
         <source>The owner of %@ hasn’t set it up properly and a secure connection can’t be created.</source>
-        <note>On error page, this is the description for generic error. The placeholder will be replaced by the site url</note>
+        <note>On error page, this is the description for a generic error. %@ is the site url.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.TitleLabel.v131" xml:space="preserve">
         <source>Be careful. Something doesn’t look right.</source>
@@ -4810,7 +4786,7 @@ Private Tab</source>
     <body>
       <trans-unit id="Notification.Fallback.Title.v113" xml:space="preserve">
         <source>%@ Tip</source>
-        <note>Fallback Title of notification if no notification title was configured. The notification is an advise to the user. The argument is the app name.</note>
+        <note>Fallback Title of notification if no notification title was configured. The notification is an advise to the user. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
     </body>
   </file>
@@ -4825,7 +4801,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="DefaultBrowserPopup.DescriptionFooter.v124" xml:space="preserve">
         <source>*Is %@ already your default?* Close this message and tap Skip.</source>
-        <note>The footer label on the Default Browser Popup, which is below all the instructions asking the users if their Firefox browser is the default browser. If it is then close this message and tap skip. The *text inside asterisks* denotes part of the string to bold, please leave the text inside the '*' so that it is bolded correctly.</note>
+        <note>The footer label on the Default Browser Popup, which is below all the instructions asking the users if their browser is the default browser. %@ is the app name (e.g. Firefox). If it is then close this message and tap skip. The *text inside asterisks* denotes part of the string to bold, please leave the text inside the '*' so that it is bolded correctly.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserPopup.FirstLabel.v114" xml:space="preserve">
         <source>1. Go to *Settings*</source>
@@ -4837,7 +4813,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="DefaultBrowserPopup.ThirdLabel.v114" xml:space="preserve">
         <source>3. Select *%@*</source>
-        <note>The third label on the Default Browser Popup, which is a card with instructions telling the user how to set Firefox as their default browser. Placeholder is the app name. The *text inside asterisks* denotes part of the string to bold, please leave the text inside the '*' so that it is bolded correctly.</note>
+        <note>The third label on the Default Browser Popup, which is a card with instructions telling the user how to set Firefox as their default browser. %@ is the app name (e.g. Firefox). The *text inside asterisks* denotes part of the string to bold, please leave the text inside the '*' so that it is bolded correctly.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserPopup.Title.v114" xml:space="preserve">
         <source>Switch Your Default Browser</source>
@@ -4845,7 +4821,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Customization.Intro.Continue.Action.v123" xml:space="preserve">
         <source>Customize %@</source>
-        <note>String used to describe the option to continue to the next onboarding card in Firefox Onboarding screens. Placeholder is for the app name.</note>
+        <note>String used to describe the option to continue to the next onboarding card in Firefox Onboarding screens. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Customization.Intro.Description.v123" xml:space="preserve">
         <source>Set your theme and toolbar to match your unique browsing style.</source>
@@ -4857,7 +4833,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Customization.Intro.Title.v123" xml:space="preserve">
         <source>%@ puts you in control</source>
-        <note>String used to describe the title of the customization onboarding page in our Onboarding screens. Placeholder is for the app name.</note>
+        <note>String used to describe the title of the customization onboarding page in our Onboarding screens. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Customization.Theme.Continue.Action.v123" xml:space="preserve">
         <source>Save and Continue</source>
@@ -4929,7 +4905,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Notification.Description.v120" xml:space="preserve">
         <source>Securely send tabs between your devices and discover other privacy features in %@.</source>
-        <note>String used to describe the description of the notification onboarding page in our Onboarding screens. Placeholder is for the app name.</note>
+        <note>String used to describe the description of the notification onboarding page in our Onboarding screens. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Notification.Skip.Action.v115" xml:space="preserve">
         <source>Skip</source>
@@ -4937,7 +4913,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Notification.Title.v120" xml:space="preserve">
         <source>Notifications help you stay safer with %@</source>
-        <note>String used to describe the title of the notification onboarding page in our Onboarding screens. Placeholder is for the app name.</note>
+        <note>String used to describe the title of the notification onboarding page in our Onboarding screens. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Notification.TurnOnNotifications.Action.v114" xml:space="preserve">
         <source>Turn On Notifications</source>
@@ -4945,7 +4921,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Sync.Description.v123" xml:space="preserve">
         <source>%@ encrypts your passwords, bookmarks, and more when you’re synced.</source>
-        <note>String used to describes the description of what Firefox is on the Sync onboarding page for current version in our Onboarding screens. Placeholder is for the app name.</note>
+        <note>String used to describes the description of what Firefox is on the Sync onboarding page for current version in our Onboarding screens. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Sync.SignIn.Action.v114" xml:space="preserve">
         <source>Sign In</source>
@@ -4973,11 +4949,11 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.ManagePreferenceAgreement.v135" xml:space="preserve">
         <source>To help improve the browser, %1$@ sends diagnostic and interaction data to %2$@. %3$@</source>
-        <note>Agreement text for sends diagnostic and interaction data to Mozilla in the Terms of Service screen. First placeholder is for the app name. The second placeholder will be replaced the company name of Mozilla. The last placeholder is for for the Manage link button which redirect the user to another screen in order to manage the data collection preferences.</note>
+        <note>Agreement text for sending diagnostic and interaction data to Mozilla in the Terms of Service screen. %1$@ is the app name (e.g. Firefox), %2$@ is company name (e.g. Mozilla), %3$@ is a Manage link button which redirect the user to another screen in order to manage the data collection preferences.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyNoticeAgreement.v135" xml:space="preserve">
         <source>%1$@ cares about your privacy. Read more in our %2$@</source>
-        <note>Agreement text for Privacy Notice in the Terms of Service screen. First placeholder is for the app name. The second placeholder is for the Privacy Notice link button that redirect the user to the Privacy Notice page</note>
+        <note>Agreement text for Privacy Notice in the Terms of Service screen. %1$@ is the app name (e.g. Firefox), %2$@ is for the Privacy Notice link button that redirect the user to the Privacy Notice page.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyNoticeLink.v135" xml:space="preserve">
         <source>Privacy Notice.</source>
@@ -5001,15 +4977,15 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.SendTechnicalDataDescription.v135" xml:space="preserve">
         <source>Data about your device, hardware configuration, and how you use %1$@ helps improve features, performance, and stability for everyone. %2$@</source>
-        <note>Description for the technical and interaction data switch option in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. First placeholder is for the app name. The second placeholder is for the Learn more button link, to open a link where user can find more information about this send technical and interaction data option.</note>
+        <note>Description for the technical and interaction data switch option in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. %1$@ is the app name (e.g. Firefox), %2$@ is for the Learn more button link, to open a link where user can find more information about this send technical and interaction data option.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.SendTechnicalDataTitle.v135" xml:space="preserve">
         <source>Send technical and interaction data to %@</source>
-        <note>Title for the send technical and interaction data switch option in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. Placeholder will be replaced the company name of Mozilla.</note>
+        <note>Title for the send technical and interaction data switch option in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. %@ is the company name (e.g. Mozilla).</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.Title.v135" xml:space="preserve">
         <source>Help us make %@ better</source>
-        <note>Title for the Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. Data like crash reports or technical and interaction data. Placeholder is for the app name.</note>
+        <note>Title for the Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. Data like crash reports or technical and interaction data. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.Subtitle.v136" xml:space="preserve">
         <source>Fast and secure web browsing</source>
@@ -5017,19 +4993,19 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.TermsOfServiceAgreement.v135" xml:space="preserve">
         <source>By continuing, you agree to the %@</source>
-        <note>Agreement text for Terms of Service in the Terms of Service screen. Placeholder is for the Terms of Service link button that redirect the user to the Terms of Service page</note>
+        <note>Agreement text for Terms of Service in the Terms of Service screen. %@ is the Terms of Service link button that redirect the user to the Terms of Service page.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.TermsOfServiceLink.v135" xml:space="preserve">
         <source>%@ Terms of Service.</source>
-        <note>Title for the Terms of Service button link, in the Terms of Service screen for redirecting the user to the Terms of Service page. Placeholder is for the app name.</note>
+        <note>Title for the Terms of Service button link, in the Terms of Service screen for redirecting the user to the Terms of Service page. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.Title.v135" xml:space="preserve">
         <source>Welcome to %@</source>
-        <note>Title for the Terms of Service screen in the onboarding process. Placeholder is for app name.</note>
+        <note>Title for the Terms of Service screen in the onboarding process. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfUse.TermsOfUseLink.v136" xml:space="preserve">
         <source>%@ Terms of Use.</source>
-        <note>Title for the Terms of Use button link, in the Terms of Use screen for redirecting the user to the Terms of Use page. Placeholder is for the app name.</note>
+        <note>Title for the Terms of Use button link, in the Terms of Use screen for redirecting the user to the Terms of Use page. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Wallpaper.Accessibility.Classic.v114" xml:space="preserve">
         <source>Classic Wallpaper</source>
@@ -5053,7 +5029,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Wallpaper.Title.v114" xml:space="preserve">
         <source>Choose a %@ Wallpaper</source>
-        <note>Title for the wallpaper onboarding page in our Onboarding screens. This describes to the user that they can choose different wallpapers. Placeholder is for app name.</note>
+        <note>Title for the wallpaper onboarding page in our Onboarding screens. This describes to the user that they can choose different wallpapers. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Welcome.Action.v114" xml:space="preserve">
         <source>Get Started</source>
@@ -5065,7 +5041,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Welcome.Close.AccessibilityLabel.v121" xml:space="preserve">
         <source>Close and exit %@ onboarding</source>
-        <note>Accessibility label for close button that dismisses the welcome onboarding screen. Placeholder is for the app name.</note>
+        <note>Accessibility label for close button that dismisses the welcome onboarding screen. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Welcome.Description.TreatementA.v120" xml:space="preserve">
         <source>Our non-profit backed browser helps stop companies from secretly following you around the web.</source>
@@ -5073,7 +5049,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Welcome.Description.v120" xml:space="preserve">
         <source>Our non-profit backed browser helps stop companies from secretly following you around the web.</source>
-        <note>String used to describes the description of what Firefox is on the welcome onboarding page for current version in our Onboarding screens. Placeholder is for the app name.</note>
+        <note>String used to describes the description of what Firefox is on the welcome onboarding page for current version in our Onboarding screens. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Welcome.Link.Action.v114" xml:space="preserve">
         <source>Learn more in our privacy notice</source>
@@ -5181,7 +5157,7 @@ Private Tab</source>
     <body>
       <trans-unit id="CreditCard.RememberCard.Header.v122" xml:space="preserve">
         <source>%@ encrypts your card number. Your security code won’t be saved.</source>
-        <note>This value is used as the header for the remember card page. The placeholder is for the app name.</note>
+        <note>This value is used as the header for the remember card page. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="CreditCard.RememberCard.MainButtonTitle.v122" xml:space="preserve">
         <source>Save</source>
@@ -5208,7 +5184,7 @@ Private Tab</source>
     <body>
       <trans-unit id="Body.Text.v112" xml:space="preserve">
         <source>Please help make %@ better by taking a short survey.</source>
-        <note>On the Research Survey popup, the text that explains what the screen is about. Placeholder is for the app name.</note>
+        <note>On the Research Survey popup, the text that explains what the screen is about. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="PrimaryButton.Label.v112" xml:space="preserve">
         <source>Take Survey</source>
@@ -5235,7 +5211,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="ScanQRCode.ConfirmOpenURL.Message.v129" xml:space="preserve">
         <source>Allow %@ to open?</source>
-        <note>Text of the prompt to ask user permission to open a URL from a scanned QR code. Placeholder is app name.</note>
+        <note>Text of the prompt to ask user permission to open a URL from a scanned QR code. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
     </body>
   </file>
@@ -5277,7 +5253,7 @@ Private Tab</source>
     <body>
       <trans-unit id="Search.EngineSection.Title.v108" xml:space="preserve">
         <source>%@ search</source>
-        <note>When making a new search from the awesome bar, search results appear as the user write new letters in their search. Different sections with results from the selected search engine will appear. This string will be used as a header to separate the selected engine search results from current search query.</note>
+        <note>When making a new search from the awesome bar, search results appear as the user write new letters in their search. Different sections with results from the selected search engine will appear. This string will be used as a header to separate the selected engine search results from current search query. %@ is the search engine name.</note>
       </trans-unit>
       <trans-unit id="Search.Google.Title.v108" xml:space="preserve">
         <source>Google Search</source>
@@ -5347,7 +5323,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.ListItemA11y.v118" xml:space="preserve">
         <source>%1$@, issued to %2$@, ending in %3$@, expires %4$@</source>
-        <note>Accessibility label for a credit card list item in autofill settings screen. The first parameter is the credit card issuer (e.g. Visa). The second parameter is the name of the credit card holder. The third parameter is the last 4 digits of the credit card. The fourth parameter is the card's expiration date.</note>
+        <note>Accessibility label for a credit card list item in autofill settings screen. %1$@ is the credit card issuer (e.g. Visa), %2$@ is the name of the credit card holder, %3$@ is the last 4 digits of the credit card, %4$@ is the card's expiration date.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.NotNow.v122" xml:space="preserve">
         <source>Not Now</source>
@@ -5463,7 +5439,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.DailyUsagePing.Message.v135" xml:space="preserve">
         <source>This helps %@ to estimate active users.</source>
-        <note>On the Settings screen, this is the subtitle text for a toggle which controls sending daily usage ping. Placeholder will be replaced the company name of Mozilla.</note>
+        <note>On the Settings screen, this is the subtitle text for a toggle which controls sending daily usage ping. %@ is the company name (e.g. Mozilla).</note>
       </trans-unit>
       <trans-unit id="Settings.DailyUsagePing.Title.v135" xml:space="preserve">
         <source>Daily Usage Ping</source>
@@ -5483,11 +5459,11 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.Notifications.SystemNotificationsDisabledMessage.v112" xml:space="preserve">
         <source>You turned off all %1$@ notifications. Turn them on by going to device Settings &gt; Notifications &gt; %2$@</source>
-        <note>This is the footer title informing the user needs to turn on notifications in iOS Settings. Both placeholders will be replaced with the app name.</note>
+        <note>This is the footer title informing the user needs to turn on notifications in iOS Settings. Both %1$@ and %2$@ are the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Settings.Notifications.TipsAndFeaturesNotificationsStatus.v112" xml:space="preserve">
         <source>Learn about useful features and how to get the most out of %@.</source>
-        <note>This is the description for the setting that toggles Tips and Features feature in the settings menu under the Notifications section. The placeholder will be replaced with the app name.</note>
+        <note>This is the description for the setting that toggles Tips and Features feature in the settings menu under the Notifications section. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Settings.Notifications.TipsAndFeaturesNotificationsTitle.v112" xml:space="preserve">
         <source>Tips and Features</source>
@@ -5499,11 +5475,11 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.Notifications.TurnOnNotificationsMessage.v112" xml:space="preserve">
         <source>Go to your device Settings to turn on notifications in %@</source>
-        <note>This is the title informing the user needs to turn on notifications in iOS Settings. The placeholder will be replaced with the app name.</note>
+        <note>This is the title informing the user that they need to turn on notifications in iOS Settings. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Settings.Notifications.TurnOnNotificationsTitle.v112" xml:space="preserve">
         <source>Turn on Notifications</source>
-        <note>This is the title informing the user needs to turn on notifications in iOS Settings.</note>
+        <note>This is the title informing the user that they need to turn on notifications in iOS Settings.</note>
       </trans-unit>
       <trans-unit id="Settings.PrivacyNotice.Title.v137" xml:space="preserve">
         <source>Privacy Notice</source>
@@ -5571,7 +5547,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.ShowNonSponsoredSuggestions.Description.v124.v2" xml:space="preserve">
         <source>Get suggestions from %@ related to your search</source>
-        <note>In the Search page of the Settings menu, the description for the setting to enable Suggestions from Firefox. Placeholder is for the app name - Firefox.</note>
+        <note>In the Search page of the Settings menu, the description for the setting to enable Suggestions from Firefox. %@ is the app name (e.g. Firefox). - Firefox.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.ShowNonSponsoredSuggestions.Title.v124.v2" xml:space="preserve">
         <source>Suggestions from the Web</source>
@@ -5579,7 +5555,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.ShowSponsoredSuggestions.Description.v124" xml:space="preserve">
         <source>Support %@ with occasional sponsored suggestions</source>
-        <note>In the Search page of the Settings menu, the description for the setting to enable Suggestions from sponsors. Placeholder is for the app name - Firefox.</note>
+        <note>In the Search page of the Settings menu, the description for the setting to enable Suggestions from sponsors. %@ is the app name (e.g. Firefox). - Firefox.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.ShowSponsoredSuggestions.Title.v124" xml:space="preserve">
         <source>Suggestions from Sponsors</source>
@@ -5607,11 +5583,11 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.TechnicalData.Message.v135" xml:space="preserve">
         <source>%1$@ strives to only collect what we need to provide and improve %2$@ for everyone.</source>
-        <note>On the Settings screen, this is the subtitle text for a toggle which controls sending technical and interaction data. The first placeholder will be replaced the company name of Mozilla. The second placeholder is the app name.</note>
+        <note>On the Settings screen, this is the subtitle text for a toggle which controls sending technical and interaction data. %1$@ is the company name (e.g. Mozilla), %2$@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Settings.TechnicalData.Message.v136" xml:space="preserve">
         <source>Data about your device, hardware configuration, and usage helps us improve %@ features, performance and stability.</source>
-        <note>On the Settings screen, this is the subtitle text for a toggle which controls sending technical and interaction data. Placeholder is the app name.</note>
+        <note>On the Settings screen, this is the subtitle text for a toggle which controls sending technical and interaction data. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Settings.TechnicalData.Title.v135" xml:space="preserve">
         <source>Technical and Interaction Data</source>
@@ -5665,7 +5641,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.AdCard.Footer.v121" xml:space="preserve">
         <source>Ad by %@</source>
-        <note>Footer label from the Fakespot Ad card displayed for the related product we advertise. This is displayed below the ad card, suggested as an alternative to the product reviewed. The first parameter will be replaced by the Fakespot app name</note>
+        <note>Footer label from the Fakespot Ad card displayed for the related product we advertise. This is displayed below the ad card, suggested as an alternative to the product reviewed. %@ is the Fakespot.</note>
       </trans-unit>
       <trans-unit id="Shopping.AdCard.Title.v121" xml:space="preserve">
         <source>More to consider</source>
@@ -5781,7 +5757,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.ProgressAnalysis.Title.v123" xml:space="preserve">
         <source>Checking review quality (%@)</source>
-        <note>Title for info card when the product is in analysis mode. The placeholder represents the percentage of the analysis progress, ranging between 1 and 100.</note>
+        <note>Title for info card when the product is in analysis mode. %@ is the percentage of the analysis progress, ranging between 1 and 100.</note>
       </trans-unit>
       <trans-unit id="Shopping.InfoCard.ReportSubmittedByCurrentUser.Description.v121" xml:space="preserve">
         <source>We should have info about this product’s reviews within 24 hours. Please check back.</source>
@@ -5809,11 +5785,11 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.OptInCard.FirstParagraph.AmazonOnly.Description.v122" xml:space="preserve">
         <source>See how reliable product reviews are on %1$@ before you buy. Review Checker, an experimental feature from %2$@, is built right into the browser.</source>
-        <note>Label for the first paragraph of the Shopping Experience Opt In onboarding Card (Fakespot). The first parameter will be the website the user is coming from when viewing this screen (default Amazon). The second parameter will be replaced by the app name. This string is almost identical with 'Shopping.OptInCard.FirstParagraph.Description', but without Best Buy and Walmart websites, which are not available in many locales.</note>
+        <note>Label for the first paragraph of the Shopping Experience Opt In onboarding Card (Fakespot). %1$@ is the website the user is coming from when viewing this screen (default Amazon). %2$@ is the app name (e.g. Firefox). This string is almost identical with 'Shopping.OptInCard.FirstParagraph.Description', but without Best Buy and Walmart websites, which are not available in many locales.</note>
       </trans-unit>
       <trans-unit id="Shopping.OptInCard.FirstParagraph.Description.v120" xml:space="preserve">
         <source>See how reliable product reviews are on %1$@ before you buy. Review Checker, an experimental feature from %2$@, is built right into the browser. It works on %3$@ and %4$@, too.</source>
-        <note>Label for the first paragraph of the Shopping Experience Opt In onboarding Card (Fakespot). The first parameter will be the website the user is coming from when viewing this screen (default Amazon). The second parameter will be replaced by the app name. The third and fourth parameters will be the other two websites that are currently supported (Amazon, Best Buy or Walmart) besides the one used for the first parameter.</note>
+        <note>Label for the first paragraph of the Shopping Experience Opt In onboarding Card (Fakespot). %1$@ is the website the user is coming from when viewing this screen (default Amazon). %2$@ is the app name (e.g. Firefox). %3$@ and %4$@ are the other two websites that are currently supported (Amazon, Best Buy or Walmart) besides the one used for the first parameter.</note>
       </trans-unit>
       <trans-unit id="Shopping.OptInCard.HeaderLabel.Title.v120" xml:space="preserve">
         <source>Try our trusted guide to product reviews</source>
@@ -5829,11 +5805,11 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.OptInCard.PrivacyPolicy.Button.Title.v123" xml:space="preserve">
         <source>%@’s privacy notice</source>
-        <note>Show Firefox Browser Privacy Policy page from the Privacy section in the Shopping Experience Opt In onboarding Card (Fakespot). The parameter will be replace by the Firefox app name.</note>
+        <note>Show Firefox Browser Privacy Policy page from the Privacy section in the Shopping Experience Opt In onboarding Card (Fakespot). %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Shopping.OptInCard.SecondParagraph.Description.v120" xml:space="preserve">
         <source>Using the power of %1$@ by %2$@, we help you avoid biased and inauthentic reviews. Our AI model is always improving to protect you as you shop.</source>
-        <note>Label for the second paragraph of the Shopping Experience Opt In onboarding Card (Fakespot). The first parameter will be replaced by the Fakespot app name. The second parameter will be replaced the company name of Mozilla.</note>
+        <note>Label for the second paragraph of the Shopping Experience Opt In onboarding Card (Fakespot). %1$@ is the Fakespot, %2$@ is the company name (e.g. Mozilla).</note>
       </trans-unit>
       <trans-unit id="Shopping.OptInCard.SecondaryButton.Title.v120" xml:space="preserve">
         <source>Not now</source>
@@ -5841,11 +5817,11 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.OptInCard.TermsOfUse.Button.Title.v123" xml:space="preserve">
         <source>%@’s terms of use</source>
-        <note>Show Fakespot Terms of Use page in the Shopping Experience Opt In onboarding Card (Fakespot). The parameter will be replace by the Fakespot name.</note>
+        <note>Show Fakespot Terms of Use page in the Shopping Experience Opt In onboarding Card (Fakespot). %@ is the Fakespot name.</note>
       </trans-unit>
       <trans-unit id="Shopping.ReliabilityScore.Grade.A11y.Label.v120" xml:space="preserve">
         <source>Grade %@</source>
-        <note>Accessibility label for the Grade labels used in 'How we determine review quality' card and 'How reliable are these reviews' card displayed in the shopping review quality bottom sheet. The placeholder will be replaced by a grade letter (e.g. A). The grading system contains letters from A-F.</note>
+        <note>Accessibility label for the Grade labels used in 'How we determine review quality' card and 'How reliable are these reviews' card displayed in the shopping review quality bottom sheet. %@ is a grade letter from A to F (e.g. A).</note>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQuality.ReliabilityCardTitle.v120" xml:space="preserve">
         <source>How reliable are these reviews?</source>
@@ -5877,11 +5853,11 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQualityCard.Headline.Label.v120" xml:space="preserve">
         <source>We use AI technology from %1$@ by %2$@ to check the reliability of product reviews. This will only help you assess review quality, not product quality.</source>
-        <note>Label of the headline from How we determine review quality card displayed in the shopping review quality bottom sheet. The first parameter will be replaced by the Fakespot app name and the second parameter by the company name of Mozilla.</note>
+        <note>Label of the headline from How we determine review quality card displayed in the shopping review quality bottom sheet. %1$@ is the Fakespot and %2$@ is the company (e.g. Mozilla).</note>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQualityCard.Highlights.Label.v126" xml:space="preserve">
         <source>*Highlights* are from %@ reviews within the last 80 days that we believe to be reliable.</source>
-        <note>Highlights label from How we determine review quality card displayed in the shopping review quality bottom sheet. The parameter substitutes the partner website the user is coming from. The *text inside asterisks* denotes part of the string to bold, please leave the text inside the '*' so that it is bolded correctly.</note>
+        <note>Highlights label from How we determine review quality card displayed in the shopping review quality bottom sheet. %@ is the partner website the user is coming from. The *text inside asterisks* denotes part of the string to bold, please leave the text inside the '*' so that it is bolded correctly.</note>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQualityCard.Label.Title.v120" xml:space="preserve">
         <source>How we determine review quality</source>
@@ -5889,7 +5865,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQualityCard.LearnMoreButton.Title.v120" xml:space="preserve">
         <source>Learn more about how %@ determines review quality</source>
-        <note>The title of the learn more button from How we determine review quality card displayed in the shopping review quality bottom sheet. The placeholder will be replaced with the Fakespot app name.</note>
+        <note>The title of the learn more button from How we determine review quality card displayed in the shopping review quality bottom sheet. %@ is the Fakespot.</note>
       </trans-unit>
       <trans-unit id="Shopping.ReviewQualityCard.MixedReviews.Label.v120" xml:space="preserve">
         <source>We believe there’s a mix of reliable and unreliable reviews</source>
@@ -5921,11 +5897,11 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.SettingsCard.Expand.GroupedRecommendedProductsAndSwitch.AccessibilityLabel.v123" xml:space="preserve">
         <source>%1$@, switch button, %2$@.</source>
-        <note>Accessibility label for the recommended products label and switch, grouped together. The first placeholder is for the recommended products label, and the second placeholder is for the state of the switch: On/Off.</note>
+        <note>Accessibility label for the recommended products label and switch, grouped together. %1$@ is the recommended products label, %2$@ is the state of the switch: On/Off.</note>
       </trans-unit>
       <trans-unit id="Shopping.SettingsCard.Footer.Action.v120" xml:space="preserve">
         <source>Review Checker is powered by %1$@ by %2$@</source>
-        <note>Action title of the footer underneath the Settings Card displayed in the shopping review quality bottom sheet. The first parameter will be replaced by the Fakespot app name and the second parameter by the company name of Mozilla.</note>
+        <note>Action title of the footer underneath the Settings Card displayed in the shopping review quality bottom sheet. %1$@ is the Fakespot, %2$@ is the company name (e.g. Mozilla).</note>
       </trans-unit>
       <trans-unit id="Shopping.SettingsCard.Label.Title.v120" xml:space="preserve">
         <source>Settings</source>
@@ -5933,7 +5909,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Shopping.SettingsCard.RecommendedProducts.Label.v120" xml:space="preserve">
         <source>Show products recommended by %@</source>
-        <note>Label of the switch from settings card displayed in the shopping review quality bottom sheet. The placeholder will be replaced with the app name.</note>
+        <note>Label of the switch from settings card displayed in the shopping review quality bottom sheet. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Shopping.SettingsCard.SwitchValueOff.AccessibilityLabel.v123" xml:space="preserve">
         <source>Off</source>
@@ -6006,32 +5982,32 @@ Private Tab</source>
     <body>
       <trans-unit id="SentFromFirefox.SocialShare.SettingsToggle.Subtitle.v134" xml:space="preserve">
         <source>Spread the word about %1$@ every time you share a link on %2$@.</source>
-        <note>On the Settings screen, this is the subtitle text for a toggle which controls adding additional text to links shared to social media apps. The first parameter is the Firefox app name. The second parameter is the social media app name (e.g. WhatsApp).</note>
+        <note>On the Settings screen, this is the subtitle text for a toggle which controls adding additional text to links shared to social media apps. %1$@ is the app name (e.g. Firefox). %2$@ is the social media app name (e.g. WhatsApp).</note>
       </trans-unit>
       <trans-unit id="SentFromFirefox.SocialShare.SettingsToggle.Title.v134" xml:space="preserve">
         <source>Include %1$@ Download Link on %2$@ Shares</source>
-        <note>On the Settings screen, this is the title text for a toggle which controls adding additional text to links shared to social media apps. The first parameter is the Firefox app name. The second parameter is the social media app name (e.g. WhatsApp).</note>
+        <note>On the Settings screen, this is the title text for a toggle which controls adding additional text to links shared to social media apps. %1$@ is the app name (e.g. Firefox). %2$@ is the social media app name (e.g. WhatsApp).</note>
       </trans-unit>
       <trans-unit id="SentFromFirefox.SocialShare.ShareMessageA.Title.v134" xml:space="preserve">
         <source>%1$@ Sent from %2$@ 🦊 Try the mobile browser: %3$@</source>
-        <note>When a user shares a link to social media, this is the shared text they'll see in the social media app. The first parameter is the shared website's URL. The second parameter is the Firefox app name. The third parameter is the link to download the Firefox app.</note>
+        <note>When a user shares a link to social media, this is the shared text they'll see in the social media app. %1$@  is the shared website's URL. %2$@ is the app name (e.g. Firefox). %3$@ is the link to download the app.</note>
       </trans-unit>
       <trans-unit id="SentFromFirefox.SocialShare.ShareMessageA.Title.v137" xml:space="preserve">
         <source>%1$@
 
 Sent from %2$@ 🦊 Try the mobile browser: %3$@</source>
-        <note>When a user shares a link to social media, this is the shared text they'll see in the social media app. The first parameter is the shared website's URL. The second parameter is the Firefox app name. The third parameter is the link to download the Firefox app. The '
+        <note>When a user shares a link to social media, this is the shared text they'll see in the social media app. %1$@  is the shared website's URL. %2$@ is the app name (e.g. Firefox). %3$@ is the link to download the app. The '
 ' symbols denote empty lines separating the first link parameter from the rest of the text.</note>
       </trans-unit>
       <trans-unit id="SentFromFirefox.SocialShare.ShareMessageB.Title.v134" xml:space="preserve">
         <source>%1$@ Sent from %2$@ 🦊 %3$@</source>
-        <note>When a user shares a link to social media, this is the shared text they'll see in the social media app. The first parameter is the shared website's URL. The second parameter is the Firefox app name. The third parameter is the link to download the Firefox app.</note>
+        <note>When a user shares a link to social media, this is the shared text they'll see in the social media app. %1$@  is the shared website's URL. %2$@ is the app name (e.g. Firefox). %3$@ is the link to download the app.</note>
       </trans-unit>
       <trans-unit id="SentFromFirefox.SocialShare.ShareMessageB.Title.v137" xml:space="preserve">
         <source>%1$@
 
 Sent from %2$@ 🦊 %3$@</source>
-        <note>When a user shares a link to social media, this is the shared text they'll see in the social media app. The first parameter is the shared website's URL. The second parameter is the Firefox app name. The third parameter is the link to download the Firefox app. The '
+        <note>When a user shares a link to social media, this is the shared text they'll see in the social media app. %1$@  is the shared website's URL. %2$@ is the app name (e.g. Firefox). %3$@ is the link to download the app. The '
 ' symbols denote empty lines separating the first link parameter from the rest of the text.</note>
       </trans-unit>
     </body>
@@ -6094,7 +6070,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="TabsButton.Accessibility.LargeContentTitle.v122" xml:space="preserve">
         <source>Show Tabs: %@</source>
-        <note>Large content title for the tabs button. The argument is the number of open tabs or an infinity symbol. This title is displayed when using accessible font sizes is enabled.</note>
+        <note>Large content title for the tabs button. %@ is the number of open tabs or an infinity symbol. This title is displayed when using accessible font sizes is enabled.</note>
       </trans-unit>
       <trans-unit id="TopSites.RemoveButton.LargeContentTitle.v122" xml:space="preserve">
         <source>Remove page</source>
@@ -6117,7 +6093,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="CloseTabsToast.Title.v113" xml:space="preserve">
         <source>Tabs Closed: %d</source>
-        <note>When the user closes tabs in the tab tray, a popup will appear informing them how many tabs were closed. This is the text for the popup. The placeholder is the number of tabs</note>
+        <note>When the user closes tabs in the tab tray, a popup will appear informing them how many tabs were closed. This is the text for the popup. %d is the number of tabs.</note>
       </trans-unit>
       <trans-unit id="InactiveTabs.TabTray.CloseSwipeActionTitle.v115" xml:space="preserve">
         <source>Close</source>
@@ -6167,7 +6143,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="Toolbar.Tabs.Button.A11y.LargeContentTitle.v137" xml:space="preserve">
         <source>Tabs open: %@</source>
-        <note>Large content title for the tabs button in the toolbar, specifying the number of tabs open. The placeholder is getting replaced with the number of open tabs.</note>
+        <note>Large content title for the tabs button in the toolbar, specifying the number of tabs open. %@ is the number of open tabs.</note>
       </trans-unit>
       <trans-unit id="Toolbar.Tabs.Button.A11y.OverflowLargeContentTitle.v137" xml:space="preserve">
         <source>Tabs open: 99+</source>
@@ -6278,7 +6254,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="Menu.ZoomPage.CurrentZoomLevel.AccessibilityLabel.v113" xml:space="preserve">
         <source>Current Zoom Level: %@</source>
-        <note>Accessibility label for current zoom level in Zoom Page Bar. The placeholder represents the zoom level</note>
+        <note>Accessibility label for current zoom level in Zoom Page Bar. %@ represents the zoom level</note>
       </trans-unit>
       <trans-unit id="Menu.ZoomPage.DecreaseZoom.AccessibilityLabel.v113" xml:space="preserve">
         <source>Decrease Zoom Level</source>
