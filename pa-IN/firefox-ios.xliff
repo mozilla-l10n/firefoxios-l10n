@@ -3716,22 +3716,22 @@
       <trans-unit id="Bookmarks Menu" xml:space="preserve">
         <source>Bookmarks Menu</source>
         <target>ਬੁੱਕਮਾਰਕ ਮੀਨੂ</target>
-        <note>The name of the folder that contains desktop bookmarks in the menu. This should match bookmarks.folder.menu.label on Android.</note>
+        <note>The name of the folder that contains desktop bookmarks in the menu.</note>
       </trans-unit>
       <trans-unit id="Bookmarks Toolbar" xml:space="preserve">
         <source>Bookmarks Toolbar</source>
         <target>ਬੁੱਕਮਾਰਕ ਟੂਲਬਾਰ</target>
-        <note>The name of the folder that contains desktop bookmarks in the toolbar. This should match bookmarks.folder.toolbar.label on Android.</note>
+        <note>The name of the folder that contains desktop bookmarks in the toolbar.</note>
       </trans-unit>
       <trans-unit id="Mobile Bookmarks" xml:space="preserve">
         <source>Mobile Bookmarks</source>
         <target>ਮੋਬਾਈਲ ਬੁੱਕਮਾਰਕ</target>
-        <note>The legacy title of the folder that contains mobile bookmarks. This should match bookmarks.folder.mobile.label on Android.</note>
+        <note>The legacy title of the folder that contains mobile bookmarks.</note>
       </trans-unit>
       <trans-unit id="Unsorted Bookmarks" xml:space="preserve">
         <source>Unsorted Bookmarks</source>
         <target>ਗ਼ੈਰ-ਲੜੀਬੱਧ ਬੁੱਕਮਾਰਕ</target>
-        <note>The name of the folder that contains unsorted desktop bookmarks. This should match bookmarks.folder.unfiled.label on Android.</note>
+        <note>The name of the folder that contains unsorted desktop bookmarks.</note>
       </trans-unit>
     </body>
   </file>
@@ -3871,6 +3871,10 @@ Private Tab</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
     </header>
     <body>
+      <trans-unit id="AddressToolbar.CancelEdit.Label.v138" xml:space="preserve">
+        <source>Cancel</source>
+        <note>Label for button in the address toolbar, that cancels editing the address field when tapped.</note>
+      </trans-unit>
       <trans-unit id="AddressToolbar.Location.A11y.Label.v128" xml:space="preserve">
         <source>Search or enter address</source>
         <target>ਖੋਜੋ ਜਾਂ ਸਿਰਨਾਵਾਂ ਦਿਓ</target>
@@ -4017,15 +4021,55 @@ Private Tab</source>
         <target>ਅਣ-ਚੁਣਿਆ</target>
         <note>On the app icon customization screen where you can select an alternate icon for the app, this is the accessibility label describing an unfilled checkbox for an unselected app icon option.</note>
       </trans-unit>
+      <trans-unit id="Settings.AppIconSelection.AppIconNames.Blue.Title.v136" xml:space="preserve">
+        <source>Blue</source>
+        <note>On the app icon customization screen where you can select an alternate icon for the app, this is the name of the Firefox icon with a blue background.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AppIconSelection.AppIconNames.BlueGradient.Title.v136" xml:space="preserve">
+        <source>Blue Gradient</source>
+        <note>On the app icon customization screen where you can select an alternate icon for the app, this is the name of the Firefox icon with a blue gradient background.</note>
+      </trans-unit>
       <trans-unit id="Settings.AppIconSelection.AppIconNames.DarkPurple.Title.v136" xml:space="preserve">
         <source>Dark Purple</source>
         <target>ਗੂੜ੍ਹਾ ਜਾਮਨੀ</target>
         <note>On the app icon customization screen where you can select an alternate icon for the app, this is the name of the Firefox for iOS icon with a dark purple background.</note>
       </trans-unit>
+      <trans-unit id="Settings.AppIconSelection.AppIconNames.Green.Title.v136" xml:space="preserve">
+        <source>Green</source>
+        <note>On the app icon customization screen where you can select an alternate icon for the app, this is the name of the Firefox icon with a green background.</note>
+      </trans-unit>
       <trans-unit id="Settings.AppIconSelection.AppIconNames.Hug.Title.v136" xml:space="preserve">
         <source>Hug</source>
         <target>ਜੱਫੀ</target>
         <note>On the app icon customization screen where you can select an alternate icon for the app, this is the name of the artsy Firefox for iOS icon of a character hugging the Firefox logo.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AppIconSelection.AppIconNames.Lazy.Title.v136" xml:space="preserve">
+        <source>Lazy</source>
+        <note>On the app icon customization screen where you can select an alternate icon for the app, this is the name of the artsy Firefox for iOS icon of a funny fox lying on top of a globe.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AppIconSelection.AppIconNames.OrangeGradient.Title.v136" xml:space="preserve">
+        <source>Orange Gradient</source>
+        <note>On the app icon customization screen where you can select an alternate icon for the app, this is the name of the Firefox icon with an orange gradient background.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AppIconSelection.AppIconNames.Pink.Title.v136" xml:space="preserve">
+        <source>Pink</source>
+        <note>On the app icon customization screen where you can select an alternate icon for the app, this is the name of the Firefox icon with a pink background.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AppIconSelection.AppIconNames.Pixelated.Retro.Title.v136" xml:space="preserve">
+        <source>Retro</source>
+        <note>On the app icon customization screen where you can select an alternate icon for the app, this is the name of a retro version of the regular Firefox for iOS app icon.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AppIconSelection.AppIconNames.Pixelated.Title.v136" xml:space="preserve">
+        <source>Pixelated</source>
+        <note>On the app icon customization screen where you can select an alternate icon for the app, this is the name of a pixelated version of the regular Firefox for iOS app icon.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AppIconSelection.AppIconNames.Pride.Title.v136" xml:space="preserve">
+        <source>Pride</source>
+        <note>On the app icon customization screen where you can select an alternate icon for the app, this is the name of a LGBT+ pride fox logo.</note>
+      </trans-unit>
+      <trans-unit id="Settings.AppIconSelection.AppIconNames.RedGradient.Title.v136" xml:space="preserve">
+        <source>Red Gradient</source>
+        <note>On the app icon customization screen where you can select an alternate icon for the app, this is the name of the Firefox icon with a red gradient background.</note>
       </trans-unit>
       <trans-unit id="Settings.AppIconSelection.AppIconNames.Regular.Title.v136" xml:space="preserve">
         <source>Default</source>
@@ -5145,6 +5189,25 @@ Private Tab</source>
         <source>Last Hour</source>
         <target>ਆਖਰੀ ਘੰਟਾ</target>
         <note>This label is meant to signify the section containing a group of items from the past hour. This is primarily used in the history library panel when grouping sites that have been visited in the last hour.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/LiveActivity.strings" source-language="en-US" target-language="pa-IN" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
+    </header>
+    <body>
+      <trans-unit id="LiveActivity.Downloads.FileCountText.v138" xml:space="preserve">
+        <source>Downloading Files: %@</source>
+        <note>Displayed during a download in Live Activity or Dynamic Island. %@ is the number of files (e.g. Downloading Files: 2).</note>
+      </trans-unit>
+      <trans-unit id="LiveActivity.Downloads.FileNameText.v138" xml:space="preserve">
+        <source>Downloading “%@”</source>
+        <note>Displayed during a download in Live Activity or Dynamic Island. %@ is the name of the file being downloaded (e.g. Downloading “MyFile.pdf”).</note>
+      </trans-unit>
+      <trans-unit id="LiveActivity.Downloads.FileProgressText.v138" xml:space="preserve">
+        <source>%1$@ of %2$@</source>
+        <note>Displayed during a download in Live Activity or Dynamic Island to show the current progress of the file(s) download. %1$@ is the downloaded size, %2$@ is the total size of the file(s) (e.g. 10 MB of 200 MB).</note>
       </trans-unit>
     </body>
   </file>
