@@ -323,6 +323,30 @@
         <target>Zhašeć</target>
         <note>Action button for deleting history entries in the history panel.</note>
       </trans-unit>
+      <trans-unit id="LibraryPanel.History.AllTimeOption.v138" xml:space="preserve">
+        <source>All Time</source>
+        <note>Destructive action button on the “Clear browsing history“ action sheet used to clear all browsing history</note>
+      </trans-unit>
+      <trans-unit id="LibraryPanel.History.LastFourWeeksOption.v138" xml:space="preserve">
+        <source>Last 4 Weeks</source>
+        <note>Destructive action button on the “Clear browsing history“ action sheet used to clear browsing history for the last 4 weeks</note>
+      </trans-unit>
+      <trans-unit id="LibraryPanel.History.LastHourOption.v138" xml:space="preserve">
+        <source>Last Hour</source>
+        <note>Destructive action button on the “Clear browsing history“ action sheet used to clear browsing history for the last hour</note>
+      </trans-unit>
+      <trans-unit id="LibraryPanel.History.LastSevenDaysOption.v138" xml:space="preserve">
+        <source>Last 7 Days</source>
+        <note>Destructive action button on the “Clear browsing history“ action sheet used to clear browsing history for the last 7 days</note>
+      </trans-unit>
+      <trans-unit id="LibraryPanel.History.LastTwentyFourHoursOption.v138" xml:space="preserve">
+        <source>Last 24 Hours</source>
+        <note>Destructive action button on the “Clear browsing history“ action sheet used to clear browsing history for the last 24 hours</note>
+      </trans-unit>
+      <trans-unit id="LibraryPanel.History.Title.v138" xml:space="preserve">
+        <source>Deletes history (including synced history from other devices), cookies, and other browsing data.</source>
+        <note>Title of the “Clear browsing history“ action sheet</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Shared/en.lproj/Intro.strings" source-language="en-US" target-language="hsb" datatype="plaintext">
@@ -5255,10 +5279,26 @@ Private Tab</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
     </header>
     <body>
+      <trans-unit id="LibraryPanel.Section.Older" xml:space="preserve">
+        <source>Older</source>
+        <note>This label is meant to signify the section containing a group of items that are older than thirty days.</note>
+      </trans-unit>
+      <trans-unit id="LibraryPanel.Sections.LastFourWeeks.v138" xml:space="preserve">
+        <source>Last 4 Weeks</source>
+        <note>Section title that, when expanded, shows all web browsing history entries for the last 4 weeks beneath it (not including entries from the less inclusive sections)</note>
+      </trans-unit>
       <trans-unit id="LibraryPanel.Sections.LastHour.v134" xml:space="preserve">
         <source>Last Hour</source>
         <target>Zańdźena hodźina</target>
         <note>This label is meant to signify the section containing a group of items from the past hour. This is primarily used in the history library panel when grouping sites that have been visited in the last hour.</note>
+      </trans-unit>
+      <trans-unit id="LibraryPanel.Sections.LastSevenDays.v138" xml:space="preserve">
+        <source>Last 7 Days</source>
+        <note>Section title that, when expanded, shows all web browsing history entries for the last 7 days beneath it (not including entries from the less inclusve sections)</note>
+      </trans-unit>
+      <trans-unit id="LibraryPanel.Sections.LastTwentyFourHours.v138" xml:space="preserve">
+        <source>Last 24 Hours</source>
+        <note>Section title that, when expanded, shows all web browsing history entries for the last 24 hours beneath it (not including entries from the less inclusive sections)</note>
       </trans-unit>
     </body>
   </file>
