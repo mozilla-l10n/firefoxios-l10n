@@ -9,52 +9,41 @@ Check if Pontoon locales are missing in the repository for iOS projects.
 """
 
 import argparse
-import json
+import requests
 import sys
 from urllib.parse import quote as urlquote
-from urllib.request import urlopen
 
 
 def getPontoonLocales(project_slug):
-    query = f"""
-{{
-  project: project(slug: "{project_slug}") {{
-    localizations {{
-        locale {{
-            code
-        }},
-        missingStrings,
-        totalStrings
-    }}
-  }}
-}}
-"""
-    url = f"https://pontoon.mozilla.org/graphql?query={urlquote(query)}&raw"
-
     try:
-        response = urlopen(url)
-        json_data = json.load(response)
-        if "errors" in json_data:
-            sys.exit(f"Project {project_slug} not found in Pontoon.")
-
         locale_list = []
-        for e in json_data["data"]["project"]["localizations"]:
-            # Only add locales not at 0%
-            if e["missingStrings"] != e["totalStrings"]:
-                locale_list.append(e["locale"]["code"])
+        url = f"https://pontoon.mozilla.org/api/v2/projects/{project_slug}"
+        page = 1
+        while url:
+            response = requests.get(url)
+            response.raise_for_status()
+            data = response.json()
+
+            for locale, locale_data in data.get("localizations", {}).items():
+                if (
+                    locale_data["unreviewed_strings"] != locale_data["total_strings"]
+                    and locale != "es-ES"
+                ):
+                    locale_list.append(locale)
+            # Get the next page URL
+            url = data.get("next")
+            page += 1
         locale_list.sort()
+    except requests.RequestException as e:
+        print(f"Error fetching data: {e}")
+        sys.exit()
 
-        # Ignore es-ES missing from builds, since es is imported
-        locale_list.remove("es-ES")
-
-        return locale_list
-    except Exception as e:
-        sys.exit(e)
+    return locale_list
 
 
 def getGithubLocales(repo, path):
-    query = f"/repos/{repo}/contents/{path}"
-    url = f"https://api.github.com{urlquote(query)}"
+    query = f"/repos/{repo}/contents/{urlquote(path)}"
+    url = f"https://api.github.com{query}"
 
     ignored_locales = ["Base", "en", "en-US"]
     locale_mapping = {
@@ -69,8 +58,9 @@ def getGithubLocales(repo, path):
     }
 
     try:
-        response = urlopen(url)
-        json_data = json.load(response)
+        response = requests.get(url)
+        response.raise_for_status()
+        json_data = response.json()
 
         locale_list = [
             e["name"][:-6]
