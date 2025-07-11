@@ -5263,10 +5263,18 @@ Private Tab</source>
         <target>გამოიყენეთ მოწყობილობა კვალის დაუტოვებლად</target>
         <note>The title for the card that educates users about how private mode works. The card shows up on the homepage when in the new privacy mode.</note>
       </trans-unit>
+      <trans-unit id="FirefoxHomepage.SearchBar.PlaceholderTitle.v142" xml:space="preserve">
+        <source>Search or enter address</source>
+        <note>This is the placeholder text that is at the center of the search bar on the Firefox Homepage.</note>
+      </trans-unit>
       <trans-unit id="FirefoxHomepage.Shortcuts.Pinned.AccessibilityLabel.v139" xml:space="preserve">
         <source>Pinned: %@</source>
         <target>მიმაგრებული: %@</target>
         <note>Accessibility label for shortcuts tile on the Firefox home page, indicating that the tile is a pinned tile. %@ is the title of the website.</note>
+      </trans-unit>
+      <trans-unit id="FirefoxHomepage.Shortcuts.SectionTitle.v142" xml:space="preserve">
+        <source>Shortcuts</source>
+        <note>This is the section title for the Shortcuts section on Firefox Homepage.</note>
       </trans-unit>
     </body>
   </file>
@@ -5478,6 +5486,14 @@ Private Tab</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.3" build-num="16E140"/>
     </header>
     <body>
+      <trans-unit id="ContextualHints.MainMenu.MenuRedesign.Body.v142" xml:space="preserve">
+        <source>Bookmarks, history, and settings — all at your fingertips.</source>
+        <note>Contextual hints are little popups that appear for the users informing them of new features. When a user opens the new menu design for the first time, this contextual hint appears. This is the body text for the hint.</note>
+      </trans-unit>
+      <trans-unit id="ContextualHints.MainMenu.MenuRedesign.Title.v142" xml:space="preserve">
+        <source>New menu, no clutter</source>
+        <note>Contextual hints are little popups that appear for the users informing them of new features. When a user opens the new menu design for the first time, this contextual hint appears. This is the title for the hint.</note>
+      </trans-unit>
       <trans-unit id="ContextualHints.MainMenu.NewMenu.Body.v132" xml:space="preserve">
         <source>Find what you need faster, from private browsing to save actions.</source>
         <target>მონახეთ, რაც სწრაფად გესაჭიროებათ, პირადი თვალიერებიდან დაწყებული მოქმედებების შენახვით დამთავრებული.</target>
@@ -5492,6 +5508,14 @@ Private Tab</source>
         <source>Bookmark Page</source>
         <target>გვერდის ჩანიშვნა</target>
         <note>On the main menu, the accessibility label for the menu component that allows a user to save a bookmark for this particular page..</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.AccessibilityLabels.CloseButton.142" xml:space="preserve">
+        <source>Close Menu</source>
+        <note>The accessibility label for the close button in the Main menu.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.AccessibilityLabels.DismissBanner.142" xml:space="preserve">
+        <source>Dismiss banner</source>
+        <note>The accessibility label for the dismiss button, for header banner, on top of the menu.</note>
       </trans-unit>
       <trans-unit id="MainMenu.AccessibilityLabels.OptionDisabled.Hint.v133" xml:space="preserve">
         <source>Dimmed</source>
@@ -5552,6 +5576,14 @@ Private Tab</source>
         <source>Bookmark Page</source>
         <target>გვერდის ჩანიშვნა</target>
         <note>On the main menu,the title for the menu component that allows a user to save a bookmark for this particular page..</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.DesktopSiteOff.Title.v142" xml:space="preserve">
+        <source>Off</source>
+        <note>On the main menu, a title for a label that indicate the Desktop Site option from menu, is OFF.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.DesktopSiteOn.Title.v142" xml:space="preserve">
+        <source>On</source>
+        <note>On the main menu, a title for a label that indicate the Desktop Site option from menu, is ON.</note>
       </trans-unit>
       <trans-unit id="MainMenu.HeaderBanner.Subtitle.v142" xml:space="preserve">
         <source>Takes seconds. Change anytime.</source>
@@ -5998,10 +6030,18 @@ Private Tab</source>
         <target>ახალი ჩანართი</target>
         <note>On the main menu, the title for the action that will create a new, non-private, tab.</note>
       </trans-unit>
+      <trans-unit id="MainMenu.ToolsSection.AccessibilityLabels.CollapsedHint.v142" xml:space="preserve">
+        <source>Collapsed</source>
+        <note>On the main menu, the accessibility label hint for the action that will show more menu options in the current section of the menu.</note>
+      </trans-unit>
       <trans-unit id="MainMenu.ToolsSection.AccessibilityLabels.DesktopSite.Title.v141" xml:space="preserve">
         <source>Desktop Site</source>
         <target>სრული საიტი</target>
         <note>On the main menu, the accessibility label for the action that will switch a site user agent value, if available.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.ToolsSection.AccessibilityLabels.ExpandedHint.v142" xml:space="preserve">
+        <source>Expanded</source>
+        <note>On the main menu, the accessibility label hint for the action that will show more menu options in the current section of the menu. Hint will be called when menu is expanded.</note>
       </trans-unit>
       <trans-unit id="MainMenu.ToolsSection.AccessibilityLabels.FindInPage.v132" xml:space="preserve">
         <source>Find in page</source>
@@ -6013,10 +6053,18 @@ Private Tab</source>
         <target>შემოკლებულად</target>
         <note>On the main menu, the accessibility label for the action that will hide some menu options in the current section of the menu.</note>
       </trans-unit>
+      <trans-unit id="MainMenu.ToolsSection.AccessibilityLabels.LibraryOptions.v142" xml:space="preserve">
+        <source>Library</source>
+        <note>On the main menu, the accessibility label for a group of items in menu. (items like Downloads, History, Passwords...)</note>
+      </trans-unit>
       <trans-unit id="MainMenu.ToolsSection.AccessibilityLabels.MoreOptions.v141" xml:space="preserve">
         <source>More</source>
         <target>გავრცობილად</target>
         <note>On the main menu, the accessibility label for the action that will show more menu options in the current section of the menu.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.ToolsSection.AccessibilityLabels.PageZoom.Title.v142" xml:space="preserve">
+        <source>Page Zoom</source>
+        <note>On the main menu, the accessibility label for the action that will open the page zoom tool.</note>
       </trans-unit>
       <trans-unit id="MainMenu.ToolsSection.AccessibilityLabels.Save.v132" xml:space="preserve">
         <source>Save</source>
@@ -6047,6 +6095,10 @@ Private Tab</source>
         <source>Tools submenu</source>
         <target>ხელსაწყოების ქვემენიუ</target>
         <note>On the main menu, the accessibility label for the action that will take the user to the Tools submenu in the menu.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.ToolsSection.AccessibilityLabels.WebsiteDarkMode.Title.v142" xml:space="preserve">
+        <source>Website Dark Mode</source>
+        <note>On the main menu, the accessibility label for the action that will switch dark mode to on or off.</note>
       </trans-unit>
       <trans-unit id="MainMenu.ToolsSection.DesktopSite.Title.v141" xml:space="preserve">
         <source>Desktop Site</source>
@@ -6092,6 +6144,14 @@ Private Tab</source>
         <source>Tools</source>
         <target>ხელსაწყოები</target>
         <note>On the main menu, the title for the action that will take the user to the Tools submenu in the menu.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.WebsiteDarkModeOffV2.Title.v142" xml:space="preserve">
+        <source>Off</source>
+        <note>On the main menu, a title for a label that indicate the Website Dark Mode option from menu, is OFF.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.WebsiteDarkModeOnV2.Title.v142" xml:space="preserve">
+        <source>On</source>
+        <note>On the main menu, a title for a label that indicate the Website Dark Mode option from menu, is ON.</note>
       </trans-unit>
     </body>
   </file>
@@ -6483,8 +6543,7 @@ Sync on all your devices</source>
         <target>საიტების ელვისებურად გახსნა
 თვალთვალისგან თავისთავადი დაცვა
 დასინქრონება ყველა მოწყობილობაზე</target>
-        <note>Subtitle for the Terms of Service screen in the onboarding process. The '
-' symbols denote empty lines separating the first link parameter from the rest of the text.</note>
+        <note>Subtitle for the Terms of Service screen in the onboarding process. The '\n' symbols denote empty lines separating the first link parameter from the rest of the text.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.TermsOfServiceAgreement.v140" xml:space="preserve">
         <source>By continuing, you agree to the %@</source>
