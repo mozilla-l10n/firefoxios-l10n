@@ -14,6 +14,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+      - name: Install Python dependencies
+        run: |
+          pip install -r .github/scripts/requirements.txt
       - name: Check product locales
         run: |
           python .github/scripts/check_product_locales.py --product firefox
