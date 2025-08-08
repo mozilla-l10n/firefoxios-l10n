@@ -367,7 +367,7 @@
     <body>
       <trans-unit id="Intro.Slides.Button.SignIn" xml:space="preserve">
         <source>Sign In</source>
-        <target>Autentifică-te</target>
+        <target>Intră în cont</target>
         <note>Sign in to Firefox account button on second intro screen.</note>
       </trans-unit>
       <trans-unit id="Intro.Slides.Welcome.Title.v2" xml:space="preserve">
@@ -399,12 +399,12 @@
       </trans-unit>
       <trans-unit id="A username and password are being requested by %@." xml:space="preserve">
         <source>A username and password are being requested by %@.</source>
-        <target>Un nume de utilizator și parolă sunt solicitate de %@.</target>
+        <target>%@ îți cere un nume de utilizator și o parolă.</target>
         <note>Authentication prompt message with no realm. %@ is the hostname of the site.</note>
       </trans-unit>
       <trans-unit id="A username and password are being requested by %@. The site says: %@" xml:space="preserve">
         <source>A username and password are being requested by %1$@. The site says: %2$@</source>
-        <target>Un nume de utilizator și parolă sunt solicitate de %1$@. Site-ul spune: %2$@</target>
+        <target>%1$@ îți cere un nume de utilizator și o parolă. Site-ul spune: %2$@</target>
         <note>Authentication prompt message with a realm. %1$@ is the hostname, %2$@ is the realm string.</note>
       </trans-unit>
       <trans-unit id="Aa" xml:space="preserve">
@@ -499,6 +499,7 @@
       </trans-unit>
       <trans-unit id="Address.Bar.v99" xml:space="preserve">
         <source>Address Bar</source>
+        <target>Bară de adrese</target>
         <note>Accessibility label for the Address Bar, where a user can enter the search they wish to make</note>
       </trans-unit>
       <trans-unit id="Always Send" xml:space="preserve">
@@ -513,7 +514,7 @@
       </trans-unit>
       <trans-unit id="Authentication required" xml:space="preserve">
         <source>Authentication required</source>
-        <target>Autentificare necesară</target>
+        <target>Necesită autentificare</target>
         <note>Authentication prompt title</note>
       </trans-unit>
       <trans-unit id="Back" xml:space="preserve">
@@ -563,6 +564,7 @@
       </trans-unit>
       <trans-unit id="Bookmarks.Menu.DesktopBookmarks" xml:space="preserve">
         <source>Desktop Bookmarks</source>
+        <target>Marcaje de pe desktop</target>
         <note>A label indicating all bookmarks grouped under the category 'Desktop Bookmarks'.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.NewBookmark.Label" xml:space="preserve">
@@ -662,6 +664,7 @@
       </trans-unit>
       <trans-unit id="ContextMenu.ButtonToast.NewPrivateTabOpened.LabelText.v113" xml:space="preserve">
         <source>New Private Tab Opened</source>
+        <target>Filă privată nouă deschisă</target>
         <note>The label text in the Button Toast for switching to a fresh New Private Tab.</note>
       </trans-unit>
       <trans-unit id="ContextMenu.ButtonToast.NewTabOpened.ButtonText" xml:space="preserve">
@@ -676,6 +679,7 @@
       </trans-unit>
       <trans-unit id="ContextMenu.ButtonToast.NewTabOpened.LabelText.v114" xml:space="preserve">
         <source>New Tab Opened</source>
+        <target>Filă nouă deschisă</target>
         <note>The label text in the Button Toast for switching to a fresh New Tab.</note>
       </trans-unit>
       <trans-unit id="ContextMenu.CopyImageButtonTitle" xml:space="preserve">
@@ -715,18 +719,22 @@
       </trans-unit>
       <trans-unit id="ContextualHints.SearchBarPlacement.CallToAction" xml:space="preserve">
         <source>Toolbar Settings</source>
+        <target>Setări bară de instrumente</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one is a call to action for the popup describing search bar placement. It indicates a user can navigate to the settings page that allows them to customize the placement of the search bar.</note>
       </trans-unit>
       <trans-unit id="ContextualHints.TabTray.InactiveTabs" xml:space="preserve">
         <source>Tabs you haven’t viewed for two weeks get moved here.</source>
+        <target>Filele pe care nu ai intrat de două săptămâni sunt mutate aici.</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one talks about the inactive tabs feature.</note>
       </trans-unit>
       <trans-unit id="ContextualHints.TabTray.InactiveTabs.CallToAction" xml:space="preserve">
         <source>Turn off in settings</source>
+        <target>Oprește din setări</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This one is the call to action for the inactive tabs contextual popup.</note>
       </trans-unit>
       <trans-unit id="ContextualHintsCloseButtonAccessibility.v105" xml:space="preserve">
         <source>Close</source>
+        <target>Închide</target>
         <note>Accessibility label for action denoting closing contextual hint.</note>
       </trans-unit>
       <trans-unit id="Could not add page to Reading List. Maybe it’s already there?" xml:space="preserve">
@@ -781,6 +789,7 @@
       </trans-unit>
       <trans-unit id="DefaultBrowserCloseButtonAccessibility.v102" xml:space="preserve">
         <source>Close</source>
+        <target>Închide</target>
         <note>Accessibility label for action denoting closing default browser home tab banner.</note>
       </trans-unit>
       <trans-unit id="Display Settings" xml:space="preserve">
@@ -935,62 +944,77 @@
       </trans-unit>
       <trans-unit id="FirefoxHome.CustomizeHomeButton.Title" xml:space="preserve">
         <source>Customize Homepage</source>
+        <target>Personalizează pagina de start</target>
         <note>A button at bottom of the Firefox homepage that, when clicked, takes users straight to the settings options, where they can customize the Firefox Home page</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.Pocket.DiscoverMore" xml:space="preserve">
         <source>Discover more</source>
+        <target>Descoperă mai multe</target>
         <note>At the end of the Pocket section on the Firefox Homepage, this button appears and indicates tapping it will navigate the user to more Pocket Stories.</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.Pocket.Minutes.v99" xml:space="preserve">
         <source>%d min</source>
+        <target>%d min</target>
         <note>On each Pocket Stories on the Firefox Homepage, this label appears and indicates the number of minutes to read an article. Minutes should be abbreviated due to space constraints. %d represents the number of minutes</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.Pocket.SectionTitle" xml:space="preserve">
         <source>Thought-Provoking Stories</source>
+        <target>Povești care te pun pe gânduri</target>
         <note>This is the title of the Pocket section on Firefox Homepage.</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.RecentHistory.Remove" xml:space="preserve">
         <source>Remove</source>
+        <target>Elimină</target>
         <note>When a user taps and holds on an item from the Recently Visited section, this label will appear indicating the option to remove that item.</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.Stories.Minutes.v140" xml:space="preserve">
         <source>min: %d</source>
+        <target>min: %d</target>
         <note>On each Story on the Firefox Homepage, this label appears and indicates the number of minutes to read an article. Minutes should be abbreviated due to space constraints. %d represents the number of minutes</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.Common.PagesCount.v112" xml:space="preserve">
         <source>Pages: %d</source>
+        <target>Pagini: %d</target>
         <note>Label showing how many pages there is in a search group. %d represents a number</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.ContextualMenu.Settings.v101" xml:space="preserve">
         <source>Settings</source>
+        <target>Setări</target>
         <note>The title for the Settings context menu action for sponsored tiles in the Firefox home page shortcuts section. Clicking this brings the users to the Shortcuts Settings.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.ContextualMenu.SponsoredContent.v101" xml:space="preserve">
         <source>Our Sponsors &amp; Your Privacy</source>
+        <target>Sponsorii noștri și confidențialitatea ta</target>
         <note>The title for the Sponsored Content context menu action for sponsored tiles in the Firefox home page shortcuts section. Clicking this brings the users to a support page where users can learn more about Sponsored content and how it works.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.JumpBackIn.TabPickup.OpenTab.A11y.v106" xml:space="preserve">
         <source>Open synced tab</source>
+        <target>Deschide fila sincronizată</target>
         <note>Accessibility action title to open the synced tab for tab pickup on the Firefox homepage in the Jump Back In section.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.JumpBackIn.TabPickup.ShowAll.ButtonTitle.v104" xml:space="preserve">
         <source>See all synced tabs</source>
+        <target>Vezi toate filele sincronizate</target>
         <note>Button title shown for tab pickup on the Firefox homepage in the Jump Back In section.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.JumpBackIn.TabPickup.v104" xml:space="preserve">
         <source>Tab pickup</source>
+        <target>Recuperare file</target>
         <note>If a user is signed in, and a sync has been performed to collect their recent tabs from other signed in devices, their most recent tab from another device can now appear in the Jump Back In section. This label specifically points out which cell inside the Jump Back In section shows that synced tab.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.Pocket.Sponsored.v103" xml:space="preserve">
         <source>Sponsored</source>
+        <target>Sponsorizat</target>
         <note>This string will show under the description on pocket story, indicating that the story is sponsored.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.Shortcuts.Sponsored.v100" xml:space="preserve">
         <source>Sponsored</source>
+        <target>Sponsorizat</target>
         <note>This string will show under a shortcuts tile on the firefox home page, indicating that the tile is a sponsored tile. Space is limited, please keep as short as possible.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.Stories.Sponsored.v140" xml:space="preserve">
         <source>Sponsored</source>
+        <target>Sponsorizat</target>
         <note>This string will show under the description on pocket story, indicating that the story is sponsored.</note>
       </trans-unit>
       <trans-unit id="Forward" xml:space="preserve">
@@ -1055,6 +1079,7 @@
       </trans-unit>
       <trans-unit id="FxHomepage.Wallpaper.ButtonLabel.v99" xml:space="preserve">
         <source>Firefox logo, change the wallpaper.</source>
+        <target>Sigla Firefox, schimbă imaginea de fundal.</target>
         <note>On the firefox homepage, the string read by the voice over prompt for accessibility, for the button which changes the wallpaper</note>
       </trans-unit>
       <trans-unit id="Help" xml:space="preserve">
@@ -1124,6 +1149,7 @@
       </trans-unit>
       <trans-unit id="Home" xml:space="preserve">
         <source>Home</source>
+        <target>Acasă</target>
         <note>Accessibility label for the tab toolbar indicating the Home button.</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.Bookmark" xml:space="preserve">
@@ -1138,6 +1164,7 @@
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewPrivateTab.v101" xml:space="preserve">
         <source>Open in a Private Tab</source>
+        <target>Deschide într-o filă privată</target>
         <note>The title for the Open in New Private Tab context menu action for sites in Home Panels</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.OpenInNewTab" xml:space="preserve">
@@ -1222,6 +1249,7 @@
       </trans-unit>
       <trans-unit id="InactiveTabs.TabTray.CloseButtonTitle" xml:space="preserve">
         <source>Close All Inactive Tabs</source>
+        <target>Închide toate filele inactive</target>
         <note>In the Tabs Tray, in the Inactive Tabs section, this is the button the user must tap in order to close all inactive tabs.</note>
       </trans-unit>
       <trans-unit id="Increase text size" xml:space="preserve">
@@ -1231,22 +1259,27 @@
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.ActualSize" xml:space="preserve">
         <source>Actual Size</source>
+        <target>Mărime reală</target>
         <note>A label indicating the keyboard shortcut of resetting a web page's view to the standard viewing size. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.AddBookmark" xml:space="preserve">
         <source>Add Bookmark</source>
+        <target>Adaugă un marcaj</target>
         <note>A label indicating the keyboard shortcut of adding the currently viewing web page as a bookmark. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.ClearRecentHistory" xml:space="preserve">
         <source>Clear Recent History</source>
+        <target>Șterge istoricul recent</target>
         <note>A label indicating the keyboard shortcut of clearing recent history. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.FindAgain" xml:space="preserve">
         <source>Find Again</source>
+        <target>Caută din nou</target>
         <note>A label indicating the keyboard shortcut of finding text a user desires within a page again. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.RefreshWithoutCache.v108" xml:space="preserve">
         <source>Reload Ignoring Cache</source>
+        <target>Reîncarcă cu ignorarea cache-ului</target>
         <note>A label indicating the keyboard shortcut to reload a tab without it's cache. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.Section.Bookmark" xml:space="preserve">
@@ -1256,6 +1289,7 @@
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.Section.History" xml:space="preserve">
         <source>History</source>
+        <target>Istoric</target>
         <note>A label indicating a grouping of related keyboard shortcuts describing actions a user can do with History. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.Section.Tools" xml:space="preserve">
@@ -1265,38 +1299,47 @@
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.Section.Window" xml:space="preserve">
         <source>Window</source>
+        <target>Fereastră</target>
         <note>A label indicating a grouping of related keyboard shortcuts describing actions a user can take when navigating between their availale set of tabs. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.Settings" xml:space="preserve">
         <source>Settings</source>
+        <target>Setări</target>
         <note>A label indicating the keyboard shortcut of opening the application's settings menu. This label is displayed inside the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.ShowBookmarks" xml:space="preserve">
         <source>Show Bookmarks</source>
+        <target>Afișează marcajele</target>
         <note>A label indicating the keyboard shortcut of showing all bookmarks. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.ShowDownloads" xml:space="preserve">
         <source>Show Downloads</source>
+        <target>Afișează descărcările</target>
         <note>A label indcating the keyboard shortcut of showing all downloads. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.ShowFirstTab" xml:space="preserve">
         <source>Show First Tab</source>
+        <target>Afișează prima filă</target>
         <note>A label indicating the keyboard shortcut to switch from the current tab to the first tab. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.ShowHistory" xml:space="preserve">
         <source>Show History</source>
+        <target>Afișează istoricul</target>
         <note>A label indicating the keyboard shortcut of showing all history. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.ShowLastTab" xml:space="preserve">
         <source>Show Last Tab</source>
+        <target>Afișează ultima filă</target>
         <note>A label indicating the keyboard shortcut switch from your current tab to the last tab. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.ZoomIn" xml:space="preserve">
         <source>Zoom In</source>
+        <target>Mărește</target>
         <note>A label indicating the keyboard shortcut of enlarging the view of the current web page. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Keyboard.Shortcuts.ZoomOut" xml:space="preserve">
         <source>Zoom Out</source>
+        <target>Micșorează</target>
         <note>A label indicating the keyboard shortcut of shrinking the view of the current web page. This label is displayed in the Discoverability overlay when a user presses the Command key. The Discoverability overlay and shortcut become available only when a user has connected a hardware keyboard to an iPad. See https://drive.google.com/file/d/1gH3tbvDceg7yG5N67NIHS-AXgDgCzBHN/view?usp=sharing for more details.</note>
       </trans-unit>
       <trans-unit id="Last month" xml:space="preserve">
@@ -1311,34 +1354,42 @@
       </trans-unit>
       <trans-unit id="LibraryPanel.Accessibility.Bookmarks.v106" xml:space="preserve">
         <source>Bookmarks</source>
+        <target>Marcaje</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="LibraryPanel.Accessibility.History.v106" xml:space="preserve">
         <source>History</source>
+        <target>Istoric</target>
         <note>Panel accessibility label</note>
       </trans-unit>
       <trans-unit id="LibraryPanel.History.ClearGroupedTabsCancel.v100" xml:space="preserve">
         <source>Cancel</source>
+        <target>Anulează</target>
         <note>Within the History Panel, users can delete search group sites history. They can cancel this action by pressing a cancel button.</note>
       </trans-unit>
       <trans-unit id="LibraryPanel.History.ClearGroupedTabsDelete.v100" xml:space="preserve">
         <source>Delete</source>
+        <target>Șterge</target>
         <note>Within the History Panel, users can delete search group sites history. They need to confirm the action by pressing the delete button.</note>
       </trans-unit>
       <trans-unit id="LibraryPanel.History.ClearGroupedTabsTitle.v100" xml:space="preserve">
         <source>Delete all sites in %@?</source>
+        <target>Ștergi toate site-urile din %@?</target>
         <note>Within the History Panel, users can delete search group sites history. %@ represents the search group name.</note>
       </trans-unit>
       <trans-unit id="LibraryPanel.History.ClearHistoryMenuTitle.v100" xml:space="preserve">
         <source>Removes history (including history synced from other devices), cookies and other browsing data.</source>
+        <target>Elimină istoricul (inclusiv istoricul sincronizat de pe alte dispozitive), cookie-urile și alte date de navigare.</target>
         <note>Within the History Panel, users can open an action menu to clear recent history.</note>
       </trans-unit>
       <trans-unit id="LibraryPanel.History.DeleteGroupedItem.v104" xml:space="preserve">
         <source>Delete</source>
+        <target>Șterge</target>
         <note>Within the history panel, a user can navigate into a screen with only grouped history items. Within that screen, a user can now swipe to delete a single item in the list. This label informs the user of a deletion action on the item.</note>
       </trans-unit>
       <trans-unit id="LibraryPanel.History.NoHistoryFound.v99" xml:space="preserve">
         <source>No history found</source>
+        <target>Nu s-a găsit niciun istoric</target>
         <note>In the history panel, users will be able to search terms in their browsing history. This label is shown when there is no results after querying the search terms in the user's history.</note>
       </trans-unit>
       <trans-unit id="LibraryPanel.History.RecentlyClosedTabs.v99" xml:space="preserve">
@@ -1348,6 +1399,7 @@
       </trans-unit>
       <trans-unit id="LibraryPanel.History.SearchHistoryPlaceholder.v99" xml:space="preserve">
         <source>Enter search terms</source>
+        <target>Introdu termenii de căutare</target>
         <note>In the history panel, users will be able to search terms in their browsing history. This placeholder text inside the search component will indicate that a user can search through their browsing history.</note>
       </trans-unit>
       <trans-unit id="LibraryPanel.History.SyncedHistory.v100" xml:space="preserve">
@@ -1791,10 +1843,12 @@
       </trans-unit>
       <trans-unit id="ProtectionStatus.NotSecure" xml:space="preserve">
         <source>Connection is not secure</source>
+        <target>Conexiunea nu este securizată</target>
         <note>This is the value for a label that indicates if a user is on an unencrypted website.</note>
       </trans-unit>
       <trans-unit id="ProtectionStatus.Secure" xml:space="preserve">
         <source>Connection is secure</source>
+        <target>Conexiunea este securizată</target>
         <note>This is the value for a label that indicates if a user is on a secure https connection.</note>
       </trans-unit>
       <trans-unit id="Quick-Search Engines" xml:space="preserve">
@@ -1804,6 +1858,7 @@
       </trans-unit>
       <trans-unit id="Ratings.Settings.RateOnAppStore" xml:space="preserve">
         <source>Rate on App Store</source>
+        <target>Evaluează în App Store</target>
         <note>A label indicating the action that a user can rate the Firefox app in the App store.</note>
       </trans-unit>
       <trans-unit id="Reader View" xml:space="preserve">
@@ -1818,10 +1873,12 @@
       </trans-unit>
       <trans-unit id="ReaderModeBar.MarkAsRead.v106" xml:space="preserve">
         <source>Mark as Read</source>
+        <target>Marchează ca citit</target>
         <note>Name for Mark as read button in reader mode</note>
       </trans-unit>
       <trans-unit id="ReaderModeBar.MarkAsUnread.v106" xml:space="preserve">
         <source>Mark as Unread</source>
+        <target>Marchează ca necitit</target>
         <note>Name for Mark as unread button in reader mode</note>
       </trans-unit>
       <trans-unit id="Reading list" xml:space="preserve">
@@ -1836,6 +1893,7 @@
       </trans-unit>
       <trans-unit id="RecentlySaved.Actions.More" xml:space="preserve">
         <source>Show All</source>
+        <target>Afișează tot</target>
         <note>More button text for Recently Saved items at the home page.</note>
       </trans-unit>
       <trans-unit id="Reload" xml:space="preserve">
@@ -1905,6 +1963,7 @@
       </trans-unit>
       <trans-unit id="ScanQRCode.PermissionError.Message.v100" xml:space="preserve">
         <source>Go to device ‘Settings’ &gt; ‘Firefox’. Allow Firefox to access camera.</source>
+        <target>Mergi la „Setări” &gt; „Firefox” pe dispozitiv. Permite Firefox să acceseze camera.</target>
         <note>Text of the prompt to setup the camera authorization for the Scan QR Code feature.</note>
       </trans-unit>
       <trans-unit id="ScanQRCode.View.Title" xml:space="preserve">
@@ -1929,6 +1988,7 @@
       </trans-unit>
       <trans-unit id="Search.SuggestSectionTitle.v102" xml:space="preserve">
         <source>Firefox Suggest</source>
+        <target>Sugestii Firefox</target>
         <note>When making a new search from the awesome bar, suggestions appear to the user as they write new letters in their search. Different types of suggestions can appear. This string will be used as a header to separate Firefox suggestions from normal suggestions.</note>
       </trans-unit>
       <trans-unit id="Search.ThirdPartyEngines.AddMessage" xml:space="preserve">
@@ -2008,6 +2068,7 @@
       </trans-unit>
       <trans-unit id="SendTo.Close.Button" xml:space="preserve">
         <source>Close</source>
+        <target>Închide</target>
         <note>Close button in top navigation bar</note>
       </trans-unit>
       <trans-unit id="SendTo.DeviceList.Text" xml:space="preserve">
@@ -2142,42 +2203,52 @@
       </trans-unit>
       <trans-unit id="Settings.AddressBar.Bottom.v138" xml:space="preserve">
         <source>Bottom</source>
+        <target>Jos</target>
         <note>In the settings menu, in the Address Bar customization section, this label indicates that selecting this will make the address bar appear at the bottom of the screen.</note>
       </trans-unit>
       <trans-unit id="Settings.AddressBar.SectionTitle.v138" xml:space="preserve">
         <source>Address Bar Placement</source>
+        <target>Plasarea barei de adrese</target>
         <note>In the settings menu, in the Address Bar customization menu, this is the title of the section where the user can toggle the address bar position.</note>
       </trans-unit>
       <trans-unit id="Settings.AddressBar.SettingsTitle.v138" xml:space="preserve">
         <source>Address Bar</source>
+        <target>Bară de adrese</target>
         <note>In the settings menu, this label indicates that there is an option of customizing the Address Bar position.</note>
       </trans-unit>
       <trans-unit id="Settings.AddressBar.Top.v138" xml:space="preserve">
         <source>Top</source>
+        <target>Sus</target>
         <note>In the settings menu, in the Address Bar customization section, this label indicates that selecting this will make the address bar appear at the top of the screen.</note>
       </trans-unit>
       <trans-unit id="Settings.Appearance.BrowserTheme.SectionHeader.v137" xml:space="preserve">
         <source>Browser Theme</source>
+        <target>Temă browser</target>
         <note>Browser theme settings section title in Appearance settings</note>
       </trans-unit>
       <trans-unit id="Settings.Appearance.Title.v137" xml:space="preserve">
         <source>Appearance</source>
+        <target>Aspect</target>
         <note>Title in main app settings for Appearance settings</note>
       </trans-unit>
       <trans-unit id="Settings.Appearance.WebsiteAppearance.SectionHeader.v137" xml:space="preserve">
         <source>Website Appearance</source>
+        <target>Aspectul site-ului web</target>
         <note>Website Appearance settings section title in Appearance settings</note>
       </trans-unit>
       <trans-unit id="Settings.Appearance.WebsiteDarkMode.Description.v137" xml:space="preserve">
         <source>Gives websites a dark appearance. Some sites might not look right.</source>
+        <target>Oferă site-urilor web un aspect întunecat. Este posibil ca unele site-uri să nu arate corect.</target>
         <note>Under Website Appearance section in Appearance menu, this is the text under the toggle describing the dark mode feature.</note>
       </trans-unit>
       <trans-unit id="Settings.Appearance.WebsiteDarkModeToggle.Title.v137" xml:space="preserve">
         <source>Website Dark Mode</source>
+        <target>Mod întunecat site-uri web</target>
         <note>Under Website Appearance section in Appearance menu, this is the title of the toggle to switch dark theme on/off.</note>
       </trans-unit>
       <trans-unit id="Settings.BlockOpeningExternalApps.Title" xml:space="preserve">
         <source>Block Opening External Apps</source>
+        <target>Blocarea deschiderii aplicațiilor externe</target>
         <note>Title of setting to block opening external apps when pressing links.</note>
       </trans-unit>
       <trans-unit id="Settings.ClearAllWebsiteData.Clear.Button" xml:space="preserve">
@@ -2197,6 +2268,7 @@
       </trans-unit>
       <trans-unit id="Settings.ClearSelectedWebsiteData.ClearSelected.Button" xml:space="preserve">
         <source>Clear Items: %1$@</source>
+        <target>Șterge: %1$@</target>
         <note>Button in Data Management that clears private data for the selected items. %1$@ is the number of items to be cleared.</note>
       </trans-unit>
       <trans-unit id="Settings.CopyAppVersion.Title" xml:space="preserve">
@@ -2281,6 +2353,7 @@
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.StatusTitle" xml:space="preserve">
         <source>Automatic</source>
+        <target>Automat</target>
         <note>Display (theme) settings label to show if automatically switch theme is enabled.</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.SwitchMode.SectionHeader" xml:space="preserve">
@@ -2340,66 +2413,82 @@
       </trans-unit>
       <trans-unit id="Settings.Home.Current.Description.v101" xml:space="preserve">
         <source>Choose what displays as the homepage.</source>
+        <target>Alege ce se afișează ca pagină principală.</target>
         <note>This is the description below the settings section located in the menu under customize current homepage. It describes what the options in the section are for.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Description.v101" xml:space="preserve">
         <source>Choose what’s included on the Firefox homepage.</source>
+        <target>Alege ce este inclus pe pagina principală Firefox.</target>
         <note>In the settings menu, on the Firefox homepage customization section, this is the description below the section, describing what the options in the section are for.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.JumpBackIn" xml:space="preserve">
         <source>Jump Back In</source>
+        <target>Salt la fila aceasta</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle the Jump Back In section on homepage on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Pocket" xml:space="preserve">
         <source>Recommended by Pocket</source>
+        <target>Recomandat de Pocket</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Pocket Recommendations section on the Firefox homepage on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.RecentlySaved" xml:space="preserve">
         <source>Recently Saved</source>
+        <target>Salvate recent</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Recently Saved section on the Firefox homepage on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.RecentlyVisited" xml:space="preserve">
         <source>Recently Visited</source>
+        <target>Vizitate recent</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Recently Visited section on the Firfox homepage on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Shortcuts" xml:space="preserve">
         <source>Shortcuts</source>
+        <target>Comenzi rapide</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle Shortcuts section on the Firefox homepage on or off</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.StartAtHome.AfterFourHours" xml:space="preserve">
         <source>Homepage after four hours of inactivity</source>
+        <target>Pagina de start după patru ore de inactivitate</target>
         <note>In the settings menu, on the Start at Home homepage customization option, this allows users to set this setting to return to the Homepage after four hours of inactivity.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.StartAtHome.Always" xml:space="preserve">
         <source>Homepage</source>
+        <target>Pagină de start</target>
         <note>In the settings menu, on the Start at Home homepage customization option, this allows users to set this setting to return to the Homepage every time they open up Firefox</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.StartAtHome.Description" xml:space="preserve">
         <source>Choose what you see when you return to Firefox.</source>
+        <target>Alege ce vezi când revii în Firefox.</target>
         <note>In the settings menu, in the Start at Home customization options, this is text that appears below the section, describing what the section settings do.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.StartAtHome.Never" xml:space="preserve">
         <source>Last tab</source>
+        <target>Ultima filă</target>
         <note>In the settings menu, on the Start at Home homepage customization option, this allows users to set this setting to return to the last tab they were on, every time they open up Firefox</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.StartAtHome.Title" xml:space="preserve">
         <source>Opening screen</source>
+        <target>Ecran de start</target>
         <note>Title for the section in the settings menu where users can configure the behaviour of the Start at Home feature on the Firefox Homepage.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Title.v101" xml:space="preserve">
         <source>Include on Homepage</source>
+        <target>Include pe pagina principală</target>
         <note>In the settings menu, this is the title of the Firefox Homepage customization settings section</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper" xml:space="preserve">
         <source>Wallpaper</source>
+        <target>Imagine de fundal</target>
         <note>In the settings menu, on the Firefox homepage customization section, this is the title for the option that allows users to access the wallpaper settings for the application.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.Accessibility.AmethystWallpaper.v99" xml:space="preserve">
         <source>Firefox wallpaper, amethyst pattern.</source>
+        <target>Imagine de fundal Firefox, model de ametist.</target>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the accessibility string for the amethyst firefox wallpaper.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.Accessibility.BeachHillsWallpaper.v100" xml:space="preserve">
         <source>Firefox wallpaper, beach hills pattern.</source>
+        <target>Imagine de fundal Firefox, model cu dealuri de plajă.</target>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the title accessibility string for the beach hills firefox wallpaper.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.Accessibility.CeruleanWallpaper.v99" xml:space="preserve">
