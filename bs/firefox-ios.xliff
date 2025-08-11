@@ -4572,6 +4572,10 @@ privatnom tabu</target>
         <target>Priče koje podstiču na razmišljanje</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Pocket Recommendations section on the Firefox homepage on or off</note>
       </trans-unit>
+      <trans-unit id="Settings.Home.Option.TopStories.v143" xml:space="preserve">
+        <source>Top Stories</source>
+        <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to turn the Top Stories recommendations section on the Firefox homepage on or off</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Shared/Supporting Files/en.lproj/DisplayCard.strings" source-language="en-US" target-language="bs" datatype="plaintext">
@@ -5245,6 +5249,10 @@ privatnom tabu</target>
         <target>Priče</target>
         <note>This is the title of the Stories section on Firefox Homepage.</note>
       </trans-unit>
+      <trans-unit id="FirefoxHome.Stories.TopStoriesSectionTitle.v143" xml:space="preserve">
+        <source>Top Stories</source>
+        <note>This is the title of the Top Stories section on Firefox Homepage.</note>
+      </trans-unit>
       <trans-unit id="FirefoxHomepage.FeltDeletion.Link.v122" xml:space="preserve">
         <source>Private Browsing Data Erased</source>
         <target>Podaci privatnog pretraživanja su izbrisani</target>
@@ -5270,6 +5278,10 @@ privatnom tabu</target>
         <target>Unesite termin za pretragu ili adresu</target>
         <note>This is the placeholder text that is at the center of the search bar on the Firefox Homepage.</note>
       </trans-unit>
+      <trans-unit id="FirefoxHomepage.Shortcuts.Library.Title.v143" xml:space="preserve">
+        <source>Shortcuts</source>
+        <note>This is the navigation title for the Shortcuts Library view</note>
+      </trans-unit>
       <trans-unit id="FirefoxHomepage.Shortcuts.Pinned.AccessibilityLabel.v139" xml:space="preserve">
         <source>Pinned: %@</source>
         <target>Zakačeno: %@</target>
@@ -5279,6 +5291,10 @@ privatnom tabu</target>
         <source>Shortcuts</source>
         <target>Prečice</target>
         <note>This is the section title for the Shortcuts section on Firefox Homepage.</note>
+      </trans-unit>
+      <trans-unit id="FirefoxHomepage.Stories.PositionAccessibilityHint.v143" xml:space="preserve">
+        <source>%1$@ of %2$@</source>
+        <note>On the homepage, in the Stories section, this is the accessibility hint for the position of the current story in the stories stack. The first placeholder, %1$@, is the current position; the second placeholder, %2$@, is the total story count. Example: '1 of 5'</note>
       </trans-unit>
     </body>
   </file>
@@ -7477,6 +7493,30 @@ Sinhronizacija na svim vašim uređajima</target>
         <target>Instalirajte i pokrenite studije</target>
         <note>Label used as a toggle item in Settings. When this is off, the user is opting out of all studies.</note>
       </trans-unit>
+      <trans-unit id="Settings.Summarize.FooterTitle.v142" xml:space="preserve">
+        <source>Provides access to summarize pages.</source>
+        <note>This is the footer text for the setting that toggles the Summarize feature under the Summarize settings section.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Summarize.GesturesSection.FooterTitle.v142" xml:space="preserve">
+        <source>Shake your device from side to side to summarize a page.</source>
+        <note>This is the footer text for the gestures features under the Summarize settings section.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Summarize.GesturesSection.ShakeGestureTitle.v142" xml:space="preserve">
+        <source>Shake to Summarize</source>
+        <note>This is the title for the setting that toggles the Shake Gesture feature under the Summarize settings section.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Summarize.GesturesSection.Title.v142" xml:space="preserve">
+        <source>Gestures</source>
+        <note>This is the section title for the gestures features under the Summarize settings section.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Summarize.SummarizePagesTitle.v142" xml:space="preserve">
+        <source>Summarize Pages</source>
+        <note>This is the title for the setting that toggles the Summarize feature under the Summarize settings section.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Summarize.Title.v142" xml:space="preserve">
+        <source>Page Summaries</source>
+        <note>In the settings menu, in the General section, this is the title for the Summarize settings section.</note>
+      </trans-unit>
       <trans-unit id="Settings.TechnicalData.Link.v135" xml:space="preserve">
         <source>Learn More.</source>
         <target>Saznajte više.</target>
@@ -7641,15 +7681,86 @@ Poslano sa %2$@ 🦊 %3$@</target>
       </trans-unit>
     </body>
   </file>
+  <file original="Shared/Supporting Files/en.lproj/Summarize.strings" source-language="en-US" target-language="bs" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.3" build-num="16E140"/>
+    </header>
+    <body>
+      <trans-unit id="ContextualHints.Summarize.Description.v142" xml:space="preserve">
+        <source>Tap to summarize this page. Touch and hold for Reader View.</source>
+        <note>Contextual hints are little popups that appear for the users informing them of new features. This is the description of one that points the user to the summarize button on the new toolbar layout.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Shared/Supporting Files/en.lproj/Summarizer.strings" source-language="en-US" target-language="bs" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.3" build-num="16E140"/>
     </header>
     <body>
+      <trans-unit id="Summarizer.AppleBrand.Label.v142" xml:space="preserve">
+        <source>Summarized by Apple Intelligence</source>
+        <note>The label displayed in the summary report when the summary was generated using Apple Intelligence.</note>
+      </trans-unit>
+      <trans-unit id="Summarizer.CloseButton.Label.v142" xml:space="preserve">
+        <source>Close</source>
+        <note>The label for the error button that allows the user to close the summary view because there is an error summarizing the page and the summary cannot be retried.</note>
+      </trans-unit>
+      <trans-unit id="Summarizer.Error.MissingPageContent.Message.v142" xml:space="preserve">
+        <source>Page is still loading. Wait for it to finish, then hit summarize.</source>
+        <note>The error message displayed when the summarizer encounters missing page content while summarizing a page (e.g the page is still loading).</note>
+      </trans-unit>
+      <trans-unit id="Summarizer.Error.RateLimited.Message.v142" xml:space="preserve">
+        <source>Can’t handle this one at the moment. Try again later!</source>
+        <note>The error message displayed when the summarizer encounters a rate limit while summarizing a page.</note>
+      </trans-unit>
+      <trans-unit id="Summarizer.Error.Unknown.Message.v142" xml:space="preserve">
+        <source>Error summarizing page. Try again later.</source>
+        <note>The error message displayed when the summarizer encounters an unknown error while summarizing a page.</note>
+      </trans-unit>
+      <trans-unit id="Summarizer.Error.UnsafeWebsite.Message.v142" xml:space="preserve">
+        <source>Limited content detected. This page may be restricted or mostly visual.</source>
+        <note>The error message displayed when the summarizer encounters unsafe content while summarizing a page.</note>
+      </trans-unit>
+      <trans-unit id="Summarizer.Error.UnsupportedContent.Message.v142" xml:space="preserve">
+        <source>This website doesn’t allow content summarization. Try a different page.</source>
+        <note>The error message displayed when the summarizer encounters unsupported content while summarizing a page (e.g unsupported language, content too long).</note>
+      </trans-unit>
+      <trans-unit id="Summarizer.HostedBrand.Label.v142" xml:space="preserve">
+        <source>Summarized by %@</source>
+        <note>The label displayed in the summary report when the summary was generated using by a third-party service. %@ refers to the name of the service/app (e.g Firefox).</note>
+      </trans-unit>
       <trans-unit id="Summarizer.Loading.Label.v142" xml:space="preserve">
         <source>Summarizing…</source>
         <target>Sažimanje…</target>
         <note>When the user uses the summarizing feature, this is the loading label that is shown while the summarization is being performed.</note>
+      </trans-unit>
+      <trans-unit id="Summarizer.RetryButton.Label.v142" xml:space="preserve">
+        <source>Retry</source>
+        <note>The label for the error button that allows the user to retry summarizing the page.</note>
+      </trans-unit>
+      <trans-unit id="Summarizer.ToS.Alert.AllowButton.Label.v142" xml:space="preserve">
+        <source>Allow</source>
+        <note>The label for the allow button on the Terms of Service alert.</note>
+      </trans-unit>
+      <trans-unit id="Summarizer.ToS.Alert.AppleMessage.Label.v142" xml:space="preserve">
+        <source>%@ uses Apple Intelligence to summarize pages.</source>
+        <note>The message for the Terms of Service alert that asks the user if they want to allow page summaries with Apple Intelligence. %@ is the app name (e.g Firefox).</note>
+      </trans-unit>
+      <trans-unit id="Summarizer.ToS.Alert.CancelButton.Label.v142" xml:space="preserve">
+        <source>Cancel</source>
+        <note>The label for the cancel button on the Terms of Service alert for the summarizer.</note>
+      </trans-unit>
+      <trans-unit id="Summarizer.ToS.Alert.FirefoxMessage.Label.v142" xml:space="preserve">
+        <source>%@ uses AI securely hosted on Mozilla servers to summarize pages.</source>
+        <note>The message for the Terms of Service alert that asks the user if they want to allow page summaries with Firefox AI. %@ is the app name (e.g Firefox).</note>
+      </trans-unit>
+      <trans-unit id="Summarizer.ToS.Alert.LearnMoreButton.Label.v142" xml:space="preserve">
+        <source>Learn more</source>
+        <note>The label for the learn more link button on the Terms of Service alert for the summarizer.</note>
+      </trans-unit>
+      <trans-unit id="Summarizer.ToS.Alert.Title.Label.v142" xml:space="preserve">
+        <source>Allow Page Summaries?</source>
+        <note>The title for the Terms of Service alert that asks the user if they want to allow page summaries.</note>
       </trans-unit>
     </body>
   </file>
@@ -7804,6 +7915,53 @@ Poslano sa %2$@ 🦊 %3$@</target>
       </trans-unit>
     </body>
   </file>
+  <file original="Shared/Supporting Files/en.lproj/TermsOfUse.strings" source-language="en-US" target-language="bs" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.3" build-num="16E140"/>
+    </header>
+    <body>
+      <trans-unit id="TermsOfUse.AcceptButton.v142" xml:space="preserve">
+        <source>Accept</source>
+        <note>Label for the button that confirms user acceptance of the Terms of Use.</note>
+      </trans-unit>
+      <trans-unit id="TermsOfUse.BackButton.v142" xml:space="preserve">
+        <source>Back</source>
+        <note>Label for the back button shown in the Terms of Use web view.</note>
+      </trans-unit>
+      <trans-unit id="TermsOfUse.Description.v142" xml:space="preserve">
+        <source>We’ve introduced a %@ Terms of Use and updated our Privacy Notice.</source>
+        <note>Introductory message in the Terms of Use sheet that mentions updated Terms of Use and Privacy Notice. %@ will be replaced with the app name (e.g., Firefox).</note>
+      </trans-unit>
+      <trans-unit id="TermsOfUse.Link.LearnMore.v142" xml:space="preserve">
+        <source>Learn more</source>
+        <note>Link shown in the Terms of Use sheet to direct users to more details about the update.</note>
+      </trans-unit>
+      <trans-unit id="TermsOfUse.Link.PrivacyNotice.v142" xml:space="preserve">
+        <source>Privacy Notice</source>
+        <note>Hyperlink label pointing to the Privacy Notice document from the Terms of Use sheet.</note>
+      </trans-unit>
+      <trans-unit id="TermsOfUse.Link.TermsOfUse.v142" xml:space="preserve">
+        <source>%@ Terms of Use</source>
+        <note>Hyperlink label for the Terms of Use document. %@ is replaced with the app name (e.g., Firefox).</note>
+      </trans-unit>
+      <trans-unit id="TermsOfUse.RemindMeLaterButton.v142" xml:space="preserve">
+        <source>Remind Me Later</source>
+        <note>Label for the button that allows the user to postpone accepting the Terms of Use.</note>
+      </trans-unit>
+      <trans-unit id="TermsOfUse.ReviewAndAcceptText.v142" xml:space="preserve">
+        <source>Please take a moment to review and accept. Learn more</source>
+        <note>Descriptive text shown before user accepts the Terms of Use. Includes link text for 'Learn more'.</note>
+      </trans-unit>
+      <trans-unit id="TermsOfUse.TermsOfUseHasOpened.v142" xml:space="preserve">
+        <source>Terms of Use sheet opened</source>
+        <note>Accessibility notification that is triggered when the Terms of Use sheet is presented.</note>
+      </trans-unit>
+      <trans-unit id="TermsOfUse.Title.v142" xml:space="preserve">
+        <source>We’ve got an update</source>
+        <note>Title shown at the top of the Terms of Use bottom sheet, indicating that there is an update to terms of use.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Shared/Supporting Files/en.lproj/Toolbar.strings" source-language="en-US" target-language="bs" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.3" build-num="16E140"/>
@@ -7818,6 +7976,10 @@ Poslano sa %2$@ 🦊 %3$@</target>
         <source>New Tab</source>
         <target>Novi tab</target>
         <note>Accessibility label for the new tab button that can be displayed in the navigation or address toolbar.</note>
+      </trans-unit>
+      <trans-unit id="Toolbar.NewTab.Button.v142" xml:space="preserve">
+        <source>Summarize page</source>
+        <note>Accessibility label for the summarize button that can be displayed in the address toolbar.</note>
       </trans-unit>
       <trans-unit id="Toolbar.Tab.CloseThisTab.Button.v130" xml:space="preserve">
         <source>Close This Tab</source>
