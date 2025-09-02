@@ -19,11 +19,11 @@ jobs:
           - "16.3"
     steps:
       - name: Clone l10n repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           path: "l10n_repo"
       - name: Clone main code repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: "mozilla-mobile/firefox-ios"
           path: "code_repo"
