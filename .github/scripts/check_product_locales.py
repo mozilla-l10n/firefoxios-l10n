@@ -24,7 +24,8 @@ def getPontoonLocales(project_slug):
             response.raise_for_status()
             data = response.json()
 
-            for locale, locale_data in data.get("localizations", {}).items():
+            for locale_data in data.get("localizations", []):
+                locale = locale_data["locale"]["code"]
                 if (
                     locale_data["unreviewed_strings"] != locale_data["total_strings"]
                     and locale != "es-ES"
