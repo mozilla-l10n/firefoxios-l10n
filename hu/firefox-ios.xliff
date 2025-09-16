@@ -6693,16 +6693,6 @@ Szinkronizálás az összes eszközén</target>
         <target>Maradjon titkosítva, amikor az eszközök között vált</target>
         <note>String used to describes the title of what Firefox is on the Sync onboarding page for current version in our Onboarding screens.</note>
       </trans-unit>
-      <trans-unit id="Onboarding.TermsOfService.AgreementButtonTitle.v135" xml:space="preserve">
-        <source>Agree and continue</source>
-        <target>Elfogadás és folytatás</target>
-        <note>Title for the confirmation button for Terms of Service agreement, in the Terms of Service screen.</note>
-      </trans-unit>
-      <trans-unit id="Onboarding.TermsOfService.AgreementButtonTitle.v136" xml:space="preserve">
-        <source>Agree and Continue</source>
-        <target>Elfogadás és folytatás</target>
-        <note>Title for the confirmation button for Terms of Service agreement, in the Terms of Service screen.</note>
-      </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.AgreementButtonTitle.v140" xml:space="preserve">
         <source>Continue</source>
         <target>Folytatás</target>
@@ -6727,11 +6717,6 @@ Szinkronizálás az összes eszközén</target>
         <source>Privacy Notice.</source>
         <target>Adatvédelmi nyilatkozatban</target>
         <note>Title for the Privacy Notice button link, in the Terms of Service screen for redirecting the user to the Privacy Notice page.</note>
-      </trans-unit>
-      <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.LearnMore.v135" xml:space="preserve">
-        <source>Learn more.</source>
-        <target>További információk.</target>
-        <note>A text that indicate to the user, a link button is available to be clicked for reading more information about the option that is going to choose in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.LearnMore.v136" xml:space="preserve">
         <source>Learn more</source>
@@ -6772,11 +6757,6 @@ Szinkronizálás az összes eszközén</target>
         <source>By continuing, you agree to the %@</source>
         <target>A folytatással elfogadja az %@.</target>
         <note>Agreement text for Terms of Service in the Terms of Service screen. %@ is the Terms of Service link button that redirect the user to the Terms of Service page.</note>
-      </trans-unit>
-      <trans-unit id="Onboarding.TermsOfService.TermsOfServiceLink.v135" xml:space="preserve">
-        <source>%@ Terms of Service.</source>
-        <target>%@ szolgáltatási feltételei</target>
-        <note>Title for the Terms of Service button link, in the Terms of Service screen for redirecting the user to the Terms of Service page. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.Title.v135" xml:space="preserve">
         <source>Welcome to %@</source>
@@ -7308,20 +7288,10 @@ Szinkronizálás az összes eszközén</target>
         <target>Böngészés</target>
         <note>In the settings menu, in the General section, this is the title for Browsing customization section.</note>
       </trans-unit>
-      <trans-unit id="Settings.CrashReports.Link.v135" xml:space="preserve">
-        <source>Learn More.</source>
-        <target>További tudnivalók.</target>
-        <note>Title for a link that explains how Mozilla send crash reports.</note>
-      </trans-unit>
       <trans-unit id="Settings.CrashReports.Link.v136" xml:space="preserve">
         <source>Learn More</source>
         <target>További tudnivalók</target>
         <note>Title for a link that explains how Mozilla send crash reports.</note>
-      </trans-unit>
-      <trans-unit id="Settings.CrashReports.Message.v135" xml:space="preserve">
-        <source>Crash reports allow us to diagnose and fix issues with the browser.</source>
-        <target>Az összeomlás-jelentések lehetővé teszik a böngésző hibáinak diagnosztizálását és javítását.</target>
-        <note>On the Settings screen, this is the subtitle text for a toggle which controls automatically sending crash reports.</note>
       </trans-unit>
       <trans-unit id="Settings.CrashReports.Message.v136" xml:space="preserve">
         <source>This helps us diagnose and fix issues with the browser.</source>
@@ -7332,11 +7302,6 @@ Szinkronizálás az összes eszközén</target>
         <source>Automatically Send Crash Reports</source>
         <target>Összeomlás-jelentések automatikus elküldése</target>
         <note>On the Settings screen, this is the title text for a toggle which controls automatically sending crash reports.</note>
-      </trans-unit>
-      <trans-unit id="Settings.DailyUsagePing.Link.v135" xml:space="preserve">
-        <source>Learn More.</source>
-        <target>További tudnivalók.</target>
-        <note>Title for a link that explains how Mozilla send daily usage ping.</note>
       </trans-unit>
       <trans-unit id="Settings.DailyUsagePing.Link.v136" xml:space="preserve">
         <source>Learn More</source>
@@ -7548,30 +7513,15 @@ Szinkronizálás az összes eszközén</target>
         <target>Oldalösszegzések</target>
         <note>In the settings menu, in the General section, this is the title for the Summarize settings section.</note>
       </trans-unit>
-      <trans-unit id="Settings.TechnicalData.Link.v135" xml:space="preserve">
-        <source>Learn More.</source>
-        <target>További tudnivalók.</target>
-        <note>Title for a link that explains how Mozilla send technical and interaction data.</note>
-      </trans-unit>
       <trans-unit id="Settings.TechnicalData.Link.v136" xml:space="preserve">
         <source>Learn More</source>
         <target>További tudnivalók</target>
         <note>Title for a link that explains how Mozilla send technical and interaction data.</note>
       </trans-unit>
-      <trans-unit id="Settings.TechnicalData.Message.v135" xml:space="preserve">
-        <source>%1$@ strives to only collect what we need to provide and improve %2$@ for everyone.</source>
-        <target>A %1$@ arra törekszik, hogy csak azt gyűjtse, ami a %2$@ fejlesztéséhez és támogatásához szükséges.</target>
-        <note>On the Settings screen, this is the subtitle text for a toggle which controls sending technical and interaction data. %1$@ is the company name (e.g. Mozilla), %2$@ is the app name (e.g. Firefox).</note>
-      </trans-unit>
       <trans-unit id="Settings.TechnicalData.Message.v136" xml:space="preserve">
         <source>Data about your device, hardware configuration, and usage helps us improve %@ features, performance and stability.</source>
         <target>Az eszközre, hardverkonfigurációra és a használatra vonatkozó adatok segítenek minket a %@ funkcióinak, teljesítményének és stabilitásának javításában.</target>
         <note>On the Settings screen, this is the subtitle text for a toggle which controls sending technical and interaction data. %@ is the app name (e.g. Firefox).</note>
-      </trans-unit>
-      <trans-unit id="Settings.TechnicalData.Title.v135" xml:space="preserve">
-        <source>Technical and Interaction Data</source>
-        <target>Műszaki és interakciós adatok</target>
-        <note>On the Settings screen, this is the title text for a toggle which controls sending technical and interaction data.</note>
       </trans-unit>
       <trans-unit id="Settings.TechnicalData.Title.v136" xml:space="preserve">
         <source>Send Technical and Interaction Data</source>
@@ -7604,18 +7554,6 @@ Szinkronizálás az összes eszközén</target>
         <source>File Copied To Clipboard</source>
         <target>Fájl a vágólapra másolva</target>
         <note>The Toast message that appears when the user press copy on the share sheet with a file like a pdf</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Shared/Supporting Files/en.lproj/Shopping.strings" source-language="en-US" target-language="hu" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.3" build-num="16E140"/>
-    </header>
-    <body>
-      <trans-unit id="Shopping.InfoCard.ProgressAnalysis.Description.v120" xml:space="preserve">
-        <source>This could take about 60 seconds.</source>
-        <target>Ez körülbelül 60 másodpercig tarthat.</target>
-        <note>Description for info card when the product is in analysis mode</note>
       </trans-unit>
     </body>
   </file>
