@@ -4631,21 +4631,21 @@ Private Tab</source>
         <source>Homepage</source>
         <note>The title for the Firefox homepage, only used to denote the name of the destination screen in the system back navigation button long-press menu</note>
       </trans-unit>
-      <trans-unit id="FirefoxHome.Stories.AllStoriesButtonTitle.v144" xml:space="preserve">
-        <source>All stories</source>
+      <trans-unit id="FirefoxHome.Stories.AllStoriesButtonTitle.v145" xml:space="preserve">
+        <source>All Stories</source>
         <note>This is the title for the button next to the stories section title on Firefox Homepage that, when tapped, transitions you to the Top Stories view which displays a collection of trending news articles.</note>
       </trans-unit>
-      <trans-unit id="FirefoxHome.Stories.PopularTodaySectionTitle.v144" xml:space="preserve">
-        <source>Popular today</source>
+      <trans-unit id="FirefoxHome.Stories.AllStoriesViewTitle.v145" xml:space="preserve">
+        <source>All Stories</source>
+        <note>This is the title that appears in the navigation bar for the All Stories view, a screen that displays a collection of trending news articles</note>
+      </trans-unit>
+      <trans-unit id="FirefoxHome.Stories.PopularTodaySectionTitle.v145" xml:space="preserve">
+        <source>Popular Today</source>
         <note>This is the title of the stories section on Firefox Homepage, which displays a collection of trending news articles</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.Stories.SectionTitle.v140" xml:space="preserve">
         <source>Stories</source>
         <note>This is the title of the Stories section on Firefox Homepage.</note>
-      </trans-unit>
-      <trans-unit id="FirefoxHome.Stories.TopStoriesViewTitle.v144" xml:space="preserve">
-        <source>Top stories</source>
-        <note>This is the title that appears in the navigation bar for the Top Stories view, a screen that displays a collection of trending news articles</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.FeltDeletion.Link.v122" xml:space="preserve">
         <source>Private Browsing Data Erased</source>
@@ -5417,6 +5417,22 @@ Private Tab</source>
         <source>Tools</source>
         <note>On the main menu, the title for the action that will take the user to the Tools submenu in the menu.</note>
       </trans-unit>
+      <trans-unit id="MainMenu.ToolsSection.Translation.AccessibilityLabels.TranslatedPage.v145" xml:space="preserve">
+        <source>Page Translated</source>
+        <note>On the main menu, the accessibility label for the action that shows that the content of the webpage is already translated.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.ToolsSection.Translation.AccessibilityLabels.TranslatedPageLanguage.v145" xml:space="preserve">
+        <source>Translated to %@</source>
+        <note>On the main menu, the accessibility label describing the language that the webpage was translated to. %@ is the language selected (e.g. English).</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.ToolsSection.Translation.Title.v145" xml:space="preserve">
+        <source>Translate Page</source>
+        <note>On the main menu, the title for the action that will translate the content of the webpage.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.ToolsSection.Translation.Translated.Title.v145" xml:space="preserve">
+        <source>Translated</source>
+        <note>On the main menu, the title for the action that shows that the content of the webpage is already translated.</note>
+      </trans-unit>
       <trans-unit id="MainMenu.WebsiteDarkModeOffV2.Title.v142" xml:space="preserve">
         <source>Off</source>
         <note>On the main menu, a title for a label that indicate the Website Dark Mode option from menu, is OFF.</note>
@@ -5665,57 +5681,143 @@ Private Tab</source>
         <source>Skip</source>
         <note>Describes an action on some of the Onboarding screen, including the wallpaper onboarding screen. This string will be on a button so user can skip that onboarding page.</note>
       </trans-unit>
+      <trans-unit id="Onboarding.Modern.Customization.Theme.Automatic.v145" xml:space="preserve">
+        <source>Automatic</source>
+        <note>Option for the automatic theme.</note>
+      </trans-unit>
       <trans-unit id="Onboarding.Modern.Customization.Theme.Continue.Action.v140" xml:space="preserve">
         <source>Continue</source>
         <note>String used to describe the option to save the user setting and continue to the next onboarding in Firefox Onboarding screens.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Modern.Customization.Theme.Dark.v145" xml:space="preserve">
+        <source>Dark</source>
+        <note>Option for the dark theme.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Modern.Customization.Theme.Description.v145" xml:space="preserve">
+        <source>Pick your favorite theme or have %@ match your device, putting you in control.</source>
+        <note>Description for the theme selection card. %@ is the app name (e.g. Firefox).</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Modern.Customization.Theme.Light.v145" xml:space="preserve">
+        <source>Light</source>
+        <note>Option for the light theme.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Modern.Customization.Theme.Title.v145" xml:space="preserve">
+        <source>Pick your theme</source>
+        <note>Title for the theme selection card.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.Customization.Toolbar.Bottom.Action.v140" xml:space="preserve">
         <source>Bottom</source>
         <note>On the toolbar customization onboarding card, the string used to describe the option to set the toolbar at the bottom of the screen.</note>
       </trans-unit>
+      <trans-unit id="Onboarding.Modern.Customization.Toolbar.Bottom.Action.v145" xml:space="preserve">
+        <source>Bottom</source>
+        <note>Action to set the toolbar to the bottom.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Modern.Customization.Toolbar.Continue.Action.v145" xml:space="preserve">
+        <source>Continue</source>
+        <note>Continue button on the toolbar customization card.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Modern.Customization.Toolbar.Description.v145" xml:space="preserve">
+        <source>Start typing to get search suggestions, your top sites, bookmarks, history and search engines – all in one place.</source>
+        <note>Description for the toolbar customization card.</note>
+      </trans-unit>
       <trans-unit id="Onboarding.Modern.Customization.Toolbar.Title.v140" xml:space="preserve">
         <source>Choose where to put your address bar</source>
         <note>String used to describe the title of the toolbar customization onboarding page in our Onboarding screens.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Modern.Customization.Toolbar.Title.v145" xml:space="preserve">
+        <source>Choose your address bar</source>
+        <note>Title for the toolbar customization card.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.Customization.Toolbar.Top.Action.v140" xml:space="preserve">
         <source>Top</source>
         <note>On the toolbar customization onboarding card, the string used to describe the option to set the toolbar at the top of the screen.</note>
       </trans-unit>
+      <trans-unit id="Onboarding.Modern.Customization.Toolbar.Top.Action.v145" xml:space="preserve">
+        <source>Top</source>
+        <note>Action to set the toolbar to the top.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Modern.General.Skip.v145" xml:space="preserve">
+        <source>Skip</source>
+        <note>Button to skip the entire onboarding flow.</note>
+      </trans-unit>
       <trans-unit id="Onboarding.Modern.Sync.Description.v140" xml:space="preserve">
         <source>Get your bookmarks, history, and passwords on any device.</source>
         <note>String used to describe Firefox on the Sync onboarding page for the current version of our onboarding screens.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Modern.Sync.Description.v145" xml:space="preserve">
+        <source>Your bookmarks, passwords, and more sync on any device. Everything’s protected with encryption, so only you can access it.</source>
+        <note>Description for the Sync card in the v2 onboarding flow.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.Sync.SignIn.Action.v140" xml:space="preserve">
         <source>Start Syncing</source>
         <note>String used to describes the option to skip the Sync sign in during onboarding for the current version in Firefox Onboarding screens.</note>
       </trans-unit>
+      <trans-unit id="Onboarding.Modern.Sync.SignIn.Action.v145" xml:space="preserve">
+        <source>Start Syncing</source>
+        <note>Button to start the Sync setup process.</note>
+      </trans-unit>
       <trans-unit id="Onboarding.Modern.Sync.Skip.Action.v140" xml:space="preserve">
         <source>Not now</source>
         <note>String used to describes the option to skip the Sync sign in during onboarding for the current version in Firefox Onboarding screens.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Modern.Sync.Skip.Action.v145" xml:space="preserve">
+        <source>Not now</source>
+        <note>Button to skip the Sync setup during onboarding.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.Sync.Title.v140" xml:space="preserve">
         <source>Instantly pick up where you left off</source>
         <note>String used to describes the title of what Firefox is on the Sync onboarding page for current version in our Onboarding screens.</note>
       </trans-unit>
+      <trans-unit id="Onboarding.Modern.Sync.Title.v145" xml:space="preserve">
+        <source>Take %@ on all your browsing adventures</source>
+        <note>Title for the Sync card in the v2 onboarding flow. %@ is the app name (e.g. Firefox).</note>
+      </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.AgreementButtonTitle.v140" xml:space="preserve">
         <source>Continue</source>
         <note>Title for the confirmation button for Terms of Service agreement, in the Terms of Service screen.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Modern.TermsOfService.AgreementButtonTitle.v145" xml:space="preserve">
+        <source>Continue</source>
+        <note>Title for the confirmation button on the Terms of Service screen.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Modern.TermsOfService.Description.v145" xml:space="preserve">
+        <source>Automatic protection of your personal info
+Load sites fast and search smarter
+Brought to you by the non-profit %@, trusted for over 20 years</source>
+        <note>Description for the Terms of Service screen in the v2 onboarding flow. The '\n' symbols denote line breaks. %@ is the company name (e.g. Mozilla)</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.ManageLink.v140" xml:space="preserve">
         <source>Manage</source>
         <note>Title for the Manage button link, in the Terms of Service screen for redirecting the user to the Manage data collection preferences screen.</note>
       </trans-unit>
+      <trans-unit id="Onboarding.Modern.TermsOfService.ManageLink.v145" xml:space="preserve">
+        <source>Manage settings</source>
+        <note>The text for the Manage settings link button.</note>
+      </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.ManagePreferenceAgreement.v140" xml:space="preserve">
         <source>To help improve the browser, %1$@ sends diagnostic and interaction data to %2$@. %3$@</source>
         <note>Agreement text for sending diagnostic and interaction data to Mozilla in the Terms of Service screen. %1$@ is the app name (e.g. Firefox), %2$@ is company name (e.g. Mozilla), %3$@ is a Manage link button which redirect the user to another screen in order to manage the data collection preferences.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Modern.TermsOfService.ManagePreferenceAgreement.v145" xml:space="preserve">
+        <source>To help improve the browser, %1$@ sends diagnostic and interaction data to %2$@. %3$@</source>
+        <note>Agreement text for sending data. %1$@ is the app name, %2$@ is the company name, %3$@ is the placeholder for the Manage settings link.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.PrivacyNoticeAgreement.v140" xml:space="preserve">
         <source>%1$@ cares about your privacy. Read more in our %2$@</source>
         <note>Agreement text for Privacy Notice in the Terms of Service screen. %1$@ is the app name (e.g. Firefox), %2$@ is for the Privacy Notice link button that redirect the user to the Privacy Notice page.</note>
       </trans-unit>
+      <trans-unit id="Onboarding.Modern.TermsOfService.PrivacyNoticeAgreement.v145" xml:space="preserve">
+        <source>%1$@ cares about your privacy. Read more in our %2$@</source>
+        <note>Agreement text for Privacy Notice. %1$@ is the app name (e.g. Firefox), %2$@ is the placeholder for the Privacy Notice link.</note>
+      </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.PrivacyNoticeLink.v140" xml:space="preserve">
         <source>Privacy Notice.</source>
         <note>Title for the Privacy Notice button link, in the Terms of Service screen for redirecting the user to the Privacy Notice page.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Modern.TermsOfService.PrivacyNoticeLink.v145" xml:space="preserve">
+        <source>Privacy Notice.</source>
+        <note>The text for the Privacy Notice link button.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.PrivacyPreferences.LearnMore.v140" xml:space="preserve">
         <source>Learn more</source>
@@ -5751,9 +5853,21 @@ Sync on all your devices</source>
         <source>By continuing, you agree to the %@</source>
         <note>Agreement text for Terms of Service in the Terms of Service screen. %@ is the Terms of Service link button that redirect the user to the Terms of Service page.</note>
       </trans-unit>
+      <trans-unit id="Onboarding.Modern.TermsOfService.TermsOfServiceAgreement.v145" xml:space="preserve">
+        <source>By continuing, you agree to the %@</source>
+        <note>Agreement text for Terms of Service. %@ is the placeholder for the Terms of Use link.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Modern.TermsOfService.TermsOfUseLink.v145" xml:space="preserve">
+        <source>%@ Terms of Use.</source>
+        <note>The text for the Terms of Use link button. %@ is the app name (e.g. Firefox).</note>
+      </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.Title.v140" xml:space="preserve">
         <source>Upgrade your browsing</source>
         <note>Title for the Terms of Service screen in the onboarding process.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Modern.TermsOfService.Title.v145" xml:space="preserve">
+        <source>Take charge of the internet</source>
+        <note>Title for the Terms of Service screen in the v2 onboarding flow.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfUse.TermsOfUseLink.v140" xml:space="preserve">
         <source>%@ Terms of Use.</source>
@@ -5763,17 +5877,33 @@ Sync on all your devices</source>
         <source>Set as Default Browser</source>
         <note>Describes the action on the first onboarding page in our Onboarding screen. This indicates that the user will set their default browser to Firefox.</note>
       </trans-unit>
+      <trans-unit id="Onboarding.Modern.Welcome.ActionTreatmentA.v145" xml:space="preserve">
+        <source>Set as Default Browser</source>
+        <note>Action button to set the app as the default browser.</note>
+      </trans-unit>
       <trans-unit id="Onboarding.Modern.Welcome.Description.v140" xml:space="preserve">
         <source>One choice protects you everywhere you go on the web. You can always change it later.</source>
         <note>String used to describe Firefox on the welcome onboarding page for the current version of our onboarding screens.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Modern.Welcome.Description.v145" xml:space="preserve">
+        <source>One choice protects you everywhere you go on the web. You can always change it later.</source>
+        <note>Description for the welcome card in the v2 onboarding flow.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.Welcome.Skip.v140" xml:space="preserve">
         <source>Not Now</source>
         <note>Describes the action on the first onboarding page in our Onboarding screen. This string will be on a button so user can skip this onboarding card.</note>
       </trans-unit>
+      <trans-unit id="Onboarding.Modern.Welcome.Skip.v145" xml:space="preserve">
+        <source>Not Now</source>
+        <note>Button to skip the welcome card.</note>
+      </trans-unit>
       <trans-unit id="Onboarding.Modern.Welcome.Title.v140" xml:space="preserve">
         <source>Say goodbye to creepy ads</source>
         <note>String used to describes the title of what Firefox is on the welcome onboarding page for current version in our Onboarding screens.</note>
+      </trans-unit>
+      <trans-unit id="Onboarding.Modern.Welcome.Title.v145" xml:space="preserve">
+        <source>Say goodbye to creepy trackers</source>
+        <note>Title for the welcome card in the v2 onboarding flow.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Notification.Continue.Action.v114" xml:space="preserve">
         <source>Continue</source>
@@ -6513,6 +6643,26 @@ Sync on all your devices</source>
         <source>New Tab</source>
         <note>In the Appearance settings menu, in the Toolbar Button section, this label indicates that selecting this will make the New Tab button appear in the middle of the navigation toolbar.</note>
       </trans-unit>
+      <trans-unit id="Settings.Translation.SectionTitle.v145" xml:space="preserve">
+        <source>Translation Preferences</source>
+        <note>This is the section title text for the the Translation feature under the Translation settings section.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Translation.SettingOff.v145" xml:space="preserve">
+        <source>Off</source>
+        <note>In the settings menu, in the General section, this is the text to show next to the Translation setting title and indicates if the translation feature has been disabled.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Translation.SettingOn.v145" xml:space="preserve">
+        <source>On</source>
+        <note>In the settings menu, in the General section, this is the text to show next to the Translation setting title and indicates if the translation feature has been enabled.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Translation.Title.v145" xml:space="preserve">
+        <source>Translation</source>
+        <note>In the settings menu, in the General section, this is the title for the Translation settings section.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Translation.ToggleTitle.v145" xml:space="preserve">
+        <source>Enable Translations</source>
+        <note>This is the title for the setting that toggles the Translation feature that allows users to translate web pages under the Translation settings section.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Shared/Supporting Files/en.lproj/Share.strings" source-language="en-US" target-language="ses" datatype="plaintext">
@@ -6632,6 +6782,10 @@ Sent from %2$@ 🦊 %3$@</source>
         <source>Summarized by Apple Intelligence</source>
         <note>The label displayed in the summary report when the summary was generated using Apple Intelligence.</note>
       </trans-unit>
+      <trans-unit id="Summarizer.CloseButton.Accessibility.Label.v145" xml:space="preserve">
+        <source>Close Summary</source>
+        <note>The a11y label for the close button in the summary view.</note>
+      </trans-unit>
       <trans-unit id="Summarizer.CloseButton.Label.v142" xml:space="preserve">
         <source>Close</source>
         <note>The label for the error button that allows the user to close the summary view because there is an error summarizing the page and the summary cannot be retried.</note>
@@ -6664,13 +6818,25 @@ Sent from %2$@ 🦊 %3$@</source>
         <source>Summarized by %@</source>
         <note>The label displayed in the summary report when the summary was generated using by a third-party service. %@ refers to the name of the service/app (e.g Firefox).</note>
       </trans-unit>
+      <trans-unit id="Summarizer.Loading.Accessibility.Label.v145" xml:space="preserve">
+        <source>Loading summary</source>
+        <note>The a11y label for the loading label on the summarize loading screen.</note>
+      </trans-unit>
       <trans-unit id="Summarizer.Loading.Label.v142" xml:space="preserve">
         <source>Summarizing…</source>
         <note>When the user uses the summarizing feature, this is the loading label that is shown while the summarization is being performed.</note>
       </trans-unit>
+      <trans-unit id="Summarizer.RetryButton.Accessibility.Label.v145" xml:space="preserve">
+        <source>Retry to summarize web page</source>
+        <note>The a11y label for the retry button in the summary view when the summarizer fails with an error that allows retrying to summarize the page.</note>
+      </trans-unit>
       <trans-unit id="Summarizer.RetryButton.Label.v142" xml:space="preserve">
         <source>Retry</source>
         <note>The label for the error button that allows the user to retry summarizing the page.</note>
+      </trans-unit>
+      <trans-unit id="Summarizer.TabSnapshot.Accessibility.Label.v145" xml:space="preserve">
+        <source>Drag or tap the web page to close the summary</source>
+        <note>The a11y label for the web page view that shows on top of the summary view. Tapping or dragging on the view will close the summary page.</note>
       </trans-unit>
       <trans-unit id="Summarizer.ToS.Alert.AllowButton.Label.v142" xml:space="preserve">
         <source>Allow</source>
@@ -6704,9 +6870,13 @@ Sent from %2$@ 🦊 %3$@</source>
         <source>How it works</source>
         <note>The label for the learn more link button on the Terms of Service alert for the summarizer.</note>
       </trans-unit>
+      <trans-unit id="Summarizer.ToS.InfoPanel.AllowButton.Accessibility.Label.v145" xml:space="preserve">
+        <source>Accept consent</source>
+        <note>The a11y label for the allow button on the info panel when the user has not yet accepted the ToS.</note>
+      </trans-unit>
       <trans-unit id="Summarizer.ToS.InfoPanel.ContinueButton.Label.v143" xml:space="preserve">
         <source>Continue</source>
-        <note>The label for the accept button on the Terms of Service information panel in the summarizer.</note>
+        <note>The label for the accept button in the info panel in the summarizer when the user has not yet accepted the ToS.</note>
       </trans-unit>
       <trans-unit id="Summarizer.ToS.InfoPanel.Label.v143" xml:space="preserve">
         <source>See the main points in seconds with %@.</source>
@@ -6923,6 +7093,18 @@ Sent from %2$@ 🦊 %3$@</source>
         <source>Tabs open: 99+</source>
         <note>Large content title for the tabs button in the toolbar, specifying that more than 99 tabs are open.</note>
       </trans-unit>
+      <trans-unit id="Toolbar.Translation.ButtonActive.AccessibilityLabel.v145" xml:space="preserve">
+        <source>Show page in original language</source>
+        <note>Accessibility label for the translation button that can be displayed in the address toolbar and is shown to indicate the page is already translated.</note>
+      </trans-unit>
+      <trans-unit id="Toolbar.Translation.ButtonInactive.AccessibilityLabel.v145" xml:space="preserve">
+        <source>Translate page</source>
+        <note>Accessibility label for the translation button that can be displayed in the address toolbar and used to translate a webpage.</note>
+      </trans-unit>
+      <trans-unit id="Toolbar.Translation.LoadingButton.AccessibilityLabel.v145" xml:space="preserve">
+        <source>Translating page</source>
+        <note>Accessibility label for a loading button that can be displayed in the address toolbar to indicate that the page is in the process of being translated.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Shared/Supporting Files/en.lproj/ToolbarLocation.strings" source-language="en-US" target-language="ses" datatype="plaintext">
@@ -6949,6 +7131,109 @@ Sent from %2$@ 🦊 %3$@</source>
       <trans-unit id="ContextualHints.Toolbar.Update.Title.v139" xml:space="preserve">
         <source>We moved a few things</source>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This is the title of one that points the user to the new toolbar layout.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/Translations.strings" source-language="en-US" target-language="ses" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.0.1" build-num="17A400"/>
+    </header>
+    <body>
+      <trans-unit id="Translations.Banner.Close.Button.AccessibilityLabel.v145" xml:space="preserve">
+        <source>Close Translation Panel</source>
+        <note>On top of the bottom toolbar, there can be a translations banner, this is the accessibility label for the close button that appears on the banner that allows the user to dismiss the translations banner.</note>
+      </trans-unit>
+      <trans-unit id="Translations.Banner.ConfirmationTitleLabel.v145" xml:space="preserve">
+        <source>Translated from %1$@ to %2$@</source>
+        <note>On top of the bottom toolbar, there can be a translations banner, this is the title for the text that appears on the banner to inform the user that the page has been translated to another language. %1$@ is the original language and %2$@ is the language that the page was translated to.</note>
+      </trans-unit>
+      <trans-unit id="Translations.Banner.ErrorMessage.TitleLabel.v145" xml:space="preserve">
+        <source>Couldn’t translate page</source>
+        <note>On top of the bottom toolbar, there can be a translations banner, this is the title for the text that appears on the banner to inform the user that they hit an error or issue when trying to translate the page.</note>
+      </trans-unit>
+      <trans-unit id="Translations.Banner.Loading.Button.AccessibilityLabel.v145" xml:space="preserve">
+        <source>Translating page</source>
+        <note>On top of the bottom toolbar, there can be a translations banner, this is the accessibility label for the loading button that appears when the page is being translated.</note>
+      </trans-unit>
+      <trans-unit id="Translations.Banner.OpenSettings.Button.AccessibilityLabel.v145" xml:space="preserve">
+        <source>Open Language Preferences</source>
+        <note>On top of the bottom toolbar, there can be a translations banner, this is the accessibility label for the chevron button that navigates the user to the translation settings page.</note>
+      </trans-unit>
+      <trans-unit id="Translations.Banner.RetryButton.v145" xml:space="preserve">
+        <source>Retry</source>
+        <note>On top of the bottom toolbar, there can be a translations banner, this is the title for the button that appears on the banner that allows the user to try to translate a page again after facing an error.</note>
+      </trans-unit>
+      <trans-unit id="Translations.Banner.TitleLabel.v145" xml:space="preserve">
+        <source>Translate page to %@?</source>
+        <note>On top of the bottom toolbar, there can be a translations banner, this is the title for the text that appears on the banner to inform the user that they can translate the page to another language. %@ is the other language (e.g. English).</note>
+      </trans-unit>
+      <trans-unit id="Translations.Banner.TranslateButton.v145" xml:space="preserve">
+        <source>Translate</source>
+        <note>On top of the bottom toolbar, there can be a translations banner, this is the title for the button that appears on the banner that allows the user to tap on and translate the webpage.</note>
+      </trans-unit>
+      <trans-unit id="Translations.Sheet.Button.v145" xml:space="preserve">
+        <source>Translate</source>
+        <note>This is the text on the button used to translate a page from one language to another and the button is shown on the translation feature bottom sheet view.</note>
+      </trans-unit>
+      <trans-unit id="Translations.Sheet.ChooseLanguage.v145" xml:space="preserve">
+        <source>Choose Language</source>
+        <note>This is the text for the cell that indicates that a user can choose a language to translate from, as part of the bottom sheet view for the translations feature.</note>
+      </trans-unit>
+      <trans-unit id="Translations.Sheet.Error.GeneralSubtitle.v145" xml:space="preserve">
+        <source>Please try again.</source>
+        <note>On the translation feature bottom sheet, this is the text that describes that an error has occurred.</note>
+      </trans-unit>
+      <trans-unit id="Translations.Sheet.Error.GeneralTitle.v145" xml:space="preserve">
+        <source>Couldn’t Translate Page</source>
+        <note>On the translation feature bottom sheet, this is the text that describes that an error has occurred.</note>
+      </trans-unit>
+      <trans-unit id="Translations.Sheet.Error.RetryButton.v145" xml:space="preserve">
+        <source>Retry</source>
+        <note>On the translation feature bottom sheet, this is the title for the button that allows the user to try to translate a page again after facing an error.</note>
+      </trans-unit>
+      <trans-unit id="Translations.Sheet.Error.SubtitleLabel.v145" xml:space="preserve">
+        <source>Check your internet connection and try again.</source>
+        <note>On the translation feature bottom sheet, this is the subtitle for the error message that appears when a user has no internet connection when trying to translate a page.</note>
+      </trans-unit>
+      <trans-unit id="Translations.Sheet.Error.TitleLabel.v145" xml:space="preserve">
+        <source>Couldn’t Load Languages</source>
+        <note>On the translation feature bottom sheet, this is the text for the error message that appears when a user has no internet connection when trying to translate a page.</note>
+      </trans-unit>
+      <trans-unit id="Translations.Sheet.FromLabel.v145" xml:space="preserve">
+        <source>From</source>
+        <note>This is a less descriptive text for the cell that allows users to select what language they want to translate the page from, as part of the bottom sheet view for the translations feature.</note>
+      </trans-unit>
+      <trans-unit id="Translations.Sheet.LoadingButton.v145" xml:space="preserve">
+        <source>Translating page</source>
+        <note>This is the text on the secondary button used to indicate that page is being translated and the button is shown on the translation feature bottom sheet view.</note>
+      </trans-unit>
+      <trans-unit id="Translations.Sheet.ShowOriginalButton.v145" xml:space="preserve">
+        <source>Show Original</source>
+        <note>This is the text on the secondary button used to restore the translated page to its original language and the button is shown on the translation feature bottom sheet view.</note>
+      </trans-unit>
+      <trans-unit id="Translations.Sheet.TitleLabel.v145" xml:space="preserve">
+        <source>Translate Page</source>
+        <note>This is the title for the bottom sheet view that allows users to configure their language preferences for the translations feature.</note>
+      </trans-unit>
+      <trans-unit id="Translations.Sheet.ToLabel.v145" xml:space="preserve">
+        <source>To</source>
+        <note>This is the less descriptive text for the cell that allows users to select what language they want to translate the page to, as part of the bottom sheet view for the translations feature.</note>
+      </trans-unit>
+      <trans-unit id="Translations.Sheet.TranslateFrom.AccessibilityLabel.v145" xml:space="preserve">
+        <source>Translate From %@</source>
+        <note>This is the accessibility label for the cell that allows users to select what language they want to translate the page from, as part of the bottom sheet view for the translations feature. %@ is the language selected (e.g. English).</note>
+      </trans-unit>
+      <trans-unit id="Translations.Sheet.TranslateFromLabel.v145" xml:space="preserve">
+        <source>Translate From</source>
+        <note>This is the text for the cell that allows users to select what language they want to translate the page from, as part of the bottom sheet view for the translations feature.</note>
+      </trans-unit>
+      <trans-unit id="Translations.Sheet.TranslateTo.AccessibilityLabel.v145" xml:space="preserve">
+        <source>Translate To %@</source>
+        <note>This is the accessibility label for the cell that allows users to select what language they want to translate the page to, as part of the bottom sheet view for the translations feature. %@ is the language selected (e.g. English).</note>
+      </trans-unit>
+      <trans-unit id="Translations.Sheet.TranslateToLabel.v145" xml:space="preserve">
+        <source>Translate To</source>
+        <note>This is the text for the cell that allows users to select what language they want to translate the page to, as part of the bottom sheet view for the translations feature.</note>
       </trans-unit>
     </body>
   </file>
