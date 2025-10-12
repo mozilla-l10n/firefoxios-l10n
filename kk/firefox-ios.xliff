@@ -6663,6 +6663,9 @@ Private Tab</source>
         <source>Automatic protection of your personal info
 Load sites fast and search smarter
 Brought to you by the non-profit %@, trusted for over 20 years</source>
+        <target>Жеке ақпаратыңызды автоматты түрде қорғау
+Сайттарды жылдам жүктеп, ақылдырақ іздеу
+Сізге 20 жылдан астам сенімді %@ коммерциялық емес ұйымы ұсынды</target>
         <note>Description for the Terms of Service screen in the v2 onboarding flow. The '\n' symbols denote line breaks. %@ is the company name (e.g. Mozilla)</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.ManageLink.v140" xml:space="preserve">
@@ -6672,6 +6675,7 @@ Brought to you by the non-profit %@, trusted for over 20 years</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.ManageLink.v145" xml:space="preserve">
         <source>Manage settings</source>
+        <target>Баптауларды басқару</target>
         <note>The text for the Manage settings link button.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.ManagePreferenceAgreement.v140" xml:space="preserve">
@@ -6681,6 +6685,7 @@ Brought to you by the non-profit %@, trusted for over 20 years</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.ManagePreferenceAgreement.v145" xml:space="preserve">
         <source>To help improve the browser, %1$@ sends diagnostic and interaction data to %2$@. %3$@</source>
+        <target>Браузерді жақсартуға көмектесу үшін %1$@ %2$@ адресіне диагностикалық және өзара әрекеттесу деректерін жібереді. %3$@</target>
         <note>Agreement text for sending data. %1$@ is the app name, %2$@ is the company name, %3$@ is the placeholder for the Manage settings link.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.PrivacyNoticeAgreement.v140" xml:space="preserve">
@@ -6690,6 +6695,7 @@ Brought to you by the non-profit %@, trusted for over 20 years</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.PrivacyNoticeAgreement.v145" xml:space="preserve">
         <source>%1$@ cares about your privacy. Read more in our %2$@</source>
+        <target>%1$@ сіздің жекелігіңізге мән береді. Толығырақ біздің %2$@ бөлімінен оқыңыз</target>
         <note>Agreement text for Privacy Notice. %1$@ is the app name (e.g. Firefox), %2$@ is the placeholder for the Privacy Notice link.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.PrivacyNoticeLink.v140" xml:space="preserve">
@@ -6699,6 +6705,7 @@ Brought to you by the non-profit %@, trusted for over 20 years</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.PrivacyNoticeLink.v145" xml:space="preserve">
         <source>Privacy Notice.</source>
+        <target>Жекелік ескертуі.</target>
         <note>The text for the Privacy Notice link button.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.PrivacyPreferences.LearnMore.v140" xml:space="preserve">
@@ -6747,10 +6754,12 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.TermsOfServiceAgreement.v145" xml:space="preserve">
         <source>By continuing, you agree to the %@</source>
+        <target>Жалғастыру арқылы сіз %@ келісесіз</target>
         <note>Agreement text for Terms of Service. %@ is the placeholder for the Terms of Use link.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.TermsOfUseLink.v145" xml:space="preserve">
         <source>%@ Terms of Use.</source>
+        <target>%@ қолдану шарттары.</target>
         <note>The text for the Terms of Use link button. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.Title.v140" xml:space="preserve">
@@ -6760,6 +6769,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.Title.v145" xml:space="preserve">
         <source>Take charge of the internet</source>
+        <target>Интернетті басқаруды өз қолыңызға алыңыз</target>
         <note>Title for the Terms of Service screen in the v2 onboarding flow.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfUse.TermsOfUseLink.v140" xml:space="preserve">
@@ -6774,6 +6784,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.Welcome.ActionTreatmentA.v145" xml:space="preserve">
         <source>Set as Default Browser</source>
+        <target>Негізгі браузер қылу</target>
         <note>Action button to set the app as the default browser.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.Welcome.Description.v140" xml:space="preserve">
@@ -6783,6 +6794,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.Welcome.Description.v145" xml:space="preserve">
         <source>One choice protects you everywhere you go on the web. You can always change it later.</source>
+        <target>Бір таңдау интернетте кез келген жерде сізді қорғайды. Оны кейінірек өзгертуге болады.</target>
         <note>Description for the welcome card in the v2 onboarding flow.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.Welcome.Skip.v140" xml:space="preserve">
@@ -8340,74 +8352,92 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="Translations.Banner.TitleLabel.v145" xml:space="preserve">
         <source>Translate page to %@?</source>
+        <target>Бетті %@ тіліне аудару керек пе?</target>
         <note>On top of the bottom toolbar, there can be a translations banner, this is the title for the text that appears on the banner to inform the user that they can translate the page to another language. %@ is the other language (e.g. English).</note>
       </trans-unit>
       <trans-unit id="Translations.Banner.TranslateButton.v145" xml:space="preserve">
         <source>Translate</source>
+        <target>Аудару</target>
         <note>On top of the bottom toolbar, there can be a translations banner, this is the title for the button that appears on the banner that allows the user to tap on and translate the webpage.</note>
       </trans-unit>
       <trans-unit id="Translations.Sheet.Button.v145" xml:space="preserve">
         <source>Translate</source>
+        <target>Аудару</target>
         <note>This is the text on the button used to translate a page from one language to another and the button is shown on the translation feature bottom sheet view.</note>
       </trans-unit>
       <trans-unit id="Translations.Sheet.ChooseLanguage.v145" xml:space="preserve">
         <source>Choose Language</source>
+        <target>Тілді таңдау</target>
         <note>This is the text for the cell that indicates that a user can choose a language to translate from, as part of the bottom sheet view for the translations feature.</note>
       </trans-unit>
       <trans-unit id="Translations.Sheet.Error.GeneralSubtitle.v145" xml:space="preserve">
         <source>Please try again.</source>
+        <target>Қайталап көріңіз.</target>
         <note>On the translation feature bottom sheet, this is the text that describes that an error has occurred.</note>
       </trans-unit>
       <trans-unit id="Translations.Sheet.Error.GeneralTitle.v145" xml:space="preserve">
         <source>Couldn’t Translate Page</source>
+        <target>Бетті аудару мүмкін болмады</target>
         <note>On the translation feature bottom sheet, this is the text that describes that an error has occurred.</note>
       </trans-unit>
       <trans-unit id="Translations.Sheet.Error.RetryButton.v145" xml:space="preserve">
         <source>Retry</source>
+        <target>Қайталау</target>
         <note>On the translation feature bottom sheet, this is the title for the button that allows the user to try to translate a page again after facing an error.</note>
       </trans-unit>
       <trans-unit id="Translations.Sheet.Error.SubtitleLabel.v145" xml:space="preserve">
         <source>Check your internet connection and try again.</source>
+        <target>Интернет байланысын тексеріп, әрекетті қайталаңыз.</target>
         <note>On the translation feature bottom sheet, this is the subtitle for the error message that appears when a user has no internet connection when trying to translate a page.</note>
       </trans-unit>
       <trans-unit id="Translations.Sheet.Error.TitleLabel.v145" xml:space="preserve">
         <source>Couldn’t Load Languages</source>
+        <target>Тілдерді жүктеу мүмкін болмады</target>
         <note>On the translation feature bottom sheet, this is the text for the error message that appears when a user has no internet connection when trying to translate a page.</note>
       </trans-unit>
       <trans-unit id="Translations.Sheet.FromLabel.v145" xml:space="preserve">
         <source>From</source>
+        <target>Қай тілден</target>
         <note>This is a less descriptive text for the cell that allows users to select what language they want to translate the page from, as part of the bottom sheet view for the translations feature.</note>
       </trans-unit>
       <trans-unit id="Translations.Sheet.LoadingButton.v145" xml:space="preserve">
         <source>Translating page</source>
+        <target>Бет аударылуда</target>
         <note>This is the text on the secondary button used to indicate that page is being translated and the button is shown on the translation feature bottom sheet view.</note>
       </trans-unit>
       <trans-unit id="Translations.Sheet.ShowOriginalButton.v145" xml:space="preserve">
         <source>Show Original</source>
+        <target>Түпнұсқаны көрсету</target>
         <note>This is the text on the secondary button used to restore the translated page to its original language and the button is shown on the translation feature bottom sheet view.</note>
       </trans-unit>
       <trans-unit id="Translations.Sheet.TitleLabel.v145" xml:space="preserve">
         <source>Translate Page</source>
+        <target>Бетті аудару</target>
         <note>This is the title for the bottom sheet view that allows users to configure their language preferences for the translations feature.</note>
       </trans-unit>
       <trans-unit id="Translations.Sheet.ToLabel.v145" xml:space="preserve">
         <source>To</source>
+        <target>Қай тілге</target>
         <note>This is the less descriptive text for the cell that allows users to select what language they want to translate the page to, as part of the bottom sheet view for the translations feature.</note>
       </trans-unit>
       <trans-unit id="Translations.Sheet.TranslateFrom.AccessibilityLabel.v145" xml:space="preserve">
         <source>Translate From %@</source>
+        <target>%@ тілінен аудару</target>
         <note>This is the accessibility label for the cell that allows users to select what language they want to translate the page from, as part of the bottom sheet view for the translations feature. %@ is the language selected (e.g. English).</note>
       </trans-unit>
       <trans-unit id="Translations.Sheet.TranslateFromLabel.v145" xml:space="preserve">
         <source>Translate From</source>
+        <target>Бастапқы тіл:</target>
         <note>This is the text for the cell that allows users to select what language they want to translate the page from, as part of the bottom sheet view for the translations feature.</note>
       </trans-unit>
       <trans-unit id="Translations.Sheet.TranslateTo.AccessibilityLabel.v145" xml:space="preserve">
         <source>Translate To %@</source>
+        <target>%@ тіліне аудару</target>
         <note>This is the accessibility label for the cell that allows users to select what language they want to translate the page to, as part of the bottom sheet view for the translations feature. %@ is the language selected (e.g. English).</note>
       </trans-unit>
       <trans-unit id="Translations.Sheet.TranslateToLabel.v145" xml:space="preserve">
         <source>Translate To</source>
+        <target>Мақсат тілі:</target>
         <note>This is the text for the cell that allows users to select what language they want to translate the page to, as part of the bottom sheet view for the translations feature.</note>
       </trans-unit>
     </body>
