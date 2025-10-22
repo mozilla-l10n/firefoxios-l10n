@@ -48,6 +48,8 @@ jobs:
           cd code_repo
           sh ./bootstrap.sh
       - name: Extract strings
+        env:
+          TYPE: ${{ github.event.inputs.type }}
         run: |
           start_folder="$PWD"
 
@@ -70,7 +72,7 @@ jobs:
           cp ../firefoxios-l10n/es-ES/*.xliff ../firefoxios-l10n/es/
 
           # Copy strings to other locales
-          python "${start_folder}/l10n_repo/.github/scripts/update_other_locales.py" --reference en-US --path "${start_folder}/l10n_repo" --type "${{ github.event.inputs.type }}"
+          python "${start_folder}/l10n_repo/.github/scripts/update_other_locales.py" --reference en-US --path "${start_folder}/l10n_repo" --type "$TYPE"
       - name: Import linter config
         run: |
           # Import linter exceptions from code repository
