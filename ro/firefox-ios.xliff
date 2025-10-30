@@ -7250,6 +7250,33 @@ Sincronizare pe toate dispozitivele</target>
       </trans-unit>
     </body>
   </file>
+  <file original="Shared/Supporting Files/en.lproj/SearchZero.strings" source-language="en-US" target-language="ro" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.0.1" build-num="17A400"/>
+    </header>
+    <body>
+      <trans-unit id="SearchZero.Clear.ButtonTitle.v146" xml:space="preserve">
+        <source>Clear</source>
+        <note>When a user taps on the address bar, they can see their recent searches. This is the title of the button that the user can tap on to clear the list of their recent searches.</note>
+      </trans-unit>
+      <trans-unit id="SearchZero.RecentSearches.SectionTitle.v146" xml:space="preserve">
+        <source>Recent Searches</source>
+        <note>When a user taps on the address bar, they can see their recent searches. This is the title of the section that shows the list of their recent searches.</note>
+      </trans-unit>
+      <trans-unit id="SearchZero.TrendingSearches.SectionTitle.v146" xml:space="preserve">
+        <source>Trending on %@</source>
+        <note>When a user taps on the address bar, they can see their trending searches. This is the title of the section that shows the list of their trending searches. %@ is the search engine name.</note>
+      </trans-unit>
+      <trans-unit id="Settings.SearchZero.RecentSearches.Toggle.v146" xml:space="preserve">
+        <source>Show Recent Searches</source>
+        <note>In the Search page of the Settings menu, this is the title for the toggle that shows or hides the recent searches when a user views the search zero state. The search zero state is when the user taps on the address bar and has yet to type a search term.</note>
+      </trans-unit>
+      <trans-unit id="Settings.SearchZero.TrendingSearches.Toggle.v146" xml:space="preserve">
+        <source>Show Trending Searches</source>
+        <note>In the Search page of the Settings menu, this is the title for the toggle that shows or hides the trending searches when a user views the search zero state. The search zero state is when the user taps on the address bar and has yet to type a search term.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Shared/Supporting Files/en.lproj/SelectCreditCard.strings" source-language="en-US" target-language="ro" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.0.1" build-num="17A400"/>
@@ -8129,6 +8156,10 @@ Trimis de la %2$@ 🦊 %3$@</target>
         <source>Close Old Tabs…</source>
         <target>Închide filele vechi…</target>
         <note>Text for a button in the tabs tray used to open another menu to close older tabs.</note>
+      </trans-unit>
+      <trans-unit id="TabTrayCloseOneTabTitle.v145" xml:space="preserve">
+        <source>Close Tabs (%@)</source>
+        <note>Text for a button in the tabs tray used delete current active tabs. %@ is for the number of tabs that will be going to be closed.</note>
       </trans-unit>
       <trans-unit id="TabTrayCloseTabsOlderThanTitle.v140" xml:space="preserve">
         <source>Close tabs older than…</source>
