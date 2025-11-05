@@ -17,7 +17,7 @@ from urllib.parse import quote as urlquote
 def getPontoonLocales(project_slug):
     try:
         locale_list = []
-        url = f"https://pontoon.mozilla.org/api/v2/projects/{project_slug}"
+        url = f"https://pontoon.mozilla.org/api/v2/projects/{project_slug}/?fields=localizations"
         page = 1
         while url:
             response = requests.get(url)
