@@ -5305,6 +5305,10 @@ Private Tab</source>
         <target>Այս սարքի վրա հետքեր չթողնել</target>
         <note>The title for the card that educates users about how private mode works. The card shows up on the homepage when in the new privacy mode.</note>
       </trans-unit>
+      <trans-unit id="FirefoxHomepage.Pocket.StoriesWebview.ReloadPageAccessibilityLabel.v146" xml:space="preserve">
+        <source>Reload page</source>
+        <note>Accessibility label for the page reload button in the navigation toolbar of the stories webview</note>
+      </trans-unit>
       <trans-unit id="FirefoxHomepage.SearchBar.PlaceholderTitle.v142" xml:space="preserve">
         <source>Search or enter address</source>
         <target>Որոնեք կամ մուտքագրեք հասցե</target>
@@ -7126,6 +7130,29 @@ Sync on all your devices</source>
         <source>Scan QR code</source>
         <target>Սկանավորեք QR կոդը</target>
         <note>Accessibility label of the QR code button in the toolbar</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/RelayMask.strings" source-language="en-US" target-language="hy-AM" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.0.1" build-num="17A400"/>
+    </header>
+    <body>
+      <trans-unit id="RelayMask.RelayEmailMaskAvailableCFR.v146" xml:space="preserve">
+        <source>New! %@ Relay email masks are now available on mobile.</source>
+        <note>Displayed in a CFR help message to inform users about the availability of Relay email masking features now being available on mobile. %@ is the name of the app (e.g. 'Firefox')</note>
+      </trans-unit>
+      <trans-unit id="RelayMask.RelayEmailMaskFreeTierLimitReached.v146" xml:space="preserve">
+        <source>Your 5 free email masks are in use, so we picked one for you.</source>
+        <note>Message displayed to users when they attempt to generate a new Relay email mask but they have reached their free tier 5 mask limit, and so an existing mask is chosen for them randomly.</note>
+      </trans-unit>
+      <trans-unit id="RelayMask.RelayEmailMaskGenericErrorMessage.v146" xml:space="preserve">
+        <source>Email masks aren’t available right now. Try again in a few minutes.</source>
+        <note>Generic error message displayed to users when an unexpected error occurs while attempting to generate a Relay email mask.</note>
+      </trans-unit>
+      <trans-unit id="RelayMask.UseRelayEmailMaskFromKeyboard.v146" xml:space="preserve">
+        <source>Use email mask</source>
+        <note>Displayed inside the keyboard hint when a user is entering an email in a web form. Indicates that the user has the option to use an anonymous Relay email mask instead of their personal email. Tapping on this option will populate the field with a Relay mask automatically.</note>
       </trans-unit>
     </body>
   </file>
