@@ -7159,14 +7159,26 @@ Sync on all your devices</source>
         <target>Ваші 5 безплатних масок електронної пошти вже використовуються, тому ми вибрали одну для вас.</target>
         <note>Message displayed to users when they attempt to generate a new Relay email mask but they have reached their free tier 5 mask limit, and so an existing mask is chosen for them randomly.</note>
       </trans-unit>
+      <trans-unit id="RelayMask.RelayEmailMaskFreeTierLimitReached.v147" xml:space="preserve">
+        <source>You’ve used your 5 free email masks, so we picked one for you to reuse.</source>
+        <note>Message displayed to users when they attempt to generate a new Relay email mask but they have reached their free tier 5 mask limit, and so an existing mask is chosen for them randomly.</note>
+      </trans-unit>
       <trans-unit id="RelayMask.RelayEmailMaskGenericErrorMessage.v146" xml:space="preserve">
         <source>Email masks aren’t available right now. Try again in a few minutes.</source>
         <target>Маски електронної пошти зараз недоступні. Повторіть спробу за кілька хвилин.</target>
         <note>Generic error message displayed to users when an unexpected error occurs while attempting to generate a Relay email mask.</note>
       </trans-unit>
+      <trans-unit id="RelayMask.RelayEmailMaskInsertedA11yAnnouncement.v147" xml:space="preserve">
+        <source>Email mask inserted</source>
+        <note>VoiceOver announcement spoken aloud to accessibility users when an email mask is inserted successfully.</note>
+      </trans-unit>
       <trans-unit id="RelayMask.RelayEmailMaskSettingsDetailInfo.v146" xml:space="preserve">
         <source>Hide your real email to protect your inbox from spam. Some sites don’t support it.</source>
         <target>Приховуйте свою справжню адресу електронної пошти, щоб захистити поштову скриньку від спаму. Деякі сайти не підтримують цю функцію.</target>
+        <note>Detailed informational label to explain the Relay anonymous email masking feature to users, and warn that some websites may not support that functionality.</note>
+      </trans-unit>
+      <trans-unit id="RelayMask.RelayEmailMaskSettingsDetailInfo.v147" xml:space="preserve">
+        <source>Hide your real email to protect your inbox from spam. Some sites don’t support email masks.</source>
         <note>Detailed informational label to explain the Relay anonymous email masking feature to users, and warn that some websites may not support that functionality.</note>
       </trans-unit>
       <trans-unit id="RelayMask.RelayEmailMaskSettingsLearnMore.v146" xml:space="preserve">
