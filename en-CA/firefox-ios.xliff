@@ -5283,6 +5283,18 @@ Private Tab</source>
         <target>Stories</target>
         <note>This is the title of the Pocket section on Firefox Homepage.</note>
       </trans-unit>
+      <trans-unit id="FirefoxHome.PrivacyNotice.Body.v148" xml:space="preserve">
+        <source>We’ve updated our %1$@ to reflect the latest features in %2$@. %3$@</source>
+        <note>Body label for the Privacy Notice card showed at the top of the homepage notifying users that the Privacy Notice has been updated. The %1$@ placeholder is for the string “Privacy Notice” which will contain a link to the updated privacy notice. The %2$@ placeholder is for the app name (e.g. Firefox). The %3$@ placeholder is for the string “Learn More” which will contain a link to specifically what has changed in the updated Privacy Notice</note>
+      </trans-unit>
+      <trans-unit id="FirefoxHome.PrivacyNotice.LearnMoreLink.v148" xml:space="preserve">
+        <source>Learn More</source>
+        <note>Label for the “Learn More” link inserted into the second placeholder of the Privacy Notice body label. This text will appear as a tappable link directing users to detailed information about what has changed in the updated Privacy Notice.</note>
+      </trans-unit>
+      <trans-unit id="FirefoxHome.PrivacyNotice.PrivacyNoticeLink.v148" xml:space="preserve">
+        <source>Privacy Notice</source>
+        <note>Label for the “Privacy Notice” link inserted into the first placeholder of the Privacy Notice body label. This text will appear as a tappable link that opens the updated Firefox Privacy Notice.</note>
+      </trans-unit>
       <trans-unit id="FirefoxHome.ScreenTitle.v144" xml:space="preserve">
         <source>Homepage</source>
         <target>Homepage</target>
@@ -7693,6 +7705,18 @@ Sync on all your devices</target>
         <target>Privacy Notice</target>
         <note>Show Firefox Browser Privacy Notice page from the Privacy section in the settings. See https://www.mozilla.org/privacy/firefox/</note>
       </trans-unit>
+      <trans-unit id="Settings.Rollouts.Link.v148" xml:space="preserve">
+        <source>Learn More</source>
+        <note>Title for a link that explains what Mozilla means by Rollouts</note>
+      </trans-unit>
+      <trans-unit id="Settings.Rollouts.Message.v148" xml:space="preserve">
+        <source>%@ will improve features, performance, and stability between updates. Changes applied remotely.</source>
+        <note>A short description that explains that Mozilla may change features remotely. %@ is the app name (e.g. Firefox).</note>
+      </trans-unit>
+      <trans-unit id="Settings.Rollouts.Title.v148" xml:space="preserve">
+        <source>Allow Remote Improvements</source>
+        <note>Label used as a toggle item in Settings. When this is off, the user is opting out of all rollouts.</note>
+      </trans-unit>
       <trans-unit id="Settings.ScrollToHideTabAndAddressBar.Title.v138" xml:space="preserve">
         <source>Scroll to Hide Tab and Address Bar</source>
         <target>Scroll to Hide Tab and Address Bar</target>
@@ -7798,14 +7822,26 @@ Sync on all your devices</target>
         <target>Learn More</target>
         <note>Title for a link that explains what Mozilla means by Studies</note>
       </trans-unit>
+      <trans-unit id="Settings.Studies.Link.v148" xml:space="preserve">
+        <source>Learn More</source>
+        <note>Title for a link that explains what Mozilla means by Studies</note>
+      </trans-unit>
       <trans-unit id="Settings.Studies.Message.v136" xml:space="preserve">
         <source>Try out features and ideas before they’re released to everyone.</source>
         <target>Try out features and ideas before they’re released to everyone.</target>
         <note>A short description that explains that Mozilla is running studies</note>
       </trans-unit>
+      <trans-unit id="Settings.Studies.Message.v148" xml:space="preserve">
+        <source>%@ randomly selects users to test features, which improves quality for everyone.</source>
+        <note>A short description that explains that Mozilla is running studies. %@ is the app name (e.g. Firefox).</note>
+      </trans-unit>
       <trans-unit id="Settings.Studies.Title.v136" xml:space="preserve">
         <source>Install and Run Studies</source>
         <target>Install and Run Studies</target>
+        <note>Label used as a toggle item in Settings. When this is off, the user is opting out of all studies.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Studies.Title.v148" xml:space="preserve">
+        <source>Allow Feature Studies</source>
         <note>Label used as a toggle item in Settings. When this is off, the user is opting out of all studies.</note>
       </trans-unit>
       <trans-unit id="Settings.Summarize.FooterTitle.v142" xml:space="preserve">
