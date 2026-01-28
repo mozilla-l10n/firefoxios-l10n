@@ -54,6 +54,10 @@ def main():
                 "original", file_node.get("original").replace("en-US.lproj", "en.lproj")
             )
 
+        # Remove state attribute from all <target> elements
+        for target in root.xpath("//x:target[@state]", namespaces=NS):
+            del target.attrib["state"]
+
         for trans_node in root.xpath("//x:trans-unit", namespaces=NS):
             for source in trans_node.xpath("./x:source", namespaces=NS):
                 reference = source.text
