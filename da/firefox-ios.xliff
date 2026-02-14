@@ -6424,10 +6424,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.BadCertDomain.AdvancedInfo.v149" xml:space="preserve">
         <source>%1$@ doesn’t trust this site because the certificate found isn’t valid for %2$@.</source>
+        <target>%1$@ stoler ikke på dette websted, fordi det detekterede certifikat ikke er gyldigt for %2$@.</target>
         <note>On certificate error page, this is the advanced information explaining why the certificate is invalid. %1$@ is the app name (e.g. Firefox). %2$@ is the site URL.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.BadCertDomain.AdvancedSecurityInfo.v149" xml:space="preserve">
         <source>This site doesn’t allow connections that aren’t secure.</source>
+        <target>Dette websted tillader ikke forbindelser, som ikke er sikre.</target>
         <note>On certificate error page, this is the security information shown in the advanced section.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.BadCertDomain.AdvancedWarning1.v149" xml:space="preserve">
@@ -6436,6 +6438,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.BadCertDomain.AdvancedWarning2.v149" xml:space="preserve">
         <source>If you’re on a corporate network, your support team might have more info.</source>
+        <target>Hvis du befinder dig på et virksomheds-netværk, kan din IT-afdeling måske have flere oplysninger.</target>
         <note>On certificate error page, this is the second warning message in the advanced section for users on corporate networks.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.BadCertDomain.Description.v149" xml:space="preserve">
@@ -6445,10 +6448,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.BadCertDomain.ErrorCodeLabel.v149" xml:space="preserve">
         <source>Error code: %@</source>
+        <target>Fejlkode: %@</target>
         <note>On certificate error page, this is the label prefix for the error code. %@ is the error code (e.g. SSL_ERROR_BAD_CERT_DOMAIN).</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.BadCertDomain.HideAdvancedButton.v149" xml:space="preserve">
         <source>Hide advanced</source>
+        <target>Skjul avanceret</target>
         <note>On certificate error page, this is the text on a button that will hide the advanced information section.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.BadCertDomain.LearnMoreLink.v149" xml:space="preserve">
@@ -6458,6 +6463,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.BadCertDomain.ProceedButton.v149" xml:space="preserve">
         <source>Proceed to %@ (Risky)</source>
+        <target>Fortsæt til %@ (Risikabelt)</target>
         <note>On certificate error page, this is the text on a button that will proceed to the site despite the certificate error. %@ is the site URL. This is a risky action.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.BadCertDomain.TitleLabel.v149" xml:space="preserve">
@@ -6836,6 +6842,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.BrandRefresh.Welcome.TitleV3.v149" xml:space="preserve">
         <source>Open all your links with built-in privacy</source>
+        <target>Åbn alle dine links med indbygget beskyttelse af dit privatliv</target>
         <note>Title for the welcome card in the v149 brand refresh onboarding flow.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.Customization.Theme.Automatic.v145" xml:space="preserve">
@@ -8629,6 +8636,7 @@ Sendt fra %2$@ 🦊 %3$@</target>
       </trans-unit>
       <trans-unit id="TermsOfUse.LearnMoreHere.v147" xml:space="preserve">
         <source>You can learn more %@.</source>
+        <target>Du kan læse mere %@.</target>
         <note>Text shown in the Terms of Use bottom sheet for variants 1 and 2. %@ is replaced with the localized 'here' link text.</note>
       </trans-unit>
       <trans-unit id="TermsOfUse.Link.HereText.v147" xml:space="preserve">
@@ -8678,6 +8686,7 @@ Sendt fra %2$@ 🦊 %3$@</target>
       </trans-unit>
       <trans-unit id="TermsOfUse.TitleValue2.v147" xml:space="preserve">
         <source>A note from %@</source>
+        <target>En besked fra %@</target>
         <note>Title shown at the top of the Terms of Use bottom sheet for variant 2. %@ is replaced with the app name (e.g., Firefox).</note>
       </trans-unit>
     </body>
