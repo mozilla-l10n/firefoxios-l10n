@@ -19,19 +19,21 @@ jobs:
           - "26.2"
     steps:
       - name: Clone l10n repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
+          persist-credentials: false
           path: "l10n_repo"
       - name: Clone main code repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
+          persist-credentials: false
           repository: "mozilla-mobile/firefox-ios"
           path: "code_repo"
       - name: Select Xcode ${{ matrix.xcode }}
         run: |
           sudo xcode-select -s /Applications/Xcode_${{ matrix.xcode }}.app
       - name: Set up Python 3
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
         with:
           python-version: "3.12"
       - name: Install Python dependencies
@@ -80,7 +82,7 @@ jobs:
       - name: Get the current date for PR title
         run: echo "current_date=$(date +"%Y-%m-%d")" >> $GITHUB_ENV
       - run : git config --global user.email "flodolo@users.noreply.github.com"
-      - uses: peter-evans/create-pull-request@v7
+      - uses: peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0 # v8.1.0
         with:
           token: ${{ secrets.IOS_L10N_TOKEN }}
           path: "l10n_repo"
