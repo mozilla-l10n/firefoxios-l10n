@@ -7429,18 +7429,22 @@ Sioncronachadh air gach uidheam agad</target>
     <body>
       <trans-unit id="RelayMask.RelayEmailMaskAvailableCFR.v146" xml:space="preserve">
         <source>New! %@ Relay email masks are now available on mobile.</source>
+        <target>Ùr! Tha masgan post-d %@ ri làimh san aplacaid mhobile a-nis.</target>
         <note>Displayed in a CFR help message to inform users about the availability of Relay email masking features now being available on mobile. %@ is the name of the app (e.g. 'Firefox')</note>
       </trans-unit>
       <trans-unit id="RelayMask.RelayEmailMaskFreeTierLimitReached.v147" xml:space="preserve">
         <source>You’ve used your 5 free email masks, so we picked one for you to reuse.</source>
+        <target>Chuir thu gu feum na 5 masgan puist-d an-asgaidh agad agus thagh sinn fear dhut airson ath-chleachdadh.</target>
         <note>Message displayed to users when they attempt to generate a new Relay email mask but they have reached their free tier 5 mask limit, and so an existing mask is chosen for them randomly.</note>
       </trans-unit>
       <trans-unit id="RelayMask.RelayEmailMaskGenericErrorMessage.v146" xml:space="preserve">
         <source>Email masks aren’t available right now. Try again in a few minutes.</source>
+        <target>Chan eil na masgan puist-d ri làimh an-dràsta fhèin. Feuch ris a-rithist an ceann beagan mhionaidean.</target>
         <note>Generic error message displayed to users when an unexpected error occurs while attempting to generate a Relay email mask.</note>
       </trans-unit>
       <trans-unit id="RelayMask.RelayEmailMaskInsertedA11yAnnouncement.v147" xml:space="preserve">
         <source>Email mask inserted</source>
+        <target>Chaidh masg puist-d a chur a-steach</target>
         <note>VoiceOver announcement spoken aloud to accessibility users when an email mask is inserted successfully.</note>
       </trans-unit>
       <trans-unit id="RelayMask.RelayEmailMaskSettingsDetailInfo.v147" xml:space="preserve">
@@ -7449,6 +7453,7 @@ Sioncronachadh air gach uidheam agad</target>
       </trans-unit>
       <trans-unit id="RelayMask.RelayEmailMaskSettingsLearnMore.v146" xml:space="preserve">
         <source>Learn more</source>
+        <target>Barrachd fiosrachaidh</target>
         <note>Website link title that takes users to a website to learn additional information about the Relay email mask feature.</note>
       </trans-unit>
       <trans-unit id="RelayMask.RelayEmailMaskSettingsManageEmailMasks.v146" xml:space="preserve">
@@ -7465,6 +7470,7 @@ Sioncronachadh air gach uidheam agad</target>
       </trans-unit>
       <trans-unit id="RelayMask.UseRelayEmailMaskFromKeyboard.v146" xml:space="preserve">
         <source>Use email mask</source>
+        <target>Cleachd masg puist-d</target>
         <note>Displayed inside the keyboard hint when a user is entering an email in a web form. Indicates that the user has the option to use an anonymous Relay email mask instead of their personal email. Tapping on this option will populate the field with a Relay mask automatically.</note>
       </trans-unit>
     </body>
@@ -7755,6 +7761,7 @@ Sioncronachadh air gach uidheam agad</target>
       </trans-unit>
       <trans-unit id="Settings.Appearance.NavigationToolbar.Description.v145" xml:space="preserve">
         <source>Changes the button in the center of the toolbar.</source>
+        <target>Atharraichidh seo am putan am meadhan a’ bhàr-inneal.</target>
         <note>Section description in Appearance settings for middle button configuration of the bottom toolbar.</note>
       </trans-unit>
       <trans-unit id="Settings.Appearance.NavigationToolbar.SectionHeader.v145" xml:space="preserve">
@@ -8177,6 +8184,7 @@ Sioncronachadh air gach uidheam agad</target>
       </trans-unit>
       <trans-unit id="ShareExtension.FileCopiedToClipboard.Title.v139" xml:space="preserve">
         <source>File Copied To Clipboard</source>
+        <target>Chaidh lethbhreac dhen fhaidhle a chur air an stòr-bhòrd</target>
         <note>The Toast message that appears when the user press copy on the share sheet with a file like a pdf</note>
       </trans-unit>
     </body>
@@ -8232,23 +8240,31 @@ Sioncronachadh air gach uidheam agad</target>
       </trans-unit>
       <trans-unit id="SentFromFirefox.SocialShare.ShareMessageA.Title.v134" xml:space="preserve">
         <source>%1$@ Sent from %2$@ 🦊 Try the mobile browser: %3$@</source>
+        <target>%1$@ Air a chur o %2$@ 🦊 Feuch am brabhsair mobile: %3$@</target>
         <note>When a user shares a link to social media, this is the shared text they'll see in the social media app. %1$@  is the shared website's URL. %2$@ is the app name (e.g. Firefox). %3$@ is the link to download the app.</note>
       </trans-unit>
       <trans-unit id="SentFromFirefox.SocialShare.ShareMessageA.Title.v137" xml:space="preserve">
         <source>%1$@
 
 Sent from %2$@ 🦊 Try the mobile browser: %3$@</source>
+        <target>%1$@
+
+Air a chur o %2$@ 🦊 Feuch am brabhsair mobile: %3$@</target>
         <note>When a user shares a link to social media, this is the shared text they'll see in the social media app. %1$@  is the shared website's URL. %2$@ is the app name (e.g. Firefox). %3$@ is the link to download the app. The '
 ' symbols denote empty lines separating the first link parameter from the rest of the text.</note>
       </trans-unit>
       <trans-unit id="SentFromFirefox.SocialShare.ShareMessageB.Title.v134" xml:space="preserve">
         <source>%1$@ Sent from %2$@ 🦊 %3$@</source>
+        <target>%1$@ Air a chur o %2$@ 🦊 %3$@</target>
         <note>When a user shares a link to social media, this is the shared text they'll see in the social media app. %1$@  is the shared website's URL. %2$@ is the app name (e.g. Firefox). %3$@ is the link to download the app.</note>
       </trans-unit>
       <trans-unit id="SentFromFirefox.SocialShare.ShareMessageB.Title.v137" xml:space="preserve">
         <source>%1$@
 
 Sent from %2$@ 🦊 %3$@</source>
+        <target>%1$@
+
+Air a chur o %2$@ 🦊 %3$@</target>
         <note>When a user shares a link to social media, this is the shared text they'll see in the social media app. %1$@  is the shared website's URL. %2$@ is the app name (e.g. Firefox). %3$@ is the link to download the app. The '
 ' symbols denote empty lines separating the first link parameter from the rest of the text.</note>
       </trans-unit>
@@ -8594,6 +8610,7 @@ Sent from %2$@ 🦊 %3$@</source>
     <body>
       <trans-unit id="Toolbar.Menu.Button.A11y.Label.v135" xml:space="preserve">
         <source>Main Menu</source>
+        <target>Am prìomh-chlàr-taice</target>
         <note>Accessibility label for the Main Menu button in the toolbar, specifing that the button will open Main Menu</note>
       </trans-unit>
       <trans-unit id="Toolbar.NewTab.Button.v130" xml:space="preserve">
@@ -8612,6 +8629,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="Toolbar.Tabs.Button.A11y.Label.v135" xml:space="preserve">
         <source>Tabs open</source>
+        <target>Tabaichean a tha fosgailte</target>
         <note>Accessibility label for the tabs button in the toolbar, specifing the number of tabs open.</note>
       </trans-unit>
       <trans-unit id="Toolbar.Tabs.Button.A11y.LargeContentTitle.v137" xml:space="preserve">
