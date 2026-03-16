@@ -6178,6 +6178,10 @@ Private Tab</source>
         <target>Pembesaran Laman</target>
         <note>On the main menu, the accessibility label for the action that will open the page zoom tool.</note>
       </trans-unit>
+      <trans-unit id="MainMenu.ToolsSection.AccessibilityLabels.ReaderView.v150" xml:space="preserve">
+        <source>Reader View</source>
+        <note>On the main menu, the accessibility label for the action that will show or hide the reader view of the webpage.</note>
+      </trans-unit>
       <trans-unit id="MainMenu.ToolsSection.AccessibilityLabels.Save.v132" xml:space="preserve">
         <source>Save</source>
         <target>Simpan</target>
@@ -6247,6 +6251,14 @@ Private Tab</source>
         <source>Reader View</source>
         <target>Tampilan Pembaca</target>
         <note>On the main menu, the title for the action that will show the reader view for the webpage.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.ToolsSection.ReaderViewOff.Title.v150" xml:space="preserve">
+        <source>Off</source>
+        <note>On the main menu, the label for the action that indicates that Reader view is turned off.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.ToolsSection.ReaderViewOn.Title.v150" xml:space="preserve">
+        <source>On</source>
+        <note>On the main menu, the label for the action that indicates that Reader view is turned on.</note>
       </trans-unit>
       <trans-unit id="MainMenu.ToolsSection.SaveSubmenu.Title.v131" xml:space="preserve">
         <source>Save</source>
@@ -7419,6 +7431,17 @@ Sinkronkan di semua perangkat Anda</target>
         <source>Scan QR code</source>
         <target>Pindai kode QR</target>
         <note>Accessibility label of the QR code button in the toolbar</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/ReaderModeBar.strings" source-language="en-US" target-language="id" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.2" build-num="17C52"/>
+    </header>
+    <body>
+      <trans-unit id="ReaderModeBar.SummarizeButtonAccessibilityLabel.v150" xml:space="preserve">
+        <source>Summarize Page</source>
+        <note>Accessibility label for the summarize button in the reader mode bar view</note>
       </trans-unit>
     </body>
   </file>
@@ -8613,6 +8636,10 @@ Dikirim dari %2$@ 🦊 %3$@</target>
         <target>Kembali</target>
         <note>Label for the back button shown in the Terms of Use web view.</note>
       </trans-unit>
+      <trans-unit id="TermsOfUse.CloseButton.v150" xml:space="preserve">
+        <source>Close</source>
+        <note>Label for the close button shown in the Terms of Use web view.</note>
+      </trans-unit>
       <trans-unit id="TermsOfUse.Description.v142" xml:space="preserve">
         <source>We’ve introduced a %@ Terms of Use and updated our Privacy Notice.</source>
         <target>Kami telah memperkenalkan Ketentuan Penggunaan %@ dan memperbarui Pemberitahuan Privasi kami.</target>
@@ -8694,6 +8721,10 @@ Dikirim dari %2$@ 🦊 %3$@</target>
         <source>Summarize page</source>
         <target>Ringkas laman</target>
         <note>Accessibility label for the summarize button that can be displayed in the address toolbar.</note>
+      </trans-unit>
+      <trans-unit id="Toolbar.ReaderModeWithSummarizer.Button.v150" xml:space="preserve">
+        <source>Reader View. Page summary available.</source>
+        <note>Accessibility label for the reader view button with a bottom badge that indicates that the summary is available for the page. The button is displayed in the address bar.</note>
       </trans-unit>
       <trans-unit id="Toolbar.Tab.CloseThisTab.Button.v130" xml:space="preserve">
         <source>Close This Tab</source>
