@@ -6305,6 +6305,10 @@ yksityisessä välilehdessä</target>
         <target>Käännetty kielelle %@</target>
         <note>On the main menu, the accessibility label describing the language that the webpage was translated to. %@ is the language selected (e.g. English).</note>
       </trans-unit>
+      <trans-unit id="MainMenu.ToolsSection.Translation.Off.v151" xml:space="preserve">
+        <source>Off</source>
+        <note>On the main menu, the badge shown on the Translate Page item when translation is inactive.</note>
+      </trans-unit>
       <trans-unit id="MainMenu.ToolsSection.Translation.Title.v145" xml:space="preserve">
         <source>Translate Page</source>
         <target>Käännä sivu</target>
@@ -8276,6 +8280,38 @@ Synkronoi kaikilla laitteillasi</target>
         <target>Uusi välilehti</target>
         <note>In the Appearance settings menu, in the Toolbar Button section, this label indicates that selecting this will make the New Tab button appear in the middle of the navigation toolbar.</note>
       </trans-unit>
+      <trans-unit id="Settings.Translation.AutoTranslate.Footer.v151" xml:space="preserve">
+        <source>Translates pages to your top preferred language automatically.</source>
+        <note>Footer text below the auto-translate toggle in the Translation settings screen.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Translation.AutoTranslate.Title.v151" xml:space="preserve">
+        <source>Automatically Translate</source>
+        <note>Title for the auto-translate toggle in the Translation settings screen.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Translation.LanguagePicker.NavTitle.v151" xml:space="preserve">
+        <source>Select Language</source>
+        <note>Navigation bar title of the language picker shown when adding a preferred translation language.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Translation.LanguagePicker.SearchPlaceholder.v151" xml:space="preserve">
+        <source>Search</source>
+        <note>Placeholder text for the search bar in the translation language picker.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Translation.PreferredLanguages.AddLanguage.v151" xml:space="preserve">
+        <source>Add Language…</source>
+        <note>Row label in the preferred languages list that opens the language picker to add a new preferred language for translation.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Translation.PreferredLanguages.DeviceLanguage.v151" xml:space="preserve">
+        <source>Device Language</source>
+        <note>Subtitle on the device language row in the preferred languages list in the Translation settings screen.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Translation.PreferredLanguages.Footer.v151" xml:space="preserve">
+        <source>Choose from these languages when translating.</source>
+        <note>Footer text below the preferred languages list in the Translation settings screen.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Translation.PreferredLanguages.SectionTitle.v151" xml:space="preserve">
+        <source>Preferred Languages</source>
+        <note>Section header for the preferred languages list in the Translation settings screen.</note>
+      </trans-unit>
       <trans-unit id="Settings.Translation.SectionTitle.v145" xml:space="preserve">
         <source>Translation Preferences</source>
         <target>Kääntämisen asetukset</target>
@@ -8295,6 +8331,10 @@ Synkronoi kaikilla laitteillasi</target>
         <source>Translation</source>
         <target>Käännös</target>
         <note>In the settings menu, in the General section, this is the title for the Translation settings section.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Translation.ToggleFooter.v151" xml:space="preserve">
+        <source>Turn this off to remove translation from the toolbar and menu.</source>
+        <note>Footer text below the enable toggle in the Translation settings screen.</note>
       </trans-unit>
       <trans-unit id="Settings.Translation.ToggleTitle.v145" xml:space="preserve">
         <source>Enable Translations</source>
@@ -8923,6 +8963,22 @@ Lähetetty %2$@ista 🦊 %3$@</target>
         <source>Translate</source>
         <target>Käännä</target>
         <note>On top of the bottom toolbar, there can be a translations banner, this is the title for the button that appears on the banner that allows the user to tap on and translate the webpage.</note>
+      </trans-unit>
+      <trans-unit id="Translations.LanguagePicker.PageTranslatedTitle.v151" xml:space="preserve">
+        <source>Page Translated to %@</source>
+        <note>Title for the action sheet shown when the page has already been translated. %@ is replaced with the target language name (e.g. 'English').</note>
+      </trans-unit>
+      <trans-unit id="Translations.LanguagePicker.PreferredLanguages.v151" xml:space="preserve">
+        <source>Preferred Languages…</source>
+        <note>Menu item at the bottom of the translate language picker that navigates the user to the Translation Preferred Languages settings screen.</note>
+      </trans-unit>
+      <trans-unit id="Translations.LanguagePicker.ShowOriginal.v151" xml:space="preserve">
+        <source>Show Original</source>
+        <note>Button in the translation action sheet to restore the page to its original language.</note>
+      </trans-unit>
+      <trans-unit id="Translations.LanguagePicker.Title.v151" xml:space="preserve">
+        <source>Translate Page to…</source>
+        <note>Title for the action sheet that appears when the user taps the translate toolbar button. Lists the preferred target languages the user can translate the page into.</note>
       </trans-unit>
       <trans-unit id="Translations.Sheet.Button.v145" xml:space="preserve">
         <source>Translate</source>
