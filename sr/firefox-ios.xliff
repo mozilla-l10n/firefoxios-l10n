@@ -876,17 +876,17 @@
       </trans-unit>
       <trans-unit id="Downloads.Toast.MultipleFiles.DescriptionText" xml:space="preserve">
         <source>1 of %d files</source>
-        <target>1 од {$int :integer @source=|%d|} датотека</target>
+        <target>1 од %d датотека</target>
         <note>The description text in the Download progress toast for showing the number of files when multiple files are downloading. %d is the total number of files.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.MultipleFilesAndProgress.DescriptionText" xml:space="preserve">
         <source>%1$@ %2$@</source>
-        <target>{$arg1 @source=|%1$@| @index=1} {$arg2 @source=|%2$@| @index=2}</target>
+        <target>%1$@ %2$@</target>
         <note>The description text in the Download progress toast for showing the number of files (%1$@) and download progress (%2$@). This string only consists of two placeholders for purposes of displaying two other strings side-by-side where %1$@ is Downloads.Toast.MultipleFiles.DescriptionText and %2$@ is Downloads.Toast.Progress.DescriptionText. This string should only consist of the two placeholders side-by-side separated by a single space and %1$@ should come before %2$@ everywhere except for right-to-left locales.</note>
       </trans-unit>
       <trans-unit id="Downloads.Toast.Progress.DescriptionText" xml:space="preserve">
         <source>%1$@/%2$@</source>
-        <target>{$arg1 @source=|%1$@| @index=1}/{$arg2 @source=|%2$@| @index=2}</target>
+        <target>%1$@/%2$@</target>
         <note>The description text in the Download progress toast for showing the downloaded file size (%1$@) out of the total expected file size (%2$@).</note>
       </trans-unit>
       <trans-unit id="DownloadsPanel.Delete.Title" xml:space="preserve">
@@ -926,7 +926,7 @@
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Description" xml:space="preserve">
         <source>The owner of %@ has configured their website improperly. To protect your information from being stolen, Firefox has not connected to this website.</source>
-        <target>Власник веб сајта {$arg @source=|%@|} га је неправилно подесио. Да би заштитио ваше податке од крађе, Firefox се није повезао са овим веб сајтом.</target>
+        <target>Власник веб сајта %@ га је неправилно подесио. Да би заштитио ваше податке од крађе, Firefox се није повезао са овим веб сајтом.</target>
         <note>Warning text on the certificate error page. %@ is the domain of the website.</note>
       </trans-unit>
       <trans-unit id="ErrorPages.CertWarning.Title" xml:space="preserve">
@@ -976,7 +976,7 @@
       </trans-unit>
       <trans-unit id="FirefoxHome.Pocket.Minutes.v99" xml:space="preserve">
         <source>%d min</source>
-        <target>{$int :integer @source=|%d|} мин</target>
+        <target>%d мин</target>
         <note>On each Pocket Stories on the Firefox Homepage, this label appears and indicates the number of minutes to read an article. Minutes should be abbreviated due to space constraints. %d represents the number of minutes</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.Pocket.SectionTitle" xml:space="preserve">
@@ -991,12 +991,12 @@
       </trans-unit>
       <trans-unit id="FirefoxHome.Stories.Minutes.v140" xml:space="preserve">
         <source>min: %d</source>
-        <target>мин: {$int :integer @source=|%d|}</target>
+        <target>мин: %d</target>
         <note>On each Story on the Firefox Homepage, this label appears and indicates the number of minutes to read an article. Minutes should be abbreviated due to space constraints. %d represents the number of minutes</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.Common.PagesCount.v112" xml:space="preserve">
         <source>Pages: %d</source>
-        <target>Странице: {$int :integer @source=|%d|}</target>
+        <target>Странице: %d</target>
         <note>Label showing how many pages there is in a search group. %d represents a number</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.ContextualMenu.Settings.v101" xml:space="preserve">
@@ -1066,7 +1066,7 @@
       </trans-unit>
       <trans-unit id="FxAPush_DeviceConnected_body" xml:space="preserve">
         <source>Firefox Sync has connected to %@</source>
-        <target>Firefox Sync је повезан са {$arg @source=|%@|}</target>
+        <target>Firefox Sync је повезан са %@</target>
         <note>Title of a notification displayed when another device has connected to FxA. %@ refers to the name of the newly connected device.</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceConnected_title" xml:space="preserve">
@@ -1091,7 +1091,7 @@
       </trans-unit>
       <trans-unit id="FxAPush_DeviceDisconnected_body" xml:space="preserve">
         <source>%@ has been successfully disconnected.</source>
-        <target>{$arg @source=|%@|} је успешно прекинуо везу.</target>
+        <target>%@ је успешно прекинуо везу.</target>
         <note>Body of a notification displayed when named device has been disconnected from FxA. %@ refers to the name of the disconnected device.</note>
       </trans-unit>
       <trans-unit id="FxAPush_DeviceDisconnected_title" xml:space="preserve">
@@ -1396,7 +1396,7 @@
       </trans-unit>
       <trans-unit id="LibraryPanel.History.ClearGroupedTabsTitle.v100" xml:space="preserve">
         <source>Delete all sites in %@?</source>
-        <target>Обрисати све сајтове у {$arg @source=|%@|}?</target>
+        <target>Обрисати све сајтове у %@?</target>
         <note>Within the History Panel, users can delete search group sites history. %@ represents the search group name.</note>
       </trans-unit>
       <trans-unit id="LibraryPanel.History.ClearHistoryMenuTitle.v100" xml:space="preserve">
@@ -1741,7 +1741,7 @@
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.Details.Verifier" xml:space="preserve">
         <source>Verified by %@</source>
-        <target>Потврдио {$arg @source=|%@|}</target>
+        <target>Потврдио %@</target>
         <note>String to let users know the site verifier, where %@ represents the SSL certificate signer.</note>
       </trans-unit>
       <trans-unit id="Menu.TrackingProtection.ProtectionSettings.Title" xml:space="preserve">
@@ -1806,7 +1806,7 @@
       </trans-unit>
       <trans-unit id="Menu.ZoomPage.Title.v113" xml:space="preserve">
         <source>Zoom (%@)</source>
-        <target>Увећај ({$arg @source=|%@|})</target>
+        <target>Увећај (%@)</target>
         <note>Label for the zoom page button in the menu, used to show the Zoom Page bar. %@ shows the current zoom level in percent.</note>
       </trans-unit>
       <trans-unit id="Navigation Toolbar" xml:space="preserve">
@@ -2206,12 +2206,12 @@
       </trans-unit>
       <trans-unit id="SentTab_TabArrivingNotification_WithDevice_body" xml:space="preserve">
         <source>New tab arrived in %@</source>
-        <target>Нови језичак је стигао у {$arg @source=|%@|}</target>
+        <target>Нови језичак је стигао у %@</target>
         <note>Body of notification shown when the device is sent one or more tabs from the named device. %@ is the placeholder for the app name.</note>
       </trans-unit>
       <trans-unit id="SentTab_TabArrivingNotification_WithDevice_title" xml:space="preserve">
         <source>Tab received from %@</source>
-        <target>Језичак је примљен са {$arg @source=|%@|}</target>
+        <target>Језичак је примљен са %@</target>
         <note>Title of notification shown when the device is sent one or more tabs from the named device. %@ is the placeholder for the device name. This device name will be localized by that device.</note>
       </trans-unit>
       <trans-unit id="Sepia" xml:space="preserve">
@@ -2261,7 +2261,7 @@
       </trans-unit>
       <trans-unit id="Settings.AddCustomEngine.URLPlaceholder" xml:space="preserve">
         <source>URL (Replace Query with %s)</source>
-        <target>Адреса (замените упит са {$str :string @source=|%s|})</target>
+        <target>Адреса (замените упит са %s)</target>
         <note>The placeholder for URL Field when saving a custom search engine</note>
       </trans-unit>
       <trans-unit id="Settings.AddressBar.Bottom.v138" xml:space="preserve">
@@ -2581,7 +2581,7 @@
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.Classic.Title.v106" xml:space="preserve">
         <source>Classic %@</source>
-        <target>Класично {$arg @source=|%@|}</target>
+        <target>Класично %@</target>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the title of the group of wallpapers that are always available to the user. The %@ will be replaced by the app name and thus doesn't need translation.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.CollectionTitle" xml:space="preserve">
@@ -2741,7 +2741,7 @@
       </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.Status.v128" xml:space="preserve">
         <source>When opening %@</source>
-        <target>При отварању {$arg @source=|%@|}</target>
+        <target>При отварању %@</target>
         <note>Description displayed under the ”Offer to Open Copied Link” option. See https://bug1223660.bmoattachments.org/attachment.cgi?id=8898349. %@ is for the app name.</note>
       </trans-unit>
       <trans-unit id="Settings.OfferClipboardBar.Title" xml:space="preserve">
@@ -3111,7 +3111,7 @@
       </trans-unit>
       <trans-unit id="Tab %@ of %@" xml:space="preserve">
         <source>Tab %1$@ of %2$@</source>
-        <target>Језичак {$arg1 @source=|%1$@| @index=1} од {$arg2 @source=|%2$@| @index=2}</target>
+        <target>Језичак %1$@ од %2$@</target>
         <note>Message spoken by VoiceOver saying the position of the single currently visible tab in Tabs Tray (%1$@), along with the total number of tabs (%2$@). E.g. “Tab 2 of 5” says that tab 2 is visible (and is the only visible tab), out of 5 tabs total.</note>
       </trans-unit>
       <trans-unit id="Tab.ShowTabTray.KeyCodeTitle" xml:space="preserve">
@@ -3181,7 +3181,7 @@
       </trans-unit>
       <trans-unit id="Tabs %@ to %@ of %@" xml:space="preserve">
         <source>Tabs %1$@ to %2$@ of %3$@</source>
-        <target>Језичци {$arg1 @source=|%1$@| @index=1} до {$arg2 @source=|%2$@| @index=2} од {$arg3 @source=|%3$@| @index=3}</target>
+        <target>Језичци %1$@ до %2$@ од %3$@</target>
         <note>Message spoken by VoiceOver saying the range of tabs that are currently visible in Tabs Tray (%1$@ to %2$@), along with the total number of tabs (%3$@). E.g. “Tabs 8 to 10 of 15” says tabs 8, 9 and 10 are visible, out of 15 tabs total.</note>
       </trans-unit>
       <trans-unit id="Tabs Tray" xml:space="preserve">
@@ -3421,7 +3421,7 @@
       </trans-unit>
       <trans-unit id="today at %@" xml:space="preserve">
         <source>today at %@</source>
-        <target>данас у {$arg @source=|%@|}</target>
+        <target>данас у %@</target>
         <note>Relative date for date older than a minute. %@ is the time.</note>
       </trans-unit>
       <trans-unit id="unread" xml:space="preserve">
@@ -3463,7 +3463,7 @@
       </trans-unit>
       <trans-unit id="Created %@" xml:space="preserve">
         <source>Created %@</source>
-        <target>Направљено {$arg @source=|%@|}</target>
+        <target>Направљено %@</target>
         <note>Label describing when the current login was created. %@ is the timestamp.</note>
       </trans-unit>
       <trans-unit id="Delete" xml:space="preserve">
@@ -3528,7 +3528,7 @@
       </trans-unit>
       <trans-unit id="Modified %@" xml:space="preserve">
         <source>Modified %@</source>
-        <target>Измењено {$arg @source=|%@|}</target>
+        <target>Измењено %@</target>
         <note>Label describing when the current login was last modified. %@ is the timestamp.</note>
       </trans-unit>
       <trans-unit id="No logins found" xml:space="preserve">
@@ -3764,7 +3764,7 @@
     <body>
       <trans-unit id="%@ search" xml:space="preserve">
         <source>%@ search</source>
-        <target>{$arg @source=|%@|} претрага</target>
+        <target>%@ претрага</target>
         <note>Label for search engine buttons. %@ is the name of the search engine.</note>
       </trans-unit>
       <trans-unit id="Search Settings" xml:space="preserve">
@@ -3786,7 +3786,7 @@
     <body>
       <trans-unit id="%@ on %@" xml:space="preserve">
         <source>%1$@ on %2$@</source>
-        <target>{$arg1 @source=|%1$@| @index=1} на {$arg2 @source=|%2$@| @index=2}</target>
+        <target>%1$@ на %2$@</target>
         <note>A brief descriptive name for this app on this device, used for Send Tab and Synced Tabs. %1$@ is the app name, %2$@ is the device name.</note>
       </trans-unit>
     </body>
@@ -3859,7 +3859,7 @@ Copied Link</source>
       </trans-unit>
       <trans-unit id="TodayWidget.MoreTabsLabel" xml:space="preserve">
         <source>+%d More…</source>
-        <target>+{$int :integer @source=|%d|} више…</target>
+        <target>+%d више…</target>
         <note>%d represents number and it becomes something like +5 more where 5 is the number of open tabs in tab tray beyond what is displayed in the widget</note>
       </trans-unit>
       <trans-unit id="TodayWidget.NewTabButtonLabelV1" xml:space="preserve">
@@ -3987,7 +3987,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="AddressToolbar.SearchEngine.A11y.Label.v128" xml:space="preserve">
         <source>Search Engine: %@</source>
-        <target>Претраживач: {$arg @source=|%@|}</target>
+        <target>Претраживач: %@</target>
         <note>Accessibility label for the search engine icon in the address bar. %@ is the name of the search engine (e.g. Google).</note>
       </trans-unit>
     </body>
@@ -4026,7 +4026,7 @@ Private Tab</source>
     <body>
       <trans-unit id="Alerts.AddToCalendar.Body.v134" xml:space="preserve">
         <source>%@ is asking to download a file and add an event to your calendar.</source>
-        <target>{$arg @source=|%@|} тражи да преузме датотеку и дода догађај у ваш календар.</target>
+        <target>%@ тражи да преузме датотеку и дода догађај у ваш календар.</target>
         <note>When tapping on a link, on a website in order to download a file and that file is a calendar file, an alert comes up asking to confirm if you want to add the event to the device calendar. This is the body message for the alert. %@ is the name/domain of the website, for example 'google.com'</note>
       </trans-unit>
       <trans-unit id="Alerts.AddToCalendar.BodyDefault.v134" xml:space="preserve">
@@ -4086,7 +4086,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Alerts.RestoreTabs.Title.v109.v2" xml:space="preserve">
         <source>%@ crashed. Restore your tabs?</source>
-        <target>{$arg @source=|%@|} је пао. Желите ли да повратите језичке?</target>
+        <target>%@ је пао. Желите ли да повратите језичке?</target>
         <note>The title of the restore tabs pop-up alert. This alert is displayed when opening up Firefox after it crashed. %@ is the name of the app (e.g. Firefox).</note>
       </trans-unit>
     </body>
@@ -4103,7 +4103,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.AppIconSelection.Accessibility.AppIconSelectionHint.v136" xml:space="preserve">
         <source>Select the %@ app icon</source>
-        <target>Изаберите иконицу апликације {$arg @source=|%@|}</target>
+        <target>Изаберите иконицу апликације %@</target>
         <note>On the app icon customization screen, where you can select an alternate icon for the app, this is the accessibility hint describing what happens when you select an app icon row. %@ is the app name.</note>
       </trans-unit>
       <trans-unit id="Settings.AppIconSelection.Accessibility.AppIconUnselectedLabel.v136" xml:space="preserve">
@@ -4263,7 +4263,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.AppIconSelection.ContributorCredit.Subtitle.v139" xml:space="preserve">
         <source>Created by %@</source>
-        <target>Аутор: {$arg @source=|%@|}</target>
+        <target>Аутор: %@</target>
         <note>On the app icon customization screen where you can select an alternate icon for the app, this is the subtitle shown on alternative app icons added by contributors which credit them for their design work. The parameter %@ specifies the creator's name, @ handle, or other personal identifier.</note>
       </trans-unit>
       <trans-unit id="Settings.AppIconSelection.Errors.SelectErrorConfirmation.v136" xml:space="preserve">
@@ -4421,7 +4421,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Bookmarks.Menu.DeletedBookmark.v131" xml:space="preserve">
         <source>Deleted “%@”</source>
-        <target>Обрисано „{$arg @source=|%@|}“</target>
+        <target>Обрисано „%@“</target>
         <note>Label of toast displayed after a bookmark is deleted in the Bookmarks menu. %@ is the name of the bookmark.</note>
       </trans-unit>
       <trans-unit id="Bookmarks.Menu.EditBookmark.v131" xml:space="preserve">
@@ -4471,7 +4471,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Bookmarks.Menu.SavedBookmarkToastLabel.v136" xml:space="preserve">
         <source>Saved in “%@”</source>
-        <target>Сачувано у „{$arg @source=|%@|}“</target>
+        <target>Сачувано у „%@“</target>
         <note>The label displayed in the toast notification when saving a bookmark via the menu to a custom folder. %@ represents the custom name of the folder, created by the user, where the bookmark will be saved to.</note>
       </trans-unit>
       <trans-unit id="HomePanel.ContextMenu.Edit.v131" xml:space="preserve">
@@ -4510,7 +4510,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="ContextualHints.Translations.Title.v145" xml:space="preserve">
         <source>%@ Speaks Your Language</source>
-        <target>{$arg @source=|%@|} говори ваш језик</target>
+        <target>%@ говори ваш језик</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This is the title of one that points the user to the new translation icon on the toolbar. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
     </body>
@@ -4542,7 +4542,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="LoginsList.NoLoginsFound.Description.v122" xml:space="preserve">
         <source>The passwords you save or sync to %@ will be listed here. All passwords you save are encrypted.</source>
-        <target>Лозинке које сачувате или ускладите са {$arg @source=|%@|} ће бити наведене овде. Све лозинке које сачувате су шифроване.</target>
+        <target>Лозинке које сачувате или ускладите са %@ ће бити наведене овде. Све лозинке које сачувате су шифроване.</target>
         <note>Label shown when there are no logins to list. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="LoginsList.NoLoginsFound.Title.v122" xml:space="preserve">
@@ -4596,7 +4596,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.ThoughtProvokingStories.subtitle.v116" xml:space="preserve">
         <source>Articles powered by %@</source>
-        <target>Чланци које омогућава {$arg @source=|%@|}</target>
+        <target>Чланци које омогућава %@</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the subtitle for the option that allows users to turn the Pocket Recommendations section on the Firefox homepage on or off. %@ is Pocket.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.ThoughtProvokingStories.v116" xml:space="preserve">
@@ -4929,7 +4929,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.ExpiredDateTitle.v112" xml:space="preserve">
         <source>Expires %@</source>
-        <target>Истиче {$arg @source=|%@|}</target>
+        <target>Истиче %@</target>
         <note>Label for credit card expiration date. The %@ will be replaced by the actual date and thus doesn't need translation.</note>
       </trans-unit>
       <trans-unit id="CreditCard.EditCard.NameOnCardTitle.v112" xml:space="preserve">
@@ -4991,7 +4991,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Engagement.Notification.Treatment.A.Body.v114" xml:space="preserve">
         <source>Private browsing in %@ doesn’t save your info and blocks hidden trackers.</source>
-        <target>Приватно прегледање у апликацији {$arg @source=|%@|} не чува ваше податке и блокира скривене пратиоце.</target>
+        <target>Приватно прегледање у апликацији %@ не чува ваше податке и блокира скривене пратиоце.</target>
         <note>Body of notification sent to user after inactivity to encourage them to use the private browsing feature. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Engagement.Notification.Treatment.A.Title.v114" xml:space="preserve">
@@ -5001,7 +5001,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Engagement.Notification.Treatment.B.Body.v114" xml:space="preserve">
         <source>Browse with no saved cookies or history in %@.</source>
-        <target>Прегледајте без сачуваних колачића или историјата у апликацији {$arg @source=|%@|}.</target>
+        <target>Прегледајте без сачуваних колачића или историјата у апликацији %@.</target>
         <note>Body of notification sent to user after inactivity to encourage them to use the private browsing feature. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Engagement.Notification.Treatment.B.Title.v114" xml:space="preserve">
@@ -5093,7 +5093,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.ClearData.AlertText.v128" xml:space="preserve">
         <source>Removing cookies and site data for %@ might log you out of websites and clear shopping carts.</source>
-        <target>Уклањање колачића и података веб сајтова за {$arg @source=|%@|} може вас одјавити са веб сајтова и испразнити корпе за куповину.</target>
+        <target>Уклањање колачића и података веб сајтова за %@ може вас одјавити са веб сајтова и испразнити корпе за куповину.</target>
         <note>The text for the clear cookies and site data alert inside the enhanced tracking protection screen. %@ is the currently visited website.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.ClearData.AlertTitle.v128" xml:space="preserve">
@@ -5133,42 +5133,42 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.Trackers.Analytics.v132" xml:space="preserve">
         <source>Tracking content: %@</source>
-        <target>Садржај за праћење: {$arg @source=|%@|}</target>
+        <target>Садржај за праћење: %@</target>
         <note>Text to let users know how many analytics trackers were blocked on the current website. %@ is the number of cookies of this type detected.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.Trackers.CrossSite.v129" xml:space="preserve">
         <source>Cross-site tracking cookies: %@</source>
-        <target>Колачићи за унакрсно праћење: {$arg @source=|%@|}</target>
+        <target>Колачићи за унакрсно праћење: %@</target>
         <note>Text to let users know how many cross-site tracking cookies were blocked on the current website. %@ is the number of cookies of this type detected.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.Trackers.Fingerprinter.v129" xml:space="preserve">
         <source>Fingerprinters: %@</source>
-        <target>Сакупљачи дигиталних отисака: {$arg @source=|%@|}</target>
+        <target>Сакупљачи дигиталних отисака: %@</target>
         <note>Text to let users know how many fingerprinters were blocked on the current website. %@ is the number of fingerprinters detected.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.Trackers.SocialMedia.v129" xml:space="preserve">
         <source>Social media trackers: %@</source>
-        <target>Пратиоци друштвених мрежа: {$arg @source=|%@|}</target>
+        <target>Пратиоци друштвених мрежа: %@</target>
         <note>Text to let users know how many social media trackers were blocked on the current website. %@ is the number of cookies of this type detected.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.Trackers.v128" xml:space="preserve">
         <source>Trackers blocked: %@</source>
-        <target>Блокирани пратиоци: {$arg @source=|%@|}</target>
+        <target>Блокирани пратиоци: %@</target>
         <note>Text to let users know how many trackers were blocked on the current website. %@ is the number of trackers blocked.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.TrackersStandardModeFooterText.v150" xml:space="preserve">
         <source>Standard blocks common trackers after a page starts loading, so you may see a higher tracker count. %@</source>
-        <target>Стандардна блокира уобичајене пратиоце након што страница почне да се учитава, па можете видети већи број пратилаца. {$arg @source=|%@|}</target>
+        <target>Стандардна блокира уобичајене пратиоце након што страница почне да се учитава, па можете видети већи број пратилаца. %@</target>
         <note>Text to let users know how standard mode for Tracking Protection work. %@ is a tappable text which contains a link with more informations about current Tracking Protection mode. e.g Learn more</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.TrackersStrictModeFooterText.v150" xml:space="preserve">
         <source>Strict blocks more trackers by stopping them before a page loads, so you may see a lower tracker count. %@</source>
-        <target>Строга блокира више пратилаца тако што их зауставља пре него што се страница учита, па можете видети мањи број пратилаца. {$arg @source=|%@|}</target>
+        <target>Строга блокира више пратилаца тако што их зауставља пре него што се страница учита, па можете видети мањи број пратилаца. %@</target>
         <note>Text to let users know how strict mode for Tracking Protection work. %@ is a tappable text which contains a link with more informations about current Tracking Protection mode. e.g Learn more</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.Verifier.v128" xml:space="preserve">
         <source>Verified by %@</source>
-        <target>Оверио {$arg @source=|%@|}</target>
+        <target>Оверио %@</target>
         <note>Text to let users know the site verifier, where %@ represents the SSL certificate signer which is on the enhanced tracking protection screen after the user taps on the connection details.</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.ViewCertificatesTitle.v131" xml:space="preserve">
@@ -5183,7 +5183,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Off.Header.v128" xml:space="preserve">
         <source>%@ is off-duty. We suggest turning protections back on.</source>
-        <target>{$arg @source=|%@|} је ван дужности. Предлажемо да поново укључите заштите.</target>
+        <target>%@ је ван дужности. Предлажемо да поново укључите заштите.</target>
         <note>Header for the enhanced tracking protection screen when the user has opted out of the feature. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Off.Title.v128" xml:space="preserve">
@@ -5208,7 +5208,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.On.Title.v128" xml:space="preserve">
         <source>%@ is on guard</source>
-        <target>{$arg @source=|%@|} је на стражи</target>
+        <target>%@ је на стражи</target>
         <note>Title for the enhanced tracking protection screen when the user has selected to be protected. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.PrivacySettings.Title.v128" xml:space="preserve">
@@ -5289,7 +5289,7 @@ Private Tab</source>
     <body>
       <trans-unit id="FirefoxHome.PrivacyNotice.Body.v148" xml:space="preserve">
         <source>We’ve updated our %1$@ to reflect the latest features in %2$@. %3$@</source>
-        <target>Ажурирали смо наше {$arg1 @source=|%1$@| @index=1} како бисмо одразили најновије могућности у {$arg2 @source=|%2$@| @index=2}. {$arg3 @source=|%3$@| @index=3}</target>
+        <target>Ажурирали смо наше %1$@ како бисмо одразили најновије могућности у %2$@. %3$@</target>
         <note>Body label for the Privacy Notice card showed at the top of the homepage notifying users that the Privacy Notice has been updated. The %1$@ placeholder is for the string “Privacy Notice” which will contain a link to the updated privacy notice. The %2$@ placeholder is for the app name (e.g. Firefox). The %3$@ placeholder is for the string “Learn More” which will contain a link to specifically what has changed in the updated Privacy Notice</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.PrivacyNotice.LearnMoreLink.v148" xml:space="preserve">
@@ -5344,7 +5344,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.FeltPrivacyUI.Body.v122" xml:space="preserve">
         <source>%@ deletes your cookies, history, and site data when you close all your private tabs.</source>
-        <target>{$arg @source=|%@|} брише ваше колачиће, историјат и податке сајтова када затворите све своје приватне језичке.</target>
+        <target>%@ брише ваше колачиће, историјат и податке сајтова када затворите све своје приватне језичке.</target>
         <note>The body of the message for the card that educates users about how private mode works. The card shows up on the homepage when in the new privacy mode. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.FeltPrivacyUI.Link.v122" xml:space="preserve">
@@ -5374,7 +5374,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.Shortcuts.Pinned.AccessibilityLabel.v139" xml:space="preserve">
         <source>Pinned: %@</source>
-        <target>Закачено: {$arg @source=|%@|}</target>
+        <target>Закачено: %@</target>
         <note>Accessibility label for shortcuts tile on the Firefox home page, indicating that the tile is a pinned tile. %@ is the title of the website.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.Shortcuts.SectionTitle.v142" xml:space="preserve">
@@ -5389,7 +5389,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.Stories.PositionAccessibilityHint.v143" xml:space="preserve">
         <source>%1$@ of %2$@</source>
-        <target>{$arg1 @source=|%1$@| @index=1} од {$arg2 @source=|%2$@| @index=2}</target>
+        <target>%1$@ од %2$@</target>
         <note>On the homepage, in the Stories section, this is the accessibility hint for the position of the current story in the stories stack. The first placeholder, %1$@, is the current position; the second placeholder, %2$@, is the total story count. Example: '1 of 5'</note>
       </trans-unit>
     </body>
@@ -5465,7 +5465,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.Pocket.Footer.Title.v116" xml:space="preserve">
         <source>Powered by %1$@. Part of the %2$@ family.</source>
-        <target>Покреће {$arg1 @source=|%1$@| @index=1}. Део {$arg2 @source=|%2$@| @index=2} породице.</target>
+        <target>Покреће %1$@. Део %2$@ породице.</target>
         <note>This is the title of the Pocket footer on Firefox Homepage. %1$@ is Pocket, %2$@ is the app name (e.g. Firefox).</note>
       </trans-unit>
     </body>
@@ -5477,7 +5477,7 @@ Private Tab</source>
     <body>
       <trans-unit id="CloseTab.ArrivingNotification.title.v133" xml:space="preserve">
         <source>%1$@ tabs closed: %2$@</source>
-        <target>Затворено језичака у апликацији {$arg1 @source=|%1$@| @index=1}: {$arg2 @source=|%2$@| @index=2}</target>
+        <target>Затворено језичака у апликацији %1$@: %2$@</target>
         <note>Title of notification shown when a remote device has requested to close a number of tabs. %1$@ is the app name (e.g. Firefox). %2$@ is the number of tabs.</note>
       </trans-unit>
       <trans-unit id="CloseTab.ViewAction.title.v133" xml:space="preserve">
@@ -5560,17 +5560,17 @@ Private Tab</source>
     <body>
       <trans-unit id="LiveActivity.Downloads.FileCountText.v138" xml:space="preserve">
         <source>Downloading Files: %@</source>
-        <target>Преузимање датотека: {$arg @source=|%@|}</target>
+        <target>Преузимање датотека: %@</target>
         <note>Displayed during a download in Live Activity or Dynamic Island. %@ is the number of files (e.g. Downloading Files: 2).</note>
       </trans-unit>
       <trans-unit id="LiveActivity.Downloads.FileNameText.v138" xml:space="preserve">
         <source>Downloading “%@”</source>
-        <target>Преузимање „{$arg @source=|%@|}“</target>
+        <target>Преузимање „%@“</target>
         <note>Displayed during a download in Live Activity or Dynamic Island. %@ is the name of the file being downloaded (e.g. Downloading “MyFile.pdf”).</note>
       </trans-unit>
       <trans-unit id="LiveActivity.Downloads.FileProgressText.v138" xml:space="preserve">
         <source>%1$@ of %2$@</source>
-        <target>{$arg1 @source=|%1$@| @index=1} од {$arg2 @source=|%2$@| @index=2}</target>
+        <target>%1$@ од %2$@</target>
         <note>Displayed during a download in Live Activity or Dynamic Island to show the current progress of the file(s) download. %1$@ is the downloaded size, %2$@ is the total size of the file(s) (e.g. 10 MB of 200 MB).</note>
       </trans-unit>
     </body>
@@ -5714,7 +5714,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="MainMenu.HeaderBanner.Title.v142" xml:space="preserve">
         <source>Make %@ your default</source>
-        <target>Поставите {$arg @source=|%@|} као подразумевани</target>
+        <target>Поставите %@ као подразумевани</target>
         <note>On the main menu, at the top, title for the banner which suggest user can set Firefox as default browser. %@ is the app name</note>
       </trans-unit>
       <trans-unit id="MainMenu.PanelLinkSection.AccessibilityLabels.Bookmarks.v132" xml:space="preserve">
@@ -5774,7 +5774,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="MainMenu.SettingsSection.AccessibilityLabels.WhatsNew.v132" xml:space="preserve">
         <source>New in %@</source>
-        <target>New in {$arg @source=|%@|}</target>
+        <target>New in %@</target>
         <note>On the main menu, the accessibility labels for the action that will take the user to a What's New in Firefox popup. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="MainMenu.SettingsSection.CustomizeHomepage.Title.v131" xml:space="preserve">
@@ -5794,7 +5794,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="MainMenu.SettingsSection.WhatsNew.Title.v131" xml:space="preserve">
         <source>New in %@</source>
-        <target>New in {$arg @source=|%@|}</target>
+        <target>New in %@</target>
         <note>On the main menu, the title for the action that will take the user to a What's New in Firefox popup. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="MainMenu.SiteProtection.ConnectionNotSecure.Title.v141" xml:space="preserve">
@@ -6304,7 +6304,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="MainMenu.ToolsSection.Translation.AccessibilityLabels.TranslatedPageLanguage.v145" xml:space="preserve">
         <source>Translated to %@</source>
-        <target>Преведено на {$arg @source=|%@|}</target>
+        <target>Преведено на %@</target>
         <note>On the main menu, the accessibility label describing the language that the webpage was translated to. %@ is the language selected (e.g. English).</note>
       </trans-unit>
       <trans-unit id="MainMenu.ToolsSection.Translation.Off.v151" xml:space="preserve">
@@ -6361,12 +6361,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Microsurvey.Prompt.LogoImage.AccessibilityLabel.v129" xml:space="preserve">
         <source>%@ Logo</source>
-        <target>{$arg @source=|%@|} лого</target>
+        <target>%@ лого</target>
         <note>On top of the bottom toolbar, there can be a microsurvey prompt, this is the logo image that appears on the prompt to inform the prompt is coming from the app specifically. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Microsurvey.Prompt.TitleLabel.v127" xml:space="preserve">
         <source>Help us make %@ better. It only takes a minute.</source>
-        <target>Помозите нам да учинимо {$arg @source=|%@|} бољим. Потребан је само минут.</target>
+        <target>Помозите нам да учинимо %@ бољим. Потребан је само минут.</target>
         <note>On top of the bottom toolbar, there can be a microsurvey prompt, this is the title for the text that appears on the prompt to inform the user that this is a prompt to take a survey. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Microsurvey.Survey.Button.v127" xml:space="preserve">
@@ -6396,7 +6396,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Microsurvey.Survey.LogoImage.AccessibilityLabel.v129" xml:space="preserve">
         <source>%@ Logo</source>
-        <target>{$arg @source=|%@|} лого</target>
+        <target>%@ лого</target>
         <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this is the logo image that appears on the bottom sheet that informs the user that it is coming from the app specifically. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Microsurvey.Survey.Options.Dissatisfied.v132" xml:space="preserve">
@@ -6431,7 +6431,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Microsurvey.Survey.OptionsOrder.AccessibilityLabel.v129" xml:space="preserve">
         <source>%1$@ out of %2$@</source>
-        <target>{$arg1 @source=|%1$@| @index=1} од {$arg2 @source=|%2$@| @index=2}</target>
+        <target>%1$@ од %2$@</target>
         <note>After engaging with the microsurvey prompt, the microsurvey pops up as a bottom sheet for the user to answer, this is the accessibility label that states the order of the current option in the list of options. %1$@ is the number the option is in the list, %2$@ is the total number of options. An example of output is “1 out of 6”.</note>
       </trans-unit>
       <trans-unit id="Microsurvey.Survey.PrivacyPolicyLink.v127" xml:space="preserve">
@@ -6463,7 +6463,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.BadCertDomain.AdvancedInfo.v149" xml:space="preserve">
         <source>%1$@ doesn’t trust this site because the certificate found isn’t valid for %2$@.</source>
-        <target>{$arg1 @source=|%1$@| @index=1} не верује овом сајту јер пронађени сертификат није важећи за {$arg2 @source=|%2$@| @index=2}.</target>
+        <target>%1$@ не верује овом сајту јер пронађени сертификат није важећи за %2$@.</target>
         <note>On certificate error page, this is the advanced information explaining why the certificate is invalid. %1$@ is the app name (e.g. Firefox). %2$@ is the site URL.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.BadCertDomain.AdvancedSecurityInfo.v149" xml:space="preserve">
@@ -6488,7 +6488,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.BadCertDomain.ErrorCodeLabel.v149" xml:space="preserve">
         <source>Error code: %@</source>
-        <target>Кôд грешке: {$arg @source=|%@|}</target>
+        <target>Кôд грешке: %@</target>
         <note>On certificate error page, this is the label prefix for the error code. %@ is the error code (e.g. SSL_ERROR_BAD_CERT_DOMAIN).</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.BadCertDomain.HideAdvancedButton.v149" xml:space="preserve">
@@ -6503,7 +6503,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.BadCertDomain.ProceedButton.v149" xml:space="preserve">
         <source>Proceed to %@ (Risky)</source>
-        <target>Настави ка {$arg @source=|%@|} (ризично)</target>
+        <target>Настави ка %@ (ризично)</target>
         <note>On certificate error page, this is the text on a button that will proceed to the site despite the certificate error. %@ is the site URL. This is a risky action.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.BadCertDomain.TitleLabel.v149" xml:space="preserve">
@@ -6523,7 +6523,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.Description.v134" xml:space="preserve">
         <source>The owner of %@ hasn’t set it up properly and a secure connection can’t be created.</source>
-        <target>Власник веб сајта {$arg @source=|%@|} га није исправно подесио и није могуће успоставити безбедну везу.</target>
+        <target>Власник веб сајта %@ га није исправно подесио и није могуће успоставити безбедну везу.</target>
         <note>On error page, this is the description for a generic error. %@ is the site url.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.TitleLabel.v131" xml:space="preserve">
@@ -6555,7 +6555,7 @@ Private Tab</source>
     <body>
       <trans-unit id="Notification.Fallback.Title.v113" xml:space="preserve">
         <source>%@ Tip</source>
-        <target>{$arg @source=|%@|} савет</target>
+        <target>%@ савет</target>
         <note>Fallback Title of notification if no notification title was configured. The notification is an advise to the user. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
     </body>
@@ -6572,7 +6572,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="DefaultBrowserPopup.DescriptionFooter.v124" xml:space="preserve">
         <source>*Is %@ already your default?* Close this message and tap Skip.</source>
-        <target>*Да ли је {$arg @source=|%@|} већ ваш подразумевани прегледач?* Затворите ову поруку и тапните на „Прескочи”.</target>
+        <target>*Да ли је %@ већ ваш подразумевани прегледач?* Затворите ову поруку и тапните на „Прескочи”.</target>
         <note>The footer label on the Default Browser Popup, which is below all the instructions asking the users if their browser is the default browser. %@ is the app name (e.g. Firefox). If it is then close this message and tap skip. The *text inside asterisks* denotes part of the string to bold, please leave the text inside the '*' so that it is bolded correctly.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserPopup.FirstLabel.v114" xml:space="preserve">
@@ -6587,7 +6587,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="DefaultBrowserPopup.ThirdLabel.v114" xml:space="preserve">
         <source>3. Select *%@*</source>
-        <target>3. Изаберите *{$arg @source=|%@|}*</target>
+        <target>3. Изаберите *%@*</target>
         <note>The third label on the Default Browser Popup, which is a card with instructions telling the user how to set Firefox as their default browser. %@ is the app name (e.g. Firefox). The *text inside asterisks* denotes part of the string to bold, please leave the text inside the '*' so that it is bolded correctly.</note>
       </trans-unit>
       <trans-unit id="DefaultBrowserPopup.Title.v114" xml:space="preserve">
@@ -6597,7 +6597,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Customization.Intro.Continue.Action.v123" xml:space="preserve">
         <source>Customize %@</source>
-        <target>Прилагодите {$arg @source=|%@|}</target>
+        <target>Прилагодите %@</target>
         <note>String used to describe the option to continue to the next onboarding card in Firefox Onboarding screens. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Customization.Intro.Description.v123" xml:space="preserve">
@@ -6612,7 +6612,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Customization.Intro.Title.v123" xml:space="preserve">
         <source>%@ puts you in control</source>
-        <target>{$arg @source=|%@|} вам даје контролу</target>
+        <target>%@ вам даје контролу</target>
         <note>String used to describe the title of the customization onboarding page in our Onboarding screens. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Customization.Theme.Continue.Action.v123" xml:space="preserve">
@@ -6717,7 +6717,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.BrandRefresh.Customization.Theme.Description.v148" xml:space="preserve">
         <source>Pick your favorite theme or have %@ match your device, putting you in control.</source>
-        <target>Изаберите своју омиљену тему или подесите да {$arg @source=|%@|} одговара вашем уређају, дајући вам контролу.</target>
+        <target>Изаберите своју омиљену тему или подесите да %@ одговара вашем уређају, дајући вам контролу.</target>
         <note>Description for the theme selection card in the v148 brand refresh onboarding flow. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.BrandRefresh.Customization.Theme.Light.v148" xml:space="preserve">
@@ -6747,7 +6747,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.BrandRefresh.Marketing.Description.v148" xml:space="preserve">
         <source>Share how you discovered %1$@, and that you use it, with %2$@’s marketing partners. This data is never sold.</source>
-        <target>Поделите како сте открили {$arg1 @source=|%1$@| @index=1}, и да га користите, са {$arg2 @source=|%2$@| @index=2} маркетиншким партнерима. Ови подаци се никада не продају.</target>
+        <target>Поделите како сте открили %1$@, и да га користите, са %2$@ маркетиншким партнерима. Ови подаци се никада не продају.</target>
         <note>Description for the marketing data sharing card in the v148 brand refresh onboarding flow. %1$@ is the app name (e.g. Firefox), %2$@ is the company name (e.g. Mozilla).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.BrandRefresh.Marketing.LearnMoreLink.v148" xml:space="preserve">
@@ -6767,7 +6767,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.BrandRefresh.Notification.Description.v148" xml:space="preserve">
         <source>Discover privacy features in %@ and securely send tabs between your devices.</source>
-        <target>Откријте функције приватности у апликацији {$arg @source=|%@|} и безбедно шаљите језичке између својих уређаја.</target>
+        <target>Откријте функције приватности у апликацији %@ и безбедно шаљите језичке између својих уређаја.</target>
         <note>Description for the notification card in the v148 brand refresh onboarding flow. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.BrandRefresh.Notification.Skip.Action.v148" xml:space="preserve">
@@ -6777,7 +6777,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.BrandRefresh.Notification.Title.v148" xml:space="preserve">
         <source>Notifications help you stay safer with %@</source>
-        <target>Обавештења вам помажу да останете безбеднији уз {$arg @source=|%@|}</target>
+        <target>Обавештења вам помажу да останете безбеднији уз %@</target>
         <note>Title for the notification card in the v148 brand refresh onboarding flow. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.BrandRefresh.Notification.TurnOn.Action.v148" xml:space="preserve">
@@ -6827,12 +6827,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.BrandRefresh.TermsOfUse.ManagePreferenceAgreement.v148" xml:space="preserve">
         <source>To help improve the browser, %1$@ sends diagnostic and interaction data to %2$@. %3$@</source>
-        <target>Да би помогла у побољшању прегледача, апликација {$arg1 @source=|%1$@| @index=1} шаље дијагностичке податке и податке о интеракцији организацији {$arg2 @source=|%2$@| @index=2}. {$arg3 @source=|%3$@| @index=3}</target>
+        <target>Да би помогла у побољшању прегледача, апликација %1$@ шаље дијагностичке податке и податке о интеракцији организацији %2$@. %3$@</target>
         <note>Agreement text for sending diagnostic and interaction data in the v148 brand refresh onboarding flow. %1$@ is the app name (e.g. Firefox), %2$@ is the company name (e.g. Mozilla), %3$@ is the manage settings link button that redirects the user to manage data collection preferences.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.BrandRefresh.TermsOfUse.PrivacyNoticeAgreement.v148" xml:space="preserve">
         <source>%1$@ cares about your privacy. Read more in our %2$@</source>
-        <target>{$arg1 @source=|%1$@| @index=1} брине о вашој приватности. Прочитајте више у нашем {$arg2 @source=|%2$@| @index=2}</target>
+        <target>%1$@ брине о вашој приватности. Прочитајте више у нашем %2$@</target>
         <note>Agreement text for Privacy Notice in the v148 brand refresh onboarding flow. %1$@ is the app name (e.g. Firefox), %2$@ is the Privacy Notice link button that redirects the user to the Privacy Notice page.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.BrandRefresh.TermsOfUse.PrivacyNoticeLink.v148" xml:space="preserve">
@@ -6842,12 +6842,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.BrandRefresh.TermsOfUse.TermsOfUseAgreement.v148" xml:space="preserve">
         <source>By continuing, you agree to the %@</source>
-        <target>Настављањем се слажете са {$arg @source=|%@|}</target>
+        <target>Настављањем се слажете са %@</target>
         <note>Agreement text for Terms of Use in the v148 brand refresh onboarding flow. %@ is the Terms of Use link button that redirects the user to the Terms of Use page.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.BrandRefresh.TermsOfUse.TermsOfUseLink.v148" xml:space="preserve">
         <source>%@ Terms of Use</source>
-        <target>{$arg @source=|%@|} услови коришћења</target>
+        <target>%@ услови коришћења</target>
         <note>The text for the Terms of Use link button in the v148 brand refresh onboarding flow. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.BrandRefresh.TermsOfUse.Title.v148" xml:space="preserve">
@@ -6902,7 +6902,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.Customization.Theme.Description.v145" xml:space="preserve">
         <source>Pick your favorite theme or have %@ match your device, putting you in control.</source>
-        <target>Изаберите своју омиљену тему или нека се {$arg @source=|%@|} прилагоди вашем уређају, дајући вам контролу.</target>
+        <target>Изаберите своју омиљену тему или нека се %@ прилагоди вашем уређају, дајући вам контролу.</target>
         <note>Description for the theme selection card. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.Customization.Theme.Light.v145" xml:space="preserve">
@@ -6997,7 +6997,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.Sync.Title.v145" xml:space="preserve">
         <source>Take %@ on all your browsing adventures</source>
-        <target>Понесите {$arg @source=|%@|} у све своје авантуре прегледања</target>
+        <target>Понесите %@ у све своје авантуре прегледања</target>
         <note>Title for the Sync card in the v2 onboarding flow. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.AgreementButtonTitle.v140" xml:space="preserve">
@@ -7016,7 +7016,7 @@ Load sites fast and search smarter
 Brought to you by the non-profit %@, trusted for over 20 years</source>
         <target>Аутоматска заштита ваших личних података
 Брзо учитавајте сајтове и претражујте паметније
-Доноси вам непрофитна организација {$arg @source=|%@|}, којој се верује већ више од 20 година</target>
+Доноси вам непрофитна организација %@, којој се верује већ више од 20 година</target>
         <note>Description for the Terms of Service screen in the v2 onboarding flow. The '\n' symbols denote line breaks. %@ is the company name (e.g. Mozilla)</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.ManageLink.v140" xml:space="preserve">
@@ -7031,22 +7031,22 @@ Brought to you by the non-profit %@, trusted for over 20 years</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.ManagePreferenceAgreement.v140" xml:space="preserve">
         <source>To help improve the browser, %1$@ sends diagnostic and interaction data to %2$@. %3$@</source>
-        <target>Да бисмо побољшали прегледач, {$arg1 @source=|%1$@| @index=1} шаље дијагностичке податке и податке о интеракцији компанији {$arg2 @source=|%2$@| @index=2}. {$arg3 @source=|%3$@| @index=3}</target>
+        <target>Да бисмо побољшали прегледач, %1$@ шаље дијагностичке податке и податке о интеракцији компанији %2$@. %3$@</target>
         <note>Agreement text for sending diagnostic and interaction data to Mozilla in the Terms of Service screen. %1$@ is the app name (e.g. Firefox), %2$@ is company name (e.g. Mozilla), %3$@ is a Manage link button which redirect the user to another screen in order to manage the data collection preferences.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.ManagePreferenceAgreement.v145" xml:space="preserve">
         <source>To help improve the browser, %1$@ sends diagnostic and interaction data to %2$@. %3$@</source>
-        <target>Да би помогла у побољшању прегледача, апликација {$arg1 @source=|%1$@| @index=1} шаље дијагностичке податке и податке о интеракцији организацији {$arg2 @source=|%2$@| @index=2}. {$arg3 @source=|%3$@| @index=3}</target>
+        <target>Да би помогла у побољшању прегледача, апликација %1$@ шаље дијагностичке податке и податке о интеракцији организацији %2$@. %3$@</target>
         <note>Agreement text for sending data. %1$@ is the app name, %2$@ is the company name, %3$@ is the placeholder for the Manage settings link.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.PrivacyNoticeAgreement.v140" xml:space="preserve">
         <source>%1$@ cares about your privacy. Read more in our %2$@</source>
-        <target>{$arg1 @source=|%1$@| @index=1} брине о вашој приватности. Прочитајте више у нашем {$arg2 @source=|%2$@| @index=2}</target>
+        <target>%1$@ брине о вашој приватности. Прочитајте више у нашем %2$@</target>
         <note>Agreement text for Privacy Notice in the Terms of Service screen. %1$@ is the app name (e.g. Firefox), %2$@ is for the Privacy Notice link button that redirect the user to the Privacy Notice page.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.PrivacyNoticeAgreement.v145" xml:space="preserve">
         <source>%1$@ cares about your privacy. Read more in our %2$@</source>
-        <target>{$arg1 @source=|%1$@| @index=1} брине о вашој приватности. Прочитајте више у нашем {$arg2 @source=|%2$@| @index=2}</target>
+        <target>%1$@ брине о вашој приватности. Прочитајте више у нашем %2$@</target>
         <note>Agreement text for Privacy Notice. %1$@ is the app name (e.g. Firefox), %2$@ is the placeholder for the Privacy Notice link.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.PrivacyNoticeLink.v140" xml:space="preserve">
@@ -7066,7 +7066,7 @@ Brought to you by the non-profit %@, trusted for over 20 years</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.PrivacyPreferences.SendCrashReportsDescription.v140" xml:space="preserve">
         <source>Crash reports allow us to diagnose and fix issues with the browser. %@</source>
-        <target>Извештаји о рушењу нам омогућавају да дијагностикујемо и исправимо проблеме са прегледачем. {$arg @source=|%@|}</target>
+        <target>Извештаји о рушењу нам омогућавају да дијагностикујемо и исправимо проблеме са прегледачем. %@</target>
         <note>Description for the send crash reports switch option in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. %@ is for the Learn more button link, to open a link where user can find more information about this send crash reports option.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.PrivacyPreferences.SendCrashReportsTitle.v140" xml:space="preserve">
@@ -7076,17 +7076,17 @@ Brought to you by the non-profit %@, trusted for over 20 years</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.PrivacyPreferences.SendTechnicalDataDescription.v140" xml:space="preserve">
         <source>Data about your device, hardware configuration, and how you use %1$@ helps improve features, performance, and stability for everyone. %2$@</source>
-        <target>Подаци о вашем уређају, хардверској конфигурацији и начину на који користите {$arg1 @source=|%1$@| @index=1} помажу у побољшању функција, перформанси и стабилности за све. {$arg2 @source=|%2$@| @index=2}</target>
+        <target>Подаци о вашем уређају, хардверској конфигурацији и начину на који користите %1$@ помажу у побољшању функција, перформанси и стабилности за све. %2$@</target>
         <note>Description for the technical and interaction data switch option in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. %1$@ is the app name (e.g. Firefox), %2$@ is for the Learn more button link, to open a link where user can find more information about this send technical and interaction data option.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.PrivacyPreferences.SendTechnicalDataTitle.v140" xml:space="preserve">
         <source>Send technical and interaction data to %@</source>
-        <target>Пошаљите техничке податке и податке о интеракцији апликацији {$arg @source=|%@|}</target>
+        <target>Пошаљите техничке податке и податке о интеракцији апликацији %@</target>
         <note>Title for the send technical and interaction data switch option in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. %@ is the company name (e.g. Mozilla).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.PrivacyPreferences.Title.v140" xml:space="preserve">
         <source>Help us make %@ better</source>
-        <target>Помозите нам да учинимо {$arg @source=|%@|} бољим</target>
+        <target>Помозите нам да учинимо %@ бољим</target>
         <note>Title for the Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. Data like crash reports or technical and interaction data. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.Subtitle.v140" xml:space="preserve">
@@ -7100,17 +7100,17 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.TermsOfServiceAgreement.v140" xml:space="preserve">
         <source>By continuing, you agree to the %@</source>
-        <target>Наставком се слажете са {$arg @source=|%@|}</target>
+        <target>Наставком се слажете са %@</target>
         <note>Agreement text for Terms of Service in the Terms of Service screen. %@ is the Terms of Service link button that redirect the user to the Terms of Service page.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.TermsOfServiceAgreement.v145" xml:space="preserve">
         <source>By continuing, you agree to the %@</source>
-        <target>Настављањем се слажете са {$arg @source=|%@|}</target>
+        <target>Настављањем се слажете са %@</target>
         <note>Agreement text for Terms of Service. %@ is the placeholder for the Terms of Use link.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.TermsOfUseLink.v145" xml:space="preserve">
         <source>%@ Terms of Use.</source>
-        <target>{$arg @source=|%@|} услови коришћења.</target>
+        <target>%@ услови коришћења.</target>
         <note>The text for the Terms of Use link button. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.Title.v140" xml:space="preserve">
@@ -7125,7 +7125,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfUse.TermsOfUseLink.v140" xml:space="preserve">
         <source>%@ Terms of Use.</source>
-        <target>{$arg @source=|%@|} услови коришћења.</target>
+        <target>%@ услови коришћења.</target>
         <note>Title for the Terms of Use button link, in the Terms of Use screen for redirecting the user to the Terms of Use page. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.Welcome.ActionTreatementA.v140" xml:space="preserve">
@@ -7175,7 +7175,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Onboarding.Notification.Description.v120" xml:space="preserve">
         <source>Securely send tabs between your devices and discover other privacy features in %@.</source>
-        <target>Безбедно шаљите језичке између својих уређаја и откријте друге функције приватности у {$arg @source=|%@|}.</target>
+        <target>Безбедно шаљите језичке између својих уређаја и откријте друге функције приватности у %@.</target>
         <note>String used to describe the description of the notification onboarding page in our Onboarding screens. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Notification.Skip.Action.v115" xml:space="preserve">
@@ -7185,7 +7185,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Onboarding.Notification.Title.v120" xml:space="preserve">
         <source>Notifications help you stay safer with %@</source>
-        <target>Обавештења вам помажу да останете безбеднији уз {$arg @source=|%@|}</target>
+        <target>Обавештења вам помажу да останете безбеднији уз %@</target>
         <note>String used to describe the title of the notification onboarding page in our Onboarding screens. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Notification.TurnOnNotifications.Action.v114" xml:space="preserve">
@@ -7195,7 +7195,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Onboarding.Sync.Description.v123" xml:space="preserve">
         <source>%@ encrypts your passwords, bookmarks, and more when you’re synced.</source>
-        <target>{$arg @source=|%@|} шифрује ваше лозинке, обележиваче и још много тога када сте усклађени.</target>
+        <target>%@ шифрује ваше лозинке, обележиваче и још много тога када сте усклађени.</target>
         <note>String used to describes the description of what Firefox is on the Sync onboarding page for current version in our Onboarding screens. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Sync.SignIn.Action.v114" xml:space="preserve">
@@ -7225,12 +7225,12 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.ManagePreferenceAgreement.v135" xml:space="preserve">
         <source>To help improve the browser, %1$@ sends diagnostic and interaction data to %2$@. %3$@</source>
-        <target>Да би помогао у побољшању прегледача, {$arg1 @source=|%1$@| @index=1} шаље дијагностичке податке и податке о интеракцији компанији {$arg2 @source=|%2$@| @index=2}. {$arg3 @source=|%3$@| @index=3}</target>
+        <target>Да би помогао у побољшању прегледача, %1$@ шаље дијагностичке податке и податке о интеракцији компанији %2$@. %3$@</target>
         <note>Agreement text for sending diagnostic and interaction data to Mozilla in the Terms of Service screen. %1$@ is the app name (e.g. Firefox), %2$@ is company name (e.g. Mozilla), %3$@ is a Manage link button which redirect the user to another screen in order to manage the data collection preferences.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyNoticeAgreement.v135" xml:space="preserve">
         <source>%1$@ cares about your privacy. Read more in our %2$@</source>
-        <target>{$arg1 @source=|%1$@| @index=1} брине о вашој приватности. Прочитајте више у нашем {$arg2 @source=|%2$@| @index=2}</target>
+        <target>%1$@ брине о вашој приватности. Прочитајте више у нашем %2$@</target>
         <note>Agreement text for Privacy Notice in the Terms of Service screen. %1$@ is the app name (e.g. Firefox), %2$@ is for the Privacy Notice link button that redirect the user to the Privacy Notice page.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyNoticeLink.v135" xml:space="preserve">
@@ -7245,7 +7245,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.SendCrashReportsDescription.v135" xml:space="preserve">
         <source>Crash reports allow us to diagnose and fix issues with the browser. %@</source>
-        <target>Извештаји о рушењу нам омогућавају да дијагностикујемо и исправимо проблеме са прегледачем. {$arg @source=|%@|}</target>
+        <target>Извештаји о рушењу нам омогућавају да дијагностикујемо и исправимо проблеме са прегледачем. %@</target>
         <note>Description for the send crash reports switch option in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. %@ is for the Learn more button link, to open a link where user can find more information about this send crash reports option.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.SendCrashReportsTitle.v135" xml:space="preserve">
@@ -7255,17 +7255,17 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.SendTechnicalDataDescription.v135" xml:space="preserve">
         <source>Data about your device, hardware configuration, and how you use %1$@ helps improve features, performance, and stability for everyone. %2$@</source>
-        <target>Подаци о вашем уређају, хардверској конфигурацији и начину на који користите {$arg1 @source=|%1$@| @index=1} помажу у побољшању функција, перформанси и стабилности за све. {$arg2 @source=|%2$@| @index=2}</target>
+        <target>Подаци о вашем уређају, хардверској конфигурацији и начину на који користите %1$@ помажу у побољшању функција, перформанси и стабилности за све. %2$@</target>
         <note>Description for the technical and interaction data switch option in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. %1$@ is the app name (e.g. Firefox), %2$@ is for the Learn more button link, to open a link where user can find more information about this send technical and interaction data option.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.SendTechnicalDataTitle.v135" xml:space="preserve">
         <source>Send technical and interaction data to %@</source>
-        <target>Шаљи техничке податке и податке о интеракцији компанији {$arg @source=|%@|}</target>
+        <target>Шаљи техничке податке и податке о интеракцији компанији %@</target>
         <note>Title for the send technical and interaction data switch option in Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. %@ is the company name (e.g. Mozilla).</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.PrivacyPreferences.Title.v135" xml:space="preserve">
         <source>Help us make %@ better</source>
-        <target>Помозите нам да учинимо {$arg @source=|%@|} бољим</target>
+        <target>Помозите нам да учинимо %@ бољим</target>
         <note>Title for the Manage Privacy Preferences screen, where user can choose from the option to send data to Firefox or not. Data like crash reports or technical and interaction data. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.Subtitle.v136" xml:space="preserve">
@@ -7275,17 +7275,17 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.TermsOfServiceAgreement.v135" xml:space="preserve">
         <source>By continuing, you agree to the %@</source>
-        <target>Наставком се слажете са {$arg @source=|%@|}</target>
+        <target>Наставком се слажете са %@</target>
         <note>Agreement text for Terms of Service in the Terms of Service screen. %@ is the Terms of Service link button that redirect the user to the Terms of Service page.</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfService.Title.v135" xml:space="preserve">
         <source>Welcome to %@</source>
-        <target>Добро дошли у {$arg @source=|%@|}</target>
+        <target>Добро дошли у %@</target>
         <note>Title for the Terms of Service screen in the onboarding process. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.TermsOfUse.TermsOfUseLink.v136" xml:space="preserve">
         <source>%@ Terms of Use.</source>
-        <target>{$arg @source=|%@|} услови коришћења.</target>
+        <target>%@ услови коришћења.</target>
         <note>Title for the Terms of Use button link, in the Terms of Use screen for redirecting the user to the Terms of Use page. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Wallpaper.Accessibility.Classic.v114" xml:space="preserve">
@@ -7315,7 +7315,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Onboarding.Wallpaper.Title.v114" xml:space="preserve">
         <source>Choose a %@ Wallpaper</source>
-        <target>Изаберите {$arg @source=|%@|} позадину</target>
+        <target>Изаберите %@ позадину</target>
         <note>Title for the wallpaper onboarding page in our Onboarding screens. This describes to the user that they can choose different wallpapers. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Welcome.Action.v114" xml:space="preserve">
@@ -7330,7 +7330,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Onboarding.Welcome.Close.AccessibilityLabel.v121" xml:space="preserve">
         <source>Close and exit %@ onboarding</source>
-        <target>Затвори и изађи из {$arg @source=|%@|} упознавања са апликацијом</target>
+        <target>Затвори и изађи из %@ упознавања са апликацијом</target>
         <note>Accessibility label for close button that dismisses the welcome onboarding screen. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Welcome.Description.TreatementA.v120" xml:space="preserve">
@@ -7382,7 +7382,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="PasswordAutofill.SignInWithSavedPassword.v124" xml:space="preserve">
         <source>You’ll sign into %@</source>
-        <target>Пријавићете се на {$arg @source=|%@|}</target>
+        <target>Пријавићете се на %@</target>
         <note>This phrase is used as a subtitle in the header of password list screen, indicating to the user that they will be logging into a specific website (represented by %@) using a saved password. It's providing clarity on which website the saved credentials apply to.</note>
       </trans-unit>
       <trans-unit id="PasswordAutofill.UseSavedPasswordFromHeader.v124" xml:space="preserve">
@@ -7429,7 +7429,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="PasswordGenerator.PasswordReadoutPrefaceA11y.v132" xml:space="preserve">
         <source>Generated password: %@</source>
-        <target>Генерисана лозинка: {$arg @source=|%@|}</target>
+        <target>Генерисана лозинка: %@</target>
         <note>Prefix to alert accessibility users that a generated password (represented by %@) will be read to them next.</note>
       </trans-unit>
       <trans-unit id="PasswordGenerator.RefreshPasswordButtonA11yLabel.v132" xml:space="preserve">
@@ -7480,7 +7480,7 @@ Sync on all your devices</source>
     <body>
       <trans-unit id="RelayMask.RelayEmailMaskAvailableCFR.v146" xml:space="preserve">
         <source>New! %@ Relay email masks are now available on mobile.</source>
-        <target>Ново! {$arg @source=|%@|} Relay маске е-поште су сада доступне на мобилним уређајима.</target>
+        <target>Ново! %@ Relay маске е-поште су сада доступне на мобилним уређајима.</target>
         <note>Displayed in a CFR help message to inform users about the availability of Relay email masking features now being available on mobile. %@ is the name of the app (e.g. 'Firefox')</note>
       </trans-unit>
       <trans-unit id="RelayMask.RelayEmailMaskFreeTierLimitReached.v147" xml:space="preserve">
@@ -7537,7 +7537,7 @@ Sync on all your devices</source>
     <body>
       <trans-unit id="CreditCard.RememberCard.Header.v122" xml:space="preserve">
         <source>%@ encrypts your card number. Your security code won’t be saved.</source>
-        <target>{$arg @source=|%@|} шифрује број ваше картице. Ваш безбедносни код неће бити сачуван.</target>
+        <target>%@ шифрује број ваше картице. Ваш безбедносни код неће бити сачуван.</target>
         <note>This value is used as the header for the remember card page. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="CreditCard.RememberCard.MainButtonTitle.v122" xml:space="preserve">
@@ -7569,7 +7569,7 @@ Sync on all your devices</source>
     <body>
       <trans-unit id="Body.Text.v112" xml:space="preserve">
         <source>Please help make %@ better by taking a short survey.</source>
-        <target>Помозите да {$arg @source=|%@|} постане бољи попуњавањем кратке анкете.</target>
+        <target>Помозите да %@ постане бољи попуњавањем кратке анкете.</target>
         <note>On the Research Survey popup, the text that explains what the screen is about. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="PrimaryButton.Label.v112" xml:space="preserve">
@@ -7601,7 +7601,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="ScanQRCode.ConfirmOpenURL.Message.v129" xml:space="preserve">
         <source>Allow %@ to open?</source>
-        <target>Дозволити {$arg @source=|%@|} да се отвори?</target>
+        <target>Дозволити %@ да се отвори?</target>
         <note>Text of the prompt to ask user permission to open a URL from a scanned QR code. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
     </body>
@@ -7650,7 +7650,7 @@ Sync on all your devices</source>
     <body>
       <trans-unit id="Search.EngineSection.Title.v108" xml:space="preserve">
         <source>%@ search</source>
-        <target>{$arg @source=|%@|} претрага</target>
+        <target>%@ претрага</target>
         <note>When making a new search from the awesome bar, search results appear as the user write new letters in their search. Different sections with results from the selected search engine will appear. This string will be used as a header to separate the selected engine search results from current search query. %@ is the search engine name.</note>
       </trans-unit>
       <trans-unit id="Search.Google.Title.v108" xml:space="preserve">
@@ -7677,7 +7677,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="SearchZero.TrendingSearches.SectionTitle.v146" xml:space="preserve">
         <source>Trending on %@</source>
-        <target>У тренду на {$arg @source=|%@|}</target>
+        <target>У тренду на %@</target>
         <note>When a user taps on the address bar, they can see their trending searches. This is the title of the section that shows the list of their trending searches. %@ is the search engine name.</note>
       </trans-unit>
       <trans-unit id="Settings.SearchZero.RecentSearches.Toggle.v146" xml:space="preserve">
@@ -7716,12 +7716,12 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Addresses.Settings.ListItemA11y.v130" xml:space="preserve">
         <source>Address for %@</source>
-        <target>Адреса за {$arg @source=|%@|}</target>
+        <target>Адреса за %@</target>
         <note>Accessibility label for an address list item in autofill settings screen. The %@ parameter is the address of the user that will read the name, street, city, state, postal code if available.</note>
       </trans-unit>
       <trans-unit id="Addresses.Settings.SaveToFirefox.Title.v130" xml:space="preserve">
         <source>Save Addresses to %@</source>
-        <target>Сачувај адресе у {$arg @source=|%@|}</target>
+        <target>Сачувај адресе у %@</target>
         <note>Title text for the content unavailable view informing users they can create or add new addresses. %@ is the name of the app.</note>
       </trans-unit>
       <trans-unit id="Addresses.Settings.SavedAddressesSectionTitle.v124" xml:space="preserve">
@@ -7761,7 +7761,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.EmptyListTitle.v122" xml:space="preserve">
         <source>Save Cards to %@</source>
-        <target>Сачувај картице у {$arg @source=|%@|}</target>
+        <target>Сачувај картице у %@</target>
         <note>Title label for when there are no credit cards shown in credit card list in autofill settings screen. %@ is the product name and should not be altered.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Settings.ListItemA11y.v118" xml:space="preserve">
@@ -7861,7 +7861,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Settings.AIControls.BlockAIEnhancementsDescription.v151" xml:space="preserve">
         <source>Blocking means you won’t see new or current AI enhancements in %@, or pop-ups about them.</source>
-        <target>Блокирање значи да нећете видети нова или тренутна ВИ побољшања у {$arg @source=|%@|}, нити искачуће прозоре о њима.</target>
+        <target>Блокирање значи да нећете видети нова или тренутна ВИ побољшања у %@, нити искачуће прозоре о њима.</target>
         <note>This is the description for the setting that toggles whether to block AI enhancements under the AI Controls settings section. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Settings.AIControls.BlockAIEnhancementsLink.v151" xml:space="preserve">
@@ -7891,7 +7891,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Settings.AIControls.HeaderCard.Title.v151" xml:space="preserve">
         <source>You always have a choice in %@</source>
-        <target>Увек имате избор у {$arg @source=|%@|}</target>
+        <target>Увек имате избор у %@</target>
         <note>This is the title for the Header Card under the AI Controls settings section. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Settings.AIControls.Title.v150" xml:space="preserve">
@@ -8026,7 +8026,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Settings.DailyUsagePing.Message.v135" xml:space="preserve">
         <source>This helps %@ to estimate active users.</source>
-        <target>Ово помаже {$arg} да процени број активних корисника.</target>
+        <target>Ово помаже %@ да процени број активних корисника.</target>
         <note>On the Settings screen, this is the subtitle text for a toggle which controls sending daily usage ping. %@ is the company name (e.g. Mozilla).</note>
       </trans-unit>
       <trans-unit id="Settings.DailyUsagePing.Title.v135" xml:space="preserve">
@@ -8051,12 +8051,12 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Settings.Notifications.SystemNotificationsDisabledMessage.v112" xml:space="preserve">
         <source>You turned off all %1$@ notifications. Turn them on by going to device Settings &gt; Notifications &gt; %2$@</source>
-        <target>Искључили сте сва {$arg1 @source=|%1$@| @index=1} обавештења. Укључите их у подешавањима уређаја &gt; Обавештења &gt; {$arg2 @source=|%2$@| @index=2}</target>
+        <target>Искључили сте сва %1$@ обавештења. Укључите их у подешавањима уређаја &gt; Обавештења &gt; %2$@</target>
         <note>This is the footer title informing the user needs to turn on notifications in iOS Settings. Both %1$@ and %2$@ are the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Settings.Notifications.TipsAndFeaturesNotificationsStatus.v112" xml:space="preserve">
         <source>Learn about useful features and how to get the most out of %@.</source>
-        <target>Сазнајте више о корисним могућностима и како да најбоље искористите {$arg @source=|%@|}.</target>
+        <target>Сазнајте више о корисним могућностима и како да најбоље искористите %@.</target>
         <note>This is the description for the setting that toggles Tips and Features feature in the settings menu under the Notifications section. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Settings.Notifications.TipsAndFeaturesNotificationsTitle.v112" xml:space="preserve">
@@ -8071,7 +8071,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Settings.Notifications.TurnOnNotificationsMessage.v112" xml:space="preserve">
         <source>Go to your device Settings to turn on notifications in %@</source>
-        <target>Идите у подешавања уређаја да бисте укључили обавештења у {$arg @source=|%@|}</target>
+        <target>Идите у подешавања уређаја да бисте укључили обавештења у %@</target>
         <note>This is the title informing the user that they need to turn on notifications in iOS Settings. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Settings.Notifications.TurnOnNotificationsTitle.v112" xml:space="preserve">
@@ -8091,7 +8091,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Settings.Rollouts.Message.v148" xml:space="preserve">
         <source>%@ will improve features, performance, and stability between updates. Changes applied remotely.</source>
-        <target>{$arg @source=|%@|} ће побољшати функције, перформансе и стабилност између ажурирања. Измене се примењују даљински.</target>
+        <target>%@ ће побољшати функције, перформансе и стабилност између ажурирања. Измене се примењују даљински.</target>
         <note>A short description that explains that Mozilla may change features remotely. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Settings.Rollouts.Title.v148" xml:space="preserve">
@@ -8181,7 +8181,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.ShowNonSponsoredSuggestions.Description.v124.v2" xml:space="preserve">
         <source>Get suggestions from %@ related to your search</source>
-        <target>Преузмите предлоге од {$arg @source=|%@|} који су повезани са вашом претрагом</target>
+        <target>Преузмите предлоге од %@ који су повезани са вашом претрагом</target>
         <note>In the Search page of the Settings menu, the description for the setting to enable Suggestions from Firefox. %@ is the app name (e.g. Firefox). - Firefox.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.ShowNonSponsoredSuggestions.Title.v124.v2" xml:space="preserve">
@@ -8191,7 +8191,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.ShowSponsoredSuggestions.Description.v124" xml:space="preserve">
         <source>Support %@ with occasional sponsored suggestions</source>
-        <target>Подржите {$arg @source=|%@|} повременим спонзорисаним предлозима</target>
+        <target>Подржите %@ повременим спонзорисаним предлозима</target>
         <note>In the Search page of the Settings menu, the description for the setting to enable Suggestions from sponsors. %@ is the app name (e.g. Firefox). - Firefox.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.ShowSponsoredSuggestions.Title.v124" xml:space="preserve">
@@ -8216,7 +8216,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Settings.Studies.Message.v148" xml:space="preserve">
         <source>%@ randomly selects users to test features, which improves quality for everyone.</source>
-        <target>{$arg @source=|%@|} насумично бира кориснике за тестирање функција, што побољшава квалитет за све.</target>
+        <target>%@ насумично бира кориснике за тестирање функција, што побољшава квалитет за све.</target>
         <note>A short description that explains that Mozilla is running studies. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Settings.Studies.Title.v136" xml:space="preserve">
@@ -8286,7 +8286,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Settings.TechnicalData.Message.v136" xml:space="preserve">
         <source>Data about your device, hardware configuration, and usage helps us improve %@ features, performance and stability.</source>
-        <target>Подаци о вашем уређају, хардверској конфигурацији и употреби помажу нам да побољшамо {$arg @source=|%@|} функције, перформансе и стабилност.</target>
+        <target>Подаци о вашем уређају, хардверској конфигурацији и употреби помажу нам да побољшамо %@ функције, перформансе и стабилност.</target>
         <note>On the Settings screen, this is the subtitle text for a toggle which controls sending technical and interaction data. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Settings.TechnicalData.Title.v136" xml:space="preserve">
@@ -8444,41 +8444,41 @@ Sync on all your devices</source>
     <body>
       <trans-unit id="SentFromFirefox.SocialShare.SettingsToggle.Subtitle.v134" xml:space="preserve">
         <source>Spread the word about %1$@ every time you share a link on %2$@.</source>
-        <target>Ширите вест о {$arg1 @source=|%1$@| @index=1} сваки пут када поделите везу на {$arg2 @source=|%2$@| @index=2}.</target>
+        <target>Ширите вест о %1$@ сваки пут када поделите везу на %2$@.</target>
         <note>On the Settings screen, this is the subtitle text for a toggle which controls adding additional text to links shared to social media apps. %1$@ is the app name (e.g. Firefox). %2$@ is the social media app name (e.g. WhatsApp).</note>
       </trans-unit>
       <trans-unit id="SentFromFirefox.SocialShare.SettingsToggle.Title.v134" xml:space="preserve">
         <source>Include %1$@ Download Link on %2$@ Shares</source>
-        <target>Укључи везу за преузимање {$arg1 @source=|%1$@| @index=1} при дељењу на {$arg2 @source=|%2$@| @index=2}</target>
+        <target>Укључи везу за преузимање %1$@ при дељењу на %2$@</target>
         <note>On the Settings screen, this is the title text for a toggle which controls adding additional text to links shared to social media apps. %1$@ is the app name (e.g. Firefox). %2$@ is the social media app name (e.g. WhatsApp).</note>
       </trans-unit>
       <trans-unit id="SentFromFirefox.SocialShare.ShareMessageA.Title.v134" xml:space="preserve">
         <source>%1$@ Sent from %2$@ 🦊 Try the mobile browser: %3$@</source>
-        <target>{$arg1 @source=|%1$@| @index=1} послато са {$arg2 @source=|%2$@| @index=2} 🦊 Испробајте мобилни прегледач: {$arg3 @source=|%3$@| @index=3}</target>
+        <target>%1$@ послато са %2$@ 🦊 Испробајте мобилни прегледач: %3$@</target>
         <note>When a user shares a link to social media, this is the shared text they'll see in the social media app. %1$@  is the shared website's URL. %2$@ is the app name (e.g. Firefox). %3$@ is the link to download the app.</note>
       </trans-unit>
       <trans-unit id="SentFromFirefox.SocialShare.ShareMessageA.Title.v137" xml:space="preserve">
         <source>%1$@
 
 Sent from %2$@ 🦊 Try the mobile browser: %3$@</source>
-        <target>{$arg1 @source=|%1$@| @index=1}
+        <target>%1$@
 
-Послато са {$arg2 @source=|%2$@| @index=2} 🦊 Испробајте мобилни прегледач: {$arg3 @source=|%3$@| @index=3}</target>
+Послато са %2$@ 🦊 Испробајте мобилни прегледач: %3$@</target>
         <note>When a user shares a link to social media, this is the shared text they'll see in the social media app. %1$@  is the shared website's URL. %2$@ is the app name (e.g. Firefox). %3$@ is the link to download the app. The '
 ' symbols denote empty lines separating the first link parameter from the rest of the text.</note>
       </trans-unit>
       <trans-unit id="SentFromFirefox.SocialShare.ShareMessageB.Title.v134" xml:space="preserve">
         <source>%1$@ Sent from %2$@ 🦊 %3$@</source>
-        <target>{$arg1 @source=|%1$@| @index=1} послато са {$arg2 @source=|%2$@| @index=2} 🦊 {$arg3 @source=|%3$@| @index=3}</target>
+        <target>%1$@ послато са %2$@ 🦊 %3$@</target>
         <note>When a user shares a link to social media, this is the shared text they'll see in the social media app. %1$@  is the shared website's URL. %2$@ is the app name (e.g. Firefox). %3$@ is the link to download the app.</note>
       </trans-unit>
       <trans-unit id="SentFromFirefox.SocialShare.ShareMessageB.Title.v137" xml:space="preserve">
         <source>%1$@
 
 Sent from %2$@ 🦊 %3$@</source>
-        <target>{$arg1 @source=|%1$@| @index=1}
+        <target>%1$@
 
-Послато са {$arg2 @source=|%2$@| @index=2} 🦊 {$arg3 @source=|%3$@| @index=3}</target>
+Послато са %2$@ 🦊 %3$@</target>
         <note>When a user shares a link to social media, this is the shared text they'll see in the social media app. %1$@  is the shared website's URL. %2$@ is the app name (e.g. Firefox). %3$@ is the link to download the app. The '
 ' symbols denote empty lines separating the first link parameter from the rest of the text.</note>
       </trans-unit>
@@ -8560,7 +8560,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="Summarizer.HostedBrand.Label.v142" xml:space="preserve">
         <source>Summarized by %@</source>
-        <target>Сажео {$arg @source=|%@|}</target>
+        <target>Сажео %@</target>
         <note>The label displayed in the summary report when the summary was generated using by a third-party service. %@ refers to the name of the service/app (e.g Firefox).</note>
       </trans-unit>
       <trans-unit id="Summarizer.Loading.Accessibility.Label.v145" xml:space="preserve">
@@ -8605,7 +8605,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="Summarizer.ToS.InfoPanel.Label.v143" xml:space="preserve">
         <source>See the main points in seconds with %@.</source>
-        <target>Погледајте главне тачке у неколико секунди уз {$arg @source=|%@|}.</target>
+        <target>Погледајте главне тачке у неколико секунди уз %@.</target>
         <note>The message for the Terms of Service alert that asks the user if they want to continue to summarize the page. %@ is the app name (e.g Firefox).</note>
       </trans-unit>
       <trans-unit id="Summarizer.ToS.InfoPanel.Title.Label.v143" xml:space="preserve">
@@ -8672,7 +8672,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="TabsButton.Accessibility.LargeContentTitle.v122" xml:space="preserve">
         <source>Show Tabs: %@</source>
-        <target>Прикажи језичке: {$arg @source=|%@|}</target>
+        <target>Прикажи језичке: %@</target>
         <note>Large content title for the tabs button. %@ is the number of open tabs or an infinity symbol. This title is displayed when using accessible font sizes is enabled.</note>
       </trans-unit>
       <trans-unit id="TopSites.RemoveButton.LargeContentTitle.v122" xml:space="preserve">
@@ -8699,7 +8699,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="CloseTabsToast.Title.v113" xml:space="preserve">
         <source>Tabs Closed: %d</source>
-        <target>Затворени језичци: {$int :integer @source=|%d|}</target>
+        <target>Затворени језичци: %d</target>
         <note>When the user closes tabs in the tab tray, a popup will appear informing them how many tabs were closed. This is the text for the popup. %d is the number of tabs.</note>
       </trans-unit>
       <trans-unit id="InactiveTabs.TabTray.CloseSwipeActionTitle.v115" xml:space="preserve">
@@ -8729,7 +8729,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="TabTrayCloseOneTabTitle.v145" xml:space="preserve">
         <source>Close Tabs (%@)</source>
-        <target>Затвори језичке ({$arg @source=|%@|})</target>
+        <target>Затвори језичке (%@)</target>
         <note>Text for a button in the tabs tray used delete current active tabs. %@ is for the number of tabs that will be going to be closed.</note>
       </trans-unit>
       <trans-unit id="TabTrayCloseTabsOlderThanTitle.v140" xml:space="preserve">
@@ -8754,7 +8754,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="TabTraySelectorAccessibilityHint.v139" xml:space="preserve">
         <source>%1$@ of %2$@</source>
-        <target>{$arg1 @source=|%1$@| @index=1} од {$arg2 @source=|%2$@| @index=2}</target>
+        <target>%1$@ од %2$@</target>
         <note>Message spoken by VoiceOver saying the position of the currently selected page in the tab tray selector (%1$@), along with the total number of selector (%2$@). E.g. “1 of 3” says that page 1 is visible, out of 3 pages total.</note>
       </trans-unit>
       <trans-unit id="TabsTray.Sync.SyncTabsDisabled.v116" xml:space="preserve">
@@ -8803,12 +8803,12 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="TermsOfUse.Description.v142" xml:space="preserve">
         <source>We’ve introduced a %@ Terms of Use and updated our Privacy Notice.</source>
-        <target>Увели смо {$arg @source=|%@|} услове коришћења и ажурирали наше обавештење о приватности.</target>
+        <target>Увели смо %@ услове коришћења и ажурирали наше обавештење о приватности.</target>
         <note>Introductory message in the Terms of Use sheet that mentions updated Terms of Use and Privacy Notice. %@ will be replaced with the app name (e.g., Firefox).</note>
       </trans-unit>
       <trans-unit id="TermsOfUse.LearnMoreHere.v147" xml:space="preserve">
         <source>You can learn more %@.</source>
-        <target>Можете сазнати више {$arg @source=|%@|}.</target>
+        <target>Можете сазнати више %@.</target>
         <note>Text shown in the Terms of Use bottom sheet for variants 1 and 2. %@ is replaced with the localized 'here' link text.</note>
       </trans-unit>
       <trans-unit id="TermsOfUse.Link.HereText.v147" xml:space="preserve">
@@ -8828,7 +8828,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="TermsOfUse.Link.TermsOfUse.v142" xml:space="preserve">
         <source>%@ Terms of Use</source>
-        <target>{$arg @source=|%@|} услови коришћења</target>
+        <target>%@ услови коришћења</target>
         <note>Hyperlink label for the Terms of Use document. %@ is replaced with the app name (e.g., Firefox).</note>
       </trans-unit>
       <trans-unit id="TermsOfUse.RemindMeLaterButton.v142" xml:space="preserve">
@@ -8858,7 +8858,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="TermsOfUse.TitleValue2.v147" xml:space="preserve">
         <source>A note from %@</source>
-        <target>Напомена од {$arg @source=|%@|}</target>
+        <target>Напомена од %@</target>
         <note>Title shown at the top of the Terms of Use bottom sheet for variant 2. %@ is replaced with the app name (e.g., Firefox).</note>
       </trans-unit>
     </body>
@@ -8900,7 +8900,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="Toolbar.Tabs.Button.A11y.LargeContentTitle.v137" xml:space="preserve">
         <source>Tabs open: %@</source>
-        <target>Отворени језичци: {$arg @source=|%@|}</target>
+        <target>Отворени језичци: %@</target>
         <note>Large content title for the tabs button in the toolbar, specifying the number of tabs open. %@ is the number of open tabs.</note>
       </trans-unit>
       <trans-unit id="Toolbar.Tabs.Button.A11y.OverflowLargeContentTitle.v137" xml:space="preserve">
@@ -8979,7 +8979,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="Translations.Banner.ConfirmationTitleLabel.v145" xml:space="preserve">
         <source>Translated from %1$@ to %2$@</source>
-        <target>Преведено са језика {$arg1 @source=|%1$@| @index=1} на {$arg2 @source=|%2$@| @index=2}</target>
+        <target>Преведено са језика %1$@ на %2$@</target>
         <note>On top of the bottom toolbar, there can be a translations banner, this is the title for the text that appears on the banner to inform the user that the page has been translated to another language. %1$@ is the original language and %2$@ is the language that the page was translated to.</note>
       </trans-unit>
       <trans-unit id="Translations.Banner.ErrorMessage.TitleLabel.v145" xml:space="preserve">
@@ -9004,7 +9004,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="Translations.Banner.TitleLabel.v145" xml:space="preserve">
         <source>Translate page to %@?</source>
-        <target>Преведи страницу на {$arg @source=|%@|}?</target>
+        <target>Преведи страницу на %@?</target>
         <note>On top of the bottom toolbar, there can be a translations banner, this is the title for the text that appears on the banner to inform the user that they can translate the page to another language. %@ is the other language (e.g. English).</note>
       </trans-unit>
       <trans-unit id="Translations.Banner.TranslateButton.v145" xml:space="preserve">
@@ -9014,7 +9014,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="Translations.LanguagePicker.PageTranslatedTitle.v151" xml:space="preserve">
         <source>Page Translated to %@</source>
-        <target>Страница је преведена на {$arg @source=|%@|}</target>
+        <target>Страница је преведена на %@</target>
         <note>Title for the action sheet shown when the page has already been translated. %@ is replaced with the target language name (e.g. 'English').</note>
       </trans-unit>
       <trans-unit id="Translations.LanguagePicker.PreferredLanguages.v151" xml:space="preserve">
@@ -9099,7 +9099,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="Translations.Sheet.TranslateFrom.AccessibilityLabel.v145" xml:space="preserve">
         <source>Translate From %@</source>
-        <target>Преведи са језика {$arg @source=|%@|}</target>
+        <target>Преведи са језика %@</target>
         <note>This is the accessibility label for the cell that allows users to select what language they want to translate the page from, as part of the bottom sheet view for the translations feature. %@ is the language selected (e.g. English).</note>
       </trans-unit>
       <trans-unit id="Translations.Sheet.TranslateFromLabel.v145" xml:space="preserve">
@@ -9109,7 +9109,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="Translations.Sheet.TranslateTo.AccessibilityLabel.v145" xml:space="preserve">
         <source>Translate To %@</source>
-        <target>Преведи на {$arg @source=|%@|}</target>
+        <target>Преведи на %@</target>
         <note>This is the accessibility label for the cell that allows users to select what language they want to translate the page to, as part of the bottom sheet view for the translations feature. %@ is the language selected (e.g. English).</note>
       </trans-unit>
       <trans-unit id="Translations.Sheet.TranslateToLabel.v145" xml:space="preserve">
@@ -9217,7 +9217,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="Menu.ZoomPage.CurrentZoomLevel.AccessibilityLabel.v113" xml:space="preserve">
         <source>Current Zoom Level: %@</source>
-        <target>Тренутни ниво увећања: {$arg @source=|%@|}</target>
+        <target>Тренутни ниво увећања: %@</target>
         <note>Accessibility label for current zoom level in Zoom Page Bar. %@ represents the zoom level</note>
       </trans-unit>
       <trans-unit id="Menu.ZoomPage.DecreaseZoom.AccessibilityLabel.v113" xml:space="preserve">
