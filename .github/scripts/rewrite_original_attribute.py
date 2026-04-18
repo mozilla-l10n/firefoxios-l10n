@@ -38,7 +38,7 @@ def main():
         if os.path.isdir(os.path.join(locales_path, f))
     ]
     locale_folders = [
-        f for f in locale_folders if not f.startswith(".") and f not in ("templates")
+        f for f in locale_folders if not f.startswith(".") and f not in ["templates"]
     ]
     locale_folders.sort()
 
