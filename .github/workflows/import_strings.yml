@@ -76,8 +76,7 @@ jobs:
 
           # Copy strings to other locales
           python .github/scripts/update_other_locales.py --reference en-US --path . --type "$TYPE"
-        with:
-          path: l10n_repo
+        working-directory: l10n_repo
       - name: Import linter config
         run: |
           # Import linter exceptions from code repository
