@@ -5,6 +5,10 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.5" build-num="17F42"/>
     </header>
     <body>
+      <trans-unit id="App Icon" xml:space="preserve">
+        <source>App Icon</source>
+        <note>iOS Home screen shortcut menu: Option to launch the app to the app icon customization screen</note>
+      </trans-unit>
       <trans-unit id="NSCameraUsageDescription" xml:space="preserve">
         <source>Firefox uses your camera to scan QR codes and take photos and video.</source>
         <target>Firefox uses your camera to scan QR codes and take photos and video.</target>
@@ -4528,6 +4532,10 @@ Private Tab</source>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.5" build-num="17F42"/>
     </header>
     <body>
+      <trans-unit id="Settings.CustomizeFirefoxHome.PrivacyReport.v153" xml:space="preserve">
+        <source>Privacy Report</source>
+        <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle the Tracker Blocker Module on the homepage on or off.</note>
+      </trans-unit>
       <trans-unit id="Settings.Home.Option.Bookmarks.v128" xml:space="preserve">
         <source>Bookmarks</source>
         <target>Кыстыргычлар</target>
@@ -5353,6 +5361,14 @@ Private Tab</source>
         <source>%1$@ of %2$@</source>
         <target>%1$@ / %2$@</target>
         <note>On the homepage, in the Stories section, this is the accessibility hint for the position of the current story in the stories stack. The first placeholder, %1$@, is the current position; the second placeholder, %2$@, is the total story count. Example: '1 of 5'</note>
+      </trans-unit>
+      <trans-unit id="FirefoxHomepage.TrackerBlocker.NoTrackersBlocked.v153" xml:space="preserve">
+        <source>You’re Protected</source>
+        <note>The text shown when we turn on the Tracker Blocker feature on the homepage, and the number of trackers blocked is zero.</note>
+      </trans-unit>
+      <trans-unit id="FirefoxHomepage.TrackerBlocker.TrackersBlocked.v153b" xml:space="preserve">
+        <source>Trackers Blocked: %d</source>
+        <note>The numbers of trackers we've blocked since we started tracking. The %d placeholder is the actual number of trackers blocked.</note>
       </trans-unit>
     </body>
   </file>
