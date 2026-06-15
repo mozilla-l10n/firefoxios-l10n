@@ -7,6 +7,7 @@
     <body>
       <trans-unit id="App Icon" xml:space="preserve">
         <source>App Icon</source>
+        <target>Icono de la aplicación</target>
         <note>iOS Home screen shortcut menu: Option to launch the app to the app icon customization screen</note>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription" xml:space="preserve">
@@ -3965,6 +3966,18 @@ Private Tab</source>
         <target>Cancelar</target>
         <note>Label for button in the address toolbar, that cancels editing the address field when tapped.</note>
       </trans-unit>
+      <trans-unit id="AddressToolbar.GoogleLens.A11yLabel.v153" xml:space="preserve">
+        <source>Search with Google Lens</source>
+        <note>Accessibility label describing the Google Lens button on the address toolbar that prompts a menu to allow the user to take a new photo or select an existing photo from their photo library to search with Google Lens.</note>
+      </trans-unit>
+      <trans-unit id="AddressToolbar.GoogleLens.ContextMenu.PhotoLibraryActionTitle.v153" xml:space="preserve">
+        <source>Photo Library</source>
+        <note>Action title in the Google Lens address toolbar context menu. Opens the photo library picker so the user can choose an existing photo to search with Google Lens.</note>
+      </trans-unit>
+      <trans-unit id="AddressToolbar.GoogleLens.ContextMenu.TakePhotoActionTitle.v153" xml:space="preserve">
+        <source>Take Photo</source>
+        <note>Action title in the Google Lens address toolbar context menu. Opens the camera so the user can take a new photo to search with Google Lens.</note>
+      </trans-unit>
       <trans-unit id="AddressToolbar.Location.A11y.Label.v128" xml:space="preserve">
         <source>Search or enter address</source>
         <target>Buscar o escribir dirección</target>
@@ -4591,6 +4604,7 @@ Private Tab</source>
     <body>
       <trans-unit id="Settings.CustomizeFirefoxHome.PrivacyReport.v153" xml:space="preserve">
         <source>Privacy Report</source>
+        <target>Informe de privacidad</target>
         <note>In the settings menu, in the Firefox homepage customization section, this is the title for the option that allows users to toggle the Tracker Blocker Module on the homepage on or off.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Bookmarks.v128" xml:space="preserve">
@@ -5443,10 +5457,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.TrackerBlocker.NoTrackersBlocked.v153" xml:space="preserve">
         <source>You’re Protected</source>
+        <target>Estás protegido</target>
         <note>The text shown when we turn on the Tracker Blocker feature on the homepage, and the number of trackers blocked is zero.</note>
       </trans-unit>
       <trans-unit id="FirefoxHomepage.TrackerBlocker.TrackersBlocked.v153b" xml:space="preserve">
         <source>Trackers Blocked: %d</source>
+        <target>Rastreadores bloqueados: %d</target>
         <note>The numbers of trackers we've blocked since we started tracking. The %d placeholder is the actual number of trackers blocked.</note>
       </trans-unit>
     </body>
@@ -7906,6 +7922,14 @@ Sincronización en todos tus dispositivos</target>
         <target>**Bloqueado**: no verás ni podrás usar la funcionalidad. Para la IA en el dispositivo, se eliminarán todos los modelos descargados.</target>
         <note>In the AI Controls settings, in the AI powered features section, this is the text that what the blocked status means. The content between the ** ** is bolded. Please do not remove these in translation.</note>
       </trans-unit>
+      <trans-unit id="Settings.AIControls.AIPoweredFeaturesSection.GoogleLensSection.Message.v153" xml:space="preserve">
+        <source>Sends images and photos to Google for visual search.</source>
+        <note>In the AI Controls settings, in the AI powered features section, this is the message that describes the Google Lens feature</note>
+      </trans-unit>
+      <trans-unit id="Settings.AIControls.AIPoweredFeaturesSection.GoogleLensSection.Title.v153" xml:space="preserve">
+        <source>Google Lens</source>
+        <note>In the AI Controls settings, in the AI powered features section, this is the title that describes the Google Lens feature</note>
+      </trans-unit>
       <trans-unit id="Settings.AIControls.AIPoweredFeaturesSection.PageSummariesSection.Message.v151" xml:space="preserve">
         <source>Pages and summaries are never stored.</source>
         <target>Las páginas y los resúmenes nunca se almacenan.</target>
@@ -9272,6 +9296,17 @@ Enviado desde %2$@ 🦊 %3$@</target>
         <source>Welcome to a more personal internet</source>
         <target>Te damos la bienvenida a un internet más personal</target>
         <note>Title string used to welcome back users in the Upgrade screens. This screen is shown after user upgrades Firefox version.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/WebContextMenu.strings" source-language="en-US" target-language="es" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.5" build-num="17F42"/>
+    </header>
+    <body>
+      <trans-unit id="ContextMenu.GoogleLensButtonTitle.v153" xml:space="preserve">
+        <source>Search Image with Google Lens</source>
+        <note>Context menu item to search for an image using Google Lens</note>
       </trans-unit>
     </body>
   </file>
