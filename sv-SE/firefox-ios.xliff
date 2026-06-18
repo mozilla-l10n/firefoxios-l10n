@@ -11,8 +11,7 @@
         <note>iOS Home screen shortcut menu: Option to launch the app to the app icon customization screen</note>
       </trans-unit>
       <trans-unit id="NSCameraUsageDescription" xml:space="preserve">
-        <source>Firefox uses your camera to scan QR codes and take photos and video.</source>
-        <target>Firefox använder din kamera för att skanna QR-koder och ta foton och video.</target>
+        <source>Firefox can use your camera to scan QR codes or take photos and video.</source>
         <note>Privacy - Camera Usage Description</note>
       </trans-unit>
       <trans-unit id="NSFaceIDUsageDescription" xml:space="preserve">
@@ -3966,9 +3965,8 @@ Private Tab</source>
         <target>Avbryt</target>
         <note>Label for button in the address toolbar, that cancels editing the address field when tapped.</note>
       </trans-unit>
-      <trans-unit id="AddressToolbar.GoogleLens.A11yLabel.v153" xml:space="preserve">
-        <source>Search with Google Lens</source>
-        <target>Sök med Google Lens</target>
+      <trans-unit id="AddressToolbar.GoogleLens.A11yLabel.v153.v2" xml:space="preserve">
+        <source>Search image with Google Lens</source>
         <note>Accessibility label describing the Google Lens button on the address toolbar that prompts a menu to allow the user to take a new photo or select an existing photo from their photo library to search with Google Lens.</note>
       </trans-unit>
       <trans-unit id="AddressToolbar.GoogleLens.ContextMenu.PhotoLibraryActionTitle.v153" xml:space="preserve">
@@ -4511,6 +4509,17 @@ Private Tab</source>
         <source>Use a saved address?</source>
         <target>Använd en sparad adress?</target>
         <note>When a user is in the process of entering an address, a screen pops up prompting the user if they want to use a saved address. This string is used as the title label of the screen.</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Shared/Supporting Files/en.lproj/Camera.strings" source-language="en-US" target-language="sv" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.5" build-num="17F42"/>
+    </header>
+    <body>
+      <trans-unit id="CameraAccess.DisabledAlertMessage.v153" xml:space="preserve">
+        <source>Go to Settings &gt; %@ on your device to allow Firefox to use your camera.</source>
+        <note>Message shown in an alert when camera access is disabled in iOS Settings. The %@ is replaced with the app name. This is used by features that require camera access, such as QR code scanning and Google Lens.</note>
       </trans-unit>
     </body>
   </file>
@@ -7925,16 +7934,6 @@ Synka på alla dina enheter</target>
         <target>**Blockerad**: Du kommer inte att se och kan inte använda funktionen. För AI på enheten tas alla nedladdade modeller bort.</target>
         <note>In the AI Controls settings, in the AI powered features section, this is the text that what the blocked status means. The content between the ** ** is bolded. Please do not remove these in translation.</note>
       </trans-unit>
-      <trans-unit id="Settings.AIControls.AIPoweredFeaturesSection.GoogleLensSection.Message.v153" xml:space="preserve">
-        <source>Sends images and photos to Google for visual search.</source>
-        <target>Skickar bilder och foton till Google för visuell sökning.</target>
-        <note>In the AI Controls settings, in the AI powered features section, this is the message that describes the Google Lens feature</note>
-      </trans-unit>
-      <trans-unit id="Settings.AIControls.AIPoweredFeaturesSection.GoogleLensSection.Title.v153" xml:space="preserve">
-        <source>Google Lens</source>
-        <target>Google Lens</target>
-        <note>In the AI Controls settings, in the AI powered features section, this is the title that describes the Google Lens feature</note>
-      </trans-unit>
       <trans-unit id="Settings.AIControls.AIPoweredFeaturesSection.PageSummariesSection.Message.v151" xml:space="preserve">
         <source>Pages and summaries are never stored.</source>
         <target>Sidor och sammanfattningar lagras aldrig.</target>
@@ -7944,6 +7943,14 @@ Synka på alla dina enheter</target>
         <source>Page Summaries</source>
         <target>Sidsammanfattningar</target>
         <note>In the AI Controls settings, in the AI powered features section, this is the title that describes the page summaries feature</note>
+      </trans-unit>
+      <trans-unit id="Settings.AIControls.AIPoweredFeaturesSection.QuickAnswersSection.Message.v154" xml:space="preserve">
+        <source>Your voice, questions, and answers are never stored.</source>
+        <note>In the AI Controls settings, in the AI powered features section, this is the message that describes the Quick Answers feature</note>
+      </trans-unit>
+      <trans-unit id="Settings.AIControls.AIPoweredFeaturesSection.QuickAnswersSection.Title.v154" xml:space="preserve">
+        <source>Quick Answers</source>
+        <note>In the AI Controls settings, in the AI powered features section, this is the title that describes the Quick Answers feature</note>
       </trans-unit>
       <trans-unit id="Settings.AIControls.AIPoweredFeaturesSection.Title.v151" xml:space="preserve">
         <source>AI-POWERED FEATURES</source>
@@ -8239,6 +8246,18 @@ Synka på alla dina enheter</target>
         <source>Suggestions from Search Engines</source>
         <target>Förslag från sökmotorer</target>
         <note>Title for the `Suggestions from Search Engines` settings section in the Search page in the Settings menu.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.GoogleLens.Description.v153" xml:space="preserve">
+        <source>Send images to Google to search.</source>
+        <note>In the Search settings, this is the description that describes the Google Lens feature</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.GoogleLens.Footnote.v153" xml:space="preserve">
+        <source>Available only when Google is enabled above and is your active search engine while browsing.</source>
+        <note>In the Search settings, this is the disclaimer underneath the Google Lens settings toggle that explains the conditions required for Google Lens to be available.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Search.GoogleLens.Title.v153" xml:space="preserve">
+        <source>Google Lens</source>
+        <note>In the Search settings, this is the title that describes the Google Lens feature</note>
       </trans-unit>
       <trans-unit id="Settings.Search.PageTitle.v121" xml:space="preserve">
         <source>Search</source>
