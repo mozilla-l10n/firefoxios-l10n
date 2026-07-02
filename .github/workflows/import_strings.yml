@@ -72,7 +72,7 @@ jobs:
           python .github/scripts/translate_reference.py --path ./en-US
 
           # Generate the source-only template used by Pontoon
-          python .github/scripts/create_template.py --reference ./en-US --output ./templates
+          python .github/scripts/create_templates.py --reference ./en-US --output ./templates
 
           # Copy strings over from es-ES to es, fixing the target-language.
           cp ./es-ES/*.xliff ./es/

@@ -5,7 +5,7 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 """
-create_template.py --reference <ref_folder> --output <template_folder>
+create_templates.py --reference <ref_folder> --output <template_folder>
 
  Generate the source-only template used by Pontoon from the reference locale.
  For each reference XLIFF file, the tree is copied, all <target> elements are
