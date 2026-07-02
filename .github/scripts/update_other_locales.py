@@ -7,26 +7,31 @@
 """
 update_other_locales.py --reference <locale> --path <base_l10n_folder> [optional list of locales]
 
- First, get a list of all XLIFF files in the reference locale. Then, for
- each folder (locale) available in base_l10n_folder:
+ Every locale file is already kept structurally in sync with the reference by
+ Pontoon (same <file> and <trans-unit> elements). This script only edits
+ translations in place: for each existing <target>, it decides whether the
+ translation is still valid given the current reference, and removes it
+ otherwise. It never adds, removes, or reorders <trans-unit> elements.
 
- 1. Read existing translations, store them in an array: IDs use the structure
-    file_name:string_id:source_hash. Using the hash of the source string
-    prevents from keeping an existing translation if the ID doesn't change
-    but the source string does.
+ For each reference file, an index of the reference is built, keyed by
+ trans-unit ID and storing the list of (file, source) pairs where that ID
+ appears. Then, for each localized <trans-unit> that has a <target>:
 
-    If the '--nofile' argument is passed, the 'file_name' won't be used when
-    storing translations. This allows to retain translations when a string
-    moves as-is from one file to another.
-
- 2. Inject available translations in the reference XLIFF file, updating
-    the target-language where available on file elements.
-
- 3. Store the updated content in existing locale files, without backup.
+ - If the ID isn't in the reference, the trans-unit is left untouched (the
+   string is obsolete and will be removed by Pontoon).
+ - If the ID is in the reference, the '--type' argument decides:
+   - 'standard': keep the translation only if a reference entry matches both
+     file and source. Removes it if the source changed or the string moved to
+     a different file.
+   - 'nofile': keep the translation if a reference entry matches the source,
+     ignoring the file. This retains translations when a string moves as-is
+     from one file to another.
+   - 'matchid': always keep the translation, and update <source> to the
+     reference text if it changed. This retains translations for trivial
+     source changes.
 """
 
 from argparse import RawTextHelpFormatter
-from copy import deepcopy
 from functions import write_xliff
 from glob import glob
 from lxml import etree
@@ -67,6 +72,7 @@ def main():
     args = parser.parse_args()
 
     reference_locale = args.reference_locale
+    update_type = args.update_type
 
     # Get a list of files to update (absolute paths)
     base_folder = os.path.realpath(args.base_folder)
@@ -81,7 +87,8 @@ def main():
             f"No reference file found in {os.path.join(base_folder, reference_locale)}"
         )
 
-    # Get the list of locales
+    # Get the list of locales. 'templates' is generated separately, so it's
+    # excluded together with the reference locale.
     if args.locales:
         locales = args.locales
     else:
@@ -90,7 +97,9 @@ def main():
             for d in os.listdir(base_folder)
             if os.path.isdir(os.path.join(base_folder, d)) and not d.startswith(".")
         ]
-        locales.remove(reference_locale)
+        for excluded in (reference_locale, "templates"):
+            if excluded in locales:
+                locales.remove(excluded)
         locales.sort()
 
     updated_files = 0
@@ -99,17 +108,29 @@ def main():
         try:
             reference_file_path = os.path.join(base_folder, reference_locale, filename)
             reference_tree = etree.parse(reference_file_path)
+            reference_root = reference_tree.getroot()
         except Exception as e:
             sys.exit(f"ERROR: Can't parse reference file {filename}\n{e}")
+
+        """
+        Build an index of the reference content, keyed by trans-unit ID.
+        Each ID maps to the list of (file, source) pairs where it appears:
+        the same ID can be reused in different files (e.g. common keys like "
+        OK" or "Cancel"), so it isn't unique on its own.
+        """
+        reference_index = {}
+        for trans_node in reference_root.xpath("//x:trans-unit", namespaces=NS):
+            original_id = trans_node.get("id")
+            file_name = trans_node.getparent().getparent().get("original")
+            source_string = trans_node.xpath("./x:source", namespaces=NS)[0].text
+            reference_index.setdefault(original_id, []).append(
+                (file_name, source_string)
+            )
 
         for locale in locales:
             l10n_file = os.path.join(base_folder, locale, filename)
             if not os.path.isfile(l10n_file):
                 continue
-
-            # Make a copy of the reference tree and root
-            reference_tree_copy = deepcopy(reference_tree)
-            reference_root_copy = reference_tree_copy.getroot()
 
             print(f"Updating {l10n_file}")
 
@@ -122,98 +143,55 @@ def main():
                 print(e)
                 continue
 
-            """
-            Using locale folder as locale code for the target-language attribute.
-            This can be use to map a locale code to a different one.
-            Structure: "locale folder" -> "locale code"
-            """
-            locale_mapping = {
-                "ga-IE": "ga",
-                "nb-NO": "nb",
-                "nn-NO": "nn",
-                "sat": "sat-Olck",
-                "sv-SE": "sv",
-                "templates": "en",
-                "tl": "fil",
-                "zgh": "tzm",
-            }
-            # Normaliza the locale code, using dashes instead of underscores
-            locale_code = locale_mapping.get(locale, locale).replace("_", "-")
-
-            """
-            Store existing localizations in a dictionary.
-            The key for each translation is a combination of the <file> "original"
-            attribute, the <trans-unit> "id", and the <source> text.
-            This allows to invalidate a translation if the source string
-            changed without using a new ID (can be bypassed with --onlyid).
-            """
-            translations = {}
             for trans_node in locale_root.xpath("//x:trans-unit", namespaces=NS):
-                for child in trans_node.xpath("./x:target", namespaces=NS):
-                    file_name = trans_node.getparent().getparent().get("original")
-                    source_string = trans_node.xpath("./x:source", namespaces=NS)[
-                        0
-                    ].text
-                    original_id = trans_node.get("id")
-                    if args.update_type == "matchid":
-                        # Ignore source text and file attribute
-                        string_id = original_id
-                    else:
-                        if args.update_type == "nofile":
-                            string_id = f"{original_id}:{hash(source_string)}"
-                        else:
-                            string_id = (
-                                f"{file_name}:{original_id}:{hash(source_string)}"
-                            )
-                    translations[string_id] = child.text
+                targets = trans_node.xpath("./x:target", namespaces=NS)
+                if not targets:
+                    # Untranslated string, nothing to do.
+                    continue
+                target = targets[0]
 
-            # Inject available translations in the reference XML
-            for trans_node in reference_root_copy.xpath(
-                "//x:trans-unit", namespaces=NS
-            ):
-                # Add xml:space="preserve" to all trans-units, to avoid conflict
-                # with Pontoon
-                attrib_name = "{http://www.w3.org/XML/1998/namespace}space"
-                xml_space = trans_node.get(attrib_name)
-                if xml_space is None:
-                    trans_node.set(attrib_name, "preserve")
+                original_id = trans_node.get("id")
+                reference_entries = reference_index.get(original_id)
+                if reference_entries is None:
+                    # Obsolete string, not available in reference content.
+                    # Leave its removal to Pontoon.
+                    continue
 
                 file_name = trans_node.getparent().getparent().get("original")
-                source_string = trans_node.xpath("./x:source", namespaces=NS)[0].text
-                original_id = trans_node.get("id")
+                source_node = trans_node.xpath("./x:source", namespaces=NS)[0]
+                source_string = source_node.text
 
-                if args.update_type == "matchid":
-                    # Ignore source text and file attribute
-                    string_id = original_id
+                if update_type == "matchid":
+                    # Keep the translation and align the source to the reference.
+                    # Prefer the entry from the same file, since an ID can appear
+                    # in more than one file; otherwise fall back to the first.
+                    reference_source = reference_entries[0][1]
+                    for ref_file, ref_source in reference_entries:
+                        if ref_file == file_name:
+                            reference_source = ref_source
+                            break
+                    if source_string != reference_source:
+                        source_node.text = reference_source
+                    continue
+
+                if update_type == "nofile":
+                    # Keep if any reference entry has the same source.
+                    keep = any(
+                        source_string == ref_source
+                        for _, ref_source in reference_entries
+                    )
                 else:
-                    if args.update_type == "nofile":
-                        string_id = f"{original_id}:{hash(source_string)}"
-                    else:
-                        string_id = f"{file_name}:{original_id}:{hash(source_string)}"
-                updated = False
-                translated = string_id in translations
-                for child in trans_node.xpath("./x:target", namespaces=NS):
-                    if translated:
-                        child.text = translations[string_id]
-                    else:
-                        # No translation available, remove the target
-                        child.getparent().remove(child)
-                    updated = True
+                    # 'standard': keep if a reference entry matches file and source.
+                    keep = any(
+                        file_name == ref_file and source_string == ref_source
+                        for ref_file, ref_source in reference_entries
+                    )
 
-                if translated and not updated:
-                    # Translation is available, but the refence XLIFF has no target.
-                    # Create a target node and insert it after source.
-                    child = etree.Element("target")
-                    child.text = translations[string_id]
-                    trans_node.insert(1, child)
+                if not keep:
+                    target.getparent().remove(target)
 
-            # Update target-language where defined, replace underscores with
-            # hyphens if necessary (e.g. en_GB => en-GB).
-            for file_node in reference_root_copy.xpath("//x:file", namespaces=NS):
-                file_node.set("target-language", locale_code)
-
-            # Replace the existing locale file with the new XML content
-            write_xliff(reference_tree_copy, l10n_file)
+            # Replace the existing locale file with the updated XML content
+            write_xliff(locale_tree, l10n_file)
             updated_files += 1
 
     if updated_files == 0:
