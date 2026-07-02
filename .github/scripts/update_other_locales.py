@@ -132,7 +132,7 @@ def main():
             if not os.path.isfile(l10n_file):
                 continue
 
-            print(f"Updating {l10n_file}")
+            print(f"Processing {l10n_file}")
 
             # Read localized XML file
             try:
@@ -197,7 +197,7 @@ def main():
     if updated_files == 0:
         sys.exit("No files updated.")
     else:
-        print(f"{updated_files} updated files.")
+        print(f"{updated_files} files processed.")
 
 
 if __name__ == "__main__":
