@@ -1,11 +1,15 @@
-name: Check product locales
+name: Check target-language
 on:
-  schedule:
-    - cron: "0 0 * * 3"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/check_target_language.yml"
+      - ".github/scripts/check_target_language.py"
+      - "**/firefox-ios.xliff"
   workflow_dispatch:
-
 jobs:
-  update:
+  check:
     runs-on: ubuntu-latest
     steps:
       - name: Clone repository
@@ -19,6 +23,6 @@ jobs:
       - name: Install Python dependencies
         run: |
           pip install -r .github/scripts/requirements.txt
-      - name: Check product locales
+      - name: Check target-language
         run: |
-          python .github/scripts/check_product_locales.py --product firefox
+          python .github/scripts/check_target_language.py --path .

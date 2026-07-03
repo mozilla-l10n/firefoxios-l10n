@@ -11,6 +11,7 @@ Check if Pontoon locales are missing in the repository for iOS projects.
 import argparse
 import requests
 import sys
+from locale_config import IOS_TO_PONTOON
 from urllib.parse import quote as urlquote
 
 
@@ -47,16 +48,6 @@ def getGithubLocales(repo, path):
     url = f"https://api.github.com{query}"
 
     ignored_locales = ["Base", "en", "en-US"]
-    locale_mapping = {
-        # iOS locale: Pontoon locale
-        "fil": "tl",
-        "ga": "ga-IE",
-        "nb": "nb-NO",
-        "nn": "nn-NO",
-        "sat-Olck": "sat",
-        "sv": "sv-SE",
-        "tzm": "zgh",
-    }
 
     try:
         response = requests.get(url)
@@ -71,7 +62,7 @@ def getGithubLocales(repo, path):
 
         # Remap locales and exclude en/en-US
         locale_list = [
-            locale_mapping.get(loc, loc)
+            IOS_TO_PONTOON.get(loc, loc)
             for loc in locale_list
             if loc not in ignored_locales
         ]
