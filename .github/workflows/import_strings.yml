@@ -74,10 +74,6 @@ jobs:
           # Generate the source-only template used by Pontoon
           python .github/scripts/create_templates.py --reference ./en-US --output ./templates
 
-          # Copy strings over from es-ES to es, fixing the target-language.
-          cp ./es-ES/*.xliff ./es/
-          sed -i.bak 's/ target-language="es-ES"/ target-language="es"/' ./es/firefox-ios.xliff && rm -f ./es/firefox-ios.xliff.bak
-
           # Update translations in localized files where necessary
           python .github/scripts/update_other_locales.py --reference en-US --path . --type "$TYPE"
         working-directory: l10n_repo

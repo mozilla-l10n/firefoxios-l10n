@@ -1,0 +1,37 @@
+name: Update Spanish (es)
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "es-ES/firefox-ios.xliff"
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+concurrency:
+  group: update-es
+  cancel-in-progress: true
+jobs:
+  copy:
+    name: Copy translations
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+        with:
+          token: ${{ secrets.IOS_L10N_TOKEN }}
+      - name: Update es from es-ES and push
+        run: |
+          git config user.name "l10n-bot"
+          git config user.email "mozilla-pontoon@users.noreply.github.com"
+          # Copy translations from es-ES to es, fixing the target-language.
+          cp ./es-ES/*.xliff ./es/
+          sed -i.bak 's/ target-language="es-ES"/ target-language="es"/' ./es/firefox-ios.xliff && rm -f ./es/firefox-ios.xliff.bak
+          git add es/
+          if git diff-index --quiet HEAD; then
+            echo "es already up to date"
+            exit 0
+          fi
+          git commit -m "Update Spanish (es) localizations"
+          # If main was changed by Pontoon, it won't touch es/, so just rebase and try again.
+          git push || { git pull --rebase origin main && git push; }
