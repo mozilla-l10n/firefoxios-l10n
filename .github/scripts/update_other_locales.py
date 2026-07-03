@@ -120,11 +120,18 @@ def main():
         """
         reference_index = {}
         for trans_node in reference_root.xpath("//x:trans-unit", namespaces=NS):
+            source = trans_node.find("x:source", namespaces=NS)
+            if source is None:
+                # A reference unit without a source means a broken extraction.
+                # Exit with an error.
+                sys.exit(
+                    f"ERROR: Reference trans-unit '{trans_node.get('id')}' "
+                    f"has no source in {filename}"
+                )
             original_id = trans_node.get("id")
             file_name = trans_node.getparent().getparent().get("original")
-            source_string = trans_node.xpath("./x:source", namespaces=NS)[0].text
             reference_index.setdefault(original_id, []).append(
-                (file_name, source_string)
+                (file_name, source.text)
             )
 
         for locale in locales:
@@ -157,8 +164,15 @@ def main():
                     # Leave its removal to Pontoon.
                     continue
 
+                source_node = trans_node.find("x:source", namespaces=NS)
+                if source_node is None:
+                    # Malformed locale unit; log and skip.
+                    print(
+                        f"WARNING: Skipping trans-unit '{trans_node.get('id')}' "
+                        f"without source in {l10n_file}"
+                    )
+                    continue
                 file_name = trans_node.getparent().getparent().get("original")
-                source_node = trans_node.xpath("./x:source", namespaces=NS)[0]
                 source_string = source_node.text
 
                 if update_type == "matchid":
