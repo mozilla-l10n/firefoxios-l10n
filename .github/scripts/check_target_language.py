@@ -8,9 +8,9 @@
 check_target_language.py --path <base_l10n_folder>
 
  Verify that every localized XLIFF file declares the expected
- 'target-language' on each <file> node. Pontoon owns this attribute, so this
- is a safety net that fails when a sync leaves a locale with the wrong (or
- missing) language code.
+ 'target-language', either on each <file> node or on the root <xliff> element.
+ Pontoon owns this attribute, so this is a safety net that fails when
+ a sync leaves a locale with the wrong (or missing) language code.
 
  The expected code matches the folder name, except for a few locales whose
  language code differs from their Pontoon folder (see PONTOON_TO_IOS in
@@ -68,8 +68,12 @@ def main():
                 errors.append(f"{xliff_path}: can't parse ({e})")
                 continue
 
+            # Pontoon declares the target-language on the root <xliff> element
+            # instead of each <file> node. Fall back to the root value when
+            # a <file> doesn't specify its own.
+            root_lang = root.get("target-language")
             for file_node in root.xpath("//x:file", namespaces=NS):
-                actual = file_node.get("target-language")
+                actual = file_node.get("target-language", root_lang)
                 if actual != expected:
                     original = file_node.get("original")
                     errors.append(
