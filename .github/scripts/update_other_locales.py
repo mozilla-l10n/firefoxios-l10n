@@ -87,8 +87,9 @@ def main():
             f"No reference file found in {os.path.join(base_folder, reference_locale)}"
         )
 
-    # Get the list of locales. 'templates' is generated separately, so it's
-    # excluded together with the reference locale.
+    # Get the list of locales. 'templates' is generated separately, and 'es' is
+    # a copy of es-ES maintained via workflow, so both are excluded together
+    # with the reference locale.
     if args.locales:
         locales = args.locales
     else:
@@ -97,7 +98,7 @@ def main():
             for d in os.listdir(base_folder)
             if os.path.isdir(os.path.join(base_folder, d)) and not d.startswith(".")
         ]
-        for excluded in (reference_locale, "templates"):
+        for excluded in (reference_locale, "templates", "es"):
             if excluded in locales:
                 locales.remove(excluded)
         locales.sort()
