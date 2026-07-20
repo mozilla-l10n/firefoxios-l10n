@@ -6701,6 +6701,34 @@ Private Tab</source>
         <target>Það virðist vera vandamál með nettenginguna þína.</target>
         <note>On error page, this is the title for no internet connection</note>
       </trans-unit>
+      <trans-unit id="NativeErrorPage.Wayback.Error.Checking.v154" xml:space="preserve">
+        <source>Checking for page…</source>
+        <note>Label of the button on the connection error page - displayed if the user clicks on the button to requested an earlier version of the page and the search is in progress.</note>
+      </trans-unit>
+      <trans-unit id="NativeErrorPage.Wayback.Error.CouldNotReach.v154" xml:space="preserve">
+        <source>Couldn’t reach Wayback Machine</source>
+        <note>Label shown when the app fails to reach the Wayback Machine while searching for an earlier version of a page.</note>
+      </trans-unit>
+      <trans-unit id="NativeErrorPage.Wayback.Error.Description.v154" xml:space="preserve">
+        <source>The site may be busy or unavailable. Try again later. If other pages won’t load, check your Wi-Fi or data connection. %@ can also search the Wayback Machine for an earlier version of this page.</source>
+        <note>Description of the error page when the app is unable to connect to the server and will show a wayback fallback. %@ is the app name (e.g. Firefox).</note>
+      </trans-unit>
+      <trans-unit id="NativeErrorPage.Wayback.Error.Retry.v154" xml:space="preserve">
+        <source>Retry</source>
+        <note>Button label allowing the user to retry searching the Wayback Machine after a failed attempt.</note>
+      </trans-unit>
+      <trans-unit id="NativeErrorPage.Wayback.Error.Search.v154" xml:space="preserve">
+        <source>Check for earlier version</source>
+        <note>Button label on the error page when the app is unable to connect to the server - clicking on the button launches a search for an earlier version of the page on the Wayback Machine.</note>
+      </trans-unit>
+      <trans-unit id="NativeErrorPage.Wayback.Error.Title.v154" xml:space="preserve">
+        <source>Unable to connect</source>
+        <note>Title of the error page when the app is unable to connect to the server and will show a wayback fallback.</note>
+      </trans-unit>
+      <trans-unit id="NativeErrorPage.Wayback.Error.WaybackButtonA11yHint.v154" xml:space="preserve">
+        <source>Searches the Wayback Machine for an archived version of this page.</source>
+        <note>Accessibility hint read by VoiceOver describing what happens when the 'Check for earlier version' button is clicked.</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Shared/Supporting Files/en.lproj/Notification.strings" source-language="en-US" datatype="plaintext" target-language="is">
