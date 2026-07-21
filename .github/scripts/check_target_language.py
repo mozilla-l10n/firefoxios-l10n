@@ -5,7 +5,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 """
-check_target_language.py --path <base_l10n_folder>
+check_target_language.py --path <folder>
+     [--reference <locale>] [--project <name>]
+
+ --project selects the locale mapping and excluded folders from
+ locale_config.py. When no project name is provided, empty defaults are used
+ (no remapping, no excluded folders).
 
  Verify that every localized XLIFF file declares the expected
  'target-language' on each <file> node. Pontoon owns this attribute, so this

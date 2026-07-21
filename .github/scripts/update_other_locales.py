@@ -5,7 +5,12 @@
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 """
-update_other_locales.py --reference <locale> --path <folder> [locales...]
+update_other_locales.py --reference <locale> --path <folder>
+     [--type standard|nofile|matchid] [--project <name>] [locales...]
+
+ --project selects the locale mapping and excluded folders from
+ locale_config.py. When no project name is provided, empty defaults are used
+ (no remapping, no excluded folders).
 
  How each localized file is updated depends on the '--type' argument. The two
  behaviors exist because they serve different goals.
@@ -16,12 +21,13 @@ update_other_locales.py --reference <locale> --path <folder> [locales...]
  by Pontoon (same <file> and <trans-unit> elements), so this mode only edits
  translations in place and never adds, removes, or reorders <trans-unit> elements.
 
- A localized <target> is removed *only* when the source text of that string
- changed in the reference, without using a new ID. In every other case the
- localized file is left untouched:
- - String removed from the reference are left in place (Pontoon will remove them).
- - String moved to a different file are left in place. 'nofile'/'matchid'
-   should be used to actually move the translation).
+ A localized <target> is removed when the source text of that string changed
+ in the reference (same ID, same file). It is also removed when the string
+ moved to a different <file> and its source text changed.
+ In every other case the localized file is left untouched:
+ - Strings removed from the reference are left in place (Pontoon will remove them).
+ - Strings moved to a different file with an unchanged source are left in place
+   ('nofile'/'matchid' relocate the translation; Pontoon syncs the structure).
 
  'nofile' / 'matchid' (rebuild from reference, move existing translations)
  -------------------------------------------------------------------------
@@ -95,26 +101,35 @@ def reorder_attributes(node, preferred_order):
 def build_reference_index(reference_root, filename):
     """
     Index the reference content as {id: {original_file: set(sources)}}.
+
+    This structure is necessary to differentiate strings with the same ID but
+    placed in different <file> blocks (e.g. CFBundleDisplayName in iOS),
+    possibly with different source text.
+
+    Using a set() should be unnecessary, since the same ID shouldn't appear
+    more than once in the same <file> block, but it protects against broken
+    extractions.
     """
     reference_index = {}
     for trans_node in reference_root.xpath("//x:trans-unit", namespaces=NS):
         source = trans_node.find("x:source", namespaces=NS)
+        tu_id = trans_node.get("id")
         if source is None:
             # A reference unit without a source means a broken extraction.
             sys.exit(
-                f"ERROR: Reference trans-unit '{trans_node.get('id')}' "
-                f"has no source in {filename}"
+                f"ERROR: Reference trans-unit '{tu_id}' has no source in {filename}"
             )
-        per_file = reference_index.setdefault(trans_node.get("id"), {})
-        per_file.setdefault(file_original(trans_node), set()).add(source.text)
+        sources_by_id = reference_index.setdefault(tu_id, {})
+        sources_by_id.setdefault(file_original(trans_node), set()).add(source.text)
     return reference_index
 
 
 def update_in_place(reference_index, locale_root):
     """
-    'standard' mode: remove a localized <target> only when the source text
-    changed in the reference for the same XLIFF file. Strings removed upstream
-    or moved to a different file are left untouched.
+    'standard' mode: remove a localized <target> when the source text changed
+    in the reference for the same XLIFF file, or when the string moved to a
+    different <file> and its source text changed. Strings removed upstream,
+    and pure moves where the source text is unchanged, are left untouched.
     """
     for trans_node in locale_root.xpath("//x:trans-unit", namespaces=NS):
         target = trans_node.find("x:target", namespaces=NS)
@@ -122,27 +137,34 @@ def update_in_place(reference_index, locale_root):
             # Untranslated string, nothing to do.
             continue
 
-        per_file = reference_index.get(trans_node.get("id"))
-        if per_file is None:
-            # String removed from the reference: leave its removal to Pontoon.
+        tu_id = trans_node.get("id")
+        sources_by_id = reference_index.get(tu_id)
+        if sources_by_id is None:
+            # String was completely removed from the reference. Pontoon will
+            # remove it on next sync, so leave it in place here to avoid noise.
             continue
 
         source_node = trans_node.find("x:source", namespaces=NS)
         if source_node is None:
             # Malformed locale unit; log and skip.
-            print(
-                f"WARNING: Skipping trans-unit '{trans_node.get('id')}' without source"
-            )
+            print(f"WARNING: Skipping trans-unit '{tu_id}' without source")
             continue
 
-        reference_sources = per_file.get(file_original(trans_node))
-        if reference_sources is None:
+        files_for_id = sources_by_id.get(file_original(trans_node))
+        if files_for_id is None:
             # The ID exists in the reference but only in a different <file>: the
-            # string moved, leave it in place ('nofile'/'matchid' relocate it).
+            # string moved. A pure move (source text unchanged) is left in place
+            # ('nofile'/'matchid' can relocate the translation). If the source
+            # text also changed, the translation is stale, so drop the target.
+            all_sources = set()
+            for file_sources in sources_by_id.values():
+                all_sources.update(file_sources)
+            if source_node.text not in all_sources:
+                target.getparent().remove(target)
             continue
 
         # Same file: remove only when the source text actually changed here.
-        if source_node.text not in reference_sources:
+        if source_node.text not in files_for_id:
             target.getparent().remove(target)
 
 
@@ -160,51 +182,55 @@ def carry_over_obsolete(new_root, locale_root, reference_ids, locale_code):
     - locale_root: the original localized file's content (the source of truth
                    for what obsolete strings existed and where).
     - reference_ids: set of every trans-unit ID that still exists in the
-                     reference. An ID not in this set = obsolete.
+                     reference. An ID not in this set = obsolete string.
     """
 
     new_file_nodes = {
         fn.get("original"): fn for fn in new_root.xpath("//x:file", namespaces=NS)
     }
     for loc_file in locale_root.xpath("//x:file", namespaces=NS):
-        units = loc_file.xpath("./x:body/x:trans-unit", namespaces=NS)
-        if all(tu.get("id") in reference_ids for tu in units):
+        old_loc_trans_units = loc_file.xpath("./x:body/x:trans-unit", namespaces=NS)
+        if all(tu.get("id") in reference_ids for tu in old_loc_trans_units):
             # Nothing obsolete in this <file> block.
             continue
 
         original = loc_file.get("original")
-        dest = new_file_nodes.get(original)
-        if dest is None:
-            # The whole <file> block is gone from the reference: recreate it
-            # (empty), preserving the <file> attributes. Obsolete strings
-            # will be reinserted below.
-            dest = deepcopy(loc_file)
-            dest.set("target-language", locale_code)
-            dest_body = dest.find("x:body", namespaces=NS)
-            for tu in dest_body.xpath("./x:trans-unit", namespaces=NS):
-                dest_body.remove(tu)
-            new_root.append(dest)
-            new_file_nodes[original] = dest
+        new_dest = new_file_nodes.get(original)
+        if new_dest is None:
+            # The whole <file> block was removed from the reference: recreate
+            # it and empty its <body> (no <trans-unit> elements), preserving
+            # the <file> attributes. Obsolete strings will be reinserted later.
+            new_dest = deepcopy(loc_file)
+            new_dest.set("target-language", locale_code)
+            new_dest_body = new_dest.find("x:body", namespaces=NS)
+            for tu in new_dest_body.xpath("./x:trans-unit", namespaces=NS):
+                new_dest_body.remove(tu)
+            new_root.append(new_dest)
+            new_file_nodes[original] = new_dest
         else:
-            dest_body = dest.find("x:body", namespaces=NS)
+            new_dest_body = new_dest.find("x:body", namespaces=NS)
 
+        # At this point, new_dest_body is the <file><body> of the new XLIFF
+        # tree, rebuilt from the reference and already containing any
+        # surviving translations. If the <file> was completely removed
+        # from the reference, new_dest_body is empty.
         # Index the units already placed in the rebuilt block, to
         # anchor each obsolete unit after its previous sibling.
-        dest_index = {}
-        for cand in dest_body.xpath("./x:trans-unit", namespaces=NS):
-            dest_index.setdefault(cand.get("id"), cand)
+        new_dest_index = {}
+        for tu_candidate in new_dest_body.xpath("./x:trans-unit", namespaces=NS):
+            new_dest_index.setdefault(tu_candidate.get("id"), tu_candidate)
 
         # Walk the localized units in order, reinserting the obsolete ones.
         anchor = None
-        for tu in units:
-            tid = tu.get("id")
-            if tid in reference_ids:
+        for tu in old_loc_trans_units:
+            tu_id = tu.get("id")
+            if tu_id in reference_ids:
                 # Surviving unit already in the rebuilt block: use as anchor.
-                anchor = dest_index.get(tid, anchor)
+                anchor = new_dest_index.get(tu_id, anchor)
             else:
                 copy = deepcopy(tu)
                 if anchor is None:
-                    dest_body.insert(0, copy)
+                    new_dest_body.insert(0, copy)
                 else:
                     anchor.addnext(copy)
                 anchor = copy
@@ -217,11 +243,15 @@ def rebuild_from_reference(reference_tree, locale_root, update_type, locale_code
     based on the reference, strings that moved to a different <file> block are
     re-emitted (with their translation) under their new location. Translations
     for strings removed upstream are carried over (see carry_over_obsolete).
+    That prevents automation from touching localized files, leaving the removal
+    to Pontoon instead, and reducing merge conflicts.
 
     'locale_root' is the current localized content of an existing file.
     """
     # Remember each localized <file>'s attribute order, to restore it on the
     # rebuilt tree (which otherwise inherits the reference's order).
+    # Without this, different automations (this script, extraction, Pontoon)
+    # would start fighting over the attribute order, creating unnecessary diffs.
     locale_file_attr_order = {
         fn.get("original"): list(fn.attrib.keys())
         for fn in locale_root.xpath("//x:file", namespaces=NS)
@@ -230,7 +260,7 @@ def rebuild_from_reference(reference_tree, locale_root, update_type, locale_code
     # Collect existing translations, keyed according to the update type. Keep a
     # per-file map so a shared ID (e.g. iOS default IDs reused across files with
     # different translations) can't clobber another file's translation, plus a
-    # file-agnostic fallback used *only* to relocate a translation whose string
+    # file-agnostic fallback used only to relocate a translation whose string
     # moved to a different <file> block.
     translations_by_file = {}
     translations_any = {}
@@ -280,8 +310,7 @@ def rebuild_from_reference(reference_tree, locale_root, update_type, locale_code
                 # in memory and only pick up the default namespace on save).
                 target = etree.Element(f"{{{NS['x']}}}target")
                 target.text = translation
-                source_index = list(trans_node).index(source_node)
-                trans_node.insert(source_index + 1, target)
+                source_node.addnext(target)
         elif existing_target is not None:
             # No translation available, remove the target.
             existing_target.getparent().remove(existing_target)
@@ -308,13 +337,13 @@ def main():
         "--reference",
         required=True,
         dest="reference_locale",
-        help="Reference locale code",
+        help="Locale code for source strings (usually en-US)",
     )
     parser.add_argument(
         "--path",
         required=True,
         dest="base_folder",
-        help="Path to folder including subfolders for all locales",
+        help="Path to folder containing subfolders for all locales",
     )
     parser.add_argument(
         "--type",
@@ -336,7 +365,12 @@ def main():
         "Defaults to no mapping and no excluded folders.",
     )
 
-    parser.add_argument("locales", nargs="*", help="Locales to process")
+    parser.add_argument(
+        "locales",
+        nargs="*",
+        help="Locales to process; if none are listed, all locale subfolders "
+        "in the path will be processed",
+    )
     args = parser.parse_args()
 
     reference_locale = args.reference_locale
@@ -377,6 +411,7 @@ def main():
             sys.exit(f"ERROR: Can't parse reference file {filename}\n{e}")
 
         # 'standard' only needs an index of the reference sources per ID.
+        # Build once here instead of within the locale loop.
         reference_index = (
             build_reference_index(reference_root, filename)
             if update_type == "standard"
@@ -386,49 +421,42 @@ def main():
         for locale in locales:
             l10n_file = os.path.join(base_folder, locale, filename)
 
+            # Every mode requires an existing localized file. In rebuild modes a
+            # missing file would only be recreated with no translations, so its
+            # creation is left to Pontoon.
+            if not os.path.isfile(l10n_file):
+                continue
+
+            try:
+                locale_tree = etree.parse(l10n_file)
+                locale_root = locale_tree.getroot()
+            except Exception as e:
+                print(f"ERROR: Can't parse {l10n_file}")
+                print(e)
+                continue
+
             if update_type == "standard":
-                # In-place update, requires an existing localized file.
-                if not os.path.isfile(l10n_file):
-                    continue
-
+                # In-place update.
                 print(f"Processing {l10n_file}")
-                try:
-                    locale_tree = etree.parse(l10n_file)
-                    locale_root = locale_tree.getroot()
-                except Exception as e:
-                    print(f"ERROR: Can't parse {l10n_file}")
-                    print(e)
-                    continue
-
                 update_in_place(reference_index, locale_root)
                 write_xliff(locale_tree, l10n_file)
-                updated_files += 1
             else:
-                # Rebuild from reference, moving existing translations. Requires an
-                # existing localized file: a missing file would only be rebuilt
-                # with no translations, so leave its creation to Pontoon.
-                if not os.path.isfile(l10n_file):
-                    continue
-
+                # Rebuild from reference, moving existing translations.
                 print(f"Updating {l10n_file}")
-                try:
-                    locale_root = etree.parse(l10n_file).getroot()
-                except Exception as e:
-                    print(f"ERROR: Can't parse {l10n_file}")
-                    print(e)
-                    continue
-
                 # Resolve the folder name to its XLIFF target-language code.
                 locale_code = get_locale_code(mapping, locale)
-
                 new_tree = rebuild_from_reference(
                     reference_tree, locale_root, update_type, locale_code
                 )
                 write_xliff(new_tree, l10n_file)
-                updated_files += 1
+
+            updated_files += 1
 
     if updated_files == 0:
-        sys.exit("No files updated.")
+        # No localized file matched the reference (e.g. a brand-new project that
+        # isn't localized yet). This is not an error: exit cleanly so a first
+        # import doesn't fail CI, leaving the file creation to Pontoon.
+        print("WARNING: No localized files to update.")
     else:
         print(f"{updated_files} files processed.")
 
