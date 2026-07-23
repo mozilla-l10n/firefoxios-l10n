@@ -188,27 +188,49 @@ def carry_over_obsolete(new_root, locale_root, reference_ids, locale_code):
     new_file_nodes = {
         fn.get("original"): fn for fn in new_root.xpath("//x:file", namespaces=NS)
     }
+    # Track the last surviving <file> in the rebuilt tree, so a <file> block
+    # removed upstream can be reinserted in its original position (right after
+    # the previous surviving <file>) instead of being appended at the end,
+    # which would create a reordering diff.
+    file_anchor = None
     for loc_file in locale_root.xpath("//x:file", namespaces=NS):
-        old_loc_trans_units = loc_file.xpath("./x:body/x:trans-unit", namespaces=NS)
-        if all(tu.get("id") in reference_ids for tu in old_loc_trans_units):
-            # Nothing obsolete in this <file> block.
-            continue
-
         original = loc_file.get("original")
         new_dest = new_file_nodes.get(original)
-        if new_dest is None:
+
+        old_loc_trans_units = loc_file.xpath("./x:body/x:trans-unit", namespaces=NS)
+        nothing_obsolete = all(
+            tu.get("id") in reference_ids for tu in old_loc_trans_units
+        )
+
+        if new_dest is not None:
+            # This <file> still exists in the reference; it anchors the
+            # position of any following removed <file> block.
+            file_anchor = new_dest
+            if nothing_obsolete:
+                continue
+            new_dest_body = new_dest.find("x:body", namespaces=NS)
+        else:
+            if nothing_obsolete:
+                # The <file> is gone from the reference but all its strings
+                # only moved elsewhere (still in reference_ids); they are
+                # re-emitted under their new <file>, so nothing to carry over.
+                continue
             # The whole <file> block was removed from the reference: recreate
             # it and empty its <body> (no <trans-unit> elements), preserving
-            # the <file> attributes. Obsolete strings will be reinserted later.
+            # the <file> attributes. Insert it in its original position, right
+            # after the previous surviving <file> (or first if none precedes
+            # it), to avoid reordering. Obsolete strings are reinserted later.
             new_dest = deepcopy(loc_file)
             new_dest.set("target-language", locale_code)
             new_dest_body = new_dest.find("x:body", namespaces=NS)
             for tu in new_dest_body.xpath("./x:trans-unit", namespaces=NS):
                 new_dest_body.remove(tu)
-            new_root.append(new_dest)
+            if file_anchor is None:
+                new_root.insert(0, new_dest)
+            else:
+                file_anchor.addnext(new_dest)
             new_file_nodes[original] = new_dest
-        else:
-            new_dest_body = new_dest.find("x:body", namespaces=NS)
+            file_anchor = new_dest
 
         # At this point, new_dest_body is the <file><body> of the new XLIFF
         # tree, rebuilt from the reference and already containing any
