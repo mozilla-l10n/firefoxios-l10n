@@ -77,9 +77,16 @@ def translation_key(update_type, original_id, source_string):
     return f"{original_id}:{hash(source_string)}"
 
 
-def file_original(trans_node):
-    """Return the 'original' attribute of the <file> a trans-unit belongs to."""
-    return trans_node.xpath("ancestor::x:file", namespaces=NS)[0].get("original")
+def iter_units_by_filenode(root):
+    """
+    Yield (original, trans_node) for every <trans-unit> in the tree.
+
+    Iterating by <file> lets us read each file's 'original' attribute once.
+    """
+    for file_node in root.xpath("//x:file", namespaces=NS):
+        original = file_node.get("original")
+        for trans_node in file_node.xpath(".//x:trans-unit", namespaces=NS):
+            yield original, trans_node
 
 
 def reorder_attributes(node, preferred_order):
@@ -111,7 +118,7 @@ def build_reference_index(reference_root, filename):
     extractions.
     """
     reference_index = {}
-    for trans_node in reference_root.xpath("//x:trans-unit", namespaces=NS):
+    for file_original, trans_node in iter_units_by_filenode(reference_root):
         source = trans_node.find("x:source", namespaces=NS)
         tu_id = trans_node.get("id")
         if source is None:
@@ -120,7 +127,7 @@ def build_reference_index(reference_root, filename):
                 f"ERROR: Reference trans-unit '{tu_id}' has no source in {filename}"
             )
         sources_by_id = reference_index.setdefault(tu_id, {})
-        sources_by_id.setdefault(file_original(trans_node), set()).add(source.text)
+        sources_by_id.setdefault(file_original, set()).add(source.text)
     return reference_index
 
 
@@ -131,7 +138,7 @@ def update_in_place(reference_index, locale_root):
     different <file> and its source text changed. Strings removed upstream,
     and pure moves where the source text is unchanged, are left untouched.
     """
-    for trans_node in locale_root.xpath("//x:trans-unit", namespaces=NS):
+    for file_original, trans_node in iter_units_by_filenode(locale_root):
         target = trans_node.find("x:target", namespaces=NS)
         if target is None:
             # Untranslated string, nothing to do.
@@ -150,7 +157,7 @@ def update_in_place(reference_index, locale_root):
             print(f"WARNING: Skipping trans-unit '{tu_id}' without source")
             continue
 
-        files_for_id = sources_by_id.get(file_original(trans_node))
+        files_for_id = sources_by_id.get(file_original)
         if files_for_id is None:
             # The ID exists in the reference but only in a different <file>: the
             # string moved. A pure move (source text unchanged) is left in place
@@ -194,8 +201,8 @@ def carry_over_obsolete(new_root, locale_root, reference_ids, locale_code):
     # which would create a reordering diff.
     file_anchor = None
     for loc_file in locale_root.xpath("//x:file", namespaces=NS):
-        original = loc_file.get("original")
-        new_dest = new_file_nodes.get(original)
+        file_original = loc_file.get("original")
+        new_dest = new_file_nodes.get(file_original)
 
         old_loc_trans_units = loc_file.xpath("./x:body/x:trans-unit", namespaces=NS)
         nothing_obsolete = all(
@@ -229,7 +236,7 @@ def carry_over_obsolete(new_root, locale_root, reference_ids, locale_code):
                 new_root.insert(0, new_dest)
             else:
                 file_anchor.addnext(new_dest)
-            new_file_nodes[original] = new_dest
+            new_file_nodes[file_original] = new_dest
             file_anchor = new_dest
 
         # At this point, new_dest_body is the <file><body> of the new XLIFF
@@ -286,14 +293,14 @@ def rebuild_from_reference(reference_tree, locale_root, update_type, locale_code
     # moved to a different <file> block.
     translations_by_file = {}
     translations_any = {}
-    for trans_node in locale_root.xpath("//x:trans-unit", namespaces=NS):
+    for file_original, trans_node in iter_units_by_filenode(locale_root):
         target = trans_node.find("x:target", namespaces=NS)
         if target is None:
             continue
         source_node = trans_node.find("x:source", namespaces=NS)
         source_string = source_node.text if source_node is not None else None
         key = translation_key(update_type, trans_node.get("id"), source_string)
-        translations_by_file[(file_original(trans_node), key)] = target.text
+        translations_by_file[(file_original, key)] = target.text
         translations_any.setdefault(key, target.text)
 
     # Build the new localized tree from the reference structure.
@@ -304,14 +311,14 @@ def rebuild_from_reference(reference_tree, locale_root, update_type, locale_code
         tu.get("id") for tu in new_root.xpath("//x:trans-unit", namespaces=NS)
     }
 
-    for trans_node in new_root.xpath("//x:trans-unit", namespaces=NS):
+    for file_original, trans_node in iter_units_by_filenode(new_root):
         source_node = trans_node.find("x:source", namespaces=NS)
         source_string = source_node.text if source_node is not None else None
         key = translation_key(update_type, trans_node.get("id"), source_string)
 
         # Prefer the translation from the same file; fall back to any file only
         # to relocate a string that moved to a different <file> block.
-        file_key = (file_original(trans_node), key)
+        file_key = (file_original, key)
         if file_key in translations_by_file:
             translation = translations_by_file[file_key]
             has_translation = True
