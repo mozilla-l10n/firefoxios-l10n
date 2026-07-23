@@ -313,7 +313,15 @@ def rebuild_from_reference(reference_tree, locale_root, update_type, locale_code
 
     for file_original, trans_node in iter_units_by_filenode(new_root):
         source_node = trans_node.find("x:source", namespaces=NS)
-        source_string = source_node.text if source_node is not None else None
+        if source_node is None:
+            # Malformed reference unit (broken extraction): can't match or
+            # inject a translation without a <source> to anchor it.
+            # Log and skip.
+            print(
+                f"WARNING: Skipping trans-unit '{trans_node.get('id')}' without source"
+            )
+            continue
+        source_string = source_node.text
         key = translation_key(update_type, trans_node.get("id"), source_string)
 
         # Prefer the translation from the same file; fall back to any file only
