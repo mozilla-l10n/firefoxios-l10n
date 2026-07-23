@@ -75,7 +75,7 @@ jobs:
           python .github/scripts/create_templates.py --reference ./en-US --output ./templates
 
           # Update translations in localized files where necessary
-          python .github/scripts/update_other_locales.py --reference en-US --path . --type "$TYPE"
+          python .github/scripts/update_other_locales.py --reference en-US --path . --project ios --type "$TYPE"
         working-directory: l10n_repo
       - name: Import linter config
         run: |

@@ -25,4 +25,4 @@ jobs:
           pip install -r .github/scripts/requirements.txt
       - name: Check target-language
         run: |
-          python .github/scripts/check_target_language.py --path .
+          python .github/scripts/check_target_language.py --path . --project ios
