@@ -36,11 +36,11 @@ def getPontoonLocales(project_slug):
             url = data.get("next")
             page += 1
         if not locale_list:
-            print(f"No locales found for project '{project_slug}'")
+            print(f"No locales found in Pontoon for project '{project_slug}'")
             sys.exit()
         locale_list.sort()
     except requests.RequestException as e:
-        print(f"Error fetching data: {e}")
+        print(f"Error fetching locale data from Pontoon: {e}")
         sys.exit()
 
     return locale_list
@@ -125,7 +125,7 @@ def main():
             f"\nMissing locales in GitHub repository: {', '.join(missing_locales)}\n"
         )
     else:
-        print("\nNo missing locales\n")
+        print("\nNo Pontoon locales missing from Github\n")
 
 
 if __name__ == "__main__":
