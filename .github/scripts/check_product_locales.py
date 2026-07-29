@@ -11,7 +11,7 @@ Check if Pontoon locales are missing in the repository for iOS projects.
 import argparse
 import requests
 import sys
-from locale_config import IOS_TO_PONTOON
+from locale_config import get_locale_code, get_project_config
 from urllib.parse import quote as urlquote
 
 
@@ -19,7 +19,6 @@ def getPontoonLocales(project_slug):
     try:
         locale_list = []
         url = f"https://pontoon.mozilla.org/api/v2/projects/{project_slug}/?fields=localizations"
-        page = 1
         while url:
             response = requests.get(url)
             response.raise_for_status()
@@ -34,10 +33,12 @@ def getPontoonLocales(project_slug):
                     locale_list.append(locale)
             # Get the next page URL
             url = data.get("next")
-            page += 1
+        if not locale_list:
+            print(f"No locales found in Pontoon for project '{project_slug}'")
+            sys.exit()
         locale_list.sort()
     except requests.RequestException as e:
-        print(f"Error fetching data: {e}")
+        print(f"Error fetching locale data from Pontoon: {e}")
         sys.exit()
 
     return locale_list
@@ -60,13 +61,17 @@ def getGithubLocales(repo, path):
             if e["type"] == "dir" and e["name"].endswith(".lproj")
         ]
 
-        # Remap locales and exclude en/en-US
+        # Remap locales and exclude en/en-US, need to reverse the mapping.
+        locale_mapping = {v: k for k, v in get_project_config("ios")["mapping"].items()}
         locale_list = [
-            IOS_TO_PONTOON.get(loc, loc)
+            get_locale_code(locale_mapping, loc)
             for loc in locale_list
             if loc not in ignored_locales
         ]
         locale_list.sort()
+        if not locale_list:
+            print(f"No locales found in GitHub repository '{repo}' at path '{path}'")
+            sys.exit()
 
         return locale_list
     except Exception as e:
@@ -118,7 +123,7 @@ def main():
             f"\nMissing locales in GitHub repository: {', '.join(missing_locales)}\n"
         )
     else:
-        print("\nNo missing locales\n")
+        print("\nNo Pontoon locales missing from Github\n")
 
 
 if __name__ == "__main__":
