@@ -19,7 +19,6 @@ def getPontoonLocales(project_slug):
     try:
         locale_list = []
         url = f"https://pontoon.mozilla.org/api/v2/projects/{project_slug}/?fields=localizations"
-        page = 1
         while url:
             response = requests.get(url)
             response.raise_for_status()
@@ -34,7 +33,6 @@ def getPontoonLocales(project_slug):
                     locale_list.append(locale)
             # Get the next page URL
             url = data.get("next")
-            page += 1
         if not locale_list:
             print(f"No locales found in Pontoon for project '{project_slug}'")
             sys.exit()
