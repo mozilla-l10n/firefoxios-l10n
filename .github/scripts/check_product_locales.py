@@ -11,7 +11,7 @@ Check if Pontoon locales are missing in the repository for iOS projects.
 import argparse
 import requests
 import sys
-from locale_config import IOS_TO_PONTOON
+from locale_config import get_locale_code, get_project_config
 from urllib.parse import quote as urlquote
 
 
@@ -35,6 +35,9 @@ def getPontoonLocales(project_slug):
             # Get the next page URL
             url = data.get("next")
             page += 1
+        if not locale_list:
+            print(f"No locales found for project '{project_slug}'")
+            sys.exit()
         locale_list.sort()
     except requests.RequestException as e:
         print(f"Error fetching data: {e}")
@@ -60,13 +63,17 @@ def getGithubLocales(repo, path):
             if e["type"] == "dir" and e["name"].endswith(".lproj")
         ]
 
-        # Remap locales and exclude en/en-US
+        # Remap locales and exclude en/en-US, need to reverse the mapping.
+        locale_mapping = {v: k for k, v in get_project_config("ios")["mapping"].items()}
         locale_list = [
-            IOS_TO_PONTOON.get(loc, loc)
+            get_locale_code(locale_mapping, loc)
             for loc in locale_list
             if loc not in ignored_locales
         ]
         locale_list.sort()
+        if not locale_list:
+            print(f"No locales found in GitHub repository '{repo}' at path '{path}'")
+            sys.exit()
 
         return locale_list
     except Exception as e:
