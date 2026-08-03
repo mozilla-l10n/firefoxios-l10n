@@ -7580,6 +7580,41 @@ Sioncronachadh air gach uidheam agad</target>
       </trans-unit>
     </body>
   </file>
+  <file original="Shared/Supporting Files/en.lproj/PrivacyDashboard.strings" source-language="en-US" datatype="plaintext" target-language="gd">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.5" build-num="17F42"/>
+    </header>
+    <body>
+      <trans-unit id="PrivacyDashboard.CrossSiteTrackers.v155" xml:space="preserve">
+        <source>Cross-Site Tracking Cookies</source>
+        <note>On the Privacy Dashboard popup, the title text for the bar &amp; label showing how many cross-site tracking cookies we've blocked.</note>
+      </trans-unit>
+      <trans-unit id="PrivacyDashboard.Fingerprinters.v155" xml:space="preserve">
+        <source>Fingerprinters</source>
+        <note>On the Privacy Dashboard popup, the title text for the bar &amp; label showing how many fingerprinter's we've blocked.</note>
+      </trans-unit>
+      <trans-unit id="PrivacyDashboard.HeaderLabel.v155" xml:space="preserve">
+        <source>Trackers blocked this week</source>
+        <note>On the Privacy Dashboard popup, the text for the header when we have blocked some trackers this week. This is going to have, above it, in bold letters, the number of trackers blocked this week.</note>
+      </trans-unit>
+      <trans-unit id="PrivacyDashboard.HeaderLabelForNoTrackersBlocked.v155" xml:space="preserve">
+        <source>%@ blocks trackers as you browse, you’ll see them here.</source>
+        <note>On the Privacy Dashboard popup, the text for the header of the popup, in the case where we have not yet blocked any trackers yet. The placeholder %@ will be the app name, Firefox.</note>
+      </trans-unit>
+      <trans-unit id="PrivacyDashboard.SocialTrackers.v155" xml:space="preserve">
+        <source>Social Media Trackers</source>
+        <note>On the Privacy Dashboard popup, the title text for the bar &amp; label showing how many social media trackers we've blocked.</note>
+      </trans-unit>
+      <trans-unit id="PrivacyDashboard.TotalTrackersBlockedSince.v155" xml:space="preserve">
+        <source>%1$@ since %2$@ 🎉</source>
+        <note>On the Privacy Dashboard popup, the text for the footer of the page. The first placeholder (%1$@) is the total number of trackers we've blocked, in a localized format (provided by Swift's built in number localization). The second placeholder (%2$@) will be a date in DD/MM/YY format, and will denote the date we've started blocking trackers for the user.</note>
+      </trans-unit>
+      <trans-unit id="PrivacyDashboard.TrackingContent.v155" xml:space="preserve">
+        <source>Tracking Content</source>
+        <note>On the Privacy Dashboard popup, the title text for the bar &amp; label showing how much tracking content we've blocked.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Shared/Supporting Files/en.lproj/QRCode.strings" source-language="en-US" datatype="plaintext" target-language="gd">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.5" build-num="17F42"/>
@@ -9448,6 +9483,10 @@ Air a chur o %2$@ 🦊 %3$@</target>
       <trans-unit id="WebCompatReporter.SubOption.PlaybackFails.v154" xml:space="preserve">
         <source>The video or audio does not play</source>
         <note>A specific sub-option under the 'Video or audio does not play' issue category in the Report a Website Issue form.</note>
+      </trans-unit>
+      <trans-unit id="WebCompatReporter.Toast.ReportSent.v155" xml:space="preserve">
+        <source>Report sent</source>
+        <note>Message of the toast shown after the user successfully submits a website issue report.</note>
       </trans-unit>
     </body>
   </file>
