@@ -62,6 +62,7 @@ from locale_config import PROJECTS, get_locale_code, get_project_config
 from lxml import etree
 
 NS = {"x": "urn:oasis:names:tc:xliff:document:1.2"}
+UPDATE_TYPES = ("standard", "nofile", "matchid")
 
 
 def translation_key(update_type, original_id, source_string):
@@ -73,7 +74,7 @@ def translation_key(update_type, original_id, source_string):
     if update_type == "matchid":
         # Ignore source text: retain the translation even if the source changed.
         return original_id
-    # 'nofile': invalidate on source change.
+    # nofile: Invalidate existing translation if source string changed.
     return f"{original_id}:{hash(source_string)}"
 
 
@@ -386,6 +387,7 @@ def main():
         "--type",
         required=False,
         default="standard",
+        choices=UPDATE_TYPES,
         dest="update_type",
         help="""Type of update:
     - 'standard': in place, remove a translation only if the source changed
@@ -474,12 +476,12 @@ def main():
 
             if update_type == "standard":
                 # In-place update.
-                print(f"Processing {l10n_file}")
+                print(f"Processing {l10n_file} in {update_type} mode")
                 update_in_place(reference_index, locale_root)
                 write_xliff(locale_tree, l10n_file)
             else:
                 # Rebuild from reference, moving existing translations.
-                print(f"Updating {l10n_file}")
+                print(f"Updating {l10n_file} in {update_type} mode")
                 # Resolve the folder name to its XLIFF target-language code.
                 locale_code = get_locale_code(mapping, locale)
                 new_tree = rebuild_from_reference(

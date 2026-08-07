@@ -5,9 +5,14 @@ on:
   workflow_dispatch:
     inputs:
       type:
-        description: Type of update (standard, nofile, matchid)
+        description: Type of update
         required: true
-        default: "standard"
+        default: standard
+        type: choice
+        options:
+          - standard
+          - nofile
+          - matchid
 
 jobs:
   build:
@@ -64,7 +69,7 @@ jobs:
           cp ../firefoxios-l10n/en-US/*.xliff "${start_folder}/l10n_repo/en-US/"
       - name: Update locales
         env:
-          TYPE: ${{ github.event.inputs.type }}
+          TYPE: ${{ inputs.type || 'standard' }}
         run: |
           # Make sure that the reference locale (en-US) has translations, i.e.
           # targets defined and identical to the source. Also rewrite paths to
