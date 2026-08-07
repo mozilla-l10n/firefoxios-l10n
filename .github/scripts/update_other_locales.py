@@ -74,11 +74,8 @@ def translation_key(update_type, original_id, source_string):
     if update_type == "matchid":
         # Ignore source text: retain the translation even if the source changed.
         return original_id
-    if update_type == "nofile":
-        # Invalidate existing translation if source string changed.
-        return f"{original_id}:{hash(source_string)}"
-    # Other types added, but no behavior defined
-    raise ValueError(f"Unsupported update type '{update_type}'")
+    # nofile: Invalidate existing translation if source string changed.
+    return f"{original_id}:{hash(source_string)}"
 
 
 def iter_units_by_filenode(root):
@@ -482,7 +479,7 @@ def main():
                 print(f"Processing {l10n_file} in {update_type} mode")
                 update_in_place(reference_index, locale_root)
                 write_xliff(locale_tree, l10n_file)
-            elif update_type in ("nofile", "matchid"):
+            else:
                 # Rebuild from reference, moving existing translations.
                 print(f"Updating {l10n_file} in {update_type} mode")
                 # Resolve the folder name to its XLIFF target-language code.
@@ -491,8 +488,6 @@ def main():
                     reference_tree, locale_root, update_type, locale_code
                 )
                 write_xliff(new_tree, l10n_file)
-            else:
-                sys.exit(f"ERROR: Unknown update type '{update_type}'")
 
             updated_files += 1
 
