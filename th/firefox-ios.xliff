@@ -2881,6 +2881,7 @@
       </trans-unit>
       <trans-unit id="Settings.Sync.SigningOut.Title.v154" xml:space="preserve">
         <source>Signing out…</source>
+        <target>กำลังออกจากระบบ…</target>
         <note>In the settings account row, shown transiently while the user is being signed out of their account.</note>
       </trans-unit>
       <trans-unit id="Settings.Tabs.CustomizeTabsSection.InactiveTabs" xml:space="preserve">
@@ -5806,6 +5807,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="MainMenu.Account.SigningOut.Title.v154" xml:space="preserve">
         <source>Signing out…</source>
+        <target>กำลังออกจากระบบ…</target>
         <note>On the main menu account header, shown transiently while the user is being signed out of their account.</note>
       </trans-unit>
       <trans-unit id="MainMenu.Account.SyncError.Description.v131" xml:space="preserve">
@@ -6689,14 +6691,17 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.CouldNotReach.v154" xml:space="preserve">
         <source>Couldn’t reach Wayback Machine</source>
+        <target>เข้าถึง Wayback Machine ไม่สำเร็จ</target>
         <note>Label shown when the app fails to reach the Wayback Machine while searching for an earlier version of a page.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Description.v154" xml:space="preserve">
         <source>The site may be busy or unavailable. Try again later. If other pages won’t load, check your Wi-Fi or data connection. %@ can also search the Wayback Machine for an earlier version of this page.</source>
+        <target>ไซต์อาจมีผู้ใช้หนาแน่นหรือไม่พร้อมให้บริการ โปรดลองใหม่ภายหลัง หากหน้าเว็บอื่นก็ไม่โหลด ให้ตรวจสอบ Wi-Fi หรือการเชื่อมต่อข้อมูลของคุณ %@ ยังค้นหาหน้านี้เวอร์ชันก่อนหน้าใน Wayback Machine ได้</target>
         <note>Description of the error page when the app is unable to connect to the server and will show a wayback fallback. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.NotFound.v155" xml:space="preserve">
         <source>No archived version found</source>
+        <target>ไม่พบสำเนาที่บันทึกไว้</target>
         <note>Label shown when wayback responds and says no snapshot was found.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Retry.v154" xml:space="preserve">
@@ -6706,6 +6711,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Search.v154" xml:space="preserve">
         <source>Check for earlier version</source>
+        <target>ค้นหาเวอร์ชันก่อนหน้า</target>
         <note>Button label on the error page when the app is unable to connect to the server - clicking on the button launches a search for an earlier version of the page on the Wayback Machine.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Search.v155" xml:space="preserve">
@@ -6720,6 +6726,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.WaybackButtonA11yHint.v154" xml:space="preserve">
         <source>Searches the Wayback Machine for an archived version of this page.</source>
+        <target>ค้นหาสำเนาหน้านี้ที่บันทึกไว้ใน Wayback Machine</target>
         <note>Accessibility hint read by VoiceOver describing what happens when the 'Check for earlier version' button is clicked.</note>
       </trans-unit>
     </body>
@@ -7647,6 +7654,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.HeaderLabelForNoTrackersBlocked.v155" xml:space="preserve">
         <source>%@ blocks trackers as you browse, you’ll see them here.</source>
+        <target>%@ ป้องกันตัวติดตามระหว่างที่คุณท่องเว็บ เมื่อตรวจพบ คุณจะเห็นรายการเหล่านั้นที่นี่</target>
         <note>On the Privacy Dashboard popup, the text for the header of the popup, in the case where we have not yet blocked any trackers yet. The placeholder %@ will be the app name, Firefox.</note>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.SocialTrackers.v155" xml:space="preserve">
@@ -7656,6 +7664,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.TotalTrackersBlockedSince.v155" xml:space="preserve">
         <source>%1$@ since %2$@ 🎉</source>
+        <target>%1$@ ตัวติดตาม นับตั้งแต่ %2$@ 🎉</target>
         <note>On the Privacy Dashboard popup, the text for the footer of the page. The first placeholder (%1$@) is the total number of trackers we've blocked, in a localized format (provided by Swift's built in number localization). The second placeholder (%2$@) will be a date in DD/MM/YY format, and will denote the date we've started blocking trackers for the user.</note>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.TrackingContent.v155" xml:space="preserve">
@@ -8212,6 +8221,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Settings.Browsing.AdBlocker.Description.v155" xml:space="preserve">
         <source>Reduces ads and ad-related trackers. If a site looks broken, try turning this off.</source>
+        <target>ลดโฆษณาและตัวติดตามที่เกี่ยวข้องกับโฆษณา หากไซต์แสดงผลผิดปกติ ให้ลองปิดคุณสมบัตินี้</target>
         <note>Description text for the Ad Blocker toggle in the Browsing settings page, explaining its purpose and a tip for troubleshooting broken sites.</note>
       </trans-unit>
       <trans-unit id="Settings.Browsing.AdBlocker.LearnMore.v155" xml:space="preserve">
@@ -9455,6 +9465,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="WebCompatReporter.AdditionalInfo.IncludeScreenshot.v154" xml:space="preserve">
         <source>Automatically include a screenshot to show the problem</source>
+        <target>ส่งภาพหน้าจอไปพร้อมรายงานโดยอัตโนมัติ</target>
         <note>Label of the toggle that includes a screenshot of the page with the report, in the Report a Website Issue form.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.AdditionalInfo.LearnMore.v154" xml:space="preserve">
@@ -9469,6 +9480,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Category.DesignBroken.v154" xml:space="preserve">
         <source>Design is broken</source>
+        <target>หน้าเว็บแสดงผลผิดปกติ</target>
         <note>Title of the issue category a user picks when a site's layout or design is broken, in the Report a Website Issue form.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Category.Other.v154" xml:space="preserve">
@@ -9518,6 +9530,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.ScreenshotAccessibilityLabel.v154" xml:space="preserve">
         <source>Screenshot of the page you are reporting. Double tap to view full screen.</source>
+        <target>ภาพหน้าจอของเพจที่รายงานอยู่ แตะสองครั้งเพื่อขยายเต็มหน้าจอ</target>
         <note>Accessibility label for the page screenshot thumbnail on the Report Preview screen.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.ScreenshotCloseAccessibilityLabel.v154" xml:space="preserve">
@@ -9567,22 +9580,27 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="WebCompatReporter.SubOption.ItemsMisaligned.v154" xml:space="preserve">
         <source>Items are misaligned</source>
+        <target>เนื้อหาวางผิดตำแหน่ง</target>
         <note>A specific sub-option under the 'Design is broken' issue category in the Report a Website Issue form.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.SubOption.ItemsNotVisible.v154" xml:space="preserve">
         <source>Items not fully visible</source>
+        <target>เนื้อหาบางส่วนมองไม่เห็น</target>
         <note>A specific sub-option under the 'Design is broken' issue category in the Report a Website Issue form.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.SubOption.ItemsOverlapped.v154" xml:space="preserve">
         <source>Items are overlapped</source>
+        <target>เนื้อหาทับซ้อนกัน</target>
         <note>A specific sub-option under the 'Design is broken' issue category in the Report a Website Issue form.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.SubOption.MediaControlsBroken.v154" xml:space="preserve">
         <source>Media controls are broken or missing</source>
+        <target>ปุ่มควบคุมสื่อทำงานผิดปกติหรือไม่แสดง</target>
         <note>A specific sub-option under the 'Video or audio does not play' issue category in the Report a Website Issue form.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.SubOption.MissingItems.v154" xml:space="preserve">
         <source>Missing items</source>
+        <target>เนื้อหาขาดหาย</target>
         <note>A specific sub-option under the 'Site is not usable' issue category in the Report a Website Issue form.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.SubOption.NoAudio.v154" xml:space="preserve">
