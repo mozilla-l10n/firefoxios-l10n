@@ -6662,6 +6662,10 @@ Private Tab</source>
         <target>ਮੁੜ-ਲੋਡ</target>
         <note>On error page, this is the text on a button that will try to load the page again.</note>
       </trans-unit>
+      <trans-unit id="NativeErrorPage.ButtonLabel.v155" xml:space="preserve">
+        <source>Try Again</source>
+        <note>On error page, this is the text on a button that will try to load the page again.</note>
+      </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.Description.v134" xml:space="preserve">
         <source>The owner of %@ hasn’t set it up properly and a secure connection can’t be created.</source>
         <target>%@ ਦੇ ਮਾਲਕ ਨੇ ਇਸ ਨੂੰ ਠੀਕ ਢੰਗ ਨਾਲ ਸੈੱਟਅੱਪ ਨਹੀਂ ਕੀਤਾ ਹੈ ਅਤੇ ਸੁਰੱਖਿਅਤ ਕਨੈਕਸ਼ਨ ਬਣਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ ਹੈ।</target>
@@ -6687,14 +6691,12 @@ Private Tab</source>
         <target>ਤੁਹਾਡੇ ਇੰਟਰਨੈੱਟ ਕਨੈਕਸ਼ਨ ਨਾਲ ਸਮੱਸਿਆ ਜਾਪਦੀ ਹੈ।</target>
         <note>On error page, this is the title for no internet connection</note>
       </trans-unit>
-      <trans-unit id="NativeErrorPage.Wayback.Error.Checking.v154" xml:space="preserve">
-        <source>Checking for page…</source>
-        <target>…ਸਫ਼ੇ ਲਈ ਚੈੱਕ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ</target>
+      <trans-unit id="NativeErrorPage.Wayback.Error.Checking.v155" xml:space="preserve">
+        <source>Checking the Archive…</source>
         <note>Label of the button on the connection error page - displayed if the user clicks on the button to requested an earlier version of the page and the search is in progress.</note>
       </trans-unit>
-      <trans-unit id="NativeErrorPage.Wayback.Error.CouldNotReach.v154" xml:space="preserve">
-        <source>Couldn’t reach Wayback Machine</source>
-        <target>ਵੇਬੈਕ ਮਸ਼ੀਨ ਤੱਕ ਪਹੁੰਚਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ</target>
+      <trans-unit id="NativeErrorPage.Wayback.Error.CouldNotReach.v155" xml:space="preserve">
+        <source>We couldn’t reach the archive service.</source>
         <note>Label shown when the app fails to reach the Wayback Machine while searching for an earlier version of a page.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Description.v154" xml:space="preserve">
@@ -6713,7 +6715,7 @@ Private Tab</source>
         <note>The tappable link text within the Wayback footer description, opens web.archive.org.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.NotFound.v155" xml:space="preserve">
-        <source>No archived version found</source>
+        <source>No archived version found.</source>
         <note>Label shown when wayback responds and says no snapshot was found.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Retry.v154" xml:space="preserve">
@@ -6721,15 +6723,11 @@ Private Tab</source>
         <target>ਮੁੜ-ਕੋਸ਼ਿਸ਼</target>
         <note>Button label allowing the user to retry searching the Wayback Machine after a failed attempt.</note>
       </trans-unit>
-      <trans-unit id="NativeErrorPage.Wayback.Error.Search.v154" xml:space="preserve">
-        <source>Check for earlier version</source>
-        <target>ਹੋਰ ਪੁਰਾਣੇ ਵਰਜ਼ਨ ਲਈ ਜਾਂਚ ਕਰੋ</target>
-        <note>Button label on the error page when the app is unable to connect to the server - clicking on the button launches a search for an earlier version of the page on the Wayback Machine.</note>
-      </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Search.v155" xml:space="preserve">
         <source>Search the web</source>
         <target>ਵੈੱਬ ‘ਤੇ ਖੋਜੋ</target>
-        <note>Button label displayed when there is no archived version of a webpage, allowing the user to search for the page URL using their default search engine.</note>
+        <note>Button label displayed when there is no archived version of a webpage, allowing the user to search for the page URL using their default search engine.
+Button label on the error page when the app is unable to connect to the server - clicking on the button launches a search for an earlier version of the page on the Wayback Machine.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Title.v154" xml:space="preserve">
         <source>Unable to connect</source>

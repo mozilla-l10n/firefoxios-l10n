@@ -5869,6 +5869,10 @@ Private Tab</source>
         <source>Reload</source>
         <note>On error page, this is the text on a button that will try to load the page again.</note>
       </trans-unit>
+      <trans-unit id="NativeErrorPage.ButtonLabel.v155" xml:space="preserve">
+        <source>Try Again</source>
+        <note>On error page, this is the text on a button that will try to load the page again.</note>
+      </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.Description.v134" xml:space="preserve">
         <source>The owner of %@ hasn’t set it up properly and a secure connection can’t be created.</source>
         <note>On error page, this is the description for a generic error. %@ is the site url.</note>
@@ -5889,12 +5893,12 @@ Private Tab</source>
         <source>Looks like there’s a problem with your internet connection.</source>
         <note>On error page, this is the title for no internet connection</note>
       </trans-unit>
-      <trans-unit id="NativeErrorPage.Wayback.Error.Checking.v154" xml:space="preserve">
-        <source>Checking for page…</source>
+      <trans-unit id="NativeErrorPage.Wayback.Error.Checking.v155" xml:space="preserve">
+        <source>Checking the Archive…</source>
         <note>Label of the button on the connection error page - displayed if the user clicks on the button to requested an earlier version of the page and the search is in progress.</note>
       </trans-unit>
-      <trans-unit id="NativeErrorPage.Wayback.Error.CouldNotReach.v154" xml:space="preserve">
-        <source>Couldn’t reach Wayback Machine</source>
+      <trans-unit id="NativeErrorPage.Wayback.Error.CouldNotReach.v155" xml:space="preserve">
+        <source>We couldn’t reach the archive service.</source>
         <note>Label shown when the app fails to reach the Wayback Machine while searching for an earlier version of a page.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Description.v154" xml:space="preserve">
@@ -5910,20 +5914,17 @@ Private Tab</source>
         <note>The tappable link text within the Wayback footer description, opens web.archive.org.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.NotFound.v155" xml:space="preserve">
-        <source>No archived version found</source>
+        <source>No archived version found.</source>
         <note>Label shown when wayback responds and says no snapshot was found.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Retry.v154" xml:space="preserve">
         <source>Retry</source>
         <note>Button label allowing the user to retry searching the Wayback Machine after a failed attempt.</note>
       </trans-unit>
-      <trans-unit id="NativeErrorPage.Wayback.Error.Search.v154" xml:space="preserve">
-        <source>Check for earlier version</source>
-        <note>Button label on the error page when the app is unable to connect to the server - clicking on the button launches a search for an earlier version of the page on the Wayback Machine.</note>
-      </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Search.v155" xml:space="preserve">
         <source>Search the web</source>
-        <note>Button label displayed when there is no archived version of a webpage, allowing the user to search for the page URL using their default search engine.</note>
+        <note>Button label displayed when there is no archived version of a webpage, allowing the user to search for the page URL using their default search engine.
+Button label on the error page when the app is unable to connect to the server - clicking on the button launches a search for an earlier version of the page on the Wayback Machine.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Title.v154" xml:space="preserve">
         <source>Unable to connect</source>
