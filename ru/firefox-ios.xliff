@@ -5610,6 +5610,21 @@ Private Tab</source>
       </trans-unit>
     </body>
   </file>
+  <file original="Shared/Supporting Files/en.lproj/GoogleLens.strings" source-language="en-US" datatype="plaintext" target-language="ru">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.5" build-num="17F42"/>
+    </header>
+    <body>
+      <trans-unit id="GoogleLens.Interstitial.CancelButtonTitle.v156" xml:space="preserve">
+        <source>Cancel</source>
+        <note>Title of the button that stops an in-progress Google Lens image search and returns the user to what they were looking at before.</note>
+      </trans-unit>
+      <trans-unit id="GoogleLens.Interstitial.LoadingLabel.v156" xml:space="preserve">
+        <source>Finding Image Results…</source>
+        <note>Label shown next to a loading spinner on the full screen state that appears while an image is being searched with Google Lens.</note>
+      </trans-unit>
+    </body>
+  </file>
   <file original="Shared/Supporting Files/en.lproj/JumpBackIn.strings" source-language="en-US" datatype="plaintext" target-language="ru">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.5" build-num="17F42"/>
@@ -6727,8 +6742,11 @@ Private Tab</source>
       <trans-unit id="NativeErrorPage.Wayback.Error.Search.v155" xml:space="preserve">
         <source>Search the web</source>
         <target>Поиск в Интернете</target>
-        <note>Button label displayed when there is no archived version of a webpage, allowing the user to search for the page URL using their default search engine.
-Button label on the error page when the app is unable to connect to the server - clicking on the button launches a search for an earlier version of the page on the Wayback Machine.</note>
+        <note>Button label displayed when there is no archived version of a webpage, allowing the user to search for the page URL using their default search engine.</note>
+      </trans-unit>
+      <trans-unit id="NativeErrorPage.Wayback.Error.SearchWayback.v155" xml:space="preserve">
+        <source>View Archived Version</source>
+        <note>Button label on the error page when the app is unable to connect to the server - clicking on the button launches a search for an earlier version of the page on the Wayback Machine.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Title.v154" xml:space="preserve">
         <source>Unable to connect</source>
@@ -8244,6 +8262,10 @@ Sync on all your devices</source>
         <source>Ad Blocker</source>
         <target>Блокировщик рекламы</target>
         <note>Title for the Ad Blocker toggle in the Browsing settings page.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Browsing.BackgroundAudio.Title.v156" xml:space="preserve">
+        <source>Background Audio</source>
+        <note>Title for the Background Audio toggle in the Browsing settings page. When enabled, audio from web pages continues playing after the app is backgrounded.</note>
       </trans-unit>
       <trans-unit id="Settings.Browsing.BlockAds.Title.v153" xml:space="preserve">
         <source>Block Ads</source>
