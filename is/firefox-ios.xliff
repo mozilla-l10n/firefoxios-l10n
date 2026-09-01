@@ -6722,6 +6722,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Description.v154" xml:space="preserve">
         <source>The site may be busy or unavailable. Try again later. If other pages won’t load, check your Wi-Fi or data connection. %@ can also search the Wayback Machine for an earlier version of this page.</source>
+        <target>Vefsvæðið gæti verið upptekið eða ekki aðgengilegt. Reyndu aftur síðar. Ef aðrar síður hlaðast ekki skaltu athuga Wi-Fi nettengingu eða gagnatenginguna þína. %@ getur einnig leitað í Wayback Machine að eldri útgáfu af þessari síðu.</target>
         <note>Description of the error page when the app is unable to connect to the server and will show a wayback fallback. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.FooterDescription.v155" xml:space="preserve">
@@ -9580,86 +9581,107 @@ Sent frá %2$@ 🦊 %3$@</target>
       </trans-unit>
       <trans-unit id="WebCompatReporter.IssueSection.CategoryPlaceholder.v154" xml:space="preserve">
         <source>Choose issue type…</source>
+        <target>Veldu tegund vandamáls…</target>
         <note>Placeholder shown in the issue-type pull-down before the user has picked a website problem category, in the Report a Website Issue form.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.IssueSection.Title.v154" xml:space="preserve">
         <source>Site Issue</source>
+        <target>Vandamál með vefsvæði</target>
         <note>Header of the section where the user picks the type of website problem they are reporting, in the Report a Website Issue form.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.AvailableMemory.v155" xml:space="preserve">
         <source>Your device’s available memory</source>
+        <target>Tiltækt minni tækisins þíns</target>
         <note>Bullet on the Report Preview screen, for the amount of memory the device has.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.BlockedTrackers.v155" xml:space="preserve">
         <source>Hostnames of trackers blocked on this page</source>
+        <target>Vélaheiti rekjara sem útilokaðir eru á þessari síðu</target>
         <note>Bullet on the Report Preview screen, for trackers blocked on the reported page.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.DeviceLocale.v155" xml:space="preserve">
         <source>Primary language and country of your device</source>
+        <target>Aðaltungumál og land tækisins þíns</target>
         <note>Bullet on the Report Preview screen, for the device's own language and region settings.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.HasTouchscreen.v155" xml:space="preserve">
         <source>Whether your device has a touchscreen</source>
+        <target>Hvort tækið þitt er með snertiskjá</target>
         <note>Bullet on the Report Preview screen, for whether the device has a touchscreen.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.IsTablet.v155" xml:space="preserve">
         <source>Whether or not your device is a tablet</source>
+        <target>Hvort tækið þitt er spjaldtölva eða ekki</target>
         <note>Bullet on the Report Preview screen. Only tablet or not is sent, no device make or model.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.IssueAndDescription.v155" xml:space="preserve">
         <source>Issue type you selected and any description you added</source>
+        <target>Tegund vandamáls sem þú valdir og allar lýsingar sem þú bættir við</target>
         <note>Bullet on the Report Preview screen, for the problem picked and the details typed.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.PageElements.v155" xml:space="preserve">
         <source>Information about page elements that have been known to cause site issues</source>
+        <target>Upplýsingar um þær einingar síðu sem vitað er að geta valdið vandamálum á vefnum</target>
         <note>Bullet on the Report Preview screen, for web frameworks known to break mobile pages.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.PageLanguages.v155" xml:space="preserve">
         <source>Language preferences sent to this page</source>
+        <target>Val tungumála sem sent er á þessa síðu</target>
         <note>Bullet on the Report Preview screen, for a list of the user's preferred languages for websites as they were communicated by the browser to the page</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.PageURL.v155" xml:space="preserve">
         <source>Page URL</source>
+        <target>Vefslóð síðu</target>
         <note>Bullet on the Report Preview screen. The reported page's address is shown underneath it.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.PixelDensity.v155" xml:space="preserve">
         <source>Your screen’s pixel density</source>
+        <target>Mynddílaþéttleiki skjásins</target>
         <note>Bullet on the Report Preview screen, for the screen's physical pixels per layout point.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.PrivateBrowsingStatus.v155" xml:space="preserve">
         <source>Private browsing status: on or off</source>
+        <target>Staða huliðsvafurs: kveikt eða slökkt</target>
         <note>Bullet on the Report Preview screen, for whether the page was open in private browsing.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.TrackingProtectionSetting.v155" xml:space="preserve">
         <source>Enhanced Tracking Protection setting for this site</source>
+        <target>Stillingar á á aukinni rakningarvörn fyrir þetta vefsvæði</target>
         <note>Bullet on the Report Preview screen, for the tracking protection strength the user has chosen.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.UserAgent.v155" xml:space="preserve">
         <source>Your browser’s user agent, which includes your iOS version, %@ version, and browser engine version</source>
+        <target>Kennistrengur vafrans þíns, sem inniheldur iOS-útgáfu þína, %@-útgáfuna og útgáfu vafravélarinnar</target>
         <note>Bullet on the Report Preview screen. Those three versions are only ever sent as tokens inside the user agent, never as fields of their own. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.ScreenshotAccessibilityLabel.v154" xml:space="preserve">
         <source>Screenshot of the page you are reporting. Double tap to view full screen.</source>
+        <target>Skjámynd af síðunni sem þú ert að tilkynna. Ýttu tvisvar til að sjá hana á fullum skjá.</target>
         <note>Accessibility label for the page screenshot thumbnail on the Report Preview screen.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.ScreenshotCloseAccessibilityLabel.v154" xml:space="preserve">
         <source>Close</source>
+        <target>Loka</target>
         <note>Accessibility label for the button that closes the full-screen screenshot viewer on the Report Preview screen.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.TechnicalData.v155" xml:space="preserve">
         <source>Technical Data</source>
+        <target>Tæknilegar upplýsingar</target>
         <note>Row on the Report Preview screen that opens the Technical Data screen, and that screen's title.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Title.v154" xml:space="preserve">
         <source>Report Preview</source>
+        <target>Forskoðun skýrslu</target>
         <note>Title of the Report Preview screen, which shows the data that will be sent with a website issue report.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.SendButton.Title.v154" xml:space="preserve">
         <source>Send Report</source>
+        <target>Senda skýrslu</target>
         <note>Title of the button that submits the website issue report, in the Report a Website Issue form.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Sheet.CloseButtonAccessibilityLabel.v154" xml:space="preserve">
         <source>Close</source>
+        <target>Loka</target>
         <note>Accessibility label for the navigation bar button that dismisses the Report a Website Issue form without sending a report.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Sheet.PreviewButton.v154" xml:space="preserve">
@@ -9694,38 +9716,47 @@ Sent frá %2$@ 🦊 %3$@</target>
       </trans-unit>
       <trans-unit id="WebCompatReporter.SubOption.ItemsNotVisible.v154" xml:space="preserve">
         <source>Items not fully visible</source>
+        <target>Atriði eru ekki að fullu sýnileg</target>
         <note>A specific sub-option under the 'Design is broken' issue category in the Report a Website Issue form.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.SubOption.ItemsOverlapped.v154" xml:space="preserve">
         <source>Items are overlapped</source>
+        <target>Atriði skarast</target>
         <note>A specific sub-option under the 'Design is broken' issue category in the Report a Website Issue form.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.SubOption.MediaControlsBroken.v154" xml:space="preserve">
         <source>Media controls are broken or missing</source>
+        <target>Margmiðlunarstýringar eru bilaðar eða vantar</target>
         <note>A specific sub-option under the 'Video or audio does not play' issue category in the Report a Website Issue form.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.SubOption.MissingItems.v154" xml:space="preserve">
         <source>Missing items</source>
+        <target>Atriði vantar</target>
         <note>A specific sub-option under the 'Site is not usable' issue category in the Report a Website Issue form.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.SubOption.NoAudio.v154" xml:space="preserve">
         <source>There is no audio</source>
+        <target>Það er ekkert hljóð</target>
         <note>A specific sub-option under the 'Video or audio does not play' issue category in the Report a Website Issue form.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.SubOption.NoVideo.v154" xml:space="preserve">
         <source>There is no video</source>
+        <target>Það er ekkert myndmerki</target>
         <note>A specific sub-option under the 'Video or audio does not play' issue category in the Report a Website Issue form.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.SubOption.PageNotLoading.v154" xml:space="preserve">
         <source>Page not loading correctly</source>
+        <target>Síða hleðst ekki rétt</target>
         <note>A specific sub-option under the 'Site is not usable' issue category in the Report a Website Issue form.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.SubOption.PlaybackFails.v154" xml:space="preserve">
         <source>The video or audio does not play</source>
+        <target>Myndskeið eða hljóð spilast ekki</target>
         <note>A specific sub-option under the 'Video or audio does not play' issue category in the Report a Website Issue form.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Toast.ReportSent.v155" xml:space="preserve">
         <source>Report sent</source>
+        <target>Skýrsla send</target>
         <note>Message of the toast shown after the user successfully submits a website issue report.</note>
       </trans-unit>
     </body>
