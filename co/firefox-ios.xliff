@@ -6676,6 +6676,14 @@ unghjetta privata</target>
         <source>Try Again</source>
         <note>On error page, this is the text on a button that will try to load the page again.</note>
       </trans-unit>
+      <trans-unit id="NativeErrorPage.CellularDataRestricted.Description.v156" xml:space="preserve">
+        <source>Connect to Wi-Fi or go to iOS Settings and turn on cellular data for %@.</source>
+        <note>On error page, message shown when the app can't connect because cellular data is turned off for the app and explaining to the user how to troubleshoot. %@ is the app name (e.g. Firefox).</note>
+      </trans-unit>
+      <trans-unit id="NativeErrorPage.CellularDataRestricted.TitleLabel.v156" xml:space="preserve">
+        <source>Cellular data is turned off for %@.</source>
+        <note>On error page, title shown when the app can't connect because cellular data is turned off for this specific app in iOS settings. %@ is the app name (e.g. Firefox).</note>
+      </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.Description.v134" xml:space="preserve">
         <source>The owner of %@ hasn’t set it up properly and a secure connection can’t be created.</source>
         <target>U prupietariu di %@ ùn l’hà micca cunfiguratu currettamente è ùn si pò creà una cunnessione assicurizata.</target>
@@ -7657,6 +7665,10 @@ Sincrunizazione trà tutti i vostri apparechji</target>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.5" build-num="17F42"/>
     </header>
     <body>
+      <trans-unit id="PrivacyDashboard.CategoryAccessibilityLabel.v156" xml:space="preserve">
+        <source>%1$@, blocked: %2$@</source>
+        <note>On the Privacy Dashboard popup, the accessibility label read out for one of the tracker category rows. The first placeholder (%1$@) is the category's name, such as Fingerprinters. The second placeholder (%2$@) is how many trackers of that category we've blocked this week.</note>
+      </trans-unit>
       <trans-unit id="PrivacyDashboard.CrossSiteTrackers.v155" xml:space="preserve">
         <source>Cross-Site Tracking Cookies</source>
         <note>On the Privacy Dashboard popup, the title text for the bar &amp; label showing how many cross-site tracking cookies we've blocked.</note>
@@ -7668,6 +7680,10 @@ Sincrunizazione trà tutti i vostri apparechji</target>
       <trans-unit id="PrivacyDashboard.HeaderLabel.v155" xml:space="preserve">
         <source>Trackers blocked this week</source>
         <note>On the Privacy Dashboard popup, the text for the header when we have blocked some trackers this week. This is going to have, above it, in bold letters, the number of trackers blocked this week.</note>
+      </trans-unit>
+      <trans-unit id="PrivacyDashboard.HeaderLabelAccessibilityLabel.v156" xml:space="preserve">
+        <source>Trackers blocked this week: %@</source>
+        <note>On the Privacy Dashboard popup, the accessibility label read out for the weekly count. The count and the header below it are two separate labels on screen, but are read out as this one sentence. The placeholder (%@) is how many trackers we've blocked this week.</note>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.HeaderLabelForNoTrackersBlocked.v155" xml:space="preserve">
         <source>%@ blocks trackers as you browse, you’ll see them here.</source>
