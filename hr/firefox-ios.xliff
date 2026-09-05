@@ -6723,26 +6723,32 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Description.v154" xml:space="preserve">
         <source>The site may be busy or unavailable. Try again later. If other pages won’t load, check your Wi-Fi or data connection. %@ can also search the Wayback Machine for an earlier version of this page.</source>
+        <target>Web-stranica je možda zauzeta ili nedostupna. Pokušaj ponovo kasnije. Ako se ni druge stranice ne učitavaju, provjeri svoj Wi-Fi ili podatkovnu vezu. %@ može također može potražiti raniju verziju ove stranice na Wayback Machine.</target>
         <note>Description of the error page when the app is unable to connect to the server and will show a wayback fallback. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.FooterDescription.v155" xml:space="preserve">
         <source>%1$@ can look for an earlier version of this page from the Internet Archive’s %2$@.</source>
+        <target>%1$@ može potražiti raniju verziju ove stranice na %2$@ usluge Internet Archive.</target>
         <note>Footer text below the wayback button/card, explaining that the app can look for an archived version of the page via the Internet Archive's Wayback Machine. %1$@ is the app name (e.g. Firefox). %2$@ is the link text (Wayback Machine), which is a tappable link that opens web.archive.org.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.LinkText.v155" xml:space="preserve">
         <source>Wayback Machine</source>
+        <target>Wayback Machine</target>
         <note>The tappable link text within the Wayback footer description, opens web.archive.org.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.NotFound.v155" xml:space="preserve">
         <source>No archived version found.</source>
+        <target>Nije pronađena nijedna arhivirana verzija.</target>
         <note>Label shown when wayback responds and says no snapshot was found.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Retry.v154" xml:space="preserve">
         <source>Retry</source>
+        <target>Pokušaj ponovo</target>
         <note>Button label allowing the user to retry searching the Wayback Machine after a failed attempt.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Search.v155" xml:space="preserve">
         <source>Search the web</source>
+        <target>Pretraži web</target>
         <note>Button label displayed when there is no archived version of a webpage, allowing the user to search for the page URL using their default search engine.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.SearchWayback.v155" xml:space="preserve">
@@ -6751,10 +6757,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Title.v154" xml:space="preserve">
         <source>Unable to connect</source>
+        <target>Povezivanje nije moguće</target>
         <note>Title of the error page when the app is unable to connect to the server and will show a wayback fallback.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.WaybackButtonA11yHint.v154" xml:space="preserve">
         <source>Searches the Wayback Machine for an archived version of this page.</source>
+        <target>Traži arhiviranu verziju ove stranice na Wayback Machine stranici.</target>
         <note>Accessibility hint read by VoiceOver describing what happens when the 'Check for earlier version' button is clicked.</note>
       </trans-unit>
     </body>
@@ -7672,14 +7680,17 @@ Sinkronizacija na svim tvojim uređajima</target>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.CrossSiteTrackers.v155" xml:space="preserve">
         <source>Cross-Site Tracking Cookies</source>
+        <target>Međustranični kolačići za praćenje</target>
         <note>On the Privacy Dashboard popup, the title text for the bar &amp; label showing how many cross-site tracking cookies we've blocked.</note>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.Fingerprinters.v155" xml:space="preserve">
         <source>Fingerprinters</source>
+        <target>Prikupljači digitalnih otisaka</target>
         <note>On the Privacy Dashboard popup, the title text for the bar &amp; label showing how many fingerprinter's we've blocked.</note>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.HeaderLabel.v155" xml:space="preserve">
         <source>Trackers blocked this week</source>
+        <target>Blokirani programi za praćenje ovaj tjedan</target>
         <note>On the Privacy Dashboard popup, the text for the header when we have blocked some trackers this week. This is going to have, above it, in bold letters, the number of trackers blocked this week.</note>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.HeaderLabelAccessibilityLabel.v156" xml:space="preserve">
@@ -7689,14 +7700,17 @@ Sinkronizacija na svim tvojim uređajima</target>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.HeaderLabelForNoTrackersBlocked.v155" xml:space="preserve">
         <source>%@ blocks trackers as you browse, you’ll see them here.</source>
+        <target>%@ blokira programe za praćenje dok pregledavaš web, a vidjet ćeš ih ovdje.</target>
         <note>On the Privacy Dashboard popup, the text for the header of the popup, in the case where we have not yet blocked any trackers yet. The placeholder %@ will be the app name, Firefox.</note>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.SocialTrackers.v155" xml:space="preserve">
         <source>Social Media Trackers</source>
+        <target>Programi za praćenje od društvenih mreža</target>
         <note>On the Privacy Dashboard popup, the title text for the bar &amp; label showing how many social media trackers we've blocked.</note>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.TotalTrackersBlockedSince.v155" xml:space="preserve">
         <source>%1$@ since %2$@ 🎉</source>
+        <target>%1$@ od %2$@ 🎉</target>
         <note>On the Privacy Dashboard popup, the text for the footer of the page. The first placeholder (%1$@) is the total number of trackers we've blocked, in a localized format (provided by Swift's built in number localization). The second placeholder (%2$@) will be a date in DD/MM/YY format, and will denote the date we've started blocking trackers for the user.</note>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.TrackingContent.v155" xml:space="preserve">
