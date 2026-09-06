@@ -46,13 +46,9 @@ def main():
             print(e)
             continue
 
-        # Use en.lproj instead of en-US.lproj, make sure that target-language
-        # is set to en-US.
+        # Make sure that target-language is set to en-US.
         for file_node in root.xpath("//x:file", namespaces=NS):
             file_node.set("target-language", "en-US")
-            file_node.set(
-                "original", file_node.get("original").replace("en-US.lproj", "en.lproj")
-            )
 
         # Remove state attribute from all <target> elements
         for target in root.xpath("//x:target[@state]", namespaces=NS):
