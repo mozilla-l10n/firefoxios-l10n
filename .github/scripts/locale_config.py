@@ -38,7 +38,6 @@ PROJECTS = {
         },
         "excluded_folders": [
             "es",
-            "templates",
         ],
     },
 }

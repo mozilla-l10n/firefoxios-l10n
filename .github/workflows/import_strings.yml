@@ -76,9 +76,6 @@ jobs:
           # use en.lproj instead of en-US.lproj.
           python .github/scripts/translate_reference.py --path ./en-US
 
-          # Generate the source-only template used by Pontoon
-          python .github/scripts/create_templates.py --reference ./en-US --output ./templates
-
           # Update translations in localized files where necessary
           python .github/scripts/update_other_locales.py --reference en-US --path . --project ios --type "$TYPE"
         working-directory: l10n_repo

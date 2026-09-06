@@ -11,9 +11,8 @@ Matrix channel: [#fx-ios](https://chat.mozilla.org/#/room/%23fx-ios:mozilla.org)
 
 Automation is used to extract strings from the code repository, and expose them to all other locales.
 
-1. Strings are extracted and saved in the `en-US` XLIFF file (the reference).
-2. A source-only version (no translations) is written to `templates`, which is what Pontoon reads to keep every locale in sync.
-3. Existing translations are then updated in place: a translation is removed when its source string no longer matches the reference. This step only invalidates stale translations; adding and removing strings is left to Pontoon.
+1. Strings are extracted and saved in the `en-US` XLIFF file (the source, used by Pontoon to keep locales in sync).
+2. Existing translations are then updated in place: a translation is removed when its source string no longer matches the reference. This step only invalidates stale translations; adding and removing strings is left to Pontoon.
 
 By default, a translation is kept only if all of these match against the reference:
 * `id` attribute of `trans-unit`.
