@@ -72,8 +72,7 @@ jobs:
           TYPE: ${{ inputs.type || 'standard' }}
         run: |
           # Make sure that the reference locale (en-US) has translations, i.e.
-          # targets defined and identical to the source. Also rewrite paths to
-          # use en.lproj instead of en-US.lproj.
+          # targets defined and identical to the source.
           python .github/scripts/translate_reference.py --path ./en-US
 
           # Update translations in localized files where necessary
