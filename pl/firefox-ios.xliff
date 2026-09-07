@@ -6683,10 +6683,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.CellularDataRestricted.Description.v156" xml:space="preserve">
         <source>Connect to Wi-Fi or go to iOS Settings and turn on cellular data for %@.</source>
+        <target>Połącz się z siecią Wi-Fi lub otwórz ustawienia systemu iOS i włącz sieć komórkową dla aplikacji %@.</target>
         <note>On error page, message shown when the app can't connect because cellular data is turned off for the app and explaining to the user how to troubleshoot. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.CellularDataRestricted.TitleLabel.v156" xml:space="preserve">
         <source>Cellular data is turned off for %@.</source>
+        <target>Sieć komórkowa jest wyłączona dla aplikacji %@.</target>
         <note>On error page, title shown when the app can't connect because cellular data is turned off for this specific app in iOS settings. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.Description.v134" xml:space="preserve">
@@ -7045,7 +7047,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.BrandRefresh.TermsOfUse.ManageLink.v148" xml:space="preserve">
         <source>Manage settings</source>
-        <target>Zarządzaj ustawieniami</target>
+        <target>Ustawienia</target>
         <note>The text for the manage settings link button in the v148 brand refresh onboarding flow.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.BrandRefresh.TermsOfUse.ManagePreferenceAgreement.v148" xml:space="preserve">
@@ -7249,7 +7251,7 @@ Od organizacji non-profit %@, budzącej zaufanie od ponad 20 lat</target>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.ManageLink.v145" xml:space="preserve">
         <source>Manage settings</source>
-        <target>Zarządzaj ustawieniami</target>
+        <target>Ustawienia</target>
         <note>The text for the Manage settings link button.</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.TermsOfService.ManagePreferenceAgreement.v140" xml:space="preserve">
@@ -7679,6 +7681,7 @@ Synchronizacja na wszystkich urządzeniach</target>
     <body>
       <trans-unit id="PrivacyDashboard.CategoryAccessibilityLabel.v156" xml:space="preserve">
         <source>%1$@, blocked: %2$@</source>
+        <target>%1$@, zablokowano: %2$@</target>
         <note>On the Privacy Dashboard popup, the accessibility label read out for one of the tracker category rows. The first placeholder (%1$@) is the category's name, such as Fingerprinters. The second placeholder (%2$@) is how many trackers of that category we've blocked this week.</note>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.CrossSiteTrackers.v155" xml:space="preserve">
@@ -7698,6 +7701,7 @@ Synchronizacja na wszystkich urządzeniach</target>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.HeaderLabelAccessibilityLabel.v156" xml:space="preserve">
         <source>Trackers blocked this week: %@</source>
+        <target>Elementy śledzące zablokowane w tym tygodniu: %@</target>
         <note>On the Privacy Dashboard popup, the accessibility label read out for the weekly count. The count and the header below it are two separate labels on screen, but are read out as this one sentence. The placeholder (%@) is how many trackers we've blocked this week.</note>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.HeaderLabelForNoTrackersBlocked.v155" xml:space="preserve">
