@@ -6767,6 +6767,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.WaybackButtonA11yHint.v154" xml:space="preserve">
         <source>Searches the Wayback Machine for an archived version of this page.</source>
+        <target>搜索“网站时光机”来获取该页面的存档版本。</target>
         <note>Accessibility hint read by VoiceOver describing what happens when the 'Check for earlier version' button is clicked.</note>
       </trans-unit>
     </body>
@@ -7679,38 +7680,47 @@ Sync on all your devices</source>
     <body>
       <trans-unit id="PrivacyDashboard.CategoryAccessibilityLabel.v156" xml:space="preserve">
         <source>%1$@, blocked: %2$@</source>
+        <target>%1$@，已拦截 %2$@ 项</target>
         <note>On the Privacy Dashboard popup, the accessibility label read out for one of the tracker category rows. The first placeholder (%1$@) is the category's name, such as Fingerprinters. The second placeholder (%2$@) is how many trackers of that category we've blocked this week.</note>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.CrossSiteTrackers.v155" xml:space="preserve">
         <source>Cross-Site Tracking Cookies</source>
+        <target>跨站跟踪性 Cookie</target>
         <note>On the Privacy Dashboard popup, the title text for the bar &amp; label showing how many cross-site tracking cookies we've blocked.</note>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.Fingerprinters.v155" xml:space="preserve">
         <source>Fingerprinters</source>
+        <target>数字指纹跟踪程序</target>
         <note>On the Privacy Dashboard popup, the title text for the bar &amp; label showing how many fingerprinter's we've blocked.</note>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.HeaderLabel.v155" xml:space="preserve">
         <source>Trackers blocked this week</source>
+        <target>本周拦截跟踪器数量</target>
         <note>On the Privacy Dashboard popup, the text for the header when we have blocked some trackers this week. This is going to have, above it, in bold letters, the number of trackers blocked this week.</note>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.HeaderLabelAccessibilityLabel.v156" xml:space="preserve">
         <source>Trackers blocked this week: %@</source>
+        <target>本周已拦截 %@ 个跟踪器</target>
         <note>On the Privacy Dashboard popup, the accessibility label read out for the weekly count. The count and the header below it are two separate labels on screen, but are read out as this one sentence. The placeholder (%@) is how many trackers we've blocked this week.</note>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.HeaderLabelForNoTrackersBlocked.v155" xml:space="preserve">
         <source>%@ blocks trackers as you browse, you’ll see them here.</source>
+        <target>%@ 会在您浏览时拦截跟踪器。拦截记录将显示在这里。</target>
         <note>On the Privacy Dashboard popup, the text for the header of the popup, in the case where we have not yet blocked any trackers yet. The placeholder %@ will be the app name, Firefox.</note>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.SocialTrackers.v155" xml:space="preserve">
         <source>Social Media Trackers</source>
+        <target>社交媒体跟踪器</target>
         <note>On the Privacy Dashboard popup, the title text for the bar &amp; label showing how many social media trackers we've blocked.</note>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.TotalTrackersBlockedSince.v155" xml:space="preserve">
         <source>%1$@ since %2$@ 🎉</source>
+        <target>自%2$@起，已拦截 %1$@ 跟踪器🎉</target>
         <note>On the Privacy Dashboard popup, the text for the footer of the page. The first placeholder (%1$@) is the total number of trackers we've blocked, in a localized format (provided by Swift's built in number localization). The second placeholder (%2$@) will be a date in DD/MM/YY format, and will denote the date we've started blocking trackers for the user.</note>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.TrackingContent.v155" xml:space="preserve">
         <source>Tracking Content</source>
+        <target>跟踪性内容</target>
         <note>On the Privacy Dashboard popup, the title text for the bar &amp; label showing how much tracking content we've blocked.</note>
       </trans-unit>
     </body>
