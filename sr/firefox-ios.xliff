@@ -37,6 +37,7 @@
       </trans-unit>
       <trans-unit id="NSSpeechRecognitionUsageDescription" xml:space="preserve">
         <source>This lets Firefox transcribe your audio.</source>
+        <target>Ово омогућава Firefox-у да транскрибује ваш звук.</target>
         <note>Privacy - Speech Recognition Usage Description</note>
       </trans-unit>
       <trans-unit id="New Private Tab" xml:space="preserve">
@@ -5620,10 +5621,12 @@ Private Tab</source>
     <body>
       <trans-unit id="GoogleLens.Interstitial.CancelButtonTitle.v156" xml:space="preserve">
         <source>Cancel</source>
+        <target>Откажи</target>
         <note>Title of the button that stops an in-progress Google Lens image search and returns the user to what they were looking at before.</note>
       </trans-unit>
       <trans-unit id="GoogleLens.Interstitial.LoadingLabel.v156" xml:space="preserve">
         <source>Finding Image Results…</source>
+        <target>Тражим резултате слике…</target>
         <note>Label shown next to a loading spinner on the full screen state that appears while an image is being searched with Google Lens.</note>
       </trans-unit>
     </body>
@@ -6679,14 +6682,17 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.ButtonLabel.v155" xml:space="preserve">
         <source>Try Again</source>
+        <target>Покушај поново</target>
         <note>On error page, this is the text on a button that will try to load the page again.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.CellularDataRestricted.Description.v156" xml:space="preserve">
         <source>Connect to Wi-Fi or go to iOS Settings and turn on cellular data for %@.</source>
+        <target>Повежите се на бежичну мрежу или отидите у iOS подешавања и укључите мобилне податке за %@.</target>
         <note>On error page, message shown when the app can't connect because cellular data is turned off for the app and explaining to the user how to troubleshoot. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.CellularDataRestricted.TitleLabel.v156" xml:space="preserve">
         <source>Cellular data is turned off for %@.</source>
+        <target>Мобилни подаци су искључени за %@.</target>
         <note>On error page, title shown when the app can't connect because cellular data is turned off for this specific app in iOS settings. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.Description.v134" xml:space="preserve">
@@ -6716,10 +6722,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Checking.v155" xml:space="preserve">
         <source>Checking the Archive…</source>
+        <target>Проверавам архиву…</target>
         <note>Label of the button on the connection error page - displayed if the user clicks on the button to requested an earlier version of the page and the search is in progress.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.CouldNotReach.v155" xml:space="preserve">
         <source>We couldn’t reach the archive service.</source>
+        <target>Не могу да досегнем услугу архиве.</target>
         <note>Label shown when the app fails to reach the Wayback Machine while searching for an earlier version of a page.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Description.v154" xml:space="preserve">
@@ -6729,14 +6737,17 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.FooterDescription.v155" xml:space="preserve">
         <source>%1$@ can look for an earlier version of this page from the Internet Archive’s %2$@.</source>
+        <target>%1$@ може потражити раније издање ове странице помоћу %2$@ Интернет Архиве.</target>
         <note>Footer text below the wayback button/card, explaining that the app can look for an archived version of the page via the Internet Archive's Wayback Machine. %1$@ is the app name (e.g. Firefox). %2$@ is the link text (Wayback Machine), which is a tappable link that opens web.archive.org.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.LinkText.v155" xml:space="preserve">
         <source>Wayback Machine</source>
+        <target>Wayback Machine</target>
         <note>The tappable link text within the Wayback footer description, opens web.archive.org.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.NotFound.v155" xml:space="preserve">
         <source>No archived version found.</source>
+        <target>Није пронађено архивирано издање.</target>
         <note>Label shown when wayback responds and says no snapshot was found.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Retry.v154" xml:space="preserve">
@@ -6751,6 +6762,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.SearchWayback.v155" xml:space="preserve">
         <source>View Archived Version</source>
+        <target>Прегледај архивирано издање</target>
         <note>Button label on the error page when the app is unable to connect to the server - clicking on the button launches a search for an earlier version of the page on the Wayback Machine.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Title.v154" xml:space="preserve">
@@ -7673,6 +7685,7 @@ Sync on all your devices</source>
     <body>
       <trans-unit id="PrivacyDashboard.CategoryAccessibilityLabel.v156" xml:space="preserve">
         <source>%1$@, blocked: %2$@</source>
+        <target>%1$@, блокирано: %2$@</target>
         <note>On the Privacy Dashboard popup, the accessibility label read out for one of the tracker category rows. The first placeholder (%1$@) is the category's name, such as Fingerprinters. The second placeholder (%2$@) is how many trackers of that category we've blocked this week.</note>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.CrossSiteTrackers.v155" xml:space="preserve">
@@ -7692,6 +7705,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.HeaderLabelAccessibilityLabel.v156" xml:space="preserve">
         <source>Trackers blocked this week: %@</source>
+        <target>Блокираних пратилаца ове недеље: %@</target>
         <note>On the Privacy Dashboard popup, the accessibility label read out for the weekly count. The count and the header below it are two separate labels on screen, but are read out as this one sentence. The placeholder (%@) is how many trackers we've blocked this week.</note>
       </trans-unit>
       <trans-unit id="PrivacyDashboard.HeaderLabelForNoTrackersBlocked.v155" xml:space="preserve">
@@ -7735,90 +7749,112 @@ Sync on all your devices</source>
     <body>
       <trans-unit id="QuickAnswers.AccessibilityLabels.Close.v158" xml:space="preserve">
         <source>Close</source>
+        <target>Затвори</target>
         <note>Accessibility label for the close button on the Quick Answers screen.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.AccessibilityLabels.OpenQuickAnswers.v158" xml:space="preserve">
         <source>Open Quick Answers</source>
+        <target>Отвори брзе одговоре</target>
         <note>Accessibility label for the button on the homepage that opens the Quick Answers feature.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.ContentView.Answering.v158" xml:space="preserve">
         <source>Answering…</source>
+        <target>Одговарам…</target>
         <note>Loading label shown in the Quick Answers view while an answer is being fetched.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.ContentView.Footer.v158" xml:space="preserve">
         <source>Powered by %@ · Answers can contain mistakes.</source>
+        <target>Омогућио %@ · Одговори могу садржати грешке.</target>
         <note>Footer text displayed below the Quick Answers result. %@ is the name of the AI model providing the answer, for example Liner or Exa.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.ContentView.Placeholder.v158" xml:space="preserve">
         <source>Ask anything…</source>
+        <target>Питајте било шта…</target>
         <note>Placeholder text shown in the Quick Answers view before the user starts speaking.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.ContentView.Sources.v158" xml:space="preserve">
         <source>Sources</source>
+        <target>Извори</target>
         <note>Header label for the sources section shown below a Quick Answers result.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.Errors.Cancel.v158" xml:space="preserve">
         <source>Cancel</source>
+        <target>Откажи</target>
         <note>Button label on the Quick Answers permission alert to dismiss the alert without taking action.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.Errors.DailyLimitMessage.v158" xml:space="preserve">
         <source>Try Quick Answers again tomorrow.</source>
+        <target>Покушајте поново са брзим одговорима сутра.</target>
         <note>Message shown in the alert when the user has exceeded the daily usage limit for Quick Answers.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.Errors.DailyLimitTitle.v158" xml:space="preserve">
         <source>Daily Limit Reached</source>
+        <target>Достигнуто дневно ограничење</target>
         <note>Title of the alert shown when the user has exceeded the daily usage limit for Quick Answers.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.Errors.GenericErrorMessage.v158" xml:space="preserve">
         <source>Try asking again later.</source>
+        <target>Покушајте поново да питате касније.</target>
         <note>Message shown in the alert when Quick Answers encounters an unexpected error.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.Errors.GenericErrorTitle.v158" xml:space="preserve">
         <source>Couldn’t get an answer</source>
+        <target>Није успело добијање одговора</target>
         <note>Title of the alert shown when Quick Answers encounters an unexpected error.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.Errors.MicrophonePermissionMessage.v158" xml:space="preserve">
         <source>Allow %@ to access the Microphone.</source>
+        <target>Дозволи %@ приступ микрофону.</target>
         <note>Message shown in the permission alert when microphone access has been denied for the Quick Answers feature. %@ is the name of the app (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.Errors.OK.v158" xml:space="preserve">
         <source>Ok</source>
+        <target>У реду</target>
         <note>Button label to dismiss the Quick Answers error alert.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.Errors.OpenSettings.v158" xml:space="preserve">
         <source>Open Settings</source>
+        <target>Отвори подешавања</target>
         <note>Button label on the permission alert that opens the iOS Settings app so the user can grant permissions.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.Errors.PermissionAlertTitle.v158" xml:space="preserve">
         <source>Change Settings to Use Quick Answers</source>
+        <target>Промена подешавања за коришћење брзих одговора</target>
         <note>Title of the alert shown when the user has denied microphone or speech recognition permissions needed for Quick Answers.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.Errors.SpeechRecognitionPermissionMessage.v158" xml:space="preserve">
         <source>Allow %@ to access Speech Recognition.</source>
+        <target>Дозволи %@ приступ препознавању говора.</target>
         <note>Message shown in the permission alert when speech recognition access has been denied for the Quick Answers feature. %@ is the name of the app (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.OptIn.ContinueButton.v158" xml:space="preserve">
         <source>Continue</source>
+        <target>Настави</target>
         <note>Button on the Quick Answers opt-in screen that the user taps to accept and start using the feature.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.OptIn.Description.v158" xml:space="preserve">
         <source>Ask a question out loud, and get a short answer. We don’t store your voice or questions.</source>
+        <target>Поставите питање наглас и добијте кратак одговор. Не чувамо ваш глас ни питања.</target>
         <note>Description displayed on the Quick Answers opt-in screen explaining how the feature works and its privacy policy.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.OptIn.LearnMore.v158" xml:space="preserve">
         <source>Learn more</source>
+        <target>Сазнај више</target>
         <note>Link text on the Quick Answers opt-in screen that opens more information about the feature.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.OptIn.Title.v158" xml:space="preserve">
         <source>Ask With Your Voice</source>
+        <target>Питање помоћу гласа</target>
         <note>Title displayed on the Quick Answers opt-in screen that introduces the voice feature.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.Tip.Message.v158" xml:space="preserve">
         <source>Tap here to get started.</source>
+        <target>Додирните овде да започнете.</target>
         <note>Message of the tooltip that introduces the Quick Answers feature on the homepage.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.Tip.Title.v158" xml:space="preserve">
         <source>Ask Out Loud for Quick Answers</source>
+        <target>Питање наглас за брзе одговоре</target>
         <note>Title of the tooltip that introduces the Quick Answers feature on the homepage.</note>
       </trans-unit>
     </body>
@@ -8178,22 +8214,27 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="QuickAnswers.Settings.Footer.v158" xml:space="preserve">
         <source>Ask out loud and get short answers. We don’t store your voice, questions, or answers.</source>
+        <target>Питајте наглас и добијте кратке одговоре. Не чувамо ваш глас, питања ни одговоре.</target>
         <note>Footer text on the Quick Answers settings screen explaining the feature and its privacy policy.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.Settings.LearnMore.v158" xml:space="preserve">
         <source>Learn more</source>
+        <target>Сазнај више</target>
         <note>Link button on the Quick Answers settings screen that opens more information about the feature.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.Settings.StatusOff.v158" xml:space="preserve">
         <source>Off</source>
+        <target>Искључено</target>
         <note>Status text shown next to the Quick Answers row in the general settings when the feature is disabled.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.Settings.StatusOn.v158" xml:space="preserve">
         <source>On</source>
+        <target>Укључено</target>
         <note>Status text shown next to the Quick Answers row in the general settings when the feature is enabled.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.Settings.Title.v158" xml:space="preserve">
         <source>Quick Answers</source>
+        <target>Брзи одговори</target>
         <note>Title shown in the navigation bar and as the toggle label on the Quick Answers settings screen.</note>
       </trans-unit>
       <trans-unit id="Settings.AIControls.AIPoweredFeaturesSection.AvailableStatus.v151" xml:space="preserve">
@@ -8393,6 +8434,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Settings.Browsing.BackgroundAudio.Title.v156" xml:space="preserve">
         <source>Background Audio</source>
+        <target>Аудио у позадини</target>
         <note>Title for the Background Audio toggle in the Browsing settings page. When enabled, audio from web pages continues playing after the app is backgrounded.</note>
       </trans-unit>
       <trans-unit id="Settings.Browsing.BlockAds.Title.v153" xml:space="preserve">
@@ -8462,6 +8504,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.WrexhamBrandTitle.v155" xml:space="preserve">
         <source>Wrexham A.F.C.</source>
+        <target>Wrexham A.F.C.</target>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the brand title for the section containing the Wrexham AFC wallpapers.</note>
       </trans-unit>
       <trans-unit id="Settings.Notifications.SyncNotificationsStatus.v112" xml:space="preserve">
@@ -9665,10 +9708,12 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Fields.ChooseIssueTypeAccessibilityHint.v156" xml:space="preserve">
         <source>Choose an issue type first</source>
+        <target>Прво изаберите врсту проблема</target>
         <note>Accessibility hint spoken on the Preview and Send Report buttons when they are disabled because no issue type has been selected yet, in the Report a Website Issue form.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Fields.ChooseSubOptionAccessibilityHint.v156" xml:space="preserve">
         <source>Choose a specific problem for your selected issue type</source>
+        <target>Изаберите одређени проблем за изабрану врсту проблема</target>
         <note>Accessibility hint spoken on the Preview and Send Report buttons when they are disabled because no specific problem has been selected yet, in the Report a Website Issue form.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Fields.DetailsAccessibilityLabel.v154" xml:space="preserve">
@@ -9683,6 +9728,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Fields.URLError.v155" xml:space="preserve">
         <source>Enter a valid URL</source>
+        <target>Унесите важећу УРЛ адресу</target>
         <note>Error message shown under the URL field when the address entered has an invalid format, in the Report a Website Issue form.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Fields.URLLabel.v154" xml:space="preserve">
@@ -9707,54 +9753,67 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.AvailableMemory.v155" xml:space="preserve">
         <source>Your device’s available memory</source>
+        <target>Доступна меморија вашег уређаја</target>
         <note>Bullet on the Report Preview screen, for the amount of memory the device has.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.BlockedTrackers.v155" xml:space="preserve">
         <source>Hostnames of trackers blocked on this page</source>
+        <target>Имена домаћина пратилаца блокираних на овој страници</target>
         <note>Bullet on the Report Preview screen, for trackers blocked on the reported page.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.DeviceLocale.v155" xml:space="preserve">
         <source>Primary language and country of your device</source>
+        <target>Главни језик и држава вашег уређаја</target>
         <note>Bullet on the Report Preview screen, for the device's own language and region settings.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.HasTouchscreen.v155" xml:space="preserve">
         <source>Whether your device has a touchscreen</source>
+        <target>Да ли ваш уређај има екран на додир</target>
         <note>Bullet on the Report Preview screen, for whether the device has a touchscreen.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.IsTablet.v155" xml:space="preserve">
         <source>Whether or not your device is a tablet</source>
+        <target>Да ли је ваш уређај таблица</target>
         <note>Bullet on the Report Preview screen. Only tablet or not is sent, no device make or model.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.IssueAndDescription.v155" xml:space="preserve">
         <source>Issue type you selected and any description you added</source>
+        <target>Изабрана врста проблема и било који опис који сте додали</target>
         <note>Bullet on the Report Preview screen, for the problem picked and the details typed.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.PageElements.v155" xml:space="preserve">
         <source>Information about page elements that have been known to cause site issues</source>
+        <target>Подаци о елементима странице за које је познато да изазивају проблеме на страници</target>
         <note>Bullet on the Report Preview screen, for web frameworks known to break mobile pages.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.PageLanguages.v155" xml:space="preserve">
         <source>Language preferences sent to this page</source>
+        <target>Поставке језика послате овој страници</target>
         <note>Bullet on the Report Preview screen, for a list of the user's preferred languages for websites as they were communicated by the browser to the page</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.PageURL.v155" xml:space="preserve">
         <source>Page URL</source>
+        <target>Адреса странице</target>
         <note>Bullet on the Report Preview screen. The reported page's address is shown underneath it.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.PixelDensity.v155" xml:space="preserve">
         <source>Your screen’s pixel density</source>
+        <target>Густина пиксела вашег екрана</target>
         <note>Bullet on the Report Preview screen, for the screen's physical pixels per layout point.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.PrivateBrowsingStatus.v155" xml:space="preserve">
         <source>Private browsing status: on or off</source>
+        <target>Статус приватног прегледања: укључено или искључено</target>
         <note>Bullet on the Report Preview screen, for whether the page was open in private browsing.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.TrackingProtectionSetting.v155" xml:space="preserve">
         <source>Enhanced Tracking Protection setting for this site</source>
+        <target>Подешавање побољшане заштите од праћења за ову страницу</target>
         <note>Bullet on the Report Preview screen, for the tracking protection strength the user has chosen.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Data.UserAgent.v155" xml:space="preserve">
         <source>Your browser’s user agent, which includes your iOS version, %@ version, and browser engine version</source>
+        <target>Кориснички агент вашег прегледача, који укључује издање iOS-а, издање %@-а и издање погона прегледача</target>
         <note>Bullet on the Report Preview screen. Those three versions are only ever sent as tokens inside the user agent, never as fields of their own. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.ScreenshotAccessibilityLabel.v154" xml:space="preserve">
@@ -9769,6 +9828,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.TechnicalData.v155" xml:space="preserve">
         <source>Technical Data</source>
+        <target>Технички подаци</target>
         <note>Row on the Report Preview screen that opens the Technical Data screen, and that screen's title.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.Preview.Title.v154" xml:space="preserve">
