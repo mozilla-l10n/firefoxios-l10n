@@ -2,15 +2,14 @@ name: SSDLC Actions
 
 on:
   push:
-    branches: ["main"] # Uses default branch
+    branches: ["main"] # Uses the default branch
   pull_request:
-    branches: ["main"] # Uses default branch
+    branches: ["main"] # Uses the default branch
 
 permissions: {}
 
 jobs:
   code-security-analysis:
     permissions:
-      contents: read
-      actions: read
-    uses: mozilla/ssdlc-actions/.github/workflows/code-security-analysis-private-repo.yml@ca8be48f3c06204fb16a3bd5ffa6d916782bbc76 # v1
+      security-events: write # required for uploading code scanning alerts
+    uses: mozilla/ssdlc-actions/.github/workflows/code-security-analysis-public-repo.yml@ca8be48f3c06204fb16a3bd5ffa6d916782bbc76 # v1
