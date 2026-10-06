@@ -6700,14 +6700,19 @@ Private Tab</source>
         <source>The site may be temporarily unavailable, it may have moved to a different address, or your firewall or proxy may be blocking the connection.
 
 Check your connection settings and try again.</source>
+        <target>Ο ιστότοπος ενδέχεται να μην είναι προσωρινά διαθέσιμος, να έχει μεταφερθεί σε άλλη διεύθυνση ή η σύνδεση να αποκλείεται από το τείχος προστασίας ή τον διακομιστή μεσολάβησής σας.
+
+Ελέγξτε τις ρυθμίσεις σύνδεσης και δοκιμάστε ξανά.</target>
         <note>Additional explanation displayed on the native error page for the generic error. Lists possible causes and advises the user to check their connection settings and try again.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.Description.v158.withURL" xml:space="preserve">
         <source>%1$@ couldn’t connect to %2$@.</source>
+        <target>Δεν ήταν δυνατή η σύνδεση του %1$@ στο %2$@.</target>
         <note>First sentence of the generic error description when the requested URL is known. %1$@ is the app name and %2$@ is the requested URL.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.Description.v158.withoutURL" xml:space="preserve">
         <source>%1$@ couldn’t reach the requested URL.</source>
+        <target>Δεν ήταν δυνατή η σύνδεση του %1$@ στο ζητούμενο URL.</target>
         <note>First sentence of the generic error description when the requested URL is not available. %1$@ is the app name.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.TitleLabel.v131" xml:space="preserve">
@@ -6717,6 +6722,7 @@ Check your connection settings and try again.</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.TitleLabel.v158" xml:space="preserve">
         <source>Looks like there’s a problem with this site</source>
+        <target>Φαίνεται ότι υπάρχει κάποιο πρόβλημα με αυτόν τον ιστότοπο</target>
         <note>On error page, this is the title for generic error.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GoBackButton.v149" xml:space="preserve">
@@ -7788,6 +7794,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="QuickAnswers.ContentView.Listening.v158" xml:space="preserve">
         <source>Listening, ask anything…</source>
+        <target>Σας ακούω, ρωτήστε ό,τι θέλετε…</target>
         <note>Placeholder text shown in the Quick Answers view while the microphone is active and waiting for the user to speak.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.ContentView.Placeholder.v158" xml:space="preserve">
@@ -7807,6 +7814,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="QuickAnswers.ContentView.Thinking.v158" xml:space="preserve">
         <source>Thinking…</source>
+        <target>Επεξεργασία…</target>
         <note>Loading label shown in the Quick Answers view while the question is being processed.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.Errors.Cancel.v158" xml:space="preserve">
@@ -7896,10 +7904,12 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="QuickAnswers.OptInRedesign.NoTrainingTitle.v158" xml:space="preserve">
         <source>No Training With Your Data</source>
+        <target>Χωρίς εκπαίδευση βάσει των δεδομένων σας</target>
         <note>Title of the third privacy row on the Quick Answers opt-in screen, explaining that the user's data is not used to train AI systems.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.OptInRedesign.NothingGetsSavedDescription.v158" xml:space="preserve">
         <source>We don’t store your voice, questions, or answers.</source>
+        <target>Δεν αποθηκεύουμε τη φωνή, τις ερωτήσεις ή τις απαντήσεις σας.</target>
         <note>Description of the first privacy row on the Quick Answers opt-in screen, explaining that nothing the user says is stored.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.OptInRedesign.NothingGetsSavedTitle.v158" xml:space="preserve">
@@ -7914,18 +7924,22 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="QuickAnswers.OptInRedesign.PrivateByDesignTitle.v158" xml:space="preserve">
         <source>Private By Design</source>
+        <target>Ιδιωτικό εκ κατασκευής</target>
         <note>Title of the second privacy row on the Quick Answers opt-in screen, explaining that the user's voice is not used to identify them.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.OptInRedesign.Title.v158" xml:space="preserve">
         <source>Try Quick Answers</source>
+        <target>Δοκιμάστε τις Γρήγορες απαντήσεις</target>
         <note>Title displayed on the Quick Answers opt-in screen that introduces the voice feature.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.PrivacyBanner.Description.v158" xml:space="preserve">
         <source>%@ doesn’t store your audio or questions, use your data to train AI models, or use your voice to identify you.</source>
+        <target>Το %@ δεν αποθηκεύει τον ήχο ή τις ερωτήσεις σας, δεν χρησιμοποιεί τα δεδομένα σας για την εκπαίδευση των μοντέλων τεχνητής νοημοσύνης ούτε χρησιμοποιεί τη φωνή σας για την ταυτοποίησή σας.</target>
         <note>Body text of the privacy banner shown on the Quick Answers screen, explaining how the feature handles user data. %@ is the name of the app (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.PrivacyBanner.Title.v158" xml:space="preserve">
         <source>Private by Design</source>
+        <target>Ιδιωτικό εκ κατασκευής</target>
         <note>Title of the privacy banner shown on the Quick Answers screen.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.QuickActions.Title.v158" xml:space="preserve">
@@ -7935,6 +7949,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="QuickAnswers.ReturnPill.ReturnToQuickAnswerAccessibilityLabel.v158" xml:space="preserve">
         <source>Return to Quick Answer</source>
+        <target>Επιστροφή στη Γρήγορη απάντηση</target>
         <note>Accessibility label for the pill shown over web pages opened from within a Quick Answer result — tapping on the pill takes the user back to the answer.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.ReturnPill.Subtitle.v158" xml:space="preserve">
@@ -8309,6 +8324,7 @@ Sync on all your devices</source>
       </trans-unit>
       <trans-unit id="QuickAnswers.Settings.EnableQuickAnswers.v158" xml:space="preserve">
         <source>Enable Quick Answers</source>
+        <target>Ενεργοποίηση των Γρήγορων απαντήσεων</target>
         <note>Label of the toggle that enables or disables the Quick Answers feature on the Quick Answers settings screen.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.Settings.Footer.v158" xml:space="preserve">
