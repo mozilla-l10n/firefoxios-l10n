@@ -3779,10 +3779,12 @@
       </trans-unit>
       <trans-unit id="Search.ResultsAbove.A11yAnnouncement.v158" xml:space="preserve">
         <source>Suggestions above: %d</source>
+        <target>Tillögur fyrir ofan: %d</target>
         <note>When making a new search from the awesome bar, search results appear as the user write new letters in their search. This is the announcement VoiceOver reads to tell the user how many results are available, and that they are located above the address bar. %d is the number of results.</note>
       </trans-unit>
       <trans-unit id="Search.ResultsBelow.A11yAnnouncement.v158" xml:space="preserve">
         <source>Suggestions below: %d</source>
+        <target>Tillögur fyrir neðan: %d</target>
         <note>When making a new search from the awesome bar, search results appear as the user write new letters in their search. This is the announcement VoiceOver reads to tell the user how many results are available, and that they are located below the address bar. %d is the number of results.</note>
       </trans-unit>
       <trans-unit id="Search.SponsoredSuggestionDescription.v119" xml:space="preserve">
@@ -6712,14 +6714,19 @@ Private Tab</source>
         <source>The site may be temporarily unavailable, it may have moved to a different address, or your firewall or proxy may be blocking the connection.
 
 Check your connection settings and try again.</source>
+        <target>Vefsvæðið gæti verið tímabundið óaðgengilegt, það gæti hafa verið flutt á annað vistfang eða að eldveggurinn þinn eða milliþjónn gæti verið að loka fyrir tenginguna.
+
+Athugaðu tengistillingarnar þínar og reyndu aftur.</target>
         <note>Additional explanation displayed on the native error page for the generic error. Lists possible causes and advises the user to check their connection settings and try again.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.Description.v158.withURL" xml:space="preserve">
         <source>%1$@ couldn’t connect to %2$@.</source>
+        <target>%1$@ gat ekki tengst %2$@.</target>
         <note>First sentence of the generic error description when the requested URL is known. %1$@ is the app name and %2$@ is the requested URL.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.Description.v158.withoutURL" xml:space="preserve">
         <source>%1$@ couldn’t reach the requested URL.</source>
+        <target>%1$@ náði ekki í umbeðna vefslóð.</target>
         <note>First sentence of the generic error description when the requested URL is not available. %1$@ is the app name.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.TitleLabel.v131" xml:space="preserve">
@@ -6729,6 +6736,7 @@ Check your connection settings and try again.</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.TitleLabel.v158" xml:space="preserve">
         <source>Looks like there’s a problem with this site</source>
+        <target>Það virðist vera vandamál með þetta vefsvæði</target>
         <note>On error page, this is the title for generic error.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GoBackButton.v149" xml:space="preserve">
@@ -7425,22 +7433,27 @@ Samstillt á öllum tækjunum þínum</target>
       </trans-unit>
       <trans-unit id="Onboarding.MultiDay.HomeScreenNotificationsPopup.BodyText.v159" xml:space="preserve">
         <source>Stay up to date on %@’s latest news.</source>
+        <target>Fáðu nýjustu fréttir frá %@.</target>
         <note>Body of the home screen popup requesting permission to send notifications. It emphasizes how notifications keep you updated on news. %@ is a placeholder for the app name (e.g., Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.MultiDay.HomeScreenNotificationsPopup.EnableButtonText.v158" xml:space="preserve">
         <source>Enable Notifications</source>
+        <target>Virkja tilkynningar</target>
         <note>Button on the home screen popup requesting notification permissions. Tapping this button accepts the permission request.</note>
       </trans-unit>
       <trans-unit id="Onboarding.MultiDay.HomeScreenNotificationsPopup.EnableCloseButtonText.v159" xml:space="preserve">
         <source>Close</source>
+        <target>Loka</target>
         <note>Voiceover text for the close button on the home screen popup requesting notification permissions. Tapping this button dismisses the popup.</note>
       </trans-unit>
       <trans-unit id="Onboarding.MultiDay.HomeScreenNotificationsPopup.Title.v159" xml:space="preserve">
         <source>Get fresh privacy features</source>
+        <target>Fáðu nýja persónuverndareiginleika</target>
         <note>Title of the home screen popup requesting permission to send notifications. It emphasizes how notifications keep you updated on privacy features.</note>
       </trans-unit>
       <trans-unit id="Onboarding.MultiDay.NotificationCard.AcceptButtonText.v159" xml:space="preserve">
         <source>Enable Notifications</source>
+        <target>Virkja tilkynningar</target>
         <note>Primary button on the onboarding card requesting permission to send notifications. Tapping this button accepts the permission request.</note>
       </trans-unit>
       <trans-unit id="Onboarding.MultiDay.NotificationCard.BodyText.v159" xml:space="preserve">
@@ -7449,23 +7462,28 @@ Samstillt á öllum tækjunum þínum</target>
       </trans-unit>
       <trans-unit id="Onboarding.MultiDay.NotificationCard.DeclineButtonText.v159" xml:space="preserve">
         <source>Not Now</source>
+        <target>Ekki núna</target>
         <note>Secondary button on the onboarding card requesting permission to send notifications. Tapping this button declines the permission request.
 Secondary button on the onboarding card that prompts users to enable syncing for their account data. Tapping this button dismisses the prompt and closes the card.</note>
       </trans-unit>
       <trans-unit id="Onboarding.MultiDay.NotificationCard.Title.v159" xml:space="preserve">
         <source>Stay in the Loop</source>
+        <target>Vertu í hringrásinni</target>
         <note>Title for the onboarding card requesting permissions to send notifications.  “Stay in the loop” means “Remain informed”.</note>
       </trans-unit>
       <trans-unit id="Onboarding.MultiDay.SyncCard.AcceptButtonText.v159" xml:space="preserve">
         <source>Sign in to Sync</source>
+        <target>Skráðu þig inn til að samstilla</target>
         <note>Primary button on the onboarding card that prompts users to enable syncing for their account data. Tapping it directs the user sign into to their Mozilla account to access the feature.</note>
       </trans-unit>
       <trans-unit id="Onboarding.MultiDay.SyncCard.BodyText.v159" xml:space="preserve">
         <source>Instantly get passwords, history, and more on any device.</source>
+        <target>Fáðu lykilorð, vafurferil og fleira samstundis á hvaða tæki sem er.</target>
         <note>Body of the onboarding card that prompts users to enable syncing for their account data so they can access it across devices (e.g., history, passwords, payment information).</note>
       </trans-unit>
       <trans-unit id="Onboarding.MultiDay.SyncCard.Title.v159" xml:space="preserve">
         <source>Sync Your Stuff</source>
+        <target>Samstilltu gögnin þín</target>
         <note>Title of the onboarding card that prompts users to enable syncing for their account data so they can access it across devices (e.g., history, passwords, payment information).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Notification.Continue.Action.v114" xml:space="preserve">
@@ -7845,6 +7863,7 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="QuickAnswers.ContentView.Listening.v158" xml:space="preserve">
         <source>Listening, ask anything…</source>
+        <target>Er að hlusta, spurðu um hvað sem er…</target>
         <note>Placeholder text shown in the Quick Answers view while the microphone is active and waiting for the user to speak.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.ContentView.Placeholder.v158" xml:space="preserve">
@@ -7854,6 +7873,7 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="QuickAnswers.ContentView.SearchingSources.v158" xml:space="preserve">
         <source>Searching sources…</source>
+        <target>Leita að heimildum…</target>
         <note>Loading label shown in the Quick Answers view while the feature searches for sources to construct an answer.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.ContentView.Sources.v158" xml:space="preserve">
@@ -7863,6 +7883,7 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="QuickAnswers.ContentView.Thinking.v158" xml:space="preserve">
         <source>Thinking…</source>
+        <target>Hugsa…</target>
         <note>Loading label shown in the Quick Answers view while the question is being processed.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.Errors.Cancel.v158" xml:space="preserve">
@@ -7942,34 +7963,42 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="QuickAnswers.OptInRedesign.Description.v158" xml:space="preserve">
         <source>Ask a question with your voice. Get a short answer with sources in seconds.</source>
+        <target>Spyrðu spurningar með því að tala. Fáðu stutt svar með vísanir í heimildir á nokkrum sekúndum.</target>
         <note>Description displayed on the Quick Answers opt-in screen explaining how the feature works.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.OptInRedesign.NoTrainingDescription.v158" xml:space="preserve">
         <source>We don’t use your data to train our systems.</source>
+        <target>Við notum ekki gögnin þín til að þjálfa kerfin okkar.</target>
         <note>Description of the third privacy row on the Quick Answers opt-in screen, explaining that the user's data is not used to train AI systems.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.OptInRedesign.NoTrainingTitle.v158" xml:space="preserve">
         <source>No Training With Your Data</source>
+        <target>Engin þjálfun með gögnunum þínum</target>
         <note>Title of the third privacy row on the Quick Answers opt-in screen, explaining that the user's data is not used to train AI systems.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.OptInRedesign.NothingGetsSavedDescription.v158" xml:space="preserve">
         <source>We don’t store your voice, questions, or answers.</source>
+        <target>Við geymum ekki röddina þína, spurningar eða svör.</target>
         <note>Description of the first privacy row on the Quick Answers opt-in screen, explaining that nothing the user says is stored.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.OptInRedesign.NothingGetsSavedTitle.v158" xml:space="preserve">
         <source>Nothing Gets Saved</source>
+        <target>Ekkert verður vistað</target>
         <note>Title of the first privacy row on the Quick Answers opt-in screen, explaining that nothing the user says is stored.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.OptInRedesign.PrivateByDesignDescription.v158" xml:space="preserve">
         <source>We don’t use your voice to identify you.</source>
+        <target>Við notum ekki röddina þína til að bera kennsl á þig.</target>
         <note>Description of the second privacy row on the Quick Answers opt-in screen, explaining that the user's voice is not used to identify them.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.OptInRedesign.PrivateByDesignTitle.v158" xml:space="preserve">
         <source>Private By Design</source>
+        <target>Hannað til að vernda persónuupplýsingar</target>
         <note>Title of the second privacy row on the Quick Answers opt-in screen, explaining that the user's voice is not used to identify them.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.OptInRedesign.Title.v158" xml:space="preserve">
         <source>Try Quick Answers</source>
+        <target>Prófaðu hraðsvör</target>
         <note>Title displayed on the Quick Answers opt-in screen that introduces the voice feature.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.PrivacyBanner.Description.v158" xml:space="preserve">
@@ -7978,6 +8007,7 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="QuickAnswers.PrivacyBanner.Title.v158" xml:space="preserve">
         <source>Private by Design</source>
+        <target>Hannað til að vernda persónuupplýsingar</target>
         <note>Title of the privacy banner shown on the Quick Answers screen.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.QuickActions.Title.v158" xml:space="preserve">
@@ -7987,10 +8017,12 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="QuickAnswers.ReturnPill.ReturnToQuickAnswerAccessibilityLabel.v158" xml:space="preserve">
         <source>Return to Quick Answer</source>
+        <target>Til baka í hraðsvör</target>
         <note>Accessibility label for the pill shown over web pages opened from within a Quick Answer result — tapping on the pill takes the user back to the answer.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.ReturnPill.Subtitle.v158" xml:space="preserve">
         <source>Tap to return</source>
+        <target>Ýttu til að fara til baka</target>
         <note>Helper text for the pill shown over web pages opened from within a Quick Answer result — tapping on the pill takes the user back to the answer.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.Tip.Message.v158" xml:space="preserve">
