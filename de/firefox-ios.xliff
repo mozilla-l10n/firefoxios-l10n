@@ -6869,7 +6869,7 @@ Check your connection settings and try again.</source>
       </trans-unit>
       <trans-unit id="VPN.ErrorPage.Body.v160" xml:space="preserve">
         <source>Try turning off VPN. If the site still won’t load, refresh the page or check your internet connection.</source>
-        <target>Versuchen Sie, VPN zu deaktivieren. Wenn die Website immer noch nicht geladen wird, aktualisieren Sie die Seite oder überprüfen Sie Ihre Internetverbindung.</target>
+        <target>Deaktivieren Sie zunächst das VPN. Wenn die Website weiterhin nicht geladen wird, aktualisieren Sie die Seite oder überprüfen Sie Ihre Internetverbindung.</target>
         <note>Body text of the error page shown when a website fails to load while the VPN is on. Suggests turning off the VPN first, then refreshing the page or checking the internet connection if that doesn't help.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorPage.Title.v160" xml:space="preserve">
@@ -7752,22 +7752,22 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LimitBody.v160" xml:space="preserve">
         <source>Start using it without signing in</source>
-        <target>Beginnen Sie mit der Verwendung, ohne sich anzumelden</target>
+        <target>Sofort ohne Anmeldung nutzen</target>
         <note>Body text below the “5 GB, Free Every Month” (VPN.Onboarding.LimitSubheading.v160) subheading on the VPN onboarding card. Explains that the user can start using the VPN without signing in to an account. “it” refers to the VPN.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LimitSubheading.v160" xml:space="preserve">
         <source>%1$@ GB, Free Every Month</source>
-        <target>%1$@ GB, jeden Monat kostenlos</target>
+        <target>Jeden Monat %1$@ GB kostenlos</target>
         <note>Subheading on the VPN onboarding card. Explains how much VPN data the user gets every month at no cost. %1$@ is the monthly data limit in gigabytes (for example, 5). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LocationsBody.v160" xml:space="preserve">
         <source>Choose a VPN location to help make yours harder to trace.</source>
-        <target>Wählen Sie einen VPN-Standort, um die Verfolgung Ihres Standorts zu erschweren.</target>
+        <target>Wählen Sie einen VPN-Standort, damit Ihr tatsächlicher Standort schwerer zu ermitteln ist.</target>
         <note>Body text below the “Browse From Multiple Locations” (VPN.Onboarding.LocationsSubheading.v160) subheading on the VPN onboarding card. Explains that choosing a VPN location makes it harder to tell where the user really is. “yours” refers to the user’s location.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LocationsSubheading.v160" xml:space="preserve">
         <source>Browse From Multiple Locations</source>
-        <target>Von mehreren Standorten aus durchsuchen</target>
+        <target>Aus verschiedenen Ländern surfen</target>
         <note>Subheading on the VPN onboarding card. Explains that the user can choose which country their browsing appears to come from.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.Title.v160" xml:space="preserve">
@@ -7777,7 +7777,7 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.Onboarding.WifiBody.v160" xml:space="preserve">
         <source>Add extra protection in %1$@ when you browse on the go.</source>
-        <target>Fügen Sie %1$@ zusätzlichen Schutz hinzu, wenn Sie unterwegs surfen.</target>
+        <target>Schützen Sie sich beim Surfen unterwegs mit %1$@ noch besser.</target>
         <note>Body text below the “More Privacy On Public Wi-Fi” (VPN.Onboarding.WifiSubheading.v160) subheading on the VPN onboarding card. %1$@ is the app name (for example, Firefox).</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.WifiSubheading.v160" xml:space="preserve">
@@ -9167,7 +9167,7 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.FindingLocationsText.v160" xml:space="preserve">
         <source>Finding Locations…</source>
-        <target>Adressen werden gesucht…</target>
+        <target>Standorte werden gesucht…</target>
         <note>Text displayed on the locations screen when the app loads a list of locations for the user to pick from. “Locations” here means the locations of VPN servers the user can connect to.</note>
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.RecommendedMainText.v160" xml:space="preserve">
@@ -9177,7 +9177,7 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.RecommendedSubText.v160" xml:space="preserve">
         <source>%1$@ finds the fastest location.</source>
-        <target>%1$@ findet den schnellsten Standort.</target>
+        <target>%1$@ ermittelt den schnellsten Standort.</target>
         <note>Description below the Recommended option in the VPN server location list. %1$@ is the app name (for example, Firefox).</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.Connecting.v160" xml:space="preserve">
@@ -9187,7 +9187,7 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.Settings.DataLimitResetFooter.v160" xml:space="preserve">
         <source>Resets to %1$@ GB on the first of every month</source>
-        <target>Wird am ersten eines Monats auf %1$@ GB zurückgesetzt</target>
+        <target>Wird am Ersten jedes Monats auf %1$@ GB zurückgesetzt</target>
         <note>Footer below the Data Limit section on the VPN settings screen. Explains when the user's free VPN data resets. %1$@ is the monthly limit in gigabytes (for example, 5.0). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataLimitTitle.v160" xml:space="preserve">
@@ -9197,12 +9197,12 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.Settings.DataUsage.AccessibilityLabel.v160" xml:space="preserve">
         <source>%1$@ of %2$@ gigabytes used</source>
-        <target>%1$@ von %2$@ Gigabyte genutzt</target>
+        <target>%1$@ von %2$@ Gigabyte verbraucht</target>
         <note>Read aloud by VoiceOver for the data usage on the VPN settings screen. Same as the visible text, but with “gigabytes” written out instead of “GB”. %1$@ is the amount of VPN data used this month and %2$@ is the monthly limit (for example, “1.0 of 5.0 gigabytes used”).</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataUsage.v160" xml:space="preserve">
         <source>%1$@ of %2$@ GB used</source>
-        <target>%1$@ von %2$@ GB aufgebraucht</target>
+        <target>%1$@ von %2$@ GB verbraucht</target>
         <note>Shown next to the Data Limit title on the VPN settings screen. %1$@ is the amount of VPN data used this month and %2$@ is the monthly limit, both in gigabytes (for example, “1.0 of 5.0 GB used”). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.Description.v160" xml:space="preserve">
@@ -9222,7 +9222,7 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.Settings.LocationTitle.v160" xml:space="preserve">
         <source>Location</source>
-        <target>Ort</target>
+        <target>Standort</target>
         <note>Used in two places: as the name of a row on the VPN settings screen, and as the title of the screen that row opens. On that screen, the user picks which VPN server location (country or region) to connect through. “Location” means the VPN server’s location, not the user’s own location.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.StatusOff.v160" xml:space="preserve">
@@ -10056,17 +10056,17 @@ Gesendet von %2$@ 🦊 %3$@</target>
     <body>
       <trans-unit id="VPN.DataLimitRefreshNotification.Body.v160" xml:space="preserve">
         <source>Your free monthly VPN data has refreshed.</source>
-        <target>Deine kostenlosen monatlichen VPN-Daten wurden aktualisiert.</target>
+        <target>Ihr kostenloses monatliches VPN-Datenvolumen wurde erneuert.</target>
         <note>Body text of the system notification telling the user their free monthly VPN data has reset.</note>
       </trans-unit>
       <trans-unit id="VPN.DataLimitRefreshNotification.Title.v160" xml:space="preserve">
         <source>%1$@ GB of VPN data is ready</source>
-        <target>%1$@ GB an VPN-Daten ist bereit</target>
+        <target>%1$@ GB VPN-Daten sind wieder verfügbar</target>
         <note>Title of a system notification telling the user their free monthly VPN data has reset and is ready to use again. %1$@ is the monthly data limit in gigabytes (for example, 5). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.Body.v160" xml:space="preserve">
         <source>VPN isn’t working right now. If you continue browsing, your location may be visible.</source>
-        <target>VPN funktioniert derzeit nicht. Wenn Sie weiter surfen, ist Ihr Standort möglicherweise sichtbar.</target>
+        <target>Das VPN funktioniert momentan nicht. Wenn Sie weiter surfen, ist Ihr Standort möglicherweise für Websites und andere Dritte sichtbar.</target>
         <note>Body text of the popup shown when the VPN stops working while the user is browsing. Warns that if they keep browsing, websites and other third parties may be able to see their location.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.CloseAllTabs.v160" xml:space="preserve">
