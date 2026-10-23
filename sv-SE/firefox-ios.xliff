@@ -6869,10 +6869,12 @@ Kontrollera anslutningsinställningarna och försök igen.</target>
       </trans-unit>
       <trans-unit id="VPN.ErrorPage.Body.v160" xml:space="preserve">
         <source>Try turning off VPN. If the site still won’t load, refresh the page or check your internet connection.</source>
+        <target>Testa att stänga av VPN. Om webbplatsen fortfarande inte laddas, uppdatera sidan eller kontrollera din internetanslutning.</target>
         <note>Body text of the error page shown when a website fails to load while the VPN is on. Suggests turning off the VPN first, then refreshing the page or checking the internet connection if that doesn't help.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorPage.Title.v160" xml:space="preserve">
         <source>This site can’t be reached.</source>
+        <target>Den här webbplatsen kan inte nås.</target>
         <note>Title of an error page shown when a website fails to load while the VPN is on and the exact cause is unknown. “Can't be reached” means the website couldn't be loaded.</note>
       </trans-unit>
     </body>
@@ -7750,30 +7752,37 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LimitBody.v160" xml:space="preserve">
         <source>Start using it without signing in</source>
+        <target>Börja använda den utan att logga in</target>
         <note>Body text below the “5 GB, Free Every Month” (VPN.Onboarding.LimitSubheading.v160) subheading on the VPN onboarding card. Explains that the user can start using the VPN without signing in to an account. “it” refers to the VPN.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LimitSubheading.v160" xml:space="preserve">
         <source>%1$@ GB, Free Every Month</source>
+        <target>%1$@ GB, gratis varje månad</target>
         <note>Subheading on the VPN onboarding card. Explains how much VPN data the user gets every month at no cost. %1$@ is the monthly data limit in gigabytes (for example, 5). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LocationsBody.v160" xml:space="preserve">
         <source>Choose a VPN location to help make yours harder to trace.</source>
+        <target>Välj en VPN-plats för att göra din svårare att spåra.</target>
         <note>Body text below the “Browse From Multiple Locations” (VPN.Onboarding.LocationsSubheading.v160) subheading on the VPN onboarding card. Explains that choosing a VPN location makes it harder to tell where the user really is. “yours” refers to the user’s location.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LocationsSubheading.v160" xml:space="preserve">
         <source>Browse From Multiple Locations</source>
+        <target>Surfa från flera platser</target>
         <note>Subheading on the VPN onboarding card. Explains that the user can choose which country their browsing appears to come from.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.Title.v160" xml:space="preserve">
         <source>Try %1$@’s Built-In VPN</source>
+        <target>Testa %1$@:s inbyggda VPN</target>
         <note>Title of an onboarding card that introduces the built-in VPN. %1$@ is the app name (for example, Firefox).</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.WifiBody.v160" xml:space="preserve">
         <source>Add extra protection in %1$@ when you browse on the go.</source>
+        <target>Lägg till extra skydd i %1$@ när du surfar på språng.</target>
         <note>Body text below the “More Privacy On Public Wi-Fi” (VPN.Onboarding.WifiSubheading.v160) subheading on the VPN onboarding card. %1$@ is the app name (for example, Firefox).</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.WifiSubheading.v160" xml:space="preserve">
         <source>More Privacy On Public Wi-Fi</source>
+        <target>Mer sekretess på offentligt Wi-Fi</target>
         <note>Subheading on the VPN onboarding card. Explains that the VPN gives the user more privacy when they use public Wi-Fi networks.</note>
       </trans-unit>
     </body>
@@ -9158,70 +9167,87 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.FindingLocationsText.v160" xml:space="preserve">
         <source>Finding Locations…</source>
+        <target>Söker platser…</target>
         <note>Text displayed on the locations screen when the app loads a list of locations for the user to pick from. “Locations” here means the locations of VPN servers the user can connect to.</note>
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.RecommendedMainText.v160" xml:space="preserve">
         <source>Recommended</source>
+        <target>Rekommenderad</target>
         <note>Option in the VPN server location list. Choosing it lets the app pick the server with the fastest connection.</note>
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.RecommendedSubText.v160" xml:space="preserve">
         <source>%1$@ finds the fastest location.</source>
+        <target>%1$@ hittar den snabbaste platsen.</target>
         <note>Description below the Recommended option in the VPN server location list. %1$@ is the app name (for example, Firefox).</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.Connecting.v160" xml:space="preserve">
         <source>Connecting…</source>
+        <target>Ansluter…</target>
         <note>Shown next to the VPN switch on the VPN settings screen while the VPN is connecting, right after the user turns it on.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataLimitResetFooter.v160" xml:space="preserve">
         <source>Resets to %1$@ GB on the first of every month</source>
+        <target>Återställs till %1$@ GB den första i varje månad</target>
         <note>Footer below the Data Limit section on the VPN settings screen. Explains when the user's free VPN data resets. %1$@ is the monthly limit in gigabytes (for example, 5.0). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataLimitTitle.v160" xml:space="preserve">
         <source>Data Limit</source>
+        <target>Datagräns</target>
         <note>Title of the section on the VPN settings screen that shows how much of the user's free monthly VPN data they have used.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataUsage.AccessibilityLabel.v160" xml:space="preserve">
         <source>%1$@ of %2$@ gigabytes used</source>
+        <target>%1$@ av %2$@ gigabyte används</target>
         <note>Read aloud by VoiceOver for the data usage on the VPN settings screen. Same as the visible text, but with “gigabytes” written out instead of “GB”. %1$@ is the amount of VPN data used this month and %2$@ is the monthly limit (for example, “1.0 of 5.0 gigabytes used”).</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataUsage.v160" xml:space="preserve">
         <source>%1$@ of %2$@ GB used</source>
+        <target>%1$@ av %2$@ GB används</target>
         <note>Shown next to the Data Limit title on the VPN settings screen. %1$@ is the amount of VPN data used this month and %2$@ is the monthly limit, both in gigabytes (for example, “1.0 of 5.0 GB used”). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.Description.v160" xml:space="preserve">
         <source>Browse with extra protection by hiding your location, even on public Wi-Fi.</source>
+        <target>Surfa med extra skydd genom att dölja din plats, även på offentligt Wi-Fi.</target>
         <note>Short description below the title at the top of the VPN settings screen. Explains what the VPN does.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.LearnMore.v160" xml:space="preserve">
         <source>Learn more…</source>
+        <target>Läs mer…</target>
         <note>Link below the description at the top of the VPN settings screen. Tapping it opens a support article about the VPN.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.LocationRecommended.v160" xml:space="preserve">
         <source>Recommended</source>
+        <target>Rekommenderad</target>
         <note>Shown on the right side of the Location row on the VPN settings screen when the user lets Firefox select the location in their stead. The recommended location is the one with the fastest connection.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.LocationTitle.v160" xml:space="preserve">
         <source>Location</source>
+        <target>Plats</target>
         <note>Used in two places: as the name of a row on the VPN settings screen, and as the title of the screen that row opens. On that screen, the user picks which VPN server location (country or region) to connect through. “Location” means the VPN server’s location, not the user’s own location.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.StatusOff.v160" xml:space="preserve">
         <source>Off</source>
+        <target>Av</target>
         <note>VPN status shown when the VPN is not connected. Used in two places: on the right side of the VPN row in the Privacy section of Settings, and on the small capsule-shaped VPN status indicator.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.StatusOn.v160" xml:space="preserve">
         <source>On</source>
+        <target>På</target>
         <note>VPN status shown when the VPN is connected. Used in two places: on the right side of the VPN row in the Privacy section of Settings, and on the small capsule-shaped VPN status indicator.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.StatusPaused.v160" xml:space="preserve">
         <source>Paused</source>
+        <target>Pausad</target>
         <note>VPN status shown when the VPN is temporarily paused. Used in two places: on the right side of the VPN row in the Privacy section of Settings, and on the small capsule-shaped VPN status indicator.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.Title.v160" xml:space="preserve">
         <source>Built-In VPN</source>
+        <target>Inbyggt VPN</target>
         <note>Name of the VPN row in the Privacy section of Settings. Also used as the title of the VPN settings screen.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.ToggleTitle.v160" xml:space="preserve">
         <source>VPN</source>
+        <target>VPN</target>
         <note>Used in two places: as the label for the toggle switch on the VPN settings screen that turns the VPN on or off, and as the label on the small capsule-shaped VPN status indicator, where it appears together with the current status (On, Off or Paused).</note>
       </trans-unit>
     </body>
@@ -10030,82 +10056,102 @@ Skickat från %2$@ 🦊 %3$@</target>
     <body>
       <trans-unit id="VPN.DataLimitRefreshNotification.Body.v160" xml:space="preserve">
         <source>Your free monthly VPN data has refreshed.</source>
+        <target>Din gratis månatliga VPN-data har uppdaterats.</target>
         <note>Body text of the system notification telling the user their free monthly VPN data has reset.</note>
       </trans-unit>
       <trans-unit id="VPN.DataLimitRefreshNotification.Title.v160" xml:space="preserve">
         <source>%1$@ GB of VPN data is ready</source>
+        <target>%1$@ GB VPN-data är redo</target>
         <note>Title of a system notification telling the user their free monthly VPN data has reset and is ready to use again. %1$@ is the monthly data limit in gigabytes (for example, 5). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.Body.v160" xml:space="preserve">
         <source>VPN isn’t working right now. If you continue browsing, your location may be visible.</source>
+        <target>VPN fungerar inte just nu. Om du fortsätter att surfa kan din plats visas.</target>
         <note>Body text of the popup shown when the VPN stops working while the user is browsing. Warns that if they keep browsing, websites and other third parties may be able to see their location.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.CloseAllTabs.v160" xml:space="preserve">
         <source>Close All Tabs</source>
+        <target>Stäng alla flikar</target>
         <note>Button on the popup shown when the VPN stops working while the user is browsing. Tapping it closes all of the user's open tabs.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.CloseThisTab.v160" xml:space="preserve">
         <source>Close This Tab</source>
+        <target>Stäng denna flik</target>
         <note>Button on the popup shown when the VPN stops working while the user is browsing. Tapping it closes only the tab the user is currently viewing.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.ClosedOneTab.v160" xml:space="preserve">
         <source>Closed 1 Tab</source>
+        <target>Stängd 1 flik</target>
         <note>Confirmation shown after the user closes a single tab from the popup that appears when the VPN stops working while browsing.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.ClosedXTabs.v160" xml:space="preserve">
         <source>Closed %1$@ Tabs</source>
+        <target>Stängda %1$@ flikar</target>
         <note>Confirmation shown after the user closes more than one tab from the popup that appears when the VPN stops working while browsing. %1$@ is the number of tabs that were closed (for example, 3).</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.Continue.v160" xml:space="preserve">
         <source>Continue Without VPN</source>
+        <target>Fortsätt utan VPN</target>
         <note>Button on the popup shown when the VPN stops working while the user is browsing. Tapping it closes the popup so the user can keep browsing without the VPN.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.Title.v160" xml:space="preserve">
         <source>Continue Without VPN?</source>
+        <target>Fortsätt utan VPN?</target>
         <note>Title of a popup shown when the VPN stops working while the user is browsing with it on. Asks if the user wants to keep browsing without the VPN.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorConnectingPopup.Body.v160" xml:space="preserve">
         <source>Try again in a few minutes.</source>
+        <target>Försök igen om några minuter.</target>
         <note>Body text of the popup shown when the app fails to connect to the VPN. “Try again” means try connecting to the VPN again.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorConnectingPopup.CloseButtonText.v160" xml:space="preserve">
         <source>Close</source>
+        <target>Stäng</target>
         <note>Button on the popup shown when the app fails to connect to the VPN. Tapping it closes the popup.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorConnectingPopup.RetryButtonText.v160" xml:space="preserve">
         <source>Retry</source>
+        <target>Försök igen</target>
         <note>Button on the popup shown when the app fails to connect to the VPN. Tapping it tries to connect to the VPN again.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorConnectingPopup.Title.v160" xml:space="preserve">
         <source>Couldn’t Connect to VPN</source>
+        <target>Det gick inte att ansluta till VPN</target>
         <note>Title of a popup shown when the app fails to connect to the VPN.</note>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.AltPopupBody.v160" xml:space="preserve">
         <source>All %1$@ GB of VPN data used. Access resets next month.</source>
+        <target>All %1$@ GB VPN-data används. Åtkomsten återställs nästa månad.</target>
         <note>Alternative body text for the popup shown when the user has used all of their free monthly VPN data. Explains that their VPN data resets at the start of next month. %1$@ is the monthly data limit in gigabytes (for example, 5). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.Body.v160" xml:space="preserve">
         <source>You’ve used all %1$@ GB of VPN data. VPN is off, so your location may be visible if you keep browsing.</source>
+        <target>Du har använt alla %1$@ GB av VPN-data. VPN är avstängt, så din plats kan visas om du fortsätter att surfa.</target>
         <note>Body text of the popup shown when the user has used all of their free monthly VPN data. Explains that the VPN has turned off, so websites may be able to see their location if they keep browsing. %1$@ is the monthly data limit in gigabytes (for example, 5). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.CloseAllTabs.v160" xml:space="preserve">
         <source>Close All Tabs</source>
+        <target>Stäng alla flikar</target>
         <note>Button on the popup shown when the user runs out of free monthly VPN data. Tapping it closes all of the user's open tabs.</note>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.CloseThisTab.v160" xml:space="preserve">
         <source>Close This Tab</source>
+        <target>Stäng denna flik</target>
         <note>Button on the popup shown when the user runs out of free monthly VPN data. Tapping it closes only the tab the user is currently viewing.</note>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.ClosedOneTab.v160" xml:space="preserve">
         <source>Closed 1 Tab</source>
+        <target>Stängd 1 flik</target>
         <note>Confirmation shown after the user closes a single tab from the popup that appears when they run out of free monthly VPN data.</note>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.ClosedXTabs.v160" xml:space="preserve">
         <source>Closed %1$@ Tabs</source>
+        <target>Stängda %1$@ flikar</target>
         <note>Confirmation shown after the user closes more than one tab from the popup that appears when they run out of free monthly VPN data. %1$@ is the number of tabs that were closed (for example, 3).</note>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.Title.v160" xml:space="preserve">
         <source>VPN Data Limit Reached</source>
+        <target>VPN-datagräns uppnådd</target>
         <note>Title of a popup shown when the user has used all of their free monthly VPN data.</note>
       </trans-unit>
     </body>
