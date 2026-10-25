@@ -4581,6 +4581,7 @@ Private Tab</source>
     <body>
       <trans-unit id="BrowserDataTransfer.ImportFailure.DismissButton.v160" xml:space="preserve">
         <source>Dismiss</source>
+        <target>Eltüntetés</target>
         <note>Button that dismisses the alert shown when Firefox could not finish importing data from another browser.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportFailure.Message.v160" xml:space="preserve">
@@ -4605,10 +4606,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportSuccess.Title.v160" xml:space="preserve">
         <source>%@ Import Complete</source>
+        <target>A(z) %@ importálása befejeződött</target>
         <note>Title of the alert shown after Firefox finishes importing data from another browser. %@ is the name of the other browser, for example Safari.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportedBookmarksFolder.Title.v160" xml:space="preserve">
         <source>Imported %@</source>
+        <target>%@ importálva</target>
         <note>Name of the bookmarks folder that holds bookmarks imported from another browser. %@ is the date when the import happens, formatted for the user’s locale without the time.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.Settings.ExportButton.v160" xml:space="preserve">
@@ -4623,10 +4626,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.Settings.SectionTitle.v160" xml:space="preserve">
         <source>Data Import and Export</source>
+        <target>Adatok importálása és exportálása</target>
         <note>On the Data Management screen in Settings, the header of the section that contains the actions to import data from, or export data to, another browser installed on the device.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.Settings.SupportedDataFooter.v160" xml:space="preserve">
         <source>Bring bookmarks, history, and reading lists into %1$@, or send your %1$@ data to another browser.</source>
+        <target>Vigye be a könyvjelzőket, az előzményeket és az olvasási listákat a %1$@ba, vagy küldje el a %1$@ adatait egy másik böngészőnek.</target>
         <note>On the Data Management screen in Settings, the footer below the import and export buttons explaining which kinds of data can be moved between the app and another browser. %1$@ is the app name (e.g. Firefox), used in both places.</note>
       </trans-unit>
     </body>
@@ -6864,10 +6869,12 @@ Ellenőrizze a kapcsolat beállításait, és próbálja újra.</target>
       </trans-unit>
       <trans-unit id="VPN.ErrorPage.Body.v160" xml:space="preserve">
         <source>Try turning off VPN. If the site still won’t load, refresh the page or check your internet connection.</source>
+        <target>Próbálja meg kikapcsolni a VPN-t. Ha a webhely továbbra sem tölt be, frissítse az oldalt vagy ellenőrizze az internetkapcsolatát.</target>
         <note>Body text of the error page shown when a website fails to load while the VPN is on. Suggests turning off the VPN first, then refreshing the page or checking the internet connection if that doesn't help.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorPage.Title.v160" xml:space="preserve">
         <source>This site can’t be reached.</source>
+        <target>Ez a webhely nem érhető el.</target>
         <note>Title of an error page shown when a website fails to load while the VPN is on and the exact cause is unknown. “Can't be reached” means the website couldn't be loaded.</note>
       </trans-unit>
     </body>
@@ -7745,30 +7752,37 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LimitBody.v160" xml:space="preserve">
         <source>Start using it without signing in</source>
+        <target>Kezdje el használni bejelentkezés nélkül</target>
         <note>Body text below the “5 GB, Free Every Month” (VPN.Onboarding.LimitSubheading.v160) subheading on the VPN onboarding card. Explains that the user can start using the VPN without signing in to an account. “it” refers to the VPN.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LimitSubheading.v160" xml:space="preserve">
         <source>%1$@ GB, Free Every Month</source>
+        <target>%1$@ GB, ingyenesen minden hónapban</target>
         <note>Subheading on the VPN onboarding card. Explains how much VPN data the user gets every month at no cost. %1$@ is the monthly data limit in gigabytes (for example, 5). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LocationsBody.v160" xml:space="preserve">
         <source>Choose a VPN location to help make yours harder to trace.</source>
+        <target>Válasszon egy VPN-helyet, hogy nehezebbé tegye a helye lekövetését.</target>
         <note>Body text below the “Browse From Multiple Locations” (VPN.Onboarding.LocationsSubheading.v160) subheading on the VPN onboarding card. Explains that choosing a VPN location makes it harder to tell where the user really is. “yours” refers to the user’s location.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LocationsSubheading.v160" xml:space="preserve">
         <source>Browse From Multiple Locations</source>
+        <target>Böngésszen több helyről</target>
         <note>Subheading on the VPN onboarding card. Explains that the user can choose which country their browsing appears to come from.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.Title.v160" xml:space="preserve">
         <source>Try %1$@’s Built-In VPN</source>
+        <target>Próbálja ki a %1$@ beépített VPN-jét</target>
         <note>Title of an onboarding card that introduces the built-in VPN. %1$@ is the app name (for example, Firefox).</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.WifiBody.v160" xml:space="preserve">
         <source>Add extra protection in %1$@ when you browse on the go.</source>
+        <target>Adjon extra védelmet a %1$@hoz, ha útközben böngészik.</target>
         <note>Body text below the “More Privacy On Public Wi-Fi” (VPN.Onboarding.WifiSubheading.v160) subheading on the VPN onboarding card. %1$@ is the app name (for example, Firefox).</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.WifiSubheading.v160" xml:space="preserve">
         <source>More Privacy On Public Wi-Fi</source>
+        <target>Nagyobb adatvédelem a nyilvános Wi-Fi-hálózatokon</target>
         <note>Subheading on the VPN onboarding card. Explains that the VPN gives the user more privacy when they use public Wi-Fi networks.</note>
       </trans-unit>
     </body>
@@ -9153,70 +9167,87 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.FindingLocationsText.v160" xml:space="preserve">
         <source>Finding Locations…</source>
+        <target>Helyek keresése…</target>
         <note>Text displayed on the locations screen when the app loads a list of locations for the user to pick from. “Locations” here means the locations of VPN servers the user can connect to.</note>
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.RecommendedMainText.v160" xml:space="preserve">
         <source>Recommended</source>
+        <target>Ajánlott</target>
         <note>Option in the VPN server location list. Choosing it lets the app pick the server with the fastest connection.</note>
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.RecommendedSubText.v160" xml:space="preserve">
         <source>%1$@ finds the fastest location.</source>
+        <target>A %1$@ megkeresi a leggyorsabb helyet.</target>
         <note>Description below the Recommended option in the VPN server location list. %1$@ is the app name (for example, Firefox).</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.Connecting.v160" xml:space="preserve">
         <source>Connecting…</source>
+        <target>Kapcsolódás…</target>
         <note>Shown next to the VPN switch on the VPN settings screen while the VPN is connecting, right after the user turns it on.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataLimitResetFooter.v160" xml:space="preserve">
         <source>Resets to %1$@ GB on the first of every month</source>
+        <target>Minden hónap elsején %1$@ GB-ra áll vissza</target>
         <note>Footer below the Data Limit section on the VPN settings screen. Explains when the user's free VPN data resets. %1$@ is the monthly limit in gigabytes (for example, 5.0). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataLimitTitle.v160" xml:space="preserve">
         <source>Data Limit</source>
+        <target>Adatkorlát</target>
         <note>Title of the section on the VPN settings screen that shows how much of the user's free monthly VPN data they have used.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataUsage.AccessibilityLabel.v160" xml:space="preserve">
         <source>%1$@ of %2$@ gigabytes used</source>
+        <target>%1$@ / %2$@ gigabájt felhasználva</target>
         <note>Read aloud by VoiceOver for the data usage on the VPN settings screen. Same as the visible text, but with “gigabytes” written out instead of “GB”. %1$@ is the amount of VPN data used this month and %2$@ is the monthly limit (for example, “1.0 of 5.0 gigabytes used”).</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataUsage.v160" xml:space="preserve">
         <source>%1$@ of %2$@ GB used</source>
+        <target>%1$@ / %2$@ GB felhasználva</target>
         <note>Shown next to the Data Limit title on the VPN settings screen. %1$@ is the amount of VPN data used this month and %2$@ is the monthly limit, both in gigabytes (for example, “1.0 of 5.0 GB used”). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.Description.v160" xml:space="preserve">
         <source>Browse with extra protection by hiding your location, even on public Wi-Fi.</source>
+        <target>Böngésszen a tartózkodási helyének elrejtésével, extra védelemmel, még nyilvános Wi-Fi-n is.</target>
         <note>Short description below the title at the top of the VPN settings screen. Explains what the VPN does.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.LearnMore.v160" xml:space="preserve">
         <source>Learn more…</source>
+        <target>További tudnivalók…</target>
         <note>Link below the description at the top of the VPN settings screen. Tapping it opens a support article about the VPN.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.LocationRecommended.v160" xml:space="preserve">
         <source>Recommended</source>
+        <target>Ajánlott</target>
         <note>Shown on the right side of the Location row on the VPN settings screen when the user lets Firefox select the location in their stead. The recommended location is the one with the fastest connection.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.LocationTitle.v160" xml:space="preserve">
         <source>Location</source>
+        <target>Hely</target>
         <note>Used in two places: as the name of a row on the VPN settings screen, and as the title of the screen that row opens. On that screen, the user picks which VPN server location (country or region) to connect through. “Location” means the VPN server’s location, not the user’s own location.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.StatusOff.v160" xml:space="preserve">
         <source>Off</source>
+        <target>Ki</target>
         <note>VPN status shown when the VPN is not connected. Used in two places: on the right side of the VPN row in the Privacy section of Settings, and on the small capsule-shaped VPN status indicator.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.StatusOn.v160" xml:space="preserve">
         <source>On</source>
+        <target>Be</target>
         <note>VPN status shown when the VPN is connected. Used in two places: on the right side of the VPN row in the Privacy section of Settings, and on the small capsule-shaped VPN status indicator.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.StatusPaused.v160" xml:space="preserve">
         <source>Paused</source>
+        <target>Szüneteltetve</target>
         <note>VPN status shown when the VPN is temporarily paused. Used in two places: on the right side of the VPN row in the Privacy section of Settings, and on the small capsule-shaped VPN status indicator.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.Title.v160" xml:space="preserve">
         <source>Built-In VPN</source>
+        <target>Beépített VPN</target>
         <note>Name of the VPN row in the Privacy section of Settings. Also used as the title of the VPN settings screen.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.ToggleTitle.v160" xml:space="preserve">
         <source>VPN</source>
+        <target>VPN</target>
         <note>Used in two places: as the label for the toggle switch on the VPN settings screen that turns the VPN on or off, and as the label on the small capsule-shaped VPN status indicator, where it appears together with the current status (On, Off or Paused).</note>
       </trans-unit>
     </body>
@@ -10025,6 +10056,7 @@ A %2$@ból 🦊 küldve. %3$@</target>
     <body>
       <trans-unit id="VPN.DataLimitRefreshNotification.Body.v160" xml:space="preserve">
         <source>Your free monthly VPN data has refreshed.</source>
+        <target>Az ingyenes havi VPN-adatkerete megújult.</target>
         <note>Body text of the system notification telling the user their free monthly VPN data has reset.</note>
       </trans-unit>
       <trans-unit id="VPN.DataLimitRefreshNotification.Title.v160" xml:space="preserve">
