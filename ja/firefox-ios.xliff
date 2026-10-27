@@ -101,6 +101,7 @@
       </trans-unit>
       <trans-unit id="QuickActions.CombineWindows.Title.v155" xml:space="preserve">
         <source>Combine Windows</source>
+        <target>ウインドウを集める</target>
         <note>On iPad, label for the home screen Quick Action (long-press the app icon) that combines the tabs from all other open Firefox windows into the current window and closes those other windows.</note>
       </trans-unit>
       <trans-unit id="Send to Device" xml:space="preserve">
@@ -4580,46 +4581,57 @@ Private Tab</source>
     <body>
       <trans-unit id="BrowserDataTransfer.ImportFailure.DismissButton.v160" xml:space="preserve">
         <source>Dismiss</source>
+        <target>閉じる</target>
         <note>Button that dismisses the alert shown when Firefox could not finish importing data from another browser.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportFailure.Message.v160" xml:space="preserve">
         <source>Try again later.</source>
+        <target>後でもう一度試してください。</target>
         <note>Message of the alert shown when Firefox could not finish importing data from another browser.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportFailure.Title.v160" xml:space="preserve">
         <source>Couldn’t Import from %@</source>
+        <target>%@ から読み込めませんでした</target>
         <note>Title of the alert shown when Firefox could not finish importing data from another browser. %@ is the name of the other browser, for example Safari. Data imported before the error is kept.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportSuccess.GotItButton.v160" xml:space="preserve">
         <source>Got It</source>
+        <target>了解</target>
         <note>Button that dismisses the alert shown after Firefox finishes importing data from another browser.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportSuccess.Message.v160" xml:space="preserve">
         <source>Your imported data is ready to use in %@.</source>
+        <target>読み込んだデータが %@ で使用できるようになりました。</target>
         <note>Message of the alert shown after Firefox finishes importing data from another browser. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportSuccess.Title.v160" xml:space="preserve">
         <source>%@ Import Complete</source>
+        <target>%@ からの読み込みが完了しました</target>
         <note>Title of the alert shown after Firefox finishes importing data from another browser. %@ is the name of the other browser, for example Safari.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportedBookmarksFolder.Title.v160" xml:space="preserve">
         <source>Imported %@</source>
+        <target>読み込み日: %@</target>
         <note>Name of the bookmarks folder that holds bookmarks imported from another browser. %@ is the date when the import happens, formatted for the user’s locale without the time.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.Settings.ExportButton.v160" xml:space="preserve">
         <source>Export to Another Browser</source>
+        <target>別のブラウザーに書き出す</target>
         <note>On the Data Management screen in Settings, the button that starts sending Firefox bookmarks, history, and reading lists to another browser installed on the device.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.Settings.ImportButton.v160" xml:space="preserve">
         <source>Import from Another Browser</source>
+        <target>別のブラウザーから読み込む</target>
         <note>On the Data Management screen in Settings, the button that starts importing bookmarks, history, and reading lists from another browser installed on the device into Firefox.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.Settings.SectionTitle.v160" xml:space="preserve">
         <source>Data Import and Export</source>
+        <target>データの読み込みと書き出し</target>
         <note>On the Data Management screen in Settings, the header of the section that contains the actions to import data from, or export data to, another browser installed on the device.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.Settings.SupportedDataFooter.v160" xml:space="preserve">
         <source>Bring bookmarks, history, and reading lists into %1$@, or send your %1$@ data to another browser.</source>
+        <target>ブックマーク、履歴、リーディングリストを %1$@ に取り込むか、%1$@ のデータを別のブラウザーへ送信します。</target>
         <note>On the Data Management screen in Settings, the footer below the import and export buttons explaining which kinds of data can be moved between the app and another browser. %1$@ is the app name (e.g. Firefox), used in both places.</note>
       </trans-unit>
     </body>
@@ -6857,10 +6869,12 @@ Check your connection settings and try again.</source>
       </trans-unit>
       <trans-unit id="VPN.ErrorPage.Body.v160" xml:space="preserve">
         <source>Try turning off VPN. If the site still won’t load, refresh the page or check your internet connection.</source>
+        <target>VPN をオフにしてみてください。それでもサイトが表示されない場合は、ページを更新するか、インターネット接続を確認してください。</target>
         <note>Body text of the error page shown when a website fails to load while the VPN is on. Suggests turning off the VPN first, then refreshing the page or checking the internet connection if that doesn't help.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorPage.Title.v160" xml:space="preserve">
         <source>This site can’t be reached.</source>
+        <target>このサイトに到達できません。</target>
         <note>Title of an error page shown when a website fails to load while the VPN is on and the exact cause is unknown. “Can't be reached” means the website couldn't be loaded.</note>
       </trans-unit>
     </body>
@@ -7738,18 +7752,22 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LimitBody.v160" xml:space="preserve">
         <source>Start using it without signing in</source>
+        <target>ログインせずに使い始める</target>
         <note>Body text below the “5 GB, Free Every Month” (VPN.Onboarding.LimitSubheading.v160) subheading on the VPN onboarding card. Explains that the user can start using the VPN without signing in to an account. “it” refers to the VPN.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LimitSubheading.v160" xml:space="preserve">
         <source>%1$@ GB, Free Every Month</source>
+        <target>毎月 %1$@ GB まで無料</target>
         <note>Subheading on the VPN onboarding card. Explains how much VPN data the user gets every month at no cost. %1$@ is the monthly data limit in gigabytes (for example, 5). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LocationsBody.v160" xml:space="preserve">
         <source>Choose a VPN location to help make yours harder to trace.</source>
+        <target>VPN の接続先を選択すると、あなたの現在位置が特定されにくくなります。</target>
         <note>Body text below the “Browse From Multiple Locations” (VPN.Onboarding.LocationsSubheading.v160) subheading on the VPN onboarding card. Explains that choosing a VPN location makes it harder to tell where the user really is. “yours” refers to the user’s location.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LocationsSubheading.v160" xml:space="preserve">
         <source>Browse From Multiple Locations</source>
+        <target>複数の場所から閲覧する</target>
         <note>Subheading on the VPN onboarding card. Explains that the user can choose which country their browsing appears to come from.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.Title.v160" xml:space="preserve">
