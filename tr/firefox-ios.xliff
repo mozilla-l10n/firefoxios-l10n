@@ -7782,6 +7782,7 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.Onboarding.WifiSubheading.v160" xml:space="preserve">
         <source>More Privacy On Public Wi-Fi</source>
+        <target>Herkese açık Wi-Fi ağlarında daha fazla gizlilik</target>
         <note>Subheading on the VPN onboarding card. Explains that the VPN gives the user more privacy when they use public Wi-Fi networks.</note>
       </trans-unit>
     </body>
@@ -9166,6 +9167,7 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.FindingLocationsText.v160" xml:space="preserve">
         <source>Finding Locations…</source>
+        <target>Konumlar aranıyor…</target>
         <note>Text displayed on the locations screen when the app loads a list of locations for the user to pick from. “Locations” here means the locations of VPN servers the user can connect to.</note>
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.RecommendedMainText.v160" xml:space="preserve">
@@ -9190,18 +9192,22 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.Settings.DataLimitTitle.v160" xml:space="preserve">
         <source>Data Limit</source>
+        <target>Veri kotası</target>
         <note>Title of the section on the VPN settings screen that shows how much of the user's free monthly VPN data they have used.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataUsage.AccessibilityLabel.v160" xml:space="preserve">
         <source>%1$@ of %2$@ gigabytes used</source>
+        <target>%2$@/%1$@ gigabayt kullanıldı</target>
         <note>Read aloud by VoiceOver for the data usage on the VPN settings screen. Same as the visible text, but with “gigabytes” written out instead of “GB”. %1$@ is the amount of VPN data used this month and %2$@ is the monthly limit (for example, “1.0 of 5.0 gigabytes used”).</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataUsage.v160" xml:space="preserve">
         <source>%1$@ of %2$@ GB used</source>
+        <target>%1$@/%2$@ GB kullanıldı</target>
         <note>Shown next to the Data Limit title on the VPN settings screen. %1$@ is the amount of VPN data used this month and %2$@ is the monthly limit, both in gigabytes (for example, “1.0 of 5.0 GB used”). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.Description.v160" xml:space="preserve">
         <source>Browse with extra protection by hiding your location, even on public Wi-Fi.</source>
+        <target>Konumunuzu gizleyin, halka açık Wi-Fi ağlarında bile ekstra korumayla gezinin.</target>
         <note>Short description below the title at the top of the VPN settings screen. Explains what the VPN does.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.LearnMore.v160" xml:space="preserve">
@@ -10050,14 +10056,17 @@ Sent from %2$@ 🦊 %3$@</source>
     <body>
       <trans-unit id="VPN.DataLimitRefreshNotification.Body.v160" xml:space="preserve">
         <source>Your free monthly VPN data has refreshed.</source>
+        <target>Aylık ücretsiz VPN kotanız yenilendi.</target>
         <note>Body text of the system notification telling the user their free monthly VPN data has reset.</note>
       </trans-unit>
       <trans-unit id="VPN.DataLimitRefreshNotification.Title.v160" xml:space="preserve">
         <source>%1$@ GB of VPN data is ready</source>
+        <target>%1$@ GB VPN kullanıma hazır</target>
         <note>Title of a system notification telling the user their free monthly VPN data has reset and is ready to use again. %1$@ is the monthly data limit in gigabytes (for example, 5). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.Body.v160" xml:space="preserve">
         <source>VPN isn’t working right now. If you continue browsing, your location may be visible.</source>
+        <target>VPN şu anda çalışmıyor. Gezinmeye devam ederseniz konumunuz görünebilir.</target>
         <note>Body text of the popup shown when the VPN stops working while the user is browsing. Warns that if they keep browsing, websites and other third parties may be able to see their location.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.CloseAllTabs.v160" xml:space="preserve">
@@ -10112,10 +10121,12 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.AltPopupBody.v160" xml:space="preserve">
         <source>All %1$@ GB of VPN data used. Access resets next month.</source>
+        <target>%1$@ GB VPN kotanızın tamamını kullandınız. Erişiminiz gelecek ay sıfırlanacak.</target>
         <note>Alternative body text for the popup shown when the user has used all of their free monthly VPN data. Explains that their VPN data resets at the start of next month. %1$@ is the monthly data limit in gigabytes (for example, 5). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.Body.v160" xml:space="preserve">
         <source>You’ve used all %1$@ GB of VPN data. VPN is off, so your location may be visible if you keep browsing.</source>
+        <target>Aylık %1$@ GB VPN kotanızın tamamını kullandınız. VPN şu anda kapalı, yani gezinmeye devam ederseniz konumunuz açığa çıkabilir.</target>
         <note>Body text of the popup shown when the user has used all of their free monthly VPN data. Explains that the VPN has turned off, so websites may be able to see their location if they keep browsing. %1$@ is the monthly data limit in gigabytes (for example, 5). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.CloseAllTabs.v160" xml:space="preserve">
@@ -10140,6 +10151,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.Title.v160" xml:space="preserve">
         <source>VPN Data Limit Reached</source>
+        <target>VPN kotası doldu</target>
         <note>Title of a popup shown when the user has used all of their free monthly VPN data.</note>
       </trans-unit>
     </body>
