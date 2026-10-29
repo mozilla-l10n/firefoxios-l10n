@@ -3783,10 +3783,12 @@
       </trans-unit>
       <trans-unit id="Search.ResultsAbove.A11yAnnouncement.v158" xml:space="preserve">
         <source>Suggestions above: %d</source>
+        <target>Forslag ovenfor: %d</target>
         <note>When making a new search from the awesome bar, search results appear as the user write new letters in their search. This is the announcement VoiceOver reads to tell the user how many results are available, and that they are located above the address bar. %d is the number of results.</note>
       </trans-unit>
       <trans-unit id="Search.ResultsBelow.A11yAnnouncement.v158" xml:space="preserve">
         <source>Suggestions below: %d</source>
+        <target>Forslag nedenfor: %d</target>
         <note>When making a new search from the awesome bar, search results appear as the user write new letters in their search. This is the announcement VoiceOver reads to tell the user how many results are available, and that they are located below the address bar. %d is the number of results.</note>
       </trans-unit>
       <trans-unit id="Search.SponsoredSuggestionDescription.v119" xml:space="preserve">
@@ -4578,46 +4580,57 @@ Private Tab</source>
     <body>
       <trans-unit id="BrowserDataTransfer.ImportFailure.DismissButton.v160" xml:space="preserve">
         <source>Dismiss</source>
+        <target>Afvis</target>
         <note>Button that dismisses the alert shown when Firefox could not finish importing data from another browser.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportFailure.Message.v160" xml:space="preserve">
         <source>Try again later.</source>
+        <target>Prøv igen senere.</target>
         <note>Message of the alert shown when Firefox could not finish importing data from another browser.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportFailure.Title.v160" xml:space="preserve">
         <source>Couldn’t Import from %@</source>
+        <target>Kunne ikke importere fra %@</target>
         <note>Title of the alert shown when Firefox could not finish importing data from another browser. %@ is the name of the other browser, for example Safari. Data imported before the error is kept.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportSuccess.GotItButton.v160" xml:space="preserve">
         <source>Got It</source>
+        <target>Forstået</target>
         <note>Button that dismisses the alert shown after Firefox finishes importing data from another browser.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportSuccess.Message.v160" xml:space="preserve">
         <source>Your imported data is ready to use in %@.</source>
+        <target>Dine importerede data er klar til brug i %@.</target>
         <note>Message of the alert shown after Firefox finishes importing data from another browser. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportSuccess.Title.v160" xml:space="preserve">
         <source>%@ Import Complete</source>
+        <target>Import fra %@ fuldført</target>
         <note>Title of the alert shown after Firefox finishes importing data from another browser. %@ is the name of the other browser, for example Safari.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportedBookmarksFolder.Title.v160" xml:space="preserve">
         <source>Imported %@</source>
+        <target>Importeret %@</target>
         <note>Name of the bookmarks folder that holds bookmarks imported from another browser. %@ is the date when the import happens, formatted for the user’s locale without the time.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.Settings.ExportButton.v160" xml:space="preserve">
         <source>Export to Another Browser</source>
+        <target>Eksporter til en anden browser</target>
         <note>On the Data Management screen in Settings, the button that starts sending Firefox bookmarks, history, and reading lists to another browser installed on the device.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.Settings.ImportButton.v160" xml:space="preserve">
         <source>Import from Another Browser</source>
+        <target>Importer fra en anden browser</target>
         <note>On the Data Management screen in Settings, the button that starts importing bookmarks, history, and reading lists from another browser installed on the device into Firefox.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.Settings.SectionTitle.v160" xml:space="preserve">
         <source>Data Import and Export</source>
+        <target>Import og eksport af data</target>
         <note>On the Data Management screen in Settings, the header of the section that contains the actions to import data from, or export data to, another browser installed on the device.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.Settings.SupportedDataFooter.v160" xml:space="preserve">
         <source>Bring bookmarks, history, and reading lists into %1$@, or send your %1$@ data to another browser.</source>
+        <target>Hent bogmærker, historik og læselister til %1$@, eller send dine %1$@-data til en anden browser.</target>
         <note>On the Data Management screen in Settings, the footer below the import and export buttons explaining which kinds of data can be moved between the app and another browser. %1$@ is the app name (e.g. Firefox), used in both places.</note>
       </trans-unit>
     </body>
@@ -6755,14 +6768,19 @@ Private Tab</source>
         <source>The site may be temporarily unavailable, it may have moved to a different address, or your firewall or proxy may be blocking the connection.
 
 Check your connection settings and try again.</source>
+        <target>Webstedet er muligvis midlertidigt utilgængeligt, det er muligvis flyttet til en anden adresse, eller din firewall eller proxy blokerer muligvis forbindelsen.
+
+Kontroller dine forbindelsesindstillinger, og prøv igen.</target>
         <note>Additional explanation displayed on the native error page for the generic error. Lists possible causes and advises the user to check their connection settings and try again.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.Description.v158.withURL" xml:space="preserve">
         <source>%1$@ couldn’t connect to %2$@.</source>
+        <target>%1$@ kunne ikke oprette forbindelse til %2$@.</target>
         <note>First sentence of the generic error description when the requested URL is known. %1$@ is the app name and %2$@ is the requested URL.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.Description.v158.withoutURL" xml:space="preserve">
         <source>%1$@ couldn’t reach the requested URL.</source>
+        <target>%1$@ kunne ikke få kontakt med den ønskede URL.</target>
         <note>First sentence of the generic error description when the requested URL is not available. %1$@ is the app name.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.TitleLabel.v131" xml:space="preserve">
@@ -6772,6 +6790,7 @@ Check your connection settings and try again.</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.TitleLabel.v158" xml:space="preserve">
         <source>Looks like there’s a problem with this site</source>
+        <target>Det ser ud til, at der er et problem med dette websted</target>
         <note>On error page, this is the title for generic error.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GoBackButton.v149" xml:space="preserve">
@@ -6846,10 +6865,12 @@ Check your connection settings and try again.</source>
       </trans-unit>
       <trans-unit id="VPN.ErrorPage.Body.v160" xml:space="preserve">
         <source>Try turning off VPN. If the site still won’t load, refresh the page or check your internet connection.</source>
+        <target>Prøv at slå VPN fra. Hvis webstedet stadig ikke indlæses, skal du opdatere siden eller kontrollere din internetforbindelse.</target>
         <note>Body text of the error page shown when a website fails to load while the VPN is on. Suggests turning off the VPN first, then refreshing the page or checking the internet connection if that doesn't help.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorPage.Title.v160" xml:space="preserve">
         <source>This site can’t be reached.</source>
+        <target>Dette websted kan ikke nås.</target>
         <note>Title of an error page shown when a website fails to load while the VPN is on and the exact cause is unknown. “Can't be reached” means the website couldn't be loaded.</note>
       </trans-unit>
     </body>
