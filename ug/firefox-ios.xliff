@@ -4076,6 +4076,26 @@ Private Tab</source>
         <target>يىلنامىگە قوشامدۇ؟</target>
         <note>When tapping on a link, on a website in order to download a file and that file is a calendar file, an alert comes up asking to confirm if you want to add the event to the device calendar. This is the title for the alert.</note>
       </trans-unit>
+      <trans-unit id="Alerts.ConfigurationProfile.Body.v160.1" xml:space="preserve">
+        <source>%@ is asking to download a configuration profile. You can review and install it in Settings.</source>
+        <note>Message of dialogue window. Prompts the user to confirm they want to download a configuration profile that can be installed in device settings. %@ is the name/domain of the website initiating the download, for example 'google.com'</note>
+      </trans-unit>
+      <trans-unit id="Alerts.ConfigurationProfile.BodyDefault.v160.1" xml:space="preserve">
+        <source>This site is asking to download a configuration profile. You can review and install it in Settings.</source>
+        <note>Message of dialogue window. Prompts the user to confirm they want to download a configuration profile that can be installed in device settings. This variant is displayed when the website initiating the download doesn't have a base domain to display.</note>
+      </trans-unit>
+      <trans-unit id="Alerts.ConfigurationProfile.Button.Cancel.v160.1" xml:space="preserve">
+        <source>Cancel</source>
+        <note>Secondary Button in dialogue window. If tapped, cancels the download and closes the window.</note>
+      </trans-unit>
+      <trans-unit id="Alerts.ConfigurationProfile.Button.Continue.v160.1" xml:space="preserve">
+        <source>Continue</source>
+        <note>Primary Button in dialogue window. If tapped, confirms the user wants to download the configuration profile and the download starts.</note>
+      </trans-unit>
+      <trans-unit id="Alerts.ConfigurationProfile.Title.v160.1" xml:space="preserve">
+        <source>Download configuration profile?</source>
+        <note>Title of dialogue window. Prompts the user to confirm they want to download a configuration profile that can be installed in device settings.</note>
+      </trans-unit>
       <trans-unit id="Alerts.FeltDeletion.Body.v122" xml:space="preserve">
         <source>Close all private tabs and delete history, cookies, and all other site data.</source>
         <target>بارلىق شەخسىي بەتكۈچلەرنى تاقاپ، تارىخ، ساقلانما ۋە باشقا تور بېكەت سانلىق مەلۇماتلىرىنى ئۆچۈرىدۇ.</target>
@@ -9091,9 +9111,17 @@ Secondary button on the onboarding card that prompts users to enable syncing for
         <source>%1$@ finds the fastest location.</source>
         <note>Description below the Recommended option in the VPN server location list. %1$@ is the app name (for example, Firefox).</note>
       </trans-unit>
+      <trans-unit id="VPN.Settings.Connected.v161" xml:space="preserve">
+        <source>VPN connected</source>
+        <note>Announced by VoiceOver on the VPN settings screen when the VPN finishes connecting after the user turns on the VPN switch.</note>
+      </trans-unit>
       <trans-unit id="VPN.Settings.Connecting.v160" xml:space="preserve">
         <source>Connecting…</source>
         <note>Shown next to the VPN switch on the VPN settings screen while the VPN is connecting, right after the user turns it on.</note>
+      </trans-unit>
+      <trans-unit id="VPN.Settings.DataLimit.AccessibilityValue.v161" xml:space="preserve">
+        <source>%1$@ of %2$@ gigabytes used. Resets on the first of every month.</source>
+        <note>Read aloud by VoiceOver for the Data Limit section on the VPN settings screen. %1$@ is the amount of VPN data used this month and %2$@ is the monthly limit, both in gigabytes (for example, “1.0 of 5.0 gigabytes used”). The second sentence explains that the user’s free monthly VPN data resets on the first day of each month.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataLimitResetFooter.v160" xml:space="preserve">
         <source>Resets to %1$@ GB on the first of every month</source>
