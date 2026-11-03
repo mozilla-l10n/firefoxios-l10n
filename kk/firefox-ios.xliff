@@ -4077,22 +4077,27 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Alerts.ConfigurationProfile.Body.v160.1" xml:space="preserve">
         <source>%@ is asking to download a configuration profile. You can review and install it in Settings.</source>
+        <target>%@ конфигурация профилін жүктеп алуды сұрайды. Оны Баптауларда тексеріп, орнатуға болады.</target>
         <note>Message of dialogue window. Prompts the user to confirm they want to download a configuration profile that can be installed in device settings. %@ is the name/domain of the website initiating the download, for example 'google.com'</note>
       </trans-unit>
       <trans-unit id="Alerts.ConfigurationProfile.BodyDefault.v160.1" xml:space="preserve">
         <source>This site is asking to download a configuration profile. You can review and install it in Settings.</source>
+        <target>Бұл сайт конфигурация профилін жүктеп алуды сұрайды. Оны Баптауларда тексеріп, орнатуға болады.</target>
         <note>Message of dialogue window. Prompts the user to confirm they want to download a configuration profile that can be installed in device settings. This variant is displayed when the website initiating the download doesn't have a base domain to display.</note>
       </trans-unit>
       <trans-unit id="Alerts.ConfigurationProfile.Button.Cancel.v160.1" xml:space="preserve">
         <source>Cancel</source>
+        <target>Бас тарту</target>
         <note>Secondary Button in dialogue window. If tapped, cancels the download and closes the window.</note>
       </trans-unit>
       <trans-unit id="Alerts.ConfigurationProfile.Button.Continue.v160.1" xml:space="preserve">
         <source>Continue</source>
+        <target>Жалғастыру</target>
         <note>Primary Button in dialogue window. If tapped, confirms the user wants to download the configuration profile and the download starts.</note>
       </trans-unit>
       <trans-unit id="Alerts.ConfigurationProfile.Title.v160.1" xml:space="preserve">
         <source>Download configuration profile?</source>
+        <target>Конфигурация профилін жүктеп алу керек пе?</target>
         <note>Title of dialogue window. Prompts the user to confirm they want to download a configuration profile that can be installed in device settings.</note>
       </trans-unit>
       <trans-unit id="Alerts.FeltDeletion.Body.v122" xml:space="preserve">
@@ -6889,6 +6894,7 @@ Check your connection settings and try again.</source>
       </trans-unit>
       <trans-unit id="VPN.ErrorPage.Body.v160" xml:space="preserve">
         <source>Try turning off VPN. If the site still won’t load, refresh the page or check your internet connection.</source>
+        <target>VPN-ді сөндіріп көріңіз. Егер сайт әлі де жүктелмесе, бетті жаңартыңыз немесе интернет қосылымыңызды тексеріңіз.</target>
         <note>Body text of the error page shown when a website fails to load while the VPN is on. Suggests turning off the VPN first, then refreshing the page or checking the internet connection if that doesn't help.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorPage.Title.v160" xml:space="preserve">
@@ -7771,22 +7777,27 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LimitBody.v160" xml:space="preserve">
         <source>Start using it without signing in</source>
+        <target>Жүйеге кірмей-ақ пайдалана бастау</target>
         <note>Body text below the “5 GB, Free Every Month” (VPN.Onboarding.LimitSubheading.v160) subheading on the VPN onboarding card. Explains that the user can start using the VPN without signing in to an account. “it” refers to the VPN.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LimitSubheading.v160" xml:space="preserve">
         <source>%1$@ GB, Free Every Month</source>
+        <target>%1$@ ГБ, ай сайын тегін</target>
         <note>Subheading on the VPN onboarding card. Explains how much VPN data the user gets every month at no cost. %1$@ is the monthly data limit in gigabytes (for example, 5). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LocationsBody.v160" xml:space="preserve">
         <source>Choose a VPN location to help make yours harder to trace.</source>
+        <target>Өзіңіздің орналасуыңызды бақылауды қиындату үшін VPN орналасуын таңдаңыз.</target>
         <note>Body text below the “Browse From Multiple Locations” (VPN.Onboarding.LocationsSubheading.v160) subheading on the VPN onboarding card. Explains that choosing a VPN location makes it harder to tell where the user really is. “yours” refers to the user’s location.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LocationsSubheading.v160" xml:space="preserve">
         <source>Browse From Multiple Locations</source>
+        <target>Бірнеше орналасудан шолу</target>
         <note>Subheading on the VPN onboarding card. Explains that the user can choose which country their browsing appears to come from.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.Title.v160" xml:space="preserve">
         <source>Try %1$@’s Built-In VPN</source>
+        <target>%1$@ ішіндегі кіріктірілген VPN қызметін қолданып көріңіз</target>
         <note>Title of an onboarding card that introduces the built-in VPN. %1$@ is the app name (for example, Firefox).</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.WifiBody.v160" xml:space="preserve">
@@ -7795,6 +7806,7 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.Onboarding.WifiSubheading.v160" xml:space="preserve">
         <source>More Privacy On Public Wi-Fi</source>
+        <target>Ашық Wi-Fi желілерінде көбірек жекелік</target>
         <note>Subheading on the VPN onboarding card. Explains that the VPN gives the user more privacy when they use public Wi-Fi networks.</note>
       </trans-unit>
     </body>
@@ -9179,22 +9191,27 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.FindingLocationsText.v160" xml:space="preserve">
         <source>Finding Locations…</source>
+        <target>Орналасулар ізделуде…</target>
         <note>Text displayed on the locations screen when the app loads a list of locations for the user to pick from. “Locations” here means the locations of VPN servers the user can connect to.</note>
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.RecommendedMainText.v160" xml:space="preserve">
         <source>Recommended</source>
+        <target>Ұсынылатын</target>
         <note>Option in the VPN server location list. Choosing it lets the app pick the server with the fastest connection.</note>
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.RecommendedSubText.v160" xml:space="preserve">
         <source>%1$@ finds the fastest location.</source>
+        <target>%1$@ ең жылдам орналасқан жерді табады.</target>
         <note>Description below the Recommended option in the VPN server location list. %1$@ is the app name (for example, Firefox).</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.Connected.v161" xml:space="preserve">
         <source>VPN connected</source>
+        <target>VPN қосылды</target>
         <note>Announced by VoiceOver on the VPN settings screen when the VPN finishes connecting after the user turns on the VPN switch.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.Connecting.v160" xml:space="preserve">
         <source>Connecting…</source>
+        <target>Қосылуда…</target>
         <note>Shown next to the VPN switch on the VPN settings screen while the VPN is connecting, right after the user turns it on.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataLimit.AccessibilityValue.v161" xml:space="preserve">
@@ -10081,30 +10098,37 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.CloseAllTabs.v160" xml:space="preserve">
         <source>Close All Tabs</source>
+        <target>Барлық беттерді жабу</target>
         <note>Button on the popup shown when the VPN stops working while the user is browsing. Tapping it closes all of the user's open tabs.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.CloseThisTab.v160" xml:space="preserve">
         <source>Close This Tab</source>
+        <target>Бұл бетті жабу</target>
         <note>Button on the popup shown when the VPN stops working while the user is browsing. Tapping it closes only the tab the user is currently viewing.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.ClosedOneTab.v160" xml:space="preserve">
         <source>Closed 1 Tab</source>
+        <target>1 бет жабылды</target>
         <note>Confirmation shown after the user closes a single tab from the popup that appears when the VPN stops working while browsing.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.ClosedXTabs.v160" xml:space="preserve">
         <source>Closed %1$@ Tabs</source>
+        <target>%1$@ бет жабылды</target>
         <note>Confirmation shown after the user closes more than one tab from the popup that appears when the VPN stops working while browsing. %1$@ is the number of tabs that were closed (for example, 3).</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.Continue.v160" xml:space="preserve">
         <source>Continue Without VPN</source>
+        <target>VPN-сіз жалғастыру</target>
         <note>Button on the popup shown when the VPN stops working while the user is browsing. Tapping it closes the popup so the user can keep browsing without the VPN.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.Title.v160" xml:space="preserve">
         <source>Continue Without VPN?</source>
+        <target>VPN-сіз жалғастыру керек пе?</target>
         <note>Title of a popup shown when the VPN stops working while the user is browsing with it on. Asks if the user wants to keep browsing without the VPN.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorConnectingPopup.Body.v160" xml:space="preserve">
         <source>Try again in a few minutes.</source>
+        <target>Бірнеше минуттан кейін қайталап көріңіз.</target>
         <note>Body text of the popup shown when the app fails to connect to the VPN. “Try again” means try connecting to the VPN again.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorConnectingPopup.CloseButtonText.v160" xml:space="preserve">
