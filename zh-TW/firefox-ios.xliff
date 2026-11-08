@@ -2146,7 +2146,7 @@
       </trans-unit>
       <trans-unit id="SendTo.DeviceList.Text" xml:space="preserve">
         <source>Available devices:</source>
-        <target>可用裝置:</target>
+        <target>可用裝置：</target>
         <note>Header for the list of devices table</note>
       </trans-unit>
       <trans-unit id="SendTo.Error.Message" xml:space="preserve">
@@ -2421,7 +2421,7 @@
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.SectionFooter" xml:space="preserve">
         <source>The theme will automatically change based on your display brightness. You can set the threshold where the theme changes. The circle indicates your display’s current brightness.</source>
-        <target>佈景主題將自動根據螢幕顯示亮度自動切換。您可以設定要切換的門檻，而圈圈是目前的亮度。</target>
+        <target>佈景主題將根據螢幕顯示亮度自動切換。您可以設定要切換的門檻，而圈圈是目前的亮度。</target>
         <note>Display (theme) settings footer describing how the brightness slider works.</note>
       </trans-unit>
       <trans-unit id="Settings.DisplayTheme.StatusTitle" xml:space="preserve">
@@ -2571,7 +2571,7 @@
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.Accessibility.DefaultWallpaper.v99" xml:space="preserve">
         <source>Default clear wallpaper.</source>
-        <target>預設的明亮 Firefox 背景圖</target>
+        <target>預設的無圖案背景圖</target>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the accessibility string for the default wallpaper.</note>
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.Accessibility.SunriseWallpaper.v99" xml:space="preserve">
@@ -3271,7 +3271,7 @@
       </trans-unit>
       <trans-unit id="TopSites.RemovePage.Button" xml:space="preserve">
         <source>Remove page — %@</source>
-        <target>移除頁面 - %@</target>
+        <target>移除頁面 — %@</target>
         <note>Button shown in editing mode to remove this site from the top sites panel. %@ is the title of the site.</note>
       </trans-unit>
       <trans-unit id="TranslationToastHandler.PromptTranslate.Cancel" xml:space="preserve">
@@ -3882,7 +3882,7 @@ Copied Link</source>
       </trans-unit>
       <trans-unit id="TodayWidget.NewTabButtonLabelV1" xml:space="preserve">
         <source>New Search</source>
-        <target>新搜尋結果</target>
+        <target>新搜尋</target>
         <note>Open New Tab button label</note>
       </trans-unit>
       <trans-unit id="TodayWidget.NoOpenTabsLabel" xml:space="preserve">
@@ -5358,7 +5358,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.TrackersStrictModeFooterText.v150" xml:space="preserve">
         <source>Strict blocks more trackers by stopping them before a page loads, so you may see a lower tracker count. %@</source>
-        <target>嚴格模式會在頁面開始載入前就自動封鎖，所以您看到的追蹤器數量可能較少。%@</target>
+        <target>嚴格模式會在頁面開始載入前就封鎖更多追蹤器，所以您看到的追蹤器數量可能較少。%@</target>
         <note>Text to let users know how strict mode for Tracking Protection work. %@ is a tappable text which contains a link with more information about current Tracking Protection mode. e.g Learn more</note>
       </trans-unit>
       <trans-unit id="Menu.EnhancedTrackingProtection.Details.Verifier.v128" xml:space="preserve">
@@ -5435,7 +5435,7 @@ Private Tab</source>
     <body>
       <trans-unit id="CreditCard.ErrorState.CardExpirationDateSublabel.v112" xml:space="preserve">
         <source>Enter a valid expiration date</source>
-        <target>請輸入有效的到期年分</target>
+        <target>請輸入有效的到期日</target>
         <note>Sub label error string that gets shown when user enters incorrect input for their expiration date on their credit card in the text box.</note>
       </trans-unit>
       <trans-unit id="CreditCard.ErrorState.CardNumberSublabel.v112" xml:space="preserve">
@@ -7113,7 +7113,7 @@ Check your connection settings and try again.</source>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.BrandRefresh.Marketing.Description.v148" xml:space="preserve">
         <source>Share how you discovered %1$@, and that you use it, with %2$@’s marketing partners. This data is never sold.</source>
-        <target>與 %2$@ 的行銷夥伴分享您如何發現 %1$@ 以及是如何使用的，我們絕不會販售此資料。</target>
+        <target>與 %2$@ 的行銷夥伴分享您如何發現 %1$@ 以及您正在使用它，我們絕不會販售此資料。</target>
         <note>Description for the marketing data sharing card in the v148 brand refresh onboarding flow. %1$@ is the app name (e.g. Firefox), %2$@ is the company name (e.g. Mozilla).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Modern.BrandRefresh.Marketing.LearnMoreLink.v148" xml:space="preserve">
@@ -8216,7 +8216,7 @@ Secondary button on the onboarding card that prompts users to enable syncing for
     <body>
       <trans-unit id="RelayMask.RelayEmailMaskAvailableCFR.v146" xml:space="preserve">
         <source>New! %@ Relay email masks are now available on mobile.</source>
-        <target>新功能！現在起行動板也提供 %@ Relay 轉寄信箱功能。</target>
+        <target>新功能！現在起行動版也提供 %@ Relay 轉寄信箱功能。</target>
         <note>Displayed in a CFR help message to inform users about the availability of Relay email masking features now being available on mobile. %@ is the name of the app (e.g. 'Firefox')</note>
       </trans-unit>
       <trans-unit id="RelayMask.RelayEmailMaskFreeTierLimitReached.v147" xml:space="preserve">
@@ -8997,7 +8997,7 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.SearchBrowsingHistory.Title.v124" xml:space="preserve">
         <source>Search Browsing History</source>
-        <target>顯示瀏覽紀錄</target>
+        <target>搜尋瀏覽紀錄</target>
         <note>In the Search page of the Settings menu, the title for the setting to enable search browsing history.</note>
       </trans-unit>
       <trans-unit id="Settings.Search.Suggest.SearchSearchBookmarks.Title.v124" xml:space="preserve">
@@ -9107,7 +9107,7 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="Settings.TechnicalData.Message.v136" xml:space="preserve">
         <source>Data about your device, hardware configuration, and usage helps us improve %@ features, performance and stability.</source>
-        <target>關於您的裝置、硬體設定，以及您的使用方式，可幫助我們改善 %@ 的功能、效能與穩定度。</target>
+        <target>關於您的裝置、硬體設定，以及您的使用方式的資料，可幫助我們改善 %@ 的功能、效能與穩定度。</target>
         <note>On the Settings screen, this is the subtitle text for a toggle which controls sending technical and interaction data. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Settings.TechnicalData.Title.v136" xml:space="preserve">
@@ -9548,7 +9548,7 @@ Sent from %2$@ 🦊 %3$@</source>
     <body>
       <trans-unit id="Address.Bar.Reload.A11y.Hint.v124" xml:space="preserve">
         <source>Double tap and hold for more options</source>
-        <target>雙擊後按住即可取得更多資訊</target>
+        <target>雙擊後按住即可取得更多選項</target>
         <note>Accessibility hint for the reload button</note>
       </trans-unit>
       <trans-unit id="TabLocation.ETP.Off.NotSecure.A11y.Label.v119" xml:space="preserve">
@@ -10116,7 +10116,7 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.Body.v160" xml:space="preserve">
         <source>VPN isn’t working right now. If you continue browsing, your location may be visible.</source>
-        <target>目前未開啟 VPN。如果繼續上網，網站可能會得知您的所在位置。</target>
+        <target>VPN 目前無法正常運作。如果繼續上網，網站可能會得知您的所在位置。</target>
         <note>Body text of the popup shown when the VPN stops working while the user is browsing. Warns that if they keep browsing, websites and other third parties may be able to see their location.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.CloseAllTabs.v160" xml:space="preserve">
@@ -10131,12 +10131,12 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.ClosedOneTab.v160" xml:space="preserve">
         <source>Closed 1 Tab</source>
-        <target>關閉 1 個分頁</target>
+        <target>已關閉 1 個分頁</target>
         <note>Confirmation shown after the user closes a single tab from the popup that appears when the VPN stops working while browsing.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.ClosedXTabs.v160" xml:space="preserve">
         <source>Closed %1$@ Tabs</source>
-        <target>關閉 %1$@ 個分頁</target>
+        <target>已關閉 %1$@ 個分頁</target>
         <note>Confirmation shown after the user closes more than one tab from the popup that appears when the VPN stops working while browsing. %1$@ is the number of tabs that were closed (for example, 3).</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.Continue.v160" xml:space="preserve">
@@ -10191,12 +10191,12 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.ClosedOneTab.v160" xml:space="preserve">
         <source>Closed 1 Tab</source>
-        <target>關閉 1 個分頁</target>
+        <target>已關閉 1 個分頁</target>
         <note>Confirmation shown after the user closes a single tab from the popup that appears when they run out of free monthly VPN data.</note>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.ClosedXTabs.v160" xml:space="preserve">
         <source>Closed %1$@ Tabs</source>
-        <target>關閉 %1$@ 個分頁</target>
+        <target>已關閉 %1$@ 個分頁</target>
         <note>Confirmation shown after the user closes more than one tab from the popup that appears when they run out of free monthly VPN data. %1$@ is the number of tabs that were closed (for example, 3).</note>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.Title.v160" xml:space="preserve">
