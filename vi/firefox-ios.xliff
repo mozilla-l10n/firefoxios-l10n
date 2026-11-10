@@ -4077,22 +4077,27 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Alerts.ConfigurationProfile.Body.v160.1" xml:space="preserve">
         <source>%@ is asking to download a configuration profile. You can review and install it in Settings.</source>
+        <target>%@ đang yêu cầu tải xuống một cấu hình hệ thống. Bạn có thể xem lại và cài đặt nó trong Cài đặt.</target>
         <note>Message of dialogue window. Prompts the user to confirm they want to download a configuration profile that can be installed in device settings. %@ is the name/domain of the website initiating the download, for example 'google.com'</note>
       </trans-unit>
       <trans-unit id="Alerts.ConfigurationProfile.BodyDefault.v160.1" xml:space="preserve">
         <source>This site is asking to download a configuration profile. You can review and install it in Settings.</source>
+        <target>Trang web này yêu cầu bạn tải xuống một cấu hình hệ thống. Bạn có thể xem xét và cài đặt nó trong phần Cài đặt.</target>
         <note>Message of dialogue window. Prompts the user to confirm they want to download a configuration profile that can be installed in device settings. This variant is displayed when the website initiating the download doesn't have a base domain to display.</note>
       </trans-unit>
       <trans-unit id="Alerts.ConfigurationProfile.Button.Cancel.v160.1" xml:space="preserve">
         <source>Cancel</source>
+        <target>Huỷ bỏ</target>
         <note>Secondary Button in dialogue window. If tapped, cancels the download and closes the window.</note>
       </trans-unit>
       <trans-unit id="Alerts.ConfigurationProfile.Button.Continue.v160.1" xml:space="preserve">
         <source>Continue</source>
+        <target>Tiếp tục</target>
         <note>Primary Button in dialogue window. If tapped, confirms the user wants to download the configuration profile and the download starts.</note>
       </trans-unit>
       <trans-unit id="Alerts.ConfigurationProfile.Title.v160.1" xml:space="preserve">
         <source>Download configuration profile?</source>
+        <target>Tải xuống cấu hình hệ thống?</target>
         <note>Title of dialogue window. Prompts the user to confirm they want to download a configuration profile that can be installed in device settings.</note>
       </trans-unit>
       <trans-unit id="Alerts.FeltDeletion.Body.v122" xml:space="preserve">
@@ -5479,6 +5484,7 @@ Private Tab</source>
     <body>
       <trans-unit id="FirefoxHome.PrivacyNotice.Body.Markdown.v160" xml:space="preserve">
         <source>We’ve updated our [Privacy Notice](PRIVACY_NOTICE_URL) to reflect the latest features in %@.</source>
+        <target>Chúng tôi đã cập nhật [thông báo về quyền riêng tư](PRIVACY_NOTICE_URL) để cung cấp các tính năng mới nhất trong %@.</target>
         <note>Body text for the Privacy Notice update card. This string uses markdown links: [Link text here](URL_PLACEHOLDER_HERE). Translate only the text *inside* square brackets: [Privacy Notice]. For example, “[隐私政策](PRIVACY_NOTICE_URL)”. The PRIVACY_NOTICE_URL placeholder links to the updated policy. The %@ placeholder is the app name (e.g. Firefox). More info: https://www.markdownguide.org/basic-syntax/#links</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.PrivacyNotice.Body.v148" xml:space="preserve">
@@ -5488,6 +5494,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="FirefoxHome.PrivacyNotice.Headline.v160" xml:space="preserve">
         <source>Privacy Notice updated</source>
+        <target>Đã cập nhật Thông báo về quyền riêng tư</target>
         <note>Heading for the Privacy Notice update card, displayed to notify users of recent changes to the terms.</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.PrivacyNotice.LearnMoreLink.v148" xml:space="preserve">
@@ -6897,10 +6904,12 @@ Kiểm tra cài đặt kết nối của bạn và thử lại.</target>
       </trans-unit>
       <trans-unit id="VPN.ErrorPage.Body.v160" xml:space="preserve">
         <source>Try turning off VPN. If the site still won’t load, refresh the page or check your internet connection.</source>
+        <target>Hãy thử tắt VPN. Nếu trang web vẫn không tải được, hãy làm mới trang hoặc kiểm tra kết nối internet của bạn.</target>
         <note>Body text of the error page shown when a website fails to load while the VPN is on. Suggests turning off the VPN first, then refreshing the page or checking the internet connection if that doesn't help.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorPage.Title.v160" xml:space="preserve">
         <source>This site can’t be reached.</source>
+        <target>Không thể truy cập trang web này.</target>
         <note>Title of an error page shown when a website fails to load while the VPN is on and the exact cause is unknown. “Can't be reached” means the website couldn't be loaded.</note>
       </trans-unit>
     </body>
@@ -7778,30 +7787,37 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LimitBody.v160" xml:space="preserve">
         <source>Start using it without signing in</source>
+        <target>Bắt đầu sử dụng mà không cần đăng nhập</target>
         <note>Body text below the “5 GB, Free Every Month” (VPN.Onboarding.LimitSubheading.v160) subheading on the VPN onboarding card. Explains that the user can start using the VPN without signing in to an account. “it” refers to the VPN.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LimitSubheading.v160" xml:space="preserve">
         <source>%1$@ GB, Free Every Month</source>
+        <target>%1$@ GB, miễn phí mỗi tháng</target>
         <note>Subheading on the VPN onboarding card. Explains how much VPN data the user gets every month at no cost. %1$@ is the monthly data limit in gigabytes (for example, 5). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LocationsBody.v160" xml:space="preserve">
         <source>Choose a VPN location to help make yours harder to trace.</source>
+        <target>Chọn địa điểm VPN để giúp việc theo dõi địa điểm của bạn trở nên khó khăn hơn.</target>
         <note>Body text below the “Browse From Multiple Locations” (VPN.Onboarding.LocationsSubheading.v160) subheading on the VPN onboarding card. Explains that choosing a VPN location makes it harder to tell where the user really is. “yours” refers to the user’s location.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LocationsSubheading.v160" xml:space="preserve">
         <source>Browse From Multiple Locations</source>
+        <target>Duyệt từ nhiều địa điểm</target>
         <note>Subheading on the VPN onboarding card. Explains that the user can choose which country their browsing appears to come from.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.Title.v160" xml:space="preserve">
         <source>Try %1$@’s Built-In VPN</source>
+        <target>Hãy thử VPN tích hợp sẵn của %1$@</target>
         <note>Title of an onboarding card that introduces the built-in VPN. %1$@ is the app name (for example, Firefox).</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.WifiBody.v160" xml:space="preserve">
         <source>Add extra protection in %1$@ when you browse on the go.</source>
+        <target>Thêm lớp bảo vệ bổ sung trong %1$@ khi bạn duyệt web trên thiết bị di động.</target>
         <note>Body text below the “More Privacy On Public Wi-Fi” (VPN.Onboarding.WifiSubheading.v160) subheading on the VPN onboarding card. %1$@ is the app name (for example, Firefox).</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.WifiSubheading.v160" xml:space="preserve">
         <source>More Privacy On Public Wi-Fi</source>
+        <target>Bảo mật tốt hơn trên Wi-Fi công cộng</target>
         <note>Subheading on the VPN onboarding card. Explains that the VPN gives the user more privacy when they use public Wi-Fi networks.</note>
       </trans-unit>
     </body>
@@ -8001,6 +8017,7 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="QuickAnswers.ContentView.NewQuestionButton.v161" xml:space="preserve">
         <source>Ask a New Question</source>
+        <target>Đặt câu hỏi mới</target>
         <note>Button shown below a Quick Answers result that the user taps to ask a new, unrelated question.</note>
       </trans-unit>
       <trans-unit id="QuickAnswers.ContentView.Placeholder.v158" xml:space="preserve">
@@ -9190,78 +9207,97 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.FindingLocationsText.v160" xml:space="preserve">
         <source>Finding Locations…</source>
+        <target>Tìm kiếm địa điểm…</target>
         <note>Text displayed on the locations screen when the app loads a list of locations for the user to pick from. “Locations” here means the locations of VPN servers the user can connect to.</note>
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.RecommendedMainText.v160" xml:space="preserve">
         <source>Recommended</source>
+        <target>Được đề xuất</target>
         <note>Option in the VPN server location list. Choosing it lets the app pick the server with the fastest connection.</note>
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.RecommendedSubText.v160" xml:space="preserve">
         <source>%1$@ finds the fastest location.</source>
+        <target>%1$@ tìm địa điểm nhanh nhất.</target>
         <note>Description below the Recommended option in the VPN server location list. %1$@ is the app name (for example, Firefox).</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.Connected.v161" xml:space="preserve">
         <source>VPN connected</source>
+        <target>Đã kết nối VPN</target>
         <note>Announced by VoiceOver on the VPN settings screen when the VPN finishes connecting after the user turns on the VPN switch.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.Connecting.v160" xml:space="preserve">
         <source>Connecting…</source>
+        <target>Đang kết nối…</target>
         <note>Shown next to the VPN switch on the VPN settings screen while the VPN is connecting, right after the user turns it on.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataLimit.AccessibilityValue.v161" xml:space="preserve">
         <source>%1$@ of %2$@ gigabytes used. Resets on the first of every month.</source>
+        <target>Đã sử dụng %1$@ trong số %2$@ gigabyte. Thiết lập lại vào ngày đầu tiên của mỗi tháng.</target>
         <note>Read aloud by VoiceOver for the Data Limit section on the VPN settings screen. %1$@ is the amount of VPN data used this month and %2$@ is the monthly limit, both in gigabytes (for example, “1.0 of 5.0 gigabytes used”). The second sentence explains that the user’s free monthly VPN data resets on the first day of each month.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataLimitResetFooter.v160" xml:space="preserve">
         <source>Resets to %1$@ GB on the first of every month</source>
+        <target>Đặt lại về %1$@ GB vào ngày đầu tiên của mỗi tháng</target>
         <note>Footer below the Data Limit section on the VPN settings screen. Explains when the user's free VPN data resets. %1$@ is the monthly limit in gigabytes (for example, 5.0). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataLimitTitle.v160" xml:space="preserve">
         <source>Data Limit</source>
+        <target>Giới hạn dữ liệu</target>
         <note>Title of the section on the VPN settings screen that shows how much of the user's free monthly VPN data they have used.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataUsage.AccessibilityLabel.v160" xml:space="preserve">
         <source>%1$@ of %2$@ gigabytes used</source>
+        <target>Đã sử dụng %1$@ trên %2$@ gigabyte</target>
         <note>Read aloud by VoiceOver for the data usage on the VPN settings screen. Same as the visible text, but with “gigabytes” written out instead of “GB”. %1$@ is the amount of VPN data used this month and %2$@ is the monthly limit (for example, “1.0 of 5.0 gigabytes used”).</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataUsage.v160" xml:space="preserve">
         <source>%1$@ of %2$@ GB used</source>
+        <target>Đã sử dụng %1$@ trên %2$@ GB</target>
         <note>Shown next to the Data Limit title on the VPN settings screen. %1$@ is the amount of VPN data used this month and %2$@ is the monthly limit, both in gigabytes (for example, “1.0 of 5.0 GB used”). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.Description.v160" xml:space="preserve">
         <source>Browse with extra protection by hiding your location, even on public Wi-Fi.</source>
+        <target>Duyệt web an toàn hơn nhờ tính năng ẩn vị trí, ngay cả khi sử dụng Wi-Fi công cộng.</target>
         <note>Short description below the title at the top of the VPN settings screen. Explains what the VPN does.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.LearnMore.v160" xml:space="preserve">
         <source>Learn more…</source>
+        <target>Tìm hiểu thêm…</target>
         <note>Link below the description at the top of the VPN settings screen. Tapping it opens a support article about the VPN.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.LocationRecommended.v160" xml:space="preserve">
         <source>Recommended</source>
+        <target>Được đề xuất</target>
         <note>Shown on the right side of the Location row on the VPN settings screen when the user lets Firefox select the location in their stead. The recommended location is the one with the fastest connection.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.LocationTitle.v160" xml:space="preserve">
         <source>Location</source>
+        <target>Địa điểm</target>
         <note>Used in two places: as the name of a row on the VPN settings screen, and as the title of the screen that row opens. On that screen, the user picks which VPN server location (country or region) to connect through. “Location” means the VPN server’s location, not the user’s own location.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.StatusOff.v160" xml:space="preserve">
         <source>Off</source>
+        <target>Tắt</target>
         <note>VPN status shown when the VPN is not connected. Used in two places: on the right side of the VPN row in the Privacy section of Settings, and on the small capsule-shaped VPN status indicator.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.StatusOn.v160" xml:space="preserve">
         <source>On</source>
+        <target>Bật</target>
         <note>VPN status shown when the VPN is connected. Used in two places: on the right side of the VPN row in the Privacy section of Settings, and on the small capsule-shaped VPN status indicator.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.StatusPaused.v160" xml:space="preserve">
         <source>Paused</source>
+        <target>Đã tạm dừng</target>
         <note>VPN status shown when the VPN is temporarily paused. Used in two places: on the right side of the VPN row in the Privacy section of Settings, and on the small capsule-shaped VPN status indicator.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.Title.v160" xml:space="preserve">
         <source>Built-In VPN</source>
+        <target>VPN tích hợp sẵn</target>
         <note>Name of the VPN row in the Privacy section of Settings. Also used as the title of the VPN settings screen.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.ToggleTitle.v160" xml:space="preserve">
         <source>VPN</source>
+        <target>VPN</target>
         <note>Used in two places: as the label for the toggle switch on the VPN settings screen that turns the VPN on or off, and as the label on the small capsule-shaped VPN status indicator, where it appears together with the current status (On, Off or Paused).</note>
       </trans-unit>
     </body>
@@ -10070,82 +10106,102 @@ Sent from %2$@ 🦊 %3$@</source>
     <body>
       <trans-unit id="VPN.DataLimitRefreshNotification.Body.v160" xml:space="preserve">
         <source>Your free monthly VPN data has refreshed.</source>
+        <target>Dung lượng VPN miễn phí hàng tháng của bạn đã được làm mới.</target>
         <note>Body text of the system notification telling the user their free monthly VPN data has reset.</note>
       </trans-unit>
       <trans-unit id="VPN.DataLimitRefreshNotification.Title.v160" xml:space="preserve">
         <source>%1$@ GB of VPN data is ready</source>
+        <target>%1$@ GB dữ liệu VPN đã sẵn sàng</target>
         <note>Title of a system notification telling the user their free monthly VPN data has reset and is ready to use again. %1$@ is the monthly data limit in gigabytes (for example, 5). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.Body.v160" xml:space="preserve">
         <source>VPN isn’t working right now. If you continue browsing, your location may be visible.</source>
+        <target>VPN hiện không hoạt động. Nếu bạn tiếp tục duyệt web, vị trí của bạn có thể bị lộ.</target>
         <note>Body text of the popup shown when the VPN stops working while the user is browsing. Warns that if they keep browsing, websites and other third parties may be able to see their location.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.CloseAllTabs.v160" xml:space="preserve">
         <source>Close All Tabs</source>
+        <target>Đóng tất cả các thẻ</target>
         <note>Button on the popup shown when the VPN stops working while the user is browsing. Tapping it closes all of the user's open tabs.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.CloseThisTab.v160" xml:space="preserve">
         <source>Close This Tab</source>
+        <target>Đóng thẻ này</target>
         <note>Button on the popup shown when the VPN stops working while the user is browsing. Tapping it closes only the tab the user is currently viewing.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.ClosedOneTab.v160" xml:space="preserve">
         <source>Closed 1 Tab</source>
+        <target>Đã đóng 1 thẻ</target>
         <note>Confirmation shown after the user closes a single tab from the popup that appears when the VPN stops working while browsing.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.ClosedXTabs.v160" xml:space="preserve">
         <source>Closed %1$@ Tabs</source>
+        <target>Đã đóng %1$@ thẻ</target>
         <note>Confirmation shown after the user closes more than one tab from the popup that appears when the VPN stops working while browsing. %1$@ is the number of tabs that were closed (for example, 3).</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.Continue.v160" xml:space="preserve">
         <source>Continue Without VPN</source>
+        <target>Tiếp tục mà không cần VPN</target>
         <note>Button on the popup shown when the VPN stops working while the user is browsing. Tapping it closes the popup so the user can keep browsing without the VPN.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorBrowsingPopup.Title.v160" xml:space="preserve">
         <source>Continue Without VPN?</source>
+        <target>Tiếp tục mà không cần VPN?</target>
         <note>Title of a popup shown when the VPN stops working while the user is browsing with it on. Asks if the user wants to keep browsing without the VPN.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorConnectingPopup.Body.v160" xml:space="preserve">
         <source>Try again in a few minutes.</source>
+        <target>Hãy thử lại sau vài phút.</target>
         <note>Body text of the popup shown when the app fails to connect to the VPN. “Try again” means try connecting to the VPN again.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorConnectingPopup.CloseButtonText.v160" xml:space="preserve">
         <source>Close</source>
+        <target>Đóng</target>
         <note>Button on the popup shown when the app fails to connect to the VPN. Tapping it closes the popup.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorConnectingPopup.RetryButtonText.v160" xml:space="preserve">
         <source>Retry</source>
+        <target>Thử lại</target>
         <note>Button on the popup shown when the app fails to connect to the VPN. Tapping it tries to connect to the VPN again.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorConnectingPopup.Title.v160" xml:space="preserve">
         <source>Couldn’t Connect to VPN</source>
+        <target>Không thể kết nối tới VPN</target>
         <note>Title of a popup shown when the app fails to connect to the VPN.</note>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.AltPopupBody.v160" xml:space="preserve">
         <source>All %1$@ GB of VPN data used. Access resets next month.</source>
+        <target>Đã sử dụng hết %1$@ GB dữ liệu VPN. Quyền truy cập sẽ được thiết lập lại vào tháng tới.</target>
         <note>Alternative body text for the popup shown when the user has used all of their free monthly VPN data. Explains that their VPN data resets at the start of next month. %1$@ is the monthly data limit in gigabytes (for example, 5). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.Body.v160" xml:space="preserve">
         <source>You’ve used all %1$@ GB of VPN data. VPN is off, so your location may be visible if you keep browsing.</source>
+        <target>Bạn đã sử dụng hết %1$@ GB dữ liệu VPN. VPN đã tắt, vì vậy vị trí của bạn có thể bị lộ nếu bạn tiếp tục duyệt web.</target>
         <note>Body text of the popup shown when the user has used all of their free monthly VPN data. Explains that the VPN has turned off, so websites may be able to see their location if they keep browsing. %1$@ is the monthly data limit in gigabytes (for example, 5). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.CloseAllTabs.v160" xml:space="preserve">
         <source>Close All Tabs</source>
+        <target>Đóng tất cả các thẻ</target>
         <note>Button on the popup shown when the user runs out of free monthly VPN data. Tapping it closes all of the user's open tabs.</note>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.CloseThisTab.v160" xml:space="preserve">
         <source>Close This Tab</source>
+        <target>Đóng thẻ này</target>
         <note>Button on the popup shown when the user runs out of free monthly VPN data. Tapping it closes only the tab the user is currently viewing.</note>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.ClosedOneTab.v160" xml:space="preserve">
         <source>Closed 1 Tab</source>
+        <target>Đã đóng 1 thẻ</target>
         <note>Confirmation shown after the user closes a single tab from the popup that appears when they run out of free monthly VPN data.</note>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.ClosedXTabs.v160" xml:space="preserve">
         <source>Closed %1$@ Tabs</source>
+        <target>Đã đóng %1$@ thẻ</target>
         <note>Confirmation shown after the user closes more than one tab from the popup that appears when they run out of free monthly VPN data. %1$@ is the number of tabs that were closed (for example, 3).</note>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.Title.v160" xml:space="preserve">
         <source>VPN Data Limit Reached</source>
+        <target>Đã đạt giới hạn dữ liệu VPN</target>
         <note>Title of a popup shown when the user has used all of their free monthly VPN data.</note>
       </trans-unit>
     </body>
@@ -10157,10 +10213,12 @@ Sent from %2$@ 🦊 %3$@</source>
     <body>
       <trans-unit id="Wallpapers.EngagementSheet.Button.v161" xml:space="preserve">
         <source>Explore Wallpapers</source>
+        <target>Khám phá hình nền</target>
         <note>New wallpapers bottom banner: Primary button - tapping it opens the wallpaper settings screen.</note>
       </trans-unit>
       <trans-unit id="Wallpapers.EngagementSheet.Title.v161" xml:space="preserve">
         <source>Try New Wallpapers to Make %@ Yours</source>
+        <target>Thử hình nền mới để biến %@ thành của riêng bạn</target>
         <note>New wallpapers bottom banner: Title of the banner announcing new designs so users can personalize their experience. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
     </body>
