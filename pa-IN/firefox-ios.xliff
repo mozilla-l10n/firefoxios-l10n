@@ -2969,6 +2969,10 @@
         <target>ਜੇ ਕੋਈ ਸਾਈਟ ਉਮੀਦ ਮੁਤਾਬਕ ਕੰਮ ਨਹੀਂ ਕਰਦੀ ਹੈ ਤਾਂ ਸਿਰਨਾਵਾਂ ਪੱਟੀ ਵਿੱਚ ਢਾਲ ਨੂੰ ਛੂਹੋ ਅਤੇ ਉਸ ਸਫ਼਼ੇ ਲਈ ਵਾਧਾ ਕੀਤੀ ਟਰੈਕਿੰਗ ਸੁਰੱਖਿਆ ਨੂੰ ਬੰਦ ਕਰੋ।</target>
         <note>Footer information for tracker protection level.</note>
       </trans-unit>
+      <trans-unit id="Settings.TrackingProtection.ProtectionLevel.Footer.Strict.v161" xml:space="preserve">
+        <source>If a site isn’t working, open the menu and try turning Enhanced Tracking Protection off.</source>
+        <note>Footer information for tracker protection level.</note>
+      </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevelStandard.Description" xml:space="preserve">
         <source>Allows some ad tracking so websites function properly.</source>
         <target>ਕੁਝ ਇਸ਼ਤਿਹਾਰ ਟਰੈਕ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਦਿੰਦੀ ਹੈ, ਤਾਂ ਜੋ ਵੈੱਬਸਾਈਟਾਂ ਠੀਕ ਢੰਗ ਨਾਲ ਕੰਮ ਕਰ ਸਕਣ।</target>
@@ -10175,6 +10179,18 @@ Sent from %2$@ 🦊 %3$@</source>
         <source>Couldn’t Connect to VPN</source>
         <target>VPN ਨਾਲ ਕਨੈਕਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ</target>
         <note>Title of a popup shown when the app fails to connect to the VPN.</note>
+      </trans-unit>
+      <trans-unit id="VPN.LocationPicker.LocationUnavailableBody.v162" xml:space="preserve">
+        <source>We’ve switched you to the recommended location.</source>
+        <note>Body text of the popup shown when the VPN server the user picked can’t be used right now. Explains that the VPN has connected through the recommended location instead. The recommended location is the one with the fastest connection. “Location” means the VPN server’s location.</note>
+      </trans-unit>
+      <trans-unit id="VPN.LocationPicker.LocationUnavailableButtonText.v162" xml:space="preserve">
+        <source>OK</source>
+        <note>Button on the popup shown when the VPN server location the user picked can’t be used right now. Indicates the user understands and acknowledges the location has changed. Tapping it closes the popup.</note>
+      </trans-unit>
+      <trans-unit id="VPN.LocationPicker.LocationUnavailableTitle.v162" xml:space="preserve">
+        <source>Location Unavailable</source>
+        <note>Title of the popup shown when the VPN server the user picked can’t be used right now. “Location” means the VPN server’s location.</note>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.AltPopupBody.v160" xml:space="preserve">
         <source>All %1$@ GB of VPN data used. Access resets next month.</source>
