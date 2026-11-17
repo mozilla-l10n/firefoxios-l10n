@@ -2971,6 +2971,7 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevel.Footer.Strict.v161" xml:space="preserve">
         <source>If a site isn’t working, open the menu and try turning Enhanced Tracking Protection off.</source>
+        <target>Nëse një sajt s’funksionon, hapni menunë dhe provoni të çaktivizoni Mbrojtje të Thelluar nga Gjurmimet.</target>
         <note>Footer information for tracker protection level.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevelStandard.Description" xml:space="preserve">
@@ -5486,6 +5487,7 @@ Private Tab</source>
     <body>
       <trans-unit id="FirefoxHome.PrivacyNotice.Body.Markdown.v160" xml:space="preserve">
         <source>We’ve updated our [Privacy Notice](PRIVACY_NOTICE_URL) to reflect the latest features in %@.</source>
+        <target>Kemi përditësuar [Shënimin tonë mbi Privatësinë](PRIVACY_NOTICE_URL) pë të pasqyruar veçoritë më të reja në %@.</target>
         <note>Body text for the Privacy Notice update card. This string uses markdown links: [Link text here](URL_PLACEHOLDER_HERE). Translate only the text *inside* square brackets: [Privacy Notice]. For example, “[隐私政策](PRIVACY_NOTICE_URL)”. The PRIVACY_NOTICE_URL placeholder links to the updated policy. The %@ placeholder is the app name (e.g. Firefox). More info: https://www.markdownguide.org/basic-syntax/#links</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.PrivacyNotice.Body.v148" xml:space="preserve">
@@ -6796,10 +6798,12 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.CellularDataRestricted.Description.v156" xml:space="preserve">
         <source>Connect to Wi-Fi or go to iOS Settings and turn on cellular data for %@.</source>
+        <target>Lidhuni në Wi-Fi, ose kaloni te Rregullime iOS-i dhe aktivizoni të dhëna celulare për %@.</target>
         <note>On error page, message shown when the app can't connect because cellular data is turned off for the app and explaining to the user how to troubleshoot. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.CellularDataRestricted.TitleLabel.v156" xml:space="preserve">
         <source>Cellular data is turned off for %@.</source>
+        <target>Të dhënat celulare janë çaktivizuar për %@.</target>
         <note>On error page, title shown when the app can't connect because cellular data is turned off for this specific app in iOS settings. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.Description.v134" xml:space="preserve">
@@ -6811,14 +6815,19 @@ Private Tab</source>
         <source>The site may be temporarily unavailable, it may have moved to a different address, or your firewall or proxy may be blocking the connection.
 
 Check your connection settings and try again.</source>
+        <target>Sajti mund të jetë përkohësisht i pakapshëm, mund të ketë lëvizur në një tjetër adresë, ose firewall-i apo ndërmjetësi juaj mund të jetë duke bllokuar lidhjen.
+
+Kontrolloni rregullimet tuaj për lidhjen dhe riprovoni.</target>
         <note>Additional explanation displayed on the native error page for the generic error. Lists possible causes and advises the user to check their connection settings and try again.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.Description.v158.withURL" xml:space="preserve">
         <source>%1$@ couldn’t connect to %2$@.</source>
+        <target>%1$@ s’u lidh dot me %2$@.</target>
         <note>First sentence of the generic error description when the requested URL is known. %1$@ is the app name and %2$@ is the requested URL.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.Description.v158.withoutURL" xml:space="preserve">
         <source>%1$@ couldn’t reach the requested URL.</source>
+        <target>%1$@ s’kapi dot URL-në e kërkuar.</target>
         <note>First sentence of the generic error description when the requested URL is not available. %1$@ is the app name.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.GenericError.TitleLabel.v131" xml:space="preserve">
@@ -6903,6 +6912,7 @@ Check your connection settings and try again.</source>
       </trans-unit>
       <trans-unit id="VPN.ErrorPage.Title.v160" xml:space="preserve">
         <source>This site can’t be reached.</source>
+        <target>Ky sajt s’mund të kapet.</target>
         <note>Title of an error page shown when a website fails to load while the VPN is on and the exact cause is unknown. “Can't be reached” means the website couldn't be loaded.</note>
       </trans-unit>
     </body>
@@ -7529,6 +7539,7 @@ Njëkohësojeni në krejt pajisjet tuaja</target>
       </trans-unit>
       <trans-unit id="Onboarding.MultiDay.HomeScreenNotificationsPopup.BodyText.v159" xml:space="preserve">
         <source>Stay up to date on %@’s latest news.</source>
+        <target>Jini i përditësuar me lajmet më të reja për %@.</target>
         <note>Body of the home screen popup requesting permission to send notifications. It emphasizes how notifications keep you updated on news. %@ is a placeholder for the app name (e.g., Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.MultiDay.HomeScreenNotificationsPopup.EnableButtonText.v158" xml:space="preserve">
@@ -7576,6 +7587,7 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="Onboarding.MultiDay.SyncCard.Title.v159" xml:space="preserve">
         <source>Sync Your Stuff</source>
+        <target>Njëkohësoni Gjërat Tuaja</target>
         <note>Title of the onboarding card that prompts users to enable syncing for their account data so they can access it across devices (e.g., history, passwords, payment information).</note>
       </trans-unit>
       <trans-unit id="Onboarding.Notification.Continue.Action.v114" xml:space="preserve">
@@ -7775,14 +7787,17 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LimitBody.v160" xml:space="preserve">
         <source>Start using it without signing in</source>
+        <target>Filloni ta përdorni, pa bërë hyrje</target>
         <note>Body text below the “5 GB, Free Every Month” (VPN.Onboarding.LimitSubheading.v160) subheading on the VPN onboarding card. Explains that the user can start using the VPN without signing in to an account. “it” refers to the VPN.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LimitSubheading.v160" xml:space="preserve">
         <source>%1$@ GB, Free Every Month</source>
+        <target>%1$@ GB, Falas Çdo Muaj</target>
         <note>Subheading on the VPN onboarding card. Explains how much VPN data the user gets every month at no cost. %1$@ is the monthly data limit in gigabytes (for example, 5). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LocationsBody.v160" xml:space="preserve">
         <source>Choose a VPN location to help make yours harder to trace.</source>
+        <target>Zgjidhni një vendndodhje VPN-je, për të ndihmuar të bëhen tuajat më të zorshme për t’i pikasur.</target>
         <note>Body text below the “Browse From Multiple Locations” (VPN.Onboarding.LocationsSubheading.v160) subheading on the VPN onboarding card. Explains that choosing a VPN location makes it harder to tell where the user really is. “yours” refers to the user’s location.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.LocationsSubheading.v160" xml:space="preserve">
@@ -10427,6 +10442,7 @@ Dërguar që nga %2$@ 🦊 %3$@</target>
     <body>
       <trans-unit id="ContextMenu.GoogleLensButtonTitle.v153" xml:space="preserve">
         <source>Search Image with Google Lens</source>
+        <target>Kërkoni Figurë me Google Lens</target>
         <note>Context menu item to search for an image using Google Lens</note>
       </trans-unit>
     </body>
