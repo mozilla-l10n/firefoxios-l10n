@@ -5933,6 +5933,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="MainMenu.Account.SigningOut.Title.v154" xml:space="preserve">
         <source>Signing out…</source>
+        <target>S’està tancant la sessió…</target>
         <note>On the main menu account header, shown transiently while the user is being signed out of their account.</note>
       </trans-unit>
       <trans-unit id="MainMenu.Account.SyncError.Description.v131" xml:space="preserve">
@@ -6062,6 +6063,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="MainMenu.SiteProtection.Protections.ReaderModeSubtitle.v162" xml:space="preserve">
         <source>Reader View</source>
+        <target>Vista de lectura</target>
         <note>On the main menu, this is the subtitle shown under the site title when the current page is displayed in Reader Mode.</note>
       </trans-unit>
       <trans-unit id="MainMenu.SiteProtection.Protections.Title.v153" xml:space="preserve">
@@ -6790,6 +6792,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.ButtonLabel.v155" xml:space="preserve">
         <source>Try Again</source>
+        <target>Torna-ho a provar</target>
         <note>On error page, this is the text on a button that will try to load the page again.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.CellularDataRestricted.Description.v156" xml:space="preserve">
@@ -8523,6 +8526,7 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="QuickAnswers.Settings.Title.v158" xml:space="preserve">
         <source>Quick Answers</source>
+        <target>Respostes ràpides</target>
         <note>Title shown in the navigation bar and as the toggle label on the Quick Answers settings screen.</note>
       </trans-unit>
       <trans-unit id="Settings.AIControls.AIPoweredFeaturesSection.AvailableStatus.v151" xml:space="preserve">
@@ -8707,6 +8711,7 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="Settings.BoolSetting.LearnMoreAction.v157" xml:space="preserve">
         <source>Learn More</source>
+        <target>Més informació</target>
         <note>VoiceOver custom action name for a settings row's Learn More link.</note>
       </trans-unit>
       <trans-unit id="Settings.Browsing.AdBlocker.Description.v155" xml:space="preserve">
@@ -8715,14 +8720,17 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="Settings.Browsing.AdBlocker.LearnMore.v155" xml:space="preserve">
         <source>Learn more</source>
+        <target>Més informació</target>
         <note>Link text below the Ad Blocker toggle description that opens a support page with more information.</note>
       </trans-unit>
       <trans-unit id="Settings.Browsing.AdBlocker.Title.v155" xml:space="preserve">
         <source>Ad Blocker</source>
+        <target>Bloqueig de publicitat</target>
         <note>Title for the Ad Blocker toggle in the Browsing settings page.</note>
       </trans-unit>
       <trans-unit id="Settings.Browsing.BackgroundAudio.Title.v156" xml:space="preserve">
         <source>Background Audio</source>
+        <target>Àudio en segon pla</target>
         <note>Title for the Background Audio toggle in the Browsing settings page. When enabled, audio from web pages continues playing after the app is backgrounded.</note>
       </trans-unit>
       <trans-unit id="Settings.Browsing.BlockAds.Title.v153" xml:space="preserve">
@@ -8792,6 +8800,7 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="Settings.Home.Option.Wallpaper.WrexhamBrandTitle.v155" xml:space="preserve">
         <source>Wrexham A.F.C.</source>
+        <target>Wrexham A.F.C.</target>
         <note>In the settings menu, on the Firefox wallpaper customization screen, this is the brand title for the section containing the Wrexham AFC wallpapers.</note>
       </trans-unit>
       <trans-unit id="Settings.Notifications.SyncNotificationsStatus.v112" xml:space="preserve">
@@ -9146,78 +9155,97 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.FindingLocationsText.v160" xml:space="preserve">
         <source>Finding Locations…</source>
+        <target>S’estan cercant ubicacions…</target>
         <note>Text displayed on the locations screen when the app loads a list of locations for the user to pick from. “Locations” here means the locations of VPN servers the user can connect to.</note>
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.RecommendedMainText.v160" xml:space="preserve">
         <source>Recommended</source>
+        <target>Recomanada</target>
         <note>Option in the VPN server location list. Choosing it lets the app pick the server with the fastest connection.</note>
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.RecommendedSubText.v160" xml:space="preserve">
         <source>%1$@ finds the fastest location.</source>
+        <target>El %1$@ tria la ubicació més ràpida.</target>
         <note>Description below the Recommended option in the VPN server location list. %1$@ is the app name (for example, Firefox).</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.Connected.v161" xml:space="preserve">
         <source>VPN connected</source>
+        <target>VPN connectada</target>
         <note>Announced by VoiceOver on the VPN settings screen when the VPN finishes connecting after the user turns on the VPN switch.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.Connecting.v160" xml:space="preserve">
         <source>Connecting…</source>
+        <target>S’està connectant…</target>
         <note>Shown next to the VPN switch on the VPN settings screen while the VPN is connecting, right after the user turns it on.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataLimit.AccessibilityValue.v161" xml:space="preserve">
         <source>%1$@ of %2$@ gigabytes used. Resets on the first of every month.</source>
+        <target>S’han utilitzat %1$@ de %2$@ gigabytes. Es restableix el primer dia de cada mes.</target>
         <note>Read aloud by VoiceOver for the Data Limit section on the VPN settings screen. %1$@ is the amount of VPN data used this month and %2$@ is the monthly limit, both in gigabytes (for example, “1.0 of 5.0 gigabytes used”). The second sentence explains that the user’s free monthly VPN data resets on the first day of each month.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataLimitResetFooter.v160" xml:space="preserve">
         <source>Resets to %1$@ GB on the first of every month</source>
+        <target>Es restableix a %1$@ GB el primer dia de cada mes</target>
         <note>Footer below the Data Limit section on the VPN settings screen. Explains when the user's free VPN data resets. %1$@ is the monthly limit in gigabytes (for example, 5.0). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataLimitTitle.v160" xml:space="preserve">
         <source>Data Limit</source>
+        <target>Límit de dades</target>
         <note>Title of the section on the VPN settings screen that shows how much of the user's free monthly VPN data they have used.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataUsage.AccessibilityLabel.v160" xml:space="preserve">
         <source>%1$@ of %2$@ gigabytes used</source>
+        <target>S’han utilitzat %1$@ de %2$@ gigabytes</target>
         <note>Read aloud by VoiceOver for the data usage on the VPN settings screen. Same as the visible text, but with “gigabytes” written out instead of “GB”. %1$@ is the amount of VPN data used this month and %2$@ is the monthly limit (for example, “1.0 of 5.0 gigabytes used”).</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.DataUsage.v160" xml:space="preserve">
         <source>%1$@ of %2$@ GB used</source>
+        <target>S’han utilitzat %1$@ de %2$@ GB</target>
         <note>Shown next to the Data Limit title on the VPN settings screen. %1$@ is the amount of VPN data used this month and %2$@ is the monthly limit, both in gigabytes (for example, “1.0 of 5.0 GB used”). “GB” stands for gigabytes.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.Description.v160" xml:space="preserve">
         <source>Browse with extra protection by hiding your location, even on public Wi-Fi.</source>
+        <target>Navegueu amb protecció addicional amagant la ubicació, fins i tot en xarxes Wi-Fi públiques.</target>
         <note>Short description below the title at the top of the VPN settings screen. Explains what the VPN does.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.LearnMore.v160" xml:space="preserve">
         <source>Learn more…</source>
+        <target>Més informació…</target>
         <note>Link below the description at the top of the VPN settings screen. Tapping it opens a support article about the VPN.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.LocationRecommended.v160" xml:space="preserve">
         <source>Recommended</source>
+        <target>Recomanada</target>
         <note>Shown on the right side of the Location row on the VPN settings screen when the user lets Firefox select the location in their stead. The recommended location is the one with the fastest connection.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.LocationTitle.v160" xml:space="preserve">
         <source>Location</source>
+        <target>Ubicació</target>
         <note>Used in two places: as the name of a row on the VPN settings screen, and as the title of the screen that row opens. On that screen, the user picks which VPN server location (country or region) to connect through. “Location” means the VPN server’s location, not the user’s own location.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.StatusOff.v160" xml:space="preserve">
         <source>Off</source>
+        <target>Desactivada</target>
         <note>VPN status shown when the VPN is not connected. Used in two places: on the right side of the VPN row in the Privacy section of Settings, and on the small capsule-shaped VPN status indicator.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.StatusOn.v160" xml:space="preserve">
         <source>On</source>
+        <target>Activada</target>
         <note>VPN status shown when the VPN is connected. Used in two places: on the right side of the VPN row in the Privacy section of Settings, and on the small capsule-shaped VPN status indicator.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.StatusPaused.v160" xml:space="preserve">
         <source>Paused</source>
+        <target>En pausa</target>
         <note>VPN status shown when the VPN is temporarily paused. Used in two places: on the right side of the VPN row in the Privacy section of Settings, and on the small capsule-shaped VPN status indicator.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.Title.v160" xml:space="preserve">
         <source>Built-In VPN</source>
+        <target>VPN integrada</target>
         <note>Name of the VPN row in the Privacy section of Settings. Also used as the title of the VPN settings screen.</note>
       </trans-unit>
       <trans-unit id="VPN.Settings.ToggleTitle.v160" xml:space="preserve">
         <source>VPN</source>
+        <target>VPN</target>
         <note>Used in two places: as the label for the toggle switch on the VPN settings screen that turns the VPN on or off, and as the label on the small capsule-shaped VPN status indicator, where it appears together with the current status (On, Off or Paused).</note>
       </trans-unit>
     </body>
