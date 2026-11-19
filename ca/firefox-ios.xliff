@@ -2886,6 +2886,7 @@
       </trans-unit>
       <trans-unit id="Settings.Sync.SigningOut.Title.v154" xml:space="preserve">
         <source>Signing out…</source>
+        <target>S’està tancant la sessió…</target>
         <note>In the settings account row, shown transiently while the user is being signed out of their account.</note>
       </trans-unit>
       <trans-unit id="Settings.Tabs.CustomizeTabsSection.InactiveTabs" xml:space="preserve">
@@ -2970,6 +2971,7 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevel.Footer.Strict.v161" xml:space="preserve">
         <source>If a site isn’t working, open the menu and try turning Enhanced Tracking Protection off.</source>
+        <target>Si un lloc no funciona, obriu el menú i proveu de desactivar la protecció contra el seguiment millorada.</target>
         <note>Footer information for tracker protection level.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevelStandard.Description" xml:space="preserve">
@@ -3787,10 +3789,12 @@
       </trans-unit>
       <trans-unit id="Search.ResultsAbove.A11yAnnouncement.v158" xml:space="preserve">
         <source>Suggestions above: %d</source>
+        <target>Suggeriments a sobre: %d</target>
         <note>When making a new search from the awesome bar, search results appear as the user write new letters in their search. This is the announcement VoiceOver reads to tell the user how many results are available, and that they are located above the address bar. %d is the number of results.</note>
       </trans-unit>
       <trans-unit id="Search.ResultsBelow.A11yAnnouncement.v158" xml:space="preserve">
         <source>Suggestions below: %d</source>
+        <target>Suggeriments a sota: %d</target>
         <note>When making a new search from the awesome bar, search results appear as the user write new letters in their search. This is the announcement VoiceOver reads to tell the user how many results are available, and that they are located below the address bar. %d is the number of results.</note>
       </trans-unit>
       <trans-unit id="Search.SponsoredSuggestionDescription.v119" xml:space="preserve">
@@ -4078,22 +4082,27 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Alerts.ConfigurationProfile.Body.v160.1" xml:space="preserve">
         <source>%@ is asking to download a configuration profile. You can review and install it in Settings.</source>
+        <target>%@ demana baixar un perfil de configuració. El podeu revisar i instal·lar en els Paràmetres.</target>
         <note>Message of dialogue window. Prompts the user to confirm they want to download a configuration profile that can be installed in device settings. %@ is the name/domain of the website initiating the download, for example 'google.com'</note>
       </trans-unit>
       <trans-unit id="Alerts.ConfigurationProfile.BodyDefault.v160.1" xml:space="preserve">
         <source>This site is asking to download a configuration profile. You can review and install it in Settings.</source>
+        <target>Aquest lloc demana baixar un perfil de configuració. El podeu revisar i instal·lar en els Paràmetres.</target>
         <note>Message of dialogue window. Prompts the user to confirm they want to download a configuration profile that can be installed in device settings. This variant is displayed when the website initiating the download doesn't have a base domain to display.</note>
       </trans-unit>
       <trans-unit id="Alerts.ConfigurationProfile.Button.Cancel.v160.1" xml:space="preserve">
         <source>Cancel</source>
+        <target>Cancel·la</target>
         <note>Secondary Button in dialogue window. If tapped, cancels the download and closes the window.</note>
       </trans-unit>
       <trans-unit id="Alerts.ConfigurationProfile.Button.Continue.v160.1" xml:space="preserve">
         <source>Continue</source>
+        <target>Continua</target>
         <note>Primary Button in dialogue window. If tapped, confirms the user wants to download the configuration profile and the download starts.</note>
       </trans-unit>
       <trans-unit id="Alerts.ConfigurationProfile.Title.v160.1" xml:space="preserve">
         <source>Download configuration profile?</source>
+        <target>Voleu baixar el perfil de configuració?</target>
         <note>Title of dialogue window. Prompts the user to confirm they want to download a configuration profile that can be installed in device settings.</note>
       </trans-unit>
       <trans-unit id="Alerts.FeltDeletion.Body.v122" xml:space="preserve">
@@ -4602,42 +4611,52 @@ Private Tab</source>
     <body>
       <trans-unit id="BrowserDataTransfer.ImportFailure.DismissButton.v160" xml:space="preserve">
         <source>Dismiss</source>
+        <target>Descarta</target>
         <note>Button that dismisses the alert shown when Firefox could not finish importing data from another browser.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportFailure.Message.v160" xml:space="preserve">
         <source>Try again later.</source>
+        <target>Torneu a provar-ho més tard.</target>
         <note>Message of the alert shown when Firefox could not finish importing data from another browser.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportFailure.Title.v160" xml:space="preserve">
         <source>Couldn’t Import from %@</source>
+        <target>No s’ha pogut importar des de %@</target>
         <note>Title of the alert shown when Firefox could not finish importing data from another browser. %@ is the name of the other browser, for example Safari. Data imported before the error is kept.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportSuccess.GotItButton.v160" xml:space="preserve">
         <source>Got It</source>
+        <target>Entesos</target>
         <note>Button that dismisses the alert shown after Firefox finishes importing data from another browser.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportSuccess.Message.v160" xml:space="preserve">
         <source>Your imported data is ready to use in %@.</source>
+        <target>Les dades importades estan llestes per utilitzar-les en el %@.</target>
         <note>Message of the alert shown after Firefox finishes importing data from another browser. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportSuccess.Title.v160" xml:space="preserve">
         <source>%@ Import Complete</source>
+        <target>Importació de %@ completada</target>
         <note>Title of the alert shown after Firefox finishes importing data from another browser. %@ is the name of the other browser, for example Safari.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportedBookmarksFolder.Title.v160" xml:space="preserve">
         <source>Imported %@</source>
+        <target>Importat el %@</target>
         <note>Name of the bookmarks folder that holds bookmarks imported from another browser. %@ is the date when the import happens, formatted for the user’s locale without the time.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.Settings.ExportButton.v160" xml:space="preserve">
         <source>Export to Another Browser</source>
+        <target>Exporta a un altre navegador</target>
         <note>On the Data Management screen in Settings, the button that starts sending Firefox bookmarks, history, and reading lists to another browser installed on the device.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.Settings.ImportButton.v160" xml:space="preserve">
         <source>Import from Another Browser</source>
+        <target>Importa d’un altre navegador</target>
         <note>On the Data Management screen in Settings, the button that starts importing bookmarks, history, and reading lists from another browser installed on the device into Firefox.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.Settings.SectionTitle.v160" xml:space="preserve">
         <source>Data Import and Export</source>
+        <target>Importació i exportació de dades</target>
         <note>On the Data Management screen in Settings, the header of the section that contains the actions to import data from, or export data to, another browser installed on the device.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.Settings.SupportedDataFooter.v160" xml:space="preserve">
@@ -6839,22 +6858,27 @@ Check your connection settings and try again.</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.LinkText.v155" xml:space="preserve">
         <source>Wayback Machine</source>
+        <target>Wayback Machine</target>
         <note>The tappable link text within the Wayback footer description, opens web.archive.org.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.NotFound.v155" xml:space="preserve">
         <source>No archived version found.</source>
+        <target>No s'ha trobat cap versió arxivada.</target>
         <note>Label shown when wayback responds and says no snapshot was found.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Retry.v154" xml:space="preserve">
         <source>Retry</source>
+        <target>Reintenta</target>
         <note>Button label allowing the user to retry searching the Wayback Machine after a failed attempt.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Search.v155" xml:space="preserve">
         <source>Search the web</source>
+        <target>Cerca al web</target>
         <note>Button label displayed when there is no archived version of a webpage, allowing the user to search for the page URL using their default search engine.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.SearchWayback.v155" xml:space="preserve">
         <source>View Archived Version</source>
+        <target>Mostra la versió arxivada</target>
         <note>Button label on the error page when the app is unable to connect to the server - clicking on the button launches a search for an earlier version of the page on the Wayback Machine.</note>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.Title.v154" xml:space="preserve">
@@ -6864,14 +6888,17 @@ Check your connection settings and try again.</source>
       </trans-unit>
       <trans-unit id="NativeErrorPage.Wayback.Error.WaybackButtonA11yHint.v154" xml:space="preserve">
         <source>Searches the Wayback Machine for an archived version of this page.</source>
+        <target>Cerca a Wayback Machine una versió arxivada d’aquesta pàgina.</target>
         <note>Accessibility hint read by VoiceOver describing what happens when the 'Check for earlier version' button is clicked.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorPage.Body.v160" xml:space="preserve">
         <source>Try turning off VPN. If the site still won’t load, refresh the page or check your internet connection.</source>
+        <target>Proveu de desactivar la VPN. Si el lloc encara no es carrega, actualitzeu la pàgina o comproveu la connexió a Internet.</target>
         <note>Body text of the error page shown when a website fails to load while the VPN is on. Suggests turning off the VPN first, then refreshing the page or checking the internet connection if that doesn't help.</note>
       </trans-unit>
       <trans-unit id="VPN.ErrorPage.Title.v160" xml:space="preserve">
         <source>This site can’t be reached.</source>
+        <target>No es pot accedir a aquest lloc.</target>
         <note>Title of an error page shown when a website fails to load while the VPN is on and the exact cause is unknown. “Can't be reached” means the website couldn't be loaded.</note>
       </trans-unit>
     </body>
@@ -7498,6 +7525,7 @@ Sincronitzeu entre tots els vostres dispositius</target>
       </trans-unit>
       <trans-unit id="Onboarding.MultiDay.HomeScreenNotificationsPopup.BodyText.v159" xml:space="preserve">
         <source>Stay up to date on %@’s latest news.</source>
+        <target>Estigueu al dia de les darreres notícies del %@.</target>
         <note>Body of the home screen popup requesting permission to send notifications. It emphasizes how notifications keep you updated on news. %@ is a placeholder for the app name (e.g., Firefox).</note>
       </trans-unit>
       <trans-unit id="Onboarding.MultiDay.HomeScreenNotificationsPopup.EnableButtonText.v158" xml:space="preserve">
