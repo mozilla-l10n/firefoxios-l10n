@@ -4697,16 +4697,6 @@ Private Tab</source>
         <target>Търсене с Google Обектив</target>
         <note>Contextual hints are little popups that appear for the users informing them of new features. This is the title of the one that explains how to search with Google Lens from the address toolbar.</note>
       </trans-unit>
-      <trans-unit id="ContextualHints.Translations.Body.v145" xml:space="preserve">
-        <source>Fast, private translations are ready when you are.</source>
-        <target>Бързите и поверителни преводи са готови, когато и вие.</target>
-        <note>Contextual hints are little popups that appear for the users informing them of new features. This is the body description of one that points the user to the new translation icon on the toolbar.</note>
-      </trans-unit>
-      <trans-unit id="ContextualHints.Translations.Title.v145" xml:space="preserve">
-        <source>%@ Speaks Your Language</source>
-        <target>%@ говори вашия език</target>
-        <note>Contextual hints are little popups that appear for the users informing them of new features. This is the title of one that points the user to the new translation icon on the toolbar. %@ is the app name (e.g. Firefox).</note>
-      </trans-unit>
     </body>
   </file>
   <file original="Shared/Supporting Files/en-US.lproj/CredentialProvider.strings" source-language="en-US" target-language="bg" datatype="plaintext">
@@ -6081,6 +6071,10 @@ Private Tab</source>
         <source>Protections are ON</source>
         <target>Защитите са ВКЛЮЧЕНИ</target>
         <note>On the main menu, at the top, title for a button that open site protection settings. State of the button indicate that the protections are ON.</note>
+      </trans-unit>
+      <trans-unit id="MainMenu.SiteProtection.VPN.Title.v162" xml:space="preserve">
+        <source>VPN</source>
+        <note>On the main menu, at the top, title for a badge next to Protections that opens the VPN settings.</note>
       </trans-unit>
       <trans-unit id="MainMenu.Submenus.Save.AccessibilityLabels.AddToHomeScreen.Subtitle.v132" xml:space="preserve">
         <source>Home</source>
@@ -7806,10 +7800,18 @@ Secondary button on the onboarding card that prompts users to enable syncing for
         <target>Разглеждайте от множество местоположения</target>
         <note>Subheading on the VPN onboarding card. Explains that the user can choose which country their browsing appears to come from.</note>
       </trans-unit>
+      <trans-unit id="VPN.Onboarding.Subheading.v162" xml:space="preserve">
+        <source>Help hide your location from websites while you browse.</source>
+        <note>Subtitle text on the VPN onboarding card. Explains that the VPN helps hide where the user is from the websites they visit.</note>
+      </trans-unit>
       <trans-unit id="VPN.Onboarding.Title.v160" xml:space="preserve">
         <source>Try %1$@’s Built-In VPN</source>
         <target>Опитайте вградения VPN на %1$@</target>
         <note>Title of an onboarding card that introduces the built-in VPN. %1$@ is the app name (for example, Firefox).</note>
+      </trans-unit>
+      <trans-unit id="VPN.Onboarding.TurnOnVPNButton.v162" xml:space="preserve">
+        <source>Turn On VPN</source>
+        <note>Text on a button on the VPN onboarding card. Tapping it turns on the VPN.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.WifiBody.v160" xml:space="preserve">
         <source>Add extra protection in %1$@ when you browse on the go.</source>
@@ -9211,6 +9213,14 @@ Secondary button on the onboarding card that prompts users to enable syncing for
         <target>Намиране на местоположения…</target>
         <note>Text displayed on the locations screen when the app loads a list of locations for the user to pick from. “Locations” here means the locations of VPN servers the user can connect to.</note>
       </trans-unit>
+      <trans-unit id="VPN.LocationPicker.NoLocationsSubtitle.v162" xml:space="preserve">
+        <source>Try again in a few minutes.</source>
+        <note>Subtitle text shown on the VPN location picker screen when the app fails to load a list of locations. Suggests the user try loading the list of locations again soon. “Locations” here means the locations of VPN servers the user can connect to.</note>
+      </trans-unit>
+      <trans-unit id="VPN.LocationPicker.NoLocationsTitle.v162" xml:space="preserve">
+        <source>Couldn’t Load Locations</source>
+        <note>Title shown on the VPN location picker screen when the app fails to load a list of locations. “Locations” here means the locations of VPN servers the user can connect to.</note>
+      </trans-unit>
       <trans-unit id="VPN.LocationPicker.RecommendedMainText.v160" xml:space="preserve">
         <source>Recommended</source>
         <target>Препоръчани</target>
@@ -9674,6 +9684,14 @@ Sent from %2$@ 🦊 %3$@</source>
         <source>%1$@ of %2$@</source>
         <target>%1$@ от %2$@</target>
         <note>Message spoken by VoiceOver saying the position of the currently selected page in the tab tray selector (%1$@), along with the total number of selector (%2$@). E.g. “1 of 3” says that page 1 is visible, out of 3 pages total.</note>
+      </trans-unit>
+      <trans-unit id="TabsTray.Sync.RefreshButton.Title.v162" xml:space="preserve">
+        <source>Refresh</source>
+        <note>Button in the synced tabs panel of the tab tray. Tapping it refreshes the list of tabs from the user's other devices.</note>
+      </trans-unit>
+      <trans-unit id="TabsTray.Sync.SignIn.Description.v162" xml:space="preserve">
+        <source>Sign in to view open tabs on your other devices.</source>
+        <note>Description shown in the synced tabs panel when the user is signed out. Signing in lets the user view tabs open on their other devices.</note>
       </trans-unit>
       <trans-unit id="TabsTray.Sync.SyncTabsDisabled.v116" xml:space="preserve">
         <source>Turn on tab syncing to view a list of tabs from your other devices.</source>
@@ -10295,11 +10313,6 @@ Sent from %2$@ 🦊 %3$@</source>
         <target>Изберете конкретен проблем за избрания от вас вид проблем</target>
         <note>Accessibility hint spoken on the Preview and Send Report buttons when they are disabled because no specific problem has been selected yet, in the Report a Website Issue form.</note>
       </trans-unit>
-      <trans-unit id="WebCompatReporter.Fields.DetailsAccessibilityLabel.v154" xml:space="preserve">
-        <source>Describe the issue in detail</source>
-        <target>Опишете проблема си подробно</target>
-        <note>Accessibility label for the multiline field where the user can describe the website problem in their own words, in the Report a Website Issue form.</note>
-      </trans-unit>
       <trans-unit id="WebCompatReporter.Fields.DetailsPlaceholder.v154" xml:space="preserve">
         <source>Describe the issue in detail (optional)</source>
         <target>Опишете проблема подробно (по избор)</target>
@@ -10314,11 +10327,6 @@ Sent from %2$@ 🦊 %3$@</source>
         <source>URL</source>
         <target>URL</target>
         <note>Leading label of the editable row showing the web address being reported, in the Report a Website Issue form.</note>
-      </trans-unit>
-      <trans-unit id="WebCompatReporter.Fields.URLPlaceholder.v154" xml:space="preserve">
-        <source>URL</source>
-        <target>URL</target>
-        <note>Placeholder shown in the URL field when no web address has been entered, in the Report a Website Issue form.</note>
       </trans-unit>
       <trans-unit id="WebCompatReporter.IssueSection.CategoryPlaceholder.v154" xml:space="preserve">
         <source>Choose issue type…</source>
