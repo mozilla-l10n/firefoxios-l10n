@@ -3503,6 +3503,7 @@
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.DeleteButton.Title.v162" xml:space="preserve">
         <source>Delete</source>
+        <target>حذف</target>
         <note>Primary button in the password deletion confirmation dialog. Tapping it deletes the saved password.</note>
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.Message.Local.v122" xml:space="preserve">
@@ -3517,10 +3518,12 @@
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.Message.Synced.v162" xml:space="preserve">
         <source>This will delete the password from %@ on all of your synced devices.</source>
+        <target>این کار گذرواژه را از %@ در همهٔ دستگاه‌های همگام‌شدهٔ شما حذف می‌کند.</target>
         <note>Message in the password deletion confirmation dialog when the user has a sync account. %@ is the app name (e.g. Firefox). Deleting the password also deletes it from the user's synced devices.</note>
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.Title.v162" xml:space="preserve">
         <source>Delete Password?</source>
+        <target>گذرواژه حذف شود؟</target>
         <note>Title of the confirmation dialog shown when the user deletes a saved password.</note>
       </trans-unit>
       <trans-unit id="DeleteLoginsAlert.Title.v122" xml:space="preserve">
@@ -6088,6 +6091,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="MainMenu.SiteProtection.VPN.Title.v162" xml:space="preserve">
         <source>VPN</source>
+        <target>VPN</target>
         <note>On the main menu, at the top, title for a badge next to Protections that opens the VPN settings.</note>
       </trans-unit>
       <trans-unit id="MainMenu.Submenus.Save.AccessibilityLabels.AddToHomeScreen.Subtitle.v132" xml:space="preserve">
@@ -7821,6 +7825,7 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.Onboarding.Subheading.v162" xml:space="preserve">
         <source>Help hide your location from websites while you browse.</source>
+        <target>هنگام مرور، موقعیت مکانی خود را از وبگاه‌ها پنهان کنید.</target>
         <note>Subtitle text on the VPN onboarding card. Explains that the VPN helps hide where the user is from the websites they visit.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.Title.v160" xml:space="preserve">
@@ -7830,6 +7835,7 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.Onboarding.TurnOnVPNButton.v162" xml:space="preserve">
         <source>Turn On VPN</source>
+        <target>روشن کردن VPN</target>
         <note>Text on a button on the VPN onboarding card. Tapping it turns on the VPN.</note>
       </trans-unit>
       <trans-unit id="VPN.Onboarding.WifiBody.v160" xml:space="preserve">
@@ -9234,10 +9240,12 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.NoLocationsSubtitle.v162" xml:space="preserve">
         <source>Try again in a few minutes.</source>
+        <target>چند دقیقهٔ دیگر دوباره تلاش کنید.</target>
         <note>Subtitle text shown on the VPN location picker screen when the app fails to load a list of locations. Suggests the user try loading the list of locations again soon. “Locations” here means the locations of VPN servers the user can connect to.</note>
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.NoLocationsTitle.v162" xml:space="preserve">
         <source>Couldn’t Load Locations</source>
+        <target>بارگذاری موقعیت‌ها ممکن نشد</target>
         <note>Title shown on the VPN location picker screen when the app fails to load a list of locations. “Locations” here means the locations of VPN servers the user can connect to.</note>
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.RecommendedMainText.v160" xml:space="preserve">
@@ -9706,10 +9714,12 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="TabsTray.Sync.RefreshButton.Title.v162" xml:space="preserve">
         <source>Refresh</source>
+        <target>تازه‌سازی</target>
         <note>Button in the synced tabs panel of the tab tray. Tapping it refreshes the list of tabs from the user's other devices.</note>
       </trans-unit>
       <trans-unit id="TabsTray.Sync.SignIn.Description.v162" xml:space="preserve">
         <source>Sign in to view open tabs on your other devices.</source>
+        <target>برای دیدن زبانه‌های باز دستگاه‌های دیگرتان وارد شوید.</target>
         <note>Description shown in the synced tabs panel when the user is signed out. Signing in lets the user view tabs open on their other devices.</note>
       </trans-unit>
       <trans-unit id="TabsTray.Sync.SyncTabsDisabled.v116" xml:space="preserve">
@@ -10205,22 +10215,27 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.LocationUnavailableBody.v162" xml:space="preserve">
         <source>We’ve switched you to the recommended location.</source>
+        <target>شما را به موقعیت پیشنهادی منتقل کردیم.</target>
         <note>Body text of the popup shown when the VPN server the user picked can’t be used right now. Explains that the VPN has connected through the recommended location instead. The recommended location is the one with the fastest connection. “Location” means the VPN server’s location.</note>
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.LocationUnavailableButtonText.v162" xml:space="preserve">
         <source>OK</source>
+        <target>باشه</target>
         <note>Button on the popup shown when the VPN server location the user picked can’t be used right now. Indicates the user understands and acknowledges the location has changed. Tapping it closes the popup.</note>
       </trans-unit>
       <trans-unit id="VPN.LocationPicker.LocationUnavailableTitle.v162" xml:space="preserve">
         <source>Location Unavailable</source>
+        <target>موقعیت در دسترس نیست</target>
         <note>Title of the popup shown when the VPN server the user picked can’t be used right now. “Location” means the VPN server’s location.</note>
       </trans-unit>
       <trans-unit id="VPN.ProxyLeakGuard.BlockedContentToast.v163" xml:space="preserve">
         <source>VPN Blocked Part of This Page To Protect Your Location</source>
+        <target>VPN بخشی از این صفحه را برای محافظت از موقعیت مکانی شما مسدود کرد</target>
         <note>Short notification (toast) shown at the bottom of the screen while the VPN is on, when a website tries to use a feature that would connect directly without the VPN, such as video or voice calls, live features, or some sign-in requests. Firefox blocks that part of the page because it could reveal the user’s real location.</note>
       </trans-unit>
       <trans-unit id="VPN.ProxyLeakGuard.LearnMoreButton.v163" xml:space="preserve">
         <source>Learn More</source>
+        <target>بیشتر بدانید</target>
         <note>Button on the short notification (toast) displayed when the VPN is on and Firefox blocks a website feature that would bypass the VPN and could reveal the user’s real location. Tapping it opens a support article explaining why the feature was blocked.</note>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.AltPopupBody.v160" xml:space="preserve">
