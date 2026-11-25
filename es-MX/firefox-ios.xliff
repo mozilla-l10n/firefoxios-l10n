@@ -3503,6 +3503,7 @@
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.DeleteButton.Title.v162" xml:space="preserve">
         <source>Delete</source>
+        <target>Eliminar</target>
         <note>Primary button in the password deletion confirmation dialog. Tapping it deletes the saved password.</note>
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.Message.Local.v122" xml:space="preserve">
@@ -3517,10 +3518,12 @@
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.Message.Synced.v162" xml:space="preserve">
         <source>This will delete the password from %@ on all of your synced devices.</source>
+        <target>Esto eliminará la contraseña de %@ en todos tus dispositivos sincronizados.</target>
         <note>Message in the password deletion confirmation dialog when the user has a sync account. %@ is the app name (e.g. Firefox). Deleting the password also deletes it from the user's synced devices.</note>
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.Title.v162" xml:space="preserve">
         <source>Delete Password?</source>
+        <target>¿Eliminar contraseña?</target>
         <note>Title of the confirmation dialog shown when the user deletes a saved password.</note>
       </trans-unit>
       <trans-unit id="DeleteLoginsAlert.Title.v122" xml:space="preserve">
@@ -4648,26 +4651,32 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportSuccess.Title.v160" xml:space="preserve">
         <source>%@ Import Complete</source>
+        <target>Importación desde %@ terminada</target>
         <note>Title of the alert shown after Firefox finishes importing data from another browser. %@ is the name of the other browser, for example Safari.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.ImportedBookmarksFolder.Title.v160" xml:space="preserve">
         <source>Imported %@</source>
+        <target>Importados el %@</target>
         <note>Name of the bookmarks folder that holds bookmarks imported from another browser. %@ is the date when the import happens, formatted for the user’s locale without the time.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.Settings.ExportButton.v160" xml:space="preserve">
         <source>Export to Another Browser</source>
+        <target>Exportar a otro navegador</target>
         <note>On the Data Management screen in Settings, the button that starts sending Firefox bookmarks, history, and reading lists to another browser installed on the device.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.Settings.ImportButton.v160" xml:space="preserve">
         <source>Import from Another Browser</source>
+        <target>Importar desde otro navegador</target>
         <note>On the Data Management screen in Settings, the button that starts importing bookmarks, history, and reading lists from another browser installed on the device into Firefox.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.Settings.SectionTitle.v160" xml:space="preserve">
         <source>Data Import and Export</source>
+        <target>Importar y exportar datos</target>
         <note>On the Data Management screen in Settings, the header of the section that contains the actions to import data from, or export data to, another browser installed on the device.</note>
       </trans-unit>
       <trans-unit id="BrowserDataTransfer.Settings.SupportedDataFooter.v160" xml:space="preserve">
         <source>Bring bookmarks, history, and reading lists into %1$@, or send your %1$@ data to another browser.</source>
+        <target>Importa marcadores, historial y listas de lectura a %1$@, o exporta tus datos de %1$@ a otro navegador.</target>
         <note>On the Data Management screen in Settings, the footer below the import and export buttons explaining which kinds of data can be moved between the app and another browser. %1$@ is the app name (e.g. Firefox), used in both places.</note>
       </trans-unit>
     </body>
@@ -5485,6 +5494,7 @@ Private Tab</source>
     <body>
       <trans-unit id="FirefoxHome.PrivacyNotice.Body.Markdown.v160" xml:space="preserve">
         <source>We’ve updated our [Privacy Notice](PRIVACY_NOTICE_URL) to reflect the latest features in %@.</source>
+        <target>Actualizamos nuestro [Política de privacidad](PRIVACY_NOTICE_URL) para incluir las últimas funciones de %@.</target>
         <note>Body text for the Privacy Notice update card. This string uses markdown links: [Link text here](URL_PLACEHOLDER_HERE). Translate only the text *inside* square brackets: [Privacy Notice]. For example, “[隐私政策](PRIVACY_NOTICE_URL)”. The PRIVACY_NOTICE_URL placeholder links to the updated policy. The %@ placeholder is the app name (e.g. Firefox). More info: https://www.markdownguide.org/basic-syntax/#links</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.PrivacyNotice.Body.v148" xml:space="preserve">
@@ -5494,6 +5504,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="FirefoxHome.PrivacyNotice.Headline.v160" xml:space="preserve">
         <source>Privacy Notice updated</source>
+        <target>Política de privacidad actualizada</target>
         <note>Heading for the Privacy Notice update card, displayed to notify users of recent changes to the terms.</note>
       </trans-unit>
       <trans-unit id="FirefoxHome.PrivacyNotice.LearnMoreLink.v148" xml:space="preserve">
@@ -6060,6 +6071,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="MainMenu.SiteProtection.Protections.ReaderModeSubtitle.v162" xml:space="preserve">
         <source>Reader View</source>
+        <target>Vista de lectura</target>
         <note>On the main menu, this is the subtitle shown under the site title when the current page is displayed in Reader Mode.</note>
       </trans-unit>
       <trans-unit id="MainMenu.SiteProtection.Protections.Title.v153" xml:space="preserve">
@@ -10544,12 +10556,12 @@ Enviado desde %2$@ 🦊 %3$@</target>
       </trans-unit>
       <trans-unit id="PzSrmZ-eHmH1H" xml:space="preserve">
         <source>Just to confirm, you wanted ‘Clear Private Tabs’?</source>
-        <target>Sólo para confirmar, ¿querías "Limpiar Pestañas Privadas"?</target>
+        <target>Sólo para confirmar, ¿querías ‘Cerrar pestañas privadas’?</target>
         <note>Accessibility label to confirm the Clear Private Tabs selection</note>
       </trans-unit>
       <trans-unit id="PzSrmZ-scEmjs" xml:space="preserve">
         <source>Just to confirm, you wanted ‘New Private Search’?</source>
-        <target>Sólo para confirmar, ¿querías "Nueva búsqueda privada"?</target>
+        <target>Sólo para confirmar, ¿querías ‘Nueva búsqueda privada’?</target>
         <note>Accessibility label to confirm the New Private Search selection</note>
       </trans-unit>
       <trans-unit id="PzSrmZ-xRJbBP" xml:space="preserve">
@@ -10564,7 +10576,7 @@ Enviado desde %2$@ 🦊 %3$@</target>
       </trans-unit>
       <trans-unit id="eHmH1H" xml:space="preserve">
         <source>Clear Private Tabs</source>
-        <target>Limpiar Pestañas Privadas</target>
+        <target>Cerrar pestañas privadas</target>
         <note>Quick Actions drop down menu item for lear Private Tabs when widget enters edit mode and drop down menu expands</note>
       </trans-unit>
       <trans-unit id="eV8mOT" xml:space="preserve">
@@ -10584,7 +10596,7 @@ Enviado desde %2$@ 🦊 %3$@</target>
       </trans-unit>
       <trans-unit id="fi3W24-eHmH1H" xml:space="preserve">
         <source>There are ${count} options matching ‘Clear Private Tabs’.</source>
-        <target>Hay ${count} opciones que coinciden con ‘Borrar Pestañas Privadas’.</target>
+        <target>Hay ${count} opciones que coinciden con ‘Cerrar pestañas privadas’.</target>
         <note>Label showing how many widgets match ‘Clear Private Tabs’. ${count} is a placeholder fo the number of widgets.</note>
       </trans-unit>
       <trans-unit id="fi3W24-scEmjs" xml:space="preserve">
