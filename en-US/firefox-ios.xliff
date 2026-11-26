@@ -148,6 +148,16 @@
         <target>OK</target>
         <note>The confirmation button that clears history even when Sync is connected.</note>
       </trans-unit>
+      <trans-unit id="Settings.DataManagement.SyncedHistoryDeletion.Button.Title.v162" xml:space="preserve">
+        <source>Delete</source>
+        <target>Delete</target>
+        <note>Primary button in the Data Management confirmation dialog. Tapping it deletes the selected browsing data.</note>
+      </trans-unit>
+      <trans-unit id="Settings.DataManagement.SyncedHistoryDeletion.Message.v162" xml:space="preserve">
+        <source>This deletes the selected data from this device, including browsing history synced from other devices. It won’t delete data on those devices.</source>
+        <target>This deletes the selected data from this device, including browsing history synced from other devices. It won’t delete data on those devices.</target>
+        <note>Message of confirmation dialogue in Data Management. Displayed when browsing history is selected for deletion and the user has a sync account. Explains that selected data is deleted only from the current device and does not impact any other devices connected to the same account.</note>
+      </trans-unit>
       <trans-unit id="This action will clear all of your private data, including history from your synced devices." xml:space="preserve">
         <source>This action will clear all of your private data, including history from your synced devices.</source>
         <target>This action will clear all of your private data, including history from your synced devices.</target>
@@ -364,6 +374,11 @@
         <source>All Time</source>
         <target>All Time</target>
         <note>Destructive action button on the “Clear browsing history“ action sheet used to clear all browsing history</note>
+      </trans-unit>
+      <trans-unit id="LibraryPanel.History.ClearHistorySheet.Title.v162" xml:space="preserve">
+        <source>Delete history, cookies, and other browsing data from %@, including history synced with other devices.</source>
+        <target>Delete history, cookies, and other browsing data from %@, including history synced with other devices.</target>
+        <note>Message of the confirmation dialogue to clear browsing data. Explains what data will be deleted, including history synced with other devices. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="LibraryPanel.History.LastFourWeeksOption.v138" xml:space="preserve">
         <source>Last 4 Weeks</source>
@@ -4052,6 +4067,21 @@ Private Tab</target>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.5" build-num="17F42"/>
     </header>
     <body>
+      <trans-unit id="CreditCard.Alert.DeleteCard.Button.Title.v162" xml:space="preserve">
+        <source>Delete</source>
+        <target>Delete</target>
+        <note>Primary button in the card deletion confirmation dialog. Tapping it deletes the saved credit card.</note>
+      </trans-unit>
+      <trans-unit id="CreditCard.Alert.DeleteCard.Message.v162" xml:space="preserve">
+        <source>This will delete the card from %@ on all of your synced devices.</source>
+        <target>This will delete the card from %@ on all of your synced devices.</target>
+        <note>Message in the card deletion confirmation dialog when the user has a sync account. %@ is the app name (e.g. Firefox). Deleting the card also deletes it from the user's synced devices.</note>
+      </trans-unit>
+      <trans-unit id="CreditCard.Alert.DeleteCard.Title.v162" xml:space="preserve">
+        <source>Delete Card?</source>
+        <target>Delete Card?</target>
+        <note>Title of the confirmation dialog shown when the user deletes a saved credit card.</note>
+      </trans-unit>
       <trans-unit id="CreditCard.SnackBar.CancelRemoveCardButton.v112" xml:space="preserve">
         <source>Cancel</source>
         <target>Cancel</target>
@@ -4853,6 +4883,21 @@ Private Tab</target>
         <source>Cancel</source>
         <target>Cancel</target>
         <note>Title for the cancel button in the remove address alert.</note>
+      </trans-unit>
+      <trans-unit id="Addresses.EditAddress.Alert.DeleteButton.v162" xml:space="preserve">
+        <source>Delete</source>
+        <target>Delete</target>
+        <note>Primary button in the address deletion confirmation dialog. Tapping it deletes the saved address.</note>
+      </trans-unit>
+      <trans-unit id="Addresses.EditAddress.Alert.DeleteMessage.v162" xml:space="preserve">
+        <source>This will delete the address from %@ on all of your synced devices.</source>
+        <target>This will delete the address from %@ on all of your synced devices.</target>
+        <note>Message in the address deletion confirmation dialog when the user has a sync account. %@ is the app name (e.g. Firefox). Deleting the address also deletes it from the user's synced devices.</note>
+      </trans-unit>
+      <trans-unit id="Addresses.EditAddress.Alert.DeleteTitle.v162" xml:space="preserve">
+        <source>Delete Address?</source>
+        <target>Delete Address?</target>
+        <note>Title of the confirmation dialog shown when the user deletes a saved address.</note>
       </trans-unit>
       <trans-unit id="Addresses.EditAddress.Alert.Message.v129" xml:space="preserve">
         <source>The address will be removed from all of your synced devices.</source>
@@ -8879,6 +8924,21 @@ Secondary button on the onboarding card that prompts users to enable syncing for
         <target>Daily Usage Ping</target>
         <note>On the Settings screen, this is the title text for a toggle which controls automatically sending daily usage ping.</note>
       </trans-unit>
+      <trans-unit id="Settings.Disconnect.Alert.Body.v162" xml:space="preserve">
+        <source>%@ will stop syncing this device with your account. Your browsing data stays on this device.</source>
+        <target>%@ will stop syncing this device with your account. Your browsing data stays on this device.</target>
+        <note>Body of the disconnect confirmation dialog. Explains that syncing stops but local browsing data is preserved on the device. %@ is the app name (e.g. Firefox).</note>
+      </trans-unit>
+      <trans-unit id="Settings.Disconnect.Alert.Title.v162" xml:space="preserve">
+        <source>Disconnect?</source>
+        <target>Disconnect?</target>
+        <note>Title of the confirmation dialog to disconnect the device from the user's account.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Disconnect.Button.Title.v162" xml:space="preserve">
+        <source>Disconnect?</source>
+        <target>Disconnect?</target>
+        <note>Button in account settings that opens a confirmation dialog to disconnect the device and no longer sync it with the user's account.</note>
+      </trans-unit>
       <trans-unit id="Settings.FxA.Title.v119" xml:space="preserve">
         <source>Account</source>
         <target>Account</target>
@@ -9133,6 +9193,21 @@ Secondary button on the onboarding card that prompts users to enable syncing for
         <source>Page Summaries</source>
         <target>Page Summaries</target>
         <note>In the settings menu, in the General section, this is the title for the Summarize settings section.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Sync.UpdateBanner.Body.v162" xml:space="preserve">
+        <source>Your sync choices now apply only to this device.</source>
+        <target>Your sync choices now apply only to this device.</target>
+        <note>Body of the sync update banner in account settings. Explains that the user's sync preferences affect only the current device.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Sync.UpdateBanner.LearnMore.v162" xml:space="preserve">
+        <source>Learn more…</source>
+        <target>Learn more…</target>
+        <note>Link in the sync update banner in account settings that opens more information about sync choices applying only to the current device.</note>
+      </trans-unit>
+      <trans-unit id="Settings.Sync.UpdateBanner.Title.v162" xml:space="preserve">
+        <source>Sync Update</source>
+        <target>Sync Update</target>
+        <note>Title of the dismissible banner above Manage Account &amp; Devices in account settings, announcing that sync choices now apply only to this device.</note>
       </trans-unit>
       <trans-unit id="Settings.TechnicalData.Link.v136" xml:space="preserve">
         <source>Learn More</source>
