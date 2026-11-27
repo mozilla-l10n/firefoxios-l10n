@@ -150,10 +150,12 @@
       </trans-unit>
       <trans-unit id="Settings.DataManagement.SyncedHistoryDeletion.Button.Title.v162" xml:space="preserve">
         <source>Delete</source>
+        <target>Xoá</target>
         <note>Primary button in the Data Management confirmation dialog. Tapping it deletes the selected browsing data.</note>
       </trans-unit>
       <trans-unit id="Settings.DataManagement.SyncedHistoryDeletion.Message.v162" xml:space="preserve">
         <source>This deletes the selected data from this device, including browsing history synced from other devices. It won’t delete data on those devices.</source>
+        <target>Thao tác này sẽ xóa dữ liệu đã chọn khỏi thiết bị này, bao gồm cả lịch sử duyệt web được đồng bộ hóa từ các thiết bị khác. Dữ liệu trên các thiết bị đó sẽ không bị xóa.</target>
         <note>Message of confirmation dialogue in Data Management. Displayed when browsing history is selected for deletion and the user has a sync account. Explains that selected data is deleted only from the current device and does not impact any other devices connected to the same account.</note>
       </trans-unit>
       <trans-unit id="This action will clear all of your private data, including history from your synced devices." xml:space="preserve">
@@ -375,6 +377,7 @@
       </trans-unit>
       <trans-unit id="LibraryPanel.History.ClearHistorySheet.Title.v162" xml:space="preserve">
         <source>Delete history, cookies, and other browsing data from %@, including history synced with other devices.</source>
+        <target>Xoá lịch sử, cookie và dữ liệu duyệt web khác khỏi %@, bao gồm cả lịch sử đã được đồng bộ hóa với các thiết bị khác.</target>
         <note>Message of the confirmation dialogue to clear browsing data. Explains what data will be deleted, including history synced with other devices. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="LibraryPanel.History.LastFourWeeksOption.v138" xml:space="preserve">
@@ -3515,6 +3518,7 @@
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.DeleteButton.Title.v162" xml:space="preserve">
         <source>Delete</source>
+        <target>Xoá</target>
         <note>Primary button in the password deletion confirmation dialog. Tapping it deletes the saved password.</note>
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.Message.Local.v122" xml:space="preserve">
@@ -3529,10 +3533,12 @@
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.Message.Synced.v162" xml:space="preserve">
         <source>This will delete the password from %@ on all of your synced devices.</source>
+        <target>Thao tác này sẽ xoá mật khẩu khỏi %@ trên tất cả các thiết bị đã đồng bộ hóa của bạn.</target>
         <note>Message in the password deletion confirmation dialog when the user has a sync account. %@ is the app name (e.g. Firefox). Deleting the password also deletes it from the user's synced devices.</note>
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.Title.v162" xml:space="preserve">
         <source>Delete Password?</source>
+        <target>Xoá mật khẩu?</target>
         <note>Title of the confirmation dialog shown when the user deletes a saved password.</note>
       </trans-unit>
       <trans-unit id="DeleteLoginsAlert.Title.v122" xml:space="preserve">
@@ -4059,14 +4065,17 @@ Private Tab</source>
     <body>
       <trans-unit id="CreditCard.Alert.DeleteCard.Button.Title.v162" xml:space="preserve">
         <source>Delete</source>
+        <target>Xoá</target>
         <note>Primary button in the card deletion confirmation dialog. Tapping it deletes the saved credit card.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Alert.DeleteCard.Message.v162" xml:space="preserve">
         <source>This will delete the card from %@ on all of your synced devices.</source>
+        <target>Thao tác này sẽ xoá thẻ khỏi %@ trên tất cả các thiết bị đã đồng bộ hóa của bạn.</target>
         <note>Message in the card deletion confirmation dialog when the user has a sync account. %@ is the app name (e.g. Firefox). Deleting the card also deletes it from the user's synced devices.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Alert.DeleteCard.Title.v162" xml:space="preserve">
         <source>Delete Card?</source>
+        <target>Xoá thẻ?</target>
         <note>Title of the confirmation dialog shown when the user deletes a saved credit card.</note>
       </trans-unit>
       <trans-unit id="CreditCard.SnackBar.CancelRemoveCardButton.v112" xml:space="preserve">
@@ -4873,14 +4882,17 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Addresses.EditAddress.Alert.DeleteButton.v162" xml:space="preserve">
         <source>Delete</source>
+        <target>Xoá</target>
         <note>Primary button in the address deletion confirmation dialog. Tapping it deletes the saved address.</note>
       </trans-unit>
       <trans-unit id="Addresses.EditAddress.Alert.DeleteMessage.v162" xml:space="preserve">
         <source>This will delete the address from %@ on all of your synced devices.</source>
+        <target>Thao tác này sẽ xoá địa chỉ khỏi %@ trên tất cả các thiết bị đã đồng bộ hóa của bạn.</target>
         <note>Message in the address deletion confirmation dialog when the user has a sync account. %@ is the app name (e.g. Firefox). Deleting the address also deletes it from the user's synced devices.</note>
       </trans-unit>
       <trans-unit id="Addresses.EditAddress.Alert.DeleteTitle.v162" xml:space="preserve">
         <source>Delete Address?</source>
+        <target>Xoá địa chỉ?</target>
         <note>Title of the confirmation dialog shown when the user deletes a saved address.</note>
       </trans-unit>
       <trans-unit id="Addresses.EditAddress.Alert.Message.v129" xml:space="preserve">
@@ -8910,14 +8922,17 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="Settings.Disconnect.Alert.Body.v162" xml:space="preserve">
         <source>%@ will stop syncing this device with your account. Your browsing data stays on this device.</source>
+        <target>%@ sẽ ngừng đồng bộ hóa thiết bị này với tài khoản của bạn. Dữ liệu duyệt web của bạn vẫn được lưu trữ trên thiết bị này.</target>
         <note>Body of the disconnect confirmation dialog. Explains that syncing stops but local browsing data is preserved on the device. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="Settings.Disconnect.Alert.Title.v162" xml:space="preserve">
         <source>Disconnect?</source>
+        <target>Ngắt kết nối?</target>
         <note>Title of the confirmation dialog to disconnect the device from the user's account.</note>
       </trans-unit>
       <trans-unit id="Settings.Disconnect.Button.Title.v162" xml:space="preserve">
         <source>Disconnect?</source>
+        <target>Ngắt kết nối?</target>
         <note>Button in account settings that opens a confirmation dialog to disconnect the device and no longer sync it with the user's account.</note>
       </trans-unit>
       <trans-unit id="Settings.FxA.Title.v119" xml:space="preserve">
@@ -9177,14 +9192,17 @@ Secondary button on the onboarding card that prompts users to enable syncing for
       </trans-unit>
       <trans-unit id="Settings.Sync.UpdateBanner.Body.v162" xml:space="preserve">
         <source>Your sync choices now apply only to this device.</source>
+        <target>Các tùy chọn đồng bộ của bạn hiện chỉ áp dụng cho thiết bị này.</target>
         <note>Body of the sync update banner in account settings. Explains that the user's sync preferences affect only the current device.</note>
       </trans-unit>
       <trans-unit id="Settings.Sync.UpdateBanner.LearnMore.v162" xml:space="preserve">
         <source>Learn more…</source>
+        <target>Tìm hiểu thêm…</target>
         <note>Link in the sync update banner in account settings that opens more information about sync choices applying only to the current device.</note>
       </trans-unit>
       <trans-unit id="Settings.Sync.UpdateBanner.Title.v162" xml:space="preserve">
         <source>Sync Update</source>
+        <target>Cập nhật đồng bộ hoá</target>
         <note>Title of the dismissible banner above Manage Account &amp; Devices in account settings, announcing that sync choices now apply only to this device.</note>
       </trans-unit>
       <trans-unit id="Settings.TechnicalData.Link.v136" xml:space="preserve">
@@ -10293,10 +10311,12 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="VPN.ProxyLeakGuard.BlockedContentToast.v163" xml:space="preserve">
         <source>VPN Blocked Part of This Page To Protect Your Location</source>
+        <target>VPN đã chặn một phần trang này để bảo vệ vị trí của bạn</target>
         <note>Short notification (toast) shown at the bottom of the screen while the VPN is on, when a website tries to use a feature that would connect directly without the VPN, such as video or voice calls, live features, or some sign-in requests. Firefox blocks that part of the page because it could reveal the user’s real location.</note>
       </trans-unit>
       <trans-unit id="VPN.ProxyLeakGuard.LearnMoreButton.v163" xml:space="preserve">
         <source>Learn More</source>
+        <target>Tìm hiểu thêm</target>
         <note>Button on the short notification (toast) displayed when the VPN is on and Firefox blocks a website feature that would bypass the VPN and could reveal the user’s real location. Tapping it opens a support article explaining why the feature was blocked.</note>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.AltPopupBody.v160" xml:space="preserve">
