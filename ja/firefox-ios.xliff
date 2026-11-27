@@ -150,10 +150,12 @@
       </trans-unit>
       <trans-unit id="Settings.DataManagement.SyncedHistoryDeletion.Button.Title.v162" xml:space="preserve">
         <source>Delete</source>
+        <target>削除</target>
         <note>Primary button in the Data Management confirmation dialog. Tapping it deletes the selected browsing data.</note>
       </trans-unit>
       <trans-unit id="Settings.DataManagement.SyncedHistoryDeletion.Message.v162" xml:space="preserve">
         <source>This deletes the selected data from this device, including browsing history synced from other devices. It won’t delete data on those devices.</source>
+        <target>他の端末から同期した閲覧履歴を含め、選択したデータをこの端末から削除します。ただし、同期した他の端末上のデータは削除されません。</target>
         <note>Message of confirmation dialogue in Data Management. Displayed when browsing history is selected for deletion and the user has a sync account. Explains that selected data is deleted only from the current device and does not impact any other devices connected to the same account.</note>
       </trans-unit>
       <trans-unit id="This action will clear all of your private data, including history from your synced devices." xml:space="preserve">
@@ -375,6 +377,7 @@
       </trans-unit>
       <trans-unit id="LibraryPanel.History.ClearHistorySheet.Title.v162" xml:space="preserve">
         <source>Delete history, cookies, and other browsing data from %@, including history synced with other devices.</source>
+        <target>%@ から履歴、Cookie、その他の閲覧データを削除します。他の端末と同期された履歴も削除されます。</target>
         <note>Message of the confirmation dialogue to clear browsing data. Explains what data will be deleted, including history synced with other devices. %@ is the app name (e.g. Firefox).</note>
       </trans-unit>
       <trans-unit id="LibraryPanel.History.LastFourWeeksOption.v138" xml:space="preserve">
@@ -2983,6 +2986,7 @@
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevel.Footer.Strict.v161" xml:space="preserve">
         <source>If a site isn’t working, open the menu and try turning Enhanced Tracking Protection off.</source>
+        <target>サイトが動作しないときは、メニューを開き、強化型トラッキング防止をオフにしてみてください。</target>
         <note>Footer information for tracker protection level.</note>
       </trans-unit>
       <trans-unit id="Settings.TrackingProtection.ProtectionLevelStandard.Description" xml:space="preserve">
@@ -3514,6 +3518,7 @@
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.DeleteButton.Title.v162" xml:space="preserve">
         <source>Delete</source>
+        <target>削除</target>
         <note>Primary button in the password deletion confirmation dialog. Tapping it deletes the saved password.</note>
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.Message.Local.v122" xml:space="preserve">
@@ -3528,10 +3533,12 @@
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.Message.Synced.v162" xml:space="preserve">
         <source>This will delete the password from %@ on all of your synced devices.</source>
+        <target>同期しているすべての端末の %@ からパスワードを削除します。</target>
         <note>Message in the password deletion confirmation dialog when the user has a sync account. %@ is the app name (e.g. Firefox). Deleting the password also deletes it from the user's synced devices.</note>
       </trans-unit>
       <trans-unit id="DeleteLoginAlert.Title.v162" xml:space="preserve">
         <source>Delete Password?</source>
+        <target>パスワードを削除しますか？</target>
         <note>Title of the confirmation dialog shown when the user deletes a saved password.</note>
       </trans-unit>
       <trans-unit id="DeleteLoginsAlert.Title.v122" xml:space="preserve">
@@ -4058,14 +4065,17 @@ Private Tab</source>
     <body>
       <trans-unit id="CreditCard.Alert.DeleteCard.Button.Title.v162" xml:space="preserve">
         <source>Delete</source>
+        <target>削除</target>
         <note>Primary button in the card deletion confirmation dialog. Tapping it deletes the saved credit card.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Alert.DeleteCard.Message.v162" xml:space="preserve">
         <source>This will delete the card from %@ on all of your synced devices.</source>
+        <target>同期しているすべての端末の %@ からカード情報を削除します。</target>
         <note>Message in the card deletion confirmation dialog when the user has a sync account. %@ is the app name (e.g. Firefox). Deleting the card also deletes it from the user's synced devices.</note>
       </trans-unit>
       <trans-unit id="CreditCard.Alert.DeleteCard.Title.v162" xml:space="preserve">
         <source>Delete Card?</source>
+        <target>カード情報を削除しますか？</target>
         <note>Title of the confirmation dialog shown when the user deletes a saved credit card.</note>
       </trans-unit>
       <trans-unit id="CreditCard.SnackBar.CancelRemoveCardButton.v112" xml:space="preserve">
@@ -4872,6 +4882,7 @@ Private Tab</source>
       </trans-unit>
       <trans-unit id="Addresses.EditAddress.Alert.DeleteButton.v162" xml:space="preserve">
         <source>Delete</source>
+        <target>削除</target>
         <note>Primary button in the address deletion confirmation dialog. Tapping it deletes the saved address.</note>
       </trans-unit>
       <trans-unit id="Addresses.EditAddress.Alert.DeleteMessage.v162" xml:space="preserve">
@@ -10285,10 +10296,12 @@ Sent from %2$@ 🦊 %3$@</source>
       </trans-unit>
       <trans-unit id="VPN.ProxyLeakGuard.BlockedContentToast.v163" xml:space="preserve">
         <source>VPN Blocked Part of This Page To Protect Your Location</source>
+        <target>ユーザーの位置情報を保護するため、VPN がこのページの一部をブロックしました</target>
         <note>Short notification (toast) shown at the bottom of the screen while the VPN is on, when a website tries to use a feature that would connect directly without the VPN, such as video or voice calls, live features, or some sign-in requests. Firefox blocks that part of the page because it could reveal the user’s real location.</note>
       </trans-unit>
       <trans-unit id="VPN.ProxyLeakGuard.LearnMoreButton.v163" xml:space="preserve">
         <source>Learn More</source>
+        <target>詳細情報</target>
         <note>Button on the short notification (toast) displayed when the VPN is on and Firefox blocks a website feature that would bypass the VPN and could reveal the user’s real location. Tapping it opens a support article explaining why the feature was blocked.</note>
       </trans-unit>
       <trans-unit id="VPN.ReachedDataLimitPopup.AltPopupBody.v160" xml:space="preserve">
